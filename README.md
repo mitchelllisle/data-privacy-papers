@@ -1,43 +1,129 @@
 
-<h2>2025-07</h2>
+<h2>2025-08</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.00128v1">How Quantization Impacts Privacy Risk on LLMs for Code?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-07-31T19:28:31Z</p>
+  <h3><a href="http://arxiv.org/abs/2508.19640v1">Optimal Cox regression under federated differential privacy:
+  coefficients and cumulative hazards</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2025-08-27T07:29:19Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Md Nazmul Haque, Hua Yang, Zhou Yang, Bowen Xu</p>
-    <p><b>Summary:</b> Large language models for code (LLMs4Code) rely heavily on massive training
-data, including sensitive data, such as cloud service credentials of the
-projects and personal identifiable information of the developers, raising
-serious privacy concerns. Membership inference (MI) has recently emerged as an
-effective tool for assessing privacy risk by identifying whether specific data
-belong to a model's training set. In parallel, model compression techniques,
-especially quantization, have gained traction for reducing computational costs
-and enabling the deployment of large models. However, while quantized models
-still retain knowledge learned from the original training data, it remains
-unclear whether quantization affects their ability to retain and expose privacy
-information. Answering this question is of great importance to understanding
-privacy risks in real-world deployments. In this work, we conduct the first
-empirical study on how quantization influences task performance and privacy
-risk simultaneously in LLMs4Code. To do this, we implement widely used
-quantization techniques (static and dynamic) to three representative model
-families, namely Pythia, CodeGen, and GPTNeo. Our results demonstrate that
-quantization has a significant impact on reducing the privacy risk relative to
-the original model. We also uncover a positive correlation between task
-performance and privacy risk, indicating an underlying tradeoff. Moreover, we
-reveal the possibility that quantizing larger models could yield better balance
-than using full-precision small models. Finally, we demonstrate that these
-findings generalize across different architectures, model sizes and MI methods,
-offering practical guidance for safeguarding privacy when deploying compressed
-LLMs4Code.</p>
+    <p><b>Authors:</b> Elly K. H. Hung, Yi Yu</p>
+    <p><b>Summary:</b> We study two foundational problems in distributed survival analysis:
+estimating Cox regression coefficients and cumulative hazard functions, under
+federated differential privacy constraints, allowing for heterogeneous
+per-sever sample sizes and privacy budgets. To quantify the fundamental cost of
+privacy, we derive minimax lower bounds along with matching (up to
+poly-logarithmic factors) upper bounds. In particular, to estimate the
+cumulative hazard function, we design a private tree-based algorithm for
+nonparametric integral estimation. Our results reveal server-level phase
+transitions between the private and non-private rates, as well as the reduced
+estimation accuracy from imposing privacy constraints on distributed subsets of
+data.
+  To address scenarios with partially public information, we also consider a
+relaxed differential privacy framework and provide a corresponding minimax
+analysis. To our knowledge, this is the first treatment of partially public
+data in survival analysis, and it establishes a no-gain in accuracy phenomenon.
+Finally, we conduct extensive numerical experiments, with an accompanying R
+package FDPCox, validating our theoretical findings. These experiments also
+include a fully-interactive algorithm with tighter privacy composition, which
+demonstrates improved estimation accuracy.</p>
   </details>
 </div>
 
 
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.19493v1">Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered
+  Smartphone Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-08-27T00:41:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhixin Lin, Jungang Li, Shidong Pan, Yibo Shi, Yue Yao, Dongliang Xu</p>
+    <p><b>Summary:</b> Smartphones bring significant convenience to users but also enable devices to
+extensively record various types of personal information. Existing smartphone
+agents powered by Multimodal Large Language Models (MLLMs) have achieved
+remarkable performance in automating different tasks. However, as the cost,
+these agents are granted substantial access to sensitive users' personal
+information during this operation. To gain a thorough understanding of the
+privacy awareness of these agents, we present the first large-scale benchmark
+encompassing 7,138 scenarios to the best of our knowledge. In addition, for
+privacy context in scenarios, we annotate its type (e.g., Account Credentials),
+sensitivity level, and location. We then carefully benchmark seven available
+mainstream smartphone agents. Our results demonstrate that almost all
+benchmarked agents show unsatisfying privacy awareness (RA), with performance
+remaining below 60% even with explicit hints. Overall, closed-source agents
+show better privacy ability than open-source ones, and Gemini 2.0-flash
+achieves the best, achieving an RA of 67%. We also find that the agents'
+privacy detection capability is highly related to scenario sensitivity level,
+i.e., the scenario with a higher sensitivity level is typically more
+identifiable. We hope the findings enlighten the research community to rethink
+the unbalanced utility-privacy tradeoff about smartphone agents. Our code and
+benchmark are available at https://zhixin-l.github.io/SAPA-Bench.</p>
+  </details>
+</div>
 
-<h2>2025-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.19458v1">The Sample Complexity of Membership Inference and Privacy Auditing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-08-26T22:19:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahdi Haghifam, Adam Smith, Jonathan Ullman</p>
+    <p><b>Summary:</b> A membership-inference attack gets the output of a learning algorithm, and a
+target individual, and tries to determine whether this individual is a member
+of the training data or an independent sample from the same distribution. A
+successful membership-inference attack typically requires the attacker to have
+some knowledge about the distribution that the training data was sampled from,
+and this knowledge is often captured through a set of independent reference
+samples from that distribution. In this work we study how much information the
+attacker needs for membership inference by investigating the sample
+complexity-the minimum number of reference samples required-for a successful
+attack. We study this question in the fundamental setting of Gaussian mean
+estimation where the learning algorithm is given $n$ samples from a Gaussian
+distribution $\mathcal{N}(\mu,\Sigma)$ in $d$ dimensions, and tries to estimate
+$\hat\mu$ up to some error $\mathbb{E}[\|\hat \mu - \mu\|^2_{\Sigma}]\leq
+\rho^2 d$. Our result shows that for membership inference in this setting,
+$\Omega(n + n^2 \rho^2)$ samples can be necessary to carry out any attack that
+competes with a fully informed attacker. Our result is the first to show that
+the attacker sometimes needs many more samples than the training algorithm uses
+to train the model. This result has significant implications for practice, as
+all attacks used in practice have a restricted form that uses $O(n)$ samples
+and cannot benefit from $\omega(n)$ samples. Thus, these attacks may be
+underestimating the possibility of membership inference, and better attacks may
+be possible when information about the distribution is easy to obtain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.19345v1">Privacy-Preserving Distributed Control for a Networked Battery Energy
+  Storage System</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-08-26T18:06:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mihitha Maithripala, Zongli Lin</p>
+    <p><b>Summary:</b> The increasing deployment of distributed Battery Energy Storage Systems
+(BESSs) in modern power grids necessitates effective coordination strategies to
+ensure state-of-charge (SoC) balancing and accurate power delivery. While
+distributed control frameworks offer scalability and resilience, they also
+raise significant privacy concerns due to the need for inter-agent information
+exchange. This paper presents a novel privacy-preserving distributed control
+algorithm for SoC balancing in a networked BESS. The proposed framework
+includes distributed power allocation law that is designed based on two
+privacy-preserving distributed estimators, one for the average unit state and
+the other for the average desired power. The average unit state estimator is
+designed via the state decomposition method without disclosing sensitive
+internal states. The proposed power allocation law based on these estimators
+ensures asymptotic SoC balancing and global power delivery while safeguarding
+agent privacy from external eavesdroppers. The effectiveness and
+privacy-preserving properties of the proposed control strategy are demonstrated
+through simulation results.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.19115v1">SecureV2X: An Efficient and Privacy-Preserving System for
@@ -167,17 +253,29 @@ market grows.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18911v1">Enhancing Model Privacy in Federated Learning with Random Masking and
+  <h3><a href="http://arxiv.org/abs/2508.18911v2">Enhancing Model Privacy in Federated Learning with Random Masking and
   Quantization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-08-26T10:34:13Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Zhibo Xu, Jianhao Zhu, Jingwen Xu, Changze Lv, Zisu Huang, Xiaohua Wang, Muling Wu, Qi Qian, Xiaoqing Zheng, Xuanjing Huang</p>
-    <p><b>Summary:</b> Experimental results across various models and tasks demonstrate that our
-approach not only maintains strong model performance in federated learning
-settings but also achieves enhanced protection of model parameters compared to
-baseline methods.</p>
+    <p><b>Summary:</b> The primary goal of traditional federated learning is to protect data privacy
+by enabling distributed edge devices to collaboratively train a shared global
+model while keeping raw data decentralized at local clients. The rise of large
+language models (LLMs) has introduced new challenges in distributed systems, as
+their substantial computational requirements and the need for specialized
+expertise raise critical concerns about protecting intellectual property (IP).
+This highlights the need for a federated learning approach that can safeguard
+both sensitive data and proprietary models. To tackle this challenge, we
+propose FedQSN, a federated learning approach that leverages random masking to
+obscure a subnetwork of model parameters and applies quantization to the
+remaining parameters. Consequently, the server transmits only a
+privacy-preserving proxy of the global model to clients during each
+communication round, thus enhancing the model's confidentiality. Experimental
+results across various models and tasks demonstrate that our approach not only
+maintains strong model performance in federated learning settings but also
+achieves enhanced protection of model parameters compared to baseline methods.</p>
   </details>
 </div>
 
@@ -300,6 +398,40 @@ skepticism towards the government, shaping their perceptions of the DPDPA and
 fueling demands for policy revisions. Our study highlights the need for clearer
 communication regarding the DPDPA, user-centric consent mechanisms, and policy
 refinements to enhance data privacy practices in India.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.19286v1">RL-Finetuned LLMs for Privacy-Preserving Synthetic Rewriting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-08-25T04:38:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhan Shi, Yefeng Yuan, Yuhong Liu, Liang Cheng, Yi Fang</p>
+    <p><b>Summary:</b> The performance of modern machine learning systems depends on access to
+large, high-quality datasets, often sourced from user-generated content or
+proprietary, domain-specific corpora. However, these rich datasets inherently
+contain sensitive personal information, raising significant concerns about
+privacy, data security, and compliance with regulatory frameworks. While
+conventional anonymization techniques can remove explicit identifiers, such
+removal may result in performance drop in downstream machine learning tasks.
+More importantly, simple anonymization may not be effective against inference
+attacks that exploit implicit signals such as writing style, topical focus, or
+demographic cues, highlighting the need for more robust privacy safeguards
+during model training. To address the challenging issue of balancing user
+privacy and data utility, we propose a reinforcement learning framework that
+fine-tunes a large language model (LLM) using a composite reward function that
+jointly optimizes for explicit and implicit privacy, semantic fidelity, and
+output diversity. To effectively capture population level regularities, the
+privacy reward combines semantic cues with structural patterns derived from a
+minimum spanning tree (MST) over latent representations. By modeling these
+privacy-sensitive signals in their distributional context, the proposed
+approach guides the model to generate synthetic rewrites that preserve utility
+while mitigating privacy risks. Empirical results show that the proposed method
+significantly enhances author obfuscation and privacy metrics without degrading
+semantic quality, providing a scalable and model-agnostic solution for privacy
+preserving data generation in the era of large language models.</p>
   </details>
 </div>
 
@@ -2893,116 +3025,6 @@ approaches in RA and TM research to tackle complex attack surfaces as the ones
 posed by automotive settings. We aim to provide the community with a list of
 approaches to align expectations with stakeholders when deciding where and when
 to focus threat related analysis in automotive solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01140v1">Open Data Sharing in Clinical Research and Participants Privacy:
-  Challenges and Opportunities in the Era of Artificial Intelligence</a></h3>
-  
-  <p><b>Published on:</b> 2025-08-02T01:46:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shahin Hallaj, Anna Heinke, Fritz Gerald P. Kalaw, Nayoon Gim, Marian Blazes, Julia Owen, Eamon Dysinger, Erik S. Benton, Benjamin A. Cordier, Nicholas G. Evans, Jennifer Li-Pook-Than, Michael P. Snyder, Camille Nebeker, Linda M. Zangwill, Sally L. Baxter, Shannon McWeeney, Cecilia S. Lee, Aaron Y. Lee, Bhavesh Patel</p>
-    <p><b>Summary:</b> Sharing clinical research data is key for increasing the pace of medical
-discoveries that improve human health. However, concern about study
-participants' privacy, confidentiality, and safety is a major factor that
-deters researchers from openly sharing clinical data, even after
-deidentification. This concern is further heightened by the evolution of
-artificial intelligence (AI) approaches that pose an ever-increasing threat to
-the reidentification of study participants. Here, we discuss the challenges AI
-approaches create that blur the lines between identifiable and non-identifiable
-data. We present a concept of pseudo-reidentification, and discuss how these
-challenges provide opportunities for rethinking open data sharing practices in
-clinical research. We highlight the novel open data sharing approach we have
-established as part of the Artificial Intelligence Ready and Exploratory Atlas
-for Diabetes Insights project, one of the four Data Generation Projects funded
-by the National Institutes of Health Common Fund's Bridge2AI Program.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10918v1">Privacy Enhancement for Gaze Data Using a Noise-Infused Autoencoder</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-08-01T20:46:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Samantha Aziz, Oleg Komogortsev</p>
-    <p><b>Summary:</b> We present a privacy-enhancing mechanism for gaze signals using a
-latent-noise autoencoder that prevents users from being re-identified across
-play sessions without their consent, while retaining the usability of the data
-for benign tasks. We evaluate privacy-utility trade-offs across biometric
-identification and gaze prediction tasks, showing that our approach
-significantly reduces biometric identifiability with minimal utility
-degradation. Unlike prior methods in this direction, our framework retains
-physiologically plausible gaze patterns suitable for downstream use, which
-produces favorable privacy-utility trade-off. This work advances privacy in
-gaze-based systems by providing a usable and effective mechanism for protecting
-sensitive gaze data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.00321v1">Evaluating the Efficacy of Large Language Models for Generating
-  Fine-Grained Visual Privacy Policies in Homes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-08-01T05:11:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Ying Ma, Xin Yi, Hewu Li</p>
-    <p><b>Summary:</b> The proliferation of visual sensors in smart home environments, particularly
-through wearable devices like smart glasses, introduces profound privacy
-challenges. Existing privacy controls are often static and coarse-grained,
-failing to accommodate the dynamic and socially nuanced nature of home
-environments. This paper investigates the viability of using Large Language
-Models (LLMs) as the core of a dynamic and adaptive privacy policy engine. We
-propose a conceptual framework where visual data is classified using a
-multi-dimensional schema that considers data sensitivity, spatial context, and
-social presence. An LLM then reasons over this contextual information to
-enforce fine-grained privacy rules, such as selective object obfuscation, in
-real-time. Through a comparative evaluation of state-of-the-art Vision Language
-Models (including GPT-4o and the Qwen-VL series) in simulated home settings ,
-our findings show the feasibility of this approach. The LLM-based engine
-achieved a top machine-evaluated appropriateness score of 3.99 out of 5, and
-the policies generated by the models received a top human-evaluated score of
-4.00 out of 5.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.00287v2">Privacy-Preserving Driver Drowsiness Detection with Spatial
-  Self-Attention and Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-01T03:12:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tran Viet Khoa, Do Hai Son, Mohammad Abu Alsheikh, Yibeltal F Alem, Dinh Thai Hoang</p>
-    <p><b>Summary:</b> Driver drowsiness is one of the main causes of road accidents and is
-recognized as a leading contributor to traffic-related fatalities. However,
-detecting drowsiness accurately remains a challenging task, especially in
-real-world settings where facial data from different individuals is
-decentralized and highly diverse. In this paper, we propose a novel framework
-for drowsiness detection that is designed to work effectively with
-heterogeneous and decentralized data. Our approach develops a new Spatial
-Self-Attention (SSA) mechanism integrated with a Long Short-Term Memory (LSTM)
-network to better extract key facial features and improve detection
-performance. To support federated learning, we employ a Gradient Similarity
-Comparison (GSC) that selects the most relevant trained models from different
-operators before aggregation. This improves the accuracy and robustness of the
-global model while preserving user privacy. We also develop a customized tool
-that automatically processes video data by extracting frames, detecting and
-cropping faces, and applying data augmentation techniques such as rotation,
-flipping, brightness adjustment, and zooming. Experimental results show that
-our framework achieves a detection accuracy of 89.9% in the federated learning
-settings, outperforming existing methods under various deployment scenarios.
-The results demonstrate the effectiveness of our approach in handling
-real-world data variability and highlight its potential for deployment in
-intelligent transportation systems to enhance road safety through early and
-reliable drowsiness detection.</p>
   </details>
 </div>
 
