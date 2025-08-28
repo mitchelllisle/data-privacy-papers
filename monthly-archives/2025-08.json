@@ -2902,5 +2902,170 @@
       "cs.SY",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19640v1",
+    "title" : "Optimal Cox regression under federated differential privacy:\n  coefficients and cumulative hazards",
+    "summary" : "We study two foundational problems in distributed survival analysis:\nestimating Cox regression coefficients and cumulative hazard functions, under\nfederated differential privacy constraints, allowing for heterogeneous\nper-sever sample sizes and privacy budgets. To quantify the fundamental cost of\nprivacy, we derive minimax lower bounds along with matching (up to\npoly-logarithmic factors) upper bounds. In particular, to estimate the\ncumulative hazard function, we design a private tree-based algorithm for\nnonparametric integral estimation. Our results reveal server-level phase\ntransitions between the private and non-private rates, as well as the reduced\nestimation accuracy from imposing privacy constraints on distributed subsets of\ndata.\n  To address scenarios with partially public information, we also consider a\nrelaxed differential privacy framework and provide a corresponding minimax\nanalysis. To our knowledge, this is the first treatment of partially public\ndata in survival analysis, and it establishes a no-gain in accuracy phenomenon.\nFinally, we conduct extensive numerical experiments, with an accompanying R\npackage FDPCox, validating our theoretical findings. These experiments also\ninclude a fully-interactive algorithm with tighter privacy composition, which\ndemonstrates improved estimation accuracy.",
+    "updated" : "2025-08-27T07:29:19Z",
+    "published" : "2025-08-27T07:29:19Z",
+    "authors" : [
+      {
+        "name" : "Elly K. H. Hung"
+      },
+      {
+        "name" : "Yi Yu"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ME",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19493v1",
+    "title" : "Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered\n  Smartphone Agents",
+    "summary" : "Smartphones bring significant convenience to users but also enable devices to\nextensively record various types of personal information. Existing smartphone\nagents powered by Multimodal Large Language Models (MLLMs) have achieved\nremarkable performance in automating different tasks. However, as the cost,\nthese agents are granted substantial access to sensitive users' personal\ninformation during this operation. To gain a thorough understanding of the\nprivacy awareness of these agents, we present the first large-scale benchmark\nencompassing 7,138 scenarios to the best of our knowledge. In addition, for\nprivacy context in scenarios, we annotate its type (e.g., Account Credentials),\nsensitivity level, and location. We then carefully benchmark seven available\nmainstream smartphone agents. Our results demonstrate that almost all\nbenchmarked agents show unsatisfying privacy awareness (RA), with performance\nremaining below 60% even with explicit hints. Overall, closed-source agents\nshow better privacy ability than open-source ones, and Gemini 2.0-flash\nachieves the best, achieving an RA of 67%. We also find that the agents'\nprivacy detection capability is highly related to scenario sensitivity level,\ni.e., the scenario with a higher sensitivity level is typically more\nidentifiable. We hope the findings enlighten the research community to rethink\nthe unbalanced utility-privacy tradeoff about smartphone agents. Our code and\nbenchmark are available at https://zhixin-l.github.io/SAPA-Bench.",
+    "updated" : "2025-08-27T00:41:28Z",
+    "published" : "2025-08-27T00:41:28Z",
+    "authors" : [
+      {
+        "name" : "Zhixin Lin"
+      },
+      {
+        "name" : "Jungang Li"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Yibo Shi"
+      },
+      {
+        "name" : "Yue Yao"
+      },
+      {
+        "name" : "Dongliang Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19458v1",
+    "title" : "The Sample Complexity of Membership Inference and Privacy Auditing",
+    "summary" : "A membership-inference attack gets the output of a learning algorithm, and a\ntarget individual, and tries to determine whether this individual is a member\nof the training data or an independent sample from the same distribution. A\nsuccessful membership-inference attack typically requires the attacker to have\nsome knowledge about the distribution that the training data was sampled from,\nand this knowledge is often captured through a set of independent reference\nsamples from that distribution. In this work we study how much information the\nattacker needs for membership inference by investigating the sample\ncomplexity-the minimum number of reference samples required-for a successful\nattack. We study this question in the fundamental setting of Gaussian mean\nestimation where the learning algorithm is given $n$ samples from a Gaussian\ndistribution $\\mathcal{N}(\\mu,\\Sigma)$ in $d$ dimensions, and tries to estimate\n$\\hat\\mu$ up to some error $\\mathbb{E}[\\|\\hat \\mu - \\mu\\|^2_{\\Sigma}]\\leq\n\\rho^2 d$. Our result shows that for membership inference in this setting,\n$\\Omega(n + n^2 \\rho^2)$ samples can be necessary to carry out any attack that\ncompetes with a fully informed attacker. Our result is the first to show that\nthe attacker sometimes needs many more samples than the training algorithm uses\nto train the model. This result has significant implications for practice, as\nall attacks used in practice have a restricted form that uses $O(n)$ samples\nand cannot benefit from $\\omega(n)$ samples. Thus, these attacks may be\nunderestimating the possibility of membership inference, and better attacks may\nbe possible when information about the distribution is easy to obtain.",
+    "updated" : "2025-08-26T22:19:28Z",
+    "published" : "2025-08-26T22:19:28Z",
+    "authors" : [
+      {
+        "name" : "Mahdi Haghifam"
+      },
+      {
+        "name" : "Adam Smith"
+      },
+      {
+        "name" : "Jonathan Ullman"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19345v1",
+    "title" : "Privacy-Preserving Distributed Control for a Networked Battery Energy\n  Storage System",
+    "summary" : "The increasing deployment of distributed Battery Energy Storage Systems\n(BESSs) in modern power grids necessitates effective coordination strategies to\nensure state-of-charge (SoC) balancing and accurate power delivery. While\ndistributed control frameworks offer scalability and resilience, they also\nraise significant privacy concerns due to the need for inter-agent information\nexchange. This paper presents a novel privacy-preserving distributed control\nalgorithm for SoC balancing in a networked BESS. The proposed framework\nincludes distributed power allocation law that is designed based on two\nprivacy-preserving distributed estimators, one for the average unit state and\nthe other for the average desired power. The average unit state estimator is\ndesigned via the state decomposition method without disclosing sensitive\ninternal states. The proposed power allocation law based on these estimators\nensures asymptotic SoC balancing and global power delivery while safeguarding\nagent privacy from external eavesdroppers. The effectiveness and\nprivacy-preserving properties of the proposed control strategy are demonstrated\nthrough simulation results.",
+    "updated" : "2025-08-26T18:06:37Z",
+    "published" : "2025-08-26T18:06:37Z",
+    "authors" : [
+      {
+        "name" : "Mihitha Maithripala"
+      },
+      {
+        "name" : "Zongli Lin"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18911v2",
+    "title" : "Enhancing Model Privacy in Federated Learning with Random Masking and\n  Quantization",
+    "summary" : "The primary goal of traditional federated learning is to protect data privacy\nby enabling distributed edge devices to collaboratively train a shared global\nmodel while keeping raw data decentralized at local clients. The rise of large\nlanguage models (LLMs) has introduced new challenges in distributed systems, as\ntheir substantial computational requirements and the need for specialized\nexpertise raise critical concerns about protecting intellectual property (IP).\nThis highlights the need for a federated learning approach that can safeguard\nboth sensitive data and proprietary models. To tackle this challenge, we\npropose FedQSN, a federated learning approach that leverages random masking to\nobscure a subnetwork of model parameters and applies quantization to the\nremaining parameters. Consequently, the server transmits only a\nprivacy-preserving proxy of the global model to clients during each\ncommunication round, thus enhancing the model's confidentiality. Experimental\nresults across various models and tasks demonstrate that our approach not only\nmaintains strong model performance in federated learning settings but also\nachieves enhanced protection of model parameters compared to baseline methods.",
+    "updated" : "2025-08-27T04:14:45Z",
+    "published" : "2025-08-26T10:34:13Z",
+    "authors" : [
+      {
+        "name" : "Zhibo Xu"
+      },
+      {
+        "name" : "Jianhao Zhu"
+      },
+      {
+        "name" : "Jingwen Xu"
+      },
+      {
+        "name" : "Changze Lv"
+      },
+      {
+        "name" : "Zisu Huang"
+      },
+      {
+        "name" : "Xiaohua Wang"
+      },
+      {
+        "name" : "Muling Wu"
+      },
+      {
+        "name" : "Qi Qian"
+      },
+      {
+        "name" : "Xiaoqing Zheng"
+      },
+      {
+        "name" : "Xuanjing Huang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19286v1",
+    "title" : "RL-Finetuned LLMs for Privacy-Preserving Synthetic Rewriting",
+    "summary" : "The performance of modern machine learning systems depends on access to\nlarge, high-quality datasets, often sourced from user-generated content or\nproprietary, domain-specific corpora. However, these rich datasets inherently\ncontain sensitive personal information, raising significant concerns about\nprivacy, data security, and compliance with regulatory frameworks. While\nconventional anonymization techniques can remove explicit identifiers, such\nremoval may result in performance drop in downstream machine learning tasks.\nMore importantly, simple anonymization may not be effective against inference\nattacks that exploit implicit signals such as writing style, topical focus, or\ndemographic cues, highlighting the need for more robust privacy safeguards\nduring model training. To address the challenging issue of balancing user\nprivacy and data utility, we propose a reinforcement learning framework that\nfine-tunes a large language model (LLM) using a composite reward function that\njointly optimizes for explicit and implicit privacy, semantic fidelity, and\noutput diversity. To effectively capture population level regularities, the\nprivacy reward combines semantic cues with structural patterns derived from a\nminimum spanning tree (MST) over latent representations. By modeling these\nprivacy-sensitive signals in their distributional context, the proposed\napproach guides the model to generate synthetic rewrites that preserve utility\nwhile mitigating privacy risks. Empirical results show that the proposed method\nsignificantly enhances author obfuscation and privacy metrics without degrading\nsemantic quality, providing a scalable and model-agnostic solution for privacy\npreserving data generation in the era of large language models.",
+    "updated" : "2025-08-25T04:38:19Z",
+    "published" : "2025-08-25T04:38:19Z",
+    "authors" : [
+      {
+        "name" : "Zhan Shi"
+      },
+      {
+        "name" : "Yefeng Yuan"
+      },
+      {
+        "name" : "Yuhong Liu"
+      },
+      {
+        "name" : "Liang Cheng"
+      },
+      {
+        "name" : "Yi Fang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
