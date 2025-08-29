@@ -2,6 +2,91 @@
 <h2>2025-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.20736v1">Leveraging Semantic Triples for Private Document Generation with Local
+  Differential Privacy Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-08-28T12:59:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stephen Meisenbacher, Maulik Chevli, Florian Matthes</p>
+    <p><b>Summary:</b> Many works at the intersection of Differential Privacy (DP) in Natural
+Language Processing aim to protect privacy by transforming texts under DP
+guarantees. This can be performed in a variety of ways, from word perturbations
+to full document rewriting, and most often under local DP. Here, an input text
+must be made indistinguishable from any other potential text, within some bound
+governed by the privacy parameter $\varepsilon$. Such a guarantee is quite
+demanding, and recent works show that privatizing texts under local DP can only
+be done reasonably under very high $\varepsilon$ values. Addressing this
+challenge, we introduce DP-ST, which leverages semantic triples for
+neighborhood-aware private document generation under local DP guarantees.
+Through the evaluation of our method, we demonstrate the effectiveness of the
+divide-and-conquer paradigm, particularly when limiting the DP notion (and
+privacy guarantees) to that of a privatization neighborhood. When combined with
+LLM post-processing, our method allows for coherent text generation even at
+lower $\varepsilon$ values, while still balancing privacy and utility. These
+findings highlight the importance of coherence in achieving balanced
+privatization outputs at reasonable $\varepsilon$ levels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.20613v1">Revisiting the Privacy Risks of Split Inference: A GAN-Based Data
+  Reconstruction Attack via Progressive Feature Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-08-28T10:00:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixiang Qiu, Yanhan Liu, Hongyao Yu, Hao Fang, Bin Chen, Shu-Tao Xia, Ke Xu</p>
+    <p><b>Summary:</b> The growing complexity of Deep Neural Networks (DNNs) has led to the adoption
+of Split Inference (SI), a collaborative paradigm that partitions computation
+between edge devices and the cloud to reduce latency and protect user privacy.
+However, recent advances in Data Reconstruction Attacks (DRAs) reveal that
+intermediate features exchanged in SI can be exploited to recover sensitive
+input data, posing significant privacy risks. Existing DRAs are typically
+effective only on shallow models and fail to fully leverage semantic priors,
+limiting their reconstruction quality and generalizability across datasets and
+model architectures. In this paper, we propose a novel GAN-based DRA framework
+with Progressive Feature Optimization (PFO), which decomposes the generator
+into hierarchical blocks and incrementally refines intermediate representations
+to enhance the semantic fidelity of reconstructed images. To stabilize the
+optimization and improve image realism, we introduce an L1-ball constraint
+during reconstruction. Extensive experiments show that our method outperforms
+prior attacks by a large margin, especially in high-resolution scenarios,
+out-of-distribution settings, and against deeper and more complex DNNs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.20250v1">Efficient and Privacy-Protecting Background Removal for 2D Video
+  Streaming using iPhone 15 Pro Max LiDAR</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">  
+  <p><b>Published on:</b> 2025-08-27T20:14:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jessica Kinnevan, Naifa Alqahtani, Toral Chauhan</p>
+    <p><b>Summary:</b> Light Detection and Ranging (LiDAR) technology in consumer-grade mobile
+devices can be used as a replacement for traditional background removal and
+compositing techniques. Unlike approaches such as chroma keying and trained AI
+models, LiDAR's depth information is independent of subject lighting, and
+performs equally well in low-light and well-lit environments. We integrate the
+LiDAR and color cameras on the iPhone 15 Pro Max with GPU-based image
+processing. We use Apple's SwiftUI and Swift frameworks for user interface and
+backend development, and Metal Shader Language (MSL) for realtime image
+enhancement at the standard iPhone streaming frame rate of 60 frames per
+second. The only meaningful limitations of the technology are the streaming
+bandwidth of the depth data, which currently reduces the depth map resolution
+to 320x240, and any pre-existing limitations of the LiDAR IR laser to reflect
+accurate depth from some materials. If the LiDAR resolution on a mobile device
+like the iPhone can be improved to match the color image resolution, LiDAR
+could feasibly become the preeminent method of background removal for video
+applications and photography.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.19640v1">Optimal Cox regression under federated differential privacy:
   coefficients and cumulative hazards</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
@@ -1311,13 +1396,13 @@ building privacy-aware agents.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11716v1">Privacy-Aware Detection of Fake Identity Documents: Methodology,
-  Benchmark, and Improved Detection Methods (FakeIDet2)</a></h3>
+  <h3><a href="http://arxiv.org/abs/2508.11716v2">Privacy-Aware Detection of Fake Identity Documents: Methodology,
+  Benchmark, and Improved Algorithms (FakeIDet2)</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
   <p><b>Published on:</b> 2025-08-14T17:30:36Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Javier Muñoz-Haro, Ruben Tolosana, Ruben Vera-Rodriguez, Aythami Morales, Julian Fierrez</p>
+    <p><b>Authors:</b> Javier Muñoz-Haro, Ruben Tolosana, Julian Fierrez, Ruben Vera-Rodriguez, Aythami Morales</p>
     <p><b>Summary:</b> Remote user verification in Internet-based applications is becoming
 increasingly important nowadays. A popular scenario for it consists of
 submitting a picture of the user's Identity Document (ID) to a service
@@ -2932,99 +3017,6 @@ subspace. On CIFAR-10, our method achieves a \textbf{10.0\%} improvement with
 50 images per class and \textbf{8.3\%} increase with just \textbf{one-fifth}
 the distilled set size of previous state-of-the-art methods, demonstrating
 significant potential to advance privacy-preserving DD.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01636v1">Privacy-Preserving Inference for Quantized BERT Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-03T07:52:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianpei Lu, Bingsheng Zhang, Lekun Peng, Bowen Zheng, Lichun Li, Kui Ren</p>
-    <p><b>Summary:</b> With the increasing deployment of generative machine learning models in
-privacy-sensitive domains such as healthcare and personalized services,
-ensuring secure inference has become a critical challenge. Secure multi-party
-computation (MPC) enables privacy-preserving model inference but suffers from
-high communication and computation overhead. The main bottleneck lies in the
-expensive secure evaluation of floating-point operations. Quantization offers a
-promising solution by converting floating-point operations into lower-precision
-integer computations, significantly reducing overhead. However, existing
-MPC-based quantized inference methods either rely on public quantization
-parameters-posing privacy risks-or suffer from inefficiencies, particularly in
-handling nonlinear functions such as activations and softmax. In this work, we
-propose a fine-grained, layer-wise quantization scheme and support 1-bit weight
-fully connected layers in a secure setting. We design a multi-input lookup
-table protocol to evaluate softmax efficiently and securely. Furthermore, we
-use dual secret sharing schemes and perform precision conversions via lookup
-tables, eliminating truncation overhead entirely. Experimental evaluation on
-BERT-base models demonstrates that our approach achieves up to $8\times$
-speedup compared to Lu \emph{et al}. (NDSS 25), $9\times$ speedup compared to
-Gupta \emph{et al}. (PETS 24) and $22 \times$ speedup compared to Knott
-\emph{et al}. (NeurIPS 21).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01587v2">Pr$^2$R: Information-Fused and Style-Aware Privacy-Preserving Replay for
-  Lifelong Person Re-Identification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-03T05:00:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingyu Wang, Haojie Liu, Zhiyong Li, Wei Jiang</p>
-    <p><b>Summary:</b> Lifelong person re-identification (LReID) aims to incrementally accumulate
-knowledge across a sequence of tasks under domain shifts. Recently,
-replay-based methods have demonstrated strong effectiveness in LReID by
-rehearsing past samples stored in an auxiliary memory. However, storing
-historical exemplars raises concerns over data privacy. To avoid this,
-exemplar-free approaches attempt to match the distribution of past data without
-storing raw samples. Despite being privacy-friendly, these methods often suffer
-from performance degradation due to the forgetting of specific past knowledge
-representations. To this end, we propose to fuse information from sequential
-data into the pixel space in the replay memory, enabling Privacy-Preserving
-Replay (Pr$^2$R). More specifically, by distilling the training characteristics
-of multiple real images into a single image, the fused samples undergo
-pixel-level changes. This not only protects the privacy of the original data
-but also makes the replay samples more representative for sequential tasks.
-During the style replay phase, we align the current domain to the previous one
-while simultaneously adapting the replay samples to match the style of the
-current domain. This dual-alignment strategy effectively mitigates both
-class-incremental challenges and forgetting caused by domain shifts. Extensive
-experiments on multiple benchmarks show that the proposed method significantly
-improves replay effectiveness while preserving data privacy. Specifically,
-Pr$^2$R achieves 4% and 6% higher accuracy on sequential tasks compared to the
-current state-of-the-art and other replay-based methods, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01207v1">Showcasing standards and approaches for cybersecurity, safety, and
-  privacy issues in connected and autonomous vehicles</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-02T05:45:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ricardo M. Czekster</p>
-    <p><b>Summary:</b> In the automotive industry there is a need to handle broad quality
-deficiencies, eg, performance, maintainability, cybersecurity, safety, and
-privacy, to mention a few. The idea is to prevent these issues from reaching
-end-users, ie, road users and inadvertently, pedestrians, aiming to potentially
-reduce accidents, and allow safe operation in dynamic attack surfaces, for the
-benefit of a host of stakeholders. This paper aims to bridge cybersecurity,
-safety, and privacy concerns in Connected and Autonomous Vehicles (CAV) with
-respect to Risk Assessment (RA) and Threat Modelling (TM) altogether.
-Practitioners know the vast literature on this topic given the sheer number of
-recommendations, standards, best practices, and existing approaches, at times
-impairing projects and fostering valuable and actionable threat analysis. In
-this paper we collate key outcomes by highlighting latest standards and
-approaches in RA and TM research to tackle complex attack surfaces as the ones
-posed by automotive settings. We aim to provide the community with a list of
-approaches to align expectations with stakeholders when deciding where and when
-to focus threat related analysis in automotive solutions.</p>
   </details>
 </div>
 
