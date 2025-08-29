@@ -3067,5 +3067,115 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.20736v1",
+    "title" : "Leveraging Semantic Triples for Private Document Generation with Local\n  Differential Privacy Guarantees",
+    "summary" : "Many works at the intersection of Differential Privacy (DP) in Natural\nLanguage Processing aim to protect privacy by transforming texts under DP\nguarantees. This can be performed in a variety of ways, from word perturbations\nto full document rewriting, and most often under local DP. Here, an input text\nmust be made indistinguishable from any other potential text, within some bound\ngoverned by the privacy parameter $\\varepsilon$. Such a guarantee is quite\ndemanding, and recent works show that privatizing texts under local DP can only\nbe done reasonably under very high $\\varepsilon$ values. Addressing this\nchallenge, we introduce DP-ST, which leverages semantic triples for\nneighborhood-aware private document generation under local DP guarantees.\nThrough the evaluation of our method, we demonstrate the effectiveness of the\ndivide-and-conquer paradigm, particularly when limiting the DP notion (and\nprivacy guarantees) to that of a privatization neighborhood. When combined with\nLLM post-processing, our method allows for coherent text generation even at\nlower $\\varepsilon$ values, while still balancing privacy and utility. These\nfindings highlight the importance of coherence in achieving balanced\nprivatization outputs at reasonable $\\varepsilon$ levels.",
+    "updated" : "2025-08-28T12:59:01Z",
+    "published" : "2025-08-28T12:59:01Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Maulik Chevli"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.20613v1",
+    "title" : "Revisiting the Privacy Risks of Split Inference: A GAN-Based Data\n  Reconstruction Attack via Progressive Feature Optimization",
+    "summary" : "The growing complexity of Deep Neural Networks (DNNs) has led to the adoption\nof Split Inference (SI), a collaborative paradigm that partitions computation\nbetween edge devices and the cloud to reduce latency and protect user privacy.\nHowever, recent advances in Data Reconstruction Attacks (DRAs) reveal that\nintermediate features exchanged in SI can be exploited to recover sensitive\ninput data, posing significant privacy risks. Existing DRAs are typically\neffective only on shallow models and fail to fully leverage semantic priors,\nlimiting their reconstruction quality and generalizability across datasets and\nmodel architectures. In this paper, we propose a novel GAN-based DRA framework\nwith Progressive Feature Optimization (PFO), which decomposes the generator\ninto hierarchical blocks and incrementally refines intermediate representations\nto enhance the semantic fidelity of reconstructed images. To stabilize the\noptimization and improve image realism, we introduce an L1-ball constraint\nduring reconstruction. Extensive experiments show that our method outperforms\nprior attacks by a large margin, especially in high-resolution scenarios,\nout-of-distribution settings, and against deeper and more complex DNNs.",
+    "updated" : "2025-08-28T10:00:39Z",
+    "published" : "2025-08-28T10:00:39Z",
+    "authors" : [
+      {
+        "name" : "Yixiang Qiu"
+      },
+      {
+        "name" : "Yanhan Liu"
+      },
+      {
+        "name" : "Hongyao Yu"
+      },
+      {
+        "name" : "Hao Fang"
+      },
+      {
+        "name" : "Bin Chen"
+      },
+      {
+        "name" : "Shu-Tao Xia"
+      },
+      {
+        "name" : "Ke Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.20250v1",
+    "title" : "Efficient and Privacy-Protecting Background Removal for 2D Video\n  Streaming using iPhone 15 Pro Max LiDAR",
+    "summary" : "Light Detection and Ranging (LiDAR) technology in consumer-grade mobile\ndevices can be used as a replacement for traditional background removal and\ncompositing techniques. Unlike approaches such as chroma keying and trained AI\nmodels, LiDAR's depth information is independent of subject lighting, and\nperforms equally well in low-light and well-lit environments. We integrate the\nLiDAR and color cameras on the iPhone 15 Pro Max with GPU-based image\nprocessing. We use Apple's SwiftUI and Swift frameworks for user interface and\nbackend development, and Metal Shader Language (MSL) for realtime image\nenhancement at the standard iPhone streaming frame rate of 60 frames per\nsecond. The only meaningful limitations of the technology are the streaming\nbandwidth of the depth data, which currently reduces the depth map resolution\nto 320x240, and any pre-existing limitations of the LiDAR IR laser to reflect\naccurate depth from some materials. If the LiDAR resolution on a mobile device\nlike the iPhone can be improved to match the color image resolution, LiDAR\ncould feasibly become the preeminent method of background removal for video\napplications and photography.",
+    "updated" : "2025-08-27T20:14:12Z",
+    "published" : "2025-08-27T20:14:12Z",
+    "authors" : [
+      {
+        "name" : "Jessica Kinnevan"
+      },
+      {
+        "name" : "Naifa Alqahtani"
+      },
+      {
+        "name" : "Toral Chauhan"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV",
+      "cs.MM",
+      "68T45, 68U10",
+      "I.4.6; I.4.8; H.5.1; I.2.10"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.11716v2",
+    "title" : "Privacy-Aware Detection of Fake Identity Documents: Methodology,\n  Benchmark, and Improved Algorithms (FakeIDet2)",
+    "summary" : "Remote user verification in Internet-based applications is becoming\nincreasingly important nowadays. A popular scenario for it consists of\nsubmitting a picture of the user's Identity Document (ID) to a service\nplatform, authenticating its veracity, and then granting access to the\nrequested digital service. An ID is well-suited to verify the identity of an\nindividual, since it is government issued, unique, and nontransferable.\nHowever, with recent advances in Artificial Intelligence (AI), attackers can\nsurpass security measures in IDs and create very realistic physical and\nsynthetic fake IDs. Researchers are now trying to develop methods to detect an\never-growing number of these AI-based fakes that are almost indistinguishable\nfrom authentic (bona fide) IDs. In this counterattack effort, researchers are\nfaced with an important challenge: the difficulty in using real data to train\nfake ID detectors. This real data scarcity for research and development is\noriginated by the sensitive nature of these documents, which are usually kept\nprivate by the ID owners (the users) and the ID Holders (e.g., government,\npolice, bank, etc.). The main contributions of our study are: 1) We propose and\ndiscuss a patch-based methodology to preserve privacy in fake ID detection\nresearch. 2) We provide a new public database, FakeIDet2-db, comprising over\n900K real/fake ID patches extracted from 2,000 ID images, acquired using\ndifferent smartphone sensors, illumination and height conditions, etc. In\naddition, three physical attacks are considered: print, screen, and composite.\n3) We present a new privacy-aware fake ID detection method, FakeIDet2. 4) We\nrelease a standard reproducible benchmark that considers physical and synthetic\nattacks from popular databases in the literature.",
+    "updated" : "2025-08-28T11:05:03Z",
+    "published" : "2025-08-14T17:30:36Z",
+    "authors" : [
+      {
+        "name" : "Javier Muñoz-Haro"
+      },
+      {
+        "name" : "Ruben Tolosana"
+      },
+      {
+        "name" : "Julian Fierrez"
+      },
+      {
+        "name" : "Ruben Vera-Rodriguez"
+      },
+      {
+        "name" : "Aythami Morales"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "eess.IV"
+    ]
   }
 ]
