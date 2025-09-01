@@ -3177,5 +3177,57 @@
       "cs.CV",
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.21815v1",
+    "title" : "Achieving Hilbert-Schmidt Independence Under Rényi Differential\n  Privacy for Fair and Private Data Generation",
+    "summary" : "As privacy regulations such as the GDPR and HIPAA and responsibility\nframeworks for artificial intelligence such as the AI Act gain traction, the\nethical and responsible use of real-world data faces increasing constraints.\nSynthetic data generation has emerged as a promising solution to risk-aware\ndata sharing and model development, particularly for tabular datasets that are\nfoundational to sensitive domains such as healthcare. To address both privacy\nand fairness concerns in this setting, we propose FLIP (Fair Latent\nIntervention under Privacy guarantees), a transformer-based variational\nautoencoder augmented with latent diffusion to generate heterogeneous tabular\ndata. Unlike the typical setup in fairness-aware data generation, we assume a\ntask-agnostic setup, not reliant on a fixed, defined downstream task, thus\noffering broader applicability. To ensure privacy, FLIP employs R\\'enyi\ndifferential privacy (RDP) constraints during training and addresses fairness\nin the input space with RDP-compatible balanced sampling that accounts for\ngroup-specific noise levels across multiple sampling rates. In the latent\nspace, we promote fairness by aligning neuron activation patterns across\nprotected groups using Centered Kernel Alignment (CKA), a similarity measure\nextending the Hilbert-Schmidt Independence Criterion (HSIC). This alignment\nencourages statistical independence between latent representations and the\nprotected feature. Empirical results demonstrate that FLIP effectively provides\nsignificant fairness improvements for task-agnostic fairness and across diverse\ndownstream tasks under differential privacy constraints.",
+    "updated" : "2025-08-29T17:51:42Z",
+    "published" : "2025-08-29T17:51:42Z",
+    "authors" : [
+      {
+        "name" : "Tobias Hyrup"
+      },
+      {
+        "name" : "Emmanouil Panagiotou"
+      },
+      {
+        "name" : "Arjun Roy"
+      },
+      {
+        "name" : "Arthur Zimek"
+      },
+      {
+        "name" : "Eirini Ntoutsi"
+      },
+      {
+        "name" : "Peter Schneider-Kamp"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.21146v1",
+    "title" : "Privacy Auditing Synthetic Data Release through Local Likelihood Attacks",
+    "summary" : "Auditing the privacy leakage of synthetic data is an important but unresolved\nproblem. Most existing privacy auditing frameworks for synthetic data rely on\nheuristics and unreasonable assumptions to attack the failure modes of\ngenerative models, exhibiting limited capability to describe and detect the\nprivacy exposure of training data through synthetic data release. In this\npaper, we study designing Membership Inference Attacks (MIAs) that specifically\nexploit the observation that tabular generative models tend to significantly\noverfit to certain regions of the training distribution. Here, we propose\nGenerative Likelihood Ratio Attack (Gen-LRA), a novel, computationally\nefficient No-Box MIA that, with no assumption of model knowledge or access,\nformulates its attack by evaluating the influence a test observation has in a\nsurrogate model's estimation of a local likelihood ratio over the synthetic\ndata. Assessed over a comprehensive benchmark spanning diverse datasets, model\narchitectures, and attack parameters, we find that Gen-LRA consistently\ndominates other MIAs for generative models across multiple performance metrics.\nThese results underscore Gen-LRA's effectiveness as a privacy auditing tool for\nthe release of synthetic data, highlighting the significant privacy risks posed\nby generative model overfitting in real-world applications.",
+    "updated" : "2025-08-28T18:27:40Z",
+    "published" : "2025-08-28T18:27:40Z",
+    "authors" : [
+      {
+        "name" : "Joshua Ward"
+      },
+      {
+        "name" : "Chi-Hua Wang"
+      },
+      {
+        "name" : "Guang Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
   }
 ]
