@@ -2,6 +2,69 @@
 <h2>2025-08</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.21815v1">Achieving Hilbert-Schmidt Independence Under Rényi Differential
+  Privacy for Fair and Private Data Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-08-29T17:51:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tobias Hyrup, Emmanouil Panagiotou, Arjun Roy, Arthur Zimek, Eirini Ntoutsi, Peter Schneider-Kamp</p>
+    <p><b>Summary:</b> As privacy regulations such as the GDPR and HIPAA and responsibility
+frameworks for artificial intelligence such as the AI Act gain traction, the
+ethical and responsible use of real-world data faces increasing constraints.
+Synthetic data generation has emerged as a promising solution to risk-aware
+data sharing and model development, particularly for tabular datasets that are
+foundational to sensitive domains such as healthcare. To address both privacy
+and fairness concerns in this setting, we propose FLIP (Fair Latent
+Intervention under Privacy guarantees), a transformer-based variational
+autoencoder augmented with latent diffusion to generate heterogeneous tabular
+data. Unlike the typical setup in fairness-aware data generation, we assume a
+task-agnostic setup, not reliant on a fixed, defined downstream task, thus
+offering broader applicability. To ensure privacy, FLIP employs R\'enyi
+differential privacy (RDP) constraints during training and addresses fairness
+in the input space with RDP-compatible balanced sampling that accounts for
+group-specific noise levels across multiple sampling rates. In the latent
+space, we promote fairness by aligning neuron activation patterns across
+protected groups using Centered Kernel Alignment (CKA), a similarity measure
+extending the Hilbert-Schmidt Independence Criterion (HSIC). This alignment
+encourages statistical independence between latent representations and the
+protected feature. Empirical results demonstrate that FLIP effectively provides
+significant fairness improvements for task-agnostic fairness and across diverse
+downstream tasks under differential privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2508.21146v1">Privacy Auditing Synthetic Data Release through Local Likelihood Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-08-28T18:27:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joshua Ward, Chi-Hua Wang, Guang Cheng</p>
+    <p><b>Summary:</b> Auditing the privacy leakage of synthetic data is an important but unresolved
+problem. Most existing privacy auditing frameworks for synthetic data rely on
+heuristics and unreasonable assumptions to attack the failure modes of
+generative models, exhibiting limited capability to describe and detect the
+privacy exposure of training data through synthetic data release. In this
+paper, we study designing Membership Inference Attacks (MIAs) that specifically
+exploit the observation that tabular generative models tend to significantly
+overfit to certain regions of the training distribution. Here, we propose
+Generative Likelihood Ratio Attack (Gen-LRA), a novel, computationally
+efficient No-Box MIA that, with no assumption of model knowledge or access,
+formulates its attack by evaluating the influence a test observation has in a
+surrogate model's estimation of a local likelihood ratio over the synthetic
+data. Assessed over a comprehensive benchmark spanning diverse datasets, model
+architectures, and attack parameters, we find that Gen-LRA consistently
+dominates other MIAs for generative models across multiple performance metrics.
+These results underscore Gen-LRA's effectiveness as a privacy auditing tool for
+the release of synthetic data, highlighting the significant privacy risks posed
+by generative model overfitting in real-world applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2508.20736v1">Leveraging Semantic Triples for Private Document Generation with Local
   Differential Privacy Guarantees</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
@@ -2960,63 +3023,6 @@ that of the ideal centralized solution and outperforms other existing caching
 methods, and (ii) our novel revenue optimization approach provides deeper
 system performance insights than traditional cache hit ratio (CHR)-based
 optimization approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01798v1">A Survey on Privacy-Preserving Computing in the Automotive Domain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-03T15:23:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nergiz Yuca, Nikolay Matyunin, Ektor Arzoglou, Nikolaos Athanasios Anagnostopoulos, Stefan Katzenbeisser</p>
-    <p><b>Summary:</b> As vehicles become increasingly connected and autonomous, they accumulate and
-manage various personal data, thereby presenting a key challenge in preserving
-privacy during data sharing and processing. This survey reviews applications of
-Secure Multi-Party Computation (MPC) and Homomorphic Encryption (HE) that
-address these privacy concerns in the automotive domain. First, we identify the
-scope of privacy-sensitive use cases for these technologies, by surveying
-existing works that address privacy issues in different automotive contexts,
-such as location-based services, mobility infrastructures, traffic management,
-etc. Then, we review recent works that employ MPC and HE as solutions for these
-use cases in detail. Our survey highlights the applicability of these
-privacy-preserving technologies in the automotive context, while also
-identifying challenges and gaps in the current research landscape. This work
-aims to provide a clear and comprehensive overview of this emerging field and
-to encourage further research in this domain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.01749v1">Improving Noise Efficiency in Privacy-preserving Dataset Distillation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-03T13:15:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Runkai Zheng, Vishnu Asutosh Dasu, Yinong Oliver Wang, Haohan Wang, Fernando De la Torre</p>
-    <p><b>Summary:</b> Modern machine learning models heavily rely on large datasets that often
-include sensitive and private information, raising serious privacy concerns.
-Differentially private (DP) data generation offers a solution by creating
-synthetic datasets that limit the leakage of private information within a
-predefined privacy budget; however, it requires a substantial amount of data to
-achieve performance comparable to models trained on the original data. To
-mitigate the significant expense incurred with synthetic data generation,
-Dataset Distillation (DD) stands out for its remarkable training and storage
-efficiency. This efficiency is particularly advantageous when integrated with
-DP mechanisms, curating compact yet informative synthetic datasets without
-compromising privacy. However, current state-of-the-art private DD methods
-suffer from a synchronized sampling-optimization process and the dependency on
-noisy training signals from randomly initialized networks. This results in the
-inefficient utilization of private information due to the addition of excessive
-noise. To address these issues, we introduce a novel framework that decouples
-sampling from optimization for better convergence and improves signal quality
-by mitigating the impact of DP noise through matching in an informative
-subspace. On CIFAR-10, our method achieves a \textbf{10.0\%} improvement with
-50 images per class and \textbf{8.3\%} increase with just \textbf{one-fifth}
-the distilled set size of previous state-of-the-art methods, demonstrating
-significant potential to advance privacy-preserving DD.</p>
   </details>
 </div>
 
