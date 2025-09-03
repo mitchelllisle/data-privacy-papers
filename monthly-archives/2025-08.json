@@ -3229,5 +3229,30 @@
       "cs.LG",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.20250v2",
+    "title" : "Efficient and Privacy-Protecting Background Removal for 2D Video\n  Streaming using iPhone 15 Pro Max LiDAR",
+    "summary" : "Light Detection and Ranging (LiDAR) technology in consumer-grade mobile\ndevices can be used as a replacement for traditional background removal and\ncompositing techniques. Unlike approaches such as chroma keying and trained AI\nmodels, LiDAR's depth information is independent of subject lighting, and\nperforms equally well in low-light and well-lit environments. We integrate the\nLiDAR and color cameras on the iPhone 15 Pro Max with GPU-based image\nprocessing. We use Apple's SwiftUI and Swift frameworks for user interface and\nbackend development, and Metal Shader Language (MSL) for realtime image\nenhancement at the standard iPhone streaming frame rate of 60 frames per\nsecond. The only meaningful limitations of the technology are the streaming\nbandwidth of the depth data, which currently reduces the depth map resolution\nto 320x240, and any pre-existing limitations of the LiDAR IR laser to reflect\naccurate depth from some materials. If the LiDAR resolution on a mobile device\nlike the iPhone can be improved to match the color image resolution, LiDAR\ncould feasibly become the preeminent method of background removal for video\napplications and photography.",
+    "updated" : "2025-08-29T20:45:29Z",
+    "published" : "2025-08-27T20:14:12Z",
+    "authors" : [
+      {
+        "name" : "Jessica Kinnevan"
+      },
+      {
+        "name" : "Naifa Alqahtani"
+      },
+      {
+        "name" : "Toral Chauhan"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV",
+      "cs.MM",
+      "68T45, 68U10",
+      "I.4.6; I.4.8; H.5.1; I.2.10"
+    ]
   }
 ]
