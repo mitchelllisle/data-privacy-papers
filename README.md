@@ -122,7 +122,7 @@ out-of-distribution settings, and against deeper and more complex DNNs.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.20250v1">Efficient and Privacy-Protecting Background Removal for 2D Video
+  <h3><a href="http://arxiv.org/abs/2508.20250v2">Efficient and Privacy-Protecting Background Removal for 2D Video
   Streaming using iPhone 15 Pro Max LiDAR</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">  
   <p><b>Published on:</b> 2025-08-27T20:14:12Z</p>
