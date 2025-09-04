@@ -3254,5 +3254,167 @@
       "68T45, 68U10",
       "I.4.6; I.4.8; H.5.1; I.2.10"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.00693v1",
+    "title" : "DELTA: Variational Disentangled Learning for Privacy-Preserving Data\n  Reprogramming",
+    "summary" : "In real-world applications, domain data often contains identifiable or\nsensitive attributes, is subject to strict regulations (e.g., HIPAA, GDPR), and\nrequires explicit data feature engineering for interpretability and\ntransparency. Existing feature engineering primarily focuses on advancing\ndownstream task performance, often risking privacy leakage. We generalize this\nlearning task under such new requirements as Privacy-Preserving Data\nReprogramming (PPDR): given a dataset, transforming features to maximize target\nattribute prediction accuracy while minimizing sensitive attribute prediction\naccuracy. PPDR poses challenges for existing systems: 1) generating\nhigh-utility feature transformations without being overwhelmed by a large\nsearch space, and 2) disentangling and eliminating sensitive information from\nutility-oriented features to reduce privacy inferability. To tackle these\nchallenges, we propose DELTA, a two-phase variational disentangled generative\nlearning framework. Phase I uses policy-guided reinforcement learning to\ndiscover feature transformations with downstream task utility, without any\nregard to privacy inferability. Phase II employs a variational LSTM seq2seq\nencoder-decoder with a utility-privacy disentangled latent space design and\nadversarial-causal disentanglement regularization to suppress privacy signals\nduring feature generation. Experiments on eight datasets show DELTA improves\npredictive performance by ~9.3% and reduces privacy leakage by ~35%,\ndemonstrating robust, privacy-aware data transformation.",
+    "updated" : "2025-08-31T04:18:42Z",
+    "published" : "2025-08-31T04:18:42Z",
+    "authors" : [
+      {
+        "name" : "Arun Vignesh Malarkkan"
+      },
+      {
+        "name" : "Haoyue Bai"
+      },
+      {
+        "name" : "Anjali Kaushik"
+      },
+      {
+        "name" : "Yanjie Fu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "I.2.2; I.2.6"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.00615v1",
+    "title" : "Federated Survival Analysis with Node-Level Differential Privacy:\n  Private Kaplan-Meier Curves",
+    "summary" : "We investigate how to calculate Kaplan-Meier survival curves across multiple\nhealth-care jurisdictions while protecting patient privacy with node-level\ndifferential privacy. Each site discloses its curve only once, adding Laplace\nnoise whose scale is determined by the length of the common time grid; the\nserver then averages the noisy curves, so the overall privacy budget remains\nunchanged. We benchmark four one-shot smoothing techniques: Discrete Cosine\nTransform, Haar Wavelet shrinkage, adaptive Total-Variation denoising, and a\nparametric Weibull fit on the NCCTG lung-cancer cohort under five privacy\nlevels and three partition scenarios (uniform, moderately skewed, highly\nimbalanced). Total-Variation gives the best mean accuracy, whereas the\nfrequency-domain smoothers offer stronger worst-case robustness and the Weibull\nmodel shows the most stable behaviour at the strictest privacy setting. Across\nall methods the released curves keep the empirical log-rank type-I error below\nfifteen percent for privacy budgets of 0.5 and higher, demonstrating that\nclinically useful survival information can be shared without iterative training\nor heavy cryptography.",
+    "updated" : "2025-08-30T21:47:56Z",
+    "published" : "2025-08-30T21:47:56Z",
+    "authors" : [
+      {
+        "name" : "Narasimha Raghavan Veeraragavan"
+      },
+      {
+        "name" : "Jan Franz Nygård"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.00192v1",
+    "title" : "Safe-LLaVA: A Privacy-Preserving Vision-Language Dataset and Benchmark\n  for Biometric Safety",
+    "summary" : "Multimodal Large Language Models (MLLMs) have demonstrated remarkable\ncapabilities in vision-language tasks. However, these models often infer and\nreveal sensitive biometric attributes - such as race, gender, age, body weight,\nand eye color - even when such information is not explicitly requested. This\nraises critical concerns, particularly in real-world applications and\nsocially-sensitive domains. Despite increasing awareness, no publicly available\ndataset or benchmark exists to comprehensively evaluate or mitigate biometric\nleakage in MLLMs. To address this gap, we introduce PRISM (Privacy-aware\nEvaluation of Responses in Sensitive Modalities), a new benchmark designed to\nassess MLLMs on two fronts: (1) refuse biometric-related queries and (2)\nimplicit biometric leakage in general responses while maintaining semantic\nfaithfulness. Further, we conduct a detailed audit of the widely used LLaVA\ndatasets and uncover extensive biometric leakage across pretraining and\ninstruction data. To address this, we present Safe-LLaVA dataset, the first\nprivacy-preserving MLLM training dataset constructed by systematically removing\nexplicit and implicit biometric information from LLaVA dataset. Our evaluations\non PRISM reveal biometric leakages across MLLMs for different attributes,\nhighlighting the detailed privacy-violations. We also fine-tune a model on\nSafe-LLaVA dataset and show that it substantially reduces the biometric\nleakages. Together, Safe-LLaVA & PRISM set a new standard for privacy-aligned\ndevelopment and evaluation of MLLMs. The Safe-LLaVA dataset & PRISM benchmark\nare publicly available at https://huggingface.co/datasets/kyh9191/Safe-LLaVA,\nand the source code is available at\nhttps://github.com/Kimyounggun99/Safe-LLaVA.git.",
+    "updated" : "2025-08-29T18:54:57Z",
+    "published" : "2025-08-29T18:54:57Z",
+    "authors" : [
+      {
+        "name" : "Younggun Kim"
+      },
+      {
+        "name" : "Sirnam Swetha"
+      },
+      {
+        "name" : "Fazil Kagdi"
+      },
+      {
+        "name" : "Mubarak Shah"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.00101v1",
+    "title" : "Privacy, Informed Consent and the Demand for Anonymisation of Smart\n  Meter Data",
+    "summary" : "Access to smart meter data offers system-wide benefits but raises significant\nprivacy concerns due to the personal information it contains.\nPrivacy-preserving techniques could facilitate wider access, though they\nintroduce privacy-utility trade-offs. Understanding consumer valuations for\nanonymisation can help identify appropriate trade-offs. However, existing\nstudies do not focus on anonymisation specifically or account for information\nasymmetries regarding privacy risks, raising questions about the validity of\ninformed consent under current regulations.\n  We use a mixed-methods approach to estimate non-monetary\n(willingness-to-share and smart metering demand) and monetary\n(willingness-to-pay/accept) preferences for anonymisation, based on a\nrepresentative sample of 965 GB bill payers. An embedded randomised control\ntrial examines the effect of providing information about privacy implications.\n  On average, consumers are willing to pay for anonymisation, are more willing\nto share data when anonymised and less willing to share non-anonymised data\nonce anonymisation is presented as an option. However, a significant minority\nremains unwilling to adopt smart meters, despite anonymisation. We find strong\nevidence of information asymmetries that suppress demand for anonymisation and\nidentify substantial variation across demographic and electricity supply\ncharacteristics. Qualitative responses corroborate the quantitative findings,\nunderscoring the need for stronger privacy defaults, user-centric design, and\nconsent mechanisms that enable truly informed decisions.",
+    "updated" : "2025-08-27T20:05:09Z",
+    "published" : "2025-08-27T20:05:09Z",
+    "authors" : [
+      {
+        "name" : "Saurab Chhachhi"
+      },
+      {
+        "name" : "Fei Teng"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.SY",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.19493v2",
+    "title" : "Mind the Third Eye! Benchmarking Privacy Awareness in MLLM-powered\n  Smartphone Agents",
+    "summary" : "Smartphones bring significant convenience to users but also enable devices to\nextensively record various types of personal information. Existing smartphone\nagents powered by Multimodal Large Language Models (MLLMs) have achieved\nremarkable performance in automating different tasks. However, as the cost,\nthese agents are granted substantial access to sensitive users' personal\ninformation during this operation. To gain a thorough understanding of the\nprivacy awareness of these agents, we present the first large-scale benchmark\nencompassing 7,138 scenarios to the best of our knowledge. In addition, for\nprivacy context in scenarios, we annotate its type (e.g., Account Credentials),\nsensitivity level, and location. We then carefully benchmark seven available\nmainstream smartphone agents. Our results demonstrate that almost all\nbenchmarked agents show unsatisfying privacy awareness (RA), with performance\nremaining below 60% even with explicit hints. Overall, closed-source agents\nshow better privacy ability than open-source ones, and Gemini 2.0-flash\nachieves the best, achieving an RA of 67%. We also find that the agents'\nprivacy detection capability is highly related to scenario sensitivity level,\ni.e., the scenario with a higher sensitivity level is typically more\nidentifiable. We hope the findings enlighten the research community to rethink\nthe unbalanced utility-privacy tradeoff about smartphone agents. Our code and\nbenchmark are available at https://zhixin-l.github.io/SAPA-Bench.",
+    "updated" : "2025-09-03T07:48:34Z",
+    "published" : "2025-08-27T00:41:28Z",
+    "authors" : [
+      {
+        "name" : "Zhixin Lin"
+      },
+      {
+        "name" : "Jungang Li"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Yibo Shi"
+      },
+      {
+        "name" : "Yue Yao"
+      },
+      {
+        "name" : "Dongliang Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.18453v2",
+    "title" : "Privacy-Preserving Federated Learning Framework for Risk-Based Adaptive\n  Authentication",
+    "summary" : "Balancing robust security with strong privacy guarantees is critical for\nRisk-Based Adaptive Authentication (RBA), particularly in decentralized\nsettings. Federated Learning (FL) offers a promising solution by enabling\ncollaborative risk assessment without centralizing user data. However, existing\nFL approaches struggle with Non-Independent and Identically Distributed\n(Non-IID) user features, resulting in biased, unstable, and poorly generalized\nglobal models. This paper introduces FL-RBA2, a novel Federated Learning\nframework for Risk-Based Adaptive Authentication that addresses Non-IID\nchallenges through a mathematically grounded similarity transformation. By\nconverting heterogeneous user features (including behavioral, biometric,\ncontextual, interaction-based, and knowledge-based modalities) into IID\nsimilarity vectors, FL-RBA2 supports unbiased aggregation and personalized risk\nmodeling across distributed clients. The framework mitigates cold-start\nlimitations via clustering-based risk labeling, incorporates Differential\nPrivacy (DP) to safeguard sensitive information, and employs Message\nAuthentication Codes (MACs) to ensure model integrity and authenticity.\nFederated updates are securely aggregated into a global model, achieving strong\nbalance between user privacy, scalability, and adaptive authentication\nrobustness. Rigorous game-based security proofs in the Random Oracle Model\nformally establish privacy, correctness, and adaptive security guarantees.\nExtensive experiments on keystroke, mouse, and contextual datasets validate\nFL-RBA2's effectiveness in high-risk user detection and its resilience to model\ninversion and inference attacks, even under strong DP constraints.",
+    "updated" : "2025-09-03T00:17:00Z",
+    "published" : "2025-08-25T20:02:07Z",
+    "authors" : [
+      {
+        "name" : "Yaser Baseri"
+      },
+      {
+        "name" : "Abdelhakim Senhaji Hafid"
+      },
+      {
+        "name" : "Dimitrios Makrakis"
+      },
+      {
+        "name" : "Hamidreza Fereidouni"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.00006v1",
+    "title" : "Case Studies: Effective Approaches for Navigating Cross-Border Cloud\n  Data Transfers Amid U.S. Government Privacy and Safety Concerns",
+    "summary" : "This study attempts to explain the impact of information exchange from one\ncountry to another, as well as the legal and technological implications for\nthese exchanges. Due to the emergence of cloud technology, possibilities for\nfree exchange of information between countries have increased rapidly, as it\nhas become possible to save information in a country and access it in almost\nany part of the world. Countries all around the world have been confronted with\ndeveloping frameworks to facilitate this process, although there are\nsignificant challenges which must be confronted on legal and technological\nfronts, as loopholes in the framework adopted by countries may hinder free\naccess to information stored on cloud, and also compromise data privacy. Cloud\ntechnology is impacting a lot of issues, including domestic and international\nbusinesses, hence the need for a study to propose measures for safe exchange of\ninformation using cloud technology.",
+    "updated" : "2025-08-12T01:35:07Z",
+    "published" : "2025-08-12T01:35:07Z",
+    "authors" : [
+      {
+        "name" : "Motunrayo Adebayo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
