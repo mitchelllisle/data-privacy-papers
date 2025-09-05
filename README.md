@@ -2,6 +2,131 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.04358v1">Privacy Perceptions in Robot-Assisted Well-Being Coaching: Examining the
+  Roles of Information Transparency, User Control, and Proactivity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2025-09-04T16:19:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Atikkhan Faridkhan Nilgar, Manuel Dietrich, Kristof Van Laerhoven</p>
+    <p><b>Summary:</b> Social robots are increasingly recognized as valuable supporters in the field
+of well-being coaching. They can function as independent coaches or provide
+support alongside human coaches, and healthcare professionals. In coaching
+interactions, these robots often handle sensitive information shared by users,
+making privacy a relevant issue. Despite this, little is known about the
+factors that shape users' privacy perceptions. This research aims to examine
+three key factors systematically: (1) the transparency about information usage,
+(2) the level of specific user control over how the robot uses their
+information, and (3) the robot's behavioral approach - whether it acts
+proactively or only responds on demand. Our results from an online study (N =
+200) show that even when users grant the robot general access to personal data,
+they additionally expect the ability to explicitly control how that information
+is interpreted and shared during sessions. Experimental conditions that
+provided such control received significantly higher ratings for perceived
+privacy appropriateness and trust. Compared to user control, the effects of
+transparency and proactivity on privacy appropriateness perception were low,
+and we found no significant impact. The results suggest that merely informing
+users or proactive sharing is insufficient without accompanying user control.
+These insights underscore the need for further research on mechanisms that
+allow users to manage robots' information processing and sharing, especially
+when social robots take on more proactive roles alongside humans.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.04290v1">An Interactive Framework for Finding the Optimal Trade-off in
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-04T15:02:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yaohong Yang, Aki Rehn, Sammie Katt, Antti Honkela, Samuel Kaski</p>
+    <p><b>Summary:</b> Differential privacy (DP) is the standard for privacy-preserving analysis,
+and introduces a fundamental trade-off between privacy guarantees and model
+performance. Selecting the optimal balance is a critical challenge that can be
+framed as a multi-objective optimization (MOO) problem where one first
+discovers the set of optimal trade-offs (the Pareto front) and then learns a
+decision-maker's preference over them. While a rich body of work on interactive
+MOO exists, the standard approach -- modeling the objective functions with
+generic surrogates and learning preferences from simple pairwise feedback -- is
+inefficient for DP because it fails to leverage the problem's unique structure:
+a point on the Pareto front can be generated directly by maximizing accuracy
+for a fixed privacy level. Motivated by this property, we first derive the
+shape of the trade-off theoretically, which allows us to model the Pareto front
+directly and efficiently. To address inefficiency in preference learning, we
+replace pairwise comparisons with a more informative interaction. In
+particular, we present the user with hypothetical trade-off curves and ask them
+to pick their preferred trade-off. Our experiments on differentially private
+logistic regression and deep transfer learning across six real-world datasets
+show that our method converges to the optimal privacy-accuracy trade-off with
+significantly less computational cost and user interaction than baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.04232v1">Rethinking Layer-wise Gaussian Noise Injection: Bridging Implicit
+  Objectives and Privacy Budget Allocation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-04T14:09:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qifeng Tan, Shusen Yang, Xuebin Ren, Yikai Zhang</p>
+    <p><b>Summary:</b> Layer-wise Gaussian mechanisms (LGM) enhance flexibility in differentially
+private deep learning by injecting noise into partitioned gradient vectors.
+However, existing methods often rely on heuristic noise allocation strategies,
+lacking a rigorous understanding of their theoretical grounding in connecting
+noise allocation to formal privacy-utility tradeoffs. In this paper, we present
+a unified analytical framework that systematically connects layer-wise noise
+injection strategies with their implicit optimization objectives and associated
+privacy budget allocations. Our analysis reveals that several existing
+approaches optimize ill-posed objectives -- either ignoring inter-layer
+signal-to-noise ratio (SNR) consistency or leading to inefficient use of the
+privacy budget. In response, we propose a SNR-Consistent noise allocation
+strategy that unifies both aspects, yielding a noise allocation scheme that
+achieves better signal preservation and more efficient privacy budget
+utilization. Extensive experiments in both centralized and federated learning
+settings demonstrate that our method consistently outperforms existing
+allocation strategies, achieving better privacy-utility tradeoffs. Our
+framework not only offers diagnostic insights into prior methods but also
+provides theoretical guidance for designing adaptive and effective noise
+injection schemes in deep models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.04169v1">Privacy Risks in Time Series Forecasting: User- and Record-Level
+  Membership Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-04T12:43:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nicolas Johansson, Tobias Olsson, Daniel Nilsson, Johan Östman, Fazeleh Hoseini</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) aim to determine whether specific data
+were used to train a model. While extensively studied on classification models,
+their impact on time series forecasting remains largely unexplored. We address
+this gap by introducing two new attacks: (i) an adaptation of multivariate
+LiRA, a state-of-the-art MIA originally developed for classification models, to
+the time-series forecasting setting, and (ii) a novel end-to-end learning
+approach called Deep Time Series (DTS) attack. We benchmark these methods
+against adapted versions of other leading attacks from the classification
+setting.
+  We evaluate all attacks in realistic settings on the TUH-EEG and ELD
+datasets, targeting two strong forecasting architectures, LSTM and the
+state-of-the-art N-HiTS, under both record- and user-level threat models. Our
+results show that forecasting models are vulnerable, with user-level attacks
+often achieving perfect detection. The proposed methods achieve the strongest
+performance in several settings, establishing new baselines for privacy risk
+assessment in time series forecasting. Furthermore, vulnerability increases
+with longer prediction horizons and smaller training populations, echoing
+trends observed in large language models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.03350v1">Exposing Privacy Risks in Anonymizing Clinical Data: Combinatorial
   Refinement Attacks on k-Anonymity Without Auxiliary Information</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2923,117 +3048,6 @@ Experimental results demonstrate that GFed-PP significantly outperforms
 existing methods for five datasets, offering superior recommendation accuracy
 without compromising privacy. This framework provides a practical solution for
 accommodating varying privacy preferences in federated recommendation systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.06087v1">Adaptive Backtracking for Privacy Protection in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-08-08T07:29:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhihao Yao, Yuxuan Gu, Xiachong Feng, Weitao Ma, Bo Li, Xiaocheng Feng</p>
-    <p><b>Summary:</b> The preservation of privacy has emerged as a critical topic in the era of
-artificial intelligence. However, current work focuses on user-oriented
-privacy, overlooking severe enterprise data leakage risks exacerbated by the
-Retrieval-Augmented Generation paradigm. To address this gap, our paper
-introduces a novel objective: enterprise-oriented privacy concerns. Achieving
-this objective requires overcoming two fundamental challenges: existing methods
-such as data sanitization severely degrade model performance, and the field
-lacks public datasets for evaluation. We address these challenges with several
-solutions. (1) To prevent performance degradation, we propose ABack, a
-training-free mechanism that leverages a Hidden State Model to pinpoint the
-origin of a leakage intention and rewrite the output safely. (2) To solve the
-lack of datasets, we construct PriGenQA, a new benchmark for enterprise privacy
-scenarios in healthcare and finance. To ensure a rigorous evaluation, we move
-beyond simple static attacks by developing a powerful adaptive attacker with
-Group Relative Policy Optimization. Experiments show that against this superior
-adversary, ABack improves the overall privacy utility score by up to 15\% over
-strong baselines, avoiding the performance trade-offs of prior methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09186v2">RL-MoE: An Image-Based Privacy Preserving Approach In Intelligent
-  Transportation System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-07T18:07:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abdolazim Rezaei, Mehdi Sookhak, Mahboobeh Haghparast</p>
-    <p><b>Summary:</b> The proliferation of AI-powered cameras in Intelligent Transportation Systems
-(ITS) creates a severe conflict between the need for rich visual data and the
-right to privacy. Existing privacy-preserving methods, such as blurring or
-encryption, are often insufficient due to creating an undesirable trade-off
-where either privacy is compromised against advanced reconstruction attacks or
-data utility is critically degraded. To resolve this challenge, we propose
-RL-MoE, a novel framework that transforms sensitive visual data into
-privacy-preserving textual descriptions, eliminating the need for direct image
-transmission. RL-MoE uniquely combines a Mixture-of-Experts (MoE) architecture
-for nuanced, multi-aspect scene decomposition with a Reinforcement Learning
-(RL) agent that optimizes the generated text for a dual objective of semantic
-accuracy and privacy preservation. Extensive experiments demonstrate that
-RL-MoE provides superior privacy protection, reducing the success rate of
-replay attacks to just 9.4\% on the CFP-FP dataset, while simultaneously
-generating richer textual content than baseline methods. Our work provides a
-practical and scalable solution for building trustworthy AI systems in
-privacy-sensitive domains, paving the way for more secure smart city and
-autonomous vehicle networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.05518v1">Local Distance Query with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-07T15:48:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weihong Sheng, Jiajun Chen, Bin Cai, Chunqiang Hu, Meng Han, Jiguo Yu</p>
-    <p><b>Summary:</b> Differential Privacy (DP) is commonly employed to safeguard graph analysis or
-publishing. Distance, a critical factor in graph analysis, is typically handled
-using curator DP, where a trusted curator holds the complete neighbor lists of
-all vertices and answers queries privately. However, in many real-world
-scenarios, such a curator may not be present, posing a significant challenge
-for implementing differentially private distance queries under Local
-Differential Privacy (LDP). This paper proposes two approaches to address this
-challenge. The first approach generates a synthetic graph by randomizing
-responses and applies bitwise operations to reduce noise interference. However,
-like other synthetic graph methods, this approach suffers from low utility. To
-overcome this limitation, we propose a second approach, the first LDP method
-specifically designed for distance queries, which captures the global graph
-structure by continuously aggregating local distance vectors from neighboring
-vertices. This process enables the accurate updating of global distances. We
-demonstrate the effectiveness of our method through comprehensive theoretical
-analysis and experimental evaluations on real-world datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.06577v1">Leveraging LLMs for Privacy-Aware Predictions in Participatory Budgeting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-07T15:26:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Juan Zambrano, Clément Contet, Jairo Gudiño, Felipe Garrido-Lucero, Umberto Grandi, Cesar A Hidalgo</p>
-    <p><b>Summary:</b> Participatory Budgeting (PB) empowers citizens to propose and vote on public
-investment projects. Yet, despite its democratic potential, PB initiatives
-often suffer from low participation rates, limiting their visibility and
-perceived legitimacy. In this work, we aim to strengthen PB elections in two
-key ways: by supporting project proposers in crafting better proposals, and by
-helping PB organizers manage large volumes of submissions in a transparent
-manner. We propose a privacy-preserving approach to predict which PB proposals
-are likely to be funded, using only their textual descriptions and anonymous
-historical voting records -- without relying on voter demographics or
-personally identifiable information. We evaluate the performance of GPT 4 Turbo
-in forecasting proposal outcomes across varying contextual scenarios, observing
-that the LLM's prior knowledge needs to be complemented by past voting data to
-obtain predictions reflecting real-world PB voting behavior. Our findings
-highlight the potential of AI-driven tools to support PB processes by improving
-transparency, planning efficiency, and civic engagement.</p>
   </details>
 </div>
 
