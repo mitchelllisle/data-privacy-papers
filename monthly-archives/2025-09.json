@@ -416,5 +416,110 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.05265v1",
+    "title" : "On Evaluating the Poisoning Robustness of Federated Learning under Local\n  Differential Privacy",
+    "summary" : "Federated learning (FL) combined with local differential privacy (LDP)\nenables privacy-preserving model training across decentralized data sources.\nHowever, the decentralized data-management paradigm leaves LDPFL vulnerable to\nparticipants with malicious intent. The robustness of LDPFL protocols,\nparticularly against model poisoning attacks (MPA), where adversaries inject\nmalicious updates to disrupt global model convergence, remains insufficiently\nstudied. In this paper, we propose a novel and extensible model poisoning\nattack framework tailored for LDPFL settings. Our approach is driven by the\nobjective of maximizing the global training loss while adhering to local\nprivacy constraints. To counter robust aggregation mechanisms such as\nMulti-Krum and trimmed mean, we develop adaptive attacks that embed carefully\ncrafted constraints into a reverse training process, enabling evasion of these\ndefenses. We evaluate our framework across three representative LDPFL\nprotocols, three benchmark datasets, and two types of deep neural networks.\nAdditionally, we investigate the influence of data heterogeneity and privacy\nbudgets on attack effectiveness. Experimental results demonstrate that our\nadaptive attacks can significantly degrade the performance of the global model,\nrevealing critical vulnerabilities and highlighting the need for more robust\nLDPFL defense strategies against MPA. Our code is available at\nhttps://github.com/ZiJW/LDPFL-Attack",
+    "updated" : "2025-09-05T17:23:03Z",
+    "published" : "2025-09-05T17:23:03Z",
+    "authors" : [
+      {
+        "name" : "Zijian Wang"
+      },
+      {
+        "name" : "Wei Tong"
+      },
+      {
+        "name" : "Tingxuan Han"
+      },
+      {
+        "name" : "Haoyu Chen"
+      },
+      {
+        "name" : "Tianling Zhang"
+      },
+      {
+        "name" : "Yunlong Mao"
+      },
+      {
+        "name" : "Sheng Zhong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.05162v1",
+    "title" : "Verifiability and Privacy in Federated Learning through Context-Hiding\n  Multi-Key Homomorphic Authenticators",
+    "summary" : "Federated Learning has rapidly expanded from its original inception to now\nhave a large body of research, several frameworks, and sold in a variety of\ncommercial offerings. Thus, its security and robustness is of significant\nimportance. There are many algorithms that provide robustness in the case of\nmalicious clients. However, the aggregator itself may behave maliciously, for\nexample, by biasing the model or tampering with the weights to weaken the\nmodels privacy. In this work, we introduce a verifiable federated learning\nprotocol that enables clients to verify the correctness of the aggregators\ncomputation without compromising the confidentiality of their updates. Our\nprotocol uses a standard secure aggregation technique to protect individual\nmodel updates with a linearly homomorphic authenticator scheme that enables\nefficient, privacy-preserving verification of the aggregated result. Our\nconstruction ensures that clients can detect manipulation by the aggregator\nwhile maintaining low computational overhead. We demonstrate that our approach\nscales to large models, enabling verification over large neural networks with\nmillions of parameters.",
+    "updated" : "2025-09-05T14:57:18Z",
+    "published" : "2025-09-05T14:57:18Z",
+    "authors" : [
+      {
+        "name" : "Simone Bottoni"
+      },
+      {
+        "name" : "Giulio Zizzo"
+      },
+      {
+        "name" : "Stefano Braghin"
+      },
+      {
+        "name" : "Alberto Trombetta"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.04919v1",
+    "title" : "Optimal Variance and Covariance Estimation under Differential Privacy in\n  the Add-Remove Model and Beyond",
+    "summary" : "In this paper, we study the problem of estimating the variance and covariance\nof datasets under differential privacy in the add-remove model. While\nestimation in the swap model has been extensively studied in the literature,\nthe add-remove model remains less explored and more challenging, as the dataset\nsize must also be kept private. To address this issue, we develop efficient\nmechanisms for variance and covariance estimation based on the \\emph{B\\'{e}zier\nmechanism}, a novel moment-release framework that leverages Bernstein bases. We\nprove that our proposed mechanisms are minimax optimal in the high-privacy\nregime by establishing new minimax lower bounds. Moreover, beyond worst-case\nscenarios, we analyze instance-wise utility and show that the B\\'{e}zier-based\nestimator consistently achieves better utility compared to alternative\nmechanisms. Finally, we demonstrate the effectiveness of the B\\'{e}zier\nmechanism beyond variance and covariance estimation, showcasing its\napplicability to other statistical tasks.",
+    "updated" : "2025-09-05T08:37:30Z",
+    "published" : "2025-09-05T08:37:30Z",
+    "authors" : [
+      {
+        "name" : "Shokichi Takakura"
+      },
+      {
+        "name" : "Seng Pei Liew"
+      },
+      {
+        "name" : "Satoshi Hasegawa"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.DS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.04710v1",
+    "title" : "Network-Aware Differential Privacy",
+    "summary" : "Differential privacy (DP) is a privacy-enhancement technology (PET) that\nreceives prominent attention from the academia, industry, and government. One\nmain development over the past decade has been the decentralization of DP,\nincluding local DP and shuffle DP. Despite that decentralized DP heavily relies\non network communications for data collection,we found that: 1) no systematic\nstudy has surveyed the research opportunities at the intersection of networking\nand DP; 2) nor have there been significant efforts to develop DP mechanisms\nthat are explicitly tailored for network environments. In this paper, we seek\nto address this gap by initiating a new direction of network-aware DP. We\nidentified two focus areas where the network research can offer substantive\ncontributions to the design and deployment of DP, related to network security\nand topology. Through this work, we hope to encourage more research that\nadapt/optimize DP's deployment in various network environments.",
+    "updated" : "2025-09-04T23:53:54Z",
+    "published" : "2025-09-04T23:53:54Z",
+    "authors" : [
+      {
+        "name" : "Zhou Li"
+      },
+      {
+        "name" : "Yu Zheng"
+      },
+      {
+        "name" : "Tianhao Wang"
+      },
+      {
+        "name" : "Sang-Woo Jun"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
