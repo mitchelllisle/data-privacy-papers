@@ -2,6 +2,116 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.05265v1">On Evaluating the Poisoning Robustness of Federated Learning under Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-05T17:23:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zijian Wang, Wei Tong, Tingxuan Han, Haoyu Chen, Tianling Zhang, Yunlong Mao, Sheng Zhong</p>
+    <p><b>Summary:</b> Federated learning (FL) combined with local differential privacy (LDP)
+enables privacy-preserving model training across decentralized data sources.
+However, the decentralized data-management paradigm leaves LDPFL vulnerable to
+participants with malicious intent. The robustness of LDPFL protocols,
+particularly against model poisoning attacks (MPA), where adversaries inject
+malicious updates to disrupt global model convergence, remains insufficiently
+studied. In this paper, we propose a novel and extensible model poisoning
+attack framework tailored for LDPFL settings. Our approach is driven by the
+objective of maximizing the global training loss while adhering to local
+privacy constraints. To counter robust aggregation mechanisms such as
+Multi-Krum and trimmed mean, we develop adaptive attacks that embed carefully
+crafted constraints into a reverse training process, enabling evasion of these
+defenses. We evaluate our framework across three representative LDPFL
+protocols, three benchmark datasets, and two types of deep neural networks.
+Additionally, we investigate the influence of data heterogeneity and privacy
+budgets on attack effectiveness. Experimental results demonstrate that our
+adaptive attacks can significantly degrade the performance of the global model,
+revealing critical vulnerabilities and highlighting the need for more robust
+LDPFL defense strategies against MPA. Our code is available at
+https://github.com/ZiJW/LDPFL-Attack</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.05162v1">Verifiability and Privacy in Federated Learning through Context-Hiding
+  Multi-Key Homomorphic Authenticators</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-05T14:57:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Simone Bottoni, Giulio Zizzo, Stefano Braghin, Alberto Trombetta</p>
+    <p><b>Summary:</b> Federated Learning has rapidly expanded from its original inception to now
+have a large body of research, several frameworks, and sold in a variety of
+commercial offerings. Thus, its security and robustness is of significant
+importance. There are many algorithms that provide robustness in the case of
+malicious clients. However, the aggregator itself may behave maliciously, for
+example, by biasing the model or tampering with the weights to weaken the
+models privacy. In this work, we introduce a verifiable federated learning
+protocol that enables clients to verify the correctness of the aggregators
+computation without compromising the confidentiality of their updates. Our
+protocol uses a standard secure aggregation technique to protect individual
+model updates with a linearly homomorphic authenticator scheme that enables
+efficient, privacy-preserving verification of the aggregated result. Our
+construction ensures that clients can detect manipulation by the aggregator
+while maintaining low computational overhead. We demonstrate that our approach
+scales to large models, enabling verification over large neural networks with
+millions of parameters.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.04919v1">Optimal Variance and Covariance Estimation under Differential Privacy in
+  the Add-Remove Model and Beyond</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-05T08:37:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shokichi Takakura, Seng Pei Liew, Satoshi Hasegawa</p>
+    <p><b>Summary:</b> In this paper, we study the problem of estimating the variance and covariance
+of datasets under differential privacy in the add-remove model. While
+estimation in the swap model has been extensively studied in the literature,
+the add-remove model remains less explored and more challenging, as the dataset
+size must also be kept private. To address this issue, we develop efficient
+mechanisms for variance and covariance estimation based on the \emph{B\'{e}zier
+mechanism}, a novel moment-release framework that leverages Bernstein bases. We
+prove that our proposed mechanisms are minimax optimal in the high-privacy
+regime by establishing new minimax lower bounds. Moreover, beyond worst-case
+scenarios, we analyze instance-wise utility and show that the B\'{e}zier-based
+estimator consistently achieves better utility compared to alternative
+mechanisms. Finally, we demonstrate the effectiveness of the B\'{e}zier
+mechanism beyond variance and covariance estimation, showcasing its
+applicability to other statistical tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.04710v1">Network-Aware Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-04T23:53:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhou Li, Yu Zheng, Tianhao Wang, Sang-Woo Jun</p>
+    <p><b>Summary:</b> Differential privacy (DP) is a privacy-enhancement technology (PET) that
+receives prominent attention from the academia, industry, and government. One
+main development over the past decade has been the decentralization of DP,
+including local DP and shuffle DP. Despite that decentralized DP heavily relies
+on network communications for data collection,we found that: 1) no systematic
+study has surveyed the research opportunities at the intersection of networking
+and DP; 2) nor have there been significant efforts to develop DP mechanisms
+that are explicitly tailored for network environments. In this paper, we seek
+to address this gap by initiating a new direction of network-aware DP. We
+identified two focus areas where the network research can offer substantive
+contributions to the design and deployment of DP, related to network security
+and topology. Through this work, we hope to encourage more research that
+adapt/optimize DP's deployment in various network environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.04358v1">Privacy Perceptions in Robot-Assisted Well-Being Coaching: Examining the
   Roles of Information Transparency, User Control, and Proactivity</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
@@ -2938,116 +3048,6 @@ expectations to chatbot data, prioritizing procedural safeguards over recipient
 trustworthiness. This has important implications for emerging agentic AI
 systems that assume user willingness to integrate personal data across
 platforms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.06647v1">Privacy-Preserving Tabular Synthetic Data Generation Using TabularARGN</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-08T18:57:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrey Sidorenko, Paul Tiwald</p>
-    <p><b>Summary:</b> Synthetic data generation has become essential for securely sharing and
-analyzing sensitive data sets. Traditional anonymization techniques, however,
-often fail to adequately preserve privacy. We introduce the Tabular
-Auto-Regressive Generative Network (TabularARGN), a neural network architecture
-specifically designed for generating high-quality synthetic tabular data. Using
-a discretization-based auto-regressive approach, TabularARGN achieves high data
-fidelity while remaining computationally efficient. We evaluate TabularARGN
-against existing synthetic data generation methods, showing competitive results
-in statistical similarity, machine learning utility, and detection robustness.
-We further perform an in-depth privacy evaluation using systematic
-membership-inference attacks, highlighting the robustness and effective
-privacy-utility balance of our approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.06301v1">FedMeNF: Privacy-Preserving Federated Meta-Learning for Neural Fields</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-08-08T13:24:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Junhyeog Yun, Minui Hong, Gunhee Kim</p>
-    <p><b>Summary:</b> Neural fields provide a memory-efficient representation of data, which can
-effectively handle diverse modalities and large-scale data. However, learning
-to map neural fields often requires large amounts of training data and
-computations, which can be limited to resource-constrained edge devices. One
-approach to tackle this limitation is to leverage Federated Meta-Learning
-(FML), but traditional FML approaches suffer from privacy leakage. To address
-these issues, we introduce a novel FML approach called FedMeNF. FedMeNF
-utilizes a new privacy-preserving loss function that regulates privacy leakage
-in the local meta-optimization. This enables the local meta-learner to optimize
-quickly and efficiently without retaining the client's private data. Our
-experiments demonstrate that FedMeNF achieves fast optimization speed and
-robust reconstruction performance, even with few-shot or non-IID data across
-diverse data modalities, while preserving client data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.06251v1">Synthetic Data Generation and Differential Privacy using Tensor
-  Networks' Matrix Product States (MPS)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-08-08T12:14:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alejandro Moreno R., Desale Fentaw, Samuel Palmer, Raúl Salles de Padua, Ninad Dixit, Samuel Mugel, Roman Orús, Manuel Radons, Josef Menter, Ali Abedi</p>
-    <p><b>Summary:</b> Synthetic data generation is a key technique in modern artificial
-intelligence, addressing data scarcity, privacy constraints, and the need for
-diverse datasets in training robust models. In this work, we propose a method
-for generating privacy-preserving high-quality synthetic tabular data using
-Tensor Networks, specifically Matrix Product States (MPS). We benchmark the
-MPS-based generative model against state-of-the-art models such as CTGAN, VAE,
-and PrivBayes, focusing on both fidelity and privacy-preserving capabilities.
-To ensure differential privacy (DP), we integrate noise injection and gradient
-clipping during training, enabling privacy guarantees via R\'enyi Differential
-Privacy accounting. Across multiple metrics analyzing data fidelity and
-downstream machine learning task performance, our results show that MPS
-outperforms classical models, particularly under strict privacy constraints.
-This work highlights MPS as a promising tool for privacy-aware synthetic data
-generation. By combining the expressive power of tensor network representations
-with formal privacy mechanisms, the proposed approach offers an interpretable
-and scalable alternative for secure data sharing. Its structured design
-facilitates integration into sensitive domains where both data quality and
-confidentiality are critical.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.06208v1">Graph Federated Learning for Personalized Privacy Recommendation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-08T10:44:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ce Na, Kai Yang, Dengzhao Fang, Yu Li, Jingtong Gao, Chengcheng Zhu, Jiale Zhang, Xiaobing Sun, Yi Chang</p>
-    <p><b>Summary:</b> Federated recommendation systems (FedRecs) have gained significant attention
-for providing privacy-preserving recommendation services. However, existing
-FedRecs assume that all users have the same requirements for privacy
-protection, i.e., they do not upload any data to the server. The approaches
-overlook the potential to enhance the recommendation service by utilizing
-publicly available user data. In real-world applications, users can choose to
-be private or public. Private users' interaction data is not shared, while
-public users' interaction data can be shared. Inspired by the issue, this paper
-proposes a novel Graph Federated Learning for Personalized Privacy
-Recommendation (GFed-PP) that adapts to different privacy requirements while
-improving recommendation performance. GFed-PP incorporates the interaction data
-of public users to build a user-item interaction graph, which is then used to
-form a user relationship graph. A lightweight graph convolutional network (GCN)
-is employed to learn each user's user-specific personalized item embedding. To
-protect user privacy, each client learns the user embedding and the scoring
-function locally. Additionally, GFed-PP achieves optimization of the federated
-recommendation framework through the initialization of item embedding on
-clients and the aggregation of the user relationship graph on the server.
-Experimental results demonstrate that GFed-PP significantly outperforms
-existing methods for five datasets, offering superior recommendation accuracy
-without compromising privacy. This framework provides a practical solution for
-accommodating varying privacy preferences in federated recommendation systems.</p>
   </details>
 </div>
 
