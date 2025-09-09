@@ -3416,5 +3416,33 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.05320v1",
+    "title" : "Privacy-Preserving Offloading for Large Language Models in 6G Vehicular\n  Networks",
+    "summary" : "The integration of Large Language Models (LLMs) in 6G vehicular networks\npromises unprecedented advancements in intelligent transportation systems.\nHowever, offloading LLM computations from vehicles to edge infrastructure poses\nsignificant privacy risks, potentially exposing sensitive user data. This paper\npresents a novel privacy-preserving offloading framework for LLM-integrated\nvehicular networks. We introduce a hybrid approach combining federated learning\n(FL) and differential privacy (DP) techniques to protect user data while\nmaintaining LLM performance. Our framework includes a privacy-aware task\npartitioning algorithm that optimizes the trade-off between local and edge\ncomputation, considering both privacy constraints and system efficiency. We\nalso propose a secure communication protocol for transmitting model updates and\naggregating results across the network. Experimental results demonstrate that\nour approach achieves 75\\% global accuracy with only a 2-3\\% reduction compared\nto non-privacy-preserving methods, while maintaining DP guarantees with an\noptimal privacy budget of $\\varepsilon = 0.8$. The framework shows stable\ncommunication overhead of approximately 2.1MB per round with computation\ncomprising over 90\\% of total processing time, validating its efficiency for\nresource-constrained vehicular environments.",
+    "updated" : "2025-08-30T10:08:28Z",
+    "published" : "2025-08-30T10:08:28Z",
+    "authors" : [
+      {
+        "name" : "Ikhlasse Badidi"
+      },
+      {
+        "name" : "Nouhaila El Khiyaoui"
+      },
+      {
+        "name" : "Aya Riany"
+      },
+      {
+        "name" : "Badr Ben Elallid"
+      },
+      {
+        "name" : "Amine Abouaomar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
