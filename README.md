@@ -2,6 +2,53 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.07131v1">SoK: Security and Privacy of AI Agents for Blockchain</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-08T18:32:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nicolò Romandini, Carlo Mazzocca, Kai Otsuki, Rebecca Montanari</p>
+    <p><b>Summary:</b> Blockchain and smart contracts have garnered significant interest in recent
+years as the foundation of a decentralized, trustless digital ecosystem,
+thereby eliminating the need for traditional centralized authorities. Despite
+their central role in powering Web3, their complexity still presents
+significant barriers for non-expert users. To bridge this gap, Artificial
+Intelligence (AI)-based agents have emerged as valuable tools for interacting
+with blockchain environments, supporting a range of tasks, from analyzing
+on-chain data and optimizing transaction strategies to detecting
+vulnerabilities within smart contracts. While interest in applying AI to
+blockchain is growing, the literature still lacks a comprehensive survey that
+focuses specifically on the intersection with AI agents. Most of the related
+work only provides general considerations, without focusing on any specific
+domain. This paper addresses this gap by presenting the first Systematization
+of Knowledge dedicated to AI-driven systems for blockchain, with a special
+focus on their security and privacy dimensions, shedding light on their
+applications, limitations, and future research directions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.07055v1">Sequentially Auditing Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-09-08T17:57:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tomás González, Mateo Dulce-Rubio, Aaditya Ramdas, Mónica Ribero</p>
+    <p><b>Summary:</b> We propose a practical sequential test for auditing differential privacy
+guarantees of black-box mechanisms. The test processes streams of mechanisms'
+outputs providing anytime-valid inference while controlling Type I error,
+overcoming the fixed sample size limitation of previous batch auditing methods.
+Experiments show this test detects violations with sample sizes that are orders
+of magnitude smaller than existing methods, reducing this number from 50K to a
+few hundred examples, across diverse realistic mechanisms. Notably, it
+identifies DP-SGD privacy violations in \textit{under} one training run, unlike
+prior methods needing full model training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.06444v1">HyFedRAG: A Federated Retrieval-Augmented Generation Framework for
   Heterogeneous and Privacy-Sensitive Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -74,7 +121,7 @@ data-rich nature of the XR technology introduces distinctive challenges.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.06361v1">Speaker Privacy and Security in the Big Data Era: Protection and Defense
+  <h3><a href="http://arxiv.org/abs/2509.06361v2">Speaker Privacy and Security in the Big Data Era: Protection and Defense
   against Deepfake</a></h3>
   
   <p><b>Published on:</b> 2025-09-08T06:22:36Z</p>
@@ -3002,66 +3049,6 @@ algorithm is a linear-time algorithm for constructing a histogram under
 pure-DP, which is of independent interest. Finally, we conducted experiments on
 both synthetic and real-world datasets to verify the practical performance of
 our DP-DBSCAN algorithm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09232v1">PETLP: A Privacy-by-Design Pipeline for Social Media Data in AI Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-08-12T08:33:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nick Oh, Giorgos D. Vrakas, Siân J. M. Brooke, Sasha Morinière, Toju Duke</p>
-    <p><b>Summary:</b> Social media data presents AI researchers with overlapping obligations under
-the GDPR, copyright law, and platform terms -- yet existing frameworks fail to
-integrate these regulatory domains, leaving researchers without unified
-guidance. We introduce PETLP (Privacy-by-design Extract, Transform, Load, and
-Present), a compliance framework that embeds legal safeguards directly into
-extended ETL pipelines. Central to PETLP is treating Data Protection Impact
-Assessments as living documents that evolve from pre-registration through
-dissemination. Through systematic Reddit analysis, we demonstrate how
-extraction rights fundamentally differ between qualifying research
-organisations (who can invoke DSM Article 3 to override platform restrictions)
-and commercial entities (bound by terms of service), whilst GDPR obligations
-apply universally. We reveal why true anonymisation remains unachievable for
-social media data and expose the legal gap between permitted dataset creation
-and uncertain model distribution. By structuring compliance decisions into
-practical workflows and simplifying institutional data management plans, PETLP
-enables researchers to navigate regulatory complexity with confidence, bridging
-the gap between legal requirements and research practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.14905v1">Privacy Preserving Inference of Personalized Content for Out of Matrix
-  Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-12T02:55:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Michael Sun, Tai Vu, Andrew Wang</p>
-    <p><b>Summary:</b> Recommender systems for niche and dynamic communities face persistent
-challenges from data sparsity, cold start users and items, and privacy
-constraints. Traditional collaborative filtering and content-based approaches
-underperform in these settings, either requiring invasive user data or failing
-when preference histories are absent. We present DeepNaniNet, a deep neural
-recommendation framework that addresses these challenges through an inductive
-graph-based architecture combining user-item interactions, item-item relations,
-and rich textual review embeddings derived from BERT. Our design enables cold
-start recommendations without profile mining, using a novel "content basket"
-user representation and an autoencoder-based generalization strategy for unseen
-users. We introduce AnimeULike, a new dataset of 10,000 anime titles and 13,000
-users, to evaluate performance in realistic scenarios with high proportions of
-guest or low-activity users. DeepNaniNet achieves state-of-the-art cold start
-results on the CiteULike benchmark, matches DropoutNet in user recall without
-performance degradation for out-of-matrix users, and outperforms Weighted
-Matrix Factorization (WMF) and DropoutNet on AnimeULike warm start by up to 7x
-and 1.5x in Recall@100, respectively. Our findings demonstrate that DeepNaniNet
-delivers high-quality, privacy-preserving recommendations in data-sparse, cold
-start-heavy environments while effectively integrating heterogeneous content
-sources.</p>
   </details>
 </div>
 
