@@ -835,5 +835,89 @@
       "cs.LG",
       "cs.SI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.07131v1",
+    "title" : "SoK: Security and Privacy of AI Agents for Blockchain",
+    "summary" : "Blockchain and smart contracts have garnered significant interest in recent\nyears as the foundation of a decentralized, trustless digital ecosystem,\nthereby eliminating the need for traditional centralized authorities. Despite\ntheir central role in powering Web3, their complexity still presents\nsignificant barriers for non-expert users. To bridge this gap, Artificial\nIntelligence (AI)-based agents have emerged as valuable tools for interacting\nwith blockchain environments, supporting a range of tasks, from analyzing\non-chain data and optimizing transaction strategies to detecting\nvulnerabilities within smart contracts. While interest in applying AI to\nblockchain is growing, the literature still lacks a comprehensive survey that\nfocuses specifically on the intersection with AI agents. Most of the related\nwork only provides general considerations, without focusing on any specific\ndomain. This paper addresses this gap by presenting the first Systematization\nof Knowledge dedicated to AI-driven systems for blockchain, with a special\nfocus on their security and privacy dimensions, shedding light on their\napplications, limitations, and future research directions.",
+    "updated" : "2025-09-08T18:32:15Z",
+    "published" : "2025-09-08T18:32:15Z",
+    "authors" : [
+      {
+        "name" : "Nicolò Romandini"
+      },
+      {
+        "name" : "Carlo Mazzocca"
+      },
+      {
+        "name" : "Kai Otsuki"
+      },
+      {
+        "name" : "Rebecca Montanari"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.07055v1",
+    "title" : "Sequentially Auditing Differential Privacy",
+    "summary" : "We propose a practical sequential test for auditing differential privacy\nguarantees of black-box mechanisms. The test processes streams of mechanisms'\noutputs providing anytime-valid inference while controlling Type I error,\novercoming the fixed sample size limitation of previous batch auditing methods.\nExperiments show this test detects violations with sample sizes that are orders\nof magnitude smaller than existing methods, reducing this number from 50K to a\nfew hundred examples, across diverse realistic mechanisms. Notably, it\nidentifies DP-SGD privacy violations in \\textit{under} one training run, unlike\nprior methods needing full model training.",
+    "updated" : "2025-09-08T17:57:51Z",
+    "published" : "2025-09-08T17:57:51Z",
+    "authors" : [
+      {
+        "name" : "Tomás González"
+      },
+      {
+        "name" : "Mateo Dulce-Rubio"
+      },
+      {
+        "name" : "Aaditya Ramdas"
+      },
+      {
+        "name" : "Mónica Ribero"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.06361v2",
+    "title" : "Speaker Privacy and Security in the Big Data Era: Protection and Defense\n  against Deepfake",
+    "summary" : "In the era of big data, remarkable advancements have been achieved in\npersonalized speech generation techniques that utilize speaker attributes,\nincluding voice and speaking style, to generate deepfake speech. This has also\namplified global security risks from deepfake speech misuse, resulting in\nconsiderable societal costs worldwide. To address the security threats posed by\ndeepfake speech, techniques have been developed focusing on both the protection\nof voice attributes and the defense against deepfake speech. Among them, the\nvoice anonymization technique has been developed to protect voice attributes\nfrom extraction for deepfake generation, while deepfake detection and\nwatermarking have been utilized to defend against the misuse of deepfake\nspeech. This paper provides a short and concise overview of the three\ntechniques, describing the methodologies, advancements, and challenges. A\ncomprehensive version, offering additional discussions, will be published in\nthe near future.",
+    "updated" : "2025-09-09T04:29:25Z",
+    "published" : "2025-09-08T06:22:36Z",
+    "authors" : [
+      {
+        "name" : "Liping Chen"
+      },
+      {
+        "name" : "Kong Aik Lee"
+      },
+      {
+        "name" : "Zhen-Hua Ling"
+      },
+      {
+        "name" : "Xin Wang"
+      },
+      {
+        "name" : "Rohan Kumar Das"
+      },
+      {
+        "name" : "Tomoki Toda"
+      },
+      {
+        "name" : "Haizhou Li"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
   }
 ]
