@@ -919,5 +919,258 @@
     "categories" : [
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08804v1",
+    "title" : "Approximate Algorithms for Verifying Differential Privacy with Gaussian\n  Distributions",
+    "summary" : "The verification of differential privacy algorithms that employ Gaussian\ndistributions is little understood. This paper tackles the challenge of\nverifying such programs by introducing a novel approach to approximating\nprobability distributions of loop-free programs that sample from both discrete\nand continuous distributions with computable probability density functions,\nincluding Gaussian and Laplace. We establish that verifying\n$(\\epsilon,\\delta)$-differential privacy for these programs is \\emph{almost\ndecidable}, meaning the problem is decidable for all values of $\\delta$ except\nthose in a finite set. Our verification algorithm is based on computing\nprobabilities to any desired precision by combining integral approximations,\nand tail probability bounds. The proposed methods are implemented in the tool,\nDipApprox, using the FLINT library for high-precision integral computations,\nand incorporate optimizations to enhance scalability. We validate {\\ourtool} on\nfundamental privacy-preserving algorithms, such as Gaussian variants of the\nSparse Vector Technique and Noisy Max, demonstrating its effectiveness in both\nconfirming privacy guarantees and detecting violations.",
+    "updated" : "2025-09-10T17:37:56Z",
+    "published" : "2025-09-10T17:37:56Z",
+    "authors" : [
+      {
+        "name" : "Bishnu Bhusal"
+      },
+      {
+        "name" : "Rohit Chadha"
+      },
+      {
+        "name" : "A. Prasad Sistla"
+      },
+      {
+        "name" : "Mahesh Viswanathan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.PL",
+      "D.2.5; F.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08782v1",
+    "title" : "Extended Version: Security and Privacy Perceptions of Pakistani Facebook\n  Matrimony Group Users",
+    "summary" : "In Pakistan, where dating apps are subject to censorship, Facebook matrimony\ngroups -- also referred to as marriage groups -- serve as alternative virtual\nspaces for members to search for potential life partners. To participate in\nthese groups, members often share sensitive personal information such as\nphotos, addresses, and phone numbers, which exposes them to risks such as\nfraud, blackmail, and identity theft. To better protect users of Facebook\nmatrimony groups, we need to understand aspects related to user safety, such as\nhow users perceive risks, what influences their trust in sharing personal\ninformation, and how they navigate security and privacy concerns when seeking\npotential partners online. In this study, through 23 semi-structured\ninterviews, we explore how Pakistani users of Facebook matrimony groups\nperceive and navigate risks of sharing personal information, and how cultural\nnorms and expectations influence their behavior in these groups.\n  We find elevated privacy concerns among participants, leading them to share\nlimited personal information and creating mistrust among potential partners.\nMany also expressed concerns about the authenticity of profiles and major\nsecurity risks, such as identity theft, harassment, and social judgment. Our\nwork highlights the challenges of safely navigating Facebook matrimony groups\nin Pakistan and offers recommendations for such as implementing stronger\nidentity verification by group admins, enforcing stricter cybersecurity laws,\nclear platform guidelines to ensure accountability, and technical feature\nenhancements -- including restricting screenshots, picture downloads, and\nimplementing anonymous chats -- to protect user data and build trust.",
+    "updated" : "2025-09-10T17:12:23Z",
+    "published" : "2025-09-10T17:12:23Z",
+    "authors" : [
+      {
+        "name" : "Mah Jan Dorazahi"
+      },
+      {
+        "name" : "Deepthi Mungara"
+      },
+      {
+        "name" : "Yasemin Acar"
+      },
+      {
+        "name" : "Harshini Sri Ramulu"
+      }
+    ],
+    "categories" : [
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08722v1",
+    "title" : "SilentLedger: Privacy-Preserving Auditing for Blockchains with Complete\n  Non-Interactivity",
+    "summary" : "Privacy-preserving blockchain systems are essential for protecting\ntransaction data, yet they must also provide auditability that enables auditors\nto recover participant identities and transaction amounts when warranted.\nExisting designs often compromise the independence of auditing and\ntransactions, introducing extra interactions that undermine usability and\nscalability. Moreover, many auditable solutions depend on auditors serving as\nvalidators or recording nodes, which introduces risks to both data security and\nsystem reliability.\n  To overcome these challenges, we propose SilentLedger, a privacy-preserving\ntransaction system with auditing and complete non-interactivity. To support\npublic verification of authorization, we introduce a renewable anonymous\ncertificate scheme with formal semantics and a rigorous security model.\nSilentLedger further employs traceable transaction mechanisms constructed from\nestablished cryptographic primitives, enabling users to transact without\ninteraction while allowing auditors to audit solely from on-chain data. We\nformally prove security properties including authenticity, anonymity,\nconfidentiality, and soundness, provide a concrete instantiation, and evaluate\nperformance under a standard 2-2 transaction model. Our implementation and\nbenchmarks demonstrate that SilentLedger achieves superior performance compared\nwith state-of-the-art solutions.",
+    "updated" : "2025-09-10T16:14:34Z",
+    "published" : "2025-09-10T16:14:34Z",
+    "authors" : [
+      {
+        "name" : "Zihan Liu"
+      },
+      {
+        "name" : "Xiaohu Wang"
+      },
+      {
+        "name" : "Chao Lin"
+      },
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Debiao He"
+      },
+      {
+        "name" : "Xinyi Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08720v1",
+    "title" : "PAnDA: Rethinking Metric Differential Privacy Optimization at Scale with\n  Anchor-Based Approximation",
+    "summary" : "Metric Differential Privacy (mDP) extends the local differential privacy\n(LDP) framework to metric spaces, enabling more nuanced privacy protection for\ndata such as geo-locations. However, existing mDP optimization methods,\nparticularly those based on linear programming (LP), face scalability\nchallenges due to the quadratic growth in decision variables. In this paper, we\npropose Perturbation via Anchor-based Distributed Approximation (PAnDA), a\nscalable two-phase framework for optimizing metric differential privacy (mDP).\nTo reduce computational overhead, PAnDA allows each user to select a small set\nof anchor records, enabling the server to solve a compact linear program over a\nreduced domain. We introduce three anchor selection strategies, exponential\ndecay (PAnDA-e), power-law decay (PAnDA-p), and logistic decay (PAnDA-l), and\nestablish theoretical guarantees under a relaxed privacy notion called\nprobabilistic mDP (PmDP). Experiments on real-world geo-location datasets\ndemonstrate that PAnDA scales to secret domains with up to 5,000 records, two\ntimes larger than prior LP-based methods, while providing theoretical\nguarantees for both privacy and utility.",
+    "updated" : "2025-09-10T16:14:08Z",
+    "published" : "2025-09-10T16:14:08Z",
+    "authors" : [
+      {
+        "name" : "Ruiyao Liu"
+      },
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08704v1",
+    "title" : "Tight Privacy Audit in One Run",
+    "summary" : "In this paper, we study the problem of privacy audit in one run and show that\nour method achieves tight audit results for various differentially private\nprotocols. This includes obtaining tight results for auditing\n$(\\varepsilon,\\delta)$-DP algorithms where all previous work fails to achieve\nin any parameter setups. We first formulate a framework for privacy audit\n\\textit{in one run} with refinement compared with previous work. Then, based on\nmodeling privacy by the $f$-DP formulation, we study the implications of our\nframework to obtain a theoretically justified lower bound for privacy audit. In\nthe experiment, we compare with previous work and show that our audit method\noutperforms the rest in auditing various differentially private algorithms. We\nalso provide experiments that give contrasting conclusions to previous work on\nthe parameter settings for privacy audits in one run.",
+    "updated" : "2025-09-10T15:55:03Z",
+    "published" : "2025-09-10T15:55:03Z",
+    "authors" : [
+      {
+        "name" : "Zihang Xiang"
+      },
+      {
+        "name" : "Tianhao Wang"
+      },
+      {
+        "name" : "Hanshen Xiao"
+      },
+      {
+        "name" : "Yuan Tian"
+      },
+      {
+        "name" : "Di Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08554v1",
+    "title" : "Acceptability of AI Assistants for Privacy: Perceptions of Experts and\n  Users on Personalized Privacy Assistants",
+    "summary" : "Individuals increasingly face an overwhelming number of tasks and decisions.\nTo cope with the new reality, there is growing research interest in developing\nintelligent agents that can effectively assist people across various aspects of\ndaily life in a tailored manner, with privacy emerging as a particular area of\napplication. Artificial intelligence (AI) assistants for privacy, such as\npersonalized privacy assistants (PPAs), have the potential to automatically\nexecute privacy decisions based on users' pre-defined privacy preferences,\nsparing them the mental effort and time usually spent on each privacy decision.\nThis helps ensure that, even when users feel overwhelmed or resigned about\nprivacy, the decisions made by PPAs still align with their true preferences and\nbest interests. While research has explored possible designs of such agents,\nuser and expert perspectives on the acceptability of such AI-driven solutions\nremain largely unexplored. In this study, we conducted five focus groups with\ndomain experts (n = 11) and potential users (n = 26) to uncover key themes\nshaping the acceptance of PPAs. Factors influencing the acceptability of AI\nassistants for privacy include design elements (such as information sources\nused by the agent), external conditions (such as regulation and literacy\neducation), and systemic conditions (e.g., public or market providers and the\nneed to avoid monopoly) to PPAs. These findings provide theoretical extensions\nto technology acceptance models measuring PPAs, insights on design, and policy\nimplications for PPAs, as well as broader implications for the design of AI\nassistants.",
+    "updated" : "2025-09-10T12:59:39Z",
+    "published" : "2025-09-10T12:59:39Z",
+    "authors" : [
+      {
+        "name" : "Meihe Xu"
+      },
+      {
+        "name" : "Aurelia Tamò-Larrieux"
+      },
+      {
+        "name" : "Arianna Rossi"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08387v1",
+    "title" : "Infinite Stream Estimation under Personalized $w$-Event Privacy",
+    "summary" : "Streaming data collection is indispensable for stream data analysis, such as\nevent monitoring. However, publishing these data directly leads to privacy\nleaks. $w$-event privacy is a valuable tool to protect individual privacy\nwithin a given time window while maintaining high accuracy in data collection.\nMost existing $w$-event privacy studies on infinite data stream only focus on\nhomogeneous privacy requirements for all users. In this paper, we propose\npersonalized $w$-event privacy protection that allows different users to have\ndifferent privacy requirements in private data stream estimation. Specifically,\nwe design a mechanism that allows users to maintain constant privacy\nrequirements at each time slot, namely Personalized Window Size Mechanism\n(PWSM). Then, we propose two solutions to accurately estimate stream data\nstatistics while achieving $w$-event level $\\epsilon$ personalized differential\nprivacy ( ($w$, $\\epsilon$)-EPDP), namely Personalized Budget Distribution\n(PBD) and Peronalized Budget Absorption (PBA). PBD always provides at least the\nsame privacy budget for the next time step as the amount consumed in the\nprevious release. PBA fully absorbs the privacy budget from the previous $k$\ntime slots, while also borrowing from the privacy budget of the next $k$ time\nslots, to increase the privacy budget for the current time slot. We prove that\nboth PBD and PBA outperform the state-of-the-art private stream estimation\nmethods while satisfying the privacy requirements of all users. We demonstrate\nthe efficiency and effectiveness of our PBD and PBA on both real and synthetic\ndata sets, compared with the recent uniformity $w$-event approaches, Budget\nDistribution (BD) and Budget Absorption (BA). Our PBD achieves 68% less error\nthan BD on average on real data sets. Besides, our PBA achieves 24.9% less\nerror than BA on average on synthetic data sets.",
+    "updated" : "2025-09-10T08:27:20Z",
+    "published" : "2025-09-10T08:27:20Z",
+    "authors" : [
+      {
+        "name" : "Leilei Du"
+      },
+      {
+        "name" : "Peng Cheng"
+      },
+      {
+        "name" : "Lei Chen"
+      },
+      {
+        "name" : "Heng Tao Shen"
+      },
+      {
+        "name" : "Xuemin Lin"
+      },
+      {
+        "name" : "Wei Xi"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08142v1",
+    "title" : "Privacy Preserving Semantic Communications Using Vision Language Models:\n  A Segmentation and Generation Approach",
+    "summary" : "Semantic communication has emerged as a promising paradigm for\nnext-generation wireless systems, improving the communication efficiency by\ntransmitting high-level semantic features. However, reliance on unimodal\nrepresentations can degrade reconstruction under poor channel conditions, and\nprivacy concerns of the semantic information attack also gain increasing\nattention. In this work, a privacy-preserving semantic communication framework\nis proposed to protect sensitive content of the image data. Leveraging a\nvision-language model (VLM), the proposed framework identifies and removes\nprivate content regions from input images prior to transmission. A shared\nprivacy database enables semantic alignment between the transmitter and\nreceiver to ensure consistent identification of sensitive entities. At the\nreceiver, a generative module reconstructs the masked regions using learned\nsemantic priors and conditioned on the received text embedding. Simulation\nresults show that generalizes well to unseen image processing tasks, improves\nreconstruction quality at the authorized receiver by over 10% using text\nembedding, and reduces identity leakage to the eavesdropper by more than 50%.",
+    "updated" : "2025-09-09T20:49:05Z",
+    "published" : "2025-09-09T20:49:05Z",
+    "authors" : [
+      {
+        "name" : "Haoran Chang"
+      },
+      {
+        "name" : "Mingzhe Chen"
+      },
+      {
+        "name" : "Huaxia Wang"
+      },
+      {
+        "name" : "Qianqian Zhang"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08018v1",
+    "title" : "Enhancing Privacy Preservation and Reducing Analysis Time with Federated\n  Transfer Learning in Digital Twins-based Computed Tomography Scan Analysis",
+    "summary" : "The application of Digital Twin (DT) technology and Federated Learning (FL)\nhas great potential to change the field of biomedical image analysis,\nparticularly for Computed Tomography (CT) scans. This paper presents Federated\nTransfer Learning (FTL) as a new Digital Twin-based CT scan analysis paradigm.\nFTL uses pre-trained models and knowledge transfer between peer nodes to solve\nproblems such as data privacy, limited computing resources, and data\nheterogeneity. The proposed framework allows real-time collaboration between\ncloud servers and Digital Twin-enabled CT scanners while protecting patient\nidentity. We apply the FTL method to a heterogeneous CT scan dataset and assess\nmodel performance using convergence time, model accuracy, precision, recall, F1\nscore, and confusion matrix. It has been shown to perform better than\nconventional FL and Clustered Federated Learning (CFL) methods with better\nprecision, accuracy, recall, and F1-score. The technique is beneficial in\nsettings where the data is not independently and identically distributed\n(non-IID), and it offers reliable, efficient, and secure solutions for medical\ndiagnosis. These findings highlight the possibility of using FTL to improve\ndecision-making in digital twin-based CT scan analysis, secure and efficient\nmedical image analysis, promote privacy, and open new possibilities for\napplying precision medicine and smart healthcare systems.",
+    "updated" : "2025-09-09T04:54:08Z",
+    "published" : "2025-09-09T04:54:08Z",
+    "authors" : [
+      {
+        "name" : "Avais Jan"
+      },
+      {
+        "name" : "Qasim Zia"
+      },
+      {
+        "name" : "Murray Patterson"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.06142v2",
+    "title" : "RetinaGuard: Obfuscating Retinal Age in Fundus Images for Biometric\n  Privacy Preserving",
+    "summary" : "The integration of AI with medical images enables the extraction of implicit\nimage-derived biomarkers for a precise health assessment. Recently, retinal\nage, a biomarker predicted from fundus images, is a proven predictor of\nsystemic disease risks, behavioral patterns, aging trajectory and even\nmortality. However, the capability to infer such sensitive biometric data\nraises significant privacy risks, where unauthorized use of fundus images could\nlead to bioinformation leakage, breaching individual privacy. In response, we\nformulate a new research problem of biometric privacy associated with medical\nimages and propose RetinaGuard, a novel privacy-enhancing framework that\nemploys a feature-level generative adversarial masking mechanism to obscure\nretinal age while preserving image visual quality and disease diagnostic\nutility. The framework further utilizes a novel multiple-to-one knowledge\ndistillation strategy incorporating a retinal foundation model and diverse\nsurrogate age encoders to enable a universal defense against black-box age\nprediction models. Comprehensive evaluations confirm that RetinaGuard\nsuccessfully obfuscates retinal age prediction with minimal impact on image\nquality and pathological feature representation. RetinaGuard is also flexible\nfor extension to other medical image derived biomarkers. RetinaGuard is also\nflexible for extension to other medical image biomarkers.",
+    "updated" : "2025-09-10T02:06:48Z",
+    "published" : "2025-09-07T17:16:42Z",
+    "authors" : [
+      {
+        "name" : "Zhengquan Luo"
+      },
+      {
+        "name" : "Chi Liu"
+      },
+      {
+        "name" : "Dongfu Xiao"
+      },
+      {
+        "name" : "Zhen Yu"
+      },
+      {
+        "name" : "Yueye Wang"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
