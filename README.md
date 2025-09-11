@@ -2,6 +2,281 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08804v1">Approximate Algorithms for Verifying Differential Privacy with Gaussian
+  Distributions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36"> 
+  <p><b>Published on:</b> 2025-09-10T17:37:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bishnu Bhusal, Rohit Chadha, A. Prasad Sistla, Mahesh Viswanathan</p>
+    <p><b>Summary:</b> The verification of differential privacy algorithms that employ Gaussian
+distributions is little understood. This paper tackles the challenge of
+verifying such programs by introducing a novel approach to approximating
+probability distributions of loop-free programs that sample from both discrete
+and continuous distributions with computable probability density functions,
+including Gaussian and Laplace. We establish that verifying
+$(\epsilon,\delta)$-differential privacy for these programs is \emph{almost
+decidable}, meaning the problem is decidable for all values of $\delta$ except
+those in a finite set. Our verification algorithm is based on computing
+probabilities to any desired precision by combining integral approximations,
+and tail probability bounds. The proposed methods are implemented in the tool,
+DipApprox, using the FLINT library for high-precision integral computations,
+and incorporate optimizations to enhance scalability. We validate {\ourtool} on
+fundamental privacy-preserving algorithms, such as Gaussian variants of the
+Sparse Vector Technique and Noisy Max, demonstrating its effectiveness in both
+confirming privacy guarantees and detecting violations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08782v1">Extended Version: Security and Privacy Perceptions of Pakistani Facebook
+  Matrimony Group Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2025-09-10T17:12:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mah Jan Dorazahi, Deepthi Mungara, Yasemin Acar, Harshini Sri Ramulu</p>
+    <p><b>Summary:</b> In Pakistan, where dating apps are subject to censorship, Facebook matrimony
+groups -- also referred to as marriage groups -- serve as alternative virtual
+spaces for members to search for potential life partners. To participate in
+these groups, members often share sensitive personal information such as
+photos, addresses, and phone numbers, which exposes them to risks such as
+fraud, blackmail, and identity theft. To better protect users of Facebook
+matrimony groups, we need to understand aspects related to user safety, such as
+how users perceive risks, what influences their trust in sharing personal
+information, and how they navigate security and privacy concerns when seeking
+potential partners online. In this study, through 23 semi-structured
+interviews, we explore how Pakistani users of Facebook matrimony groups
+perceive and navigate risks of sharing personal information, and how cultural
+norms and expectations influence their behavior in these groups.
+  We find elevated privacy concerns among participants, leading them to share
+limited personal information and creating mistrust among potential partners.
+Many also expressed concerns about the authenticity of profiles and major
+security risks, such as identity theft, harassment, and social judgment. Our
+work highlights the challenges of safely navigating Facebook matrimony groups
+in Pakistan and offers recommendations for such as implementing stronger
+identity verification by group admins, enforcing stricter cybersecurity laws,
+clear platform guidelines to ensure accountability, and technical feature
+enhancements -- including restricting screenshots, picture downloads, and
+implementing anonymous chats -- to protect user data and build trust.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08722v1">SilentLedger: Privacy-Preserving Auditing for Blockchains with Complete
+  Non-Interactivity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-10T16:14:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihan Liu, Xiaohu Wang, Chao Lin, Minghui Xu, Debiao He, Xinyi Huang</p>
+    <p><b>Summary:</b> Privacy-preserving blockchain systems are essential for protecting
+transaction data, yet they must also provide auditability that enables auditors
+to recover participant identities and transaction amounts when warranted.
+Existing designs often compromise the independence of auditing and
+transactions, introducing extra interactions that undermine usability and
+scalability. Moreover, many auditable solutions depend on auditors serving as
+validators or recording nodes, which introduces risks to both data security and
+system reliability.
+  To overcome these challenges, we propose SilentLedger, a privacy-preserving
+transaction system with auditing and complete non-interactivity. To support
+public verification of authorization, we introduce a renewable anonymous
+certificate scheme with formal semantics and a rigorous security model.
+SilentLedger further employs traceable transaction mechanisms constructed from
+established cryptographic primitives, enabling users to transact without
+interaction while allowing auditors to audit solely from on-chain data. We
+formally prove security properties including authenticity, anonymity,
+confidentiality, and soundness, provide a concrete instantiation, and evaluate
+performance under a standard 2-2 transaction model. Our implementation and
+benchmarks demonstrate that SilentLedger achieves superior performance compared
+with state-of-the-art solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08720v1">PAnDA: Rethinking Metric Differential Privacy Optimization at Scale with
+  Anchor-Based Approximation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-10T16:14:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruiyao Liu, Chenxi Qiu</p>
+    <p><b>Summary:</b> Metric Differential Privacy (mDP) extends the local differential privacy
+(LDP) framework to metric spaces, enabling more nuanced privacy protection for
+data such as geo-locations. However, existing mDP optimization methods,
+particularly those based on linear programming (LP), face scalability
+challenges due to the quadratic growth in decision variables. In this paper, we
+propose Perturbation via Anchor-based Distributed Approximation (PAnDA), a
+scalable two-phase framework for optimizing metric differential privacy (mDP).
+To reduce computational overhead, PAnDA allows each user to select a small set
+of anchor records, enabling the server to solve a compact linear program over a
+reduced domain. We introduce three anchor selection strategies, exponential
+decay (PAnDA-e), power-law decay (PAnDA-p), and logistic decay (PAnDA-l), and
+establish theoretical guarantees under a relaxed privacy notion called
+probabilistic mDP (PmDP). Experiments on real-world geo-location datasets
+demonstrate that PAnDA scales to secret domains with up to 5,000 records, two
+times larger than prior LP-based methods, while providing theoretical
+guarantees for both privacy and utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08704v1">Tight Privacy Audit in One Run</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-10T15:55:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihang Xiang, Tianhao Wang, Hanshen Xiao, Yuan Tian, Di Wang</p>
+    <p><b>Summary:</b> In this paper, we study the problem of privacy audit in one run and show that
+our method achieves tight audit results for various differentially private
+protocols. This includes obtaining tight results for auditing
+$(\varepsilon,\delta)$-DP algorithms where all previous work fails to achieve
+in any parameter setups. We first formulate a framework for privacy audit
+\textit{in one run} with refinement compared with previous work. Then, based on
+modeling privacy by the $f$-DP formulation, we study the implications of our
+framework to obtain a theoretically justified lower bound for privacy audit. In
+the experiment, we compare with previous work and show that our audit method
+outperforms the rest in auditing various differentially private algorithms. We
+also provide experiments that give contrasting conclusions to previous work on
+the parameter settings for privacy audits in one run.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08554v1">Acceptability of AI Assistants for Privacy: Perceptions of Experts and
+  Users on Personalized Privacy Assistants</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-09-10T12:59:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Meihe Xu, Aurelia Tamò-Larrieux, Arianna Rossi</p>
+    <p><b>Summary:</b> Individuals increasingly face an overwhelming number of tasks and decisions.
+To cope with the new reality, there is growing research interest in developing
+intelligent agents that can effectively assist people across various aspects of
+daily life in a tailored manner, with privacy emerging as a particular area of
+application. Artificial intelligence (AI) assistants for privacy, such as
+personalized privacy assistants (PPAs), have the potential to automatically
+execute privacy decisions based on users' pre-defined privacy preferences,
+sparing them the mental effort and time usually spent on each privacy decision.
+This helps ensure that, even when users feel overwhelmed or resigned about
+privacy, the decisions made by PPAs still align with their true preferences and
+best interests. While research has explored possible designs of such agents,
+user and expert perspectives on the acceptability of such AI-driven solutions
+remain largely unexplored. In this study, we conducted five focus groups with
+domain experts (n = 11) and potential users (n = 26) to uncover key themes
+shaping the acceptance of PPAs. Factors influencing the acceptability of AI
+assistants for privacy include design elements (such as information sources
+used by the agent), external conditions (such as regulation and literacy
+education), and systemic conditions (e.g., public or market providers and the
+need to avoid monopoly) to PPAs. These findings provide theoretical extensions
+to technology acceptance models measuring PPAs, insights on design, and policy
+implications for PPAs, as well as broader implications for the design of AI
+assistants.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08387v1">Infinite Stream Estimation under Personalized $w$-Event Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-09-10T08:27:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leilei Du, Peng Cheng, Lei Chen, Heng Tao Shen, Xuemin Lin, Wei Xi</p>
+    <p><b>Summary:</b> Streaming data collection is indispensable for stream data analysis, such as
+event monitoring. However, publishing these data directly leads to privacy
+leaks. $w$-event privacy is a valuable tool to protect individual privacy
+within a given time window while maintaining high accuracy in data collection.
+Most existing $w$-event privacy studies on infinite data stream only focus on
+homogeneous privacy requirements for all users. In this paper, we propose
+personalized $w$-event privacy protection that allows different users to have
+different privacy requirements in private data stream estimation. Specifically,
+we design a mechanism that allows users to maintain constant privacy
+requirements at each time slot, namely Personalized Window Size Mechanism
+(PWSM). Then, we propose two solutions to accurately estimate stream data
+statistics while achieving $w$-event level $\epsilon$ personalized differential
+privacy ( ($w$, $\epsilon$)-EPDP), namely Personalized Budget Distribution
+(PBD) and Peronalized Budget Absorption (PBA). PBD always provides at least the
+same privacy budget for the next time step as the amount consumed in the
+previous release. PBA fully absorbs the privacy budget from the previous $k$
+time slots, while also borrowing from the privacy budget of the next $k$ time
+slots, to increase the privacy budget for the current time slot. We prove that
+both PBD and PBA outperform the state-of-the-art private stream estimation
+methods while satisfying the privacy requirements of all users. We demonstrate
+the efficiency and effectiveness of our PBD and PBA on both real and synthetic
+data sets, compared with the recent uniformity $w$-event approaches, Budget
+Distribution (BD) and Budget Absorption (BA). Our PBD achieves 68% less error
+than BD on average on real data sets. Besides, our PBA achieves 24.9% less
+error than BA on average on synthetic data sets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08142v1">Privacy Preserving Semantic Communications Using Vision Language Models:
+  A Segmentation and Generation Approach</a></h3>
+  
+  <p><b>Published on:</b> 2025-09-09T20:49:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoran Chang, Mingzhe Chen, Huaxia Wang, Qianqian Zhang</p>
+    <p><b>Summary:</b> Semantic communication has emerged as a promising paradigm for
+next-generation wireless systems, improving the communication efficiency by
+transmitting high-level semantic features. However, reliance on unimodal
+representations can degrade reconstruction under poor channel conditions, and
+privacy concerns of the semantic information attack also gain increasing
+attention. In this work, a privacy-preserving semantic communication framework
+is proposed to protect sensitive content of the image data. Leveraging a
+vision-language model (VLM), the proposed framework identifies and removes
+private content regions from input images prior to transmission. A shared
+privacy database enables semantic alignment between the transmitter and
+receiver to ensure consistent identification of sensitive entities. At the
+receiver, a generative module reconstructs the masked regions using learned
+semantic priors and conditioned on the received text embedding. Simulation
+results show that generalizes well to unseen image processing tasks, improves
+reconstruction quality at the authorized receiver by over 10% using text
+embedding, and reduces identity leakage to the eavesdropper by more than 50%.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08018v1">Enhancing Privacy Preservation and Reducing Analysis Time with Federated
+  Transfer Learning in Digital Twins-based Computed Tomography Scan Analysis</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-09T04:54:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Avais Jan, Qasim Zia, Murray Patterson</p>
+    <p><b>Summary:</b> The application of Digital Twin (DT) technology and Federated Learning (FL)
+has great potential to change the field of biomedical image analysis,
+particularly for Computed Tomography (CT) scans. This paper presents Federated
+Transfer Learning (FTL) as a new Digital Twin-based CT scan analysis paradigm.
+FTL uses pre-trained models and knowledge transfer between peer nodes to solve
+problems such as data privacy, limited computing resources, and data
+heterogeneity. The proposed framework allows real-time collaboration between
+cloud servers and Digital Twin-enabled CT scanners while protecting patient
+identity. We apply the FTL method to a heterogeneous CT scan dataset and assess
+model performance using convergence time, model accuracy, precision, recall, F1
+score, and confusion matrix. It has been shown to perform better than
+conventional FL and Clustered Federated Learning (CFL) methods with better
+precision, accuracy, recall, and F1-score. The technique is beneficial in
+settings where the data is not independently and identically distributed
+(non-IID), and it offers reliable, efficient, and secure solutions for medical
+diagnosis. These findings highlight the possibility of using FTL to improve
+decision-making in digital twin-based CT scan analysis, secure and efficient
+medical image analysis, promote privacy, and open new possibilities for
+applying precision medicine and smart healthcare systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.07131v1">SoK: Security and Privacy of AI Agents for Blockchain</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-09-08T18:32:15Z</p>
@@ -180,7 +455,7 @@ at epsilon approximately 0.2, versus 50.25% with Gaussian.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.06142v1">RetinaGuard: Obfuscating Retinal Age in Fundus Images for Biometric
+  <h3><a href="http://arxiv.org/abs/2509.06142v2">RetinaGuard: Obfuscating Retinal Age in Fundus Images for Biometric
   Privacy Preserving</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-09-07T17:16:42Z</p>
@@ -2783,272 +3058,6 @@ the text privatization and explainability method. In this, we highlight the
 potential for privacy and explainability to co-exist, and we summarize our
 findings in a collection of practical recommendations for future work at this
 important intersection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10469v1">Enhanced Sparse Point Cloud Data Processing for Privacy-aware Human
-  Action Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-14T09:09:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maimunatu Tunau, Vincent Gbouna Zakka, Zhuangzhuang Dai</p>
-    <p><b>Summary:</b> Human Action Recognition (HAR) plays a crucial role in healthcare, fitness
-tracking, and ambient assisted living technologies. While traditional vision
-based HAR systems are effective, they pose privacy concerns. mmWave radar
-sensors offer a privacy preserving alternative but present challenges due to
-the sparse and noisy nature of their point cloud data. In the literature, three
-primary data processing methods: Density-Based Spatial Clustering of
-Applications with Noise (DBSCAN), the Hungarian Algorithm, and Kalman Filtering
-have been widely used to improve the quality and continuity of radar data.
-However, a comprehensive evaluation of these methods, both individually and in
-combination, remains lacking. This paper addresses that gap by conducting a
-detailed performance analysis of the three methods using the MiliPoint dataset.
-We evaluate each method individually, all possible pairwise combinations, and
-the combination of all three, assessing both recognition accuracy and
-computational cost. Furthermore, we propose targeted enhancements to the
-individual methods aimed at improving accuracy. Our results provide crucial
-insights into the strengths and trade-offs of each method and their
-integrations, guiding future work on mmWave based HAR systems</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10373v1">Privacy-Preserving Approximate Nearest Neighbor Search on
-  High-Dimensional Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-08-14T06:09:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yingfan Liu, Yandi Zhang, Jiadong Xie, Hui Li, Jeffrey Xu Yu, Jiangtao Cui</p>
-    <p><b>Summary:</b> In the era of cloud computing and AI, data owners outsource ubiquitous
-vectors to the cloud, which furnish approximate $k$-nearest neighbors
-($k$-ANNS) services to users. To protect data privacy against the untrusted
-server, privacy-preserving $k$-ANNS (PP-ANNS) on vectors has been a fundamental
-and urgent problem. However, existing PP-ANNS solutions fall short of meeting
-the requirements of data privacy, efficiency, accuracy, and minimal user
-involvement concurrently. To tackle this challenge, we introduce a novel
-solution that primarily executes PP-ANNS on a single cloud server to avoid the
-heavy communication overhead between the cloud and the user. To ensure data
-privacy, we introduce a novel encryption method named distance comparison
-encryption, facilitating secure, efficient, and exact distance comparisons. To
-optimize the trade-off between data privacy and search performance, we design a
-privacy-preserving index that combines the state-of-the-art $k$-ANNS method
-with an approximate distance computation method. Then, we devise a search
-method using a filter-and-refine strategy based on the index. Moreover, we
-provide the security analysis of our solution and conduct extensive experiments
-to demonstrate its superiority over existing solutions. Based on our
-experimental results, our method accelerates PP-ANNS by up to 3 orders of
-magnitude compared to state-of-the-art methods, while not compromising the
-accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09882v1">Location Privacy-Enabled Beamforming in ISAC Scenarios</a></h3>
-  
-  <p><b>Published on:</b> 2025-08-13T15:32:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Umair Ali Khan, Lester Ho, Holger Claussen, Chinmoy Kundu</p>
-    <p><b>Summary:</b> Integrated sensing and communication (ISAC) technology enables simultaneous
-environmental perception and data transmission in wireless networks; however,
-it also exposes user location to receivers. In this paper, we introduce a novel
-beamforming framework guided by the proposed privacy metric direction of
-arrival obfuscation ratio (DAOR) to protect transmitter location privacy in
-ISAC scenarios. Unlike previous approaches, we do not suppress the
-line-of-sight (LOS) component while reshaping the angular power distribution so
-that a false direction appears dominant at the receiver. We derive closed-form
-bounds on the feasible DAOR via generalized eigenvalue analysis and formulate
-an achievable rate-maximization problem under the DAOR constraint. The
-resulting problem is non-convex, which is efficiently solved using semidefinite
-relaxation, eigenmode selection, and optimal power allocation. A suboptimal
-design strategy is also proposed with reduced complexity. Numerical results
-demonstrate that the proposed DAOR-based beamformer achieves a trade-off
-between location privacy and communication rate without nullifying the LOS
-path. Results also show that a suboptimal design achieves a near-optimal
-communication rate with nearly an 85% reduction in computation time at a
-signal-to-noise ratio (SNR) of 10 dB.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09442v1">Shadow in the Cache: Unveiling and Mitigating Privacy Risks of KV-cache
-  in LLM Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-08-13T02:48:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhifan Luo, Shuo Shao, Su Zhang, Lijing Zhou, Yuke Hu, Chenxu Zhao, Zhihao Liu, Zhan Qin</p>
-    <p><b>Summary:</b> The Key-Value (KV) cache, which stores intermediate attention computations
-(Key and Value pairs) to avoid redundant calculations, is a fundamental
-mechanism for accelerating Large Language Model (LLM) inference. However, this
-efficiency optimization introduces significant yet underexplored privacy risks.
-This paper provides the first comprehensive analysis of these vulnerabilities,
-demonstrating that an attacker can reconstruct sensitive user inputs directly
-from the KV-cache. We design and implement three distinct attack vectors: a
-direct Inversion Attack, a more broadly applicable and potent Collision Attack,
-and a semantic-based Injection Attack. These methods demonstrate the
-practicality and severity of KV-cache privacy leakage issues. To mitigate this,
-we propose KV-Cloak, a novel, lightweight, and efficient defense mechanism.
-KV-Cloak uses a reversible matrix-based obfuscation scheme, combined with
-operator fusion, to secure the KV-cache. Our extensive experiments show that
-KV-Cloak effectively thwarts all proposed attacks, reducing reconstruction
-quality to random noise. Crucially, it achieves this robust security with
-virtually no degradation in model accuracy and minimal performance overhead,
-offering a practical solution for trustworthy LLM deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09426v1">Security Analysis of ChatGPT: Threats and Privacy Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-13T02:03:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yushan Xiang, Zhongwen Li, Xiaoqi Li</p>
-    <p><b>Summary:</b> As artificial intelligence technology continues to advance, chatbots are
-becoming increasingly powerful. Among them, ChatGPT, launched by OpenAI, has
-garnered widespread attention globally due to its powerful natural language
-processing capabilities based on the GPT model, which enables it to engage in
-natural conversations with users, understand various forms of linguistic
-expressions, and generate useful information and suggestions. However, as its
-application scope expands, user demand grows, and malicious attacks related to
-it become increasingly frequent, the security threats and privacy risks faced
-by ChatGPT are gradually coming to the forefront. In this paper, the security
-of ChatGPT is mainly studied from two aspects, security threats and privacy
-risks. The article systematically analyzes various types of vulnerabilities
-involved in the above two types of problems and their causes. Briefly, we
-discuss the controversies that ChatGPT may cause at the ethical and moral
-levels. In addition, this paper reproduces several network attack and defense
-test scenarios by simulating the attacker's perspective and methodology.
-Simultaneously, it explores the feasibility of using ChatGPT for security
-vulnerability detection and security tool generation from the defender's
-perspective.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09245v1">Beyond Blanket Masking: Examining Granularity for Privacy Protection in
-  Images Captured by Blind and Low Vision Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-12T17:56:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jeffri Murrugarra-LLerena, Haoran Niu, K. Suzanne Barber, Hal Daumé III, Yang Trista Cao, Paola Cascante-Bonilla</p>
-    <p><b>Summary:</b> As visual assistant systems powered by visual language models (VLMs) become
-more prevalent, concerns over user privacy have grown, particularly for blind
-and low vision users who may unknowingly capture personal private information
-in their images. Existing privacy protection methods rely on coarse-grained
-segmentation, which uniformly masks entire private objects, often at the cost
-of usability. In this work, we propose FiGPriv, a fine-grained privacy
-protection framework that selectively masks only high-risk private information
-while preserving low-risk information. Our approach integrates fine-grained
-segmentation with a data-driven risk scoring mechanism. We evaluate our
-framework using the BIV-Priv-Seg dataset and show that FiG-Priv preserves +26%
-of image content, enhancing the ability of VLMs to provide useful responses by
-11% and identify the image content by 45%, while ensuring privacy protection.
-Project Page: https://artcs1.github.io/VLMPrivacy/</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.09036v1">Can We Trust AI to Govern AI? Benchmarking LLM Performance on Privacy
-  and AI Governance Exams</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-12T15:57:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zane Witherspoon, Thet Mon Aye, YingYing Hao</p>
-    <p><b>Summary:</b> The rapid emergence of large language models (LLMs) has raised urgent
-questions across the modern workforce about this new technology's strengths,
-weaknesses, and capabilities. For privacy professionals, the question is
-whether these AI systems can provide reliable support on regulatory compliance,
-privacy program management, and AI governance. In this study, we evaluate ten
-leading open and closed LLMs, including models from OpenAI, Anthropic, Google
-DeepMind, Meta, and DeepSeek, by benchmarking their performance on
-industry-standard certification exams: CIPP/US, CIPM, CIPT, and AIGP from the
-International Association of Privacy Professionals (IAPP). Each model was
-tested using official sample exams in a closed-book setting and compared to
-IAPP's passing thresholds. Our findings show that several frontier models such
-as Gemini 2.5 Pro and OpenAI's GPT-5 consistently achieve scores exceeding the
-standards for professional human certification - demonstrating substantial
-expertise in privacy law, technical controls, and AI governance. The results
-highlight both the strengths and domain-specific gaps of current LLMs and offer
-practical insights for privacy officers, compliance leads, and technologists
-assessing the readiness of AI tools for high-stakes data governance roles. This
-paper provides an overview for professionals navigating the intersection of AI
-advancement and regulatory risk and establishes a machine benchmark based on
-human-centric evaluations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.08785v1">Privacy-protected Retrieval-Augmented Generation for Knowledge Graph
-  Question Answering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-08-12T09:38:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunfeng Ning, Mayi Xu, Jintao Wen, Qiankun Pi, Yuanyuan Zhu, Ming Zhong, Jiawei Jiang, Tieyun Qian</p>
-    <p><b>Summary:</b> LLMs often suffer from hallucinations and outdated or incomplete knowledge.
-RAG is proposed to address these issues by integrating external knowledge like
-that in KGs into LLMs. However, leveraging private KGs in RAG systems poses
-significant privacy risks due to the black-box nature of LLMs and potential
-insecure data transmission, especially when using third-party LLM APIs lacking
-transparency and control. In this paper, we investigate the privacy-protected
-RAG scenario for the first time, where entities in KGs are anonymous for LLMs,
-thus preventing them from accessing entity semantics. Due to the loss of
-semantics of entities, previous RAG systems cannot retrieve question-relevant
-knowledge from KGs by matching questions with the meaningless identifiers of
-anonymous entities. To realize an effective RAG system in this scenario, two
-key challenges must be addressed: (1) How can anonymous entities be converted
-into retrievable information. (2) How to retrieve question-relevant anonymous
-entities. Hence, we propose a novel ARoG framework including relation-centric
-abstraction and structure-oriented abstraction strategies. For challenge (1),
-the first strategy abstracts entities into high-level concepts by dynamically
-capturing the semantics of their adjacent relations. It supplements meaningful
-semantics which can further support the retrieval process. For challenge (2),
-the second strategy transforms unstructured natural language questions into
-structured abstract concept paths. These paths can be more effectively aligned
-with the abstracted concepts in KGs, thereby improving retrieval performance.
-To guide LLMs to effectively retrieve knowledge from KGs, the two strategies
-strictly protect privacy from being exposed to LLMs. Experiments on three
-datasets demonstrate that ARoG achieves strong performance and
-privacy-robustness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.08749v2">Approximate DBSCAN under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-08-12T08:55:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuan Qiu, Ke Yi</p>
-    <p><b>Summary:</b> This paper revisits the DBSCAN problem under differential privacy (DP).
-Existing DP-DBSCAN algorithms aim at publishing the cluster labels of the input
-points. However, we show that both empirically and theoretically, this approach
-cannot offer any utility in the published results. We therefore propose an
-alternative definition of DP-DBSCAN based on the notion of spans. We argue that
-publishing the spans actually better serves the purposes of visualization and
-classification of DBSCAN. Then we present a linear-time DP-DBSCAN algorithm
-achieving the sandwich quality guarantee in any constant dimensions, as well as
-matching lower bounds on the approximation ratio. A key building block in our
-algorithm is a linear-time algorithm for constructing a histogram under
-pure-DP, which is of independent interest. Finally, we conducted experiments on
-both synthetic and real-world datasets to verify the practical performance of
-our DP-DBSCAN algorithm.</p>
   </details>
 </div>
 
