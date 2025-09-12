@@ -1172,5 +1172,202 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09485v1",
+    "title" : "Balancing Utility and Privacy: Dynamically Private SGD with Random\n  Projection",
+    "summary" : "Stochastic optimization is a pivotal enabler in modern machine learning,\nproducing effective models for various tasks. However, several existing works\nhave shown that model parameters and gradient information are susceptible to\nprivacy leakage. Although Differentially Private SGD (DPSGD) addresses privacy\nconcerns, its static noise mechanism impacts the error bounds for model\nperformance. Additionally, with the exponential increase in model parameters,\nefficient learning of these models using stochastic optimizers has become more\nchallenging. To address these concerns, we introduce the Dynamically\nDifferentially Private Projected SGD (D2P2-SGD) optimizer. In D2P2-SGD, we\ncombine two important ideas: (i) dynamic differential privacy (DDP) with\nautomatic gradient clipping and (ii) random projection with SGD, allowing\ndynamic adjustment of the tradeoff between utility and privacy of the model. It\nexhibits provably sub-linear convergence rates across different objective\nfunctions, matching the best available rate. The theoretical analysis further\nsuggests that DDP leads to better utility at the cost of privacy, while random\nprojection enables more efficient model learning. Extensive experiments across\ndiverse datasets show that D2P2-SGD remarkably enhances accuracy while\nmaintaining privacy. Our code is available here.",
+    "updated" : "2025-09-11T14:17:04Z",
+    "published" : "2025-09-11T14:17:04Z",
+    "authors" : [
+      {
+        "name" : "Zhanhong Jiang"
+      },
+      {
+        "name" : "Md Zahid Hasan"
+      },
+      {
+        "name" : "Nastaran Saadati"
+      },
+      {
+        "name" : "Aditya Balu"
+      },
+      {
+        "name" : "Chao Liu"
+      },
+      {
+        "name" : "Soumik Sarkar"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09285v1",
+    "title" : "The Impact of Device Type, Data Practices, and Use Case Scenarios on\n  Privacy Concerns about Eye-tracked Augmented Reality in the United States and\n  Germany",
+    "summary" : "Augmented reality technology will likely be prevalent with more affordable\nhead-mounted displays. Integrating novel interaction modalities such as eye\ntrackers into head-mounted displays could lead to collecting vast amounts of\nbiometric data, which may allow inference of sensitive user attributes like\nhealth status or sexual preference, posing privacy issues. While previous works\nbroadly examined privacy concerns about augmented reality, ours is the first to\nextensively explore privacy concerns on behavioral data, particularly eye\ntracking in augmented reality. We crowdsourced four survey studies in the\nUnited States (n1 = 48, n2 = 525) and Germany (n3 = 48, n4 = 525) to understand\nthe impact of user attributes, augmented reality devices, use cases, data\npractices, and country on privacy concerns. Our findings indicate that\nparticipants are generally concerned about privacy when they know what\ninferences can be made based on the collected data. Despite the more prominent\nuse of smartphones in daily life than augmented reality glasses, we found no\nindications of differing privacy concerns depending on the device type. In\naddition, our participants are more comfortable when a particular use case\nbenefits them and less comfortable when other humans can consume their data.\nFurthermore, participants in the United States are less concerned about their\nprivacy than those in Germany. Based on our findings, we provide several\nrecommendations to practitioners and policymakers for privacy-aware augmented\nreality.",
+    "updated" : "2025-09-11T09:21:27Z",
+    "published" : "2025-09-11T09:21:27Z",
+    "authors" : [
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Babette Bühler"
+      },
+      {
+        "name" : "Xiaoyuan Wu"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      },
+      {
+        "name" : "Lujo Bauer"
+      },
+      {
+        "name" : "Lorrie Faith Cranor"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09103v1",
+    "title" : "AgriSentinel: Privacy-Enhanced Embedded-LLM Crop Disease Alerting System",
+    "summary" : "Crop diseases pose significant threats to global food security, agricultural\nproductivity, and sustainable farming practices, directly affecting farmers'\nlivelihoods and economic stability. To address the growing need for effective\ncrop disease management, AI-based disease alerting systems have emerged as\npromising tools by providing early detection and actionable insights for timely\nintervention. However, existing systems often overlook critical aspects such as\ndata privacy, market pricing power, and farmer-friendly usability, leaving\nfarmers vulnerable to privacy breaches and economic exploitation. To bridge\nthese gaps, we propose AgriSentinel, the first Privacy-Enhanced Embedded-LLM\nCrop Disease Alerting System. AgriSentinel incorporates a differential privacy\nmechanism to protect sensitive crop image data while maintaining classification\naccuracy. Its lightweight deep learning-based crop disease classification model\nis optimized for mobile devices, ensuring accessibility and usability for\nfarmers. Additionally, the system includes a fine-tuned, on-device large\nlanguage model (LLM) that leverages a curated knowledge pool to provide farmers\nwith specific, actionable suggestions for managing crop diseases, going beyond\nsimple alerting. Comprehensive experiments validate the effectiveness of\nAgriSentinel, demonstrating its ability to safeguard data privacy, maintain\nhigh classification performance, and deliver practical, actionable disease\nmanagement strategies. AgriSentinel offers a robust, farmer-friendly solution\nfor automating crop disease alerting and management, ultimately contributing to\nimproved agricultural decision-making and enhanced crop productivity.",
+    "updated" : "2025-09-11T02:29:19Z",
+    "published" : "2025-09-11T02:29:19Z",
+    "authors" : [
+      {
+        "name" : "Chanti Raju Mylay"
+      },
+      {
+        "name" : "Bobin Deng"
+      },
+      {
+        "name" : "Zhipeng Cai"
+      },
+      {
+        "name" : "Honghui Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09097v1",
+    "title" : "DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large\n  Language Models",
+    "summary" : "As on-device large language model (LLM) systems become increasingly\nprevalent, federated fine-tuning enables advanced language understanding and\ngeneration directly on edge devices; however, it also involves processing\nsensitive, user-specific data, raising significant privacy concerns within the\nfederated learning framework. To address these challenges, we propose\nDP-FedLoRA, a privacy-enhanced federated fine-tuning framework that integrates\nLoRA-based adaptation with differential privacy in a communication-efficient\nsetting. Each client locally clips and perturbs its LoRA matrices using\nGaussian noise to satisfy ($\\epsilon$, $\\delta$)-differential privacy. We\nfurther provide a theoretical analysis demonstrating the unbiased nature of the\nupdates and deriving bounds on the variance introduced by noise, offering\npractical guidance for privacy-budget calibration. Experimental results across\nmainstream benchmarks show that DP-FedLoRA delivers competitive performance\nwhile offering strong privacy guarantees, paving the way for scalable and\nprivacy-preserving LLM deployment in on-device environments.",
+    "updated" : "2025-09-11T02:16:34Z",
+    "published" : "2025-09-11T02:16:34Z",
+    "authors" : [
+      {
+        "name" : "Honghui Xu"
+      },
+      {
+        "name" : "Shiva Shrestha"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Zhiyuan Li"
+      },
+      {
+        "name" : "Zhipeng Cai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09091v1",
+    "title" : "Towards Confidential and Efficient LLM Inference with Dual Privacy\n  Protection",
+    "summary" : "CPU-based trusted execution environments (TEEs) and differential privacy (DP)\nhave gained wide applications for private inference. Due to high inference\nlatency in TEEs, researchers use partition-based approaches that offload linear\nmodel components to GPUs. However, dense nonlinear layers of large language\nmodels (LLMs) result in significant communication overhead between TEEs and\nGPUs. DP-based approaches apply random noise to protect data privacy, but this\ncompromises LLM performance and semantic understanding. To overcome the above\ndrawbacks, this paper proposes CMIF, a Confidential and efficient Model\nInference Framework. CMIF confidentially deploys the embedding layer in the\nclient-side TEE and subsequent layers on GPU servers. Meanwhile, it optimizes\nthe Report-Noisy-Max mechanism to protect sensitive inputs with a slight\ndecrease in model performance. Extensive experiments on Llama-series models\ndemonstrate that CMIF reduces additional inference overhead in TEEs while\npreserving user data privacy.",
+    "updated" : "2025-09-11T01:54:13Z",
+    "published" : "2025-09-11T01:54:13Z",
+    "authors" : [
+      {
+        "name" : "Honglan Yu"
+      },
+      {
+        "name" : "Yibin Wang"
+      },
+      {
+        "name" : "Feifei Dai"
+      },
+      {
+        "name" : "Dong Liu"
+      },
+      {
+        "name" : "Haihui Fan"
+      },
+      {
+        "name" : "Xiaoyan Gu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08995v1",
+    "title" : "When FinTech Meets Privacy: Securing Financial LLMs with Differential\n  Private Fine-Tuning",
+    "summary" : "The integration of Large Language Models (LLMs) into financial technology\n(FinTech) has revolutionized the analysis and processing of complex financial\ndata, driving advancements in real-time decision-making and analytics. With the\ngrowing trend of deploying AI models on edge devices for financial\napplications, ensuring the privacy of sensitive financial data has become a\nsignificant challenge. To address this, we propose DPFinLLM, a\nprivacy-enhanced, lightweight LLM specifically designed for on-device financial\napplications. DPFinLLM combines a robust differential privacy mechanism with a\nstreamlined architecture inspired by state-of-the-art models, enabling secure\nand efficient processing of financial data. This proposed DPFinLLM can not only\nsafeguard user data from privacy breaches but also ensure high performance\nacross diverse financial tasks. Extensive experiments on multiple financial\nsentiment datasets validate the effectiveness of DPFinLLM, demonstrating its\nability to achieve performance comparable to fully fine-tuned models, even\nunder strict privacy constraints.",
+    "updated" : "2025-09-10T20:43:08Z",
+    "published" : "2025-09-10T20:43:08Z",
+    "authors" : [
+      {
+        "name" : "Sichen Zhu"
+      },
+      {
+        "name" : "Hoyeung Leung"
+      },
+      {
+        "name" : "Xiaoyi Wang"
+      },
+      {
+        "name" : "Jia Wei"
+      },
+      {
+        "name" : "Honghui Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.03294v2",
+    "title" : "A Comprehensive Guide to Differential Privacy: From Theory to User\n  Expectations",
+    "summary" : "The increasing availability of personal data has enabled significant advances\nin fields such as machine learning, healthcare, and cybersecurity. However,\nthis data abundance also raises serious privacy concerns, especially in light\nof powerful re-identification attacks and growing legal and ethical demands for\nresponsible data use. Differential privacy (DP) has emerged as a principled,\nmathematically grounded framework for mitigating these risks. This review\nprovides a comprehensive survey of DP, covering its theoretical foundations,\npractical mechanisms, and real-world applications. It explores key algorithmic\ntools and domain-specific challenges - particularly in privacy-preserving\nmachine learning and synthetic data generation. The report also highlights\nusability issues and the need for improved communication and transparency in DP\nsystems. Overall, the goal is to support informed adoption of DP by researchers\nand practitioners navigating the evolving landscape of data privacy.",
+    "updated" : "2025-09-11T13:12:37Z",
+    "published" : "2025-09-03T13:23:10Z",
+    "authors" : [
+      {
+        "name" : "Napsu Karmitsa"
+      },
+      {
+        "name" : "Antti Airola"
+      },
+      {
+        "name" : "Tapio Pahikkala"
+      },
+      {
+        "name" : "Tinja Pitkämäki"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "68P27, 68T09, 94A60"
+    ]
   }
 ]
