@@ -3444,5 +3444,21 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.08835v1",
+    "title" : "Deep opacity and AI: A threat to XAI and to privacy protection\n  mechanisms",
+    "summary" : "It is known that big data analytics and AI pose a threat to privacy, and that\nsome of this is due to some kind of \"black box problem\" in AI. I explain how\nthis becomes a problem in the context of justification for judgments and\nactions. Furthermore, I suggest distinguishing three kinds of opacity: 1) the\nsubjects do not know what the system does (\"shallow opacity\"), 2) the analysts\ndo not know what the system does (\"standard black box opacity\"), or 3) the\nanalysts cannot possibly know what the system might do (\"deep opacity\"). If the\nagents, data subjects as well as analytics experts, operate under opacity, then\nthese agents cannot provide justifications for judgments that are necessary to\nprotect privacy, e.g., they cannot give \"informed consent\", or guarantee\n\"anonymity\". It follows from these points that agents in big data analytics and\nAI often cannot make the judgments needed to protect privacy. So I conclude\nthat big data analytics makes the privacy problems worse and the remedies less\neffective. As a positive note, I provide a brief outlook on technical ways to\nhandle this situation.",
+    "updated" : "2025-08-30T11:15:59Z",
+    "published" : "2025-08-30T11:15:59Z",
+    "authors" : [
+      {
+        "name" : "Vincent C. Müller"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
   }
 ]
