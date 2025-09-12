@@ -2,6 +2,183 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09485v1">Balancing Utility and Privacy: Dynamically Private SGD with Random
+  Projection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-11T14:17:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhanhong Jiang, Md Zahid Hasan, Nastaran Saadati, Aditya Balu, Chao Liu, Soumik Sarkar</p>
+    <p><b>Summary:</b> Stochastic optimization is a pivotal enabler in modern machine learning,
+producing effective models for various tasks. However, several existing works
+have shown that model parameters and gradient information are susceptible to
+privacy leakage. Although Differentially Private SGD (DPSGD) addresses privacy
+concerns, its static noise mechanism impacts the error bounds for model
+performance. Additionally, with the exponential increase in model parameters,
+efficient learning of these models using stochastic optimizers has become more
+challenging. To address these concerns, we introduce the Dynamically
+Differentially Private Projected SGD (D2P2-SGD) optimizer. In D2P2-SGD, we
+combine two important ideas: (i) dynamic differential privacy (DDP) with
+automatic gradient clipping and (ii) random projection with SGD, allowing
+dynamic adjustment of the tradeoff between utility and privacy of the model. It
+exhibits provably sub-linear convergence rates across different objective
+functions, matching the best available rate. The theoretical analysis further
+suggests that DDP leads to better utility at the cost of privacy, while random
+projection enables more efficient model learning. Extensive experiments across
+diverse datasets show that D2P2-SGD remarkably enhances accuracy while
+maintaining privacy. Our code is available here.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09285v1">The Impact of Device Type, Data Practices, and Use Case Scenarios on
+  Privacy Concerns about Eye-tracked Augmented Reality in the United States and
+  Germany</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-09-11T09:21:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Efe Bozkir, Babette Bühler, Xiaoyuan Wu, Enkelejda Kasneci, Lujo Bauer, Lorrie Faith Cranor</p>
+    <p><b>Summary:</b> Augmented reality technology will likely be prevalent with more affordable
+head-mounted displays. Integrating novel interaction modalities such as eye
+trackers into head-mounted displays could lead to collecting vast amounts of
+biometric data, which may allow inference of sensitive user attributes like
+health status or sexual preference, posing privacy issues. While previous works
+broadly examined privacy concerns about augmented reality, ours is the first to
+extensively explore privacy concerns on behavioral data, particularly eye
+tracking in augmented reality. We crowdsourced four survey studies in the
+United States (n1 = 48, n2 = 525) and Germany (n3 = 48, n4 = 525) to understand
+the impact of user attributes, augmented reality devices, use cases, data
+practices, and country on privacy concerns. Our findings indicate that
+participants are generally concerned about privacy when they know what
+inferences can be made based on the collected data. Despite the more prominent
+use of smartphones in daily life than augmented reality glasses, we found no
+indications of differing privacy concerns depending on the device type. In
+addition, our participants are more comfortable when a particular use case
+benefits them and less comfortable when other humans can consume their data.
+Furthermore, participants in the United States are less concerned about their
+privacy than those in Germany. Based on our findings, we provide several
+recommendations to practitioners and policymakers for privacy-aware augmented
+reality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09103v1">AgriSentinel: Privacy-Enhanced Embedded-LLM Crop Disease Alerting System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-11T02:29:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chanti Raju Mylay, Bobin Deng, Zhipeng Cai, Honghui Xu</p>
+    <p><b>Summary:</b> Crop diseases pose significant threats to global food security, agricultural
+productivity, and sustainable farming practices, directly affecting farmers'
+livelihoods and economic stability. To address the growing need for effective
+crop disease management, AI-based disease alerting systems have emerged as
+promising tools by providing early detection and actionable insights for timely
+intervention. However, existing systems often overlook critical aspects such as
+data privacy, market pricing power, and farmer-friendly usability, leaving
+farmers vulnerable to privacy breaches and economic exploitation. To bridge
+these gaps, we propose AgriSentinel, the first Privacy-Enhanced Embedded-LLM
+Crop Disease Alerting System. AgriSentinel incorporates a differential privacy
+mechanism to protect sensitive crop image data while maintaining classification
+accuracy. Its lightweight deep learning-based crop disease classification model
+is optimized for mobile devices, ensuring accessibility and usability for
+farmers. Additionally, the system includes a fine-tuned, on-device large
+language model (LLM) that leverages a curated knowledge pool to provide farmers
+with specific, actionable suggestions for managing crop diseases, going beyond
+simple alerting. Comprehensive experiments validate the effectiveness of
+AgriSentinel, demonstrating its ability to safeguard data privacy, maintain
+high classification performance, and deliver practical, actionable disease
+management strategies. AgriSentinel offers a robust, farmer-friendly solution
+for automating crop disease alerting and management, ultimately contributing to
+improved agricultural decision-making and enhanced crop productivity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09097v1">DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large
+  Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-11T02:16:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Honghui Xu, Shiva Shrestha, Wei Chen, Zhiyuan Li, Zhipeng Cai</p>
+    <p><b>Summary:</b> As on-device large language model (LLM) systems become increasingly
+prevalent, federated fine-tuning enables advanced language understanding and
+generation directly on edge devices; however, it also involves processing
+sensitive, user-specific data, raising significant privacy concerns within the
+federated learning framework. To address these challenges, we propose
+DP-FedLoRA, a privacy-enhanced federated fine-tuning framework that integrates
+LoRA-based adaptation with differential privacy in a communication-efficient
+setting. Each client locally clips and perturbs its LoRA matrices using
+Gaussian noise to satisfy ($\epsilon$, $\delta$)-differential privacy. We
+further provide a theoretical analysis demonstrating the unbiased nature of the
+updates and deriving bounds on the variance introduced by noise, offering
+practical guidance for privacy-budget calibration. Experimental results across
+mainstream benchmarks show that DP-FedLoRA delivers competitive performance
+while offering strong privacy guarantees, paving the way for scalable and
+privacy-preserving LLM deployment in on-device environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09091v1">Towards Confidential and Efficient LLM Inference with Dual Privacy
+  Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-11T01:54:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Honglan Yu, Yibin Wang, Feifei Dai, Dong Liu, Haihui Fan, Xiaoyan Gu</p>
+    <p><b>Summary:</b> CPU-based trusted execution environments (TEEs) and differential privacy (DP)
+have gained wide applications for private inference. Due to high inference
+latency in TEEs, researchers use partition-based approaches that offload linear
+model components to GPUs. However, dense nonlinear layers of large language
+models (LLMs) result in significant communication overhead between TEEs and
+GPUs. DP-based approaches apply random noise to protect data privacy, but this
+compromises LLM performance and semantic understanding. To overcome the above
+drawbacks, this paper proposes CMIF, a Confidential and efficient Model
+Inference Framework. CMIF confidentially deploys the embedding layer in the
+client-side TEE and subsequent layers on GPU servers. Meanwhile, it optimizes
+the Report-Noisy-Max mechanism to protect sensitive inputs with a slight
+decrease in model performance. Extensive experiments on Llama-series models
+demonstrate that CMIF reduces additional inference overhead in TEEs while
+preserving user data privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08995v1">When FinTech Meets Privacy: Securing Financial LLMs with Differential
+  Private Fine-Tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-10T20:43:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sichen Zhu, Hoyeung Leung, Xiaoyi Wang, Jia Wei, Honghui Xu</p>
+    <p><b>Summary:</b> The integration of Large Language Models (LLMs) into financial technology
+(FinTech) has revolutionized the analysis and processing of complex financial
+data, driving advancements in real-time decision-making and analytics. With the
+growing trend of deploying AI models on edge devices for financial
+applications, ensuring the privacy of sensitive financial data has become a
+significant challenge. To address this, we propose DPFinLLM, a
+privacy-enhanced, lightweight LLM specifically designed for on-device financial
+applications. DPFinLLM combines a robust differential privacy mechanism with a
+streamlined architecture inspired by state-of-the-art models, enabling secure
+and efficient processing of financial data. This proposed DPFinLLM can not only
+safeguard user data from privacy breaches but also ensure high performance
+across diverse financial tasks. Extensive experiments on multiple financial
+sentiment datasets validate the effectiveness of DPFinLLM, demonstrating its
+ability to achieve performance comparable to fully fine-tuned models, even
+under strict privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.08804v1">Approximate Algorithms for Verifying Differential Privacy with Gaussian
   Distributions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36"> 
@@ -945,7 +1122,7 @@ critical privacy concerns.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.03294v1">A Comprehensive Guide to Differential Privacy: From Theory to User
+  <h3><a href="http://arxiv.org/abs/2509.03294v2">A Comprehensive Guide to Differential Privacy: From Theory to User
   Expectations</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-09-03T13:23:10Z</p>
@@ -1368,6 +1545,33 @@ all methods the released curves keep the empirical log-rank type-I error below
 fifteen percent for privacy budgets of 0.5 and higher, demonstrating that
 clinically useful survival information can be shared without iterative training
 or heavy cryptography.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.08835v1">Deep opacity and AI: A threat to XAI and to privacy protection
+  mechanisms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-08-30T11:15:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vincent C. Müller</p>
+    <p><b>Summary:</b> It is known that big data analytics and AI pose a threat to privacy, and that
+some of this is due to some kind of "black box problem" in AI. I explain how
+this becomes a problem in the context of justification for judgments and
+actions. Furthermore, I suggest distinguishing three kinds of opacity: 1) the
+subjects do not know what the system does ("shallow opacity"), 2) the analysts
+do not know what the system does ("standard black box opacity"), or 3) the
+analysts cannot possibly know what the system might do ("deep opacity"). If the
+agents, data subjects as well as analytics experts, operate under opacity, then
+these agents cannot provide justifications for judgments that are necessary to
+protect privacy, e.g., they cannot give "informed consent", or guarantee
+"anonymity". It follows from these points that agents in big data analytics and
+AI often cannot make the judgments needed to protect privacy. So I conclude
+that big data analytics makes the privacy problems worse and the remedies less
+effective. As a positive note, I provide a brief outlook on technical ways to
+handle this situation.</p>
   </details>
 </div>
 
@@ -2831,233 +3035,6 @@ for large domains with limited samples. For interactive mechanisms, we design a
 segmentation strategy to capture incremental privacy leakage across iterations.
 Finally, we perform extensive experiments to validate the effectiveness of our
 approach, offering insights for optimizing LDP-based key-value estimators.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11419v1">Training-free Dimensionality Reduction via Feature Truncation: Enhancing
-  Efficiency in Privacy-preserving Multi-Biometric Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-15T11:49:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Florian Bayer, Maximilian Russo, Christian Rathgeb</p>
-    <p><b>Summary:</b> Biometric recognition is widely used, making the privacy and security of
-extracted templates a critical concern. Biometric Template Protection schemes,
-especially those utilizing Homomorphic Encryption, introduce significant
-computational challenges due to increased workload. Recent advances in deep
-neural networks have enabled state-of-the-art feature extraction for face,
-fingerprint, and iris modalities. The ubiquity and affordability of biometric
-sensors further facilitate multi-modal fusion, which can enhance security by
-combining features from different modalities. This work investigates the
-biometric performance of reduced multi-biometric template sizes. Experiments
-are conducted on an in-house virtual multi-biometric database, derived from
-DNN-extracted features for face, fingerprint, and iris, using the FRGC, MCYT,
-and CASIA databases. The evaluated approaches are (i) explainable and
-straightforward to implement under encryption, (ii) training-free, and (iii)
-capable of generalization. Dimensionality reduction of feature vectors leads to
-fewer operations in the Homomorphic Encryption (HE) domain, enabling more
-efficient encrypted processing while maintaining biometric accuracy and
-security at a level equivalent to or exceeding single-biometric recognition.
-Our results demonstrate that, by fusing feature vectors from multiple
-modalities, template size can be reduced by 67 % with no loss in Equal Error
-Rate (EER) compared to the best-performing single modality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11115v1">UWB-PostureGuard: A Privacy-Preserving RF Sensing System for Continuous
-  Ergonomic Sitting Posture Monitoring</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
-  <p><b>Published on:</b> 2025-08-14T23:40:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haotang Li, Zhenyu Qi, Sen He, Kebin Peng, Sheng Tan, Yili Ren, Tomas Cerny, Jiyue Zhao, Zi Wang</p>
-    <p><b>Summary:</b> Improper sitting posture during prolonged computer use has become a
-significant public health concern. Traditional posture monitoring solutions
-face substantial barriers, including privacy concerns with camera-based systems
-and user discomfort with wearable sensors. This paper presents
-UWB-PostureGuard, a privacy-preserving ultra-wideband (UWB) sensing system that
-advances mobile technologies for preventive health management through
-continuous, contactless monitoring of ergonomic sitting posture. Our system
-leverages commercial UWB devices, utilizing comprehensive feature engineering
-to extract multiple ergonomic sitting posture features. We develop PoseGBDT to
-effectively capture temporal dependencies in posture patterns, addressing
-limitations of traditional frame-wise classification approaches. Extensive
-real-world evaluation across 10 participants and 19 distinct postures
-demonstrates exceptional performance, achieving 99.11% accuracy while
-maintaining robustness against environmental variables such as clothing
-thickness, additional devices, and furniture configurations. Our system
-provides a scalable, privacy-preserving mobile health solution on existing
-platforms for proactive ergonomic management, improving quality of life at low
-costs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10880v1">Searching for Privacy Risks in LLM Agents via Simulation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-08-14T17:49:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanzhe Zhang, Diyi Yang</p>
-    <p><b>Summary:</b> The widespread deployment of LLM-based agents is likely to introduce a
-critical privacy threat: malicious agents that proactively engage others in
-multi-turn interactions to extract sensitive information. These dynamic
-dialogues enable adaptive attack strategies that can cause severe privacy
-violations, yet their evolving nature makes it difficult to anticipate and
-discover sophisticated vulnerabilities manually. To tackle this problem, we
-present a search-based framework that alternates between improving attacker and
-defender instructions by simulating privacy-critical agent interactions. Each
-simulation involves three roles: data subject, data sender, and data recipient.
-While the data subject's behavior is fixed, the attacker (data recipient)
-attempts to extract sensitive information from the defender (data sender)
-through persistent and interactive exchanges. To explore this interaction space
-efficiently, our search algorithm employs LLMs as optimizers, using parallel
-search with multiple threads and cross-thread propagation to analyze simulation
-trajectories and iteratively propose new instructions. Through this process, we
-find that attack strategies escalate from simple direct requests to
-sophisticated multi-turn tactics such as impersonation and consent forgery,
-while defenses advance from rule-based constraints to identity-verification
-state machines. The discovered attacks and defenses transfer across diverse
-scenarios and backbone models, demonstrating strong practical utility for
-building privacy-aware agents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11716v2">Privacy-Aware Detection of Fake Identity Documents: Methodology,
-  Benchmark, and Improved Algorithms (FakeIDet2)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2025-08-14T17:30:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Javier Muñoz-Haro, Ruben Tolosana, Julian Fierrez, Ruben Vera-Rodriguez, Aythami Morales</p>
-    <p><b>Summary:</b> Remote user verification in Internet-based applications is becoming
-increasingly important nowadays. A popular scenario for it consists of
-submitting a picture of the user's Identity Document (ID) to a service
-platform, authenticating its veracity, and then granting access to the
-requested digital service. An ID is well-suited to verify the identity of an
-individual, since it is government issued, unique, and nontransferable.
-However, with recent advances in Artificial Intelligence (AI), attackers can
-surpass security measures in IDs and create very realistic physical and
-synthetic fake IDs. Researchers are now trying to develop methods to detect an
-ever-growing number of these AI-based fakes that are almost indistinguishable
-from authentic (bona fide) IDs. In this counterattack effort, researchers are
-faced with an important challenge: the difficulty in using real data to train
-fake ID detectors. This real data scarcity for research and development is
-originated by the sensitive nature of these documents, which are usually kept
-private by the ID owners (the users) and the ID Holders (e.g., government,
-police, bank, etc.). The main contributions of our study are: 1) We propose and
-discuss a patch-based methodology to preserve privacy in fake ID detection
-research. 2) We provide a new public database, FakeIDet2-db, comprising over
-900K real/fake ID patches extracted from 2,000 ID images, acquired using
-different smartphone sensors, illumination and height conditions, etc. In
-addition, three physical attacks are considered: print, screen, and composite.
-3) We present a new privacy-aware fake ID detection method, FakeIDet2. 4) We
-release a standard reproducible benchmark that considers physical and synthetic
-attacks from popular databases in the literature.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10737v1">Privacy-enhancing Sclera Segmentation Benchmarking Competition: SSBC
-  2025</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-14T15:16:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matej Vitek, Darian Tomašević, Abhijit Das, Sabari Nathan, Gökhan Özbulak, Gözde Ayşe Tataroğlu Özbulak, Jean-Paul Calbimonte, André Anjos, Hariohm Hemant Bhatt, Dhruv Dhirendra Premani, Jay Chaudhari, Caiyong Wang, Jian Jiang, Chi Zhang, Qi Zhang, Iyyakutti Iyappan Ganapathi, Syed Sadaf Ali, Divya Velayudan, Maregu Assefa, Naoufel Werghi, Zachary A. Daniels, Leeon John, Ritesh Vyas, Jalil Nourmohammadi Khiarak, Taher Akbari Saeed, Mahsa Nasehi, Ali Kianfar, Mobina Pashazadeh Panahi, Geetanjali Sharma, Pushp Raj Panth, Raghavendra Ramachandra, Aditya Nigam, Umapada Pal, Peter Peer, Vitomir Štruc</p>
-    <p><b>Summary:</b> This paper presents a summary of the 2025 Sclera Segmentation Benchmarking
-Competition (SSBC), which focused on the development of privacy-preserving
-sclera-segmentation models trained using synthetically generated ocular images.
-The goal of the competition was to evaluate how well models trained on
-synthetic data perform in comparison to those trained on real-world datasets.
-The competition featured two tracks: $(i)$ one relying solely on synthetic data
-for model development, and $(ii)$ one combining/mixing synthetic with (a
-limited amount of) real-world data. A total of nine research groups submitted
-diverse segmentation models, employing a variety of architectural designs,
-including transformer-based solutions, lightweight models, and segmentation
-networks guided by generative frameworks. Experiments were conducted across
-three evaluation datasets containing both synthetic and real-world images,
-collected under diverse conditions. Results show that models trained entirely
-on synthetic data can achieve competitive performance, particularly when
-dedicated training strategies are employed, as evidenced by the top performing
-models that achieved $F_1$ scores of over $0.8$ in the synthetic data track.
-Moreover, performance gains in the mixed track were often driven more by
-methodological choices rather than by the inclusion of real data, highlighting
-the promise of synthetic data for privacy-aware biometric development. The code
-and data for the competition is available at:
-https://github.com/dariant/SSBC_2025.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10672v2">Hybrid Generative Fusion for Efficient and Privacy-Preserving Face
-  Recognition Dataset Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-14T14:14:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Feiran Li, Qianqian Xu, Shilong Bao, Boyu Han, Zhiyong Yang, Qingming Huang</p>
-    <p><b>Summary:</b> In this paper, we present our approach to the DataCV ICCV Challenge, which
-centers on building a high-quality face dataset to train a face recognition
-model. The constructed dataset must not contain identities overlapping with any
-existing public face datasets. To handle this challenge, we begin with a
-thorough cleaning of the baseline HSFace dataset, identifying and removing
-mislabeled or inconsistent identities through a Mixture-of-Experts (MoE)
-strategy combining face embedding clustering and GPT-4o-assisted verification.
-We retain the largest consistent identity cluster and apply data augmentation
-up to a fixed number of images per identity. To further diversify the dataset,
-we generate synthetic identities using Stable Diffusion with prompt
-engineering. As diffusion models are computationally intensive, we generate
-only one reference image per identity and efficiently expand it using Vec2Face,
-which rapidly produces 49 identity-consistent variants. This hybrid approach
-fuses GAN-based and diffusion-based samples, enabling efficient construction of
-a diverse and high-quality dataset. To address the high visual similarity among
-synthetic identities, we adopt a curriculum learning strategy by placing them
-early in the training schedule, allowing the model to progress from easier to
-harder samples. Our final dataset contains 50 images per identity, and all
-newly generated identities are checked with mainstream face datasets to ensure
-no identity leakage. Our method achieves \textbf{1st place} in the competition,
-and experimental results show that our dataset improves model performance
-across 10K, 20K, and 100K identity scales. Code is available at
-https://github.com/Ferry-Li/datacv_fr.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.10482v2">When Explainability Meets Privacy: An Investigation at the Intersection
-  of Post-hoc Explainability and Differential Privacy in the Context of Natural
-  Language Processing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-08-14T09:34:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahdi Dhaini, Stephen Meisenbacher, Ege Erdogan, Florian Matthes, Gjergji Kasneci</p>
-    <p><b>Summary:</b> In the study of trustworthy Natural Language Processing (NLP), a number of
-important research fields have emerged, including that of explainability and
-privacy. While research interest in both explainable and privacy-preserving NLP
-has increased considerably in recent years, there remains a lack of
-investigation at the intersection of the two. This leaves a considerable gap in
-understanding of whether achieving both explainability and privacy is possible,
-or whether the two are at odds with each other. In this work, we conduct an
-empirical investigation into the privacy-explainability trade-off in the
-context of NLP, guided by the popular overarching methods of Differential
-Privacy (DP) and Post-hoc Explainability. Our findings include a view into the
-intricate relationship between privacy and explainability, which is formed by a
-number of factors, including the nature of the downstream task and choice of
-the text privatization and explainability method. In this, we highlight the
-potential for privacy and explainability to co-exist, and we summarize our
-findings in a collection of practical recommendations for future work at this
-important intersection.</p>
   </details>
 </div>
 
