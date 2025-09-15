@@ -2,7 +2,167 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09485v1">Balancing Utility and Privacy: Dynamically Private SGD with Random
+  <h3><a href="http://arxiv.org/abs/2509.10163v1">Federated Multi-Agent Reinforcement Learning for Privacy-Preserving and
+  Energy-Aware Resource Management in 6G Edge Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-09-12T11:41:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francisco Javier Esono Nkulu Andong, Qi Min</p>
+    <p><b>Summary:</b> As sixth-generation (6G) networks move toward ultra-dense, intelligent edge
+environments, efficient resource management under stringent privacy, mobility,
+and energy constraints becomes critical. This paper introduces a novel
+Federated Multi-Agent Reinforcement Learning (Fed-MARL) framework that
+incorporates cross-layer orchestration of both the MAC layer and application
+layer for energy-efficient, privacy-preserving, and real-time resource
+management across heterogeneous edge devices. Each agent uses a Deep Recurrent
+Q-Network (DRQN) to learn decentralized policies for task offloading, spectrum
+access, and CPU energy adaptation based on local observations (e.g., queue
+length, energy, CPU usage, and mobility). To protect privacy, we introduce a
+secure aggregation protocol based on elliptic curve Diffie Hellman key
+exchange, which ensures accurate model updates without exposing raw data to
+semi-honest adversaries. We formulate the resource management problem as a
+partially observable multi-agent Markov decision process (POMMDP) with a
+multi-objective reward function that jointly optimizes latency, energy
+efficiency, spectral efficiency, fairness, and reliability under 6G-specific
+service requirements such as URLLC, eMBB, and mMTC. Simulation results
+demonstrate that Fed-MARL outperforms centralized MARL and heuristic baselines
+in task success rate, latency, energy efficiency, and fairness, while ensuring
+robust privacy protection and scalability in dynamic, resource-constrained 6G
+edge networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.10018v1">GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation
+  Enhanced by Domain Rules and Disproof Method</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-12T07:22:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hailong Yang, Renhuo Zhao, Guanjin Wang, Zhaohong Deng</p>
+    <p><b>Summary:</b> With the rapid advancement of Large Language Model (LLM), LLM-based agents
+exhibit exceptional abilities in understanding and generating natural language,
+facilitating human-like collaboration and information transmission in LLM-based
+Multi-Agent System (MAS). High-performance LLMs are often hosted on remote
+servers in public spaces. When tasks involve privacy data, MAS cannot securely
+utilize these LLMs without implementing privacy-preserving mechanisms. To
+address this challenge, we propose a General Anonymizing Multi-Agent system
+(GAMA), which divides the agents' workspace into private and public spaces and
+protects privacy through the anonymizing mechanism. In the private space,
+agents handle sensitive data, while in the public space, only anonymized data
+is utilized. GAMA incorporates two key modules to mitigate semantic loss caused
+by anonymization: Domain-Rule-based Knowledge Enhancement (DRKE) and
+Disproof-based Logic Enhancement (DLE). We evaluate GAMA on two public
+question-answering datasets: Trivia Creative Writing and Logic Grid Puzzle. The
+results demonstrate that GAMA has superior performance compared to the
+state-of-the-art models. To further assess its privacy-preserving capabilities,
+we designed two new datasets: Knowledge Privacy Preservation and Logic Privacy
+Preservation. The final results highlight GAMA's exceptional effectiveness in
+both task processing and privacy preservation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09916v1">Immersive Invaders: Privacy Threats from Deceptive Design in Virtual
+  Reality Games and Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-09-12T01:31:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hilda Hadan, Michaela Valiquette, Lennart E. Nacke, Leah Zhang-Kennedy</p>
+    <p><b>Summary:</b> Virtual Reality (VR) technologies offer immersive experiences but collect
+substantial user data. While deceptive design is well-studied in 2D platforms,
+little is known about its manifestation in VR environments and its impact on
+user privacy. This research investigates deceptive designs in privacy
+communication and interaction mechanisms of 12 top-rated VR games and
+applications through autoethnographic evaluation of the applications and
+thematic analysis of privacy policies. We found that while many deceptive
+designs rely on 2D interfaces, some VR-unique features, while not directly
+enabling deception, amplified data disclosure behaviors, and obscured actual
+data practices. Convoluted privacy policies and manipulative consent practices
+further hinder comprehension and increase privacy risks. We also observed
+privacy-preserving design strategies and protective considerations in VR
+privacy policies. We offer recommendations for ethical VR design that balance
+immersive experiences with strong privacy protections, guiding researchers,
+designers, and policymakers to improve privacy in VR environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09844v1">Privacy-Preserving Automated Rosacea Detection Based on Medically
+  Inspired Region of Interest Selection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-09-11T20:54:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chengyu Yang, Rishik Reddy Yesgari, Chengjun Liu</p>
+    <p><b>Summary:</b> Rosacea is a common but underdiagnosed inflammatory skin condition that
+primarily affects the central face and presents with subtle redness, pustules,
+and visible blood vessels. Automated detection remains challenging due to the
+diffuse nature of symptoms, the scarcity of labeled datasets, and privacy
+concerns associated with using identifiable facial images. A novel
+privacy-preserving automated rosacea detection method inspired by clinical
+priors and trained entirely on synthetic data is presented in this paper.
+Specifically, the proposed method, which leverages the observation that rosacea
+manifests predominantly through central facial erythema, first constructs a
+fixed redness-informed mask by selecting regions with consistently high red
+channel intensity across facial images. The mask thus is able to focus on
+diagnostically relevant areas such as the cheeks, nose, and forehead and
+exclude identity-revealing features. Second, the ResNet-18 deep learning
+method, which is trained on the masked synthetic images, achieves superior
+performance over the full-face baselines with notable gains in terms of
+accuracy, recall and F1 score when evaluated using the real-world test data.
+The experimental results demonstrate that the synthetic data and clinical
+priors can jointly enable accurate and ethical dermatological AI systems,
+especially for privacy sensitive applications in telemedicine and large-scale
+screening.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09787v1">ZORRO: Zero-Knowledge Robustness and Privacy for Split Learning (Full
+  Version)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-11T18:44:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nojan Sheybani, Alessandro Pegoraro, Jonathan Knauer, Phillip Rieger, Elissa Mollakuqe, Farinaz Koushanfar, Ahmad-Reza Sadeghi</p>
+    <p><b>Summary:</b> Split Learning (SL) is a distributed learning approach that enables
+resource-constrained clients to collaboratively train deep neural networks
+(DNNs) by offloading most layers to a central server while keeping in- and
+output layers on the client-side. This setup enables SL to leverage server
+computation capacities without sharing data, making it highly effective in
+resource-constrained environments dealing with sensitive data. However, the
+distributed nature enables malicious clients to manipulate the training
+process. By sending poisoned intermediate gradients, they can inject backdoors
+into the shared DNN. Existing defenses are limited by often focusing on
+server-side protection and introducing additional overhead for the server. A
+significant challenge for client-side defenses is enforcing malicious clients
+to correctly execute the defense algorithm.
+  We present ZORRO, a private, verifiable, and robust SL defense scheme.
+Through our novel design and application of interactive zero-knowledge proofs
+(ZKPs), clients prove their correct execution of a client-located defense
+algorithm, resulting in proofs of computational integrity attesting to the
+benign nature of locally trained DNN portions. Leveraging the frequency
+representation of model partitions enables ZORRO to conduct an in-depth
+inspection of the locally trained models in an untrusted environment, ensuring
+that each client forwards a benign checkpoint to its succeeding client. In our
+extensive evaluation, covering different model architectures as well as various
+attack strategies and data scenarios, we show ZORRO's effectiveness, as it
+reduces the attack success rate to less than 6\% while causing even for models
+storing \numprint{1000000} parameters on the client-side an overhead of less
+than 10 seconds.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.09485v2">Balancing Utility and Privacy: Dynamically Private SGD with Random
   Projection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-09-11T14:17:04Z</p>
@@ -2885,156 +3045,6 @@ error (MRE) below 2.4x10-4. Notably, the encrypted Pearson correlation between
 the smoker attribute and charges reaches 0.7873, with an MRE of 2.86x10-4.
 These results confirm the practical utility of PP-STAT for secure and precise
 statistical analysis in privacy-sensitive domains.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11907v1">Deciphering the Interplay between Attack and Protection Complexity in
-  Privacy-Preserving Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-16T04:39:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaojin Zhang, Mingcong Xu, Yiming Li, Wei Chen, Qiang Yang</p>
-    <p><b>Summary:</b> Federated learning (FL) offers a promising paradigm for collaborative model
-training while preserving data privacy. However, its susceptibility to gradient
-inversion attacks poses a significant challenge, necessitating robust privacy
-protection mechanisms. This paper introduces a novel theoretical framework to
-decipher the intricate interplay between attack and protection complexities in
-privacy-preserving FL. We formally define "Attack Complexity" as the minimum
-computational and data resources an adversary requires to reconstruct private
-data below a given error threshold, and "Protection Complexity" as the expected
-distortion introduced by privacy mechanisms. Leveraging Maximum Bayesian
-Privacy (MBP), we derive tight theoretical bounds for protection complexity,
-demonstrating its scaling with model dimensionality and privacy budget.
-Furthermore, we establish comprehensive bounds for attack complexity, revealing
-its dependence on privacy leakage, gradient distortion, model dimension, and
-the chosen privacy level. Our findings quantitatively illuminate the
-fundamental trade-offs between privacy guarantees, system utility, and the
-effort required for both attacking and defending. This framework provides
-critical insights for designing more secure and efficient federated learning
-systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11797v1">AegisBlock: A Privacy-Preserving Medical Research Framework using
-  Blockchain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-08-15T20:43:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Calkin Garg, Omar Rios Cruz, Tessa Andersen, Gaby G. Dagher, Donald Winiecki, Min Long</p>
-    <p><b>Summary:</b> Due to HIPAA and other privacy regulations, it is imperative to maintain
-patient privacy while conducting research on patient health records. In this
-paper, we propose AegisBlock, a patient-centric access controlled framework to
-share medical records with researchers such that the anonymity of the patient
-is maintained while ensuring the trustworthiness of the data provided to
-researchers. AegisBlock allows for patients to provide access to their medical
-data, verified by miners. A researcher submits a time-based range query to
-request access to records from a certain patient, and upon patient approval,
-access will be granted. Our experimental evaluation results show that
-AegisBlock is scalable with respect to the number of patients and hospitals in
-the system, and efficient with up to 50% of malicious miners.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11742v1">Assessing User Privacy Leakage in Synthetic Packet Traces: An
-  Attack-Grounded Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-08-15T17:54:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Minhao Jin, Hongyu He, Maria Apostolaki</p>
-    <p><b>Summary:</b> Current synthetic traffic generators (SynNetGens) promise privacy but lack
-comprehensive guarantees or empirical validation, even as their fidelity
-steadily improves. We introduce the first attack-grounded benchmark for
-assessing the privacy of SynNetGens directly from the traffic they produce. We
-frame privacy as membership inference at the traffic-source level--a realistic
-and actionable threat for data holders. To this end, we present TraceBleed, the
-first attack that exploits behavioral fingerprints across flows using
-contrastive learning and temporal chunking, outperforming prior membership
-inference baselines by 172%. Our large-scale study across GAN-, diffusion-, and
-GPT-based SynNetGens uncovers critical insights: (i) SynNetGens leak user-level
-information; (ii) differential privacy either fails to stop these attacks or
-severely degrades fidelity; and (iii) sharing more synthetic data amplifies
-leakage by 59% on average. Finally, we introduce TracePatch, the first
-SynNetGen-agnostic defense that combines adversarial ML with SMT constraints to
-mitigate leakage while preserving fidelity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11575v1">Activate Me!: Designing Efficient Activation Functions for
-  Privacy-Preserving Machine Learning with Fully Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-15T16:31:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nges Brian Njungle, Michel A. Kinsy</p>
-    <p><b>Summary:</b> The growing adoption of machine learning in sensitive areas such as
-healthcare and defense introduces significant privacy and security challenges.
-These domains demand robust data protection, as models depend on large volumes
-of sensitive information for both training and inference. Fully Homomorphic
-Encryption (FHE) presents a compelling solution by enabling computations
-directly on encrypted data, maintaining confidentiality across the entire
-machine learning workflow. However, FHE inherently supports only linear
-operations, making it difficult to implement non-linear activation functions,
-essential components of modern neural networks. This work focuses on designing,
-implementing, and evaluating activation functions tailored for FHE-based
-machine learning. We investigate two commonly used functions: the Square
-function and Rectified Linear Unit (ReLU), using LeNet-5 and ResNet-20
-architectures with the CKKS scheme from the OpenFHE library. For ReLU, we
-assess two methods: a conventional low-degree polynomial approximation and a
-novel scheme-switching technique that securely evaluates ReLU under FHE
-constraints. Our findings show that the Square function performs well in
-shallow networks like LeNet-5, achieving 99.4% accuracy with 128 seconds per
-image. In contrast, deeper models like ResNet-20 benefit more from ReLU. The
-polynomial approximation yields 83.8% accuracy with 1,145 seconds per image,
-while our scheme-switching method improves accuracy to 89.8%, albeit with a
-longer inference time of 1,697 seconds. These results underscore a critical
-trade-off in FHE-based ML: faster activation functions often reduce accuracy,
-whereas those preserving accuracy demand greater computational resources.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.11495v1">KV-Auditor: Auditing Local Differential Privacy for Correlated Key-Value
-  Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-15T14:17:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jingnan Xu, Leixia Wang, Xiaofeng Meng</p>
-    <p><b>Summary:</b> To protect privacy for data-collection-based services, local differential
-privacy (LDP) is widely adopted due to its rigorous theoretical bound on
-privacy loss. However, mistakes in complex theoretical analysis or subtle
-implementation errors may undermine its practical guarantee. To address this,
-auditing is crucial to confirm that LDP protocols truly protect user data.
-However, existing auditing methods, though, mainly target machine learning and
-federated learning tasks based on centralized differentially privacy (DP), with
-limited attention to LDP. Moreover, the few studies on LDP auditing focus
-solely on simple frequency estimation task for discrete data, leaving
-correlated key-value data - which requires both discrete frequency estimation
-for keys and continuous mean estimation for values - unexplored.
-  To bridge this gap, we propose KV-Auditor, a framework for auditing LDP-based
-key-value estimation mechanisms by estimating their empirical privacy lower
-bounds. Rather than traditional LDP auditing methods that relies on binary
-output predictions, KV-Auditor estimates this lower bound by analyzing
-unbounded output distributions, supporting continuous data. Specifically, we
-classify state-of-the-art LDP key-value mechanisms into interactive and
-non-interactive types. For non-interactive mechanisms, we propose horizontal
-KV-Auditor for small domains with sufficient samples and vertical KV-Auditor
-for large domains with limited samples. For interactive mechanisms, we design a
-segmentation strategy to capture incremental privacy leakage across iterations.
-Finally, we perform extensive experiments to validate the effectiveness of our
-approach, offering insights for optimizing LDP-based key-value estimators.</p>
   </details>
 </div>
 
