@@ -1369,5 +1369,158 @@
       "cs.LG",
       "68P27, 68T09, 94A60"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.10163v1",
+    "title" : "Federated Multi-Agent Reinforcement Learning for Privacy-Preserving and\n  Energy-Aware Resource Management in 6G Edge Networks",
+    "summary" : "As sixth-generation (6G) networks move toward ultra-dense, intelligent edge\nenvironments, efficient resource management under stringent privacy, mobility,\nand energy constraints becomes critical. This paper introduces a novel\nFederated Multi-Agent Reinforcement Learning (Fed-MARL) framework that\nincorporates cross-layer orchestration of both the MAC layer and application\nlayer for energy-efficient, privacy-preserving, and real-time resource\nmanagement across heterogeneous edge devices. Each agent uses a Deep Recurrent\nQ-Network (DRQN) to learn decentralized policies for task offloading, spectrum\naccess, and CPU energy adaptation based on local observations (e.g., queue\nlength, energy, CPU usage, and mobility). To protect privacy, we introduce a\nsecure aggregation protocol based on elliptic curve Diffie Hellman key\nexchange, which ensures accurate model updates without exposing raw data to\nsemi-honest adversaries. We formulate the resource management problem as a\npartially observable multi-agent Markov decision process (POMMDP) with a\nmulti-objective reward function that jointly optimizes latency, energy\nefficiency, spectral efficiency, fairness, and reliability under 6G-specific\nservice requirements such as URLLC, eMBB, and mMTC. Simulation results\ndemonstrate that Fed-MARL outperforms centralized MARL and heuristic baselines\nin task success rate, latency, energy efficiency, and fairness, while ensuring\nrobust privacy protection and scalability in dynamic, resource-constrained 6G\nedge networks.",
+    "updated" : "2025-09-12T11:41:40Z",
+    "published" : "2025-09-12T11:41:40Z",
+    "authors" : [
+      {
+        "name" : "Francisco Javier Esono Nkulu Andong"
+      },
+      {
+        "name" : "Qi Min"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.10018v1",
+    "title" : "GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation\n  Enhanced by Domain Rules and Disproof Method",
+    "summary" : "With the rapid advancement of Large Language Model (LLM), LLM-based agents\nexhibit exceptional abilities in understanding and generating natural language,\nfacilitating human-like collaboration and information transmission in LLM-based\nMulti-Agent System (MAS). High-performance LLMs are often hosted on remote\nservers in public spaces. When tasks involve privacy data, MAS cannot securely\nutilize these LLMs without implementing privacy-preserving mechanisms. To\naddress this challenge, we propose a General Anonymizing Multi-Agent system\n(GAMA), which divides the agents' workspace into private and public spaces and\nprotects privacy through the anonymizing mechanism. In the private space,\nagents handle sensitive data, while in the public space, only anonymized data\nis utilized. GAMA incorporates two key modules to mitigate semantic loss caused\nby anonymization: Domain-Rule-based Knowledge Enhancement (DRKE) and\nDisproof-based Logic Enhancement (DLE). We evaluate GAMA on two public\nquestion-answering datasets: Trivia Creative Writing and Logic Grid Puzzle. The\nresults demonstrate that GAMA has superior performance compared to the\nstate-of-the-art models. To further assess its privacy-preserving capabilities,\nwe designed two new datasets: Knowledge Privacy Preservation and Logic Privacy\nPreservation. The final results highlight GAMA's exceptional effectiveness in\nboth task processing and privacy preservation.",
+    "updated" : "2025-09-12T07:22:49Z",
+    "published" : "2025-09-12T07:22:49Z",
+    "authors" : [
+      {
+        "name" : "Hailong Yang"
+      },
+      {
+        "name" : "Renhuo Zhao"
+      },
+      {
+        "name" : "Guanjin Wang"
+      },
+      {
+        "name" : "Zhaohong Deng"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09916v1",
+    "title" : "Immersive Invaders: Privacy Threats from Deceptive Design in Virtual\n  Reality Games and Applications",
+    "summary" : "Virtual Reality (VR) technologies offer immersive experiences but collect\nsubstantial user data. While deceptive design is well-studied in 2D platforms,\nlittle is known about its manifestation in VR environments and its impact on\nuser privacy. This research investigates deceptive designs in privacy\ncommunication and interaction mechanisms of 12 top-rated VR games and\napplications through autoethnographic evaluation of the applications and\nthematic analysis of privacy policies. We found that while many deceptive\ndesigns rely on 2D interfaces, some VR-unique features, while not directly\nenabling deception, amplified data disclosure behaviors, and obscured actual\ndata practices. Convoluted privacy policies and manipulative consent practices\nfurther hinder comprehension and increase privacy risks. We also observed\nprivacy-preserving design strategies and protective considerations in VR\nprivacy policies. We offer recommendations for ethical VR design that balance\nimmersive experiences with strong privacy protections, guiding researchers,\ndesigners, and policymakers to improve privacy in VR environments.",
+    "updated" : "2025-09-12T01:31:59Z",
+    "published" : "2025-09-12T01:31:59Z",
+    "authors" : [
+      {
+        "name" : "Hilda Hadan"
+      },
+      {
+        "name" : "Michaela Valiquette"
+      },
+      {
+        "name" : "Lennart E. Nacke"
+      },
+      {
+        "name" : "Leah Zhang-Kennedy"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09844v1",
+    "title" : "Privacy-Preserving Automated Rosacea Detection Based on Medically\n  Inspired Region of Interest Selection",
+    "summary" : "Rosacea is a common but underdiagnosed inflammatory skin condition that\nprimarily affects the central face and presents with subtle redness, pustules,\nand visible blood vessels. Automated detection remains challenging due to the\ndiffuse nature of symptoms, the scarcity of labeled datasets, and privacy\nconcerns associated with using identifiable facial images. A novel\nprivacy-preserving automated rosacea detection method inspired by clinical\npriors and trained entirely on synthetic data is presented in this paper.\nSpecifically, the proposed method, which leverages the observation that rosacea\nmanifests predominantly through central facial erythema, first constructs a\nfixed redness-informed mask by selecting regions with consistently high red\nchannel intensity across facial images. The mask thus is able to focus on\ndiagnostically relevant areas such as the cheeks, nose, and forehead and\nexclude identity-revealing features. Second, the ResNet-18 deep learning\nmethod, which is trained on the masked synthetic images, achieves superior\nperformance over the full-face baselines with notable gains in terms of\naccuracy, recall and F1 score when evaluated using the real-world test data.\nThe experimental results demonstrate that the synthetic data and clinical\npriors can jointly enable accurate and ethical dermatological AI systems,\nespecially for privacy sensitive applications in telemedicine and large-scale\nscreening.",
+    "updated" : "2025-09-11T20:54:26Z",
+    "published" : "2025-09-11T20:54:26Z",
+    "authors" : [
+      {
+        "name" : "Chengyu Yang"
+      },
+      {
+        "name" : "Rishik Reddy Yesgari"
+      },
+      {
+        "name" : "Chengjun Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09787v1",
+    "title" : "ZORRO: Zero-Knowledge Robustness and Privacy for Split Learning (Full\n  Version)",
+    "summary" : "Split Learning (SL) is a distributed learning approach that enables\nresource-constrained clients to collaboratively train deep neural networks\n(DNNs) by offloading most layers to a central server while keeping in- and\noutput layers on the client-side. This setup enables SL to leverage server\ncomputation capacities without sharing data, making it highly effective in\nresource-constrained environments dealing with sensitive data. However, the\ndistributed nature enables malicious clients to manipulate the training\nprocess. By sending poisoned intermediate gradients, they can inject backdoors\ninto the shared DNN. Existing defenses are limited by often focusing on\nserver-side protection and introducing additional overhead for the server. A\nsignificant challenge for client-side defenses is enforcing malicious clients\nto correctly execute the defense algorithm.\n  We present ZORRO, a private, verifiable, and robust SL defense scheme.\nThrough our novel design and application of interactive zero-knowledge proofs\n(ZKPs), clients prove their correct execution of a client-located defense\nalgorithm, resulting in proofs of computational integrity attesting to the\nbenign nature of locally trained DNN portions. Leveraging the frequency\nrepresentation of model partitions enables ZORRO to conduct an in-depth\ninspection of the locally trained models in an untrusted environment, ensuring\nthat each client forwards a benign checkpoint to its succeeding client. In our\nextensive evaluation, covering different model architectures as well as various\nattack strategies and data scenarios, we show ZORRO's effectiveness, as it\nreduces the attack success rate to less than 6\\% while causing even for models\nstoring \\numprint{1000000} parameters on the client-side an overhead of less\nthan 10 seconds.",
+    "updated" : "2025-09-11T18:44:09Z",
+    "published" : "2025-09-11T18:44:09Z",
+    "authors" : [
+      {
+        "name" : "Nojan Sheybani"
+      },
+      {
+        "name" : "Alessandro Pegoraro"
+      },
+      {
+        "name" : "Jonathan Knauer"
+      },
+      {
+        "name" : "Phillip Rieger"
+      },
+      {
+        "name" : "Elissa Mollakuqe"
+      },
+      {
+        "name" : "Farinaz Koushanfar"
+      },
+      {
+        "name" : "Ahmad-Reza Sadeghi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.09485v2",
+    "title" : "Balancing Utility and Privacy: Dynamically Private SGD with Random\n  Projection",
+    "summary" : "Stochastic optimization is a pivotal enabler in modern machine learning,\nproducing effective models for various tasks. However, several existing works\nhave shown that model parameters and gradient information are susceptible to\nprivacy leakage. Although Differentially Private SGD (DPSGD) addresses privacy\nconcerns, its static noise mechanism impacts the error bounds for model\nperformance. Additionally, with the exponential increase in model parameters,\nefficient learning of these models using stochastic optimizers has become more\nchallenging. To address these concerns, we introduce the Dynamically\nDifferentially Private Projected SGD (D2P2-SGD) optimizer. In D2P2-SGD, we\ncombine two important ideas: (i) dynamic differential privacy (DDP) with\nautomatic gradient clipping and (ii) random projection with SGD, allowing\ndynamic adjustment of the tradeoff between utility and privacy of the model. It\nexhibits provably sub-linear convergence rates across different objective\nfunctions, matching the best available rate. The theoretical analysis further\nsuggests that DDP leads to better utility at the cost of privacy, while random\nprojection enables more efficient model learning. Extensive experiments across\ndiverse datasets show that D2P2-SGD remarkably enhances accuracy while\nmaintaining privacy. Our code is available here.",
+    "updated" : "2025-09-12T01:27:15Z",
+    "published" : "2025-09-11T14:17:04Z",
+    "authors" : [
+      {
+        "name" : "Zhanhong Jiang"
+      },
+      {
+        "name" : "Md Zahid Hasan"
+      },
+      {
+        "name" : "Nastaran Saadati"
+      },
+      {
+        "name" : "Aditya Balu"
+      },
+      {
+        "name" : "Chao Liu"
+      },
+      {
+        "name" : "Soumik Sarkar"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
