@@ -1522,5 +1522,294 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11939v1",
+    "title" : "PrivWeb: Unobtrusive and Content-aware Privacy Protection For Web Agents",
+    "summary" : "While web agents gained popularity by automating web interactions, their\nrequirement for interface access introduces significant privacy risks that are\nunderstudied, particularly from users' perspective. Through a formative study\n(N=15), we found users frequently misunderstand agents' data practices, and\ndesired unobtrusive, transparent data management. To achieve this, we designed\nand implemented PrivWeb, a trusted add-on on web agents that utilizes a\nlocalized LLM to anonymize private information on interfaces according to user\npreferences. It features privacy categorization schema and adaptive\nnotifications that selectively pauses tasks for user control over information\ncollection for highly sensitive information, while offering non-disruptive\noptions for less sensitive information, minimizing human oversight. The user\nstudy (N=14) across travel, information retrieval, shopping, and entertainment\ntasks compared PrivWeb with baselines without notification and without control\nfor private information access, where PrivWeb reduced perceived privacy risks\nwith no associated increase in cognitive effort, and resulted in higher overall\nsatisfaction.",
+    "updated" : "2025-09-15T13:58:52Z",
+    "published" : "2025-09-15T13:58:52Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Yutong Jiang"
+      },
+      {
+        "name" : "Rongjun Ma"
+      },
+      {
+        "name" : "Yuting Yang"
+      },
+      {
+        "name" : "Mingyao Xu"
+      },
+      {
+        "name" : "Zhixin Huang"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11917v1",
+    "title" : "Distributed Finite-Horizon Optimal Control for Consensus with\n  Differential Privacy Guarantees",
+    "summary" : "This paper addresses the problem of privacy-preserving consensus control for\nmulti-agent systems (MAS) using differential privacy. We propose a novel\ndistributed finite-horizon linear quadratic regulator (LQR) framework, in which\nagents share individual state information while preserving the confidentiality\nof their local pairwise weight matrices, which are considered sensitive data in\nMAS. Protecting these matrices effectively safeguards each agent's private cost\nfunction and control preferences. Our solution injects consensus\nerror-dependent Laplace noise into the communicated state information and\nemploys a carefully designed time-dependent scaling factor in the local cost\nfunctions. {This approach guarantees bounded consensus and achieves rigorous\n$\\epsilon$-differential privacy for the weight matrices without relying on\nspecific noise distribution assumptions.} Additionally, we analytically\ncharacterize the trade-off between consensus accuracy and privacy level,\noffering clear guidelines on how to enhance consensus performance through\nappropriate scaling of the LQR weight matrices and the privacy budget.",
+    "updated" : "2025-09-15T13:34:27Z",
+    "published" : "2025-09-15T13:34:27Z",
+    "authors" : [
+      {
+        "name" : "Yuwen Ma"
+      },
+      {
+        "name" : "Yongqiang Wang"
+      },
+      {
+        "name" : "Sarah K. Spurgeon"
+      },
+      {
+        "name" : "Boli Chen"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11870v1",
+    "title" : "Efficient Byzantine-Robust Privacy-Preserving Federated Learning via\n  Dimension Compression",
+    "summary" : "Federated Learning (FL) allows collaborative model training across\ndistributed clients without sharing raw data, thus preserving privacy. However,\nthe system remains vulnerable to privacy leakage from gradient updates and\nByzantine attacks from malicious clients. Existing solutions face a critical\ntrade-off among privacy preservation, Byzantine robustness, and computational\nefficiency. We propose a novel scheme that effectively balances these competing\nobjectives by integrating homomorphic encryption with dimension compression\nbased on the Johnson-Lindenstrauss transformation. Our approach employs a\ndual-server architecture that enables secure Byzantine defense in the\nciphertext domain while dramatically reducing computational overhead through\ngradient compression. The dimension compression technique preserves the\ngeometric relationships necessary for Byzantine defence while reducing\ncomputation complexity from $O(dn)$ to $O(kn)$ cryptographic operations, where\n$k \\ll d$. Extensive experiments across diverse datasets demonstrate that our\napproach maintains model accuracy comparable to non-private FL while\neffectively defending against Byzantine clients comprising up to $40\\%$ of the\nnetwork.",
+    "updated" : "2025-09-15T12:43:58Z",
+    "published" : "2025-09-15T12:43:58Z",
+    "authors" : [
+      {
+        "name" : "Xian Qin"
+      },
+      {
+        "name" : "Xue Yang"
+      },
+      {
+        "name" : "Xiaohu Tang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11761v1",
+    "title" : "On Spatial-Provenance Recovery in Wireless Networks with Relaxed-Privacy\n  Constraints",
+    "summary" : "In Vehicle-to-Everything (V2X) networks with multi-hop communication, Road\nSide Units (RSUs) intend to gather location data from the vehicles to offer\nvarious location-based services. Although vehicles use the Global Positioning\nSystem (GPS) for navigation, they may refrain from sharing their exact GPS\ncoordinates to the RSUs due to privacy considerations. Thus, to address the\nlocalization expectations of the RSUs and the privacy concerns of the vehicles,\nwe introduce a relaxed-privacy model wherein the vehicles share their partial\nlocation information in order to avail the location-based services. To\nimplement this notion of relaxed-privacy, we propose a low-latency protocol for\nspatial-provenance recovery, wherein vehicles use correlated linear Bloom\nfilters to embed their position information. Our proposed spatial-provenance\nrecovery process takes into account the resolution of localization, the\nunderlying ad hoc protocol, and the coverage range of the wireless technology\nused by the vehicles. Through a rigorous theoretical analysis, we present\nextensive analysis on the underlying trade-off between relaxed-privacy and the\ncommunication-overhead of the protocol. Finally, using a wireless testbed, we\nshow that our proposed method requires a few bits in the packet header to\nprovide security features such as localizing a low-power jammer executing a\ndenial-of-service attack.",
+    "updated" : "2025-09-15T10:28:52Z",
+    "published" : "2025-09-15T10:28:52Z",
+    "authors" : [
+      {
+        "name" : "Manish Bansal"
+      },
+      {
+        "name" : "Pramsu Shrivastava"
+      },
+      {
+        "name" : "J. Harshan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11625v1",
+    "title" : "Inducing Uncertainty for Test-Time Privacy",
+    "summary" : "Unlearning is the predominant method for removing the influence of data in\nmachine learning models. However, even after unlearning, models often continue\nto produce the same predictions on the unlearned data with high confidence.\nThis persistent behavior can be exploited by adversaries using confident model\npredictions on incorrect or obsolete data to harm users. We call this threat\nmodel, which unlearning fails to protect against, *test-time privacy*. In\nparticular, an adversary with full model access can bypass any naive defenses\nwhich ensure test-time privacy. To address this threat, we introduce an\nalgorithm which perturbs model weights to induce maximal uncertainty on\nprotected instances while preserving accuracy on the rest of the instances. Our\ncore algorithm is based on finetuning with a Pareto optimal objective that\nexplicitly balances test-time privacy against utility. We also provide a\ncertifiable approximation algorithm which achieves $(\\varepsilon, \\delta)$\nguarantees without convexity assumptions. We then prove a tight, non-vacuous\nbound that characterizes the privacy-utility tradeoff that our algorithms\nincur. Empirically, our method obtains $>3\\times$ stronger uncertainty than\npretraining with $<0.2\\%$ drops in accuracy on various image recognition\nbenchmarks. Altogether, this framework provides a tool to guarantee additional\nprotection to end users.",
+    "updated" : "2025-09-15T06:38:57Z",
+    "published" : "2025-09-15T06:38:57Z",
+    "authors" : [
+      {
+        "name" : "Muhammad H. Ashiq"
+      },
+      {
+        "name" : "Peter Triantafillou"
+      },
+      {
+        "name" : "Hung Yun Tseng"
+      },
+      {
+        "name" : "Grigoris G. Chrysos"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11249v1",
+    "title" : "Make Identity Unextractable yet Perceptible: Synthesis-Based Privacy\n  Protection for Subject Faces in Photos",
+    "summary" : "Deep learning-based face recognition (FR) technology exacerbates privacy\nconcerns in photo sharing. In response, the research community developed a\nsuite of anti-FR methods to block identity extraction by unauthorized FR\nsystems. Benefiting from quasi-imperceptible alteration, perturbation-based\nmethods are well-suited for privacy protection of subject faces in photos, as\nthey allow familiar persons to recognize subjects via naked eyes. However, we\nreveal that perturbation-based methods provide a false sense of privacy through\ntheoretical analysis and experimental validation.\n  Therefore, new alternative solutions should be found to protect subject\nfaces. In this paper, we explore synthesis-based methods as a promising\nsolution, whose challenge is to enable familiar persons to recognize subjects.\nTo solve the challenge, we present a key insight: In most photo sharing\nscenarios, familiar persons recognize subjects through identity perception\nrather than meticulous face analysis. Based on the insight, we propose the\nfirst synthesis-based method dedicated to subject faces, i.e., PerceptFace,\nwhich can make identity unextractable yet perceptible. To enhance identity\nperception, a new perceptual similarity loss is designed for faces, reducing\nthe alteration in regions of high sensitivity to human vision.\n  As a synthesis-based method, PerceptFace can inherently provide reliable\nidentity protection. Meanwhile, out of the confine of meticulous face analysis,\nPerceptFace focuses on identity perception from a more practical scenario,\nwhich is also enhanced by the designed perceptual similarity loss. Sufficient\nexperiments show that PerceptFace achieves a superior trade-off between\nidentity protection and identity perception compared to existing methods. We\nprovide a public API of PerceptFace and believe that it has great potential to\nbecome a practical anti-FR tool.",
+    "updated" : "2025-09-14T12:47:47Z",
+    "published" : "2025-09-14T12:47:47Z",
+    "authors" : [
+      {
+        "name" : "Tao Wang"
+      },
+      {
+        "name" : "Yushu Zhang"
+      },
+      {
+        "name" : "Xiangli Xiao"
+      },
+      {
+        "name" : "Kun Xu"
+      },
+      {
+        "name" : "Lin Yuan"
+      },
+      {
+        "name" : "Wenying Wen"
+      },
+      {
+        "name" : "Yuming Fang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11022v1",
+    "title" : "Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced\n  Energy Storage Dispatch",
+    "summary" : "This paper proposes a novel privacy-preserving uncertainty disclosure\nframework, enabling system operators to release marginal value function bounds\nto reduce the conservativeness of interval forecast and mitigate excessive\nwithholding, thereby enhancing storage dispatch and social welfare. We propose\na risk-averse analytical storage arbitrage model based on stochastic dynamic\nprogramming and explicitly account for uncertainty intervals in value function\ntraining. We derive real-time marginal value function bounds using a\nrolling-horizon chance-constrained economic dispatch formulation. We rigorously\nprove that the bounds reliably cap the true opportunity cost and dynamically\nconverge to the hindsight value. We verify that both the marginal value\nfunction and its bounds monotonically decrease with the state of charge and\nincrease with uncertainty, providing a theoretical basis for risk-averse\nstrategic behaviors and SoC-dependent designs. We validate the effectiveness of\nthe proposed framework via an agent-based simulation on the ISO-NE test system.\nUnder 50% renewable capacity and 35% storage capacity, the proposed bounds\nenhance storage response by 38.91% and reduce the optimality gap to 3.91%\nthrough improved interval predictions. Additionally, by mitigating excessive\nwithholding, the bounds yield an average system cost reduction of 0.23% and an\naverage storage profit increase of 13.22%. These benefits further scale with\nhigher prediction conservativeness, storage capacity, and system uncertainty.",
+    "updated" : "2025-09-14T01:22:29Z",
+    "published" : "2025-09-14T01:22:29Z",
+    "authors" : [
+      {
+        "name" : "Ning Qi"
+      },
+      {
+        "name" : "Xiaolong Jin"
+      },
+      {
+        "name" : "Kai Hou"
+      },
+      {
+        "name" : "Zeyu Liu"
+      },
+      {
+        "name" : "Hongjie Jia"
+      },
+      {
+        "name" : "Wei Wei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.10691v1",
+    "title" : "Privacy-Preserving Decentralized Federated Learning via Explainable\n  Adaptive Differential Privacy",
+    "summary" : "Decentralized federated learning faces privacy risks because model updates\ncan leak data through inference attacks and membership inference, a concern\nthat grows over many client exchanges. Differential privacy offers principled\nprotection by injecting calibrated noise so confidential information remains\nsecure on resource-limited IoT devices. Yet without transparency, black-box\ntraining cannot track noise already injected by previous clients and rounds,\nwhich forces worst-case additions and harms accuracy. We propose PrivateDFL, an\nexplainable framework that joins hyperdimensional computing with differential\nprivacy and keeps an auditable account of cumulative noise so each client adds\nonly the difference between the required noise and what has already been\naccumulated. We evaluate on MNIST, ISOLET, and UCI-HAR to span image, signal,\nand tabular modalities, and we benchmark against transformer-based and deep\nlearning-based baselines trained centrally with Differentially Private\nStochastic Gradient Descent (DP-SGD) and Renyi Differential Privacy (RDP).\nPrivateDFL delivers higher accuracy, lower latency, and lower energy across IID\nand non-IID partitions while preserving formal (epsilon, delta) guarantees and\noperating without a central server. For example, under non-IID partitions,\nPrivateDFL achieves 24.42% higher accuracy than the Vision Transformer on MNIST\nwhile using about 10x less training time, 76x lower inference latency, and 11x\nless energy, and on ISOLET it exceeds Transformer accuracy by more than 80%\nwith roughly 10x less training time, 40x lower inference latency, and 36x less\ntraining energy. Future work will extend the explainable accounting to\nadversarial clients and adaptive topologies with heterogeneous privacy budgets.",
+    "updated" : "2025-09-12T20:52:41Z",
+    "published" : "2025-09-12T20:52:41Z",
+    "authors" : [
+      {
+        "name" : "Fardin Jalil Piran"
+      },
+      {
+        "name" : "Zhiling Chen"
+      },
+      {
+        "name" : "Yang Zhang"
+      },
+      {
+        "name" : "Qianyu Zhou"
+      },
+      {
+        "name" : "Jiong Tang"
+      },
+      {
+        "name" : "Farhad Imani"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.10561v1",
+    "title" : "AVEC: Bootstrapping Privacy for Local LLMs",
+    "summary" : "This position paper presents AVEC (Adaptive Verifiable Edge Control), a\nframework for bootstrapping privacy for local language models by enforcing\nprivacy at the edge with explicit verifiability for delegated queries. AVEC\nintroduces an adaptive budgeting algorithm that allocates per-query\ndifferential privacy parameters based on sensitivity, local confidence, and\nhistorical usage, and uses verifiable transformation with on-device integrity\nchecks. We formalize guarantees using R\\'enyi differential privacy with\nodometer-based accounting, and establish utility ceilings, delegation-leakage\nbounds, and impossibility results for deterministic gating and hash-only\ncertification. Our evaluation is simulation-based by design to study mechanism\nbehavior and accounting; we do not claim deployment readiness or task-level\nutility with live LLMs. The contribution is a conceptual architecture and\ntheoretical foundation that chart a pathway for empirical follow-up on\nprivately bootstrapping local LLMs.",
+    "updated" : "2025-09-10T07:59:01Z",
+    "published" : "2025-09-10T07:59:01Z",
+    "authors" : [
+      {
+        "name" : "Madhava Gaikwad"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "68Q25, 68T50, 68P27",
+      "F.2.2; I.2.7; K.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.05362v2",
+    "title" : "AI-in-the-Loop: Privacy Preserving Real-Time Scam Detection and\n  Conversational Scambaiting by Leveraging LLMs and Federated Learning",
+    "summary" : "Scams exploiting real-time social engineering -- such as phishing,\nimpersonation, and phone fraud -- remain a persistent and evolving threat\nacross digital platforms. Existing defenses are largely reactive, offering\nlimited protection during active interactions. We propose a privacy-preserving,\nAI-in-the-loop framework that proactively detects and disrupts scam\nconversations in real time. The system combines instruction-tuned artificial\nintelligence with a safety-aware utility function that balances engagement with\nharm minimization, and employs federated learning to enable continual model\nupdates without raw data sharing. Experimental evaluations show that the system\nproduces fluent and engaging responses (perplexity as low as 22.3, engagement\n$\\approx$0.80), while human studies confirm significant gains in realism,\nsafety, and effectiveness over strong baselines. In federated settings, models\ntrained with FedAvg sustain up to 30 rounds while preserving high engagement\n($\\approx$0.80), strong relevance ($\\approx$0.74), and low PII leakage\n($\\leq$0.0085). Even with differential privacy, novelty and safety remain\nstable, indicating that robust privacy can be achieved without sacrificing\nperformance. The evaluation of guard models (LlamaGuard, LlamaGuard2/3,\nMD-Judge) shows a straightforward pattern: stricter moderation settings reduce\nthe chance of exposing personal information, but they also limit how much the\nmodel engages in conversation. In contrast, more relaxed settings allow longer\nand richer interactions, which improve scam detection, but at the cost of\nhigher privacy risk. To our knowledge, this is the first framework to unify\nreal-time scam-baiting, federated privacy preservation, and calibrated safety\nmoderation into a proactive defense paradigm.",
+    "updated" : "2025-09-12T18:06:28Z",
+    "published" : "2025-09-04T00:19:48Z",
+    "authors" : [
+      {
+        "name" : "Ismail Hossain"
+      },
+      {
+        "name" : "Sai Puppala"
+      },
+      {
+        "name" : "Sajedul Talukder"
+      },
+      {
+        "name" : "Md Jahangir Alam"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.10516v1",
+    "title" : "Privacy-Preserving Personalization in Education: A Federated Recommender\n  System for Student Performance Prediction",
+    "summary" : "The increasing digitalization of education presents unprecedented\nopportunities for data-driven personalization, yet it introduces significant\nstudent data privacy challenges. Conventional recommender systems rely on\ncentralized data, a paradigm often incompatible with modern data protection\nregulations. A novel privacy-preserving recommender system is proposed and\nevaluated to address this critical issue using Federated Learning (FL). The\napproach utilizes a Deep Neural Network (DNN) with rich, engineered features\nfrom the large-scale ASSISTments educational dataset. A rigorous comparative\nanalysis of federated aggregation strategies was conducted, identifying FedProx\nas a significantly more stable and effective method for handling heterogeneous\nstudent data than the standard FedAvg baseline. The optimized federated model\nachieves a high-performance F1-Score of 76.28\\%, corresponding to 82.85\\% of\nthe performance of a powerful, centralized XGBoost model. These findings\nvalidate that a federated approach can provide highly effective content\nrecommendations without centralizing sensitive student data. Consequently, our\nwork presents a viable and robust solution to the personalization-privacy\ndilemma in modern educational platforms.",
+    "updated" : "2025-09-03T11:28:57Z",
+    "published" : "2025-09-03T11:28:57Z",
+    "authors" : [
+      {
+        "name" : "Rodrigo Tertulino"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CY"
+    ]
   }
 ]
