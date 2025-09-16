@@ -3460,5 +3460,22 @@
       "cs.CY",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.10466v1",
+    "title" : "A Real-Time Diminished Reality Approach to Privacy in MR Collaboration",
+    "summary" : "Diminished reality (DR) refers to the digital removal of real-world objects\nby compositing background content in their place. This thesis presents a\nreal-time, inpainting-based DR system designed to enable privacy control in\nshared-space mixed reality (MR) meetings. The system allows a primary headset\nuser to selectively remove personal or sensitive items from their environment,\nensuring that those objects are no longer visible to other participants.\nRemoval is achieved through semantic segmentation and precise object selection,\nfollowed by real-time inpainting from the viewpoint of a secondary observer,\nimplemented using a mobile ZED 2i depth camera. The solution is designed to be\nportable and robust, requiring neither a fixed secondary viewpoint nor prior 3D\nscanning of the environment. The system utilises YOLOv11 for object detection\nand a modified Decoupled Spatial-Temporal Transformer (DSTT) model for\nhigh-quality video inpainting. At 720p resolution, the pipeline sustains frame\nrates exceeding 20 fps, demonstrating the feasibility of real-time diminished\nreality for practical privacy-preserving MR applications.",
+    "updated" : "2025-08-21T04:01:56Z",
+    "published" : "2025-08-21T04:01:56Z",
+    "authors" : [
+      {
+        "name" : "Christian Fane"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.HC",
+      "H.5.1; H.5.2; I.4.6; I.4.4; I.2.10; I.4.9; K.4.1"
+    ]
   }
 ]
