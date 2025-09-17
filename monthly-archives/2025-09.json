@@ -1811,5 +1811,298 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13051v1",
+    "title" : "More than Meets the Eye: Understanding the Effect of Individual Objects\n  on Perceived Visual Privacy",
+    "summary" : "User-generated content, such as photos, comprises the majority of online\nmedia content and drives engagement due to the human ability to process visual\ninformation quickly. Consequently, many online platforms are designed for\nsharing visual content, with billions of photos posted daily. However, photos\noften reveal more than they intended through visible and contextual cues,\nleading to privacy risks. Previous studies typically treat privacy as a\nproperty of the entire image, overlooking individual objects that may carry\nvarying privacy risks and influence how users perceive it. We address this gap\nwith a mixed-methods study (n = 92) to understand how users evaluate the\nprivacy of images containing multiple sensitive objects. Our results reveal\nmental models and nuanced patterns that uncover how granular details, such as\nphoto-capturing context and co-presence of other objects, affect privacy\nperceptions. These novel insights could enable personalized, context-aware\nprivacy protection designs on social media and future technologies.",
+    "updated" : "2025-09-16T13:10:00Z",
+    "published" : "2025-09-16T13:10:00Z",
+    "authors" : [
+      {
+        "name" : "Mete Harun Akcay"
+      },
+      {
+        "name" : "Siddharth Prakash Rao"
+      },
+      {
+        "name" : "Alexandros Bakas"
+      },
+      {
+        "name" : "Buse Gul Atli"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12958v1",
+    "title" : "Forget What's Sensitive, Remember What Matters: Token-Level Differential\n  Privacy in Memory Sculpting for Continual Learning",
+    "summary" : "Continual Learning (CL) models, while adept at sequential knowledge\nacquisition, face significant and often overlooked privacy challenges due to\naccumulating diverse information. Traditional privacy methods, like a uniform\nDifferential Privacy (DP) budget, indiscriminately protect all data, leading to\nsubstantial model utility degradation and hindering CL deployment in\nprivacy-sensitive areas. To overcome this, we propose a privacy-enhanced\ncontinual learning (PeCL) framework that forgets what's sensitive and remembers\nwhat matters. Our approach first introduces a token-level dynamic Differential\nPrivacy strategy that adaptively allocates privacy budgets based on the\nsemantic sensitivity of individual tokens. This ensures robust protection for\nprivate entities while minimizing noise injection for non-sensitive, general\nknowledge. Second, we integrate a privacy-guided memory sculpting module. This\nmodule leverages the sensitivity analysis from our dynamic DP mechanism to\nintelligently forget sensitive information from the model's memory and\nparameters, while explicitly preserving the task-invariant historical knowledge\ncrucial for mitigating catastrophic forgetting. Extensive experiments show that\nPeCL achieves a superior balance between privacy preserving and model utility,\noutperforming baseline models by maintaining high accuracy on previous tasks\nwhile ensuring robust privacy.",
+    "updated" : "2025-09-16T11:01:59Z",
+    "published" : "2025-09-16T11:01:59Z",
+    "authors" : [
+      {
+        "name" : "Bihao Zhan"
+      },
+      {
+        "name" : "Jie Zhou"
+      },
+      {
+        "name" : "Junsong Li"
+      },
+      {
+        "name" : "Yutao Yang"
+      },
+      {
+        "name" : "Shilian Chen"
+      },
+      {
+        "name" : "Qianjun Pan"
+      },
+      {
+        "name" : "Xin Li"
+      },
+      {
+        "name" : "Wen Wu"
+      },
+      {
+        "name" : "Xingjiao Wu"
+      },
+      {
+        "name" : "Qin Chen"
+      },
+      {
+        "name" : "Hang Yan"
+      },
+      {
+        "name" : "Liang He"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12899v1",
+    "title" : "EByFTVeS: Efficient Byzantine Fault Tolerant-based Verifiable\n  Secret-sharing in Distributed Privacy-preserving Machine Learning",
+    "summary" : "Verifiable Secret Sharing (VSS) has been widespread in Distributed\nPrivacy-preserving Machine Learning (DPML), because invalid shares from\nmalicious dealers or participants can be recognized by verifying the commitment\nof the received shares for honest participants. However, the consistency and\nthe computation and communitation burden of the VSS-based DPML schemes are\nstill two serious challenges. Although Byzantine Fault Tolerance (BFT) system\nhas been brought to guarantee the consistency and improve the efficiency of the\nexisting VSS-based DPML schemes recently, we explore an Adaptive Share Delay\nProvision (ASDP) strategy, and launch an ASDP-based Customized Model Poisoning\nAttack (ACuMPA) for certain participants in this paper. We theoretically\nanalyzed why the ASDP strategy and the ACuMPA algorithm works to the existing\nschemes. Next, we propose an [E]fficient [By]zantine [F]ault [T]olerant-based\n[Ve]rifiable [S]ecret-sharing (EByFTVeS) scheme. Finally, the validity,\nliveness, consistency and privacy of the EByFTVeS scheme are theoretically\nanalyzed, while the efficiency of the EByFTVeS scheme outperforms that of\nthe-state-of-art VSS scheme according to comparative experiment results.",
+    "updated" : "2025-09-16T09:54:27Z",
+    "published" : "2025-09-16T09:54:27Z",
+    "authors" : [
+      {
+        "name" : "Zhen Li"
+      },
+      {
+        "name" : "Zijian Zhang"
+      },
+      {
+        "name" : "Wenjin Yang"
+      },
+      {
+        "name" : "Pengbo Wang"
+      },
+      {
+        "name" : "Zhaoqi Wang"
+      },
+      {
+        "name" : "Meng Li"
+      },
+      {
+        "name" : "Yan Wu"
+      },
+      {
+        "name" : "Xuyang Liu"
+      },
+      {
+        "name" : "Jing Sun"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12590v1",
+    "title" : "DPCheatSheet: Using Worked and Erroneous LLM-usage Examples to Scaffold\n  Differential Privacy Implementation",
+    "summary" : "This paper explores how programmers without specialized expertise in\ndifferential privacy (DP) (i.e., novices) can leverage LLMs to implement DP\nprograms with minimal training. We first conducted a need-finding study with 6\nnovices and 3 experts to understand how they utilize LLMs in DP implementation.\nWhile DP experts can implement correct DP analyses through a few prompts,\nnovices struggle to articulate their requirements in prompts and lack the\nskills to verify the correctness of the generated code. We then developed\nDPCheatSheet, an instructional tool that helps novices implement DP using LLMs.\nDPCheatSheet combines two learning concepts: it annotates an expert's workflow\nwith LLMs as a worked example to bridge the expert mindset to novices, and it\npresents five common mistakes in LLM-based DP code generation as erroneous\nexamples to support error-driven learning. We demonstrated the effectiveness of\nDPCheatSheet with an error identification study and an open-ended DP\nimplementation study.",
+    "updated" : "2025-09-16T02:33:32Z",
+    "published" : "2025-09-16T02:33:32Z",
+    "authors" : [
+      {
+        "name" : "Shao-Yu Chu"
+      },
+      {
+        "name" : "Yuhe Tian"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      },
+      {
+        "name" : "Haojian Jin"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12578v1",
+    "title" : "Conflect: Designing Reflective Thinking-Based Contextual Privacy Policy\n  for Mobile Applications",
+    "summary" : "Privacy policies are lengthy and complex, leading to user neglect. While\ncontextual privacy policies (CPPs) present information at the point of risk,\nthey may lack engagement and disrupt tasks. We propose Conflect, an interactive\nCPP for mobile apps, guided by a reflective thinking framework. Through three\nworkshops with experienced designers and researchers, we constructed the design\nspace of reflective thinking-based CPP design, and identified the disconnect\nbetween context and action as the most critical problem. Based on participants'\nfeedback, we designed Conflect to use sidebar alerts, allowing users to reflect\non contextualized risks and fostering their control. Our system contextually\ndetects privacy risks, extracts policy segments, and automatically generates\nrisk descriptions with 94.0% policy extraction accuracy on CPP4APP dataset and\na 4.35s latency. A user study (N=28) demonstrated that Conflect improves user\nunderstanding, trust, and satisfaction while lowering cognitive load compared\nto CPPs, privacy policies and privacy labels.",
+    "updated" : "2025-09-16T02:11:09Z",
+    "published" : "2025-09-16T02:11:09Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Sixing Tao"
+      },
+      {
+        "name" : "Eve He"
+      },
+      {
+        "name" : "Yuting Yang"
+      },
+      {
+        "name" : "Ying Ma"
+      },
+      {
+        "name" : "Ailei Wang"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12465v1",
+    "title" : "Efficient Privacy-Preserving Training of Quantum Neural Networks by\n  Using Mixed States to Represent Input Data Ensembles",
+    "summary" : "Quantum neural networks (QNNs) are gaining increasing interest due to their\npotential to detect complex patterns in data by leveraging uniquely quantum\nphenomena. This makes them particularly promising for biomedical applications.\nIn these applications and in other contexts, increasing statistical power often\nrequires aggregating data from multiple participants. However, sharing data,\nespecially sensitive information like personal genomic sequences, raises\nsignificant privacy concerns. Quantum federated learning offers a way to\ncollaboratively train QNN models without exposing private data. However, it\nfaces major limitations, including high communication overhead and the need to\nretrain models when the task is modified. To overcome these challenges, we\npropose a privacy-preserving QNN training scheme that utilizes mixed quantum\nstates to encode ensembles of data. This approach allows for the secure sharing\nof statistical information while safeguarding individual data points. QNNs can\nbe trained directly on these mixed states, eliminating the need to access raw\ndata. Building on this foundation, we introduce protocols supporting\nmulti-party collaborative QNN training applicable across diverse domains. Our\napproach enables secure QNN training with only a single round of communication\nper participant, provides high training speed and offers task generality, i.e.,\nnew analyses can be conducted without reacquiring information from\nparticipants. We present the theoretical foundation of our scheme's utility and\nprivacy protections, which prevent the recovery of individual data points and\nresist membership inference attacks as measured by differential privacy. We\nthen validate its effectiveness on three different datasets with a focus on\ngenomic studies with an indication of how it can used in other domains without\nadaptation.",
+    "updated" : "2025-09-15T21:20:51Z",
+    "published" : "2025-09-15T21:20:51Z",
+    "authors" : [
+      {
+        "name" : "Gaoyuan Wang"
+      },
+      {
+        "name" : "Jonathan Warrell"
+      },
+      {
+        "name" : "Mark Gerstein"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12403v1",
+    "title" : "Privacy-Driven Network Data for Smart Cities",
+    "summary" : "A smart city is essential for sustainable urban development. In addition to\ncitizen engagement, a smart city enables connected infrastructure, data-driven\ndecision making and smart mobility. For most of these features, network data\nplays a critical role, particularly from public Wi-Fi infrastructures, where\ncities can benefit from optimized services such as public transport management\nand the safety and efficiency of large events. One of the biggest concerns in\ndeveloping a smart city is using secure and private data. This is particularly\nrelevant in the case of Wi-Fi network data, where sensitive information can be\ncollected. This paper specifically addresses the problem of sharing secure data\nto enhance the quality of the Wi-Fi network in a city. Despite the high\nimportance of this type of data, related work focuses on improving the safety\nof mobility patterns, targeting only the protection of MAC addresses. On the\nopposite side, we provide a practical methodology for safeguarding all\nattributes in real Wi-Fi network data. This study was developed in\ncollaboration with a multidisciplinary team of legal experts, data custodians\nand technical privacy specialists, resulting in high-quality data. On top of\nthat, we show how to integrate the legal considerations for secure data\nsharing. Our approach promotes data-driven innovation and privacy awareness in\nthe context of smart city initiatives, which have been tested in a real\nscenario.",
+    "updated" : "2025-09-15T19:48:35Z",
+    "published" : "2025-09-15T19:48:35Z",
+    "authors" : [
+      {
+        "name" : "Tânia Carvalho"
+      },
+      {
+        "name" : "José Barata"
+      },
+      {
+        "name" : "Henish Balu"
+      },
+      {
+        "name" : "Filipa Moreira"
+      },
+      {
+        "name" : "João Bastos"
+      },
+      {
+        "name" : "Luís Antunes"
+      }
+    ],
+    "categories" : [
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12338v1",
+    "title" : "Privacy in continuous-variable distributed quantum sensing",
+    "summary" : "Can a distributed network of quantum sensors estimate a global parameter\nwhile protecting every locally encoded value? We answer this question\naffirmatively by introducing and analysing a protocol for distributed quantum\nsensing in the continuous-variable regime. We consider a multipartite network\nin which each node encodes a local phase into a shared entangled Gaussian\nstate. We show that the average phase can be estimated with high precision,\nexhibiting Heisenberg scaling in the total photon number, while individual\nphases are inaccessible. Although complete privacy - where all other\ncombinations of phases remain entirely hidden - is unattainable for finite\nsqueezing in multi-party settings, it emerges in the large-squeezing limit. We\nfurther investigate the impact of displacements and optical losses, revealing\ntrade-offs between estimation accuracy and privacy. Finally, we benchmark the\nprotocol against other continuous-variable resource states.",
+    "updated" : "2025-09-15T18:06:48Z",
+    "published" : "2025-09-15T18:06:48Z",
+    "authors" : [
+      {
+        "name" : "A. de Oliveira Junior"
+      },
+      {
+        "name" : "Anton L. Andersen"
+      },
+      {
+        "name" : "Benjamin Lundgren Larsen"
+      },
+      {
+        "name" : "Sean William Moore"
+      },
+      {
+        "name" : "Damian Markham"
+      },
+      {
+        "name" : "Masahiro Takeoka"
+      },
+      {
+        "name" : "Jonatan Bohr Brask"
+      },
+      {
+        "name" : "Ulrik L. Andersen"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.12222v1",
+    "title" : "Accelerating Privacy-Preserving Federated Learning in Large-Scale LEO\n  Satellite Systems",
+    "summary" : "Large-scale low-Earth-orbit (LEO) satellite systems are increasingly valued\nfor their ability to enable rapid and wide-area data exchange, thereby\nfacilitating the collaborative training of artificial intelligence (AI) models\nacross geographically distributed regions. Due to privacy concerns and\nregulatory constraints, raw data collected at remote clients cannot be\ncentrally aggregated, posing a major obstacle to traditional AI training\nmethods. Federated learning offers a privacy-preserving alternative by training\nlocal models on distributed devices and exchanging only model parameters.\nHowever, the dynamic topology and limited bandwidth of satellite systems will\nhinder timely parameter aggregation and distribution, resulting in prolonged\ntraining times. To address this challenge, we investigate the problem of\nscheduling federated learning over satellite networks and identify key\nbottlenecks that impact the overall duration of each training round. We propose\na discrete temporal graph-based on-demand scheduling framework that dynamically\nallocates communication resources to accelerate federated learning. Simulation\nresults demonstrate that the proposed approach achieves significant performance\ngains over traditional statistical multiplexing-based model exchange\nstrategies, reducing overall round times by 14.20% to 41.48%. Moreover, the\nacceleration effect becomes more pronounced for larger models and higher\nnumbers of clients, highlighting the scalability of the proposed approach.",
+    "updated" : "2025-09-05T03:33:42Z",
+    "published" : "2025-09-05T03:33:42Z",
+    "authors" : [
+      {
+        "name" : "Binquan Guo"
+      },
+      {
+        "name" : "Junteng Cao"
+      },
+      {
+        "name" : "Marie Siew"
+      },
+      {
+        "name" : "Binbin Chen"
+      },
+      {
+        "name" : "Tony Q. S. Quek"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ]
   }
 ]
