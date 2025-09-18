@@ -2,6 +2,181 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.14050v1">AI For Privacy in Smart Homes: Exploring How Leveraging AI-Powered Smart
+  Devices Enhances Privacy Protection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-09-17T14:53:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wael Albayaydh, Ivan Flechais, Rui Zhao, Jood Albayaydh</p>
+    <p><b>Summary:</b> Privacy concerns and fears of unauthorized access in smart home devices often
+stem from misunderstandings about how data is collected, used, and protected.
+This study explores how AI-powered tools can offer innovative privacy
+protections through clear, personalized, and contextual support to users.
+Through 23 in-depth interviews with users, AI developers, designers, and
+regulators, and using Grounded Theory analysis, we identified two key themes:
+Aspirations for AI-Enhanced Privacy - how users perceive AI's potential to
+empower them, address power imbalances, and improve ease of use- and AI
+Ethical, Security, and Regulatory Considerations-challenges in strengthening
+data security, ensuring regulatory compliance, and promoting ethical AI
+practices. Our findings contribute to the field by uncovering user aspirations
+for AI-driven privacy solutions, identifying key security and ethical
+challenges, and providing actionable recommendations for all stakeholders,
+particularly targeting smart device designers and AI developers, to guide the
+co-design of AI tools that enhance privacy protection in smart home devices. By
+bridging the gap between user expectations, AI capabilities, and regulatory
+frameworks, this work offers practical insights for shaping the future of
+privacy-conscious AI integration in smart homes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.13987v1">Differential Privacy in Federated Learning: Mitigating Inference Attacks
+  with Randomized Response</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-17T13:59:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ozer Ozturk, Busra Buyuktanir, Gozde Karatas Baydogmus, Kazim Yildiz</p>
+    <p><b>Summary:</b> Machine learning models used for distributed architectures consisting of
+servers and clients require large amounts of data to achieve high accuracy.
+Data obtained from clients are collected on a central server for model
+training. However, storing data on a central server raises concerns about
+security and privacy. To address this issue, a federated learning architecture
+has been proposed. In federated learning, each client trains a local model
+using its own data. The trained models are periodically transmitted to the
+central server. The server then combines the received models using federated
+aggregation algorithms to obtain a global model. This global model is
+distributed back to the clients, and the process continues in a cyclical
+manner. Although preventing data from leaving the clients enhances security,
+certain concerns still remain. Attackers can perform inference attacks on the
+obtained models to approximate the training dataset, potentially causing data
+leakage. In this study, differential privacy was applied to address the
+aforementioned security vulnerability, and a performance analysis was
+conducted. The Data-Unaware Classification Based on Association (duCBA)
+algorithm was used as the federated aggregation method. Differential privacy
+was implemented on the data using the Randomized Response technique, and the
+trade-off between security and performance was examined under different epsilon
+values. As the epsilon value decreased, the model accuracy declined, and class
+prediction imbalances were observed. This indicates that higher levels of
+privacy do not always lead to practical outcomes and that the balance between
+security and performance must be carefully considered.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.13739v1">ParaAegis: Parallel Protection for Flexible Privacy-preserved Federated
+  Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-09-17T06:45:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihou Wu, Yuecheng Li, Tianchi Liao, Jian Lou, Chuan Chen</p>
+    <p><b>Summary:</b> Federated learning (FL) faces a critical dilemma: existing protection
+mechanisms like differential privacy (DP) and homomorphic encryption (HE)
+enforce a rigid trade-off, forcing a choice between model utility and
+computational efficiency. This lack of flexibility hinders the practical
+implementation. To address this, we introduce ParaAegis, a parallel protection
+framework designed to give practitioners flexible control over the
+privacy-utility-efficiency balance. Our core innovation is a strategic model
+partitioning scheme. By applying lightweight DP to the less critical, low norm
+portion of the model while protecting the remainder with HE, we create a
+tunable system. A distributed voting mechanism ensures consensus on this
+partitioning. Theoretical analysis confirms the adjustments between efficiency
+and utility with the same privacy. Crucially, the experimental results
+demonstrate that by adjusting the hyperparameters, our method enables flexible
+prioritization between model accuracy and training time.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.13627v1">Secure, Scalable and Privacy Aware Data Strategy in Cloud</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-09-17T01:56:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vijay Kumar Butte, Sujata Butte</p>
+    <p><b>Summary:</b> The enterprises today are faced with the tough challenge of processing,
+storing large amounts of data in a secure, scalable manner and enabling
+decision makers to make quick, informed data driven decisions. This paper
+addresses this challenge and develops an effective enterprise data strategy in
+the cloud. Various components of an effective data strategy are discussed and
+architectures addressing security, scalability and privacy aspects are
+provided.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.13625v1">Privacy-Aware In-Context Learning for Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-17T01:50:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bishnu Bhusal, Manoj Acharya, Ramneet Kaur, Colin Samplawski, Anirban Roy, Adam D. Cobb, Rohit Chadha, Susmit Jha</p>
+    <p><b>Summary:</b> Large language models (LLMs) have significantly transformed natural language
+understanding and generation, but they raise privacy concerns due to potential
+exposure of sensitive information. Studies have highlighted the risk of
+information leakage, where adversaries can extract sensitive information
+embedded in the prompts. In this work, we introduce a novel private prediction
+framework for generating high-quality synthetic text with strong privacy
+guarantees. Our approach leverages the Differential Privacy (DP) framework to
+ensure worst-case theoretical bounds on information leakage without requiring
+any fine-tuning of the underlying models.The proposed method performs inference
+on private records and aggregates the resulting per-token output distributions.
+This enables the generation of longer and coherent synthetic text while
+maintaining privacy guarantees. Additionally, we propose a simple blending
+operation that combines private and public inference to further enhance
+utility. Empirical evaluations demonstrate that our approach outperforms
+previous state-of-the-art methods on in-context-learning (ICL) tasks, making it
+a promising direction for privacy-preserving text generation while maintaining
+high utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.13509v1">Practitioners' Perspectives on a Differential Privacy Deployment
+  Registry</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-09-16T20:15:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Priyanka Nanayakkara, Elena Ghazi, Salil Vadhan</p>
+    <p><b>Summary:</b> Differential privacy (DP) -- a principled approach to producing statistical
+data products with strong, mathematically provable privacy guarantees for the
+individuals in the underlying dataset -- has seen substantial adoption in
+practice over the past decade. Applying DP requires making several
+implementation decisions, each with significant impacts on data privacy and/or
+utility. Hence, to promote shared learning and accountability around DP
+deployments, Dwork, Kohli, and Mulligan (2019) proposed a public-facing
+repository ("registry") of DP deployments. The DP community has recently
+started to work toward realizing this vision. We contribute to this effort by
+(1) developing a holistic, hierarchical schema to describe any given DP
+deployment and (2) designing and implementing an interactive interface to act
+as a registry where practitioners can access information about past DP
+deployments. We (3) populate our interface with 21 real-world DP deployments
+and (4) conduct an exploratory user study with DP practitioners ($n=16$) to
+understand how they would use the registry, as well as what challenges and
+opportunities they foresee around its adoption. We find that participants were
+enthusiastic about the registry as a valuable resource for evaluating prior
+deployments and making future deployments. They also identified several
+opportunities for the registry, including that it can become a "hub" for the
+community and support broader communication around DP (e.g., to legal teams).
+At the same time, they identified challenges around the registry gaining
+adoption, including the effort and risk involved with making implementation
+choices public and moderating the quality of entries. Based on our findings, we
+offer recommendations for encouraging adoption and increasing the registry's
+value not only to DP practitioners, but also to policymakers, data users, and
+data subjects.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.13051v1">More than Meets the Eye: Understanding the Effect of Individual Objects
   on Perceived Visual Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -413,7 +588,7 @@ become a practical anti-FR tool.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.11022v1">Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced
+  <h3><a href="http://arxiv.org/abs/2509.11022v2">Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced
   Energy Storage Dispatch</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
   <p><b>Published on:</b> 2025-09-14T01:22:29Z</p>
@@ -423,20 +598,21 @@ become a practical anti-FR tool.</p>
     <p><b>Summary:</b> This paper proposes a novel privacy-preserving uncertainty disclosure
 framework, enabling system operators to release marginal value function bounds
 to reduce the conservativeness of interval forecast and mitigate excessive
-withholding, thereby enhancing storage dispatch and social welfare. We propose
-a risk-averse analytical storage arbitrage model based on stochastic dynamic
-programming and explicitly account for uncertainty intervals in value function
-training. We derive real-time marginal value function bounds using a
-rolling-horizon chance-constrained economic dispatch formulation. We rigorously
-prove that the bounds reliably cap the true opportunity cost and dynamically
-converge to the hindsight value. We verify that both the marginal value
-function and its bounds monotonically decrease with the state of charge and
-increase with uncertainty, providing a theoretical basis for risk-averse
-strategic behaviors and SoC-dependent designs. We validate the effectiveness of
-the proposed framework via an agent-based simulation on the ISO-NE test system.
-Under 50% renewable capacity and 35% storage capacity, the proposed bounds
-enhance storage response by 38.91% and reduce the optimality gap to 3.91%
-through improved interval predictions. Additionally, by mitigating excessive
+withholding, thereby enhancing storage dispatch and social welfare. We develop
+a risk-averse storage arbitrage model based on stochastic dynamic programming,
+explicitly accounting for uncertainty intervals in value function training.
+Real-time marginal value function bounds are derived using a rolling-horizon
+chance-constrained economic dispatch formulation. We rigorously prove that the
+bounds reliably cap the true opportunity cost and dynamically converge to the
+hindsight value. We verify that both the marginal value function and its bounds
+monotonically decrease with the state of charge (SoC) and increase with
+uncertainty, providing a theoretical basis for risk-averse strategic behaviors
+and SoC-dependent designs. An adjusted storage dispatch algorithm is further
+designed using these bounds. We validate the effectiveness of the proposed
+framework via an agent-based simulation on the ISO-NE test system. Under 50%
+renewable capacity and 35% storage capacity, the proposed bounds enhance
+storage response by 38.91% and reduce the optimality gap to 3.91% through
+improved interval predictions. Additionally, by mitigating excessive
 withholding, the bounds yield an average system cost reduction of 0.23% and an
 average storage profit increase of 13.22%. These benefits further scale with
 higher prediction conservativeness, storage capacity, and system uncertainty.</p>
@@ -2844,194 +3020,6 @@ histogram bin is bounded away from zero, stronger privacy protection can be
 achieved for a fixed level of noise. Our results demonstrate the advantage of
 context-aware privacy measures and show that incorporating assumptions about
 the data can improve privacy-utility tradeoffs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18513v1">An Analytical Approach to Privacy and Performance Trade-Offs in
-  Healthcare Data Sharing</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-25T21:36:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yusi Wei, Hande Y. Benson, Muge Capan</p>
-    <p><b>Summary:</b> The secondary use of healthcare data is vital for research and clinical
-innovation, but it raises concerns about patient privacy. This study
-investigates how to balance privacy preservation and data utility in healthcare
-data sharing, considering the perspectives of both data providers and data
-users. Using a dataset of adult patients hospitalized between 2013 and 2015, we
-predict whether sepsis was present at admission or developed during the
-hospital stay. We identify sub-populations, such as older adults, frequently
-hospitalized patients, and racial minorities, that are especially vulnerable to
-privacy attacks due to their unique combinations of demographic and healthcare
-utilization attributes. These groups are also critical for machine learning
-(ML) model performance. We evaluate three anonymization methods-$k$-anonymity,
-the technique by Zheng et al., and the MO-OBAM model-based on their ability to
-reduce re-identification risk while maintaining ML utility. Results show that
-$k$-anonymity offers limited protection. The methods of Zheng et al. and
-MO-OBAM provide stronger privacy safeguards, with MO-OBAM yielding the best
-utility outcomes: only a 2% change in precision and recall compared to the
-original dataset. This work provides actionable insights for healthcare
-organizations on how to share data responsibly. It highlights the need for
-anonymization methods that protect vulnerable populations without sacrificing
-the performance of data-driven models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18453v2">Privacy-Preserving Federated Learning Framework for Risk-Based Adaptive
-  Authentication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-25T20:02:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaser Baseri, Abdelhakim Senhaji Hafid, Dimitrios Makrakis, Hamidreza Fereidouni</p>
-    <p><b>Summary:</b> Balancing robust security with strong privacy guarantees is critical for
-Risk-Based Adaptive Authentication (RBA), particularly in decentralized
-settings. Federated Learning (FL) offers a promising solution by enabling
-collaborative risk assessment without centralizing user data. However, existing
-FL approaches struggle with Non-Independent and Identically Distributed
-(Non-IID) user features, resulting in biased, unstable, and poorly generalized
-global models. This paper introduces FL-RBA2, a novel Federated Learning
-framework for Risk-Based Adaptive Authentication that addresses Non-IID
-challenges through a mathematically grounded similarity transformation. By
-converting heterogeneous user features (including behavioral, biometric,
-contextual, interaction-based, and knowledge-based modalities) into IID
-similarity vectors, FL-RBA2 supports unbiased aggregation and personalized risk
-modeling across distributed clients. The framework mitigates cold-start
-limitations via clustering-based risk labeling, incorporates Differential
-Privacy (DP) to safeguard sensitive information, and employs Message
-Authentication Codes (MACs) to ensure model integrity and authenticity.
-Federated updates are securely aggregated into a global model, achieving strong
-balance between user privacy, scalability, and adaptive authentication
-robustness. Rigorous game-based security proofs in the Random Oracle Model
-formally establish privacy, correctness, and adaptive security guarantees.
-Extensive experiments on keystroke, mouse, and contextual datasets validate
-FL-RBA2's effectiveness in high-risk user detection and its resilience to model
-inversion and inference attacks, even under strong DP constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.17962v1">"Nobody should control the end user": Exploring Privacy Perspectives of
-  Indian Internet Users in Light of DPDPA</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-08-25T12:22:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sana Athar, Devashish Gosain, Anja Feldmann, Mannat Kaur, Ha Dao</p>
-    <p><b>Summary:</b> With the rapid increase in online interactions, concerns over data privacy
-and transparency of data processing practices have become more pronounced.
-While regulations like the GDPR have driven the widespread adoption of cookie
-banners in the EU, India's Digital Personal Data Protection Act (DPDPA)
-promises similar changes domestically, aiming to introduce a framework for data
-protection. However, certain clauses within the DPDPA raise concerns about
-potential infringements on user privacy, given the exemptions for government
-accountability and user consent requirements. In this study, for the first
-time, we explore Indian Internet users' awareness and perceptions of cookie
-banners, online privacy, and privacy regulations, especially in light of the
-newly passed DPDPA. We conducted an online anonymous survey with 428 Indian
-participants, which addressed: (1) users' perspectives on cookie banners, (2)
-their attitudes towards online privacy and privacy regulations, and (3) their
-acceptance of 10 contentious DPDPA clauses that favor state authorities and may
-enable surveillance. Our findings reveal that privacy-conscious users often
-lack consistent awareness of privacy mechanisms, and their concerns do not
-always lead to protective actions. Our thematic analysis of 143 open ended
-responses shows that users' privacy and data protection concerns are rooted in
-skepticism towards the government, shaping their perceptions of the DPDPA and
-fueling demands for policy revisions. Our study highlights the need for clearer
-communication regarding the DPDPA, user-centric consent mechanisms, and policy
-refinements to enhance data privacy practices in India.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.19286v1">RL-Finetuned LLMs for Privacy-Preserving Synthetic Rewriting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-25T04:38:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhan Shi, Yefeng Yuan, Yuhong Liu, Liang Cheng, Yi Fang</p>
-    <p><b>Summary:</b> The performance of modern machine learning systems depends on access to
-large, high-quality datasets, often sourced from user-generated content or
-proprietary, domain-specific corpora. However, these rich datasets inherently
-contain sensitive personal information, raising significant concerns about
-privacy, data security, and compliance with regulatory frameworks. While
-conventional anonymization techniques can remove explicit identifiers, such
-removal may result in performance drop in downstream machine learning tasks.
-More importantly, simple anonymization may not be effective against inference
-attacks that exploit implicit signals such as writing style, topical focus, or
-demographic cues, highlighting the need for more robust privacy safeguards
-during model training. To address the challenging issue of balancing user
-privacy and data utility, we propose a reinforcement learning framework that
-fine-tunes a large language model (LLM) using a composite reward function that
-jointly optimizes for explicit and implicit privacy, semantic fidelity, and
-output diversity. To effectively capture population level regularities, the
-privacy reward combines semantic cues with structural patterns derived from a
-minimum spanning tree (MST) over latent representations. By modeling these
-privacy-sensitive signals in their distributional context, the proposed
-approach guides the model to generate synthetic rewrites that preserve utility
-while mitigating privacy risks. Empirical results show that the proposed method
-significantly enhances author obfuscation and privacy metrics without degrading
-semantic quality, providing a scalable and model-agnostic solution for privacy
-preserving data generation in the era of large language models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.17341v1">MetaFed: Advancing Privacy, Performance, and Sustainability in Federated
-  Metaverse Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-08-24T12:53:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muhammet Anil Yagiz, Zeynep Sude Cengiz, Polat Goktas</p>
-    <p><b>Summary:</b> The rapid expansion of immersive Metaverse applications introduces complex
-challenges at the intersection of performance, privacy, and environmental
-sustainability. Centralized architectures fall short in addressing these
-demands, often resulting in elevated energy consumption, latency, and privacy
-concerns. This paper proposes MetaFed, a decentralized federated learning (FL)
-framework that enables sustainable and intelligent resource orchestration for
-Metaverse environments. MetaFed integrates (i) multi-agent reinforcement
-learning for dynamic client selection, (ii) privacy-preserving FL using
-homomorphic encryption, and (iii) carbon-aware scheduling aligned with
-renewable energy availability. Evaluations on MNIST and CIFAR-10 using
-lightweight ResNet architectures demonstrate that MetaFed achieves up to 25\%
-reduction in carbon emissions compared to conventional approaches, while
-maintaining high accuracy and minimal communication overhead. These results
-highlight MetaFed as a scalable solution for building environmentally
-responsible and privacy-compliant Metaverse infrastructures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.17222v1">Exposing Privacy Risks in Graph Retrieval-Augmented Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2025-08-24T06:19:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiale Liu, Jiahao Zhang, Suhang Wang</p>
-    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) is a powerful technique for enhancing
-Large Language Models (LLMs) with external, up-to-date knowledge. Graph RAG has
-emerged as an advanced paradigm that leverages graph-based knowledge structures
-to provide more coherent and contextually rich answers. However, the move from
-plain document retrieval to structured graph traversal introduces new,
-under-explored privacy risks. This paper investigates the data extraction
-vulnerabilities of the Graph RAG systems. We design and execute tailored data
-extraction attacks to probe their susceptibility to leaking both raw text and
-structured data, such as entities and their relationships. Our findings reveal
-a critical trade-off: while Graph RAG systems may reduce raw text leakage, they
-are significantly more vulnerable to the extraction of structured entity and
-relationship information. We also explore potential defense mechanisms to
-mitigate these novel attack surfaces. This work provides a foundational
-analysis of the unique privacy challenges in Graph RAG and offers insights for
-building more secure systems.</p>
   </details>
 </div>
 
