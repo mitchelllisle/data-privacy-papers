@@ -2104,5 +2104,196 @@
       "cs.AI",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14050v1",
+    "title" : "AI For Privacy in Smart Homes: Exploring How Leveraging AI-Powered Smart\n  Devices Enhances Privacy Protection",
+    "summary" : "Privacy concerns and fears of unauthorized access in smart home devices often\nstem from misunderstandings about how data is collected, used, and protected.\nThis study explores how AI-powered tools can offer innovative privacy\nprotections through clear, personalized, and contextual support to users.\nThrough 23 in-depth interviews with users, AI developers, designers, and\nregulators, and using Grounded Theory analysis, we identified two key themes:\nAspirations for AI-Enhanced Privacy - how users perceive AI's potential to\nempower them, address power imbalances, and improve ease of use- and AI\nEthical, Security, and Regulatory Considerations-challenges in strengthening\ndata security, ensuring regulatory compliance, and promoting ethical AI\npractices. Our findings contribute to the field by uncovering user aspirations\nfor AI-driven privacy solutions, identifying key security and ethical\nchallenges, and providing actionable recommendations for all stakeholders,\nparticularly targeting smart device designers and AI developers, to guide the\nco-design of AI tools that enhance privacy protection in smart home devices. By\nbridging the gap between user expectations, AI capabilities, and regulatory\nframeworks, this work offers practical insights for shaping the future of\nprivacy-conscious AI integration in smart homes.",
+    "updated" : "2025-09-17T14:53:58Z",
+    "published" : "2025-09-17T14:53:58Z",
+    "authors" : [
+      {
+        "name" : "Wael Albayaydh"
+      },
+      {
+        "name" : "Ivan Flechais"
+      },
+      {
+        "name" : "Rui Zhao"
+      },
+      {
+        "name" : "Jood Albayaydh"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13987v1",
+    "title" : "Differential Privacy in Federated Learning: Mitigating Inference Attacks\n  with Randomized Response",
+    "summary" : "Machine learning models used for distributed architectures consisting of\nservers and clients require large amounts of data to achieve high accuracy.\nData obtained from clients are collected on a central server for model\ntraining. However, storing data on a central server raises concerns about\nsecurity and privacy. To address this issue, a federated learning architecture\nhas been proposed. In federated learning, each client trains a local model\nusing its own data. The trained models are periodically transmitted to the\ncentral server. The server then combines the received models using federated\naggregation algorithms to obtain a global model. This global model is\ndistributed back to the clients, and the process continues in a cyclical\nmanner. Although preventing data from leaving the clients enhances security,\ncertain concerns still remain. Attackers can perform inference attacks on the\nobtained models to approximate the training dataset, potentially causing data\nleakage. In this study, differential privacy was applied to address the\naforementioned security vulnerability, and a performance analysis was\nconducted. The Data-Unaware Classification Based on Association (duCBA)\nalgorithm was used as the federated aggregation method. Differential privacy\nwas implemented on the data using the Randomized Response technique, and the\ntrade-off between security and performance was examined under different epsilon\nvalues. As the epsilon value decreased, the model accuracy declined, and class\nprediction imbalances were observed. This indicates that higher levels of\nprivacy do not always lead to practical outcomes and that the balance between\nsecurity and performance must be carefully considered.",
+    "updated" : "2025-09-17T13:59:38Z",
+    "published" : "2025-09-17T13:59:38Z",
+    "authors" : [
+      {
+        "name" : "Ozer Ozturk"
+      },
+      {
+        "name" : "Busra Buyuktanir"
+      },
+      {
+        "name" : "Gozde Karatas Baydogmus"
+      },
+      {
+        "name" : "Kazim Yildiz"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13739v1",
+    "title" : "ParaAegis: Parallel Protection for Flexible Privacy-preserved Federated\n  Learning",
+    "summary" : "Federated learning (FL) faces a critical dilemma: existing protection\nmechanisms like differential privacy (DP) and homomorphic encryption (HE)\nenforce a rigid trade-off, forcing a choice between model utility and\ncomputational efficiency. This lack of flexibility hinders the practical\nimplementation. To address this, we introduce ParaAegis, a parallel protection\nframework designed to give practitioners flexible control over the\nprivacy-utility-efficiency balance. Our core innovation is a strategic model\npartitioning scheme. By applying lightweight DP to the less critical, low norm\nportion of the model while protecting the remainder with HE, we create a\ntunable system. A distributed voting mechanism ensures consensus on this\npartitioning. Theoretical analysis confirms the adjustments between efficiency\nand utility with the same privacy. Crucially, the experimental results\ndemonstrate that by adjusting the hyperparameters, our method enables flexible\nprioritization between model accuracy and training time.",
+    "updated" : "2025-09-17T06:45:13Z",
+    "published" : "2025-09-17T06:45:13Z",
+    "authors" : [
+      {
+        "name" : "Zihou Wu"
+      },
+      {
+        "name" : "Yuecheng Li"
+      },
+      {
+        "name" : "Tianchi Liao"
+      },
+      {
+        "name" : "Jian Lou"
+      },
+      {
+        "name" : "Chuan Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13627v1",
+    "title" : "Secure, Scalable and Privacy Aware Data Strategy in Cloud",
+    "summary" : "The enterprises today are faced with the tough challenge of processing,\nstoring large amounts of data in a secure, scalable manner and enabling\ndecision makers to make quick, informed data driven decisions. This paper\naddresses this challenge and develops an effective enterprise data strategy in\nthe cloud. Various components of an effective data strategy are discussed and\narchitectures addressing security, scalability and privacy aspects are\nprovided.",
+    "updated" : "2025-09-17T01:56:07Z",
+    "published" : "2025-09-17T01:56:07Z",
+    "authors" : [
+      {
+        "name" : "Vijay Kumar Butte"
+      },
+      {
+        "name" : "Sujata Butte"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13625v1",
+    "title" : "Privacy-Aware In-Context Learning for Large Language Models",
+    "summary" : "Large language models (LLMs) have significantly transformed natural language\nunderstanding and generation, but they raise privacy concerns due to potential\nexposure of sensitive information. Studies have highlighted the risk of\ninformation leakage, where adversaries can extract sensitive information\nembedded in the prompts. In this work, we introduce a novel private prediction\nframework for generating high-quality synthetic text with strong privacy\nguarantees. Our approach leverages the Differential Privacy (DP) framework to\nensure worst-case theoretical bounds on information leakage without requiring\nany fine-tuning of the underlying models.The proposed method performs inference\non private records and aggregates the resulting per-token output distributions.\nThis enables the generation of longer and coherent synthetic text while\nmaintaining privacy guarantees. Additionally, we propose a simple blending\noperation that combines private and public inference to further enhance\nutility. Empirical evaluations demonstrate that our approach outperforms\nprevious state-of-the-art methods on in-context-learning (ICL) tasks, making it\na promising direction for privacy-preserving text generation while maintaining\nhigh utility.",
+    "updated" : "2025-09-17T01:50:32Z",
+    "published" : "2025-09-17T01:50:32Z",
+    "authors" : [
+      {
+        "name" : "Bishnu Bhusal"
+      },
+      {
+        "name" : "Manoj Acharya"
+      },
+      {
+        "name" : "Ramneet Kaur"
+      },
+      {
+        "name" : "Colin Samplawski"
+      },
+      {
+        "name" : "Anirban Roy"
+      },
+      {
+        "name" : "Adam D. Cobb"
+      },
+      {
+        "name" : "Rohit Chadha"
+      },
+      {
+        "name" : "Susmit Jha"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13509v1",
+    "title" : "Practitioners' Perspectives on a Differential Privacy Deployment\n  Registry",
+    "summary" : "Differential privacy (DP) -- a principled approach to producing statistical\ndata products with strong, mathematically provable privacy guarantees for the\nindividuals in the underlying dataset -- has seen substantial adoption in\npractice over the past decade. Applying DP requires making several\nimplementation decisions, each with significant impacts on data privacy and/or\nutility. Hence, to promote shared learning and accountability around DP\ndeployments, Dwork, Kohli, and Mulligan (2019) proposed a public-facing\nrepository (\"registry\") of DP deployments. The DP community has recently\nstarted to work toward realizing this vision. We contribute to this effort by\n(1) developing a holistic, hierarchical schema to describe any given DP\ndeployment and (2) designing and implementing an interactive interface to act\nas a registry where practitioners can access information about past DP\ndeployments. We (3) populate our interface with 21 real-world DP deployments\nand (4) conduct an exploratory user study with DP practitioners ($n=16$) to\nunderstand how they would use the registry, as well as what challenges and\nopportunities they foresee around its adoption. We find that participants were\nenthusiastic about the registry as a valuable resource for evaluating prior\ndeployments and making future deployments. They also identified several\nopportunities for the registry, including that it can become a \"hub\" for the\ncommunity and support broader communication around DP (e.g., to legal teams).\nAt the same time, they identified challenges around the registry gaining\nadoption, including the effort and risk involved with making implementation\nchoices public and moderating the quality of entries. Based on our findings, we\noffer recommendations for encouraging adoption and increasing the registry's\nvalue not only to DP practitioners, but also to policymakers, data users, and\ndata subjects.",
+    "updated" : "2025-09-16T20:15:15Z",
+    "published" : "2025-09-16T20:15:15Z",
+    "authors" : [
+      {
+        "name" : "Priyanka Nanayakkara"
+      },
+      {
+        "name" : "Elena Ghazi"
+      },
+      {
+        "name" : "Salil Vadhan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11022v2",
+    "title" : "Privacy-Preserving Uncertainty Disclosure for Facilitating Enhanced\n  Energy Storage Dispatch",
+    "summary" : "This paper proposes a novel privacy-preserving uncertainty disclosure\nframework, enabling system operators to release marginal value function bounds\nto reduce the conservativeness of interval forecast and mitigate excessive\nwithholding, thereby enhancing storage dispatch and social welfare. We develop\na risk-averse storage arbitrage model based on stochastic dynamic programming,\nexplicitly accounting for uncertainty intervals in value function training.\nReal-time marginal value function bounds are derived using a rolling-horizon\nchance-constrained economic dispatch formulation. We rigorously prove that the\nbounds reliably cap the true opportunity cost and dynamically converge to the\nhindsight value. We verify that both the marginal value function and its bounds\nmonotonically decrease with the state of charge (SoC) and increase with\nuncertainty, providing a theoretical basis for risk-averse strategic behaviors\nand SoC-dependent designs. An adjusted storage dispatch algorithm is further\ndesigned using these bounds. We validate the effectiveness of the proposed\nframework via an agent-based simulation on the ISO-NE test system. Under 50%\nrenewable capacity and 35% storage capacity, the proposed bounds enhance\nstorage response by 38.91% and reduce the optimality gap to 3.91% through\nimproved interval predictions. Additionally, by mitigating excessive\nwithholding, the bounds yield an average system cost reduction of 0.23% and an\naverage storage profit increase of 13.22%. These benefits further scale with\nhigher prediction conservativeness, storage capacity, and system uncertainty.",
+    "updated" : "2025-09-16T18:01:03Z",
+    "published" : "2025-09-14T01:22:29Z",
+    "authors" : [
+      {
+        "name" : "Ning Qi"
+      },
+      {
+        "name" : "Xiaolong Jin"
+      },
+      {
+        "name" : "Kai Hou"
+      },
+      {
+        "name" : "Zeyu Liu"
+      },
+      {
+        "name" : "Hongjie Jia"
+      },
+      {
+        "name" : "Wei Wei"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY",
+      "math.OC"
+    ]
   }
 ]
