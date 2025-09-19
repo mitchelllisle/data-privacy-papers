@@ -2295,5 +2295,158 @@
       "cs.SY",
       "math.OC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.15047v1",
+    "title" : "Distributed Batch Matrix Multiplication: Trade-Offs in Download Rate,\n  Randomness, and Privacy",
+    "summary" : "We study the trade-off between communication rate and privacy for distributed\nbatch matrix multiplication of two independent sequences of matrices\n$\\mathbf{A}$ and $\\mathbf{B}$ with uniformly distributed entries. In our\nsetting, $\\mathbf{B}$ is publicly accessible by all the servers while\n$\\mathbf{A}$ must remain private. A user is interested in evaluating the\nproduct $\\mathbf{AB}$ with the responses from the $k$ fastest servers. For a\ngiven parameter $\\alpha \\in [0, 1]$, our privacy constraint must ensure that\nany set of $\\ell$ colluding servers cannot learn more than a fraction $\\alpha$\nof $\\mathbf{A}$. Additionally, we study the trade-off between the amount of\nlocal randomness needed at the encoder and privacy. Finally, we establish the\noptimal trade-offs when the matrices are square and identify a linear\nrelationship between information leakage and communication rate.",
+    "updated" : "2025-09-18T15:10:43Z",
+    "published" : "2025-09-18T15:10:43Z",
+    "authors" : [
+      {
+        "name" : "Amirhosein Morteza"
+      },
+      {
+        "name" : "Remi A. Chou"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14603v1",
+    "title" : "Towards Privacy-Preserving and Heterogeneity-aware Split Federated\n  Learning via Probabilistic Masking",
+    "summary" : "Split Federated Learning (SFL) has emerged as an efficient alternative to\ntraditional Federated Learning (FL) by reducing client-side computation through\nmodel partitioning. However, exchanging of intermediate activations and model\nupdates introduces significant privacy risks, especially from data\nreconstruction attacks that recover original inputs from intermediate\nrepresentations. Existing defenses using noise injection often degrade model\nperformance. To overcome these challenges, we present PM-SFL, a scalable and\nprivacy-preserving SFL framework that incorporates Probabilistic Mask training\nto add structured randomness without relying on explicit noise. This mitigates\ndata reconstruction risks while maintaining model utility. To address data\nheterogeneity, PM-SFL employs personalized mask learning that tailors submodel\nstructures to each client's local data. For system heterogeneity, we introduce\na layer-wise knowledge compensation mechanism, enabling clients with varying\nresources to participate effectively under adaptive model splitting.\nTheoretical analysis confirms its privacy protection, and experiments on image\nand wireless sensing tasks demonstrate that PM-SFL consistently improves\naccuracy, communication efficiency, and robustness to privacy attacks, with\nparticularly strong performance under data and system heterogeneity.",
+    "updated" : "2025-09-18T04:28:08Z",
+    "published" : "2025-09-18T04:28:08Z",
+    "authors" : [
+      {
+        "name" : "Xingchen Wang"
+      },
+      {
+        "name" : "Feijie Wu"
+      },
+      {
+        "name" : "Chenglin Miao"
+      },
+      {
+        "name" : "Tianchun Li"
+      },
+      {
+        "name" : "Haoyu Hu"
+      },
+      {
+        "name" : "Qiming Cao"
+      },
+      {
+        "name" : "Jing Gao"
+      },
+      {
+        "name" : "Lu Su"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14581v1",
+    "title" : "Can I Trust This Chatbot? Assessing User Privacy in AI-Healthcare\n  Chatbot Applications",
+    "summary" : "As Conversational Artificial Intelligence (AI) becomes more integrated into\neveryday life, AI-powered chatbot mobile applications are increasingly adopted\nacross industries, particularly in the healthcare domain. These chatbots offer\naccessible and 24/7 support, yet their collection and processing of sensitive\nhealth data present critical privacy concerns. While prior research has\nexamined chatbot security, privacy issues specific to AI healthcare chatbots\nhave received limited attention. Our study evaluates the privacy practices of\n12 widely downloaded AI healthcare chatbot apps available on the App Store and\nGoogle Play in the United States. We conducted a three-step assessment\nanalyzing: (1) privacy settings during sign-up, (2) in-app privacy controls,\nand (3) the content of privacy policies. The analysis identified significant\ngaps in user data protection. Our findings reveal that half of the examined\napps did not present a privacy policy during sign up, and only two provided an\noption to disable data sharing at that stage. The majority of apps' privacy\npolicies failed to address data protection measures. Moreover, users had\nminimal control over their personal data. The study provides key insights for\ninformation science researchers, developers, and policymakers to improve\nprivacy protections in AI healthcare chatbot apps.",
+    "updated" : "2025-09-18T03:29:43Z",
+    "published" : "2025-09-18T03:29:43Z",
+    "authors" : [
+      {
+        "name" : "Ramazan Yener"
+      },
+      {
+        "name" : "Guan-Hung Chen"
+      },
+      {
+        "name" : "Ece Gumusel"
+      },
+      {
+        "name" : "Masooda Bashir"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CY",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14284v1",
+    "title" : "The Sum Leaks More Than Its Parts: Compositional Privacy Risks and\n  Mitigations in Multi-Agent Collaboration",
+    "summary" : "As large language models (LLMs) become integral to multi-agent systems, new\nprivacy risks emerge that extend beyond memorization, direct inference, or\nsingle-turn evaluations. In particular, seemingly innocuous responses, when\ncomposed across interactions, can cumulatively enable adversaries to recover\nsensitive information, a phenomenon we term compositional privacy leakage. We\npresent the first systematic study of such compositional privacy leaks and\npossible mitigation methods in multi-agent LLM systems. First, we develop a\nframework that models how auxiliary knowledge and agent interactions jointly\namplify privacy risks, even when each response is benign in isolation. Next, to\nmitigate this, we propose and evaluate two defense strategies: (1)\nTheory-of-Mind defense (ToM), where defender agents infer a questioner's intent\nby anticipating how their outputs may be exploited by adversaries, and (2)\nCollaborative Consensus Defense (CoDef), where responder agents collaborate\nwith peers who vote based on a shared aggregated state to restrict sensitive\ninformation spread. Crucially, we balance our evaluation across compositions\nthat expose sensitive information and compositions that yield benign\ninferences. Our experiments quantify how these defense strategies differ in\nbalancing the privacy-utility trade-off. We find that while chain-of-thought\nalone offers limited protection to leakage (~39% sensitive blocking rate), our\nToM defense substantially improves sensitive query blocking (up to 97%) but can\nreduce benign task success. CoDef achieves the best balance, yielding the\nhighest Balanced Outcome (79.8%), highlighting the benefit of combining\nexplicit reasoning with defender collaboration. Together, our results expose a\nnew class of risks in collaborative LLM deployments and provide actionable\ninsights for designing safeguards against compositional, context-driven privacy\nleakage.",
+    "updated" : "2025-09-16T16:57:25Z",
+    "published" : "2025-09-16T16:57:25Z",
+    "authors" : [
+      {
+        "name" : "Vaidehi Patil"
+      },
+      {
+        "name" : "Elias Stengel-Eskin"
+      },
+      {
+        "name" : "Mohit Bansal"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14278v1",
+    "title" : "Beyond Data Privacy: New Privacy Risks for Large Language Models",
+    "summary" : "Large Language Models (LLMs) have achieved remarkable progress in natural\nlanguage understanding, reasoning, and autonomous decision-making. However,\nthese advancements have also come with significant privacy concerns. While\nsignificant research has focused on mitigating the data privacy risks of LLMs\nduring various stages of model training, less attention has been paid to new\nthreats emerging from their deployment. The integration of LLMs into widely\nused applications and the weaponization of their autonomous abilities have\ncreated new privacy vulnerabilities. These vulnerabilities provide\nopportunities for both inadvertent data leakage and malicious exfiltration from\nLLM-powered systems. Additionally, adversaries can exploit these systems to\nlaunch sophisticated, large-scale privacy attacks, threatening not only\nindividual privacy but also financial security and societal trust. In this\npaper, we systematically examine these emerging privacy risks of LLMs. We also\ndiscuss potential mitigation strategies and call for the research community to\nbroaden its focus beyond data privacy risks, developing new defenses to address\nthe evolving threats posed by increasingly powerful LLMs and LLM-powered\nsystems.",
+    "updated" : "2025-09-16T09:46:09Z",
+    "published" : "2025-09-16T09:46:09Z",
+    "authors" : [
+      {
+        "name" : "Yuntao Du"
+      },
+      {
+        "name" : "Zitao Li"
+      },
+      {
+        "name" : "Ninghui Li"
+      },
+      {
+        "name" : "Bolin Ding"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14275v1",
+    "title" : "FedMentor: Domain-Aware Differential Privacy for Heterogeneous Federated\n  LLMs in Mental Health",
+    "summary" : "Privacy-preserving adaptation of Large Language Models (LLMs) in sensitive\ndomains (e.g., mental health) requires balancing strict confidentiality with\nmodel utility and safety. We propose FedMentor, a federated fine-tuning\nframework that integrates Low-Rank Adaptation (LoRA) and domain-aware\nDifferential Privacy (DP) to meet per-domain privacy budgets while maintaining\nperformance. Each client (domain) applies a custom DP noise scale proportional\nto its data sensitivity, and the server adaptively reduces noise when utility\nfalls below a threshold. In experiments on three mental health datasets, we\nshow that FedMentor improves safety over standard Federated Learning without\nprivacy, raising safe output rates by up to three points and lowering toxicity,\nwhile maintaining utility (BERTScore F1 and ROUGE-L) within 0.5% of the\nnon-private baseline and close to the centralized upper bound. The framework\nscales to backbones with up to 1.7B parameters on single-GPU clients, requiring\n< 173 MB of communication per round. FedMentor demonstrates a practical\napproach to privately fine-tune LLMs for safer deployments in healthcare and\nother sensitive fields.",
+    "updated" : "2025-09-16T07:08:36Z",
+    "published" : "2025-09-16T07:08:36Z",
+    "authors" : [
+      {
+        "name" : "Nobin Sarwar"
+      },
+      {
+        "name" : "Shubhashis Roy Dipta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
