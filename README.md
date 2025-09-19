@@ -2,6 +2,90 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.15047v1">Distributed Batch Matrix Multiplication: Trade-Offs in Download Rate,
+  Randomness, and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-09-18T15:10:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amirhosein Morteza, Remi A. Chou</p>
+    <p><b>Summary:</b> We study the trade-off between communication rate and privacy for distributed
+batch matrix multiplication of two independent sequences of matrices
+$\mathbf{A}$ and $\mathbf{B}$ with uniformly distributed entries. In our
+setting, $\mathbf{B}$ is publicly accessible by all the servers while
+$\mathbf{A}$ must remain private. A user is interested in evaluating the
+product $\mathbf{AB}$ with the responses from the $k$ fastest servers. For a
+given parameter $\alpha \in [0, 1]$, our privacy constraint must ensure that
+any set of $\ell$ colluding servers cannot learn more than a fraction $\alpha$
+of $\mathbf{A}$. Additionally, we study the trade-off between the amount of
+local randomness needed at the encoder and privacy. Finally, we establish the
+optimal trade-offs when the matrices are square and identify a linear
+relationship between information leakage and communication rate.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.14603v1">Towards Privacy-Preserving and Heterogeneity-aware Split Federated
+  Learning via Probabilistic Masking</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-18T04:28:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xingchen Wang, Feijie Wu, Chenglin Miao, Tianchun Li, Haoyu Hu, Qiming Cao, Jing Gao, Lu Su</p>
+    <p><b>Summary:</b> Split Federated Learning (SFL) has emerged as an efficient alternative to
+traditional Federated Learning (FL) by reducing client-side computation through
+model partitioning. However, exchanging of intermediate activations and model
+updates introduces significant privacy risks, especially from data
+reconstruction attacks that recover original inputs from intermediate
+representations. Existing defenses using noise injection often degrade model
+performance. To overcome these challenges, we present PM-SFL, a scalable and
+privacy-preserving SFL framework that incorporates Probabilistic Mask training
+to add structured randomness without relying on explicit noise. This mitigates
+data reconstruction risks while maintaining model utility. To address data
+heterogeneity, PM-SFL employs personalized mask learning that tailors submodel
+structures to each client's local data. For system heterogeneity, we introduce
+a layer-wise knowledge compensation mechanism, enabling clients with varying
+resources to participate effectively under adaptive model splitting.
+Theoretical analysis confirms its privacy protection, and experiments on image
+and wireless sensing tasks demonstrate that PM-SFL consistently improves
+accuracy, communication efficiency, and robustness to privacy attacks, with
+particularly strong performance under data and system heterogeneity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.14581v1">Can I Trust This Chatbot? Assessing User Privacy in AI-Healthcare
+  Chatbot Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-09-18T03:29:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ramazan Yener, Guan-Hung Chen, Ece Gumusel, Masooda Bashir</p>
+    <p><b>Summary:</b> As Conversational Artificial Intelligence (AI) becomes more integrated into
+everyday life, AI-powered chatbot mobile applications are increasingly adopted
+across industries, particularly in the healthcare domain. These chatbots offer
+accessible and 24/7 support, yet their collection and processing of sensitive
+health data present critical privacy concerns. While prior research has
+examined chatbot security, privacy issues specific to AI healthcare chatbots
+have received limited attention. Our study evaluates the privacy practices of
+12 widely downloaded AI healthcare chatbot apps available on the App Store and
+Google Play in the United States. We conducted a three-step assessment
+analyzing: (1) privacy settings during sign-up, (2) in-app privacy controls,
+and (3) the content of privacy policies. The analysis identified significant
+gaps in user data protection. Our findings reveal that half of the examined
+apps did not present a privacy policy during sign up, and only two provided an
+option to disable data sharing at that stage. The majority of apps' privacy
+policies failed to address data protection measures. Moreover, users had
+minimal control over their personal data. The study provides key insights for
+information science researchers, developers, and policymakers to improve
+privacy protections in AI healthcare chatbot apps.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.14050v1">AI For Privacy in Smart Homes: Exploring How Leveraging AI-Powered Smart
   Devices Enhances Privacy Protection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
@@ -177,6 +261,44 @@ data subjects.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.14284v1">The Sum Leaks More Than Its Parts: Compositional Privacy Risks and
+  Mitigations in Multi-Agent Collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-09-16T16:57:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vaidehi Patil, Elias Stengel-Eskin, Mohit Bansal</p>
+    <p><b>Summary:</b> As large language models (LLMs) become integral to multi-agent systems, new
+privacy risks emerge that extend beyond memorization, direct inference, or
+single-turn evaluations. In particular, seemingly innocuous responses, when
+composed across interactions, can cumulatively enable adversaries to recover
+sensitive information, a phenomenon we term compositional privacy leakage. We
+present the first systematic study of such compositional privacy leaks and
+possible mitigation methods in multi-agent LLM systems. First, we develop a
+framework that models how auxiliary knowledge and agent interactions jointly
+amplify privacy risks, even when each response is benign in isolation. Next, to
+mitigate this, we propose and evaluate two defense strategies: (1)
+Theory-of-Mind defense (ToM), where defender agents infer a questioner's intent
+by anticipating how their outputs may be exploited by adversaries, and (2)
+Collaborative Consensus Defense (CoDef), where responder agents collaborate
+with peers who vote based on a shared aggregated state to restrict sensitive
+information spread. Crucially, we balance our evaluation across compositions
+that expose sensitive information and compositions that yield benign
+inferences. Our experiments quantify how these defense strategies differ in
+balancing the privacy-utility trade-off. We find that while chain-of-thought
+alone offers limited protection to leakage (~39% sensitive blocking rate), our
+ToM defense substantially improves sensitive query blocking (up to 97%) but can
+reduce benign task success. CoDef achieves the best balance, yielding the
+highest Balanced Outcome (79.8%), highlighting the benefit of combining
+explicit reasoning with defender collaboration. Together, our results expose a
+new class of risks in collaborative LLM deployments and provide actionable
+insights for designing safeguards against compositional, context-driven privacy
+leakage.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.13051v1">More than Meets the Eye: Understanding the Effect of Individual Objects
   on Perceived Visual Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -257,6 +379,62 @@ schemes. Next, we propose an [E]fficient [By]zantine [F]ault [T]olerant-based
 liveness, consistency and privacy of the EByFTVeS scheme are theoretically
 analyzed, while the efficiency of the EByFTVeS scheme outperforms that of
 the-state-of-art VSS scheme according to comparative experiment results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.14278v1">Beyond Data Privacy: New Privacy Risks for Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-16T09:46:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuntao Du, Zitao Li, Ninghui Li, Bolin Ding</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) have achieved remarkable progress in natural
+language understanding, reasoning, and autonomous decision-making. However,
+these advancements have also come with significant privacy concerns. While
+significant research has focused on mitigating the data privacy risks of LLMs
+during various stages of model training, less attention has been paid to new
+threats emerging from their deployment. The integration of LLMs into widely
+used applications and the weaponization of their autonomous abilities have
+created new privacy vulnerabilities. These vulnerabilities provide
+opportunities for both inadvertent data leakage and malicious exfiltration from
+LLM-powered systems. Additionally, adversaries can exploit these systems to
+launch sophisticated, large-scale privacy attacks, threatening not only
+individual privacy but also financial security and societal trust. In this
+paper, we systematically examine these emerging privacy risks of LLMs. We also
+discuss potential mitigation strategies and call for the research community to
+broaden its focus beyond data privacy risks, developing new defenses to address
+the evolving threats posed by increasingly powerful LLMs and LLM-powered
+systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.14275v1">FedMentor: Domain-Aware Differential Privacy for Heterogeneous Federated
+  LLMs in Mental Health</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-16T07:08:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nobin Sarwar, Shubhashis Roy Dipta</p>
+    <p><b>Summary:</b> Privacy-preserving adaptation of Large Language Models (LLMs) in sensitive
+domains (e.g., mental health) requires balancing strict confidentiality with
+model utility and safety. We propose FedMentor, a federated fine-tuning
+framework that integrates Low-Rank Adaptation (LoRA) and domain-aware
+Differential Privacy (DP) to meet per-domain privacy budgets while maintaining
+performance. Each client (domain) applies a custom DP noise scale proportional
+to its data sensitivity, and the server adaptively reduces noise when utility
+falls below a threshold. In experiments on three mental health datasets, we
+show that FedMentor improves safety over standard Federated Learning without
+privacy, raising safe output rates by up to three points and lowering toxicity,
+while maintaining utility (BERTScore F1 and ROUGE-L) within 0.5% of the
+non-private baseline and close to the centralized upper bound. The framework
+scales to backbones with up to 1.7B parameters on single-GPU clients, requiring
+< 173 MB of communication per round. FedMentor demonstrates a practical
+approach to privately fine-tune LLMs for safer deployments in healthcare and
+other sensitive fields.</p>
   </details>
 </div>
 
@@ -2844,182 +3022,6 @@ ensures asymptotic SoC balancing and global power delivery while safeguarding
 agent privacy from external eavesdroppers. The effectiveness and
 privacy-preserving properties of the proposed control strategy are demonstrated
 through simulation results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.19115v1">SecureV2X: An Efficient and Privacy-Preserving System for
-  Vehicle-to-Everything (V2X) Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2025-08-26T15:17:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joshua Lee, Ali Arastehfard, Weiran Liu, Xuegang Ban, Yuan Hong</p>
-    <p><b>Summary:</b> Autonomous driving and V2X technologies have developed rapidly in the past
-decade, leading to improved safety and efficiency in modern transportation.
-These systems interact with extensive networks of vehicles, roadside
-infrastructure, and cloud resources to support their machine learning
-capabilities. However, the widespread use of machine learning in V2X systems
-raises issues over the privacy of the data involved. This is particularly
-concerning for smart-transit and driver safety applications which can
-implicitly reveal user locations or explicitly disclose medical data such as
-EEG signals. To resolve these issues, we propose SecureV2X, a scalable,
-multi-agent system for secure neural network inferences deployed between the
-server and each vehicle. Under this setting, we study two multi-agent V2X
-applications: secure drowsiness detection, and secure red-light violation
-detection. Our system achieves strong performance relative to baselines, and
-scales efficiently to support a large number of secure computation interactions
-simultaneously. For instance, SecureV2X is $9.4 \times$ faster, requires
-$143\times$ fewer computational rounds, and involves $16.6\times$ less
-communication on drowsiness detection compared to other secure systems.
-Moreover, it achieves a runtime nearly $100\times$ faster than state-of-the-art
-benchmarks in object detection tasks for red light violation detection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18976v1">The Double-edged Sword of LLM-based Data Reconstruction: Understanding
-  and Mitigating Contextual Vulnerability in Word-level Differential Privacy
-  Text Sanitization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-08-26T12:22:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stephen Meisenbacher, Alexandra Klymenko, Andreea-Elena Bodea, Florian Matthes</p>
-    <p><b>Summary:</b> Differentially private text sanitization refers to the process of privatizing
-texts under the framework of Differential Privacy (DP), providing provable
-privacy guarantees while also empirically defending against adversaries seeking
-to harm privacy. Despite their simplicity, DP text sanitization methods
-operating at the word level exhibit a number of shortcomings, among them the
-tendency to leave contextual clues from the original texts due to randomization
-during sanitization $\unicode{x2013}$ this we refer to as $\textit{contextual
-vulnerability}$. Given the powerful contextual understanding and inference
-capabilities of Large Language Models (LLMs), we explore to what extent LLMs
-can be leveraged to exploit the contextual vulnerability of DP-sanitized texts.
-We expand on previous work not only in the use of advanced LLMs, but also in
-testing a broader range of sanitization mechanisms at various privacy levels.
-Our experiments uncover a double-edged sword effect of LLM-based data
-reconstruction attacks on privacy and utility: while LLMs can indeed infer
-original semantics and sometimes degrade empirical privacy protections, they
-can also be used for good, to improve the quality and privacy of DP-sanitized
-texts. Based on our findings, we propose recommendations for using LLM data
-reconstruction as a post-processing step, serving to increase privacy
-protection by thinking adversarially.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18971v1">Can we make NeRF-based visual localization privacy-preserving?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-26T12:17:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maxime Pietrantoni, Martin Humenberger, Torsten Sattler, Gabriela Csurka</p>
-    <p><b>Summary:</b> Visual localization (VL) is the task of estimating the camera pose in a known
-scene. VL methods, a.o., can be distinguished based on how they represent the
-scene, e.g., explicitly through a (sparse) point cloud or a collection of
-images or implicitly through the weights of a neural network. Recently,
-NeRF-based methods have become popular for VL. While NeRFs offer high-quality
-novel view synthesis, they inadvertently encode fine scene details, raising
-privacy concerns when deployed in cloud-based localization services as
-sensitive information could be recovered. In this paper, we tackle this
-challenge on two ends. We first propose a new protocol to assess
-privacy-preservation of NeRF-based representations. We show that NeRFs trained
-with photometric losses store fine-grained details in their geometry
-representations, making them vulnerable to privacy attacks, even if the head
-that predicts colors is removed. Second, we propose ppNeSF (Privacy-Preserving
-Neural Segmentation Field), a NeRF variant trained with segmentation
-supervision instead of RGB images. These segmentation labels are learned in a
-self-supervised manner, ensuring they are coarse enough to obscure identifiable
-scene details while remaining discriminativeness in 3D. The segmentation space
-of ppNeSF can be used for accurate visual localization, yielding
-state-of-the-art results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18942v1">EnerSwap: Large-Scale, Privacy-First Automated Market Maker for V2G
-  Energy Trading</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-08-26T11:31:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Mounsf Rafik Bendada, Yacine Ghamri-Doudane</p>
-    <p><b>Summary:</b> With the rapid growth of Electric Vehicle (EV) technology, EVs are destined
-to shape the future of transportation. The large number of EVs facilitates the
-development of the emerging vehicle-to-grid (V2G) technology, which realizes
-bidirectional energy exchanges between EVs and the power grid. This has led to
-the setting up of electricity markets that are usually confined to a small
-geographical location, often with a small number of participants. Usually,
-these markets are manipulated by intermediaries responsible for collecting bids
-from prosumers, determining the market-clearing price, incorporating grid
-constraints, and accounting for network losses. While centralized models can be
-highly efficient, they grant excessive power to the intermediary by allowing
-them to gain exclusive access to prosumers \textquotesingle price preferences.
-This opens the door to potential market manipulation and raises significant
-privacy concerns for users, such as the location of energy providers. This lack
-of protection exposes users to potential risks, as untrustworthy servers and
-malicious adversaries can exploit this information to infer trading activities
-and real identities. This work proposes a secure, decentralized exchange market
-built on blockchain technology, utilizing a privacy-preserving Automated Market
-Maker (AMM) model to offer open and fair, and equal access to traders, and
-mitigates the most common trading-manipulation attacks. Additionally, it
-incorporates a scalable architecture based on geographical dynamic sharding,
-allowing for efficient resource allocation and improved performance as the
-market grows.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18911v2">Enhancing Model Privacy in Federated Learning with Random Masking and
-  Quantization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-26T10:34:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhibo Xu, Jianhao Zhu, Jingwen Xu, Changze Lv, Zisu Huang, Xiaohua Wang, Muling Wu, Qi Qian, Xiaoqing Zheng, Xuanjing Huang</p>
-    <p><b>Summary:</b> The primary goal of traditional federated learning is to protect data privacy
-by enabling distributed edge devices to collaboratively train a shared global
-model while keeping raw data decentralized at local clients. The rise of large
-language models (LLMs) has introduced new challenges in distributed systems, as
-their substantial computational requirements and the need for specialized
-expertise raise critical concerns about protecting intellectual property (IP).
-This highlights the need for a federated learning approach that can safeguard
-both sensitive data and proprietary models. To tackle this challenge, we
-propose FedQSN, a federated learning approach that leverages random masking to
-obscure a subnetwork of model parameters and applies quantization to the
-remaining parameters. Consequently, the server transmits only a
-privacy-preserving proxy of the global model to clients during each
-communication round, thus enhancing the model's confidentiality. Experimental
-results across various models and tasks demonstrate that our approach not only
-maintains strong model performance in federated learning settings but also
-achieves enhanced protection of model parameters compared to baseline methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.18832v1">A Tight Context-aware Privacy Bound for Histogram Publication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-08-26T09:12:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sara Saeidian, Ata Yavuzyılmaz, Leonhard Grosse, Georg Schuppe, Tobias J. Oechtering</p>
-    <p><b>Summary:</b> We analyze the privacy guarantees of the Laplace mechanism releasing the
-histogram of a dataset through the lens of pointwise maximal leakage (PML).
-While differential privacy is commonly used to quantify the privacy loss, it is
-a context-free definition that does not depend on the data distribution. In
-contrast, PML enables a more refined analysis by incorporating assumptions
-about the data distribution. We show that when the probability of each
-histogram bin is bounded away from zero, stronger privacy protection can be
-achieved for a fixed level of noise. Our results demonstrate the advantage of
-context-aware privacy measures and show that incorporating assumptions about
-the data can improve privacy-utility tradeoffs.</p>
   </details>
 </div>
 
