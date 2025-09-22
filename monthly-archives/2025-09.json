@@ -2448,5 +2448,65 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.15755v1",
+    "title" : "Utility-based Privacy Preserving Data Mining",
+    "summary" : "With the advent of big data, periodic pattern mining has demonstrated\nsignificant value in real-world applications, including smart home systems,\nhealthcare systems, and the medical field. However, advances in network\ntechnology have enabled malicious actors to extract sensitive information from\npublicly available datasets, posing significant threats to data providers and,\nin severe cases, hindering societal development. To mitigate such risks,\nprivacy-preserving utility mining (PPUM) has been proposed. However, PPUM is\nunsuitable for addressing privacy concerns in periodic information mining. To\naddress this issue, we innovatively extend the existing PPUM framework and\npropose two algorithms, Maximum sensitive Utility-MAximum maxPer item (MU-MAP)\nand Maximum sensitive Utility-MInimum maxPer item (MU-MIP). These algorithms\naim to hide sensitive periodic high-utility itemsets while generating sanitized\ndatasets. To enhance the efficiency of the algorithms, we designed two novel\ndata structures: the Sensitive Itemset List (SISL) and the Sensitive Item List\n(SIL), which store essential information about sensitive itemsets and their\nconstituent items. Moreover, several performance metrics were employed to\nevaluate the performance of our algorithms compared to the state-of-the-art\nPPUM algorithms. The experimental results show that our proposed algorithms\nachieve an Artificial Cost (AC) value of 0 on all datasets when hiding\nsensitive itemsets. In contrast, the traditional PPUM algorithm yields non-zero\nAC. This indicates that our algorithms can successfully hide sensitive periodic\nitemsets without introducing misleading patterns, whereas the PPUM algorithm\ngenerates additional itemsets that may interfere with user decision-making.\nMoreover, the results also reveal that our algorithms maintain Database Utility\nSimilarity (DUS) of over 90\\% after the sensitive itemsets are hidden.",
+    "updated" : "2025-09-19T08:30:41Z",
+    "published" : "2025-09-19T08:30:41Z",
+    "authors" : [
+      {
+        "name" : "Qingfeng Zhou"
+      },
+      {
+        "name" : "Wensheng Gan"
+      },
+      {
+        "name" : "Zhenlian Qi"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.15278v1",
+    "title" : "Assessing metadata privacy in neuroimaging",
+    "summary" : "The ethical and legal imperative to share research data without causing harm\nrequires careful attention to privacy risks. While mounting evidence\ndemonstrates that data sharing benefits science, legitimate concerns persist\nregarding the potential leakage of personal information that could lead to\nreidentification and subsequent harm. We reviewed metadata accompanying\nneuroimaging datasets from six heterogeneous studies openly available on\nOpenNeuro, involving participants across the lifespan, from children to older\nadults, with and without clinical diagnoses, and including associated clinical\nscore data. Using metaprivBIDS (https://github.com/CPernet/metaprivBIDS), a\nnovel tool for the systematic assessment of privacy in tabular data, we found\nthat privacy is generally well maintained, with serious vulnerabilities being\nrare. Nonetheless, minor issues were identified in nearly all datasets and\nwarrant mitigation. Notably, clinical score data (e.g., neuropsychological\nresults) posed minimal reidentification risk, whereas demographic variables\n(age, sex, race, income, and geolocation) represented the principal privacy\nvulnerabilities. We outline practical measures to address these risks, enabling\nsafer data sharing practices.",
+    "updated" : "2025-09-18T12:56:03Z",
+    "published" : "2025-09-18T12:56:03Z",
+    "authors" : [
+      {
+        "name" : "Emilie Kibsgaard"
+      },
+      {
+        "name" : "Anita Sue Jwa"
+      },
+      {
+        "name" : "Christopher J Markiewicz"
+      },
+      {
+        "name" : "David Rodriguez Gonzalez"
+      },
+      {
+        "name" : "Judith Sainz Pardo"
+      },
+      {
+        "name" : "Russell A. Poldrack"
+      },
+      {
+        "name" : "Cyril R. Pernet"
+      }
+    ],
+    "categories" : [
+      "q-bio.OT",
+      "cs.CR",
+      "cs.CY",
+      "eess.IV"
+    ]
   }
 ]
