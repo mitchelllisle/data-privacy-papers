@@ -2,6 +2,42 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.15755v1">Utility-based Privacy Preserving Data Mining</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-09-19T08:30:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qingfeng Zhou, Wensheng Gan, Zhenlian Qi, Philip S. Yu</p>
+    <p><b>Summary:</b> With the advent of big data, periodic pattern mining has demonstrated
+significant value in real-world applications, including smart home systems,
+healthcare systems, and the medical field. However, advances in network
+technology have enabled malicious actors to extract sensitive information from
+publicly available datasets, posing significant threats to data providers and,
+in severe cases, hindering societal development. To mitigate such risks,
+privacy-preserving utility mining (PPUM) has been proposed. However, PPUM is
+unsuitable for addressing privacy concerns in periodic information mining. To
+address this issue, we innovatively extend the existing PPUM framework and
+propose two algorithms, Maximum sensitive Utility-MAximum maxPer item (MU-MAP)
+and Maximum sensitive Utility-MInimum maxPer item (MU-MIP). These algorithms
+aim to hide sensitive periodic high-utility itemsets while generating sanitized
+datasets. To enhance the efficiency of the algorithms, we designed two novel
+data structures: the Sensitive Itemset List (SISL) and the Sensitive Item List
+(SIL), which store essential information about sensitive itemsets and their
+constituent items. Moreover, several performance metrics were employed to
+evaluate the performance of our algorithms compared to the state-of-the-art
+PPUM algorithms. The experimental results show that our proposed algorithms
+achieve an Artificial Cost (AC) value of 0 on all datasets when hiding
+sensitive itemsets. In contrast, the traditional PPUM algorithm yields non-zero
+AC. This indicates that our algorithms can successfully hide sensitive periodic
+itemsets without introducing misleading patterns, whereas the PPUM algorithm
+generates additional itemsets that may interfere with user decision-making.
+Moreover, the results also reveal that our algorithms maintain Database Utility
+Similarity (DUS) of over 90\% after the sensitive itemsets are hidden.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.15047v1">Distributed Batch Matrix Multiplication: Trade-Offs in Download Rate,
   Randomness, and Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
@@ -21,6 +57,34 @@ of $\mathbf{A}$. Additionally, we study the trade-off between the amount of
 local randomness needed at the encoder and privacy. Finally, we establish the
 optimal trade-offs when the matrices are square and identify a linear
 relationship between information leakage and communication rate.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.15278v1">Assessing metadata privacy in neuroimaging</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
+  <p><b>Published on:</b> 2025-09-18T12:56:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Emilie Kibsgaard, Anita Sue Jwa, Christopher J Markiewicz, David Rodriguez Gonzalez, Judith Sainz Pardo, Russell A. Poldrack, Cyril R. Pernet</p>
+    <p><b>Summary:</b> The ethical and legal imperative to share research data without causing harm
+requires careful attention to privacy risks. While mounting evidence
+demonstrates that data sharing benefits science, legitimate concerns persist
+regarding the potential leakage of personal information that could lead to
+reidentification and subsequent harm. We reviewed metadata accompanying
+neuroimaging datasets from six heterogeneous studies openly available on
+OpenNeuro, involving participants across the lifespan, from children to older
+adults, with and without clinical diagnoses, and including associated clinical
+score data. Using metaprivBIDS (https://github.com/CPernet/metaprivBIDS), a
+novel tool for the systematic assessment of privacy in tabular data, we found
+that privacy is generally well maintained, with serious vulnerabilities being
+rare. Nonetheless, minor issues were identified in nearly all datasets and
+warrant mitigation. Notably, clinical score data (e.g., neuropsychological
+results) posed minimal reidentification risk, whereas demographic variables
+(age, sex, race, income, and geolocation) represented the principal privacy
+vulnerabilities. We outline practical measures to address these risks, enabling
+safer data sharing practices.</p>
   </details>
 </div>
 
@@ -2961,67 +3025,6 @@ i.e., the scenario with a higher sensitivity level is typically more
 identifiable. We hope the findings enlighten the research community to rethink
 the unbalanced utility-privacy tradeoff about smartphone agents. Our code and
 benchmark are available at https://zhixin-l.github.io/SAPA-Bench.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.19458v1">The Sample Complexity of Membership Inference and Privacy Auditing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-08-26T22:19:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahdi Haghifam, Adam Smith, Jonathan Ullman</p>
-    <p><b>Summary:</b> A membership-inference attack gets the output of a learning algorithm, and a
-target individual, and tries to determine whether this individual is a member
-of the training data or an independent sample from the same distribution. A
-successful membership-inference attack typically requires the attacker to have
-some knowledge about the distribution that the training data was sampled from,
-and this knowledge is often captured through a set of independent reference
-samples from that distribution. In this work we study how much information the
-attacker needs for membership inference by investigating the sample
-complexity-the minimum number of reference samples required-for a successful
-attack. We study this question in the fundamental setting of Gaussian mean
-estimation where the learning algorithm is given $n$ samples from a Gaussian
-distribution $\mathcal{N}(\mu,\Sigma)$ in $d$ dimensions, and tries to estimate
-$\hat\mu$ up to some error $\mathbb{E}[\|\hat \mu - \mu\|^2_{\Sigma}]\leq
-\rho^2 d$. Our result shows that for membership inference in this setting,
-$\Omega(n + n^2 \rho^2)$ samples can be necessary to carry out any attack that
-competes with a fully informed attacker. Our result is the first to show that
-the attacker sometimes needs many more samples than the training algorithm uses
-to train the model. This result has significant implications for practice, as
-all attacks used in practice have a restricted form that uses $O(n)$ samples
-and cannot benefit from $\omega(n)$ samples. Thus, these attacks may be
-underestimating the possibility of membership inference, and better attacks may
-be possible when information about the distribution is easy to obtain.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.19345v1">Privacy-Preserving Distributed Control for a Networked Battery Energy
-  Storage System</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
-  <p><b>Published on:</b> 2025-08-26T18:06:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mihitha Maithripala, Zongli Lin</p>
-    <p><b>Summary:</b> The increasing deployment of distributed Battery Energy Storage Systems
-(BESSs) in modern power grids necessitates effective coordination strategies to
-ensure state-of-charge (SoC) balancing and accurate power delivery. While
-distributed control frameworks offer scalability and resilience, they also
-raise significant privacy concerns due to the need for inter-agent information
-exchange. This paper presents a novel privacy-preserving distributed control
-algorithm for SoC balancing in a networked BESS. The proposed framework
-includes distributed power allocation law that is designed based on two
-privacy-preserving distributed estimators, one for the average unit state and
-the other for the average desired power. The average unit state estimator is
-designed via the state decomposition method without disclosing sensitive
-internal states. The proposed power allocation law based on these estimators
-ensures asymptotic SoC balancing and global power delivery while safeguarding
-agent privacy from external eavesdroppers. The effectiveness and
-privacy-preserving properties of the proposed control strategy are demonstrated
-through simulation results.</p>
   </details>
 </div>
 
