@@ -2508,5 +2508,199 @@
       "cs.CY",
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18014v1",
+    "title" : "Synth-MIA: A Testbed for Auditing Privacy Leakage in Tabular Data\n  Synthesis",
+    "summary" : "Tabular Generative Models are often argued to preserve privacy by creating\nsynthetic datasets that resemble training data. However, auditing their\nempirical privacy remains challenging, as commonly used similarity metrics fail\nto effectively characterize privacy risk. Membership Inference Attacks (MIAs)\nhave recently emerged as a method for evaluating privacy leakage in synthetic\ndata, but their practical effectiveness is limited. Numerous attacks exist\nacross different threat models, each with distinct implementations targeting\nvarious sources of privacy leakage, making them difficult to apply\nconsistently. Moreover, no single attack consistently outperforms the others,\nleading to a routine underestimation of privacy risk.\n  To address these issues, we propose a unified, model-agnostic threat\nframework that deploys a collection of attacks to estimate the maximum\nempirical privacy leakage in synthetic datasets. We introduce Synth-MIA, an\nopen-source Python library that streamlines this auditing process through a\nnovel testbed that integrates seamlessly into existing synthetic data\nevaluation pipelines through a Scikit-Learn-like API. Our software implements\n13 attack methods through a Scikit-Learn-like API, designed to enable fast\nsystematic estimation of privacy leakage for practitioners as well as\nfacilitate the development of new attacks and experiments for researchers.\n  We demonstrate our framework's utility in the largest tabular synthesis\nprivacy benchmark to date, revealing that higher synthetic data quality\ncorresponds to greater privacy leakage, that similarity-based privacy metrics\nshow weak correlation with MIA results, and that the differentially private\ngenerator PATEGAN can fail to preserve privacy under such attacks. This\nunderscores the necessity of MIA-based auditing when designing and deploying\nTabular Generative Models.",
+    "updated" : "2025-09-22T16:53:38Z",
+    "published" : "2025-09-22T16:53:38Z",
+    "authors" : [
+      {
+        "name" : "Joshua Ward"
+      },
+      {
+        "name" : "Xiaofeng Lin"
+      },
+      {
+        "name" : "Chi-Hua Wang"
+      },
+      {
+        "name" : "Guang Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.17871v1",
+    "title" : "B-Privacy: Defining and Enforcing Privacy in Weighted Voting",
+    "summary" : "In traditional, one-vote-per-person voting systems, privacy equates with\nballot secrecy: voting tallies are published, but individual voters' choices\nare concealed.\n  Voting systems that weight votes in proportion to token holdings, though, are\nnow prevalent in cryptocurrency and web3 systems. We show that these\nweighted-voting systems overturn existing notions of voter privacy. Our\nexperiments demonstrate that even with secret ballots, publishing raw tallies\noften reveals voters' choices.\n  Weighted voting thus requires a new framework for privacy. We introduce a\nnotion called B-privacy whose basis is bribery, a key problem in voting systems\ntoday. B-privacy captures the economic cost to an adversary of bribing voters\nbased on revealed voting tallies.\n  We propose a mechanism to boost B-privacy by noising voting tallies. We prove\nbounds on its tradeoff between B-privacy and transparency, meaning\nreported-tally accuracy. Analyzing 3,582 proposals across 30 Decentralized\nAutonomous Organizations (DAOs), we find that the prevalence of large voters\n(\"whales\") limits the effectiveness of any B-Privacy-enhancing technique.\nHowever, our mechanism proves to be effective in cases without extreme voting\nweight concentration: among proposals requiring coalitions of $\\geq5$ voters to\nflip outcomes, our mechanism raises B-privacy by a geometric mean factor of\n$4.1\\times$.\n  Our work offers the first principled guidance on transparency-privacy\ntradeoffs in weighted-voting systems, complementing existing approaches that\nfocus on ballot secrecy and revealing fundamental constraints that voting\nweight concentration imposes on privacy mechanisms.",
+    "updated" : "2025-09-22T15:11:12Z",
+    "published" : "2025-09-22T15:11:12Z",
+    "authors" : [
+      {
+        "name" : "Samuel Breckenridge"
+      },
+      {
+        "name" : "Dani Vilardell"
+      },
+      {
+        "name" : "Andrés Fábrega"
+      },
+      {
+        "name" : "Amy Zhao"
+      },
+      {
+        "name" : "Patrick McCorry"
+      },
+      {
+        "name" : "Rafael Solari"
+      },
+      {
+        "name" : "Ari Juels"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.17488v1",
+    "title" : "Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation\n  for LLM-Powered Agents",
+    "summary" : "The increasing autonomy of LLM agents in handling sensitive communications,\naccelerated by Model Context Protocol (MCP) and Agent-to-Agent (A2A)\nframeworks, creates urgent privacy challenges. While recent work reveals\nsignificant gaps between LLMs' privacy Q&A performance and their agent\nbehavior, existing benchmarks remain limited to static, simplified scenarios.\nWe present PrivacyChecker, a model-agnostic, contextual integrity based\nmitigation approach that effectively reduces privacy leakage from 36.08% to\n7.30% on DeepSeek-R1 and from 33.06% to 8.32% on GPT-4o, all while preserving\ntask helpfulness. We also introduce PrivacyLens-Live, transforming static\nbenchmarks into dynamic MCP and A2A environments that reveal substantially\nhigher privacy risks in practical. Our modular mitigation approach integrates\nseamlessly into agent protocols through three deployment strategies, providing\npractical privacy protection for the emerging agentic ecosystem. Our data and\ncode will be made available at https://aka.ms/privacy_in_action.",
+    "updated" : "2025-09-22T08:19:06Z",
+    "published" : "2025-09-22T08:19:06Z",
+    "authors" : [
+      {
+        "name" : "Shouju Wang"
+      },
+      {
+        "name" : "Fenglin Yu"
+      },
+      {
+        "name" : "Xirui Liu"
+      },
+      {
+        "name" : "Xiaoting Qin"
+      },
+      {
+        "name" : "Jue Zhang"
+      },
+      {
+        "name" : "Qingwei Lin"
+      },
+      {
+        "name" : "Dongmei Zhang"
+      },
+      {
+        "name" : "Saravan Rajmohan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.17266v1",
+    "title" : "Privacy-Preserving State Estimation with Crowd Sensors: An\n  Information-Theoretic Respective",
+    "summary" : "Privacy-preserving state estimation for linear time-invariant dynamical\nsystems with crowd sensors is considered. At any time step, the estimator has\naccess to measurements from a randomly selected sensor from a pool of sensors\nwith pre-specified models and noise profiles. A Luenberger-like observer is\nused to fuse the measurements with the underlying model of the system to\nrecursively generate the state estimates. An additive privacy-preserving noise\nis used to constrain information leakage. Information leakage is measured via\nmutual information between the identity of the sensors and the state estimate\nconditioned on the actual state of the system. This captures an omnipotent\nadversary that not only can access state estimates but can also gather direct\nhigh-quality state measurements. Any prescribed level of information leakage is\nshown to be achievable by appropriately selecting the variance of the\nprivacy-preserving noise. Therefore, privacy-utility trade-off can be\nfine-tuned.",
+    "updated" : "2025-09-21T22:44:34Z",
+    "published" : "2025-09-21T22:44:34Z",
+    "authors" : [
+      {
+        "name" : "Farhad Farokhi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "cs.SY",
+      "eess.SY",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.16962v1",
+    "title" : "Temporal Drift in Privacy Recall: Users Misremember From Verbatim Loss\n  to Gist-Based Overexposure Over Time",
+    "summary" : "With social media content traversing the different platforms, occasionally\nresurfacing after periods of time, users are increasingly prone to unintended\ndisclosure resulting from a misremembered acceptance of privacy. Context\ncollapse and interface cues are two factors considered by prior researchers,\nyet we know less about how time-lapse basically alters recall of past audiences\ndestined for exposure. Likewise, the design space for mitigating this temporal\nexposure risk remains underexplored. Our work theorizes temporal drift in\nprivacy recall as verbatim memory of prior settings blowing apart and\neventually settling with gist-based heuristics, which more often than not\nselect an audience larger than the original one. Grounded in memory research,\ncontextual integrity, and usable privacy, we examine why such a drift occurs,\nwhy it tends to bias toward broader sharing, and how it compounds upon repeat\nexposure. Following that, we suggest provenance-forward interface schemes and a\nrisk-based evaluation framework that mutates recall into recognition. The merit\nof our work lies in establishing a temporal awareness of privacy design as an\nessential safety rail against inadvertent overexposure.",
+    "updated" : "2025-09-21T07:50:19Z",
+    "published" : "2025-09-21T07:50:19Z",
+    "authors" : [
+      {
+        "name" : "Haoze Guo"
+      },
+      {
+        "name" : "Ziqi Wei"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.16915v1",
+    "title" : "Differential Privacy for Euclidean Jordan Algebra with Applications to\n  Private Symmetric Cone Programming",
+    "summary" : "In this paper, we study differentially private mechanisms for functions whose\noutputs lie in a Euclidean Jordan algebra. Euclidean Jordan algebras capture\nmany important mathematical structures and form the foundation of linear\nprogramming, second-order cone programming, and semidefinite programming. Our\nmain contribution is a generic Gaussian mechanism for such functions, with\nsensitivity measured in $\\ell_2$, $\\ell_1$, and $\\ell_\\infty$ norms. Notably,\nthis framework includes the important case where the function outputs are\nsymmetric matrices, and sensitivity is measured in the Frobenius, nuclear, or\nspectral norm. We further derive private algorithms for solving symmetric cone\nprograms under various settings, using a combination of the multiplicative\nweights update method and our generic Gaussian mechanism. As an application, we\npresent differentially private algorithms for semidefinite programming,\nresolving a major open question posed by [Hsu, Roth, Roughgarden, and Ullman,\nICALP 2014].",
+    "updated" : "2025-09-21T04:34:12Z",
+    "published" : "2025-09-21T04:34:12Z",
+    "authors" : [
+      {
+        "name" : "Zhao Song"
+      },
+      {
+        "name" : "Jianfei Xue"
+      },
+      {
+        "name" : "Lichen Zhang"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "cs.CR",
+      "cs.DS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13625v2",
+    "title" : "Privacy-Aware In-Context Learning for Large Language Models",
+    "summary" : "Large language models (LLMs) have significantly transformed natural language\nunderstanding and generation, but they raise privacy concerns due to potential\nexposure of sensitive information. Studies have highlighted the risk of\ninformation leakage, where adversaries can extract sensitive information\nembedded in the prompts. In this work, we introduce a novel private prediction\nframework for generating high-quality synthetic text with strong privacy\nguarantees. Our approach leverages the Differential Privacy (DP) framework to\nensure worst-case theoretical bounds on information leakage without requiring\nany fine-tuning of the underlying models. The proposed method performs\ninference on private records and aggregates the resulting per-token output\ndistributions. This enables the generation of longer and coherent synthetic\ntext while maintaining privacy guarantees. Additionally, we propose a simple\nblending operation that combines private and public inference to further\nenhance utility. Empirical evaluations demonstrate that our approach\noutperforms previous state-of-the-art methods on in-context-learning (ICL)\ntasks, making it a promising direction for privacy-preserving text generation\nwhile maintaining high utility.",
+    "updated" : "2025-09-22T00:06:49Z",
+    "published" : "2025-09-17T01:50:32Z",
+    "authors" : [
+      {
+        "name" : "Bishnu Bhusal"
+      },
+      {
+        "name" : "Manoj Acharya"
+      },
+      {
+        "name" : "Ramneet Kaur"
+      },
+      {
+        "name" : "Colin Samplawski"
+      },
+      {
+        "name" : "Anirban Roy"
+      },
+      {
+        "name" : "Adam D. Cobb"
+      },
+      {
+        "name" : "Rohit Chadha"
+      },
+      {
+        "name" : "Susmit Jha"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
