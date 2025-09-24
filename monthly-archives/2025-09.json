@@ -2702,5 +2702,245 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.19041v1",
+    "title" : "Position: Human-Robot Interaction in Embodied Intelligence Demands a\n  Shift From Static Privacy Controls to Dynamic Learning",
+    "summary" : "The reasoning capabilities of embodied agents introduce a critical,\nunder-explored inferential privacy challenge, where the risk of an agent\ngenerate sensitive conclusions from ambient data. This capability creates a\nfundamental tension between an agent's utility and user privacy, rendering\ntraditional static controls ineffective. To address this, this position paper\nproposes a framework that reframes privacy as a dynamic learning problem\ngrounded in theory of Contextual Integrity (CI). Our approach enables agents to\nproactively learn and adapt to individual privacy norms through interaction,\noutlining a research agenda to develop embodied agents that are both capable\nand function as trustworthy safeguards of user privacy.",
+    "updated" : "2025-09-23T14:10:00Z",
+    "published" : "2025-09-23T14:10:00Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Hong Jia"
+      },
+      {
+        "name" : "Simin Li"
+      },
+      {
+        "name" : "Ting Dang"
+      },
+      {
+        "name" : "Yongquan `Owen' Hu"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18949v1",
+    "title" : "Towards Privacy-Aware Bayesian Networks: A Credal Approach",
+    "summary" : "Bayesian networks (BN) are probabilistic graphical models that enable\nefficient knowledge representation and inference. These have proven effective\nacross diverse domains, including healthcare, bioinformatics and economics. The\nstructure and parameters of a BN can be obtained by domain experts or directly\nlearned from available data. However, as privacy concerns escalate, it becomes\nincreasingly critical for publicly released models to safeguard sensitive\ninformation in training data. Typically, released models do not prioritize\nprivacy by design. In particular, tracing attacks from adversaries can combine\nthe released BN with auxiliary data to determine whether specific individuals\nbelong to the data from which the BN was learned. State-of-the-art protection\ntecniques involve introducing noise into the learned parameters. While this\noffers robust protection against tracing attacks, it significantly impacts the\nmodel's utility, in terms of both the significance and accuracy of the\nresulting inferences. Hence, high privacy may be attained at the cost of\nreleasing a possibly ineffective model. This paper introduces credal networks\n(CN) as a novel solution for balancing the model's privacy and utility. After\nadapting the notion of tracing attacks, we demonstrate that a CN enables the\nmasking of the learned BN, thereby reducing the probability of successful\nattacks. As CNs are obfuscated but not noisy versions of BNs, they can achieve\nmeaningful inferences while safeguarding privacy. Moreover, we identify key\nlearning information that must be concealed to prevent attackers from\nrecovering the underlying BN. Finally, we conduct a set of numerical\nexperiments to analyze how privacy gains can be modulated by tuning the CN\nhyperparameters. Our results confirm that CNs provide a principled, practical,\nand effective approach towards the development of privacy-aware probabilistic\ngraphical models.",
+    "updated" : "2025-09-23T12:58:32Z",
+    "published" : "2025-09-23T12:58:32Z",
+    "authors" : [
+      {
+        "name" : "Niccolò Rocchi"
+      },
+      {
+        "name" : "Fabio Stella"
+      },
+      {
+        "name" : "Cassio de Campos"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18871v1",
+    "title" : "R-CONV++: Uncovering Privacy Vulnerabilities through Analytical Gradient\n  Inversion Attacks",
+    "summary" : "Federated learning has emerged as a prominent privacy-preserving technique\nfor leveraging large-scale distributed datasets by sharing gradients instead of\nraw data. However, recent studies indicate that private training data can still\nbe exposed through gradient inversion attacks. While earlier analytical methods\nhave demonstrated success in reconstructing input data from fully connected\nlayers, their effectiveness significantly diminishes when applied to\nconvolutional layers, high-dimensional inputs, and scenarios involving multiple\ntraining examples. This paper extends our previous work \\cite{eltaras2024r} and\nproposes three advanced algorithms to broaden the applicability of gradient\ninversion attacks. The first algorithm presents a novel data leakage method\nthat efficiently exploits convolutional layer gradients, demonstrating that\neven with non-fully invertible activation functions, such as ReLU, training\nsamples can be analytically reconstructed directly from gradients without the\nneed to reconstruct intermediate layer outputs. Building on this foundation,\nthe second algorithm extends this analytical approach to support\nhigh-dimensional input data, substantially enhancing its utility across complex\nreal-world datasets. The third algorithm introduces an innovative analytical\nmethod for reconstructing mini-batches, addressing a critical gap in current\nresearch that predominantly focuses on reconstructing only a single training\nexample. Unlike previous studies that focused mainly on the weight constraints\nof convolutional layers, our approach emphasizes the pivotal role of gradient\nconstraints, revealing that successful attacks can be executed with fewer than\n5\\% of the constraints previously deemed necessary in certain layers.",
+    "updated" : "2025-09-23T10:10:12Z",
+    "published" : "2025-09-23T10:10:12Z",
+    "authors" : [
+      {
+        "name" : "Tamer Ahmed Eltaras"
+      },
+      {
+        "name" : "Qutaibah Malluhi"
+      },
+      {
+        "name" : "Alessandro Savino"
+      },
+      {
+        "name" : "Stefano Di Carlo"
+      },
+      {
+        "name" : "Adnan Qayyum"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18696v1",
+    "title" : "FlowCrypt: Flow-Based Lightweight Encryption with Near-Lossless Recovery\n  for Cloud Photo Privacy",
+    "summary" : "The widespread adoption of smartphone photography has led users to\nincreasingly rely on cloud storage for personal photo archiving and sharing,\nraising critical privacy concerns. Existing deep learning-based image\nencryption schemes, typically built upon CNNs or GANs, often depend on\ntraditional cryptographic algorithms and lack inherent architectural\nreversibility, resulting in limited recovery quality and poor robustness.\nInvertible neural networks (INNs) have emerged to address this issue by\nenabling reversible transformations, yet the first INN-based encryption scheme\nstill relies on an auxiliary reference image and discards by-product\ninformation before decryption, leading to degraded recovery and limited\npracticality. To address these limitations, this paper proposes FlowCrypt, a\nnovel flow-based image encryption framework that simultaneously achieves\nnear-lossless recovery, high security, and lightweight model design. FlowCrypt\nbegins by applying a key-conditioned random split to the input image, enhancing\nforward-process randomness and encryption strength. The resulting components\nare processed through a Flow-based Encryption/Decryption (FED) module composed\nof invertible blocks, which share parameters across encryption and decryption.\nThanks to its reversible architecture and reference-free design, FlowCrypt\nensures high-fidelity image recovery. Extensive experiments show that FlowCrypt\nachieves recovery quality with 100dB on three datasets, produces uniformly\ndistributed cipher images, and maintains a compact architecture with only 1M\nparameters, making it suitable for mobile and edge-device applications.",
+    "updated" : "2025-09-23T06:25:35Z",
+    "published" : "2025-09-23T06:25:35Z",
+    "authors" : [
+      {
+        "name" : "Xiaohui Yang"
+      },
+      {
+        "name" : "Ping Ping"
+      },
+      {
+        "name" : "Feng Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18413v1",
+    "title" : "VoxGuard: Evaluating User and Attribute Privacy in Speech via Membership\n  Inference Attacks",
+    "summary" : "Voice anonymization aims to conceal speaker identity and attributes while\npreserving intelligibility, but current evaluations rely almost exclusively on\nEqual Error Rate (EER) that obscures whether adversaries can mount\nhigh-precision attacks. We argue that privacy should instead be evaluated in\nthe low false-positive rate (FPR) regime, where even a small number of\nsuccessful identifications constitutes a meaningful breach. To this end, we\nintroduce VoxGuard, a framework grounded in differential privacy and membership\ninference that formalizes two complementary notions: User Privacy, preventing\nspeaker re-identification, and Attribute Privacy, protecting sensitive traits\nsuch as gender and accent. Across synthetic and real datasets, we find that\ninformed adversaries, especially those using fine-tuned models and\nmax-similarity scoring, achieve orders-of-magnitude stronger attacks at low-FPR\ndespite similar EER. For attributes, we show that simple transparent attacks\nrecover gender and accent with near-perfect accuracy even after anonymization.\nOur results demonstrate that EER substantially underestimates leakage,\nhighlighting the need for low-FPR evaluation, and recommend VoxGuard as a\nbenchmark for evaluating privacy leakage.",
+    "updated" : "2025-09-22T20:57:48Z",
+    "published" : "2025-09-22T20:57:48Z",
+    "authors" : [
+      {
+        "name" : "Efthymios Tsaprazlis"
+      },
+      {
+        "name" : "Thanathai Lertpetchpun"
+      },
+      {
+        "name" : "Tiantian Feng"
+      },
+      {
+        "name" : "Sai Praneeth Karimireddy"
+      },
+      {
+        "name" : "Shrikanth Narayanan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18311v1",
+    "title" : "Fine-Tuning Robot Policies While Maintaining User Privacy",
+    "summary" : "Recent works introduce general-purpose robot policies. These policies provide\na strong prior over how robots should behave -- e.g., how a robot arm should\nmanipulate food items. But in order for robots to match an individual person's\nneeds, users typically fine-tune these generalized policies -- e.g., showing\nthe robot arm how to make their own preferred dinners. Importantly, during the\nprocess of personalizing robots, end-users leak data about their preferences,\nhabits, and styles (e.g., the foods they prefer to eat). Other agents can\nsimply roll-out the fine-tuned policy and see these personally-trained\nbehaviors. This leads to a fundamental challenge: how can we develop robots\nthat personalize actions while keeping learning private from external agents?\nWe here explore this emerging topic in human-robot interaction and develop\nPRoP, a model-agnostic framework for personalized and private robot policies.\nOur core idea is to equip each user with a unique key; this key is then used to\nmathematically transform the weights of the robot's network. With the correct\nkey, the robot's policy switches to match that user's preferences -- but with\nincorrect keys, the robot reverts to its baseline behaviors. We show the\ngeneral applicability of our method across multiple model types in imitation\nlearning, reinforcement learning, and classification tasks. PRoP is practically\nadvantageous because it retains the architecture and behaviors of the original\npolicy, and experimentally outperforms existing encoder-based approaches. See\nvideos and code here: https://prop-icra26.github.io.",
+    "updated" : "2025-09-22T18:36:25Z",
+    "published" : "2025-09-22T18:36:25Z",
+    "authors" : [
+      {
+        "name" : "Benjamin A. Christie"
+      },
+      {
+        "name" : "Sagar Parekh"
+      },
+      {
+        "name" : "Dylan P. Losey"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18187v1",
+    "title" : "V-SenseDrive: A Privacy-Preserving Road Video and In-Vehicle Sensor\n  Fusion Framework for Road Safety & Driver Behaviour Modelling",
+    "summary" : "Road traffic accidents remain a major public health challenge, particularly\nin countries with heterogeneous road conditions, mixed traffic flow, and\nvariable driving discipline, such as Pakistan. Reliable detection of unsafe\ndriving behaviours is a prerequisite for improving road safety, enabling\nadvanced driver assistance systems (ADAS), and supporting data driven decisions\nin insurance and fleet management. Most of existing datasets originate from the\ndeveloped countries with limited representation of the behavioural diversity\nobserved in emerging economies and the driver's face recording voilates the\nprivacy preservation. We present V-SenseDrive, the first privacy-preserving\nmultimodal driver behaviour dataset collected entirely within the Pakistani\ndriving environment. V-SenseDrive combines smartphone based inertial and GPS\nsensor data with synchronized road facing video to record three target driving\nbehaviours (normal, aggressive, and risky) on multiple types of roads,\nincluding urban arterials, secondary roads, and motorways. Data was gathered\nusing a custom Android application designed to capture high frequency\naccelerometer, gyroscope, and GPS streams alongside continuous video, with all\nsources precisely time aligned to enable multimodal analysis. The focus of this\nwork is on the data acquisition process, covering participant selection,\ndriving scenarios, environmental considerations, and sensor video\nsynchronization techniques. The dataset is structured into raw, processed, and\nsemantic layers, ensuring adaptability for future research in driver behaviour\nclassification, traffic safety analysis, and ADAS development. By representing\nreal world driving in Pakistan, V-SenseDrive fills a critical gap in the global\nlandscape of driver behaviour datasets and lays the groundwork for context\naware intelligent transportation solutions.",
+    "updated" : "2025-09-18T21:55:14Z",
+    "published" : "2025-09-18T21:55:14Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Naveed"
+      },
+      {
+        "name" : "Nazia Perwaiz"
+      },
+      {
+        "name" : "Sidra Sultana"
+      },
+      {
+        "name" : "Mohaira Ahmad"
+      },
+      {
+        "name" : "Muhammad Moazam Fraz"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.13625v3",
+    "title" : "Privacy-Aware In-Context Learning for Large Language Models",
+    "summary" : "Large language models (LLMs) have significantly transformed natural language\nunderstanding and generation, but they raise privacy concerns due to potential\nexposure of sensitive information. Studies have highlighted the risk of\ninformation leakage, where adversaries can extract sensitive information\nembedded in the prompts. In this work, we introduce a novel private prediction\nframework for generating high-quality synthetic text with strong privacy\nguarantees. Our approach leverages the Differential Privacy (DP) framework to\nensure worst-case theoretical bounds on information leakage without requiring\nany fine-tuning of the underlying models. The proposed method performs\ninference on private records and aggregates the resulting per-token output\ndistributions. This enables the generation of longer and coherent synthetic\ntext while maintaining privacy guarantees. Additionally, we propose a simple\nblending operation that combines private and public inference to further\nenhance utility. Empirical evaluations demonstrate that our approach\noutperforms previous state-of-the-art methods on in-context-learning (ICL)\ntasks, making it a promising direction for privacy-preserving text generation\nwhile maintaining high utility.",
+    "updated" : "2025-09-23T02:40:24Z",
+    "published" : "2025-09-17T01:50:32Z",
+    "authors" : [
+      {
+        "name" : "Bishnu Bhusal"
+      },
+      {
+        "name" : "Manoj Acharya"
+      },
+      {
+        "name" : "Ramneet Kaur"
+      },
+      {
+        "name" : "Colin Samplawski"
+      },
+      {
+        "name" : "Anirban Roy"
+      },
+      {
+        "name" : "Adam D. Cobb"
+      },
+      {
+        "name" : "Rohit Chadha"
+      },
+      {
+        "name" : "Susmit Jha"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18134v1",
+    "title" : "A Weighted Gradient Tracking Privacy-Preserving Method for Distributed\n  Optimization",
+    "summary" : "This paper investigates the privacy-preserving distributed optimization\nproblem, aiming to protect agents' private information from potential attackers\nduring the optimization process. Gradient tracking, an advanced technique for\nimproving the convergence rate in distributed optimization, has been applied to\nmost first-order algorithms in recent years. We first reveal the inherent\nprivacy leakage risk associated with gradient tracking. Building upon this\ninsight, we propose a weighted gradient tracking distributed privacy-preserving\nalgorithm, eliminating the privacy leakage risk in gradient tracking using\ndecaying weight factors. Then, we characterize the convergence of the proposed\nalgorithm under time-varying heterogeneous step sizes. We prove the proposed\nalgorithm converges precisely to the optimal solution under mild assumptions.\nFinally, numerical simulations validate the algorithm's effectiveness through a\nclassical distributed estimation problem and the distributed training of a\nconvolutional neural network.",
+    "updated" : "2025-09-14T07:29:53Z",
+    "published" : "2025-09-14T07:29:53Z",
+    "authors" : [
+      {
+        "name" : "Furan Xie"
+      },
+      {
+        "name" : "Bing Liu"
+      },
+      {
+        "name" : "Li Chai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "math.OC"
+    ]
   }
 ]
