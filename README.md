@@ -2,6 +2,195 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.19041v1">Position: Human-Robot Interaction in Embodied Intelligence Demands a
+  Shift From Static Privacy Controls to Dynamic Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-09-23T14:10:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Hong Jia, Simin Li, Ting Dang, Yongquan `Owen' Hu, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> The reasoning capabilities of embodied agents introduce a critical,
+under-explored inferential privacy challenge, where the risk of an agent
+generate sensitive conclusions from ambient data. This capability creates a
+fundamental tension between an agent's utility and user privacy, rendering
+traditional static controls ineffective. To address this, this position paper
+proposes a framework that reframes privacy as a dynamic learning problem
+grounded in theory of Contextual Integrity (CI). Our approach enables agents to
+proactively learn and adapt to individual privacy norms through interaction,
+outlining a research agenda to develop embodied agents that are both capable
+and function as trustworthy safeguards of user privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18949v1">Towards Privacy-Aware Bayesian Networks: A Credal Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-23T12:58:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Niccolò Rocchi, Fabio Stella, Cassio de Campos</p>
+    <p><b>Summary:</b> Bayesian networks (BN) are probabilistic graphical models that enable
+efficient knowledge representation and inference. These have proven effective
+across diverse domains, including healthcare, bioinformatics and economics. The
+structure and parameters of a BN can be obtained by domain experts or directly
+learned from available data. However, as privacy concerns escalate, it becomes
+increasingly critical for publicly released models to safeguard sensitive
+information in training data. Typically, released models do not prioritize
+privacy by design. In particular, tracing attacks from adversaries can combine
+the released BN with auxiliary data to determine whether specific individuals
+belong to the data from which the BN was learned. State-of-the-art protection
+tecniques involve introducing noise into the learned parameters. While this
+offers robust protection against tracing attacks, it significantly impacts the
+model's utility, in terms of both the significance and accuracy of the
+resulting inferences. Hence, high privacy may be attained at the cost of
+releasing a possibly ineffective model. This paper introduces credal networks
+(CN) as a novel solution for balancing the model's privacy and utility. After
+adapting the notion of tracing attacks, we demonstrate that a CN enables the
+masking of the learned BN, thereby reducing the probability of successful
+attacks. As CNs are obfuscated but not noisy versions of BNs, they can achieve
+meaningful inferences while safeguarding privacy. Moreover, we identify key
+learning information that must be concealed to prevent attackers from
+recovering the underlying BN. Finally, we conduct a set of numerical
+experiments to analyze how privacy gains can be modulated by tuning the CN
+hyperparameters. Our results confirm that CNs provide a principled, practical,
+and effective approach towards the development of privacy-aware probabilistic
+graphical models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18871v1">R-CONV++: Uncovering Privacy Vulnerabilities through Analytical Gradient
+  Inversion Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-23T10:10:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tamer Ahmed Eltaras, Qutaibah Malluhi, Alessandro Savino, Stefano Di Carlo, Adnan Qayyum</p>
+    <p><b>Summary:</b> Federated learning has emerged as a prominent privacy-preserving technique
+for leveraging large-scale distributed datasets by sharing gradients instead of
+raw data. However, recent studies indicate that private training data can still
+be exposed through gradient inversion attacks. While earlier analytical methods
+have demonstrated success in reconstructing input data from fully connected
+layers, their effectiveness significantly diminishes when applied to
+convolutional layers, high-dimensional inputs, and scenarios involving multiple
+training examples. This paper extends our previous work \cite{eltaras2024r} and
+proposes three advanced algorithms to broaden the applicability of gradient
+inversion attacks. The first algorithm presents a novel data leakage method
+that efficiently exploits convolutional layer gradients, demonstrating that
+even with non-fully invertible activation functions, such as ReLU, training
+samples can be analytically reconstructed directly from gradients without the
+need to reconstruct intermediate layer outputs. Building on this foundation,
+the second algorithm extends this analytical approach to support
+high-dimensional input data, substantially enhancing its utility across complex
+real-world datasets. The third algorithm introduces an innovative analytical
+method for reconstructing mini-batches, addressing a critical gap in current
+research that predominantly focuses on reconstructing only a single training
+example. Unlike previous studies that focused mainly on the weight constraints
+of convolutional layers, our approach emphasizes the pivotal role of gradient
+constraints, revealing that successful attacks can be executed with fewer than
+5\% of the constraints previously deemed necessary in certain layers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18696v1">FlowCrypt: Flow-Based Lightweight Encryption with Near-Lossless Recovery
+  for Cloud Photo Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-23T06:25:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaohui Yang, Ping Ping, Feng Xu</p>
+    <p><b>Summary:</b> The widespread adoption of smartphone photography has led users to
+increasingly rely on cloud storage for personal photo archiving and sharing,
+raising critical privacy concerns. Existing deep learning-based image
+encryption schemes, typically built upon CNNs or GANs, often depend on
+traditional cryptographic algorithms and lack inherent architectural
+reversibility, resulting in limited recovery quality and poor robustness.
+Invertible neural networks (INNs) have emerged to address this issue by
+enabling reversible transformations, yet the first INN-based encryption scheme
+still relies on an auxiliary reference image and discards by-product
+information before decryption, leading to degraded recovery and limited
+practicality. To address these limitations, this paper proposes FlowCrypt, a
+novel flow-based image encryption framework that simultaneously achieves
+near-lossless recovery, high security, and lightweight model design. FlowCrypt
+begins by applying a key-conditioned random split to the input image, enhancing
+forward-process randomness and encryption strength. The resulting components
+are processed through a Flow-based Encryption/Decryption (FED) module composed
+of invertible blocks, which share parameters across encryption and decryption.
+Thanks to its reversible architecture and reference-free design, FlowCrypt
+ensures high-fidelity image recovery. Extensive experiments show that FlowCrypt
+achieves recovery quality with 100dB on three datasets, produces uniformly
+distributed cipher images, and maintains a compact architecture with only 1M
+parameters, making it suitable for mobile and edge-device applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18413v1">VoxGuard: Evaluating User and Attribute Privacy in Speech via Membership
+  Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-22T20:57:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Efthymios Tsaprazlis, Thanathai Lertpetchpun, Tiantian Feng, Sai Praneeth Karimireddy, Shrikanth Narayanan</p>
+    <p><b>Summary:</b> Voice anonymization aims to conceal speaker identity and attributes while
+preserving intelligibility, but current evaluations rely almost exclusively on
+Equal Error Rate (EER) that obscures whether adversaries can mount
+high-precision attacks. We argue that privacy should instead be evaluated in
+the low false-positive rate (FPR) regime, where even a small number of
+successful identifications constitutes a meaningful breach. To this end, we
+introduce VoxGuard, a framework grounded in differential privacy and membership
+inference that formalizes two complementary notions: User Privacy, preventing
+speaker re-identification, and Attribute Privacy, protecting sensitive traits
+such as gender and accent. Across synthetic and real datasets, we find that
+informed adversaries, especially those using fine-tuned models and
+max-similarity scoring, achieve orders-of-magnitude stronger attacks at low-FPR
+despite similar EER. For attributes, we show that simple transparent attacks
+recover gender and accent with near-perfect accuracy even after anonymization.
+Our results demonstrate that EER substantially underestimates leakage,
+highlighting the need for low-FPR evaluation, and recommend VoxGuard as a
+benchmark for evaluating privacy leakage.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18311v1">Fine-Tuning Robot Policies While Maintaining User Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2025-09-22T18:36:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Benjamin A. Christie, Sagar Parekh, Dylan P. Losey</p>
+    <p><b>Summary:</b> Recent works introduce general-purpose robot policies. These policies provide
+a strong prior over how robots should behave -- e.g., how a robot arm should
+manipulate food items. But in order for robots to match an individual person's
+needs, users typically fine-tune these generalized policies -- e.g., showing
+the robot arm how to make their own preferred dinners. Importantly, during the
+process of personalizing robots, end-users leak data about their preferences,
+habits, and styles (e.g., the foods they prefer to eat). Other agents can
+simply roll-out the fine-tuned policy and see these personally-trained
+behaviors. This leads to a fundamental challenge: how can we develop robots
+that personalize actions while keeping learning private from external agents?
+We here explore this emerging topic in human-robot interaction and develop
+PRoP, a model-agnostic framework for personalized and private robot policies.
+Our core idea is to equip each user with a unique key; this key is then used to
+mathematically transform the weights of the robot's network. With the correct
+key, the robot's policy switches to match that user's preferences -- but with
+incorrect keys, the robot reverts to its baseline behaviors. We show the
+general applicability of our method across multiple model types in imitation
+learning, reinforcement learning, and classification tasks. PRoP is practically
+advantageous because it retains the architecture and behaviors of the original
+policy, and experimentally outperforms existing encoder-based approaches. See
+videos and code here: https://prop-icra26.github.io.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.18014v1">Synth-MIA: A Testbed for Auditing Privacy Leakage in Tabular Data
   Synthesis</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
@@ -213,6 +402,43 @@ itemsets without introducing misleading patterns, whereas the PPUM algorithm
 generates additional itemsets that may interfere with user decision-making.
 Moreover, the results also reveal that our algorithms maintain Database Utility
 Similarity (DUS) of over 90\% after the sensitive itemsets are hidden.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18187v1">V-SenseDrive: A Privacy-Preserving Road Video and In-Vehicle Sensor
+  Fusion Framework for Road Safety & Driver Behaviour Modelling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-18T21:55:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Naveed, Nazia Perwaiz, Sidra Sultana, Mohaira Ahmad, Muhammad Moazam Fraz</p>
+    <p><b>Summary:</b> Road traffic accidents remain a major public health challenge, particularly
+in countries with heterogeneous road conditions, mixed traffic flow, and
+variable driving discipline, such as Pakistan. Reliable detection of unsafe
+driving behaviours is a prerequisite for improving road safety, enabling
+advanced driver assistance systems (ADAS), and supporting data driven decisions
+in insurance and fleet management. Most of existing datasets originate from the
+developed countries with limited representation of the behavioural diversity
+observed in emerging economies and the driver's face recording voilates the
+privacy preservation. We present V-SenseDrive, the first privacy-preserving
+multimodal driver behaviour dataset collected entirely within the Pakistani
+driving environment. V-SenseDrive combines smartphone based inertial and GPS
+sensor data with synchronized road facing video to record three target driving
+behaviours (normal, aggressive, and risky) on multiple types of roads,
+including urban arterials, secondary roads, and motorways. Data was gathered
+using a custom Android application designed to capture high frequency
+accelerometer, gyroscope, and GPS streams alongside continuous video, with all
+sources precisely time aligned to enable multimodal analysis. The focus of this
+work is on the data acquisition process, covering participant selection,
+driving scenarios, environmental considerations, and sensor video
+synchronization techniques. The dataset is structured into raw, processed, and
+semantic layers, ensuring adaptability for future research in driver behaviour
+classification, traffic safety analysis, and ADAS development. By representing
+real world driving in Pakistan, V-SenseDrive fills a critical gap in the global
+landscape of driver behaviour datasets and lays the groundwork for context
+aware intelligent transportation solutions.</p>
   </details>
 </div>
 
@@ -439,7 +665,7 @@ provided.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13625v2">Privacy-Aware In-Context Learning for Large Language Models</a></h3>
+  <h3><a href="http://arxiv.org/abs/2509.13625v3">Privacy-Aware In-Context Learning for Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-09-17T01:50:32Z</p>
   <details>
@@ -1005,6 +1231,32 @@ experiments show that PerceptFace achieves a superior trade-off between
 identity protection and identity perception compared to existing methods. We
 provide a public API of PerceptFace and believe that it has great potential to
 become a practical anti-FR tool.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.18134v1">A Weighted Gradient Tracking Privacy-Preserving Method for Distributed
+  Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2025-09-14T07:29:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Furan Xie, Bing Liu, Li Chai</p>
+    <p><b>Summary:</b> This paper investigates the privacy-preserving distributed optimization
+problem, aiming to protect agents' private information from potential attackers
+during the optimization process. Gradient tracking, an advanced technique for
+improving the convergence rate in distributed optimization, has been applied to
+most first-order algorithms in recent years. We first reveal the inherent
+privacy leakage risk associated with gradient tracking. Building upon this
+insight, we propose a weighted gradient tracking distributed privacy-preserving
+algorithm, eliminating the privacy leakage risk in gradient tracking using
+decaying weight factors. Then, we characterize the convergence of the proposed
+algorithm under time-varying heterogeneous step sizes. We prove the proposed
+algorithm converges precisely to the optimal solution under mild assumptions.
+Finally, numerical simulations validate the algorithm's effectiveness through a
+classical distributed estimation problem and the distributed training of a
+convolutional neural network.</p>
   </details>
 </div>
 
@@ -2771,258 +3023,6 @@ leakage during inference collectively. Experimental results show that DPF-CM
 significantly improves model accuracy, enabling our trained Chinese medical LLM
 to achieve state-of-the-art performance among open-source counterparts.
 Moreover, the framework reduces training data privacy leakage by 27%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.01088v1">Privacy-Preserving Reasoning with Knowledge-Distilled Parametric
-  Retrieval Augmented Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-09-01T03:23:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinwen Chen, Hainan Zhang, Liang Pang, Yongxin Tong, Haibo Zhou, Yuan Zhan, Wei Lin, Zhiming Zheng</p>
-    <p><b>Summary:</b> The current RAG system requires uploading plaintext documents to the cloud,
-risking private data leakage. Parametric RAG (PRAG) addresses this by encoding
-documents as LoRA within LLMs, enabling reasoning without exposing raw content.
-However, it still faces two issues: (1) PRAG demands synthesizing QA pairs and
-fine-tuning LLM for each individual document to create its corresponding LoRA,
-leading to unacceptable inference latency. (2) The performance of PRAG relies
-solely on synthetic QA data, lacking internal alignment with standard RAG,
-resulting in poor generalization on out-of-distribution(OOD) inputs. Therefore,
-achieving high-efficiency parameterization while maintaining RAG-level
-performance remains a critical challenge for privacy-preserving reasoning. In
-this paper, we propose DistilledPRAG, a generalizable knowledge-distilled
-parametric RAG model aligned with standard RAG in document structure and
-parameter activation. We first synthesize QA pairs from single and
-multi-documents to enhance cross-document reasoning. Then, we mask the
-plaintext documents with a special token and translate them to LoRA via a
-parameter generator, maintaining the standard RAG document structure. Finally,
-guided by synthetic QA data, we train the parameter generator to match standard
-RAG's hidden states and output logits, enabling RAG-style reasoning without
-original documents. Experiments on four QA datasets show that DistilledPRAG
-outperforms baselines in accuracy and generalizes well on OOD data.</p>
-  </details>
-</div>
-
-
-
-<h2>2025-08</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.00693v1">DELTA: Variational Disentangled Learning for Privacy-Preserving Data
-  Reprogramming</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2025-08-31T04:18:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arun Vignesh Malarkkan, Haoyue Bai, Anjali Kaushik, Yanjie Fu</p>
-    <p><b>Summary:</b> In real-world applications, domain data often contains identifiable or
-sensitive attributes, is subject to strict regulations (e.g., HIPAA, GDPR), and
-requires explicit data feature engineering for interpretability and
-transparency. Existing feature engineering primarily focuses on advancing
-downstream task performance, often risking privacy leakage. We generalize this
-learning task under such new requirements as Privacy-Preserving Data
-Reprogramming (PPDR): given a dataset, transforming features to maximize target
-attribute prediction accuracy while minimizing sensitive attribute prediction
-accuracy. PPDR poses challenges for existing systems: 1) generating
-high-utility feature transformations without being overwhelmed by a large
-search space, and 2) disentangling and eliminating sensitive information from
-utility-oriented features to reduce privacy inferability. To tackle these
-challenges, we propose DELTA, a two-phase variational disentangled generative
-learning framework. Phase I uses policy-guided reinforcement learning to
-discover feature transformations with downstream task utility, without any
-regard to privacy inferability. Phase II employs a variational LSTM seq2seq
-encoder-decoder with a utility-privacy disentangled latent space design and
-adversarial-causal disentanglement regularization to suppress privacy signals
-during feature generation. Experiments on eight datasets show DELTA improves
-predictive performance by ~9.3% and reduces privacy leakage by ~35%,
-demonstrating robust, privacy-aware data transformation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.00615v1">Federated Survival Analysis with Node-Level Differential Privacy:
-  Private Kaplan-Meier Curves</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-30T21:47:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Narasimha Raghavan Veeraragavan, Jan Franz Nygård</p>
-    <p><b>Summary:</b> We investigate how to calculate Kaplan-Meier survival curves across multiple
-health-care jurisdictions while protecting patient privacy with node-level
-differential privacy. Each site discloses its curve only once, adding Laplace
-noise whose scale is determined by the length of the common time grid; the
-server then averages the noisy curves, so the overall privacy budget remains
-unchanged. We benchmark four one-shot smoothing techniques: Discrete Cosine
-Transform, Haar Wavelet shrinkage, adaptive Total-Variation denoising, and a
-parametric Weibull fit on the NCCTG lung-cancer cohort under five privacy
-levels and three partition scenarios (uniform, moderately skewed, highly
-imbalanced). Total-Variation gives the best mean accuracy, whereas the
-frequency-domain smoothers offer stronger worst-case robustness and the Weibull
-model shows the most stable behaviour at the strictest privacy setting. Across
-all methods the released curves keep the empirical log-rank type-I error below
-fifteen percent for privacy budgets of 0.5 and higher, demonstrating that
-clinically useful survival information can be shared without iterative training
-or heavy cryptography.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08835v1">Deep opacity and AI: A threat to XAI and to privacy protection
-  mechanisms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-08-30T11:15:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vincent C. Müller</p>
-    <p><b>Summary:</b> It is known that big data analytics and AI pose a threat to privacy, and that
-some of this is due to some kind of "black box problem" in AI. I explain how
-this becomes a problem in the context of justification for judgments and
-actions. Furthermore, I suggest distinguishing three kinds of opacity: 1) the
-subjects do not know what the system does ("shallow opacity"), 2) the analysts
-do not know what the system does ("standard black box opacity"), or 3) the
-analysts cannot possibly know what the system might do ("deep opacity"). If the
-agents, data subjects as well as analytics experts, operate under opacity, then
-these agents cannot provide justifications for judgments that are necessary to
-protect privacy, e.g., they cannot give "informed consent", or guarantee
-"anonymity". It follows from these points that agents in big data analytics and
-AI often cannot make the judgments needed to protect privacy. So I conclude
-that big data analytics makes the privacy problems worse and the remedies less
-effective. As a positive note, I provide a brief outlook on technical ways to
-handle this situation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.05320v1">Privacy-Preserving Offloading for Large Language Models in 6G Vehicular
-  Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-30T10:08:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ikhlasse Badidi, Nouhaila El Khiyaoui, Aya Riany, Badr Ben Elallid, Amine Abouaomar</p>
-    <p><b>Summary:</b> The integration of Large Language Models (LLMs) in 6G vehicular networks
-promises unprecedented advancements in intelligent transportation systems.
-However, offloading LLM computations from vehicles to edge infrastructure poses
-significant privacy risks, potentially exposing sensitive user data. This paper
-presents a novel privacy-preserving offloading framework for LLM-integrated
-vehicular networks. We introduce a hybrid approach combining federated learning
-(FL) and differential privacy (DP) techniques to protect user data while
-maintaining LLM performance. Our framework includes a privacy-aware task
-partitioning algorithm that optimizes the trade-off between local and edge
-computation, considering both privacy constraints and system efficiency. We
-also propose a secure communication protocol for transmitting model updates and
-aggregating results across the network. Experimental results demonstrate that
-our approach achieves 75\% global accuracy with only a 2-3\% reduction compared
-to non-privacy-preserving methods, while maintaining DP guarantees with an
-optimal privacy budget of $\varepsilon = 0.8$. The framework shows stable
-communication overhead of approximately 2.1MB per round with computation
-comprising over 90\% of total processing time, validating its efficiency for
-resource-constrained vehicular environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.00192v1">Safe-LLaVA: A Privacy-Preserving Vision-Language Dataset and Benchmark
-  for Biometric Safety</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-08-29T18:54:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Younggun Kim, Sirnam Swetha, Fazil Kagdi, Mubarak Shah</p>
-    <p><b>Summary:</b> Multimodal Large Language Models (MLLMs) have demonstrated remarkable
-capabilities in vision-language tasks. However, these models often infer and
-reveal sensitive biometric attributes - such as race, gender, age, body weight,
-and eye color - even when such information is not explicitly requested. This
-raises critical concerns, particularly in real-world applications and
-socially-sensitive domains. Despite increasing awareness, no publicly available
-dataset or benchmark exists to comprehensively evaluate or mitigate biometric
-leakage in MLLMs. To address this gap, we introduce PRISM (Privacy-aware
-Evaluation of Responses in Sensitive Modalities), a new benchmark designed to
-assess MLLMs on two fronts: (1) refuse biometric-related queries and (2)
-implicit biometric leakage in general responses while maintaining semantic
-faithfulness. Further, we conduct a detailed audit of the widely used LLaVA
-datasets and uncover extensive biometric leakage across pretraining and
-instruction data. To address this, we present Safe-LLaVA dataset, the first
-privacy-preserving MLLM training dataset constructed by systematically removing
-explicit and implicit biometric information from LLaVA dataset. Our evaluations
-on PRISM reveal biometric leakages across MLLMs for different attributes,
-highlighting the detailed privacy-violations. We also fine-tune a model on
-Safe-LLaVA dataset and show that it substantially reduces the biometric
-leakages. Together, Safe-LLaVA & PRISM set a new standard for privacy-aligned
-development and evaluation of MLLMs. The Safe-LLaVA dataset & PRISM benchmark
-are publicly available at https://huggingface.co/datasets/kyh9191/Safe-LLaVA,
-and the source code is available at
-https://github.com/Kimyounggun99/Safe-LLaVA.git.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.21815v1">Achieving Hilbert-Schmidt Independence Under Rényi Differential
-  Privacy for Fair and Private Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-08-29T17:51:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tobias Hyrup, Emmanouil Panagiotou, Arjun Roy, Arthur Zimek, Eirini Ntoutsi, Peter Schneider-Kamp</p>
-    <p><b>Summary:</b> As privacy regulations such as the GDPR and HIPAA and responsibility
-frameworks for artificial intelligence such as the AI Act gain traction, the
-ethical and responsible use of real-world data faces increasing constraints.
-Synthetic data generation has emerged as a promising solution to risk-aware
-data sharing and model development, particularly for tabular datasets that are
-foundational to sensitive domains such as healthcare. To address both privacy
-and fairness concerns in this setting, we propose FLIP (Fair Latent
-Intervention under Privacy guarantees), a transformer-based variational
-autoencoder augmented with latent diffusion to generate heterogeneous tabular
-data. Unlike the typical setup in fairness-aware data generation, we assume a
-task-agnostic setup, not reliant on a fixed, defined downstream task, thus
-offering broader applicability. To ensure privacy, FLIP employs R\'enyi
-differential privacy (RDP) constraints during training and addresses fairness
-in the input space with RDP-compatible balanced sampling that accounts for
-group-specific noise levels across multiple sampling rates. In the latent
-space, we promote fairness by aligning neuron activation patterns across
-protected groups using Centered Kernel Alignment (CKA), a similarity measure
-extending the Hilbert-Schmidt Independence Criterion (HSIC). This alignment
-encourages statistical independence between latent representations and the
-protected feature. Empirical results demonstrate that FLIP effectively provides
-significant fairness improvements for task-agnostic fairness and across diverse
-downstream tasks under differential privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2508.21146v1">Privacy Auditing Synthetic Data Release through Local Likelihood Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-08-28T18:27:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joshua Ward, Chi-Hua Wang, Guang Cheng</p>
-    <p><b>Summary:</b> Auditing the privacy leakage of synthetic data is an important but unresolved
-problem. Most existing privacy auditing frameworks for synthetic data rely on
-heuristics and unreasonable assumptions to attack the failure modes of
-generative models, exhibiting limited capability to describe and detect the
-privacy exposure of training data through synthetic data release. In this
-paper, we study designing Membership Inference Attacks (MIAs) that specifically
-exploit the observation that tabular generative models tend to significantly
-overfit to certain regions of the training distribution. Here, we propose
-Generative Likelihood Ratio Attack (Gen-LRA), a novel, computationally
-efficient No-Box MIA that, with no assumption of model knowledge or access,
-formulates its attack by evaluating the influence a test observation has in a
-surrogate model's estimation of a local likelihood ratio over the synthetic
-data. Assessed over a comprehensive benchmark spanning diverse datasets, model
-architectures, and attack parameters, we find that Gen-LRA consistently
-dominates other MIAs for generative models across multiple performance metrics.
-These results underscore Gen-LRA's effectiveness as a privacy auditing tool for
-the release of synthetic data, highlighting the significant privacy risks posed
-by generative model overfitting in real-world applications.</p>
   </details>
 </div>
 
