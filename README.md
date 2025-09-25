@@ -2,6 +2,242 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20324v1">RAG Security and Privacy: Formalizing the Threat Model and Attack
+  Surface</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-24T17:11:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Atousa Arzanipour, Rouzbeh Behnia, Reza Ebrahimi, Kaushik Dutta</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) is an emerging approach in natural
+language processing that combines large language models (LLMs) with external
+document retrieval to produce more accurate and grounded responses. While RAG
+has shown strong potential in reducing hallucinations and improving factual
+consistency, it also introduces new privacy and security challenges that differ
+from those faced by traditional LLMs. Existing research has demonstrated that
+LLMs can leak sensitive information through training data memorization or
+adversarial prompts, and RAG systems inherit many of these vulnerabilities. At
+the same time, reliance of RAG on an external knowledge base opens new attack
+surfaces, including the potential for leaking information about the presence or
+content of retrieved documents, or for injecting malicious content to
+manipulate model behavior. Despite these risks, there is currently no formal
+framework that defines the threat landscape for RAG systems. In this paper, we
+address a critical gap in the literature by proposing, to the best of our
+knowledge, the first formal threat model for retrieval-RAG systems. We
+introduce a structured taxonomy of adversary types based on their access to
+model components and data, and we formally define key threat vectors such as
+document-level membership inference and data poisoning, which pose serious
+privacy and integrity risks in real-world deployments. By establishing formal
+definitions and attack models, our work lays the foundation for a more rigorous
+and principled understanding of privacy and security in RAG systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20283v1">Monitoring Violations of Differential Privacy over Time</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2025-09-24T16:15:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Önder Askin, Tim Kutta, Holger Dette</p>
+    <p><b>Summary:</b> Auditing differential privacy has emerged as an important area of research
+that supports the design of privacy-preserving mechanisms. Privacy audits help
+to obtain empirical estimates of the privacy parameter, to expose flawed
+implementations of algorithms and to compare practical with theoretical privacy
+guarantees. In this work, we investigate an unexplored facet of privacy
+auditing: the sustained auditing of a mechanism that can go through changes
+during its development or deployment. Monitoring the privacy of algorithms over
+time comes with specific challenges. Running state-of-the-art (static) auditors
+repeatedly requires excessive sampling efforts, while the reliability of such
+methods deteriorates over time without proper adjustments. To overcome these
+obstacles, we present a new monitoring procedure that extracts information from
+the entire deployment history of the algorithm. This allows us to reduce
+sampling efforts, while sustaining reliable outcomes of our auditor. We derive
+formal guarantees with regard to the soundness of our methods and evaluate
+their performance for important mechanisms from the literature. Our theoretical
+findings and experiments demonstrate the efficacy of our approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20153v1">Affective Computing and Emotional Data: Challenges and Implications in
+  Privacy Regulations, The AI Act, and Ethics in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-24T14:18:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nicola Fabiano</p>
+    <p><b>Summary:</b> This paper examines the integration of emotional intelligence into artificial
+intelligence systems, with a focus on affective computing and the growing
+capabilities of Large Language Models (LLMs), such as ChatGPT and Claude, to
+recognize and respond to human emotions. Drawing on interdisciplinary research
+that combines computer science, psychology, and neuroscience, the study
+analyzes foundational neural architectures - CNNs for processing facial
+expressions and RNNs for sequential data, such as speech and text - that enable
+emotion recognition. It examines the transformation of human emotional
+experiences into structured emotional data, addressing the distinction between
+explicit emotional data collected with informed consent in research settings
+and implicit data gathered passively through everyday digital interactions.
+That raises critical concerns about lawful processing, AI transparency, and
+individual autonomy over emotional expressions in digital environments. The
+paper explores implications across various domains, including healthcare,
+education, and customer service, while addressing challenges of cultural
+variations in emotional expression and potential biases in emotion recognition
+systems across different demographic groups. From a regulatory perspective, the
+paper examines emotional data in the context of the GDPR and the EU AI Act
+frameworks, highlighting how emotional data may be considered sensitive
+personal data that requires robust safeguards, including purpose limitation,
+data minimization, and meaningful consent mechanisms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20024v1">Generative Adversarial Networks Applied for Privacy Preservation in
+  Biometric-Based Authentication and Identification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-24T11:39:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lubos Mjachky, Ivan Homoliak</p>
+    <p><b>Summary:</b> Biometric-based authentication systems are getting broadly adopted in many
+areas. However, these systems do not allow participating users to influence the
+way their data is used. Furthermore, the data may leak and can be misused
+without the users' knowledge. In this paper, we propose a new authentication
+method that preserves the privacy of individuals and is based on a generative
+adversarial network (GAN). Concretely, we suggest using the GAN for translating
+images of faces to a visually private domain (e.g., flowers or shoes).
+Classifiers, which are used for authentication purposes, are then trained on
+the images from the visually private domain. Based on our experiments, the
+method is robust against attacks and still provides meaningful utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.19925v1">CON-QA: Privacy-Preserving QA using cloud LLMs in Contract Domain</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-24T09:29:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ajeet Kumar Singh, Rajsabi Surya, Anurag Tripathi, Santanu Choudhury, Sudhir Bisane</p>
+    <p><b>Summary:</b> As enterprises increasingly integrate cloud-based large language models
+(LLMs) such as ChatGPT and Gemini into their legal document workflows,
+protecting sensitive contractual information - including Personally
+Identifiable Information (PII) and commercially sensitive clauses - has emerged
+as a critical challenge. In this work, we propose CON-QA, a hybrid
+privacy-preserving framework designed specifically for secure question
+answering over enterprise contracts, effectively combining local and
+cloud-hosted LLMs. The CON-QA framework operates through three stages: (i)
+semantic query decomposition and query-aware document chunk retrieval using a
+locally deployed LLM analysis, (ii) anonymization of detected sensitive
+entities via a structured one-to-many mapping scheme, ensuring semantic
+coherence while preventing cross-session entity inference attacks, and (iii)
+anonymized response generation by a cloud-based LLM, with accurate
+reconstruction of the original answer locally using a session-consistent
+many-to-one reverse mapping. To rigorously evaluate CON-QA, we introduce
+CUAD-QA, a corpus of 85k question-answer pairs generated over 510 real-world
+CUAD contract documents, encompassing simple, complex, and summarization-style
+queries. Empirical evaluations, complemented by detailed human assessments,
+confirm that CON-QA effectively maintains both privacy and utility, preserves
+answer quality, maintains fidelity to legal clause semantics, and significantly
+mitigates privacy risks, demonstrating its practical suitability for secure,
+enterprise-level contract documents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.19906v1">Voice Privacy Preservation with Multiple Random Orthogonal Secret Keys:
+  Attack Resistance Analysis</a></h3>
+  
+  <p><b>Published on:</b> 2025-09-24T09:05:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kohei Tanaka, Hitoshi Kiya, Sayaka Shiota</p>
+    <p><b>Summary:</b> Recently, opportunities to transmit speech data to deep learning models
+executed in the cloud have increased. This has led to growing concerns about
+speech privacy, including both speaker-specific information and the linguistic
+content of utterances. As an approach to preserving speech privacy, a speech
+privacy-preserving method based on encryption using a secret key with a random
+orthogonal matrix has been proposed. This method enables cloud-based model
+inference while concealing both the speech content and the speaker identity.
+However, the method has limited attack resistance and is constrained in terms
+of the deep learning models to which the encryption can be applied. In this
+work, we propose a method that enhances the attack resistance of the
+conventional speech privacy-preserving technique by employing multiple random
+orthogonal matrices as secret keys. We also introduce approaches to relax the
+model constraints, enabling the application of our method to a broader range of
+deep learning models. Furthermore, we investigate the robustness of the
+proposed method against attacks using extended attack scenarios based on the
+scenarios employed in the Voice Privacy Challenge. Our experimental results
+confirmed that the proposed method maintains privacy protection performance for
+speaker concealment, even under more powerful attack scenarios not considered
+in prior work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.19661v1">Consistent Estimation of Numerical Distributions under Local
+  Differential Privacy by Wavelet Expansion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-24T00:37:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Puning Zhao, Zhikun Zhang, Bo Sun, Li Shen, Liang Zhang, Shaowei Wang, Zhe Liu</p>
+    <p><b>Summary:</b> Distribution estimation under local differential privacy (LDP) is a
+fundamental and challenging task. Significant progresses have been made on
+categorical data. However, due to different evaluation metrics, these methods
+do not work well when transferred to numerical data. In particular, we need to
+prevent the probability mass from being misplaced far away. In this paper, we
+propose a new approach that express the sample distribution using wavelet
+expansions. The coefficients of wavelet series are estimated under LDP. Our
+method prioritizes the estimation of low-order coefficients, in order to ensure
+accurate estimation at macroscopic level. Therefore, the probability mass is
+prevented from being misplaced too far away from its ground truth. We establish
+theoretical guarantees for our methods. Experiments show that our wavelet
+expansion method significantly outperforms existing solutions under Wasserstein
+and KS distances.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.19599v1">Knowledge Base-Aware Orchestration: A Dynamic, Privacy-Preserving Method
+  for Multi-Agent Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-23T21:46:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Danilo Trombino, Vincenzo Pecorella, Alessandro de Giulii, Davide Tresoldi</p>
+    <p><b>Summary:</b> Multi-agent systems (MAS) are increasingly tasked with solving complex,
+knowledge-intensive problems where effective agent orchestration is critical.
+Conventional orchestration methods rely on static agent descriptions, which
+often become outdated or incomplete. This limitation leads to inefficient task
+routing, particularly in dynamic environments where agent capabilities
+continuously evolve. We introduce Knowledge Base-Aware (KBA) Orchestration, a
+novel approach that augments static descriptions with dynamic,
+privacy-preserving relevance signals derived from each agent's internal
+knowledge base (KB). In the proposed framework, when static descriptions are
+insufficient for a clear routing decision, the orchestrator prompts the
+subagents in parallel. Each agent then assesses the task's relevance against
+its private KB, returning a lightweight ACK signal without exposing the
+underlying data. These collected signals populate a shared semantic cache,
+providing dynamic indicators of agent suitability for future queries. By
+combining this novel mechanism with static descriptions, our method achieves
+more accurate and adaptive task routing preserving agent autonomy and data
+confidentiality. Benchmarks show that our KBA Orchestration significantly
+outperforms static description-driven methods in routing precision and overall
+system efficiency, making it suitable for large-scale systems that require
+higher accuracy than standard description-driven routing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.19041v1">Position: Human-Robot Interaction in Embodied Intelligence Demands a
   Shift From Static Privacy Controls to Dynamic Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
@@ -2773,256 +3009,6 @@ implement with minimal assumptions and modeling requirements, making them
 attractive for real-world use. Finally, we empirically evaluate proposed AHDP
 mechanisms, highlighting their trade-offs using LLM-generated synthetic
 datasets, which we release for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.02768v1">Sequential Change Detection with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-09-02T19:15:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liyan Xie, Ruizhi Zhang</p>
-    <p><b>Summary:</b> Sequential change detection is a fundamental problem in statistics and signal
-processing, with the CUSUM procedure widely used to achieve minimax detection
-delay under a prescribed false-alarm rate when pre- and post-change
-distributions are fully known. However, releasing CUSUM statistics and the
-corresponding stopping time directly can compromise individual data privacy. We
-therefore introduce a differentially private (DP) variant, called DP-CUSUM,
-that injects calibrated Laplace noise into both the vanilla CUSUM statistics
-and the detection threshold, preserving the recursive simplicity of the
-classical CUSUM statistics while ensuring per-sample differential privacy. We
-derive closed-form bounds on the average run length to false alarm and on the
-worst-case average detection delay, explicitly characterizing the trade-off
-among privacy level, false-alarm rate, and detection efficiency. Our
-theoretical results imply that under a weak privacy constraint, our proposed
-DP-CUSUM procedure achieves the same first-order asymptotic optimality as the
-classical, non-private CUSUM procedure. Numerical simulations are conducted to
-demonstrate the detection efficiency of our proposed DP-CUSUM under different
-privacy constraints, and the results are consistent with our theoretical
-findings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.02411v1">A Survey: Towards Privacy and Security in Mobile Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-02T15:19:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Honghui Xu, Kaiyang Li, Wei Chen, Danyang Zheng, Zhiyuan Li, Zhipeng Cai</p>
-    <p><b>Summary:</b> Mobile Large Language Models (LLMs) are revolutionizing diverse fields such
-as healthcare, finance, and education with their ability to perform advanced
-natural language processing tasks on-the-go. However, the deployment of these
-models in mobile and edge environments introduces significant challenges
-related to privacy and security due to their resource-intensive nature and the
-sensitivity of the data they process. This survey provides a comprehensive
-overview of privacy and security issues associated with mobile LLMs,
-systematically categorizing existing solutions such as differential privacy,
-federated learning, and prompt encryption. Furthermore, we analyze
-vulnerabilities unique to mobile LLMs, including adversarial attacks,
-membership inference, and side-channel attacks, offering an in-depth comparison
-of their effectiveness and limitations. Despite recent advancements, mobile
-LLMs face unique hurdles in achieving robust security while maintaining
-efficiency in resource-constrained environments. To bridge this gap, we propose
-potential applications, discuss open challenges, and suggest future research
-directions, paving the way for the development of trustworthy,
-privacy-compliant, and scalable mobile LLM systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.02048v1">Privacy-Utility Trade-off in Data Publication: A Bilevel Optimization
-  Framework with Curvature-Guided Perturbation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-02T07:44:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yi Yin, Guangquan Zhang, Hua Zuo, Jie Lu</p>
-    <p><b>Summary:</b> Machine learning models require datasets for effective training, but directly
-sharing raw data poses significant privacy risk such as membership inference
-attacks (MIA). To mitigate the risk, privacy-preserving techniques such as data
-perturbation, generalization, and synthetic data generation are commonly
-utilized. However, these methods often degrade data accuracy, specificity, and
-diversity, limiting the performance of downstream tasks and thus reducing data
-utility. Therefore, striking an optimal balance between privacy preservation
-and data utility remains a critical challenge.
-  To address this issue, we introduce a novel bilevel optimization framework
-for the publication of private datasets, where the upper-level task focuses on
-data utility and the lower-level task focuses on data privacy. In the
-upper-level task, a discriminator guides the generation process to ensure that
-perturbed latent variables are mapped to high-quality samples, maintaining
-fidelity for downstream tasks. In the lower-level task, our framework employs
-local extrinsic curvature on the data manifold as a quantitative measure of
-individual vulnerability to MIA, providing a geometric foundation for targeted
-privacy protection. By perturbing samples toward low-curvature regions, our
-method effectively suppresses distinctive feature combinations that are
-vulnerable to MIA. Through alternating optimization of both objectives, we
-achieve a synergistic balance between privacy and utility. Extensive
-experimental evaluations demonstrate that our method not only enhances
-resistance to MIA in downstream tasks but also surpasses existing methods in
-terms of sample quality and diversity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.02004v1">Augmented Shuffle Differential Privacy Protocols for Large-Domain
-  Categorical and Key-Value Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-02T06:40:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Takao Murakami, Yuichi Sei, Reo Eriguchi</p>
-    <p><b>Summary:</b> Shuffle DP (Differential Privacy) protocols provide high accuracy and privacy
-by introducing a shuffler who randomly shuffles data in a distributed system.
-However, most shuffle DP protocols are vulnerable to two attacks: collusion
-attacks by the data collector and users and data poisoning attacks. A recent
-study addresses this issue by introducing an augmented shuffle DP protocol,
-where users do not add noise and the shuffler performs random sampling and
-dummy data addition. However, it focuses on frequency estimation over
-categorical data with a small domain and cannot be applied to a large domain
-due to prohibitively high communication and computational costs.
-  In this paper, we fill this gap by introducing a novel augmented shuffle DP
-protocol called the FME (Filtering-with-Multiple-Encryption) protocol. Our FME
-protocol uses a hash function to filter out unpopular items and then accurately
-calculates frequencies for popular items. To perform this within one round of
-interaction between users and the shuffler, our protocol carefully communicates
-within a system using multiple encryption. We also apply our FME protocol to
-more advanced KV (Key-Value) statistics estimation with an additional technique
-to reduce bias. For both categorical and KV data, we prove that our protocol
-provides computational DP, high robustness to the above two attacks, accuracy,
-and efficiency. We show the effectiveness of our proposals through comparisons
-with twelve existing protocols.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.01716v1">An LLM-enabled semantic-centric framework to consume privacy policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-09-01T18:53:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rui Zhao, Vladyslav Melnychuk, Jun Zhao, Jesse Wright, Nigel Shadbolt</p>
-    <p><b>Summary:</b> In modern times, people have numerous online accounts, but they rarely read
-the Terms of Service or Privacy Policy of those sites, despite claiming
-otherwise, due to the practical difficulty in comprehending them. The mist of
-data privacy practices forms a major barrier for user-centred Web approaches,
-and for data sharing and reusing in an agentic world. Existing research
-proposed methods for using formal languages and reasoning for verifying the
-compliance of a specified policy, as a potential cure for ignoring privacy
-policies. However, a critical gap remains in the creation or acquisition of
-such formal policies at scale. We present a semantic-centric approach for using
-state-of-the-art large language models (LLM), to automatically identify key
-information about privacy practices from privacy policies, and construct
-$\mathit{Pr}^2\mathit{Graph}$, knowledge graph with grounding from Data Privacy
-Vocabulary (DPV) for privacy practices, to support downstream tasks. Along with
-the pipeline, the $\mathit{Pr}^2\mathit{Graph}$ for the top-100 popular
-websites is also released as a public resource, by using the pipeline for
-analysis. We also demonstrate how the $\mathit{Pr}^2\mathit{Graph}$ can be used
-to support downstream tasks by constructing formal policy representations such
-as Open Digital Right Language (ODRL) or perennial semantic Data Terms of Use
-(psDToU). To evaluate the technology capability, we enriched the Policy-IE
-dataset by employing legal experts to create custom annotations. We benchmarked
-the performance of different large language models for our pipeline and
-verified their capabilities. Overall, they shed light on the possibility of
-large-scale analysis of online services' privacy practices, as a promising
-direction to audit the Web and the Internet. We release all datasets and source
-code as public resources to facilitate reuse and improvement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.01527v2">A Privacy-Preserving Recommender for Filling Web Forms Using a Local
-  Large Language Model</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-09-01T15:02:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amirreza Nayyeri, Abbas Rasoolzadegan</p>
-    <p><b>Summary:</b> Web applications are increasingly used in critical domains such as education,
-finance, and e-commerce. This highlights the need to ensure their failure-free
-performance. One effective method for evaluating failure-free performance is
-web form testing, where defining effective test scenarios is key to a complete
-and accurate evaluation. A core aspect of this process involves filling form
-fields with suitable values to create effective test cases. However, manually
-generating these values is time-consuming and prone to errors. To address this,
-various tools have been developed to assist testers. With the appearance of
-large language models (LLMs), a new generation of tools seeks to handle this
-task more intelligently. Although many LLM-based tools have been introduced, as
-these models typically rely on cloud infrastructure, their use in testing
-confidential web forms raises concerns about unintended data leakage and
-breaches of confidentiality. This paper introduces a privacy-preserving
-recommender that operates locally using a large language model. The tool
-assists testers in web form testing by suggesting effective field values. This
-tool analyzes the HTML structure of forms, detects input types, and extracts
-constraints based on each field's type and contextual content, guiding proper
-field filling.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.01470v1">Privacy-preserving authentication for military 5G networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-01T13:38:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> I. D. Lutz, A. M. Hill, M. C. Valenti</p>
-    <p><b>Summary:</b> As 5G networks gain traction in defense applications, ensuring the privacy
-and integrity of the Authentication and Key Agreement (AKA) protocol is
-critical. While 5G AKA improves upon previous generations by concealing
-subscriber identities, it remains vulnerable to replay-based synchronization
-and linkability threats under realistic adversary models. This paper provides a
-unified analysis of the standardized 5G AKA flow, identifying several
-vulnerabilities and highlighting how each exploits protocol behavior to
-compromise user privacy. To address these risks, we present five lightweight
-mitigation strategies. We demonstrate through prototype implementation and
-testing that these enhancements strengthen resilience against linkability
-attacks with minimal computational and signaling overhead. Among the solutions
-studied, those introducing a UE-generated nonce emerge as the most promising,
-effectively neutralizing the identified tracking and correlation attacks with
-negligible additional overhead. Integrating this extension as an optional
-feature to the standard 5G AKA protocol offers a backward-compatible,
-low-overhead path toward a more privacy-preserving authentication framework for
-both commercial and military 5G deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.01354v1">DPF-CM: A Data Processing Framework with Privacy-Preserving Vector
-  Databases for Chinese Medical LLMs Training and Deployment</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-01T10:49:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Huang, Anda Cheng, Zhao Zhang, Yinggui Wang</p>
-    <p><b>Summary:</b> Current open-source training pipelines for Chinese medical language models
-predominantly emphasize optimizing training methodologies to enhance the
-performance of large language models (LLMs), yet lack comprehensive exploration
-into training data processing. To address this gap, we propose DPF-CM, a
-holistic Data Processing Framework for Chinese Medical LLMs training and
-deployment. DPF-CM comprises two core modules. The first module is a data
-processing pipeline tailored for model training. Beyond standard data
-processing operations, we (1) introduce a chained examples context-learning
-strategy to generate question-oriented instructions to mitigate the lack of
-instruction content, and (2) implement an ensemble-based filtering mechanism
-for preference data curation that averages multiple reward models to suppress
-noisy samples. The second module focuses on privacy preservation during model
-deployment. To prevent privacy risks from the inadvertent exposure of training
-data, we propose a Privacy Preserving Vector Database (PPVD) approach, which
-involves model memory search, high-risk database construction, secure database
-construction, and match-and-replace, four key stages to minimize privacy
-leakage during inference collectively. Experimental results show that DPF-CM
-significantly improves model accuracy, enabling our trained Chinese medical LLM
-to achieve state-of-the-art performance among open-source counterparts.
-Moreover, the framework reduces training data privacy leakage by 27%.</p>
   </details>
 </div>
 
