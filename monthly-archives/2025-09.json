@@ -2942,5 +2942,196 @@
       "cs.LG",
       "math.OC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20324v1",
+    "title" : "RAG Security and Privacy: Formalizing the Threat Model and Attack\n  Surface",
+    "summary" : "Retrieval-Augmented Generation (RAG) is an emerging approach in natural\nlanguage processing that combines large language models (LLMs) with external\ndocument retrieval to produce more accurate and grounded responses. While RAG\nhas shown strong potential in reducing hallucinations and improving factual\nconsistency, it also introduces new privacy and security challenges that differ\nfrom those faced by traditional LLMs. Existing research has demonstrated that\nLLMs can leak sensitive information through training data memorization or\nadversarial prompts, and RAG systems inherit many of these vulnerabilities. At\nthe same time, reliance of RAG on an external knowledge base opens new attack\nsurfaces, including the potential for leaking information about the presence or\ncontent of retrieved documents, or for injecting malicious content to\nmanipulate model behavior. Despite these risks, there is currently no formal\nframework that defines the threat landscape for RAG systems. In this paper, we\naddress a critical gap in the literature by proposing, to the best of our\nknowledge, the first formal threat model for retrieval-RAG systems. We\nintroduce a structured taxonomy of adversary types based on their access to\nmodel components and data, and we formally define key threat vectors such as\ndocument-level membership inference and data poisoning, which pose serious\nprivacy and integrity risks in real-world deployments. By establishing formal\ndefinitions and attack models, our work lays the foundation for a more rigorous\nand principled understanding of privacy and security in RAG systems.",
+    "updated" : "2025-09-24T17:11:35Z",
+    "published" : "2025-09-24T17:11:35Z",
+    "authors" : [
+      {
+        "name" : "Atousa Arzanipour"
+      },
+      {
+        "name" : "Rouzbeh Behnia"
+      },
+      {
+        "name" : "Reza Ebrahimi"
+      },
+      {
+        "name" : "Kaushik Dutta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20283v1",
+    "title" : "Monitoring Violations of Differential Privacy over Time",
+    "summary" : "Auditing differential privacy has emerged as an important area of research\nthat supports the design of privacy-preserving mechanisms. Privacy audits help\nto obtain empirical estimates of the privacy parameter, to expose flawed\nimplementations of algorithms and to compare practical with theoretical privacy\nguarantees. In this work, we investigate an unexplored facet of privacy\nauditing: the sustained auditing of a mechanism that can go through changes\nduring its development or deployment. Monitoring the privacy of algorithms over\ntime comes with specific challenges. Running state-of-the-art (static) auditors\nrepeatedly requires excessive sampling efforts, while the reliability of such\nmethods deteriorates over time without proper adjustments. To overcome these\nobstacles, we present a new monitoring procedure that extracts information from\nthe entire deployment history of the algorithm. This allows us to reduce\nsampling efforts, while sustaining reliable outcomes of our auditor. We derive\nformal guarantees with regard to the soundness of our methods and evaluate\ntheir performance for important mechanisms from the literature. Our theoretical\nfindings and experiments demonstrate the efficacy of our approach.",
+    "updated" : "2025-09-24T16:15:51Z",
+    "published" : "2025-09-24T16:15:51Z",
+    "authors" : [
+      {
+        "name" : "Önder Askin"
+      },
+      {
+        "name" : "Tim Kutta"
+      },
+      {
+        "name" : "Holger Dette"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "math.ST",
+      "stat.ME",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20153v1",
+    "title" : "Affective Computing and Emotional Data: Challenges and Implications in\n  Privacy Regulations, The AI Act, and Ethics in Large Language Models",
+    "summary" : "This paper examines the integration of emotional intelligence into artificial\nintelligence systems, with a focus on affective computing and the growing\ncapabilities of Large Language Models (LLMs), such as ChatGPT and Claude, to\nrecognize and respond to human emotions. Drawing on interdisciplinary research\nthat combines computer science, psychology, and neuroscience, the study\nanalyzes foundational neural architectures - CNNs for processing facial\nexpressions and RNNs for sequential data, such as speech and text - that enable\nemotion recognition. It examines the transformation of human emotional\nexperiences into structured emotional data, addressing the distinction between\nexplicit emotional data collected with informed consent in research settings\nand implicit data gathered passively through everyday digital interactions.\nThat raises critical concerns about lawful processing, AI transparency, and\nindividual autonomy over emotional expressions in digital environments. The\npaper explores implications across various domains, including healthcare,\neducation, and customer service, while addressing challenges of cultural\nvariations in emotional expression and potential biases in emotion recognition\nsystems across different demographic groups. From a regulatory perspective, the\npaper examines emotional data in the context of the GDPR and the EU AI Act\nframeworks, highlighting how emotional data may be considered sensitive\npersonal data that requires robust safeguards, including purpose limitation,\ndata minimization, and meaningful consent mechanisms.",
+    "updated" : "2025-09-24T14:18:41Z",
+    "published" : "2025-09-24T14:18:41Z",
+    "authors" : [
+      {
+        "name" : "Nicola Fabiano"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20024v1",
+    "title" : "Generative Adversarial Networks Applied for Privacy Preservation in\n  Biometric-Based Authentication and Identification",
+    "summary" : "Biometric-based authentication systems are getting broadly adopted in many\nareas. However, these systems do not allow participating users to influence the\nway their data is used. Furthermore, the data may leak and can be misused\nwithout the users' knowledge. In this paper, we propose a new authentication\nmethod that preserves the privacy of individuals and is based on a generative\nadversarial network (GAN). Concretely, we suggest using the GAN for translating\nimages of faces to a visually private domain (e.g., flowers or shoes).\nClassifiers, which are used for authentication purposes, are then trained on\nthe images from the visually private domain. Based on our experiments, the\nmethod is robust against attacks and still provides meaningful utility.",
+    "updated" : "2025-09-24T11:39:40Z",
+    "published" : "2025-09-24T11:39:40Z",
+    "authors" : [
+      {
+        "name" : "Lubos Mjachky"
+      },
+      {
+        "name" : "Ivan Homoliak"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.19925v1",
+    "title" : "CON-QA: Privacy-Preserving QA using cloud LLMs in Contract Domain",
+    "summary" : "As enterprises increasingly integrate cloud-based large language models\n(LLMs) such as ChatGPT and Gemini into their legal document workflows,\nprotecting sensitive contractual information - including Personally\nIdentifiable Information (PII) and commercially sensitive clauses - has emerged\nas a critical challenge. In this work, we propose CON-QA, a hybrid\nprivacy-preserving framework designed specifically for secure question\nanswering over enterprise contracts, effectively combining local and\ncloud-hosted LLMs. The CON-QA framework operates through three stages: (i)\nsemantic query decomposition and query-aware document chunk retrieval using a\nlocally deployed LLM analysis, (ii) anonymization of detected sensitive\nentities via a structured one-to-many mapping scheme, ensuring semantic\ncoherence while preventing cross-session entity inference attacks, and (iii)\nanonymized response generation by a cloud-based LLM, with accurate\nreconstruction of the original answer locally using a session-consistent\nmany-to-one reverse mapping. To rigorously evaluate CON-QA, we introduce\nCUAD-QA, a corpus of 85k question-answer pairs generated over 510 real-world\nCUAD contract documents, encompassing simple, complex, and summarization-style\nqueries. Empirical evaluations, complemented by detailed human assessments,\nconfirm that CON-QA effectively maintains both privacy and utility, preserves\nanswer quality, maintains fidelity to legal clause semantics, and significantly\nmitigates privacy risks, demonstrating its practical suitability for secure,\nenterprise-level contract documents.",
+    "updated" : "2025-09-24T09:29:17Z",
+    "published" : "2025-09-24T09:29:17Z",
+    "authors" : [
+      {
+        "name" : "Ajeet Kumar Singh"
+      },
+      {
+        "name" : "Rajsabi Surya"
+      },
+      {
+        "name" : "Anurag Tripathi"
+      },
+      {
+        "name" : "Santanu Choudhury"
+      },
+      {
+        "name" : "Sudhir Bisane"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.19906v1",
+    "title" : "Voice Privacy Preservation with Multiple Random Orthogonal Secret Keys:\n  Attack Resistance Analysis",
+    "summary" : "Recently, opportunities to transmit speech data to deep learning models\nexecuted in the cloud have increased. This has led to growing concerns about\nspeech privacy, including both speaker-specific information and the linguistic\ncontent of utterances. As an approach to preserving speech privacy, a speech\nprivacy-preserving method based on encryption using a secret key with a random\northogonal matrix has been proposed. This method enables cloud-based model\ninference while concealing both the speech content and the speaker identity.\nHowever, the method has limited attack resistance and is constrained in terms\nof the deep learning models to which the encryption can be applied. In this\nwork, we propose a method that enhances the attack resistance of the\nconventional speech privacy-preserving technique by employing multiple random\northogonal matrices as secret keys. We also introduce approaches to relax the\nmodel constraints, enabling the application of our method to a broader range of\ndeep learning models. Furthermore, we investigate the robustness of the\nproposed method against attacks using extended attack scenarios based on the\nscenarios employed in the Voice Privacy Challenge. Our experimental results\nconfirmed that the proposed method maintains privacy protection performance for\nspeaker concealment, even under more powerful attack scenarios not considered\nin prior work.",
+    "updated" : "2025-09-24T09:05:13Z",
+    "published" : "2025-09-24T09:05:13Z",
+    "authors" : [
+      {
+        "name" : "Kohei Tanaka"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      },
+      {
+        "name" : "Sayaka Shiota"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.19661v1",
+    "title" : "Consistent Estimation of Numerical Distributions under Local\n  Differential Privacy by Wavelet Expansion",
+    "summary" : "Distribution estimation under local differential privacy (LDP) is a\nfundamental and challenging task. Significant progresses have been made on\ncategorical data. However, due to different evaluation metrics, these methods\ndo not work well when transferred to numerical data. In particular, we need to\nprevent the probability mass from being misplaced far away. In this paper, we\npropose a new approach that express the sample distribution using wavelet\nexpansions. The coefficients of wavelet series are estimated under LDP. Our\nmethod prioritizes the estimation of low-order coefficients, in order to ensure\naccurate estimation at macroscopic level. Therefore, the probability mass is\nprevented from being misplaced too far away from its ground truth. We establish\ntheoretical guarantees for our methods. Experiments show that our wavelet\nexpansion method significantly outperforms existing solutions under Wasserstein\nand KS distances.",
+    "updated" : "2025-09-24T00:37:22Z",
+    "published" : "2025-09-24T00:37:22Z",
+    "authors" : [
+      {
+        "name" : "Puning Zhao"
+      },
+      {
+        "name" : "Zhikun Zhang"
+      },
+      {
+        "name" : "Bo Sun"
+      },
+      {
+        "name" : "Li Shen"
+      },
+      {
+        "name" : "Liang Zhang"
+      },
+      {
+        "name" : "Shaowei Wang"
+      },
+      {
+        "name" : "Zhe Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.19599v1",
+    "title" : "Knowledge Base-Aware Orchestration: A Dynamic, Privacy-Preserving Method\n  for Multi-Agent Systems",
+    "summary" : "Multi-agent systems (MAS) are increasingly tasked with solving complex,\nknowledge-intensive problems where effective agent orchestration is critical.\nConventional orchestration methods rely on static agent descriptions, which\noften become outdated or incomplete. This limitation leads to inefficient task\nrouting, particularly in dynamic environments where agent capabilities\ncontinuously evolve. We introduce Knowledge Base-Aware (KBA) Orchestration, a\nnovel approach that augments static descriptions with dynamic,\nprivacy-preserving relevance signals derived from each agent's internal\nknowledge base (KB). In the proposed framework, when static descriptions are\ninsufficient for a clear routing decision, the orchestrator prompts the\nsubagents in parallel. Each agent then assesses the task's relevance against\nits private KB, returning a lightweight ACK signal without exposing the\nunderlying data. These collected signals populate a shared semantic cache,\nproviding dynamic indicators of agent suitability for future queries. By\ncombining this novel mechanism with static descriptions, our method achieves\nmore accurate and adaptive task routing preserving agent autonomy and data\nconfidentiality. Benchmarks show that our KBA Orchestration significantly\noutperforms static description-driven methods in routing precision and overall\nsystem efficiency, making it suitable for large-scale systems that require\nhigher accuracy than standard description-driven routing.",
+    "updated" : "2025-09-23T21:46:38Z",
+    "published" : "2025-09-23T21:46:38Z",
+    "authors" : [
+      {
+        "name" : "Danilo Trombino"
+      },
+      {
+        "name" : "Vincenzo Pecorella"
+      },
+      {
+        "name" : "Alessandro de Giulii"
+      },
+      {
+        "name" : "Davide Tresoldi"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.AI"
+    ]
   }
 ]
