@@ -3133,5 +3133,145 @@
       "cs.MA",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20867v1",
+    "title" : "Federated Markov Imputation: Privacy-Preserving Temporal Imputation in\n  Multi-Centric ICU Environments",
+    "summary" : "Missing data is a persistent challenge in federated learning on electronic\nhealth records, particularly when institutions collect time-series data at\nvarying temporal granularities. To address this, we propose Federated Markov\nImputation (FMI), a privacy-preserving method that enables Intensive Care Units\n(ICUs) to collaboratively build global transition models for temporal\nimputation. We evaluate FMI on a real-world sepsis onset prediction task using\nthe MIMIC-IV dataset and show that it outperforms local imputation baselines,\nespecially in scenarios with irregular sampling intervals across ICUs.",
+    "updated" : "2025-09-25T08:00:05Z",
+    "published" : "2025-09-25T08:00:05Z",
+    "authors" : [
+      {
+        "name" : "Christoph Düsing"
+      },
+      {
+        "name" : "Philipp Cimiano"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20838v1",
+    "title" : "Zero-Shot Privacy-Aware Text Rewriting via Iterative Tree Search",
+    "summary" : "The increasing adoption of large language models (LLMs) in cloud-based\nservices has raised significant privacy concerns, as user inputs may\ninadvertently expose sensitive information. Existing text anonymization and\nde-identification techniques, such as rule-based redaction and scrubbing, often\nstruggle to balance privacy preservation with text naturalness and utility. In\nthis work, we propose a zero-shot, tree-search-based iterative sentence\nrewriting algorithm that systematically obfuscates or deletes private\ninformation while preserving coherence, relevance, and naturalness. Our method\nincrementally rewrites privacy-sensitive segments through a structured search\nguided by a reward model, enabling dynamic exploration of the rewriting space.\nExperiments on privacy-sensitive datasets show that our approach significantly\noutperforms existing baselines, achieving a superior balance between privacy\nprotection and utility preservation.",
+    "updated" : "2025-09-25T07:23:52Z",
+    "published" : "2025-09-25T07:23:52Z",
+    "authors" : [
+      {
+        "name" : "Shuo Huang"
+      },
+      {
+        "name" : "Xingliang Yuan"
+      },
+      {
+        "name" : "Gholamreza Haffari"
+      },
+      {
+        "name" : "Lizhen Qu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20460v1",
+    "title" : "Differential Privacy of Network Parameters from a System Identification\n  Perspective",
+    "summary" : "This paper addresses the problem of protecting network information from\nprivacy system identification (SI) attacks when sharing cyber-physical system\nsimulations. We model analyst observations of networked states as time-series\noutputs of a graph filter driven by differentially private (DP) nodal\nexcitations, with the analyst aiming to infer the underlying graph shift\noperator (GSO). Unlike traditional SI, which estimates system parameters, we\nstudy the inverse problem: what assumptions prevent adversaries from\nidentifying the GSO while preserving utility for legitimate analysis. We show\nthat applying DP mechanisms to inputs provides formal privacy guarantees for\nthe GSO, linking the $(\\epsilon,\\delta)$-DP bound to the spectral properties of\nthe graph filter and noise covariance. More precisely, for DP Gaussian signals,\nthe spectral characteristics of both the filter and noise covariance determine\nthe privacy bound, with smooth filters and low-condition-number covariance\nyielding greater privacy.",
+    "updated" : "2025-09-24T18:06:11Z",
+    "published" : "2025-09-24T18:06:11Z",
+    "authors" : [
+      {
+        "name" : "Andrew Campbell"
+      },
+      {
+        "name" : "Anna Scaglione"
+      },
+      {
+        "name" : "Hang Liu"
+      },
+      {
+        "name" : "Victor Elvira"
+      },
+      {
+        "name" : "Sean Peisert"
+      },
+      {
+        "name" : "Daniel Arnold"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20454v1",
+    "title" : "Bridging Privacy and Utility: Synthesizing anonymized EEG with\n  constraining utility functions",
+    "summary" : "Electroencephalography (EEG) is widely used for recording brain activity and\nhas seen numerous applications in machine learning, such as detecting sleep\nstages and neurological disorders. Several studies have successfully shown the\npotential of EEG data for re-identification and leakage of other personal\ninformation. Therefore, the increasing availability of EEG consumer devices\nraises concerns about user privacy, motivating us to investigate how to\nsafeguard this sensitive data while retaining its utility for EEG applications.\nTo address this challenge, we propose a transformer-based autoencoder to create\nEEG data that does not allow for subject re-identification while still\nretaining its utility for specific machine learning tasks. We apply our\napproach to automatic sleep staging by evaluating the re-identification and\nutility potential of EEG data before and after anonymization. The results show\nthat the re-identifiability of the EEG signal can be substantially reduced\nwhile preserving its utility for machine learning.",
+    "updated" : "2025-09-24T18:02:41Z",
+    "published" : "2025-09-24T18:02:41Z",
+    "authors" : [
+      {
+        "name" : "Kay Fuhrmeister"
+      },
+      {
+        "name" : "Arne Pelzer"
+      },
+      {
+        "name" : "Fabian Radke"
+      },
+      {
+        "name" : "Julia Lechinger"
+      },
+      {
+        "name" : "Mahzad Gharleghi"
+      },
+      {
+        "name" : "Thomas Köllmer"
+      },
+      {
+        "name" : "Insa Wolf"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20153v2",
+    "title" : "Affective Computing and Emotional Data: Challenges and Implications in\n  Privacy Regulations, The AI Act, and Ethics in Large Language Models",
+    "summary" : "This paper examines the integration of emotional intelligence into artificial\nintelligence systems, with a focus on affective computing and the growing\ncapabilities of Large Language Models (LLMs), such as ChatGPT and Claude, to\nrecognize and respond to human emotions. Drawing on interdisciplinary research\nthat combines computer science, psychology, and neuroscience, the study\nanalyzes foundational neural architectures - CNNs for processing facial\nexpressions and RNNs for sequential data, such as speech and text - that enable\nemotion recognition. It examines the transformation of human emotional\nexperiences into structured emotional data, addressing the distinction between\nexplicit emotional data collected with informed consent in research settings\nand implicit data gathered passively through everyday digital interactions.\nThat raises critical concerns about lawful processing, AI transparency, and\nindividual autonomy over emotional expressions in digital environments. The\npaper explores implications across various domains, including healthcare,\neducation, and customer service, while addressing challenges of cultural\nvariations in emotional expression and potential biases in emotion recognition\nsystems across different demographic groups. From a regulatory perspective, the\npaper examines emotional data in the context of the GDPR and the EU AI Act\nframeworks, highlighting how emotional data may be considered sensitive\npersonal data that requires robust safeguards, including purpose limitation,\ndata minimization, and meaningful consent mechanisms.",
+    "updated" : "2025-09-25T10:43:22Z",
+    "published" : "2025-09-24T14:18:41Z",
+    "authors" : [
+      {
+        "name" : "Nicola Fabiano"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20388v1",
+    "title" : "Can You Trust Your Copilot? A Privacy Scorecard for AI Coding Assistants",
+    "summary" : "The rapid integration of AI-powered coding assistants into developer\nworkflows has raised significant privacy and trust concerns. As developers\nentrust proprietary code to services like OpenAI's GPT, Google's Gemini, and\nGitHub Copilot, the unclear data handling practices of these tools create\nsecurity and compliance risks. This paper addresses this challenge by\nintroducing and applying a novel, expert-validated privacy scorecard. The\nmethodology involves a detailed analysis of four document types; from legal\npolicies to external audits; to score five leading assistants against 14\nweighted criteria. A legal expert and a data protection officer refined these\ncriteria and their weighting. The results reveal a distinct hierarchy of\nprivacy protections, with a 20-point gap between the highest- and lowest-ranked\ntools. The analysis uncovers common industry weaknesses, including the\npervasive use of opt-out consent for model training and a near-universal\nfailure to filter secrets from user prompts proactively. The resulting\nscorecard provides actionable guidance for developers and organizations,\nenabling evidence-based tool selection. This work establishes a new benchmark\nfor transparency and advocates for a shift towards more user-centric privacy\nstandards in the AI industry.",
+    "updated" : "2025-09-22T21:45:45Z",
+    "published" : "2025-09-22T21:45:45Z",
+    "authors" : [
+      {
+        "name" : "Amir AL-Maamari"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
