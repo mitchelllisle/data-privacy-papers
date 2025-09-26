@@ -2,6 +2,102 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20867v1">Federated Markov Imputation: Privacy-Preserving Temporal Imputation in
+  Multi-Centric ICU Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-25T08:00:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christoph Düsing, Philipp Cimiano</p>
+    <p><b>Summary:</b> Missing data is a persistent challenge in federated learning on electronic
+health records, particularly when institutions collect time-series data at
+varying temporal granularities. To address this, we propose Federated Markov
+Imputation (FMI), a privacy-preserving method that enables Intensive Care Units
+(ICUs) to collaboratively build global transition models for temporal
+imputation. We evaluate FMI on a real-world sepsis onset prediction task using
+the MIMIC-IV dataset and show that it outperforms local imputation baselines,
+especially in scenarios with irregular sampling intervals across ICUs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20838v1">Zero-Shot Privacy-Aware Text Rewriting via Iterative Tree Search</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-09-25T07:23:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuo Huang, Xingliang Yuan, Gholamreza Haffari, Lizhen Qu</p>
+    <p><b>Summary:</b> The increasing adoption of large language models (LLMs) in cloud-based
+services has raised significant privacy concerns, as user inputs may
+inadvertently expose sensitive information. Existing text anonymization and
+de-identification techniques, such as rule-based redaction and scrubbing, often
+struggle to balance privacy preservation with text naturalness and utility. In
+this work, we propose a zero-shot, tree-search-based iterative sentence
+rewriting algorithm that systematically obfuscates or deletes private
+information while preserving coherence, relevance, and naturalness. Our method
+incrementally rewrites privacy-sensitive segments through a structured search
+guided by a reward model, enabling dynamic exploration of the rewriting space.
+Experiments on privacy-sensitive datasets show that our approach significantly
+outperforms existing baselines, achieving a superior balance between privacy
+protection and utility preservation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20460v1">Differential Privacy of Network Parameters from a System Identification
+  Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-09-24T18:06:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andrew Campbell, Anna Scaglione, Hang Liu, Victor Elvira, Sean Peisert, Daniel Arnold</p>
+    <p><b>Summary:</b> This paper addresses the problem of protecting network information from
+privacy system identification (SI) attacks when sharing cyber-physical system
+simulations. We model analyst observations of networked states as time-series
+outputs of a graph filter driven by differentially private (DP) nodal
+excitations, with the analyst aiming to infer the underlying graph shift
+operator (GSO). Unlike traditional SI, which estimates system parameters, we
+study the inverse problem: what assumptions prevent adversaries from
+identifying the GSO while preserving utility for legitimate analysis. We show
+that applying DP mechanisms to inputs provides formal privacy guarantees for
+the GSO, linking the $(\epsilon,\delta)$-DP bound to the spectral properties of
+the graph filter and noise covariance. More precisely, for DP Gaussian signals,
+the spectral characteristics of both the filter and noise covariance determine
+the privacy bound, with smooth filters and low-condition-number covariance
+yielding greater privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20454v1">Bridging Privacy and Utility: Synthesizing anonymized EEG with
+  constraining utility functions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-24T18:02:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kay Fuhrmeister, Arne Pelzer, Fabian Radke, Julia Lechinger, Mahzad Gharleghi, Thomas Köllmer, Insa Wolf</p>
+    <p><b>Summary:</b> Electroencephalography (EEG) is widely used for recording brain activity and
+has seen numerous applications in machine learning, such as detecting sleep
+stages and neurological disorders. Several studies have successfully shown the
+potential of EEG data for re-identification and leakage of other personal
+information. Therefore, the increasing availability of EEG consumer devices
+raises concerns about user privacy, motivating us to investigate how to
+safeguard this sensitive data while retaining its utility for EEG applications.
+To address this challenge, we propose a transformer-based autoencoder to create
+EEG data that does not allow for subject re-identification while still
+retaining its utility for specific machine learning tasks. We apply our
+approach to automatic sleep staging by evaluating the re-identification and
+utility potential of EEG data before and after anonymization. The results show
+that the re-identifiability of the EEG signal can be substantially reduced
+while preserving its utility for machine learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.20324v1">RAG Security and Privacy: Formalizing the Threat Model and Attack
   Surface</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -62,7 +158,7 @@ findings and experiments demonstrate the efficacy of our approach.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20153v1">Affective Computing and Emotional Data: Challenges and Implications in
+  <h3><a href="http://arxiv.org/abs/2509.20153v2">Affective Computing and Emotional Data: Challenges and Implications in
   Privacy Regulations, The AI Act, and Ethics in Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-09-24T14:18:41Z</p>
@@ -361,6 +457,35 @@ ensures high-fidelity image recovery. Extensive experiments show that FlowCrypt
 achieves recovery quality with 100dB on three datasets, produces uniformly
 distributed cipher images, and maintains a compact architecture with only 1M
 parameters, making it suitable for mobile and edge-device applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.20388v1">Can You Trust Your Copilot? A Privacy Scorecard for AI Coding Assistants</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-22T21:45:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amir AL-Maamari</p>
+    <p><b>Summary:</b> The rapid integration of AI-powered coding assistants into developer
+workflows has raised significant privacy and trust concerns. As developers
+entrust proprietary code to services like OpenAI's GPT, Google's Gemini, and
+GitHub Copilot, the unclear data handling practices of these tools create
+security and compliance risks. This paper addresses this challenge by
+introducing and applying a novel, expert-validated privacy scorecard. The
+methodology involves a detailed analysis of four document types; from legal
+policies to external audits; to score five leading assistants against 14
+weighted criteria. A legal expert and a data protection officer refined these
+criteria and their weighting. The results reveal a distinct hierarchy of
+privacy protections, with a 20-point gap between the highest- and lowest-ranked
+tools. The analysis uncovers common industry weaknesses, including the
+pervasive use of opt-out consent for model training and a near-universal
+failure to filter secrets from user prompts proactively. The resulting
+scorecard provides actionable guidance for developers and organizations,
+enabling evidence-based tool selection. This work establishes a new benchmark
+for transparency and advocates for a shift towards more user-centric privacy
+standards in the AI industry.</p>
   </details>
 </div>
 
@@ -2866,149 +2991,6 @@ and richer interactions, which improve scam detection, but at the cost of
 higher privacy risk. To our knowledge, this is the first framework to unify
 real-time scam-baiting, federated privacy preservation, and calibrated safety
 moderation into a proactive defense paradigm.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.03350v1">Exposing Privacy Risks in Anonymizing Clinical Data: Combinatorial
-  Refinement Attacks on k-Anonymity Without Auxiliary Information</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-03T14:36:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Somiya Chhillar, Mary K. Righi, Rebecca E. Sutter, Evgenios M. Kornaropoulos</p>
-    <p><b>Summary:</b> Despite longstanding criticism from the privacy community, k-anonymity
-remains a widely used standard for data anonymization, mainly due to its
-simplicity, regulatory alignment, and preservation of data utility. However,
-non-experts often defend k-anonymity on the grounds that, in the absence of
-auxiliary information, no known attacks can compromise its protections. In this
-work, we refute this claim by introducing Combinatorial Refinement Attacks
-(CRA), a new class of privacy attacks targeting k-anonymized datasets produced
-using local recoding. This is the first method that does not rely on external
-auxiliary information or assumptions about the underlying data distribution.
-CRA leverages the utility-optimizing behavior of local recoding anonymization
-of ARX, which is a widely used open-source software for anonymizing data in
-clinical settings, to formulate a linear program that significantly reduces the
-space of plausible sensitive values. To validate our findings, we partnered
-with a network of free community health clinics, an environment where (1)
-auxiliary information is indeed hard to find due to the population they serve
-and (2) open-source k-anonymity solutions are attractive due to regulatory
-obligations and limited resources. Our results on real-world clinical microdata
-reveal that even in the absence of external information, established
-anonymization frameworks do not deliver the promised level of privacy, raising
-critical privacy concerns.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.03294v2">A Comprehensive Guide to Differential Privacy: From Theory to User
-  Expectations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-09-03T13:23:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Napsu Karmitsa, Antti Airola, Tapio Pahikkala, Tinja Pitkämäki</p>
-    <p><b>Summary:</b> The increasing availability of personal data has enabled significant advances
-in fields such as machine learning, healthcare, and cybersecurity. However,
-this data abundance also raises serious privacy concerns, especially in light
-of powerful re-identification attacks and growing legal and ethical demands for
-responsible data use. Differential privacy (DP) has emerged as a principled,
-mathematically grounded framework for mitigating these risks. This review
-provides a comprehensive survey of DP, covering its theoretical foundations,
-practical mechanisms, and real-world applications. It explores key algorithmic
-tools and domain-specific challenges - particularly in privacy-preserving
-machine learning and synthetic data generation. The report also highlights
-usability issues and the need for improved communication and transparency in DP
-systems. Overall, the goal is to support informed adoption of DP by researchers
-and practitioners navigating the evolving landscape of data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.10516v1">Privacy-Preserving Personalization in Education: A Federated Recommender
-  System for Student Performance Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-09-03T11:28:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rodrigo Tertulino</p>
-    <p><b>Summary:</b> The increasing digitalization of education presents unprecedented
-opportunities for data-driven personalization, yet it introduces significant
-student data privacy challenges. Conventional recommender systems rely on
-centralized data, a paradigm often incompatible with modern data protection
-regulations. A novel privacy-preserving recommender system is proposed and
-evaluated to address this critical issue using Federated Learning (FL). The
-approach utilizes a Deep Neural Network (DNN) with rich, engineered features
-from the large-scale ASSISTments educational dataset. A rigorous comparative
-analysis of federated aggregation strategies was conducted, identifying FedProx
-as a significantly more stable and effective method for handling heterogeneous
-student data than the standard FedAvg baseline. The optimized federated model
-achieves a high-performance F1-Score of 76.28\%, corresponding to 82.85\% of
-the performance of a powerful, centralized XGBoost model. These findings
-validate that a federated approach can provide highly effective content
-recommendations without centralizing sensitive student data. Consequently, our
-work presents a viable and robust solution to the personalization-privacy
-dilemma in modern educational platforms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.03024v1">Efficient Privacy-Preserving Recommendation on Sparse Data using Fully
-  Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-03T05:15:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Moontaha Nishat Chowdhury, André Bauer, Minxuan Zhou</p>
-    <p><b>Summary:</b> In today's data-driven world, recommendation systems personalize user
-experiences across industries but rely on sensitive data, raising privacy
-concerns. Fully homomorphic encryption (FHE) can secure these systems, but a
-significant challenge in applying FHE to recommendation systems is efficiently
-handling the inherently large and sparse user-item rating matrices. FHE
-operations are computationally intensive, and naively processing various sparse
-matrices in recommendation systems would be prohibitively expensive.
-Additionally, the communication overhead between parties remains a critical
-concern in encrypted domains. We propose a novel approach combining Compressed
-Sparse Row (CSR) representation with FHE-based matrix factorization that
-efficiently handles matrix sparsity in the encrypted domain while minimizing
-communication costs. Our experimental results demonstrate high recommendation
-accuracy with encrypted data while achieving the lowest communication costs,
-effectively preserving user privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.02856v1">Managing Correlations in Data and Privacy Demand</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-02T22:03:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Syomantak Chaudhuri, Thomas A. Courtade</p>
-    <p><b>Summary:</b> Previous works in the differential privacy literature that allow users to
-choose their privacy levels typically operate under the heterogeneous
-differential privacy (HDP) framework with the simplifying assumption that user
-data and privacy levels are not correlated. Firstly, we demonstrate that the
-standard HDP framework falls short when user data and privacy demands are
-allowed to be correlated. Secondly, to address this shortcoming, we propose an
-alternate framework, Add-remove Heterogeneous Differential Privacy (AHDP), that
-jointly accounts for user data and privacy preference. We show that AHDP is
-robust to possible correlations between data and privacy. Thirdly, we formalize
-the guarantees of the proposed AHDP framework through an operational hypothesis
-testing perspective. The hypothesis testing setup may be of independent
-interest in analyzing other privacy frameworks as well. Fourthly, we show that
-there exists non-trivial AHDP mechanisms that notably do not require prior
-knowledge of the data-privacy correlations. We propose some such mechanisms and
-apply them to core statistical tasks such as mean estimation, frequency
-estimation, and linear regression. The proposed mechanisms are simple to
-implement with minimal assumptions and modeling requirements, making them
-attractive for real-world use. Finally, we empirically evaluate proposed AHDP
-mechanisms, highlighting their trade-offs using LLM-generated synthetic
-datasets, which we release for future research.</p>
   </details>
 </div>
 
