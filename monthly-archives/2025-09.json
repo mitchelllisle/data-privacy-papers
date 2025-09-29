@@ -3273,5 +3273,175 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.22428v1",
+    "title" : "Privacy Mechanism Design based on Empirical Distributions",
+    "summary" : "Pointwise maximal leakage (PML) is a per-outcome privacy measure based on\nthreat models from quantitative information flow. Privacy guarantees with PML\nrely on knowledge about the distribution that generated the private data. In\nthis work, we propose a framework for PML privacy assessment and mechanism\ndesign with empirical estimates of this data-generating distribution. By\nextending the PML framework to consider sets of data-generating distributions,\nwe arrive at bounds on the worst-case leakage within a given set. We use these\nbounds alongside large-deviation bounds from the literature to provide a method\nfor obtaining distribution-independent $(\\varepsilon,\\delta)$-PML guarantees\nwhen the data-generating distribution is estimated from available data samples.\nWe provide an optimal binary mechanism, and show that mechanism design with\nthis type of uncertainty about the data-generating distribution reduces to a\nlinearly constrained convex program. Further, we show that optimal mechanisms\ndesigned for a distribution estimate can be used. Finally, we apply these tools\nto leakage assessment of the Laplace mechanism and the Gaussian mechanism for\nbinary private data, and numerically show that the presented approach to\nmechanism design can yield significant utility increase compared to local\ndifferential privacy, while retaining similar privacy guarantees.",
+    "updated" : "2025-09-26T14:46:59Z",
+    "published" : "2025-09-26T14:46:59Z",
+    "authors" : [
+      {
+        "name" : "Leonhard Grosse"
+      },
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.22213v1",
+    "title" : "Accuracy-First Rényi Differential Privacy and Post-Processing Immunity",
+    "summary" : "The accuracy-first perspective of differential privacy addresses an important\nshortcoming by allowing a data analyst to adaptively adjust the quantitative\nprivacy bound instead of sticking to a predetermined bound. Existing works on\nthe accuracy-first perspective have neglected an important property of\ndifferential privacy known as post-processing immunity, which ensures that an\nadversary is not able to weaken the privacy guarantee by post-processing. We\naddress this gap by determining which existing definitions in the\naccuracy-first perspective have post-processing immunity, and which do not. The\nonly definition with post-processing immunity, pure ex-post privacy, lacks\nuseful tools for practical problems, such as an ex-post analogue of the\nGaussian mechanism, and an algorithm to check if accuracy on separate private\nvalidation set is high enough. To address this, we propose a new definition\nbased on R\\'enyi differential privacy that has post-processing immunity, and we\ndevelop basic theory and tools needed for practical applications. We\ndemonstrate the practicality of our theory with an application to synthetic\ndata generation, where our algorithm successfully adjusts the privacy bound\nuntil an accuracy threshold is met on a private validation dataset.",
+    "updated" : "2025-09-26T11:27:36Z",
+    "published" : "2025-09-26T11:27:36Z",
+    "authors" : [
+      {
+        "name" : "Ossi Räisä"
+      },
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.22103v1",
+    "title" : "Privacy in Distributed Quantum Sensing with Gaussian Quantum Networks",
+    "summary" : "We study the privacy properties of distributed quantum sensing protocols in a\nGaussian quantum network, where each node encodes a parameter via a local phase\nshift. For networks with more than two nodes, achieving perfect privacy is\npossible only asymptotically, in the limit of large photon numbers. However, we\nshow that optimized fully symmetric Gaussian states enable rapidly approaching\nperfect privacy while maintaining near-optimal sensing performance. We show\nthat local homodyne detection achieves a quadratic scaling of precision with\nthe total number of photons. We further analyze the impact of thermal noise in\nthe preparation stage on both privacy and estimation precision. Our results\npave the way for the development of practical, private distributed quantum\nsensing protocols in continuous-variable quantum networks.",
+    "updated" : "2025-09-26T09:24:24Z",
+    "published" : "2025-09-26T09:24:24Z",
+    "authors" : [
+      {
+        "name" : "Uesli Alushi"
+      },
+      {
+        "name" : "Roberto Di Candia"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cond-mat.mes-hall"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.21800v1",
+    "title" : "Federated Learning of Quantile Inference under Local Differential\n  Privacy",
+    "summary" : "In this paper, we investigate federated learning for quantile inference under\nlocal differential privacy (LDP). We propose an estimator based on local\nstochastic gradient descent (SGD), whose local gradients are perturbed via a\nrandomized mechanism with global parameters, making the procedure tolerant of\ncommunication and storage constraints without compromising statistical\nefficiency. Although the quantile loss and its corresponding gradient do not\nsatisfy standard smoothness conditions typically assumed in existing\nliterature, we establish asymptotic normality for our estimator as well as a\nfunctional central limit theorem. The proposed method accommodates data\nheterogeneity and allows each server to operate with an individual privacy\nbudget. Furthermore, we construct confidence intervals for the target value\nthrough a self-normalization approach, thereby circumventing the need to\nestimate additional nuisance parameters. Extensive numerical experiments and\nreal data application validate the theoretical guarantees of the proposed\nmethodology.",
+    "updated" : "2025-09-26T02:56:39Z",
+    "published" : "2025-09-26T02:56:39Z",
+    "authors" : [
+      {
+        "name" : "Leheng Cai"
+      },
+      {
+        "name" : "Qirui Hu"
+      },
+      {
+        "name" : "Shuyuan Wu"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.21762v1",
+    "title" : "Privacy-Preserving Performance Profiling of In-The-Wild GPUs",
+    "summary" : "GPUs are the dominant platform for many important applications today\nincluding deep learning, accelerated computing, and scientific simulation.\nHowever, as the complexity of both applications and hardware increases, GPU\nchip manufacturers face a significant challenge: how to gather comprehensive\nperformance characteristics and value profiles from GPUs deployed in real-world\nscenarios. Such data, encompassing the types of kernels executed and the time\nspent in each, is crucial for optimizing chip design and enhancing application\nperformance. Unfortunately, despite the availability of low-level tools like\nNSYS and NCU, current methodologies fall short, offering data collection\ncapabilities only on an individual user basis rather than a broader, more\ninformative fleet-wide scale. This paper takes on the problem of realizing a\nsystem that allows planet-scale real-time GPU performance profiling of\nlow-level hardware characteristics. The three fundamental problems we solve\nare: i) user experience of achieving this with no slowdown; ii) preserving user\nprivacy, so that no 3rd party is aware of what applications any user runs; iii)\nefficacy in showing we are able to collect data and assign it applications even\nwhen run on 1000s of GPUs. Our results simulate a 100,000 size GPU deployment,\nrunning applications from the Torchbench suite, showing our system addresses\nall 3 problems.",
+    "updated" : "2025-09-26T01:49:50Z",
+    "published" : "2025-09-26T01:49:50Z",
+    "authors" : [
+      {
+        "name" : "Ian McDougall"
+      },
+      {
+        "name" : "Michael Davies"
+      },
+      {
+        "name" : "Rahul Chatterjee"
+      },
+      {
+        "name" : "Somesh Jha"
+      },
+      {
+        "name" : "Karthikeyan Sankaralingam"
+      }
+    ],
+    "categories" : [
+      "cs.AR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.21712v1",
+    "title" : "Not My Agent, Not My Boundary? Elicitation of Personal Privacy\n  Boundaries in AI-Delegated Information Sharing",
+    "summary" : "Aligning AI systems with human privacy preferences requires understanding\nindividuals' nuanced disclosure behaviors beyond general norms. Yet eliciting\nsuch boundaries remains challenging due to the context-dependent nature of\nprivacy decisions and the complex trade-offs involved. We present an AI-powered\nelicitation approach that probes individuals' privacy boundaries through a\ndiscriminative task. We conducted a between-subjects study that systematically\nvaried communication roles and delegation conditions, resulting in 1,681\nboundary specifications from 169 participants for 61 scenarios. We examined how\nthese contextual factors and individual differences influence the boundary\nspecification. Quantitative results show that communication roles influence\nindividuals' acceptance of detailed and identifiable disclosure, AI delegation\nand individuals' need for privacy heighten sensitivity to disclosed\nidentifiers, and AI delegation results in less consensus across individuals.\nOur findings highlight the importance of situating privacy preference\nelicitation within real-world data flows. We advocate using nuanced privacy\nboundaries as an alignment goal for future AI systems.",
+    "updated" : "2025-09-26T00:20:30Z",
+    "published" : "2025-09-26T00:20:30Z",
+    "authors" : [
+      {
+        "name" : "Bingcan Guo"
+      },
+      {
+        "name" : "Eryue Xu"
+      },
+      {
+        "name" : "Zhiping Zhang"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.21704v1",
+    "title" : "PQFed: A Privacy-Preserving Quality-Controlled Federated Learning\n  Framework",
+    "summary" : "Federated learning enables collaborative model training without sharing raw\ndata, but data heterogeneity consistently challenges the performance of the\nglobal model. Traditional optimization methods often rely on collaborative\nglobal model training involving all clients, followed by local adaptation to\nimprove individual performance. In this work, we focus on early-stage quality\ncontrol and propose PQFed, a novel privacy-preserving personalized federated\nlearning framework that designs customized training strategies for each client\nprior to the federated training process. PQFed extracts representative features\nfrom each client's raw data and applies clustering techniques to estimate\ninter-client dataset similarity. Based on these similarity estimates, the\nframework implements a client selection strategy that enables each client to\ncollaborate with others who have compatible data distributions. We evaluate\nPQFed on two benchmark datasets, CIFAR-10 and MNIST, integrated with three\nexisting federated learning algorithms. Experimental results show that PQFed\nconsistently improves the target client's model performance, even with a\nlimited number of participants. We further benchmark PQFed against a baseline\ncluster-based algorithm, IFCA, and observe that PQFed also achieves better\nperformance in low-participation scenarios. These findings highlight PQFed's\nscalability and effectiveness in personalized federated learning settings.",
+    "updated" : "2025-09-25T23:56:24Z",
+    "published" : "2025-09-25T23:56:24Z",
+    "authors" : [
+      {
+        "name" : "Weiqi Yue"
+      },
+      {
+        "name" : "Wenbiao Li"
+      },
+      {
+        "name" : "Yuzhou Jiang"
+      },
+      {
+        "name" : "Anisa Halimi"
+      },
+      {
+        "name" : "Roger French"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
