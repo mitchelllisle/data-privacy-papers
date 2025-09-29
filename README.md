@@ -2,6 +2,201 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.22428v1">Privacy Mechanism Design based on Empirical Distributions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-09-26T14:46:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leonhard Grosse, Sara Saeidian, Mikael Skoglund, Tobias J. Oechtering</p>
+    <p><b>Summary:</b> Pointwise maximal leakage (PML) is a per-outcome privacy measure based on
+threat models from quantitative information flow. Privacy guarantees with PML
+rely on knowledge about the distribution that generated the private data. In
+this work, we propose a framework for PML privacy assessment and mechanism
+design with empirical estimates of this data-generating distribution. By
+extending the PML framework to consider sets of data-generating distributions,
+we arrive at bounds on the worst-case leakage within a given set. We use these
+bounds alongside large-deviation bounds from the literature to provide a method
+for obtaining distribution-independent $(\varepsilon,\delta)$-PML guarantees
+when the data-generating distribution is estimated from available data samples.
+We provide an optimal binary mechanism, and show that mechanism design with
+this type of uncertainty about the data-generating distribution reduces to a
+linearly constrained convex program. Further, we show that optimal mechanisms
+designed for a distribution estimate can be used. Finally, we apply these tools
+to leakage assessment of the Laplace mechanism and the Gaussian mechanism for
+binary private data, and numerically show that the presented approach to
+mechanism design can yield significant utility increase compared to local
+differential privacy, while retaining similar privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.22213v1">Accuracy-First Rényi Differential Privacy and Post-Processing Immunity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-26T11:27:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ossi Räisä, Antti Koskela, Antti Honkela</p>
+    <p><b>Summary:</b> The accuracy-first perspective of differential privacy addresses an important
+shortcoming by allowing a data analyst to adaptively adjust the quantitative
+privacy bound instead of sticking to a predetermined bound. Existing works on
+the accuracy-first perspective have neglected an important property of
+differential privacy known as post-processing immunity, which ensures that an
+adversary is not able to weaken the privacy guarantee by post-processing. We
+address this gap by determining which existing definitions in the
+accuracy-first perspective have post-processing immunity, and which do not. The
+only definition with post-processing immunity, pure ex-post privacy, lacks
+useful tools for practical problems, such as an ex-post analogue of the
+Gaussian mechanism, and an algorithm to check if accuracy on separate private
+validation set is high enough. To address this, we propose a new definition
+based on R\'enyi differential privacy that has post-processing immunity, and we
+develop basic theory and tools needed for practical applications. We
+demonstrate the practicality of our theory with an application to synthetic
+data generation, where our algorithm successfully adjusts the privacy bound
+until an accuracy threshold is met on a private validation dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.22103v1">Privacy in Distributed Quantum Sensing with Gaussian Quantum Networks</a></h3>
+   
+  <p><b>Published on:</b> 2025-09-26T09:24:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Uesli Alushi, Roberto Di Candia</p>
+    <p><b>Summary:</b> We study the privacy properties of distributed quantum sensing protocols in a
+Gaussian quantum network, where each node encodes a parameter via a local phase
+shift. For networks with more than two nodes, achieving perfect privacy is
+possible only asymptotically, in the limit of large photon numbers. However, we
+show that optimized fully symmetric Gaussian states enable rapidly approaching
+perfect privacy while maintaining near-optimal sensing performance. We show
+that local homodyne detection achieves a quadratic scaling of precision with
+the total number of photons. We further analyze the impact of thermal noise in
+the preparation stage on both privacy and estimation precision. Our results
+pave the way for the development of practical, private distributed quantum
+sensing protocols in continuous-variable quantum networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.21800v1">Federated Learning of Quantile Inference under Local Differential
+  Privacy</a></h3>
+   
+  <p><b>Published on:</b> 2025-09-26T02:56:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leheng Cai, Qirui Hu, Shuyuan Wu</p>
+    <p><b>Summary:</b> In this paper, we investigate federated learning for quantile inference under
+local differential privacy (LDP). We propose an estimator based on local
+stochastic gradient descent (SGD), whose local gradients are perturbed via a
+randomized mechanism with global parameters, making the procedure tolerant of
+communication and storage constraints without compromising statistical
+efficiency. Although the quantile loss and its corresponding gradient do not
+satisfy standard smoothness conditions typically assumed in existing
+literature, we establish asymptotic normality for our estimator as well as a
+functional central limit theorem. The proposed method accommodates data
+heterogeneity and allows each server to operate with an individual privacy
+budget. Furthermore, we construct confidence intervals for the target value
+through a self-normalization approach, thereby circumventing the need to
+estimate additional nuisance parameters. Extensive numerical experiments and
+real data application validate the theoretical guarantees of the proposed
+methodology.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.21762v1">Privacy-Preserving Performance Profiling of In-The-Wild GPUs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762">
+  <p><b>Published on:</b> 2025-09-26T01:49:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ian McDougall, Michael Davies, Rahul Chatterjee, Somesh Jha, Karthikeyan Sankaralingam</p>
+    <p><b>Summary:</b> GPUs are the dominant platform for many important applications today
+including deep learning, accelerated computing, and scientific simulation.
+However, as the complexity of both applications and hardware increases, GPU
+chip manufacturers face a significant challenge: how to gather comprehensive
+performance characteristics and value profiles from GPUs deployed in real-world
+scenarios. Such data, encompassing the types of kernels executed and the time
+spent in each, is crucial for optimizing chip design and enhancing application
+performance. Unfortunately, despite the availability of low-level tools like
+NSYS and NCU, current methodologies fall short, offering data collection
+capabilities only on an individual user basis rather than a broader, more
+informative fleet-wide scale. This paper takes on the problem of realizing a
+system that allows planet-scale real-time GPU performance profiling of
+low-level hardware characteristics. The three fundamental problems we solve
+are: i) user experience of achieving this with no slowdown; ii) preserving user
+privacy, so that no 3rd party is aware of what applications any user runs; iii)
+efficacy in showing we are able to collect data and assign it applications even
+when run on 1000s of GPUs. Our results simulate a 100,000 size GPU deployment,
+running applications from the Torchbench suite, showing our system addresses
+all 3 problems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.21712v1">Not My Agent, Not My Boundary? Elicitation of Personal Privacy
+  Boundaries in AI-Delegated Information Sharing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-26T00:20:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bingcan Guo, Eryue Xu, Zhiping Zhang, Tianshi Li</p>
+    <p><b>Summary:</b> Aligning AI systems with human privacy preferences requires understanding
+individuals' nuanced disclosure behaviors beyond general norms. Yet eliciting
+such boundaries remains challenging due to the context-dependent nature of
+privacy decisions and the complex trade-offs involved. We present an AI-powered
+elicitation approach that probes individuals' privacy boundaries through a
+discriminative task. We conducted a between-subjects study that systematically
+varied communication roles and delegation conditions, resulting in 1,681
+boundary specifications from 169 participants for 61 scenarios. We examined how
+these contextual factors and individual differences influence the boundary
+specification. Quantitative results show that communication roles influence
+individuals' acceptance of detailed and identifiable disclosure, AI delegation
+and individuals' need for privacy heighten sensitivity to disclosed
+identifiers, and AI delegation results in less consensus across individuals.
+Our findings highlight the importance of situating privacy preference
+elicitation within real-world data flows. We advocate using nuanced privacy
+boundaries as an alignment goal for future AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.21704v1">PQFed: A Privacy-Preserving Quality-Controlled Federated Learning
+  Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-25T23:56:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weiqi Yue, Wenbiao Li, Yuzhou Jiang, Anisa Halimi, Roger French, Erman Ayday</p>
+    <p><b>Summary:</b> Federated learning enables collaborative model training without sharing raw
+data, but data heterogeneity consistently challenges the performance of the
+global model. Traditional optimization methods often rely on collaborative
+global model training involving all clients, followed by local adaptation to
+improve individual performance. In this work, we focus on early-stage quality
+control and propose PQFed, a novel privacy-preserving personalized federated
+learning framework that designs customized training strategies for each client
+prior to the federated training process. PQFed extracts representative features
+from each client's raw data and applies clustering techniques to estimate
+inter-client dataset similarity. Based on these similarity estimates, the
+framework implements a client selection strategy that enables each client to
+collaborate with others who have compatible data distributions. We evaluate
+PQFed on two benchmark datasets, CIFAR-10 and MNIST, integrated with three
+existing federated learning algorithms. Experimental results show that PQFed
+consistently improves the target client's model performance, even with a
+limited number of participants. We further benchmark PQFed against a baseline
+cluster-based algorithm, IFCA, and observe that PQFed also achieves better
+performance in low-participation scenarios. These findings highlight PQFed's
+scalability and effectiveness in personalized federated learning settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.20867v1">Federated Markov Imputation: Privacy-Preserving Temporal Imputation in
   Multi-Centric ICU Environments</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -2760,237 +2955,6 @@ identified two focus areas where the network research can offer substantive
 contributions to the design and deployment of DP, related to network security
 and topology. Through this work, we hope to encourage more research that
 adapt/optimize DP's deployment in various network environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.04358v1">Privacy Perceptions in Robot-Assisted Well-Being Coaching: Examining the
-  Roles of Information Transparency, User Control, and Proactivity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
-  <p><b>Published on:</b> 2025-09-04T16:19:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Atikkhan Faridkhan Nilgar, Manuel Dietrich, Kristof Van Laerhoven</p>
-    <p><b>Summary:</b> Social robots are increasingly recognized as valuable supporters in the field
-of well-being coaching. They can function as independent coaches or provide
-support alongside human coaches, and healthcare professionals. In coaching
-interactions, these robots often handle sensitive information shared by users,
-making privacy a relevant issue. Despite this, little is known about the
-factors that shape users' privacy perceptions. This research aims to examine
-three key factors systematically: (1) the transparency about information usage,
-(2) the level of specific user control over how the robot uses their
-information, and (3) the robot's behavioral approach - whether it acts
-proactively or only responds on demand. Our results from an online study (N =
-200) show that even when users grant the robot general access to personal data,
-they additionally expect the ability to explicitly control how that information
-is interpreted and shared during sessions. Experimental conditions that
-provided such control received significantly higher ratings for perceived
-privacy appropriateness and trust. Compared to user control, the effects of
-transparency and proactivity on privacy appropriateness perception were low,
-and we found no significant impact. The results suggest that merely informing
-users or proactive sharing is insufficient without accompanying user control.
-These insights underscore the need for further research on mechanisms that
-allow users to manage robots' information processing and sharing, especially
-when social robots take on more proactive roles alongside humans.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.05377v1">Enhancing Gradient Variance and Differential Privacy in Quantum
-  Federated Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-04T15:29:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Duc-Thien Phan, Minh-Duong Nguyen, Quoc-Viet Pham, Huilong Pi</p>
-    <p><b>Summary:</b> Upon integrating Quantum Neural Network (QNN) as the local model, Quantum
-Federated Learning (QFL) has recently confronted notable challenges. Firstly,
-exploration is hindered over sharp minima, decreasing learning performance.
-Secondly, the steady gradient descent results in more stable and predictable
-model transmissions over wireless channels, making the model more susceptible
-to attacks from adversarial entities. Additionally, the local QFL model is
-vulnerable to noise produced by the quantum device's intermediate noise states,
-since it requires the use of quantum gates and circuits for training. This
-local noise becomes intertwined with learning parameters during training,
-impairing model precision and convergence rate. To address these issues, we
-propose a new QFL technique that incorporates differential privacy and
-introduces a dedicated noise estimation strategy to quantify and mitigate the
-impact of intermediate quantum noise. Furthermore, we design an adaptive noise
-generation scheme to alleviate privacy threats associated with the vanishing
-gradient variance phenomenon of QNN and enhance robustness against device
-noise. Experimental results demonstrate that our algorithm effectively balances
-convergence, reduces communication costs, and mitigates the adverse effects of
-intermediate quantum noise while maintaining strong privacy protection. Using
-real-world datasets, we achieved test accuracy of up to 98.47\% for the MNIST
-dataset and 83.85\% for the CIFAR-10 dataset while maintaining fast execution
-times.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.04290v1">An Interactive Framework for Finding the Optimal Trade-off in
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-04T15:02:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaohong Yang, Aki Rehn, Sammie Katt, Antti Honkela, Samuel Kaski</p>
-    <p><b>Summary:</b> Differential privacy (DP) is the standard for privacy-preserving analysis,
-and introduces a fundamental trade-off between privacy guarantees and model
-performance. Selecting the optimal balance is a critical challenge that can be
-framed as a multi-objective optimization (MOO) problem where one first
-discovers the set of optimal trade-offs (the Pareto front) and then learns a
-decision-maker's preference over them. While a rich body of work on interactive
-MOO exists, the standard approach -- modeling the objective functions with
-generic surrogates and learning preferences from simple pairwise feedback -- is
-inefficient for DP because it fails to leverage the problem's unique structure:
-a point on the Pareto front can be generated directly by maximizing accuracy
-for a fixed privacy level. Motivated by this property, we first derive the
-shape of the trade-off theoretically, which allows us to model the Pareto front
-directly and efficiently. To address inefficiency in preference learning, we
-replace pairwise comparisons with a more informative interaction. In
-particular, we present the user with hypothetical trade-off curves and ask them
-to pick their preferred trade-off. Our experiments on differentially private
-logistic regression and deep transfer learning across six real-world datasets
-show that our method converges to the optimal privacy-accuracy trade-off with
-significantly less computational cost and user interaction than baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.04232v1">Rethinking Layer-wise Gaussian Noise Injection: Bridging Implicit
-  Objectives and Privacy Budget Allocation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-04T14:09:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qifeng Tan, Shusen Yang, Xuebin Ren, Yikai Zhang</p>
-    <p><b>Summary:</b> Layer-wise Gaussian mechanisms (LGM) enhance flexibility in differentially
-private deep learning by injecting noise into partitioned gradient vectors.
-However, existing methods often rely on heuristic noise allocation strategies,
-lacking a rigorous understanding of their theoretical grounding in connecting
-noise allocation to formal privacy-utility tradeoffs. In this paper, we present
-a unified analytical framework that systematically connects layer-wise noise
-injection strategies with their implicit optimization objectives and associated
-privacy budget allocations. Our analysis reveals that several existing
-approaches optimize ill-posed objectives -- either ignoring inter-layer
-signal-to-noise ratio (SNR) consistency or leading to inefficient use of the
-privacy budget. In response, we propose a SNR-Consistent noise allocation
-strategy that unifies both aspects, yielding a noise allocation scheme that
-achieves better signal preservation and more efficient privacy budget
-utilization. Extensive experiments in both centralized and federated learning
-settings demonstrate that our method consistently outperforms existing
-allocation strategies, achieving better privacy-utility tradeoffs. Our
-framework not only offers diagnostic insights into prior methods but also
-provides theoretical guidance for designing adaptive and effective noise
-injection schemes in deep models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.05376v1">Privacy Preservation and Identity Tracing Prevention in AI-Driven Eye
-  Tracking for Interactive Learning Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-04T13:08:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abdul Rehman, Are Dæhlen, Ilona Heldal, Jerry Chun-wei Lin</p>
-    <p><b>Summary:</b> Eye-tracking technology can aid in understanding neurodevelopmental disorders
-and tracing a person's identity. However, this technology poses a significant
-risk to privacy, as it captures sensitive information about individuals and
-increases the likelihood that data can be traced back to them. This paper
-proposes a human-centered framework designed to prevent identity backtracking
-while preserving the pedagogical benefits of AI-powered eye tracking in
-interactive learning environments. We explore how real-time data anonymization,
-ethical design principles, and regulatory compliance (such as GDPR) can be
-integrated to build trust and transparency. We first demonstrate the potential
-for backtracking student IDs and diagnoses in various scenarios using serious
-game-based eye-tracking data. We then provide a two-stage privacy-preserving
-framework that prevents participants from being tracked while still enabling
-diagnostic classification. The first phase covers four scenarios: I) Predicting
-disorder diagnoses based on different game levels. II) Predicting student IDs
-based on different game levels. III) Predicting student IDs based on randomized
-data. IV) Utilizing K-Means for out-of-sample data. In the second phase, we
-present a two-stage framework that preserves privacy. We also employ Federated
-Learning (FL) across multiple clients, incorporating a secure identity
-management system with dummy IDs and administrator-only access controls. In the
-first phase, the proposed framework achieved 99.3% accuracy for scenario 1, 63%
-accuracy for scenario 2, and 99.7% accuracy for scenario 3, successfully
-identifying and assigning a new student ID in scenario 4. In phase 2, we
-effectively prevented backtracking and established a secure identity management
-system with dummy IDs and administrator-only access controls, achieving an
-overall accuracy of 99.40%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.04169v1">Privacy Risks in Time Series Forecasting: User- and Record-Level
-  Membership Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-04T12:43:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nicolas Johansson, Tobias Olsson, Daniel Nilsson, Johan Östman, Fazeleh Hoseini</p>
-    <p><b>Summary:</b> Membership inference attacks (MIAs) aim to determine whether specific data
-were used to train a model. While extensively studied on classification models,
-their impact on time series forecasting remains largely unexplored. We address
-this gap by introducing two new attacks: (i) an adaptation of multivariate
-LiRA, a state-of-the-art MIA originally developed for classification models, to
-the time-series forecasting setting, and (ii) a novel end-to-end learning
-approach called Deep Time Series (DTS) attack. We benchmark these methods
-against adapted versions of other leading attacks from the classification
-setting.
-  We evaluate all attacks in realistic settings on the TUH-EEG and ELD
-datasets, targeting two strong forecasting architectures, LSTM and the
-state-of-the-art N-HiTS, under both record- and user-level threat models. Our
-results show that forecasting models are vulnerable, with user-level attacks
-often achieving perfect detection. The proposed methods achieve the strongest
-performance in several settings, establishing new baselines for privacy risk
-assessment in time series forecasting. Furthermore, vulnerability increases
-with longer prediction horizons and smaller training populations, echoing
-trends observed in large language models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.05362v2">AI-in-the-Loop: Privacy Preserving Real-Time Scam Detection and
-  Conversational Scambaiting by Leveraging LLMs and Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-09-04T00:19:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ismail Hossain, Sai Puppala, Sajedul Talukder, Md Jahangir Alam</p>
-    <p><b>Summary:</b> Scams exploiting real-time social engineering -- such as phishing,
-impersonation, and phone fraud -- remain a persistent and evolving threat
-across digital platforms. Existing defenses are largely reactive, offering
-limited protection during active interactions. We propose a privacy-preserving,
-AI-in-the-loop framework that proactively detects and disrupts scam
-conversations in real time. The system combines instruction-tuned artificial
-intelligence with a safety-aware utility function that balances engagement with
-harm minimization, and employs federated learning to enable continual model
-updates without raw data sharing. Experimental evaluations show that the system
-produces fluent and engaging responses (perplexity as low as 22.3, engagement
-$\approx$0.80), while human studies confirm significant gains in realism,
-safety, and effectiveness over strong baselines. In federated settings, models
-trained with FedAvg sustain up to 30 rounds while preserving high engagement
-($\approx$0.80), strong relevance ($\approx$0.74), and low PII leakage
-($\leq$0.0085). Even with differential privacy, novelty and safety remain
-stable, indicating that robust privacy can be achieved without sacrificing
-performance. The evaluation of guard models (LlamaGuard, LlamaGuard2/3,
-MD-Judge) shows a straightforward pattern: stricter moderation settings reduce
-the chance of exposing personal information, but they also limit how much the
-model engages in conversation. In contrast, more relaxed settings allow longer
-and richer interactions, which improve scam detection, but at the cost of
-higher privacy risk. To our knowledge, this is the first framework to unify
-real-time scam-baiting, federated privacy preservation, and calibrated safety
-moderation into a proactive defense paradigm.</p>
   </details>
 </div>
 
