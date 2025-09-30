@@ -3443,5 +3443,501 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.25072v1",
+    "title" : "Optimizing Privacy-Preserving Primitives to Support LLM-Scale\n  Applications",
+    "summary" : "Privacy-preserving technologies have introduced a paradigm shift that allows\nfor realizable secure computing in real-world systems. The significant barrier\nto the practical adoption of these primitives is the computational and\ncommunication overhead that is incurred when applied at scale. In this paper,\nwe present an overview of our efforts to bridge the gap between this overhead\nand practicality for privacy-preserving learning systems using multi-party\ncomputation (MPC), zero-knowledge proofs (ZKPs), and fully homomorphic\nencryption (FHE). Through meticulous hardware/software/algorithm co-design, we\nshow progress towards enabling LLM-scale applications in privacy-preserving\nsettings. We demonstrate the efficacy of our solutions in several contexts,\nincluding DNN IP ownership, ethical LLM usage enforcement, and transformer\ninference.",
+    "updated" : "2025-09-29T17:16:51Z",
+    "published" : "2025-09-29T17:16:51Z",
+    "authors" : [
+      {
+        "name" : "Yaman Jandali"
+      },
+      {
+        "name" : "Ruisi Zhang"
+      },
+      {
+        "name" : "Nojan Sheybani"
+      },
+      {
+        "name" : "Farinaz Koushanfar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.24488v1",
+    "title" : "Sanitize Your Responses: Mitigating Privacy Leakage in Large Language\n  Models",
+    "summary" : "As Large Language Models (LLMs) achieve remarkable success across a wide\nrange of applications, such as chatbots and code copilots, concerns surrounding\nthe generation of harmful content have come increasingly into focus. Despite\nsignificant advances in aligning LLMs with safety and ethical standards,\nadversarial prompts can still be crafted to elicit undesirable responses.\nExisting mitigation strategies are predominantly based on post-hoc filtering,\nwhich introduces substantial latency or computational overhead, and is\nincompatible with token-level streaming generation. In this work, we introduce\nSelf-Sanitize, a novel LLM-driven mitigation framework inspired by cognitive\npsychology, which emulates human self-monitor and self-repair behaviors during\nconversations. Self-Sanitize comprises a lightweight Self-Monitor module that\ncontinuously inspects high-level intentions within the LLM at the token level\nvia representation engineering, and a Self-Repair module that performs in-place\ncorrection of harmful content without initiating separate review dialogues.\nThis design allows for real-time streaming monitoring and seamless repair, with\nnegligible impact on latency and resource utilization. Given that\nprivacy-invasive content has often been insufficiently focused in previous\nstudies, we perform extensive experiments on four LLMs across three privacy\nleakage scenarios. The results demonstrate that Self-Sanitize achieves superior\nmitigation performance with minimal overhead and without degrading the utility\nof LLMs, offering a practical and robust solution for safer LLM deployments.\nOur code is available at the following link:\nhttps://github.com/wjfu99/LLM_Self_Sanitize",
+    "updated" : "2025-09-29T08:59:44Z",
+    "published" : "2025-09-29T08:59:44Z",
+    "authors" : [
+      {
+        "name" : "Wenjie Fu"
+      },
+      {
+        "name" : "Huandong Wang"
+      },
+      {
+        "name" : "Junyao Gao"
+      },
+      {
+        "name" : "Guoan Wan"
+      },
+      {
+        "name" : "Tao Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.24345v1",
+    "title" : "Regulating Online Algorithmic Pricing: A Comparative Study of Privacy\n  and Data Protection Laws in the EU and US",
+    "summary" : "The emergence of big data, AI and machine learning has allowed sellers and\nonline platforms to tailor pricing for customers in real-time. While online\nalgorithmic pricing can increase efficiency, market welfare, and optimize\npricing strategies for sellers and companies, it poses a threat to the\nfundamental values of privacy, digital autonomy, and non-discrimination,\nraising legal and ethical concerns. On both sides of the Atlantic, legislators\nhave endeavoured to regulate online algorithmic pricing in different ways in\nthe context of privacy and personal data protection. Represented by the GDPR,\nthe EU adopts an omnibus approach to regulate algorithmic pricing and is\nsupplemented by the Digital Service Act and the Digital Market Act. The US\ncombines federal and state laws to regulate online algorithmic pricing and\nfocuses on industrial regulations. Therefore, a comparative analysis of these\nlegal frameworks is necessary to ascertain the effectiveness of these\napproaches. Taking a comparative approach, this working paper aims to explore\nhow EU and US respective data protection and privacy laws address the issues\nposed by online algorithmic pricing. The paper evaluates whether the current\nlegal regime is effective in protecting individuals against the perils of\nonline algorithmic pricing in the EU and the US. It particularly analyses the\nnew EU regulatory paradigm, the Digital Service Act (DSA) and the Digital\nMarket Act (DMA), as supplementary mechanisms to the EU data protection law, in\norder to draw lessons for US privacy law and vice versa.",
+    "updated" : "2025-09-29T06:46:56Z",
+    "published" : "2025-09-29T06:46:56Z",
+    "authors" : [
+      {
+        "name" : "Zihao Li"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.24173v1",
+    "title" : "Fundamental Limit of Discrete Distribution Estimation under\n  Utility-Optimized Local Differential Privacy",
+    "summary" : "We study the problem of discrete distribution estimation under\nutility-optimized local differential privacy (ULDP), which enforces local\ndifferential privacy (LDP) on sensitive data while allowing more accurate\ninference on non-sensitive data. In this setting, we completely characterize\nthe fundamental privacy-utility trade-off. The converse proof builds on several\nkey ideas, including a generalized uniform asymptotic Cram\\'er-Rao lower bound,\na reduction showing that it suffices to consider a newly defined class of\nextremal ULDP mechanisms, and a novel distribution decomposition technique\ntailored to ULDP constraints. For the achievability, we propose a class of\nutility-optimized block design (uBD) schemes, obtained as nontrivial\nmodifications of the block design mechanism known to be optimal under standard\nLDP constraints, while incorporating the distribution decomposition idea used\nin the converse proof and a score-based linear estimator. These results provide\na tight characterization of the estimation accuracy achievable under ULDP and\nreveal new insights into the structure of optimal mechanisms for\nprivacy-preserving statistical inference.",
+    "updated" : "2025-09-29T01:41:36Z",
+    "published" : "2025-09-29T01:41:36Z",
+    "authors" : [
+      {
+        "name" : "Sun-Moon Yoon"
+      },
+      {
+        "name" : "Hyun-Young Park"
+      },
+      {
+        "name" : "Seung-Hyun Nam"
+      },
+      {
+        "name" : "Si-Hyeon Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.24153v1",
+    "title" : "DNS in the Time of Curiosity: A Tale of Collaborative User Privacy\n  Protection",
+    "summary" : "The Domain Name System (DNS) is central to all Internet user activity,\nresolving accessed domain names into Internet Protocol (IP) addresses. As a\nresult, curious DNS resolvers can learn everything about Internet users'\ninterests. Public DNS resolvers are rising in popularity, offering low-latency\nresolution, high reliability, privacy-preserving policies, and support for\nencrypted DNS queries. However, client-resolver traffic encryption,\nincreasingly deployed to protect users from eavesdroppers, does not protect\nusers against curious resolvers. Similarly, privacy-preserving policies are\nbased solely on written commitments and do not provide technical safeguards.\nAlthough DNS query relay schemes can separate duties to limit data accessible\nby each entity, they cannot prevent colluding entities from sharing user\ntraffic logs. Thus, a key challenge remains: organizations operating public DNS\nresolvers, accounting for the majority of DNS resolutions, can potentially\ncollect and analyze massive volumes of Internet user activity data. With DNS\ninfrastructure that cannot be fully trusted, can we safeguard user privacy? We\nanswer positively and advocate for a user-driven approach to reduce exposure to\nDNS services. We will discuss key ideas of the proposal, which aims to achieve\na high level of privacy without sacrificing performance: maintaining low\nlatency, network bandwidth, memory/storage overhead, and computational\noverhead.",
+    "updated" : "2025-09-29T01:09:09Z",
+    "published" : "2025-09-29T01:09:09Z",
+    "authors" : [
+      {
+        "name" : "Philip Sjösvärd"
+      },
+      {
+        "name" : "Hongyu Jin"
+      },
+      {
+        "name" : "Panos Papadimitratos"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23834v1",
+    "title" : "GPM: The Gaussian Pancake Mechanism for Planting Undetectable Backdoors\n  in Differential Privacy",
+    "summary" : "Differential privacy (DP) has become the gold standard for preserving\nindividual privacy in data analysis. However, an implicit yet fundamental\nassumption underlying these rigorous privacy guarantees is the correct\nimplementation and execution of DP mechanisms. Several incidents of unintended\nprivacy loss have occurred due to numerical issues and inappropriate\nconfigurations of DP software, which have been successfully exploited in\nprivacy attacks. To better understand the seriousness of defective DP software,\nwe ask the following question: is it possible to elevate these passive defects\ninto active privacy attacks while maintaining covertness?\n  To address this question, we present the Gaussian pancake mechanism (GPM), a\nnovel mechanism that is computationally indistinguishable from the widely used\nGaussian mechanism (GM), yet exhibits arbitrarily weaker statistical DP\nguarantees. This unprecedented separation enables a new class of backdoor\nattacks: by indistinguishably passing off as the authentic GM, GPM can covertly\ndegrade statistical privacy. Unlike the unintentional privacy loss caused by\nGM's numerical issues, GPM is an adversarial yet undetectable backdoor attack\nagainst data privacy. We formally prove GPM's covertness, characterize its\nstatistical leakage, and demonstrate a concrete distinguishing attack that can\nachieve near-perfect success rates under suitable parameter choices, both\ntheoretically and empirically.\n  Our results underscore the importance of using transparent, open-source DP\nlibraries and highlight the need for rigorous scrutiny and formal verification\nof DP implementations to prevent subtle, undetectable privacy compromises in\nreal-world systems.",
+    "updated" : "2025-09-28T12:14:06Z",
+    "published" : "2025-09-28T12:14:06Z",
+    "authors" : [
+      {
+        "name" : "Haochen Sun"
+      },
+      {
+        "name" : "Xi He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23827v1",
+    "title" : "Assessing Visual Privacy Risks in Multimodal AI: A Novel\n  Taxonomy-Grounded Evaluation of Vision-Language Models",
+    "summary" : "Artificial Intelligence have profoundly transformed the technological\nlandscape in recent years. Large Language Models (LLMs) have demonstrated\nimpressive abilities in reasoning, text comprehension, contextual pattern\nrecognition, and integrating language with visual understanding. While these\nadvances offer significant benefits, they also reveal critical limitations in\nthe models' ability to grasp the notion of privacy. There is hence substantial\ninterest in determining if and how these models can understand and enforce\nprivacy principles, particularly given the lack of supporting resources to test\nsuch a task. In this work, we address these challenges by examining how legal\nframeworks can inform the capabilities of these emerging technologies. To this\nend, we introduce a comprehensive, multi-level Visual Privacy Taxonomy that\ncaptures a wide range of privacy issues, designed to be scalable and adaptable\nto existing and future research needs. Furthermore, we evaluate the\ncapabilities of several state-of-the-art Vision-Language Models (VLMs),\nrevealing significant inconsistencies in their understanding of contextual\nprivacy. Our work contributes both a foundational taxonomy for future research\nand a critical benchmark of current model limitations, demonstrating the urgent\nneed for more robust, privacy-aware AI systems.",
+    "updated" : "2025-09-28T12:04:54Z",
+    "published" : "2025-09-28T12:04:54Z",
+    "authors" : [
+      {
+        "name" : "Efthymios Tsaprazlis"
+      },
+      {
+        "name" : "Tiantian Feng"
+      },
+      {
+        "name" : "Anil Ramakrishna"
+      },
+      {
+        "name" : "Rahul Gupta"
+      },
+      {
+        "name" : "Shrikanth Narayanan"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23680v1",
+    "title" : "A First Look at Privacy Risks of Android Task-executable Voice Assistant\n  Applications",
+    "summary" : "With the development of foundation AI technologies, task-executable voice\nassistants (VAs) have become more popular, enhancing user convenience and\nexpanding device functionality. Android task-executable VAs are applications\nthat are capable of understanding complex tasks and performing corresponding\noperations. Given their prevalence and great autonomy, there is no existing\nwork examine the privacy risks within the voice assistants from the\ntask-execution pattern in a holistic manner. To fill this research gap, this\npaper presents a user-centric comprehensive empirical study on privacy risks in\nAndroid task-executable VA applications. We collect ten mainstream VAs as our\nresearch target and analyze their operational characteristics. We then\ncross-check their privacy declarations across six sources, including privacy\nlabels, policies, and manifest files, and our findings reveal widespread\ninconsistencies. Moreover, we uncover three significant privacy threat models:\n(1) privacy misdisclosure in mega apps, where integrated mini apps such as\nAlexa skills are inadequately represented; (2) privilege escalation via\ninter-application interactions, which exploit Android's communication\nmechanisms to bypass user consent; and (3) abuse of Google system applications,\nenabling apps to evade the declaration of dangerous permissions. Our study\ncontributes actionable recommendations for practitioners and underscores\nbroader relevance of these privacy risks to emerging autonomous AI agents.",
+    "updated" : "2025-09-28T06:47:06Z",
+    "published" : "2025-09-28T06:47:06Z",
+    "authors" : [
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Yikai Ge"
+      },
+      {
+        "name" : "Xiaoyu Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23525v1",
+    "title" : "Privy: Envisioning and Mitigating Privacy Risks for Consumer-facing AI\n  Product Concepts",
+    "summary" : "AI creates and exacerbates privacy risks, yet practitioners lack effective\nresources to identify and mitigate these risks. We present Privy, a tool that\nguides practitioners through structured privacy impact assessments to: (i)\nidentify relevant risks in novel AI product concepts, and (ii) propose\nappropriate mitigations. Privy was shaped by a formative study with 11\npractitioners, which informed two versions -- one LLM-powered, the other\ntemplate-based. We evaluated these two versions of Privy through a\nbetween-subjects, controlled study with 24 separate practitioners, whose\nassessments were reviewed by 13 independent privacy experts. Results show that\nPrivy helps practitioners produce privacy assessments that experts deemed high\nquality: practitioners identified relevant risks and proposed appropriate\nmitigation strategies. These effects were augmented in the LLM-powered version.\nPractitioners themselves rated Privy as being useful and usable, and their\nfeedback illustrates how it helps overcome long-standing awareness, motivation,\nand ability barriers in privacy work.",
+    "updated" : "2025-09-27T23:08:24Z",
+    "published" : "2025-09-27T23:08:24Z",
+    "authors" : [
+      {
+        "name" : "Hao-Ping Lee"
+      },
+      {
+        "name" : "Yu-Ju Yang"
+      },
+      {
+        "name" : "Matthew Bilik"
+      },
+      {
+        "name" : "Isadora Krsek"
+      },
+      {
+        "name" : "Thomas Serban von Davier"
+      },
+      {
+        "name" : "Kyzyl Monteiro"
+      },
+      {
+        "name" : "Jason Lin"
+      },
+      {
+        "name" : "Shivani Agarwal"
+      },
+      {
+        "name" : "Jodi Forlizzi"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23459v1",
+    "title" : "MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction",
+    "summary" : "Large language models (LLMs) have shown promising performance on tasks that\nrequire reasoning, such as text-to-SQL, code generation, and debugging.\nHowever, regulatory frameworks with strict privacy requirements constrain their\nintegration into sensitive systems. State-of-the-art LLMs are also proprietary,\ncostly, and resource-intensive, making local deployment impractical.\nConsequently, utilizing such LLMs often requires sharing data with third-party\nproviders, raising privacy concerns and risking noncompliance with regulations.\nAlthough fine-tuned small language models (SLMs) can outperform LLMs on certain\ntasks and be deployed locally to mitigate privacy concerns, they underperform\non more complex tasks such as text-to-SQL translation. In this work, we\nintroduce MaskSQL, a text-to-SQL framework that utilizes abstraction as a\nprivacy protection mechanism to mask sensitive information in LLM prompts.\nUnlike redaction, which removes content entirely, or generalization, which\nbroadens tokens, abstraction retains essential information while discarding\nunnecessary details, striking an effective privacy-utility balance for the\ntext-to-SQL task. Moreover, by providing mechanisms to control the\nprivacy-utility tradeoff, MaskSQL facilitates adoption across a broader range\nof use cases. Our experimental results show that MaskSQL outperforms leading\nSLM-based text-to-SQL models and achieves performance approaching\nstate-of-the-art LLM-based models, while preserving privacy.",
+    "updated" : "2025-09-27T19:07:50Z",
+    "published" : "2025-09-27T19:07:50Z",
+    "authors" : [
+      {
+        "name" : "Sepideh Abedini"
+      },
+      {
+        "name" : "Shubhankar Mohapatra"
+      },
+      {
+        "name" : "D. B. Emerson"
+      },
+      {
+        "name" : "Masoumeh Shafieinejad"
+      },
+      {
+        "name" : "Jesse C. Cresswell"
+      },
+      {
+        "name" : "Xi He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23444v1",
+    "title" : "HoloTrace: a Location Privacy Preservation Solution for mmWave MIMO-OFDM\n  Systems",
+    "summary" : "The technological innovation towards 6G cellular networks introduces\nunprecedented capabilities for user equipment (UE) localization, but it also\nraises serious concerns about physical layer location privacy. This paper\nintroduces HoloTrace, a signal-level privacy preservation framework that relies\non user-side spoofing of localization-relevant features to prevent the\nextraction of precise location information from the signals received by a base\nstation (BS) in a mmWave MIMO-OFDM system. Spoofing is performed by the user on\nlocation parameters such as angle of arrival (AoA), angle of departure (AoD),\nand time difference of arrival (TDoA). Without requiring any protocol\nmodification nor network-side support, our method strategically perturbs pilot\ntransmissions to prevent a BS from performing non-consensual UE localization.\nThe methodology allows the UE to spoof its position, keeping the precoder\nunchanged. We formulate spoofing as a unified rank-constrained projection\nproblem, and provide closed-form solutions under varying levels of channel\nstate information (CSI) at the UE, including scenarios with and without CSI\nknowledge. Simulation results confirm that the proposed approach enables the UE\nto deceive the BS, inducing significant localization errors, while the impact\non link capacity varies depending on the spoofed position. Our findings\nestablish HoloTrace as a practical and robust privacy-preserving solution for\nfuture 6G networks.",
+    "updated" : "2025-09-27T18:26:30Z",
+    "published" : "2025-09-27T18:26:30Z",
+    "authors" : [
+      {
+        "name" : "Lorenzo Italiano"
+      },
+      {
+        "name" : "Alireza Pourafzal"
+      },
+      {
+        "name" : "Hui Chen"
+      },
+      {
+        "name" : "Mattia Brambilla"
+      },
+      {
+        "name" : "Gonzalo Seco-Granados"
+      },
+      {
+        "name" : "Monica Nicoli"
+      },
+      {
+        "name" : "Henk Wymeersch"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23246v1",
+    "title" : "Adaptive Token-Weighted Differential Privacy for LLMs: Not All Tokens\n  Require Equal Protection",
+    "summary" : "Large language models (LLMs) frequently memorize sensitive or personal\ninformation, raising significant privacy concerns. Existing variants of\ndifferential privacy stochastic gradient descent (DPSGD) inject uniform noise\ninto every gradient step, significantly extending training time and reducing\nmodel accuracy. We propose that concentrating noise primarily on gradients\nassociated with sensitive tokens can substantially decrease DP training time,\nstrengthen the protection of sensitive information, and simultaneously preserve\nthe model's performance on non-sensitive data. We operationalize this insight\nthrough Adaptive Token-Weighted Differential Privacy (ATDP), a modification of\nvanilla DP-SGD that adaptively assigns different gradient weights to sensitive\nand non-sensitive tokens. By employing a larger noise scale at the early stage\nof training, ATDP rapidly disrupts memorization of sensitive content. As a\nresult, ATDP only requires a few additional epochs of lightweight\npost-processing following standard fine-tuning, injecting targeted noise\nprimarily on parameters corresponding to sensitive tokens, thus minimally\naffecting the model's general capabilities. ATDP can be seamlessly integrated\ninto any existing DP-based fine-tuning pipeline or directly applied to\nnon-private models as a fast privacy-enhancing measure. Additionally, combined\nwith an initial redacted fine-tuning phase, ATDP forms a streamlined DP\npipeline that achieves comparable canary protection to state-of-the-art DP-SGD\nmethods, significantly reduces the computational overhead of DP fine-tuning,\nshortening training time by approximately 90 percent, while achieving\ncomparable or superior privacy protection and minimal accuracy degradation.",
+    "updated" : "2025-09-27T10:51:07Z",
+    "published" : "2025-09-27T10:51:07Z",
+    "authors" : [
+      {
+        "name" : "Manjiang Yu"
+      },
+      {
+        "name" : "Priyanka Singh"
+      },
+      {
+        "name" : "Xue Li"
+      },
+      {
+        "name" : "Yang Cao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23190v1",
+    "title" : "CoSIFL: Collaborative Secure and Incentivized Federated Learning with\n  Differential Privacy",
+    "summary" : "Federated learning (FL) has emerged as a promising paradigm for collaborative\nmodel training while preserving data locality. However, it still faces\nchallenges from malicious or compromised clients, as well as difficulties in\nincentivizing participants to contribute high-quality data under strict privacy\nrequirements. Motivated by these considerations, we propose CoSIFL, a novel\nframework that integrates proactive alarming for robust security and local\ndifferential privacy (LDP) for inference attacks, together with a\nStackelberg-based incentive scheme to encourage client participation and data\nsharing. Specifically, CoSIFL uses an active alarming mechanism and robust\naggregation to defend against Byzantine and inference attacks, while a Tullock\ncontest-inspired incentive module rewards honest clients for both data\ncontributions and reliable alarm triggers. We formulate the interplay between\nthe server and clients as a two-stage game: in the first stage, the server\ndetermines total rewards, selects participants, and fixes global iteration\nsettings, whereas in the second stage, each client decides its mini-batch size,\nprivacy noise scale, and alerting strategy. We prove that the server-client\ngame admits a unique equilibrium, and analyze how clients' multi-dimensional\nattributes - such as non-IID degrees and privacy budgets - jointly affect\nsystem efficiency. Experimental results on standard benchmarks demonstrate that\nCoSIFL outperforms state-of-the-art solutions in improving model robustness and\nreducing total server costs, highlighting the effectiveness of our integrated\ndesign.",
+    "updated" : "2025-09-27T08:45:40Z",
+    "published" : "2025-09-27T08:45:40Z",
+    "authors" : [
+      {
+        "name" : "Zhanhong Xie"
+      },
+      {
+        "name" : "Meifan Zhang"
+      },
+      {
+        "name" : "Lihua Yin"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23091v1",
+    "title" : "FedBit: Accelerating Privacy-Preserving Federated Learning via\n  Bit-Interleaved Packing and Cross-Layer Co-Design",
+    "summary" : "Federated learning (FL) with fully homomorphic encryption (FHE) effectively\nsafeguards data privacy during model aggregation by encrypting local model\nupdates before transmission, mitigating threats from untrusted servers or\neavesdroppers in transmission. However, the computational burden and ciphertext\nexpansion associated with homomorphic encryption can significantly increase\nresource and communication overhead. To address these challenges, we propose\nFedBit, a hardware/software co-designed framework optimized for the\nBrakerski-Fan-Vercauteren (BFV) scheme. FedBit employs bit-interleaved data\npacking to embed multiple model parameters into a single ciphertext\ncoefficient, thereby minimizing ciphertext expansion and maximizing\ncomputational parallelism. Additionally, we integrate a dedicated FPGA\naccelerator to handle cryptographic operations and an optimized dataflow to\nreduce the memory overhead. Experimental results demonstrate that FedBit\nachieves a speedup of two orders of magnitude in encryption and lowers average\ncommunication overhead by 60.7%, while maintaining high accuracy.",
+    "updated" : "2025-09-27T03:58:16Z",
+    "published" : "2025-09-27T03:58:16Z",
+    "authors" : [
+      {
+        "name" : "Xiangchen Meng"
+      },
+      {
+        "name" : "Yangdi Lyu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23030v1",
+    "title" : "DPFNAS: Differential Privacy-Enhanced Federated Neural Architecture\n  Search for 6G Edge Intelligence",
+    "summary" : "The Sixth-Generation (6G) network envisions pervasive artificial intelligence\n(AI) as a core goal, enabled by edge intelligence through on-device data\nutilization. To realize this vision, federated learning (FL) has emerged as a\nkey paradigm for collaborative training across edge devices. However, the\nsensitivity and heterogeneity of edge data pose key challenges to FL: parameter\nsharing risks data reconstruction, and a unified global model struggles to\nadapt to diverse local distributions. In this paper, we propose a novel\nfederated learning framework that integrates personalized differential privacy\n(DP) and adaptive model design. To protect training data, we leverage\nsample-level representations for knowledge sharing and apply a personalized DP\nstrategy to resist reconstruction attacks. To ensure distribution-aware\nadaptation under privacy constraints, we develop a privacy-aware neural\narchitecture search (NAS) algorithm that generates locally customized\narchitectures and hyperparameters. To the best of our knowledge, this is the\nfirst personalized DP solution tailored for representation-based FL with\ntheoretical convergence guarantees. Our scheme achieves strong privacy\nguarantees for training data while significantly outperforming state-of-the-art\nmethods in model performance. Experiments on benchmark datasets such as\nCIFAR-10 and CIFAR-100 demonstrate that our scheme improves accuracy by 6.82\\%\nover the federated NAS method PerFedRLNAS, while reducing model size to 1/10\nand communication cost to 1/20.",
+    "updated" : "2025-09-27T01:03:26Z",
+    "published" : "2025-09-27T01:03:26Z",
+    "authors" : [
+      {
+        "name" : "Yang Lv"
+      },
+      {
+        "name" : "Jin Cao"
+      },
+      {
+        "name" : "Ben Niu"
+      },
+      {
+        "name" : "Zhe Sun"
+      },
+      {
+        "name" : "Fengwei Wang"
+      },
+      {
+        "name" : "Fenghua Li"
+      },
+      {
+        "name" : "Hui Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23022v1",
+    "title" : "Copyright Infringement Detection in Text-to-Image Diffusion Models via\n  Differential Privacy",
+    "summary" : "The widespread deployment of large vision models such as Stable Diffusion\nraises significant legal and ethical concerns, as these models can memorize and\nreproduce copyrighted content without authorization. Existing detection\napproaches often lack robustness and fail to provide rigorous theoretical\nunderpinnings. To address these gaps, we formalize the concept of copyright\ninfringement and its detection from the perspective of Differential Privacy\n(DP), and introduce the conditional sensitivity metric, a concept analogous to\nsensitivity in DP, that quantifies the deviation in a diffusion model's output\ncaused by the inclusion or exclusion of a specific training data point. To\noperationalize this metric, we propose D-Plus-Minus (DPM), a novel post-hoc\ndetection framework that identifies copyright infringement in text-to-image\ndiffusion models. Specifically, DPM simulates inclusion and exclusion processes\nby fine-tuning models in two opposing directions: learning or unlearning.\nBesides, to disentangle concept-specific influence from the global parameter\nshifts induced by fine-tuning, DPM computes confidence scores over orthogonal\nprompt distributions using statistical metrics. Moreover, to facilitate\nstandardized benchmarking, we also construct the Copyright Infringement\nDetection Dataset (CIDD), a comprehensive resource for evaluating detection\nacross diverse categories. Our results demonstrate that DPM reliably detects\ninfringement content without requiring access to the original training dataset\nor text prompts, offering an interpretable and practical solution for\nsafeguarding intellectual property in the era of generative AI.",
+    "updated" : "2025-09-27T00:38:12Z",
+    "published" : "2025-09-27T00:38:12Z",
+    "authors" : [
+      {
+        "name" : "Xiafeng Man"
+      },
+      {
+        "name" : "Zhipeng Wei"
+      },
+      {
+        "name" : "Jingjing Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.22900v1",
+    "title" : "Towards Context-aware Mobile Privacy Notice: Implementation of A\n  Deployable Contextual Privacy Policies Generator",
+    "summary" : "Lengthy and legally phrased privacy policies impede users' understanding of\nhow mobile applications collect and process personal data. Prior work proposed\nContextual Privacy Policies (CPPs) for mobile apps to display shorter policy\nsnippets only in the corresponding user interface contexts, but the pipeline\ncould not be deployable in real-world mobile environments. In this paper, we\npresent PrivScan, the first deployable CPP Software Development Kit (SDK) for\nAndroid. It captures live app screenshots to identify GUI elements associated\nwith types of personal data and displays CPPs in a concise, user-facing format.\nWe provide a lightweight floating button that offers low-friction, on-demand\ncontrol. The architecture leverages remote deployment to decouple the\nmultimodal backend pipeline from a mobile client comprising five modular\ncomponents, thereby reducing on-device resource demands and easing\ncross-platform portability. A feasibility-oriented evaluation shows an average\nexecution time of 9.15\\,s, demonstrating the practicality of our approach. The\nsource code of PrivScan is available at https://github.com/buyanghc/PrivScan\nand the demo video can be found at https://www.youtube.com/watch?v=ck-25otfyHc.",
+    "updated" : "2025-09-26T20:26:32Z",
+    "published" : "2025-09-26T20:26:32Z",
+    "authors" : [
+      {
+        "name" : "Haochen Gong"
+      },
+      {
+        "name" : "Zhen Tao"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Zhenchang Xing"
+      },
+      {
+        "name" : "Xiaoyu Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.22857v1",
+    "title" : "PAPER: Privacy-Preserving ResNet Models using Low-Degree Polynomial\n  Approximations and Structural Optimizations on Leveled FHE",
+    "summary" : "Recent work has made non-interactive privacy-preserving inference more\npractical by running deep Convolution Neural Network (CNN) with Fully\nHomomorphic Encryption (FHE). However, these methods remain limited by their\nreliance on bootstrapping, a costly FHE operation applied across multiple\nlayers, severely slowing inference. They also depend on high-degree polynomial\napproximations of non-linear activations, which increase multiplicative depth\nand reduce accuracy by 2-5% compared to plaintext ReLU models. In this work, we\nfocus on ResNets, a widely adopted benchmark architecture in privacy-preserving\ninference, and close the accuracy gap between their FHE-based non-interactive\nmodels and plaintext counterparts, while also achieving faster inference than\nexisting methods. We use a quadratic polynomial approximation of ReLU, which\nachieves the theoretical minimum multiplicative depth for non-linear\nactivations, along with a penalty-based training strategy. We further introduce\nstructural optimizations such as node fusing, weight redistribution, and tower\nreuse. These optimizations reduce the required FHE levels in CNNs by nearly a\nfactor of five compared to prior work, allowing us to run ResNet models under\nleveled FHE without bootstrapping. To further accelerate inference and recover\naccuracy typically lost with polynomial approximations, we introduce parameter\nclustering along with a joint strategy of data encoding layout and ensemble\ntechniques. Experiments with ResNet-18, ResNet-20, and ResNet-32 on CIFAR-10\nand CIFAR-100 show that our approach achieves up to 4x faster private inference\nthan prior work with comparable accuracy to plaintext ReLU models.",
+    "updated" : "2025-09-26T19:10:23Z",
+    "published" : "2025-09-26T19:10:23Z",
+    "authors" : [
+      {
+        "name" : "Eduardo Chielle"
+      },
+      {
+        "name" : "Manaar Alam"
+      },
+      {
+        "name" : "Jinting Liu"
+      },
+      {
+        "name" : "Jovan Kascelan"
+      },
+      {
+        "name" : "Michail Maniatakos"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.18871v2",
+    "title" : "Uncovering Privacy Vulnerabilities through Analytical Gradient Inversion\n  Attacks",
+    "summary" : "Federated learning has emerged as a prominent privacy-preserving technique\nfor leveraging large-scale distributed datasets by sharing gradients instead of\nraw data. However, recent studies indicate that private training data can still\nbe exposed through gradient inversion attacks. While earlier analytical methods\nhave demonstrated success in reconstructing input data from fully connected\nlayers, their effectiveness significantly diminishes when applied to\nconvolutional layers, high-dimensional inputs, and scenarios involving multiple\ntraining examples. This paper extends our previous work \\cite{eltaras2024r} and\nproposes three advanced algorithms to broaden the applicability of gradient\ninversion attacks. The first algorithm presents a novel data leakage method\nthat efficiently exploits convolutional layer gradients, demonstrating that\neven with non-fully invertible activation functions, such as ReLU, training\nsamples can be analytically reconstructed directly from gradients without the\nneed to reconstruct intermediate layer outputs. Building on this foundation,\nthe second algorithm extends this analytical approach to support\nhigh-dimensional input data, substantially enhancing its utility across complex\nreal-world datasets. The third algorithm introduces an innovative analytical\nmethod for reconstructing mini-batches, addressing a critical gap in current\nresearch that predominantly focuses on reconstructing only a single training\nexample. Unlike previous studies that focused mainly on the weight constraints\nof convolutional layers, our approach emphasizes the pivotal role of gradient\nconstraints, revealing that successful attacks can be executed with fewer than\n5\\% of the constraints previously deemed necessary in certain layers.",
+    "updated" : "2025-09-28T06:47:02Z",
+    "published" : "2025-09-23T10:10:12Z",
+    "authors" : [
+      {
+        "name" : "Tamer Ahmed Eltaras"
+      },
+      {
+        "name" : "Qutaibah Malluhi"
+      },
+      {
+        "name" : "Alessandro Savino"
+      },
+      {
+        "name" : "Stefano Di Carlo"
+      },
+      {
+        "name" : "Adnan Qayyum"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
