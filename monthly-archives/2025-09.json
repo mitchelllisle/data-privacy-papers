@@ -3939,5 +3939,170 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.25906v1",
+    "title" : "Federated Learning with Enhanced Privacy via Model Splitting and Random\n  Client Participation",
+    "summary" : "Federated Learning (FL) often adopts differential privacy (DP) to protect\nclient data, but the added noise required for privacy guarantees can\nsubstantially degrade model accuracy. To resolve this challenge, we propose\nmodel-splitting privacy-amplified federated learning (MS-PAFL), a novel\nframework that combines structural model splitting with statistical privacy\namplification. In this framework, each client's model is partitioned into a\nprivate submodel, retained locally, and a public submodel, shared for global\naggregation. The calibrated Gaussian noise is injected only into the public\nsubmodel, thereby confining its adverse impact while preserving the utility of\nthe local model. We further present a rigorous theoretical analysis that\ncharacterizes the joint privacy amplification achieved through random client\nparticipation and local data subsampling under this architecture. The analysis\nprovides tight bounds on both single-round and total privacy loss,\ndemonstrating that MS-PAFL significantly reduces the noise necessary to satisfy\na target privacy protection level. Extensive experiments validate our\ntheoretical findings, showing that MS-PAFL consistently attains a superior\nprivacy-utility trade-off and enables the training of highly accurate models\nunder strong privacy guarantees.",
+    "updated" : "2025-09-30T07:51:06Z",
+    "published" : "2025-09-30T07:51:06Z",
+    "authors" : [
+      {
+        "name" : "Yiwei Li"
+      },
+      {
+        "name" : "Shuai Wang"
+      },
+      {
+        "name" : "Zhuojun Tian"
+      },
+      {
+        "name" : "Xiuhua Wang"
+      },
+      {
+        "name" : "Shijian Su"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.25525v1",
+    "title" : "Defeating Cerberus: Concept-Guided Privacy-Leakage Mitigation in\n  Multimodal Language Models",
+    "summary" : "Multimodal large language models (MLLMs) have demonstrated remarkable\ncapabilities in processing and reasoning over diverse modalities, but their\nadvanced abilities also raise significant privacy concerns, particularly\nregarding Personally Identifiable Information (PII) leakage. While relevant\nresearch has been conducted on single-modal language models to some extent, the\nvulnerabilities in the multimodal setting have yet to be fully investigated. In\nthis work, we investigate these emerging risks with a focus on vision language\nmodels (VLMs), a representative subclass of MLLMs that covers the two\nmodalities most relevant for PII leakage, vision and text. We introduce a\nconcept-guided mitigation approach that identifies and modifies the model's\ninternal states associated with PII-related content. Our method guides VLMs to\nrefuse PII-sensitive tasks effectively and efficiently, without requiring\nre-training or fine-tuning. We also address the current lack of multimodal PII\ndatasets by constructing various ones that simulate real-world scenarios.\nExperimental results demonstrate that the method can achieve an average refusal\nrate of 93.3% for various PII-related tasks with minimal impact on unrelated\nmodel performances. We further examine the mitigation's performance under\nvarious conditions to show the adaptability of our proposed method.",
+    "updated" : "2025-09-29T21:27:10Z",
+    "published" : "2025-09-29T21:27:10Z",
+    "authors" : [
+      {
+        "name" : "Boyang Zhang"
+      },
+      {
+        "name" : "Istemi Ekin Akkus"
+      },
+      {
+        "name" : "Ruichuan Chen"
+      },
+      {
+        "name" : "Alice Dethise"
+      },
+      {
+        "name" : "Klaus Satzke"
+      },
+      {
+        "name" : "Ivica Rimac"
+      },
+      {
+        "name" : "Yang Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.25469v1",
+    "title" : "Balancing Compliance and Privacy in Offline CBDC Transactions Using a\n  Secure Element-based System",
+    "summary" : "Blockchain technology has spawned a vast ecosystem of digital currencies with\nCentral Bank Digital Currencies (CBDCs) -- digital forms of fiat currency --\nbeing one of them. An important feature of digital currencies is facilitating\ntransactions without network connectivity, which can enhance the scalability of\ncryptocurrencies and the privacy of CBDC users. However, in the case of CBDCs,\nthis characteristic also introduces new regulatory challenges, particularly\nwhen it comes to applying established Anti-Money Laundering and Countering the\nFinancing of Terrorism (AML/CFT) frameworks. This paper introduces a prototype\nfor offline digital currency payments, equally applicable to cryptocurrencies\nand CBDCs, that leverages Secure Elements and digital credentials to address\nthe tension of offline payment support with regulatory compliance. Performance\nevaluation results suggest that the prototype can be flexibly adapted to\ndifferent regulatory environments, with a transaction latency comparable to\nreal-life commercial payment systems. Furthermore, we conceptualize how the\nintegration of Zero-Knowledge Proofs into our design could accommodate various\ntiers of enhanced privacy protection.",
+    "updated" : "2025-09-29T20:19:31Z",
+    "published" : "2025-09-29T20:19:31Z",
+    "authors" : [
+      {
+        "name" : "Panagiotis Michalopoulos"
+      },
+      {
+        "name" : "Anthony Mack"
+      },
+      {
+        "name" : "Cameron Clark"
+      },
+      {
+        "name" : "Linus Chen"
+      },
+      {
+        "name" : "Johannes Sedlmeir"
+      },
+      {
+        "name" : "Andreas Veneris"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23459v2",
+    "title" : "MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction",
+    "summary" : "Large language models (LLMs) have shown promising performance on tasks that\nrequire reasoning, such as text-to-SQL, code generation, and debugging.\nHowever, regulatory frameworks with strict privacy requirements constrain their\nintegration into sensitive systems. State-of-the-art LLMs are also proprietary,\ncostly, and resource-intensive, making local deployment impractical.\nConsequently, utilizing such LLMs often requires sharing data with third-party\nproviders, raising privacy concerns and risking noncompliance with regulations.\nAlthough fine-tuned small language models (SLMs) can outperform LLMs on certain\ntasks and be deployed locally to mitigate privacy concerns, they underperform\non more complex tasks such as text-to-SQL translation. In this work, we\nintroduce MaskSQL, a text-to-SQL framework that utilizes abstraction as a\nprivacy protection mechanism to mask sensitive information in LLM prompts.\nUnlike redaction, which removes content entirely, or generalization, which\nbroadens tokens, abstraction retains essential information while discarding\nunnecessary details, striking an effective privacy-utility balance for the\ntext-to-SQL task. Moreover, by providing mechanisms to control the\nprivacy-utility tradeoff, MaskSQL facilitates adoption across a broader range\nof use cases. Our experimental results show that MaskSQL outperforms leading\nSLM-based text-to-SQL models and achieves performance approaching\nstate-of-the-art LLM-based models, while preserving privacy.",
+    "updated" : "2025-09-30T17:43:21Z",
+    "published" : "2025-09-27T19:07:50Z",
+    "authors" : [
+      {
+        "name" : "Sepideh Abedini"
+      },
+      {
+        "name" : "Shubhankar Mohapatra"
+      },
+      {
+        "name" : "D. B. Emerson"
+      },
+      {
+        "name" : "Masoumeh Shafieinejad"
+      },
+      {
+        "name" : "Jesse C. Cresswell"
+      },
+      {
+        "name" : "Xi He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.25205v1",
+    "title" : "Polynomial Contrastive Learning for Privacy-Preserving Representation\n  Learning on Graphs",
+    "summary" : "Self-supervised learning (SSL) has emerged as a powerful paradigm for\nlearning representations on graph data without requiring manual labels.\nHowever, leading SSL methods like GRACE are fundamentally incompatible with\nprivacy-preserving technologies such as Homomorphic Encryption (HE) due to\ntheir reliance on non-polynomial operations. This paper introduces Poly-GRACE,\na novel framework for HE-compatible self-supervised learning on graphs. Our\napproach consists of a fully polynomial-friendly Graph Convolutional Network\n(GCN) encoder and a novel, polynomial-based contrastive loss function. Through\nexperiments on three benchmark datasets -- Cora, CiteSeer, and PubMed -- we\ndemonstrate that Poly-GRACE not only enables private pre-training but also\nachieves performance that is highly competitive with, and in the case of\nCiteSeer, superior to the standard non-private baseline. Our work represents a\nsignificant step towards practical and high-performance privacy-preserving\ngraph representation learning.",
+    "updated" : "2025-09-19T20:00:30Z",
+    "published" : "2025-09-19T20:00:30Z",
+    "authors" : [
+      {
+        "name" : "Daksh Pandey"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "math.RA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.11625v2",
+    "title" : "Inducing Uncertainty on Open-Weight Models for Test-Time Privacy in\n  Image Recognition",
+    "summary" : "A key concern for AI safety remains understudied in the machine learning (ML)\nliterature: how can we ensure users of ML models do not leverage predictions on\nincorrect personal data to harm others? This is particularly pertinent given\nthe rise of open-weight models, where simply masking model outputs does not\nsuffice to prevent adversaries from recovering harmful predictions. To address\nthis threat, which we call *test-time privacy*, we induce maximal uncertainty\non protected instances while preserving accuracy on all other instances. Our\nproposed algorithm uses a Pareto optimal objective that explicitly balances\ntest-time privacy against utility. We also provide a certifiable approximation\nalgorithm which achieves $(\\varepsilon, \\delta)$ guarantees without convexity\nassumptions. We then prove a tight bound that characterizes the privacy-utility\ntradeoff that our algorithms incur. Empirically, our method obtains at least\n$>3\\times$ stronger uncertainty than pretraining with marginal drops in\naccuracy on various image recognition benchmarks. Altogether, this framework\nprovides a tool to guarantee additional protection to end users.",
+    "updated" : "2025-09-29T21:48:46Z",
+    "published" : "2025-09-15T06:38:57Z",
+    "authors" : [
+      {
+        "name" : "Muhammad H. Ashiq"
+      },
+      {
+        "name" : "Peter Triantafillou"
+      },
+      {
+        "name" : "Hung Yun Tseng"
+      },
+      {
+        "name" : "Grigoris G. Chrysos"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
