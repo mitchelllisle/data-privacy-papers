@@ -2,6 +2,94 @@
 <h2>2025-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.25906v1">Federated Learning with Enhanced Privacy via Model Splitting and Random
+  Client Participation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-30T07:51:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yiwei Li, Shuai Wang, Zhuojun Tian, Xiuhua Wang, Shijian Su</p>
+    <p><b>Summary:</b> Federated Learning (FL) often adopts differential privacy (DP) to protect
+client data, but the added noise required for privacy guarantees can
+substantially degrade model accuracy. To resolve this challenge, we propose
+model-splitting privacy-amplified federated learning (MS-PAFL), a novel
+framework that combines structural model splitting with statistical privacy
+amplification. In this framework, each client's model is partitioned into a
+private submodel, retained locally, and a public submodel, shared for global
+aggregation. The calibrated Gaussian noise is injected only into the public
+submodel, thereby confining its adverse impact while preserving the utility of
+the local model. We further present a rigorous theoretical analysis that
+characterizes the joint privacy amplification achieved through random client
+participation and local data subsampling under this architecture. The analysis
+provides tight bounds on both single-round and total privacy loss,
+demonstrating that MS-PAFL significantly reduces the noise necessary to satisfy
+a target privacy protection level. Extensive experiments validate our
+theoretical findings, showing that MS-PAFL consistently attains a superior
+privacy-utility trade-off and enables the training of highly accurate models
+under strong privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.25525v1">Defeating Cerberus: Concept-Guided Privacy-Leakage Mitigation in
+  Multimodal Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-09-29T21:27:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Boyang Zhang, Istemi Ekin Akkus, Ruichuan Chen, Alice Dethise, Klaus Satzke, Ivica Rimac, Yang Zhang</p>
+    <p><b>Summary:</b> Multimodal large language models (MLLMs) have demonstrated remarkable
+capabilities in processing and reasoning over diverse modalities, but their
+advanced abilities also raise significant privacy concerns, particularly
+regarding Personally Identifiable Information (PII) leakage. While relevant
+research has been conducted on single-modal language models to some extent, the
+vulnerabilities in the multimodal setting have yet to be fully investigated. In
+this work, we investigate these emerging risks with a focus on vision language
+models (VLMs), a representative subclass of MLLMs that covers the two
+modalities most relevant for PII leakage, vision and text. We introduce a
+concept-guided mitigation approach that identifies and modifies the model's
+internal states associated with PII-related content. Our method guides VLMs to
+refuse PII-sensitive tasks effectively and efficiently, without requiring
+re-training or fine-tuning. We also address the current lack of multimodal PII
+datasets by constructing various ones that simulate real-world scenarios.
+Experimental results demonstrate that the method can achieve an average refusal
+rate of 93.3% for various PII-related tasks with minimal impact on unrelated
+model performances. We further examine the mitigation's performance under
+various conditions to show the adaptability of our proposed method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.25469v1">Balancing Compliance and Privacy in Offline CBDC Transactions Using a
+  Secure Element-based System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-29T20:19:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Panagiotis Michalopoulos, Anthony Mack, Cameron Clark, Linus Chen, Johannes Sedlmeir, Andreas Veneris</p>
+    <p><b>Summary:</b> Blockchain technology has spawned a vast ecosystem of digital currencies with
+Central Bank Digital Currencies (CBDCs) -- digital forms of fiat currency --
+being one of them. An important feature of digital currencies is facilitating
+transactions without network connectivity, which can enhance the scalability of
+cryptocurrencies and the privacy of CBDC users. However, in the case of CBDCs,
+this characteristic also introduces new regulatory challenges, particularly
+when it comes to applying established Anti-Money Laundering and Countering the
+Financing of Terrorism (AML/CFT) frameworks. This paper introduces a prototype
+for offline digital currency payments, equally applicable to cryptocurrencies
+and CBDCs, that leverages Secure Elements and digital credentials to address
+the tension of offline payment support with regulatory compliance. Performance
+evaluation results suggest that the prototype can be flexibly adapted to
+different regulatory environments, with a transaction latency comparable to
+real-life commercial payment systems. Furthermore, we conceptualize how the
+integration of Zero-Knowledge Proofs into our design could accommodate various
+tiers of enhanced privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.25072v1">Optimizing Privacy-Preserving Primitives to Support LLM-Scale
   Applications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -279,7 +367,7 @@ and ability barriers in privacy work.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23459v1">MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction</a></h3>
+  <h3><a href="http://arxiv.org/abs/2509.23459v2">MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-09-27T19:07:50Z</p>
   <details>
@@ -1492,6 +1580,32 @@ ICALP 2014].</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2509.25205v1">Polynomial Contrastive Learning for Privacy-Preserving Representation
+  Learning on Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Rings and Algebras-662E9B">
+  <p><b>Published on:</b> 2025-09-19T20:00:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daksh Pandey</p>
+    <p><b>Summary:</b> Self-supervised learning (SSL) has emerged as a powerful paradigm for
+learning representations on graph data without requiring manual labels.
+However, leading SSL methods like GRACE are fundamentally incompatible with
+privacy-preserving technologies such as Homomorphic Encryption (HE) due to
+their reliance on non-polynomial operations. This paper introduces Poly-GRACE,
+a novel framework for HE-compatible self-supervised learning on graphs. Our
+approach consists of a fully polynomial-friendly Graph Convolutional Network
+(GCN) encoder and a novel, polynomial-based contrastive loss function. Through
+experiments on three benchmark datasets -- Cora, CiteSeer, and PubMed -- we
+demonstrate that Poly-GRACE not only enables private pre-training but also
+achieves performance that is highly competitive with, and in the case of
+CiteSeer, superior to the standard non-private baseline. Our work represents a
+significant step towards practical and high-performance privacy-preserving
+graph representation learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.15755v1">Utility-based Privacy Preserving Data Mining</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2025-09-19T08:30:41Z</p>
@@ -2289,31 +2403,28 @@ denial-of-service attack.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.11625v1">Inducing Uncertainty for Test-Time Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2509.11625v2">Inducing Uncertainty on Open-Weight Models for Test-Time Privacy in
+  Image Recognition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-09-15T06:38:57Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Muhammad H. Ashiq, Peter Triantafillou, Hung Yun Tseng, Grigoris G. Chrysos</p>
-    <p><b>Summary:</b> Unlearning is the predominant method for removing the influence of data in
-machine learning models. However, even after unlearning, models often continue
-to produce the same predictions on the unlearned data with high confidence.
-This persistent behavior can be exploited by adversaries using confident model
-predictions on incorrect or obsolete data to harm users. We call this threat
-model, which unlearning fails to protect against, *test-time privacy*. In
-particular, an adversary with full model access can bypass any naive defenses
-which ensure test-time privacy. To address this threat, we introduce an
-algorithm which perturbs model weights to induce maximal uncertainty on
-protected instances while preserving accuracy on the rest of the instances. Our
-core algorithm is based on finetuning with a Pareto optimal objective that
-explicitly balances test-time privacy against utility. We also provide a
-certifiable approximation algorithm which achieves $(\varepsilon, \delta)$
-guarantees without convexity assumptions. We then prove a tight, non-vacuous
-bound that characterizes the privacy-utility tradeoff that our algorithms
-incur. Empirically, our method obtains $>3\times$ stronger uncertainty than
-pretraining with $<0.2\%$ drops in accuracy on various image recognition
-benchmarks. Altogether, this framework provides a tool to guarantee additional
-protection to end users.</p>
+    <p><b>Summary:</b> A key concern for AI safety remains understudied in the machine learning (ML)
+literature: how can we ensure users of ML models do not leverage predictions on
+incorrect personal data to harm others? This is particularly pertinent given
+the rise of open-weight models, where simply masking model outputs does not
+suffice to prevent adversaries from recovering harmful predictions. To address
+this threat, which we call *test-time privacy*, we induce maximal uncertainty
+on protected instances while preserving accuracy on all other instances. Our
+proposed algorithm uses a Pareto optimal objective that explicitly balances
+test-time privacy against utility. We also provide a certifiable approximation
+algorithm which achieves $(\varepsilon, \delta)$ guarantees without convexity
+assumptions. We then prove a tight bound that characterizes the privacy-utility
+tradeoff that our algorithms incur. Empirically, our method obtains at least
+$>3\times$ stronger uncertainty than pretraining with marginal drops in
+accuracy on various image recognition benchmarks. Altogether, this framework
+provides a tool to guarantee additional protection to end users.</p>
   </details>
 </div>
 
@@ -2878,127 +2989,6 @@ confidentiality, and soundness, provide a concrete instantiation, and evaluate
 performance under a standard 2-2 transaction model. Our implementation and
 benchmarks demonstrate that SilentLedger achieves superior performance compared
 with state-of-the-art solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08720v1">PAnDA: Rethinking Metric Differential Privacy Optimization at Scale with
-  Anchor-Based Approximation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-10T16:14:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruiyao Liu, Chenxi Qiu</p>
-    <p><b>Summary:</b> Metric Differential Privacy (mDP) extends the local differential privacy
-(LDP) framework to metric spaces, enabling more nuanced privacy protection for
-data such as geo-locations. However, existing mDP optimization methods,
-particularly those based on linear programming (LP), face scalability
-challenges due to the quadratic growth in decision variables. In this paper, we
-propose Perturbation via Anchor-based Distributed Approximation (PAnDA), a
-scalable two-phase framework for optimizing metric differential privacy (mDP).
-To reduce computational overhead, PAnDA allows each user to select a small set
-of anchor records, enabling the server to solve a compact linear program over a
-reduced domain. We introduce three anchor selection strategies, exponential
-decay (PAnDA-e), power-law decay (PAnDA-p), and logistic decay (PAnDA-l), and
-establish theoretical guarantees under a relaxed privacy notion called
-probabilistic mDP (PmDP). Experiments on real-world geo-location datasets
-demonstrate that PAnDA scales to secret domains with up to 5,000 records, two
-times larger than prior LP-based methods, while providing theoretical
-guarantees for both privacy and utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08704v1">Tight Privacy Audit in One Run</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-10T15:55:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihang Xiang, Tianhao Wang, Hanshen Xiao, Yuan Tian, Di Wang</p>
-    <p><b>Summary:</b> In this paper, we study the problem of privacy audit in one run and show that
-our method achieves tight audit results for various differentially private
-protocols. This includes obtaining tight results for auditing
-$(\varepsilon,\delta)$-DP algorithms where all previous work fails to achieve
-in any parameter setups. We first formulate a framework for privacy audit
-\textit{in one run} with refinement compared with previous work. Then, based on
-modeling privacy by the $f$-DP formulation, we study the implications of our
-framework to obtain a theoretically justified lower bound for privacy audit. In
-the experiment, we compare with previous work and show that our audit method
-outperforms the rest in auditing various differentially private algorithms. We
-also provide experiments that give contrasting conclusions to previous work on
-the parameter settings for privacy audits in one run.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08554v1">Acceptability of AI Assistants for Privacy: Perceptions of Experts and
-  Users on Personalized Privacy Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-10T12:59:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meihe Xu, Aurelia Tamò-Larrieux, Arianna Rossi</p>
-    <p><b>Summary:</b> Individuals increasingly face an overwhelming number of tasks and decisions.
-To cope with the new reality, there is growing research interest in developing
-intelligent agents that can effectively assist people across various aspects of
-daily life in a tailored manner, with privacy emerging as a particular area of
-application. Artificial intelligence (AI) assistants for privacy, such as
-personalized privacy assistants (PPAs), have the potential to automatically
-execute privacy decisions based on users' pre-defined privacy preferences,
-sparing them the mental effort and time usually spent on each privacy decision.
-This helps ensure that, even when users feel overwhelmed or resigned about
-privacy, the decisions made by PPAs still align with their true preferences and
-best interests. While research has explored possible designs of such agents,
-user and expert perspectives on the acceptability of such AI-driven solutions
-remain largely unexplored. In this study, we conducted five focus groups with
-domain experts (n = 11) and potential users (n = 26) to uncover key themes
-shaping the acceptance of PPAs. Factors influencing the acceptability of AI
-assistants for privacy include design elements (such as information sources
-used by the agent), external conditions (such as regulation and literacy
-education), and systemic conditions (e.g., public or market providers and the
-need to avoid monopoly) to PPAs. These findings provide theoretical extensions
-to technology acceptance models measuring PPAs, insights on design, and policy
-implications for PPAs, as well as broader implications for the design of AI
-assistants.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08387v1">Infinite Stream Estimation under Personalized $w$-Event Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-09-10T08:27:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leilei Du, Peng Cheng, Lei Chen, Heng Tao Shen, Xuemin Lin, Wei Xi</p>
-    <p><b>Summary:</b> Streaming data collection is indispensable for stream data analysis, such as
-event monitoring. However, publishing these data directly leads to privacy
-leaks. $w$-event privacy is a valuable tool to protect individual privacy
-within a given time window while maintaining high accuracy in data collection.
-Most existing $w$-event privacy studies on infinite data stream only focus on
-homogeneous privacy requirements for all users. In this paper, we propose
-personalized $w$-event privacy protection that allows different users to have
-different privacy requirements in private data stream estimation. Specifically,
-we design a mechanism that allows users to maintain constant privacy
-requirements at each time slot, namely Personalized Window Size Mechanism
-(PWSM). Then, we propose two solutions to accurately estimate stream data
-statistics while achieving $w$-event level $\epsilon$ personalized differential
-privacy ( ($w$, $\epsilon$)-EPDP), namely Personalized Budget Distribution
-(PBD) and Peronalized Budget Absorption (PBA). PBD always provides at least the
-same privacy budget for the next time step as the amount consumed in the
-previous release. PBA fully absorbs the privacy budget from the previous $k$
-time slots, while also borrowing from the privacy budget of the next $k$ time
-slots, to increase the privacy budget for the current time slot. We prove that
-both PBD and PBA outperform the state-of-the-art private stream estimation
-methods while satisfying the privacy requirements of all users. We demonstrate
-the efficiency and effectiveness of our PBD and PBA on both real and synthetic
-data sets, compared with the recent uniformity $w$-event approaches, Budget
-Distribution (BD) and Budget Absorption (BA). Our PBD achieves 68% less error
-than BD on average on real data sets. Besides, our PBA achieves 24.9% less
-error than BA on average on synthetic data sets.</p>
   </details>
 </div>
 
