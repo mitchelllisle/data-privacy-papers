@@ -894,7 +894,7 @@ protection and utility preservation.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20460v1">Differential Privacy of Network Parameters from a System Identification
+  <h3><a href="http://arxiv.org/abs/2509.20460v2">Differential Privacy of Network Parameters from a System Identification
   Perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2025-09-24T18:06:11Z</p>
@@ -1438,7 +1438,7 @@ Tabular Generative Models.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.17871v1">B-Privacy: Defining and Enforcing Privacy in Weighted Voting</a></h3>
+  <h3><a href="http://arxiv.org/abs/2509.17871v2">B-Privacy: Defining and Enforcing Privacy in Weighted Voting</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-09-22T15:11:12Z</p>
   <details>
