@@ -4104,5 +4104,69 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.20460v2",
+    "title" : "Differential Privacy of Network Parameters from a System Identification\n  Perspective",
+    "summary" : "This paper addresses the problem of protecting network information from\nprivacy system identification (SI) attacks when sharing cyber-physical system\nsimulations. We model analyst observations of networked states as time-series\noutputs of a graph filter driven by differentially private (DP) nodal\nexcitations, with the analyst aiming to infer the underlying graph shift\noperator (GSO). Unlike traditional SI, which estimates system parameters, we\nstudy the inverse problem: what assumptions prevent adversaries from\nidentifying the GSO while preserving utility for legitimate analysis. We show\nthat applying DP mechanisms to inputs provides formal privacy guarantees for\nthe GSO, linking the $(\\epsilon,\\delta)$-DP bound to the spectral properties of\nthe graph filter and noise covariance. More precisely, for DP Gaussian signals,\nthe spectral characteristics of both the filter and noise covariance determine\nthe privacy bound, with smooth filters and low-condition-number covariance\nyielding greater privacy.",
+    "updated" : "2025-10-01T15:08:15Z",
+    "published" : "2025-09-24T18:06:11Z",
+    "authors" : [
+      {
+        "name" : "Andrew Campbell"
+      },
+      {
+        "name" : "Anna Scaglione"
+      },
+      {
+        "name" : "Hang Liu"
+      },
+      {
+        "name" : "Victor Elvira"
+      },
+      {
+        "name" : "Sean Peisert"
+      },
+      {
+        "name" : "Daniel Arnold"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.17871v2",
+    "title" : "B-Privacy: Defining and Enforcing Privacy in Weighted Voting",
+    "summary" : "In traditional, one-vote-per-person voting systems, privacy equates with\nballot secrecy: voting tallies are published, but individual voters' choices\nare concealed.\n  Voting systems that weight votes in proportion to token holdings, though, are\nnow prevalent in cryptocurrency and web3 systems. We show that these\nweighted-voting systems overturn existing notions of voter privacy. Our\nexperiments demonstrate that even with secret ballots, publishing raw tallies\noften reveals voters' choices.\n  Weighted voting thus requires a new framework for privacy. We introduce a\nnotion called B-privacy whose basis is bribery, a key problem in voting systems\ntoday. B-privacy captures the economic cost to an adversary of bribing voters\nbased on revealed voting tallies.\n  We propose a mechanism to boost B-privacy by noising voting tallies. We prove\nbounds on its tradeoff between B-privacy and transparency, meaning\nreported-tally accuracy. Analyzing 3,582 proposals across 30 Decentralized\nAutonomous Organizations (DAOs), we find that the prevalence of large voters\n(\"whales\") limits the effectiveness of any B-Privacy-enhancing technique.\nHowever, our mechanism proves to be effective in cases without extreme voting\nweight concentration: among proposals requiring coalitions of $\\geq5$ voters to\nflip outcomes, our mechanism raises B-privacy by a geometric mean factor of\n$4.1\\times$.\n  Our work offers the first principled guidance on transparency-privacy\ntradeoffs in weighted-voting systems, complementing existing approaches that\nfocus on ballot secrecy and revealing fundamental constraints that voting\nweight concentration imposes on privacy mechanisms.",
+    "updated" : "2025-09-30T21:20:52Z",
+    "published" : "2025-09-22T15:11:12Z",
+    "authors" : [
+      {
+        "name" : "Samuel Breckenridge"
+      },
+      {
+        "name" : "Dani Vilardell"
+      },
+      {
+        "name" : "Andrés Fábrega"
+      },
+      {
+        "name" : "Amy Zhao"
+      },
+      {
+        "name" : "Patrick McCorry"
+      },
+      {
+        "name" : "Rafael Solari"
+      },
+      {
+        "name" : "Ari Juels"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
