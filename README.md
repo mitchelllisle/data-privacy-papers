@@ -1,5 +1,244 @@
 
+<h2>2025-10</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.01793v1">Sensitivity, Specificity, and Consistency: A Tripartite Evaluation of
+  Privacy Filters for Synthetic Data Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-02T08:32:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Adil Koeken, Alexander Ziller, Moritz Knolle, Daniel Rueckert</p>
+    <p><b>Summary:</b> The generation of privacy-preserving synthetic datasets is a promising avenue
+for overcoming data scarcity in medical AI research. Post-hoc privacy filtering
+techniques, designed to remove samples containing personally identifiable
+information, have recently been proposed as a solution. However, their
+effectiveness remains largely unverified. This work presents a rigorous
+evaluation of a filtering pipeline applied to chest X-ray synthesis. Contrary
+to claims from the original publications, our results demonstrate that current
+filters exhibit limited specificity and consistency, achieving high sensitivity
+only for real images while failing to reliably detect near-duplicates generated
+from training data. These results demonstrate a critical limitation of post-hoc
+filtering: rather than effectively safeguarding patient privacy, these methods
+may provide a false sense of security while leaving unacceptable levels of
+patient information exposed. We conclude that substantial advances in filter
+design are needed before these methods can be confidently deployed in sensitive
+applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.01645v1">Position: Privacy Is Not Just Memorization!</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-02T04:02:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Niloofar Mireshghallah, Tianshi Li</p>
+    <p><b>Summary:</b> The discourse on privacy risks in Large Language Models (LLMs) has
+disproportionately focused on verbatim memorization of training data, while a
+constellation of more immediate and scalable privacy threats remain
+underexplored. This position paper argues that the privacy landscape of LLM
+systems extends far beyond training data extraction, encompassing risks from
+data collection practices, inference-time context leakage, autonomous agent
+capabilities, and the democratization of surveillance through deep inference
+attacks. We present a comprehensive taxonomy of privacy risks across the LLM
+lifecycle -- from data collection through deployment -- and demonstrate through
+case studies how current privacy frameworks fail to address these multifaceted
+threats. Through a longitudinal analysis of 1,322 AI/ML privacy papers
+published at leading conferences over the past decade (2016--2025), we reveal
+that while memorization receives outsized attention in technical research, the
+most pressing privacy harms lie elsewhere, where current technical approaches
+offer little traction and viable paths forward remain unclear. We call for a
+fundamental shift in how the research community approaches LLM privacy, moving
+beyond the narrow focus of current technical solutions and embracing
+interdisciplinary approaches that address the sociotechnical nature of these
+emerging threats.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.01113v1">Privacy Preserved Federated Learning with Attention-Based Aggregation
+  for Biometric Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-01T16:58:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kassahun Azezew, Minyechil Alehegn, Tsega Asresa, Bitew Mekuria, Tizazu Bayh, Ayenew Kassie, Amsalu Tesema, Animut Embiyale</p>
+    <p><b>Summary:</b> Because biometric data is sensitive, centralized training poses a privacy
+risk, even though biometric recognition is essential for contemporary
+applications. Federated learning (FL), which permits decentralized training,
+provides a privacy-preserving substitute. Conventional FL, however, has trouble
+with interpretability and heterogeneous data (non-IID). In order to handle
+non-IID biometric data, this framework adds an attention mechanism at the
+central server that weights local model updates according to their
+significance. Differential privacy and secure update protocols safeguard data
+while preserving accuracy. The A3-FL framework is evaluated in this study using
+FVC2004 fingerprint data, with each client's features extracted using a Siamese
+Convolutional Neural Network (Siamese-CNN). By dynamically modifying client
+contributions, the attention mechanism increases the accuracy of the global
+model.The accuracy, convergence speed, and robustness of the A3-FL framework
+are superior to those of standard FL (FedAvg) and static baselines, according
+to experimental evaluations using fingerprint data (FVC2004). The accuracy of
+the attention-based approach was 0.8413, while FedAvg, Local-only, and
+Centralized approaches were 0.8164, 0.7664, and 0.7997, respectively. Accuracy
+stayed high at 0.8330 even with differential privacy. A scalable and
+privacy-sensitive biometric system for secure and effective recognition in
+dispersed environments is presented in this work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.00909v1">"We are not Future-ready": Understanding AI Privacy Risks and Existing
+  Mitigation Strategies from the Perspective of AI Developers in Europe</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-10-01T13:51:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexandra Klymenko, Stephen Meisenbacher, Patrick Gage Kelley, Sai Teja Peddinti, Kurt Thomas, Florian Matthes</p>
+    <p><b>Summary:</b> The proliferation of AI has sparked privacy concerns related to training
+data, model interfaces, downstream applications, and more. We interviewed 25 AI
+developers based in Europe to understand which privacy threats they believe
+pose the greatest risk to users, developers, and businesses and what protective
+strategies, if any, would help to mitigate them. We find that there is little
+consensus among AI developers on the relative ranking of privacy risks. These
+differences stem from salient reasoning patterns that often relate to human
+rather than purely technical factors. Furthermore, while AI developers are
+aware of proposed mitigation strategies for addressing these risks, they
+reported minimal real-world adoption. Our findings highlight both gaps and
+opportunities for empowering AI developers to better address privacy risks in
+AI.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.00478v1">Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving
+  Domain Adaptation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-01T03:58:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jing Wang, Wonho Bae, Jiahong Chen, Wenxu Wang, Junhyug Noh</p>
+    <p><b>Summary:</b> Recent work on latent diffusion models (LDMs) has focused almost exclusively
+on generative tasks, leaving their potential for discriminative transfer
+largely unexplored. We introduce Discriminative Vicinity Diffusion (DVD), a
+novel LDM-based framework for a more practical variant of source-free domain
+adaptation (SFDA): the source provider may share not only a pre-trained
+classifier but also an auxiliary latent diffusion module, trained once on the
+source data and never exposing raw source samples. DVD encodes each source
+feature's label information into its latent vicinity by fitting a Gaussian
+prior over its k-nearest neighbors and training the diffusion network to drift
+noisy samples back to label-consistent representations. During adaptation, we
+sample from each target feature's latent vicinity, apply the frozen diffusion
+module to generate source-like cues, and use a simple InfoNCE loss to align the
+target encoder to these cues, explicitly transferring decision boundaries
+without source access. Across standard SFDA benchmarks, DVD outperforms
+state-of-the-art methods. We further show that the same latent diffusion module
+enhances the source classifier's accuracy on in-domain data and boosts
+performance in supervised classification and domain generalization experiments.
+DVD thus reinterprets LDMs as practical, privacy-preserving bridges for
+explicit knowledge transfer, addressing a core challenge in source-free domain
+adaptation that prior methods have yet to solve.</p>
+  </details>
+</div>
+
+
+
 <h2>2025-09</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.00350v1">Security and Privacy Analysis of Tile's Location Tracking Protocol</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-30T23:25:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akshaya Kumar, Anna Raymaker, Michael Specter</p>
+    <p><b>Summary:</b> We conduct the first comprehensive security analysis of Tile, the second most
+popular crowd-sourced location-tracking service behind Apple's AirTags. We
+identify several exploitable vulnerabilities and design flaws, disproving many
+of the platform's claimed security and privacy guarantees: Tile's servers can
+persistently learn the location of all users and tags, unprivileged adversaries
+can track users through Bluetooth advertisements emitted by Tile's devices, and
+Tile's anti-theft mode is easily subverted.
+  Despite its wide deployment -- millions of users, devices, and purpose-built
+hardware tags -- Tile provides no formal description of its protocol or threat
+model. Worse, Tile intentionally weakens its antistalking features to support
+an antitheft use-case and relies on a novel "accountability" mechanism to
+punish those abusing the system to stalk victims.
+  We examine Tile's accountability mechanism, a unique feature of independent
+interest; no other provider attempts to guarantee accountability. While an
+ideal accountability mechanism may disincentivize abuse in crowd-sourced
+location tracking protocols, we show that Tile's implementation is subvertible
+and introduces new exploitable vulnerabilities. We conclude with a discussion
+on the need for new, formal definitions of accountability in this setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.00165v1">Privacy-Preserving Learning-Augmented Data Structures</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-09-30T18:37:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prabhav Goyal, Vinesh Sridhar, Wilson Zheng</p>
+    <p><b>Summary:</b> Learning-augmented data structures use predicted frequency estimates to
+retrieve frequently occurring database elements faster than standard data
+structures. Recent work has developed data structures that optimally exploit
+these frequency estimates while maintaining robustness to adversarial
+prediction errors. However, the privacy and security implications of this
+setting remain largely unexplored.
+  In the event of a security breach, data structures should reveal minimal
+information beyond their current contents. This is even more crucial for
+learning-augmented data structures, whose layout adapts to the data. A data
+structure is history independent if its memory representation reveals no
+information about past operations except what is inferred from its current
+contents. In this work, we take the first step towards privacy and security
+guarantees in this setting by proposing the first learning-augmented data
+structure that is strongly history independent, robust, and supports dynamic
+updates.
+  To achieve this, we introduce two techniques: thresholding, which
+automatically makes any learning-augmented data structure robust, and pairing,
+a simple technique that provides strong history independence in the dynamic
+setting. Our experimental results demonstrate a tradeoff between security and
+efficiency but are still competitive with the state of the art.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.00164v1">Calyx: Privacy-Preserving Multi-Token Optimistic-Rollup Protocol</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-09-30T18:35:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dominik Apel, Zeta Avarikioti, Matteo Maffei, Yuheng Wang</p>
+    <p><b>Summary:</b> Rollup protocols have recently received significant attention as a promising
+class of Layer 2 (L2) scalability solutions. By utilizing the Layer 1 (L1)
+blockchain solely as a bulletin board for a summary of the executed
+transactions and state changes, rollups enable secure off-chain execution while
+avoiding the complexity of other L2 mechanisms. However, to ensure data
+availability, current rollup protocols require the plaintext of executed
+transactions to be published on-chain, resulting in inherent privacy
+limitations.
+  In this paper, we address this problem by introducing Calyx, the first
+privacy-preserving multi-token optimistic-Rollup protocol. Calyx guarantees
+full payment privacy for all L2 transactions, revealing no information about
+the sender, recipient, transferred amount, or token type. The protocol further
+supports atomic execution of multiple multi-token transactions and introduces a
+transaction fee scheme to enable broader application scenarios while ensuring
+the sustainable operation of the protocol. To enforce correctness, Calyx adopts
+an efficient one-step fraud-proof mechanism. We analyze the security and
+privacy guarantees of the protocol and provide an implementation and
+evaluation. Our results show that executing a single transaction costs
+approximately $0.06 (0.00002 ETH) and incurs only constant-size on-chain cost
+in asymptotic terms.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.25906v1">Federated Learning with Enhanced Privacy via Model Splitting and Random
@@ -2747,248 +2986,6 @@ suggests that DDP leads to better utility at the cost of privacy, while random
 projection enables more efficient model learning. Extensive experiments across
 diverse datasets show that D2P2-SGD remarkably enhances accuracy while
 maintaining privacy. Our code is available here.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09285v1">The Impact of Device Type, Data Practices, and Use Case Scenarios on
-  Privacy Concerns about Eye-tracked Augmented Reality in the United States and
-  Germany</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-11T09:21:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Efe Bozkir, Babette Bühler, Xiaoyuan Wu, Enkelejda Kasneci, Lujo Bauer, Lorrie Faith Cranor</p>
-    <p><b>Summary:</b> Augmented reality technology will likely be prevalent with more affordable
-head-mounted displays. Integrating novel interaction modalities such as eye
-trackers into head-mounted displays could lead to collecting vast amounts of
-biometric data, which may allow inference of sensitive user attributes like
-health status or sexual preference, posing privacy issues. While previous works
-broadly examined privacy concerns about augmented reality, ours is the first to
-extensively explore privacy concerns on behavioral data, particularly eye
-tracking in augmented reality. We crowdsourced four survey studies in the
-United States (n1 = 48, n2 = 525) and Germany (n3 = 48, n4 = 525) to understand
-the impact of user attributes, augmented reality devices, use cases, data
-practices, and country on privacy concerns. Our findings indicate that
-participants are generally concerned about privacy when they know what
-inferences can be made based on the collected data. Despite the more prominent
-use of smartphones in daily life than augmented reality glasses, we found no
-indications of differing privacy concerns depending on the device type. In
-addition, our participants are more comfortable when a particular use case
-benefits them and less comfortable when other humans can consume their data.
-Furthermore, participants in the United States are less concerned about their
-privacy than those in Germany. Based on our findings, we provide several
-recommendations to practitioners and policymakers for privacy-aware augmented
-reality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09103v1">AgriSentinel: Privacy-Enhanced Embedded-LLM Crop Disease Alerting System</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-11T02:29:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chanti Raju Mylay, Bobin Deng, Zhipeng Cai, Honghui Xu</p>
-    <p><b>Summary:</b> Crop diseases pose significant threats to global food security, agricultural
-productivity, and sustainable farming practices, directly affecting farmers'
-livelihoods and economic stability. To address the growing need for effective
-crop disease management, AI-based disease alerting systems have emerged as
-promising tools by providing early detection and actionable insights for timely
-intervention. However, existing systems often overlook critical aspects such as
-data privacy, market pricing power, and farmer-friendly usability, leaving
-farmers vulnerable to privacy breaches and economic exploitation. To bridge
-these gaps, we propose AgriSentinel, the first Privacy-Enhanced Embedded-LLM
-Crop Disease Alerting System. AgriSentinel incorporates a differential privacy
-mechanism to protect sensitive crop image data while maintaining classification
-accuracy. Its lightweight deep learning-based crop disease classification model
-is optimized for mobile devices, ensuring accessibility and usability for
-farmers. Additionally, the system includes a fine-tuned, on-device large
-language model (LLM) that leverages a curated knowledge pool to provide farmers
-with specific, actionable suggestions for managing crop diseases, going beyond
-simple alerting. Comprehensive experiments validate the effectiveness of
-AgriSentinel, demonstrating its ability to safeguard data privacy, maintain
-high classification performance, and deliver practical, actionable disease
-management strategies. AgriSentinel offers a robust, farmer-friendly solution
-for automating crop disease alerting and management, ultimately contributing to
-improved agricultural decision-making and enhanced crop productivity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09097v1">DP-FedLoRA: Privacy-Enhanced Federated Fine-Tuning for On-Device Large
-  Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-11T02:16:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Honghui Xu, Shiva Shrestha, Wei Chen, Zhiyuan Li, Zhipeng Cai</p>
-    <p><b>Summary:</b> As on-device large language model (LLM) systems become increasingly
-prevalent, federated fine-tuning enables advanced language understanding and
-generation directly on edge devices; however, it also involves processing
-sensitive, user-specific data, raising significant privacy concerns within the
-federated learning framework. To address these challenges, we propose
-DP-FedLoRA, a privacy-enhanced federated fine-tuning framework that integrates
-LoRA-based adaptation with differential privacy in a communication-efficient
-setting. Each client locally clips and perturbs its LoRA matrices using
-Gaussian noise to satisfy ($\epsilon$, $\delta$)-differential privacy. We
-further provide a theoretical analysis demonstrating the unbiased nature of the
-updates and deriving bounds on the variance introduced by noise, offering
-practical guidance for privacy-budget calibration. Experimental results across
-mainstream benchmarks show that DP-FedLoRA delivers competitive performance
-while offering strong privacy guarantees, paving the way for scalable and
-privacy-preserving LLM deployment in on-device environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09091v1">Towards Confidential and Efficient LLM Inference with Dual Privacy
-  Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-11T01:54:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Honglan Yu, Yibin Wang, Feifei Dai, Dong Liu, Haihui Fan, Xiaoyan Gu</p>
-    <p><b>Summary:</b> CPU-based trusted execution environments (TEEs) and differential privacy (DP)
-have gained wide applications for private inference. Due to high inference
-latency in TEEs, researchers use partition-based approaches that offload linear
-model components to GPUs. However, dense nonlinear layers of large language
-models (LLMs) result in significant communication overhead between TEEs and
-GPUs. DP-based approaches apply random noise to protect data privacy, but this
-compromises LLM performance and semantic understanding. To overcome the above
-drawbacks, this paper proposes CMIF, a Confidential and efficient Model
-Inference Framework. CMIF confidentially deploys the embedding layer in the
-client-side TEE and subsequent layers on GPU servers. Meanwhile, it optimizes
-the Report-Noisy-Max mechanism to protect sensitive inputs with a slight
-decrease in model performance. Extensive experiments on Llama-series models
-demonstrate that CMIF reduces additional inference overhead in TEEs while
-preserving user data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08995v1">When FinTech Meets Privacy: Securing Financial LLMs with Differential
-  Private Fine-Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-10T20:43:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sichen Zhu, Hoyeung Leung, Xiaoyi Wang, Jia Wei, Honghui Xu</p>
-    <p><b>Summary:</b> The integration of Large Language Models (LLMs) into financial technology
-(FinTech) has revolutionized the analysis and processing of complex financial
-data, driving advancements in real-time decision-making and analytics. With the
-growing trend of deploying AI models on edge devices for financial
-applications, ensuring the privacy of sensitive financial data has become a
-significant challenge. To address this, we propose DPFinLLM, a
-privacy-enhanced, lightweight LLM specifically designed for on-device financial
-applications. DPFinLLM combines a robust differential privacy mechanism with a
-streamlined architecture inspired by state-of-the-art models, enabling secure
-and efficient processing of financial data. This proposed DPFinLLM can not only
-safeguard user data from privacy breaches but also ensure high performance
-across diverse financial tasks. Extensive experiments on multiple financial
-sentiment datasets validate the effectiveness of DPFinLLM, demonstrating its
-ability to achieve performance comparable to fully fine-tuned models, even
-under strict privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08804v1">Approximate Algorithms for Verifying Differential Privacy with Gaussian
-  Distributions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Programming Languages-D91E36"> 
-  <p><b>Published on:</b> 2025-09-10T17:37:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bishnu Bhusal, Rohit Chadha, A. Prasad Sistla, Mahesh Viswanathan</p>
-    <p><b>Summary:</b> The verification of differential privacy algorithms that employ Gaussian
-distributions is little understood. This paper tackles the challenge of
-verifying such programs by introducing a novel approach to approximating
-probability distributions of loop-free programs that sample from both discrete
-and continuous distributions with computable probability density functions,
-including Gaussian and Laplace. We establish that verifying
-$(\epsilon,\delta)$-differential privacy for these programs is \emph{almost
-decidable}, meaning the problem is decidable for all values of $\delta$ except
-those in a finite set. Our verification algorithm is based on computing
-probabilities to any desired precision by combining integral approximations,
-and tail probability bounds. The proposed methods are implemented in the tool,
-DipApprox, using the FLINT library for high-precision integral computations,
-and incorporate optimizations to enhance scalability. We validate {\ourtool} on
-fundamental privacy-preserving algorithms, such as Gaussian variants of the
-Sparse Vector Technique and Noisy Max, demonstrating its effectiveness in both
-confirming privacy guarantees and detecting violations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08782v1">Extended Version: Security and Privacy Perceptions of Pakistani Facebook
-  Matrimony Group Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-09-10T17:12:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mah Jan Dorazahi, Deepthi Mungara, Yasemin Acar, Harshini Sri Ramulu</p>
-    <p><b>Summary:</b> In Pakistan, where dating apps are subject to censorship, Facebook matrimony
-groups -- also referred to as marriage groups -- serve as alternative virtual
-spaces for members to search for potential life partners. To participate in
-these groups, members often share sensitive personal information such as
-photos, addresses, and phone numbers, which exposes them to risks such as
-fraud, blackmail, and identity theft. To better protect users of Facebook
-matrimony groups, we need to understand aspects related to user safety, such as
-how users perceive risks, what influences their trust in sharing personal
-information, and how they navigate security and privacy concerns when seeking
-potential partners online. In this study, through 23 semi-structured
-interviews, we explore how Pakistani users of Facebook matrimony groups
-perceive and navigate risks of sharing personal information, and how cultural
-norms and expectations influence their behavior in these groups.
-  We find elevated privacy concerns among participants, leading them to share
-limited personal information and creating mistrust among potential partners.
-Many also expressed concerns about the authenticity of profiles and major
-security risks, such as identity theft, harassment, and social judgment. Our
-work highlights the challenges of safely navigating Facebook matrimony groups
-in Pakistan and offers recommendations for such as implementing stronger
-identity verification by group admins, enforcing stricter cybersecurity laws,
-clear platform guidelines to ensure accountability, and technical feature
-enhancements -- including restricting screenshots, picture downloads, and
-implementing anonymous chats -- to protect user data and build trust.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.08722v1">SilentLedger: Privacy-Preserving Auditing for Blockchains with Complete
-  Non-Interactivity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-10T16:14:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihan Liu, Xiaohu Wang, Chao Lin, Minghui Xu, Debiao He, Xinyi Huang</p>
-    <p><b>Summary:</b> Privacy-preserving blockchain systems are essential for protecting
-transaction data, yet they must also provide auditability that enables auditors
-to recover participant identities and transaction amounts when warranted.
-Existing designs often compromise the independence of auditing and
-transactions, introducing extra interactions that undermine usability and
-scalability. Moreover, many auditable solutions depend on auditors serving as
-validators or recording nodes, which introduces risks to both data security and
-system reliability.
-  To overcome these challenges, we propose SilentLedger, a privacy-preserving
-transaction system with auditing and complete non-interactivity. To support
-public verification of authorization, we introduce a renewable anonymous
-certificate scheme with formal semantics and a rigorous security model.
-SilentLedger further employs traceable transaction mechanisms constructed from
-established cryptographic primitives, enabling users to transact without
-interaction while allowing auditors to audit solely from on-chain data. We
-formally prove security properties including authenticity, anonymity,
-confidentiality, and soundness, provide a concrete instantiation, and evaluate
-performance under a standard 2-2 transaction model. Our implementation and
-benchmarks demonstrate that SilentLedger achieves superior performance compared
-with state-of-the-art solutions.</p>
   </details>
 </div>
 
