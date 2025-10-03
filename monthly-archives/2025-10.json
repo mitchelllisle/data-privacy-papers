@@ -1,1 +1,141 @@
-[{"id":"http://arxiv.org/abs/2510.01793v1","title":"Sensitivity, Specificity, and Consistency: A Tripartite Evaluation of\n  Privacy Filters for Synthetic Data Generation","summary":"The generation of privacy-preserving synthetic datasets is a promising avenue\nfor overcoming data scarcity in medical AI research. Post-hoc privacy filtering\ntechniques, designed to remove samples containing personally identifiable\ninformation, have recently been proposed as a solution. However, their\neffectiveness remains largely unverified. This work presents a rigorous\nevaluation of a filtering pipeline applied to chest X-ray synthesis. Contrary\nto claims from the original publications, our results demonstrate that current\nfilters exhibit limited specificity and consistency, achieving high sensitivity\nonly for real images while failing to reliably detect near-duplicates generated\nfrom training data. These results demonstrate a critical limitation of post-hoc\nfiltering: rather than effectively safeguarding patient privacy, these methods\nmay provide a false sense of security while leaving unacceptable levels of\npatient information exposed. We conclude that substantial advances in filter\ndesign are needed before these methods can be confidently deployed in sensitive\napplications.","updated":"2025-10-02T08:32:20Z","published":"2025-10-02T08:32:20Z","authors":[{"name":"Adil Koeken"},{"name":"Alexander Ziller"},{"name":"Moritz Knolle"},{"name":"Daniel Rueckert"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2510.01645v1","title":"Position: Privacy Is Not Just Memorization!","summary":"The discourse on privacy risks in Large Language Models (LLMs) has\ndisproportionately focused on verbatim memorization of training data, while a\nconstellation of more immediate and scalable privacy threats remain\nunderexplored. This position paper argues that the privacy landscape of LLM\nsystems extends far beyond training data extraction, encompassing risks from\ndata collection practices, inference-time context leakage, autonomous agent\ncapabilities, and the democratization of surveillance through deep inference\nattacks. We present a comprehensive taxonomy of privacy risks across the LLM\nlifecycle -- from data collection through deployment -- and demonstrate through\ncase studies how current privacy frameworks fail to address these multifaceted\nthreats. Through a longitudinal analysis of 1,322 AI/ML privacy papers\npublished at leading conferences over the past decade (2016--2025), we reveal\nthat while memorization receives outsized attention in technical research, the\nmost pressing privacy harms lie elsewhere, where current technical approaches\noffer little traction and viable paths forward remain unclear. We call for a\nfundamental shift in how the research community approaches LLM privacy, moving\nbeyond the narrow focus of current technical solutions and embracing\ninterdisciplinary approaches that address the sociotechnical nature of these\nemerging threats.","updated":"2025-10-02T04:02:06Z","published":"2025-10-02T04:02:06Z","authors":[{"name":"Niloofar Mireshghallah"},{"name":"Tianshi Li"}],"categories":["cs.CR","cs.AI","cs.CL","cs.LG"]},{"id":"http://arxiv.org/abs/2510.01113v1","title":"Privacy Preserved Federated Learning with Attention-Based Aggregation\n  for Biometric Recognition","summary":"Because biometric data is sensitive, centralized training poses a privacy\nrisk, even though biometric recognition is essential for contemporary\napplications. Federated learning (FL), which permits decentralized training,\nprovides a privacy-preserving substitute. Conventional FL, however, has trouble\nwith interpretability and heterogeneous data (non-IID). In order to handle\nnon-IID biometric data, this framework adds an attention mechanism at the\ncentral server that weights local model updates according to their\nsignificance. Differential privacy and secure update protocols safeguard data\nwhile preserving accuracy. The A3-FL framework is evaluated in this study using\nFVC2004 fingerprint data, with each client's features extracted using a Siamese\nConvolutional Neural Network (Siamese-CNN). By dynamically modifying client\ncontributions, the attention mechanism increases the accuracy of the global\nmodel.The accuracy, convergence speed, and robustness of the A3-FL framework\nare superior to those of standard FL (FedAvg) and static baselines, according\nto experimental evaluations using fingerprint data (FVC2004). The accuracy of\nthe attention-based approach was 0.8413, while FedAvg, Local-only, and\nCentralized approaches were 0.8164, 0.7664, and 0.7997, respectively. Accuracy\nstayed high at 0.8330 even with differential privacy. A scalable and\nprivacy-sensitive biometric system for secure and effective recognition in\ndispersed environments is presented in this work.","updated":"2025-10-01T16:58:59Z","published":"2025-10-01T16:58:59Z","authors":[{"name":"Kassahun Azezew"},{"name":"Minyechil Alehegn"},{"name":"Tsega Asresa"},{"name":"Bitew Mekuria"},{"name":"Tizazu Bayh"},{"name":"Ayenew Kassie"},{"name":"Amsalu Tesema"},{"name":"Animut Embiyale"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2510.00909v1","title":"\"We are not Future-ready\": Understanding AI Privacy Risks and Existing\n  Mitigation Strategies from the Perspective of AI Developers in Europe","summary":"The proliferation of AI has sparked privacy concerns related to training\ndata, model interfaces, downstream applications, and more. We interviewed 25 AI\ndevelopers based in Europe to understand which privacy threats they believe\npose the greatest risk to users, developers, and businesses and what protective\nstrategies, if any, would help to mitigate them. We find that there is little\nconsensus among AI developers on the relative ranking of privacy risks. These\ndifferences stem from salient reasoning patterns that often relate to human\nrather than purely technical factors. Furthermore, while AI developers are\naware of proposed mitigation strategies for addressing these risks, they\nreported minimal real-world adoption. Our findings highlight both gaps and\nopportunities for empowering AI developers to better address privacy risks in\nAI.","updated":"2025-10-01T13:51:33Z","published":"2025-10-01T13:51:33Z","authors":[{"name":"Alexandra Klymenko"},{"name":"Stephen Meisenbacher"},{"name":"Patrick Gage Kelley"},{"name":"Sai Teja Peddinti"},{"name":"Kurt Thomas"},{"name":"Florian Matthes"}],"categories":["cs.HC","cs.AI"]},{"id":"http://arxiv.org/abs/2510.00478v1","title":"Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving\n  Domain Adaptation","summary":"Recent work on latent diffusion models (LDMs) has focused almost exclusively\non generative tasks, leaving their potential for discriminative transfer\nlargely unexplored. We introduce Discriminative Vicinity Diffusion (DVD), a\nnovel LDM-based framework for a more practical variant of source-free domain\nadaptation (SFDA): the source provider may share not only a pre-trained\nclassifier but also an auxiliary latent diffusion module, trained once on the\nsource data and never exposing raw source samples. DVD encodes each source\nfeature's label information into its latent vicinity by fitting a Gaussian\nprior over its k-nearest neighbors and training the diffusion network to drift\nnoisy samples back to label-consistent representations. During adaptation, we\nsample from each target feature's latent vicinity, apply the frozen diffusion\nmodule to generate source-like cues, and use a simple InfoNCE loss to align the\ntarget encoder to these cues, explicitly transferring decision boundaries\nwithout source access. Across standard SFDA benchmarks, DVD outperforms\nstate-of-the-art methods. We further show that the same latent diffusion module\nenhances the source classifier's accuracy on in-domain data and boosts\nperformance in supervised classification and domain generalization experiments.\nDVD thus reinterprets LDMs as practical, privacy-preserving bridges for\nexplicit knowledge transfer, addressing a core challenge in source-free domain\nadaptation that prior methods have yet to solve.","updated":"2025-10-01T03:58:26Z","published":"2025-10-01T03:58:26Z","authors":[{"name":"Jing Wang"},{"name":"Wonho Bae"},{"name":"Jiahong Chen"},{"name":"Wenxu Wang"},{"name":"Junhyug Noh"}],"categories":["cs.LG"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2510.01793v1",
+    "title" : "Sensitivity, Specificity, and Consistency: A Tripartite Evaluation of\n  Privacy Filters for Synthetic Data Generation",
+    "summary" : "The generation of privacy-preserving synthetic datasets is a promising avenue\nfor overcoming data scarcity in medical AI research. Post-hoc privacy filtering\ntechniques, designed to remove samples containing personally identifiable\ninformation, have recently been proposed as a solution. However, their\neffectiveness remains largely unverified. This work presents a rigorous\nevaluation of a filtering pipeline applied to chest X-ray synthesis. Contrary\nto claims from the original publications, our results demonstrate that current\nfilters exhibit limited specificity and consistency, achieving high sensitivity\nonly for real images while failing to reliably detect near-duplicates generated\nfrom training data. These results demonstrate a critical limitation of post-hoc\nfiltering: rather than effectively safeguarding patient privacy, these methods\nmay provide a false sense of security while leaving unacceptable levels of\npatient information exposed. We conclude that substantial advances in filter\ndesign are needed before these methods can be confidently deployed in sensitive\napplications.",
+    "updated" : "2025-10-02T08:32:20Z",
+    "published" : "2025-10-02T08:32:20Z",
+    "authors" : [
+      {
+        "name" : "Adil Koeken"
+      },
+      {
+        "name" : "Alexander Ziller"
+      },
+      {
+        "name" : "Moritz Knolle"
+      },
+      {
+        "name" : "Daniel Rueckert"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.01645v1",
+    "title" : "Position: Privacy Is Not Just Memorization!",
+    "summary" : "The discourse on privacy risks in Large Language Models (LLMs) has\ndisproportionately focused on verbatim memorization of training data, while a\nconstellation of more immediate and scalable privacy threats remain\nunderexplored. This position paper argues that the privacy landscape of LLM\nsystems extends far beyond training data extraction, encompassing risks from\ndata collection practices, inference-time context leakage, autonomous agent\ncapabilities, and the democratization of surveillance through deep inference\nattacks. We present a comprehensive taxonomy of privacy risks across the LLM\nlifecycle -- from data collection through deployment -- and demonstrate through\ncase studies how current privacy frameworks fail to address these multifaceted\nthreats. Through a longitudinal analysis of 1,322 AI/ML privacy papers\npublished at leading conferences over the past decade (2016--2025), we reveal\nthat while memorization receives outsized attention in technical research, the\nmost pressing privacy harms lie elsewhere, where current technical approaches\noffer little traction and viable paths forward remain unclear. We call for a\nfundamental shift in how the research community approaches LLM privacy, moving\nbeyond the narrow focus of current technical solutions and embracing\ninterdisciplinary approaches that address the sociotechnical nature of these\nemerging threats.",
+    "updated" : "2025-10-02T04:02:06Z",
+    "published" : "2025-10-02T04:02:06Z",
+    "authors" : [
+      {
+        "name" : "Niloofar Mireshghallah"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.01113v1",
+    "title" : "Privacy Preserved Federated Learning with Attention-Based Aggregation\n  for Biometric Recognition",
+    "summary" : "Because biometric data is sensitive, centralized training poses a privacy\nrisk, even though biometric recognition is essential for contemporary\napplications. Federated learning (FL), which permits decentralized training,\nprovides a privacy-preserving substitute. Conventional FL, however, has trouble\nwith interpretability and heterogeneous data (non-IID). In order to handle\nnon-IID biometric data, this framework adds an attention mechanism at the\ncentral server that weights local model updates according to their\nsignificance. Differential privacy and secure update protocols safeguard data\nwhile preserving accuracy. The A3-FL framework is evaluated in this study using\nFVC2004 fingerprint data, with each client's features extracted using a Siamese\nConvolutional Neural Network (Siamese-CNN). By dynamically modifying client\ncontributions, the attention mechanism increases the accuracy of the global\nmodel.The accuracy, convergence speed, and robustness of the A3-FL framework\nare superior to those of standard FL (FedAvg) and static baselines, according\nto experimental evaluations using fingerprint data (FVC2004). The accuracy of\nthe attention-based approach was 0.8413, while FedAvg, Local-only, and\nCentralized approaches were 0.8164, 0.7664, and 0.7997, respectively. Accuracy\nstayed high at 0.8330 even with differential privacy. A scalable and\nprivacy-sensitive biometric system for secure and effective recognition in\ndispersed environments is presented in this work.",
+    "updated" : "2025-10-01T16:58:59Z",
+    "published" : "2025-10-01T16:58:59Z",
+    "authors" : [
+      {
+        "name" : "Kassahun Azezew"
+      },
+      {
+        "name" : "Minyechil Alehegn"
+      },
+      {
+        "name" : "Tsega Asresa"
+      },
+      {
+        "name" : "Bitew Mekuria"
+      },
+      {
+        "name" : "Tizazu Bayh"
+      },
+      {
+        "name" : "Ayenew Kassie"
+      },
+      {
+        "name" : "Amsalu Tesema"
+      },
+      {
+        "name" : "Animut Embiyale"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.00909v1",
+    "title" : "\"We are not Future-ready\": Understanding AI Privacy Risks and Existing\n  Mitigation Strategies from the Perspective of AI Developers in Europe",
+    "summary" : "The proliferation of AI has sparked privacy concerns related to training\ndata, model interfaces, downstream applications, and more. We interviewed 25 AI\ndevelopers based in Europe to understand which privacy threats they believe\npose the greatest risk to users, developers, and businesses and what protective\nstrategies, if any, would help to mitigate them. We find that there is little\nconsensus among AI developers on the relative ranking of privacy risks. These\ndifferences stem from salient reasoning patterns that often relate to human\nrather than purely technical factors. Furthermore, while AI developers are\naware of proposed mitigation strategies for addressing these risks, they\nreported minimal real-world adoption. Our findings highlight both gaps and\nopportunities for empowering AI developers to better address privacy risks in\nAI.",
+    "updated" : "2025-10-01T13:51:33Z",
+    "published" : "2025-10-01T13:51:33Z",
+    "authors" : [
+      {
+        "name" : "Alexandra Klymenko"
+      },
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Patrick Gage Kelley"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Kurt Thomas"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.00478v1",
+    "title" : "Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving\n  Domain Adaptation",
+    "summary" : "Recent work on latent diffusion models (LDMs) has focused almost exclusively\non generative tasks, leaving their potential for discriminative transfer\nlargely unexplored. We introduce Discriminative Vicinity Diffusion (DVD), a\nnovel LDM-based framework for a more practical variant of source-free domain\nadaptation (SFDA): the source provider may share not only a pre-trained\nclassifier but also an auxiliary latent diffusion module, trained once on the\nsource data and never exposing raw source samples. DVD encodes each source\nfeature's label information into its latent vicinity by fitting a Gaussian\nprior over its k-nearest neighbors and training the diffusion network to drift\nnoisy samples back to label-consistent representations. During adaptation, we\nsample from each target feature's latent vicinity, apply the frozen diffusion\nmodule to generate source-like cues, and use a simple InfoNCE loss to align the\ntarget encoder to these cues, explicitly transferring decision boundaries\nwithout source access. Across standard SFDA benchmarks, DVD outperforms\nstate-of-the-art methods. We further show that the same latent diffusion module\nenhances the source classifier's accuracy on in-domain data and boosts\nperformance in supervised classification and domain generalization experiments.\nDVD thus reinterprets LDMs as practical, privacy-preserving bridges for\nexplicit knowledge transfer, addressing a core challenge in source-free domain\nadaptation that prior methods have yet to solve.",
+    "updated" : "2025-10-01T03:58:26Z",
+    "published" : "2025-10-01T03:58:26Z",
+    "authors" : [
+      {
+        "name" : "Jing Wang"
+      },
+      {
+        "name" : "Wonho Bae"
+      },
+      {
+        "name" : "Jiahong Chen"
+      },
+      {
+        "name" : "Wenxu Wang"
+      },
+      {
+        "name" : "Junhyug Noh"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  }
+]
