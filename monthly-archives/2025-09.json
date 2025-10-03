@@ -4168,5 +4168,73 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.00350v1",
+    "title" : "Security and Privacy Analysis of Tile's Location Tracking Protocol",
+    "summary" : "We conduct the first comprehensive security analysis of Tile, the second most\npopular crowd-sourced location-tracking service behind Apple's AirTags. We\nidentify several exploitable vulnerabilities and design flaws, disproving many\nof the platform's claimed security and privacy guarantees: Tile's servers can\npersistently learn the location of all users and tags, unprivileged adversaries\ncan track users through Bluetooth advertisements emitted by Tile's devices, and\nTile's anti-theft mode is easily subverted.\n  Despite its wide deployment -- millions of users, devices, and purpose-built\nhardware tags -- Tile provides no formal description of its protocol or threat\nmodel. Worse, Tile intentionally weakens its antistalking features to support\nan antitheft use-case and relies on a novel \"accountability\" mechanism to\npunish those abusing the system to stalk victims.\n  We examine Tile's accountability mechanism, a unique feature of independent\ninterest; no other provider attempts to guarantee accountability. While an\nideal accountability mechanism may disincentivize abuse in crowd-sourced\nlocation tracking protocols, we show that Tile's implementation is subvertible\nand introduces new exploitable vulnerabilities. We conclude with a discussion\non the need for new, formal definitions of accountability in this setting.",
+    "updated" : "2025-09-30T23:25:59Z",
+    "published" : "2025-09-30T23:25:59Z",
+    "authors" : [
+      {
+        "name" : "Akshaya Kumar"
+      },
+      {
+        "name" : "Anna Raymaker"
+      },
+      {
+        "name" : "Michael Specter"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.00165v1",
+    "title" : "Privacy-Preserving Learning-Augmented Data Structures",
+    "summary" : "Learning-augmented data structures use predicted frequency estimates to\nretrieve frequently occurring database elements faster than standard data\nstructures. Recent work has developed data structures that optimally exploit\nthese frequency estimates while maintaining robustness to adversarial\nprediction errors. However, the privacy and security implications of this\nsetting remain largely unexplored.\n  In the event of a security breach, data structures should reveal minimal\ninformation beyond their current contents. This is even more crucial for\nlearning-augmented data structures, whose layout adapts to the data. A data\nstructure is history independent if its memory representation reveals no\ninformation about past operations except what is inferred from its current\ncontents. In this work, we take the first step towards privacy and security\nguarantees in this setting by proposing the first learning-augmented data\nstructure that is strongly history independent, robust, and supports dynamic\nupdates.\n  To achieve this, we introduce two techniques: thresholding, which\nautomatically makes any learning-augmented data structure robust, and pairing,\na simple technique that provides strong history independence in the dynamic\nsetting. Our experimental results demonstrate a tradeoff between security and\nefficiency but are still competitive with the state of the art.",
+    "updated" : "2025-09-30T18:37:39Z",
+    "published" : "2025-09-30T18:37:39Z",
+    "authors" : [
+      {
+        "name" : "Prabhav Goyal"
+      },
+      {
+        "name" : "Vinesh Sridhar"
+      },
+      {
+        "name" : "Wilson Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.00164v1",
+    "title" : "Calyx: Privacy-Preserving Multi-Token Optimistic-Rollup Protocol",
+    "summary" : "Rollup protocols have recently received significant attention as a promising\nclass of Layer 2 (L2) scalability solutions. By utilizing the Layer 1 (L1)\nblockchain solely as a bulletin board for a summary of the executed\ntransactions and state changes, rollups enable secure off-chain execution while\navoiding the complexity of other L2 mechanisms. However, to ensure data\navailability, current rollup protocols require the plaintext of executed\ntransactions to be published on-chain, resulting in inherent privacy\nlimitations.\n  In this paper, we address this problem by introducing Calyx, the first\nprivacy-preserving multi-token optimistic-Rollup protocol. Calyx guarantees\nfull payment privacy for all L2 transactions, revealing no information about\nthe sender, recipient, transferred amount, or token type. The protocol further\nsupports atomic execution of multiple multi-token transactions and introduces a\ntransaction fee scheme to enable broader application scenarios while ensuring\nthe sustainable operation of the protocol. To enforce correctness, Calyx adopts\nan efficient one-step fraud-proof mechanism. We analyze the security and\nprivacy guarantees of the protocol and provide an implementation and\nevaluation. Our results show that executing a single transaction costs\napproximately $0.06 (0.00002 ETH) and incurs only constant-size on-chain cost\nin asymptotic terms.",
+    "updated" : "2025-09-30T18:35:31Z",
+    "published" : "2025-09-30T18:35:31Z",
+    "authors" : [
+      {
+        "name" : "Dominik Apel"
+      },
+      {
+        "name" : "Zeta Avarikioti"
+      },
+      {
+        "name" : "Matteo Maffei"
+      },
+      {
+        "name" : "Yuheng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
