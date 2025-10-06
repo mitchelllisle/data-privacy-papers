@@ -2,6 +2,73 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.03035v1">Protecting Persona Biometric Data: The Case of Facial Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-10-03T14:16:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lambert Hogenhout, Rinzin Wangmo</p>
+    <p><b>Summary:</b> The proliferation of digital technologies has led to unprecedented data
+collection, with facial data emerging as a particularly sensitive commodity.
+Companies are increasingly leveraging advanced facial recognition technologies,
+often without the explicit consent or awareness of individuals, to build
+sophisticated surveillance capabilities. This practice, fueled by weak and
+fragmented laws in many jurisdictions, has created a regulatory vacuum that
+allows for the commercialization of personal identity and poses significant
+threats to individual privacy and autonomy. This article introduces the concept
+of Facial Privacy. It analyzes the profound challenges posed by unregulated
+facial recognition by conducting a comprehensive review of existing legal
+frameworks. It examines and compares regulations such as the GDPR, Brazil's
+LGPD, Canada's PIPEDA, and privacy acts in China, Singapore, South Korea, and
+Japan, alongside sector-specific laws in the United States like the Illinois
+Biometric Information Privacy Act (BIPA). The analysis highlights the societal
+impacts of this technology, including the potential for discriminatory bias and
+the long-lasting harm that can result from the theft of immutable biometric
+data. Ultimately, the paper argues that existing legal loopholes and
+ambiguities leave individuals vulnerable. It proposes a new policy framework
+that shifts the paradigm from data as property to a model of inalienable
+rights, ensuring that fundamental human rights are upheld against unchecked
+technological expansion.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.02487v1">Interplay between Security, Privacy and Trust in 6G-enabled Intelligent
+  Transportation Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-02T18:47:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ahmed Danladi Abdullahi, Erfan Bahrami, Tooska Dargahi, Mohammed Al-Khalidi, Mohammad Hammoudeh</p>
+    <p><b>Summary:</b> The advancement of 6G technology has the potential to revolutionize the
+transportation sector and significantly improve how we travel. 6G-enabled
+Intelligent Transportation Systems (ITS) promise to offer high-speed,
+low-latency communication and advanced data analytics capabilities, supporting
+the development of safer, more efficient, and more sustainable transportation
+solutions. However, various security and privacy challenges were identified in
+the literature that must be addressed to enable the safe and secure deployment
+of 6G-ITS and ensure people's trust in using these technologies. This paper
+reviews the opportunities and challenges of 6G-ITS, particularly focusing on
+trust, security, and privacy, with special attention to quantum technologies
+that both enhance security through quantum key distribution and introduce new
+vulnerabilities. It discusses the potential benefits of 6G technology in the
+transportation sector, including improved communication, device
+interoperability support, data analytic capabilities, and increased automation
+for different components, such as transportation management and communication
+systems. A taxonomy of different attack models in 6G-ITS is proposed, and a
+comparison of the security threats in 5G-ITS and 6G-ITS is provided, along with
+potential mitigating solutions. This research highlights the urgent need for a
+comprehensive, multi-layered security framework spanning physical
+infrastructure protection, network protocol security, data management
+safeguards, application security measures, and trust management systems to
+effectively mitigate emerging security and privacy risks and ensure the
+integrity and resilience of future transportation ecosystems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.01793v1">Sensitivity, Specificity, and Consistency: A Tripartite Evaluation of
   Privacy Filters for Synthetic Data Generation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -579,6 +646,61 @@ broader relevance of these privacy risks to emerging autonomous AI agents.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.02357v1">Privacy in the Age of AI: A Taxonomy of Data Risks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2025-09-28T00:20:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Grace Billiris, Asif Gill, Madhushi Bandara</p>
+    <p><b>Summary:</b> Artificial Intelligence (AI) systems introduce unprecedented privacy
+challenges as they process increasingly sensitive data. Traditional privacy
+frameworks prove inadequate for AI technologies due to unique characteristics
+such as autonomous learning and black-box decision-making. This paper presents
+a taxonomy classifying AI privacy risks, synthesised from 45 studies identified
+through systematic review. We identify 19 key risks grouped under four
+categories: Dataset-Level, Model-Level, Infrastructure-Level, and Insider
+Threat Risks. Findings reveal a balanced distribution across these dimensions,
+with human error (9.45%) emerging as the most significant factor. This taxonomy
+challenges conventional security approaches that typically prioritise technical
+controls over human factors, highlighting gaps in holistic understanding. By
+bridging technical and behavioural dimensions of AI privacy, this paper
+contributes to advancing trustworthy AI development and provides a foundation
+for future research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.02356v1">Measuring Physical-World Privacy Awareness of Large Language Models: An
+  Evaluation Benchmark</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-09-27T23:39:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinjie Shen, Mufei Li, Pan Li</p>
+    <p><b>Summary:</b> The deployment of Large Language Models (LLMs) in embodied agents creates an
+urgent need to measure their privacy awareness in the physical world. Existing
+evaluation methods, however, are confined to natural language based scenarios.
+To bridge this gap, we introduce EAPrivacy, a comprehensive evaluation
+benchmark designed to quantify the physical-world privacy awareness of
+LLM-powered agents. EAPrivacy utilizes procedurally generated scenarios across
+four tiers to test an agent's ability to handle sensitive objects, adapt to
+changing environments, balance task execution with privacy constraints, and
+resolve conflicts with social norms. Our measurements reveal a critical deficit
+in current models. The top-performing model, Gemini 2.5 Pro, achieved only 59\%
+accuracy in scenarios involving changing physical environments. Furthermore,
+when a task was accompanied by a privacy request, models prioritized completion
+over the constraint in up to 86\% of cases. In high-stakes situations pitting
+privacy against critical social norms, leading models like GPT-4o and
+Claude-3.5-haiku disregarded the social norm over 15\% of the time. These
+findings, demonstrated by our benchmark, underscore a fundamental misalignment
+in LLMs regarding physically grounded privacy and establish the need for more
+robust, physically-aware alignment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.23525v1">Privy: Envisioning and Mitigating Privacy Risks for Consumer-facing AI
   Product Concepts</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -1084,6 +1206,33 @@ limited number of participants. We further benchmark PQFed against a baseline
 cluster-based algorithm, IFCA, and observe that PQFed also achieves better
 performance in low-participation scenarios. These findings highlight PQFed's
 scalability and effectiveness in personalized federated learning settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.02325v1">Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP
+  Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2025-09-25T21:25:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammed A. Shehab</p>
+    <p><b>Summary:</b> This paper introduces Agentic-AI Healthcare, a privacy-aware, multilingual,
+and explainable research prototype developed as a single-investigator project.
+The system leverages the emerging Model Context Protocol (MCP) to orchestrate
+multiple intelligent agents for patient interaction, including symptom
+checking, medication suggestions, and appointment scheduling. The platform
+integrates a dedicated Privacy and Compliance Layer that applies role-based
+access control (RBAC), AES-GCM field-level encryption, and tamper-evident audit
+logging, aligning with major healthcare data protection standards such as HIPAA
+(US), PIPEDA (Canada), and PHIPA (Ontario). Example use cases demonstrate
+multilingual patient-doctor interaction (English, French, Arabic) and
+transparent diagnostic reasoning powered by large language models. As an
+applied AI contribution, this work highlights the feasibility of combining
+agentic orchestration, multilingual accessibility, and compliance-aware
+architecture in healthcare applications. This platform is presented as a
+research prototype and is not a certified medical device.</p>
   </details>
 </div>
 
@@ -2829,163 +2978,6 @@ demonstrate that Fed-MARL outperforms centralized MARL and heuristic baselines
 in task success rate, latency, energy efficiency, and fairness, while ensuring
 robust privacy protection and scalability in dynamic, resource-constrained 6G
 edge networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.10018v1">GAMA: A General Anonymizing Multi-Agent System for Privacy Preservation
-  Enhanced by Domain Rules and Disproof Method</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-12T07:22:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hailong Yang, Renhuo Zhao, Guanjin Wang, Zhaohong Deng</p>
-    <p><b>Summary:</b> With the rapid advancement of Large Language Model (LLM), LLM-based agents
-exhibit exceptional abilities in understanding and generating natural language,
-facilitating human-like collaboration and information transmission in LLM-based
-Multi-Agent System (MAS). High-performance LLMs are often hosted on remote
-servers in public spaces. When tasks involve privacy data, MAS cannot securely
-utilize these LLMs without implementing privacy-preserving mechanisms. To
-address this challenge, we propose a General Anonymizing Multi-Agent system
-(GAMA), which divides the agents' workspace into private and public spaces and
-protects privacy through the anonymizing mechanism. In the private space,
-agents handle sensitive data, while in the public space, only anonymized data
-is utilized. GAMA incorporates two key modules to mitigate semantic loss caused
-by anonymization: Domain-Rule-based Knowledge Enhancement (DRKE) and
-Disproof-based Logic Enhancement (DLE). We evaluate GAMA on two public
-question-answering datasets: Trivia Creative Writing and Logic Grid Puzzle. The
-results demonstrate that GAMA has superior performance compared to the
-state-of-the-art models. To further assess its privacy-preserving capabilities,
-we designed two new datasets: Knowledge Privacy Preservation and Logic Privacy
-Preservation. The final results highlight GAMA's exceptional effectiveness in
-both task processing and privacy preservation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09916v1">Immersive Invaders: Privacy Threats from Deceptive Design in Virtual
-  Reality Games and Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-12T01:31:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hilda Hadan, Michaela Valiquette, Lennart E. Nacke, Leah Zhang-Kennedy</p>
-    <p><b>Summary:</b> Virtual Reality (VR) technologies offer immersive experiences but collect
-substantial user data. While deceptive design is well-studied in 2D platforms,
-little is known about its manifestation in VR environments and its impact on
-user privacy. This research investigates deceptive designs in privacy
-communication and interaction mechanisms of 12 top-rated VR games and
-applications through autoethnographic evaluation of the applications and
-thematic analysis of privacy policies. We found that while many deceptive
-designs rely on 2D interfaces, some VR-unique features, while not directly
-enabling deception, amplified data disclosure behaviors, and obscured actual
-data practices. Convoluted privacy policies and manipulative consent practices
-further hinder comprehension and increase privacy risks. We also observed
-privacy-preserving design strategies and protective considerations in VR
-privacy policies. We offer recommendations for ethical VR design that balance
-immersive experiences with strong privacy protections, guiding researchers,
-designers, and policymakers to improve privacy in VR environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09844v1">Privacy-Preserving Automated Rosacea Detection Based on Medically
-  Inspired Region of Interest Selection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-09-11T20:54:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chengyu Yang, Rishik Reddy Yesgari, Chengjun Liu</p>
-    <p><b>Summary:</b> Rosacea is a common but underdiagnosed inflammatory skin condition that
-primarily affects the central face and presents with subtle redness, pustules,
-and visible blood vessels. Automated detection remains challenging due to the
-diffuse nature of symptoms, the scarcity of labeled datasets, and privacy
-concerns associated with using identifiable facial images. A novel
-privacy-preserving automated rosacea detection method inspired by clinical
-priors and trained entirely on synthetic data is presented in this paper.
-Specifically, the proposed method, which leverages the observation that rosacea
-manifests predominantly through central facial erythema, first constructs a
-fixed redness-informed mask by selecting regions with consistently high red
-channel intensity across facial images. The mask thus is able to focus on
-diagnostically relevant areas such as the cheeks, nose, and forehead and
-exclude identity-revealing features. Second, the ResNet-18 deep learning
-method, which is trained on the masked synthetic images, achieves superior
-performance over the full-face baselines with notable gains in terms of
-accuracy, recall and F1 score when evaluated using the real-world test data.
-The experimental results demonstrate that the synthetic data and clinical
-priors can jointly enable accurate and ethical dermatological AI systems,
-especially for privacy sensitive applications in telemedicine and large-scale
-screening.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09787v1">ZORRO: Zero-Knowledge Robustness and Privacy for Split Learning (Full
-  Version)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-11T18:44:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nojan Sheybani, Alessandro Pegoraro, Jonathan Knauer, Phillip Rieger, Elissa Mollakuqe, Farinaz Koushanfar, Ahmad-Reza Sadeghi</p>
-    <p><b>Summary:</b> Split Learning (SL) is a distributed learning approach that enables
-resource-constrained clients to collaboratively train deep neural networks
-(DNNs) by offloading most layers to a central server while keeping in- and
-output layers on the client-side. This setup enables SL to leverage server
-computation capacities without sharing data, making it highly effective in
-resource-constrained environments dealing with sensitive data. However, the
-distributed nature enables malicious clients to manipulate the training
-process. By sending poisoned intermediate gradients, they can inject backdoors
-into the shared DNN. Existing defenses are limited by often focusing on
-server-side protection and introducing additional overhead for the server. A
-significant challenge for client-side defenses is enforcing malicious clients
-to correctly execute the defense algorithm.
-  We present ZORRO, a private, verifiable, and robust SL defense scheme.
-Through our novel design and application of interactive zero-knowledge proofs
-(ZKPs), clients prove their correct execution of a client-located defense
-algorithm, resulting in proofs of computational integrity attesting to the
-benign nature of locally trained DNN portions. Leveraging the frequency
-representation of model partitions enables ZORRO to conduct an in-depth
-inspection of the locally trained models in an untrusted environment, ensuring
-that each client forwards a benign checkpoint to its succeeding client. In our
-extensive evaluation, covering different model architectures as well as various
-attack strategies and data scenarios, we show ZORRO's effectiveness, as it
-reduces the attack success rate to less than 6\% while causing even for models
-storing \numprint{1000000} parameters on the client-side an overhead of less
-than 10 seconds.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.09485v2">Balancing Utility and Privacy: Dynamically Private SGD with Random
-  Projection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-11T14:17:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhanhong Jiang, Md Zahid Hasan, Nastaran Saadati, Aditya Balu, Chao Liu, Soumik Sarkar</p>
-    <p><b>Summary:</b> Stochastic optimization is a pivotal enabler in modern machine learning,
-producing effective models for various tasks. However, several existing works
-have shown that model parameters and gradient information are susceptible to
-privacy leakage. Although Differentially Private SGD (DPSGD) addresses privacy
-concerns, its static noise mechanism impacts the error bounds for model
-performance. Additionally, with the exponential increase in model parameters,
-efficient learning of these models using stochastic optimizers has become more
-challenging. To address these concerns, we introduce the Dynamically
-Differentially Private Projected SGD (D2P2-SGD) optimizer. In D2P2-SGD, we
-combine two important ideas: (i) dynamic differential privacy (DDP) with
-automatic gradient clipping and (ii) random projection with SGD, allowing
-dynamic adjustment of the tradeoff between utility and privacy of the model. It
-exhibits provably sub-linear convergence rates across different objective
-functions, matching the best available rate. The theoretical analysis further
-suggests that DDP leads to better utility at the cost of privacy, while random
-projection enables more efficient model learning. Extensive experiments across
-diverse datasets show that D2P2-SGD remarkably enhances accuracy while
-maintaining privacy. Our code is available here.</p>
   </details>
 </div>
 
