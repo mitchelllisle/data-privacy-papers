@@ -137,5 +137,52 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.03035v1",
+    "title" : "Protecting Persona Biometric Data: The Case of Facial Privacy",
+    "summary" : "The proliferation of digital technologies has led to unprecedented data\ncollection, with facial data emerging as a particularly sensitive commodity.\nCompanies are increasingly leveraging advanced facial recognition technologies,\noften without the explicit consent or awareness of individuals, to build\nsophisticated surveillance capabilities. This practice, fueled by weak and\nfragmented laws in many jurisdictions, has created a regulatory vacuum that\nallows for the commercialization of personal identity and poses significant\nthreats to individual privacy and autonomy. This article introduces the concept\nof Facial Privacy. It analyzes the profound challenges posed by unregulated\nfacial recognition by conducting a comprehensive review of existing legal\nframeworks. It examines and compares regulations such as the GDPR, Brazil's\nLGPD, Canada's PIPEDA, and privacy acts in China, Singapore, South Korea, and\nJapan, alongside sector-specific laws in the United States like the Illinois\nBiometric Information Privacy Act (BIPA). The analysis highlights the societal\nimpacts of this technology, including the potential for discriminatory bias and\nthe long-lasting harm that can result from the theft of immutable biometric\ndata. Ultimately, the paper argues that existing legal loopholes and\nambiguities leave individuals vulnerable. It proposes a new policy framework\nthat shifts the paradigm from data as property to a model of inalienable\nrights, ensuring that fundamental human rights are upheld against unchecked\ntechnological expansion.",
+    "updated" : "2025-10-03T14:16:33Z",
+    "published" : "2025-10-03T14:16:33Z",
+    "authors" : [
+      {
+        "name" : "Lambert Hogenhout"
+      },
+      {
+        "name" : "Rinzin Wangmo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.02487v1",
+    "title" : "Interplay between Security, Privacy and Trust in 6G-enabled Intelligent\n  Transportation Systems",
+    "summary" : "The advancement of 6G technology has the potential to revolutionize the\ntransportation sector and significantly improve how we travel. 6G-enabled\nIntelligent Transportation Systems (ITS) promise to offer high-speed,\nlow-latency communication and advanced data analytics capabilities, supporting\nthe development of safer, more efficient, and more sustainable transportation\nsolutions. However, various security and privacy challenges were identified in\nthe literature that must be addressed to enable the safe and secure deployment\nof 6G-ITS and ensure people's trust in using these technologies. This paper\nreviews the opportunities and challenges of 6G-ITS, particularly focusing on\ntrust, security, and privacy, with special attention to quantum technologies\nthat both enhance security through quantum key distribution and introduce new\nvulnerabilities. It discusses the potential benefits of 6G technology in the\ntransportation sector, including improved communication, device\ninteroperability support, data analytic capabilities, and increased automation\nfor different components, such as transportation management and communication\nsystems. A taxonomy of different attack models in 6G-ITS is proposed, and a\ncomparison of the security threats in 5G-ITS and 6G-ITS is provided, along with\npotential mitigating solutions. This research highlights the urgent need for a\ncomprehensive, multi-layered security framework spanning physical\ninfrastructure protection, network protocol security, data management\nsafeguards, application security measures, and trust management systems to\neffectively mitigate emerging security and privacy risks and ensure the\nintegrity and resilience of future transportation ecosystems.",
+    "updated" : "2025-10-02T18:47:36Z",
+    "published" : "2025-10-02T18:47:36Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Danladi Abdullahi"
+      },
+      {
+        "name" : "Erfan Bahrami"
+      },
+      {
+        "name" : "Tooska Dargahi"
+      },
+      {
+        "name" : "Mohammed Al-Khalidi"
+      },
+      {
+        "name" : "Mohammad Hammoudeh"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.CR"
+    ]
   }
 ]
