@@ -4236,5 +4236,67 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.02357v1",
+    "title" : "Privacy in the Age of AI: A Taxonomy of Data Risks",
+    "summary" : "Artificial Intelligence (AI) systems introduce unprecedented privacy\nchallenges as they process increasingly sensitive data. Traditional privacy\nframeworks prove inadequate for AI technologies due to unique characteristics\nsuch as autonomous learning and black-box decision-making. This paper presents\na taxonomy classifying AI privacy risks, synthesised from 45 studies identified\nthrough systematic review. We identify 19 key risks grouped under four\ncategories: Dataset-Level, Model-Level, Infrastructure-Level, and Insider\nThreat Risks. Findings reveal a balanced distribution across these dimensions,\nwith human error (9.45%) emerging as the most significant factor. This taxonomy\nchallenges conventional security approaches that typically prioritise technical\ncontrols over human factors, highlighting gaps in holistic understanding. By\nbridging technical and behavioural dimensions of AI privacy, this paper\ncontributes to advancing trustworthy AI development and provides a foundation\nfor future research.",
+    "updated" : "2025-09-28T00:20:03Z",
+    "published" : "2025-09-28T00:20:03Z",
+    "authors" : [
+      {
+        "name" : "Grace Billiris"
+      },
+      {
+        "name" : "Asif Gill"
+      },
+      {
+        "name" : "Madhushi Bandara"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "K.4.1; K.4.2; K.6.5; I.2.0"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.02356v1",
+    "title" : "Measuring Physical-World Privacy Awareness of Large Language Models: An\n  Evaluation Benchmark",
+    "summary" : "The deployment of Large Language Models (LLMs) in embodied agents creates an\nurgent need to measure their privacy awareness in the physical world. Existing\nevaluation methods, however, are confined to natural language based scenarios.\nTo bridge this gap, we introduce EAPrivacy, a comprehensive evaluation\nbenchmark designed to quantify the physical-world privacy awareness of\nLLM-powered agents. EAPrivacy utilizes procedurally generated scenarios across\nfour tiers to test an agent's ability to handle sensitive objects, adapt to\nchanging environments, balance task execution with privacy constraints, and\nresolve conflicts with social norms. Our measurements reveal a critical deficit\nin current models. The top-performing model, Gemini 2.5 Pro, achieved only 59\\%\naccuracy in scenarios involving changing physical environments. Furthermore,\nwhen a task was accompanied by a privacy request, models prioritized completion\nover the constraint in up to 86\\% of cases. In high-stakes situations pitting\nprivacy against critical social norms, leading models like GPT-4o and\nClaude-3.5-haiku disregarded the social norm over 15\\% of the time. These\nfindings, demonstrated by our benchmark, underscore a fundamental misalignment\nin LLMs regarding physically grounded privacy and establish the need for more\nrobust, physically-aware alignment.",
+    "updated" : "2025-09-27T23:39:56Z",
+    "published" : "2025-09-27T23:39:56Z",
+    "authors" : [
+      {
+        "name" : "Xinjie Shen"
+      },
+      {
+        "name" : "Mufei Li"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.02325v1",
+    "title" : "Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP\n  Agents",
+    "summary" : "This paper introduces Agentic-AI Healthcare, a privacy-aware, multilingual,\nand explainable research prototype developed as a single-investigator project.\nThe system leverages the emerging Model Context Protocol (MCP) to orchestrate\nmultiple intelligent agents for patient interaction, including symptom\nchecking, medication suggestions, and appointment scheduling. The platform\nintegrates a dedicated Privacy and Compliance Layer that applies role-based\naccess control (RBAC), AES-GCM field-level encryption, and tamper-evident audit\nlogging, aligning with major healthcare data protection standards such as HIPAA\n(US), PIPEDA (Canada), and PHIPA (Ontario). Example use cases demonstrate\nmultilingual patient-doctor interaction (English, French, Arabic) and\ntransparent diagnostic reasoning powered by large language models. As an\napplied AI contribution, this work highlights the feasibility of combining\nagentic orchestration, multilingual accessibility, and compliance-aware\narchitecture in healthcare applications. This platform is presented as a\nresearch prototype and is not a certified medical device.",
+    "updated" : "2025-09-25T21:25:52Z",
+    "published" : "2025-09-25T21:25:52Z",
+    "authors" : [
+      {
+        "name" : "Mohammed A. Shehab"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "I.2.11; J.3"
+    ]
   }
 ]
