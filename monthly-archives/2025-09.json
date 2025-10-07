@@ -4298,5 +4298,72 @@
       "cs.AI",
       "I.2.11; J.3"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.03284v1",
+    "title" : "Edge-FIT: Federated Instruction Tuning of Quantized LLMs for\n  Privacy-Preserving Smart Home Environments",
+    "summary" : "This paper proposes Edge-FIT (Federated Instruction Tuning on the Edge), a\nscalable framework for Federated Instruction Tuning (FIT) of Large Language\nModels (LLMs). Traditional Federated Learning (TFL) methods, like FedAvg, fail\nwhen confronted with the massive parameter size of LLMs [3], [6]. Our Edge-FIT\nframework combines federated learning with 4-bit Quantized Low-Rank Adaptation\n(QLORA), mitigating the core issues of communication and computational\noverhead. We demonstrate this by filtering the general-purpose Databricks Dolly\n15k dataset for the IoT domain. Experimental results show the Edge-FIT tuned\nLlama 2(7B) achieves an F1-Score of 0.89. We also demonstrate a viable\ntrade-off using the 3.8B Phi-3-mini model, validating Edge-FIT as a scalable\nframework for decentralized LLM deployment on home compute gateways.",
+    "updated" : "2025-09-28T20:06:37Z",
+    "published" : "2025-09-28T20:06:37Z",
+    "authors" : [
+      {
+        "name" : "Vinay Venkatesh"
+      },
+      {
+        "name" : "Vamsidhar R Kamanuru"
+      },
+      {
+        "name" : "Lav Kumar"
+      },
+      {
+        "name" : "Nikita Kothari"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.23022v2",
+    "title" : "Copyright Infringement Detection in Text-to-Image Diffusion Models via\n  Differential Privacy",
+    "summary" : "The widespread deployment of large vision models such as Stable Diffusion\nraises significant legal and ethical concerns, as these models can memorize and\nreproduce copyrighted content without authorization. Existing detection\napproaches often lack robustness and fail to provide rigorous theoretical\nunderpinnings. To address these gaps, we formalize the concept of copyright\ninfringement and its detection from the perspective of Differential Privacy\n(DP), and introduce the conditional sensitivity metric, a concept analogous to\nsensitivity in DP, that quantifies the deviation in a diffusion model's output\ncaused by the inclusion or exclusion of a specific training data point. To\noperationalize this metric, we propose D-Plus-Minus (DPM), a novel post-hoc\ndetection framework that identifies copyright infringement in text-to-image\ndiffusion models. Specifically, DPM simulates inclusion and exclusion processes\nby fine-tuning models in two opposing directions: learning or unlearning.\nBesides, to disentangle concept-specific influence from the global parameter\nshifts induced by fine-tuning, DPM computes confidence scores over orthogonal\nprompt distributions using statistical metrics. Moreover, to facilitate\nstandardized benchmarking, we also construct the Copyright Infringement\nDetection Dataset (CIDD), a comprehensive resource for evaluating detection\nacross diverse categories. Our results demonstrate that DPM reliably detects\ninfringement content without requiring access to the original training dataset\nor text prompts, offering an interpretable and practical solution for\nsafeguarding intellectual property in the era of generative AI.",
+    "updated" : "2025-10-06T10:17:32Z",
+    "published" : "2025-09-27T00:38:12Z",
+    "authors" : [
+      {
+        "name" : "Xiafeng Man"
+      },
+      {
+        "name" : "Zhipeng Wei"
+      },
+      {
+        "name" : "Jingjing Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.14275v2",
+    "title" : "FedMentor: Domain-Aware Differential Privacy for Heterogeneous Federated\n  LLMs in Mental Health",
+    "summary" : "Privacy-preserving adaptation of Large Language Models (LLMs) in sensitive\ndomains (e.g., mental health) requires balancing strict confidentiality with\nmodel utility and safety. We propose FedMentor, a federated fine-tuning\nframework that integrates Low-Rank Adaptation (LoRA) and domain-aware\nDifferential Privacy (DP) to meet per-domain privacy budgets while maintaining\nperformance. Each client (domain) applies a custom DP noise scale proportional\nto its data sensitivity, and the server adaptively reduces noise when utility\nfalls below a threshold. In experiments on three mental health datasets, we\nshow that FedMentor improves safety over standard Federated Learning (FL)\nwithout privacy, raising safe output rates by up to three points and lowering\ntoxicity, while maintaining utility (BERTScore F1 and ROUGE-L) within 0.5% of\nthe non-private baseline and close to the centralized upper bound. The\nframework scales to backbones with up to 1.7B parameters on single-GPU clients,\nrequiring < 173 MB of communication per-round. FedMentor demonstrates a\npractical approach to privately fine-tune LLMs for safer deployments in\nhealthcare and other sensitive fields.",
+    "updated" : "2025-10-05T21:41:04Z",
+    "published" : "2025-09-16T07:08:36Z",
+    "authors" : [
+      {
+        "name" : "Nobin Sarwar"
+      },
+      {
+        "name" : "Shubhashis Roy Dipta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
   }
 ]
