@@ -455,5 +455,163 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05959v1",
+    "title" : "Distributed Platoon Control Under Quantization: Stability Analysis and\n  Privacy Preservation",
+    "summary" : "Distributed control of connected and automated vehicles has attracted\nconsiderable interest for its potential to improve traffic efficiency and\nsafety. However, such control schemes require sharing privacy-sensitive vehicle\ndata, which introduces risks of information leakage and potential malicious\nactivities. This paper investigates the stability and privacy-preserving\nproperties of distributed platoon control under two types of quantizers:\ndeterministic and probabilistic. For deterministic quantization, we show that\nthe resulting control strategy ensures the system errors remain uniformly\nultimately bounded. Moreover, in the absence of auxiliary information, an\neavesdropper cannot uniquely infer sensitive vehicle states. In contrast, the\nuse of probabilistic quantization enables asymptotic convergence of the vehicle\nplatoon in expectation with bounded variance. Importantly, probabilistic\nquantizers can satisfy differential privacy guarantees, thereby preserving\nprivacy even when the eavesdropper possesses arbitrary auxiliary information.\nWe further analyze the trade-off between control performance and privacy by\nformulating an optimization problem that characterizes the impact of the\nquantization step on both metrics. Numerical simulations are provided to\nillustrate the performance differences between the two quantization strategies.",
+    "updated" : "2025-10-07T14:16:59Z",
+    "published" : "2025-10-07T14:16:59Z",
+    "authors" : [
+      {
+        "name" : "Kaixiang Zhang"
+      },
+      {
+        "name" : "Zhaojian Li"
+      },
+      {
+        "name" : "Wei Lin"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05860v1",
+    "title" : "Automated Boilerplate: Prevalence and Quality of Contract Generators in\n  the Context of Swiss Privacy Policies",
+    "summary" : "It has become increasingly challenging for firms to comply with a plethora of\nnovel digital regulations. This is especially true for smaller businesses that\noften lack both the resources and know-how to draft complex legal documents.\nInstead of seeking costly legal advice from attorneys, firms may turn to\ncheaper alternative legal service providers such as automated contract\ngenerators. While these services have a long-standing presence, there is little\nempirical evidence on their prevalence and output quality.\n  We address this gap in the context of a 2023 Swiss privacy law revision. To\nenable a systematic evaluation, we create and annotate a multilingual benchmark\ndataset that captures key compliance obligations under Swiss and EU privacy\nlaw. Using this dataset, we validate a novel GPT-5-based method for large-scale\ncompliance assessment of privacy policies, allowing us to measure the impact of\nthe revision. We observe compliance increases indicating an effect of the\nrevision. Generators, explicitly referenced by 18% of local websites, are\nassociated with substantially higher levels of compliance, with increases of up\nto 15 percentage points compared to privacy policies without generator use.\nThese findings contribute to three debates: the potential of LLMs for\ncross-lingual legal analysis, the Brussels Effect of EU regulations, and,\ncrucially, the role of automated tools in improving compliance and contractual\nquality.",
+    "updated" : "2025-10-07T12:30:01Z",
+    "published" : "2025-10-07T12:30:01Z",
+    "authors" : [
+      {
+        "name" : "Luka Nenadic"
+      },
+      {
+        "name" : "David Rodriguez"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05807v1",
+    "title" : "Privacy-Preserving On-chain Permissioning for KYC-Compliant\n  Decentralized Applications",
+    "summary" : "Decentralized applications (dApps) in Decentralized Finance (DeFi) face a\nfundamental tension between regulatory compliance requirements like Know Your\nCustomer (KYC) and maintaining decentralization and privacy. Existing\npermissioned DeFi solutions often fail to adequately protect private attributes\nof dApp users and introduce implicit trust assumptions, undermining the\nblockchain's decentralization. Addressing these limitations, this paper\npresents a novel synthesis of Self-Sovereign Identity (SSI), Zero-Knowledge\nProofs (ZKPs), and Attribute-Based Access Control to enable privacy-preserving\non-chain permissioning based on decentralized policy decisions. We provide a\ncomprehensive framework for permissioned dApps that aligns decentralized trust,\nprivacy, and transparency, harmonizing blockchain principles with regulatory\ncompliance. Our framework supports multiple proof types (equality, range,\nmembership, and time-dependent) with efficient proof generation through a\ncommit-and-prove scheme that moves credential authenticity verification outside\nthe ZKP circuit. Experimental evaluation of our KYC-compliant DeFi\nimplementation shows considerable performance improvement for different proof\ntypes compared to baseline approaches. We advance the state-of-the-art through\na holistic approach, flexible proof mechanisms addressing diverse real-world\nrequirements, and optimized proof generation enabling practical deployment.",
+    "updated" : "2025-10-07T11:24:51Z",
+    "published" : "2025-10-07T11:24:51Z",
+    "authors" : [
+      {
+        "name" : "Fabian Piper"
+      },
+      {
+        "name" : "Karl Wolf"
+      },
+      {
+        "name" : "Jonathan Heiss"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05803v1",
+    "title" : "The Five Safes as a Privacy Context",
+    "summary" : "The Five Safes is a framework used by national statistical offices (NSO) for\nassessing and managing the disclosure risk of data sharing. This paper makes\ntwo points: Firstly, the Five Safes can be understood as a specialization of a\nbroader concept $\\unicode{x2013}$ contextual integrity $\\unicode{x2013}$ to the\nsituation of statistical dissemination by an NSO. We demonstrate this by\nmapping the five parameters of contextual integrity onto the five dimensions of\nthe Five Safes. Secondly, the Five Safes contextualizes narrow, technical\nnotions of privacy within a holistic risk assessment. We demonstrate this with\nthe example of differential privacy (DP). This contextualization allows NSOs to\nplace DP within their Five Safes toolkit while also guiding the design of DP\nimplementations within the broader privacy context, as delineated by both their\nregulation and the relevant social norms.",
+    "updated" : "2025-10-07T11:19:22Z",
+    "published" : "2025-10-07T11:19:22Z",
+    "authors" : [
+      {
+        "name" : "James Bailie"
+      },
+      {
+        "name" : "Ruobin Gong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05535v1",
+    "title" : "Permutation-Invariant Representation Learning for Robust and\n  Privacy-Preserving Feature Selection",
+    "summary" : "Feature selection eliminates redundancy among features to improve downstream\ntask performance while reducing computational overhead. Existing methods often\nstruggle to capture intricate feature interactions and adapt across diverse\napplication scenarios. Recent advances employ generative intelligence to\nalleviate these drawbacks. However, these methods remain constrained by\npermutation sensitivity in embedding and reliance on convexity assumptions in\ngradient-based search. To address these limitations, our initial work\nintroduces a novel framework that integrates permutation-invariant embedding\nwith policy-guided search. Although effective, it still left opportunities to\nadapt to realistic distributed scenarios. In practice, data across local\nclients is highly imbalanced, heterogeneous and constrained by strict privacy\nregulations, limiting direct sharing. These challenges highlight the need for a\nframework that can integrate feature selection knowledge across clients without\nexposing sensitive information. In this extended journal version, we advance\nthe framework from two perspectives: 1) developing a privacy-preserving\nknowledge fusion strategy to derive a unified representation space without\nsharing sensitive raw data. 2) incorporating a sample-aware weighting strategy\nto address distributional imbalance among heterogeneous local clients.\nExtensive experiments validate the effectiveness, robustness, and efficiency of\nour framework. The results further demonstrate its strong generalization\nability in federated learning scenarios. The code and data are publicly\navailable: https://anonymous.4open.science/r/FedCAPS-08BF.",
+    "updated" : "2025-10-07T02:53:32Z",
+    "published" : "2025-10-07T02:53:32Z",
+    "authors" : [
+      {
+        "name" : "Rui Liu"
+      },
+      {
+        "name" : "Tao Zhe"
+      },
+      {
+        "name" : "Yanjie Fu"
+      },
+      {
+        "name" : "Feng Xia"
+      },
+      {
+        "name" : "Ted Senator"
+      },
+      {
+        "name" : "Dongjie Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05288v1",
+    "title" : "DP-Adam-AC: Privacy-preserving Fine-Tuning of Localizable Language\n  Models Using Adam Optimization with Adaptive Clipping",
+    "summary" : "Large language models (LLMs) such as ChatGPT have evolved into powerful and\nubiquitous tools. Fine-tuning on small datasets allows LLMs to acquire\nspecialized skills for specific tasks efficiently. Although LLMs provide great\nutility in both general and task-specific use cases, they are limited by two\nsecurity-related concerns. First, traditional LLM hardware requirements make\nthem infeasible to run locally on consumer-grade devices. A remote network\nconnection with the LLM provider's server is usually required, making the\nsystem vulnerable to network attacks. Second, fine-tuning an LLM for a\nsensitive task may involve sensitive data. Non-private fine-tuning algorithms\nproduce models vulnerable to training data reproduction attacks. Our work\naddresses these security concerns by enhancing differentially private\noptimization algorithms and applying them to fine-tune localizable language\nmodels. We introduce adaptable gradient clipping along with other engineering\nenhancements to the standard DP-Adam optimizer to create DP-Adam-AC. We use our\noptimizer to fine-tune examples of two localizable LLM designs, small language\nmodel (Qwen2.5-0.5B) and 1.58 bit quantization (Bitnet-b1.58-2B). We\ndemonstrate promising improvements in loss through experimentation with two\nsynthetic datasets.",
+    "updated" : "2025-10-06T18:56:15Z",
+    "published" : "2025-10-06T18:56:15Z",
+    "authors" : [
+      {
+        "name" : "Ruoxing Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05172v1",
+    "title" : "Learning More with Less: A Generalizable, Self-Supervised Framework for\n  Privacy-Preserving Capacity Estimation with EV Charging Data",
+    "summary" : "Accurate battery capacity estimation is key to alleviating consumer concerns\nabout battery performance and reliability of electric vehicles (EVs). However,\npractical data limitations imposed by stringent privacy regulations and labeled\ndata shortages hamper the development of generalizable capacity estimation\nmodels that remain robust to real-world data distribution shifts. While\nself-supervised learning can leverage unlabeled data, existing techniques are\nnot particularly designed to learn effectively from challenging field data --\nlet alone from privacy-friendly data, which are often less feature-rich and\nnoisier. In this work, we propose a first-of-its-kind capacity estimation model\nbased on self-supervised pre-training, developed on a large-scale dataset of\nprivacy-friendly charging data snippets from real-world EV operations. Our\npre-training framework, snippet similarity-weighted masked input\nreconstruction, is designed to learn rich, generalizable representations even\nfrom less feature-rich and fragmented privacy-friendly data. Our key innovation\nlies in harnessing contrastive learning to first capture high-level\nsimilarities among fragmented snippets that otherwise lack meaningful context.\nWith our snippet-wise contrastive learning and subsequent similarity-weighted\nmasked reconstruction, we are able to learn rich representations of both\ngranular charging patterns within individual snippets and high-level\nassociative relationships across different snippets. Bolstered by this rich\nrepresentation learning, our model consistently outperforms state-of-the-art\nbaselines, achieving 31.9% lower test error than the best-performing benchmark,\neven under challenging domain-shifted settings affected by both manufacturer\nand age-induced distribution shifts.",
+    "updated" : "2025-10-05T08:58:35Z",
+    "published" : "2025-10-05T08:58:35Z",
+    "authors" : [
+      {
+        "name" : "Anushiya Arunan"
+      },
+      {
+        "name" : "Yan Qin"
+      },
+      {
+        "name" : "Xiaoli Li"
+      },
+      {
+        "name" : "U-Xuan Tan"
+      },
+      {
+        "name" : "H. Vincent Poor"
+      },
+      {
+        "name" : "Chau Yuen"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
