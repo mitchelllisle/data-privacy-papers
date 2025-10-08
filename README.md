@@ -2,6 +2,186 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05959v1">Distributed Platoon Control Under Quantization: Stability Analysis and
+  Privacy Preservation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-10-07T14:16:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kaixiang Zhang, Zhaojian Li, Wei Lin</p>
+    <p><b>Summary:</b> Distributed control of connected and automated vehicles has attracted
+considerable interest for its potential to improve traffic efficiency and
+safety. However, such control schemes require sharing privacy-sensitive vehicle
+data, which introduces risks of information leakage and potential malicious
+activities. This paper investigates the stability and privacy-preserving
+properties of distributed platoon control under two types of quantizers:
+deterministic and probabilistic. For deterministic quantization, we show that
+the resulting control strategy ensures the system errors remain uniformly
+ultimately bounded. Moreover, in the absence of auxiliary information, an
+eavesdropper cannot uniquely infer sensitive vehicle states. In contrast, the
+use of probabilistic quantization enables asymptotic convergence of the vehicle
+platoon in expectation with bounded variance. Importantly, probabilistic
+quantizers can satisfy differential privacy guarantees, thereby preserving
+privacy even when the eavesdropper possesses arbitrary auxiliary information.
+We further analyze the trade-off between control performance and privacy by
+formulating an optimization problem that characterizes the impact of the
+quantization step on both metrics. Numerical simulations are provided to
+illustrate the performance differences between the two quantization strategies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05860v1">Automated Boilerplate: Prevalence and Quality of Contract Generators in
+  the Context of Swiss Privacy Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-10-07T12:30:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luka Nenadic, David Rodriguez</p>
+    <p><b>Summary:</b> It has become increasingly challenging for firms to comply with a plethora of
+novel digital regulations. This is especially true for smaller businesses that
+often lack both the resources and know-how to draft complex legal documents.
+Instead of seeking costly legal advice from attorneys, firms may turn to
+cheaper alternative legal service providers such as automated contract
+generators. While these services have a long-standing presence, there is little
+empirical evidence on their prevalence and output quality.
+  We address this gap in the context of a 2023 Swiss privacy law revision. To
+enable a systematic evaluation, we create and annotate a multilingual benchmark
+dataset that captures key compliance obligations under Swiss and EU privacy
+law. Using this dataset, we validate a novel GPT-5-based method for large-scale
+compliance assessment of privacy policies, allowing us to measure the impact of
+the revision. We observe compliance increases indicating an effect of the
+revision. Generators, explicitly referenced by 18% of local websites, are
+associated with substantially higher levels of compliance, with increases of up
+to 15 percentage points compared to privacy policies without generator use.
+These findings contribute to three debates: the potential of LLMs for
+cross-lingual legal analysis, the Brussels Effect of EU regulations, and,
+crucially, the role of automated tools in improving compliance and contractual
+quality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05807v1">Privacy-Preserving On-chain Permissioning for KYC-Compliant
+  Decentralized Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-07T11:24:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fabian Piper, Karl Wolf, Jonathan Heiss</p>
+    <p><b>Summary:</b> Decentralized applications (dApps) in Decentralized Finance (DeFi) face a
+fundamental tension between regulatory compliance requirements like Know Your
+Customer (KYC) and maintaining decentralization and privacy. Existing
+permissioned DeFi solutions often fail to adequately protect private attributes
+of dApp users and introduce implicit trust assumptions, undermining the
+blockchain's decentralization. Addressing these limitations, this paper
+presents a novel synthesis of Self-Sovereign Identity (SSI), Zero-Knowledge
+Proofs (ZKPs), and Attribute-Based Access Control to enable privacy-preserving
+on-chain permissioning based on decentralized policy decisions. We provide a
+comprehensive framework for permissioned dApps that aligns decentralized trust,
+privacy, and transparency, harmonizing blockchain principles with regulatory
+compliance. Our framework supports multiple proof types (equality, range,
+membership, and time-dependent) with efficient proof generation through a
+commit-and-prove scheme that moves credential authenticity verification outside
+the ZKP circuit. Experimental evaluation of our KYC-compliant DeFi
+implementation shows considerable performance improvement for different proof
+types compared to baseline approaches. We advance the state-of-the-art through
+a holistic approach, flexible proof mechanisms addressing diverse real-world
+requirements, and optimized proof generation enabling practical deployment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05803v1">The Five Safes as a Privacy Context</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-10-07T11:19:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> James Bailie, Ruobin Gong</p>
+    <p><b>Summary:</b> The Five Safes is a framework used by national statistical offices (NSO) for
+assessing and managing the disclosure risk of data sharing. This paper makes
+two points: Firstly, the Five Safes can be understood as a specialization of a
+broader concept $\unicode{x2013}$ contextual integrity $\unicode{x2013}$ to the
+situation of statistical dissemination by an NSO. We demonstrate this by
+mapping the five parameters of contextual integrity onto the five dimensions of
+the Five Safes. Secondly, the Five Safes contextualizes narrow, technical
+notions of privacy within a holistic risk assessment. We demonstrate this with
+the example of differential privacy (DP). This contextualization allows NSOs to
+place DP within their Five Safes toolkit while also guiding the design of DP
+implementations within the broader privacy context, as delineated by both their
+regulation and the relevant social norms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05535v1">Permutation-Invariant Representation Learning for Robust and
+  Privacy-Preserving Feature Selection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-10-07T02:53:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rui Liu, Tao Zhe, Yanjie Fu, Feng Xia, Ted Senator, Dongjie Wang</p>
+    <p><b>Summary:</b> Feature selection eliminates redundancy among features to improve downstream
+task performance while reducing computational overhead. Existing methods often
+struggle to capture intricate feature interactions and adapt across diverse
+application scenarios. Recent advances employ generative intelligence to
+alleviate these drawbacks. However, these methods remain constrained by
+permutation sensitivity in embedding and reliance on convexity assumptions in
+gradient-based search. To address these limitations, our initial work
+introduces a novel framework that integrates permutation-invariant embedding
+with policy-guided search. Although effective, it still left opportunities to
+adapt to realistic distributed scenarios. In practice, data across local
+clients is highly imbalanced, heterogeneous and constrained by strict privacy
+regulations, limiting direct sharing. These challenges highlight the need for a
+framework that can integrate feature selection knowledge across clients without
+exposing sensitive information. In this extended journal version, we advance
+the framework from two perspectives: 1) developing a privacy-preserving
+knowledge fusion strategy to derive a unified representation space without
+sharing sensitive raw data. 2) incorporating a sample-aware weighting strategy
+to address distributional imbalance among heterogeneous local clients.
+Extensive experiments validate the effectiveness, robustness, and efficiency of
+our framework. The results further demonstrate its strong generalization
+ability in federated learning scenarios. The code and data are publicly
+available: https://anonymous.4open.science/r/FedCAPS-08BF.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05288v1">DP-Adam-AC: Privacy-preserving Fine-Tuning of Localizable Language
+  Models Using Adam Optimization with Adaptive Clipping</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-06T18:56:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruoxing Yang</p>
+    <p><b>Summary:</b> Large language models (LLMs) such as ChatGPT have evolved into powerful and
+ubiquitous tools. Fine-tuning on small datasets allows LLMs to acquire
+specialized skills for specific tasks efficiently. Although LLMs provide great
+utility in both general and task-specific use cases, they are limited by two
+security-related concerns. First, traditional LLM hardware requirements make
+them infeasible to run locally on consumer-grade devices. A remote network
+connection with the LLM provider's server is usually required, making the
+system vulnerable to network attacks. Second, fine-tuning an LLM for a
+sensitive task may involve sensitive data. Non-private fine-tuning algorithms
+produce models vulnerable to training data reproduction attacks. Our work
+addresses these security concerns by enhancing differentially private
+optimization algorithms and applying them to fine-tune localizable language
+models. We introduce adaptable gradient clipping along with other engineering
+enhancements to the standard DP-Adam optimizer to create DP-Adam-AC. We use our
+optimizer to fine-tune examples of two localizable LLM designs, small language
+model (Qwen2.5-0.5B) and 1.58 bit quantization (Bitnet-b1.58-2B). We
+demonstrate promising improvements in loss through experimentation with two
+synthetic datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.05068v1">Multi-Agent Distributed Optimization With Feasible Set Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">  
   <p><b>Published on:</b> 2025-10-06T17:45:57Z</p>
@@ -159,6 +339,42 @@ accelerations that leverage temporal and batch redundancy, effectively reducing
 computation cost with minimal utility degradation. Extensive experiments across
 multiple datasets demonstrate that ObCLIP provides rigorous privacy and
 comparable utility to cloud models with slightly increased server cost.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.05172v1">Learning More with Less: A Generalizable, Self-Supervised Framework for
+  Privacy-Preserving Capacity Estimation with EV Charging Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-05T08:58:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anushiya Arunan, Yan Qin, Xiaoli Li, U-Xuan Tan, H. Vincent Poor, Chau Yuen</p>
+    <p><b>Summary:</b> Accurate battery capacity estimation is key to alleviating consumer concerns
+about battery performance and reliability of electric vehicles (EVs). However,
+practical data limitations imposed by stringent privacy regulations and labeled
+data shortages hamper the development of generalizable capacity estimation
+models that remain robust to real-world data distribution shifts. While
+self-supervised learning can leverage unlabeled data, existing techniques are
+not particularly designed to learn effectively from challenging field data --
+let alone from privacy-friendly data, which are often less feature-rich and
+noisier. In this work, we propose a first-of-its-kind capacity estimation model
+based on self-supervised pre-training, developed on a large-scale dataset of
+privacy-friendly charging data snippets from real-world EV operations. Our
+pre-training framework, snippet similarity-weighted masked input
+reconstruction, is designed to learn rich, generalizable representations even
+from less feature-rich and fragmented privacy-friendly data. Our key innovation
+lies in harnessing contrastive learning to first capture high-level
+similarities among fragmented snippets that otherwise lack meaningful context.
+With our snippet-wise contrastive learning and subsequent similarity-weighted
+masked reconstruction, we are able to learn rich representations of both
+granular charging patterns within individual snippets and high-level
+associative relationships across different snippets. Bolstered by this rich
+representation learning, our model consistently outperforms state-of-the-art
+baselines, achieving 31.9% lower test error than the best-performing benchmark,
+even under challenging domain-shifted settings affected by both manufacturer
+and age-induced distribution shifts.</p>
   </details>
 </div>
 
@@ -2775,210 +2991,6 @@ mental models and nuanced patterns that uncover how granular details, such as
 photo-capturing context and co-presence of other objects, affect privacy
 perceptions. These novel insights could enable personalized, context-aware
 privacy protection designs on social media and future technologies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.12958v1">Forget What's Sensitive, Remember What Matters: Token-Level Differential
-  Privacy in Memory Sculpting for Continual Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-16T11:01:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bihao Zhan, Jie Zhou, Junsong Li, Yutao Yang, Shilian Chen, Qianjun Pan, Xin Li, Wen Wu, Xingjiao Wu, Qin Chen, Hang Yan, Liang He</p>
-    <p><b>Summary:</b> Continual Learning (CL) models, while adept at sequential knowledge
-acquisition, face significant and often overlooked privacy challenges due to
-accumulating diverse information. Traditional privacy methods, like a uniform
-Differential Privacy (DP) budget, indiscriminately protect all data, leading to
-substantial model utility degradation and hindering CL deployment in
-privacy-sensitive areas. To overcome this, we propose a privacy-enhanced
-continual learning (PeCL) framework that forgets what's sensitive and remembers
-what matters. Our approach first introduces a token-level dynamic Differential
-Privacy strategy that adaptively allocates privacy budgets based on the
-semantic sensitivity of individual tokens. This ensures robust protection for
-private entities while minimizing noise injection for non-sensitive, general
-knowledge. Second, we integrate a privacy-guided memory sculpting module. This
-module leverages the sensitivity analysis from our dynamic DP mechanism to
-intelligently forget sensitive information from the model's memory and
-parameters, while explicitly preserving the task-invariant historical knowledge
-crucial for mitigating catastrophic forgetting. Extensive experiments show that
-PeCL achieves a superior balance between privacy preserving and model utility,
-outperforming baseline models by maintaining high accuracy on previous tasks
-while ensuring robust privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.12899v1">EByFTVeS: Efficient Byzantine Fault Tolerant-based Verifiable
-  Secret-sharing in Distributed Privacy-preserving Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-16T09:54:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhen Li, Zijian Zhang, Wenjin Yang, Pengbo Wang, Zhaoqi Wang, Meng Li, Yan Wu, Xuyang Liu, Jing Sun, Liehuang Zhu</p>
-    <p><b>Summary:</b> Verifiable Secret Sharing (VSS) has been widespread in Distributed
-Privacy-preserving Machine Learning (DPML), because invalid shares from
-malicious dealers or participants can be recognized by verifying the commitment
-of the received shares for honest participants. However, the consistency and
-the computation and communitation burden of the VSS-based DPML schemes are
-still two serious challenges. Although Byzantine Fault Tolerance (BFT) system
-has been brought to guarantee the consistency and improve the efficiency of the
-existing VSS-based DPML schemes recently, we explore an Adaptive Share Delay
-Provision (ASDP) strategy, and launch an ASDP-based Customized Model Poisoning
-Attack (ACuMPA) for certain participants in this paper. We theoretically
-analyzed why the ASDP strategy and the ACuMPA algorithm works to the existing
-schemes. Next, we propose an [E]fficient [By]zantine [F]ault [T]olerant-based
-[Ve]rifiable [S]ecret-sharing (EByFTVeS) scheme. Finally, the validity,
-liveness, consistency and privacy of the EByFTVeS scheme are theoretically
-analyzed, while the efficiency of the EByFTVeS scheme outperforms that of
-the-state-of-art VSS scheme according to comparative experiment results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.14278v1">Beyond Data Privacy: New Privacy Risks for Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-16T09:46:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuntao Du, Zitao Li, Ninghui Li, Bolin Ding</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) have achieved remarkable progress in natural
-language understanding, reasoning, and autonomous decision-making. However,
-these advancements have also come with significant privacy concerns. While
-significant research has focused on mitigating the data privacy risks of LLMs
-during various stages of model training, less attention has been paid to new
-threats emerging from their deployment. The integration of LLMs into widely
-used applications and the weaponization of their autonomous abilities have
-created new privacy vulnerabilities. These vulnerabilities provide
-opportunities for both inadvertent data leakage and malicious exfiltration from
-LLM-powered systems. Additionally, adversaries can exploit these systems to
-launch sophisticated, large-scale privacy attacks, threatening not only
-individual privacy but also financial security and societal trust. In this
-paper, we systematically examine these emerging privacy risks of LLMs. We also
-discuss potential mitigation strategies and call for the research community to
-broaden its focus beyond data privacy risks, developing new defenses to address
-the evolving threats posed by increasingly powerful LLMs and LLM-powered
-systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.14275v2">FedMentor: Domain-Aware Differential Privacy for Heterogeneous Federated
-  LLMs in Mental Health</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-16T07:08:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nobin Sarwar, Shubhashis Roy Dipta</p>
-    <p><b>Summary:</b> Privacy-preserving adaptation of Large Language Models (LLMs) in sensitive
-domains (e.g., mental health) requires balancing strict confidentiality with
-model utility and safety. We propose FedMentor, a federated fine-tuning
-framework that integrates Low-Rank Adaptation (LoRA) and domain-aware
-Differential Privacy (DP) to meet per-domain privacy budgets while maintaining
-performance. Each client (domain) applies a custom DP noise scale proportional
-to its data sensitivity, and the server adaptively reduces noise when utility
-falls below a threshold. In experiments on three mental health datasets, we
-show that FedMentor improves safety over standard Federated Learning (FL)
-without privacy, raising safe output rates by up to three points and lowering
-toxicity, while maintaining utility (BERTScore F1 and ROUGE-L) within 0.5% of
-the non-private baseline and close to the centralized upper bound. The
-framework scales to backbones with up to 1.7B parameters on single-GPU clients,
-requiring < 173 MB of communication per-round. FedMentor demonstrates a
-practical approach to privately fine-tune LLMs for safer deployments in
-healthcare and other sensitive fields.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.12590v1">DPCheatSheet: Using Worked and Erroneous LLM-usage Examples to Scaffold
-  Differential Privacy Implementation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-16T02:33:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shao-Yu Chu, Yuhe Tian, Yu-Xiang Wang, Haojian Jin</p>
-    <p><b>Summary:</b> This paper explores how programmers without specialized expertise in
-differential privacy (DP) (i.e., novices) can leverage LLMs to implement DP
-programs with minimal training. We first conducted a need-finding study with 6
-novices and 3 experts to understand how they utilize LLMs in DP implementation.
-While DP experts can implement correct DP analyses through a few prompts,
-novices struggle to articulate their requirements in prompts and lack the
-skills to verify the correctness of the generated code. We then developed
-DPCheatSheet, an instructional tool that helps novices implement DP using LLMs.
-DPCheatSheet combines two learning concepts: it annotates an expert's workflow
-with LLMs as a worked example to bridge the expert mindset to novices, and it
-presents five common mistakes in LLM-based DP code generation as erroneous
-examples to support error-driven learning. We demonstrated the effectiveness of
-DPCheatSheet with an error identification study and an open-ended DP
-implementation study.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.12578v1">Conflect: Designing Reflective Thinking-Based Contextual Privacy Policy
-  for Mobile Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-16T02:11:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Sixing Tao, Eve He, Yuting Yang, Ying Ma, Ailei Wang, Xin Yi, Hewu Li</p>
-    <p><b>Summary:</b> Privacy policies are lengthy and complex, leading to user neglect. While
-contextual privacy policies (CPPs) present information at the point of risk,
-they may lack engagement and disrupt tasks. We propose Conflect, an interactive
-CPP for mobile apps, guided by a reflective thinking framework. Through three
-workshops with experienced designers and researchers, we constructed the design
-space of reflective thinking-based CPP design, and identified the disconnect
-between context and action as the most critical problem. Based on participants'
-feedback, we designed Conflect to use sidebar alerts, allowing users to reflect
-on contextualized risks and fostering their control. Our system contextually
-detects privacy risks, extracts policy segments, and automatically generates
-risk descriptions with 94.0% policy extraction accuracy on CPP4APP dataset and
-a 4.35s latency. A user study (N=28) demonstrated that Conflect improves user
-understanding, trust, and satisfaction while lowering cognitive load compared
-to CPPs, privacy policies and privacy labels.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.12465v1">Efficient Privacy-Preserving Training of Quantum Neural Networks by
-  Using Mixed States to Represent Input Data Ensembles</a></h3>
-  
-  <p><b>Published on:</b> 2025-09-15T21:20:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gaoyuan Wang, Jonathan Warrell, Mark Gerstein</p>
-    <p><b>Summary:</b> Quantum neural networks (QNNs) are gaining increasing interest due to their
-potential to detect complex patterns in data by leveraging uniquely quantum
-phenomena. This makes them particularly promising for biomedical applications.
-In these applications and in other contexts, increasing statistical power often
-requires aggregating data from multiple participants. However, sharing data,
-especially sensitive information like personal genomic sequences, raises
-significant privacy concerns. Quantum federated learning offers a way to
-collaboratively train QNN models without exposing private data. However, it
-faces major limitations, including high communication overhead and the need to
-retrain models when the task is modified. To overcome these challenges, we
-propose a privacy-preserving QNN training scheme that utilizes mixed quantum
-states to encode ensembles of data. This approach allows for the secure sharing
-of statistical information while safeguarding individual data points. QNNs can
-be trained directly on these mixed states, eliminating the need to access raw
-data. Building on this foundation, we introduce protocols supporting
-multi-party collaborative QNN training applicable across diverse domains. Our
-approach enables secure QNN training with only a single round of communication
-per participant, provides high training speed and offers task generality, i.e.,
-new analyses can be conducted without reacquiring information from
-participants. We present the theoretical foundation of our scheme's utility and
-privacy protections, which prevent the recovery of individual data points and
-resist membership inference attacks as measured by differential privacy. We
-then validate its effectiveness on three different datasets with a focus on
-genomic studies with an indication of how it can used in other domains without
-adaptation.</p>
   </details>
 </div>
 
