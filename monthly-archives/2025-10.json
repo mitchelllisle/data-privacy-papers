@@ -613,5 +613,107 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.07176v1",
+    "title" : "Exposing LLM User Privacy via Traffic Fingerprint Analysis: A Study of\n  Privacy Risks in LLM Agent Interactions",
+    "summary" : "Large Language Models (LLMs) are increasingly deployed as agents that\norchestrate tasks and integrate external tools to execute complex workflows. We\ndemonstrate that these interactive behaviors leave distinctive fingerprints in\nencrypted traffic exchanged between users and LLM agents. By analyzing traffic\npatterns associated with agent workflows and tool invocations, adversaries can\ninfer agent activities, distinguish specific agents, and even profile sensitive\nuser attributes. To highlight this risk, we develop AgentPrint, which achieves\nan F1-score of 0.866 in agent identification and attains 73.9% and 69.1% top-3\naccuracy in user attribute inference for simulated- and real-user settings,\nrespectively. These results uncover an overlooked risk: the very interactivity\nthat empowers LLM agents also exposes user privacy, underscoring the urgent\nneed for technical countermeasures alongside regulatory and policy safeguards.",
+    "updated" : "2025-10-08T16:16:23Z",
+    "published" : "2025-10-08T16:16:23Z",
+    "authors" : [
+      {
+        "name" : "Yixiang Zhang"
+      },
+      {
+        "name" : "Xinhao Deng"
+      },
+      {
+        "name" : "Zhongyi Gu"
+      },
+      {
+        "name" : "Yihao Chen"
+      },
+      {
+        "name" : "Ke Xu"
+      },
+      {
+        "name" : "Qi Li"
+      },
+      {
+        "name" : "Jianping Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.07136v1",
+    "title" : "Spectral Graph Clustering under Differential Privacy: Balancing Privacy,\n  Accuracy, and Efficiency",
+    "summary" : "We study the problem of spectral graph clustering under edge differential\nprivacy (DP). Specifically, we develop three mechanisms: (i) graph perturbation\nvia randomized edge flipping combined with adjacency matrix shuffling, which\nenforces edge privacy while preserving key spectral properties of the graph.\nImportantly, shuffling considerably amplifies the guarantees: whereas flipping\nedges with a fixed probability alone provides only a constant epsilon edge DP\nguarantee as the number of nodes grows, the shuffled mechanism achieves\n(epsilon, delta) edge DP with parameters that tend to zero as the number of\nnodes increase; (ii) private graph projection with additive Gaussian noise in a\nlower-dimensional space to reduce dimensionality and computational complexity;\nand (iii) a noisy power iteration method that distributes Gaussian noise across\niterations to ensure edge DP while maintaining convergence. Our analysis\nprovides rigorous privacy guarantees and a precise characterization of the\nmisclassification error rate. Experiments on synthetic and real-world networks\nvalidate our theoretical analysis and illustrate the practical privacy-utility\ntrade-offs.",
+    "updated" : "2025-10-08T15:30:27Z",
+    "published" : "2025-10-08T15:30:27Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Seif"
+      },
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "H. Vincent Poor"
+      },
+      {
+        "name" : "Andrea J. Goldsmith"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.LG",
+      "cs.SI",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.06326v1",
+    "title" : "Composable privacy of networked quantum sensing",
+    "summary" : "Networks of sensors are a promising scheme to deliver the benefits of quantum\ntechnologies in coming years, offering enhanced precision and accuracy for\ndistributed metrology through the use of large entangled states. Recent work\nhas additionally explored the privacy of these schemes, meaning that local\nparameters can be kept secret while a joint function of these is estimated by\nthe network. In this work, we use the abstract cryptography framework to relate\nthe two proposed definitions of quasi-privacy, showing that both are\ncomposable, which enables the protocol to be securely included as a sub-routine\nto other schemes. We give an explicit example that estimating the mean of a set\nof parameters using GHZ states is composably fully secure.",
+    "updated" : "2025-10-07T18:00:04Z",
+    "published" : "2025-10-07T18:00:04Z",
+    "authors" : [
+      {
+        "name" : "Naomi R. Solomons"
+      },
+      {
+        "name" : "Damian Markham"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.06267v1",
+    "title" : "RareGraph-Synth: Knowledge-Guided Diffusion Models for Generating\n  Privacy-Preserving Synthetic Patient Trajectories in Ultra-Rare Diseases",
+    "summary" : "We propose RareGraph-Synth, a knowledge-guided, continuous-time diffusion\nframework that generates realistic yet privacy-preserving synthetic\nelectronic-health-record (EHR) trajectories for ultra-rare diseases.\nRareGraph-Synth unifies five public resources: Orphanet/Orphadata, the Human\nPhenotype Ontology (HPO), the GARD rare-disease KG, PrimeKG, and the FDA\nAdverse Event Reporting System (FAERS) into a heterogeneous knowledge graph\ncomprising approximately 8 M typed edges. Meta-path scores extracted from this\n8-million-edge KG modulate the per-token noise schedule in the forward\nstochastic differential equation, steering generation toward biologically\nplausible lab-medication-adverse-event co-occurrences while retaining\nscore-based diffusion model stability. The reverse denoiser then produces\ntimestamped sequences of lab-code, medication-code, and adverse-event-flag\ntriples that contain no protected health information. On simulated\nultra-rare-disease cohorts, RareGraph-Synth lowers categorical Maximum Mean\nDiscrepancy by 40 percent relative to an unguided diffusion baseline and by\ngreater than 60 percent versus GAN counterparts, without sacrificing downstream\npredictive utility. A black-box membership-inference evaluation using the\nDOMIAS attacker yields AUROC approximately 0.53, well below the 0.55\nsafe-release threshold and substantially better than the approximately 0.61\nplus or minus 0.03 observed for non-KG baselines, demonstrating strong\nresistance to re-identification. These results suggest that integrating\nbiomedical knowledge graphs directly into diffusion noise schedules can\nsimultaneously enhance fidelity and privacy, enabling safer data sharing for\nrare-disease research.",
+    "updated" : "2025-10-06T03:59:09Z",
+    "published" : "2025-10-06T03:59:09Z",
+    "authors" : [
+      {
+        "name" : "Khartik Uppalapati"
+      },
+      {
+        "name" : "Shakeel Abdulkareem"
+      },
+      {
+        "name" : "Bora Yimenicioglu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "I.2.6; H.2.8; J.3"
+    ]
   }
 ]
