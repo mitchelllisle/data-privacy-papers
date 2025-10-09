@@ -2,6 +2,79 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.07176v1">Exposing LLM User Privacy via Traffic Fingerprint Analysis: A Study of
+  Privacy Risks in LLM Agent Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-08T16:16:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixiang Zhang, Xinhao Deng, Zhongyi Gu, Yihao Chen, Ke Xu, Qi Li, Jianping Wu</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly deployed as agents that
+orchestrate tasks and integrate external tools to execute complex workflows. We
+demonstrate that these interactive behaviors leave distinctive fingerprints in
+encrypted traffic exchanged between users and LLM agents. By analyzing traffic
+patterns associated with agent workflows and tool invocations, adversaries can
+infer agent activities, distinguish specific agents, and even profile sensitive
+user attributes. To highlight this risk, we develop AgentPrint, which achieves
+an F1-score of 0.866 in agent identification and attains 73.9% and 69.1% top-3
+accuracy in user attribute inference for simulated- and real-user settings,
+respectively. These results uncover an overlooked risk: the very interactivity
+that empowers LLM agents also exposes user privacy, underscoring the urgent
+need for technical countermeasures alongside regulatory and policy safeguards.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.07136v1">Spectral Graph Clustering under Differential Privacy: Balancing Privacy,
+  Accuracy, and Efficiency</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> 
+  <p><b>Published on:</b> 2025-10-08T15:30:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohamed Seif, Antti Koskela, H. Vincent Poor, Andrea J. Goldsmith</p>
+    <p><b>Summary:</b> We study the problem of spectral graph clustering under edge differential
+privacy (DP). Specifically, we develop three mechanisms: (i) graph perturbation
+via randomized edge flipping combined with adjacency matrix shuffling, which
+enforces edge privacy while preserving key spectral properties of the graph.
+Importantly, shuffling considerably amplifies the guarantees: whereas flipping
+edges with a fixed probability alone provides only a constant epsilon edge DP
+guarantee as the number of nodes grows, the shuffled mechanism achieves
+(epsilon, delta) edge DP with parameters that tend to zero as the number of
+nodes increase; (ii) private graph projection with additive Gaussian noise in a
+lower-dimensional space to reduce dimensionality and computational complexity;
+and (iii) a noisy power iteration method that distributes Gaussian noise across
+iterations to ensure edge DP while maintaining convergence. Our analysis
+provides rigorous privacy guarantees and a precise characterization of the
+misclassification error rate. Experiments on synthetic and real-world networks
+validate our theoretical analysis and illustrate the practical privacy-utility
+trade-offs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.06326v1">Composable privacy of networked quantum sensing</a></h3>
+  
+  <p><b>Published on:</b> 2025-10-07T18:00:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Naomi R. Solomons, Damian Markham</p>
+    <p><b>Summary:</b> Networks of sensors are a promising scheme to deliver the benefits of quantum
+technologies in coming years, offering enhanced precision and accuracy for
+distributed metrology through the use of large entangled states. Recent work
+has additionally explored the privacy of these schemes, meaning that local
+parameters can be kept secret while a joint function of these is estimated by
+the network. In this work, we use the abstract cryptography framework to relate
+the two proposed definitions of quasi-privacy, showing that both are
+composable, which enables the protocol to be securely included as a sub-routine
+to other schemes. We give an explicit example that estimating the mean of a set
+of parameters using GHZ states is composably fully secure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.05959v1">Distributed Platoon Control Under Quantization: Stability Analysis and
   Privacy Preservation</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
@@ -247,6 +320,42 @@ the set of anti-degradable channels, indicating that existing approximate
 (anti-)degradability bounds are not tight. We also revisit the computability of
 the regularized quantum capacity and modestly suggest that this fundamental
 question still remains open.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.06267v1">RareGraph-Synth: Knowledge-Guided Diffusion Models for Generating
+  Privacy-Preserving Synthetic Patient Trajectories in Ultra-Rare Diseases</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2025-10-06T03:59:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Khartik Uppalapati, Shakeel Abdulkareem, Bora Yimenicioglu</p>
+    <p><b>Summary:</b> We propose RareGraph-Synth, a knowledge-guided, continuous-time diffusion
+framework that generates realistic yet privacy-preserving synthetic
+electronic-health-record (EHR) trajectories for ultra-rare diseases.
+RareGraph-Synth unifies five public resources: Orphanet/Orphadata, the Human
+Phenotype Ontology (HPO), the GARD rare-disease KG, PrimeKG, and the FDA
+Adverse Event Reporting System (FAERS) into a heterogeneous knowledge graph
+comprising approximately 8 M typed edges. Meta-path scores extracted from this
+8-million-edge KG modulate the per-token noise schedule in the forward
+stochastic differential equation, steering generation toward biologically
+plausible lab-medication-adverse-event co-occurrences while retaining
+score-based diffusion model stability. The reverse denoiser then produces
+timestamped sequences of lab-code, medication-code, and adverse-event-flag
+triples that contain no protected health information. On simulated
+ultra-rare-disease cohorts, RareGraph-Synth lowers categorical Maximum Mean
+Discrepancy by 40 percent relative to an unguided diffusion baseline and by
+greater than 60 percent versus GAN counterparts, without sacrificing downstream
+predictive utility. A black-box membership-inference evaluation using the
+DOMIAS attacker yields AUROC approximately 0.53, well below the 0.55
+safe-release threshold and substantially better than the approximately 0.61
+plus or minus 0.03 observed for non-KG baselines, demonstrating strong
+resistance to re-identification. These results suggest that integrating
+biomedical knowledge graphs directly into diffusion noise schedules can
+simultaneously enhance fidelity and privacy, enabling safer data sharing for
+rare-disease research.</p>
   </details>
 </div>
 
@@ -2861,136 +2970,6 @@ addresses this challenge and develops an effective enterprise data strategy in
 the cloud. Various components of an effective data strategy are discussed and
 architectures addressing security, scalability and privacy aspects are
 provided.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13625v3">Privacy-Aware In-Context Learning for Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-17T01:50:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bishnu Bhusal, Manoj Acharya, Ramneet Kaur, Colin Samplawski, Anirban Roy, Adam D. Cobb, Rohit Chadha, Susmit Jha</p>
-    <p><b>Summary:</b> Large language models (LLMs) have significantly transformed natural language
-understanding and generation, but they raise privacy concerns due to potential
-exposure of sensitive information. Studies have highlighted the risk of
-information leakage, where adversaries can extract sensitive information
-embedded in the prompts. In this work, we introduce a novel private prediction
-framework for generating high-quality synthetic text with strong privacy
-guarantees. Our approach leverages the Differential Privacy (DP) framework to
-ensure worst-case theoretical bounds on information leakage without requiring
-any fine-tuning of the underlying models. The proposed method performs
-inference on private records and aggregates the resulting per-token output
-distributions. This enables the generation of longer and coherent synthetic
-text while maintaining privacy guarantees. Additionally, we propose a simple
-blending operation that combines private and public inference to further
-enhance utility. Empirical evaluations demonstrate that our approach
-outperforms previous state-of-the-art methods on in-context-learning (ICL)
-tasks, making it a promising direction for privacy-preserving text generation
-while maintaining high utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13509v1">Practitioners' Perspectives on a Differential Privacy Deployment
-  Registry</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-16T20:15:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Priyanka Nanayakkara, Elena Ghazi, Salil Vadhan</p>
-    <p><b>Summary:</b> Differential privacy (DP) -- a principled approach to producing statistical
-data products with strong, mathematically provable privacy guarantees for the
-individuals in the underlying dataset -- has seen substantial adoption in
-practice over the past decade. Applying DP requires making several
-implementation decisions, each with significant impacts on data privacy and/or
-utility. Hence, to promote shared learning and accountability around DP
-deployments, Dwork, Kohli, and Mulligan (2019) proposed a public-facing
-repository ("registry") of DP deployments. The DP community has recently
-started to work toward realizing this vision. We contribute to this effort by
-(1) developing a holistic, hierarchical schema to describe any given DP
-deployment and (2) designing and implementing an interactive interface to act
-as a registry where practitioners can access information about past DP
-deployments. We (3) populate our interface with 21 real-world DP deployments
-and (4) conduct an exploratory user study with DP practitioners ($n=16$) to
-understand how they would use the registry, as well as what challenges and
-opportunities they foresee around its adoption. We find that participants were
-enthusiastic about the registry as a valuable resource for evaluating prior
-deployments and making future deployments. They also identified several
-opportunities for the registry, including that it can become a "hub" for the
-community and support broader communication around DP (e.g., to legal teams).
-At the same time, they identified challenges around the registry gaining
-adoption, including the effort and risk involved with making implementation
-choices public and moderating the quality of entries. Based on our findings, we
-offer recommendations for encouraging adoption and increasing the registry's
-value not only to DP practitioners, but also to policymakers, data users, and
-data subjects.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.14284v1">The Sum Leaks More Than Its Parts: Compositional Privacy Risks and
-  Mitigations in Multi-Agent Collaboration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-09-16T16:57:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vaidehi Patil, Elias Stengel-Eskin, Mohit Bansal</p>
-    <p><b>Summary:</b> As large language models (LLMs) become integral to multi-agent systems, new
-privacy risks emerge that extend beyond memorization, direct inference, or
-single-turn evaluations. In particular, seemingly innocuous responses, when
-composed across interactions, can cumulatively enable adversaries to recover
-sensitive information, a phenomenon we term compositional privacy leakage. We
-present the first systematic study of such compositional privacy leaks and
-possible mitigation methods in multi-agent LLM systems. First, we develop a
-framework that models how auxiliary knowledge and agent interactions jointly
-amplify privacy risks, even when each response is benign in isolation. Next, to
-mitigate this, we propose and evaluate two defense strategies: (1)
-Theory-of-Mind defense (ToM), where defender agents infer a questioner's intent
-by anticipating how their outputs may be exploited by adversaries, and (2)
-Collaborative Consensus Defense (CoDef), where responder agents collaborate
-with peers who vote based on a shared aggregated state to restrict sensitive
-information spread. Crucially, we balance our evaluation across compositions
-that expose sensitive information and compositions that yield benign
-inferences. Our experiments quantify how these defense strategies differ in
-balancing the privacy-utility trade-off. We find that while chain-of-thought
-alone offers limited protection to leakage (~39% sensitive blocking rate), our
-ToM defense substantially improves sensitive query blocking (up to 97%) but can
-reduce benign task success. CoDef achieves the best balance, yielding the
-highest Balanced Outcome (79.8%), highlighting the benefit of combining
-explicit reasoning with defender collaboration. Together, our results expose a
-new class of risks in collaborative LLM deployments and provide actionable
-insights for designing safeguards against compositional, context-driven privacy
-leakage.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13051v1">More than Meets the Eye: Understanding the Effect of Individual Objects
-  on Perceived Visual Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-16T13:10:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mete Harun Akcay, Siddharth Prakash Rao, Alexandros Bakas, Buse Gul Atli</p>
-    <p><b>Summary:</b> User-generated content, such as photos, comprises the majority of online
-media content and drives engagement due to the human ability to process visual
-information quickly. Consequently, many online platforms are designed for
-sharing visual content, with billions of photos posted daily. However, photos
-often reveal more than they intended through visible and contextual cues,
-leading to privacy risks. Previous studies typically treat privacy as a
-property of the entire image, overlooking individual objects that may carry
-varying privacy risks and influence how users perceive it. We address this gap
-with a mixed-methods study (n = 92) to understand how users evaluate the
-privacy of images containing multiple sensitive objects. Our results reveal
-mental models and nuanced patterns that uncover how granular details, such as
-photo-capturing context and co-presence of other objects, affect privacy
-perceptions. These novel insights could enable personalized, context-aware
-privacy protection designs on social media and future technologies.</p>
   </details>
 </div>
 
