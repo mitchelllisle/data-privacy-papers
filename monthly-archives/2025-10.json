@@ -715,5 +715,115 @@
       "cs.AI",
       "I.2.6; H.2.8; J.3"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.08355v1",
+    "title" : "ExPrESSO: Zero-Knowledge backed Extensive Privacy Preserving Single\n  Sign-on",
+    "summary" : "User authentication is one of the most important aspects for secure\ncommunication between services and end-users over the Internet. Service\nproviders leverage Single-Sign On (SSO) to make it easier for their users to\nauthenticate themselves. However, standardized systems for SSO, such as OIDC,\ndo not guarantee user privacy as identity providers can track user activities.\nWe propose a zero-knowledge-based mechanism that integrates with OIDC to let\nusers authenticate through SSO without revealing information about the service\nprovider. Our system leverages Groth's zk-SNARK to prove membership of\nsubscribed service providers without revealing their identity. We adopt a\ndecentralized and verifiable approach to set up the prerequisites of our\nconstruction that further secures and establishes trust in the system. We set\nup high security targets and achieve them with minimal storage and latency\ncost, proving that our research can be adopted for production.",
+    "updated" : "2025-10-09T15:42:01Z",
+    "published" : "2025-10-09T15:42:01Z",
+    "authors" : [
+      {
+        "name" : "Kaustabh Barman"
+      },
+      {
+        "name" : "Fabian Piper"
+      },
+      {
+        "name" : "Sanjeet Raj Pandey"
+      },
+      {
+        "name" : "Axel Kuepper"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.08247v1",
+    "title" : "The Right to Communications Confidentiality in Europe: Protecting\n  Privacy, Freedom of Expression, and Trust",
+    "summary" : "In the European Union, the General Data Protection Regulation (GDPR) provides\ncomprehensive rules for the processing of personal data. In addition, the EU\nlawmaker intends to adopt specific rules to protect confidentiality of\ncommunications, in a separate ePrivacy Regulation. Some have argued that there\nis no need for such additional rules for communications confidentiality. This\nArticle discusses the protection of the right to confidentiality of\ncommunications in Europe. We look at the right's origins to assess the\nrationale for protecting it. We also analyze how the right is currently\nprotected under the European Convention on Human Rights and under EU law. We\nshow that at its core the right to communications confidentiality protects\nthree individual and collective values: privacy, freedom of expression, and\ntrust in communication services. The right aims to ensure that individuals and\norganizations can safely entrust communication to service providers. Initially,\nthe right protected only postal letters, but it has gradually developed into a\nstrong safeguard for the protection of confidentiality of communications,\nregardless of the technology used. Hence, the right does not merely serve\nindividual privacy interests, but also other more collective interests that are\ncrucial for the functioning of our information society. We conclude that\nseparate EU rules to protect communications confidentiality, next to the GDPR,\nare justified and necessary.",
+    "updated" : "2025-10-09T14:05:36Z",
+    "published" : "2025-10-09T14:05:36Z",
+    "authors" : [
+      {
+        "name" : "Frederik J. Zuiderveen Borgesius"
+      },
+      {
+        "name" : "Wilfred Steenbruggen"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.07976v1",
+    "title" : "The impact of abstract and object tags on image privacy classification",
+    "summary" : "Object tags denote concrete entities and are central to many computer vision\ntasks, whereas abstract tags capture higher-level information, which is\nrelevant for tasks that require a contextual, potentially subjective scene\nunderstanding. Object and abstract tags extracted from images also facilitate\ninterpretability. In this paper, we explore which type of tags is more suitable\nfor the context-dependent and inherently subjective task of image privacy.\nWhile object tags are generally used for privacy classification, we show that\nabstract tags are more effective when the tag budget is limited. Conversely,\nwhen a larger number of tags per image is available, object-related information\nis as useful. We believe that these findings will guide future research in\ndeveloping more accurate image privacy classifiers, informed by the role of tag\ntypes and quantity.",
+    "updated" : "2025-10-09T09:09:02Z",
+    "published" : "2025-10-09T09:09:02Z",
+    "authors" : [
+      {
+        "name" : "Darya Baranouskaya"
+      },
+      {
+        "name" : "Andrea Cavallaro"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.07457v1",
+    "title" : "Comparison of Fully Homomorphic Encryption and Garbled Circuit\n  Techniques in Privacy-Preserving Machine Learning Inference",
+    "summary" : "Machine Learning (ML) is making its way into fields such as healthcare,\nfinance, and Natural Language Processing (NLP), and concerns over data privacy\nand model confidentiality continue to grow. Privacy-preserving Machine Learning\n(PPML) addresses this challenge by enabling inference on private data without\nrevealing sensitive inputs or proprietary models. Leveraging Secure Computation\ntechniques from Cryptography, two widely studied approaches in this domain are\nFully Homomorphic Encryption (FHE) and Garbled Circuits (GC). This work\npresents a comparative evaluation of FHE and GC for secure neural network\ninference. A two-layer neural network (NN) was implemented using the CKKS\nscheme from the Microsoft SEAL library (FHE) and the TinyGarble2.0 framework\n(GC) by IntelLabs. Both implementations are evaluated under the semi-honest\nthreat model, measuring inference output error, round-trip time, peak memory\nusage, communication overhead, and communication rounds. Results reveal a\ntrade-off: modular GC offers faster execution and lower memory consumption,\nwhile FHE supports non-interactive inference.",
+    "updated" : "2025-10-08T19:03:40Z",
+    "published" : "2025-10-08T19:03:40Z",
+    "authors" : [
+      {
+        "name" : "Kalyan Cheerla"
+      },
+      {
+        "name" : "Lotfi Ben Othmane"
+      },
+      {
+        "name" : "Kirill Morozov"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.07452v1",
+    "title" : "PATCH: Mitigating PII Leakage in Language Models with Privacy-Aware\n  Targeted Circuit PatcHing",
+    "summary" : "Language models (LMs) may memorize personally identifiable information (PII)\nfrom training data, enabling adversaries to extract it during inference.\nExisting defense mechanisms such as differential privacy (DP) reduce this\nleakage, but incur large drops in utility. Based on a comprehensive study using\ncircuit discovery to identify the computational circuits responsible PII\nleakage in LMs, we hypothesize that specific PII leakage circuits in LMs should\nbe responsible for this behavior. Therefore, we propose PATCH (Privacy-Aware\nTargeted Circuit PatcHing), a novel approach that first identifies and\nsubsequently directly edits PII circuits to reduce leakage. PATCH achieves\nbetter privacy-utility trade-off than existing defenses, e.g., reducing recall\nof PII leakage from LMs by up to 65%. Finally, PATCH can be combined with DP to\nreduce recall of residual leakage of an LM to as low as 0.01%. Our analysis\nshows that PII leakage circuits persist even after the application of existing\ndefense mechanisms. In contrast, PATCH can effectively mitigate their impact.",
+    "updated" : "2025-10-08T18:58:41Z",
+    "published" : "2025-10-08T18:58:41Z",
+    "authors" : [
+      {
+        "name" : "Anthony Hughes"
+      },
+      {
+        "name" : "Vasisht Duddu"
+      },
+      {
+        "name" : "N. Asokan"
+      },
+      {
+        "name" : "Nikolaos Aletras"
+      },
+      {
+        "name" : "Ning Ma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
   }
 ]
