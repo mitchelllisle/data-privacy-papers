@@ -2,6 +2,139 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.08355v1">ExPrESSO: Zero-Knowledge backed Extensive Privacy Preserving Single
+  Sign-on</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-09T15:42:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kaustabh Barman, Fabian Piper, Sanjeet Raj Pandey, Axel Kuepper</p>
+    <p><b>Summary:</b> User authentication is one of the most important aspects for secure
+communication between services and end-users over the Internet. Service
+providers leverage Single-Sign On (SSO) to make it easier for their users to
+authenticate themselves. However, standardized systems for SSO, such as OIDC,
+do not guarantee user privacy as identity providers can track user activities.
+We propose a zero-knowledge-based mechanism that integrates with OIDC to let
+users authenticate through SSO without revealing information about the service
+provider. Our system leverages Groth's zk-SNARK to prove membership of
+subscribed service providers without revealing their identity. We adopt a
+decentralized and verifiable approach to set up the prerequisites of our
+construction that further secures and establishes trust in the system. We set
+up high security targets and achieve them with minimal storage and latency
+cost, proving that our research can be adopted for production.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.08247v1">The Right to Communications Confidentiality in Europe: Protecting
+  Privacy, Freedom of Expression, and Trust</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-10-09T14:05:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Frederik J. Zuiderveen Borgesius, Wilfred Steenbruggen</p>
+    <p><b>Summary:</b> In the European Union, the General Data Protection Regulation (GDPR) provides
+comprehensive rules for the processing of personal data. In addition, the EU
+lawmaker intends to adopt specific rules to protect confidentiality of
+communications, in a separate ePrivacy Regulation. Some have argued that there
+is no need for such additional rules for communications confidentiality. This
+Article discusses the protection of the right to confidentiality of
+communications in Europe. We look at the right's origins to assess the
+rationale for protecting it. We also analyze how the right is currently
+protected under the European Convention on Human Rights and under EU law. We
+show that at its core the right to communications confidentiality protects
+three individual and collective values: privacy, freedom of expression, and
+trust in communication services. The right aims to ensure that individuals and
+organizations can safely entrust communication to service providers. Initially,
+the right protected only postal letters, but it has gradually developed into a
+strong safeguard for the protection of confidentiality of communications,
+regardless of the technology used. Hence, the right does not merely serve
+individual privacy interests, but also other more collective interests that are
+crucial for the functioning of our information society. We conclude that
+separate EU rules to protect communications confidentiality, next to the GDPR,
+are justified and necessary.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.07976v1">The impact of abstract and object tags on image privacy classification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-10-09T09:09:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Darya Baranouskaya, Andrea Cavallaro</p>
+    <p><b>Summary:</b> Object tags denote concrete entities and are central to many computer vision
+tasks, whereas abstract tags capture higher-level information, which is
+relevant for tasks that require a contextual, potentially subjective scene
+understanding. Object and abstract tags extracted from images also facilitate
+interpretability. In this paper, we explore which type of tags is more suitable
+for the context-dependent and inherently subjective task of image privacy.
+While object tags are generally used for privacy classification, we show that
+abstract tags are more effective when the tag budget is limited. Conversely,
+when a larger number of tags per image is available, object-related information
+is as useful. We believe that these findings will guide future research in
+developing more accurate image privacy classifiers, informed by the role of tag
+types and quantity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.07457v1">Comparison of Fully Homomorphic Encryption and Garbled Circuit
+  Techniques in Privacy-Preserving Machine Learning Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-08T19:03:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kalyan Cheerla, Lotfi Ben Othmane, Kirill Morozov</p>
+    <p><b>Summary:</b> Machine Learning (ML) is making its way into fields such as healthcare,
+finance, and Natural Language Processing (NLP), and concerns over data privacy
+and model confidentiality continue to grow. Privacy-preserving Machine Learning
+(PPML) addresses this challenge by enabling inference on private data without
+revealing sensitive inputs or proprietary models. Leveraging Secure Computation
+techniques from Cryptography, two widely studied approaches in this domain are
+Fully Homomorphic Encryption (FHE) and Garbled Circuits (GC). This work
+presents a comparative evaluation of FHE and GC for secure neural network
+inference. A two-layer neural network (NN) was implemented using the CKKS
+scheme from the Microsoft SEAL library (FHE) and the TinyGarble2.0 framework
+(GC) by IntelLabs. Both implementations are evaluated under the semi-honest
+threat model, measuring inference output error, round-trip time, peak memory
+usage, communication overhead, and communication rounds. Results reveal a
+trade-off: modular GC offers faster execution and lower memory consumption,
+while FHE supports non-interactive inference.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.07452v1">PATCH: Mitigating PII Leakage in Language Models with Privacy-Aware
+  Targeted Circuit PatcHing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-10-08T18:58:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anthony Hughes, Vasisht Duddu, N. Asokan, Nikolaos Aletras, Ning Ma</p>
+    <p><b>Summary:</b> Language models (LMs) may memorize personally identifiable information (PII)
+from training data, enabling adversaries to extract it during inference.
+Existing defense mechanisms such as differential privacy (DP) reduce this
+leakage, but incur large drops in utility. Based on a comprehensive study using
+circuit discovery to identify the computational circuits responsible PII
+leakage in LMs, we hypothesize that specific PII leakage circuits in LMs should
+be responsible for this behavior. Therefore, we propose PATCH (Privacy-Aware
+Targeted Circuit PatcHing), a novel approach that first identifies and
+subsequently directly edits PII circuits to reduce leakage. PATCH achieves
+better privacy-utility trade-off than existing defenses, e.g., reducing recall
+of PII leakage from LMs by up to 65%. Finally, PATCH can be combined with DP to
+reduce recall of residual leakage of an LM to as low as 0.01%. Our analysis
+shows that PII leakage circuits persist even after the application of existing
+defense mechanisms. In contrast, PATCH can effectively mitigate their impact.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.07176v1">Exposing LLM User Privacy via Traffic Fingerprint Analysis: A Study of
   Privacy Risks in LLM Agent Interactions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2831,145 +2964,6 @@ Theoretical analysis confirms its privacy protection, and experiments on image
 and wireless sensing tasks demonstrate that PM-SFL consistently improves
 accuracy, communication efficiency, and robustness to privacy attacks, with
 particularly strong performance under data and system heterogeneity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.14581v1">Can I Trust This Chatbot? Assessing User Privacy in AI-Healthcare
-  Chatbot Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-09-18T03:29:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ramazan Yener, Guan-Hung Chen, Ece Gumusel, Masooda Bashir</p>
-    <p><b>Summary:</b> As Conversational Artificial Intelligence (AI) becomes more integrated into
-everyday life, AI-powered chatbot mobile applications are increasingly adopted
-across industries, particularly in the healthcare domain. These chatbots offer
-accessible and 24/7 support, yet their collection and processing of sensitive
-health data present critical privacy concerns. While prior research has
-examined chatbot security, privacy issues specific to AI healthcare chatbots
-have received limited attention. Our study evaluates the privacy practices of
-12 widely downloaded AI healthcare chatbot apps available on the App Store and
-Google Play in the United States. We conducted a three-step assessment
-analyzing: (1) privacy settings during sign-up, (2) in-app privacy controls,
-and (3) the content of privacy policies. The analysis identified significant
-gaps in user data protection. Our findings reveal that half of the examined
-apps did not present a privacy policy during sign up, and only two provided an
-option to disable data sharing at that stage. The majority of apps' privacy
-policies failed to address data protection measures. Moreover, users had
-minimal control over their personal data. The study provides key insights for
-information science researchers, developers, and policymakers to improve
-privacy protections in AI healthcare chatbot apps.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.14050v1">AI For Privacy in Smart Homes: Exploring How Leveraging AI-Powered Smart
-  Devices Enhances Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-09-17T14:53:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wael Albayaydh, Ivan Flechais, Rui Zhao, Jood Albayaydh</p>
-    <p><b>Summary:</b> Privacy concerns and fears of unauthorized access in smart home devices often
-stem from misunderstandings about how data is collected, used, and protected.
-This study explores how AI-powered tools can offer innovative privacy
-protections through clear, personalized, and contextual support to users.
-Through 23 in-depth interviews with users, AI developers, designers, and
-regulators, and using Grounded Theory analysis, we identified two key themes:
-Aspirations for AI-Enhanced Privacy - how users perceive AI's potential to
-empower them, address power imbalances, and improve ease of use- and AI
-Ethical, Security, and Regulatory Considerations-challenges in strengthening
-data security, ensuring regulatory compliance, and promoting ethical AI
-practices. Our findings contribute to the field by uncovering user aspirations
-for AI-driven privacy solutions, identifying key security and ethical
-challenges, and providing actionable recommendations for all stakeholders,
-particularly targeting smart device designers and AI developers, to guide the
-co-design of AI tools that enhance privacy protection in smart home devices. By
-bridging the gap between user expectations, AI capabilities, and regulatory
-frameworks, this work offers practical insights for shaping the future of
-privacy-conscious AI integration in smart homes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13987v1">Differential Privacy in Federated Learning: Mitigating Inference Attacks
-  with Randomized Response</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-17T13:59:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ozer Ozturk, Busra Buyuktanir, Gozde Karatas Baydogmus, Kazim Yildiz</p>
-    <p><b>Summary:</b> Machine learning models used for distributed architectures consisting of
-servers and clients require large amounts of data to achieve high accuracy.
-Data obtained from clients are collected on a central server for model
-training. However, storing data on a central server raises concerns about
-security and privacy. To address this issue, a federated learning architecture
-has been proposed. In federated learning, each client trains a local model
-using its own data. The trained models are periodically transmitted to the
-central server. The server then combines the received models using federated
-aggregation algorithms to obtain a global model. This global model is
-distributed back to the clients, and the process continues in a cyclical
-manner. Although preventing data from leaving the clients enhances security,
-certain concerns still remain. Attackers can perform inference attacks on the
-obtained models to approximate the training dataset, potentially causing data
-leakage. In this study, differential privacy was applied to address the
-aforementioned security vulnerability, and a performance analysis was
-conducted. The Data-Unaware Classification Based on Association (duCBA)
-algorithm was used as the federated aggregation method. Differential privacy
-was implemented on the data using the Randomized Response technique, and the
-trade-off between security and performance was examined under different epsilon
-values. As the epsilon value decreased, the model accuracy declined, and class
-prediction imbalances were observed. This indicates that higher levels of
-privacy do not always lead to practical outcomes and that the balance between
-security and performance must be carefully considered.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13739v1">ParaAegis: Parallel Protection for Flexible Privacy-preserved Federated
-  Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-09-17T06:45:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihou Wu, Yuecheng Li, Tianchi Liao, Jian Lou, Chuan Chen</p>
-    <p><b>Summary:</b> Federated learning (FL) faces a critical dilemma: existing protection
-mechanisms like differential privacy (DP) and homomorphic encryption (HE)
-enforce a rigid trade-off, forcing a choice between model utility and
-computational efficiency. This lack of flexibility hinders the practical
-implementation. To address this, we introduce ParaAegis, a parallel protection
-framework designed to give practitioners flexible control over the
-privacy-utility-efficiency balance. Our core innovation is a strategic model
-partitioning scheme. By applying lightweight DP to the less critical, low norm
-portion of the model while protecting the remainder with HE, we create a
-tunable system. A distributed voting mechanism ensures consensus on this
-partitioning. Theoretical analysis confirms the adjustments between efficiency
-and utility with the same privacy. Crucially, the experimental results
-demonstrate that by adjusting the hyperparameters, our method enables flexible
-prioritization between model accuracy and training time.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.13627v1">Secure, Scalable and Privacy Aware Data Strategy in Cloud</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-09-17T01:56:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vijay Kumar Butte, Sujata Butte</p>
-    <p><b>Summary:</b> The enterprises today are faced with the tough challenge of processing,
-storing large amounts of data in a secure, scalable manner and enabling
-decision makers to make quick, informed data driven decisions. This paper
-addresses this challenge and develops an effective enterprise data strategy in
-the cloud. Various components of an effective data strategy are discussed and
-architectures addressing security, scalability and privacy aspects are
-provided.</p>
   </details>
 </div>
 
