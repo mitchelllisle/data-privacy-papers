@@ -825,5 +825,127 @@
       "cs.CR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09443v1",
+    "title" : "The Impact of Sanctions on decentralised Privacy Tools: A Case Study of\n  Tornado Cash",
+    "summary" : "This paper investigates the impact of sanctions on Tornado Cash, a smart\ncontract protocol designed to enhance transaction privacy. Following the U.S.\nDepartment of the Treasury's sanctions against Tornado Cash in August 2022,\nplatform activity declined sharply. We document a significant and sustained\nreduction in transaction volume, user diversity, and overall protocol\nutilization after the sanctions were imposed. Our analysis draws on transaction\ndata from three major blockchains: Ethereum, BNB Smart Chain, and Polygon. We\nfurther examine developments following the partial lifting and eventual removal\nof sanctions by the U.S. Office of Foreign Assets Control (OFAC) in March 2025.\nAlthough activity partially recovered, the rebound remained limited. The\nTornado Cash case illustrates how regulatory interventions can affect\ndecentralized protocols, while also highlighting the challenges of fully\nenforcing such measures in decentralized environments.",
+    "updated" : "2025-10-10T14:55:32Z",
+    "published" : "2025-10-10T14:55:32Z",
+    "authors" : [
+      {
+        "name" : "Raffaele Cristodaro"
+      },
+      {
+        "name" : "Benjamin Kramer"
+      },
+      {
+        "name" : "Claudio J. Tessone"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09253v1",
+    "title" : "Zero-shot image privacy classification with Vision-Language Models",
+    "summary" : "While specialized learning-based models have historically dominated image\nprivacy prediction, the current literature increasingly favours adopting large\nVision-Language Models (VLMs) designed for generic tasks. This trend risks\noverlooking the performance ceiling set by purpose-built models due to a lack\nof systematic evaluation. To address this problem, we establish a zero-shot\nbenchmark for image privacy classification, enabling a fair comparison. We\nevaluate the top-3 open-source VLMs, according to a privacy benchmark, using\ntask-aligned prompts and we contrast their performance, efficiency, and\nrobustness against established vision-only and multi-modal methods.\nCounter-intuitively, our results show that VLMs, despite their\nresource-intensive nature in terms of high parameter count and slower\ninference, currently lag behind specialized, smaller models in privacy\nprediction accuracy. We also find that VLMs exhibit higher robustness to image\nperturbations.",
+    "updated" : "2025-10-10T10:50:16Z",
+    "published" : "2025-10-10T10:50:16Z",
+    "authors" : [
+      {
+        "name" : "Alina Elena Baia"
+      },
+      {
+        "name" : "Alessio Xompero"
+      },
+      {
+        "name" : "Andrea Cavallaro"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09155v1",
+    "title" : "Federated Data Analytics for Cancer Immunotherapy: A Privacy-Preserving\n  Collaborative Platform for Patient Management",
+    "summary" : "Connected health is a multidisciplinary approach focused on health\nmanagement, prioritizing pa-tient needs in the creation of tools, services, and\ntreatments. This paradigm ensures proactive and efficient care by facilitating\nthe timely exchange of accurate patient information among all stake-holders in\nthe care continuum. The rise of digital technologies and process innovations\npromises to enhance connected health by integrating various healthcare data\nsources. This integration aims to personalize care, predict health outcomes,\nand streamline patient management, though challeng-es remain, particularly in\ndata architecture, application interoperability, and security. Data analytics\ncan provide critical insights for informed decision-making and health\nco-creation, but solutions must prioritize end-users, including patients and\nhealthcare professionals. This perspective was explored through an agile System\nDevelopment Lifecycle in an EU-funded project aimed at developing an integrated\nAI-generated solution for managing cancer patients undergoing immunotherapy.\nThis paper contributes with a collaborative digital framework integrating\nstakeholders across the care continuum, leveraging federated big data analytics\nand artificial intelligence for improved decision-making while ensuring\nprivacy. Analytical capabilities, such as treatment recommendations and adverse\nevent predictions, were validated using real-life data, achieving 70%-90%\naccuracy in a pilot study with the medical partners, demonstrating the\nframework's effectiveness.",
+    "updated" : "2025-10-10T08:57:41Z",
+    "published" : "2025-10-10T08:57:41Z",
+    "authors" : [
+      {
+        "name" : "Mira Raheem"
+      },
+      {
+        "name" : "Michael Papazoglou"
+      },
+      {
+        "name" : "Bernd Krämer"
+      },
+      {
+        "name" : "Neamat El-Tazi"
+      },
+      {
+        "name" : "Amal Elgammal"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.LG",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09114v1",
+    "title" : "On the Fairness of Privacy Protection: Measuring and Mitigating the\n  Disparity of Group Privacy Risks for Differentially Private Machine Learning",
+    "summary" : "While significant progress has been made in conventional fairness-aware\nmachine learning (ML) and differentially private ML (DPML), the fairness of\nprivacy protection across groups remains underexplored. Existing studies have\nproposed methods to assess group privacy risks, but these are based on the\naverage-case privacy risks of data records. Such approaches may underestimate\nthe group privacy risks, thereby potentially underestimating the disparity\nacross group privacy risks. Moreover, the current method for assessing the\nworst-case privacy risks of data records is time-consuming, limiting their\npractical applicability. To address these limitations, we introduce a novel\nmembership inference game that can efficiently audit the approximate worst-case\nprivacy risks of data records. Experimental results demonstrate that our method\nprovides a more stringent measurement of group privacy risks, yielding a\nreliable assessment of the disparity in group privacy risks. Furthermore, to\npromote privacy protection fairness in DPML, we enhance the standard DP-SGD\nalgorithm with an adaptive group-specific gradient clipping strategy, inspired\nby the design of canaries in differential privacy auditing studies. Extensive\nexperiments confirm that our algorithm effectively reduces the disparity in\ngroup privacy risks, thereby enhancing the fairness of privacy protection in\nDPML.",
+    "updated" : "2025-10-10T08:09:08Z",
+    "published" : "2025-10-10T08:09:08Z",
+    "authors" : [
+      {
+        "name" : "Zhi Yang"
+      },
+      {
+        "name" : "Changwu Huang"
+      },
+      {
+        "name" : "Ke Tang"
+      },
+      {
+        "name" : "Xin Yao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.08813v1",
+    "title" : "The Model's Language Matters: A Comparative Privacy Analysis of LLMs",
+    "summary" : "Large Language Models (LLMs) are increasingly deployed across multilingual\napplications that handle sensitive data, yet their scale and linguistic\nvariability introduce major privacy risks. Mostly evaluated for English, this\npaper investigates how language structure affects privacy leakage in LLMs\ntrained on English, Spanish, French, and Italian medical corpora. We quantify\nsix linguistic indicators and evaluate three attack vectors: extraction,\ncounterfactual memorization, and membership inference. Results show that\nprivacy vulnerability scales with linguistic redundancy and tokenization\ngranularity: Italian exhibits the strongest leakage, while English shows higher\nmembership separability. In contrast, French and Spanish display greater\nresilience due to higher morphological complexity. Overall, our findings\nprovide the first quantitative evidence that language matters in privacy\nleakage, underscoring the need for language-aware privacy-preserving mechanisms\nin LLM deployments.",
+    "updated" : "2025-10-09T20:59:42Z",
+    "published" : "2025-10-09T20:59:42Z",
+    "authors" : [
+      {
+        "name" : "Abhishek K. Mishra"
+      },
+      {
+        "name" : "Antoine Boutet"
+      },
+      {
+        "name" : "Lucas Magnana"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
