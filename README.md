@@ -2,6 +2,145 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.09443v1">The Impact of Sanctions on decentralised Privacy Tools: A Case Study of
+  Tornado Cash</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2025-10-10T14:55:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Raffaele Cristodaro, Benjamin Kramer, Claudio J. Tessone</p>
+    <p><b>Summary:</b> This paper investigates the impact of sanctions on Tornado Cash, a smart
+contract protocol designed to enhance transaction privacy. Following the U.S.
+Department of the Treasury's sanctions against Tornado Cash in August 2022,
+platform activity declined sharply. We document a significant and sustained
+reduction in transaction volume, user diversity, and overall protocol
+utilization after the sanctions were imposed. Our analysis draws on transaction
+data from three major blockchains: Ethereum, BNB Smart Chain, and Polygon. We
+further examine developments following the partial lifting and eventual removal
+of sanctions by the U.S. Office of Foreign Assets Control (OFAC) in March 2025.
+Although activity partially recovered, the rebound remained limited. The
+Tornado Cash case illustrates how regulatory interventions can affect
+decentralized protocols, while also highlighting the challenges of fully
+enforcing such measures in decentralized environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.09253v1">Zero-shot image privacy classification with Vision-Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
+  <p><b>Published on:</b> 2025-10-10T10:50:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alina Elena Baia, Alessio Xompero, Andrea Cavallaro</p>
+    <p><b>Summary:</b> While specialized learning-based models have historically dominated image
+privacy prediction, the current literature increasingly favours adopting large
+Vision-Language Models (VLMs) designed for generic tasks. This trend risks
+overlooking the performance ceiling set by purpose-built models due to a lack
+of systematic evaluation. To address this problem, we establish a zero-shot
+benchmark for image privacy classification, enabling a fair comparison. We
+evaluate the top-3 open-source VLMs, according to a privacy benchmark, using
+task-aligned prompts and we contrast their performance, efficiency, and
+robustness against established vision-only and multi-modal methods.
+Counter-intuitively, our results show that VLMs, despite their
+resource-intensive nature in terms of high parameter count and slower
+inference, currently lag behind specialized, smaller models in privacy
+prediction accuracy. We also find that VLMs exhibit higher robustness to image
+perturbations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.09155v1">Federated Data Analytics for Cancer Immunotherapy: A Privacy-Preserving
+  Collaborative Platform for Patient Management</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-10-10T08:57:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mira Raheem, Michael Papazoglou, Bernd Krämer, Neamat El-Tazi, Amal Elgammal</p>
+    <p><b>Summary:</b> Connected health is a multidisciplinary approach focused on health
+management, prioritizing pa-tient needs in the creation of tools, services, and
+treatments. This paradigm ensures proactive and efficient care by facilitating
+the timely exchange of accurate patient information among all stake-holders in
+the care continuum. The rise of digital technologies and process innovations
+promises to enhance connected health by integrating various healthcare data
+sources. This integration aims to personalize care, predict health outcomes,
+and streamline patient management, though challeng-es remain, particularly in
+data architecture, application interoperability, and security. Data analytics
+can provide critical insights for informed decision-making and health
+co-creation, but solutions must prioritize end-users, including patients and
+healthcare professionals. This perspective was explored through an agile System
+Development Lifecycle in an EU-funded project aimed at developing an integrated
+AI-generated solution for managing cancer patients undergoing immunotherapy.
+This paper contributes with a collaborative digital framework integrating
+stakeholders across the care continuum, leveraging federated big data analytics
+and artificial intelligence for improved decision-making while ensuring
+privacy. Analytical capabilities, such as treatment recommendations and adverse
+event predictions, were validated using real-life data, achieving 70%-90%
+accuracy in a pilot study with the medical partners, demonstrating the
+framework's effectiveness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.09114v1">On the Fairness of Privacy Protection: Measuring and Mitigating the
+  Disparity of Group Privacy Risks for Differentially Private Machine Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-10-10T08:09:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhi Yang, Changwu Huang, Ke Tang, Xin Yao</p>
+    <p><b>Summary:</b> While significant progress has been made in conventional fairness-aware
+machine learning (ML) and differentially private ML (DPML), the fairness of
+privacy protection across groups remains underexplored. Existing studies have
+proposed methods to assess group privacy risks, but these are based on the
+average-case privacy risks of data records. Such approaches may underestimate
+the group privacy risks, thereby potentially underestimating the disparity
+across group privacy risks. Moreover, the current method for assessing the
+worst-case privacy risks of data records is time-consuming, limiting their
+practical applicability. To address these limitations, we introduce a novel
+membership inference game that can efficiently audit the approximate worst-case
+privacy risks of data records. Experimental results demonstrate that our method
+provides a more stringent measurement of group privacy risks, yielding a
+reliable assessment of the disparity in group privacy risks. Furthermore, to
+promote privacy protection fairness in DPML, we enhance the standard DP-SGD
+algorithm with an adaptive group-specific gradient clipping strategy, inspired
+by the design of canaries in differential privacy auditing studies. Extensive
+experiments confirm that our algorithm effectively reduces the disparity in
+group privacy risks, thereby enhancing the fairness of privacy protection in
+DPML.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.08813v1">The Model's Language Matters: A Comparative Privacy Analysis of LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-09T20:59:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abhishek K. Mishra, Antoine Boutet, Lucas Magnana</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly deployed across multilingual
+applications that handle sensitive data, yet their scale and linguistic
+variability introduce major privacy risks. Mostly evaluated for English, this
+paper investigates how language structure affects privacy leakage in LLMs
+trained on English, Spanish, French, and Italian medical corpora. We quantify
+six linguistic indicators and evaluate three attack vectors: extraction,
+counterfactual memorization, and membership inference. Results show that
+privacy vulnerability scales with linguistic redundancy and tokenization
+granularity: Italian exhibits the strongest leakage, while English shows higher
+membership separability. In contrast, French and Spanish display greater
+resilience due to higher morphological complexity. Overall, our findings
+provide the first quantitative evidence that language matters in privacy
+leakage, underscoring the need for language-aware privacy-preserving mechanisms
+in LLM deployments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.08355v1">ExPrESSO: Zero-Knowledge backed Extensive Privacy Preserving Single
   Sign-on</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2809,161 +2948,6 @@ achieves performance that is highly competitive with, and in the case of
 CiteSeer, superior to the standard non-private baseline. Our work represents a
 significant step towards practical and high-performance privacy-preserving
 graph representation learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.15755v1">Utility-based Privacy Preserving Data Mining</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-09-19T08:30:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qingfeng Zhou, Wensheng Gan, Zhenlian Qi, Philip S. Yu</p>
-    <p><b>Summary:</b> With the advent of big data, periodic pattern mining has demonstrated
-significant value in real-world applications, including smart home systems,
-healthcare systems, and the medical field. However, advances in network
-technology have enabled malicious actors to extract sensitive information from
-publicly available datasets, posing significant threats to data providers and,
-in severe cases, hindering societal development. To mitigate such risks,
-privacy-preserving utility mining (PPUM) has been proposed. However, PPUM is
-unsuitable for addressing privacy concerns in periodic information mining. To
-address this issue, we innovatively extend the existing PPUM framework and
-propose two algorithms, Maximum sensitive Utility-MAximum maxPer item (MU-MAP)
-and Maximum sensitive Utility-MInimum maxPer item (MU-MIP). These algorithms
-aim to hide sensitive periodic high-utility itemsets while generating sanitized
-datasets. To enhance the efficiency of the algorithms, we designed two novel
-data structures: the Sensitive Itemset List (SISL) and the Sensitive Item List
-(SIL), which store essential information about sensitive itemsets and their
-constituent items. Moreover, several performance metrics were employed to
-evaluate the performance of our algorithms compared to the state-of-the-art
-PPUM algorithms. The experimental results show that our proposed algorithms
-achieve an Artificial Cost (AC) value of 0 on all datasets when hiding
-sensitive itemsets. In contrast, the traditional PPUM algorithm yields non-zero
-AC. This indicates that our algorithms can successfully hide sensitive periodic
-itemsets without introducing misleading patterns, whereas the PPUM algorithm
-generates additional itemsets that may interfere with user decision-making.
-Moreover, the results also reveal that our algorithms maintain Database Utility
-Similarity (DUS) of over 90\% after the sensitive itemsets are hidden.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.18187v1">V-SenseDrive: A Privacy-Preserving Road Video and In-Vehicle Sensor
-  Fusion Framework for Road Safety & Driver Behaviour Modelling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-18T21:55:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muhammad Naveed, Nazia Perwaiz, Sidra Sultana, Mohaira Ahmad, Muhammad Moazam Fraz</p>
-    <p><b>Summary:</b> Road traffic accidents remain a major public health challenge, particularly
-in countries with heterogeneous road conditions, mixed traffic flow, and
-variable driving discipline, such as Pakistan. Reliable detection of unsafe
-driving behaviours is a prerequisite for improving road safety, enabling
-advanced driver assistance systems (ADAS), and supporting data driven decisions
-in insurance and fleet management. Most of existing datasets originate from the
-developed countries with limited representation of the behavioural diversity
-observed in emerging economies and the driver's face recording voilates the
-privacy preservation. We present V-SenseDrive, the first privacy-preserving
-multimodal driver behaviour dataset collected entirely within the Pakistani
-driving environment. V-SenseDrive combines smartphone based inertial and GPS
-sensor data with synchronized road facing video to record three target driving
-behaviours (normal, aggressive, and risky) on multiple types of roads,
-including urban arterials, secondary roads, and motorways. Data was gathered
-using a custom Android application designed to capture high frequency
-accelerometer, gyroscope, and GPS streams alongside continuous video, with all
-sources precisely time aligned to enable multimodal analysis. The focus of this
-work is on the data acquisition process, covering participant selection,
-driving scenarios, environmental considerations, and sensor video
-synchronization techniques. The dataset is structured into raw, processed, and
-semantic layers, ensuring adaptability for future research in driver behaviour
-classification, traffic safety analysis, and ADAS development. By representing
-real world driving in Pakistan, V-SenseDrive fills a critical gap in the global
-landscape of driver behaviour datasets and lays the groundwork for context
-aware intelligent transportation solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.15047v1">Distributed Batch Matrix Multiplication: Trade-Offs in Download Rate,
-  Randomness, and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-09-18T15:10:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amirhosein Morteza, Remi A. Chou</p>
-    <p><b>Summary:</b> We study the trade-off between communication rate and privacy for distributed
-batch matrix multiplication of two independent sequences of matrices
-$\mathbf{A}$ and $\mathbf{B}$ with uniformly distributed entries. In our
-setting, $\mathbf{B}$ is publicly accessible by all the servers while
-$\mathbf{A}$ must remain private. A user is interested in evaluating the
-product $\mathbf{AB}$ with the responses from the $k$ fastest servers. For a
-given parameter $\alpha \in [0, 1]$, our privacy constraint must ensure that
-any set of $\ell$ colluding servers cannot learn more than a fraction $\alpha$
-of $\mathbf{A}$. Additionally, we study the trade-off between the amount of
-local randomness needed at the encoder and privacy. Finally, we establish the
-optimal trade-offs when the matrices are square and identify a linear
-relationship between information leakage and communication rate.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.15278v1">Assessing metadata privacy in neuroimaging</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> 
-  <p><b>Published on:</b> 2025-09-18T12:56:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Emilie Kibsgaard, Anita Sue Jwa, Christopher J Markiewicz, David Rodriguez Gonzalez, Judith Sainz Pardo, Russell A. Poldrack, Cyril R. Pernet</p>
-    <p><b>Summary:</b> The ethical and legal imperative to share research data without causing harm
-requires careful attention to privacy risks. While mounting evidence
-demonstrates that data sharing benefits science, legitimate concerns persist
-regarding the potential leakage of personal information that could lead to
-reidentification and subsequent harm. We reviewed metadata accompanying
-neuroimaging datasets from six heterogeneous studies openly available on
-OpenNeuro, involving participants across the lifespan, from children to older
-adults, with and without clinical diagnoses, and including associated clinical
-score data. Using metaprivBIDS (https://github.com/CPernet/metaprivBIDS), a
-novel tool for the systematic assessment of privacy in tabular data, we found
-that privacy is generally well maintained, with serious vulnerabilities being
-rare. Nonetheless, minor issues were identified in nearly all datasets and
-warrant mitigation. Notably, clinical score data (e.g., neuropsychological
-results) posed minimal reidentification risk, whereas demographic variables
-(age, sex, race, income, and geolocation) represented the principal privacy
-vulnerabilities. We outline practical measures to address these risks, enabling
-safer data sharing practices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.14603v1">Towards Privacy-Preserving and Heterogeneity-aware Split Federated
-  Learning via Probabilistic Masking</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-18T04:28:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xingchen Wang, Feijie Wu, Chenglin Miao, Tianchun Li, Haoyu Hu, Qiming Cao, Jing Gao, Lu Su</p>
-    <p><b>Summary:</b> Split Federated Learning (SFL) has emerged as an efficient alternative to
-traditional Federated Learning (FL) by reducing client-side computation through
-model partitioning. However, exchanging of intermediate activations and model
-updates introduces significant privacy risks, especially from data
-reconstruction attacks that recover original inputs from intermediate
-representations. Existing defenses using noise injection often degrade model
-performance. To overcome these challenges, we present PM-SFL, a scalable and
-privacy-preserving SFL framework that incorporates Probabilistic Mask training
-to add structured randomness without relying on explicit noise. This mitigates
-data reconstruction risks while maintaining model utility. To address data
-heterogeneity, PM-SFL employs personalized mask learning that tailors submodel
-structures to each client's local data. For system heterogeneity, we introduce
-a layer-wise knowledge compensation mechanism, enabling clients with varying
-resources to participate effectively under adaptive model splitting.
-Theoretical analysis confirms its privacy protection, and experiments on image
-and wireless sensing tasks demonstrate that PM-SFL consistently improves
-accuracy, communication efficiency, and robustness to privacy attacks, with
-particularly strong performance under data and system heterogeneity.</p>
   </details>
 </div>
 
