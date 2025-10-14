@@ -4365,5 +4365,27 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.02356v2",
+    "title" : "Measuring Physical-World Privacy Awareness of Large Language Models: An\n  Evaluation Benchmark",
+    "summary" : "The deployment of Large Language Models (LLMs) in embodied agents creates an\nurgent need to measure their privacy awareness in the physical world. Existing\nevaluation methods, however, are confined to natural language based scenarios.\nTo bridge this gap, we introduce EAPrivacy, a comprehensive evaluation\nbenchmark designed to quantify the physical-world privacy awareness of\nLLM-powered agents. EAPrivacy utilizes procedurally generated scenarios across\nfour tiers to test an agent's ability to handle sensitive objects, adapt to\nchanging environments, balance task execution with privacy constraints, and\nresolve conflicts with social norms. Our measurements reveal a critical deficit\nin current models. The top-performing model, Gemini 2.5 Pro, achieved only 59\\%\naccuracy in scenarios involving changing physical environments. Furthermore,\nwhen a task was accompanied by a privacy request, models prioritized completion\nover the constraint in up to 86\\% of cases. In high-stakes situations pitting\nprivacy against critical social norms, leading models like GPT-4o and\nClaude-3.5-haiku disregarded the social norm over 15\\% of the time. These\nfindings, demonstrated by our benchmark, underscore a fundamental misalignment\nin LLMs regarding physically grounded privacy and establish the need for more\nrobust, physically-aware alignment. Codes and datasets will be available at\nhttps://github.com/Graph-COM/EAPrivacy.",
+    "updated" : "2025-10-13T17:24:22Z",
+    "published" : "2025-09-27T23:39:56Z",
+    "authors" : [
+      {
+        "name" : "Xinjie Shen"
+      },
+      {
+        "name" : "Mufei Li"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
