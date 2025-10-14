@@ -947,5 +947,276 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11640v1",
+    "title" : "Continual Release of Densest Subgraphs: Privacy Amplification &\n  Sublinear Space via Subsampling",
+    "summary" : "We study the sublinear space continual release model for edge-differentially\nprivate (DP) graph algorithms, with a focus on the densest subgraph problem\n(DSG) in the insertion-only setting. Our main result is the first continual\nrelease DSG algorithm that matches the additive error of the best static DP\nalgorithms and the space complexity of the best non-private streaming\nalgorithms, up to constants. The key idea is a refined use of subsampling that\nsimultaneously achieves privacy amplification and sparsification, a connection\nnot previously formalized in graph DP. Via a simple black-box reduction to the\nstatic setting, we obtain both pure and approximate-DP algorithms with $O(\\log\nn)$ additive error and $O(n\\log n)$ space, improving both accuracy and space\ncomplexity over the previous state of the art. Along the way, we introduce\ngraph densification in the graph DP setting, adding edges to trigger earlier\nsubsampling, which removes the extra logarithmic factors in error and space\nincurred by prior work [ELMZ25]. We believe this simple idea may be of\nindependent interest.",
+    "updated" : "2025-10-13T17:20:13Z",
+    "published" : "2025-10-13T17:20:13Z",
+    "authors" : [
+      {
+        "name" : "Felix Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11514v1",
+    "title" : "Toward Efficient and Privacy-Aware eHealth Systems: An Integrated\n  Sensing, Computing, and Semantic Communication Approach",
+    "summary" : "Real-time and contactless monitoring of vital signs, such as respiration and\nheartbeat, alongside reliable communication, is essential for modern healthcare\nsystems, especially in remote and privacy-sensitive environments. Traditional\nwireless communication and sensing networks fall short in meeting all the\nstringent demands of eHealth, including accurate sensing, high data efficiency,\nand privacy preservation. To overcome the challenges, we propose a novel\nintegrated sensing, computing, and semantic communication (ISCSC) framework. In\nthe proposed system, a service robot utilises radar to detect patient positions\nand monitor their vital signs, while sending updates to the medical devices.\nInstead of transmitting raw physiological information, the robot computes and\ncommunicates semantically extracted health features to medical devices. This\nsemantic processing improves data throughput and preserves the clinical\nrelevance of the messages, while enhancing data privacy by avoiding the\ntransmission of sensitive data. Leveraging the estimated patient locations, the\nrobot employs an interacting multiple model (IMM) filter to actively track\npatient motion, thereby enabling robust beam steering for continuous and\nreliable monitoring. We then propose a joint optimisation of the beamforming\nmatrices and the semantic extraction ratio, subject to computing capability and\npower budget constraints, with the objective of maximising both the semantic\nsecrecy rate and sensing accuracy. Simulation results validate that the ISCSC\nframework achieves superior sensing accuracy, improved semantic transmission\nefficiency, and enhanced privacy preservation compared to conventional joint\nsensing and communication methods.",
+    "updated" : "2025-10-13T15:21:32Z",
+    "published" : "2025-10-13T15:21:32Z",
+    "authors" : [
+      {
+        "name" : "Yinchao Yang"
+      },
+      {
+        "name" : "Yahao Ding"
+      },
+      {
+        "name" : "Zhaohui Yang"
+      },
+      {
+        "name" : "Chongwen Huang"
+      },
+      {
+        "name" : "Zhaoyang Zhang"
+      },
+      {
+        "name" : "Dusit Niyato"
+      },
+      {
+        "name" : "Mohammad Shikh-Bahaei"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11347v1",
+    "title" : "Multi-View Graph Feature Propagation for Privacy Preservation and\n  Feature Sparsity",
+    "summary" : "Graph Neural Networks (GNNs) have demonstrated remarkable success in node\nclassification tasks over relational data, yet their effectiveness often\ndepends on the availability of complete node features. In many real-world\nscenarios, however, feature matrices are highly sparse or contain sensitive\ninformation, leading to degraded performance and increased privacy risks.\nFurthermore, direct exposure of information can result in unintended data\nleakage, enabling adversaries to infer sensitive information. To address these\nchallenges, we propose a novel Multi-view Feature Propagation (MFP) framework\nthat enhances node classification under feature sparsity while promoting\nprivacy preservation. MFP extends traditional Feature Propagation (FP) by\ndividing the available features into multiple Gaussian-noised views, each\npropagating information independently through the graph topology. The\naggregated representations yield expressive and robust node embeddings. This\nframework is novel in two respects: it introduces a mechanism that improves\nrobustness under extreme sparsity, and it provides a principled way to balance\nutility with privacy. Extensive experiments conducted on graph datasets\ndemonstrate that MFP outperforms state-of-the-art baselines in node\nclassification while substantially reducing privacy leakage. Moreover, our\nanalysis demonstrates that propagated outputs serve as alternative imputations\nrather than reconstructions of the original features, preserving utility\nwithout compromising privacy. A comprehensive sensitivity analysis further\nconfirms the stability and practical applicability of MFP across diverse\nscenarios. Overall, MFP provides an effective and privacy-aware framework for\ngraph learning in domains characterized by missing or sensitive features.",
+    "updated" : "2025-10-13T12:42:00Z",
+    "published" : "2025-10-13T12:42:00Z",
+    "authors" : [
+      {
+        "name" : "Etzion Harari"
+      },
+      {
+        "name" : "Moshe Unger"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11299v1",
+    "title" : "How to Get Actual Privacy and Utility from Privacy Models: the\n  k-Anonymity and Differential Privacy Families",
+    "summary" : "Privacy models were introduced in privacy-preserving data publishing and\nstatistical disclosure control with the promise to end the need for costly\nempirical assessment of disclosure risk. We examine how well this promise is\nkept by the main privacy models. We find they may fail to provide adequate\nprotection guarantees because of problems in their definition or incur\nunacceptable trade-offs between privacy protection and utility preservation.\nSpecifically, k-anonymity may not entirely exclude disclosure if enforced with\ndeterministic mechanisms or without constraints on the confidential values. On\nthe other hand, differential privacy (DP) incurs unacceptable utility loss for\nsmall budgets and its privacy guarantee becomes meaningless for large budgets.\nIn the latter case, an ex post empirical assessment of disclosure risk becomes\nnecessary, undermining the main appeal of privacy models. Whereas the utility\npreservation of DP can only be improved by relaxing its privacy guarantees, we\nargue that a semantic reformulation of k-anonymity can offer more robust\nprivacy without losing utility with respect to traditional syntactic\nk-anonymity.",
+    "updated" : "2025-10-13T11:41:12Z",
+    "published" : "2025-10-13T11:41:12Z",
+    "authors" : [
+      {
+        "name" : "Josep Domingo-Ferrer"
+      },
+      {
+        "name" : "David Sánchez"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "68",
+      "K.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11116v1",
+    "title" : "N-output Mechanism: Estimating Statistical Information from Numerical\n  Data under Local Differential Privacy",
+    "summary" : "Local Differential Privacy (LDP) addresses significant privacy concerns in\nsensitive data collection. In this work, we focus on numerical data collection\nunder LDP, targeting a significant gap in the literature: existing LDP\nmechanisms are optimized for either a very small ($|\\Omega| \\in \\{2, 3\\}$) or\ninfinite output spaces. However, no generalized method for constructing an\noptimal mechanism for an arbitrary output size $N$ exists. To fill this gap, we\npropose the \\textbf{N-output mechanism}, a generalized framework that maps\nnumerical data to one of $N$ discrete outputs.\n  We formulate the mechanism's design as an optimization problem to minimize\nestimation variance for any given $N \\geq 2$ and develop both numerical and\nanalytical solutions. This results in a mechanism that is highly accurate and\nadaptive, as its design is determined by solving an optimization problem for\nany chosen $N$. Furthermore, we extend our framework and existing mechanisms to\nthe task of distribution estimation. Empirical evaluations show that the\nN-output mechanism achieves state-of-the-art accuracy for mean, variance, and\ndistribution estimation with small communication costs.",
+    "updated" : "2025-10-13T08:06:59Z",
+    "published" : "2025-10-13T08:06:59Z",
+    "authors" : [
+      {
+        "name" : "Incheol Baek"
+      },
+      {
+        "name" : "Yon Dohn Chung"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.10805v1",
+    "title" : "Therapeutic AI and the Hidden Risks of Over-Disclosure: An Embedded\n  AI-Literacy Framework for Mental Health Privacy",
+    "summary" : "Large Language Models (LLMs) are increasingly deployed in mental health\ncontexts, from structured therapeutic support tools to informal chat-based\nwell-being assistants. While these systems increase accessibility, scalability,\nand personalization, their integration into mental health care brings privacy\nand safety challenges that have not been well-examined. Unlike traditional\nclinical interactions, LLM-mediated therapy often lacks a clear structure for\nwhat information is collected, how it is processed, and how it is stored or\nreused. Users without clinical guidance may over-disclose personal information,\nwhich is sometimes irrelevant to their presenting concern, due to misplaced\ntrust, lack of awareness of data risks, or the conversational design of the\nsystem. This overexposure raises privacy concerns and also increases the\npotential for LLM bias, misinterpretation, and long-term data misuse. We\npropose a framework embedding Artificial Intelligence (AI) literacy\ninterventions directly into mental health conversational systems, and outline a\nstudy plan to evaluate their impact on disclosure safety, trust, and user\nexperience.",
+    "updated" : "2025-10-12T20:50:06Z",
+    "published" : "2025-10-12T20:50:06Z",
+    "authors" : [
+      {
+        "name" : "Soraya S. Anvari"
+      },
+      {
+        "name" : "Rina R. Wehbe"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.10316v1",
+    "title" : "An information theorist's tour of differential privacy",
+    "summary" : "Since being proposed in 2006, differential privacy has become a standard\nmethod for quantifying certain risks in publishing or sharing analyses of\nsensitive data. At its heart, differential privacy measures risk in terms of\nthe differences between probability distributions, which is a central topic in\ninformation theory. A differentially private algorithm is a channel between the\nunderlying data and the output of the analysis. Seen in this way, the\nguarantees made by differential privacy can be understood in terms of\nproperties of this channel. In this article we examine a few of the key\nconnections between information theory and the formulation/application of\ndifferential privacy, giving an ``operational significance'' for relevant\ninformation measures.",
+    "updated" : "2025-10-11T18:54:05Z",
+    "published" : "2025-10-11T18:54:05Z",
+    "authors" : [
+      {
+        "name" : "Anand D. Sarwate"
+      },
+      {
+        "name" : "Flavio P. Calmon"
+      },
+      {
+        "name" : "Oliver Kosut"
+      },
+      {
+        "name" : "Lalitha Sankar"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.IT",
+      "math.ST",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09985v1",
+    "title" : "Prismo: A Decision Support System for Privacy-Preserving ML Framework\n  Selection",
+    "summary" : "Machine learning has become a crucial part of our lives, with applications\nspanning nearly every aspect of our daily activities. However, using personal\ninformation in machine learning applications has sparked significant security\nand privacy concerns about user data. To address these challenges, different\nprivacy-preserving machine learning (PPML) frameworks have been developed to\nprotect sensitive information in machine learning applications. These\nframeworks generally attempt to balance design trade-offs such as computational\nefficiency, communication overhead, security guarantees, and scalability.\nDespite the advancements, selecting the optimal framework and parameters for\nspecific deployment scenarios remains a complex and critical challenge for\nprivacy and security application developers.\n  We present Prismo, an open-source recommendation system designed to aid in\nselecting optimal parameters and frameworks for different PPML application\nscenarios. Prismo enables users to explore a comprehensive space of PPML\nframeworks through various properties based on user-defined objectives. It\nsupports automated filtering of suitable candidate frameworks by considering\nparameters such as the number of parties in multi-party computation or\nfederated learning and computation cost constraints in homomorphic encryption.\nPrismo models every use case into a Linear Integer Programming optimization\nproblem, ensuring tailored solutions are recommended for each scenario. We\nevaluate Prismo's effectiveness through multiple use cases, demonstrating its\nability to deliver best-fit solutions in different deployment scenarios.",
+    "updated" : "2025-10-11T03:27:15Z",
+    "published" : "2025-10-11T03:27:15Z",
+    "authors" : [
+      {
+        "name" : "Nges Brian Njungle"
+      },
+      {
+        "name" : "Eric Jahns"
+      },
+      {
+        "name" : "Luigi Mastromauro"
+      },
+      {
+        "name" : "Edwin P. Kayang"
+      },
+      {
+        "name" : "Milan Stojkov"
+      },
+      {
+        "name" : "Michel A. Kinsy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "I.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09443v2",
+    "title" : "The Impact of Sanctions on decentralised Privacy Tools: A Case Study of\n  Tornado Cash",
+    "summary" : "This paper investigates the impact of sanctions on Tornado Cash, a smart\ncontract protocol designed to enhance transaction privacy. Following the U.S.\nDepartment of the Treasury's sanctions against Tornado Cash in August 2022,\nplatform activity declined sharply. We document a significant and sustained\nreduction in transaction volume, user diversity, and overall protocol\nutilization after the sanctions were imposed. Our analysis draws on transaction\ndata from three major blockchains: Ethereum, BNB Smart Chain, and Polygon. We\nfurther examine developments following the partial lifting and eventual removal\nof sanctions by the U.S. Office of Foreign Assets Control (OFAC) in March 2025.\nAlthough activity partially recovered, the rebound remained limited. The\nTornado Cash case illustrates how regulatory interventions can affect\ndecentralized protocols, while also highlighting the challenges of fully\nenforcing such measures in decentralized environments.",
+    "updated" : "2025-10-13T09:46:22Z",
+    "published" : "2025-10-10T14:55:32Z",
+    "authors" : [
+      {
+        "name" : "Raffaele Cristodaro"
+      },
+      {
+        "name" : "Benjamin Kraner"
+      },
+      {
+        "name" : "Claudio J. Tessone"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09715v1",
+    "title" : "A Scalable, Privacy-Preserving Decentralized Identity and Verifiable\n  Data Sharing Framework based on Zero-Knowledge Proofs",
+    "summary" : "With the proliferation of decentralized applications (DApps), the conflict\nbetween the transparency of blockchain technology and user data privacy has\nbecome increasingly prominent. While Decentralized Identity (DID) and\nVerifiable Credentials (VCs) provide a standardized framework for user data\nsovereignty, achieving trusted identity verification and data sharing without\ncompromising privacy remains a significant challenge. This paper proposes a\nnovel, comprehensive framework that integrates DIDs and VCs with efficient\nZero-Knowledge Proof (ZKP) schemes to address this core issue. The key\ncontributions of this framework are threefold: first, it constructs a set of\nstrong privacy-preserving protocols based on zk-STARKs, allowing users to prove\nthat their credentials satisfy specific conditions (e.g., \"age is over 18\")\nwithout revealing any underlying sensitive data. Second, it designs a scalable,\nprivacy-preserving credential revocation mechanism based on cryptographic\naccumulators, effectively solving credential management challenges in\nlarge-scale scenarios. Finally, it integrates a practical social key recovery\nscheme, significantly enhancing system usability and security. Through a\nprototype implementation and performance evaluation, this paper quantitatively\nanalyzes the framework's performance in terms of proof generation time,\nverification overhead, and on-chain costs. Compared to existing\nstate-of-the-art systems based on zk-SNARKs, our framework, at the cost of a\nlarger proof size, significantly improves prover efficiency for complex\ncomputations and provides stronger security guarantees, including no trusted\nsetup and post-quantum security. Finally, a case study in the decentralized\nfinance (DeFi) credit scoring scenario demonstrates the framework's immense\npotential for unlocking capital efficiency and fostering a trusted data\neconomy.",
+    "updated" : "2025-10-10T06:06:05Z",
+    "published" : "2025-10-10T06:06:05Z",
+    "authors" : [
+      {
+        "name" : "Hui Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09691v1",
+    "title" : "Evaluation of Differential Privacy Mechanisms on Federated Learning",
+    "summary" : "Federated learning is distributed model training across several clients\nwithout disclosing raw data. Despite advancements in data privacy, risks still\nremain. Differential Privacy (DP) is a technique to protect sensitive data by\nadding noise to model updates, usually controlled by a fixed privacy budget.\nHowever, this approach can introduce excessive noise, particularly when the\nmodel converges, which compromises performance. To address this problem,\nadaptive privacy budgets have been investigated as a potential solution. This\nwork implements DP methods using Laplace and Gaussian mechanisms with an\nadaptive privacy budget, extending the SelecEval simulator. We introduce an\nadaptive clipping approach in the Gaussian mechanism, ensuring that gradients\nof the model are dynamically updated rather than using a fixed sensitivity. We\nconduct extensive experiments with various privacy budgets, IID and non-IID\ndatasets, and different numbers of selected clients per round. While our\nexperiments were limited to 200 training rounds, the results suggest that\nadaptive privacy budgets and adaptive clipping can help maintain model accuracy\nwhile preserving privacy.",
+    "updated" : "2025-10-09T11:32:36Z",
+    "published" : "2025-10-09T11:32:36Z",
+    "authors" : [
+      {
+        "name" : "Tejash Varsani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "68T07, 68M14",
+      "I.2.6; I.2.11; K.6.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.00478v2",
+    "title" : "Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving\n  Domain Adaptation",
+    "summary" : "Recent work on latent diffusion models (LDMs) has focused almost exclusively\non generative tasks, leaving their potential for discriminative transfer\nlargely unexplored. We introduce Discriminative Vicinity Diffusion (DVD), a\nnovel LDM-based framework for a more practical variant of source-free domain\nadaptation (SFDA): the source provider may share not only a pre-trained\nclassifier but also an auxiliary latent diffusion module, trained once on the\nsource data and never exposing raw source samples. DVD encodes each source\nfeature's label information into its latent vicinity by fitting a Gaussian\nprior over its k-nearest neighbors and training the diffusion network to drift\nnoisy samples back to label-consistent representations. During adaptation, we\nsample from each target feature's latent vicinity, apply the frozen diffusion\nmodule to generate source-like cues, and use a simple InfoNCE loss to align the\ntarget encoder to these cues, explicitly transferring decision boundaries\nwithout source access. Across standard SFDA benchmarks, DVD outperforms\nstate-of-the-art methods. We further show that the same latent diffusion module\nenhances the source classifier's accuracy on in-domain data and boosts\nperformance in supervised classification and domain generalization experiments.\nDVD thus reinterprets LDMs as practical, privacy-preserving bridges for\nexplicit knowledge transfer, addressing a core challenge in source-free domain\nadaptation that prior methods have yet to solve.",
+    "updated" : "2025-10-11T21:35:10Z",
+    "published" : "2025-10-01T03:58:26Z",
+    "authors" : [
+      {
+        "name" : "Jing Wang"
+      },
+      {
+        "name" : "Wonho Bae"
+      },
+      {
+        "name" : "Jiahong Chen"
+      },
+      {
+        "name" : "Wenxu Wang"
+      },
+      {
+        "name" : "Junhyug Noh"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
