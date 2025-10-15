@@ -2,6 +2,139 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.12780v1">Content Anonymization for Privacy in Long-form Audio</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-10-14T17:52:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cristina Aggazzotti, Ashi Garg, Zexin Cai, Nicholas Andrews</p>
+    <p><b>Summary:</b> Voice anonymization techniques have been found to successfully obscure a
+speaker's acoustic identity in short, isolated utterances in benchmarks such as
+the VoicePrivacy Challenge. In practice, however, utterances seldom occur in
+isolation: long-form audio is commonplace in domains such as interviews, phone
+calls, and meetings. In these cases, many utterances from the same speaker are
+available, which pose a significantly greater privacy risk: given multiple
+utterances from the same speaker, an attacker could exploit an individual's
+vocabulary, syntax, and turns of phrase to re-identify them, even when their
+voice is completely disguised. To address this risk, we propose new content
+anonymization approaches. Our approach performs a contextual rewriting of the
+transcripts in an ASR-TTS pipeline to eliminate speaker-specific style while
+preserving meaning. We present results in a long-form telephone conversation
+setting demonstrating the effectiveness of a content-based attack on
+voice-anonymized speech. Then we show how the proposed content-based
+anonymization methods can mitigate this risk while preserving speech utility.
+Overall, we find that paraphrasing is an effective defense against
+content-based attacks and recommend that stakeholders adopt this step to ensure
+anonymity in long-form audio.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.12549v1">Privacy-Preserving Distributed Estimation with Limited Data Rate</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-10-14T14:13:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jieming Ke, Jimin Wang, Ji-Feng Zhang</p>
+    <p><b>Summary:</b> This paper focuses on the privacy-preserving distributed estimation problem
+with a limited data rate, where the observations are the sensitive information.
+Specifically, a binary-valued quantizer-based privacy-preserving distributed
+estimation algorithm is developed, which improves the algorithm's
+privacy-preserving capability and simultaneously reduces the communication
+costs. The algorithm's privacy-preserving capability, measured by the Fisher
+information matrix, is dynamically enhanced over time. Notably, the Fisher
+information matrix of the output signals with respect to the sensitive
+information converges to zero at a polynomial rate, and the improvement in
+privacy brought by the quantizers is quantitatively characterized as a
+multiplicative effect. Regarding the communication costs, each sensor transmits
+only 1 bit of information to its neighbours at each time step. Additionally,
+the assumption on the negligible quantization error for real-valued messages is
+not required. While achieving the requirements of privacy preservation and
+reducing communication costs, the algorithm ensures that its estimates converge
+almost surely to the true value of the unknown parameter by establishing a
+co-design guideline for the time-varying privacy noises and step-sizes. A
+polynomial almost sure convergence rate is obtained, and then the trade-off
+between privacy and convergence rate is established. Numerical examples
+demonstrate the main results.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.12153v1">VeilAudit: Breaking the Deadlock Between Privacy and Accountability
+  Across Blockchains</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-14T05:16:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minhao Qiao, Iqbal Gondal, Hai Dong</p>
+    <p><b>Summary:</b> Cross chain interoperability in blockchain systems exposes a fundamental
+tension between user privacy and regulatory accountability. Existing solutions
+enforce an all or nothing choice between full anonymity and mandatory identity
+disclosure, which limits adoption in regulated financial settings. We present
+VeilAudit, a cross chain auditing framework that introduces Auditor Only
+Linkability, which allows auditors to link transaction behaviors that originate
+from the same anonymous entity without learning its identity. VeilAudit
+achieves this with a user generated Linkable Audit Tag that embeds a zero
+knowledge proof to attest to its validity without exposing the user master
+wallet address, and with a special ciphertext that only designated auditors can
+test for linkage. To balance privacy and compliance, VeilAudit also supports
+threshold gated identity revelation under due process. VeilAudit further
+provides a mechanism for building reputation in pseudonymous environments,
+which enables applications such as cross chain credit scoring based on
+verifiable behavioral history. We formalize the security guarantees and develop
+a prototype that spans multiple EVM chains. Our evaluation shows that the
+framework is practical for today multichain environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.12031v1">Security and Privacy Assessment of U.S. and Non-U.S. Android E-Commerce
+  Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-14T00:30:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Urvashi Kishnani, Sanchari Das</p>
+    <p><b>Summary:</b> E-commerce mobile applications are central to global financial transactions,
+making their security and privacy crucial. In this study, we analyze 92
+top-grossing Android e-commerce apps (58 U.S.-based and 34 international) using
+MobSF, AndroBugs, and RiskInDroid. Our analysis shows widespread SSL and
+certificate weaknesses, with approximately 92% using unsecured HTTP connections
+and an average MobSF security score of 40.92/100. Over-privileged permissions
+were identified in 77 apps. While U.S. apps exhibited fewer manifest, code, and
+certificate vulnerabilities, both groups showed similar network-related issues.
+We advocate for the adoption of stronger, standardized, and user-focused
+security practices across regions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.11895v1">High-Probability Bounds For Heterogeneous Local Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-13T19:54:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maryam Aliakbarpour, Alireza Fallah, Swaha Roy, Ria Stevens</p>
+    <p><b>Summary:</b> We study statistical estimation under local differential privacy (LDP) when
+users may hold heterogeneous privacy levels and accuracy must be guaranteed
+with high probability. Departing from the common in-expectation analyses, and
+for one-dimensional and multi-dimensional mean estimation problems, we develop
+finite sample upper bounds in $\ell_2$-norm that hold with probability at least
+$1-\beta$. We complement these results with matching minimax lower bounds,
+establishing the optimality (up to constants) of our guarantees in the
+heterogeneous LDP regime. We further study distribution learning in
+$\ell_\infty$-distance, designing an algorithm with high-probability guarantees
+under heterogeneous privacy demands. Our techniques offer principled guidance
+for designing mechanisms in settings with user-specific privacy levels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.11640v1">Continual Release of Densest Subgraphs: Privacy Amplification &
   Sublinear Space via Subsampling</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -29,7 +162,7 @@ independent interest.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.11514v1">Toward Efficient and Privacy-Aware eHealth Systems: An Integrated
+  <h3><a href="http://arxiv.org/abs/2510.11514v2">Toward Efficient and Privacy-Aware eHealth Systems: An Integrated
   Sensing, Computing, and Semantic Communication Approach</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2025-10-13T15:21:32Z</p>
@@ -2796,166 +2929,6 @@ prevented from being misplaced too far away from its ground truth. We establish
 theoretical guarantees for our methods. Experiments show that our wavelet
 expansion method significantly outperforms existing solutions under Wasserstein
 and KS distances.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.19599v1">Knowledge Base-Aware Orchestration: A Dynamic, Privacy-Preserving Method
-  for Multi-Agent Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-23T21:46:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Danilo Trombino, Vincenzo Pecorella, Alessandro de Giulii, Davide Tresoldi</p>
-    <p><b>Summary:</b> Multi-agent systems (MAS) are increasingly tasked with solving complex,
-knowledge-intensive problems where effective agent orchestration is critical.
-Conventional orchestration methods rely on static agent descriptions, which
-often become outdated or incomplete. This limitation leads to inefficient task
-routing, particularly in dynamic environments where agent capabilities
-continuously evolve. We introduce Knowledge Base-Aware (KBA) Orchestration, a
-novel approach that augments static descriptions with dynamic,
-privacy-preserving relevance signals derived from each agent's internal
-knowledge base (KB). In the proposed framework, when static descriptions are
-insufficient for a clear routing decision, the orchestrator prompts the
-subagents in parallel. Each agent then assesses the task's relevance against
-its private KB, returning a lightweight ACK signal without exposing the
-underlying data. These collected signals populate a shared semantic cache,
-providing dynamic indicators of agent suitability for future queries. By
-combining this novel mechanism with static descriptions, our method achieves
-more accurate and adaptive task routing preserving agent autonomy and data
-confidentiality. Benchmarks show that our KBA Orchestration significantly
-outperforms static description-driven methods in routing precision and overall
-system efficiency, making it suitable for large-scale systems that require
-higher accuracy than standard description-driven routing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.19041v1">Position: Human-Robot Interaction in Embodied Intelligence Demands a
-  Shift From Static Privacy Controls to Dynamic Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-09-23T14:10:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Hong Jia, Simin Li, Ting Dang, Yongquan `Owen' Hu, Xin Yi, Hewu Li</p>
-    <p><b>Summary:</b> The reasoning capabilities of embodied agents introduce a critical,
-under-explored inferential privacy challenge, where the risk of an agent
-generate sensitive conclusions from ambient data. This capability creates a
-fundamental tension between an agent's utility and user privacy, rendering
-traditional static controls ineffective. To address this, this position paper
-proposes a framework that reframes privacy as a dynamic learning problem
-grounded in theory of Contextual Integrity (CI). Our approach enables agents to
-proactively learn and adapt to individual privacy norms through interaction,
-outlining a research agenda to develop embodied agents that are both capable
-and function as trustworthy safeguards of user privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.18949v1">Towards Privacy-Aware Bayesian Networks: A Credal Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-23T12:58:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Niccolò Rocchi, Fabio Stella, Cassio de Campos</p>
-    <p><b>Summary:</b> Bayesian networks (BN) are probabilistic graphical models that enable
-efficient knowledge representation and inference. These have proven effective
-across diverse domains, including healthcare, bioinformatics and economics. The
-structure and parameters of a BN can be obtained by domain experts or directly
-learned from available data. However, as privacy concerns escalate, it becomes
-increasingly critical for publicly released models to safeguard sensitive
-information in training data. Typically, released models do not prioritize
-privacy by design. In particular, tracing attacks from adversaries can combine
-the released BN with auxiliary data to determine whether specific individuals
-belong to the data from which the BN was learned. State-of-the-art protection
-tecniques involve introducing noise into the learned parameters. While this
-offers robust protection against tracing attacks, it significantly impacts the
-model's utility, in terms of both the significance and accuracy of the
-resulting inferences. Hence, high privacy may be attained at the cost of
-releasing a possibly ineffective model. This paper introduces credal networks
-(CN) as a novel solution for balancing the model's privacy and utility. After
-adapting the notion of tracing attacks, we demonstrate that a CN enables the
-masking of the learned BN, thereby reducing the probability of successful
-attacks. As CNs are obfuscated but not noisy versions of BNs, they can achieve
-meaningful inferences while safeguarding privacy. Moreover, we identify key
-learning information that must be concealed to prevent attackers from
-recovering the underlying BN. Finally, we conduct a set of numerical
-experiments to analyze how privacy gains can be modulated by tuning the CN
-hyperparameters. Our results confirm that CNs provide a principled, practical,
-and effective approach towards the development of privacy-aware probabilistic
-graphical models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.18871v2">Uncovering Privacy Vulnerabilities through Analytical Gradient Inversion
-  Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-23T10:10:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tamer Ahmed Eltaras, Qutaibah Malluhi, Alessandro Savino, Stefano Di Carlo, Adnan Qayyum</p>
-    <p><b>Summary:</b> Federated learning has emerged as a prominent privacy-preserving technique
-for leveraging large-scale distributed datasets by sharing gradients instead of
-raw data. However, recent studies indicate that private training data can still
-be exposed through gradient inversion attacks. While earlier analytical methods
-have demonstrated success in reconstructing input data from fully connected
-layers, their effectiveness significantly diminishes when applied to
-convolutional layers, high-dimensional inputs, and scenarios involving multiple
-training examples. This paper extends our previous work \cite{eltaras2024r} and
-proposes three advanced algorithms to broaden the applicability of gradient
-inversion attacks. The first algorithm presents a novel data leakage method
-that efficiently exploits convolutional layer gradients, demonstrating that
-even with non-fully invertible activation functions, such as ReLU, training
-samples can be analytically reconstructed directly from gradients without the
-need to reconstruct intermediate layer outputs. Building on this foundation,
-the second algorithm extends this analytical approach to support
-high-dimensional input data, substantially enhancing its utility across complex
-real-world datasets. The third algorithm introduces an innovative analytical
-method for reconstructing mini-batches, addressing a critical gap in current
-research that predominantly focuses on reconstructing only a single training
-example. Unlike previous studies that focused mainly on the weight constraints
-of convolutional layers, our approach emphasizes the pivotal role of gradient
-constraints, revealing that successful attacks can be executed with fewer than
-5\% of the constraints previously deemed necessary in certain layers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.18696v1">FlowCrypt: Flow-Based Lightweight Encryption with Near-Lossless Recovery
-  for Cloud Photo Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-23T06:25:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaohui Yang, Ping Ping, Feng Xu</p>
-    <p><b>Summary:</b> The widespread adoption of smartphone photography has led users to
-increasingly rely on cloud storage for personal photo archiving and sharing,
-raising critical privacy concerns. Existing deep learning-based image
-encryption schemes, typically built upon CNNs or GANs, often depend on
-traditional cryptographic algorithms and lack inherent architectural
-reversibility, resulting in limited recovery quality and poor robustness.
-Invertible neural networks (INNs) have emerged to address this issue by
-enabling reversible transformations, yet the first INN-based encryption scheme
-still relies on an auxiliary reference image and discards by-product
-information before decryption, leading to degraded recovery and limited
-practicality. To address these limitations, this paper proposes FlowCrypt, a
-novel flow-based image encryption framework that simultaneously achieves
-near-lossless recovery, high security, and lightweight model design. FlowCrypt
-begins by applying a key-conditioned random split to the input image, enhancing
-forward-process randomness and encryption strength. The resulting components
-are processed through a Flow-based Encryption/Decryption (FED) module composed
-of invertible blocks, which share parameters across encryption and decryption.
-Thanks to its reversible architecture and reference-free design, FlowCrypt
-ensures high-fidelity image recovery. Extensive experiments show that FlowCrypt
-achieves recovery quality with 100dB on three datasets, produces uniformly
-distributed cipher images, and maintains a compact architecture with only 1M
-parameters, making it suitable for mobile and edge-device applications.</p>
   </details>
 </div>
 
