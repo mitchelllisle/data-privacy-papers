@@ -2,6 +2,135 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.13528v1">Experiments \& Analysis of Privacy-Preserving SQL Query Sanitization
+  Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-10-15T13:21:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Loïs Ecoffet, Veronika Rehn-Sonigo, Jean-François Couchot, Catuscia Palamidessi</p>
+    <p><b>Summary:</b> Analytical SQL queries are essential for extracting insights from relational
+databases but concurrently introduce significant privacy risks by potentially
+exposing sensitive information. To mitigate these risks, numerous query
+sanitization systems have been developed, employing diverse approaches that
+create a complex landscape for both researchers and practitioners. These
+systems vary fundamentally in their design, including the underlying privacy
+model, such as k-anonymity or Differential Privacy; the protected privacy unit,
+whether at the tuple- or user-level; and the software architecture, which can
+be proxy-based or integrated. This paper provides a systematic classification
+of state-of-the-art SQL sanitization systems based on these qualitative
+criteria and the scope of queries they support. Furthermore, we present a
+quantitative analysis of leading systems, empirically measuring the trade-offs
+between data utility, query execution overhead, and privacy guarantees across a
+range of analytical queries. This work offers a structured overview and
+performance assessment intended to clarify the capabilities and limitations of
+current privacy-preserving database technologies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.13512v1">Offline and Online KL-Regularized RLHF under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-10-15T13:04:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yulian Wu, Rushil Thareja, Praneeth Vepakomma, Francesco Orabona</p>
+    <p><b>Summary:</b> In this paper, we study the offline and online settings of reinforcement
+learning from human feedback (RLHF) with KL-regularization -- a widely used
+objective function in large language model alignment -- under the $\epsilon$
+local differential privacy ($\epsilon$-LDP) model on the label of the human
+preference. In the offline setting, we design an algorithm based on the
+principle of pessimism and derive a new suboptimality gap of
+$\tilde{O}(1/[(e^\epsilon-1)^2 n])$ on the KL-regularized objective under
+single-policy concentrability. We also prove its optimality by providing a
+matching lower bound where $n$ is the sample size.
+  In the online setting, we are the first one to theoretically investigate the
+problem of KL-regularized RLHF with LDP. We design an optimism-based algorithm
+and derive a logarithmic regret bound of $O(d_{\mathcal{F}}\log
+(N_{\mathcal{F}}\cdot T) /(e^\epsilon-1)^2 )$, where $T$ is the total time
+step, $N_{\mathcal{F}}$ is cardinality of the reward function space
+$\mathcal{F}$ and $d_{\mathcal{F}}$ is a variant of eluder dimension for RLHF.
+As a by-product of our analysis, our results also imply the first analysis for
+online KL-regularized RLHF without privacy. We implement our algorithm in the
+offline setting to verify our theoretical results and release our open source
+code at: https://github.com/rushil-thareja/PPKL-RLHF-Official.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.13468v1">Privacy, freedom of expression, and the right to be forgotten in Europe</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-10-15T12:13:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stefan Kulk, Frederik Zuiderveen Borgesius</p>
+    <p><b>Summary:</b> In this chapter we discuss the relation between privacy and freedom of
+expression in Europe. In principle, the two rights have equal weight in Europe
+- which right prevails depends on the circumstances of a case. We use the
+Google Spain judgment of the Court of Justice of the European Union, sometimes
+called the 'right to be forgotten' judgment, to illustrate the difficulties
+when balancing the two rights. The court decided in Google Spain that people
+have, under certain conditions, the right to have search results for their name
+delisted. We discuss how Google and Data Protection Authorities deal with such
+delisting requests in practice. Delisting requests illustrate that balancing
+privacy and freedom of expression interests will always remain difficult.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.13136v1">Privacy-Aware Framework of Robust Malware Detection in Indoor Robots:
+  Hybrid Quantum Computing and Deep Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-15T04:25:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tan Le, Van Le, Sachin Shetty</p>
+    <p><b>Summary:</b> Indoor robotic systems within Cyber-Physical Systems (CPS) are increasingly
+exposed to Denial of Service (DoS) attacks that compromise localization,
+control and telemetry integrity. We propose a privacy-aware malware detection
+framework for indoor robotic systems, which leverages hybrid quantum computing
+and deep neural networks to counter DoS threats in CPS, while preserving
+privacy information. By integrating quantum-enhanced feature encoding with
+dropout-optimized deep learning, our architecture achieves up to 95.2%
+detection accuracy under privacy-constrained conditions. The system operates
+without handcrafted thresholds or persistent beacon data, enabling scalable
+deployment in adversarial environments. Benchmarking reveals robust
+generalization, interpretability and resilience against training instability
+through modular circuit design. This work advances trustworthy AI for secure,
+autonomous CPS operations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.12908v1">Local Differential Privacy for Federated Learning with Fixed Memory
+  Usage and Per-Client Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-14T18:32:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rouzbeh Behnia, Jeremiah Birrell, Arman Riasi, Reza Ebrahimi, Kaushik Dutta, Thang Hoang</p>
+    <p><b>Summary:</b> Federated learning (FL) enables organizations to collaboratively train models
+without sharing their datasets. Despite this advantage, recent studies show
+that both client updates and the global model can leak private information,
+limiting adoption in sensitive domains such as healthcare. Local differential
+privacy (LDP) offers strong protection by letting each participant privatize
+updates before transmission. However, existing LDP methods were designed for
+centralized training and introduce challenges in FL, including high resource
+demands that can cause client dropouts and the lack of reliable privacy
+guarantees under asynchronous participation. These issues undermine model
+generalizability, fairness, and compliance with regulations such as HIPAA and
+GDPR. To address them, we propose L-RDP, a DP method designed for LDP that
+ensures constant, lower memory usage to reduce dropouts and provides rigorous
+per-client privacy guarantees by accounting for intermittent participation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.12780v1">Content Anonymization for Privacy in Long-form Audio</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-10-14T17:52:50Z</p>
@@ -2785,150 +2914,6 @@ sampling efforts, while sustaining reliable outcomes of our auditor. We derive
 formal guarantees with regard to the soundness of our methods and evaluate
 their performance for important mechanisms from the literature. Our theoretical
 findings and experiments demonstrate the efficacy of our approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20153v2">Affective Computing and Emotional Data: Challenges and Implications in
-  Privacy Regulations, The AI Act, and Ethics in Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-24T14:18:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nicola Fabiano</p>
-    <p><b>Summary:</b> This paper examines the integration of emotional intelligence into artificial
-intelligence systems, with a focus on affective computing and the growing
-capabilities of Large Language Models (LLMs), such as ChatGPT and Claude, to
-recognize and respond to human emotions. Drawing on interdisciplinary research
-that combines computer science, psychology, and neuroscience, the study
-analyzes foundational neural architectures - CNNs for processing facial
-expressions and RNNs for sequential data, such as speech and text - that enable
-emotion recognition. It examines the transformation of human emotional
-experiences into structured emotional data, addressing the distinction between
-explicit emotional data collected with informed consent in research settings
-and implicit data gathered passively through everyday digital interactions.
-That raises critical concerns about lawful processing, AI transparency, and
-individual autonomy over emotional expressions in digital environments. The
-paper explores implications across various domains, including healthcare,
-education, and customer service, while addressing challenges of cultural
-variations in emotional expression and potential biases in emotion recognition
-systems across different demographic groups. From a regulatory perspective, the
-paper examines emotional data in the context of the GDPR and the EU AI Act
-frameworks, highlighting how emotional data may be considered sensitive
-personal data that requires robust safeguards, including purpose limitation,
-data minimization, and meaningful consent mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20024v1">Generative Adversarial Networks Applied for Privacy Preservation in
-  Biometric-Based Authentication and Identification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-24T11:39:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lubos Mjachky, Ivan Homoliak</p>
-    <p><b>Summary:</b> Biometric-based authentication systems are getting broadly adopted in many
-areas. However, these systems do not allow participating users to influence the
-way their data is used. Furthermore, the data may leak and can be misused
-without the users' knowledge. In this paper, we propose a new authentication
-method that preserves the privacy of individuals and is based on a generative
-adversarial network (GAN). Concretely, we suggest using the GAN for translating
-images of faces to a visually private domain (e.g., flowers or shoes).
-Classifiers, which are used for authentication purposes, are then trained on
-the images from the visually private domain. Based on our experiments, the
-method is robust against attacks and still provides meaningful utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.19925v1">CON-QA: Privacy-Preserving QA using cloud LLMs in Contract Domain</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-24T09:29:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ajeet Kumar Singh, Rajsabi Surya, Anurag Tripathi, Santanu Choudhury, Sudhir Bisane</p>
-    <p><b>Summary:</b> As enterprises increasingly integrate cloud-based large language models
-(LLMs) such as ChatGPT and Gemini into their legal document workflows,
-protecting sensitive contractual information - including Personally
-Identifiable Information (PII) and commercially sensitive clauses - has emerged
-as a critical challenge. In this work, we propose CON-QA, a hybrid
-privacy-preserving framework designed specifically for secure question
-answering over enterprise contracts, effectively combining local and
-cloud-hosted LLMs. The CON-QA framework operates through three stages: (i)
-semantic query decomposition and query-aware document chunk retrieval using a
-locally deployed LLM analysis, (ii) anonymization of detected sensitive
-entities via a structured one-to-many mapping scheme, ensuring semantic
-coherence while preventing cross-session entity inference attacks, and (iii)
-anonymized response generation by a cloud-based LLM, with accurate
-reconstruction of the original answer locally using a session-consistent
-many-to-one reverse mapping. To rigorously evaluate CON-QA, we introduce
-CUAD-QA, a corpus of 85k question-answer pairs generated over 510 real-world
-CUAD contract documents, encompassing simple, complex, and summarization-style
-queries. Empirical evaluations, complemented by detailed human assessments,
-confirm that CON-QA effectively maintains both privacy and utility, preserves
-answer quality, maintains fidelity to legal clause semantics, and significantly
-mitigates privacy risks, demonstrating its practical suitability for secure,
-enterprise-level contract documents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.19906v1">Voice Privacy Preservation with Multiple Random Orthogonal Secret Keys:
-  Attack Resistance Analysis</a></h3>
-  
-  <p><b>Published on:</b> 2025-09-24T09:05:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kohei Tanaka, Hitoshi Kiya, Sayaka Shiota</p>
-    <p><b>Summary:</b> Recently, opportunities to transmit speech data to deep learning models
-executed in the cloud have increased. This has led to growing concerns about
-speech privacy, including both speaker-specific information and the linguistic
-content of utterances. As an approach to preserving speech privacy, a speech
-privacy-preserving method based on encryption using a secret key with a random
-orthogonal matrix has been proposed. This method enables cloud-based model
-inference while concealing both the speech content and the speaker identity.
-However, the method has limited attack resistance and is constrained in terms
-of the deep learning models to which the encryption can be applied. In this
-work, we propose a method that enhances the attack resistance of the
-conventional speech privacy-preserving technique by employing multiple random
-orthogonal matrices as secret keys. We also introduce approaches to relax the
-model constraints, enabling the application of our method to a broader range of
-deep learning models. Furthermore, we investigate the robustness of the
-proposed method against attacks using extended attack scenarios based on the
-scenarios employed in the Voice Privacy Challenge. Our experimental results
-confirmed that the proposed method maintains privacy protection performance for
-speaker concealment, even under more powerful attack scenarios not considered
-in prior work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.19661v1">Consistent Estimation of Numerical Distributions under Local
-  Differential Privacy by Wavelet Expansion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-24T00:37:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Puning Zhao, Zhikun Zhang, Bo Sun, Li Shen, Liang Zhang, Shaowei Wang, Zhe Liu</p>
-    <p><b>Summary:</b> Distribution estimation under local differential privacy (LDP) is a
-fundamental and challenging task. Significant progresses have been made on
-categorical data. However, due to different evaluation metrics, these methods
-do not work well when transferred to numerical data. In particular, we need to
-prevent the probability mass from being misplaced far away. In this paper, we
-propose a new approach that express the sample distribution using wavelet
-expansions. The coefficients of wavelet series are estimated under LDP. Our
-method prioritizes the estimation of low-order coefficients, in order to ensure
-accurate estimation at macroscopic level. Therefore, the probability mass is
-prevented from being misplaced too far away from its ground truth. We establish
-theoretical guarantees for our methods. Experiments show that our wavelet
-expansion method significantly outperforms existing solutions under Wasserstein
-and KS distances.</p>
   </details>
 </div>
 
