@@ -1366,5 +1366,123 @@
       "cs.IT",
       "math.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13528v1",
+    "title" : "Experiments \\& Analysis of Privacy-Preserving SQL Query Sanitization\n  Systems",
+    "summary" : "Analytical SQL queries are essential for extracting insights from relational\ndatabases but concurrently introduce significant privacy risks by potentially\nexposing sensitive information. To mitigate these risks, numerous query\nsanitization systems have been developed, employing diverse approaches that\ncreate a complex landscape for both researchers and practitioners. These\nsystems vary fundamentally in their design, including the underlying privacy\nmodel, such as k-anonymity or Differential Privacy; the protected privacy unit,\nwhether at the tuple- or user-level; and the software architecture, which can\nbe proxy-based or integrated. This paper provides a systematic classification\nof state-of-the-art SQL sanitization systems based on these qualitative\ncriteria and the scope of queries they support. Furthermore, we present a\nquantitative analysis of leading systems, empirically measuring the trade-offs\nbetween data utility, query execution overhead, and privacy guarantees across a\nrange of analytical queries. This work offers a structured overview and\nperformance assessment intended to clarify the capabilities and limitations of\ncurrent privacy-preserving database technologies.",
+    "updated" : "2025-10-15T13:21:59Z",
+    "published" : "2025-10-15T13:21:59Z",
+    "authors" : [
+      {
+        "name" : "Loïs Ecoffet"
+      },
+      {
+        "name" : "Veronika Rehn-Sonigo"
+      },
+      {
+        "name" : "Jean-François Couchot"
+      },
+      {
+        "name" : "Catuscia Palamidessi"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13512v1",
+    "title" : "Offline and Online KL-Regularized RLHF under Differential Privacy",
+    "summary" : "In this paper, we study the offline and online settings of reinforcement\nlearning from human feedback (RLHF) with KL-regularization -- a widely used\nobjective function in large language model alignment -- under the $\\epsilon$\nlocal differential privacy ($\\epsilon$-LDP) model on the label of the human\npreference. In the offline setting, we design an algorithm based on the\nprinciple of pessimism and derive a new suboptimality gap of\n$\\tilde{O}(1/[(e^\\epsilon-1)^2 n])$ on the KL-regularized objective under\nsingle-policy concentrability. We also prove its optimality by providing a\nmatching lower bound where $n$ is the sample size.\n  In the online setting, we are the first one to theoretically investigate the\nproblem of KL-regularized RLHF with LDP. We design an optimism-based algorithm\nand derive a logarithmic regret bound of $O(d_{\\mathcal{F}}\\log\n(N_{\\mathcal{F}}\\cdot T) /(e^\\epsilon-1)^2 )$, where $T$ is the total time\nstep, $N_{\\mathcal{F}}$ is cardinality of the reward function space\n$\\mathcal{F}$ and $d_{\\mathcal{F}}$ is a variant of eluder dimension for RLHF.\nAs a by-product of our analysis, our results also imply the first analysis for\nonline KL-regularized RLHF without privacy. We implement our algorithm in the\noffline setting to verify our theoretical results and release our open source\ncode at: https://github.com/rushil-thareja/PPKL-RLHF-Official.",
+    "updated" : "2025-10-15T13:04:19Z",
+    "published" : "2025-10-15T13:04:19Z",
+    "authors" : [
+      {
+        "name" : "Yulian Wu"
+      },
+      {
+        "name" : "Rushil Thareja"
+      },
+      {
+        "name" : "Praneeth Vepakomma"
+      },
+      {
+        "name" : "Francesco Orabona"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13468v1",
+    "title" : "Privacy, freedom of expression, and the right to be forgotten in Europe",
+    "summary" : "In this chapter we discuss the relation between privacy and freedom of\nexpression in Europe. In principle, the two rights have equal weight in Europe\n- which right prevails depends on the circumstances of a case. We use the\nGoogle Spain judgment of the Court of Justice of the European Union, sometimes\ncalled the 'right to be forgotten' judgment, to illustrate the difficulties\nwhen balancing the two rights. The court decided in Google Spain that people\nhave, under certain conditions, the right to have search results for their name\ndelisted. We discuss how Google and Data Protection Authorities deal with such\ndelisting requests in practice. Delisting requests illustrate that balancing\nprivacy and freedom of expression interests will always remain difficult.",
+    "updated" : "2025-10-15T12:13:52Z",
+    "published" : "2025-10-15T12:13:52Z",
+    "authors" : [
+      {
+        "name" : "Stefan Kulk"
+      },
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13136v1",
+    "title" : "Privacy-Aware Framework of Robust Malware Detection in Indoor Robots:\n  Hybrid Quantum Computing and Deep Neural Networks",
+    "summary" : "Indoor robotic systems within Cyber-Physical Systems (CPS) are increasingly\nexposed to Denial of Service (DoS) attacks that compromise localization,\ncontrol and telemetry integrity. We propose a privacy-aware malware detection\nframework for indoor robotic systems, which leverages hybrid quantum computing\nand deep neural networks to counter DoS threats in CPS, while preserving\nprivacy information. By integrating quantum-enhanced feature encoding with\ndropout-optimized deep learning, our architecture achieves up to 95.2%\ndetection accuracy under privacy-constrained conditions. The system operates\nwithout handcrafted thresholds or persistent beacon data, enabling scalable\ndeployment in adversarial environments. Benchmarking reveals robust\ngeneralization, interpretability and resilience against training instability\nthrough modular circuit design. This work advances trustworthy AI for secure,\nautonomous CPS operations.",
+    "updated" : "2025-10-15T04:25:33Z",
+    "published" : "2025-10-15T04:25:33Z",
+    "authors" : [
+      {
+        "name" : "Tan Le"
+      },
+      {
+        "name" : "Van Le"
+      },
+      {
+        "name" : "Sachin Shetty"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.12908v1",
+    "title" : "Local Differential Privacy for Federated Learning with Fixed Memory\n  Usage and Per-Client Privacy",
+    "summary" : "Federated learning (FL) enables organizations to collaboratively train models\nwithout sharing their datasets. Despite this advantage, recent studies show\nthat both client updates and the global model can leak private information,\nlimiting adoption in sensitive domains such as healthcare. Local differential\nprivacy (LDP) offers strong protection by letting each participant privatize\nupdates before transmission. However, existing LDP methods were designed for\ncentralized training and introduce challenges in FL, including high resource\ndemands that can cause client dropouts and the lack of reliable privacy\nguarantees under asynchronous participation. These issues undermine model\ngeneralizability, fairness, and compliance with regulations such as HIPAA and\nGDPR. To address them, we propose L-RDP, a DP method designed for LDP that\nensures constant, lower memory usage to reduce dropouts and provides rigorous\nper-client privacy guarantees by accounting for intermittent participation.",
+    "updated" : "2025-10-14T18:32:08Z",
+    "published" : "2025-10-14T18:32:08Z",
+    "authors" : [
+      {
+        "name" : "Rouzbeh Behnia"
+      },
+      {
+        "name" : "Jeremiah Birrell"
+      },
+      {
+        "name" : "Arman Riasi"
+      },
+      {
+        "name" : "Reza Ebrahimi"
+      },
+      {
+        "name" : "Kaushik Dutta"
+      },
+      {
+        "name" : "Thang Hoang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
