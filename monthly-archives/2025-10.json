@@ -1484,5 +1484,141 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.14894v1",
+    "title" : "Secure Sparse Matrix Multiplications and their Applications to\n  Privacy-Preserving Machine Learning",
+    "summary" : "To preserve privacy, multi-party computation (MPC) enables executing Machine\nLearning (ML) algorithms on secret-shared or encrypted data. However, existing\nMPC frameworks are not optimized for sparse data. This makes them unsuitable\nfor ML applications involving sparse data, e.g., recommender systems or\ngenomics. Even in plaintext, such applications involve high-dimensional sparse\ndata, that cannot be processed without sparsity-related optimizations due to\nprohibitively large memory requirements.\n  Since matrix multiplication is central in ML algorithms, we propose MPC\nalgorithms to multiply secret sparse matrices. On the one hand, our algorithms\navoid the memory issues of the \"dense\" data representation of classic secure\nmatrix multiplication algorithms. On the other hand, our algorithms can\nsignificantly reduce communication costs (some experiments show a factor 1000)\nfor realistic problem sizes. We validate our algorithms in two ML applications\nin which existing protocols are impractical.\n  An important question when developing MPC algorithms is what assumptions can\nbe made. In our case, if the number of non-zeros in a row is a sensitive piece\nof information then a short runtime may reveal that the number of non-zeros is\nsmall. Existing approaches make relatively simple assumptions, e.g., that there\nis a universal upper bound to the number of non-zeros in a row. This often\ndoesn't align with statistical reality, in a lot of sparse datasets the amount\nof data per instance satisfies a power law. We propose an approach which allows\nadopting a safe upper bound on the distribution of non-zeros in rows/columns of\nsparse matrices.",
+    "updated" : "2025-10-16T17:12:18Z",
+    "published" : "2025-10-16T17:12:18Z",
+    "authors" : [
+      {
+        "name" : "Marc Damie"
+      },
+      {
+        "name" : "Florian Hahn"
+      },
+      {
+        "name" : "Andreas Peter"
+      },
+      {
+        "name" : "Jan Ramon"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.14312v1",
+    "title" : "Terrarium: Revisiting the Blackboard for Multi-Agent Safety, Privacy,\n  and Security Studies",
+    "summary" : "A multi-agent system (MAS) powered by large language models (LLMs) can\nautomate tedious user tasks such as meeting scheduling that requires\ninter-agent collaboration. LLMs enable nuanced protocols that account for\nunstructured private data, user constraints, and preferences. However, this\ndesign introduces new risks, including misalignment and attacks by malicious\nparties that compromise agents or steal user data. In this paper, we propose\nthe Terrarium framework for fine-grained study on safety, privacy, and security\nin LLM-based MAS. We repurpose the blackboard design, an early approach in\nmulti-agent systems, to create a modular, configurable testbed for multi-agent\ncollaboration. We identify key attack vectors such as misalignment, malicious\nagents, compromised communication, and data poisoning. We implement three\ncollaborative MAS scenarios with four representative attacks to demonstrate the\nframework's flexibility. By providing tools to rapidly prototype, evaluate, and\niterate on defenses and designs, Terrarium aims to accelerate progress toward\ntrustworthy multi-agent systems.",
+    "updated" : "2025-10-16T05:19:13Z",
+    "published" : "2025-10-16T05:19:13Z",
+    "authors" : [
+      {
+        "name" : "Mason Nakamura"
+      },
+      {
+        "name" : "Abhinav Kumar"
+      },
+      {
+        "name" : "Saaduddin Mahmud"
+      },
+      {
+        "name" : "Sahar Abdelnabi"
+      },
+      {
+        "name" : "Shlomo Zilberstein"
+      },
+      {
+        "name" : "Eugene Bagdasarian"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR",
+      "I.2.7; I.2.11"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.14151v1",
+    "title" : "Privacy-Preserving and Incentive-Driven Relay-Based Framework for\n  Cross-Domain Blockchain Interoperability",
+    "summary" : "Interoperability is essential for transforming blockchains from isolated\nnetworks into collaborative ecosystems, unlocking their full potential. While\nsignificant progress has been made in public blockchain interoperability,\nbridging permissioned and permissionless blockchains poses unique challenges\ndue to differences in access control, architectures, and security requirements.\nThis paper introduces a blockchain-agnostic framework to enable\ninteroperability between permissioned and permissionless networks. Leveraging\ncryptographic techniques, the framework ensures secure data exchanges. Its\nlightweight architectural design simplifies implementation and maintenance,\nwhile the integration of Clover and Dandelion++ protocols enhances transaction\nanonymity. Performance evaluations demonstrate the framework's effectiveness in\nachieving secure and efficient interoperability by measuring the forwarding\ntime, the throughput, the availability, and their collusion impact of the\nsystem across heterogeneous blockchain ecosystems.",
+    "updated" : "2025-10-15T22:59:02Z",
+    "published" : "2025-10-15T22:59:02Z",
+    "authors" : [
+      {
+        "name" : "Saeed Moradi"
+      },
+      {
+        "name" : "Koosha Esmaeilzadeh Khorasani"
+      },
+      {
+        "name" : "Sara Rouhani"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.12153v2",
+    "title" : "VeilAudit: Breaking the Deadlock Between Privacy and Accountability\n  Across Blockchains",
+    "summary" : "Cross chain interoperability in blockchain systems exposes a fundamental\ntension between user privacy and regulatory accountability. Existing solutions\nenforce an all or nothing choice between full anonymity and mandatory identity\ndisclosure, which limits adoption in regulated financial settings. We present\nVeilAudit, a cross chain auditing framework that introduces Auditor Only\nLinkability, which allows auditors to link transaction behaviors that originate\nfrom the same anonymous entity without learning its identity. VeilAudit\nachieves this with a user generated Linkable Audit Tag that embeds a zero\nknowledge proof to attest to its validity without exposing the user master\nwallet address, and with a special ciphertext that only designated auditors can\ntest for linkage. To balance privacy and compliance, VeilAudit also supports\nthreshold gated identity revelation under due process. VeilAudit further\nprovides a mechanism for building reputation in pseudonymous environments,\nwhich enables applications such as cross chain credit scoring based on\nverifiable behavioral history. We formalize the security guarantees and develop\na prototype that spans multiple EVM chains. Our evaluation shows that the\nframework is practical for today multichain environments.",
+    "updated" : "2025-10-16T04:48:58Z",
+    "published" : "2025-10-14T05:16:23Z",
+    "authors" : [
+      {
+        "name" : "Minhao Qiao"
+      },
+      {
+        "name" : "Hai Dong"
+      },
+      {
+        "name" : "Iqbal Gondal"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13890v1",
+    "title" : "A Survey on Collaborating Small and Large Language Models for\n  Performance, Cost-effectiveness, Cloud-edge Privacy, and Trustworthiness",
+    "summary" : "Large language models (LLMs) have advanced many domains and applications but\nface high fine-tuning costs, inference latency, limited edge deployability, and\nreliability concerns. Small language models (SLMs), compact, efficient, and\nadaptable, offer complementary remedies. Recent work explores collaborative\nframeworks that fuse SLMs' specialization and efficiency with LLMs'\ngeneralization and reasoning to meet diverse objectives across tasks and\ndeployment scenarios. Motivated by these developments, this paper presents a\nsystematic survey of SLM-LLM collaboration organized by collaboration\nobjectives. We propose a taxonomy with four goals: performance enhancement,\ncost-effectiveness, cloud-edge privacy, and trustworthiness. Within this\nframework, we review representative methods, summarize design paradigms, and\noutline open challenges and future directions toward efficient, secure, and\nscalable SLM-LLM collaboration.",
+    "updated" : "2025-10-14T04:16:47Z",
+    "published" : "2025-10-14T04:16:47Z",
+    "authors" : [
+      {
+        "name" : "Fali Wang"
+      },
+      {
+        "name" : "Jihai Chen"
+      },
+      {
+        "name" : "Shuhua Yang"
+      },
+      {
+        "name" : "Ali Al-Lawati"
+      },
+      {
+        "name" : "Linli Tang"
+      },
+      {
+        "name" : "Hui Liu"
+      },
+      {
+        "name" : "Suhang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "68T50 (Primary) 68T07 (Secondary)",
+      "I.2.7"
+    ]
   }
 ]
