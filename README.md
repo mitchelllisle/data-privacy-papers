@@ -2,6 +2,94 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.14894v1">Secure Sparse Matrix Multiplications and their Applications to
+  Privacy-Preserving Machine Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-16T17:12:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marc Damie, Florian Hahn, Andreas Peter, Jan Ramon</p>
+    <p><b>Summary:</b> To preserve privacy, multi-party computation (MPC) enables executing Machine
+Learning (ML) algorithms on secret-shared or encrypted data. However, existing
+MPC frameworks are not optimized for sparse data. This makes them unsuitable
+for ML applications involving sparse data, e.g., recommender systems or
+genomics. Even in plaintext, such applications involve high-dimensional sparse
+data, that cannot be processed without sparsity-related optimizations due to
+prohibitively large memory requirements.
+  Since matrix multiplication is central in ML algorithms, we propose MPC
+algorithms to multiply secret sparse matrices. On the one hand, our algorithms
+avoid the memory issues of the "dense" data representation of classic secure
+matrix multiplication algorithms. On the other hand, our algorithms can
+significantly reduce communication costs (some experiments show a factor 1000)
+for realistic problem sizes. We validate our algorithms in two ML applications
+in which existing protocols are impractical.
+  An important question when developing MPC algorithms is what assumptions can
+be made. In our case, if the number of non-zeros in a row is a sensitive piece
+of information then a short runtime may reveal that the number of non-zeros is
+small. Existing approaches make relatively simple assumptions, e.g., that there
+is a universal upper bound to the number of non-zeros in a row. This often
+doesn't align with statistical reality, in a lot of sparse datasets the amount
+of data per instance satisfies a power law. We propose an approach which allows
+adopting a safe upper bound on the distribution of non-zeros in rows/columns of
+sparse matrices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.14312v1">Terrarium: Revisiting the Blackboard for Multi-Agent Safety, Privacy,
+  and Security Studies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-10-16T05:19:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mason Nakamura, Abhinav Kumar, Saaduddin Mahmud, Sahar Abdelnabi, Shlomo Zilberstein, Eugene Bagdasarian</p>
+    <p><b>Summary:</b> A multi-agent system (MAS) powered by large language models (LLMs) can
+automate tedious user tasks such as meeting scheduling that requires
+inter-agent collaboration. LLMs enable nuanced protocols that account for
+unstructured private data, user constraints, and preferences. However, this
+design introduces new risks, including misalignment and attacks by malicious
+parties that compromise agents or steal user data. In this paper, we propose
+the Terrarium framework for fine-grained study on safety, privacy, and security
+in LLM-based MAS. We repurpose the blackboard design, an early approach in
+multi-agent systems, to create a modular, configurable testbed for multi-agent
+collaboration. We identify key attack vectors such as misalignment, malicious
+agents, compromised communication, and data poisoning. We implement three
+collaborative MAS scenarios with four representative attacks to demonstrate the
+framework's flexibility. By providing tools to rapidly prototype, evaluate, and
+iterate on defenses and designs, Terrarium aims to accelerate progress toward
+trustworthy multi-agent systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.14151v1">Privacy-Preserving and Incentive-Driven Relay-Based Framework for
+  Cross-Domain Blockchain Interoperability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-10-15T22:59:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saeed Moradi, Koosha Esmaeilzadeh Khorasani, Sara Rouhani</p>
+    <p><b>Summary:</b> Interoperability is essential for transforming blockchains from isolated
+networks into collaborative ecosystems, unlocking their full potential. While
+significant progress has been made in public blockchain interoperability,
+bridging permissioned and permissionless blockchains poses unique challenges
+due to differences in access control, architectures, and security requirements.
+This paper introduces a blockchain-agnostic framework to enable
+interoperability between permissioned and permissionless networks. Leveraging
+cryptographic techniques, the framework ensures secure data exchanges. Its
+lightweight architectural design simplifies implementation and maintenance,
+while the integration of Clover and Dandelion++ protocols enhances transaction
+anonymity. Performance evaluations demonstrate the framework's effectiveness in
+achieving secure and efficient interoperability by measuring the forwarding
+time, the throughput, the availability, and their collusion impact of the
+system across heterogeneous blockchain ecosystems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.13528v1">Experiments \& Analysis of Privacy-Preserving SQL Query Sanitization
   Systems</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
@@ -191,13 +279,13 @@ demonstrate the main results.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.12153v1">VeilAudit: Breaking the Deadlock Between Privacy and Accountability
+  <h3><a href="http://arxiv.org/abs/2510.12153v2">VeilAudit: Breaking the Deadlock Between Privacy and Accountability
   Across Blockchains</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-10-14T05:16:23Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Minhao Qiao, Iqbal Gondal, Hai Dong</p>
+    <p><b>Authors:</b> Minhao Qiao, Hai Dong, Iqbal Gondal</p>
     <p><b>Summary:</b> Cross chain interoperability in blockchain systems exposes a fundamental
 tension between user privacy and regulatory accountability. Existing solutions
 enforce an all or nothing choice between full anonymity and mandatory identity
@@ -215,6 +303,31 @@ which enables applications such as cross chain credit scoring based on
 verifiable behavioral history. We formalize the security guarantees and develop
 a prototype that spans multiple EVM chains. Our evaluation shows that the
 framework is practical for today multichain environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.13890v1">A Survey on Collaborating Small and Large Language Models for
+  Performance, Cost-effectiveness, Cloud-edge Privacy, and Trustworthiness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
+  <p><b>Published on:</b> 2025-10-14T04:16:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fali Wang, Jihai Chen, Shuhua Yang, Ali Al-Lawati, Linli Tang, Hui Liu, Suhang Wang</p>
+    <p><b>Summary:</b> Large language models (LLMs) have advanced many domains and applications but
+face high fine-tuning costs, inference latency, limited edge deployability, and
+reliability concerns. Small language models (SLMs), compact, efficient, and
+adaptable, offer complementary remedies. Recent work explores collaborative
+frameworks that fuse SLMs' specialization and efficiency with LLMs'
+generalization and reasoning to meet diverse objectives across tasks and
+deployment scenarios. Motivated by these developments, this paper presents a
+systematic survey of SLM-LLM collaboration organized by collaboration
+objectives. We propose a taxonomy with four goals: performance enhancement,
+cost-effectiveness, cloud-edge privacy, and trustworthiness. Within this
+framework, we review representative methods, summarize design paradigms, and
+outline open challenges and future directions toward efficient, secure, and
+scalable SLM-LLM collaboration.</p>
   </details>
 </div>
 
@@ -2316,6 +2429,31 @@ future 6G networks.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.13822v1">Noisy Networks, Nosy Neighbors: Inferring Privacy Invasive Information
+  from Encrypted Wireless Traffic</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-09-27T15:36:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bartosz Burgiel</p>
+    <p><b>Summary:</b> This thesis explores the extent to which passive observation of wireless
+traffic in a smart home environment can be used to infer privacy-invasive
+information about its inhabitants. Using a setup that mimics the capabilities
+of a nosy neighbor in an adjacent flat, we analyze raw 802.11 packets and
+Bluetooth Low Energy advertisemets. From this data, we identify devices, infer
+their activity states and approximate their location using RSSI-based
+trilateration. Despite the encrypted nature of the data, we demonstrate that it
+is possible to detect active periods of multimedia devices, infer common
+activities such as sleeping, working and consuming media, and even approximate
+the layout of the neighbor's apartment. Our results show that privacy risks in
+smart homes extend beyond traditional data breaches: a nosy neighbor behind the
+wall can gain privacy-invasive insights into the lives of their neighbors
+purely from encrypted network traffic.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2509.23246v1">Adaptive Token-Weighted Differential Privacy for LLMs: Not All Tokens
   Require Equal Protection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -2778,142 +2916,6 @@ Imputation (FMI), a privacy-preserving method that enables Intensive Care Units
 imputation. We evaluate FMI on a real-world sepsis onset prediction task using
 the MIMIC-IV dataset and show that it outperforms local imputation baselines,
 especially in scenarios with irregular sampling intervals across ICUs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20838v1">Zero-Shot Privacy-Aware Text Rewriting via Iterative Tree Search</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-09-25T07:23:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuo Huang, Xingliang Yuan, Gholamreza Haffari, Lizhen Qu</p>
-    <p><b>Summary:</b> The increasing adoption of large language models (LLMs) in cloud-based
-services has raised significant privacy concerns, as user inputs may
-inadvertently expose sensitive information. Existing text anonymization and
-de-identification techniques, such as rule-based redaction and scrubbing, often
-struggle to balance privacy preservation with text naturalness and utility. In
-this work, we propose a zero-shot, tree-search-based iterative sentence
-rewriting algorithm that systematically obfuscates or deletes private
-information while preserving coherence, relevance, and naturalness. Our method
-incrementally rewrites privacy-sensitive segments through a structured search
-guided by a reward model, enabling dynamic exploration of the rewriting space.
-Experiments on privacy-sensitive datasets show that our approach significantly
-outperforms existing baselines, achieving a superior balance between privacy
-protection and utility preservation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20460v2">Differential Privacy of Network Parameters from a System Identification
-  Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-09-24T18:06:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrew Campbell, Anna Scaglione, Hang Liu, Victor Elvira, Sean Peisert, Daniel Arnold</p>
-    <p><b>Summary:</b> This paper addresses the problem of protecting network information from
-privacy system identification (SI) attacks when sharing cyber-physical system
-simulations. We model analyst observations of networked states as time-series
-outputs of a graph filter driven by differentially private (DP) nodal
-excitations, with the analyst aiming to infer the underlying graph shift
-operator (GSO). Unlike traditional SI, which estimates system parameters, we
-study the inverse problem: what assumptions prevent adversaries from
-identifying the GSO while preserving utility for legitimate analysis. We show
-that applying DP mechanisms to inputs provides formal privacy guarantees for
-the GSO, linking the $(\epsilon,\delta)$-DP bound to the spectral properties of
-the graph filter and noise covariance. More precisely, for DP Gaussian signals,
-the spectral characteristics of both the filter and noise covariance determine
-the privacy bound, with smooth filters and low-condition-number covariance
-yielding greater privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20454v1">Bridging Privacy and Utility: Synthesizing anonymized EEG with
-  constraining utility functions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-24T18:02:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kay Fuhrmeister, Arne Pelzer, Fabian Radke, Julia Lechinger, Mahzad Gharleghi, Thomas Köllmer, Insa Wolf</p>
-    <p><b>Summary:</b> Electroencephalography (EEG) is widely used for recording brain activity and
-has seen numerous applications in machine learning, such as detecting sleep
-stages and neurological disorders. Several studies have successfully shown the
-potential of EEG data for re-identification and leakage of other personal
-information. Therefore, the increasing availability of EEG consumer devices
-raises concerns about user privacy, motivating us to investigate how to
-safeguard this sensitive data while retaining its utility for EEG applications.
-To address this challenge, we propose a transformer-based autoencoder to create
-EEG data that does not allow for subject re-identification while still
-retaining its utility for specific machine learning tasks. We apply our
-approach to automatic sleep staging by evaluating the re-identification and
-utility potential of EEG data before and after anonymization. The results show
-that the re-identifiability of the EEG signal can be substantially reduced
-while preserving its utility for machine learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20324v1">RAG Security and Privacy: Formalizing the Threat Model and Attack
-  Surface</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-24T17:11:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Atousa Arzanipour, Rouzbeh Behnia, Reza Ebrahimi, Kaushik Dutta</p>
-    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) is an emerging approach in natural
-language processing that combines large language models (LLMs) with external
-document retrieval to produce more accurate and grounded responses. While RAG
-has shown strong potential in reducing hallucinations and improving factual
-consistency, it also introduces new privacy and security challenges that differ
-from those faced by traditional LLMs. Existing research has demonstrated that
-LLMs can leak sensitive information through training data memorization or
-adversarial prompts, and RAG systems inherit many of these vulnerabilities. At
-the same time, reliance of RAG on an external knowledge base opens new attack
-surfaces, including the potential for leaking information about the presence or
-content of retrieved documents, or for injecting malicious content to
-manipulate model behavior. Despite these risks, there is currently no formal
-framework that defines the threat landscape for RAG systems. In this paper, we
-address a critical gap in the literature by proposing, to the best of our
-knowledge, the first formal threat model for retrieval-RAG systems. We
-introduce a structured taxonomy of adversary types based on their access to
-model components and data, and we formally define key threat vectors such as
-document-level membership inference and data poisoning, which pose serious
-privacy and integrity risks in real-world deployments. By establishing formal
-definitions and attack models, our work lays the foundation for a more rigorous
-and principled understanding of privacy and security in RAG systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20283v1">Monitoring Violations of Differential Privacy over Time</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
-  <p><b>Published on:</b> 2025-09-24T16:15:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Önder Askin, Tim Kutta, Holger Dette</p>
-    <p><b>Summary:</b> Auditing differential privacy has emerged as an important area of research
-that supports the design of privacy-preserving mechanisms. Privacy audits help
-to obtain empirical estimates of the privacy parameter, to expose flawed
-implementations of algorithms and to compare practical with theoretical privacy
-guarantees. In this work, we investigate an unexplored facet of privacy
-auditing: the sustained auditing of a mechanism that can go through changes
-during its development or deployment. Monitoring the privacy of algorithms over
-time comes with specific challenges. Running state-of-the-art (static) auditors
-repeatedly requires excessive sampling efforts, while the reliability of such
-methods deteriorates over time without proper adjustments. To overcome these
-obstacles, we present a new monitoring procedure that extracts information from
-the entire deployment history of the algorithm. This allows us to reduce
-sampling efforts, while sustaining reliable outcomes of our auditor. We derive
-formal guarantees with regard to the soundness of our methods and evaluate
-their performance for important mechanisms from the literature. Our theoretical
-findings and experiments demonstrate the efficacy of our approach.</p>
   </details>
 </div>
 
