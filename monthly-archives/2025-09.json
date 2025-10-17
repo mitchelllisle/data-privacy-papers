@@ -4387,5 +4387,21 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13822v1",
+    "title" : "Noisy Networks, Nosy Neighbors: Inferring Privacy Invasive Information\n  from Encrypted Wireless Traffic",
+    "summary" : "This thesis explores the extent to which passive observation of wireless\ntraffic in a smart home environment can be used to infer privacy-invasive\ninformation about its inhabitants. Using a setup that mimics the capabilities\nof a nosy neighbor in an adjacent flat, we analyze raw 802.11 packets and\nBluetooth Low Energy advertisemets. From this data, we identify devices, infer\ntheir activity states and approximate their location using RSSI-based\ntrilateration. Despite the encrypted nature of the data, we demonstrate that it\nis possible to detect active periods of multimedia devices, infer common\nactivities such as sleeping, working and consuming media, and even approximate\nthe layout of the neighbor's apartment. Our results show that privacy risks in\nsmart homes extend beyond traditional data breaches: a nosy neighbor behind the\nwall can gain privacy-invasive insights into the lives of their neighbors\npurely from encrypted network traffic.",
+    "updated" : "2025-09-27T15:36:11Z",
+    "published" : "2025-09-27T15:36:11Z",
+    "authors" : [
+      {
+        "name" : "Bartosz Burgiel"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
