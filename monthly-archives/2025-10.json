@@ -1620,5 +1620,144 @@
       "68T50 (Primary) 68T07 (Secondary)",
       "I.2.7"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.15186v1",
+    "title" : "MAGPIE: A benchmark for Multi-AGent contextual PrIvacy Evaluation",
+    "summary" : "A core challenge for autonomous LLM agents in collaborative settings is\nbalancing robust privacy understanding and preservation alongside task\nefficacy. Existing privacy benchmarks only focus on simplistic, single-turn\ninteractions where private information can be trivially omitted without\naffecting task outcomes. In this paper, we introduce MAGPIE (Multi-AGent\ncontextual PrIvacy Evaluation), a novel benchmark of 200 high-stakes tasks\ndesigned to evaluate privacy understanding and preservation in multi-agent\ncollaborative, non-adversarial scenarios. MAGPIE integrates private information\nas essential for task resolution, forcing agents to balance effective\ncollaboration with strategic information control. Our evaluation reveals that\nstate-of-the-art agents, including GPT-5 and Gemini 2.5-Pro, exhibit\nsignificant privacy leakage, with Gemini 2.5-Pro leaking up to 50.7% and GPT-5\nup to 35.1% of the sensitive information even when explicitly instructed not\nto. Moreover, these agents struggle to achieve consensus or task completion and\noften resort to undesirable behaviors such as manipulation and power-seeking\n(e.g., Gemini 2.5-Pro demonstrating manipulation in 38.2% of the cases). These\nfindings underscore that current LLM agents lack robust privacy understanding\nand are not yet adequately aligned to simultaneously preserve privacy and\nmaintain effective collaboration in complex environments.",
+    "updated" : "2025-10-16T23:12:12Z",
+    "published" : "2025-10-16T23:12:12Z",
+    "authors" : [
+      {
+        "name" : "Gurusha Juneja"
+      },
+      {
+        "name" : "Jayanth Naga Sai Pasupulati"
+      },
+      {
+        "name" : "Alon Albalak"
+      },
+      {
+        "name" : "Wenyue Hua"
+      },
+      {
+        "name" : "William Yang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.15112v1",
+    "title" : "AndroByte: LLM-Driven Privacy Analysis through Bytecode Summarization\n  and Dynamic Dataflow Call Graph Generation",
+    "summary" : "With the exponential growth in mobile applications, protecting user privacy\nhas become even more crucial. Android applications are often known for\ncollecting, storing, and sharing sensitive user information such as contacts,\nlocation, camera, and microphone data often without the user's clear consent or\nawareness raising significant privacy risks and exposure. In the context of\nprivacy assessment, dataflow analysis is particularly valuable for identifying\ndata usage and potential leaks. Traditionally, this type of analysis has relied\non formal methods, heuristics, and rule-based matching. However, these\ntechniques are often complex to implement and prone to errors, such as taint\nexplosion for large programs. Moreover, most existing Android dataflow analysis\nmethods depend heavily on predefined list of sinks, limiting their flexibility\nand scalability. To address the limitations of these existing techniques, we\npropose AndroByte, an AI-driven privacy analysis tool that leverages LLM\nreasoning on bytecode summarization to dynamically generate accurate and\nexplainable dataflow call graphs from static code analysis. AndroByte achieves\na significant F\\b{eta}-Score of 89% in generating dynamic dataflow call graphs\non the fly, outperforming the effectiveness of traditional tools like FlowDroid\nand Amandroid in leak detection without relying on predefined propagation rules\nor sink lists. Moreover, AndroByte's iterative bytecode summarization provides\ncomprehensive and explainable insights into dataflow and leak detection,\nachieving high, quantifiable scores based on the G-Eval metric.",
+    "updated" : "2025-10-16T20:10:20Z",
+    "published" : "2025-10-16T20:10:20Z",
+    "authors" : [
+      {
+        "name" : "Mst Eshita Khatun"
+      },
+      {
+        "name" : "Lamine Noureddine"
+      },
+      {
+        "name" : "Zhiyong Sui"
+      },
+      {
+        "name" : "Aisha Ali-Gombe"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.15083v1",
+    "title" : "SMOTE and Mirrors: Exposing Privacy Leakage from Synthetic Minority\n  Oversampling",
+    "summary" : "The Synthetic Minority Over-sampling Technique (SMOTE) is one of the most\nwidely used methods for addressing class imbalance and generating synthetic\ndata. Despite its popularity, little attention has been paid to its privacy\nimplications; yet, it is used in the wild in many privacy-sensitive\napplications. In this work, we conduct the first systematic study of privacy\nleakage in SMOTE: We begin by showing that prevailing evaluation practices,\ni.e., naive distinguishing and distance-to-closest-record metrics, completely\nfail to detect any leakage and that membership inference attacks (MIAs) can be\ninstantiated with high accuracy. Then, by exploiting SMOTE's geometric\nproperties, we build two novel attacks with very limited assumptions:\nDistinSMOTE, which perfectly distinguishes real from synthetic records in\naugmented datasets, and ReconSMOTE, which reconstructs real minority records\nfrom synthetic datasets with perfect precision and recall approaching one under\nrealistic imbalance ratios. We also provide theoretical guarantees for both\nattacks. Experiments on eight standard imbalanced datasets confirm the\npracticality and effectiveness of these attacks. Overall, our work reveals that\nSMOTE is inherently non-private and disproportionately exposes minority\nrecords, highlighting the need to reconsider its use in privacy-sensitive\napplications.",
+    "updated" : "2025-10-16T18:55:46Z",
+    "published" : "2025-10-16T18:55:46Z",
+    "authors" : [
+      {
+        "name" : "Georgi Ganev"
+      },
+      {
+        "name" : "Reza Nazari"
+      },
+      {
+        "name" : "Rees Davison"
+      },
+      {
+        "name" : "Amir Dizche"
+      },
+      {
+        "name" : "Xinmin Wu"
+      },
+      {
+        "name" : "Ralph Abbey"
+      },
+      {
+        "name" : "Jorge Silva"
+      },
+      {
+        "name" : "Emiliano De Cristofaro"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11299v2",
+    "title" : "How to Get Actual Privacy and Utility from Privacy Models: the\n  k-Anonymity and Differential Privacy Families",
+    "summary" : "Privacy models were introduced in privacy-preserving data publishing and\nstatistical disclosure control with the promise to end the need for costly\nempirical assessment of disclosure risk. We examine how well this promise is\nkept by the main privacy models. We find they may fail to provide adequate\nprotection guarantees because of problems in their definition or incur\nunacceptable trade-offs between privacy protection and utility preservation.\nSpecifically, k-anonymity may not entirely exclude disclosure if enforced with\ndeterministic mechanisms or without constraints on the confidential values. On\nthe other hand, differential privacy (DP) incurs unacceptable utility loss for\nsmall budgets and its privacy guarantee becomes meaningless for large budgets.\nIn the latter case, an ex post empirical assessment of disclosure risk becomes\nnecessary, undermining the main appeal of privacy models. Whereas the utility\npreservation of DP can only be improved by relaxing its privacy guarantees, we\nargue that a semantic reformulation of k-anonymity can offer more robust\nprivacy without losing utility with respect to traditional syntactic\nk-anonymity.",
+    "updated" : "2025-10-17T09:07:58Z",
+    "published" : "2025-10-13T11:41:12Z",
+    "authors" : [
+      {
+        "name" : "Josep Domingo-Ferrer"
+      },
+      {
+        "name" : "David Sánchez"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "68",
+      "K.4.1"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.05172v2",
+    "title" : "Learning More with Less: A Generalizable, Self-Supervised Framework for\n  Privacy-Preserving Capacity Estimation with EV Charging Data",
+    "summary" : "Accurate battery capacity estimation is key to alleviating consumer concerns\nabout battery performance and reliability of electric vehicles (EVs). However,\npractical data limitations imposed by stringent privacy regulations and labeled\ndata shortages hamper the development of generalizable capacity estimation\nmodels that remain robust to real-world data distribution shifts. While\nself-supervised learning can leverage unlabeled data, existing techniques are\nnot particularly designed to learn effectively from challenging field data --\nlet alone from privacy-friendly data, which are often less feature-rich and\nnoisier. In this work, we propose a first-of-its-kind capacity estimation model\nbased on self-supervised pre-training, developed on a large-scale dataset of\nprivacy-friendly charging data snippets from real-world EV operations. Our\npre-training framework, snippet similarity-weighted masked input\nreconstruction, is designed to learn rich, generalizable representations even\nfrom less feature-rich and fragmented privacy-friendly data. Our key innovation\nlies in harnessing contrastive learning to first capture high-level\nsimilarities among fragmented snippets that otherwise lack meaningful context.\nWith our snippet-wise contrastive learning and subsequent similarity-weighted\nmasked reconstruction, we are able to learn rich representations of both\ngranular charging patterns within individual snippets and high-level\nassociative relationships across different snippets. Bolstered by this rich\nrepresentation learning, our model consistently outperforms state-of-the-art\nbaselines, achieving 31.9% lower test error than the best-performing benchmark,\neven under challenging domain-shifted settings affected by both manufacturer\nand age-induced distribution shifts. Source code is available at\nhttps://github.com/en-research/GenEVBattery.",
+    "updated" : "2025-10-17T03:22:40Z",
+    "published" : "2025-10-05T08:58:35Z",
+    "authors" : [
+      {
+        "name" : "Anushiya Arunan"
+      },
+      {
+        "name" : "Yan Qin"
+      },
+      {
+        "name" : "Xiaoli Li"
+      },
+      {
+        "name" : "U-Xuan Tan"
+      },
+      {
+        "name" : "H. Vincent Poor"
+      },
+      {
+        "name" : "Chau Yuen"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
