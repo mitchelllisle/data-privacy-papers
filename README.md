@@ -2,6 +2,100 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.15186v1">MAGPIE: A benchmark for Multi-AGent contextual PrIvacy Evaluation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-10-16T23:12:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gurusha Juneja, Jayanth Naga Sai Pasupulati, Alon Albalak, Wenyue Hua, William Yang Wang</p>
+    <p><b>Summary:</b> A core challenge for autonomous LLM agents in collaborative settings is
+balancing robust privacy understanding and preservation alongside task
+efficacy. Existing privacy benchmarks only focus on simplistic, single-turn
+interactions where private information can be trivially omitted without
+affecting task outcomes. In this paper, we introduce MAGPIE (Multi-AGent
+contextual PrIvacy Evaluation), a novel benchmark of 200 high-stakes tasks
+designed to evaluate privacy understanding and preservation in multi-agent
+collaborative, non-adversarial scenarios. MAGPIE integrates private information
+as essential for task resolution, forcing agents to balance effective
+collaboration with strategic information control. Our evaluation reveals that
+state-of-the-art agents, including GPT-5 and Gemini 2.5-Pro, exhibit
+significant privacy leakage, with Gemini 2.5-Pro leaking up to 50.7% and GPT-5
+up to 35.1% of the sensitive information even when explicitly instructed not
+to. Moreover, these agents struggle to achieve consensus or task completion and
+often resort to undesirable behaviors such as manipulation and power-seeking
+(e.g., Gemini 2.5-Pro demonstrating manipulation in 38.2% of the cases). These
+findings underscore that current LLM agents lack robust privacy understanding
+and are not yet adequately aligned to simultaneously preserve privacy and
+maintain effective collaboration in complex environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.15112v1">AndroByte: LLM-Driven Privacy Analysis through Bytecode Summarization
+  and Dynamic Dataflow Call Graph Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-16T20:10:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mst Eshita Khatun, Lamine Noureddine, Zhiyong Sui, Aisha Ali-Gombe</p>
+    <p><b>Summary:</b> With the exponential growth in mobile applications, protecting user privacy
+has become even more crucial. Android applications are often known for
+collecting, storing, and sharing sensitive user information such as contacts,
+location, camera, and microphone data often without the user's clear consent or
+awareness raising significant privacy risks and exposure. In the context of
+privacy assessment, dataflow analysis is particularly valuable for identifying
+data usage and potential leaks. Traditionally, this type of analysis has relied
+on formal methods, heuristics, and rule-based matching. However, these
+techniques are often complex to implement and prone to errors, such as taint
+explosion for large programs. Moreover, most existing Android dataflow analysis
+methods depend heavily on predefined list of sinks, limiting their flexibility
+and scalability. To address the limitations of these existing techniques, we
+propose AndroByte, an AI-driven privacy analysis tool that leverages LLM
+reasoning on bytecode summarization to dynamically generate accurate and
+explainable dataflow call graphs from static code analysis. AndroByte achieves
+a significant F\b{eta}-Score of 89% in generating dynamic dataflow call graphs
+on the fly, outperforming the effectiveness of traditional tools like FlowDroid
+and Amandroid in leak detection without relying on predefined propagation rules
+or sink lists. Moreover, AndroByte's iterative bytecode summarization provides
+comprehensive and explainable insights into dataflow and leak detection,
+achieving high, quantifiable scores based on the G-Eval metric.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.15083v1">SMOTE and Mirrors: Exposing Privacy Leakage from Synthetic Minority
+  Oversampling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-16T18:55:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgi Ganev, Reza Nazari, Rees Davison, Amir Dizche, Xinmin Wu, Ralph Abbey, Jorge Silva, Emiliano De Cristofaro</p>
+    <p><b>Summary:</b> The Synthetic Minority Over-sampling Technique (SMOTE) is one of the most
+widely used methods for addressing class imbalance and generating synthetic
+data. Despite its popularity, little attention has been paid to its privacy
+implications; yet, it is used in the wild in many privacy-sensitive
+applications. In this work, we conduct the first systematic study of privacy
+leakage in SMOTE: We begin by showing that prevailing evaluation practices,
+i.e., naive distinguishing and distance-to-closest-record metrics, completely
+fail to detect any leakage and that membership inference attacks (MIAs) can be
+instantiated with high accuracy. Then, by exploiting SMOTE's geometric
+properties, we build two novel attacks with very limited assumptions:
+DistinSMOTE, which perfectly distinguishes real from synthetic records in
+augmented datasets, and ReconSMOTE, which reconstructs real minority records
+from synthetic datasets with perfect precision and recall approaching one under
+realistic imbalance ratios. We also provide theoretical guarantees for both
+attacks. Experiments on eight standard imbalanced datasets confirm the
+practicality and effectiveness of these attacks. Overall, our work reveals that
+SMOTE is inherently non-private and disproportionately exposes minority
+records, highlighting the need to reconsider its use in privacy-sensitive
+applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.14894v1">Secure Sparse Matrix Multiplications and their Applications to
   Privacy-Preserving Machine Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -475,7 +569,7 @@ graph learning in domains characterized by missing or sensitive features.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.11299v1">How to Get Actual Privacy and Utility from Privacy Models: the
+  <h3><a href="http://arxiv.org/abs/2510.11299v2">How to Get Actual Privacy and Utility from Privacy Models: the
   k-Anonymity and Differential Privacy Families</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">  
   <p><b>Published on:</b> 2025-10-13T11:41:12Z</p>
@@ -1403,7 +1497,7 @@ comparable utility to cloud models with slightly increased server cost.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.05172v1">Learning More with Less: A Generalizable, Self-Supervised Framework for
+  <h3><a href="http://arxiv.org/abs/2510.05172v2">Learning More with Less: A Generalizable, Self-Supervised Framework for
   Privacy-Preserving Capacity Estimation with EV Charging Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-10-05T08:58:35Z</p>
@@ -1433,7 +1527,8 @@ associative relationships across different snippets. Bolstered by this rich
 representation learning, our model consistently outperforms state-of-the-art
 baselines, achieving 31.9% lower test error than the best-performing benchmark,
 even under challenging domain-shifted settings affected by both manufacturer
-and age-induced distribution shifts.</p>
+and age-induced distribution shifts. Source code is available at
+https://github.com/en-research/GenEVBattery.</p>
   </details>
 </div>
 
@@ -2838,84 +2933,6 @@ identifiers, and AI delegation results in less consensus across individuals.
 Our findings highlight the importance of situating privacy preference
 elicitation within real-world data flows. We advocate using nuanced privacy
 boundaries as an alignment goal for future AI systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.21704v1">PQFed: A Privacy-Preserving Quality-Controlled Federated Learning
-  Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-25T23:56:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weiqi Yue, Wenbiao Li, Yuzhou Jiang, Anisa Halimi, Roger French, Erman Ayday</p>
-    <p><b>Summary:</b> Federated learning enables collaborative model training without sharing raw
-data, but data heterogeneity consistently challenges the performance of the
-global model. Traditional optimization methods often rely on collaborative
-global model training involving all clients, followed by local adaptation to
-improve individual performance. In this work, we focus on early-stage quality
-control and propose PQFed, a novel privacy-preserving personalized federated
-learning framework that designs customized training strategies for each client
-prior to the federated training process. PQFed extracts representative features
-from each client's raw data and applies clustering techniques to estimate
-inter-client dataset similarity. Based on these similarity estimates, the
-framework implements a client selection strategy that enables each client to
-collaborate with others who have compatible data distributions. We evaluate
-PQFed on two benchmark datasets, CIFAR-10 and MNIST, integrated with three
-existing federated learning algorithms. Experimental results show that PQFed
-consistently improves the target client's model performance, even with a
-limited number of participants. We further benchmark PQFed against a baseline
-cluster-based algorithm, IFCA, and observe that PQFed also achieves better
-performance in low-participation scenarios. These findings highlight PQFed's
-scalability and effectiveness in personalized federated learning settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.02325v1">Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP
-  Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2025-09-25T21:25:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammed A. Shehab</p>
-    <p><b>Summary:</b> This paper introduces Agentic-AI Healthcare, a privacy-aware, multilingual,
-and explainable research prototype developed as a single-investigator project.
-The system leverages the emerging Model Context Protocol (MCP) to orchestrate
-multiple intelligent agents for patient interaction, including symptom
-checking, medication suggestions, and appointment scheduling. The platform
-integrates a dedicated Privacy and Compliance Layer that applies role-based
-access control (RBAC), AES-GCM field-level encryption, and tamper-evident audit
-logging, aligning with major healthcare data protection standards such as HIPAA
-(US), PIPEDA (Canada), and PHIPA (Ontario). Example use cases demonstrate
-multilingual patient-doctor interaction (English, French, Arabic) and
-transparent diagnostic reasoning powered by large language models. As an
-applied AI contribution, this work highlights the feasibility of combining
-agentic orchestration, multilingual accessibility, and compliance-aware
-architecture in healthcare applications. This platform is presented as a
-research prototype and is not a certified medical device.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.20867v1">Federated Markov Imputation: Privacy-Preserving Temporal Imputation in
-  Multi-Centric ICU Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-25T08:00:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Christoph Düsing, Philipp Cimiano</p>
-    <p><b>Summary:</b> Missing data is a persistent challenge in federated learning on electronic
-health records, particularly when institutions collect time-series data at
-varying temporal granularities. To address this, we propose Federated Markov
-Imputation (FMI), a privacy-preserving method that enables Intensive Care Units
-(ICUs) to collaboratively build global transition models for temporal
-imputation. We evaluate FMI on a real-world sepsis onset prediction task using
-the MIMIC-IV dataset and show that it outperforms local imputation baselines,
-especially in scenarios with irregular sampling intervals across ICUs.</p>
   </details>
 </div>
 
