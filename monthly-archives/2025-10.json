@@ -1759,5 +1759,250 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.17480v1",
+    "title" : "Unified Privacy Guarantees for Decentralized Learning via Matrix\n  Factorization",
+    "summary" : "Decentralized Learning (DL) enables users to collaboratively train models\nwithout sharing raw data by iteratively averaging local updates with neighbors\nin a network graph. This setting is increasingly popular for its scalability\nand its ability to keep data local under user control. Strong privacy\nguarantees in DL are typically achieved through Differential Privacy (DP), with\nresults showing that DL can even amplify privacy by disseminating noise across\npeer-to-peer communications. Yet in practice, the observed privacy-utility\ntrade-off often appears worse than in centralized training, which may be due to\nlimitations in current DP accounting methods for DL. In this paper, we show\nthat recent advances in centralized DP accounting based on Matrix Factorization\n(MF) for analyzing temporal noise correlations can also be leveraged in DL. By\ngeneralizing existing MF results, we show how to cast both standard DL\nalgorithms and common trust models into a unified formulation. This yields\ntighter privacy accounting for existing DP-DL algorithms and provides a\nprincipled way to develop new ones. To demonstrate the approach, we introduce\nMAFALDA-SGD, a gossip-based DL algorithm with user-level correlated noise that\noutperforms existing methods on synthetic and real-world graphs.",
+    "updated" : "2025-10-20T12:24:27Z",
+    "published" : "2025-10-20T12:24:27Z",
+    "authors" : [
+      {
+        "name" : "Aurélien Bellet"
+      },
+      {
+        "name" : "Edwige Cyffers"
+      },
+      {
+        "name" : "Davide Frey"
+      },
+      {
+        "name" : "Romaric Gaudel"
+      },
+      {
+        "name" : "Dimitri Lerévérend"
+      },
+      {
+        "name" : "François Taïani"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.17372v1",
+    "title" : "Beyond Real Faces: Synthetic Datasets Can Achieve Reliable Recognition\n  Performance without Privacy Compromise",
+    "summary" : "The deployment of facial recognition systems has created an ethical dilemma:\nachieving high accuracy requires massive datasets of real faces collected\nwithout consent, leading to dataset retractions and potential legal liabilities\nunder regulations like GDPR. While synthetic facial data presents a promising\nprivacy-preserving alternative, the field lacks comprehensive empirical\nevidence of its viability. This study addresses this critical gap through\nextensive evaluation of synthetic facial recognition datasets. We present a\nsystematic literature review identifying 25 synthetic facial recognition\ndatasets (2018-2025), combined with rigorous experimental validation. Our\nmethodology examines seven key requirements for privacy-preserving synthetic\ndata: identity leakage prevention, intra-class variability, identity\nseparability, dataset scale, ethical data sourcing, bias mitigation, and\nbenchmark reliability. Through experiments involving over 10 million synthetic\nsamples, extended by a comparison of results reported on five standard\nbenchmarks, we provide the first comprehensive empirical assessment of\nsynthetic data's capability to replace real datasets. Best-performing synthetic\ndatasets (VariFace, VIGFace) achieve recognition accuracies of 95.67% and\n94.91% respectively, surpassing established real datasets including\nCASIA-WebFace (94.70%). While those images remain private, publicly available\nalternatives Vec2Face (93.52%) and CemiFace (93.22%) come close behind. Our\nfindings reveal that they ensure proper intra-class variability while\nmaintaining identity separability. Demographic bias analysis shows that, even\nthough synthetic data inherits limited biases, it offers unprecedented control\nfor bias mitigation through generation parameters. These results establish\nsynthetic facial data as a scientifically viable and ethically imperative\nalternative for facial recognition research.",
+    "updated" : "2025-10-20T10:08:53Z",
+    "published" : "2025-10-20T10:08:53Z",
+    "authors" : [
+      {
+        "name" : "Paweł Borsukiewicz"
+      },
+      {
+        "name" : "Fadi Boutros"
+      },
+      {
+        "name" : "Iyiola E. Olatunji"
+      },
+      {
+        "name" : "Charles Beumier"
+      },
+      {
+        "name" : "Wendkûuni C. Ouedraogo"
+      },
+      {
+        "name" : "Jacques Klein"
+      },
+      {
+        "name" : "Tegawendé F. Bissyandé"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.17348v1",
+    "title" : "Optimal Best Arm Identification under Differential Privacy",
+    "summary" : "Best Arm Identification (BAI) algorithms are deployed in data-sensitive\napplications, such as adaptive clinical trials or user studies. Driven by the\nprivacy concerns of these applications, we study the problem of\nfixed-confidence BAI under global Differential Privacy (DP) for Bernoulli\ndistributions. While numerous asymptotically optimal BAI algorithms exist in\nthe non-private setting, a significant gap remains between the best lower and\nupper bounds in the global DP setting. This work reduces this gap to a small\nmultiplicative constant, for any privacy budget $\\epsilon$. First, we provide a\ntighter lower bound on the expected sample complexity of any $\\delta$-correct\nand $\\epsilon$-global DP strategy. Our lower bound replaces the\nKullback-Leibler (KL) divergence in the transportation cost used by the\nnon-private characteristic time with a new information-theoretic quantity that\noptimally trades off between the KL divergence and the Total Variation distance\nscaled by $\\epsilon$. Second, we introduce a stopping rule based on these\ntransportation costs and a private estimator of the means computed using an\narm-dependent geometric batching. En route to proving the correctness of our\nstopping rule, we derive concentration results of independent interest for the\nLaplace distribution and for the sum of Bernoulli and Laplace distributions.\nThird, we propose a Top Two sampling rule based on these transportation costs.\nFor any budget $\\epsilon$, we show an asymptotic upper bound on its expected\nsample complexity that matches our lower bound to a multiplicative constant\nsmaller than $8$. Our algorithm outperforms existing $\\delta$-correct and\n$\\epsilon$-global DP BAI algorithms for different values of $\\epsilon$.",
+    "updated" : "2025-10-20T09:46:09Z",
+    "published" : "2025-10-20T09:46:09Z",
+    "authors" : [
+      {
+        "name" : "Marc Jourdan"
+      },
+      {
+        "name" : "Achraf Azize"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.17162v1",
+    "title" : "ALPINE: A Lightweight and Adaptive Privacy-Decision Agent Framework for\n  Dynamic Edge Crowdsensing",
+    "summary" : "Mobile edge crowdsensing (MECS) systems continuously generate and transmit\nuser data in dynamic, resource-constrained environments, exposing users to\nsignificant privacy threats. In practice, many privacy-preserving mechanisms\nbuild on differential privacy (DP). However, static DP mechanisms often fail to\nadapt to evolving risks, for example, shifts in adversarial capabilities,\nresource constraints and task requirements, resulting in either excessive noise\nor inadequate protection. To address this challenge, we propose ALPINE, a\nlightweight, adaptive framework that empowers terminal devices to autonomously\nadjust differential privacy levels in real time. ALPINE operates as a\nclosed-loop control system consisting of four modules: dynamic risk perception,\nprivacy decision via twin delayed deep deterministic policy gradient (TD3),\nlocal privacy execution and performance verification from edge nodes. Based on\nenvironmental risk assessments, we design a reward function that balances\nprivacy gains, data utility and energy cost, guiding the TD3 agent to\nadaptively tune noise magnitude across diverse risk scenarios and achieve a\ndynamic equilibrium among privacy, utility and cost. Both the collaborative\nrisk model and pretrained TD3-based agent are designed for low-overhead\ndeployment. Extensive theoretical analysis and real-world simulations\ndemonstrate that ALPINE effectively mitigates inference attacks while\npreserving utility and cost, making it practical for large-scale edge\napplications.",
+    "updated" : "2025-10-20T05:03:25Z",
+    "published" : "2025-10-20T05:03:25Z",
+    "authors" : [
+      {
+        "name" : "Guanjie Cheng"
+      },
+      {
+        "name" : "Siyang Liu"
+      },
+      {
+        "name" : "Junqin Huang"
+      },
+      {
+        "name" : "Xinkui Zhao"
+      },
+      {
+        "name" : "Yin Wang"
+      },
+      {
+        "name" : "Mengying Zhu"
+      },
+      {
+        "name" : "Linghe Kong"
+      },
+      {
+        "name" : "Shuiguang Deng"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.16744v1",
+    "title" : "Cryptanalysis of a Privacy-Preserving Ride-Hailing Service from NSS 2022",
+    "summary" : "Ride-Hailing Services (RHS) match a ride request initiated by a rider with a\nsuitable driver responding to the ride request. A Privacy-Preserving RHS\n(PP-RHS) aims to facilitate ride matching while ensuring the privacy of riders'\nand drivers' location data w.r.t. the Service Provider (SP). At NSS 2022, Xie\net al. proposed a PP-RHS. In this work, we demonstrate a passive attack on\ntheir PP-RHS protocol. Our attack allows the SP to completely recover the\nlocations of the rider as well as that of the responding drivers in every ride\nrequest. Further, our attack is very efficient as it is independent of the\nsecurity parameter.",
+    "updated" : "2025-10-19T08:05:25Z",
+    "published" : "2025-10-19T08:05:25Z",
+    "authors" : [
+      {
+        "name" : "Srinivas Vivek"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.16687v1",
+    "title" : "High-Dimensional Privacy-Utility Dynamics of Noisy Stochastic Gradient\n  Descent on Least Squares",
+    "summary" : "The interplay between optimization and privacy has become a central theme in\nprivacy-preserving machine learning. Noisy stochastic gradient descent (SGD)\nhas emerged as a cornerstone algorithm, particularly in large-scale settings.\nThese variants of gradient methods inject carefully calibrated noise into each\nupdate to achieve differential privacy, the gold standard notion of rigorous\nprivacy guarantees. Prior work primarily provides various bounds on statistical\nrisk and privacy loss for noisy SGD, yet the \\textit{exact} behavior of the\nprocess remains unclear, particularly in high-dimensional settings. This work\nleverages a diffusion approach to analyze noisy SGD precisely, providing a\ncontinuous-time perspective that captures both statistical risk evolution and\nprivacy loss dynamics in high dimensions. Moreover, we study a variant of noisy\nSGD that does not require explicit knowledge of gradient sensitivity, unlike\nexisting work that assumes or enforces sensitivity through gradient clipping.\nSpecifically, we focus on the least squares problem with $\\ell_2$\nregularization.",
+    "updated" : "2025-10-19T02:28:27Z",
+    "published" : "2025-10-19T02:28:27Z",
+    "authors" : [
+      {
+        "name" : "Shurong Lin"
+      },
+      {
+        "name" : "Eric D. Kolaczyk"
+      },
+      {
+        "name" : "Adam Smith"
+      },
+      {
+        "name" : "Elliot Paquette"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.16331v1",
+    "title" : "Efficient and Privacy-Preserving Binary Dot Product via Multi-Party\n  Computation",
+    "summary" : "Striking a balance between protecting data privacy and enabling collaborative\ncomputation is a critical challenge for distributed machine learning. While\nprivacy-preserving techniques for federated learning have been extensively\ndeveloped, methods for scenarios involving bitwise operations, such as\ntree-based vertical federated learning (VFL), are still underexplored.\nTraditional mechanisms, including Shamir's secret sharing and multi-party\ncomputation (MPC), are not optimized for bitwise operations over binary data,\nparticularly in settings where each participant holds a different part of the\nbinary vector. This paper addresses the limitations of existing methods by\nproposing a novel binary multi-party computation (BiMPC) framework. The BiMPC\nmechanism facilitates privacy-preserving bitwise operations, with a particular\nfocus on dot product computations of binary vectors, ensuring the privacy of\neach individual bit. The core of BiMPC is a novel approach called Dot Product\nvia Modular Addition (DoMA), which uses regular and modular additions for\nefficient binary dot product calculation. To ensure privacy, BiMPC uses random\nmasking in a higher field for linear computations and a three-party oblivious\ntransfer (triot) protocol for non-linear binary operations. The privacy\nguarantees of the BiMPC framework are rigorously analyzed, demonstrating its\nefficiency and scalability in distributed settings.",
+    "updated" : "2025-10-18T03:35:42Z",
+    "published" : "2025-10-18T03:35:42Z",
+    "authors" : [
+      {
+        "name" : "Fatemeh Jafarian Dehkordi"
+      },
+      {
+        "name" : "Elahe Vedadi"
+      },
+      {
+        "name" : "Alireza Feizbakhsh"
+      },
+      {
+        "name" : "Yasaman Keshtkarjahromi"
+      },
+      {
+        "name" : "Hulya Seferoglu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.16083v1",
+    "title" : "PassREfinder-FL: Privacy-Preserving Credential Stuffing Risk Prediction\n  via Graph-Based Federated Learning for Representing Password Reuse between\n  Websites",
+    "summary" : "Credential stuffing attacks have caused significant harm to online users who\nfrequently reuse passwords across multiple websites. While prior research has\nattempted to detect users with reused passwords or identify malicious login\nattempts, existing methods often compromise usability by restricting password\ncreation or website access, and their reliance on complex account-sharing\nmechanisms hinders real-world deployment. To address these limitations, we\npropose PassREfinder-FL, a novel framework that predicts credential stuffing\nrisks across websites. We introduce the concept of password reuse relations --\ndefined as the likelihood of users reusing passwords between websites -- and\nrepresent them as edges in a website graph. Using graph neural networks (GNNs),\nwe perform a link prediction task to assess credential reuse risk between\nsites. Our approach scales to a large number of arbitrary websites by\nincorporating public website information and linking newly observed websites as\nnodes in the graph. To preserve user privacy, we extend PassREfinder-FL with a\nfederated learning (FL) approach that eliminates the need to share user\nsensitive information across administrators. Evaluation on a real-world dataset\nof 360 million breached accounts from 22,378 websites shows that\nPassREfinder-FL achieves an F1-score of 0.9153 in the FL setting. We further\nvalidate that our FL-based GNN achieves a 4-11% performance improvement over\nother state-of-the-art GNN models through an ablation study. Finally, we\ndemonstrate that the predicted results can be used to quantify password reuse\nlikelihood as actionable risk scores.",
+    "updated" : "2025-10-17T14:59:24Z",
+    "published" : "2025-10-17T14:59:24Z",
+    "authors" : [
+      {
+        "name" : "Jaehan Kim"
+      },
+      {
+        "name" : "Minkyoo Song"
+      },
+      {
+        "name" : "Minjae Seo"
+      },
+      {
+        "name" : "Youngjin Jin"
+      },
+      {
+        "name" : "Seungwon Shin"
+      },
+      {
+        "name" : "Jinwoo Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.16054v1",
+    "title" : "PrivacyPAD: A Reinforcement Learning Framework for Dynamic Privacy-Aware\n  Delegation",
+    "summary" : "When users submit queries to Large Language Models (LLMs), their prompts can\noften contain sensitive data, forcing a difficult choice: Send the query to a\npowerful proprietary LLM providers to achieving state-of-the-art performance\nand risk data exposure, or relying on smaller, local models guarantees data\nprivacy but often results in a degradation of task performance. Prior\napproaches have relied on static pipelines that use LLM rewriting, which\nshatters linguistic coherence and indiscriminately removes privacy-sensitive\ninformation, including task-critical content. We reformulate this challenge\n(Privacy-Conscious Delegation) as a sequential decision-making problem and\nintroduce a novel reinforcement learning (RL) framework called PrivacyPAD to\nsolve it. Our framework trains an agent to dynamically route text chunks,\nlearning a policy that optimally balances the trade-off between privacy leakage\nand task performance. It implicitly distinguishes between replaceable\nPersonally Identifiable Information (PII) (which it shields locally) and\ntask-critical PII (which it strategically sends to the remote model for maximal\nutility). To validate our approach in complex scenarios, we also introduce a\nnew medical dataset with high PII density. Our framework achieves a new\nstate-of-the-art on the privacy-utility frontier, demonstrating the necessity\nof learned, adaptive policies for deploying LLMs in sensitive environments.",
+    "updated" : "2025-10-16T19:38:36Z",
+    "published" : "2025-10-16T19:38:36Z",
+    "authors" : [
+      {
+        "name" : "Zheng Hui"
+      },
+      {
+        "name" : "Yijiang River Dong"
+      },
+      {
+        "name" : "Sanhanat Sivapiromrat"
+      },
+      {
+        "name" : "Ehsan Shareghi"
+      },
+      {
+        "name" : "Nigel Collier"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
   }
 ]
