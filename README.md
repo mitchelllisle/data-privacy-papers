@@ -2,6 +2,128 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.18568v1">Privacy-Preserving Healthcare Data in IoT: A Synergistic Approach with
+  Deep Learning and Blockchain</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-21T12:21:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Behnam Rezaei Bezanjani, Seyyed Hamid Ghafouri, Reza Gholamrezaei</p>
+    <p><b>Summary:</b> The integration of Internet of Things (IoT) devices in healthcare has
+revolutionized patient care by enabling real-time monitoring, personalized
+treatments, and efficient data management. However, this technological
+advancement introduces significant security risks, particularly concerning the
+confidentiality, integrity, and availability of sensitive medical data.
+Traditional security measures are often insufficient to address the unique
+challenges posed by IoT environments, such as heterogeneity, resource
+constraints, and the need for real-time processing. To tackle these challenges,
+we propose a comprehensive three-phase security framework designed to enhance
+the security and reliability of IoT-enabled healthcare systems. In the first
+phase, the framework assesses the reliability of IoT devices using a
+reputation-based trust estimation mechanism, which combines device behavior
+analytics with off-chain data storage to ensure scalability. The second phase
+integrates blockchain technology with a lightweight proof-of-work mechanism,
+ensuring data immutability, secure communication, and resistance to
+unauthorized access. The third phase employs a lightweight Long Short-Term
+Memory (LSTM) model for anomaly detection and classification, enabling
+real-time identification of cyber threats. Simulation results demonstrate that
+the proposed framework outperforms existing methods, achieving a 2% increase in
+precision, accuracy, and recall, a 5% higher attack detection rate, and a 3%
+reduction in false alarm rate. These improvements highlight the framework's
+ability to address critical security concerns while maintaining scalability and
+real-time performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.18493v1">One Size Fits All? A Modular Adaptive Sanitization Kit (MASK) for
+  Customizable Privacy-Preserving Phone Scam Detection</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">  
+  <p><b>Published on:</b> 2025-10-21T10:30:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kangzhong Wang, Zitong Shen, Youqian Zhang, Michael MK Cheung, Xiapu Luo, Grace Ngai, Eugene Yujun Fu</p>
+    <p><b>Summary:</b> Phone scams remain a pervasive threat to both personal safety and financial
+security worldwide. Recent advances in large language models (LLMs) have
+demonstrated strong potential in detecting fraudulent behavior by analyzing
+transcribed phone conversations. However, these capabilities introduce notable
+privacy risks, as such conversations frequently contain sensitive personal
+information that may be exposed to third-party service providers during
+processing. In this work, we explore how to harness LLMs for phone scam
+detection while preserving user privacy. We propose MASK (Modular Adaptive
+Sanitization Kit), a trainable and extensible framework that enables dynamic
+privacy adjustment based on individual preferences. MASK provides a pluggable
+architecture that accommodates diverse sanitization methods - from traditional
+keyword-based techniques for high-privacy users to sophisticated neural
+approaches for those prioritizing accuracy. We also discuss potential modeling
+approaches and loss function designs for future development, enabling the
+creation of truly personalized, privacy-aware LLM-based detection systems that
+balance user trust and detection effectiveness, even beyond phone scam context.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.18379v1">Uniformity Testing under User-Level Local Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Discrete Mathematics-04E762">
+  <p><b>Published on:</b> 2025-10-21T07:52:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Clément L. Canonne, Abigail Gentle, Vikrant Singhal</p>
+    <p><b>Summary:</b> We initiate the study of distribution testing under \emph{user-level} local
+differential privacy, where each of $n$ users contributes $m$ samples from the
+unknown underlying distribution. This setting, albeit very natural, is
+significantly more challenging that the usual locally private setting, as for
+the same parameter $\varepsilon$ the privacy guarantee must now apply to a full
+batch of $m$ data points. While some recent work consider distribution
+\emph{learning} in this user-level setting, nothing was known for even the most
+fundamental testing task, uniformity testing (and its generalization, identity
+testing).
+  We address this gap, by providing (nearly) sample-optimal user-level LDP
+algorithms for uniformity and identity testing. Motivated by practical
+considerations, our main focus is on the private-coin, symmetric setting, which
+does not require users to share a common random seed nor to have been assigned
+a globally unique identifier.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.18109v1">PrivaDE: Privacy-preserving Data Evaluation for Blockchain-based Data
+  Marketplaces</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-20T21:14:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wan Ki Wong, Sahel Torkamani, Michele Ciampi, Rik Sarkar</p>
+    <p><b>Summary:</b> Evaluating the relevance of data is a critical task for model builders
+seeking to acquire datasets that enhance model performance. Ideally, such
+evaluation should allow the model builder to assess the utility of candidate
+data without exposing proprietary details of the model. At the same time, data
+providers must be assured that no information about their data - beyond the
+computed utility score - is disclosed to the model builder.
+  In this paper, we present PrivaDE, a cryptographic protocol for
+privacy-preserving utility scoring and selection of data for machine learning.
+While prior works have proposed data evaluation protocols, our approach
+advances the state of the art through a practical, blockchain-centric design.
+Leveraging the trustless nature of blockchains, PrivaDE enforces
+malicious-security guarantees and ensures strong privacy protection for both
+models and datasets. To achieve efficiency, we integrate several techniques -
+including model distillation, model splitting, and cut-and-choose
+zero-knowledge proofs - bringing the runtime to a practical level. Furthermore,
+we propose a unified utility scoring function that combines empirical loss,
+predictive entropy, and feature-space diversity, and that can be seamlessly
+integrated into active-learning workflows. Evaluation shows that PrivaDE
+performs data evaluation effectively, achieving online runtimes within 15
+minutes even for models with millions of parameters.
+  Our work lays the foundation for fair and automated data marketplaces in
+decentralized machine learning ecosystems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.17480v1">Unified Privacy Guarantees for Decentralized Learning via Matrix
   Factorization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -2822,135 +2944,6 @@ the layout of the neighbor's apartment. Our results show that privacy risks in
 smart homes extend beyond traditional data breaches: a nosy neighbor behind the
 wall can gain privacy-invasive insights into the lives of their neighbors
 purely from encrypted network traffic.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23246v1">Adaptive Token-Weighted Differential Privacy for LLMs: Not All Tokens
-  Require Equal Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-27T10:51:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Manjiang Yu, Priyanka Singh, Xue Li, Yang Cao</p>
-    <p><b>Summary:</b> Large language models (LLMs) frequently memorize sensitive or personal
-information, raising significant privacy concerns. Existing variants of
-differential privacy stochastic gradient descent (DPSGD) inject uniform noise
-into every gradient step, significantly extending training time and reducing
-model accuracy. We propose that concentrating noise primarily on gradients
-associated with sensitive tokens can substantially decrease DP training time,
-strengthen the protection of sensitive information, and simultaneously preserve
-the model's performance on non-sensitive data. We operationalize this insight
-through Adaptive Token-Weighted Differential Privacy (ATDP), a modification of
-vanilla DP-SGD that adaptively assigns different gradient weights to sensitive
-and non-sensitive tokens. By employing a larger noise scale at the early stage
-of training, ATDP rapidly disrupts memorization of sensitive content. As a
-result, ATDP only requires a few additional epochs of lightweight
-post-processing following standard fine-tuning, injecting targeted noise
-primarily on parameters corresponding to sensitive tokens, thus minimally
-affecting the model's general capabilities. ATDP can be seamlessly integrated
-into any existing DP-based fine-tuning pipeline or directly applied to
-non-private models as a fast privacy-enhancing measure. Additionally, combined
-with an initial redacted fine-tuning phase, ATDP forms a streamlined DP
-pipeline that achieves comparable canary protection to state-of-the-art DP-SGD
-methods, significantly reduces the computational overhead of DP fine-tuning,
-shortening training time by approximately 90 percent, while achieving
-comparable or superior privacy protection and minimal accuracy degradation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23190v1">CoSIFL: Collaborative Secure and Incentivized Federated Learning with
-  Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-27T08:45:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhanhong Xie, Meifan Zhang, Lihua Yin</p>
-    <p><b>Summary:</b> Federated learning (FL) has emerged as a promising paradigm for collaborative
-model training while preserving data locality. However, it still faces
-challenges from malicious or compromised clients, as well as difficulties in
-incentivizing participants to contribute high-quality data under strict privacy
-requirements. Motivated by these considerations, we propose CoSIFL, a novel
-framework that integrates proactive alarming for robust security and local
-differential privacy (LDP) for inference attacks, together with a
-Stackelberg-based incentive scheme to encourage client participation and data
-sharing. Specifically, CoSIFL uses an active alarming mechanism and robust
-aggregation to defend against Byzantine and inference attacks, while a Tullock
-contest-inspired incentive module rewards honest clients for both data
-contributions and reliable alarm triggers. We formulate the interplay between
-the server and clients as a two-stage game: in the first stage, the server
-determines total rewards, selects participants, and fixes global iteration
-settings, whereas in the second stage, each client decides its mini-batch size,
-privacy noise scale, and alerting strategy. We prove that the server-client
-game admits a unique equilibrium, and analyze how clients' multi-dimensional
-attributes - such as non-IID degrees and privacy budgets - jointly affect
-system efficiency. Experimental results on standard benchmarks demonstrate that
-CoSIFL outperforms state-of-the-art solutions in improving model robustness and
-reducing total server costs, highlighting the effectiveness of our integrated
-design.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23091v1">FedBit: Accelerating Privacy-Preserving Federated Learning via
-  Bit-Interleaved Packing and Cross-Layer Co-Design</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-27T03:58:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiangchen Meng, Yangdi Lyu</p>
-    <p><b>Summary:</b> Federated learning (FL) with fully homomorphic encryption (FHE) effectively
-safeguards data privacy during model aggregation by encrypting local model
-updates before transmission, mitigating threats from untrusted servers or
-eavesdroppers in transmission. However, the computational burden and ciphertext
-expansion associated with homomorphic encryption can significantly increase
-resource and communication overhead. To address these challenges, we propose
-FedBit, a hardware/software co-designed framework optimized for the
-Brakerski-Fan-Vercauteren (BFV) scheme. FedBit employs bit-interleaved data
-packing to embed multiple model parameters into a single ciphertext
-coefficient, thereby minimizing ciphertext expansion and maximizing
-computational parallelism. Additionally, we integrate a dedicated FPGA
-accelerator to handle cryptographic operations and an optimized dataflow to
-reduce the memory overhead. Experimental results demonstrate that FedBit
-achieves a speedup of two orders of magnitude in encryption and lowers average
-communication overhead by 60.7%, while maintaining high accuracy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23030v1">DPFNAS: Differential Privacy-Enhanced Federated Neural Architecture
-  Search for 6G Edge Intelligence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-27T01:03:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yang Lv, Jin Cao, Ben Niu, Zhe Sun, Fengwei Wang, Fenghua Li, Hui Li</p>
-    <p><b>Summary:</b> The Sixth-Generation (6G) network envisions pervasive artificial intelligence
-(AI) as a core goal, enabled by edge intelligence through on-device data
-utilization. To realize this vision, federated learning (FL) has emerged as a
-key paradigm for collaborative training across edge devices. However, the
-sensitivity and heterogeneity of edge data pose key challenges to FL: parameter
-sharing risks data reconstruction, and a unified global model struggles to
-adapt to diverse local distributions. In this paper, we propose a novel
-federated learning framework that integrates personalized differential privacy
-(DP) and adaptive model design. To protect training data, we leverage
-sample-level representations for knowledge sharing and apply a personalized DP
-strategy to resist reconstruction attacks. To ensure distribution-aware
-adaptation under privacy constraints, we develop a privacy-aware neural
-architecture search (NAS) algorithm that generates locally customized
-architectures and hyperparameters. To the best of our knowledge, this is the
-first personalized DP solution tailored for representation-based FL with
-theoretical convergence guarantees. Our scheme achieves strong privacy
-guarantees for training data while significantly outperforming state-of-the-art
-methods in model performance. Experiments on benchmark datasets such as
-CIFAR-10 and CIFAR-100 demonstrate that our scheme improves accuracy by 6.82\%
-over the federated NAS method PerFedRLNAS, while reducing model size to 1/10
-and communication cost to 1/20.</p>
   </details>
 </div>
 
