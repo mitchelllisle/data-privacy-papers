@@ -2004,5 +2004,111 @@
       "cs.CR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.18568v1",
+    "title" : "Privacy-Preserving Healthcare Data in IoT: A Synergistic Approach with\n  Deep Learning and Blockchain",
+    "summary" : "The integration of Internet of Things (IoT) devices in healthcare has\nrevolutionized patient care by enabling real-time monitoring, personalized\ntreatments, and efficient data management. However, this technological\nadvancement introduces significant security risks, particularly concerning the\nconfidentiality, integrity, and availability of sensitive medical data.\nTraditional security measures are often insufficient to address the unique\nchallenges posed by IoT environments, such as heterogeneity, resource\nconstraints, and the need for real-time processing. To tackle these challenges,\nwe propose a comprehensive three-phase security framework designed to enhance\nthe security and reliability of IoT-enabled healthcare systems. In the first\nphase, the framework assesses the reliability of IoT devices using a\nreputation-based trust estimation mechanism, which combines device behavior\nanalytics with off-chain data storage to ensure scalability. The second phase\nintegrates blockchain technology with a lightweight proof-of-work mechanism,\nensuring data immutability, secure communication, and resistance to\nunauthorized access. The third phase employs a lightweight Long Short-Term\nMemory (LSTM) model for anomaly detection and classification, enabling\nreal-time identification of cyber threats. Simulation results demonstrate that\nthe proposed framework outperforms existing methods, achieving a 2% increase in\nprecision, accuracy, and recall, a 5% higher attack detection rate, and a 3%\nreduction in false alarm rate. These improvements highlight the framework's\nability to address critical security concerns while maintaining scalability and\nreal-time performance.",
+    "updated" : "2025-10-21T12:21:49Z",
+    "published" : "2025-10-21T12:21:49Z",
+    "authors" : [
+      {
+        "name" : "Behnam Rezaei Bezanjani"
+      },
+      {
+        "name" : "Seyyed Hamid Ghafouri"
+      },
+      {
+        "name" : "Reza Gholamrezaei"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.18493v1",
+    "title" : "One Size Fits All? A Modular Adaptive Sanitization Kit (MASK) for\n  Customizable Privacy-Preserving Phone Scam Detection",
+    "summary" : "Phone scams remain a pervasive threat to both personal safety and financial\nsecurity worldwide. Recent advances in large language models (LLMs) have\ndemonstrated strong potential in detecting fraudulent behavior by analyzing\ntranscribed phone conversations. However, these capabilities introduce notable\nprivacy risks, as such conversations frequently contain sensitive personal\ninformation that may be exposed to third-party service providers during\nprocessing. In this work, we explore how to harness LLMs for phone scam\ndetection while preserving user privacy. We propose MASK (Modular Adaptive\nSanitization Kit), a trainable and extensible framework that enables dynamic\nprivacy adjustment based on individual preferences. MASK provides a pluggable\narchitecture that accommodates diverse sanitization methods - from traditional\nkeyword-based techniques for high-privacy users to sophisticated neural\napproaches for those prioritizing accuracy. We also discuss potential modeling\napproaches and loss function designs for future development, enabling the\ncreation of truly personalized, privacy-aware LLM-based detection systems that\nbalance user trust and detection effectiveness, even beyond phone scam context.",
+    "updated" : "2025-10-21T10:30:36Z",
+    "published" : "2025-10-21T10:30:36Z",
+    "authors" : [
+      {
+        "name" : "Kangzhong Wang"
+      },
+      {
+        "name" : "Zitong Shen"
+      },
+      {
+        "name" : "Youqian Zhang"
+      },
+      {
+        "name" : "Michael MK Cheung"
+      },
+      {
+        "name" : "Xiapu Luo"
+      },
+      {
+        "name" : "Grace Ngai"
+      },
+      {
+        "name" : "Eugene Yujun Fu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC",
+      "68M25",
+      "I.2.7"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.18379v1",
+    "title" : "Uniformity Testing under User-Level Local Privacy",
+    "summary" : "We initiate the study of distribution testing under \\emph{user-level} local\ndifferential privacy, where each of $n$ users contributes $m$ samples from the\nunknown underlying distribution. This setting, albeit very natural, is\nsignificantly more challenging that the usual locally private setting, as for\nthe same parameter $\\varepsilon$ the privacy guarantee must now apply to a full\nbatch of $m$ data points. While some recent work consider distribution\n\\emph{learning} in this user-level setting, nothing was known for even the most\nfundamental testing task, uniformity testing (and its generalization, identity\ntesting).\n  We address this gap, by providing (nearly) sample-optimal user-level LDP\nalgorithms for uniformity and identity testing. Motivated by practical\nconsiderations, our main focus is on the private-coin, symmetric setting, which\ndoes not require users to share a common random seed nor to have been assigned\na globally unique identifier.",
+    "updated" : "2025-10-21T07:52:41Z",
+    "published" : "2025-10-21T07:52:41Z",
+    "authors" : [
+      {
+        "name" : "Clément L. Canonne"
+      },
+      {
+        "name" : "Abigail Gentle"
+      },
+      {
+        "name" : "Vikrant Singhal"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.DM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.18109v1",
+    "title" : "PrivaDE: Privacy-preserving Data Evaluation for Blockchain-based Data\n  Marketplaces",
+    "summary" : "Evaluating the relevance of data is a critical task for model builders\nseeking to acquire datasets that enhance model performance. Ideally, such\nevaluation should allow the model builder to assess the utility of candidate\ndata without exposing proprietary details of the model. At the same time, data\nproviders must be assured that no information about their data - beyond the\ncomputed utility score - is disclosed to the model builder.\n  In this paper, we present PrivaDE, a cryptographic protocol for\nprivacy-preserving utility scoring and selection of data for machine learning.\nWhile prior works have proposed data evaluation protocols, our approach\nadvances the state of the art through a practical, blockchain-centric design.\nLeveraging the trustless nature of blockchains, PrivaDE enforces\nmalicious-security guarantees and ensures strong privacy protection for both\nmodels and datasets. To achieve efficiency, we integrate several techniques -\nincluding model distillation, model splitting, and cut-and-choose\nzero-knowledge proofs - bringing the runtime to a practical level. Furthermore,\nwe propose a unified utility scoring function that combines empirical loss,\npredictive entropy, and feature-space diversity, and that can be seamlessly\nintegrated into active-learning workflows. Evaluation shows that PrivaDE\nperforms data evaluation effectively, achieving online runtimes within 15\nminutes even for models with millions of parameters.\n  Our work lays the foundation for fair and automated data marketplaces in\ndecentralized machine learning ecosystems.",
+    "updated" : "2025-10-20T21:14:32Z",
+    "published" : "2025-10-20T21:14:32Z",
+    "authors" : [
+      {
+        "name" : "Wan Ki Wong"
+      },
+      {
+        "name" : "Sahel Torkamani"
+      },
+      {
+        "name" : "Michele Ciampi"
+      },
+      {
+        "name" : "Rik Sarkar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
