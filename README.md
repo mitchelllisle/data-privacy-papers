@@ -2,6 +2,71 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.19537v1">Privacy-Preserving Spiking Neural Networks: A Deep Dive into Encryption
+  Parameter Optimisation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-22T12:43:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahitha Pulivathi, Ana Fontes Rodrigues, Isibor Kennedy Ihianle, Andreas Oikonomou, Srinivas Boppu, Pedro Machado</p>
+    <p><b>Summary:</b> Deep learning is widely applied to modern problems through neural networks,
+but the growing computational and energy demands of these models have driven
+interest in more efficient approaches. Spiking Neural Networks (SNNs), the
+third generation of neural networks, mimic the brain's event-driven behaviour,
+offering improved performance and reduced power use. At the same time, concerns
+about data privacy during cloud-based model execution have led to the adoption
+of cryptographic methods. This article introduces BioEncryptSNN, a spiking
+neural network based encryption-decryption framework for secure and
+noise-resilient data protection. Unlike conventional algorithms, BioEncryptSNN
+converts ciphertext into spike trains and exploits temporal neural dynamics to
+model encryption and decryption, optimising parameters such as key length,
+spike timing, and synaptic connectivity. Benchmarked against AES-128, RSA-2048,
+and DES, BioEncryptSNN preserved data integrity while achieving up to 4.1x
+faster encryption and decryption than PyCryptodome's AES implementation. The
+framework demonstrates scalability and adaptability across symmetric and
+asymmetric ciphers, positioning SNNs as a promising direction for secure,
+energy-efficient computing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.19026v1">Fusion of Machine Learning and Blockchain-based Privacy-Preserving
+  Approach for Health Care Data in the Internet of Things</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-21T19:09:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Behnam Rezaei Bezanjani, Seyyed Hamid Ghafouri, Reza Gholamrezaei</p>
+    <p><b>Summary:</b> In recent years, the rapid integration of Internet of Things (IoT) devices
+into the healthcare sector has brought about revolutionary advancements in
+patient care and data management. While these technological innovations hold
+immense promise, they concurrently raise critical security concerns,
+particularly in safeguarding medical data against potential cyber threats. The
+sensitive nature of health-related information requires robust measures to
+ensure the confidentiality, integrity, and availability of patient data in
+IoT-enabled medical environments. Addressing the imperative need for enhanced
+security in IoT-based healthcare systems, we propose a comprehensive method
+encompassing three distinct phases. In the first phase, we implement
+Blockchain-Enabled Request and Transaction Encryption to strengthen data
+transaction security, providing an immutable and transparent framework. In the
+second phase, we introduce a Request Pattern Recognition Check that leverages
+diverse data sources to identify and block potential unauthorized access
+attempts. Finally, the third phase incorporates Feature Selection and a BiLSTM
+network to enhance the accuracy and efficiency of intrusion detection using
+advanced machine learning techniques. We compared the simulation results of the
+proposed method with three recent related methods: AIBPSF-IoMT, OMLIDS-PBIoT,
+and AIMMFIDS. The evaluation criteria include detection rate, false alarm rate,
+precision, recall, and accuracy - crucial benchmarks for assessing the overall
+performance of intrusion detection systems. Our findings show that the proposed
+method outperforms existing approaches across all evaluated criteria,
+demonstrating its effectiveness in improving the security of IoT-based
+healthcare systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.18568v1">Privacy-Preserving Healthcare Data in IoT: A Synergistic Approach with
   Deep Learning and Blockchain</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -2887,63 +2952,6 @@ privacy-utility tradeoff, MaskSQL facilitates adoption across a broader range
 of use cases. Our experimental results show that MaskSQL outperforms leading
 SLM-based text-to-SQL models and achieves performance approaching
 state-of-the-art LLM-based models, while preserving privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23444v1">HoloTrace: a Location Privacy Preservation Solution for mmWave MIMO-OFDM
-  Systems</a></h3>
-  
-  <p><b>Published on:</b> 2025-09-27T18:26:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lorenzo Italiano, Alireza Pourafzal, Hui Chen, Mattia Brambilla, Gonzalo Seco-Granados, Monica Nicoli, Henk Wymeersch</p>
-    <p><b>Summary:</b> The technological innovation towards 6G cellular networks introduces
-unprecedented capabilities for user equipment (UE) localization, but it also
-raises serious concerns about physical layer location privacy. This paper
-introduces HoloTrace, a signal-level privacy preservation framework that relies
-on user-side spoofing of localization-relevant features to prevent the
-extraction of precise location information from the signals received by a base
-station (BS) in a mmWave MIMO-OFDM system. Spoofing is performed by the user on
-location parameters such as angle of arrival (AoA), angle of departure (AoD),
-and time difference of arrival (TDoA). Without requiring any protocol
-modification nor network-side support, our method strategically perturbs pilot
-transmissions to prevent a BS from performing non-consensual UE localization.
-The methodology allows the UE to spoof its position, keeping the precoder
-unchanged. We formulate spoofing as a unified rank-constrained projection
-problem, and provide closed-form solutions under varying levels of channel
-state information (CSI) at the UE, including scenarios with and without CSI
-knowledge. Simulation results confirm that the proposed approach enables the UE
-to deceive the BS, inducing significant localization errors, while the impact
-on link capacity varies depending on the spoofed position. Our findings
-establish HoloTrace as a practical and robust privacy-preserving solution for
-future 6G networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.13822v1">Noisy Networks, Nosy Neighbors: Inferring Privacy Invasive Information
-  from Encrypted Wireless Traffic</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-09-27T15:36:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bartosz Burgiel</p>
-    <p><b>Summary:</b> This thesis explores the extent to which passive observation of wireless
-traffic in a smart home environment can be used to infer privacy-invasive
-information about its inhabitants. Using a setup that mimics the capabilities
-of a nosy neighbor in an adjacent flat, we analyze raw 802.11 packets and
-Bluetooth Low Energy advertisemets. From this data, we identify devices, infer
-their activity states and approximate their location using RSSI-based
-trilateration. Despite the encrypted nature of the data, we demonstrate that it
-is possible to detect active periods of multimedia devices, infer common
-activities such as sleeping, working and consuming media, and even approximate
-the layout of the neighbor's apartment. Our results show that privacy risks in
-smart homes extend beyond traditional data breaches: a nosy neighbor behind the
-wall can gain privacy-invasive insights into the lives of their neighbors
-purely from encrypted network traffic.</p>
   </details>
 </div>
 
