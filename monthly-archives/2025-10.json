@@ -2161,5 +2161,223 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.20721v1",
+    "title" : "User Perceptions of Privacy and Helpfulness in LLM Responses to\n  Privacy-Sensitive Scenarios",
+    "summary" : "Large language models (LLMs) have seen rapid adoption for tasks such as\ndrafting emails, summarizing meetings, and answering health questions. In such\nuses, users may need to share private information (e.g., health records,\ncontact details). To evaluate LLMs' ability to identify and redact such private\ninformation, prior work developed benchmarks (e.g., ConfAIde, PrivacyLens) with\nreal-life scenarios. Using these benchmarks, researchers have found that LLMs\nsometimes fail to keep secrets private when responding to complex tasks (e.g.,\nleaking employee salaries in meeting summaries). However, these evaluations\nrely on LLMs (proxy LLMs) to gauge compliance with privacy norms, overlooking\nreal users' perceptions. Moreover, prior work primarily focused on the\nprivacy-preservation quality of responses, without investigating nuanced\ndifferences in helpfulness. To understand how users perceive the\nprivacy-preservation quality and helpfulness of LLM responses to\nprivacy-sensitive scenarios, we conducted a user study with 94 participants\nusing 90 scenarios from PrivacyLens. We found that, when evaluating identical\nresponses to the same scenario, users showed low agreement with each other on\nthe privacy-preservation quality and helpfulness of the LLM response. Further,\nwe found high agreement among five proxy LLMs, while each individual LLM had\nlow correlation with users' evaluations. These results indicate that the\nprivacy and helpfulness of LLM responses are often specific to individuals, and\nproxy LLMs are poor estimates of how real users would perceive these responses\nin privacy-sensitive scenarios. Our results suggest the need to conduct\nuser-centered studies on measuring LLMs' ability to help users while preserving\nprivacy. Additionally, future research could investigate ways to improve the\nalignment between proxy LLMs and users for better estimation of users'\nperceived privacy and utility.",
+    "updated" : "2025-10-23T16:38:26Z",
+    "published" : "2025-10-23T16:38:26Z",
+    "authors" : [
+      {
+        "name" : "Xiaoyuan Wu"
+      },
+      {
+        "name" : "Roshni Kaushik"
+      },
+      {
+        "name" : "Wenkai Li"
+      },
+      {
+        "name" : "Lujo Bauer"
+      },
+      {
+        "name" : "Koichi Onoue"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.20300v1",
+    "title" : "Privacy Protection of Automotive Location Data Based on\n  Format-Preserving Encryption of Geographical Coordinates",
+    "summary" : "There are increasing risks of privacy disclosure when sharing the automotive\nlocation data in particular functions such as route navigation, driving\nmonitoring and vehicle scheduling. These risks could lead to the attacks\nincluding user behavior recognition, sensitive location inference and\ntrajectory reconstruction. In order to mitigate the data security risk caused\nby the automotive location sharing, this paper proposes a high-precision\nprivacy protection mechanism based on format-preserving encryption (FPE) of\ngeographical coordinates. The automotive coordinate data key mapping mechanism\nis designed to reduce to the accuracy loss of the geographical location data\ncaused by the repeated encryption and decryption. The experimental results\ndemonstrate that the average relative distance retention rate (RDR) reached\n0.0844, and the number of hotspots in the critical area decreased by 98.9%\nafter encryption. To evaluate the accuracy loss of the proposed encryption\nalgorithm on automotive geographical location data, this paper presents the\nexperimental analysis of decryption accuracy, and the result indicates that the\ndecrypted coordinate data achieves a restoration accuracy of 100%. This work\npresents a high-precision privacy protection method for automotive location\ndata, thereby providing an efficient data security solution for the sensitive\ndata sharing in autonomous driving.",
+    "updated" : "2025-10-23T07:39:59Z",
+    "published" : "2025-10-23T07:39:59Z",
+    "authors" : [
+      {
+        "name" : "Haojie Ji"
+      },
+      {
+        "name" : "Long Jin"
+      },
+      {
+        "name" : "Haowen Li"
+      },
+      {
+        "name" : "Chongshi Xin"
+      },
+      {
+        "name" : "Te Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.20243v1",
+    "title" : "HHEML: Hybrid Homomorphic Encryption for Privacy-Preserving Machine\n  Learning on Edge",
+    "summary" : "Privacy-preserving machine learning (PPML) is an emerging topic to handle\nsecure machine learning inference over sensitive data in untrusted\nenvironments. Fully homomorphic encryption (FHE) enables computation directly\non encrypted data on the server side, making it a promising approach for PPML.\nHowever, it introduces significant communication and computation overhead on\nthe client side, making it impractical for edge devices. Hybrid homomorphic\nencryption (HHE) addresses this limitation by combining symmetric encryption\n(SE) with FHE to reduce the computational cost on the client side, and\ncombining with an FHE-friendly SE can also lessen the processing overhead on\nthe server side, making it a more balanced and efficient alternative. Our work\nproposes a hardware-accelerated HHE architecture built around a lightweight\nsymmetric cipher optimized for FHE compatibility and implemented as a dedicated\nhardware accelerator. To the best of our knowledge, this is the first design to\nintegrate an end-to-end HHE framework with hardware acceleration. Beyond this,\nwe also present several microarchitectural optimizations to achieve higher\nperformance and energy efficiency. The proposed work is integrated into a full\nPPML pipeline, enabling secure inference with significantly lower latency and\npower consumption than software implementations. Our contributions validate the\nfeasibility of low-power, hardware- accelerated HHE for edge deployment and\nprovide a hardware- software co-design methodology for building scalable,\nsecure machine learning systems in resource-constrained environments.\nExperiments on a PYNQ-Z2 platform with the MNIST dataset show over a 50x\nreduction in client-side encryption latency and nearly a 2x gain in hardware\nthroughput compared to existing FPGA-based HHE accelerators.",
+    "updated" : "2025-10-23T05:51:55Z",
+    "published" : "2025-10-23T05:51:55Z",
+    "authors" : [
+      {
+        "name" : "Yu Hin Chan"
+      },
+      {
+        "name" : "Hao Yang"
+      },
+      {
+        "name" : "Shiyu Shen"
+      },
+      {
+        "name" : "Xingyu Fan"
+      },
+      {
+        "name" : "Shengzhe Lyu"
+      },
+      {
+        "name" : "Patrick S. Y. Hung"
+      },
+      {
+        "name" : "Ray C. C. Cheung"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.20157v1",
+    "title" : "ADP-VRSGP: Decentralized Learning with Adaptive Differential Privacy via\n  Variance-Reduced Stochastic Gradient Push",
+    "summary" : "Differential privacy is widely employed in decentralized learning to\nsafeguard sensitive data by introducing noise into model updates. However,\nexisting approaches that use fixed-variance noise often degrade model\nperformance and reduce training efficiency. To address these limitations, we\npropose a novel approach called decentralized learning with adaptive\ndifferential privacy via variance-reduced stochastic gradient push (ADP-VRSGP).\nThis method dynamically adjusts both the noise variance and the learning rate\nusing a stepwise-decaying schedule, which accelerates training and enhances\nfinal model performance while providing node-level personalized privacy\nguarantees. To counteract the slowed convergence caused by large-variance noise\nin early iterations, we introduce a progressive gradient fusion strategy that\nleverages historical gradients. Furthermore, ADP-VRSGP incorporates\ndecentralized push-sum and aggregation techniques, making it particularly\nsuitable for time-varying communication topologies. Through rigorous\ntheoretical analysis, we demonstrate that ADP-VRSGP achieves robust convergence\nwith an appropriate learning rate, significantly improving training stability\nand speed. Experimental results validate that our method outperforms existing\nbaselines across multiple scenarios, highlighting its efficacy in addressing\nthe challenges of privacy-preserving decentralized learning.",
+    "updated" : "2025-10-23T03:14:59Z",
+    "published" : "2025-10-23T03:14:59Z",
+    "authors" : [
+      {
+        "name" : "Xiaoming Wu"
+      },
+      {
+        "name" : "Teng Liu"
+      },
+      {
+        "name" : "Xin Wang"
+      },
+      {
+        "name" : "Ming Yang"
+      },
+      {
+        "name" : "Jiguo Yu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.20007v1",
+    "title" : "zk-Agreements: A Privacy-Preserving Way to Establish Deterministic Trust\n  in Confidential Agreements",
+    "summary" : "Digital transactions currently exceed trillions of dollars annually, yet\ntraditional paper-based agreements remain a bottleneck for automation,\nenforceability, and dispute resolution. Natural language contracts introduce\nambiguity, require manual processing, and lack computational verifiability, all\nof which hinder efficient digital commerce. Computable legal contracts,\nexpressed in machine-readable formats, offer a potential solution by enabling\nautomated execution and verification. Blockchain-based smart contracts further\nstrengthen enforceability and accelerate dispute resolution; however, current\nimplementations risk exposing sensitive agreement terms on public ledgers,\nraising serious privacy and competitive intelligence concerns that limit\nenterprise adoption.\n  We introduce zk-agreements, a protocol designed to transition from\npaper-based trust to cryptographic trust while preserving confidentiality. Our\ndesign combines zero-knowledge proofs to protect private agreement terms,\nsecure two-party computation to enable private compliance evaluation, and smart\ncontracts to guarantee automated enforcement. Together, these components\nachieve both privacy preservation and computational enforceability, resolving\nthe fundamental tension between transparency and confidentiality in\nblockchain-based agreements.",
+    "updated" : "2025-10-22T20:11:57Z",
+    "published" : "2025-10-22T20:11:57Z",
+    "authors" : [
+      {
+        "name" : "To-Wen Liu"
+      },
+      {
+        "name" : "Matthew Green"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "94A60, 68M14, 68Q85",
+      "D.4.6; K.6.5; E.3"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.19979v1",
+    "title" : "SecureInfer: Heterogeneous TEE-GPU Architecture for Privacy-Critical\n  Tensors for Large Language Model Deployment",
+    "summary" : "With the increasing deployment of Large Language Models (LLMs) on mobile and\nedge platforms, securing them against model extraction attacks has become a\npressing concern. However, protecting model privacy without sacrificing the\nperformance benefits of untrusted AI accelerators, such as GPUs, presents a\nchallenging trade-off. In this paper, we initiate the study of high-performance\nexecution on LLMs and present SecureInfer, a hybrid framework that leverages a\nheterogeneous Trusted Execution Environments (TEEs)-GPU architecture to isolate\nprivacy-critical components while offloading compute-intensive operations to\nuntrusted accelerators. Building upon an outsourcing scheme, SecureInfer adopts\nan information-theoretic and threat-informed partitioning strategy:\nsecurity-sensitive components, including non-linear layers, projection of\nattention head, FNN transformations, and LoRA adapters, are executed inside an\nSGX enclave, while other linear operations (matrix multiplication) are\nperformed on the GPU after encryption and are securely restored within the\nenclave. We implement a prototype of SecureInfer using the LLaMA-2 model and\nevaluate it across performance and security metrics. Our results show that\nSecureInfer offers strong security guarantees with reasonable performance,\noffering a practical solution for secure on-device model inference.",
+    "updated" : "2025-10-22T19:17:31Z",
+    "published" : "2025-10-22T19:17:31Z",
+    "authors" : [
+      {
+        "name" : "Tushar Nayan"
+      },
+      {
+        "name" : "Ziqi Zhang"
+      },
+      {
+        "name" : "Ruimin Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.19934v1",
+    "title" : "Mitigating Privacy-Utility Trade-off in Decentralized Federated Learning\n  via $f$-Differential Privacy",
+    "summary" : "Differentially private (DP) decentralized Federated Learning (FL) allows\nlocal users to collaborate without sharing their data with a central server.\nHowever, accurately quantifying the privacy budget of private FL algorithms is\nchallenging due to the co-existence of complex algorithmic components such as\ndecentralized communication and local updates. This paper addresses privacy\naccounting for two decentralized FL algorithms within the $f$-differential\nprivacy ($f$-DP) framework. We develop two new $f$-DP-based accounting methods\ntailored to decentralized settings: Pairwise Network $f$-DP (PN-$f$-DP), which\nquantifies privacy leakage between user pairs under random-walk communication,\nand Secret-based $f$-Local DP (Sec-$f$-LDP), which supports structured noise\ninjection via shared secrets. By combining tools from $f$-DP theory and Markov\nchain concentration, our accounting framework captures privacy amplification\narising from sparse communication, local iterations, and correlated noise.\nExperiments on synthetic and real datasets demonstrate that our methods yield\nconsistently tighter $(\\epsilon,\\delta)$ bounds and improved utility compared\nto R\\'enyi DP-based approaches, illustrating the benefits of $f$-DP in\ndecentralized privacy accounting.",
+    "updated" : "2025-10-22T18:01:08Z",
+    "published" : "2025-10-22T18:01:08Z",
+    "authors" : [
+      {
+        "name" : "Xiang Li"
+      },
+      {
+        "name" : "Buxin Su"
+      },
+      {
+        "name" : "Chendi Wang"
+      },
+      {
+        "name" : "Qi Long"
+      },
+      {
+        "name" : "Weijie J. Su"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "math.ST",
+      "stat.ME",
+      "stat.ML",
+      "stat.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.09114v2",
+    "title" : "On the Fairness of Privacy Protection: Measuring and Mitigating the\n  Disparity of Group Privacy Risks for Differentially Private Machine Learning",
+    "summary" : "While significant progress has been made in conventional fairness-aware\nmachine learning (ML) and differentially private ML (DPML), the fairness of\nprivacy protection across groups remains underexplored. Existing studies have\nproposed methods to assess group privacy risks, but these are based on the\naverage-case privacy risks of data records. Such approaches may underestimate\nthe group privacy risks, thereby potentially underestimating the disparity\nacross group privacy risks. Moreover, the current method for assessing the\nworst-case privacy risks of data records is time-consuming, limiting their\npractical applicability. To address these limitations, we introduce a novel\nmembership inference game that can efficiently audit the approximate worst-case\nprivacy risks of data records. Experimental results demonstrate that our method\nprovides a more stringent measurement of group privacy risks, yielding a\nreliable assessment of the disparity in group privacy risks. Furthermore, to\npromote privacy protection fairness in DPML, we enhance the standard DP-SGD\nalgorithm with an adaptive group-specific gradient clipping strategy, inspired\nby the design of canaries in differential privacy auditing studies. Extensive\nexperiments confirm that our algorithm effectively reduces the disparity in\ngroup privacy risks, thereby enhancing the fairness of privacy protection in\nDPML.",
+    "updated" : "2025-10-23T13:48:13Z",
+    "published" : "2025-10-10T08:09:08Z",
+    "authors" : [
+      {
+        "name" : "Zhi Yang"
+      },
+      {
+        "name" : "Changwu Huang"
+      },
+      {
+        "name" : "Ke Tang"
+      },
+      {
+        "name" : "Xin Yao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
