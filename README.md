@@ -2,6 +2,232 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.20721v1">User Perceptions of Privacy and Helpfulness in LLM Responses to
+  Privacy-Sensitive Scenarios</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-10-23T16:38:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoyuan Wu, Roshni Kaushik, Wenkai Li, Lujo Bauer, Koichi Onoue</p>
+    <p><b>Summary:</b> Large language models (LLMs) have seen rapid adoption for tasks such as
+drafting emails, summarizing meetings, and answering health questions. In such
+uses, users may need to share private information (e.g., health records,
+contact details). To evaluate LLMs' ability to identify and redact such private
+information, prior work developed benchmarks (e.g., ConfAIde, PrivacyLens) with
+real-life scenarios. Using these benchmarks, researchers have found that LLMs
+sometimes fail to keep secrets private when responding to complex tasks (e.g.,
+leaking employee salaries in meeting summaries). However, these evaluations
+rely on LLMs (proxy LLMs) to gauge compliance with privacy norms, overlooking
+real users' perceptions. Moreover, prior work primarily focused on the
+privacy-preservation quality of responses, without investigating nuanced
+differences in helpfulness. To understand how users perceive the
+privacy-preservation quality and helpfulness of LLM responses to
+privacy-sensitive scenarios, we conducted a user study with 94 participants
+using 90 scenarios from PrivacyLens. We found that, when evaluating identical
+responses to the same scenario, users showed low agreement with each other on
+the privacy-preservation quality and helpfulness of the LLM response. Further,
+we found high agreement among five proxy LLMs, while each individual LLM had
+low correlation with users' evaluations. These results indicate that the
+privacy and helpfulness of LLM responses are often specific to individuals, and
+proxy LLMs are poor estimates of how real users would perceive these responses
+in privacy-sensitive scenarios. Our results suggest the need to conduct
+user-centered studies on measuring LLMs' ability to help users while preserving
+privacy. Additionally, future research could investigate ways to improve the
+alignment between proxy LLMs and users for better estimation of users'
+perceived privacy and utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.20300v1">Privacy Protection of Automotive Location Data Based on
+  Format-Preserving Encryption of Geographical Coordinates</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-23T07:39:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haojie Ji, Long Jin, Haowen Li, Chongshi Xin, Te Hu</p>
+    <p><b>Summary:</b> There are increasing risks of privacy disclosure when sharing the automotive
+location data in particular functions such as route navigation, driving
+monitoring and vehicle scheduling. These risks could lead to the attacks
+including user behavior recognition, sensitive location inference and
+trajectory reconstruction. In order to mitigate the data security risk caused
+by the automotive location sharing, this paper proposes a high-precision
+privacy protection mechanism based on format-preserving encryption (FPE) of
+geographical coordinates. The automotive coordinate data key mapping mechanism
+is designed to reduce to the accuracy loss of the geographical location data
+caused by the repeated encryption and decryption. The experimental results
+demonstrate that the average relative distance retention rate (RDR) reached
+0.0844, and the number of hotspots in the critical area decreased by 98.9%
+after encryption. To evaluate the accuracy loss of the proposed encryption
+algorithm on automotive geographical location data, this paper presents the
+experimental analysis of decryption accuracy, and the result indicates that the
+decrypted coordinate data achieves a restoration accuracy of 100%. This work
+presents a high-precision privacy protection method for automotive location
+data, thereby providing an efficient data security solution for the sensitive
+data sharing in autonomous driving.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.20243v1">HHEML: Hybrid Homomorphic Encryption for Privacy-Preserving Machine
+  Learning on Edge</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-10-23T05:51:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu Hin Chan, Hao Yang, Shiyu Shen, Xingyu Fan, Shengzhe Lyu, Patrick S. Y. Hung, Ray C. C. Cheung</p>
+    <p><b>Summary:</b> Privacy-preserving machine learning (PPML) is an emerging topic to handle
+secure machine learning inference over sensitive data in untrusted
+environments. Fully homomorphic encryption (FHE) enables computation directly
+on encrypted data on the server side, making it a promising approach for PPML.
+However, it introduces significant communication and computation overhead on
+the client side, making it impractical for edge devices. Hybrid homomorphic
+encryption (HHE) addresses this limitation by combining symmetric encryption
+(SE) with FHE to reduce the computational cost on the client side, and
+combining with an FHE-friendly SE can also lessen the processing overhead on
+the server side, making it a more balanced and efficient alternative. Our work
+proposes a hardware-accelerated HHE architecture built around a lightweight
+symmetric cipher optimized for FHE compatibility and implemented as a dedicated
+hardware accelerator. To the best of our knowledge, this is the first design to
+integrate an end-to-end HHE framework with hardware acceleration. Beyond this,
+we also present several microarchitectural optimizations to achieve higher
+performance and energy efficiency. The proposed work is integrated into a full
+PPML pipeline, enabling secure inference with significantly lower latency and
+power consumption than software implementations. Our contributions validate the
+feasibility of low-power, hardware- accelerated HHE for edge deployment and
+provide a hardware- software co-design methodology for building scalable,
+secure machine learning systems in resource-constrained environments.
+Experiments on a PYNQ-Z2 platform with the MNIST dataset show over a 50x
+reduction in client-side encryption latency and nearly a 2x gain in hardware
+throughput compared to existing FPGA-based HHE accelerators.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.20157v1">ADP-VRSGP: Decentralized Learning with Adaptive Differential Privacy via
+  Variance-Reduced Stochastic Gradient Push</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-10-23T03:14:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoming Wu, Teng Liu, Xin Wang, Ming Yang, Jiguo Yu</p>
+    <p><b>Summary:</b> Differential privacy is widely employed in decentralized learning to
+safeguard sensitive data by introducing noise into model updates. However,
+existing approaches that use fixed-variance noise often degrade model
+performance and reduce training efficiency. To address these limitations, we
+propose a novel approach called decentralized learning with adaptive
+differential privacy via variance-reduced stochastic gradient push (ADP-VRSGP).
+This method dynamically adjusts both the noise variance and the learning rate
+using a stepwise-decaying schedule, which accelerates training and enhances
+final model performance while providing node-level personalized privacy
+guarantees. To counteract the slowed convergence caused by large-variance noise
+in early iterations, we introduce a progressive gradient fusion strategy that
+leverages historical gradients. Furthermore, ADP-VRSGP incorporates
+decentralized push-sum and aggregation techniques, making it particularly
+suitable for time-varying communication topologies. Through rigorous
+theoretical analysis, we demonstrate that ADP-VRSGP achieves robust convergence
+with an appropriate learning rate, significantly improving training stability
+and speed. Experimental results validate that our method outperforms existing
+baselines across multiple scenarios, highlighting its efficacy in addressing
+the challenges of privacy-preserving decentralized learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.20007v1">zk-Agreements: A Privacy-Preserving Way to Establish Deterministic Trust
+  in Confidential Agreements</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
+  <p><b>Published on:</b> 2025-10-22T20:11:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> To-Wen Liu, Matthew Green</p>
+    <p><b>Summary:</b> Digital transactions currently exceed trillions of dollars annually, yet
+traditional paper-based agreements remain a bottleneck for automation,
+enforceability, and dispute resolution. Natural language contracts introduce
+ambiguity, require manual processing, and lack computational verifiability, all
+of which hinder efficient digital commerce. Computable legal contracts,
+expressed in machine-readable formats, offer a potential solution by enabling
+automated execution and verification. Blockchain-based smart contracts further
+strengthen enforceability and accelerate dispute resolution; however, current
+implementations risk exposing sensitive agreement terms on public ledgers,
+raising serious privacy and competitive intelligence concerns that limit
+enterprise adoption.
+  We introduce zk-agreements, a protocol designed to transition from
+paper-based trust to cryptographic trust while preserving confidentiality. Our
+design combines zero-knowledge proofs to protect private agreement terms,
+secure two-party computation to enable private compliance evaluation, and smart
+contracts to guarantee automated enforcement. Together, these components
+achieve both privacy preservation and computational enforceability, resolving
+the fundamental tension between transparency and confidentiality in
+blockchain-based agreements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.19979v1">SecureInfer: Heterogeneous TEE-GPU Architecture for Privacy-Critical
+  Tensors for Large Language Model Deployment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-10-22T19:17:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tushar Nayan, Ziqi Zhang, Ruimin Sun</p>
+    <p><b>Summary:</b> With the increasing deployment of Large Language Models (LLMs) on mobile and
+edge platforms, securing them against model extraction attacks has become a
+pressing concern. However, protecting model privacy without sacrificing the
+performance benefits of untrusted AI accelerators, such as GPUs, presents a
+challenging trade-off. In this paper, we initiate the study of high-performance
+execution on LLMs and present SecureInfer, a hybrid framework that leverages a
+heterogeneous Trusted Execution Environments (TEEs)-GPU architecture to isolate
+privacy-critical components while offloading compute-intensive operations to
+untrusted accelerators. Building upon an outsourcing scheme, SecureInfer adopts
+an information-theoretic and threat-informed partitioning strategy:
+security-sensitive components, including non-linear layers, projection of
+attention head, FNN transformations, and LoRA adapters, are executed inside an
+SGX enclave, while other linear operations (matrix multiplication) are
+performed on the GPU after encryption and are securely restored within the
+enclave. We implement a prototype of SecureInfer using the LLaMA-2 model and
+evaluate it across performance and security metrics. Our results show that
+SecureInfer offers strong security guarantees with reasonable performance,
+offering a practical solution for secure on-device model inference.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.19934v1">Mitigating Privacy-Utility Trade-off in Decentralized Federated Learning
+  via $f$-Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">   
+  <p><b>Published on:</b> 2025-10-22T18:01:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiang Li, Buxin Su, Chendi Wang, Qi Long, Weijie J. Su</p>
+    <p><b>Summary:</b> Differentially private (DP) decentralized Federated Learning (FL) allows
+local users to collaborate without sharing their data with a central server.
+However, accurately quantifying the privacy budget of private FL algorithms is
+challenging due to the co-existence of complex algorithmic components such as
+decentralized communication and local updates. This paper addresses privacy
+accounting for two decentralized FL algorithms within the $f$-differential
+privacy ($f$-DP) framework. We develop two new $f$-DP-based accounting methods
+tailored to decentralized settings: Pairwise Network $f$-DP (PN-$f$-DP), which
+quantifies privacy leakage between user pairs under random-walk communication,
+and Secret-based $f$-Local DP (Sec-$f$-LDP), which supports structured noise
+injection via shared secrets. By combining tools from $f$-DP theory and Markov
+chain concentration, our accounting framework captures privacy amplification
+arising from sparse communication, local iterations, and correlated noise.
+Experiments on synthetic and real datasets demonstrate that our methods yield
+consistently tighter $(\epsilon,\delta)$ bounds and improved utility compared
+to R\'enyi DP-based approaches, illustrating the benefits of $f$-DP in
+decentralized privacy accounting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.19537v1">Privacy-Preserving Spiking Neural Networks: A Deep Dive into Encryption
   Parameter Optimisation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -1257,7 +1483,7 @@ framework's effectiveness.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09114v1">On the Fairness of Privacy Protection: Measuring and Mitigating the
+  <h3><a href="http://arxiv.org/abs/2510.09114v2">On the Fairness of Privacy Protection: Measuring and Mitigating the
   Disparity of Group Privacy Risks for Differentially Private Machine Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-10-10T08:09:08Z</p>
@@ -2740,218 +2966,6 @@ overhead. We demonstrate this by filtering the general-purpose Databricks Dolly
 Llama 2(7B) achieves an F1-Score of 0.89. We also demonstrate a viable
 trade-off using the 3.8B Phi-3-mini model, validating Edge-FIT as a scalable
 framework for decentralized LLM deployment on home compute gateways.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23834v1">GPM: The Gaussian Pancake Mechanism for Planting Undetectable Backdoors
-  in Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-09-28T12:14:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haochen Sun, Xi He</p>
-    <p><b>Summary:</b> Differential privacy (DP) has become the gold standard for preserving
-individual privacy in data analysis. However, an implicit yet fundamental
-assumption underlying these rigorous privacy guarantees is the correct
-implementation and execution of DP mechanisms. Several incidents of unintended
-privacy loss have occurred due to numerical issues and inappropriate
-configurations of DP software, which have been successfully exploited in
-privacy attacks. To better understand the seriousness of defective DP software,
-we ask the following question: is it possible to elevate these passive defects
-into active privacy attacks while maintaining covertness?
-  To address this question, we present the Gaussian pancake mechanism (GPM), a
-novel mechanism that is computationally indistinguishable from the widely used
-Gaussian mechanism (GM), yet exhibits arbitrarily weaker statistical DP
-guarantees. This unprecedented separation enables a new class of backdoor
-attacks: by indistinguishably passing off as the authentic GM, GPM can covertly
-degrade statistical privacy. Unlike the unintentional privacy loss caused by
-GM's numerical issues, GPM is an adversarial yet undetectable backdoor attack
-against data privacy. We formally prove GPM's covertness, characterize its
-statistical leakage, and demonstrate a concrete distinguishing attack that can
-achieve near-perfect success rates under suitable parameter choices, both
-theoretically and empirically.
-  Our results underscore the importance of using transparent, open-source DP
-libraries and highlight the need for rigorous scrutiny and formal verification
-of DP implementations to prevent subtle, undetectable privacy compromises in
-real-world systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23827v1">Assessing Visual Privacy Risks in Multimodal AI: A Novel
-  Taxonomy-Grounded Evaluation of Vision-Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-09-28T12:04:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Efthymios Tsaprazlis, Tiantian Feng, Anil Ramakrishna, Rahul Gupta, Shrikanth Narayanan</p>
-    <p><b>Summary:</b> Artificial Intelligence have profoundly transformed the technological
-landscape in recent years. Large Language Models (LLMs) have demonstrated
-impressive abilities in reasoning, text comprehension, contextual pattern
-recognition, and integrating language with visual understanding. While these
-advances offer significant benefits, they also reveal critical limitations in
-the models' ability to grasp the notion of privacy. There is hence substantial
-interest in determining if and how these models can understand and enforce
-privacy principles, particularly given the lack of supporting resources to test
-such a task. In this work, we address these challenges by examining how legal
-frameworks can inform the capabilities of these emerging technologies. To this
-end, we introduce a comprehensive, multi-level Visual Privacy Taxonomy that
-captures a wide range of privacy issues, designed to be scalable and adaptable
-to existing and future research needs. Furthermore, we evaluate the
-capabilities of several state-of-the-art Vision-Language Models (VLMs),
-revealing significant inconsistencies in their understanding of contextual
-privacy. Our work contributes both a foundational taxonomy for future research
-and a critical benchmark of current model limitations, demonstrating the urgent
-need for more robust, privacy-aware AI systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23680v1">A First Look at Privacy Risks of Android Task-executable Voice Assistant
-  Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-09-28T06:47:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shidong Pan, Yikai Ge, Xiaoyu Sun</p>
-    <p><b>Summary:</b> With the development of foundation AI technologies, task-executable voice
-assistants (VAs) have become more popular, enhancing user convenience and
-expanding device functionality. Android task-executable VAs are applications
-that are capable of understanding complex tasks and performing corresponding
-operations. Given their prevalence and great autonomy, there is no existing
-work examine the privacy risks within the voice assistants from the
-task-execution pattern in a holistic manner. To fill this research gap, this
-paper presents a user-centric comprehensive empirical study on privacy risks in
-Android task-executable VA applications. We collect ten mainstream VAs as our
-research target and analyze their operational characteristics. We then
-cross-check their privacy declarations across six sources, including privacy
-labels, policies, and manifest files, and our findings reveal widespread
-inconsistencies. Moreover, we uncover three significant privacy threat models:
-(1) privacy misdisclosure in mega apps, where integrated mini apps such as
-Alexa skills are inadequately represented; (2) privilege escalation via
-inter-application interactions, which exploit Android's communication
-mechanisms to bypass user consent; and (3) abuse of Google system applications,
-enabling apps to evade the declaration of dangerous permissions. Our study
-contributes actionable recommendations for practitioners and underscores
-broader relevance of these privacy risks to emerging autonomous AI agents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.02357v1">Privacy in the Age of AI: A Taxonomy of Data Risks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2025-09-28T00:20:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Grace Billiris, Asif Gill, Madhushi Bandara</p>
-    <p><b>Summary:</b> Artificial Intelligence (AI) systems introduce unprecedented privacy
-challenges as they process increasingly sensitive data. Traditional privacy
-frameworks prove inadequate for AI technologies due to unique characteristics
-such as autonomous learning and black-box decision-making. This paper presents
-a taxonomy classifying AI privacy risks, synthesised from 45 studies identified
-through systematic review. We identify 19 key risks grouped under four
-categories: Dataset-Level, Model-Level, Infrastructure-Level, and Insider
-Threat Risks. Findings reveal a balanced distribution across these dimensions,
-with human error (9.45%) emerging as the most significant factor. This taxonomy
-challenges conventional security approaches that typically prioritise technical
-controls over human factors, highlighting gaps in holistic understanding. By
-bridging technical and behavioural dimensions of AI privacy, this paper
-contributes to advancing trustworthy AI development and provides a foundation
-for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.02356v2">Measuring Physical-World Privacy Awareness of Large Language Models: An
-  Evaluation Benchmark</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-27T23:39:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinjie Shen, Mufei Li, Pan Li</p>
-    <p><b>Summary:</b> The deployment of Large Language Models (LLMs) in embodied agents creates an
-urgent need to measure their privacy awareness in the physical world. Existing
-evaluation methods, however, are confined to natural language based scenarios.
-To bridge this gap, we introduce EAPrivacy, a comprehensive evaluation
-benchmark designed to quantify the physical-world privacy awareness of
-LLM-powered agents. EAPrivacy utilizes procedurally generated scenarios across
-four tiers to test an agent's ability to handle sensitive objects, adapt to
-changing environments, balance task execution with privacy constraints, and
-resolve conflicts with social norms. Our measurements reveal a critical deficit
-in current models. The top-performing model, Gemini 2.5 Pro, achieved only 59\%
-accuracy in scenarios involving changing physical environments. Furthermore,
-when a task was accompanied by a privacy request, models prioritized completion
-over the constraint in up to 86\% of cases. In high-stakes situations pitting
-privacy against critical social norms, leading models like GPT-4o and
-Claude-3.5-haiku disregarded the social norm over 15\% of the time. These
-findings, demonstrated by our benchmark, underscore a fundamental misalignment
-in LLMs regarding physically grounded privacy and establish the need for more
-robust, physically-aware alignment. Codes and datasets will be available at
-https://github.com/Graph-COM/EAPrivacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23525v1">Privy: Envisioning and Mitigating Privacy Risks for Consumer-facing AI
-  Product Concepts</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-09-27T23:08:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hao-Ping Lee, Yu-Ju Yang, Matthew Bilik, Isadora Krsek, Thomas Serban von Davier, Kyzyl Monteiro, Jason Lin, Shivani Agarwal, Jodi Forlizzi, Sauvik Das</p>
-    <p><b>Summary:</b> AI creates and exacerbates privacy risks, yet practitioners lack effective
-resources to identify and mitigate these risks. We present Privy, a tool that
-guides practitioners through structured privacy impact assessments to: (i)
-identify relevant risks in novel AI product concepts, and (ii) propose
-appropriate mitigations. Privy was shaped by a formative study with 11
-practitioners, which informed two versions -- one LLM-powered, the other
-template-based. We evaluated these two versions of Privy through a
-between-subjects, controlled study with 24 separate practitioners, whose
-assessments were reviewed by 13 independent privacy experts. Results show that
-Privy helps practitioners produce privacy assessments that experts deemed high
-quality: practitioners identified relevant risks and proposed appropriate
-mitigation strategies. These effects were augmented in the LLM-powered version.
-Practitioners themselves rated Privy as being useful and usable, and their
-feedback illustrates how it helps overcome long-standing awareness, motivation,
-and ability barriers in privacy work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2509.23459v2">MaskSQL: Safeguarding Privacy for LLM-Based Text-to-SQL via Abstraction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-09-27T19:07:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sepideh Abedini, Shubhankar Mohapatra, D. B. Emerson, Masoumeh Shafieinejad, Jesse C. Cresswell, Xi He</p>
-    <p><b>Summary:</b> Large language models (LLMs) have shown promising performance on tasks that
-require reasoning, such as text-to-SQL, code generation, and debugging.
-However, regulatory frameworks with strict privacy requirements constrain their
-integration into sensitive systems. State-of-the-art LLMs are also proprietary,
-costly, and resource-intensive, making local deployment impractical.
-Consequently, utilizing such LLMs often requires sharing data with third-party
-providers, raising privacy concerns and risking noncompliance with regulations.
-Although fine-tuned small language models (SLMs) can outperform LLMs on certain
-tasks and be deployed locally to mitigate privacy concerns, they underperform
-on more complex tasks such as text-to-SQL translation. In this work, we
-introduce MaskSQL, a text-to-SQL framework that utilizes abstraction as a
-privacy protection mechanism to mask sensitive information in LLM prompts.
-Unlike redaction, which removes content entirely, or generalization, which
-broadens tokens, abstraction retains essential information while discarding
-unnecessary details, striking an effective privacy-utility balance for the
-text-to-SQL task. Moreover, by providing mechanisms to control the
-privacy-utility tradeoff, MaskSQL facilitates adoption across a broader range
-of use cases. Our experimental results show that MaskSQL outperforms leading
-SLM-based text-to-SQL models and achieves performance approaching
-state-of-the-art LLM-based models, while preserving privacy.</p>
   </details>
 </div>
 
