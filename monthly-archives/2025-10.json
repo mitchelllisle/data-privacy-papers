@@ -2379,5 +2379,76 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.21668v1",
+    "title" : "Privacy Guarantee for Nash Equilibrium Computation of Aggregative Games\n  Based on Pointwise Maximal Leakage",
+    "summary" : "Privacy preservation has served as a key metric in designing Nash equilibrium\n(NE) computation algorithms. Although differential privacy (DP) has been widely\nemployed for privacy guarantees, it does not exploit prior distributional\nknowledge of datasets and is ineffective in assessing information leakage for\ncorrelated datasets. To address these concerns, we establish a pointwise\nmaximal leakage (PML) framework when computing NE in aggregative games. By\nincorporating prior knowledge of players' cost function datasets, we obtain a\nprecise and computable upper bound of privacy leakage with PML guarantees. In\nthe entire view, we show PML refines DP by offering a tighter privacy\nguarantee, enabling flexibility in designing NE computation. Also, in the\nindividual view, we reveal that the lower bound of PML can exceed the upper\nbound of DP by constructing specific correlated datasets. The results emphasize\nthat PML is a more proper privacy measure than DP since the latter fails to\nadequately capture privacy leakage in correlated datasets. Moreover, we conduct\nexperiments with adversaries who attempt to infer players' private information\nto illustrate the effectiveness of our framework.",
+    "updated" : "2025-10-24T17:24:24Z",
+    "published" : "2025-10-24T17:24:24Z",
+    "authors" : [
+      {
+        "name" : "Zhaoyang Cheng"
+      },
+      {
+        "name" : "Guanpu Chen"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.21601v1",
+    "title" : "PTMF: A Privacy Threat Modeling Framework for IoT with Expert-Driven\n  Threat Propagation Analysis",
+    "summary" : "Previous studies on PTA have focused on analyzing privacy threats based on\nthe potential areas of occurrence and their likelihood of occurrence. However,\nan in-depth understanding of the threat actors involved, their actions, and the\nintentions that result in privacy threats is essential. In this paper, we\npresent a novel Privacy Threat Model Framework (PTMF) that analyzes privacy\nthreats through different phases.\n  The PTMF development is motivated through the selected tactics from the MITRE\nATT\\&CK framework and techniques from the LINDDUN privacy threat model, making\nPTMF a privacy-centered framework. The proposed PTMF can be employed in various\nways, including analyzing the activities of threat actors during privacy\nthreats and assessing privacy risks in IoT systems, among others. In this\npaper, we conducted a user study on 12 privacy threats associated with IoT by\ndeveloping a questionnaire based on PTMF and recruited experts from both\nindustry and academia in the fields of security and privacy to gather their\nopinions. The collected data were analyzed and mapped to identify the threat\nactors involved in the identification of IoT users (IU) and the remaining 11\nprivacy threats. Our observation revealed the top three threat actors and the\ncritical paths they used during the IU privacy threat, as well as the remaining\n11 privacy threats. This study could provide a solid foundation for\nunderstanding how and where privacy measures can be proactively and effectively\ndeployed in IoT systems to mitigate privacy threats based on the activities and\nintentions of threat actors within these systems.",
+    "updated" : "2025-10-24T16:06:04Z",
+    "published" : "2025-10-24T16:06:04Z",
+    "authors" : [
+      {
+        "name" : "Emmanuel Dare Alalade"
+      },
+      {
+        "name" : "Ashraf Matrawy"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.21591v1",
+    "title" : "Privacy by Design: Aligning GDPR and Software Engineering Specifications\n  with a Requirements Engineering Approach",
+    "summary" : "Context: Consistent requirements and system specifications are essential for\nthe compliance of software systems towards the General Data Protection\nRegulation (GDPR). Both artefacts need to be grounded in the original text and\nconjointly assure the achievement of privacy by design (PbD). Objectives: There\nis little understanding of the perspectives of practitioners on specification\nobjectives and goals to address PbD. Existing approaches do not account for the\ncomplex intersection between problem and solution space expressed in GDPR. In\nthis study we explore the demand for conjoint requirements and system\nspecification for PbD and suggest an approach to address this demand. Methods:\nWe reviewed secondary and related primary studies and conducted interviews with\npractitioners to (1) investigate the state-of-practice and (2) understand the\nunderlying specification objectives and goals (e.g., traceability). We\ndeveloped and evaluated an approach for requirements and systems specification\nfor PbD, and evaluated it against the specification objectives. Results: The\nrelationship between problem and solution space, as expressed in GDPR, is\ninstrumental in supporting PbD. We demonstrate how our approach, based on the\nmodeling GDPR content with original legal concepts, contributes to\nspecification objectives of capturing legal knowledge, supporting specification\ntransparency, and traceability. Conclusion: GDPR demands need to be addressed\nthroughout different levels of abstraction in the engineering lifecycle to\nachieve PbD. Legal knowledge specified in the GDPR text should be captured in\nspecifications to address the demands of different stakeholders and ensure\ncompliance. While our results confirm the suitability of our approach to\naddress practical needs, we also revealed specific needs for the future\neffective operationalization of the approach.",
+    "updated" : "2025-10-24T15:59:34Z",
+    "published" : "2025-10-24T15:59:34Z",
+    "authors" : [
+      {
+        "name" : "Oleksandr Kosenkov"
+      },
+      {
+        "name" : "Ehsan Zabardast"
+      },
+      {
+        "name" : "Davide Fucci"
+      },
+      {
+        "name" : "Daniel Mendez"
+      },
+      {
+        "name" : "Michael Unterkalmsteiner"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
   }
 ]
