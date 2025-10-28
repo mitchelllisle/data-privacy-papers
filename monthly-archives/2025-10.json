@@ -2450,5 +2450,207 @@
     "categories" : [
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.23463v1",
+    "title" : "Differential Privacy as a Perk: Federated Learning over Multiple-Access\n  Fading Channels with a Multi-Antenna Base Station",
+    "summary" : "Federated Learning (FL) is a distributed learning paradigm that preserves\nprivacy by eliminating the need to exchange raw data during training. In its\nprototypical edge instantiation with underlying wireless transmissions enabled\nby analog over-the-air computing (AirComp), referred to as \\emph{over-the-air\nFL (AirFL)}, the inherent channel noise plays a unique role of \\emph{frenemy}\nin the sense that it degrades training due to noisy global aggregation while\nproviding a natural source of randomness for privacy-preserving mechanisms,\nformally quantified by \\emph{differential privacy (DP)}. It remains,\nnevertheless, challenging to effectively harness such channel impairments, as\nprior arts, under assumptions of either simple channel models or restricted\ntypes of loss functions, mostly considering (local) DP enhancement with a\nsingle-round or non-convergent bound on privacy loss. In this paper, we study\nAirFL over multiple-access fading channels with a multi-antenna base station\n(BS) subject to user-level DP requirements. Despite a recent study, which\nclaimed in similar settings that artificial noise (AN) must be injected to\nensure DP in general, we demonstrate, on the contrary, that DP can be gained as\na \\emph{perk} even \\emph{without} employing any AN. Specifically, we derive a\nnovel bound on DP that converges under general bounded-domain assumptions on\nmodel parameters, along with a convergence bound with general smooth and\nnon-convex loss functions. Next, we optimize over receive beamforming and power\nallocations to characterize the optimal convergence-privacy trade-offs, which\nalso reveal explicit conditions in which DP is achievable without compromising\ntraining. Finally, our theoretical findings are validated by extensive\nnumerical results.",
+    "updated" : "2025-10-27T16:01:15Z",
+    "published" : "2025-10-27T16:01:15Z",
+    "authors" : [
+      {
+        "name" : "Hao Liang"
+      },
+      {
+        "name" : "Haifeng Wen"
+      },
+      {
+        "name" : "Kaishun Wu"
+      },
+      {
+        "name" : "Hong Xing"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.23427v1",
+    "title" : "PrivacyGuard: A Modular Framework for Privacy Auditing in Machine\n  Learning",
+    "summary" : "The increasing deployment of Machine Learning (ML) models in sensitive\ndomains motivates the need for robust, practical privacy assessment tools.\nPrivacyGuard is a comprehensive tool for empirical differential privacy (DP)\nanalysis, designed to evaluate privacy risks in ML models through\nstate-of-the-art inference attacks and advanced privacy measurement techniques.\nTo this end, PrivacyGuard implements a diverse suite of privacy attack --\nincluding membership inference , extraction, and reconstruction attacks --\nenabling both off-the-shelf and highly configurable privacy analyses. Its\nmodular architecture allows for the seamless integration of new attacks, and\nprivacy metrics, supporting rapid adaptation to emerging research advances. We\nmake PrivacyGuard available at\nhttps://github.com/facebookresearch/PrivacyGuard.",
+    "updated" : "2025-10-27T15:33:01Z",
+    "published" : "2025-10-27T15:33:01Z",
+    "authors" : [
+      {
+        "name" : "Luca Melis"
+      },
+      {
+        "name" : "Matthew Grange"
+      },
+      {
+        "name" : "Iden Kalemaj"
+      },
+      {
+        "name" : "Karan Chadha"
+      },
+      {
+        "name" : "Shengyuan Hu"
+      },
+      {
+        "name" : "Elena Kashtelyan"
+      },
+      {
+        "name" : "Will Bullock"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.23274v1",
+    "title" : "Privacy-Preserving Semantic Communication over Wiretap Channels with\n  Learnable Differential Privacy",
+    "summary" : "While semantic communication (SemCom) improves transmission efficiency by\nfocusing on task-relevant information, it also raises critical privacy\nconcerns. Many existing secure SemCom approaches rely on restrictive or\nimpractical assumptions, such as favorable channel conditions for the\nlegitimate user or prior knowledge of the eavesdropper's model. To address\nthese limitations, this paper proposes a novel secure SemCom framework for\nimage transmission over wiretap channels, leveraging differential privacy (DP)\nto provide approximate privacy guarantees. Specifically, our approach first\nextracts disentangled semantic representations from source images using\ngenerative adversarial network (GAN) inversion method, and then selectively\nperturbs private semantic representations with approximate DP noise. Distinct\nfrom conventional DP-based protection methods, we introduce DP noise with\nlearnable pattern, instead of traditional white Gaussian or Laplace noise,\nachieved through adversarial training of neural networks (NNs). This design\nmitigates the inherent non-invertibility of DP while effectively protecting\nprivate information. Moreover, it enables explicitly controllable security\nlevels by adjusting the privacy budget according to specific security\nrequirements, which is not achieved in most existing secure SemCom approaches.\nExperimental results demonstrate that, compared with the previous DP-based\nmethod and direct transmission, the proposed method significantly degrades the\nreconstruction quality for the eavesdropper, while introducing only slight\ndegradation in task performance. Under comparable security levels, our approach\nachieves an LPIPS advantage of 0.06-0.29 and an FPPSR advantage of 0.10-0.86\nfor the legitimate user compared with the previous DP-based method.",
+    "updated" : "2025-10-27T12:34:20Z",
+    "published" : "2025-10-27T12:34:20Z",
+    "authors" : [
+      {
+        "name" : "Weixuan Chen"
+      },
+      {
+        "name" : "Qianqian Yang"
+      },
+      {
+        "name" : "Shuo Shao"
+      },
+      {
+        "name" : "Shunpu Tang"
+      },
+      {
+        "name" : "Zhiguo Shi"
+      },
+      {
+        "name" : "Shui Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.23024v1",
+    "title" : "A Multi-Store Privacy Measurement of Virtual Reality App Ecosystem",
+    "summary" : "Virtual Reality (VR) has gained increasing traction among various domains in\nrecent years, with major companies such as Meta, Pico, and Microsoft launching\ntheir application stores to support third-party developers in releasing their\napplications (or simply apps). These apps offer rich functionality but\ninherently collect privacy-sensitive data, such as user biometrics, behaviors,\nand the surrounding environment. Nevertheless, there is still a lack of\ndomain-specific regulations to govern the data handling of VR apps, resulting\nin significant variations in their privacy practices among app stores.\n  In this work, we present the first comprehensive multi-store study of privacy\npractices in the current VR app ecosystem, covering a large-scale dataset\ninvolving 6,565 apps collected from five major app stores. We assess both\ndeclarative and behavioral privacy practices of VR apps, using a multi-faceted\napproach based on natural language processing, reverse engineering, and static\nanalysis. Our assessment reveals significant privacy compliance issues across\nall stores, underscoring the premature status of privacy protection in this\nrapidly growing ecosystem. For instance, one third of apps fail to declare\ntheir use of sensitive data, and 21.5\\% of apps neglect to provide valid\nprivacy policies. Our work sheds light on the status quo of privacy protection\nwithin the VR app ecosystem for the first time. Our findings should raise an\nalert to VR app developers and users, and encourage store operators to\nimplement stringent regulations on privacy compliance among VR apps.",
+    "updated" : "2025-10-27T05:42:29Z",
+    "published" : "2025-10-27T05:42:29Z",
+    "authors" : [
+      {
+        "name" : "Chuan Yan"
+      },
+      {
+        "name" : "Zeng Li"
+      },
+      {
+        "name" : "Kunlin Cai"
+      },
+      {
+        "name" : "Liuhuo Wan"
+      },
+      {
+        "name" : "Ruomai Ren"
+      },
+      {
+        "name" : "Yiran Shen"
+      },
+      {
+        "name" : "Guangdong Bai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.22387v1",
+    "title" : "Privacy-Aware Federated nnU-Net for ECG Page Digitization",
+    "summary" : "Deep neural networks can convert ECG page images into analyzable waveforms,\nyet centralized training often conflicts with cross-institutional privacy and\ndeployment constraints. A cross-silo federated digitization framework is\npresented that trains a full-model nnU-Net segmentation backbone without\nsharing images and aggregates updates across sites under realistic non-IID\nheterogeneity (layout, grid style, scanner profile, noise).\n  The protocol integrates three standard server-side aggregators--FedAvg,\nFedProx, and FedAdam--and couples secure aggregation with central, user-level\ndifferential privacy to align utility with formal guarantees. Key features\ninclude: (i) end-to-end full-model training and synchronization across clients;\n(ii) secure aggregation so the server only observes a clipped, weighted sum\nonce a participation threshold is met; (iii) central Gaussian DP with Renyi\naccounting applied post-aggregation for auditable user-level privacy; and (iv)\na calibration-aware digitization pipeline comprising page normalization, trace\nsegmentation, grid-leakage suppression, and vectorization to twelve-lead\nsignals.\n  Experiments on ECG pages rendered from PTB-XL show consistently faster\nconvergence and higher late-round plateaus with adaptive server updates\n(FedAdam) relative to FedAvg and FedProx, while approaching centralized\nperformance. The privacy mechanism maintains competitive accuracy while\npreventing exposure of raw images or per-client updates, yielding deployable,\nauditable guarantees suitable for multi-institution settings.",
+    "updated" : "2025-10-25T18:10:05Z",
+    "published" : "2025-10-25T18:10:05Z",
+    "authors" : [
+      {
+        "name" : "Nader Nemati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.21946v1",
+    "title" : "$δ$-STEAL: LLM Stealing Attack with Local Differential Privacy",
+    "summary" : "Large language models (LLMs) demonstrate remarkable capabilities across\nvarious tasks. However, their deployment introduces significant risks related\nto intellectual property. In this context, we focus on model stealing attacks,\nwhere adversaries replicate the behaviors of these models to steal services.\nThese attacks are highly relevant to proprietary LLMs and pose serious threats\nto revenue and financial stability. To mitigate these risks, the watermarking\nsolution embeds imperceptible patterns in LLM outputs, enabling model\ntraceability and intellectual property verification. In this paper, we study\nthe vulnerability of LLM service providers by introducing $\\delta$-STEAL, a\nnovel model stealing attack that bypasses the service provider's watermark\ndetectors while preserving the adversary's model utility. $\\delta$-STEAL\ninjects noise into the token embeddings of the adversary's model during\nfine-tuning in a way that satisfies local differential privacy (LDP)\nguarantees. The adversary queries the service provider's model to collect\noutputs and form input-output training pairs. By applying LDP-preserving noise\nto these pairs, $\\delta$-STEAL obfuscates watermark signals, making it\ndifficult for the service provider to determine whether its outputs were used,\nthereby preventing claims of model theft. Our experiments show that\n$\\delta$-STEAL with lightweight modifications achieves attack success rates of\nup to $96.95\\%$ without significantly compromising the adversary's model\nutility. The noise scale in LDP controls the trade-off between attack\neffectiveness and model utility. This poses a significant risk, as even robust\nwatermarks can be bypassed, allowing adversaries to deceive watermark detectors\nand undermine current intellectual property protection methods.",
+    "updated" : "2025-10-24T18:19:38Z",
+    "published" : "2025-10-24T18:19:38Z",
+    "authors" : [
+      {
+        "name" : "Kieu Dang"
+      },
+      {
+        "name" : "Phung Lai"
+      },
+      {
+        "name" : "NhatHai Phan"
+      },
+      {
+        "name" : "Yelong Shen"
+      },
+      {
+        "name" : "Ruoming Jin"
+      },
+      {
+        "name" : "Abdallah Khreishah"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "68T07, 68T50",
+      "I.2.6; I.2.7; K.6.5"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.21858v1",
+    "title" : "Privacy-preserving Decision-focused Learning for Multi-energy Systems",
+    "summary" : "Decision-making for multi-energy system (MES) dispatch depends on accurate\nload forecasting. Traditionally, load forecasting and decision-making for MES\nare implemented separately. Forecasting models are typically trained to\nminimize forecasting errors, overlooking their impact on downstream\ndecision-making. To address this, decision-focused learning (DFL) has been\nstudied to minimize decision-making costs instead. However, practical adoption\nof DFL in MES faces significant challenges: the process requires sharing\nsensitive load data and model parameters across multiple sectors, raising\nserious privacy issues. To this end, we propose a privacy-preserving DFL\nframework tailored for MES. Our approach introduces information masking to\nsafeguard private data while enabling recovery of decision variables and\ngradients required for model training. To further enhance security for DFL, we\ndesign a safety protocol combining matrix decomposition and homomorphic\nencryption, effectively preventing collusion and unauthorized data access.\nAdditionally, we developed a privacy-preserving load pattern recognition\nalgorithm, enabling the training of specialized DFL models for heterogeneous\nload patterns. Theoretical analysis and comprehensive case studies, including\nreal-world MES data, demonstrate that our framework not only protects privacy\nbut also consistently achieves lower average daily dispatch costs compared to\nexisting methods.",
+    "updated" : "2025-10-23T04:20:50Z",
+    "published" : "2025-10-23T04:20:50Z",
+    "authors" : [
+      {
+        "name" : "Yangze Zhou"
+      },
+      {
+        "name" : "Ruiyang Yao"
+      },
+      {
+        "name" : "Dalin Qin"
+      },
+      {
+        "name" : "Yixiong Jia"
+      },
+      {
+        "name" : "Yi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
