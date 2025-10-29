@@ -2,6 +2,130 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.24498v1">Design and Optimization of Cloud Native Homomorphic Encryption Workflows
+  for Privacy-Preserving ML Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-10-28T15:13:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tejaswini Bollikonda</p>
+    <p><b>Summary:</b> As machine learning (ML) models become increasingly deployed through cloud
+infrastructures, the confidentiality of user data during inference poses a
+significant security challenge. Homomorphic Encryption (HE) has emerged as a
+compelling cryptographic technique that enables computation on encrypted data,
+allowing predictions to be generated without decrypting sensitive inputs.
+However, the integration of HE within large scale cloud native pipelines
+remains constrained by high computational overhead, orchestration complexity,
+and model compatibility issues.
+  This paper presents a systematic framework for the design and optimization of
+cloud native homomorphic encryption workflows that support privacy-preserving
+ML inference. The proposed architecture integrates containerized HE modules
+with Kubernetes-based orchestration, enabling elastic scaling and parallel
+encrypted computation across distributed environments. Furthermore,
+optimization strategies including ciphertext packing, polynomial modulus
+adjustment, and operator fusion are employed to minimize latency and resource
+consumption while preserving cryptographic integrity. Experimental results
+demonstrate that the proposed system achieves up to 3.2times inference
+acceleration and 40% reduction in memory utilization compared to conventional
+HE pipelines. These findings illustrate a practical pathway for deploying
+secure ML-as-a-Service (MLaaS) systems that guarantee data confidentiality
+under zero-trust cloud conditions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.24233v1">PRIVET: Privacy Metric Based on Extreme Value Theory</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-28T09:42:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Antoine Szatkownik, Aurélien Decelle, Beatriz Seoane, Nicolas Bereux, Léo Planche, Guillaume Charpiat, Burak Yelmen, Flora Jay, Cyril Furtlehner</p>
+    <p><b>Summary:</b> Deep generative models are often trained on sensitive data, such as genetic
+sequences, health data, or more broadly, any copyrighted, licensed or protected
+content. This raises critical concerns around privacy-preserving synthetic
+data, and more specifically around privacy leakage, an issue closely tied to
+overfitting. Existing methods almost exclusively rely on global criteria to
+estimate the risk of privacy failure associated to a model, offering only
+quantitative non interpretable insights. The absence of rigorous evaluation
+methods for data privacy at the sample-level may hinder the practical
+deployment of synthetic data in real-world applications. Using extreme value
+statistics on nearest-neighbor distances, we propose PRIVET, a generic
+sample-based, modality-agnostic algorithm that assigns an individual privacy
+leak score to each synthetic sample. We empirically demonstrate that PRIVET
+reliably detects instances of memorization and privacy leakage across diverse
+data modalities, including settings with very high dimensionality, limited
+sample sizes such as genetic data and even under underfitting regimes. We
+compare our method to existing approaches under controlled settings and show
+its advantage in providing both dataset level and sample level assessments
+through qualitative and quantitative outputs. Additionally, our analysis
+reveals limitations in existing computer vision embeddings to yield
+perceptually meaningful distances when identifying near-duplicate samples.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.24072v1">Covert Surveillance in Smart Devices: A SCOUR Framework Analysis of
+  Youth Privacy Implications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-10-28T05:10:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Austin Shouli, Yulia Bobkova, Ajay Kumar Shrestha</p>
+    <p><b>Summary:</b> This paper investigates how smart devices covertly capture private
+conversations and discusses in more in-depth the implications of this for youth
+privacy. Using a structured review guided by the PRISMA methodology, the
+analysis focuses on privacy concerns, data capture methods, data storage and
+sharing practices, and proposed technical mitigations. To structure and
+synthesize findings, we introduce the SCOUR framework, encompassing
+Surveillance mechanisms, Consent and awareness, Operational data flow, Usage
+and exploitation, and Regulatory and technical safeguards. Findings reveal that
+smart devices have been covertly capturing personal data, especially with smart
+toys and voice-activated smart gadgets built for youth. These issues are
+worsened by unclear data collection practices and insufficient transparency in
+smart device applications. Balancing privacy and utility in smart devices is
+crucial, as youth are becoming more aware of privacy breaches and value their
+personal data more. Strategies to improve regulatory and technical safeguards
+are also provided. The review identifies research gaps and suggests future
+directions. The limitations of this literature review are also explained. The
+findings have significant implications for policy development and the
+transparency of data collection for smart devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.23931v1">Differential Privacy: Gradient Leakage Attacks in Federated Learning
+  Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
+  <p><b>Published on:</b> 2025-10-27T23:33:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Miguel Fernandez-de-Retana, Unai Zulaika, Rubén Sánchez-Corcuera, Aitor Almeida</p>
+    <p><b>Summary:</b> Federated Learning (FL) allows for the training of Machine Learning models in
+a collaborative manner without the need to share sensitive data. However, it
+remains vulnerable to Gradient Leakage Attacks (GLAs), which can reveal private
+information from the shared model updates. In this work, we investigate the
+effectiveness of Differential Privacy (DP) mechanisms - specifically, DP-SGD
+and a variant based on explicit regularization (PDP-SGD) - as defenses against
+GLAs. To this end, we evaluate the performance of several computer vision
+models trained under varying privacy levels on a simple classification task,
+and then analyze the quality of private data reconstructions obtained from the
+intercepted gradients in a simulated FL environment. Our results demonstrate
+that DP-SGD significantly mitigates the risk of gradient leakage attacks,
+albeit with a moderate trade-off in model utility. In contrast, PDP-SGD
+maintains strong classification performance but proves ineffective as a
+practical defense against reconstruction attacks. These findings highlight the
+importance of empirically evaluating privacy mechanisms beyond their
+theoretical guarantees, particularly in distributed learning scenarios where
+information leakage may represent an unassumable critical threat to data
+security and privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.23463v1">Differential Privacy as a Perk: Federated Learning over Multiple-Access
   Fading Channels with a Multi-Antenna Base Station</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
@@ -2352,7 +2476,7 @@ entire feasible set through PSI.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.04527v1">Quantum capacity amplification via privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2510.04527v2">Quantum capacity amplification via privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">   <img alt="Category Badge" src="https://img.shields.io/badge/Mathematical Physics-F9C80E">
   <p><b>Published on:</b> 2025-10-06T06:35:19Z</p>
   <details>
@@ -2879,125 +3003,6 @@ Centralized approaches were 0.8164, 0.7664, and 0.7997, respectively. Accuracy
 stayed high at 0.8330 even with differential privacy. A scalable and
 privacy-sensitive biometric system for secure and effective recognition in
 dispersed environments is presented in this work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.00909v1">"We are not Future-ready": Understanding AI Privacy Risks and Existing
-  Mitigation Strategies from the Perspective of AI Developers in Europe</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-10-01T13:51:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexandra Klymenko, Stephen Meisenbacher, Patrick Gage Kelley, Sai Teja Peddinti, Kurt Thomas, Florian Matthes</p>
-    <p><b>Summary:</b> The proliferation of AI has sparked privacy concerns related to training
-data, model interfaces, downstream applications, and more. We interviewed 25 AI
-developers based in Europe to understand which privacy threats they believe
-pose the greatest risk to users, developers, and businesses and what protective
-strategies, if any, would help to mitigate them. We find that there is little
-consensus among AI developers on the relative ranking of privacy risks. These
-differences stem from salient reasoning patterns that often relate to human
-rather than purely technical factors. Furthermore, while AI developers are
-aware of proposed mitigation strategies for addressing these risks, they
-reported minimal real-world adoption. Our findings highlight both gaps and
-opportunities for empowering AI developers to better address privacy risks in
-AI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.00478v2">Vicinity-Guided Discriminative Latent Diffusion for Privacy-Preserving
-  Domain Adaptation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-01T03:58:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jing Wang, Wonho Bae, Jiahong Chen, Wenxu Wang, Junhyug Noh</p>
-    <p><b>Summary:</b> Recent work on latent diffusion models (LDMs) has focused almost exclusively
-on generative tasks, leaving their potential for discriminative transfer
-largely unexplored. We introduce Discriminative Vicinity Diffusion (DVD), a
-novel LDM-based framework for a more practical variant of source-free domain
-adaptation (SFDA): the source provider may share not only a pre-trained
-classifier but also an auxiliary latent diffusion module, trained once on the
-source data and never exposing raw source samples. DVD encodes each source
-feature's label information into its latent vicinity by fitting a Gaussian
-prior over its k-nearest neighbors and training the diffusion network to drift
-noisy samples back to label-consistent representations. During adaptation, we
-sample from each target feature's latent vicinity, apply the frozen diffusion
-module to generate source-like cues, and use a simple InfoNCE loss to align the
-target encoder to these cues, explicitly transferring decision boundaries
-without source access. Across standard SFDA benchmarks, DVD outperforms
-state-of-the-art methods. We further show that the same latent diffusion module
-enhances the source classifier's accuracy on in-domain data and boosts
-performance in supervised classification and domain generalization experiments.
-DVD thus reinterprets LDMs as practical, privacy-preserving bridges for
-explicit knowledge transfer, addressing a core challenge in source-free domain
-adaptation that prior methods have yet to solve.</p>
-  </details>
-</div>
-
-
-
-<h2>2025-09</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.00350v1">Security and Privacy Analysis of Tile's Location Tracking Protocol</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-09-30T23:25:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Akshaya Kumar, Anna Raymaker, Michael Specter</p>
-    <p><b>Summary:</b> We conduct the first comprehensive security analysis of Tile, the second most
-popular crowd-sourced location-tracking service behind Apple's AirTags. We
-identify several exploitable vulnerabilities and design flaws, disproving many
-of the platform's claimed security and privacy guarantees: Tile's servers can
-persistently learn the location of all users and tags, unprivileged adversaries
-can track users through Bluetooth advertisements emitted by Tile's devices, and
-Tile's anti-theft mode is easily subverted.
-  Despite its wide deployment -- millions of users, devices, and purpose-built
-hardware tags -- Tile provides no formal description of its protocol or threat
-model. Worse, Tile intentionally weakens its antistalking features to support
-an antitheft use-case and relies on a novel "accountability" mechanism to
-punish those abusing the system to stalk victims.
-  We examine Tile's accountability mechanism, a unique feature of independent
-interest; no other provider attempts to guarantee accountability. While an
-ideal accountability mechanism may disincentivize abuse in crowd-sourced
-location tracking protocols, we show that Tile's implementation is subvertible
-and introduces new exploitable vulnerabilities. We conclude with a discussion
-on the need for new, formal definitions of accountability in this setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.00165v1">Privacy-Preserving Learning-Augmented Data Structures</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-09-30T18:37:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Prabhav Goyal, Vinesh Sridhar, Wilson Zheng</p>
-    <p><b>Summary:</b> Learning-augmented data structures use predicted frequency estimates to
-retrieve frequently occurring database elements faster than standard data
-structures. Recent work has developed data structures that optimally exploit
-these frequency estimates while maintaining robustness to adversarial
-prediction errors. However, the privacy and security implications of this
-setting remain largely unexplored.
-  In the event of a security breach, data structures should reveal minimal
-information beyond their current contents. This is even more crucial for
-learning-augmented data structures, whose layout adapts to the data. A data
-structure is history independent if its memory representation reveals no
-information about past operations except what is inferred from its current
-contents. In this work, we take the first step towards privacy and security
-guarantees in this setting by proposing the first learning-augmented data
-structure that is strongly history independent, robust, and supports dynamic
-updates.
-  To achieve this, we introduce two techniques: thresholding, which
-automatically makes any learning-augmented data structure robust, and pairing,
-a simple technique that provides strong history independence in the dynamic
-setting. Our experimental results demonstrate a tradeoff between security and
-efficiency but are still competitive with the state of the art.</p>
   </details>
 </div>
 
