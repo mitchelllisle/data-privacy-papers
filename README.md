@@ -2,6 +2,99 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.25670v1">Spectral Perturbation Bounds for Low-Rank Approximation with
+  Applications to Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Spectral Theory-D91E36">
+  <p><b>Published on:</b> 2025-10-29T16:36:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Phuc Tran, Nisheeth K. Vishnoi, Van H. Vu</p>
+    <p><b>Summary:</b> A central challenge in machine learning is to understand how noise or
+measurement errors affect low-rank approximations, particularly in the spectral
+norm. This question is especially important in differentially private low-rank
+approximation, where one aims to preserve the top-$p$ structure of a
+data-derived matrix while ensuring privacy. Prior work often analyzes Frobenius
+norm error or changes in reconstruction quality, but these metrics can over- or
+under-estimate true subspace distortion. The spectral norm, by contrast,
+captures worst-case directional error and provides the strongest utility
+guarantees. We establish new high-probability spectral-norm perturbation bounds
+for symmetric matrices that refine the classical Eckart--Young--Mirsky theorem
+and explicitly capture interactions between a matrix $A \in \mathbb{R}^{n
+\times n}$ and an arbitrary symmetric perturbation $E$. Under mild eigengap and
+norm conditions, our bounds yield sharp estimates for $\|(A + E)_p - A_p\|$,
+where $A_p$ is the best rank-$p$ approximation of $A$, with improvements of up
+to a factor of $\sqrt{n}$. As an application, we derive improved utility
+guarantees for differentially private PCA, resolving an open problem in the
+literature. Our analysis relies on a novel contour bootstrapping method from
+complex analysis and extends it to a broad class of spectral functionals,
+including polynomials and matrix exponentials. Empirical results on real-world
+datasets confirm that our bounds closely track the actual spectral error under
+diverse perturbation regimes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.25477v1">A Study on Privacy-Preserving Scholarship Evaluation Based on
+  Decentralized Identity and Zero-Knowledge Proofs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-29T12:56:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yi Chen, Bin Chen, Peichang Zhang, Da Che</p>
+    <p><b>Summary:</b> Traditional centralized scholarship evaluation processes typically require
+students to submit detailed academic records and qualification information,
+which exposes them to risks of data leakage and misuse, making it difficult to
+simultaneously ensure privacy protection and transparent auditability. To
+address these challenges, this paper proposes a scholarship evaluation system
+based on Decentralized Identity (DID) and Zero-Knowledge Proofs (ZKP). The
+system aggregates multidimensional ZKPs off-chain, and smart contracts verify
+compliance with evaluation criteria without revealing raw scores or
+computational details. Experimental results demonstrate that the proposed
+solution not only automates the evaluation efficiently but also maximally
+preserves student privacy and data integrity, offering a practical and
+trustworthy technical paradigm for higher education scholarship programs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.25277v1">A Privacy-Preserving Ecosystem for Developing Machine Learning
+  Algorithms Using Patient Data: Insights from the TUM.ai Makeathon</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-10-29T08:37:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Simon Süwer, Mai Khanh Mai, Christoph Klein, Nicola Götzenberger, Denis Dalić, Andreas Maier, Jan Baumbach</p>
+    <p><b>Summary:</b> The integration of clinical data offers significant potential for the
+development of personalized medicine. However, its use is severely restricted
+by the General Data Protection Regulation (GDPR), especially for small cohorts
+with rare diseases. High-quality, structured data is essential for the
+development of predictive medical AI. In this case study, we propose a novel,
+multi-stage approach to secure AI training: (1) The model is designed on a
+simulated clinical knowledge graph (cKG). This graph is used exclusively to
+represent the structural characteristics of the real cKG without revealing any
+sensitive content. (2) The model is then integrated into the FeatureCloud (FC)
+federated learning framework, where it is prepared in a single-client
+configuration within a protected execution environment. (3) Training then takes
+place within the hospital environment on the real cKG, either under the direct
+supervision of hospital staff or via a fully automated pipeline controlled by
+the hospital. (4) Finally, verified evaluation scripts are executed, which only
+return aggregated performance metrics. This enables immediate performance
+feedback without sensitive patient data or individual predictions, leaving the
+clinic. A fundamental element of this approach involves the incorporation of a
+cKG, which serves to organize multi-omics and patient data within the context
+of real-world hospital environments. This approach was successfully validated
+during the TUM.ai Makeathon 2024 (TUMaiM24) challenge set by the Dr. von Hauner
+Children's Hospital (HCH-LMU): 50 students developed models for patient
+classification and diagnosis without access to real data. Deploying secure
+algorithms via federated frameworks, such as the FC framework, could be a
+practical way of achieving privacy-preserving AI in healthcare.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.24498v1">Design and Optimization of Cloud Native Homomorphic Encryption Workflows
   for Privacy-Preserving ML Inference</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
@@ -96,6 +189,43 @@ transparency of data collection for smart devices.</p>
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.24807v1">Learning to Attack: Uncovering Privacy Risks in Sequential Data Releases</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-28T04:32:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ziyao Cui, Minxing Zhang, Jian Pei</p>
+    <p><b>Summary:</b> Privacy concerns have become increasingly critical in modern AI and data
+science applications, where sensitive information is collected, analyzed, and
+shared across diverse domains such as healthcare, finance, and mobility. While
+prior research has focused on protecting privacy in a single data release, many
+real-world systems operate under sequential or continuous data publishing,
+where the same or related data are released over time. Such sequential
+disclosures introduce new vulnerabilities, as temporal correlations across
+releases may enable adversaries to infer sensitive information that remains
+hidden in any individual release. In this paper, we investigate whether an
+attacker can compromise privacy in sequential data releases by exploiting
+dependencies between consecutive publications, even when each individual
+release satisfies standard privacy guarantees. To this end, we propose a novel
+attack model that captures these sequential dependencies by integrating a
+Hidden Markov Model with a reinforcement learning-based bi-directional
+inference mechanism. This enables the attacker to leverage both earlier and
+later observations in the sequence to infer private information. We instantiate
+our framework in the context of trajectory data, demonstrating how an adversary
+can recover sensitive locations from sequential mobility datasets. Extensive
+experiments on Geolife, Porto Taxi, and SynMob datasets show that our model
+consistently outperforms baseline approaches that treat each release
+independently. The results reveal a fundamental privacy risk inherent to
+sequential data publishing, where individually protected releases can
+collectively leak sensitive information when analyzed temporally. These
+findings underscore the need for new privacy-preserving frameworks that
+explicitly model temporal dependencies, such as time-aware differential privacy
+or sequential data obfuscation strategies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.23931v1">Differential Privacy: Gradient Leakage Attacks in Federated Learning
   Environments</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
@@ -126,7 +256,7 @@ security and privacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.23463v1">Differential Privacy as a Perk: Federated Learning over Multiple-Access
+  <h3><a href="http://arxiv.org/abs/2510.23463v2">Differential Privacy as a Perk: Federated Learning over Multiple-Access
   Fading Channels with a Multi-Antenna Base Station</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2025-10-27T16:01:15Z</p>
@@ -2879,130 +3009,6 @@ ambiguities leave individuals vulnerable. It proposes a new policy framework
 that shifts the paradigm from data as property to a model of inalienable
 rights, ensuring that fundamental human rights are upheld against unchecked
 technological expansion.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.02487v1">Interplay between Security, Privacy and Trust in 6G-enabled Intelligent
-  Transportation Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-02T18:47:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmed Danladi Abdullahi, Erfan Bahrami, Tooska Dargahi, Mohammed Al-Khalidi, Mohammad Hammoudeh</p>
-    <p><b>Summary:</b> The advancement of 6G technology has the potential to revolutionize the
-transportation sector and significantly improve how we travel. 6G-enabled
-Intelligent Transportation Systems (ITS) promise to offer high-speed,
-low-latency communication and advanced data analytics capabilities, supporting
-the development of safer, more efficient, and more sustainable transportation
-solutions. However, various security and privacy challenges were identified in
-the literature that must be addressed to enable the safe and secure deployment
-of 6G-ITS and ensure people's trust in using these technologies. This paper
-reviews the opportunities and challenges of 6G-ITS, particularly focusing on
-trust, security, and privacy, with special attention to quantum technologies
-that both enhance security through quantum key distribution and introduce new
-vulnerabilities. It discusses the potential benefits of 6G technology in the
-transportation sector, including improved communication, device
-interoperability support, data analytic capabilities, and increased automation
-for different components, such as transportation management and communication
-systems. A taxonomy of different attack models in 6G-ITS is proposed, and a
-comparison of the security threats in 5G-ITS and 6G-ITS is provided, along with
-potential mitigating solutions. This research highlights the urgent need for a
-comprehensive, multi-layered security framework spanning physical
-infrastructure protection, network protocol security, data management
-safeguards, application security measures, and trust management systems to
-effectively mitigate emerging security and privacy risks and ensure the
-integrity and resilience of future transportation ecosystems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.01793v1">Sensitivity, Specificity, and Consistency: A Tripartite Evaluation of
-  Privacy Filters for Synthetic Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-02T08:32:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Adil Koeken, Alexander Ziller, Moritz Knolle, Daniel Rueckert</p>
-    <p><b>Summary:</b> The generation of privacy-preserving synthetic datasets is a promising avenue
-for overcoming data scarcity in medical AI research. Post-hoc privacy filtering
-techniques, designed to remove samples containing personally identifiable
-information, have recently been proposed as a solution. However, their
-effectiveness remains largely unverified. This work presents a rigorous
-evaluation of a filtering pipeline applied to chest X-ray synthesis. Contrary
-to claims from the original publications, our results demonstrate that current
-filters exhibit limited specificity and consistency, achieving high sensitivity
-only for real images while failing to reliably detect near-duplicates generated
-from training data. These results demonstrate a critical limitation of post-hoc
-filtering: rather than effectively safeguarding patient privacy, these methods
-may provide a false sense of security while leaving unacceptable levels of
-patient information exposed. We conclude that substantial advances in filter
-design are needed before these methods can be confidently deployed in sensitive
-applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.01645v1">Position: Privacy Is Not Just Memorization!</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-02T04:02:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Niloofar Mireshghallah, Tianshi Li</p>
-    <p><b>Summary:</b> The discourse on privacy risks in Large Language Models (LLMs) has
-disproportionately focused on verbatim memorization of training data, while a
-constellation of more immediate and scalable privacy threats remain
-underexplored. This position paper argues that the privacy landscape of LLM
-systems extends far beyond training data extraction, encompassing risks from
-data collection practices, inference-time context leakage, autonomous agent
-capabilities, and the democratization of surveillance through deep inference
-attacks. We present a comprehensive taxonomy of privacy risks across the LLM
-lifecycle -- from data collection through deployment -- and demonstrate through
-case studies how current privacy frameworks fail to address these multifaceted
-threats. Through a longitudinal analysis of 1,322 AI/ML privacy papers
-published at leading conferences over the past decade (2016--2025), we reveal
-that while memorization receives outsized attention in technical research, the
-most pressing privacy harms lie elsewhere, where current technical approaches
-offer little traction and viable paths forward remain unclear. We call for a
-fundamental shift in how the research community approaches LLM privacy, moving
-beyond the narrow focus of current technical solutions and embracing
-interdisciplinary approaches that address the sociotechnical nature of these
-emerging threats.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.01113v1">Privacy Preserved Federated Learning with Attention-Based Aggregation
-  for Biometric Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-01T16:58:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kassahun Azezew, Minyechil Alehegn, Tsega Asresa, Bitew Mekuria, Tizazu Bayh, Ayenew Kassie, Amsalu Tesema, Animut Embiyale</p>
-    <p><b>Summary:</b> Because biometric data is sensitive, centralized training poses a privacy
-risk, even though biometric recognition is essential for contemporary
-applications. Federated learning (FL), which permits decentralized training,
-provides a privacy-preserving substitute. Conventional FL, however, has trouble
-with interpretability and heterogeneous data (non-IID). In order to handle
-non-IID biometric data, this framework adds an attention mechanism at the
-central server that weights local model updates according to their
-significance. Differential privacy and secure update protocols safeguard data
-while preserving accuracy. The A3-FL framework is evaluated in this study using
-FVC2004 fingerprint data, with each client's features extracted using a Siamese
-Convolutional Neural Network (Siamese-CNN). By dynamically modifying client
-contributions, the attention mechanism increases the accuracy of the global
-model.The accuracy, convergence speed, and robustness of the A3-FL framework
-are superior to those of standard FL (FedAvg) and static baselines, according
-to experimental evaluations using fingerprint data (FVC2004). The accuracy of
-the attention-based approach was 0.8413, while FedAvg, Local-only, and
-Centralized approaches were 0.8164, 0.7664, and 0.7997, respectively. Accuracy
-stayed high at 0.8330 even with differential privacy. A scalable and
-privacy-sensitive biometric system for secure and effective recognition in
-dispersed environments is presented in this work.</p>
   </details>
 </div>
 
