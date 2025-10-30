@@ -2780,5 +2780,136 @@
       "math.IT",
       "math.MP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.25670v1",
+    "title" : "Spectral Perturbation Bounds for Low-Rank Approximation with\n  Applications to Privacy",
+    "summary" : "A central challenge in machine learning is to understand how noise or\nmeasurement errors affect low-rank approximations, particularly in the spectral\nnorm. This question is especially important in differentially private low-rank\napproximation, where one aims to preserve the top-$p$ structure of a\ndata-derived matrix while ensuring privacy. Prior work often analyzes Frobenius\nnorm error or changes in reconstruction quality, but these metrics can over- or\nunder-estimate true subspace distortion. The spectral norm, by contrast,\ncaptures worst-case directional error and provides the strongest utility\nguarantees. We establish new high-probability spectral-norm perturbation bounds\nfor symmetric matrices that refine the classical Eckart--Young--Mirsky theorem\nand explicitly capture interactions between a matrix $A \\in \\mathbb{R}^{n\n\\times n}$ and an arbitrary symmetric perturbation $E$. Under mild eigengap and\nnorm conditions, our bounds yield sharp estimates for $\\|(A + E)_p - A_p\\|$,\nwhere $A_p$ is the best rank-$p$ approximation of $A$, with improvements of up\nto a factor of $\\sqrt{n}$. As an application, we derive improved utility\nguarantees for differentially private PCA, resolving an open problem in the\nliterature. Our analysis relies on a novel contour bootstrapping method from\ncomplex analysis and extends it to a broad class of spectral functionals,\nincluding polynomials and matrix exponentials. Empirical results on real-world\ndatasets confirm that our bounds closely track the actual spectral error under\ndiverse perturbation regimes.",
+    "updated" : "2025-10-29T16:36:00Z",
+    "published" : "2025-10-29T16:36:00Z",
+    "authors" : [
+      {
+        "name" : "Phuc Tran"
+      },
+      {
+        "name" : "Nisheeth K. Vishnoi"
+      },
+      {
+        "name" : "Van H. Vu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.DS",
+      "cs.NA",
+      "math.NA",
+      "math.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.25477v1",
+    "title" : "A Study on Privacy-Preserving Scholarship Evaluation Based on\n  Decentralized Identity and Zero-Knowledge Proofs",
+    "summary" : "Traditional centralized scholarship evaluation processes typically require\nstudents to submit detailed academic records and qualification information,\nwhich exposes them to risks of data leakage and misuse, making it difficult to\nsimultaneously ensure privacy protection and transparent auditability. To\naddress these challenges, this paper proposes a scholarship evaluation system\nbased on Decentralized Identity (DID) and Zero-Knowledge Proofs (ZKP). The\nsystem aggregates multidimensional ZKPs off-chain, and smart contracts verify\ncompliance with evaluation criteria without revealing raw scores or\ncomputational details. Experimental results demonstrate that the proposed\nsolution not only automates the evaluation efficiently but also maximally\npreserves student privacy and data integrity, offering a practical and\ntrustworthy technical paradigm for higher education scholarship programs.",
+    "updated" : "2025-10-29T12:56:02Z",
+    "published" : "2025-10-29T12:56:02Z",
+    "authors" : [
+      {
+        "name" : "Yi Chen"
+      },
+      {
+        "name" : "Bin Chen"
+      },
+      {
+        "name" : "Peichang Zhang"
+      },
+      {
+        "name" : "Da Che"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.25277v1",
+    "title" : "A Privacy-Preserving Ecosystem for Developing Machine Learning\n  Algorithms Using Patient Data: Insights from the TUM.ai Makeathon",
+    "summary" : "The integration of clinical data offers significant potential for the\ndevelopment of personalized medicine. However, its use is severely restricted\nby the General Data Protection Regulation (GDPR), especially for small cohorts\nwith rare diseases. High-quality, structured data is essential for the\ndevelopment of predictive medical AI. In this case study, we propose a novel,\nmulti-stage approach to secure AI training: (1) The model is designed on a\nsimulated clinical knowledge graph (cKG). This graph is used exclusively to\nrepresent the structural characteristics of the real cKG without revealing any\nsensitive content. (2) The model is then integrated into the FeatureCloud (FC)\nfederated learning framework, where it is prepared in a single-client\nconfiguration within a protected execution environment. (3) Training then takes\nplace within the hospital environment on the real cKG, either under the direct\nsupervision of hospital staff or via a fully automated pipeline controlled by\nthe hospital. (4) Finally, verified evaluation scripts are executed, which only\nreturn aggregated performance metrics. This enables immediate performance\nfeedback without sensitive patient data or individual predictions, leaving the\nclinic. A fundamental element of this approach involves the incorporation of a\ncKG, which serves to organize multi-omics and patient data within the context\nof real-world hospital environments. This approach was successfully validated\nduring the TUM.ai Makeathon 2024 (TUMaiM24) challenge set by the Dr. von Hauner\nChildren's Hospital (HCH-LMU): 50 students developed models for patient\nclassification and diagnosis without access to real data. Deploying secure\nalgorithms via federated frameworks, such as the FC framework, could be a\npractical way of achieving privacy-preserving AI in healthcare.",
+    "updated" : "2025-10-29T08:37:12Z",
+    "published" : "2025-10-29T08:37:12Z",
+    "authors" : [
+      {
+        "name" : "Simon Süwer"
+      },
+      {
+        "name" : "Mai Khanh Mai"
+      },
+      {
+        "name" : "Christoph Klein"
+      },
+      {
+        "name" : "Nicola Götzenberger"
+      },
+      {
+        "name" : "Denis Dalić"
+      },
+      {
+        "name" : "Andreas Maier"
+      },
+      {
+        "name" : "Jan Baumbach"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.24807v1",
+    "title" : "Learning to Attack: Uncovering Privacy Risks in Sequential Data Releases",
+    "summary" : "Privacy concerns have become increasingly critical in modern AI and data\nscience applications, where sensitive information is collected, analyzed, and\nshared across diverse domains such as healthcare, finance, and mobility. While\nprior research has focused on protecting privacy in a single data release, many\nreal-world systems operate under sequential or continuous data publishing,\nwhere the same or related data are released over time. Such sequential\ndisclosures introduce new vulnerabilities, as temporal correlations across\nreleases may enable adversaries to infer sensitive information that remains\nhidden in any individual release. In this paper, we investigate whether an\nattacker can compromise privacy in sequential data releases by exploiting\ndependencies between consecutive publications, even when each individual\nrelease satisfies standard privacy guarantees. To this end, we propose a novel\nattack model that captures these sequential dependencies by integrating a\nHidden Markov Model with a reinforcement learning-based bi-directional\ninference mechanism. This enables the attacker to leverage both earlier and\nlater observations in the sequence to infer private information. We instantiate\nour framework in the context of trajectory data, demonstrating how an adversary\ncan recover sensitive locations from sequential mobility datasets. Extensive\nexperiments on Geolife, Porto Taxi, and SynMob datasets show that our model\nconsistently outperforms baseline approaches that treat each release\nindependently. The results reveal a fundamental privacy risk inherent to\nsequential data publishing, where individually protected releases can\ncollectively leak sensitive information when analyzed temporally. These\nfindings underscore the need for new privacy-preserving frameworks that\nexplicitly model temporal dependencies, such as time-aware differential privacy\nor sequential data obfuscation strategies.",
+    "updated" : "2025-10-28T04:32:42Z",
+    "published" : "2025-10-28T04:32:42Z",
+    "authors" : [
+      {
+        "name" : "Ziyao Cui"
+      },
+      {
+        "name" : "Minxing Zhang"
+      },
+      {
+        "name" : "Jian Pei"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.23463v2",
+    "title" : "Differential Privacy as a Perk: Federated Learning over Multiple-Access\n  Fading Channels with a Multi-Antenna Base Station",
+    "summary" : "Federated Learning (FL) is a distributed learning paradigm that preserves\nprivacy by eliminating the need to exchange raw data during training. In its\nprototypical edge instantiation with underlying wireless transmissions enabled\nby analog over-the-air computing (AirComp), referred to as \\emph{over-the-air\nFL (AirFL)}, the inherent channel noise plays a unique role of \\emph{frenemy}\nin the sense that it degrades training due to noisy global aggregation while\nproviding a natural source of randomness for privacy-preserving mechanisms,\nformally quantified by \\emph{differential privacy (DP)}. It remains,\nnevertheless, challenging to effectively harness such channel impairments, as\nprior arts, under assumptions of either simple channel models or restricted\ntypes of loss functions, mostly considering (local) DP enhancement with a\nsingle-round or non-convergent bound on privacy loss. In this paper, we study\nAirFL over multiple-access fading channels with a multi-antenna base station\n(BS) subject to user-level DP requirements. Despite a recent study, which\nclaimed in similar settings that artificial noise (AN) must be injected to\nensure DP in general, we demonstrate, on the contrary, that DP can be gained as\na \\emph{perk} even \\emph{without} employing any AN. Specifically, we derive a\nnovel bound on DP that converges under general bounded-domain assumptions on\nmodel parameters, along with a convergence bound with general smooth and\nnon-convex loss functions. Next, we optimize over receive beamforming and power\nallocations to characterize the optimal convergence-privacy trade-offs, which\nalso reveal explicit conditions in which DP is achievable without compromising\ntraining. Finally, our theoretical findings are validated by extensive\nnumerical results.",
+    "updated" : "2025-10-29T11:16:37Z",
+    "published" : "2025-10-27T16:01:15Z",
+    "authors" : [
+      {
+        "name" : "Hao Liang"
+      },
+      {
+        "name" : "Haifeng Wen"
+      },
+      {
+        "name" : "Kaishun Wu"
+      },
+      {
+        "name" : "Hong Xing"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
