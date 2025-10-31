@@ -2,6 +2,140 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.26523v1">Interdependent Privacy in Smart Homes: Hunting for Bystanders in Privacy
+  Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-30T14:16:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuaishuai Liu, Gergely Acs, Gergely Biczók</p>
+    <p><b>Summary:</b> Smart home devices such as video doorbells and security cameras are becoming
+increasingly common in everyday life. While these devices offer convenience and
+safety, they also raise new privacy concerns: how these devices affect others,
+like neighbors, visitors, or people passing by. This issue is generally known
+as interdependent privacy, where one person's actions (or inaction) may impact
+the privacy of others, and, specifically, bystander privacy in the context of
+smart homes. Given lax data protection regulations in terms of shared physical
+spaces and amateur joint data controllers, we expect that the privacy policies
+of smart home products reflect the missing regulatory incentives. This paper
+presents a focused privacy policy analysis of 20 video doorbell and smart
+camera products, concentrating explicitly on the bystander aspect. We show that
+although some of the vendors acknowledge bystanders, they address it only to
+the extent of including disclaimers, shifting the ethical responsibility for
+collecting the data of non-users to the device owner. In addition, we identify
+and examine real-world cases related to bystander privacy, demonstrating how
+current deployments can impact non-users. Based on our findings, we analyze
+vendor privacy policies in light of existing legal frameworks and technical
+capabilities, and we provide practical recommendations for both policy language
+and system design to enhance transparency and empower both bystanders and
+device owners.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.26148v1">STAR: A Privacy-Preserving, Energy-Efficient Edge AI Framework for Human
+  Activity Recognition via Wi-Fi CSI in Mobile and Pervasive Computing
+  Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-30T05:08:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kexing Liu</p>
+    <p><b>Summary:</b> Human Activity Recognition (HAR) via Wi-Fi Channel State Information (CSI)
+presents a privacy-preserving, contactless sensing approach suitable for smart
+homes, healthcare monitoring, and mobile IoT systems. However, existing methods
+often encounter computational inefficiency, high latency, and limited
+feasibility within resource-constrained, embedded mobile edge environments.
+This paper proposes STAR (Sensing Technology for Activity Recognition), an
+edge-AI-optimized framework that integrates a lightweight neural architecture,
+adaptive signal processing, and hardware-aware co-optimization to enable
+real-time, energy-efficient HAR on low-power embedded devices. STAR
+incorporates a streamlined Gated Recurrent Unit (GRU)-based recurrent neural
+network, reducing model parameters by 33% compared to conventional LSTM models
+while maintaining effective temporal modeling capability. A multi-stage
+pre-processing pipeline combining median filtering, 8th-order Butterworth
+low-pass filtering, and Empirical Mode Decomposition (EMD) is employed to
+denoise CSI amplitude data and extract spatial-temporal features. For on-device
+deployment, STAR is implemented on a Rockchip RV1126 processor equipped with an
+embedded Neural Processing Unit (NPU), interfaced with an ESP32-S3-based CSI
+acquisition module. Experimental results demonstrate a mean recognition
+accuracy of 93.52% across seven activity classes and 99.11% for human presence
+detection, utilizing a compact 97.6k-parameter model. INT8 quantized inference
+achieves a processing speed of 33 MHz with just 8% CPU utilization, delivering
+sixfold speed improvements over CPU-based execution. With sub-second response
+latency and low power consumption, the system ensures real-time,
+privacy-preserving HAR, offering a practical, scalable solution for mobile and
+pervasive computing environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.26102v1">PEEL: A Poisoning-Exposing Encoding Theoretical Framework for Local
+  Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-30T03:29:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lisha Shuai, Jiuling Dong, Nan Zhang, Shaofeng Tan, Haokun Zhang, Zilong Song, Gaoya Dong, Xiaolong Yang</p>
+    <p><b>Summary:</b> Local Differential Privacy (LDP) is a widely adopted privacy-protection model
+in the Internet of Things (IoT) due to its lightweight, decentralized, and
+scalable nature. However, it is vulnerable to poisoning attacks, and existing
+defenses either incur prohibitive resource overheads or rely on domain-specific
+prior knowledge, limiting their practical deployment. To address these
+limitations, we propose PEEL, a Poisoning-Exposing Encoding theoretical
+framework for LDP, which departs from resource- or prior-dependent
+countermeasures and instead leverages the inherent structural consistency of
+LDP-perturbed data. As a non-intrusive post-processing module, PEEL amplifies
+stealthy poisoning effects by re-encoding LDP-perturbed data via
+sparsification, normalization, and low-rank projection, thereby revealing both
+output and rule poisoning attacks through structural inconsistencies in the
+reconstructed space. Theoretical analysis proves that PEEL, integrated with
+LDP, retains unbiasedness and statistical accuracy, while being robust to
+expose both output and rule poisoning attacks. Moreover, evaluation results
+show that LDP-integrated PEEL not only outperforms four state-of-the-art
+defenses in terms of poisoning exposure accuracy but also significantly reduces
+client-side computational costs, making it highly suitable for large-scale IoT
+deployments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.25932v1">FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for
+  Facebook and X</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-10-29T20:11:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soufiane Essahli, Oussama Sarsar, Imane Fouad, Anas Motii, Ahmed Bentajer</p>
+    <p><b>Summary:</b> Social platforms distribute information at unprecedented speed, which in turn
+accelerates the spread of misinformation and threatens public discourse. We
+present FakeZero, a fully client-side, cross-platform browser extension that
+flags unreliable posts on Facebook and X (formerly Twitter) while the user
+scrolls. All computation, DOM scraping, tokenisation, Transformer inference,
+and UI rendering run locally through the Chromium messaging API, so no personal
+data leaves the device.FakeZero employs a three-stage training curriculum:
+baseline fine-tuning and domain-adaptive training enhanced with focal loss,
+adversarial augmentation, and post-training quantisation. Evaluated on a
+dataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1%
+macro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of
+approximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant
+variant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to
+14.7 MB and lowering latency to approximately 40 ms, showing that high-quality
+fake-news detection is feasible under tight resource budgets with only modest
+performance loss.By providing inline credibility cues, the extension can serve
+as a valuable tool for policymakers seeking to curb the spread of
+misinformation across social networks. With user consent, FakeZero also opens
+the door for researchers to collect large-scale datasets of fake news in the
+wild, enabling deeper analysis and the development of more robust detection
+techniques.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.25670v1">Spectral Perturbation Bounds for Low-Rank Approximation with
   Applications to Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Spectral Theory-D91E36">
@@ -2894,121 +3028,6 @@ ensuring convergence of FL training to a stationary point. Numerical
 experiments on canonical classification tasks show that our approach
 effectively reduces RDP and DP leakages compared with state-of-the-art
 benchmarks without compromising learning performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.03662v1">Operationalizing Data Minimization for Privacy-Preserving LLM Prompting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-10-04T04:20:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jijie Zhou, Niloofar Mireshghallah, Tianshi Li</p>
-    <p><b>Summary:</b> The rapid deployment of large language models (LLMs) in consumer applications
-has led to frequent exchanges of personal information. To obtain useful
-responses, users often share more than necessary, increasing privacy risks via
-memorization, context-based personalization, or security breaches. We present a
-framework to formally define and operationalize data minimization: for a given
-user prompt and response model, quantifying the least privacy-revealing
-disclosure that maintains utility, and we propose a priority-queue tree search
-to locate this optimal point within a privacy-ordered transformation space. We
-evaluated the framework on four datasets spanning open-ended conversations
-(ShareGPT, WildChat) and knowledge-intensive tasks with single-ground-truth
-answers (CaseHold, MedQA), quantifying achievable data minimization with nine
-LLMs as the response model. Our results demonstrate that larger frontier LLMs
-can tolerate stronger data minimization while maintaining task quality than
-smaller open-source models (85.7% redaction for GPT-5 vs. 19.3% for
-Qwen2.5-0.5B). By comparing with our search-derived benchmarks, we find that
-LLMs struggle to predict optimal data minimization directly, showing a bias
-toward abstraction that leads to oversharing. This suggests not just a privacy
-gap, but a capability gap: models may lack awareness of what information they
-actually need to solve a task.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.03559v1">PrivacyMotiv: Speculative Persona Journeys for Empathic and Motivating
-  Privacy Reviews in UX Design</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-10-03T23:14:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zeya Chen, Jianing Wen, Ruth Schmidt, Yaxing Yao, Toby Jia-Jun Li, Tianshi Li</p>
-    <p><b>Summary:</b> UX professionals routinely conduct design reviews, yet privacy concerns are
-often overlooked -- not only due to limited tools, but more critically because
-of low intrinsic motivation. Limited privacy knowledge, weak empathy for
-unexpectedly affected users, and low confidence in identifying harms make it
-difficult to address risks. We present PrivacyMotiv, an LLM-powered system that
-supports privacy-oriented design diagnosis by generating speculative personas
-with UX user journeys centered on individuals vulnerable to privacy risks.
-Drawing on narrative strategies, the system constructs relatable and
-attention-drawing scenarios that show how ordinary design choices may cause
-unintended harms, expanding the scope of privacy reflection in UX. In a
-within-subjects study with professional UX practitioners (N=16), we compared
-participants' self-proposed methods with PrivacyMotiv across two privacy review
-tasks. Results show significant improvements in empathy, intrinsic motivation,
-and perceived usefulness. This work contributes a promising privacy review
-approach which addresses the motivational barriers in privacy-aware UX.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.03513v1">A Lightweight Federated Learning Approach for Privacy-Preserving Botnet
-  Detection in IoT</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-10-03T20:54:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Taha M. Mahmoud, Naima Kaabouch</p>
-    <p><b>Summary:</b> The rapid growth of the Internet of Things (IoT) has expanded opportunities
-for innovation but also increased exposure to botnet-driven cyberattacks.
-Conventional detection methods often struggle with scalability, privacy, and
-adaptability in resource-constrained IoT environments. To address these
-challenges, we present a lightweight and privacy-preserving botnet detection
-framework based on federated learning. This approach enables distributed
-devices to collaboratively train models without exchanging raw data, thus
-maintaining user privacy while preserving detection accuracy. A
-communication-efficient aggregation strategy is introduced to reduce overhead,
-ensuring suitability for constrained IoT networks. Experiments on benchmark IoT
-botnet datasets demonstrate that the framework achieves high detection accuracy
-while substantially reducing communication costs. These findings highlight
-federated learning as a practical path toward scalable, secure, and
-privacy-aware intrusion detection for IoT ecosystems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.03035v1">Protecting Persona Biometric Data: The Case of Facial Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-10-03T14:16:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lambert Hogenhout, Rinzin Wangmo</p>
-    <p><b>Summary:</b> The proliferation of digital technologies has led to unprecedented data
-collection, with facial data emerging as a particularly sensitive commodity.
-Companies are increasingly leveraging advanced facial recognition technologies,
-often without the explicit consent or awareness of individuals, to build
-sophisticated surveillance capabilities. This practice, fueled by weak and
-fragmented laws in many jurisdictions, has created a regulatory vacuum that
-allows for the commercialization of personal identity and poses significant
-threats to individual privacy and autonomy. This article introduces the concept
-of Facial Privacy. It analyzes the profound challenges posed by unregulated
-facial recognition by conducting a comprehensive review of existing legal
-frameworks. It examines and compares regulations such as the GDPR, Brazil's
-LGPD, Canada's PIPEDA, and privacy acts in China, Singapore, South Korea, and
-Japan, alongside sector-specific laws in the United States like the Illinois
-Biometric Information Privacy Act (BIPA). The analysis highlights the societal
-impacts of this technology, including the potential for discriminatory bias and
-the long-lasting harm that can result from the theft of immutable biometric
-data. Ultimately, the paper argues that existing legal loopholes and
-ambiguities leave individuals vulnerable. It proposes a new policy framework
-that shifts the paradigm from data as property to a model of inalienable
-rights, ensuring that fundamental human rights are upheld against unchecked
-technological expansion.</p>
   </details>
 </div>
 
