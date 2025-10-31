@@ -2911,5 +2911,105 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.26523v1",
+    "title" : "Interdependent Privacy in Smart Homes: Hunting for Bystanders in Privacy\n  Policies",
+    "summary" : "Smart home devices such as video doorbells and security cameras are becoming\nincreasingly common in everyday life. While these devices offer convenience and\nsafety, they also raise new privacy concerns: how these devices affect others,\nlike neighbors, visitors, or people passing by. This issue is generally known\nas interdependent privacy, where one person's actions (or inaction) may impact\nthe privacy of others, and, specifically, bystander privacy in the context of\nsmart homes. Given lax data protection regulations in terms of shared physical\nspaces and amateur joint data controllers, we expect that the privacy policies\nof smart home products reflect the missing regulatory incentives. This paper\npresents a focused privacy policy analysis of 20 video doorbell and smart\ncamera products, concentrating explicitly on the bystander aspect. We show that\nalthough some of the vendors acknowledge bystanders, they address it only to\nthe extent of including disclaimers, shifting the ethical responsibility for\ncollecting the data of non-users to the device owner. In addition, we identify\nand examine real-world cases related to bystander privacy, demonstrating how\ncurrent deployments can impact non-users. Based on our findings, we analyze\nvendor privacy policies in light of existing legal frameworks and technical\ncapabilities, and we provide practical recommendations for both policy language\nand system design to enhance transparency and empower both bystanders and\ndevice owners.",
+    "updated" : "2025-10-30T14:16:21Z",
+    "published" : "2025-10-30T14:16:21Z",
+    "authors" : [
+      {
+        "name" : "Shuaishuai Liu"
+      },
+      {
+        "name" : "Gergely Acs"
+      },
+      {
+        "name" : "Gergely Biczók"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.26148v1",
+    "title" : "STAR: A Privacy-Preserving, Energy-Efficient Edge AI Framework for Human\n  Activity Recognition via Wi-Fi CSI in Mobile and Pervasive Computing\n  Environments",
+    "summary" : "Human Activity Recognition (HAR) via Wi-Fi Channel State Information (CSI)\npresents a privacy-preserving, contactless sensing approach suitable for smart\nhomes, healthcare monitoring, and mobile IoT systems. However, existing methods\noften encounter computational inefficiency, high latency, and limited\nfeasibility within resource-constrained, embedded mobile edge environments.\nThis paper proposes STAR (Sensing Technology for Activity Recognition), an\nedge-AI-optimized framework that integrates a lightweight neural architecture,\nadaptive signal processing, and hardware-aware co-optimization to enable\nreal-time, energy-efficient HAR on low-power embedded devices. STAR\nincorporates a streamlined Gated Recurrent Unit (GRU)-based recurrent neural\nnetwork, reducing model parameters by 33% compared to conventional LSTM models\nwhile maintaining effective temporal modeling capability. A multi-stage\npre-processing pipeline combining median filtering, 8th-order Butterworth\nlow-pass filtering, and Empirical Mode Decomposition (EMD) is employed to\ndenoise CSI amplitude data and extract spatial-temporal features. For on-device\ndeployment, STAR is implemented on a Rockchip RV1126 processor equipped with an\nembedded Neural Processing Unit (NPU), interfaced with an ESP32-S3-based CSI\nacquisition module. Experimental results demonstrate a mean recognition\naccuracy of 93.52% across seven activity classes and 99.11% for human presence\ndetection, utilizing a compact 97.6k-parameter model. INT8 quantized inference\nachieves a processing speed of 33 MHz with just 8% CPU utilization, delivering\nsixfold speed improvements over CPU-based execution. With sub-second response\nlatency and low power consumption, the system ensures real-time,\nprivacy-preserving HAR, offering a practical, scalable solution for mobile and\npervasive computing environments.",
+    "updated" : "2025-10-30T05:08:25Z",
+    "published" : "2025-10-30T05:08:25Z",
+    "authors" : [
+      {
+        "name" : "Kexing Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.26102v1",
+    "title" : "PEEL: A Poisoning-Exposing Encoding Theoretical Framework for Local\n  Differential Privacy",
+    "summary" : "Local Differential Privacy (LDP) is a widely adopted privacy-protection model\nin the Internet of Things (IoT) due to its lightweight, decentralized, and\nscalable nature. However, it is vulnerable to poisoning attacks, and existing\ndefenses either incur prohibitive resource overheads or rely on domain-specific\nprior knowledge, limiting their practical deployment. To address these\nlimitations, we propose PEEL, a Poisoning-Exposing Encoding theoretical\nframework for LDP, which departs from resource- or prior-dependent\ncountermeasures and instead leverages the inherent structural consistency of\nLDP-perturbed data. As a non-intrusive post-processing module, PEEL amplifies\nstealthy poisoning effects by re-encoding LDP-perturbed data via\nsparsification, normalization, and low-rank projection, thereby revealing both\noutput and rule poisoning attacks through structural inconsistencies in the\nreconstructed space. Theoretical analysis proves that PEEL, integrated with\nLDP, retains unbiasedness and statistical accuracy, while being robust to\nexpose both output and rule poisoning attacks. Moreover, evaluation results\nshow that LDP-integrated PEEL not only outperforms four state-of-the-art\ndefenses in terms of poisoning exposure accuracy but also significantly reduces\nclient-side computational costs, making it highly suitable for large-scale IoT\ndeployments.",
+    "updated" : "2025-10-30T03:29:02Z",
+    "published" : "2025-10-30T03:29:02Z",
+    "authors" : [
+      {
+        "name" : "Lisha Shuai"
+      },
+      {
+        "name" : "Jiuling Dong"
+      },
+      {
+        "name" : "Nan Zhang"
+      },
+      {
+        "name" : "Shaofeng Tan"
+      },
+      {
+        "name" : "Haokun Zhang"
+      },
+      {
+        "name" : "Zilong Song"
+      },
+      {
+        "name" : "Gaoya Dong"
+      },
+      {
+        "name" : "Xiaolong Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.25932v1",
+    "title" : "FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for\n  Facebook and X",
+    "summary" : "Social platforms distribute information at unprecedented speed, which in turn\naccelerates the spread of misinformation and threatens public discourse. We\npresent FakeZero, a fully client-side, cross-platform browser extension that\nflags unreliable posts on Facebook and X (formerly Twitter) while the user\nscrolls. All computation, DOM scraping, tokenisation, Transformer inference,\nand UI rendering run locally through the Chromium messaging API, so no personal\ndata leaves the device.FakeZero employs a three-stage training curriculum:\nbaseline fine-tuning and domain-adaptive training enhanced with focal loss,\nadversarial augmentation, and post-training quantisation. Evaluated on a\ndataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1%\nmacro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of\napproximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant\nvariant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to\n14.7 MB and lowering latency to approximately 40 ms, showing that high-quality\nfake-news detection is feasible under tight resource budgets with only modest\nperformance loss.By providing inline credibility cues, the extension can serve\nas a valuable tool for policymakers seeking to curb the spread of\nmisinformation across social networks. With user consent, FakeZero also opens\nthe door for researchers to collect large-scale datasets of fake news in the\nwild, enabling deeper analysis and the development of more robust detection\ntechniques.",
+    "updated" : "2025-10-29T20:11:48Z",
+    "published" : "2025-10-29T20:11:48Z",
+    "authors" : [
+      {
+        "name" : "Soufiane Essahli"
+      },
+      {
+        "name" : "Oussama Sarsar"
+      },
+      {
+        "name" : "Imane Fouad"
+      },
+      {
+        "name" : "Anas Motii"
+      },
+      {
+        "name" : "Ahmed Bentajer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
   }
 ]
