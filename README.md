@@ -2,6 +2,104 @@
 <h2>2025-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.27275v1">Prevalence of Security and Privacy Risk-Inducing Usage of AI-based
+  Conversational Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-10-31T08:35:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kathrin Grosse, Nico Ebert</p>
+    <p><b>Summary:</b> Recent improvement gains in large language models (LLMs) have lead to
+everyday usage of AI-based Conversational Agents (CAs). At the same time, LLMs
+are vulnerable to an array of threats, including jailbreaks and, for example,
+causing remote code execution when fed specific inputs. As a result, users may
+unintentionally introduce risks, for example, by uploading malicious files or
+disclosing sensitive information. However, the extent to which such user
+behaviors occur and thus potentially facilitate exploits remains largely
+unclear. To shed light on this issue, we surveyed a representative sample of
+3,270 UK adults in 2024 using Prolific. A third of these use CA services such
+as ChatGPT or Gemini at least once a week. Of these ``regular users'', up to a
+third exhibited behaviors that may enable attacks, and a fourth have tried
+jailbreaking (often out of understandable reasons such as curiosity, fun or
+information seeking). Half state that they sanitize data and most participants
+report not sharing sensitive data. However, few share very sensitive data such
+as passwords. The majority are unaware that their data can be used to train
+models and that they can opt-out. Our findings suggest that current academic
+threat models manifest in the wild, and mitigations or guidelines for the
+secure usage of CAs should be developed. In areas critical to security and
+privacy, CAs must be equipped with effective AI guardrails to prevent, for
+example, revealing sensitive information to curious employees. Vendors need to
+increase efforts to prevent the entry of sensitive data, and to create
+transparency with regard to data usage policies and settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.27213v1">Privacy-Aware Continual Self-Supervised Learning on Multi-Window Chest
+  Computed Tomography for Domain-Shift Robustness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-10-31T06:16:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ren Tasai, Guang Li, Ren Togo, Takahiro Ogawa, Kenji Hirata, Minghui Tang, Takaaki Yoshimura, Hiroyuki Sugimori, Noriko Nishioka, Yukie Shimizu, Kohsuke Kudo, Miki Haseyama</p>
+    <p><b>Summary:</b> We propose a novel continual self-supervised learning (CSSL) framework for
+simultaneously learning diverse features from multi-window-obtained chest
+computed tomography (CT) images and ensuring data privacy. Achieving a robust
+and highly generalizable model in medical image diagnosis is challenging,
+mainly because of issues, such as the scarcity of large-scale, accurately
+annotated datasets and domain shifts inherent to dynamic healthcare
+environments. Specifically, in chest CT, these domain shifts often arise from
+differences in window settings, which are optimized for distinct clinical
+purposes. Previous CSSL frameworks often mitigated domain shift by reusing past
+data, a typically impractical approach owing to privacy constraints. Our
+approach addresses these challenges by effectively capturing the relationship
+between previously learned knowledge and new information across different
+training stages through continual pretraining on unlabeled images.
+Specifically, by incorporating a latent replay-based mechanism into CSSL, our
+method mitigates catastrophic forgetting due to domain shifts during continual
+pretraining while ensuring data privacy. Additionally, we introduce a feature
+distillation technique that integrates Wasserstein distance-based knowledge
+distillation (WKD) and batch-knowledge ensemble (BKE), enhancing the ability of
+the model to learn meaningful, domain-shift-robust representations. Finally, we
+validate our approach using chest CT images obtained across two different
+window settings, demonstrating superior performance compared with other
+approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.27016v1">Semantically-Aware LLM Agent to Enhance Privacy in Conversational AI
+  Services</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-10-30T21:34:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jayden Serenari, Stephen Lee</p>
+    <p><b>Summary:</b> With the increasing use of conversational AI systems, there is growing
+concern over privacy leaks, especially when users share sensitive personal data
+in interactions with Large Language Models (LLMs). Conversations shared with
+these models may contain Personally Identifiable Information (PII), which, if
+exposed, could lead to security breaches or identity theft. To address this
+challenge, we present the Local Optimizations for Pseudonymization with
+Semantic Integrity Directed Entity Detection (LOPSIDED) framework, a
+semantically-aware privacy agent designed to safeguard sensitive PII data when
+using remote LLMs. Unlike prior work that often degrade response quality, our
+approach dynamically replaces sensitive PII entities in user prompts with
+semantically consistent pseudonyms, preserving the contextual integrity of
+conversations. Once the model generates its response, the pseudonyms are
+automatically depseudonymized, ensuring the user receives an accurate,
+privacy-preserving output. We evaluate our approach using real-world
+conversations sourced from ShareGPT, which we further augment and annotate to
+assess whether named entities are contextually relevant to the model's
+response. Our results show that LOPSIDED reduces semantic utility errors by a
+factor of 5 compared to baseline techniques, all while enhancing privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2510.26523v1">Interdependent Privacy in Smart Homes: Hunting for Bystanders in Privacy
   Policies</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
@@ -29,6 +127,37 @@ vendor privacy policies in light of existing legal frameworks and technical
 capabilities, and we provide practical recommendations for both policy language
 and system design to enhance transparency and empower both bystanders and
 device owners.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2510.26841v1">Accurate Target Privacy Preserving Federated Learning Balancing Fairness
+  and Utility</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2025-10-30T07:14:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kangkang Sun, Jun Wu, Minyi Guo, Jianhua Li, Jianwei Huang</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without data
+sharing, yet participants face a fundamental challenge, e.g., simultaneously
+ensuring fairness across demographic groups while protecting sensitive client
+data. We introduce a differentially private fair FL algorithm (\textit{FedPF})
+that transforms this multi-objective optimization into a zero-sum game where
+fairness and privacy constraints compete against model utility. Our theoretical
+analysis reveals a surprising inverse relationship, i.e., stricter privacy
+protection fundamentally limits the system's ability to detect and correct
+demographic biases, creating an inherent tension between privacy and fairness.
+Counterintuitively, we prove that moderate fairness constraints initially
+improve model generalization before causing performance degradation, where a
+non-monotonic relationship that challenges conventional wisdom about
+fairness-utility tradeoffs. Experimental validation demonstrates up to 42.9 %
+discrimination reduction across three datasets while maintaining competitive
+accuracy, but more importantly, reveals that the privacy-fairness tension is
+unavoidable, i.e., achieving both objectives simultaneously requires carefully
+balanced compromises rather than optimization of either in isolation. The
+source code for our proposed algorithm is publicly accessible at
+https://github.com/szpsunkk/FedPF.</p>
   </details>
 </div>
 
@@ -648,7 +777,7 @@ intentions of threat actors within these systems.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.21591v1">Privacy by Design: Aligning GDPR and Software Engineering Specifications
+  <h3><a href="http://arxiv.org/abs/2510.21591v2">Privacy by Design: Aligning GDPR and Software Engineering Specifications
   with a Requirements Engineering Approach</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
   <p><b>Published on:</b> 2025-10-24T15:59:34Z</p>
@@ -2897,137 +3026,6 @@ accelerations that leverage temporal and batch redundancy, effectively reducing
 computation cost with minimal utility degradation. Extensive experiments across
 multiple datasets demonstrate that ObCLIP provides rigorous privacy and
 comparable utility to cloud models with slightly increased server cost.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.05172v2">Learning More with Less: A Generalizable, Self-Supervised Framework for
-  Privacy-Preserving Capacity Estimation with EV Charging Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-05T08:58:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anushiya Arunan, Yan Qin, Xiaoli Li, U-Xuan Tan, H. Vincent Poor, Chau Yuen</p>
-    <p><b>Summary:</b> Accurate battery capacity estimation is key to alleviating consumer concerns
-about battery performance and reliability of electric vehicles (EVs). However,
-practical data limitations imposed by stringent privacy regulations and labeled
-data shortages hamper the development of generalizable capacity estimation
-models that remain robust to real-world data distribution shifts. While
-self-supervised learning can leverage unlabeled data, existing techniques are
-not particularly designed to learn effectively from challenging field data --
-let alone from privacy-friendly data, which are often less feature-rich and
-noisier. In this work, we propose a first-of-its-kind capacity estimation model
-based on self-supervised pre-training, developed on a large-scale dataset of
-privacy-friendly charging data snippets from real-world EV operations. Our
-pre-training framework, snippet similarity-weighted masked input
-reconstruction, is designed to learn rich, generalizable representations even
-from less feature-rich and fragmented privacy-friendly data. Our key innovation
-lies in harnessing contrastive learning to first capture high-level
-similarities among fragmented snippets that otherwise lack meaningful context.
-With our snippet-wise contrastive learning and subsequent similarity-weighted
-masked reconstruction, we are able to learn rich representations of both
-granular charging patterns within individual snippets and high-level
-associative relationships across different snippets. Bolstered by this rich
-representation learning, our model consistently outperforms state-of-the-art
-baselines, achieving 31.9% lower test error than the best-performing benchmark,
-even under challenging domain-shifted settings affected by both manufacturer
-and age-induced distribution shifts. Source code is available at
-https://github.com/en-research/GenEVBattery.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.04027v1">Multi-Class Support Vector Machine with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-05T04:25:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jinseong Park, Yujin Choi, Jaewook Lee</p>
-    <p><b>Summary:</b> With the increasing need to safeguard data privacy in machine learning
-models, differential privacy (DP) is one of the major frameworks to build
-privacy-preserving models. Support Vector Machines (SVMs) are widely used
-traditional machine learning models due to their robust margin guarantees and
-strong empirical performance in binary classification. However, applying DP to
-multi-class SVMs is inadequate, as the standard one-versus-rest (OvR) and
-one-versus-one (OvO) approaches repeatedly query each data sample when building
-multiple binary classifiers, thus consuming the privacy budget proportionally
-to the number of classes. To overcome this limitation, we explore all-in-one
-SVM approaches for DP, which access each data sample only once to construct
-multi-class SVM boundaries with margin maximization properties. We propose a
-novel differentially Private Multi-class SVM (PMSVM) with weight and gradient
-perturbation methods, providing rigorous sensitivity and convergence analyses
-to ensure DP in all-in-one SVMs. Empirical results demonstrate that our
-approach surpasses existing DP-SVM methods in multi-class scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.03996v1">FHEON: A Configurable Framework for Developing Privacy-Preserving Neural
-  Networks Using Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-05T02:12:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nges Brian Njungle, Eric Jahns, Michel A. Kinsy</p>
-    <p><b>Summary:</b> The widespread adoption of Machine Learning as a Service raises critical
-privacy and security concerns, particularly about data confidentiality and
-trust in both cloud providers and the machine learning models. Homomorphic
-Encryption (HE) has emerged as a promising solution to this problems, allowing
-computations on encrypted data without decryption. Despite its potential,
-existing approaches to integrate HE into neural networks are often limited to
-specific architectures, leaving a wide gap in providing a framework for easy
-development of HE-friendly privacy-preserving neural network models similar to
-what we have in the broader field of machine learning. In this paper, we
-present FHEON, a configurable framework for developing privacy-preserving
-convolutional neural network (CNN) models for inference using HE. FHEON
-introduces optimized and configurable implementations of privacy-preserving CNN
-layers including convolutional layers, average pooling layers, ReLU activation
-functions, and fully connected layers. These layers are configured using
-parameters like input channels, output channels, kernel size, stride, and
-padding to support arbitrary CNN architectures. We assess the performance of
-FHEON using several CNN architectures, including LeNet-5, VGG-11, VGG- 16,
-ResNet-20, and ResNet-34. FHEON maintains encrypted-domain accuracies within
-+/- 1% of their plaintext counterparts for ResNet-20 and LeNet-5 models.
-Notably, on a consumer-grade CPU, the models build on FHEON achieved 98.5%
-accuracy with a latency of 13 seconds on MNIST using LeNet-5, and 92.2%
-accuracy with a latency of 403 seconds on CIFAR-10 using ResNet-20.
-Additionally, FHEON operates within a practical memory budget requiring not
-more than 42.3 GB for VGG-16.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.03860v1">Privacy Enhancement in Over-the-Air Federated Learning via Adaptive
-  Receive Scaling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">  
-  <p><b>Published on:</b> 2025-10-04T16:15:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Faeze Moradi Kalarde, Ben Liang, Min Dong, Yahia A. Eldemerdash Ahmed, Ho Ting Cheng</p>
-    <p><b>Summary:</b> In Federated Learning (FL) with over-the-air aggregation, the quality of the
-signal received at the server critically depends on the receive scaling
-factors. While a larger scaling factor can reduce the effective noise power and
-improve training performance, it also compromises the privacy of devices by
-reducing uncertainty. In this work, we aim to adaptively design the receive
-scaling factors across training rounds to balance the trade-off between
-training convergence and privacy in an FL system under dynamic channel
-conditions. We formulate a stochastic optimization problem that minimizes the
-overall R\'enyi differential privacy (RDP) leakage over the entire training
-process, subject to a long-term constraint that ensures convergence of the
-global loss function. Our problem depends on unknown future information, and we
-observe that standard Lyapunov optimization is not applicable. Thus, we develop
-a new online algorithm, termed AdaScale, based on a sequence of novel per-round
-problems that can be solved efficiently. We further derive upper bounds on the
-dynamic regret and constraint violation of AdaSacle, establishing that it
-achieves diminishing dynamic regret in terms of time-averaged RDP leakage while
-ensuring convergence of FL training to a stationary point. Numerical
-experiments on canonical classification tasks show that our approach
-effectively reduces RDP and DP leakages compared with state-of-the-art
-benchmarks without compromising learning performance.</p>
   </details>
 </div>
 
