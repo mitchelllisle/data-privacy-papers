@@ -3011,5 +3011,147 @@
       "cs.CR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.27275v1",
+    "title" : "Prevalence of Security and Privacy Risk-Inducing Usage of AI-based\n  Conversational Agents",
+    "summary" : "Recent improvement gains in large language models (LLMs) have lead to\neveryday usage of AI-based Conversational Agents (CAs). At the same time, LLMs\nare vulnerable to an array of threats, including jailbreaks and, for example,\ncausing remote code execution when fed specific inputs. As a result, users may\nunintentionally introduce risks, for example, by uploading malicious files or\ndisclosing sensitive information. However, the extent to which such user\nbehaviors occur and thus potentially facilitate exploits remains largely\nunclear. To shed light on this issue, we surveyed a representative sample of\n3,270 UK adults in 2024 using Prolific. A third of these use CA services such\nas ChatGPT or Gemini at least once a week. Of these ``regular users'', up to a\nthird exhibited behaviors that may enable attacks, and a fourth have tried\njailbreaking (often out of understandable reasons such as curiosity, fun or\ninformation seeking). Half state that they sanitize data and most participants\nreport not sharing sensitive data. However, few share very sensitive data such\nas passwords. The majority are unaware that their data can be used to train\nmodels and that they can opt-out. Our findings suggest that current academic\nthreat models manifest in the wild, and mitigations or guidelines for the\nsecure usage of CAs should be developed. In areas critical to security and\nprivacy, CAs must be equipped with effective AI guardrails to prevent, for\nexample, revealing sensitive information to curious employees. Vendors need to\nincrease efforts to prevent the entry of sensitive data, and to create\ntransparency with regard to data usage policies and settings.",
+    "updated" : "2025-10-31T08:35:42Z",
+    "published" : "2025-10-31T08:35:42Z",
+    "authors" : [
+      {
+        "name" : "Kathrin Grosse"
+      },
+      {
+        "name" : "Nico Ebert"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.27213v1",
+    "title" : "Privacy-Aware Continual Self-Supervised Learning on Multi-Window Chest\n  Computed Tomography for Domain-Shift Robustness",
+    "summary" : "We propose a novel continual self-supervised learning (CSSL) framework for\nsimultaneously learning diverse features from multi-window-obtained chest\ncomputed tomography (CT) images and ensuring data privacy. Achieving a robust\nand highly generalizable model in medical image diagnosis is challenging,\nmainly because of issues, such as the scarcity of large-scale, accurately\nannotated datasets and domain shifts inherent to dynamic healthcare\nenvironments. Specifically, in chest CT, these domain shifts often arise from\ndifferences in window settings, which are optimized for distinct clinical\npurposes. Previous CSSL frameworks often mitigated domain shift by reusing past\ndata, a typically impractical approach owing to privacy constraints. Our\napproach addresses these challenges by effectively capturing the relationship\nbetween previously learned knowledge and new information across different\ntraining stages through continual pretraining on unlabeled images.\nSpecifically, by incorporating a latent replay-based mechanism into CSSL, our\nmethod mitigates catastrophic forgetting due to domain shifts during continual\npretraining while ensuring data privacy. Additionally, we introduce a feature\ndistillation technique that integrates Wasserstein distance-based knowledge\ndistillation (WKD) and batch-knowledge ensemble (BKE), enhancing the ability of\nthe model to learn meaningful, domain-shift-robust representations. Finally, we\nvalidate our approach using chest CT images obtained across two different\nwindow settings, demonstrating superior performance compared with other\napproaches.",
+    "updated" : "2025-10-31T06:16:31Z",
+    "published" : "2025-10-31T06:16:31Z",
+    "authors" : [
+      {
+        "name" : "Ren Tasai"
+      },
+      {
+        "name" : "Guang Li"
+      },
+      {
+        "name" : "Ren Togo"
+      },
+      {
+        "name" : "Takahiro Ogawa"
+      },
+      {
+        "name" : "Kenji Hirata"
+      },
+      {
+        "name" : "Minghui Tang"
+      },
+      {
+        "name" : "Takaaki Yoshimura"
+      },
+      {
+        "name" : "Hiroyuki Sugimori"
+      },
+      {
+        "name" : "Noriko Nishioka"
+      },
+      {
+        "name" : "Yukie Shimizu"
+      },
+      {
+        "name" : "Kohsuke Kudo"
+      },
+      {
+        "name" : "Miki Haseyama"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.27016v1",
+    "title" : "Semantically-Aware LLM Agent to Enhance Privacy in Conversational AI\n  Services",
+    "summary" : "With the increasing use of conversational AI systems, there is growing\nconcern over privacy leaks, especially when users share sensitive personal data\nin interactions with Large Language Models (LLMs). Conversations shared with\nthese models may contain Personally Identifiable Information (PII), which, if\nexposed, could lead to security breaches or identity theft. To address this\nchallenge, we present the Local Optimizations for Pseudonymization with\nSemantic Integrity Directed Entity Detection (LOPSIDED) framework, a\nsemantically-aware privacy agent designed to safeguard sensitive PII data when\nusing remote LLMs. Unlike prior work that often degrade response quality, our\napproach dynamically replaces sensitive PII entities in user prompts with\nsemantically consistent pseudonyms, preserving the contextual integrity of\nconversations. Once the model generates its response, the pseudonyms are\nautomatically depseudonymized, ensuring the user receives an accurate,\nprivacy-preserving output. We evaluate our approach using real-world\nconversations sourced from ShareGPT, which we further augment and annotate to\nassess whether named entities are contextually relevant to the model's\nresponse. Our results show that LOPSIDED reduces semantic utility errors by a\nfactor of 5 compared to baseline techniques, all while enhancing privacy.",
+    "updated" : "2025-10-30T21:34:23Z",
+    "published" : "2025-10-30T21:34:23Z",
+    "authors" : [
+      {
+        "name" : "Jayden Serenari"
+      },
+      {
+        "name" : "Stephen Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.26841v1",
+    "title" : "Accurate Target Privacy Preserving Federated Learning Balancing Fairness\n  and Utility",
+    "summary" : "Federated Learning (FL) enables collaborative model training without data\nsharing, yet participants face a fundamental challenge, e.g., simultaneously\nensuring fairness across demographic groups while protecting sensitive client\ndata. We introduce a differentially private fair FL algorithm (\\textit{FedPF})\nthat transforms this multi-objective optimization into a zero-sum game where\nfairness and privacy constraints compete against model utility. Our theoretical\nanalysis reveals a surprising inverse relationship, i.e., stricter privacy\nprotection fundamentally limits the system's ability to detect and correct\ndemographic biases, creating an inherent tension between privacy and fairness.\nCounterintuitively, we prove that moderate fairness constraints initially\nimprove model generalization before causing performance degradation, where a\nnon-monotonic relationship that challenges conventional wisdom about\nfairness-utility tradeoffs. Experimental validation demonstrates up to 42.9 %\ndiscrimination reduction across three datasets while maintaining competitive\naccuracy, but more importantly, reveals that the privacy-fairness tension is\nunavoidable, i.e., achieving both objectives simultaneously requires carefully\nbalanced compromises rather than optimization of either in isolation. The\nsource code for our proposed algorithm is publicly accessible at\nhttps://github.com/szpsunkk/FedPF.",
+    "updated" : "2025-10-30T07:14:55Z",
+    "published" : "2025-10-30T07:14:55Z",
+    "authors" : [
+      {
+        "name" : "Kangkang Sun"
+      },
+      {
+        "name" : "Jun Wu"
+      },
+      {
+        "name" : "Minyi Guo"
+      },
+      {
+        "name" : "Jianhua Li"
+      },
+      {
+        "name" : "Jianwei Huang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "F.2.2"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.21591v2",
+    "title" : "Privacy by Design: Aligning GDPR and Software Engineering Specifications\n  with a Requirements Engineering Approach",
+    "summary" : "Context: Consistent requirements and system specifications are essential for\nthe compliance of software systems towards the General Data Protection\nRegulation (GDPR). Both artefacts need to be grounded in the original text and\nconjointly assure the achievement of privacy by design (PbD). Objectives: There\nis little understanding of the perspectives of practitioners on specification\nobjectives and goals to address PbD. Existing approaches do not account for the\ncomplex intersection between problem and solution space expressed in GDPR. In\nthis study we explore the demand for conjoint requirements and system\nspecification for PbD and suggest an approach to address this demand. Methods:\nWe reviewed secondary and related primary studies and conducted interviews with\npractitioners to (1) investigate the state-of-practice and (2) understand the\nunderlying specification objectives and goals (e.g., traceability). We\ndeveloped and evaluated an approach for requirements and systems specification\nfor PbD, and evaluated it against the specification objectives. Results: The\nrelationship between problem and solution space, as expressed in GDPR, is\ninstrumental in supporting PbD. We demonstrate how our approach, based on the\nmodeling GDPR content with original legal concepts, contributes to\nspecification objectives of capturing legal knowledge, supporting specification\ntransparency, and traceability. Conclusion: GDPR demands need to be addressed\nthroughout different levels of abstraction in the engineering lifecycle to\nachieve PbD. Legal knowledge specified in the GDPR text should be captured in\nspecifications to address the demands of different stakeholders and ensure\ncompliance. While our results confirm the suitability of our approach to\naddress practical needs, we also revealed specific needs for the future\neffective operationalization of the approach.",
+    "updated" : "2025-10-31T10:51:22Z",
+    "published" : "2025-10-24T15:59:34Z",
+    "authors" : [
+      {
+        "name" : "Oleksandr Kosenkov"
+      },
+      {
+        "name" : "Ehsan Zabardast"
+      },
+      {
+        "name" : "Davide Fucci"
+      },
+      {
+        "name" : "Daniel Mendez"
+      },
+      {
+        "name" : "Michael Unterkalmsteiner"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
   }
 ]
