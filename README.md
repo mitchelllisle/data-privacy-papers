@@ -1071,7 +1071,7 @@ decentralized privacy accounting.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.19537v1">Privacy-Preserving Spiking Neural Networks: A Deep Dive into Encryption
+  <h3><a href="http://arxiv.org/abs/2510.19537v2">Privacy-Preserving Spiking Neural Networks: A Deep Dive into Encryption
   Parameter Optimisation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-10-22T12:43:46Z</p>
