@@ -3153,5 +3153,35 @@
     "categories" : [
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.19537v2",
+    "title" : "Privacy-Preserving Spiking Neural Networks: A Deep Dive into Encryption\n  Parameter Optimisation",
+    "summary" : "Deep learning is widely applied to modern problems through neural networks,\nbut the growing computational and energy demands of these models have driven\ninterest in more efficient approaches. Spiking Neural Networks (SNNs), the\nthird generation of neural networks, mimic the brain's event-driven behaviour,\noffering improved performance and reduced power use. At the same time, concerns\nabout data privacy during cloud-based model execution have led to the adoption\nof cryptographic methods. This article introduces BioEncryptSNN, a spiking\nneural network based encryption-decryption framework for secure and\nnoise-resilient data protection. Unlike conventional algorithms, BioEncryptSNN\nconverts ciphertext into spike trains and exploits temporal neural dynamics to\nmodel encryption and decryption, optimising parameters such as key length,\nspike timing, and synaptic connectivity. Benchmarked against AES-128, RSA-2048,\nand DES, BioEncryptSNN preserved data integrity while achieving up to 4.1x\nfaster encryption and decryption than PyCryptodome's AES implementation. The\nframework demonstrates scalability and adaptability across symmetric and\nasymmetric ciphers, positioning SNNs as a promising direction for secure,\nenergy-efficient computing.",
+    "updated" : "2025-11-02T09:47:24Z",
+    "published" : "2025-10-22T12:43:46Z",
+    "authors" : [
+      {
+        "name" : "Mahitha Pulivathi"
+      },
+      {
+        "name" : "Ana Fontes Rodrigues"
+      },
+      {
+        "name" : "Isibor Kennedy Ihianle"
+      },
+      {
+        "name" : "Andreas Oikonomou"
+      },
+      {
+        "name" : "Srinivas Boppu"
+      },
+      {
+        "name" : "Pedro Machado"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
