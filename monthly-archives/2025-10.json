@@ -3183,5 +3183,60 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00269v1",
+    "title" : "FedReplay: A Feature Replay Assisted Federated Transfer Learning\n  Framework for Efficient and Privacy-Preserving Smart Agriculture",
+    "summary" : "Accurate classification plays a pivotal role in smart agriculture, enabling\napplications such as crop monitoring, fruit recognition, and pest detection.\nHowever, conventional centralized training often requires large-scale data\ncollection, which raises privacy concerns, while standard federated learning\nstruggles with non-independent and identically distributed (non-IID) data and\nincurs high communication costs. To address these challenges, we propose a\nfederated learning framework that integrates a frozen Contrastive\nLanguage-Image Pre-training (CLIP) vision transformer (ViT) with a lightweight\ntransformer classifier. By leveraging the strong feature extraction capability\nof the pre-trained CLIP ViT, the framework avoids training large-scale models\nfrom scratch and restricts federated updates to a compact classifier, thereby\nreducing transmission overhead significantly. Furthermore, to mitigate\nperformance degradation caused by non-IID data distribution, a small subset\n(1%) of CLIP-extracted feature representations from all classes is shared\nacross clients. These shared features are non-reversible to raw images,\nensuring privacy preservation while aligning class representation across\nparticipants. Experimental results on agricultural classification tasks show\nthat the proposed method achieve 86.6% accuracy, which is more than 4 times\nhigher compared to baseline federated learning approaches. This demonstrates\nthe effectiveness and efficiency of combining vision-language model features\nwith federated learning for privacy-preserving and scalable agricultural\nintelligence.",
+    "updated" : "2025-10-31T21:44:52Z",
+    "published" : "2025-10-31T21:44:52Z",
+    "authors" : [
+      {
+        "name" : "Long Li"
+      },
+      {
+        "name" : "Jiajia Li"
+      },
+      {
+        "name" : "Dong Chen"
+      },
+      {
+        "name" : "Lina Pu"
+      },
+      {
+        "name" : "Haibo Yao"
+      },
+      {
+        "name" : "Yanbo Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.15112v2",
+    "title" : "AndroByte: LLM-Driven Privacy Analysis through Bytecode Summarization\n  and Dynamic Dataflow Call Graph Generation",
+    "summary" : "With the exponential growth in mobile applications, protecting user privacy\nhas become even more crucial. Android applications are often known for\ncollecting, storing, and sharing sensitive user information such as contacts,\nlocation, camera, and microphone data often without the user's clear consent or\nawareness raising significant privacy risks and exposure. In the context of\nprivacy assessment, dataflow analysis is particularly valuable for identifying\ndata usage and potential leaks. Traditionally, this type of analysis has relied\non formal methods, heuristics, and rule-based matching. However, these\ntechniques are often complex to implement and prone to errors, such as taint\nexplosion for large programs. Moreover, most existing Android dataflow analysis\nmethods depend heavily on predefined list of sinks, limiting their flexibility\nand scalability. To address the limitations of these existing techniques, we\npropose AndroByte, an AI-driven privacy analysis tool that leverages LLM\nreasoning on bytecode summarization to dynamically generate accurate and\nexplainable dataflow call graphs from static code analysis. AndroByte achieves\na significant F\\b{eta}-Score of 89% in generating dynamic dataflow call graphs\non the fly, outperforming the effectiveness of traditional tools like FlowDroid\nand Amandroid in leak detection without relying on predefined propagation rules\nor sink lists. Moreover, AndroByte's iterative bytecode summarization provides\ncomprehensive and explainable insights into dataflow and leak detection,\nachieving high, quantifiable scores based on the G-Eval metric.",
+    "updated" : "2025-11-04T03:23:20Z",
+    "published" : "2025-10-16T20:10:20Z",
+    "authors" : [
+      {
+        "name" : "Mst Eshita Khatun"
+      },
+      {
+        "name" : "Lamine Noureddine"
+      },
+      {
+        "name" : "Zhiyong Sui"
+      },
+      {
+        "name" : "Aisha Ali-Gombe"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
