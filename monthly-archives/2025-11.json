@@ -1,1 +1,431 @@
-[{"id":"http://arxiv.org/abs/2511.02797v1","title":"Fast, Private, and Protected: Safeguarding Data Privacy and Defending\n  Against Model Poisoning Attacks in Federated Learning","summary":"Federated Learning (FL) is a distributed training paradigm wherein\nparticipants collaborate to build a global model while ensuring the privacy of\nthe involved data, which remains stored on participant devices. However,\nproposals aiming to ensure such privacy also make it challenging to protect\nagainst potential attackers seeking to compromise the training outcome. In this\ncontext, we present Fast, Private, and Protected (FPP), a novel approach that\naims to safeguard federated training while enabling secure aggregation to\npreserve data privacy. This is accomplished by evaluating rounds using\nparticipants' assessments and enabling training recovery after an attack. FPP\nalso employs a reputation-based mechanism to mitigate the participation of\nattackers. We created a dockerized environment to validate the performance of\nFPP compared to other approaches in the literature (FedAvg, Power-of-Choice,\nand aggregation via Trimmed Mean and Median). Our experiments demonstrate that\nFPP achieves a rapid convergence rate and can converge even in the presence of\nmalicious participants performing model poisoning attacks.","updated":"2025-11-04T18:20:45Z","published":"2025-11-04T18:20:45Z","authors":[{"name":"Nicolas Riccieri Gardin Assumpcao"},{"name":"Leandro Villas"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2511.02785v1","title":"Enhancing Federated Learning Privacy with QUBO","summary":"Federated learning (FL) is a widely used method for training machine learning\n(ML) models in a scalable way while preserving privacy (i.e., without\ncentralizing raw data). Prior research shows that the risk of exposing\nsensitive data increases cumulatively as the number of iterations where a\nclient's updates are included in the aggregated model increase. Attackers can\nlaunch membership inference attacks (MIA; deciding whether a sample or client\nparticipated), property inference attacks (PIA; inferring attributes of a\nclient's data), and model inversion attacks (MI; reconstructing inputs),\nthereby inferring client-specific attributes and, in some cases, reconstructing\ninputs. In this paper, we mitigate risk by substantially reducing per client\nexposure using a quantum computing-inspired quadratic unconstrained binary\noptimization (QUBO) formulation that selects a small subset of client updates\nmost relevant for each training round. In this work, we focus on two threat\nvectors: (i) information leakage by clients during training and (ii)\nadversaries who can query or obtain the global model. We assume a trusted\ncentral server and do not model server compromise. This method also assumes\nthat the server has access to a validation/test set with global data\ndistribution. Experiments on the MNIST dataset with 300 clients in 20 rounds\nshowed a 95.2% per-round and 49% cumulative privacy exposure reduction, with\n147 clients' updates never being used during training while maintaining in\ngeneral the full-aggregation accuracy or even better. The method proved to be\nefficient at lower scale and more complex model as well. A CINIC-10\ndataset-based experiment with 30 clients resulted in 82% per-round privacy\nimprovement and 33% cumulative privacy.","updated":"2025-11-04T18:06:30Z","published":"2025-11-04T18:06:30Z","authors":[{"name":"Andras Ferenczi"},{"name":"Sutapa Samanta"},{"name":"Dagen Wang"},{"name":"Todd Hodges"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2511.02297v1","title":"Two-Parameter Rényi Information Quantities with Applications to\n  Privacy Amplification and Soft Covering","summary":"There are no universally accepted definitions of R\\'enyi conditional entropy\nand R\\'enyi mutual information, although motivated by different applications,\nseveral definitions have been proposed in the literature. In this paper, we\nconsider a family of two-parameter R\\'enyi conditional entropy and a family of\ntwo-parameter R\\'enyi mutual information. By performing a change of variables\nfor the parameters, the two-parameter R\\'enyi conditional entropy we study\ncoincides precisely with the definition introduced by Hayashi and Tan [IEEE\nTrans. Inf. Theory, 2016], and it also emerges naturally as the classical\nspecialization of the three-parameter quantum R\\'enyi conditional entropy\nrecently put forward by Rubboli, Goodarzi, and Tomamichel [arXiv:2410.21976\n(2024)]. We establish several fundamental properties of the two-parameter\nR\\'enyi conditional entropy, including monotonicity with respect to the\nparameters and variational expression. The associated two-parameter R\\'enyi\nmutual information considered in this paper is new and it unifies three\ncommonly used variants of R\\'enyi mutual information. For this quantity, we\nprove several important properties, including the non-negativity, additivity,\ndata processing inequality, monotonicity with respect to the parameters,\nvariational expression, as well as convexity and concavity. Finally, we\ndemonstrate that these two-parameter R\\'enyi information quantities can be used\nto characterize the strong converse exponents in privacy amplification and soft\ncovering problems under R\\'enyi divergence of order $\\alpha \\in (0, \\infty)$.","updated":"2025-11-04T06:21:38Z","published":"2025-11-04T06:21:38Z","authors":[{"name":"Shi-Bing Li"},{"name":"Ke Li"},{"name":"Lei Yu"}],"categories":["cs.IT","math.IT"]},{"id":"http://arxiv.org/abs/2511.02283v1","title":"Distributed Nonconvex Optimization with Double Privacy Protection and\n  Exact Convergence","summary":"Motivated by the pervasive lack of privacy protection in existing distributed\nnonconvex optimization methods, this paper proposes a decentralized proximal\nprimal-dual algorithm enabling double protection of privacy ($\\text{DPP}^2$)\nfor minimizing nonconvex sum-utility functions over multi-agent networks, which\nensures zero leakage of critical local information during inter-agent\ncommunications. We develop a two-tier privacy protection mechanism that first\nmerges the primal and dual variables by means of a variable transformation,\nfollowed by embedding an additional random perturbation to further obfuscate\nthe transmitted information. We theoretically establish that $\\text{DPP}^2$\nensures differential privacy for local objectives while achieving exact\nconvergence under nonconvex settings. Specifically, $\\text{DPP}^2$ converges\nsublinearly to a stationary point and attains a linear convergence rate under\nthe additional Polyak-{\\L}ojasiewicz (P-{\\L}) condition. Finally, a numerical\nexample demonstrates the superiority of $\\text{DPP}^2$ over a number of\nstate-of-the-art algorithms, showcasing the faster, exact convergence achieved\nby $\\text{DPP}^2$ under the same level of differential privacy.","updated":"2025-11-04T05:51:34Z","published":"2025-11-04T05:51:34Z","authors":[{"name":"Zichong Ou"},{"name":"Dandan Wang"},{"name":"Zixuan Liu"},{"name":"Jie Lu"}],"categories":["math.OC"]},{"id":"http://arxiv.org/abs/2511.02227v1","title":"Interval Estimation for Binomial Proportions Under Differential Privacy","summary":"When releasing binary proportions computed using sensitive data, several\ngovernment agencies and other data stewards protect confidentiality of the\nunderlying values by ensuring the released statistics satisfy differential\nprivacy. Typically, this is done by adding carefully chosen noise to the sample\nproportion computed using the confidential data. In this article, we describe\nand compare methods for turning this differentially private proportion into an\ninterval estimate for an underlying population probability. Specifically, we\nconsider differentially private versions of the Wald and Wilson intervals,\nBayesian credible intervals based on denoising the differentially private\nproportion, and an exact interval motivated by the Clopper-Pearson confidence\ninterval. We examine the repeated sampling performances of the intervals using\nsimulation studies under both the Laplace mechanism and discrete Gaussian\nmechanism across a range of privacy guarantees. We find that while several\nmethods can offer reasonable performances, the Bayesian credible intervals are\nthe most attractive.","updated":"2025-11-04T03:41:10Z","published":"2025-11-04T03:41:10Z","authors":[{"name":"Hsuan-Chen Kao"},{"name":"Jerome P. Reiter"}],"categories":["stat.ME"]},{"id":"http://arxiv.org/abs/2511.01752v1","title":"An assessment of the Commission's Proposal on Privacy and Electronic\n  Communications","summary":"This study, commissioned by the European Parliament's Policy Department for\nCitizens Rights and Constitutional Affairs at the request of the LIBE\nCommittee, appraises the European Commission's proposal for an ePrivacy\nRegulation. The study assesses whether the proposal would ensure that the right\nto the protection of personal data, the right to respect for private life and\ncommunications, and related rights enjoy a high standard of protection. The\nstudy also highlights the proposal's potential benefits and drawbacks more\ngenerally.","updated":"2025-11-03T17:01:35Z","published":"2025-11-03T17:01:35Z","authors":[{"name":"Frederik Zuiderveen Borgesius"},{"name":"Joris van Hoboken"},{"name":"Ronan Fahy"},{"name":"Kristina Irion"},{"name":"Max Rozendaal"}],"categories":["cs.CY"]},{"id":"http://arxiv.org/abs/2511.01654v1","title":"Panther: A Cost-Effective Privacy-Preserving Framework for GNN Training\n  and Inference Services in Cloud Environments","summary":"Graph Neural Networks (GNNs) have marked significant impact in traffic state\nprediction, social recommendation, knowledge-aware question answering and so\non. As more and more users move towards cloud computing, it has become a\ncritical issue to unleash the power of GNNs while protecting the privacy in\ncloud environments. Specifically, the training data and inference data for GNNs\nneed to be protected from being stolen by external adversaries. Meanwhile, the\nfinancial cost of cloud computing is another primary concern for users.\nTherefore, although existing studies have proposed privacy-preserving\ntechniques for GNNs in cloud environments, their additional computational and\ncommunication overhead remain relatively high, causing high financial costs\nthat limit their widespread adoption among users.\n  To protect GNN privacy while lowering the additional financial costs, we\nintroduce Panther, a cost-effective privacy-preserving framework for GNN\ntraining and inference services in cloud environments. Technically, Panther\nleverages four-party computation to asynchronously executing the secure array\naccess protocol, and randomly pads the neighbor information of GNN nodes. We\nprove that Panther can protect privacy for both training and inference of GNN\nmodels. Our evaluation shows that Panther reduces the training and inference\ntime by an average of 75.28% and 82.80%, respectively, and communication\noverhead by an average of 52.61% and 50.26% compared with the state-of-the-art,\nwhich is estimated to save an average of 55.05% and 59.00% in financial costs\n(based on on-demand pricing model) for the GNN training and inference process\non Google Cloud Platform.","updated":"2025-11-03T15:15:40Z","published":"2025-11-03T15:15:40Z","authors":[{"name":"Congcong Chen"},{"name":"Xinyu Liu"},{"name":"Kaifeng Huang"},{"name":"Lifei Wei"},{"name":"Yang Shi"}],"categories":["cs.CR","cs.LG"]},{"id":"http://arxiv.org/abs/2511.01583v1","title":"Federated Cyber Defense: Privacy-Preserving Ransomware Detection Across\n  Distributed Systems","summary":"Detecting malware, especially ransomware, is essential to securing today's\ninterconnected ecosystems, including cloud storage, enterprise file-sharing,\nand database services. Training high-performing artificial intelligence (AI)\ndetectors requires diverse datasets, which are often distributed across\nmultiple organizations, making centralization necessary. However, centralized\nlearning is often impractical due to security, privacy regulations, data\nownership issues, and legal barriers to cross-organizational sharing.\nCompounding this challenge, ransomware evolves rapidly, demanding models that\nare both robust and adaptable.\n  In this paper, we evaluate Federated Learning (FL) using the Sherpa.ai FL\nplatform, which enables multiple organizations to collaboratively train a\nransomware detection model while keeping raw data local and secure. This\nparadigm is particularly relevant for cybersecurity companies (including both\nsoftware and hardware vendors) that deploy ransomware detection or firewall\nsystems across millions of endpoints. In such environments, data cannot be\ntransferred outside the customer's device due to strict security, privacy, or\nregulatory constraints. Although FL applies broadly to malware threats, we\nvalidate the approach using the Ransomware Storage Access Patterns (RanSAP)\ndataset.\n  Our experiments demonstrate that FL improves ransomware detection accuracy by\na relative 9% over server-local models and achieves performance comparable to\ncentralized training. These results indicate that FL offers a scalable,\nhigh-performing, and privacy-preserving framework for proactive ransomware\ndetection across organizational and regulatory boundaries.","updated":"2025-11-03T13:54:13Z","published":"2025-11-03T13:54:13Z","authors":[{"name":"Daniel M. Jimenez-Gutierrez"},{"name":"Enrique Zuazua"},{"name":"Joaquin Del Rio"},{"name":"Oleksii Sliusarenko"},{"name":"Xabi Uribe-Etxebarria"}],"categories":["cs.CR","cs.AI","cs.DC","cs.LG"]},{"id":"http://arxiv.org/abs/2511.01467v1","title":"Quantum Blackwell's Ordering and Differential Privacy","summary":"We develop a framework for quantum differential privacy (QDP) based on\nquantum hypothesis testing and Blackwell's ordering. This approach\ncharacterizes $(\\eps,\\delta)$-QDP via hypothesis testing divergences and\nidentifies the most informative quantum state pairs under privacy constraints.\nWe apply this to analyze the stability of quantum learning algorithms,\ngeneralizing classical results to the case $\\delta>0$. Additionally, we study\nprivatized quantum parameter estimation, deriving tight bounds on the quantum\nFisher information under QDP. Finally, we establish near-optimal contraction\nbounds for differentially private quantum channels with respect to the\nhockey-stick divergence.","updated":"2025-11-03T11:24:52Z","published":"2025-11-03T11:24:52Z","authors":[{"name":"Ayanava Dasgupta"},{"name":"Naqueeb Ahmad Warsi"},{"name":"Masahito Hayashi"}],"categories":["quant-ph","cs.IT","cs.LG","math.IT"]},{"id":"http://arxiv.org/abs/2511.01449v1","title":"Privacy Preserving Ordinal-Meta Learning with VLMs for Fine-Grained\n  Fruit Quality Prediction","summary":"To effectively manage the wastage of perishable fruits, it is crucial to\naccurately predict their freshness or shelf life using non-invasive methods\nthat rely on visual data. In this regard, deep learning techniques can offer a\nviable solution. However, obtaining fine-grained fruit freshness labels from\nexperts is costly, leading to a scarcity of data. Closed proprietary Vision\nLanguage Models (VLMs), such as Gemini, have demonstrated strong performance in\nfruit freshness detection task in both zero-shot and few-shot settings.\nNonetheless, food retail organizations are unable to utilize these proprietary\nmodels due to concerns related to data privacy, while existing open-source VLMs\nyield sub-optimal performance for the task. Fine-tuning these open-source\nmodels with limited data fails to achieve the performance levels of proprietary\nmodels. In this work, we introduce a Model-Agnostic Ordinal Meta-Learning\n(MAOML) algorithm, designed to train smaller VLMs. This approach utilizes\nmeta-learning to address data sparsity and leverages label ordinality, thereby\nachieving state-of-the-art performance in the fruit freshness classification\ntask under both zero-shot and few-shot settings. Our method achieves an\nindustry-standard accuracy of 92.71%, averaged across all fruits.\n  Keywords: Fruit Quality Prediction, Vision Language Models, Meta Learning,\nOrdinal Regression","updated":"2025-11-03T11:03:54Z","published":"2025-11-03T11:03:54Z","authors":[{"name":"Riddhi Jain"},{"name":"Manasi Patwardhan"},{"name":"Aayush Mishra"},{"name":"Parijat Deshpande"},{"name":"Beena Rai"}],"categories":["cs.CV","cs.AI"]},{"id":"http://arxiv.org/abs/2511.01307v1","title":"Perturb a Model, Not an Image: Towards Robust Privacy Protection via\n  Anti-Personalized Diffusion Models","summary":"Recent advances in diffusion models have enabled high-quality synthesis of\nspecific subjects, such as identities or objects. This capability, while\nunlocking new possibilities in content creation, also introduces significant\nprivacy risks, as personalization techniques can be misused by malicious users\nto generate unauthorized content. Although several studies have attempted to\ncounter this by generating adversarially perturbed samples designed to disrupt\npersonalization, they rely on unrealistic assumptions and become ineffective in\nthe presence of even a few clean images or under simple image transformations.\nTo address these challenges, we shift the protection target from the images to\nthe diffusion model itself to hinder the personalization of specific subjects,\nthrough our novel framework called Anti-Personalized Diffusion Models (APDM).\nWe first provide a theoretical analysis demonstrating that a naive approach of\nexisting loss functions to diffusion models is inherently incapable of ensuring\nconvergence for robust anti-personalization. Motivated by this finding, we\nintroduce Direct Protective Optimization (DPO), a novel loss function that\neffectively disrupts subject personalization in the target model without\ncompromising generative quality. Moreover, we propose a new dual-path\noptimization strategy, coined Learning to Protect (L2P). By alternating between\npersonalization and protection paths, L2P simulates future personalization\ntrajectories and adaptively reinforces protection at each step. Experimental\nresults demonstrate that our framework outperforms existing methods, achieving\nstate-of-the-art performance in preventing unauthorized personalization. The\ncode is available at https://github.com/KU-VGI/APDM.","updated":"2025-11-03T07:42:05Z","published":"2025-11-03T07:42:05Z","authors":[{"name":"Tae-Young Lee"},{"name":"Juwon Seo"},{"name":"Jong Hwan Ko"},{"name":"Gyeong-Moon Park"}],"categories":["cs.CV","cs.AI"]},{"id":"http://arxiv.org/abs/2511.01197v2","title":"CryptoMoE: Privacy-Preserving and Scalable Mixture of Experts Inference\n  via Balanced Expert Routing","summary":"Private large language model (LLM) inference based on cryptographic\nprimitives offers a promising path towards privacy-preserving deep learning.\nHowever, existing frameworks only support dense LLMs like LLaMA-1 and struggle\nto scale to mixture-of-experts (MoE) architectures. The key challenge comes\nfrom securely evaluating the dynamic routing mechanism in MoE layers, which may\nreveal sensitive input information if not fully protected. In this paper, we\npropose CryptoMoE, the first framework that enables private, efficient, and\naccurate inference for MoE-based models. CryptoMoE balances expert loads to\nprotect expert routing information and proposes novel protocols for secure\nexpert dispatch and combine. CryptoMoE also develops a confidence-aware token\nselection strategy and a batch matrix multiplication protocol to improve\naccuracy and efficiency further. Extensive experiments on DeepSeekMoE-16.4B,\nOLMoE-6.9B, and QWenMoE-14.3B show that CryptoMoE achieves $2.8\\sim3.5\\times$\nend-to-end latency reduction and $2.9\\sim4.3\\times$ communication reduction\nover a dense baseline with minimum accuracy loss. We also adapt CipherPrune\n(ICLR'25) for MoE inference and demonstrate CryptoMoE can reduce the\ncommunication by up to $4.3 \\times$. Code is available at:\nhttps://github.com/PKU-SEC-Lab/CryptoMoE.","updated":"2025-11-04T03:48:37Z","published":"2025-11-03T03:45:08Z","authors":[{"name":"Yifan Zhou"},{"name":"Tianshi Xu"},{"name":"Jue Hong"},{"name":"Ye Wu"},{"name":"Meng Li"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2511.00795v1","title":"FedOnco-Bench: A Reproducible Benchmark for Privacy-Aware Federated\n  Tumor Segmentation with Synthetic CT Data","summary":"Federated Learning (FL) allows multiple institutions to cooperatively train\nmachine learning models while retaining sensitive data at the source, which has\ngreat utility in privacy-sensitive environments. However, FL systems remain\nvulnerable to membership-inference attacks and data heterogeneity. This paper\npresents FedOnco-Bench, a reproducible benchmark for privacy-aware FL using\nsynthetic oncologic CT scans with tumor annotations. It evaluates segmentation\nperformance and privacy leakage across FL methods: FedAvg, FedProx, FedBN, and\nFedAvg with DP-SGD. Results show a distinct trade-off between privacy and\nutility: FedAvg is high performance (Dice around 0.85) with more privacy\nleakage (attack AUC about 0.72), while DP-SGD provides a higher level of\nprivacy (AUC around 0.25) at the cost of accuracy (Dice about 0.79). FedProx\nand FedBN offer balanced performance under heterogeneous data, especially with\nnon-identical distributed client data. FedOnco-Bench serves as a standardized,\nopen-source platform for benchmarking and developing privacy-preserving FL\nmethods for medical image segmentation.","updated":"2025-11-02T04:17:14Z","published":"2025-11-02T04:17:14Z","authors":[{"name":"Viswa Chaitanya Marella"},{"name":"Suhasnadh Reddy Veluru"},{"name":"Sai Teja Erukude"}],"categories":["cs.CV","cs.AI"]},{"id":"http://arxiv.org/abs/2511.00737v1","title":"EP-HDC: Hyperdimensional Computing with Encrypted Parameters for\n  High-Throughput Privacy-Preserving Inference","summary":"While homomorphic encryption (HE) provides strong privacy protection, its\nhigh computational cost has restricted its application to simple tasks.\nRecently, hyperdimensional computing (HDC) applied to HE has shown promising\nperformance for privacy-preserving machine learning (PPML). However, when\napplied to more realistic scenarios such as batch inference, the HDC-based HE\nhas still very high compute time as well as high encryption and data\ntransmission overheads. To address this problem, we propose HDC with encrypted\nparameters (EP-HDC), which is a novel PPML approach featuring client-side HE,\ni.e., inference is performed on a client using a homomorphically encrypted\nmodel. Our EP-HDC can effectively mitigate the encryption and data transmission\noverhead, as well as providing high scalability with many clients while\nproviding strong protection for user data and model parameters. In addition to\napplication examples for our client-side PPML, we also present design space\nexploration involving quantization, architecture, and HE-related parameters.\nOur experimental results using the BFV scheme and the Face/Emotion datasets\ndemonstrate that our method can improve throughput and latency of batch\ninference by orders of magnitude over previous PPML methods (36.52~1068x and\n6.45~733x, respectively) with less than 1% accuracy degradation.","updated":"2025-11-01T23:22:01Z","published":"2025-11-01T23:22:01Z","authors":[{"name":"Jaewoo Park"},{"name":"Chenghao Quan"},{"name":"Jongeun Lee"}],"categories":["cs.CR","cs.AI"]},{"id":"http://arxiv.org/abs/2511.00700v1","title":"Privacy-Aware Time Series Synthesis via Public Knowledge Distillation","summary":"Sharing sensitive time series data in domains such as finance, healthcare,\nand energy consumption, such as patient records or investment accounts, is\noften restricted due to privacy concerns. Privacy-aware synthetic time series\ngeneration addresses this challenge by enforcing noise during training,\ninherently introducing a trade-off between privacy and utility. In many cases,\nsensitive sequences is correlated with publicly available, non-sensitive\ncontextual metadata (e.g., household electricity consumption may be influenced\nby weather conditions and electricity prices). However, existing privacy-aware\ndata generation methods often overlook this opportunity, resulting in\nsuboptimal privacy-utility trade-offs. In this paper, we present Pub2Priv, a\nnovel framework for generating private time series data by leveraging\nheterogeneous public knowledge. Our model employs a self-attention mechanism to\nencode public data into temporal and feature embeddings, which serve as\nconditional inputs for a diffusion model to generate synthetic private\nsequences. Additionally, we introduce a practical metric to assess privacy by\nevaluating the identifiability of the synthetic data. Experimental results show\nthat Pub2Priv consistently outperforms state-of-the-art benchmarks in improving\nthe privacy-utility trade-off across finance, energy, and commodity trading\ndomains.","updated":"2025-11-01T20:44:24Z","published":"2025-11-01T20:44:24Z","authors":[{"name":"Penghang Liu"},{"name":"Haibei Zhu"},{"name":"Eleonora Kreacic"},{"name":"Svitlana Vyetrenko"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2511.00487v1","title":"With Privacy, Size Matters: On the Importance of Dataset Size in\n  Differentially Private Text Rewriting","summary":"Recent work in Differential Privacy with Natural Language Processing (DP NLP)\nhas proposed numerous promising techniques in the form of text rewriting\nmechanisms. In the evaluation of these mechanisms, an often-ignored aspect is\nthat of dataset size, or rather, the effect of dataset size on a mechanism's\nefficacy for utility and privacy preservation. In this work, we are the first\nto introduce this factor in the evaluation of DP text privatization, where we\ndesign utility and privacy tests on large-scale datasets with dynamic split\nsizes. We run these tests on datasets of varying size with up to one million\ntexts, and we focus on quantifying the effect of increasing dataset size on the\nprivacy-utility trade-off. Our findings reveal that dataset size plays an\nintegral part in evaluating DP text rewriting mechanisms; additionally, these\nfindings call for more rigorous evaluation procedures in DP NLP, as well as\nshed light on the future of DP NLP in practice and at scale.","updated":"2025-11-01T10:41:05Z","published":"2025-11-01T10:41:05Z","authors":[{"name":"Stephen Meisenbacher"},{"name":"Florian Matthes"}],"categories":["cs.CL"]},{"id":"http://arxiv.org/abs/2511.00467v1","title":"A Big Step Forward? A User-Centric Examination of iOS App Privacy Report\n  and Enhancements","summary":"The prevalent engagement with mobile apps underscores the importance of\nunderstanding their data practices. Transparency plays a crucial role in this\ncontext, ensuring users to be informed and give consent before any data access\noccurs. Apple introduced a new feature since iOS 15.2, App Privacy Report, to\ninform users about detailed insights into apps' data access and sharing. This\nfeature continues Apple's trend of privacy-focused innovations (following\nPrivacy Nutrition Labels), and has been marketed as a big step forward in user\nprivacy. However, its real-world impacts on user privacy and control remain\nunexamined. We thus proposed an end-to-end study involving systematic\nassessment of the App Privacy Report's real-world benefits and limitations,\nLLM-enabled and multi-technique synthesized enhancements, and comprehensive\nevaluation from both system and user perspectives. Through a structured focus\ngroup study with twelve everyday iOS users, we explored their experiences,\nunderstanding, and perceptions of the feature, suggesting its limited practical\nimpact resulting from missing important details. We identified two primary user\nconcerns: the clarity of data access purpose and domain description. In\nresponse, we proposed enhancements including a purpose inference framework and\ndomain clarification pipeline. We demonstrated the effectiveness and benefits\nof such enhancements for mobile app users. This work provides practical\ninsights that could help enhance user privacy transparency and discusses areas\nfor future research.","updated":"2025-11-01T09:29:04Z","published":"2025-11-01T09:29:04Z","authors":[{"name":"Liu Wang"},{"name":"Dong Wang"},{"name":"Shidong Pan"},{"name":"Zheng Jiang"},{"name":"Haoyu Wang"},{"name":"Yi Wang"}],"categories":["cs.SE"]},{"id":"http://arxiv.org/abs/2511.00414v1","title":"Embedding based Encoding Scheme for Privacy Preserving Record Linkage","summary":"To discover new insights from data, there is a growing need to share\ninformation that is often held by different organisations. One key task in data\nintegration is the calculation of similarities between records in different\ndatabases to identify pairs or sets of records that correspond to the same\nreal-world entities. Due to privacy and confidentiality concerns, however, the\nowners of sensitive databases are often not allowed or willing to exchange or\nshare their data with other organisations to allow such similarity\ncalculations. Privacy-preserving record linkage (PPRL) is the process of\nmatching records that refer to the same entity across sensitive databases held\nby different organisations while ensuring no information about the entities is\nrevealed to the participating parties. In this paper, we study how embedding\nbased encoding techniques can be applied in the PPRL context to ensure the\nprivacy of the entities that are being linked. We first convert individual\nq-grams into the embedded space and then convert the embedding of a set of\nq-grams of a given record into a binary representation. The final binary\nrepresentations can be used to link records into matches and non-matches. We\nempirically evaluate our proposed encoding technique against different\nreal-world datasets. The results suggest that our proposed encoding approach\ncan provide better linkage accuracy and protect the privacy of individuals\nagainst attack compared to state-of-the-art techniques for short record values.","updated":"2025-11-01T05:57:21Z","published":"2025-11-01T05:57:21Z","authors":[{"name":"Sirintra Vaiwsri"},{"name":"Thilina Ranbaduge"}],"categories":["cs.DB"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2511.02797v1",
+    "title" : "Fast, Private, and Protected: Safeguarding Data Privacy and Defending\n  Against Model Poisoning Attacks in Federated Learning",
+    "summary" : "Federated Learning (FL) is a distributed training paradigm wherein\nparticipants collaborate to build a global model while ensuring the privacy of\nthe involved data, which remains stored on participant devices. However,\nproposals aiming to ensure such privacy also make it challenging to protect\nagainst potential attackers seeking to compromise the training outcome. In this\ncontext, we present Fast, Private, and Protected (FPP), a novel approach that\naims to safeguard federated training while enabling secure aggregation to\npreserve data privacy. This is accomplished by evaluating rounds using\nparticipants' assessments and enabling training recovery after an attack. FPP\nalso employs a reputation-based mechanism to mitigate the participation of\nattackers. We created a dockerized environment to validate the performance of\nFPP compared to other approaches in the literature (FedAvg, Power-of-Choice,\nand aggregation via Trimmed Mean and Median). Our experiments demonstrate that\nFPP achieves a rapid convergence rate and can converge even in the presence of\nmalicious participants performing model poisoning attacks.",
+    "updated" : "2025-11-04T18:20:45Z",
+    "published" : "2025-11-04T18:20:45Z",
+    "authors" : [
+      {
+        "name" : "Nicolas Riccieri Gardin Assumpcao"
+      },
+      {
+        "name" : "Leandro Villas"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.02785v1",
+    "title" : "Enhancing Federated Learning Privacy with QUBO",
+    "summary" : "Federated learning (FL) is a widely used method for training machine learning\n(ML) models in a scalable way while preserving privacy (i.e., without\ncentralizing raw data). Prior research shows that the risk of exposing\nsensitive data increases cumulatively as the number of iterations where a\nclient's updates are included in the aggregated model increase. Attackers can\nlaunch membership inference attacks (MIA; deciding whether a sample or client\nparticipated), property inference attacks (PIA; inferring attributes of a\nclient's data), and model inversion attacks (MI; reconstructing inputs),\nthereby inferring client-specific attributes and, in some cases, reconstructing\ninputs. In this paper, we mitigate risk by substantially reducing per client\nexposure using a quantum computing-inspired quadratic unconstrained binary\noptimization (QUBO) formulation that selects a small subset of client updates\nmost relevant for each training round. In this work, we focus on two threat\nvectors: (i) information leakage by clients during training and (ii)\nadversaries who can query or obtain the global model. We assume a trusted\ncentral server and do not model server compromise. This method also assumes\nthat the server has access to a validation/test set with global data\ndistribution. Experiments on the MNIST dataset with 300 clients in 20 rounds\nshowed a 95.2% per-round and 49% cumulative privacy exposure reduction, with\n147 clients' updates never being used during training while maintaining in\ngeneral the full-aggregation accuracy or even better. The method proved to be\nefficient at lower scale and more complex model as well. A CINIC-10\ndataset-based experiment with 30 clients resulted in 82% per-round privacy\nimprovement and 33% cumulative privacy.",
+    "updated" : "2025-11-04T18:06:30Z",
+    "published" : "2025-11-04T18:06:30Z",
+    "authors" : [
+      {
+        "name" : "Andras Ferenczi"
+      },
+      {
+        "name" : "Sutapa Samanta"
+      },
+      {
+        "name" : "Dagen Wang"
+      },
+      {
+        "name" : "Todd Hodges"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.02297v1",
+    "title" : "Two-Parameter Rényi Information Quantities with Applications to\n  Privacy Amplification and Soft Covering",
+    "summary" : "There are no universally accepted definitions of R\\'enyi conditional entropy\nand R\\'enyi mutual information, although motivated by different applications,\nseveral definitions have been proposed in the literature. In this paper, we\nconsider a family of two-parameter R\\'enyi conditional entropy and a family of\ntwo-parameter R\\'enyi mutual information. By performing a change of variables\nfor the parameters, the two-parameter R\\'enyi conditional entropy we study\ncoincides precisely with the definition introduced by Hayashi and Tan [IEEE\nTrans. Inf. Theory, 2016], and it also emerges naturally as the classical\nspecialization of the three-parameter quantum R\\'enyi conditional entropy\nrecently put forward by Rubboli, Goodarzi, and Tomamichel [arXiv:2410.21976\n(2024)]. We establish several fundamental properties of the two-parameter\nR\\'enyi conditional entropy, including monotonicity with respect to the\nparameters and variational expression. The associated two-parameter R\\'enyi\nmutual information considered in this paper is new and it unifies three\ncommonly used variants of R\\'enyi mutual information. For this quantity, we\nprove several important properties, including the non-negativity, additivity,\ndata processing inequality, monotonicity with respect to the parameters,\nvariational expression, as well as convexity and concavity. Finally, we\ndemonstrate that these two-parameter R\\'enyi information quantities can be used\nto characterize the strong converse exponents in privacy amplification and soft\ncovering problems under R\\'enyi divergence of order $\\alpha \\in (0, \\infty)$.",
+    "updated" : "2025-11-04T06:21:38Z",
+    "published" : "2025-11-04T06:21:38Z",
+    "authors" : [
+      {
+        "name" : "Shi-Bing Li"
+      },
+      {
+        "name" : "Ke Li"
+      },
+      {
+        "name" : "Lei Yu"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.02283v1",
+    "title" : "Distributed Nonconvex Optimization with Double Privacy Protection and\n  Exact Convergence",
+    "summary" : "Motivated by the pervasive lack of privacy protection in existing distributed\nnonconvex optimization methods, this paper proposes a decentralized proximal\nprimal-dual algorithm enabling double protection of privacy ($\\text{DPP}^2$)\nfor minimizing nonconvex sum-utility functions over multi-agent networks, which\nensures zero leakage of critical local information during inter-agent\ncommunications. We develop a two-tier privacy protection mechanism that first\nmerges the primal and dual variables by means of a variable transformation,\nfollowed by embedding an additional random perturbation to further obfuscate\nthe transmitted information. We theoretically establish that $\\text{DPP}^2$\nensures differential privacy for local objectives while achieving exact\nconvergence under nonconvex settings. Specifically, $\\text{DPP}^2$ converges\nsublinearly to a stationary point and attains a linear convergence rate under\nthe additional Polyak-{\\L}ojasiewicz (P-{\\L}) condition. Finally, a numerical\nexample demonstrates the superiority of $\\text{DPP}^2$ over a number of\nstate-of-the-art algorithms, showcasing the faster, exact convergence achieved\nby $\\text{DPP}^2$ under the same level of differential privacy.",
+    "updated" : "2025-11-04T05:51:34Z",
+    "published" : "2025-11-04T05:51:34Z",
+    "authors" : [
+      {
+        "name" : "Zichong Ou"
+      },
+      {
+        "name" : "Dandan Wang"
+      },
+      {
+        "name" : "Zixuan Liu"
+      },
+      {
+        "name" : "Jie Lu"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.02227v1",
+    "title" : "Interval Estimation for Binomial Proportions Under Differential Privacy",
+    "summary" : "When releasing binary proportions computed using sensitive data, several\ngovernment agencies and other data stewards protect confidentiality of the\nunderlying values by ensuring the released statistics satisfy differential\nprivacy. Typically, this is done by adding carefully chosen noise to the sample\nproportion computed using the confidential data. In this article, we describe\nand compare methods for turning this differentially private proportion into an\ninterval estimate for an underlying population probability. Specifically, we\nconsider differentially private versions of the Wald and Wilson intervals,\nBayesian credible intervals based on denoising the differentially private\nproportion, and an exact interval motivated by the Clopper-Pearson confidence\ninterval. We examine the repeated sampling performances of the intervals using\nsimulation studies under both the Laplace mechanism and discrete Gaussian\nmechanism across a range of privacy guarantees. We find that while several\nmethods can offer reasonable performances, the Bayesian credible intervals are\nthe most attractive.",
+    "updated" : "2025-11-04T03:41:10Z",
+    "published" : "2025-11-04T03:41:10Z",
+    "authors" : [
+      {
+        "name" : "Hsuan-Chen Kao"
+      },
+      {
+        "name" : "Jerome P. Reiter"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01752v1",
+    "title" : "An assessment of the Commission's Proposal on Privacy and Electronic\n  Communications",
+    "summary" : "This study, commissioned by the European Parliament's Policy Department for\nCitizens Rights and Constitutional Affairs at the request of the LIBE\nCommittee, appraises the European Commission's proposal for an ePrivacy\nRegulation. The study assesses whether the proposal would ensure that the right\nto the protection of personal data, the right to respect for private life and\ncommunications, and related rights enjoy a high standard of protection. The\nstudy also highlights the proposal's potential benefits and drawbacks more\ngenerally.",
+    "updated" : "2025-11-03T17:01:35Z",
+    "published" : "2025-11-03T17:01:35Z",
+    "authors" : [
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      },
+      {
+        "name" : "Joris van Hoboken"
+      },
+      {
+        "name" : "Ronan Fahy"
+      },
+      {
+        "name" : "Kristina Irion"
+      },
+      {
+        "name" : "Max Rozendaal"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01654v1",
+    "title" : "Panther: A Cost-Effective Privacy-Preserving Framework for GNN Training\n  and Inference Services in Cloud Environments",
+    "summary" : "Graph Neural Networks (GNNs) have marked significant impact in traffic state\nprediction, social recommendation, knowledge-aware question answering and so\non. As more and more users move towards cloud computing, it has become a\ncritical issue to unleash the power of GNNs while protecting the privacy in\ncloud environments. Specifically, the training data and inference data for GNNs\nneed to be protected from being stolen by external adversaries. Meanwhile, the\nfinancial cost of cloud computing is another primary concern for users.\nTherefore, although existing studies have proposed privacy-preserving\ntechniques for GNNs in cloud environments, their additional computational and\ncommunication overhead remain relatively high, causing high financial costs\nthat limit their widespread adoption among users.\n  To protect GNN privacy while lowering the additional financial costs, we\nintroduce Panther, a cost-effective privacy-preserving framework for GNN\ntraining and inference services in cloud environments. Technically, Panther\nleverages four-party computation to asynchronously executing the secure array\naccess protocol, and randomly pads the neighbor information of GNN nodes. We\nprove that Panther can protect privacy for both training and inference of GNN\nmodels. Our evaluation shows that Panther reduces the training and inference\ntime by an average of 75.28% and 82.80%, respectively, and communication\noverhead by an average of 52.61% and 50.26% compared with the state-of-the-art,\nwhich is estimated to save an average of 55.05% and 59.00% in financial costs\n(based on on-demand pricing model) for the GNN training and inference process\non Google Cloud Platform.",
+    "updated" : "2025-11-03T15:15:40Z",
+    "published" : "2025-11-03T15:15:40Z",
+    "authors" : [
+      {
+        "name" : "Congcong Chen"
+      },
+      {
+        "name" : "Xinyu Liu"
+      },
+      {
+        "name" : "Kaifeng Huang"
+      },
+      {
+        "name" : "Lifei Wei"
+      },
+      {
+        "name" : "Yang Shi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01583v1",
+    "title" : "Federated Cyber Defense: Privacy-Preserving Ransomware Detection Across\n  Distributed Systems",
+    "summary" : "Detecting malware, especially ransomware, is essential to securing today's\ninterconnected ecosystems, including cloud storage, enterprise file-sharing,\nand database services. Training high-performing artificial intelligence (AI)\ndetectors requires diverse datasets, which are often distributed across\nmultiple organizations, making centralization necessary. However, centralized\nlearning is often impractical due to security, privacy regulations, data\nownership issues, and legal barriers to cross-organizational sharing.\nCompounding this challenge, ransomware evolves rapidly, demanding models that\nare both robust and adaptable.\n  In this paper, we evaluate Federated Learning (FL) using the Sherpa.ai FL\nplatform, which enables multiple organizations to collaboratively train a\nransomware detection model while keeping raw data local and secure. This\nparadigm is particularly relevant for cybersecurity companies (including both\nsoftware and hardware vendors) that deploy ransomware detection or firewall\nsystems across millions of endpoints. In such environments, data cannot be\ntransferred outside the customer's device due to strict security, privacy, or\nregulatory constraints. Although FL applies broadly to malware threats, we\nvalidate the approach using the Ransomware Storage Access Patterns (RanSAP)\ndataset.\n  Our experiments demonstrate that FL improves ransomware detection accuracy by\na relative 9% over server-local models and achieves performance comparable to\ncentralized training. These results indicate that FL offers a scalable,\nhigh-performing, and privacy-preserving framework for proactive ransomware\ndetection across organizational and regulatory boundaries.",
+    "updated" : "2025-11-03T13:54:13Z",
+    "published" : "2025-11-03T13:54:13Z",
+    "authors" : [
+      {
+        "name" : "Daniel M. Jimenez-Gutierrez"
+      },
+      {
+        "name" : "Enrique Zuazua"
+      },
+      {
+        "name" : "Joaquin Del Rio"
+      },
+      {
+        "name" : "Oleksii Sliusarenko"
+      },
+      {
+        "name" : "Xabi Uribe-Etxebarria"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01467v1",
+    "title" : "Quantum Blackwell's Ordering and Differential Privacy",
+    "summary" : "We develop a framework for quantum differential privacy (QDP) based on\nquantum hypothesis testing and Blackwell's ordering. This approach\ncharacterizes $(\\eps,\\delta)$-QDP via hypothesis testing divergences and\nidentifies the most informative quantum state pairs under privacy constraints.\nWe apply this to analyze the stability of quantum learning algorithms,\ngeneralizing classical results to the case $\\delta>0$. Additionally, we study\nprivatized quantum parameter estimation, deriving tight bounds on the quantum\nFisher information under QDP. Finally, we establish near-optimal contraction\nbounds for differentially private quantum channels with respect to the\nhockey-stick divergence.",
+    "updated" : "2025-11-03T11:24:52Z",
+    "published" : "2025-11-03T11:24:52Z",
+    "authors" : [
+      {
+        "name" : "Ayanava Dasgupta"
+      },
+      {
+        "name" : "Naqueeb Ahmad Warsi"
+      },
+      {
+        "name" : "Masahito Hayashi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT",
+      "cs.LG",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01449v1",
+    "title" : "Privacy Preserving Ordinal-Meta Learning with VLMs for Fine-Grained\n  Fruit Quality Prediction",
+    "summary" : "To effectively manage the wastage of perishable fruits, it is crucial to\naccurately predict their freshness or shelf life using non-invasive methods\nthat rely on visual data. In this regard, deep learning techniques can offer a\nviable solution. However, obtaining fine-grained fruit freshness labels from\nexperts is costly, leading to a scarcity of data. Closed proprietary Vision\nLanguage Models (VLMs), such as Gemini, have demonstrated strong performance in\nfruit freshness detection task in both zero-shot and few-shot settings.\nNonetheless, food retail organizations are unable to utilize these proprietary\nmodels due to concerns related to data privacy, while existing open-source VLMs\nyield sub-optimal performance for the task. Fine-tuning these open-source\nmodels with limited data fails to achieve the performance levels of proprietary\nmodels. In this work, we introduce a Model-Agnostic Ordinal Meta-Learning\n(MAOML) algorithm, designed to train smaller VLMs. This approach utilizes\nmeta-learning to address data sparsity and leverages label ordinality, thereby\nachieving state-of-the-art performance in the fruit freshness classification\ntask under both zero-shot and few-shot settings. Our method achieves an\nindustry-standard accuracy of 92.71%, averaged across all fruits.\n  Keywords: Fruit Quality Prediction, Vision Language Models, Meta Learning,\nOrdinal Regression",
+    "updated" : "2025-11-03T11:03:54Z",
+    "published" : "2025-11-03T11:03:54Z",
+    "authors" : [
+      {
+        "name" : "Riddhi Jain"
+      },
+      {
+        "name" : "Manasi Patwardhan"
+      },
+      {
+        "name" : "Aayush Mishra"
+      },
+      {
+        "name" : "Parijat Deshpande"
+      },
+      {
+        "name" : "Beena Rai"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01307v1",
+    "title" : "Perturb a Model, Not an Image: Towards Robust Privacy Protection via\n  Anti-Personalized Diffusion Models",
+    "summary" : "Recent advances in diffusion models have enabled high-quality synthesis of\nspecific subjects, such as identities or objects. This capability, while\nunlocking new possibilities in content creation, also introduces significant\nprivacy risks, as personalization techniques can be misused by malicious users\nto generate unauthorized content. Although several studies have attempted to\ncounter this by generating adversarially perturbed samples designed to disrupt\npersonalization, they rely on unrealistic assumptions and become ineffective in\nthe presence of even a few clean images or under simple image transformations.\nTo address these challenges, we shift the protection target from the images to\nthe diffusion model itself to hinder the personalization of specific subjects,\nthrough our novel framework called Anti-Personalized Diffusion Models (APDM).\nWe first provide a theoretical analysis demonstrating that a naive approach of\nexisting loss functions to diffusion models is inherently incapable of ensuring\nconvergence for robust anti-personalization. Motivated by this finding, we\nintroduce Direct Protective Optimization (DPO), a novel loss function that\neffectively disrupts subject personalization in the target model without\ncompromising generative quality. Moreover, we propose a new dual-path\noptimization strategy, coined Learning to Protect (L2P). By alternating between\npersonalization and protection paths, L2P simulates future personalization\ntrajectories and adaptively reinforces protection at each step. Experimental\nresults demonstrate that our framework outperforms existing methods, achieving\nstate-of-the-art performance in preventing unauthorized personalization. The\ncode is available at https://github.com/KU-VGI/APDM.",
+    "updated" : "2025-11-03T07:42:05Z",
+    "published" : "2025-11-03T07:42:05Z",
+    "authors" : [
+      {
+        "name" : "Tae-Young Lee"
+      },
+      {
+        "name" : "Juwon Seo"
+      },
+      {
+        "name" : "Jong Hwan Ko"
+      },
+      {
+        "name" : "Gyeong-Moon Park"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.01197v2",
+    "title" : "CryptoMoE: Privacy-Preserving and Scalable Mixture of Experts Inference\n  via Balanced Expert Routing",
+    "summary" : "Private large language model (LLM) inference based on cryptographic\nprimitives offers a promising path towards privacy-preserving deep learning.\nHowever, existing frameworks only support dense LLMs like LLaMA-1 and struggle\nto scale to mixture-of-experts (MoE) architectures. The key challenge comes\nfrom securely evaluating the dynamic routing mechanism in MoE layers, which may\nreveal sensitive input information if not fully protected. In this paper, we\npropose CryptoMoE, the first framework that enables private, efficient, and\naccurate inference for MoE-based models. CryptoMoE balances expert loads to\nprotect expert routing information and proposes novel protocols for secure\nexpert dispatch and combine. CryptoMoE also develops a confidence-aware token\nselection strategy and a batch matrix multiplication protocol to improve\naccuracy and efficiency further. Extensive experiments on DeepSeekMoE-16.4B,\nOLMoE-6.9B, and QWenMoE-14.3B show that CryptoMoE achieves $2.8\\sim3.5\\times$\nend-to-end latency reduction and $2.9\\sim4.3\\times$ communication reduction\nover a dense baseline with minimum accuracy loss. We also adapt CipherPrune\n(ICLR'25) for MoE inference and demonstrate CryptoMoE can reduce the\ncommunication by up to $4.3 \\times$. Code is available at:\nhttps://github.com/PKU-SEC-Lab/CryptoMoE.",
+    "updated" : "2025-11-04T03:48:37Z",
+    "published" : "2025-11-03T03:45:08Z",
+    "authors" : [
+      {
+        "name" : "Yifan Zhou"
+      },
+      {
+        "name" : "Tianshi Xu"
+      },
+      {
+        "name" : "Jue Hong"
+      },
+      {
+        "name" : "Ye Wu"
+      },
+      {
+        "name" : "Meng Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00795v1",
+    "title" : "FedOnco-Bench: A Reproducible Benchmark for Privacy-Aware Federated\n  Tumor Segmentation with Synthetic CT Data",
+    "summary" : "Federated Learning (FL) allows multiple institutions to cooperatively train\nmachine learning models while retaining sensitive data at the source, which has\ngreat utility in privacy-sensitive environments. However, FL systems remain\nvulnerable to membership-inference attacks and data heterogeneity. This paper\npresents FedOnco-Bench, a reproducible benchmark for privacy-aware FL using\nsynthetic oncologic CT scans with tumor annotations. It evaluates segmentation\nperformance and privacy leakage across FL methods: FedAvg, FedProx, FedBN, and\nFedAvg with DP-SGD. Results show a distinct trade-off between privacy and\nutility: FedAvg is high performance (Dice around 0.85) with more privacy\nleakage (attack AUC about 0.72), while DP-SGD provides a higher level of\nprivacy (AUC around 0.25) at the cost of accuracy (Dice about 0.79). FedProx\nand FedBN offer balanced performance under heterogeneous data, especially with\nnon-identical distributed client data. FedOnco-Bench serves as a standardized,\nopen-source platform for benchmarking and developing privacy-preserving FL\nmethods for medical image segmentation.",
+    "updated" : "2025-11-02T04:17:14Z",
+    "published" : "2025-11-02T04:17:14Z",
+    "authors" : [
+      {
+        "name" : "Viswa Chaitanya Marella"
+      },
+      {
+        "name" : "Suhasnadh Reddy Veluru"
+      },
+      {
+        "name" : "Sai Teja Erukude"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00737v1",
+    "title" : "EP-HDC: Hyperdimensional Computing with Encrypted Parameters for\n  High-Throughput Privacy-Preserving Inference",
+    "summary" : "While homomorphic encryption (HE) provides strong privacy protection, its\nhigh computational cost has restricted its application to simple tasks.\nRecently, hyperdimensional computing (HDC) applied to HE has shown promising\nperformance for privacy-preserving machine learning (PPML). However, when\napplied to more realistic scenarios such as batch inference, the HDC-based HE\nhas still very high compute time as well as high encryption and data\ntransmission overheads. To address this problem, we propose HDC with encrypted\nparameters (EP-HDC), which is a novel PPML approach featuring client-side HE,\ni.e., inference is performed on a client using a homomorphically encrypted\nmodel. Our EP-HDC can effectively mitigate the encryption and data transmission\noverhead, as well as providing high scalability with many clients while\nproviding strong protection for user data and model parameters. In addition to\napplication examples for our client-side PPML, we also present design space\nexploration involving quantization, architecture, and HE-related parameters.\nOur experimental results using the BFV scheme and the Face/Emotion datasets\ndemonstrate that our method can improve throughput and latency of batch\ninference by orders of magnitude over previous PPML methods (36.52~1068x and\n6.45~733x, respectively) with less than 1% accuracy degradation.",
+    "updated" : "2025-11-01T23:22:01Z",
+    "published" : "2025-11-01T23:22:01Z",
+    "authors" : [
+      {
+        "name" : "Jaewoo Park"
+      },
+      {
+        "name" : "Chenghao Quan"
+      },
+      {
+        "name" : "Jongeun Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00700v1",
+    "title" : "Privacy-Aware Time Series Synthesis via Public Knowledge Distillation",
+    "summary" : "Sharing sensitive time series data in domains such as finance, healthcare,\nand energy consumption, such as patient records or investment accounts, is\noften restricted due to privacy concerns. Privacy-aware synthetic time series\ngeneration addresses this challenge by enforcing noise during training,\ninherently introducing a trade-off between privacy and utility. In many cases,\nsensitive sequences is correlated with publicly available, non-sensitive\ncontextual metadata (e.g., household electricity consumption may be influenced\nby weather conditions and electricity prices). However, existing privacy-aware\ndata generation methods often overlook this opportunity, resulting in\nsuboptimal privacy-utility trade-offs. In this paper, we present Pub2Priv, a\nnovel framework for generating private time series data by leveraging\nheterogeneous public knowledge. Our model employs a self-attention mechanism to\nencode public data into temporal and feature embeddings, which serve as\nconditional inputs for a diffusion model to generate synthetic private\nsequences. Additionally, we introduce a practical metric to assess privacy by\nevaluating the identifiability of the synthetic data. Experimental results show\nthat Pub2Priv consistently outperforms state-of-the-art benchmarks in improving\nthe privacy-utility trade-off across finance, energy, and commodity trading\ndomains.",
+    "updated" : "2025-11-01T20:44:24Z",
+    "published" : "2025-11-01T20:44:24Z",
+    "authors" : [
+      {
+        "name" : "Penghang Liu"
+      },
+      {
+        "name" : "Haibei Zhu"
+      },
+      {
+        "name" : "Eleonora Kreacic"
+      },
+      {
+        "name" : "Svitlana Vyetrenko"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00487v1",
+    "title" : "With Privacy, Size Matters: On the Importance of Dataset Size in\n  Differentially Private Text Rewriting",
+    "summary" : "Recent work in Differential Privacy with Natural Language Processing (DP NLP)\nhas proposed numerous promising techniques in the form of text rewriting\nmechanisms. In the evaluation of these mechanisms, an often-ignored aspect is\nthat of dataset size, or rather, the effect of dataset size on a mechanism's\nefficacy for utility and privacy preservation. In this work, we are the first\nto introduce this factor in the evaluation of DP text privatization, where we\ndesign utility and privacy tests on large-scale datasets with dynamic split\nsizes. We run these tests on datasets of varying size with up to one million\ntexts, and we focus on quantifying the effect of increasing dataset size on the\nprivacy-utility trade-off. Our findings reveal that dataset size plays an\nintegral part in evaluating DP text rewriting mechanisms; additionally, these\nfindings call for more rigorous evaluation procedures in DP NLP, as well as\nshed light on the future of DP NLP in practice and at scale.",
+    "updated" : "2025-11-01T10:41:05Z",
+    "published" : "2025-11-01T10:41:05Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Florian Matthes"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00467v1",
+    "title" : "A Big Step Forward? A User-Centric Examination of iOS App Privacy Report\n  and Enhancements",
+    "summary" : "The prevalent engagement with mobile apps underscores the importance of\nunderstanding their data practices. Transparency plays a crucial role in this\ncontext, ensuring users to be informed and give consent before any data access\noccurs. Apple introduced a new feature since iOS 15.2, App Privacy Report, to\ninform users about detailed insights into apps' data access and sharing. This\nfeature continues Apple's trend of privacy-focused innovations (following\nPrivacy Nutrition Labels), and has been marketed as a big step forward in user\nprivacy. However, its real-world impacts on user privacy and control remain\nunexamined. We thus proposed an end-to-end study involving systematic\nassessment of the App Privacy Report's real-world benefits and limitations,\nLLM-enabled and multi-technique synthesized enhancements, and comprehensive\nevaluation from both system and user perspectives. Through a structured focus\ngroup study with twelve everyday iOS users, we explored their experiences,\nunderstanding, and perceptions of the feature, suggesting its limited practical\nimpact resulting from missing important details. We identified two primary user\nconcerns: the clarity of data access purpose and domain description. In\nresponse, we proposed enhancements including a purpose inference framework and\ndomain clarification pipeline. We demonstrated the effectiveness and benefits\nof such enhancements for mobile app users. This work provides practical\ninsights that could help enhance user privacy transparency and discusses areas\nfor future research.",
+    "updated" : "2025-11-01T09:29:04Z",
+    "published" : "2025-11-01T09:29:04Z",
+    "authors" : [
+      {
+        "name" : "Liu Wang"
+      },
+      {
+        "name" : "Dong Wang"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Zheng Jiang"
+      },
+      {
+        "name" : "Haoyu Wang"
+      },
+      {
+        "name" : "Yi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.00414v1",
+    "title" : "Embedding based Encoding Scheme for Privacy Preserving Record Linkage",
+    "summary" : "To discover new insights from data, there is a growing need to share\ninformation that is often held by different organisations. One key task in data\nintegration is the calculation of similarities between records in different\ndatabases to identify pairs or sets of records that correspond to the same\nreal-world entities. Due to privacy and confidentiality concerns, however, the\nowners of sensitive databases are often not allowed or willing to exchange or\nshare their data with other organisations to allow such similarity\ncalculations. Privacy-preserving record linkage (PPRL) is the process of\nmatching records that refer to the same entity across sensitive databases held\nby different organisations while ensuring no information about the entities is\nrevealed to the participating parties. In this paper, we study how embedding\nbased encoding techniques can be applied in the PPRL context to ensure the\nprivacy of the entities that are being linked. We first convert individual\nq-grams into the embedded space and then convert the embedding of a set of\nq-grams of a given record into a binary representation. The final binary\nrepresentations can be used to link records into matches and non-matches. We\nempirically evaluate our proposed encoding technique against different\nreal-world datasets. The results suggest that our proposed encoding approach\ncan provide better linkage accuracy and protect the privacy of individuals\nagainst attack compared to state-of-the-art techniques for short record values.",
+    "updated" : "2025-11-01T05:57:21Z",
+    "published" : "2025-11-01T05:57:21Z",
+    "authors" : [
+      {
+        "name" : "Sirintra Vaiwsri"
+      },
+      {
+        "name" : "Thilina Ranbaduge"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  }
+]
