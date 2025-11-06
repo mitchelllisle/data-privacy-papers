@@ -2,6 +2,132 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.03665v1">A Lightweight 3D-CNN for Event-Based Human Action Recognition with
+  Privacy-Preserving Potential</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-11-05T17:30:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mehdi Sefidgar Dilmaghani, Francis Fowley, Peter Corcoran</p>
+    <p><b>Summary:</b> This paper presents a lightweight three-dimensional convolutional neural
+network (3DCNN) for human activity recognition (HAR) using event-based vision
+data. Privacy preservation is a key challenge in human monitoring systems, as
+conventional frame-based cameras capture identifiable personal information. In
+contrast, event cameras record only changes in pixel intensity, providing an
+inherently privacy-preserving sensing modality. The proposed network
+effectively models both spatial and temporal dynamics while maintaining a
+compact design suitable for edge deployment. To address class imbalance and
+enhance generalization, focal loss with class reweighting and targeted data
+augmentation strategies are employed. The model is trained and evaluated on a
+composite dataset derived from the Toyota Smart Home and ETRI datasets.
+Experimental results demonstrate an F1-score of 0.9415 and an overall accuracy
+of 94.17%, outperforming benchmark 3D-CNN architectures such as C3D, ResNet3D,
+and MC3_18 by up to 3%. These results highlight the potential of event-based
+deep learning for developing accurate, efficient, and privacy-aware human
+action recognition systems suitable for real-world edge applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.03538v1">Security and Privacy Management of IoT Using Quantum Computing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-05T15:08:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jaydip Sen</p>
+    <p><b>Summary:</b> The convergence of the Internet of Things (IoT) and quantum computing is
+redefining the security paradigm of interconnected digital systems. Classical
+cryptographic algorithms such as RSA, Elliptic Curve Cryptography (ECC), and
+Advanced Encryption Standard (AES) have long provided the foundation for
+securing IoT communication. However, the emergence of quantum algorithms such
+as Shor's and Grover's threatens to render these techniques vulnerable,
+necessitating the development of quantum-resilient alternatives. This chapter
+examines the implications of quantum computing for IoT security and explores
+strategies for building cryptographically robust systems in the post-quantum
+era. It presents an overview of Post-Quantum Cryptographic (PQC) families,
+including lattice-based, code-based, hash-based, and multivariate approaches,
+analyzing their potential for deployment in resource-constrained IoT
+environments. In addition, quantum-based methods such as Quantum Key
+Distribution (QKD) and Quantum Random Number Generators (QRNGs) are discussed
+for their ability to enhance confidentiality and privacy through physics-based
+security guarantees. The chapter also highlights issues of privacy management,
+regulatory compliance, and standardization, emphasizing the need for
+collaborative efforts across academia, industry, and governance. Overall, it
+provides a comprehensive perspective on security IoT ecosystems against quantum
+threats and ensures resilience in the next generation of intelligent networks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.03248v1">Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation
+  Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-05T07:23:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junhao Li, Jiahao Chen, Zhou Feng, Chunyi Zhou</p>
+    <p><b>Summary:</b> Recent advances in multi-modal Large Language Models (M-LLMs) have
+demonstrated a powerful ability to synthesize implicit information from
+disparate sources, including images and text. These resourceful data from
+social media also introduce a significant and underexplored privacy risk: the
+inference of sensitive personal attributes from seemingly daily media content.
+However, the lack of benchmarks and comprehensive evaluations of
+state-of-the-art M-LLM capabilities hinders the research of private attribute
+profiling on social media. Accordingly, we propose (1) PRISM, the first
+multi-modal, multi-dimensional and fine-grained synthesized dataset
+incorporating a comprehensive privacy landscape and dynamic user history; (2)
+an Efficient evaluation framework that measures the cross-modal privacy
+inference capabilities of advanced M-LLM. Specifically, PRISM is a large-scale
+synthetic benchmark designed to evaluate cross-modal privacy risks. Its key
+feature is 12 sensitive attribute labels across a diverse set of multi-modal
+profiles, which enables targeted privacy analysis. These profiles are generated
+via a sophisticated LLM agentic workflow, governed by a prior distribution to
+ensure they realistically mimic social media users. Additionally, we propose a
+Multi-Agent Inference Framework that leverages a pipeline of specialized LLMs
+to enhance evaluation capabilities. We evaluate the inference capabilities of
+six leading M-LLMs (Qwen, Gemini, GPT-4o, GLM, Doubao, and Grok) on PRISM. The
+comparison with human performance reveals that these MLLMs significantly
+outperform in accuracy and efficiency, highlighting the threat of potential
+privacy risks and the urgent need for robust defenses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.02993v1">PrivyWave: Privacy-Aware Wireless Sensing of Heartbeat</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
+  <p><b>Published on:</b> 2025-11-04T20:54:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yixuan Gao, Tanvir Ahmed, Zekun Chang, Thijs Roumen, Rajalakshmi Nandakumar</p>
+    <p><b>Summary:</b> Wireless sensing technologies can now detect heartbeats using radio frequency
+and acoustic signals, raising significant privacy concerns. Existing privacy
+solutions either protect from all sensing systems indiscriminately preventing
+any utility or operate post-data collection, failing to enable selective access
+where authorized devices can monitor while unauthorized ones cannot. We present
+a key-based physical obfuscation system, PrivyWave, that addresses this
+challenge by generating controlled decoy heartbeat signals at
+cryptographically-determined frequencies. Unauthorized sensors receive a
+mixture of real and decoy signals that are indistinguishable without the secret
+key, while authorized sensors use the key to filter out decoys and recover
+accurate measurements. Our evaluation with 13 participants demonstrates
+effective protection across both sensing modalities: for mmWave radar,
+unauthorized sensors show 21.3 BPM mean absolute error while authorized sensors
+maintain a much smaller 5.8 BPM; for acoustic sensing, unauthorized error
+increases to 42.0 BPM while authorized sensors achieve 9.7 BPM. The system
+operates across multiple sensing modalities without per-modality customization
+and provides cryptographic obfuscation guarantees. Performance benchmarks show
+robust protection across different distances (30-150 cm), orientations
+(120{\deg} field of view), and diverse indoor environments, establishing
+physical-layer obfuscation as a viable approach for selective privacy in
+pervasive health monitoring.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.02797v1">Fast, Private, and Protected: Safeguarding Data Privacy and Defending
   Against Model Poisoning Attacks in Federated Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
@@ -30,7 +156,7 @@ malicious participants performing model poisoning attacks.</p>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.02785v1">Enhancing Federated Learning Privacy with QUBO</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2025-11-04T18:06:30Z</p>
   <details>
     <summary>More Details</summary>
@@ -125,7 +251,7 @@ by $\text{DPP}^2$ under the same level of differential privacy.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.02227v1">Interval Estimation for Binomial Proportions Under Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.02227v2">Interval Estimation for Binomial Proportions Under Differential Privacy</a></h3>
   
   <p><b>Published on:</b> 2025-11-04T03:41:10Z</p>
   <details>
@@ -2506,26 +2632,28 @@ framework is practical for today multichain environments.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.13890v1">A Survey on Collaborating Small and Large Language Models for
+  <h3><a href="http://arxiv.org/abs/2510.13890v2">A Survey on Collaborating Small and Large Language Models for
   Performance, Cost-effectiveness, Cloud-edge Privacy, and Trustworthiness</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
   <p><b>Published on:</b> 2025-10-14T04:16:47Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Fali Wang, Jihai Chen, Shuhua Yang, Ali Al-Lawati, Linli Tang, Hui Liu, Suhang Wang</p>
-    <p><b>Summary:</b> Large language models (LLMs) have advanced many domains and applications but
-face high fine-tuning costs, inference latency, limited edge deployability, and
-reliability concerns. Small language models (SLMs), compact, efficient, and
-adaptable, offer complementary remedies. Recent work explores collaborative
-frameworks that fuse SLMs' specialization and efficiency with LLMs'
-generalization and reasoning to meet diverse objectives across tasks and
-deployment scenarios. Motivated by these developments, this paper presents a
-systematic survey of SLM-LLM collaboration organized by collaboration
-objectives. We propose a taxonomy with four goals: performance enhancement,
-cost-effectiveness, cloud-edge privacy, and trustworthiness. Within this
-framework, we review representative methods, summarize design paradigms, and
-outline open challenges and future directions toward efficient, secure, and
-scalable SLM-LLM collaboration.</p>
+    <p><b>Summary:</b> Large language models (LLMs) have achieved remarkable progress across domains
+and applications but face challenges such as high fine-tuning costs, inference
+latency, limited edge deployability, and reliability concerns. Small language
+models (SLMs), with compact, efficient, and adaptable features, offer promising
+solutions. Building on this potential, recent research explores collaborative
+frameworks that integrate their complementary strengths, leveraging SLMs'
+specialization and efficiency with LLMs' generalization and reasoning to
+address diverse objectives across tasks and deployment scenarios. Motivated by
+these developments, this paper presents a systematic survey of SLM-LLM
+collaboration from the perspective of collaboration objectives. We propose a
+taxonomy covering four goals: performance enhancement, cost-effectiveness,
+cloud-edge privacy, and trustworthiness. Under this framework, we review
+representative methods, summarize design paradigms, and outline open challenges
+and future directions toward efficient and secure SLM-LLM collaboration. The
+collected papers are available at https://github.com/FairyFali/SLMs-Survey.</p>
   </details>
 </div>
 
@@ -2922,126 +3050,6 @@ by the design of canaries in differential privacy auditing studies. Extensive
 experiments confirm that our algorithm effectively reduces the disparity in
 group privacy risks, thereby enhancing the fairness of privacy protection in
 DPML.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09715v1">A Scalable, Privacy-Preserving Decentralized Identity and Verifiable
-  Data Sharing Framework based on Zero-Knowledge Proofs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-10-10T06:06:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hui Yuan</p>
-    <p><b>Summary:</b> With the proliferation of decentralized applications (DApps), the conflict
-between the transparency of blockchain technology and user data privacy has
-become increasingly prominent. While Decentralized Identity (DID) and
-Verifiable Credentials (VCs) provide a standardized framework for user data
-sovereignty, achieving trusted identity verification and data sharing without
-compromising privacy remains a significant challenge. This paper proposes a
-novel, comprehensive framework that integrates DIDs and VCs with efficient
-Zero-Knowledge Proof (ZKP) schemes to address this core issue. The key
-contributions of this framework are threefold: first, it constructs a set of
-strong privacy-preserving protocols based on zk-STARKs, allowing users to prove
-that their credentials satisfy specific conditions (e.g., "age is over 18")
-without revealing any underlying sensitive data. Second, it designs a scalable,
-privacy-preserving credential revocation mechanism based on cryptographic
-accumulators, effectively solving credential management challenges in
-large-scale scenarios. Finally, it integrates a practical social key recovery
-scheme, significantly enhancing system usability and security. Through a
-prototype implementation and performance evaluation, this paper quantitatively
-analyzes the framework's performance in terms of proof generation time,
-verification overhead, and on-chain costs. Compared to existing
-state-of-the-art systems based on zk-SNARKs, our framework, at the cost of a
-larger proof size, significantly improves prover efficiency for complex
-computations and provides stronger security guarantees, including no trusted
-setup and post-quantum security. Finally, a case study in the decentralized
-finance (DeFi) credit scoring scenario demonstrates the framework's immense
-potential for unlocking capital efficiency and fostering a trusted data
-economy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.08813v1">The Model's Language Matters: A Comparative Privacy Analysis of LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-09T20:59:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abhishek K. Mishra, Antoine Boutet, Lucas Magnana</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly deployed across multilingual
-applications that handle sensitive data, yet their scale and linguistic
-variability introduce major privacy risks. Mostly evaluated for English, this
-paper investigates how language structure affects privacy leakage in LLMs
-trained on English, Spanish, French, and Italian medical corpora. We quantify
-six linguistic indicators and evaluate three attack vectors: extraction,
-counterfactual memorization, and membership inference. Results show that
-privacy vulnerability scales with linguistic redundancy and tokenization
-granularity: Italian exhibits the strongest leakage, while English shows higher
-membership separability. In contrast, French and Spanish display greater
-resilience due to higher morphological complexity. Overall, our findings
-provide the first quantitative evidence that language matters in privacy
-leakage, underscoring the need for language-aware privacy-preserving mechanisms
-in LLM deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.08355v1">ExPrESSO: Zero-Knowledge backed Extensive Privacy Preserving Single
-  Sign-on</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-09T15:42:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kaustabh Barman, Fabian Piper, Sanjeet Raj Pandey, Axel Kuepper</p>
-    <p><b>Summary:</b> User authentication is one of the most important aspects for secure
-communication between services and end-users over the Internet. Service
-providers leverage Single-Sign On (SSO) to make it easier for their users to
-authenticate themselves. However, standardized systems for SSO, such as OIDC,
-do not guarantee user privacy as identity providers can track user activities.
-We propose a zero-knowledge-based mechanism that integrates with OIDC to let
-users authenticate through SSO without revealing information about the service
-provider. Our system leverages Groth's zk-SNARK to prove membership of
-subscribed service providers without revealing their identity. We adopt a
-decentralized and verifiable approach to set up the prerequisites of our
-construction that further secures and establishes trust in the system. We set
-up high security targets and achieve them with minimal storage and latency
-cost, proving that our research can be adopted for production.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.08247v1">The Right to Communications Confidentiality in Europe: Protecting
-  Privacy, Freedom of Expression, and Trust</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-10-09T14:05:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Frederik J. Zuiderveen Borgesius, Wilfred Steenbruggen</p>
-    <p><b>Summary:</b> In the European Union, the General Data Protection Regulation (GDPR) provides
-comprehensive rules for the processing of personal data. In addition, the EU
-lawmaker intends to adopt specific rules to protect confidentiality of
-communications, in a separate ePrivacy Regulation. Some have argued that there
-is no need for such additional rules for communications confidentiality. This
-Article discusses the protection of the right to confidentiality of
-communications in Europe. We look at the right's origins to assess the
-rationale for protecting it. We also analyze how the right is currently
-protected under the European Convention on Human Rights and under EU law. We
-show that at its core the right to communications confidentiality protects
-three individual and collective values: privacy, freedom of expression, and
-trust in communication services. The right aims to ensure that individuals and
-organizations can safely entrust communication to service providers. Initially,
-the right protected only postal letters, but it has gradually developed into a
-strong safeguard for the protection of confidentiality of communications,
-regardless of the technology used. Hence, the right does not merely serve
-individual privacy interests, but also other more collective interests that are
-crucial for the functioning of our information society. We conclude that
-separate EU rules to protect communications confidentiality, next to the GDPR,
-are justified and necessary.</p>
   </details>
 </div>
 
