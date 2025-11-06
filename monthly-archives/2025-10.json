@@ -3238,5 +3238,41 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.13890v2",
+    "title" : "A Survey on Collaborating Small and Large Language Models for\n  Performance, Cost-effectiveness, Cloud-edge Privacy, and Trustworthiness",
+    "summary" : "Large language models (LLMs) have achieved remarkable progress across domains\nand applications but face challenges such as high fine-tuning costs, inference\nlatency, limited edge deployability, and reliability concerns. Small language\nmodels (SLMs), with compact, efficient, and adaptable features, offer promising\nsolutions. Building on this potential, recent research explores collaborative\nframeworks that integrate their complementary strengths, leveraging SLMs'\nspecialization and efficiency with LLMs' generalization and reasoning to\naddress diverse objectives across tasks and deployment scenarios. Motivated by\nthese developments, this paper presents a systematic survey of SLM-LLM\ncollaboration from the perspective of collaboration objectives. We propose a\ntaxonomy covering four goals: performance enhancement, cost-effectiveness,\ncloud-edge privacy, and trustworthiness. Under this framework, we review\nrepresentative methods, summarize design paradigms, and outline open challenges\nand future directions toward efficient and secure SLM-LLM collaboration. The\ncollected papers are available at https://github.com/FairyFali/SLMs-Survey.",
+    "updated" : "2025-11-05T10:30:09Z",
+    "published" : "2025-10-14T04:16:47Z",
+    "authors" : [
+      {
+        "name" : "Fali Wang"
+      },
+      {
+        "name" : "Jihai Chen"
+      },
+      {
+        "name" : "Shuhua Yang"
+      },
+      {
+        "name" : "Ali Al-Lawati"
+      },
+      {
+        "name" : "Linli Tang"
+      },
+      {
+        "name" : "Hui Liu"
+      },
+      {
+        "name" : "Suhang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "68T50 (Primary) 68T07 (Secondary)",
+      "I.2.7"
+    ]
   }
 ]
