@@ -559,5 +559,138 @@
     "categories" : [
       "stat.ME"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.04438v1",
+    "title" : "Limiting one-way distillable secret key via privacy testing of\n  extendible states",
+    "summary" : "The notions of privacy tests and $k$-extendible states have both been\ninstrumental in quantum information theory, particularly in understanding the\nlimits of secure communication. In this paper, we determine the maximum\nprobability with which an arbitrary $k$-extendible state can pass a privacy\ntest, and we prove that it is equal to the maximum fidelity between an\narbitrary $k$-extendible state and the standard maximally entangled state. Our\nfindings, coupled with the resource theory of $k$-unextendibility, lead to an\nefficiently computable upper bound on the one-shot, one-way distillable key of\na bipartite state, and we prove that it is equal to the best-known efficiently\ncomputable upper bound on the one-shot, one-way distillable entanglement. We\nalso establish efficiently computable upper bounds on the one-shot,\nforward-assisted private capacity of channels. Extending our formalism to the\nindependent and identically distributed setting, we obtain single-letter\nefficiently computable bounds on the $n$-shot, one-way distillable key of a\nstate and the $n$-shot, forward-assisted private capacity of a channel. For\nsome key examples of interest, our bounds are significantly tighter than other\nknown efficiently computable bounds.",
+    "updated" : "2025-11-06T15:11:54Z",
+    "published" : "2025-11-06T15:11:54Z",
+    "authors" : [
+      {
+        "name" : "Vishal Singh"
+      },
+      {
+        "name" : "Karol Horodecki"
+      },
+      {
+        "name" : "Aby Philip"
+      },
+      {
+        "name" : "Mark M. Wilde"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT",
+      "math.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.04261v1",
+    "title" : "A Parallel Region-Adaptive Differential Privacy Framework for Image\n  Pixelization",
+    "summary" : "The widespread deployment of high-resolution visual sensing systems, coupled\nwith the rise of foundation models, has amplified privacy risks in video-based\napplications. Differentially private pixelization offers mathematically\nguaranteed protection for visual data through grid-based noise addition, but\nchallenges remain in preserving task-relevant fidelity, achieving scalability,\nand enabling efficient real-time deployment. To address this, we propose a\nnovel parallel, region-adaptive pixelization framework that combines the\ntheoretical rigor of differential privacy with practical efficiency. Our method\nadaptively adjusts grid sizes and noise scales based on regional complexity,\nleveraging GPU parallelism to achieve significant runtime acceleration compared\nto the classical baseline. A lightweight storage scheme is introduced by\nretaining only essential noisy statistics, significantly reducing space\noverhead. Formal privacy analysis is provided under the Laplace mechanism and\nparallel composition theorem. Extensive experiments on the PETS, Venice-2, and\nPPM-100 datasets demonstrate favorable privacy-utility trade-offs and\nsignificant runtime/storage reductions. A face re-identification attack\nexperiment on CelebA further confirms the method's effectiveness in preventing\nidentity inference. This validates its suitability for real-time\nprivacy-critical applications such as elderly care, smart home monitoring,\ndriver behavior analysis, and crowd behavior monitoring.",
+    "updated" : "2025-11-06T10:51:20Z",
+    "published" : "2025-11-06T10:51:20Z",
+    "authors" : [
+      {
+        "name" : "Ming Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.03966v1",
+    "title" : "PrivacyCD: Hierarchical Unlearning for Protecting Student Privacy in\n  Cognitive Diagnosis",
+    "summary" : "The need to remove specific student data from cognitive diagnosis (CD) models\nhas become a pressing requirement, driven by users' growing assertion of their\n\"right to be forgotten\". However, existing CD models are largely designed\nwithout privacy considerations and lack effective data unlearning mechanisms.\nDirectly applying general purpose unlearning algorithms is suboptimal, as they\nstruggle to balance unlearning completeness, model utility, and efficiency when\nconfronted with the unique heterogeneous structure of CD models. To address\nthis, our paper presents the first systematic study of the data unlearning\nproblem for CD models, proposing a novel and efficient algorithm: hierarchical\nimportanceguided forgetting (HIF). Our key insight is that parameter importance\nin CD models exhibits distinct layer wise characteristics. HIF leverages this\nvia an innovative smoothing mechanism that combines individual and layer, level\nimportance, enabling a more precise distinction of parameters associated with\nthe data to be unlearned. Experiments on three real world datasets show that\nHIF significantly outperforms baselines on key metrics, offering the first\neffective solution for CD models to respond to user data removal requests and\nfor deploying high-performance, privacy preserving AI systems",
+    "updated" : "2025-11-06T01:39:59Z",
+    "published" : "2025-11-06T01:39:59Z",
+    "authors" : [
+      {
+        "name" : "Mingliang Hou"
+      },
+      {
+        "name" : "Yinuo Wang"
+      },
+      {
+        "name" : "Teng Guo"
+      },
+      {
+        "name" : "Zitao Liu"
+      },
+      {
+        "name" : "Wenzhou Dou"
+      },
+      {
+        "name" : "Jiaqi Zheng"
+      },
+      {
+        "name" : "Renqiang Luo"
+      },
+      {
+        "name" : "Mi Tian"
+      },
+      {
+        "name" : "Weiqi Luo"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.03753v1",
+    "title" : "Federated Learning with Gramian Angular Fields for Privacy-Preserving\n  ECG Classification on Heterogeneous IoT Devices",
+    "summary" : "This study presents a federated learning (FL) framework for\nprivacy-preserving electrocardiogram (ECG) classification in Internet of Things\n(IoT) healthcare environments. By transforming 1D ECG signals into 2D Gramian\nAngular Field (GAF) images, the proposed approach enables efficient feature\nextraction through Convolutional Neural Networks (CNNs) while ensuring that\nsensitive medical data remain local to each device. This work is among the\nfirst to experimentally validate GAF-based federated ECG classification across\nheterogeneous IoT devices, quantifying both performance and communication\nefficiency. To evaluate feasibility in realistic IoT settings, we deployed the\nframework across a server, a laptop, and a resource-constrained Raspberry Pi 4,\nreflecting edge-cloud integration in IoT ecosystems. Experimental results\ndemonstrate that the FL-GAF model achieves a high classification accuracy of\n95.18% in a multi-client setup, significantly outperforming a single-client\nbaseline in both accuracy and training time. Despite the added computational\ncomplexity of GAF transformations, the framework maintains efficient resource\nutilization and communication overhead. These findings highlight the potential\nof lightweight, privacy-preserving AI for IoT-based healthcare monitoring,\nsupporting scalable and secure edge deployments in smart health systems.",
+    "updated" : "2025-11-04T22:23:59Z",
+    "published" : "2025-11-04T22:23:59Z",
+    "authors" : [
+      {
+        "name" : "Youssef Elmir"
+      },
+      {
+        "name" : "Yassine Himeur"
+      },
+      {
+        "name" : "Abbes Amira"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CE",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.02993v2",
+    "title" : "PrivyWave: Privacy-Aware Wireless Sensing of Heartbeat",
+    "summary" : "Wireless sensing technologies can now detect heartbeats using radio frequency\nand acoustic signals, raising significant privacy concerns. Existing privacy\nsolutions either protect from all sensing systems indiscriminately preventing\nany utility or operate post-data collection, failing to enable selective access\nwhere authorized devices can monitor while unauthorized ones cannot. We present\na key-based physical obfuscation system, PrivyWave, that addresses this\nchallenge by generating controlled decoy heartbeat signals at\ncryptographically-determined frequencies. Unauthorized sensors receive a\nmixture of real and decoy signals that are indistinguishable without the secret\nkey, while authorized sensors use the key to filter out decoys and recover\naccurate measurements. Our evaluation with 13 participants demonstrates\neffective protection across both sensing modalities: for mmWave radar,\nunauthorized sensors show 21.3 BPM mean absolute error while authorized sensors\nmaintain a much smaller 5.8 BPM; for acoustic sensing, unauthorized error\nincreases to 42.0 BPM while authorized sensors achieve 9.7 BPM. The system\noperates across multiple sensing modalities without per-modality customization\nand provides cryptographic obfuscation guarantees. Performance benchmarks show\nrobust protection across different distances (30-150 cm), orientations\n(120{\\deg} field of view), and diverse indoor environments, establishing\nphysical-layer obfuscation as a viable approach for selective privacy in\npervasive health monitoring.",
+    "updated" : "2025-11-06T02:34:25Z",
+    "published" : "2025-11-04T20:54:59Z",
+    "authors" : [
+      {
+        "name" : "Yixuan Gao"
+      },
+      {
+        "name" : "Tanvir Ahmed"
+      },
+      {
+        "name" : "Zekun Chang"
+      },
+      {
+        "name" : "Thijs Roumen"
+      },
+      {
+        "name" : "Rajalakshmi Nandakumar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC",
+      "eess.SP"
+    ]
   }
 ]
