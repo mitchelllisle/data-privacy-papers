@@ -2,6 +2,96 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.04438v1">Limiting one-way distillable secret key via privacy testing of
+  extendible states</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-11-06T15:11:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vishal Singh, Karol Horodecki, Aby Philip, Mark M. Wilde</p>
+    <p><b>Summary:</b> The notions of privacy tests and $k$-extendible states have both been
+instrumental in quantum information theory, particularly in understanding the
+limits of secure communication. In this paper, we determine the maximum
+probability with which an arbitrary $k$-extendible state can pass a privacy
+test, and we prove that it is equal to the maximum fidelity between an
+arbitrary $k$-extendible state and the standard maximally entangled state. Our
+findings, coupled with the resource theory of $k$-unextendibility, lead to an
+efficiently computable upper bound on the one-shot, one-way distillable key of
+a bipartite state, and we prove that it is equal to the best-known efficiently
+computable upper bound on the one-shot, one-way distillable entanglement. We
+also establish efficiently computable upper bounds on the one-shot,
+forward-assisted private capacity of channels. Extending our formalism to the
+independent and identically distributed setting, we obtain single-letter
+efficiently computable bounds on the $n$-shot, one-way distillable key of a
+state and the $n$-shot, forward-assisted private capacity of a channel. For
+some key examples of interest, our bounds are significantly tighter than other
+known efficiently computable bounds.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.04261v1">A Parallel Region-Adaptive Differential Privacy Framework for Image
+  Pixelization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-06T10:51:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ming Liu</p>
+    <p><b>Summary:</b> The widespread deployment of high-resolution visual sensing systems, coupled
+with the rise of foundation models, has amplified privacy risks in video-based
+applications. Differentially private pixelization offers mathematically
+guaranteed protection for visual data through grid-based noise addition, but
+challenges remain in preserving task-relevant fidelity, achieving scalability,
+and enabling efficient real-time deployment. To address this, we propose a
+novel parallel, region-adaptive pixelization framework that combines the
+theoretical rigor of differential privacy with practical efficiency. Our method
+adaptively adjusts grid sizes and noise scales based on regional complexity,
+leveraging GPU parallelism to achieve significant runtime acceleration compared
+to the classical baseline. A lightweight storage scheme is introduced by
+retaining only essential noisy statistics, significantly reducing space
+overhead. Formal privacy analysis is provided under the Laplace mechanism and
+parallel composition theorem. Extensive experiments on the PETS, Venice-2, and
+PPM-100 datasets demonstrate favorable privacy-utility trade-offs and
+significant runtime/storage reductions. A face re-identification attack
+experiment on CelebA further confirms the method's effectiveness in preventing
+identity inference. This validates its suitability for real-time
+privacy-critical applications such as elderly care, smart home monitoring,
+driver behavior analysis, and crowd behavior monitoring.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.03966v1">PrivacyCD: Hierarchical Unlearning for Protecting Student Privacy in
+  Cognitive Diagnosis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-11-06T01:39:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mingliang Hou, Yinuo Wang, Teng Guo, Zitao Liu, Wenzhou Dou, Jiaqi Zheng, Renqiang Luo, Mi Tian, Weiqi Luo</p>
+    <p><b>Summary:</b> The need to remove specific student data from cognitive diagnosis (CD) models
+has become a pressing requirement, driven by users' growing assertion of their
+"right to be forgotten". However, existing CD models are largely designed
+without privacy considerations and lack effective data unlearning mechanisms.
+Directly applying general purpose unlearning algorithms is suboptimal, as they
+struggle to balance unlearning completeness, model utility, and efficiency when
+confronted with the unique heterogeneous structure of CD models. To address
+this, our paper presents the first systematic study of the data unlearning
+problem for CD models, proposing a novel and efficient algorithm: hierarchical
+importanceguided forgetting (HIF). Our key insight is that parameter importance
+in CD models exhibits distinct layer wise characteristics. HIF leverages this
+via an innovative smoothing mechanism that combines individual and layer, level
+importance, enabling a more precise distinction of parameters associated with
+the data to be unlearned. Experiments on three real world datasets show that
+HIF significantly outperforms baselines on key metrics, offering the first
+effective solution for CD models to respond to user data removal requests and
+for deploying high-performance, privacy preserving AI systems</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.03665v1">A Lightweight 3D-CNN for Event-Based Human Action Recognition with
   Privacy-Preserving Potential</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
@@ -96,7 +186,37 @@ privacy risks and the urgent need for robust defenses.</p>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.02993v1">PrivyWave: Privacy-Aware Wireless Sensing of Heartbeat</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.03753v1">Federated Learning with Gramian Angular Fields for Privacy-Preserving
+  ECG Classification on Heterogeneous IoT Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-11-04T22:23:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Youssef Elmir, Yassine Himeur, Abbes Amira</p>
+    <p><b>Summary:</b> This study presents a federated learning (FL) framework for
+privacy-preserving electrocardiogram (ECG) classification in Internet of Things
+(IoT) healthcare environments. By transforming 1D ECG signals into 2D Gramian
+Angular Field (GAF) images, the proposed approach enables efficient feature
+extraction through Convolutional Neural Networks (CNNs) while ensuring that
+sensitive medical data remain local to each device. This work is among the
+first to experimentally validate GAF-based federated ECG classification across
+heterogeneous IoT devices, quantifying both performance and communication
+efficiency. To evaluate feasibility in realistic IoT settings, we deployed the
+framework across a server, a laptop, and a resource-constrained Raspberry Pi 4,
+reflecting edge-cloud integration in IoT ecosystems. Experimental results
+demonstrate that the FL-GAF model achieves a high classification accuracy of
+95.18% in a multi-client setup, significantly outperforming a single-client
+baseline in both accuracy and training time. Despite the added computational
+complexity of GAF transformations, the framework maintains efficient resource
+utilization and communication overhead. These findings highlight the potential
+of lightweight, privacy-preserving AI for IoT-based healthcare monitoring,
+supporting scalable and secure edge deployments in smart health systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.02993v2">PrivyWave: Privacy-Aware Wireless Sensing of Heartbeat</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
   <p><b>Published on:</b> 2025-11-04T20:54:59Z</p>
   <details>
@@ -2936,120 +3056,6 @@ Prismo models every use case into a Linear Integer Programming optimization
 problem, ensuring tailored solutions are recommended for each scenario. We
 evaluate Prismo's effectiveness through multiple use cases, demonstrating its
 ability to deliver best-fit solutions in different deployment scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09443v2">The Impact of Sanctions on decentralised Privacy Tools: A Case Study of
-  Tornado Cash</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2025-10-10T14:55:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Raffaele Cristodaro, Benjamin Kraner, Claudio J. Tessone</p>
-    <p><b>Summary:</b> This paper investigates the impact of sanctions on Tornado Cash, a smart
-contract protocol designed to enhance transaction privacy. Following the U.S.
-Department of the Treasury's sanctions against Tornado Cash in August 2022,
-platform activity declined sharply. We document a significant and sustained
-reduction in transaction volume, user diversity, and overall protocol
-utilization after the sanctions were imposed. Our analysis draws on transaction
-data from three major blockchains: Ethereum, BNB Smart Chain, and Polygon. We
-further examine developments following the partial lifting and eventual removal
-of sanctions by the U.S. Office of Foreign Assets Control (OFAC) in March 2025.
-Although activity partially recovered, the rebound remained limited. The
-Tornado Cash case illustrates how regulatory interventions can affect
-decentralized protocols, while also highlighting the challenges of fully
-enforcing such measures in decentralized environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09253v1">Zero-shot image privacy classification with Vision-Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2025-10-10T10:50:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alina Elena Baia, Alessio Xompero, Andrea Cavallaro</p>
-    <p><b>Summary:</b> While specialized learning-based models have historically dominated image
-privacy prediction, the current literature increasingly favours adopting large
-Vision-Language Models (VLMs) designed for generic tasks. This trend risks
-overlooking the performance ceiling set by purpose-built models due to a lack
-of systematic evaluation. To address this problem, we establish a zero-shot
-benchmark for image privacy classification, enabling a fair comparison. We
-evaluate the top-3 open-source VLMs, according to a privacy benchmark, using
-task-aligned prompts and we contrast their performance, efficiency, and
-robustness against established vision-only and multi-modal methods.
-Counter-intuitively, our results show that VLMs, despite their
-resource-intensive nature in terms of high parameter count and slower
-inference, currently lag behind specialized, smaller models in privacy
-prediction accuracy. We also find that VLMs exhibit higher robustness to image
-perturbations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09155v1">Federated Data Analytics for Cancer Immunotherapy: A Privacy-Preserving
-  Collaborative Platform for Patient Management</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-10-10T08:57:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mira Raheem, Michael Papazoglou, Bernd Krämer, Neamat El-Tazi, Amal Elgammal</p>
-    <p><b>Summary:</b> Connected health is a multidisciplinary approach focused on health
-management, prioritizing pa-tient needs in the creation of tools, services, and
-treatments. This paradigm ensures proactive and efficient care by facilitating
-the timely exchange of accurate patient information among all stake-holders in
-the care continuum. The rise of digital technologies and process innovations
-promises to enhance connected health by integrating various healthcare data
-sources. This integration aims to personalize care, predict health outcomes,
-and streamline patient management, though challeng-es remain, particularly in
-data architecture, application interoperability, and security. Data analytics
-can provide critical insights for informed decision-making and health
-co-creation, but solutions must prioritize end-users, including patients and
-healthcare professionals. This perspective was explored through an agile System
-Development Lifecycle in an EU-funded project aimed at developing an integrated
-AI-generated solution for managing cancer patients undergoing immunotherapy.
-This paper contributes with a collaborative digital framework integrating
-stakeholders across the care continuum, leveraging federated big data analytics
-and artificial intelligence for improved decision-making while ensuring
-privacy. Analytical capabilities, such as treatment recommendations and adverse
-event predictions, were validated using real-life data, achieving 70%-90%
-accuracy in a pilot study with the medical partners, demonstrating the
-framework's effectiveness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09114v2">On the Fairness of Privacy Protection: Measuring and Mitigating the
-  Disparity of Group Privacy Risks for Differentially Private Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-10-10T08:09:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhi Yang, Changwu Huang, Ke Tang, Xin Yao</p>
-    <p><b>Summary:</b> While significant progress has been made in conventional fairness-aware
-machine learning (ML) and differentially private ML (DPML), the fairness of
-privacy protection across groups remains underexplored. Existing studies have
-proposed methods to assess group privacy risks, but these are based on the
-average-case privacy risks of data records. Such approaches may underestimate
-the group privacy risks, thereby potentially underestimating the disparity
-across group privacy risks. Moreover, the current method for assessing the
-worst-case privacy risks of data records is time-consuming, limiting their
-practical applicability. To address these limitations, we introduce a novel
-membership inference game that can efficiently audit the approximate worst-case
-privacy risks of data records. Experimental results demonstrate that our method
-provides a more stringent measurement of group privacy risks, yielding a
-reliable assessment of the disparity in group privacy risks. Furthermore, to
-promote privacy protection fairness in DPML, we enhance the standard DP-SGD
-algorithm with an adaptive group-specific gradient clipping strategy, inspired
-by the design of canaries in differential privacy auditing studies. Extensive
-experiments confirm that our algorithm effectively reduces the disparity in
-group privacy risks, thereby enhancing the fairness of privacy protection in
-DPML.</p>
   </details>
 </div>
 
