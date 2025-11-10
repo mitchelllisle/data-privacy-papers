@@ -692,5 +692,60 @@
       "cs.HC",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.05327v1",
+    "title" : "Privacy-Preserving Cramér-Rao Lower Bound",
+    "summary" : "This paper establishes the privacy-preserving Cram\\'er-Rao (CR) lower bound\ntheory, characterizing the fundamental limit of identification accuracy under\nprivacy constraint. An identifiability criterion under privacy constraint is\nderived by using Fisher information matrix as the privacy metric. In the\nidentifiable case, the privacy-preserving CR lower bound is established and its\nattainability is demonstrated, thereby ensuring the existence of the\nprivacy-preserving Fisher information matrix with explicit expression. Then,\nthe privacy-preserving CR lower bound theory is extended to the multi-sensor\nmulti-measurement system. Specifically, the additivity principle of\nprivacy-preserving Fisher information matrices across both spatial and temporal\ndimensions is established, building a relationship between privacy-preserving\nCR lower bounds for the multi-sensor multi-measurement system and its\nsubsystems. Using this additivity principle, distributed identification\nalgorithms capable of achieving the privacy-preserving CR lower bound are\nfurther proposed. Numerical examples are provided to demonstrate the\nprivacy-preserving CR lower bound and show the effectiveness of the proposed\nalgorithms.",
+    "updated" : "2025-11-07T15:26:19Z",
+    "published" : "2025-11-07T15:26:19Z",
+    "authors" : [
+      {
+        "name" : "Jieming Ke"
+      },
+      {
+        "name" : "Jimin Wang"
+      },
+      {
+        "name" : "Ji-Feng Zhang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.05092v1",
+    "title" : "A Dual-stage Prompt-driven Privacy-preserving Paradigm for Person\n  Re-Identification",
+    "summary" : "With growing concerns over data privacy, researchers have started using\nvirtual data as an alternative to sensitive real-world images for training\nperson re-identification (Re-ID) models. However, existing virtual datasets\nproduced by game engines still face challenges such as complex construction and\npoor domain generalization, making them difficult to apply in real scenarios.\nTo address these challenges, we propose a Dual-stage Prompt-driven\nPrivacy-preserving Paradigm (DPPP). In the first stage, we generate rich\nprompts incorporating multi-dimensional attributes such as pedestrian\nappearance, illumination, and viewpoint that drive the diffusion model to\nsynthesize diverse data end-to-end, building a large-scale virtual dataset\nnamed GenePerson with 130,519 images of 6,641 identities. In the second stage,\nwe propose a Prompt-driven Disentanglement Mechanism (PDM) to learn\ndomain-invariant generalization features. With the aid of contrastive learning,\nwe employ two textual inversion networks to map images into pseudo-words\nrepresenting style and content, respectively, thereby constructing\nstyle-disentangled content prompts to guide the model in learning\ndomain-invariant content features at the image level. Experiments demonstrate\nthat models trained on GenePerson with PDM achieve state-of-the-art\ngeneralization performance, surpassing those on popular real and virtual Re-ID\ndatasets.",
+    "updated" : "2025-11-07T09:17:48Z",
+    "published" : "2025-11-07T09:17:48Z",
+    "authors" : [
+      {
+        "name" : "Ruolin Li"
+      },
+      {
+        "name" : "Min Liu"
+      },
+      {
+        "name" : "Yuan Bian"
+      },
+      {
+        "name" : "Zhaoyang Li"
+      },
+      {
+        "name" : "Yuzhen Li"
+      },
+      {
+        "name" : "Xueping Wang"
+      },
+      {
+        "name" : "Yaonan Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
