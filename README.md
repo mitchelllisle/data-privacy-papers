@@ -2,6 +2,66 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.05327v1">Privacy-Preserving Cramér-Rao Lower Bound</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Systems and Control-D91E36">
+  <p><b>Published on:</b> 2025-11-07T15:26:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jieming Ke, Jimin Wang, Ji-Feng Zhang</p>
+    <p><b>Summary:</b> This paper establishes the privacy-preserving Cram\'er-Rao (CR) lower bound
+theory, characterizing the fundamental limit of identification accuracy under
+privacy constraint. An identifiability criterion under privacy constraint is
+derived by using Fisher information matrix as the privacy metric. In the
+identifiable case, the privacy-preserving CR lower bound is established and its
+attainability is demonstrated, thereby ensuring the existence of the
+privacy-preserving Fisher information matrix with explicit expression. Then,
+the privacy-preserving CR lower bound theory is extended to the multi-sensor
+multi-measurement system. Specifically, the additivity principle of
+privacy-preserving Fisher information matrices across both spatial and temporal
+dimensions is established, building a relationship between privacy-preserving
+CR lower bounds for the multi-sensor multi-measurement system and its
+subsystems. Using this additivity principle, distributed identification
+algorithms capable of achieving the privacy-preserving CR lower bound are
+further proposed. Numerical examples are provided to demonstrate the
+privacy-preserving CR lower bound and show the effectiveness of the proposed
+algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.05092v1">A Dual-stage Prompt-driven Privacy-preserving Paradigm for Person
+  Re-Identification</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-11-07T09:17:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruolin Li, Min Liu, Yuan Bian, Zhaoyang Li, Yuzhen Li, Xueping Wang, Yaonan Wang</p>
+    <p><b>Summary:</b> With growing concerns over data privacy, researchers have started using
+virtual data as an alternative to sensitive real-world images for training
+person re-identification (Re-ID) models. However, existing virtual datasets
+produced by game engines still face challenges such as complex construction and
+poor domain generalization, making them difficult to apply in real scenarios.
+To address these challenges, we propose a Dual-stage Prompt-driven
+Privacy-preserving Paradigm (DPPP). In the first stage, we generate rich
+prompts incorporating multi-dimensional attributes such as pedestrian
+appearance, illumination, and viewpoint that drive the diffusion model to
+synthesize diverse data end-to-end, building a large-scale virtual dataset
+named GenePerson with 130,519 images of 6,641 identities. In the second stage,
+we propose a Prompt-driven Disentanglement Mechanism (PDM) to learn
+domain-invariant generalization features. With the aid of contrastive learning,
+we employ two textual inversion networks to map images into pseudo-words
+representing style and content, respectively, thereby constructing
+style-disentangled content prompts to guide the model in learning
+domain-invariant content features at the image level. Experiments demonstrate
+that models trained on GenePerson with PDM achieve state-of-the-art
+generalization performance, surpassing those on popular real and virtual Re-ID
+datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.04438v1">Limiting one-way distillable secret key via privacy testing of
   extendible states</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
@@ -3000,62 +3060,6 @@ propose a framework embedding Artificial Intelligence (AI) literacy
 interventions directly into mental health conversational systems, and outline a
 study plan to evaluate their impact on disclosure safety, trust, and user
 experience.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.10316v1">An information theorist's tour of differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2025-10-11T18:54:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anand D. Sarwate, Flavio P. Calmon, Oliver Kosut, Lalitha Sankar</p>
-    <p><b>Summary:</b> Since being proposed in 2006, differential privacy has become a standard
-method for quantifying certain risks in publishing or sharing analyses of
-sensitive data. At its heart, differential privacy measures risk in terms of
-the differences between probability distributions, which is a central topic in
-information theory. A differentially private algorithm is a channel between the
-underlying data and the output of the analysis. Seen in this way, the
-guarantees made by differential privacy can be understood in terms of
-properties of this channel. In this article we examine a few of the key
-connections between information theory and the formulation/application of
-differential privacy, giving an ``operational significance'' for relevant
-information measures.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.09985v1">Prismo: A Decision Support System for Privacy-Preserving ML Framework
-  Selection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-10-11T03:27:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nges Brian Njungle, Eric Jahns, Luigi Mastromauro, Edwin P. Kayang, Milan Stojkov, Michel A. Kinsy</p>
-    <p><b>Summary:</b> Machine learning has become a crucial part of our lives, with applications
-spanning nearly every aspect of our daily activities. However, using personal
-information in machine learning applications has sparked significant security
-and privacy concerns about user data. To address these challenges, different
-privacy-preserving machine learning (PPML) frameworks have been developed to
-protect sensitive information in machine learning applications. These
-frameworks generally attempt to balance design trade-offs such as computational
-efficiency, communication overhead, security guarantees, and scalability.
-Despite the advancements, selecting the optimal framework and parameters for
-specific deployment scenarios remains a complex and critical challenge for
-privacy and security application developers.
-  We present Prismo, an open-source recommendation system designed to aid in
-selecting optimal parameters and frameworks for different PPML application
-scenarios. Prismo enables users to explore a comprehensive space of PPML
-frameworks through various properties based on user-defined objectives. It
-supports automated filtering of suitable candidate frameworks by considering
-parameters such as the number of parties in multi-party computation or
-federated learning and computation cost constraints in homomorphic encryption.
-Prismo models every use case into a Linear Integer Programming optimization
-problem, ensuring tailored solutions are recommended for each scenario. We
-evaluate Prismo's effectiveness through multiple use cases, demonstrating its
-ability to deliver best-fit solutions in different deployment scenarios.</p>
   </details>
 </div>
 
