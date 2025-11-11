@@ -1,1 +1,52 @@
-[{"id":"http://arxiv.org/abs/2106.15335v1","title":"Privacy Budget Scheduling","summary":"Machine learning (ML) models trained on personal data have been shown to leak information about users. Differential privacy (DP) enables model training with a guaranteed bound on this leakage. Each new model trained with DP increases the bound on data leakage and can be seen as consuming part of a global privacy budget that should not be exceeded. This budget is a scarce resource that must be carefully managed to maximize the number of successfully trained models.\n  We describe PrivateKube, an extension to the popular Kubernetes datacenter orchestrator that adds privacy as a new type of resource to be managed alongside other traditional compute resources, such as CPU, GPU, and memory. The abstractions we design for the privacy resource mirror those defined by Kubernetes for traditional resources, but there are also major differences. For example, traditional compute resources are replenishable while privacy is not: a CPU can be regained after a model finishes execution while privacy budget cannot. This distinction forces a re-design of the scheduler. We present DPF (Dominant Private Block Fairness) -- a variant of the popular Dominant Resource Fairness (DRF) algorithm -- that is geared toward the non-replenishable privacy resource but enjoys similar theoretical properties as DRF.\n  We evaluate PrivateKube and DPF on microbenchmarks and an ML workload on Amazon Reviews data. Compared to existing baselines, DPF allows training more models under the same global privacy guarantee. This is especially true for DPF over Rényi DP, a highly composable form of DP.","updated":"2021-06-30T00:22:12Z","published":"2021-06-29T12:43:47Z","authors":[{"name":"Tao Luo"},{"name":"Mingen Pan"},{"name":"Pierre Tholoniat"},{"name":"Asaf Cidon"},{"name":"Roxana Geambasu"},{"name":"Mathias Lécuyer"}],"categories":["cs.CR","cs.DC","cs.LG"]},{"id":"http://arxiv.org/abs/2106.09565v3","title":"Interval Privacy: A Framework for Privacy-Preserving Data Collection","summary":"The emerging public awareness and government regulations of data privacy motivate new paradigms of collecting and analyzing data that are transparent and acceptable to data owners. We present a new concept of privacy and corresponding data formats, mechanisms, and theories for privatizing data during data collection. The privacy, named Interval Privacy, enforces the raw data conditional distribution on the privatized data to be the same as its unconditional distribution over a nontrivial support set. Correspondingly, the proposed privacy mechanism will record each data value as a random interval (or, more generally, a range) containing it. The proposed interval privacy mechanisms can be easily deployed through survey-based data collection interfaces, e.g., by asking a respondent whether its data value is within a randomly generated range. Another unique feature of interval mechanisms is that they obfuscate the truth but do not perturb it. Using narrowed range to convey information is complementary to the popular paradigm of perturbing data. Also, the interval mechanisms can generate progressively refined information at the discretion of individuals, naturally leading to privacy-adaptive data collection. We develop different aspects of theory such as composition, robustness, distribution estimation, and regression learning from interval-valued data. Interval privacy provides a new perspective of human-centric data privacy where individuals have a perceptible, transparent, and simple way of sharing sensitive data.","updated":"2022-06-08T13:39:54Z","published":"2021-06-17T14:47:21Z","authors":[{"name":"Jie Ding"},{"name":"Bangjun Ding"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2106.15335v1",
+    "title" : "Privacy Budget Scheduling",
+    "summary" : "Machine learning (ML) models trained on personal data have been shown to leak information about users. Differential privacy (DP) enables model training with a guaranteed bound on this leakage. Each new model trained with DP increases the bound on data leakage and can be seen as consuming part of a global privacy budget that should not be exceeded. This budget is a scarce resource that must be carefully managed to maximize the number of successfully trained models.\n  We describe PrivateKube, an extension to the popular Kubernetes datacenter orchestrator that adds privacy as a new type of resource to be managed alongside other traditional compute resources, such as CPU, GPU, and memory. The abstractions we design for the privacy resource mirror those defined by Kubernetes for traditional resources, but there are also major differences. For example, traditional compute resources are replenishable while privacy is not: a CPU can be regained after a model finishes execution while privacy budget cannot. This distinction forces a re-design of the scheduler. We present DPF (Dominant Private Block Fairness) -- a variant of the popular Dominant Resource Fairness (DRF) algorithm -- that is geared toward the non-replenishable privacy resource but enjoys similar theoretical properties as DRF.\n  We evaluate PrivateKube and DPF on microbenchmarks and an ML workload on Amazon Reviews data. Compared to existing baselines, DPF allows training more models under the same global privacy guarantee. This is especially true for DPF over Rényi DP, a highly composable form of DP.",
+    "updated" : "2021-06-30T00:22:12Z",
+    "published" : "2021-06-29T12:43:47Z",
+    "authors" : [
+      {
+        "name" : "Tao Luo"
+      },
+      {
+        "name" : "Mingen Pan"
+      },
+      {
+        "name" : "Pierre Tholoniat"
+      },
+      {
+        "name" : "Asaf Cidon"
+      },
+      {
+        "name" : "Roxana Geambasu"
+      },
+      {
+        "name" : "Mathias Lécuyer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2106.09565v3",
+    "title" : "Interval Privacy: A Framework for Privacy-Preserving Data Collection",
+    "summary" : "The emerging public awareness and government regulations of data privacy motivate new paradigms of collecting and analyzing data that are transparent and acceptable to data owners. We present a new concept of privacy and corresponding data formats, mechanisms, and theories for privatizing data during data collection. The privacy, named Interval Privacy, enforces the raw data conditional distribution on the privatized data to be the same as its unconditional distribution over a nontrivial support set. Correspondingly, the proposed privacy mechanism will record each data value as a random interval (or, more generally, a range) containing it. The proposed interval privacy mechanisms can be easily deployed through survey-based data collection interfaces, e.g., by asking a respondent whether its data value is within a randomly generated range. Another unique feature of interval mechanisms is that they obfuscate the truth but do not perturb it. Using narrowed range to convey information is complementary to the popular paradigm of perturbing data. Also, the interval mechanisms can generate progressively refined information at the discretion of individuals, naturally leading to privacy-adaptive data collection. We develop different aspects of theory such as composition, robustness, distribution estimation, and regression learning from interval-valued data. Interval privacy provides a new perspective of human-centric data privacy where individuals have a perceptible, transparent, and simple way of sharing sensitive data.",
+    "updated" : "2022-06-08T13:39:54Z",
+    "published" : "2021-06-17T14:47:21Z",
+    "authors" : [
+      {
+        "name" : "Jie Ding"
+      },
+      {
+        "name" : "Bangjun Ding"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
