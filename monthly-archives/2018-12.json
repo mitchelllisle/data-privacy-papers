@@ -1,1 +1,26 @@
-[{"id":"http://arxiv.org/abs/1812.08000v3","title":"Privacy-Aware Eye Tracking Using Differential Privacy","summary":"With eye tracking being increasingly integrated into virtual and augmented reality (VR/AR) head-mounted displays, preserving users' privacy is an ever more important, yet under-explored, topic in the eye tracking community. We report a large-scale online survey (N=124) on privacy aspects of eye tracking that provides the first comprehensive account of with whom, for which services, and to what extent users are willing to share their gaze data. Using these insights, we design a privacy-aware VR interface that uses differential privacy, which we evaluate on a new 20-participant dataset for two privacy sensitive tasks: We show that our method can prevent user re-identification and protect gender information while maintaining high performance for gaze-based document type classification. Our results highlight the privacy challenges particular to gaze data and demonstrate that differential privacy is a potential means to address them. Thus, this paper lays important foundations for future research on privacy-aware gaze interfaces.","updated":"2019-05-01T00:03:10Z","published":"2018-12-19T15:10:05Z","authors":[{"name":"Julian Steil"},{"name":"Inken Hagestedt"},{"name":"Michael Xuelin Huang"},{"name":"Andreas Bulling"}],"categories":["cs.HC"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1812.08000v3",
+    "title" : "Privacy-Aware Eye Tracking Using Differential Privacy",
+    "summary" : "With eye tracking being increasingly integrated into virtual and augmented reality (VR/AR) head-mounted displays, preserving users' privacy is an ever more important, yet under-explored, topic in the eye tracking community. We report a large-scale online survey (N=124) on privacy aspects of eye tracking that provides the first comprehensive account of with whom, for which services, and to what extent users are willing to share their gaze data. Using these insights, we design a privacy-aware VR interface that uses differential privacy, which we evaluate on a new 20-participant dataset for two privacy sensitive tasks: We show that our method can prevent user re-identification and protect gender information while maintaining high performance for gaze-based document type classification. Our results highlight the privacy challenges particular to gaze data and demonstrate that differential privacy is a potential means to address them. Thus, this paper lays important foundations for future research on privacy-aware gaze interfaces.",
+    "updated" : "2019-05-01T00:03:10Z",
+    "published" : "2018-12-19T15:10:05Z",
+    "authors" : [
+      {
+        "name" : "Julian Steil"
+      },
+      {
+        "name" : "Inken Hagestedt"
+      },
+      {
+        "name" : "Michael Xuelin Huang"
+      },
+      {
+        "name" : "Andreas Bulling"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  }
+]
