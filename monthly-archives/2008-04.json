@@ -1,1 +1,18 @@
-[{"id":"http://arxiv.org/abs/0804.3752v1","title":"The privacy implications of Bluetooth","summary":"A substantial amount of research, as well as media hype, has surrounded RFID technology and its privacy implications. Currently, researchers and the media focus on the privacy threats posed by RFID, while consumer groups choose to boycott products bearing RFID tags. At the same, however, a very similar technology has quietly become part of our everyday lives: Bluetooth. In this paper we highlight the fact that Bluetooth is a widespread technology that has real privacy implications. Furthermore, we explore the applicability of RFID-based solutions to address these privacy implications.","updated":"2008-04-24T00:00:03Z","published":"2008-04-23T16:00:55Z","authors":[{"name":"Vassilis Kostakos"}],"categories":["cs.CR","cs.CY"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/0804.3752v1",
+    "title" : "The privacy implications of Bluetooth",
+    "summary" : "A substantial amount of research, as well as media hype, has surrounded RFID technology and its privacy implications. Currently, researchers and the media focus on the privacy threats posed by RFID, while consumer groups choose to boycott products bearing RFID tags. At the same, however, a very similar technology has quietly become part of our everyday lives: Bluetooth. In this paper we highlight the fact that Bluetooth is a widespread technology that has real privacy implications. Furthermore, we explore the applicability of RFID-based solutions to address these privacy implications.",
+    "updated" : "2008-04-24T00:00:03Z",
+    "published" : "2008-04-23T16:00:55Z",
+    "authors" : [
+      {
+        "name" : "Vassilis Kostakos"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  }
+]
