@@ -1,1 +1,44 @@
-[{"id":"http://arxiv.org/abs/2006.08522v3","title":"Transparent Privacy is Principled Privacy","summary":"In a technical treatment, this article establishes the necessity of transparent privacy for drawing unbiased statistical inference for a wide range of scientific questions. Transparency is a distinct feature enjoyed by differential privacy: the probabilistic mechanism with which the data are privatized can be made public without sabotaging the privacy guarantee. Uncertainty due to transparent privacy may be conceived as a dynamic and controllable component from the total survey error perspective. As the 2020 U.S. Decennial Census adopts differential privacy, constraints imposed on the privatized data products through optimization constitute a threat to transparency and result in limited statistical usability. Transparent privacy presents a viable path toward principled inference from privatized data releases, and shows great promise toward improved reproducibility, accountability, and public trust in modern data curation.","updated":"2022-09-20T00:20:31Z","published":"2020-06-15T16:30:29Z","authors":[{"name":"Ruobin Gong"}],"categories":["stat.ME","stat.AP"]},{"id":"http://arxiv.org/abs/2006.06535v1","title":"Privacy Adversarial Network: Representation Learning for Mobile Data Privacy","summary":"The remarkable success of machine learning has fostered a growing number of cloud-based intelligent services for mobile users. Such a service requires a user to send data, e.g. image, voice and video, to the provider, which presents a serious challenge to user privacy. To address this, prior works either obfuscate the data, e.g. add noise and remove identity information, or send representations extracted from the data, e.g. anonymized features. They struggle to balance between the service utility and data privacy because obfuscated data reduces utility and extracted representation may still reveal sensitive information.\n  This work departs from prior works in methodology: we leverage adversarial learning to a better balance between privacy and utility. We design a \\textit{representation encoder} that generates the feature representations to optimize against the privacy disclosure risk of sensitive information (a measure of privacy) by the \\textit{privacy adversaries}, and concurrently optimize with the task inference accuracy (a measure of utility) by the \\textit{utility discriminator}. The result is the privacy adversarial network (\\systemname), a novel deep model with the new training algorithm, that can automatically learn representations from the raw data.\n  Intuitively, PAN adversarially forces the extracted representations to only convey the information required by the target task. Surprisingly, this constitutes an implicit regularization that actually improves task accuracy. As a result, PAN achieves better utility and better privacy at the same time! We report extensive experiments on six popular datasets and demonstrate the superiority of \\systemname compared with alternative methods reported in prior work.","updated":"2020-06-12T01:36:22Z","published":"2020-06-08T09:42:04Z","authors":[{"name":"Sicong Liu"},{"name":"Junzhao Du"},{"name":"Anshumali Shrivastava"},{"name":"Lin Zhong"}],"categories":["cs.LG","cs.AI","cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2006.08522v3",
+    "title" : "Transparent Privacy is Principled Privacy",
+    "summary" : "In a technical treatment, this article establishes the necessity of transparent privacy for drawing unbiased statistical inference for a wide range of scientific questions. Transparency is a distinct feature enjoyed by differential privacy: the probabilistic mechanism with which the data are privatized can be made public without sabotaging the privacy guarantee. Uncertainty due to transparent privacy may be conceived as a dynamic and controllable component from the total survey error perspective. As the 2020 U.S. Decennial Census adopts differential privacy, constraints imposed on the privatized data products through optimization constitute a threat to transparency and result in limited statistical usability. Transparent privacy presents a viable path toward principled inference from privatized data releases, and shows great promise toward improved reproducibility, accountability, and public trust in modern data curation.",
+    "updated" : "2022-09-20T00:20:31Z",
+    "published" : "2020-06-15T16:30:29Z",
+    "authors" : [
+      {
+        "name" : "Ruobin Gong"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2006.06535v1",
+    "title" : "Privacy Adversarial Network: Representation Learning for Mobile Data Privacy",
+    "summary" : "The remarkable success of machine learning has fostered a growing number of cloud-based intelligent services for mobile users. Such a service requires a user to send data, e.g. image, voice and video, to the provider, which presents a serious challenge to user privacy. To address this, prior works either obfuscate the data, e.g. add noise and remove identity information, or send representations extracted from the data, e.g. anonymized features. They struggle to balance between the service utility and data privacy because obfuscated data reduces utility and extracted representation may still reveal sensitive information.\n  This work departs from prior works in methodology: we leverage adversarial learning to a better balance between privacy and utility. We design a \\textit{representation encoder} that generates the feature representations to optimize against the privacy disclosure risk of sensitive information (a measure of privacy) by the \\textit{privacy adversaries}, and concurrently optimize with the task inference accuracy (a measure of utility) by the \\textit{utility discriminator}. The result is the privacy adversarial network (\\systemname), a novel deep model with the new training algorithm, that can automatically learn representations from the raw data.\n  Intuitively, PAN adversarially forces the extracted representations to only convey the information required by the target task. Surprisingly, this constitutes an implicit regularization that actually improves task accuracy. As a result, PAN achieves better utility and better privacy at the same time! We report extensive experiments on six popular datasets and demonstrate the superiority of \\systemname compared with alternative methods reported in prior work.",
+    "updated" : "2020-06-12T01:36:22Z",
+    "published" : "2020-06-08T09:42:04Z",
+    "authors" : [
+      {
+        "name" : "Sicong Liu"
+      },
+      {
+        "name" : "Junzhao Du"
+      },
+      {
+        "name" : "Anshumali Shrivastava"
+      },
+      {
+        "name" : "Lin Zhong"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  }
+]
