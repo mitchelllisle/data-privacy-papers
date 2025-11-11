@@ -1,1 +1,26 @@
-[{"id":"http://arxiv.org/abs/1710.03322v5","title":"XYZ Privacy","summary":"Future autonomous vehicles will generate, collect, aggregate and consume significant volumes of data as key gateway devices in emerging Internet of Things scenarios. While vehicles are widely accepted as one of the most challenging mobility contexts in which to achieve effective data communications, less attention has been paid to the privacy of data emerging from these vehicles. The quality and usability of such privatized data will lie at the heart of future safe and efficient transportation solutions.\n  In this paper, we present the XYZ Privacy mechanism. XYZ Privacy is to our knowledge the first such mechanism that enables data creators to submit multiple contradictory responses to a query, whilst preserving utility measured as the absolute error from the actual original data. The functionalities are achieved in both a scalable and secure fashion. For instance, individual location data can be obfuscated while preserving utility, thereby enabling the scheme to transparently integrate with existing systems (e.g. Waze). A new cryptographic primitive Function Secret Sharing is used to achieve non-attributable writes and we show an order of magnitude improvement from the default implementation.","updated":"2018-02-23T01:01:25Z","published":"2017-10-09T21:24:22Z","authors":[{"name":"Josh Joy"},{"name":"Dylan Gray"},{"name":"Ciaran McGoldrick"},{"name":"Mario Gerla"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1710.03322v5",
+    "title" : "XYZ Privacy",
+    "summary" : "Future autonomous vehicles will generate, collect, aggregate and consume significant volumes of data as key gateway devices in emerging Internet of Things scenarios. While vehicles are widely accepted as one of the most challenging mobility contexts in which to achieve effective data communications, less attention has been paid to the privacy of data emerging from these vehicles. The quality and usability of such privatized data will lie at the heart of future safe and efficient transportation solutions.\n  In this paper, we present the XYZ Privacy mechanism. XYZ Privacy is to our knowledge the first such mechanism that enables data creators to submit multiple contradictory responses to a query, whilst preserving utility measured as the absolute error from the actual original data. The functionalities are achieved in both a scalable and secure fashion. For instance, individual location data can be obfuscated while preserving utility, thereby enabling the scheme to transparently integrate with existing systems (e.g. Waze). A new cryptographic primitive Function Secret Sharing is used to achieve non-attributable writes and we show an order of magnitude improvement from the default implementation.",
+    "updated" : "2018-02-23T01:01:25Z",
+    "published" : "2017-10-09T21:24:22Z",
+    "authors" : [
+      {
+        "name" : "Josh Joy"
+      },
+      {
+        "name" : "Dylan Gray"
+      },
+      {
+        "name" : "Ciaran McGoldrick"
+      },
+      {
+        "name" : "Mario Gerla"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
