@@ -1,1 +1,41 @@
-[{"id":"http://arxiv.org/abs/1712.08500v8","title":"On Perfect Privacy","summary":"The problem of private data disclosure is studied from an information theoretic perspective. Considering a pair of dependent random variables $(X,Y)$, where $X$ and $Y$ denote the private and useful data, respectively, the following problem is addressed: What is the maximum information that can be revealed about $Y$ (measured by mutual information $I(Y;U)$, in which $U$ is the revealed data), while disclosing no information about $X$ (captured by the condition of statistical independence, i.e., $X\\independent U$, and henceforth, called \\textit{perfect privacy})? We analyze the supremization of \\textit{utility}, i.e., $I(Y;U)$ under the condition of perfect privacy for two scenarios: \\textit{output perturbation} and \\textit{full data observation} models, which correspond to the cases where a Markov kernel, called \\textit{privacy-preserving mapping}, applies to $Y$ and the pair $(X,Y)$, respectively. When both $X$ and $Y$ have a finite alphabet, the linear algebraic analysis involved in the solution provides some interesting results, such as upper/lower bounds on the size of the released alphabet and the maximum utility. Afterwards, it is shown that for the jointly Gaussian $(X,Y)$, perfect privacy is not possible in the output perturbation model in contrast to the full data observation model. Finally, an asymptotic analysis is provided to obtain the rate of released information when a sufficiently small leakage is allowed. In particular, in the context of output perturbation model, it is shown that this rate is always finite when perfect privacy is not feasible, and two lower bounds are provided for it; When perfect privacy is feasible, it is shown that under mild conditions, this rate becomes unbounded.","updated":"2021-01-25T01:03:15Z","published":"2017-12-22T15:16:40Z","authors":[{"name":"Borzoo Rassouli"},{"name":"Deniz Gunduz"}],"categories":["cs.IT"]},{"id":"http://arxiv.org/abs/1712.02193v2","title":"Systematizing Genome Privacy Research: A Privacy-Enhancing Technologies Perspective","summary":"Rapid advances in human genomics are enabling researchers to gain a better understanding of the role of the genome in our health and well-being, stimulating hope for more effective and cost efficient healthcare. However, this also prompts a number of security and privacy concerns stemming from the distinctive characteristics of genomic data. To address them, a new research community has emerged and produced a large number of publications and initiatives.\n  In this paper, we rely on a structured methodology to contextualize and provide a critical analysis of the current knowledge on privacy-enhancing technologies used for testing, storing, and sharing genomic data, using a representative sample of the work published in the past decade. We identify and discuss limitations, technical challenges, and issues faced by the community, focusing in particular on those that are inherently tied to the nature of the problem and are harder for the community alone to address. Finally, we report on the importance and difficulty of the identified challenges based on an online survey of genome data privacy experts","updated":"2018-08-20T00:12:42Z","published":"2017-12-06T14:22:57Z","authors":[{"name":"Alexandros Mittos"},{"name":"Bradley Malin"},{"name":"Emiliano De Cristofaro"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1712.08500v8",
+    "title" : "On Perfect Privacy",
+    "summary" : "The problem of private data disclosure is studied from an information theoretic perspective. Considering a pair of dependent random variables $(X,Y)$, where $X$ and $Y$ denote the private and useful data, respectively, the following problem is addressed: What is the maximum information that can be revealed about $Y$ (measured by mutual information $I(Y;U)$, in which $U$ is the revealed data), while disclosing no information about $X$ (captured by the condition of statistical independence, i.e., $X\\independent U$, and henceforth, called \\textit{perfect privacy})? We analyze the supremization of \\textit{utility}, i.e., $I(Y;U)$ under the condition of perfect privacy for two scenarios: \\textit{output perturbation} and \\textit{full data observation} models, which correspond to the cases where a Markov kernel, called \\textit{privacy-preserving mapping}, applies to $Y$ and the pair $(X,Y)$, respectively. When both $X$ and $Y$ have a finite alphabet, the linear algebraic analysis involved in the solution provides some interesting results, such as upper/lower bounds on the size of the released alphabet and the maximum utility. Afterwards, it is shown that for the jointly Gaussian $(X,Y)$, perfect privacy is not possible in the output perturbation model in contrast to the full data observation model. Finally, an asymptotic analysis is provided to obtain the rate of released information when a sufficiently small leakage is allowed. In particular, in the context of output perturbation model, it is shown that this rate is always finite when perfect privacy is not feasible, and two lower bounds are provided for it; When perfect privacy is feasible, it is shown that under mild conditions, this rate becomes unbounded.",
+    "updated" : "2021-01-25T01:03:15Z",
+    "published" : "2017-12-22T15:16:40Z",
+    "authors" : [
+      {
+        "name" : "Borzoo Rassouli"
+      },
+      {
+        "name" : "Deniz Gunduz"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1712.02193v2",
+    "title" : "Systematizing Genome Privacy Research: A Privacy-Enhancing Technologies Perspective",
+    "summary" : "Rapid advances in human genomics are enabling researchers to gain a better understanding of the role of the genome in our health and well-being, stimulating hope for more effective and cost efficient healthcare. However, this also prompts a number of security and privacy concerns stemming from the distinctive characteristics of genomic data. To address them, a new research community has emerged and produced a large number of publications and initiatives.\n  In this paper, we rely on a structured methodology to contextualize and provide a critical analysis of the current knowledge on privacy-enhancing technologies used for testing, storing, and sharing genomic data, using a representative sample of the work published in the past decade. We identify and discuss limitations, technical challenges, and issues faced by the community, focusing in particular on those that are inherently tied to the nature of the problem and are harder for the community alone to address. Finally, we report on the importance and difficulty of the identified challenges based on an online survey of genome data privacy experts",
+    "updated" : "2018-08-20T00:12:42Z",
+    "published" : "2017-12-06T14:22:57Z",
+    "authors" : [
+      {
+        "name" : "Alexandros Mittos"
+      },
+      {
+        "name" : "Bradley Malin"
+      },
+      {
+        "name" : "Emiliano De Cristofaro"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
