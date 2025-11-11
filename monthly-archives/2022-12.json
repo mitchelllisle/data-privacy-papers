@@ -1,1 +1,17 @@
-[{"id":"http://arxiv.org/abs/2212.00528v1","title":"A Value-Centered Exploration of Data Privacy and Personalized Privacy Assistants","summary":"In the the current post-GDPR landscape, privacy notices have become ever more prevalent on our phones and online. However, these notices are not well suited to their purpose of helping users make informed decisions. I suggest that instead of utilizing notice to eliciting informed consent, we could repurpose privacy notices to create the space for more meaningful, value-centered user decisions. Value-centered privacy decisions, or those that accurately reflect who we are and what we value, encapsulate the intuitive role of personal values in data privacy decisions. To explore how notices could be repurposed to support such decisions, I utilize Suzy Killmister's four-dimensional theory of autonomy (4DT) to operationalize value-centered privacy decisions. I then assess the degree that an existing technology, Personalized Privacy Assistants (PPAs), uses notices in a manner that allows for value-centered decision-making. Lastly, I explore the implications of the PPA assessment for designing a new assistant, called a value-centered privacy assistant (VcPA). A VcPA could ideally utilized notice to assists users in value-centered app selection and in other data privacy decisions.","updated":"2022-12-02T01:14:37Z","published":"2022-12-01T14:26:33Z","authors":[{"name":"Sarah E. Carter"}],"categories":["cs.CY"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2212.00528v1",
+    "title" : "A Value-Centered Exploration of Data Privacy and Personalized Privacy Assistants",
+    "summary" : "In the the current post-GDPR landscape, privacy notices have become ever more prevalent on our phones and online. However, these notices are not well suited to their purpose of helping users make informed decisions. I suggest that instead of utilizing notice to eliciting informed consent, we could repurpose privacy notices to create the space for more meaningful, value-centered user decisions. Value-centered privacy decisions, or those that accurately reflect who we are and what we value, encapsulate the intuitive role of personal values in data privacy decisions. To explore how notices could be repurposed to support such decisions, I utilize Suzy Killmister's four-dimensional theory of autonomy (4DT) to operationalize value-centered privacy decisions. I then assess the degree that an existing technology, Personalized Privacy Assistants (PPAs), uses notices in a manner that allows for value-centered decision-making. Lastly, I explore the implications of the PPA assessment for designing a new assistant, called a value-centered privacy assistant (VcPA). A VcPA could ideally utilized notice to assists users in value-centered app selection and in other data privacy decisions.",
+    "updated" : "2022-12-02T01:14:37Z",
+    "published" : "2022-12-01T14:26:33Z",
+    "authors" : [
+      {
+        "name" : "Sarah E. Carter"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  }
+]
