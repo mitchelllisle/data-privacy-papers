@@ -3181,5 +3181,178 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.19291v2",
+    "title" : "RAG with Differential Privacy",
+    "summary" : "Retrieval-Augmented Generation (RAG) has emerged as the dominant technique to provide \\emph{Large Language Models} (LLM) with fresh and relevant context, mitigating the risk of hallucinations and improving the overall quality of responses in environments with large and fast moving knowledge bases. However, the integration of external documents into the generation process raises significant privacy concerns. Indeed, when added to a prompt, it is not possible to guarantee a response will not inadvertently expose confidential data, leading to potential breaches of privacy and ethical dilemmas. This paper explores a practical solution to this problem suitable to general knowledge extraction from personal data. It shows \\emph{differentially private token generation} is a viable approach to private RAG.",
+    "updated" : "2025-01-23T01:42:25Z",
+    "published" : "2024-12-26T17:34:26Z",
+    "authors" : [
+      {
+        "name" : "Nicolas Grislain"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.16916v3",
+    "title" : "On the Differential Privacy and Interactivity of Privacy Sandbox Reports",
+    "summary" : "The Privacy Sandbox initiative from Google includes APIs for enabling privacy-preserving advertising functionalities as part of the effort around limiting third-party cookies. In particular, the Private Aggregation API (PAA) and the Attribution Reporting API (ARA) can be used for ad measurement while providing different guardrails for safeguarding user privacy, including a framework for satisfying differential privacy (DP). In this work, we provide an abstract model for analyzing the privacy of these APIs and show that they satisfy a formal DP guarantee under certain assumptions. Our analysis handles the case where both the queries and database can change interactively based on previous responses from the API.",
+    "updated" : "2025-04-02T00:16:05Z",
+    "published" : "2024-12-22T08:22:57Z",
+    "authors" : [
+      {
+        "name" : "Badih Ghazi"
+      },
+      {
+        "name" : "Charlie Harrison"
+      },
+      {
+        "name" : "Arpana Hosabettu"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Alexander Knop"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Ethan Leeman"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Mariana Raykova"
+      },
+      {
+        "name" : "Vikas Sahu"
+      },
+      {
+        "name" : "Phillipp Schoppmann"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.10612v1",
+    "title" : "Meeting Utility Constraints in Differential Privacy: A Privacy-Boosting Approach",
+    "summary" : "Data engineering often requires accuracy (utility) constraints on results, posing significant challenges in designing differentially private (DP) mechanisms, particularly under stringent privacy parameter $ε$. In this paper, we propose a privacy-boosting framework that is compatible with most noise-adding DP mechanisms. Our framework enhances the likelihood of outputs falling within a preferred subset of the support to meet utility requirements while enlarging the overall variance to reduce privacy leakage. We characterize the privacy loss distribution of our framework and present the privacy profile formulation for $(ε,δ)$-DP and Rényi DP (RDP) guarantees. We study special cases involving data-dependent and data-independent utility formulations. Through extensive experiments, we demonstrate that our framework achieves lower privacy loss than standard DP mechanisms under utility constraints. Notably, our approach is particularly effective in reducing privacy loss with large query sensitivity relative to the true answer, offering a more practical and flexible approach to designing differentially private mechanisms that meet specific utility constraints.",
+    "updated" : "2024-12-17T01:12:08Z",
+    "published" : "2024-12-13T23:34:30Z",
+    "authors" : [
+      {
+        "name" : "Bo Jiang"
+      },
+      {
+        "name" : "Wanrong Zhang"
+      },
+      {
+        "name" : "Donghang Lu"
+      },
+      {
+        "name" : "Jian Du"
+      },
+      {
+        "name" : "Sagar Sharma"
+      },
+      {
+        "name" : "Qiang Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.05183v1",
+    "title" : "Privacy Drift: Evolving Privacy Concerns in Incremental Learning",
+    "summary" : "In the evolving landscape of machine learning (ML), Federated Learning (FL) presents a paradigm shift towards decentralized model training while preserving user data privacy. This paper introduces the concept of ``privacy drift\", an innovative framework that parallels the well-known phenomenon of concept drift. While concept drift addresses the variability in model accuracy over time due to changes in the data, privacy drift encapsulates the variation in the leakage of private information as models undergo incremental training. By defining and examining privacy drift, this study aims to unveil the nuanced relationship between the evolution of model performance and the integrity of data privacy. Through rigorous experimentation, we investigate the dynamics of privacy drift in FL systems, focusing on how model updates and data distribution shifts influence the susceptibility of models to privacy attacks, such as membership inference attacks (MIA). Our results highlight a complex interplay between model accuracy and privacy safeguards, revealing that enhancements in model performance can lead to increased privacy risks. We provide empirical evidence from experiments on customized datasets derived from CIFAR-100 (Canadian Institute for Advanced Research, 100 classes), showcasing the impact of data and concept drift on privacy. This work lays the groundwork for future research on privacy-aware machine learning, aiming to achieve a delicate balance between model accuracy and data privacy in decentralized environments.",
+    "updated" : "2024-12-09T01:50:54Z",
+    "published" : "2024-12-06T17:04:09Z",
+    "authors" : [
+      {
+        "name" : "Sayyed Farid Ahamed"
+      },
+      {
+        "name" : "Soumya Banerjee"
+      },
+      {
+        "name" : "Sandip Roy"
+      },
+      {
+        "name" : "Aayush Kapoor"
+      },
+      {
+        "name" : "Marc Vucovich"
+      },
+      {
+        "name" : "Kevin Choi"
+      },
+      {
+        "name" : "Abdul Rahman"
+      },
+      {
+        "name" : "Edward Bowen"
+      },
+      {
+        "name" : "Sachin Shetty"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04697v2",
+    "title" : "Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy",
+    "summary" : "With the recent remarkable advancement of large language models (LLMs), there has been a growing interest in utilizing them in the domains with highly sensitive data that lies outside their training data. For this purpose, retrieval-augmented generation (RAG) is particularly effective -- it assists LLMs by directly providing relevant information from the external knowledge sources. However, without extra privacy safeguards, RAG outputs risk leaking sensitive information from the external data source. In this work, we explore RAG under differential privacy (DP), a formal guarantee of data privacy. The main challenge with differentially private RAG is how to generate long accurate answers within a moderate privacy budget. We address this by proposing an algorithm that smartly spends privacy budget only for the tokens that require the sensitive information and uses the non-private LLM for other tokens. Our extensive empirical evaluations reveal that our algorithm outperforms the non-RAG baseline under a reasonable privacy budget of $ε\\approx 10$ across different models and datasets.",
+    "updated" : "2025-02-27T02:08:00Z",
+    "published" : "2024-12-06T01:20:16Z",
+    "authors" : [
+      {
+        "name" : "Tatsuki Koga"
+      },
+      {
+        "name" : "Ruihan Wu"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.02578v1",
+    "title" : "Private Linear Regression with Differential Privacy and PAC Privacy",
+    "summary" : "Linear regression is a fundamental tool for statistical analysis, which has motivated the development of linear regression methods that satisfy provable privacy guarantees so that the learned model reveals little about any one data point used to construct it. Most existing privacy-preserving linear regression methods rely on the well-established framework of differential privacy, while the newly proposed PAC Privacy has not yet been explored in this context. In this paper, we systematically compare linear regression models trained with differential privacy and PAC privacy across three real-world datasets, observing several key findings that impact the performance of privacy-preserving linear regression.",
+    "updated" : "2024-12-04T01:58:22Z",
+    "published" : "2024-12-03T17:04:14Z",
+    "authors" : [
+      {
+        "name" : "Hillary Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
