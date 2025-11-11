@@ -1,1 +1,18 @@
-[{"id":"http://arxiv.org/abs/1407.0423v1","title":"Privacy and Anonymity","summary":"Since the beginning of the digital area, privacy and anonymity have been impacted drastically (both, positively and negatively), by the different technologies developed for communications purposes. The broad possibilities that the Internet offers since its conception, makes it a mandatory target for those entities that are aiming to know and control the different channels of communication and the information that flows through. In this paper, we address the current threats against privacy and anonymity on the Internet, together with the methods applied against them. In addition, we enumerate the publicly known entities behind those threats and their motivations. Finally, we analyze the state of the art concerning the protection of the privacy and anonymity on the Internet; introducing future lines of research.","updated":"2014-07-03T00:02:35Z","published":"2014-07-01T22:52:00Z","authors":[{"name":"Adrian Yanes"}],"categories":["cs.CY","cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1407.0423v1",
+    "title" : "Privacy and Anonymity",
+    "summary" : "Since the beginning of the digital area, privacy and anonymity have been impacted drastically (both, positively and negatively), by the different technologies developed for communications purposes. The broad possibilities that the Internet offers since its conception, makes it a mandatory target for those entities that are aiming to know and control the different channels of communication and the information that flows through. In this paper, we address the current threats against privacy and anonymity on the Internet, together with the methods applied against them. In addition, we enumerate the publicly known entities behind those threats and their motivations. Finally, we analyze the state of the art concerning the protection of the privacy and anonymity on the Internet; introducing future lines of research.",
+    "updated" : "2014-07-03T00:02:35Z",
+    "published" : "2014-07-01T22:52:00Z",
+    "authors" : [
+      {
+        "name" : "Adrian Yanes"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR"
+    ]
+  }
+]
