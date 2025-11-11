@@ -1,1 +1,19 @@
-[{"id":"http://arxiv.org/abs/2002.01501v2","title":"The Privacy Funnel from the viewpoint of Local Differential Privacy","summary":"We consider a database $\\vec{X} = (X_1,\\cdots,X_n)$ containing the data of $n$ users. The data aggregator wants to publicise the database, but wishes to sanitise the dataset to hide sensitive data $S_i$ correlated to $X_i$. This setting is considered in the Privacy Funnel, which uses mutual information as a leakage metric. The downsides to this approach are that mutual information does not give worst-case guarantees, and that finding optimal sanitisation protocols can be computationally prohibitive. We tackle these problems by using differential privacy metrics, and by considering local protocols which operate on one entry at a time. We show that under both the Local Differential Privacy and Local Information Privacy leakage metrics, one can efficiently obtain optimal protocols; however, Local Information Privacy is both more closely aligned to the privacy requirements of the Privacy Funnel scenario, and more efficiently computable. We also consider the scenario where each user has multiple attributes (i.e. $X_i = (X^1_i,\\cdots,X^m_i)$), for which we define \\emph{Side-channel Resistant Local Information Privacy}, and we give efficient methods to find protocols satisfying this criterion while still offering good utility. Exploratory experiments confirm the validity of these methods.","updated":"2020-03-10T00:08:50Z","published":"2020-02-04T19:16:00Z","authors":[{"name":"Milan Lopuhaä-Zwakenberg"}],"categories":["cs.CR","cs.DB","cs.IT"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2002.01501v2",
+    "title" : "The Privacy Funnel from the viewpoint of Local Differential Privacy",
+    "summary" : "We consider a database $\\vec{X} = (X_1,\\cdots,X_n)$ containing the data of $n$ users. The data aggregator wants to publicise the database, but wishes to sanitise the dataset to hide sensitive data $S_i$ correlated to $X_i$. This setting is considered in the Privacy Funnel, which uses mutual information as a leakage metric. The downsides to this approach are that mutual information does not give worst-case guarantees, and that finding optimal sanitisation protocols can be computationally prohibitive. We tackle these problems by using differential privacy metrics, and by considering local protocols which operate on one entry at a time. We show that under both the Local Differential Privacy and Local Information Privacy leakage metrics, one can efficiently obtain optimal protocols; however, Local Information Privacy is both more closely aligned to the privacy requirements of the Privacy Funnel scenario, and more efficiently computable. We also consider the scenario where each user has multiple attributes (i.e. $X_i = (X^1_i,\\cdots,X^m_i)$), for which we define \\emph{Side-channel Resistant Local Information Privacy}, and we give efficient methods to find protocols satisfying this criterion while still offering good utility. Exploratory experiments confirm the validity of these methods.",
+    "updated" : "2020-03-10T00:08:50Z",
+    "published" : "2020-02-04T19:16:00Z",
+    "authors" : [
+      {
+        "name" : "Milan Lopuhaä-Zwakenberg"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "cs.IT"
+    ]
+  }
+]
