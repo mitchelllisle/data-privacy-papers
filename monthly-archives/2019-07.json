@@ -1,1 +1,18 @@
-[{"id":"http://arxiv.org/abs/1907.09311v1","title":"On the Information Privacy Model: the Group and Composition Privacy","summary":"How to query a dataset in the way of preserving the privacy of individuals whose data is included in the dataset is an important problem. The information privacy model, a variant of Shannon's information theoretic model to the encryption systems, protects the privacy of an individual by controlling the amount of information of the individual's data obtained by each adversary from the query's output. This model also assumes that each adversary's uncertainty to the queried dataset is not so small in order to improve the data utility. In this paper, we prove some results to the group privacy and the composition privacy properties of this model, where the group privacy ensures a group of individuals' privacy is preserved, and where the composition privacy ensures multiple queries also preserve the privacy of an individual. Explicitly, we reduce the proof of the two properties to the estimation of the difference of two channel capacities. Our proofs are greatly benefited from some information-theoretic tools and approaches.","updated":"2021-01-05T22:48:03Z","published":"2019-07-22T13:23:24Z","authors":[{"name":"Genqiang Wu"}],"categories":["cs.CR","cs.IT"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1907.09311v1",
+    "title" : "On the Information Privacy Model: the Group and Composition Privacy",
+    "summary" : "How to query a dataset in the way of preserving the privacy of individuals whose data is included in the dataset is an important problem. The information privacy model, a variant of Shannon's information theoretic model to the encryption systems, protects the privacy of an individual by controlling the amount of information of the individual's data obtained by each adversary from the query's output. This model also assumes that each adversary's uncertainty to the queried dataset is not so small in order to improve the data utility. In this paper, we prove some results to the group privacy and the composition privacy properties of this model, where the group privacy ensures a group of individuals' privacy is preserved, and where the composition privacy ensures multiple queries also preserve the privacy of an individual. Explicitly, we reduce the proof of the two properties to the estimation of the difference of two channel capacities. Our proofs are greatly benefited from some information-theoretic tools and approaches.",
+    "updated" : "2021-01-05T22:48:03Z",
+    "published" : "2019-07-22T13:23:24Z",
+    "authors" : [
+      {
+        "name" : "Genqiang Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT"
+    ]
+  }
+]
