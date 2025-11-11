@@ -1,1 +1,51 @@
-[{"id":"http://arxiv.org/abs/2309.15087v1","title":"Privacy-preserving and Privacy-attacking Approaches for Speech and Audio -- A Survey","summary":"In contemporary society, voice-controlled devices, such as smartphones and home assistants, have become pervasive due to their advanced capabilities and functionality. The always-on nature of their microphones offers users the convenience of readily accessing these devices. However, recent research and events have revealed that such voice-controlled devices are prone to various forms of malicious attacks, hence making it a growing concern for both users and researchers to safeguard against such attacks. Despite the numerous studies that have investigated adversarial attacks and privacy preservation for images, a conclusive study of this nature has not been conducted for the audio domain. Therefore, this paper aims to examine existing approaches for privacy-preserving and privacy-attacking strategies for audio and speech. To achieve this goal, we classify the attack and defense scenarios into several categories and provide detailed analysis of each approach. We also interpret the dissimilarities between the various approaches, highlight their contributions, and examine their limitations. Our investigation reveals that voice-controlled devices based on neural networks are inherently susceptible to specific types of attacks. Although it is possible to enhance the robustness of such models to certain forms of attack, more sophisticated approaches are required to comprehensively safeguard user privacy.","updated":"2023-09-27T00:35:40Z","published":"2023-09-26T17:31:35Z","authors":[{"name":"Yuchen Liu"},{"name":"Apu Kapadia"},{"name":"Donald Williamson"}],"categories":["cs.CR","eess.AS"]},{"id":"http://arxiv.org/abs/2309.05330v1","title":"Diff-Privacy: Diffusion-based Face Privacy Protection","summary":"Privacy protection has become a top priority as the proliferation of AI techniques has led to widespread collection and misuse of personal data. Anonymization and visual identity information hiding are two important facial privacy protection tasks that aim to remove identification characteristics from facial images at the human perception level. However, they have a significant difference in that the former aims to prevent the machine from recognizing correctly, while the latter needs to ensure the accuracy of machine recognition. Therefore, it is difficult to train a model to complete these two tasks simultaneously. In this paper, we unify the task of anonymization and visual identity information hiding and propose a novel face privacy protection method based on diffusion models, dubbed Diff-Privacy. Specifically, we train our proposed multi-scale image inversion module (MSI) to obtain a set of SDM format conditional embeddings of the original image. Based on the conditional embeddings, we design corresponding embedding scheduling strategies and construct different energy functions during the denoising process to achieve anonymization and visual identity information hiding. Extensive experiments have been conducted to validate the effectiveness of our proposed framework in protecting facial privacy.","updated":"2023-09-12T00:50:00Z","published":"2023-09-11T09:26:07Z","authors":[{"name":"Xiao He"},{"name":"Mingrui Zhu"},{"name":"Dongxin Chen"},{"name":"Nannan Wang"},{"name":"Xinbo Gao"}],"categories":["cs.CV"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2309.15087v1",
+    "title" : "Privacy-preserving and Privacy-attacking Approaches for Speech and Audio -- A Survey",
+    "summary" : "In contemporary society, voice-controlled devices, such as smartphones and home assistants, have become pervasive due to their advanced capabilities and functionality. The always-on nature of their microphones offers users the convenience of readily accessing these devices. However, recent research and events have revealed that such voice-controlled devices are prone to various forms of malicious attacks, hence making it a growing concern for both users and researchers to safeguard against such attacks. Despite the numerous studies that have investigated adversarial attacks and privacy preservation for images, a conclusive study of this nature has not been conducted for the audio domain. Therefore, this paper aims to examine existing approaches for privacy-preserving and privacy-attacking strategies for audio and speech. To achieve this goal, we classify the attack and defense scenarios into several categories and provide detailed analysis of each approach. We also interpret the dissimilarities between the various approaches, highlight their contributions, and examine their limitations. Our investigation reveals that voice-controlled devices based on neural networks are inherently susceptible to specific types of attacks. Although it is possible to enhance the robustness of such models to certain forms of attack, more sophisticated approaches are required to comprehensively safeguard user privacy.",
+    "updated" : "2023-09-27T00:35:40Z",
+    "published" : "2023-09-26T17:31:35Z",
+    "authors" : [
+      {
+        "name" : "Yuchen Liu"
+      },
+      {
+        "name" : "Apu Kapadia"
+      },
+      {
+        "name" : "Donald Williamson"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2309.05330v1",
+    "title" : "Diff-Privacy: Diffusion-based Face Privacy Protection",
+    "summary" : "Privacy protection has become a top priority as the proliferation of AI techniques has led to widespread collection and misuse of personal data. Anonymization and visual identity information hiding are two important facial privacy protection tasks that aim to remove identification characteristics from facial images at the human perception level. However, they have a significant difference in that the former aims to prevent the machine from recognizing correctly, while the latter needs to ensure the accuracy of machine recognition. Therefore, it is difficult to train a model to complete these two tasks simultaneously. In this paper, we unify the task of anonymization and visual identity information hiding and propose a novel face privacy protection method based on diffusion models, dubbed Diff-Privacy. Specifically, we train our proposed multi-scale image inversion module (MSI) to obtain a set of SDM format conditional embeddings of the original image. Based on the conditional embeddings, we design corresponding embedding scheduling strategies and construct different energy functions during the denoising process to achieve anonymization and visual identity information hiding. Extensive experiments have been conducted to validate the effectiveness of our proposed framework in protecting facial privacy.",
+    "updated" : "2023-09-12T00:50:00Z",
+    "published" : "2023-09-11T09:26:07Z",
+    "authors" : [
+      {
+        "name" : "Xiao He"
+      },
+      {
+        "name" : "Mingrui Zhu"
+      },
+      {
+        "name" : "Dongxin Chen"
+      },
+      {
+        "name" : "Nannan Wang"
+      },
+      {
+        "name" : "Xinbo Gao"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  }
+]
