@@ -1,1 +1,34 @@
-[{"id":"http://arxiv.org/abs/2308.05700v2","title":"In Pursuit of Privacy: The Value-Centered Privacy Assistant","summary":"Many users make quick decisions that affect their data privacy without due consideration of their values. One such decision is whether to download a smartphone app to their device. Previous work has suggested a relationship between values, privacy preferences, and app choices, and proposed a value-centered approach to privacy that conceptually unites these relationships. In this work, we translate this theory into practice by constructing a prototype smartphone value-centered privacy assistant (VcPA) - a privacy assistant system that promotes user privacy decisions based on personal values. To do this, we designed and conducted an online survey that captured values and privacy preferences when considering whether to download an app from 273 smartphone users. Using this data, we constructed VcPA user profiles by clustering survey data based on the value rankings and stated privacy preferences. We then tested the VcPA, using selective notices, a \"suggest alternatives\" feature, and exploratory notices, with 77 users in a synthetic Mock App Store (MAS) setting and conducted follow-up semi-structured interviews. We establish proof-of-concept that a VcPA helps users make more value-centered app choices and identified improvements so that an assistant can be deployed on smartphone app stores.","updated":"2025-04-03T00:55:03Z","published":"2023-08-10T17:04:12Z","authors":[{"name":"Sarah E. Carter"},{"name":"Mathieu d'Aquin"},{"name":"Dayana Spagnuelo"},{"name":"Ilaria Tiddi"},{"name":"Kathryn Cormican"},{"name":"Heike Felzmann"}],"categories":["cs.CR","cs.CY","cs.HC"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2308.05700v2",
+    "title" : "In Pursuit of Privacy: The Value-Centered Privacy Assistant",
+    "summary" : "Many users make quick decisions that affect their data privacy without due consideration of their values. One such decision is whether to download a smartphone app to their device. Previous work has suggested a relationship between values, privacy preferences, and app choices, and proposed a value-centered approach to privacy that conceptually unites these relationships. In this work, we translate this theory into practice by constructing a prototype smartphone value-centered privacy assistant (VcPA) - a privacy assistant system that promotes user privacy decisions based on personal values. To do this, we designed and conducted an online survey that captured values and privacy preferences when considering whether to download an app from 273 smartphone users. Using this data, we constructed VcPA user profiles by clustering survey data based on the value rankings and stated privacy preferences. We then tested the VcPA, using selective notices, a \"suggest alternatives\" feature, and exploratory notices, with 77 users in a synthetic Mock App Store (MAS) setting and conducted follow-up semi-structured interviews. We establish proof-of-concept that a VcPA helps users make more value-centered app choices and identified improvements so that an assistant can be deployed on smartphone app stores.",
+    "updated" : "2025-04-03T00:55:03Z",
+    "published" : "2023-08-10T17:04:12Z",
+    "authors" : [
+      {
+        "name" : "Sarah E. Carter"
+      },
+      {
+        "name" : "Mathieu d'Aquin"
+      },
+      {
+        "name" : "Dayana Spagnuelo"
+      },
+      {
+        "name" : "Ilaria Tiddi"
+      },
+      {
+        "name" : "Kathryn Cormican"
+      },
+      {
+        "name" : "Heike Felzmann"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC"
+    ]
+  }
+]
