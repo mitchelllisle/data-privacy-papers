@@ -1,1 +1,25 @@
-[{"id":"http://arxiv.org/abs/1703.09847v2","title":"Designing Privacy for You : A User Centric Approach For Privacy","summary":"Privacy directly concerns the user as the data owner (data- subject) and hence privacy in systems should be implemented in a manner which concerns the user (user-centered). There are many concepts and guidelines that support development of privacy and embedding privacy into systems. However, none of them approaches privacy in a user- centered manner. Through this research we propose a framework that would enable developers and designers to grasp privacy in a user-centered manner and implement it along with the software development life cycle.","updated":"2017-04-19T00:02:36Z","published":"2017-03-29T00:27:01Z","authors":[{"name":"Awanthika Senarath"},{"name":"Nalin A. G. Arachchilage"},{"name":"Jill Slay"}],"categories":["cs.HC","cs.CR","cs.CY"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1703.09847v2",
+    "title" : "Designing Privacy for You : A User Centric Approach For Privacy",
+    "summary" : "Privacy directly concerns the user as the data owner (data- subject) and hence privacy in systems should be implemented in a manner which concerns the user (user-centered). There are many concepts and guidelines that support development of privacy and embedding privacy into systems. However, none of them approaches privacy in a user- centered manner. Through this research we propose a framework that would enable developers and designers to grasp privacy in a user-centered manner and implement it along with the software development life cycle.",
+    "updated" : "2017-04-19T00:02:36Z",
+    "published" : "2017-03-29T00:27:01Z",
+    "authors" : [
+      {
+        "name" : "Awanthika Senarath"
+      },
+      {
+        "name" : "Nalin A. G. Arachchilage"
+      },
+      {
+        "name" : "Jill Slay"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  }
+]
