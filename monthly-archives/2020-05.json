@@ -1,1 +1,30 @@
-[{"id":"http://arxiv.org/abs/2005.10486v2","title":"Privacy Preserving Face Recognition Utilizing Differential Privacy","summary":"Facial recognition technologies are implemented in many areas, including but not limited to, citizen surveillance, crime control, activity monitoring, and facial expression evaluation. However, processing biometric information is a resource-intensive task that often involves third-party servers, which can be accessed by adversaries with malicious intent. Biometric information delivered to untrusted third-party servers in an uncontrolled manner can be considered a significant privacy leak (i.e. uncontrolled information release) as biometrics can be correlated with sensitive data such as healthcare or financial records. In this paper, we propose a privacy-preserving technique for \"controlled information release\", where we disguise an original face image and prevent leakage of the biometric features while identifying a person. We introduce a new privacy-preserving face recognition protocol named PEEP (Privacy using EigEnface Perturbation) that utilizes local differential privacy. PEEP applies perturbation to Eigenfaces utilizing differential privacy and stores only the perturbed data in the third-party servers to run a standard Eigenface recognition algorithm. As a result, the trained model will not be vulnerable to privacy attacks such as membership inference and model memorization attacks. Our experiments show that PEEP exhibits a classification accuracy of around 70% - 90% under standard privacy settings.","updated":"2020-07-07T00:09:10Z","published":"2020-05-21T06:59:33Z","authors":[{"name":"M. A. P. Chamikara"},{"name":"P. Bertok"},{"name":"I. Khalil"},{"name":"D. Liu"},{"name":"S. Camtepe"}],"categories":["cs.CR","cs.DB"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2005.10486v2",
+    "title" : "Privacy Preserving Face Recognition Utilizing Differential Privacy",
+    "summary" : "Facial recognition technologies are implemented in many areas, including but not limited to, citizen surveillance, crime control, activity monitoring, and facial expression evaluation. However, processing biometric information is a resource-intensive task that often involves third-party servers, which can be accessed by adversaries with malicious intent. Biometric information delivered to untrusted third-party servers in an uncontrolled manner can be considered a significant privacy leak (i.e. uncontrolled information release) as biometrics can be correlated with sensitive data such as healthcare or financial records. In this paper, we propose a privacy-preserving technique for \"controlled information release\", where we disguise an original face image and prevent leakage of the biometric features while identifying a person. We introduce a new privacy-preserving face recognition protocol named PEEP (Privacy using EigEnface Perturbation) that utilizes local differential privacy. PEEP applies perturbation to Eigenfaces utilizing differential privacy and stores only the perturbed data in the third-party servers to run a standard Eigenface recognition algorithm. As a result, the trained model will not be vulnerable to privacy attacks such as membership inference and model memorization attacks. Our experiments show that PEEP exhibits a classification accuracy of around 70% - 90% under standard privacy settings.",
+    "updated" : "2020-07-07T00:09:10Z",
+    "published" : "2020-05-21T06:59:33Z",
+    "authors" : [
+      {
+        "name" : "M. A. P. Chamikara"
+      },
+      {
+        "name" : "P. Bertok"
+      },
+      {
+        "name" : "I. Khalil"
+      },
+      {
+        "name" : "D. Liu"
+      },
+      {
+        "name" : "S. Camtepe"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  }
+]
