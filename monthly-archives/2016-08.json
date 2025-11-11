@@ -1,1 +1,25 @@
-[{"id":"http://arxiv.org/abs/1608.04001v1","title":"Almost Perfect Privacy for Additive Gaussian Privacy Filters","summary":"We study the maximal mutual information about a random variable $Y$ (representing non-private information) displayed through an additive Gaussian channel when guaranteeing that only $ε$ bits of information is leaked about a random variable $X$ (representing private information) that is correlated with $Y$. Denoting this quantity by $g_ε(X,Y)$, we show that for perfect privacy, i.e., $ε=0$, one has $g_0(X,Y)=0$ for any pair of absolutely continuous random variables $(X,Y)$ and then derive a second-order approximation for $g_ε(X,Y)$ for small $ε$. This approximation is shown to be related to the strong data processing inequality for mutual information under suitable conditions on the joint distribution $P_{XY}$. Next, motivated by an operational interpretation of data privacy, we formulate the privacy-utility tradeoff in the same setup using estimation-theoretic quantities and obtain explicit bounds for this tradeoff when $ε$ is sufficiently small using the approximation formula derived for $g_ε(X,Y)$.","updated":"2016-08-16T00:05:13Z","published":"2016-08-13T16:30:03Z","authors":[{"name":"Shahab Asoodeh"},{"name":"Fady Alajaji"},{"name":"Tamas Linder"}],"categories":["cs.IT","cs.CR","math.ST"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/1608.04001v1",
+    "title" : "Almost Perfect Privacy for Additive Gaussian Privacy Filters",
+    "summary" : "We study the maximal mutual information about a random variable $Y$ (representing non-private information) displayed through an additive Gaussian channel when guaranteeing that only $ε$ bits of information is leaked about a random variable $X$ (representing private information) that is correlated with $Y$. Denoting this quantity by $g_ε(X,Y)$, we show that for perfect privacy, i.e., $ε=0$, one has $g_0(X,Y)=0$ for any pair of absolutely continuous random variables $(X,Y)$ and then derive a second-order approximation for $g_ε(X,Y)$ for small $ε$. This approximation is shown to be related to the strong data processing inequality for mutual information under suitable conditions on the joint distribution $P_{XY}$. Next, motivated by an operational interpretation of data privacy, we formulate the privacy-utility tradeoff in the same setup using estimation-theoretic quantities and obtain explicit bounds for this tradeoff when $ε$ is sufficiently small using the approximation formula derived for $g_ε(X,Y)$.",
+    "updated" : "2016-08-16T00:05:13Z",
+    "published" : "2016-08-13T16:30:03Z",
+    "authors" : [
+      {
+        "name" : "Shahab Asoodeh"
+      },
+      {
+        "name" : "Fady Alajaji"
+      },
+      {
+        "name" : "Tamas Linder"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.ST"
+    ]
+  }
+]
