@@ -1,1 +1,77 @@
-[{"id":"http://arxiv.org/abs/2009.00442v1","title":"Imitation Privacy","summary":"In recent years, there have been many cloud-based machine learning services, where well-trained models are provided to users on a pay-per-query scheme through a prediction API. The emergence of these services motivates this work, where we will develop a general notion of model privacy named imitation privacy. We show the broad applicability of imitation privacy in classical query-response MLaaS scenarios and new multi-organizational learning scenarios. We also exemplify the fundamental difference between imitation privacy and the usual data-level privacy.","updated":"2020-09-02T00:19:48Z","published":"2020-08-30T20:29:41Z","authors":[{"name":"Xun Xian"},{"name":"Xinran Wang"},{"name":"Mingyi Hong"},{"name":"Jie Ding"},{"name":"Reza Ghanadan"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2008.13151v1","title":"Data Sanitisation Protocols for the Privacy Funnel with Differential Privacy Guarantees","summary":"In the Open Data approach, governments and other public organisations want to share their datasets with the public, for accountability and to support participation. Data must be opened in such a way that individual privacy is safeguarded. The Privacy Funnel is a mathematical approach that produces a sanitised database that does not leak private data beyond a chosen threshold. The downsides to this approach are that it does not give worst-case privacy guarantees, and that finding optimal sanitisation protocols can be computationally prohibitive. We tackle these problems by using differential privacy metrics, and by considering local protocols which operate on one entry at a time. We show that under both the Local Differential Privacy and Local Information Privacy leakage metrics, one can efficiently obtain optimal protocols. Furthermore, Local Information Privacy is both more closely aligned to the privacy requirements of the Privacy Funnel scenario, and more efficiently computable. We also consider the scenario where each user has multiple attributes, for which we define Side-channel Resistant Local Information Privacy, and we give efficient methods to find protocols satisfying this criterion while still offering good utility. Finally, we introduce Conditional Reporting, an explicit LIP protocol that can be used when the optimal protocol is infeasible to compute, and we test this protocol on real-world and synthetic data. Experiments on real-world and synthetic data confirm the validity of these methods.","updated":"2020-09-01T00:18:05Z","published":"2020-08-30T12:19:34Z","authors":[{"name":"Milan Lopuhaä-Zwakenberg"},{"name":"Haochen Tong"},{"name":"Boris Škorić"}],"categories":["cs.CR","cs.DB","cs.IT"]},{"id":"http://arxiv.org/abs/2008.12199v4","title":"Privacy Intelligence: A Survey on Image Privacy in Online Social Networks","summary":"Image sharing on online social networks (OSNs) has become an indispensable part of daily social activities, but it has also led to an increased risk of privacy invasion. The recent image leaks from popular OSN services and the abuse of personal photos using advanced algorithms (e.g. DeepFake) have prompted the public to rethink individual privacy needs in OSN image sharing. However, OSN image privacy itself is quite complicated, and solutions currently in place for privacy management in reality are insufficient to provide personalized, accurate and flexible privacy protection. A more intelligent environment for privacy-friendly OSN image sharing is in demand. To fill the gap, we contribute a survey of \"privacy intelligence\" that targets modern privacy issues in dynamic OSN image sharing from a user-centric perspective. Specifically, we present a definition and a taxonomy of OSN image privacy, and a high-level privacy analysis framework based on the lifecycle of OSN image sharing. The framework consists of three stages with different principles of privacy by design. At each stage, we identify typical user behaviors in OSN image sharing and the privacy issues associated with these behaviors. Then a systematic review on the representative intelligent solutions targeting those privacy issues is conducted, also in a stage-based manner. The resulting analysis describes an intelligent privacy firewall for closed-loop privacy management. We also discuss the challenges and future directions in this area.","updated":"2025-06-18T00:29:13Z","published":"2020-08-27T15:52:16Z","authors":[{"name":"Chi Liu"},{"name":"Tianqing Zhu"},{"name":"Jun Zhang"},{"name":"Wanlei Zhou"}],"categories":["cs.CR","cs.SI"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2009.00442v1",
+    "title" : "Imitation Privacy",
+    "summary" : "In recent years, there have been many cloud-based machine learning services, where well-trained models are provided to users on a pay-per-query scheme through a prediction API. The emergence of these services motivates this work, where we will develop a general notion of model privacy named imitation privacy. We show the broad applicability of imitation privacy in classical query-response MLaaS scenarios and new multi-organizational learning scenarios. We also exemplify the fundamental difference between imitation privacy and the usual data-level privacy.",
+    "updated" : "2020-09-02T00:19:48Z",
+    "published" : "2020-08-30T20:29:41Z",
+    "authors" : [
+      {
+        "name" : "Xun Xian"
+      },
+      {
+        "name" : "Xinran Wang"
+      },
+      {
+        "name" : "Mingyi Hong"
+      },
+      {
+        "name" : "Jie Ding"
+      },
+      {
+        "name" : "Reza Ghanadan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2008.13151v1",
+    "title" : "Data Sanitisation Protocols for the Privacy Funnel with Differential Privacy Guarantees",
+    "summary" : "In the Open Data approach, governments and other public organisations want to share their datasets with the public, for accountability and to support participation. Data must be opened in such a way that individual privacy is safeguarded. The Privacy Funnel is a mathematical approach that produces a sanitised database that does not leak private data beyond a chosen threshold. The downsides to this approach are that it does not give worst-case privacy guarantees, and that finding optimal sanitisation protocols can be computationally prohibitive. We tackle these problems by using differential privacy metrics, and by considering local protocols which operate on one entry at a time. We show that under both the Local Differential Privacy and Local Information Privacy leakage metrics, one can efficiently obtain optimal protocols. Furthermore, Local Information Privacy is both more closely aligned to the privacy requirements of the Privacy Funnel scenario, and more efficiently computable. We also consider the scenario where each user has multiple attributes, for which we define Side-channel Resistant Local Information Privacy, and we give efficient methods to find protocols satisfying this criterion while still offering good utility. Finally, we introduce Conditional Reporting, an explicit LIP protocol that can be used when the optimal protocol is infeasible to compute, and we test this protocol on real-world and synthetic data. Experiments on real-world and synthetic data confirm the validity of these methods.",
+    "updated" : "2020-09-01T00:18:05Z",
+    "published" : "2020-08-30T12:19:34Z",
+    "authors" : [
+      {
+        "name" : "Milan Lopuhaä-Zwakenberg"
+      },
+      {
+        "name" : "Haochen Tong"
+      },
+      {
+        "name" : "Boris Škorić"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2008.12199v4",
+    "title" : "Privacy Intelligence: A Survey on Image Privacy in Online Social Networks",
+    "summary" : "Image sharing on online social networks (OSNs) has become an indispensable part of daily social activities, but it has also led to an increased risk of privacy invasion. The recent image leaks from popular OSN services and the abuse of personal photos using advanced algorithms (e.g. DeepFake) have prompted the public to rethink individual privacy needs in OSN image sharing. However, OSN image privacy itself is quite complicated, and solutions currently in place for privacy management in reality are insufficient to provide personalized, accurate and flexible privacy protection. A more intelligent environment for privacy-friendly OSN image sharing is in demand. To fill the gap, we contribute a survey of \"privacy intelligence\" that targets modern privacy issues in dynamic OSN image sharing from a user-centric perspective. Specifically, we present a definition and a taxonomy of OSN image privacy, and a high-level privacy analysis framework based on the lifecycle of OSN image sharing. The framework consists of three stages with different principles of privacy by design. At each stage, we identify typical user behaviors in OSN image sharing and the privacy issues associated with these behaviors. Then a systematic review on the representative intelligent solutions targeting those privacy issues is conducted, also in a stage-based manner. The resulting analysis describes an intelligent privacy firewall for closed-loop privacy management. We also discuss the challenges and future directions in this area.",
+    "updated" : "2025-06-18T00:29:13Z",
+    "published" : "2020-08-27T15:52:16Z",
+    "authors" : [
+      {
+        "name" : "Chi Liu"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Jun Zhang"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SI"
+    ]
+  }
+]
