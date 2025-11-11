@@ -1,1 +1,29 @@
-[{"id":"http://arxiv.org/abs/2112.08487v2","title":"Differential Privacy in Aggregated Mobility Networks: Balancing Privacy and Utility","summary":"Location data is collected from users continuously to understand their mobility patterns. Releasing the user trajectories may compromise user privacy. Therefore, the general practice is to release aggregated location datasets. However, private information may still be inferred from an aggregated version of location trajectories. Differential privacy (DP) protects the query output against inference attacks regardless of background knowledge. This paper presents a differential privacy-based privacy model that protects the user's origins and destinations from being inferred from aggregated mobility datasets. This is achieved by injecting Planar Laplace noise to the user origin and destination GPS points. The noisy GPS points are then transformed into a link representation using a link-matching algorithm. Finally, the link trajectories form an aggregated mobility network. The injected noise level is selected using the Sparse Vector Mechanism. This DP selection mechanism considers the link density of the location and the functional category of the localized links. Compared to the different baseline models, including a k-anonymity method, our differential privacy-based aggregation model offers query responses that are close to the raw data in terms of aggregate statistics at both the network and trajectory-levels with maximum 9% deviation from the baseline in terms of network length.","updated":"2024-01-17T01:42:40Z","published":"2021-12-10T18:53:41Z","authors":[{"name":"Ammar Haydari"},{"name":"Chen-Nee Chuah"},{"name":"Michael Zhang"},{"name":"Jane Macfarlane"},{"name":"Sean Peisert"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2112.08487v2",
+    "title" : "Differential Privacy in Aggregated Mobility Networks: Balancing Privacy and Utility",
+    "summary" : "Location data is collected from users continuously to understand their mobility patterns. Releasing the user trajectories may compromise user privacy. Therefore, the general practice is to release aggregated location datasets. However, private information may still be inferred from an aggregated version of location trajectories. Differential privacy (DP) protects the query output against inference attacks regardless of background knowledge. This paper presents a differential privacy-based privacy model that protects the user's origins and destinations from being inferred from aggregated mobility datasets. This is achieved by injecting Planar Laplace noise to the user origin and destination GPS points. The noisy GPS points are then transformed into a link representation using a link-matching algorithm. Finally, the link trajectories form an aggregated mobility network. The injected noise level is selected using the Sparse Vector Mechanism. This DP selection mechanism considers the link density of the location and the functional category of the localized links. Compared to the different baseline models, including a k-anonymity method, our differential privacy-based aggregation model offers query responses that are close to the raw data in terms of aggregate statistics at both the network and trajectory-levels with maximum 9% deviation from the baseline in terms of network length.",
+    "updated" : "2024-01-17T01:42:40Z",
+    "published" : "2021-12-10T18:53:41Z",
+    "authors" : [
+      {
+        "name" : "Ammar Haydari"
+      },
+      {
+        "name" : "Chen-Nee Chuah"
+      },
+      {
+        "name" : "Michael Zhang"
+      },
+      {
+        "name" : "Jane Macfarlane"
+      },
+      {
+        "name" : "Sean Peisert"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
