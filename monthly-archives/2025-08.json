@@ -3477,5 +3477,38 @@
       "cs.HC",
       "H.5.1; H.5.2; I.4.6; I.4.4; I.2.10; I.4.9; K.4.1"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.17135v1",
+    "title" : "Rao Differential Privacy",
+    "summary" : "Differential privacy (DP) has recently emerged as a definition of privacy to release private estimates. DP calibrates noise to be on the order of an individuals contribution. Due to the this calibration a private estimate obscures any individual while preserving the utility of the estimate. Since the original definition, many alternate definitions have been proposed. These alternates have been proposed for various reasons including improvements on composition results, relaxations, and formalizations. Nevertheless, thus far nearly all definitions of privacy have used a divergence of densities as the basis of the definition. In this paper we take an information geometry perspective towards differential privacy. Specifically, rather than define privacy via a divergence, we define privacy via the Rao distance. We show that our proposed definition of privacy shares the interpretation of previous definitions of privacy while improving on sequential composition.",
+    "updated" : "2025-08-26T00:29:27Z",
+    "published" : "2025-08-23T20:25:59Z",
+    "authors" : [
+      {
+        "name" : "Carlos Soto"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2508.03413v1",
+    "title" : "Smart Car Privacy: Survey of Attacks and Privacy Issues",
+    "summary" : "Automobiles are becoming increasingly important in our day to day life. Modern automobiles are highly computerized and hence potentially vulnerable to attack. Providing many wireless connectivity for vehicles enables a bridge between vehicles and their external environments. Such a connected vehicle solution is expected to be the next frontier for automotive revolution and the key to the evolution to next generation intelligent transportation systems. Vehicular Ad hoc Networks (VANETs) are emerging mobile ad hoc network technologies incorporating mobile routing protocols for inter-vehicle data communications to support intelligent transportation systems. Thus security and privacy are the major concerns in VANETs due to the mobility of the vehicles. Thus designing security mechanisms to remove adversaries from the network remarkably important in VANETs.\n  This paper provides an overview of various vehicular network architectures. The evolution of security in modern vehicles. Various security and privacy attacks in VANETs with their defending mechanisms with examples and classify these mechanisms. It also provides an overview of various privacy implication that a vehicular network possess.",
+    "updated" : "2025-08-06T00:44:04Z",
+    "published" : "2025-08-05T12:59:17Z",
+    "authors" : [
+      {
+        "name" : "Akshay Madhav Deshmukh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
