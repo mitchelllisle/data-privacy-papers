@@ -3354,5 +3354,31 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2412.04697v3",
+    "title" : "Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy",
+    "summary" : "With the recent remarkable advancement of large language models (LLMs), there has been a growing interest in utilizing them in the domains with highly sensitive data that lies outside their training data. For this purpose, retrieval-augmented generation (RAG) is particularly effective -- it assists LLMs by directly providing relevant information from the external knowledge sources. However, without extra privacy safeguards, RAG outputs risk leaking sensitive information from the external data source. In this work, we explore RAG under differential privacy (DP), a formal guarantee of data privacy. The main challenge with differentially private RAG is how to generate long accurate answers within a moderate privacy budget. We address this by proposing an algorithm that smartly spends privacy budget only for the tokens that require the sensitive information and uses the non-private LLM for other tokens. Our extensive empirical evaluations reveal that our algorithm outperforms the non-RAG baseline under a reasonable privacy budget of $ε\\approx 10$ across different models and datasets.",
+    "updated" : "2025-11-13T01:08:33Z",
+    "published" : "2024-12-06T01:20:16Z",
+    "authors" : [
+      {
+        "name" : "Tatsuki Koga"
+      },
+      {
+        "name" : "Ruihan Wu"
+      },
+      {
+        "name" : "Zhiyuan Zhang"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
   }
 ]
