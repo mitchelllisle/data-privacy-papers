@@ -1034,12 +1034,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2412.04697v2">Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2412.04697v3">Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2024-12-06T01:20:16Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Tatsuki Koga, Ruihan Wu, Kamalika Chaudhuri</p>
+    <p><b>Authors:</b> Tatsuki Koga, Ruihan Wu, Zhiyuan Zhang, Kamalika Chaudhuri</p>
     <p><b>Summary:</b> With the recent remarkable advancement of large language models (LLMs), there has been a growing interest in utilizing them in the domains with highly sensitive data that lies outside their training data. For this purpose, retrieval-augmented generation (RAG) is particularly effective -- it assists LLMs by directly providing relevant information from the external knowledge sources. However, without extra privacy safeguards, RAG outputs risk leaking sensitive information from the external data source. In this work, we explore RAG under differential privacy (DP), a formal guarantee of data privacy. The main challenge with differentially private RAG is how to generate long accurate answers within a moderate privacy budget. We address this by proposing an algorithm that smartly spends privacy budget only for the tokens that require the sensitive information and uses the non-private LLM for other tokens. Our extensive empirical evaluations reveal that our algorithm outperforms the non-RAG baseline under a reasonable privacy budget of $ε\approx 10$ across different models and datasets.</p>
   </details>
 </div>
