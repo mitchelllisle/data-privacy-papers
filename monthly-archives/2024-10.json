@@ -3029,5 +3029,26 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2410.20555v2",
+    "title" : "Privacy-Enhanced Adaptive Authentication: User Profiling with Privacy Guarantees",
+    "summary" : "User profiling is a critical component of adaptive risk-based authentication, yet it raises significant privacy concerns, particularly when handling sensitive data. Profiling involves collecting and aggregating various user features, potentially creating quasi-identifiers that can reveal identities and compromise privacy. Even anonymized profiling methods remain vulnerable to re-identification attacks through these quasi-identifiers. This paper introduces a novel privacy-enhanced adaptive authentication protocol that leverages Oblivious Pseudorandom Functions (OPRF), anonymous tokens, and Differential Privacy (DP) to provide robust privacy guarantees. Our proposed approach dynamically adjusts authentication requirements based on real-time risk assessments, enhancing security while safeguarding user privacy. By integrating privacy considerations into the core of adaptive risk-based adaptive authentication, this approach addresses a gap often overlooked in traditional models. Advanced cryptographic techniques ensure confidentiality, integrity, and unlinkability of user data, while differential privacy mechanisms minimize the impact of individual data points on overall analysis. Formal security and privacy proofs demonstrate the protocol's resilience against various threats and its ability to provide strong privacy guarantees. Additionally, a comprehensive performance evaluation reveals that the computational and communication overheads are manageable, making the protocol practical for real-world deployment. By adhering to data protection regulations such as GDPR and CCPA, our protocol not only enhances security but also fosters user trust and compliance with legal standards.",
+    "updated" : "2025-08-02T21:02:58Z",
+    "published" : "2024-10-27T19:11:33Z",
+    "authors" : [
+      {
+        "name" : "Yaser Baseri"
+      },
+      {
+        "name" : "Abdelhakim Senhaji Hafid"
+      },
+      {
+        "name" : "Dimitrios Makrakis"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
