@@ -15,5 +15,22 @@
       "cs.CR",
       "cs.SD"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2305.05227v4",
+    "title" : "Privacy in Speech Technology",
+    "summary" : "Speech technology for communication, accessing information, and services has rapidly improved in quality. It is convenient and appealing because speech is the primary mode of communication for humans. Such technology, however, also presents proven threats to privacy. Speech is a tool for communication and it will thus inherently contain private information. Importantly, it however also contains a wealth of side information, such as information related to health, emotions, affiliations, and relationships, all of which are private. Exposing such private information can lead to serious threats such as price gouging, harassment, extortion, and stalking. This paper is a tutorial on privacy issues related to speech technology, modeling their threats, approaches for protecting users' privacy, measuring the performance of privacy-protecting methods, perception of privacy as well as societal and legal consequences. In addition to a tutorial overview, it also presents lines for further development where improvements are most urgently needed.",
+    "updated" : "2025-11-10T12:41:57Z",
+    "published" : "2023-05-09T07:41:36Z",
+    "authors" : [
+      {
+        "name" : "Tom Bäckström"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.CR",
+      "cs.SD"
+    ]
   }
 ]
