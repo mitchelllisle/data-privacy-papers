@@ -35,5 +35,42 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2205.03336v1",
+    "title" : "Statistical Data Privacy: A Song of Privacy and Utility",
+    "summary" : "To quantify trade-offs between increasing demand for open data sharing and concerns about sensitive information disclosure, statistical data privacy (SDP) methodology analyzes data release mechanisms which sanitize outputs based on confidential data. Two dominant frameworks exist: statistical disclosure control (SDC), and more recent, differential privacy (DP). Despite framing differences, both SDC and DP share the same statistical problems at its core. For inference problems, we may either design optimal release mechanisms and associated estimators that satisfy bounds on disclosure risk, or we may adjust existing sanitized output to create new optimal estimators. Both problems rely on uncertainty quantification in evaluating risk and utility. In this review, we discuss the statistical foundations common to both SDC and DP, highlight major developments in SDP, and present exciting open research problems in private inference.",
+    "updated" : "2022-05-06T16:17:55Z",
+    "published" : "2022-05-06T16:17:55Z",
+    "authors" : [
+      {
+        "name" : "Aleksandra Slavkovic"
+      },
+      {
+        "name" : "Jeremy Seeman"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2205.03083v1",
+    "title" : "Heal the Privacy: Functional Encryption and Privacy-Preserving Analytics",
+    "summary" : "Secure cloud storage is an issue of paramount importance that both businesses and end-users should take into consideration before moving their data to, potentially, untrusted clouds. Migrating data to the cloud raises multiple privacy issues, as they are completely controlled by a cloud provider. Hence, an untrusted cloud provider can potentially breach users; privacy and gain access to sensitive information. The problem becomes even more pronounced when the could provider is required to store a statistical database and periodically publish analytics. In this work, we first present a detailed example showing that the use of cryptography is not enough to ensure the privacy of individuals. Then, we design a hybrid protocol based on Functional Encryption and Differential Privacy that allows the computations of statistics in a privacy-preserving way.",
+    "updated" : "2022-05-06T09:00:10Z",
+    "published" : "2022-05-06T09:00:10Z",
+    "authors" : [
+      {
+        "name" : "Alexandros Bakas"
+      },
+      {
+        "name" : "Antonis Michalas"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
