@@ -4436,5 +4436,38 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2509.17871v2",
+    "title" : "B-Privacy: Defining and Enforcing Privacy in Weighted Voting",
+    "summary" : "In traditional, one-vote-per-person voting systems, privacy equates with ballot secrecy: voting tallies are published, but individual voters' choices are concealed.\n  Voting systems that weight votes in proportion to token holdings, though, are now prevalent in cryptocurrency and web3 systems. We show that these weighted-voting systems overturn existing notions of voter privacy. Our experiments demonstrate that even with secret ballots, publishing raw tallies often reveals voters' choices.\n  Weighted voting thus requires a new framework for privacy. We introduce a notion called B-privacy whose basis is bribery, a key problem in voting systems today. B-privacy captures the economic cost to an adversary of bribing voters based on revealed voting tallies.\n  We propose a mechanism to boost B-privacy by noising voting tallies. We prove bounds on its tradeoff between B-privacy and transparency, meaning reported-tally accuracy. Analyzing 3,582 proposals across 30 Decentralized Autonomous Organizations (DAOs), we find that the prevalence of large voters (\"whales\") limits the effectiveness of any B-Privacy-enhancing technique. However, our mechanism proves to be effective in cases without extreme voting weight concentration: among proposals requiring coalitions of $\\geq5$ voters to flip outcomes, our mechanism raises B-privacy by a geometric mean factor of $4.1\\times$.\n  Our work offers the first principled guidance on transparency-privacy tradeoffs in weighted-voting systems, complementing existing approaches that focus on ballot secrecy and revealing fundamental constraints that voting weight concentration imposes on privacy mechanisms.",
+    "updated" : "2025-09-30T21:20:52Z",
+    "published" : "2025-09-22T15:11:12Z",
+    "authors" : [
+      {
+        "name" : "Samuel Breckenridge"
+      },
+      {
+        "name" : "Dani Vilardell"
+      },
+      {
+        "name" : "Andrés Fábrega"
+      },
+      {
+        "name" : "Amy Zhao"
+      },
+      {
+        "name" : "Patrick McCorry"
+      },
+      {
+        "name" : "Rafael Solari"
+      },
+      {
+        "name" : "Ari Juels"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
