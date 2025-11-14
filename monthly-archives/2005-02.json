@@ -16,5 +16,23 @@
     "categories" : [
       "quant-ph"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/quant-ph/0502010v1",
+    "title" : "Gaussian Operations and Privacy",
+    "summary" : "We consider the possibilities offered by Gaussian states and operations for two honest parties, Alice and Bob, to obtain privacy against a third eavesdropping party, Eve. We first extend the security analysis of the protocol proposed in M. Navascues et al., Phys. Rev. Lett. 94, 010502 (2005). Then, we prove that a generalized version of this protocol does not allow to distill a secret key out of bound entangled Gaussian states.",
+    "updated" : "2005-02-01T15:04:33Z",
+    "published" : "2005-02-01T15:04:33Z",
+    "authors" : [
+      {
+        "name" : "Miguel Navascues"
+      },
+      {
+        "name" : "Antonio Acin"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
   }
 ]
