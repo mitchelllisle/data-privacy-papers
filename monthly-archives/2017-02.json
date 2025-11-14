@@ -13,5 +13,20 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1702.07476v3",
+    "title" : "Renyi Differential Privacy",
+    "summary" : "We propose a natural relaxation of differential privacy based on the Renyi divergence. Closely related notions have appeared in several recent papers that analyzed composition of differentially private mechanisms. We argue that the useful analytical tool can be used as a privacy definition, compactly and accurately representing guarantees on the tails of the privacy loss.\n  We demonstrate that the new definition shares many important properties with the standard definition of differential privacy, while additionally allowing tighter analysis of composite heterogeneous mechanisms.",
+    "updated" : "2017-08-25T23:54:30Z",
+    "published" : "2017-02-24T06:46:38Z",
+    "authors" : [
+      {
+        "name" : "Ilya Mironov"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
