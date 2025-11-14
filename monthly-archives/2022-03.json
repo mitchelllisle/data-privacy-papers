@@ -25,5 +25,32 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2203.11586v1",
+    "title" : "Privacy: An axiomatic approach",
+    "summary" : "The increasing prevalence of large-scale data collection in modern society represents a potential threat to individual privacy. Addressing this threat, for example through privacy-enhancing technologies (PETs), requires a rigorous definition of what exactly is being protected, that is, of privacy itself. In this work, we formulate an axiomatic definition of privacy based on quantifiable and irreducible information flows. Our definition synthesizes prior work from the domain of social science with a contemporary understanding of PETs such as differential privacy (DP). Our work highlights the fact that the inevitable difficulties of protecting privacy in practice are fundamentally information-theoretic. Moreover, it enables quantitative reasoning about PETs based on what they are protecting, thus fostering objective policy discourse about their societal implementation.",
+    "updated" : "2022-03-22T10:10:18Z",
+    "published" : "2022-03-22T10:10:18Z",
+    "authors" : [
+      {
+        "name" : "Alexander Ziller"
+      },
+      {
+        "name" : "Tamara Mueller"
+      },
+      {
+        "name" : "Rickmer Braren"
+      },
+      {
+        "name" : "Daniel Rueckert"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
