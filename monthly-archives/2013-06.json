@@ -18,5 +18,25 @@
       "cs.CR",
       "cs.DS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1306.2083v1",
+    "title" : "Privacy and Mechanism Design",
+    "summary" : "This paper is a survey of recent work at the intersection of mechanism design and privacy. The connection is a natural one, but its study has been jump-started in recent years by the advent of differential privacy, which provides a rigorous, quantitative way of reasoning about the costs that an agent might experience because of the loss of his privacy. Here, we survey several facets of this study, and differential privacy plays a role in more than one way. Of course, it provides us a basis for modeling agent costs for privacy, which is essential if we are to attempt mechanism design in a setting in which agents have preferences for privacy. It also provides a toolkit for controlling those costs. However, perhaps more surprisingly, it provides a powerful toolkit for controlling the stability of mechanisms in general, which yields a set of tools for designing novel mechanisms even in economic settings completely unrelated to privacy.",
+    "updated" : "2013-06-10T01:41:38Z",
+    "published" : "2013-06-10T01:41:38Z",
+    "authors" : [
+      {
+        "name" : "Mallesh Pai"
+      },
+      {
+        "name" : "Aaron Roth"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "cs.DS"
+    ]
   }
 ]
