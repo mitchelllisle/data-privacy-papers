@@ -18,5 +18,25 @@
       "cs.HC",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1901.09804v1",
+    "title" : "Is Privacy Controllable?",
+    "summary" : "One of the major views of privacy associates privacy with the control over information. This gives rise to the question how controllable privacy actually is. In this paper, we adapt certain formal methods of control theory and investigate the implications of a control theoretic analysis of privacy. We look at how control and feedback mechanisms have been studied in the privacy literature. Relying on the control theoretic framework, we develop a simplistic conceptual control model of privacy, formulate privacy controllability issues and suggest directions for possible research.",
+    "updated" : "2019-01-28T16:57:31Z",
+    "published" : "2019-01-28T16:57:31Z",
+    "authors" : [
+      {
+        "name" : "Yefim Shulman"
+      },
+      {
+        "name" : "Joachim Meyer"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC",
+      "eess.SY"
+    ]
   }
 ]
