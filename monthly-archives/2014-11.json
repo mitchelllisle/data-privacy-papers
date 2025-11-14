@@ -17,5 +17,24 @@
       "quant-ph",
       "math-ph"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1411.5718v2",
+    "title" : "Inequalities for the quantum privacy",
+    "summary" : "In this work we investigate the asymptotic behavior related to the quantum privacy for multipartite systems. In this context, an inequality for quantum privacy was obtained by exploiting of quantum entropy properties. Subsequently, we derive a lower limit for the quantum privacy through the entanglement fidelity. In particular, we show that there is an interval where an increase in entanglement fidelity implies a decrease in quantum privacy.",
+    "updated" : "2015-02-25T16:56:06Z",
+    "published" : "2014-11-20T23:11:37Z",
+    "authors" : [
+      {
+        "name" : "M. A. S Trindade"
+      },
+      {
+        "name" : "E. Pinto"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "math-ph"
+    ]
   }
 ]
