@@ -28,5 +28,35 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2202.12219v2",
+    "title" : "Debugging Differential Privacy: A Case Study for Privacy Auditing",
+    "summary" : "Differential Privacy can provide provable privacy guarantees for training data in machine learning. However, the presence of proofs does not preclude the presence of errors. Inspired by recent advances in auditing which have been used for estimating lower bounds on differentially private algorithms, here we show that auditing can also be used to find flaws in (purportedly) differentially private schemes. In this case study, we audit a recent open source implementation of a differentially private deep learning algorithm and find, with 99.99999999% confidence, that the implementation does not satisfy the claimed differential privacy guarantee.",
+    "updated" : "2022-03-28T17:10:52Z",
+    "published" : "2022-02-24T17:31:08Z",
+    "authors" : [
+      {
+        "name" : "Florian Tramer"
+      },
+      {
+        "name" : "Andreas Terzis"
+      },
+      {
+        "name" : "Thomas Steinke"
+      },
+      {
+        "name" : "Shuang Song"
+      },
+      {
+        "name" : "Matthew Jagielski"
+      },
+      {
+        "name" : "Nicholas Carlini"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
