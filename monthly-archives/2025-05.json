@@ -3625,5 +3625,59 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.15721v1",
+    "title" : "Privacy-Preserving Conformal Prediction Under Local Differential Privacy",
+    "summary" : "Conformal prediction (CP) provides sets of candidate classes with a guaranteed probability of containing the true class. However, it typically relies on a calibration set with clean labels. We address privacy-sensitive scenarios where the aggregator is untrusted and can only access a perturbed version of the true labels. We propose two complementary approaches under local differential privacy (LDP). In the first approach, users do not access the model but instead provide their input features and a perturbed label using a k-ary randomized response. In the second approach, which enforces stricter privacy constraints, users add noise to their conformity score by binary search response. This method requires access to the classification model but preserves both data and label privacy. Both approaches compute the conformal threshold directly from noisy data without accessing the true labels. We prove finite-sample coverage guarantees and demonstrate robust coverage even under severe randomization. This approach unifies strong local privacy with predictive uncertainty control, making it well-suited for sensitive applications such as medical imaging or large language model queries, regardless of whether users can (or are willing to) compute their own scores.",
+    "updated" : "2025-05-21T16:29:44Z",
+    "published" : "2025-05-21T16:29:44Z",
+    "authors" : [
+      {
+        "name" : "Coby Penso"
+      },
+      {
+        "name" : "Bar Mahpud"
+      },
+      {
+        "name" : "Jacob Goldberger"
+      },
+      {
+        "name" : "Or Sheffet"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2505.05648v1",
+    "title" : "Privacy-Preserving Transformers: SwiftKey's Differential Privacy Implementation",
+    "summary" : "In this paper we train a transformer using differential privacy (DP) for language modeling in SwiftKey. We run multiple experiments to balance the trade-off between the model size, run-time speed and accuracy. We show that we get small and consistent gains in the next-word-prediction and accuracy with graceful increase in memory and speed compared to the production GRU. This is obtained by scaling down a GPT2 architecture to fit the required size and a two stage training process that builds a seed model on general data and DP finetunes it on typing data. The transformer is integrated using ONNX offering both flexibility and efficiency.",
+    "updated" : "2025-05-08T21:08:04Z",
+    "published" : "2025-05-08T21:08:04Z",
+    "authors" : [
+      {
+        "name" : "Abdelrahman Abouelenin"
+      },
+      {
+        "name" : "Mohamed Abdelrehim"
+      },
+      {
+        "name" : "Raffy Fahim"
+      },
+      {
+        "name" : "Amr Hendy"
+      },
+      {
+        "name" : "Mohamed Afify"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
