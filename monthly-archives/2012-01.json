@@ -17,5 +17,24 @@
       "cs.CR",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1201.4376v2",
+    "title" : "Participatory Privacy: Enabling Privacy in Participatory Sensing",
+    "summary" : "Participatory Sensing is an emerging computing paradigm that enables the distributed collection of data by self-selected participants. It allows the increasing number of mobile phone users to share local knowledge acquired by their sensor-equipped devices, e.g., to monitor temperature, pollution level or consumer pricing information. While research initiatives and prototypes proliferate, their real-world impact is often bounded to comprehensive user participation. If users have no incentive, or feel that their privacy might be endangered, it is likely that they will not participate. In this article, we focus on privacy protection in Participatory Sensing and introduce a suitable privacy-enhanced infrastructure. First, we provide a set of definitions of privacy requirements for both data producers (i.e., users providing sensed information) and consumers (i.e., applications accessing the data). Then, we propose an efficient solution designed for mobile phone users, which incurs very low overhead. Finally, we discuss a number of open problems and possible research directions.",
+    "updated" : "2013-02-08T03:22:25Z",
+    "published" : "2012-01-20T20:15:53Z",
+    "authors" : [
+      {
+        "name" : "Emiliano De Cristofaro"
+      },
+      {
+        "name" : "Claudio Soriente"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
