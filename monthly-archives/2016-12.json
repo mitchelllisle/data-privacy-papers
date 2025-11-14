@@ -13,5 +13,20 @@
     "categories" : [
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/1612.01553v1",
+    "title" : "Privacy Patterns",
+    "summary" : "Inspired by the design patterns of object-oriented software architecture, we offer an initial set of \"privacy patterns\". Our intent is to describe the most important ways in which software systems can offer privacy to their stakeholders. We express our privacy patterns as class diagrams in the UML (Universal Modelling Language), because this is a commonly-used language for expressing the high-level architecture of an object-oriented system. In this initial set of privacy patterns, we sketch how each of Westin's four states of privacy can be implemented in a software system. In addition to Westin's states of Solitude, Intimacy, Anonymity, and Reserve, we develop a privacy pattern for an institutionalised form of Intimacy which we call Confidence.",
+    "updated" : "2016-12-05T21:19:24Z",
+    "published" : "2016-12-05T21:19:24Z",
+    "authors" : [
+      {
+        "name" : "Clark Thomborson"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
   }
 ]
