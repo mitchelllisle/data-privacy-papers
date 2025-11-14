@@ -2785,5 +2785,26 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2408.08904v1",
+    "title" : "Privacy in Federated Learning",
+    "summary" : "Federated Learning (FL) represents a significant advancement in distributed machine learning, enabling multiple participants to collaboratively train models without sharing raw data. This decentralized approach enhances privacy by keeping data on local devices. However, FL introduces new privacy challenges, as model updates shared during training can inadvertently leak sensitive information. This chapter delves into the core privacy concerns within FL, including the risks of data reconstruction, model inversion attacks, and membership inference. It explores various privacy-preserving techniques, such as Differential Privacy (DP) and Secure Multi-Party Computation (SMPC), which are designed to mitigate these risks. The chapter also examines the trade-offs between model accuracy and privacy, emphasizing the importance of balancing these factors in practical implementations. Furthermore, it discusses the role of regulatory frameworks, such as GDPR, in shaping the privacy standards for FL. By providing a comprehensive overview of the current state of privacy in FL, this chapter aims to equip researchers and practitioners with the knowledge necessary to navigate the complexities of secure federated learning environments. The discussion highlights both the potential and limitations of existing privacy-enhancing techniques, offering insights into future research directions and the development of more robust solutions.",
+    "updated" : "2024-08-12T18:41:58Z",
+    "published" : "2024-08-12T18:41:58Z",
+    "authors" : [
+      {
+        "name" : "Jaydip Sen"
+      },
+      {
+        "name" : "Hetvi Waghela"
+      },
+      {
+        "name" : "Sneha Rakshit"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
