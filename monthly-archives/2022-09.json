@@ -56,5 +56,63 @@
       "cs.CR",
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2209.15596v2",
+    "title" : "Individual Privacy Accounting with Gaussian Differential Privacy",
+    "summary" : "Individual privacy accounting enables bounding differential privacy (DP) loss individually for each participant involved in the analysis. This can be informative as often the individual privacy losses are considerably smaller than those indicated by the DP bounds that are based on considering worst-case bounds at each data access. In order to account for the individual privacy losses in a principled manner, we need a privacy accountant for adaptive compositions of randomised mechanisms, where the loss incurred at a given data access is allowed to be smaller than the worst-case loss. This kind of analysis has been carried out for the Rényi differential privacy (RDP) by Feldman and Zrnic (2021), however not yet for the so-called optimal privacy accountants. We make first steps in this direction by providing a careful analysis using the Gaussian differential privacy which gives optimal bounds for the Gaussian mechanism, one of the most versatile DP mechanisms. This approach is based on determining a certain supermartingale for the hockey-stick divergence and on extending the Rényi divergence-based fully adaptive composition results by Feldman and Zrnic. We also consider measuring the individual $(\\varepsilon,δ)$-privacy losses using the so-called privacy loss distributions. With the help of the Blackwell theorem, we can then make use of the RDP analysis to construct an approximative individual $(\\varepsilon,δ)$-accountant.",
+    "updated" : "2023-08-24T14:00:18Z",
+    "published" : "2022-09-30T17:19:40Z",
+    "authors" : [
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Marlon Tobaben"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2209.02948v3",
+    "title" : "Assessing Software Privacy using the Privacy Flow-Graph",
+    "summary" : "We increasingly rely on digital services and the conveniences they provide. Processing of personal data is integral to such services and thus privacy and data protection are a growing concern, and governments have responded with regulations such as the EU's GDPR. Following this, organisations that make software have legal obligations to document the privacy and data protection of their software. This work must involve both software developers that understand the code and the organisation's data protection officer or legal department that understands privacy and the requirements of a Data Protection and Impact Assessment (DPIA).\n  To help developers and non-technical people such as lawyers document the privacy and data protection behaviour of software, we have developed an automatic software analysis technique. This technique is based on static program analysis to characterise the flow of privacy-related data. The results of the analysis can be presented as a graph of privacy flows and operations - that is understandable also for non-technical people. We argue that our technique facilitates collaboration between technical and non-technical people in documenting the privacy behaviour of the software. We explain how to use the results produced by our technique to answer a series of privacy-relevant questions needed for a DPIA. To illustrate our work, we show both detailed and abstract analysis results from applying our analysis technique to the secure messaging service Signal and to the client of the cloud service NextCloud and show how their privacy flow-graphs inform the writing of a DPIA.",
+    "updated" : "2022-11-29T16:08:55Z",
+    "published" : "2022-09-07T06:11:21Z",
+    "authors" : [
+      {
+        "name" : "Feiyang Tang"
+      },
+      {
+        "name" : "Bjarte M. Østvold"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2209.01468v1",
+    "title" : "Randomized Privacy Budget Differential Privacy",
+    "summary" : "While pursuing better utility by discovering knowledge from the data, individual's privacy may be compromised during an analysis. To that end, differential privacy has been widely recognized as the state-of-the-art privacy notion. By requiring the presence of any individual's data in the input to only marginally affect the distribution over the output, differential privacy provides strong protection against adversaries in possession of arbitrary background. However, the privacy constraints (e.g., the degree of randomization) imposed by differential privacy may render the released data less useful for analysis, the fundamental trade-off between privacy and utility (i.e., analysis accuracy) has attracted significant attention in various settings. In this report we present DP mechanisms with randomized parameters, i.e., randomized privacy budget, and formally analyze its privacy and utility and demonstrate that randomizing privacy budget in DP mechanisms will boost the accuracy in a humongous scale.",
+    "updated" : "2022-09-03T17:33:49Z",
+    "published" : "2022-09-03T17:33:49Z",
+    "authors" : [
+      {
+        "name" : "Meisam Mohammady"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT"
+    ]
   }
 ]
