@@ -34,5 +34,41 @@
       "cs.DS",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2210.03458v4",
+    "title" : "PAC Privacy: Automatic Privacy Measurement and Control of Data Processing",
+    "summary" : "We propose and study a new privacy definition, termed Probably Approximately Correct (PAC) Privacy. PAC Privacy characterizes the information-theoretic hardness to recover sensitive data given arbitrary information disclosure/leakage during/after any processing. Unlike the classic cryptographic definition and Differential Privacy (DP), which consider the adversarial (input-independent) worst case, PAC Privacy is a simulatable metric that quantifies the instance-based impossibility of inference. A fully automatic analysis and proof generation framework is proposed: security parameters can be produced with arbitrarily high confidence via Monte-Carlo simulation for any black-box data processing oracle. This appealing automation property enables analysis of complicated data processing, where the worst-case proof in the classic privacy regime could be loose or even intractable. Moreover, we show that the produced PAC Privacy guarantees enjoy simple composition bounds and the automatic analysis framework can be implemented in an online fashion to analyze the composite PAC Privacy loss even under correlated randomness. On the utility side, the magnitude of (necessary) perturbation required in PAC Privacy is not lower bounded by Theta(\\sqrt{d}) for a d-dimensional release but could be O(1) for many practical data processing tasks, which is in contrast to the input-independent worst-case information-theoretic lower bound. Example applications of PAC Privacy are included with comparisons to existing works.",
+    "updated" : "2023-06-19T13:23:37Z",
+    "published" : "2022-10-07T11:01:24Z",
+    "authors" : [
+      {
+        "name" : "Hanshen Xiao"
+      },
+      {
+        "name" : "Srinivas Devadas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2210.00597v4",
+    "title" : "Composition of Differential Privacy & Privacy Amplification by Subsampling",
+    "summary" : "This chapter is meant to be part of the book \"Differential Privacy for Artificial Intelligence Applications.\" We give an introduction to the most important property of differential privacy -- composition: running multiple independent analyses on the data of a set of people will still be differentially private as long as each of the analyses is private on its own -- as well as the related topic of privacy amplification by subsampling. This chapter introduces the basic concepts and gives proofs of the key results needed to apply these tools in practice.",
+    "updated" : "2022-10-26T16:13:14Z",
+    "published" : "2022-10-02T18:22:31Z",
+    "authors" : [
+      {
+        "name" : "Thomas Steinke"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.LG"
+    ]
   }
 ]
