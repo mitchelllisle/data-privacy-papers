@@ -43,5 +43,50 @@
     "categories" : [
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2303.08213v2",
+    "title" : "The Overview of Privacy Labels and their Compatibility with Privacy Policies",
+    "summary" : "Privacy nutrition labels provide a way to understand an app's key data practices without reading the long and hard-to-read privacy policies. Recently, the app distribution platforms for iOS(Apple) and Android(Google) have implemented mandates requiring app developers to fill privacy nutrition labels highlighting their privacy practices such as data collection, data sharing, and security practices. These privacy labels contain very fine-grained information about the apps' data practices such as the data types and purposes associated with each data type. This provides us with a unique vantage point from which we can understand apps' data practices at scale.",
+    "updated" : "2023-04-25T00:09:35Z",
+    "published" : "2023-03-14T20:10:28Z",
+    "authors" : [
+      {
+        "name" : "Rishabh Khandelwal"
+      },
+      {
+        "name" : "Asmit Nayak"
+      },
+      {
+        "name" : "Paul Chung"
+      },
+      {
+        "name" : "Kassem Fawaz"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2303.01017v1",
+    "title" : "On the Lift, Related Privacy Measures, and Applications to Privacy-Utility Tradeoffs",
+    "summary" : "This paper investigates lift, the likelihood ratio between the posterior and prior belief about sensitive features in a dataset. Maximum and minimum lifts over sensitive features quantify the adversary's knowledge gain and should be bounded to protect privacy. We demonstrate that max and min lifts have a distinct range of values and probability of appearance in the dataset, referred to as \\emph{lift asymmetry}. We propose asymmetric local information privacy (ALIP) as a compatible privacy notion with lift asymmetry, where different bounds can be applied to min and max lifts. We use ALIP in the watchdog and optimal random response (ORR) mechanisms, the main methods to achieve lift-based privacy. It is shown that ALIP enhances utility in these methods compared to existing local information privacy, which ensures the same (symmetric) bounds on both max and min lifts. We propose subset merging for the watchdog mechanism to improve data utility and subset random response for the ORR to reduce complexity. We then investigate the related lift-based measures, including $\\ell_1$-norm, $χ^2$-privacy criterion, and $α$-lift. We reveal that they can only restrict max-lift, resulting in significant min-lift leakage. To overcome this problem, we propose corresponding lift-inverse measures to restrict the min-lift. We apply these lift-based and lift-inverse measures in the watchdog mechanism. We show that they can be considered as relaxations of ALIP, where a higher utility can be achieved by bounding only average max and min lifts.",
+    "updated" : "2023-03-02T07:10:22Z",
+    "published" : "2023-03-02T07:10:22Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Amin Zarrabian"
+      },
+      {
+        "name" : "Ni Ding"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
   }
 ]
