@@ -3293,5 +3293,24 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.11299v2",
+    "title" : "How to Get Actual Privacy and Utility from Privacy Models: the k-Anonymity and Differential Privacy Families",
+    "summary" : "Privacy models were introduced in privacy-preserving data publishing and statistical disclosure control with the promise to end the need for costly empirical assessment of disclosure risk. We examine how well this promise is kept by the main privacy models. We find they may fail to provide adequate protection guarantees because of problems in their definition or incur unacceptable trade-offs between privacy protection and utility preservation. Specifically, k-anonymity may not entirely exclude disclosure if enforced with deterministic mechanisms or without constraints on the confidential values. On the other hand, differential privacy (DP) incurs unacceptable utility loss for small budgets and its privacy guarantee becomes meaningless for large budgets. In the latter case, an ex post empirical assessment of disclosure risk becomes necessary, undermining the main appeal of privacy models. Whereas the utility preservation of DP can only be improved by relaxing its privacy guarantees, we argue that a semantic reformulation of k-anonymity can offer more robust privacy without losing utility with respect to traditional syntactic k-anonymity.",
+    "updated" : "2025-10-17T09:07:58Z",
+    "published" : "2025-10-13T11:41:12Z",
+    "authors" : [
+      {
+        "name" : "Josep Domingo-Ferrer"
+      },
+      {
+        "name" : "David Sánchez"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
   }
 ]
