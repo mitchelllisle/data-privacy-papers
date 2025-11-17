@@ -4537,5 +4537,33 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2510.25932v2",
+    "title" : "FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for Facebook and X",
+    "summary" : "Social platforms distribute information at unprecedented speed, which in turn accelerates the spread of misinformation and threatens public discourse. We present FakeZero, a fully client-side, cross-platform browser extension that flags unreliable posts on Facebook and X (formerly Twitter) while the user scrolls. All computation, DOM scraping, tokenization, Transformer inference, and UI rendering run locally through the Chromium messaging API, so no personal data leaves the device. FakeZero employs a three-stage training curriculum: baseline fine-tuning and domain-adaptive training enhanced with focal loss, adversarial augmentation, and post-training quantization. Evaluated on a dataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1% macro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of approximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant variant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to 14.7 MB and lowering latency to approximately 40 ms, showing that high-quality fake-news detection is feasible under tight resource budgets with only modest performance loss. By providing inline credibility cues, the extension can serve as a valuable tool for policymakers seeking to curb the spread of misinformation across social networks. With user consent, FakeZero also opens the door for researchers to collect large-scale datasets of fake news in the wild, enabling deeper analysis and the development of more robust detection techniques.",
+    "updated" : "2025-11-14T16:45:05Z",
+    "published" : "2025-10-29T20:11:48Z",
+    "authors" : [
+      {
+        "name" : "Soufiane Essahli"
+      },
+      {
+        "name" : "Oussama Sarsar"
+      },
+      {
+        "name" : "Ahmed Bentajer"
+      },
+      {
+        "name" : "Anas Motii"
+      },
+      {
+        "name" : "Imane Fouad"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
   }
 ]
