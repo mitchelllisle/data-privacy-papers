@@ -2,6 +2,54 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.11347v1">Privacy Challenges and Solutions in Retrieval-Augmented Generation-Enhanced LLMs for Healthcare Chatbots: A Review of Applications, Risks, and Future Directions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-11-14T14:33:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shaowei Guan, Hin Chi Kwok, Ngai Fong Law, Gregor Stiglic, Vivian Hui</p>
+    <p><b>Summary:</b> Retrieval-augmented generation (RAG) has rapidly emerged as a transformative approach for integrating large language models into clinical and biomedical workflows. However, privacy risks, such as protected health information (PHI) exposure, remain inconsistently mitigated. This review provides a thorough analysis of the current landscape of RAG applications in healthcare, including (i) sensitive data type across clinical scenarios, (ii) the associated privacy risks, (iii) current and emerging data-privacy protection mechanisms and (iv) future direction for patient data privacy protection. We synthesize 23 articles on RAG applications in healthcare and systematically analyze privacy challenges through a pipeline-structured framework encompassing data storage, transmission, retrieval and generation stages, delineating potential failure modes, their underlying causes in threat models and system mechanisms, and their practical implications. Building on this analysis, we critically review 17 articles on privacy-preserving strategies for RAG systems. Our evaluation reveals critical gaps, including insufficient clinical validation, absence of standardized evaluation frameworks, and lack of automated assessment tools. We propose actionable directions based on these limitations and conclude with a call to action. This review provides researchers and practitioners with a structured framework for understanding privacy vulnerabilities in healthcare RAG and offers a roadmap toward developing systems that achieve both clinical effectiveness and robust privacy preservation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.11249v1">Bridging Local and Federated Data Normalization in Federated Learning: A Privacy-Preserving Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-14T12:48:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Melih Coşğun, Mert Gençtürk, Sinem Sav</p>
+    <p><b>Summary:</b> Data normalization is a crucial preprocessing step for enhancing model performance and training stability. In federated learning (FL), where data remains distributed across multiple parties during collaborative model training, normalization presents unique challenges due to the decentralized and often heterogeneous nature of the data. Traditional methods rely on either independent client-side processing, i.e., local normalization, or normalizing the entire dataset before distributing it to parties, i.e., pooled normalization. Local normalization can be problematic when data distributions across parties are non-IID, while the pooled normalization approach conflicts with the decentralized nature of FL. In this paper, we explore the adaptation of widely used normalization techniques to FL and define the term federated normalization. Federated normalization simulates pooled normalization by enabling the collaborative exchange of normalization parameters among parties. Thus, it achieves performance on par with pooled normalization without compromising data locality. However, sharing normalization parameters such as the mean introduces potential privacy risks, which we further mitigate through a robust privacy-preserving solution. Our contributions include: (i) We systematically evaluate the impact of various federated and local normalization techniques in heterogeneous FL scenarios, (ii) We propose a novel homomorphically encrypted $k$-th ranked element (and median) calculation tailored for the federated setting, enabling secure and efficient federated normalization, (iii) We propose privacy-preserving implementations of widely used normalization techniques for FL, leveraging multiparty fully homomorphic encryption (MHE).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.11209v1">Towards Usable Privacy Management for IoT TAPs: Deriving Privacy Clusters and Preference Profiles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-11-14T12:08:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Piero Romare, Farzaneh Karegar, Simone Fischer-Hübner</p>
+    <p><b>Summary:</b> IoT Trigger-Action Platforms (TAPs) typically offer coarse-grained permission controls. Even when fine-grained controls are available, users are likely overwhelmed by the complexity of setting privacy preferences. This paper contributes to usable privacy management for TAPs by deriving privacy clusters and profiles for different types of users that can be semi-automatically assigned or suggested to them. We developed and validated a questionnaire, based on users' privacy concerns regarding confidentiality and control and their requirements towards transparency in TAPs. In an online study (N=301), where participants were informed about potential privacy risks, we clustered users by their privacy concerns and requirements into Basic, Medium and High Privacy clusters. These clusters were then characterized by the users' data sharing preferences, based on a factorial vignette approach, considering the data categories, the data recipient types, and the purpose of data sharing. Our findings show three distinct privacy profiles, providing a foundation for more usable privacy controls in TAPs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.10771v1">Privacy protection under the exposure of systems' prior information</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2025-11-13T19:47:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Le Liu, Yu Kawano, Ming Cao</p>
+    <p><b>Summary:</b> For systems whose states implicate sensitive information, their privacy is of great concern. While notions like differential privacy have been successfully introduced to dynamical systems, it is still unclear how a system's privacy can be properly protected when facing the challenging yet frequently-encountered scenario where an adversary possesses prior knowledge, e.g., the steady state, of the system. This paper presents a new systematic approach to protect the privacy of a discrete-time linear time-invariant system against adversaries knowledgeable of the system's prior information. We employ a tailored \emph{pointwise maximal leakage (PML) privacy} criterion. PML characterizes the worst-case privacy performance, which is sharply different from that of the better-known mutual-information privacy. We derive necessary and sufficient conditions for PML privacy and construct tractable design procedures. Furthermore, our analysis leads to insight into how PML privacy, differential privacy, and mutual-information privacy are related. We then revisit Kalman filters from the perspective of PML privacy and derive a lower bound on the steady-state estimation-error covariance in terms of the PML parameters. Finally, the derived results are illustrated in a case study of privacy protection for distributed sensing in smart buildings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.10516v1">How Worrying Are Privacy Attacks Against Machine Learning?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-13T17:22:07Z</p>
@@ -757,13 +805,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.25932v1">FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for Facebook and X</a></h3>
+  <h3><a href="http://arxiv.org/abs/2510.25932v2">FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for Facebook and X</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-10-29T20:11:48Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Soufiane Essahli, Oussama Sarsar, Imane Fouad, Anas Motii, Ahmed Bentajer</p>
-    <p><b>Summary:</b> Social platforms distribute information at unprecedented speed, which in turn accelerates the spread of misinformation and threatens public discourse. We present FakeZero, a fully client-side, cross-platform browser extension that flags unreliable posts on Facebook and X (formerly Twitter) while the user scrolls. All computation, DOM scraping, tokenisation, Transformer inference, and UI rendering run locally through the Chromium messaging API, so no personal data leaves the device.FakeZero employs a three-stage training curriculum: baseline fine-tuning and domain-adaptive training enhanced with focal loss, adversarial augmentation, and post-training quantisation. Evaluated on a dataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1% macro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of approximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant variant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to 14.7 MB and lowering latency to approximately 40 ms, showing that high-quality fake-news detection is feasible under tight resource budgets with only modest performance loss.By providing inline credibility cues, the extension can serve as a valuable tool for policymakers seeking to curb the spread of misinformation across social networks. With user consent, FakeZero also opens the door for researchers to collect large-scale datasets of fake news in the wild, enabling deeper analysis and the development of more robust detection techniques.</p>
+    <p><b>Authors:</b> Soufiane Essahli, Oussama Sarsar, Ahmed Bentajer, Anas Motii, Imane Fouad</p>
+    <p><b>Summary:</b> Social platforms distribute information at unprecedented speed, which in turn accelerates the spread of misinformation and threatens public discourse. We present FakeZero, a fully client-side, cross-platform browser extension that flags unreliable posts on Facebook and X (formerly Twitter) while the user scrolls. All computation, DOM scraping, tokenization, Transformer inference, and UI rendering run locally through the Chromium messaging API, so no personal data leaves the device. FakeZero employs a three-stage training curriculum: baseline fine-tuning and domain-adaptive training enhanced with focal loss, adversarial augmentation, and post-training quantization. Evaluated on a dataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1% macro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of approximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant variant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to 14.7 MB and lowering latency to approximately 40 ms, showing that high-quality fake-news detection is feasible under tight resource budgets with only modest performance loss. By providing inline credibility cues, the extension can serve as a valuable tool for policymakers seeking to curb the spread of misinformation across social networks. With user consent, FakeZero also opens the door for researchers to collect large-scale datasets of fake news in the wild, enabling deeper analysis and the development of more robust detection techniques.</p>
   </details>
 </div>
 
@@ -1169,54 +1217,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Paweł Borsukiewicz, Fadi Boutros, Iyiola E. Olatunji, Charles Beumier, Wendkûuni C. Ouedraogo, Jacques Klein, Tegawendé F. Bissyandé</p>
     <p><b>Summary:</b> The deployment of facial recognition systems has created an ethical dilemma: achieving high accuracy requires massive datasets of real faces collected without consent, leading to dataset retractions and potential legal liabilities under regulations like GDPR. While synthetic facial data presents a promising privacy-preserving alternative, the field lacks comprehensive empirical evidence of its viability. This study addresses this critical gap through extensive evaluation of synthetic facial recognition datasets. We present a systematic literature review identifying 25 synthetic facial recognition datasets (2018-2025), combined with rigorous experimental validation. Our methodology examines seven key requirements for privacy-preserving synthetic data: identity leakage prevention, intra-class variability, identity separability, dataset scale, ethical data sourcing, bias mitigation, and benchmark reliability. Through experiments involving over 10 million synthetic samples, extended by a comparison of results reported on five standard benchmarks, we provide the first comprehensive empirical assessment of synthetic data's capability to replace real datasets. Best-performing synthetic datasets (VariFace, VIGFace) achieve recognition accuracies of 95.67% and 94.91% respectively, surpassing established real datasets including CASIA-WebFace (94.70%). While those images remain private, publicly available alternatives Vec2Face (93.52%) and CemiFace (93.22%) come close behind. Our findings reveal that they ensure proper intra-class variability while maintaining identity separability. Demographic bias analysis shows that, even though synthetic data inherits limited biases, it offers unprecedented control for bias mitigation through generation parameters. These results establish synthetic facial data as a scientifically viable and ethically imperative alternative for facial recognition research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.17348v1">Optimal Best Arm Identification under Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-20T09:46:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marc Jourdan, Achraf Azize</p>
-    <p><b>Summary:</b> Best Arm Identification (BAI) algorithms are deployed in data-sensitive applications, such as adaptive clinical trials or user studies. Driven by the privacy concerns of these applications, we study the problem of fixed-confidence BAI under global Differential Privacy (DP) for Bernoulli distributions. While numerous asymptotically optimal BAI algorithms exist in the non-private setting, a significant gap remains between the best lower and upper bounds in the global DP setting. This work reduces this gap to a small multiplicative constant, for any privacy budget $ε$. First, we provide a tighter lower bound on the expected sample complexity of any $δ$-correct and $ε$-global DP strategy. Our lower bound replaces the Kullback-Leibler (KL) divergence in the transportation cost used by the non-private characteristic time with a new information-theoretic quantity that optimally trades off between the KL divergence and the Total Variation distance scaled by $ε$. Second, we introduce a stopping rule based on these transportation costs and a private estimator of the means computed using an arm-dependent geometric batching. En route to proving the correctness of our stopping rule, we derive concentration results of independent interest for the Laplace distribution and for the sum of Bernoulli and Laplace distributions. Third, we propose a Top Two sampling rule based on these transportation costs. For any budget $ε$, we show an asymptotic upper bound on its expected sample complexity that matches our lower bound to a multiplicative constant smaller than $8$. Our algorithm outperforms existing $δ$-correct and $ε$-global DP BAI algorithms for different values of $ε$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.17162v1">ALPINE: A Lightweight and Adaptive Privacy-Decision Agent Framework for Dynamic Edge Crowdsensing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-20T05:03:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guanjie Cheng, Siyang Liu, Junqin Huang, Xinkui Zhao, Yin Wang, Mengying Zhu, Linghe Kong, Shuiguang Deng</p>
-    <p><b>Summary:</b> Mobile edge crowdsensing (MECS) systems continuously generate and transmit user data in dynamic, resource-constrained environments, exposing users to significant privacy threats. In practice, many privacy-preserving mechanisms build on differential privacy (DP). However, static DP mechanisms often fail to adapt to evolving risks, for example, shifts in adversarial capabilities, resource constraints and task requirements, resulting in either excessive noise or inadequate protection. To address this challenge, we propose ALPINE, a lightweight, adaptive framework that empowers terminal devices to autonomously adjust differential privacy levels in real time. ALPINE operates as a closed-loop control system consisting of four modules: dynamic risk perception, privacy decision via twin delayed deep deterministic policy gradient (TD3), local privacy execution and performance verification from edge nodes. Based on environmental risk assessments, we design a reward function that balances privacy gains, data utility and energy cost, guiding the TD3 agent to adaptively tune noise magnitude across diverse risk scenarios and achieve a dynamic equilibrium among privacy, utility and cost. Both the collaborative risk model and pretrained TD3-based agent are designed for low-overhead deployment. Extensive theoretical analysis and real-world simulations demonstrate that ALPINE effectively mitigates inference attacks while preserving utility and cost, making it practical for large-scale edge applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.16744v1">Cryptanalysis of a Privacy-Preserving Ride-Hailing Service from NSS 2022</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-19T08:05:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Srinivas Vivek</p>
-    <p><b>Summary:</b> Ride-Hailing Services (RHS) match a ride request initiated by a rider with a suitable driver responding to the ride request. A Privacy-Preserving RHS (PP-RHS) aims to facilitate ride matching while ensuring the privacy of riders' and drivers' location data w.r.t. the Service Provider (SP). At NSS 2022, Xie et al. proposed a PP-RHS. In this work, we demonstrate a passive attack on their PP-RHS protocol. Our attack allows the SP to completely recover the locations of the rider as well as that of the responding drivers in every ride request. Further, our attack is very efficient as it is independent of the security parameter.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.16687v1">High-Dimensional Privacy-Utility Dynamics of Noisy Stochastic Gradient Descent on Least Squares</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-19T02:28:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shurong Lin, Eric D. Kolaczyk, Adam Smith, Elliot Paquette</p>
-    <p><b>Summary:</b> The interplay between optimization and privacy has become a central theme in privacy-preserving machine learning. Noisy stochastic gradient descent (SGD) has emerged as a cornerstone algorithm, particularly in large-scale settings. These variants of gradient methods inject carefully calibrated noise into each update to achieve differential privacy, the gold standard notion of rigorous privacy guarantees. Prior work primarily provides various bounds on statistical risk and privacy loss for noisy SGD, yet the \textit{exact} behavior of the process remains unclear, particularly in high-dimensional settings. This work leverages a diffusion approach to analyze noisy SGD precisely, providing a continuous-time perspective that captures both statistical risk evolution and privacy loss dynamics in high dimensions. Moreover, we study a variant of noisy SGD that does not require explicit knowledge of gradient sensitivity, unlike existing work that assumes or enforces sensitivity through gradient clipping. Specifically, we focus on the least squares problem with $\ell_2$ regularization.</p>
   </details>
 </div>
 
