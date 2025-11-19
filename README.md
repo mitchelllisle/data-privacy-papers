@@ -2,6 +2,44 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.14524v1">Compression with Privacy-Preserving Random Access</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2025-11-18T14:24:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Venkat Chandar, Aslan Tchamkerten, Shashank Vatedka</p>
+    <p><b>Summary:</b> It is shown that an i.i.d. binary source sequence $X_1, \ldots, X_n$ can be losslessly compressed at any rate above entropy such that the individual decoding of any $X_i$ reveals \emph{no} information about the other bits $\{X_j : j \neq i\}$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.14084v1">Observational Auditing of Label Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-18T03:12:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Iden Kalemaj, Luca Melis, Maxime Boucher, Ilya Mironov, Saeed Mahloujifar</p>
+    <p><b>Summary:</b> Differential privacy (DP) auditing is essential for evaluating privacy guarantees in machine learning systems. Existing auditing methods, however, pose a significant challenge for large-scale systems since they require modifying the training dataset -- for instance, by injecting out-of-distribution canaries or removing samples from training. Such interventions on the training data pipeline are resource-intensive and involve considerable engineering overhead. We introduce a novel observational auditing framework that leverages the inherent randomness of data distributions, enabling privacy evaluation without altering the original dataset. Our approach extends privacy auditing beyond traditional membership inference to protected attributes, with labels as a special case, addressing a key gap in existing techniques. We provide theoretical foundations for our method and perform experiments on Criteo and CIFAR-10 datasets that demonstrate its effectiveness in auditing label privacy guarantees. This work opens new avenues for practical privacy auditing in large-scale production environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.14045v1">GRPO Privacy Is at Risk: A Membership Inference Attack Against Reinforcement Learning With Verifiable Rewards</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-11-18T01:51:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yule Liu, Heyi Zhang, Jinyi Zheng, Zhen Sun, Zifan Peng, Tianshuo Cong, Yilong Yang, Xinlei He, Zhuo Ma</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) on large language models (LLMs) pose significant privacy risks across various stages of model training. Recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) have brought a profound paradigm shift in LLM training, particularly for complex reasoning tasks. However, the on-policy nature of RLVR introduces a unique privacy leakage pattern: since training relies on self-generated responses without fixed ground-truth outputs, membership inference must now determine whether a given prompt (independent of any specific response) is used during fine-tuning. This creates a threat where leakage arises not from answer memorization.
+  To audit this novel privacy risk, we propose Divergence-in-Behavior Attack (DIBA), the first membership inference framework specifically designed for RLVR. DIBA shifts the focus from memorization to behavioral change, leveraging measurable shifts in model behavior across two axes: advantage-side improvement (e.g., correctness gain) and logit-side divergence (e.g., policy drift). Through comprehensive evaluations, we demonstrate that DIBA significantly outperforms existing baselines, achieving around 0.8 AUC and an order-of-magnitude higher TPR@0.1%FPR. We validate DIBA's superiority across multiple settings--including in-distribution, cross-dataset, cross-algorithm, black-box scenarios, and extensions to vision-language models. Furthermore, our attack remains robust under moderate defensive measures.
+  To the best of our knowledge, this is the first work to systematically analyze privacy vulnerabilities in RLVR, revealing that even in the absence of explicit supervision, training data exposure can be reliably inferred through behavioral traces.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.13576v1">Exploring the Effectiveness of Google Play Store's Privacy Transparency Channels</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-11-17T16:40:19Z</p>
@@ -388,7 +426,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07242v2">Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.07242v3">Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-10T15:57:17Z</p>
   <details>
@@ -1178,43 +1216,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Yu Hin Chan, Hao Yang, Shiyu Shen, Xingyu Fan, Shengzhe Lyu, Patrick S. Y. Hung, Ray C. C. Cheung</p>
     <p><b>Summary:</b> Privacy-preserving machine learning (PPML) is an emerging topic to handle secure machine learning inference over sensitive data in untrusted environments. Fully homomorphic encryption (FHE) enables computation directly on encrypted data on the server side, making it a promising approach for PPML. However, it introduces significant communication and computation overhead on the client side, making it impractical for edge devices. Hybrid homomorphic encryption (HHE) addresses this limitation by combining symmetric encryption (SE) with FHE to reduce the computational cost on the client side, and combining with an FHE-friendly SE can also lessen the processing overhead on the server side, making it a more balanced and efficient alternative. Our work proposes a hardware-accelerated HHE architecture built around a lightweight symmetric cipher optimized for FHE compatibility and implemented as a dedicated hardware accelerator. To the best of our knowledge, this is the first design to integrate an end-to-end HHE framework with hardware acceleration. Beyond this, we also present several microarchitectural optimizations to achieve higher performance and energy efficiency. The proposed work is integrated into a full PPML pipeline, enabling secure inference with significantly lower latency and power consumption than software implementations. Our contributions validate the feasibility of low-power, hardware- accelerated HHE for edge deployment and provide a hardware- software co-design methodology for building scalable, secure machine learning systems in resource-constrained environments. Experiments on a PYNQ-Z2 platform with the MNIST dataset show over a 50x reduction in client-side encryption latency and nearly a 2x gain in hardware throughput compared to existing FPGA-based HHE accelerators.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.21858v1">Privacy-preserving Decision-focused Learning for Multi-energy Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-23T04:20:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yangze Zhou, Ruiyang Yao, Dalin Qin, Yixiong Jia, Yi Wang</p>
-    <p><b>Summary:</b> Decision-making for multi-energy system (MES) dispatch depends on accurate load forecasting. Traditionally, load forecasting and decision-making for MES are implemented separately. Forecasting models are typically trained to minimize forecasting errors, overlooking their impact on downstream decision-making. To address this, decision-focused learning (DFL) has been studied to minimize decision-making costs instead. However, practical adoption of DFL in MES faces significant challenges: the process requires sharing sensitive load data and model parameters across multiple sectors, raising serious privacy issues. To this end, we propose a privacy-preserving DFL framework tailored for MES. Our approach introduces information masking to safeguard private data while enabling recovery of decision variables and gradients required for model training. To further enhance security for DFL, we design a safety protocol combining matrix decomposition and homomorphic encryption, effectively preventing collusion and unauthorized data access. Additionally, we developed a privacy-preserving load pattern recognition algorithm, enabling the training of specialized DFL models for heterogeneous load patterns. Theoretical analysis and comprehensive case studies, including real-world MES data, demonstrate that our framework not only protects privacy but also consistently achieves lower average daily dispatch costs compared to existing methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.20157v1">ADP-VRSGP: Decentralized Learning with Adaptive Differential Privacy via Variance-Reduced Stochastic Gradient Push</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-10-23T03:14:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoming Wu, Teng Liu, Xin Wang, Ming Yang, Jiguo Yu</p>
-    <p><b>Summary:</b> Differential privacy is widely employed in decentralized learning to safeguard sensitive data by introducing noise into model updates. However, existing approaches that use fixed-variance noise often degrade model performance and reduce training efficiency. To address these limitations, we propose a novel approach called decentralized learning with adaptive differential privacy via variance-reduced stochastic gradient push (ADP-VRSGP). This method dynamically adjusts both the noise variance and the learning rate using a stepwise-decaying schedule, which accelerates training and enhances final model performance while providing node-level personalized privacy guarantees. To counteract the slowed convergence caused by large-variance noise in early iterations, we introduce a progressive gradient fusion strategy that leverages historical gradients. Furthermore, ADP-VRSGP incorporates decentralized push-sum and aggregation techniques, making it particularly suitable for time-varying communication topologies. Through rigorous theoretical analysis, we demonstrate that ADP-VRSGP achieves robust convergence with an appropriate learning rate, significantly improving training stability and speed. Experimental results validate that our method outperforms existing baselines across multiple scenarios, highlighting its efficacy in addressing the challenges of privacy-preserving decentralized learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.20007v1">zk-Agreements: A Privacy-Preserving Way to Establish Deterministic Trust in Confidential Agreements</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-22T20:11:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> To-Wen Liu, Matthew Green</p>
-    <p><b>Summary:</b> Digital transactions currently exceed trillions of dollars annually, yet traditional paper-based agreements remain a bottleneck for automation, enforceability, and dispute resolution. Natural language contracts introduce ambiguity, require manual processing, and lack computational verifiability, all of which hinder efficient digital commerce. Computable legal contracts, expressed in machine-readable formats, offer a potential solution by enabling automated execution and verification. Blockchain-based smart contracts further strengthen enforceability and accelerate dispute resolution; however, current implementations risk exposing sensitive agreement terms on public ledgers, raising serious privacy and competitive intelligence concerns that limit enterprise adoption.
-  We introduce zk-agreements, a protocol designed to transition from paper-based trust to cryptographic trust while preserving confidentiality. Our design combines zero-knowledge proofs to protect private agreement terms, secure two-party computation to enable private compliance evaluation, and smart contracts to guarantee automated enforcement. Together, these components achieve both privacy preservation and computational enforceability, resolving the fundamental tension between transparency and confidentiality in blockchain-based agreements.</p>
   </details>
 </div>
 
