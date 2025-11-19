@@ -2423,5 +2423,133 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.14524v1",
+    "title" : "Compression with Privacy-Preserving Random Access",
+    "summary" : "It is shown that an i.i.d. binary source sequence $X_1, \\ldots, X_n$ can be losslessly compressed at any rate above entropy such that the individual decoding of any $X_i$ reveals \\emph{no} information about the other bits $\\{X_j : j \\neq i\\}$.",
+    "updated" : "2025-11-18T14:24:25Z",
+    "published" : "2025-11-18T14:24:25Z",
+    "authors" : [
+      {
+        "name" : "Venkat Chandar"
+      },
+      {
+        "name" : "Aslan Tchamkerten"
+      },
+      {
+        "name" : "Shashank Vatedka"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.14084v1",
+    "title" : "Observational Auditing of Label Privacy",
+    "summary" : "Differential privacy (DP) auditing is essential for evaluating privacy guarantees in machine learning systems. Existing auditing methods, however, pose a significant challenge for large-scale systems since they require modifying the training dataset -- for instance, by injecting out-of-distribution canaries or removing samples from training. Such interventions on the training data pipeline are resource-intensive and involve considerable engineering overhead. We introduce a novel observational auditing framework that leverages the inherent randomness of data distributions, enabling privacy evaluation without altering the original dataset. Our approach extends privacy auditing beyond traditional membership inference to protected attributes, with labels as a special case, addressing a key gap in existing techniques. We provide theoretical foundations for our method and perform experiments on Criteo and CIFAR-10 datasets that demonstrate its effectiveness in auditing label privacy guarantees. This work opens new avenues for practical privacy auditing in large-scale production environments.",
+    "updated" : "2025-11-18T03:12:59Z",
+    "published" : "2025-11-18T03:12:59Z",
+    "authors" : [
+      {
+        "name" : "Iden Kalemaj"
+      },
+      {
+        "name" : "Luca Melis"
+      },
+      {
+        "name" : "Maxime Boucher"
+      },
+      {
+        "name" : "Ilya Mironov"
+      },
+      {
+        "name" : "Saeed Mahloujifar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.14045v1",
+    "title" : "GRPO Privacy Is at Risk: A Membership Inference Attack Against Reinforcement Learning With Verifiable Rewards",
+    "summary" : "Membership inference attacks (MIAs) on large language models (LLMs) pose significant privacy risks across various stages of model training. Recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) have brought a profound paradigm shift in LLM training, particularly for complex reasoning tasks. However, the on-policy nature of RLVR introduces a unique privacy leakage pattern: since training relies on self-generated responses without fixed ground-truth outputs, membership inference must now determine whether a given prompt (independent of any specific response) is used during fine-tuning. This creates a threat where leakage arises not from answer memorization.\n  To audit this novel privacy risk, we propose Divergence-in-Behavior Attack (DIBA), the first membership inference framework specifically designed for RLVR. DIBA shifts the focus from memorization to behavioral change, leveraging measurable shifts in model behavior across two axes: advantage-side improvement (e.g., correctness gain) and logit-side divergence (e.g., policy drift). Through comprehensive evaluations, we demonstrate that DIBA significantly outperforms existing baselines, achieving around 0.8 AUC and an order-of-magnitude higher TPR@0.1%FPR. We validate DIBA's superiority across multiple settings--including in-distribution, cross-dataset, cross-algorithm, black-box scenarios, and extensions to vision-language models. Furthermore, our attack remains robust under moderate defensive measures.\n  To the best of our knowledge, this is the first work to systematically analyze privacy vulnerabilities in RLVR, revealing that even in the absence of explicit supervision, training data exposure can be reliably inferred through behavioral traces.",
+    "updated" : "2025-11-18T01:51:34Z",
+    "published" : "2025-11-18T01:51:34Z",
+    "authors" : [
+      {
+        "name" : "Yule Liu"
+      },
+      {
+        "name" : "Heyi Zhang"
+      },
+      {
+        "name" : "Jinyi Zheng"
+      },
+      {
+        "name" : "Zhen Sun"
+      },
+      {
+        "name" : "Zifan Peng"
+      },
+      {
+        "name" : "Tianshuo Cong"
+      },
+      {
+        "name" : "Yilong Yang"
+      },
+      {
+        "name" : "Xinlei He"
+      },
+      {
+        "name" : "Zhuo Ma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.07242v3",
+    "title" : "Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data",
+    "summary" : "Mobile motion sensors such as accelerometers and gyroscopes are now ubiquitously accessible by third-party apps via standard APIs. While enabling rich functionalities like activity recognition and step counting, this openness has also enabled unregulated inference of sensitive user traits, such as gender, age, and even identity, without user consent. Existing privacy-preserving techniques, such as GAN-based obfuscation or differential privacy, typically require access to the full input sequence, introducing latency that is incompatible with real-time scenarios. Worse, they tend to distort temporal and semantic patterns, degrading the utility of the data for benign tasks like activity recognition. To address these limitations, we propose the Predictive Adversarial Transformation Network (PATN), a real-time privacy-preserving framework that leverages historical signals to generate adversarial perturbations proactively. The perturbations are applied immediately upon data acquisition, enabling continuous protection without disrupting application functionality. Experiments on two datasets demonstrate that PATN substantially degrades the performance of privacy inference models, achieving Attack Success Rate (ASR) of 40.11% and 44.65% (reducing inference accuracy to near-random) and increasing the Equal Error Rate (EER) from 8.30% and 7.56% to 41.65% and 46.22%. On ASR, PATN outperforms baseline methods by 16.16% and 31.96%, respectively.",
+    "updated" : "2025-11-18T14:23:51Z",
+    "published" : "2025-11-10T15:57:17Z",
+    "authors" : [
+      {
+        "name" : "Tianle Song"
+      },
+      {
+        "name" : "Chenhao Lin"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Zhengyu Zhao"
+      },
+      {
+        "name" : "Jiahao Sun"
+      },
+      {
+        "name" : "Chong Zhang"
+      },
+      {
+        "name" : "Le Yang"
+      },
+      {
+        "name" : "Chao Shen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
