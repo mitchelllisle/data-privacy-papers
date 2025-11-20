@@ -2,6 +2,54 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.15634v1">Rényi Differential Privacy for Heavy-Tailed SDEs via Fractional Poincaré Inequalities</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-11-19T17:18:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Benjamin Dupuis, Mert Gürbüzbalaban, Umut Şimşekli, Jian Wang, Sinan Yildirim, Lingjiong Zhu</p>
+    <p><b>Summary:</b> Characterizing the differential privacy (DP) of learning algorithms has become a major challenge in recent years. In parallel, many studies suggested investigating the behavior of stochastic gradient descent (SGD) with heavy-tailed noise, both as a model for modern deep learning models and to improve their performance. However, most DP bounds focus on light-tailed noise, where satisfactory guarantees have been obtained but the proposed techniques do not directly extend to the heavy-tailed setting. Recently, the first DP guarantees for heavy-tailed SGD were obtained. These results provide $(0,δ)$-DP guarantees without requiring gradient clipping. Despite casting new light on the link between DP and heavy-tailed algorithms, these results have a strong dependence on the number of parameters and cannot be extended to other DP notions like the well-established Rényi differential privacy (RDP). In this work, we propose to address these limitations by deriving the first RDP guarantees for heavy-tailed SDEs, as well as their discretized counterparts. Our framework is based on new Rényi flow computations and the use of well-established fractional Poincaré inequalities. Under the assumption that such inequalities are satisfied, we obtain DP guarantees that have a much weaker dependence on the dimension compared to prior art.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.15434v1">Small Language Models for Phishing Website Detection: Cost, Performance, and Privacy Trade-Offs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-11-19T13:45:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georg Goldenits, Philip Koenig, Sebastian Raubitzek, Andreas Ekelhart</p>
+    <p><b>Summary:</b> Phishing websites pose a major cybersecurity threat, exploiting unsuspecting users and causing significant financial and organisational harm. Traditional machine learning approaches for phishing detection often require extensive feature engineering, continuous retraining, and costly infrastructure maintenance. At the same time, proprietary large language models (LLMs) have demonstrated strong performance in phishing-related classification tasks, but their operational costs and reliance on external providers limit their practical adoption in many business environments. This paper investigates the feasibility of small language models (SLMs) for detecting phishing websites using only their raw HTML code. A key advantage of these models is that they can be deployed on local infrastructure, providing organisations with greater control over data and operations. We systematically evaluate 15 commonly used Small Language Models (SLMs), ranging from 1 billion to 70 billion parameters, benchmarking their classification accuracy, computational requirements, and cost-efficiency. Our results highlight the trade-offs between detection performance and resource consumption, demonstrating that while SLMs underperform compared to state-of-the-art proprietary LLMs, they can still provide a viable and scalable alternative to external LLM services. By presenting a comparative analysis of costs and benefits, this work lays the foundation for future research on the adaptation, fine-tuning, and deployment of SLMs in phishing detection systems, aiming to balance security effectiveness and economic practicality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.15278v1">Privacy-Preserving IoT in Connected Aircraft Cabin</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-11-19T09:41:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nilesh Vyas, Benjamin Zhao, Aygün Baltaci, Gustavo de Carvalho Bertoli, Hassan Asghar, Markus Klügel, Gerrit Schramm, Martin Kubisch, Dali Kaafar</p>
+    <p><b>Summary:</b> The proliferation of IoT devices in shared, multi-vendor environments like the modern aircraft cabin creates a fundamental conflict between the promise of data collaboration and the risks to passenger privacy, vendor intellectual property (IP), and regulatory compliance. While emerging standards like the Cabin Secure Media-Independent Messaging (CSMIM) protocol provide a secure communication backbone, they do not resolve data governance challenges at the application layer, leaving a privacy gap that impedes trust. This paper proposes and evaluates a framework that closes this gap by integrating a configurable layer of Privacy-Enhancing Technologies (PETs) atop a CSMIM-like architecture. We conduct a rigorous, empirical analysis of two pragmatic PETs: Differential Privacy (DP) for statistical sharing, and an additive secret sharing scheme (ASS) for data obfuscation. Using a high-fidelity testbed with resource-constrained hardware, we quantify the trade-offs between data privacy, utility, and computing performance. Our results demonstrate that the computational overhead of PETs is often negligible compared to inherent network and protocol latencies. We prove that architectural choices, such as on-device versus virtualized processing, have a far greater impact on end-to-end latency and computational performance than the PETs themselves. The findings provide a practical roadmap for system architects to select and configure appropriate PETs, enabling the design of trustworthy collaborative IoT ecosystems in avionics and other critical domains.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.14936v1">How to Train Private Clinical Language Models: A Comparative Study of Privacy-Preserving Pipelines for ICD-9 Coding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-11-18T21:51:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mathieu Dufour, Andrew Duncan</p>
+    <p><b>Summary:</b> Large language models trained on clinical text risk exposing sensitive patient information, yet differential privacy (DP) methods often severely degrade the diagnostic accuracy needed for deployment. Despite rapid progress in DP optimisation and text generation, it remains unclear which privacy-preserving strategy actually works best for clinical language tasks. We present the first systematic head-to-head comparison of four training pipelines for automated diagnostic coding from hospital discharge summaries. All pipelines use identical 1B-parameter models and matched privacy budgets to predict ICD-9 codes. At moderate and relaxed privacy budgets ($\varepsilon \in \{4, 6\}$), knowledge distillation from DP-trained teachers outperforms both direct DP-SGD and DP-synthetic data training, recovering up to 63\% of the non-private performance whilst maintaining strong empirical privacy (membership-inference AUC $\approx$ 0.5). These findings expose large differences in the privacy-utility trade-off across architectures and identify knowledge distillation as the most practical route to privacy-preserving clinical NLP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.14524v1">Compression with Privacy-Preserving Random Access</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
   <p><b>Published on:</b> 2025-11-18T14:24:25Z</p>
@@ -1168,54 +1216,6 @@
     <p><b>Authors:</b> Emmanuel Dare Alalade, Ashraf Matrawy</p>
     <p><b>Summary:</b> Previous studies on PTA have focused on analyzing privacy threats based on the potential areas of occurrence and their likelihood of occurrence. However, an in-depth understanding of the threat actors involved, their actions, and the intentions that result in privacy threats is essential. In this paper, we present a novel Privacy Threat Model Framework (PTMF) that analyzes privacy threats through different phases.
   The PTMF development is motivated through the selected tactics from the MITRE ATT\&CK framework and techniques from the LINDDUN privacy threat model, making PTMF a privacy-centered framework. The proposed PTMF can be employed in various ways, including analyzing the activities of threat actors during privacy threats and assessing privacy risks in IoT systems, among others. In this paper, we conducted a user study on 12 privacy threats associated with IoT by developing a questionnaire based on PTMF and recruited experts from both industry and academia in the fields of security and privacy to gather their opinions. The collected data were analyzed and mapped to identify the threat actors involved in the identification of IoT users (IU) and the remaining 11 privacy threats. Our observation revealed the top three threat actors and the critical paths they used during the IU privacy threat, as well as the remaining 11 privacy threats. This study could provide a solid foundation for understanding how and where privacy measures can be proactively and effectively deployed in IoT systems to mitigate privacy threats based on the activities and intentions of threat actors within these systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.21591v2">Privacy by Design: Aligning GDPR and Software Engineering Specifications with a Requirements Engineering Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-10-24T15:59:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Oleksandr Kosenkov, Ehsan Zabardast, Davide Fucci, Daniel Mendez, Michael Unterkalmsteiner</p>
-    <p><b>Summary:</b> Context: Consistent requirements and system specifications are essential for the compliance of software systems towards the General Data Protection Regulation (GDPR). Both artefacts need to be grounded in the original text and conjointly assure the achievement of privacy by design (PbD). Objectives: There is little understanding of the perspectives of practitioners on specification objectives and goals to address PbD. Existing approaches do not account for the complex intersection between problem and solution space expressed in GDPR. In this study we explore the demand for conjoint requirements and system specification for PbD and suggest an approach to address this demand. Methods: We reviewed secondary and related primary studies and conducted interviews with practitioners to (1) investigate the state-of-practice and (2) understand the underlying specification objectives and goals (e.g., traceability). We developed and evaluated an approach for requirements and systems specification for PbD, and evaluated it against the specification objectives. Results: The relationship between problem and solution space, as expressed in GDPR, is instrumental in supporting PbD. We demonstrate how our approach, based on the modeling GDPR content with original legal concepts, contributes to specification objectives of capturing legal knowledge, supporting specification transparency, and traceability. Conclusion: GDPR demands need to be addressed throughout different levels of abstraction in the engineering lifecycle to achieve PbD. Legal knowledge specified in the GDPR text should be captured in specifications to address the demands of different stakeholders and ensure compliance. While our results confirm the suitability of our approach to address practical needs, we also revealed specific needs for the future effective operationalization of the approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.20721v1">User Perceptions of Privacy and Helpfulness in LLM Responses to Privacy-Sensitive Scenarios</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-10-23T16:38:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoyuan Wu, Roshni Kaushik, Wenkai Li, Lujo Bauer, Koichi Onoue</p>
-    <p><b>Summary:</b> Large language models (LLMs) have seen rapid adoption for tasks such as drafting emails, summarizing meetings, and answering health questions. In such uses, users may need to share private information (e.g., health records, contact details). To evaluate LLMs' ability to identify and redact such private information, prior work developed benchmarks (e.g., ConfAIde, PrivacyLens) with real-life scenarios. Using these benchmarks, researchers have found that LLMs sometimes fail to keep secrets private when responding to complex tasks (e.g., leaking employee salaries in meeting summaries). However, these evaluations rely on LLMs (proxy LLMs) to gauge compliance with privacy norms, overlooking real users' perceptions. Moreover, prior work primarily focused on the privacy-preservation quality of responses, without investigating nuanced differences in helpfulness. To understand how users perceive the privacy-preservation quality and helpfulness of LLM responses to privacy-sensitive scenarios, we conducted a user study with 94 participants using 90 scenarios from PrivacyLens. We found that, when evaluating identical responses to the same scenario, users showed low agreement with each other on the privacy-preservation quality and helpfulness of the LLM response. Further, we found high agreement among five proxy LLMs, while each individual LLM had low correlation with users' evaluations. These results indicate that the privacy and helpfulness of LLM responses are often specific to individuals, and proxy LLMs are poor estimates of how real users would perceive these responses in privacy-sensitive scenarios. Our results suggest the need to conduct user-centered studies on measuring LLMs' ability to help users while preserving privacy. Additionally, future research could investigate ways to improve the alignment between proxy LLMs and users for better estimation of users' perceived privacy and utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.20300v1">Privacy Protection of Automotive Location Data Based on Format-Preserving Encryption of Geographical Coordinates</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-23T07:39:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haojie Ji, Long Jin, Haowen Li, Chongshi Xin, Te Hu</p>
-    <p><b>Summary:</b> There are increasing risks of privacy disclosure when sharing the automotive location data in particular functions such as route navigation, driving monitoring and vehicle scheduling. These risks could lead to the attacks including user behavior recognition, sensitive location inference and trajectory reconstruction. In order to mitigate the data security risk caused by the automotive location sharing, this paper proposes a high-precision privacy protection mechanism based on format-preserving encryption (FPE) of geographical coordinates. The automotive coordinate data key mapping mechanism is designed to reduce to the accuracy loss of the geographical location data caused by the repeated encryption and decryption. The experimental results demonstrate that the average relative distance retention rate (RDR) reached 0.0844, and the number of hotspots in the critical area decreased by 98.9% after encryption. To evaluate the accuracy loss of the proposed encryption algorithm on automotive geographical location data, this paper presents the experimental analysis of decryption accuracy, and the result indicates that the decrypted coordinate data achieves a restoration accuracy of 100%. This work presents a high-precision privacy protection method for automotive location data, thereby providing an efficient data security solution for the sensitive data sharing in autonomous driving.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.20243v1">HHEML: Hybrid Homomorphic Encryption for Privacy-Preserving Machine Learning on Edge</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-10-23T05:51:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Hin Chan, Hao Yang, Shiyu Shen, Xingyu Fan, Shengzhe Lyu, Patrick S. Y. Hung, Ray C. C. Cheung</p>
-    <p><b>Summary:</b> Privacy-preserving machine learning (PPML) is an emerging topic to handle secure machine learning inference over sensitive data in untrusted environments. Fully homomorphic encryption (FHE) enables computation directly on encrypted data on the server side, making it a promising approach for PPML. However, it introduces significant communication and computation overhead on the client side, making it impractical for edge devices. Hybrid homomorphic encryption (HHE) addresses this limitation by combining symmetric encryption (SE) with FHE to reduce the computational cost on the client side, and combining with an FHE-friendly SE can also lessen the processing overhead on the server side, making it a more balanced and efficient alternative. Our work proposes a hardware-accelerated HHE architecture built around a lightweight symmetric cipher optimized for FHE compatibility and implemented as a dedicated hardware accelerator. To the best of our knowledge, this is the first design to integrate an end-to-end HHE framework with hardware acceleration. Beyond this, we also present several microarchitectural optimizations to achieve higher performance and energy efficiency. The proposed work is integrated into a full PPML pipeline, enabling secure inference with significantly lower latency and power consumption than software implementations. Our contributions validate the feasibility of low-power, hardware- accelerated HHE for edge deployment and provide a hardware- software co-design methodology for building scalable, secure machine learning systems in resource-constrained environments. Experiments on a PYNQ-Z2 platform with the MNIST dataset show over a 50x reduction in client-side encryption latency and nearly a 2x gain in hardware throughput compared to existing FPGA-based HHE accelerators.</p>
   </details>
 </div>
 
