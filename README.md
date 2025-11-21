@@ -2,6 +2,18 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.16377v1">Optimal Fairness under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2025-11-20T14:00:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hrad Ghoukasian, Shahab Asoodeh</p>
+    <p><b>Summary:</b> We investigate how to optimally design local differential privacy (LDP) mechanisms that reduce data unfairness and thereby improve fairness in downstream classification. We first derive a closed-form optimal mechanism for binary sensitive attributes and then develop a tractable optimization framework that yields the corresponding optimal mechanism for multi-valued attributes. As a theoretical contribution, we establish that for discrimination-accuracy optimal classifiers, reducing data unfairness necessarily leads to lower classification unfairness, thus providing a direct link between privacy-aware pre-processing and classification fairness. Empirically, we demonstrate that our approach consistently outperforms existing LDP mechanisms in reducing data unfairness across diverse datasets and fairness metrics, while maintaining accuracy close to that of non-private models. Moreover, compared with leading pre-processing and post-processing fairness methods, our mechanism achieves a more favorable accuracy-fairness trade-off while simultaneously preserving the privacy of sensitive attributes. Taken together, these results highlight LDP as a principled and effective pre-processing fairness intervention technique.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.15634v1">Rényi Differential Privacy for Heavy-Tailed SDEs via Fractional Poincaré Inequalities</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-11-19T17:18:54Z</p>
@@ -1203,19 +1215,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Zhaoyang Cheng, Guanpu Chen, Tobias J. Oechtering, Mikael Skoglund</p>
     <p><b>Summary:</b> Privacy preservation has served as a key metric in designing Nash equilibrium (NE) computation algorithms. Although differential privacy (DP) has been widely employed for privacy guarantees, it does not exploit prior distributional knowledge of datasets and is ineffective in assessing information leakage for correlated datasets. To address these concerns, we establish a pointwise maximal leakage (PML) framework when computing NE in aggregative games. By incorporating prior knowledge of players' cost function datasets, we obtain a precise and computable upper bound of privacy leakage with PML guarantees. In the entire view, we show PML refines DP by offering a tighter privacy guarantee, enabling flexibility in designing NE computation. Also, in the individual view, we reveal that the lower bound of PML can exceed the upper bound of DP by constructing specific correlated datasets. The results emphasize that PML is a more proper privacy measure than DP since the latter fails to adequately capture privacy leakage in correlated datasets. Moreover, we conduct experiments with adversaries who attempt to infer players' private information to illustrate the effectiveness of our framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.21601v1">PTMF: A Privacy Threat Modeling Framework for IoT with Expert-Driven Threat Propagation Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-24T16:06:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Emmanuel Dare Alalade, Ashraf Matrawy</p>
-    <p><b>Summary:</b> Previous studies on PTA have focused on analyzing privacy threats based on the potential areas of occurrence and their likelihood of occurrence. However, an in-depth understanding of the threat actors involved, their actions, and the intentions that result in privacy threats is essential. In this paper, we present a novel Privacy Threat Model Framework (PTMF) that analyzes privacy threats through different phases.
-  The PTMF development is motivated through the selected tactics from the MITRE ATT\&CK framework and techniques from the LINDDUN privacy threat model, making PTMF a privacy-centered framework. The proposed PTMF can be employed in various ways, including analyzing the activities of threat actors during privacy threats and assessing privacy risks in IoT systems, among others. In this paper, we conducted a user study on 12 privacy threats associated with IoT by developing a questionnaire based on PTMF and recruited experts from both industry and academia in the fields of security and privacy to gather their opinions. The collected data were analyzed and mapped to identify the threat actors involved in the identification of IoT users (IU) and the remaining 11 privacy threats. Our observation revealed the top three threat actors and the critical paths they used during the IU privacy threat, as well as the remaining 11 privacy threats. This study could provide a solid foundation for understanding how and where privacy measures can be proactively and effectively deployed in IoT systems to mitigate privacy threats based on the activities and intentions of threat actors within these systems.</p>
   </details>
 </div>
 
