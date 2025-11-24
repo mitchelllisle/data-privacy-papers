@@ -2687,5 +2687,61 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.16940v1",
+    "title" : "MultiPriv: Benchmarking Individual-Level Privacy Reasoning in Vision-Language Models",
+    "summary" : "Modern Vision-Language Models (VLMs) demonstrate sophisticated reasoning, escalating privacy risks beyond simple attribute perception to individual-level linkage. Current privacy benchmarks are structurally insufficient for this new threat, as they primarily evaluate privacy perception while failing to address the more critical risk of privacy reasoning: a VLM's ability to infer and link distributed information to construct individual profiles. To address this critical gap, we propose \\textbf{MultiPriv}, the first benchmark designed to systematically evaluate individual-level privacy reasoning in VLMs. We introduce the \\textbf{Privacy Perception and Reasoning (PPR)} framework and construct a novel, bilingual multimodal dataset to support it. The dataset uniquely features a core component of synthetic individual profiles where identifiers (e.g., faces, names) are meticulously linked to sensitive attributes. This design enables nine challenging tasks evaluating the full PPR spectrum, from attribute detection to cross-image re-identification and chained inference. We conduct a large-scale evaluation of over 50 foundational and commercial VLMs. Our analysis reveals: (1) Many VLMs possess significant, unmeasured reasoning-based privacy risks. (2) Perception-level metrics are poor predictors of these reasoning risks, revealing a critical evaluation gap. (3) Existing safety alignments are inconsistent and ineffective against such reasoning-based attacks. MultiPriv exposes systemic vulnerabilities and provides the necessary framework for developing robust, privacy-preserving VLMs.",
+    "updated" : "2025-11-21T04:33:11Z",
+    "published" : "2025-11-21T04:33:11Z",
+    "authors" : [
+      {
+        "name" : "Xiongtao Sun"
+      },
+      {
+        "name" : "Hui Li"
+      },
+      {
+        "name" : "Jiaming Zhang"
+      },
+      {
+        "name" : "Yujie Yang"
+      },
+      {
+        "name" : "Kaili Liu"
+      },
+      {
+        "name" : "Ruxin Feng"
+      },
+      {
+        "name" : "Wen Jun Tan"
+      },
+      {
+        "name" : "Wei Yang Bryan Lim"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.07441v2",
+    "title" : "AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents",
+    "summary" : "AI agents can autonomously perform tasks and, often without explicit user consent, collect or disclose users' sensitive local data, which raises serious privacy concerns. Although AI agents' privacy policies describe their intended data practices, there remains limited transparency and accountability about whether runtime behavior matches those policies. To close this gap, we introduce AudAgent, a visual tool that continuously monitors AI agents' data practices in real time and guards compliance with stated privacy policies.\n  AudAgent consists of four components for automated privacy auditing of AI agents. (i) Policy formalization: a novel cross-LLM voting mechanism to guarantee confidence of the parsed privacy policy model. (ii) Runtime annotation: a lightweight Presidio-based analyzer detects sensitive data and annotates data practices based on the AI agent's context and the privacy policy model. (iii) Compliance auditing: ontology graphs and automata-based checking connect the privacy policy model with runtime annotations, enabling on-the-fly compliance checking. (iv) User interface: an infrastructure-independent implementation visualizes the real-time execution trace of AI agents along with potential privacy policy violations, providing user-friendly transparency and accountability.\n  We evaluate AudAgent with AI agents built using mainstream frameworks, demonstrating its effectiveness in detecting and visualizing privacy policy violations in real time. Using AudAgent, we also find that most privacy policies omit explicit safeguards for highly sensitive data such as SSNs, whose misuse violates legal requirements, and that many agents do not refuse handling such data via third-party tools, including those controlled by Claude, Gemini, and DeepSeek. AudAgent proactively blocks operations on such data, overriding the agents' original privacy policy and behavior.",
+    "updated" : "2025-11-20T21:03:58Z",
+    "published" : "2025-11-03T17:32:08Z",
+    "authors" : [
+      {
+        "name" : "Ye Zheng"
+      },
+      {
+        "name" : "Yidan Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
