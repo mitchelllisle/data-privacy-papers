@@ -2,6 +2,18 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.16940v1">MultiPriv: Benchmarking Individual-Level Privacy Reasoning in Vision-Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-21T04:33:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiongtao Sun, Hui Li, Jiaming Zhang, Yujie Yang, Kaili Liu, Ruxin Feng, Wen Jun Tan, Wei Yang Bryan Lim</p>
+    <p><b>Summary:</b> Modern Vision-Language Models (VLMs) demonstrate sophisticated reasoning, escalating privacy risks beyond simple attribute perception to individual-level linkage. Current privacy benchmarks are structurally insufficient for this new threat, as they primarily evaluate privacy perception while failing to address the more critical risk of privacy reasoning: a VLM's ability to infer and link distributed information to construct individual profiles. To address this critical gap, we propose \textbf{MultiPriv}, the first benchmark designed to systematically evaluate individual-level privacy reasoning in VLMs. We introduce the \textbf{Privacy Perception and Reasoning (PPR)} framework and construct a novel, bilingual multimodal dataset to support it. The dataset uniquely features a core component of synthetic individual profiles where identifiers (e.g., faces, names) are meticulously linked to sensitive attributes. This design enables nine challenging tasks evaluating the full PPR spectrum, from attribute detection to cross-image re-identification and chained inference. We conduct a large-scale evaluation of over 50 foundational and commercial VLMs. Our analysis reveals: (1) Many VLMs possess significant, unmeasured reasoning-based privacy risks. (2) Perception-level metrics are poor predictors of these reasoning risks, revealing a critical evaluation gap. (3) Existing safety alignments are inconsistent and ineffective against such reasoning-based attacks. MultiPriv exposes systemic vulnerabilities and provides the necessary framework for developing robust, privacy-preserving VLMs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.16377v1">Optimal Fairness under Local Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
   <p><b>Published on:</b> 2025-11-20T14:00:15Z</p>
@@ -751,15 +763,15 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07441v1">AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.07441v2">AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-11-03T17:32:08Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Ye Zheng, Yidan Hu</p>
-    <p><b>Summary:</b> AI agents can autonomously perform tasks and, often without explicit user consent, collect or disclose users' sensitive local data, which raises serious privacy concerns. Although AI agents' privacy policies may describe their intended data practices, there remains limited transparency and accountability about whether runtime behavior matches those policies. To close this gap, we introduce AudAgent, a visual framework that continuously monitors AI agents' data practices in real time and guards compliance with stated privacy policies.
-  AudAgent consists of four components for automated privacy auditing of AI agents. (i) Policy parsing: an ensemble of LLMs translates natural-language privacy policies into a structured privacy-policy model, where cross-LLM voting guarantees confidence of the parsing results. (ii) Runtime annotation: a lightweight Presidio-based analyzer detects sensitive data and annotates how the data is used based on the context of the AI agent's operations and the privacy-policy model. (iii) Compliance auditing: ontology alignment and automata-based evaluation connect the policy model with runtime annotations, enabling on-the-fly compliance checks between the natural-language policy and observed unordered data practices of AI agents. (iv) User interface: a platform-independent implementation visualizes the real-time execution trace of AI agents along with potential privacy risks detected during auditing, providing user-friendly transparency and accountability.
-  In addition to common formatted privacy policies, AudAgent also supports user-defined policies for fine-grained control and customization. We evaluate AudAgent on AI agents built upon mainstream programming frameworks such as AutoGen, experiments show that AudAgent effectively identifies potential privacy policy violations in real time.</p>
+    <p><b>Summary:</b> AI agents can autonomously perform tasks and, often without explicit user consent, collect or disclose users' sensitive local data, which raises serious privacy concerns. Although AI agents' privacy policies describe their intended data practices, there remains limited transparency and accountability about whether runtime behavior matches those policies. To close this gap, we introduce AudAgent, a visual tool that continuously monitors AI agents' data practices in real time and guards compliance with stated privacy policies.
+  AudAgent consists of four components for automated privacy auditing of AI agents. (i) Policy formalization: a novel cross-LLM voting mechanism to guarantee confidence of the parsed privacy policy model. (ii) Runtime annotation: a lightweight Presidio-based analyzer detects sensitive data and annotates data practices based on the AI agent's context and the privacy policy model. (iii) Compliance auditing: ontology graphs and automata-based checking connect the privacy policy model with runtime annotations, enabling on-the-fly compliance checking. (iv) User interface: an infrastructure-independent implementation visualizes the real-time execution trace of AI agents along with potential privacy policy violations, providing user-friendly transparency and accountability.
+  We evaluate AudAgent with AI agents built using mainstream frameworks, demonstrating its effectiveness in detecting and visualizing privacy policy violations in real time. Using AudAgent, we also find that most privacy policies omit explicit safeguards for highly sensitive data such as SSNs, whose misuse violates legal requirements, and that many agents do not refuse handling such data via third-party tools, including those controlled by Claude, Gemini, and DeepSeek. AudAgent proactively blocks operations on such data, overriding the agents' original privacy policy and behavior.</p>
   </details>
 </div>
 
@@ -1203,18 +1215,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen, Ruoming Jin, Abdallah Khreishah</p>
     <p><b>Summary:</b> Large language models (LLMs) demonstrate remarkable capabilities across various tasks. However, their deployment introduces significant risks related to intellectual property. In this context, we focus on model stealing attacks, where adversaries replicate the behaviors of these models to steal services. These attacks are highly relevant to proprietary LLMs and pose serious threats to revenue and financial stability. To mitigate these risks, the watermarking solution embeds imperceptible patterns in LLM outputs, enabling model traceability and intellectual property verification. In this paper, we study the vulnerability of LLM service providers by introducing $δ$-STEAL, a novel model stealing attack that bypasses the service provider's watermark detectors while preserving the adversary's model utility. $δ$-STEAL injects noise into the token embeddings of the adversary's model during fine-tuning in a way that satisfies local differential privacy (LDP) guarantees. The adversary queries the service provider's model to collect outputs and form input-output training pairs. By applying LDP-preserving noise to these pairs, $δ$-STEAL obfuscates watermark signals, making it difficult for the service provider to determine whether its outputs were used, thereby preventing claims of model theft. Our experiments show that $δ$-STEAL with lightweight modifications achieves attack success rates of up to $96.95\%$ without significantly compromising the adversary's model utility. The noise scale in LDP controls the trade-off between attack effectiveness and model utility. This poses a significant risk, as even robust watermarks can be bypassed, allowing adversaries to deceive watermark detectors and undermine current intellectual property protection methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.21668v1">Privacy Guarantee for Nash Equilibrium Computation of Aggregative Games Based on Pointwise Maximal Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2025-10-24T17:24:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhaoyang Cheng, Guanpu Chen, Tobias J. Oechtering, Mikael Skoglund</p>
-    <p><b>Summary:</b> Privacy preservation has served as a key metric in designing Nash equilibrium (NE) computation algorithms. Although differential privacy (DP) has been widely employed for privacy guarantees, it does not exploit prior distributional knowledge of datasets and is ineffective in assessing information leakage for correlated datasets. To address these concerns, we establish a pointwise maximal leakage (PML) framework when computing NE in aggregative games. By incorporating prior knowledge of players' cost function datasets, we obtain a precise and computable upper bound of privacy leakage with PML guarantees. In the entire view, we show PML refines DP by offering a tighter privacy guarantee, enabling flexibility in designing NE computation. Also, in the individual view, we reveal that the lower bound of PML can exceed the upper bound of DP by constructing specific correlated datasets. The results emphasize that PML is a more proper privacy measure than DP since the latter fails to adequately capture privacy leakage in correlated datasets. Moreover, we conduct experiments with adversaries who attempt to infer players' private information to illustrate the effectiveness of our framework.</p>
   </details>
 </div>
 
