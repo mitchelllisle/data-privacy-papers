@@ -2743,5 +2743,240 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.19015v1",
+    "title" : "A General Framework for Per-record Differential Privacy",
+    "summary" : "Differential Privacy (DP) is a widely adopted standard for privacy-preserving data analysis, but it assumes a uniform privacy budget across all records, limiting its applicability when privacy requirements vary with data values. Per-record Differential Privacy (PrDP) addresses this by defining the privacy budget as a function of each record, offering better alignment with real-world needs. However, the dependency between the privacy budget and the data value introduces challenges in protecting the budget's privacy itself. Existing solutions either handle specific privacy functions or adopt relaxed PrDP definitions. A simple workaround is to use the global minimum of the privacy function, but this severely degrades utility, as the minimum is often set extremely low to account for rare records with high privacy needs. In this work, we propose a general and practical framework that enables any standard DP mechanism to support PrDP, with error depending only on the minimal privacy requirement among records actually present in the dataset. Since directly revealing this minimum may leak information, we introduce a core technique called privacy-specified domain partitioning, which ensures accurate estimation without compromising privacy. We also extend our framework to the local DP setting via a novel technique, privacy-specified query augmentation. Using our framework, we present the first PrDP solutions for fundamental tasks such as count, sum, and maximum estimation. Experimental results show that our mechanisms achieve high utility and significantly outperform existing Personalized DP (PDP) methods, which can be viewed as a special case of PrDP with relaxed privacy protection.",
+    "updated" : "2025-11-24T11:44:10Z",
+    "published" : "2025-11-24T11:44:10Z",
+    "authors" : [
+      {
+        "name" : "Xinghe Chen"
+      },
+      {
+        "name" : "Dajun Sun"
+      },
+      {
+        "name" : "Quanqing Xu"
+      },
+      {
+        "name" : "Wei Dong"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.18965v1",
+    "title" : "REFLECTing SPERET: Measuring and Promoting Ethics and Privacy Reflexivity in Eye-Tracking Research",
+    "summary" : "The proliferation of eye tracking in high-stakes domains - such as healthcare, marketing and surveillance - underscores the need for researchers to be ethically aware when employing this technology. Although privacy and ethical guidelines have emerged in recent years, empirical research on how scholars reflect on their own work remains scarce. To address this gap, we present two complementary instruments developed with input from more than 70 researchers: REFLECT, a qualitative questionnaire, and SPERET (Latin for \"hope\"), a quantitative psychometric scale that measures privacy and ethics reflexivity in eye tracking. Our findings reveal a research community that is concerned about user privacy, cognisant of methodological constraints, such as sample bias, and that possesses a nuanced sense of ethical responsibility evolving with project maturity. Together, these tools and our analyses offer a systematic examination and a hopeful outlook on reflexivity in eye-tracking research, promoting more privacy and ethics-conscious practice.",
+    "updated" : "2025-11-24T10:31:40Z",
+    "published" : "2025-11-24T10:31:40Z",
+    "authors" : [
+      {
+        "name" : "Susanne Hindennach"
+      },
+      {
+        "name" : "Mayar Elfares"
+      },
+      {
+        "name" : "Céline Gressel"
+      },
+      {
+        "name" : "Andreas Bulling"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.18876v1",
+    "title" : "Fairness Meets Privacy: Integrating Differential Privacy and Demographic Parity in Multi-class Classification",
+    "summary" : "The increasing use of machine learning in sensitive applications demands algorithms that simultaneously preserve data privacy and ensure fairness across potentially sensitive sub-populations. While privacy and fairness have each been extensively studied, their joint treatment remains poorly understood. Existing research often frames them as conflicting objectives, with multiple studies suggesting that strong privacy notions such as differential privacy inevitably compromise fairness. In this work, we challenge that perspective by showing that differential privacy can be integrated into a fairness-enhancing pipeline with minimal impact on fairness guarantees. We design a postprocessing algorithm, called DP2DP, that enforces both demographic parity and differential privacy. Our analysis reveals that our algorithm converges towards its demographic parity objective at essentially the same rate (up logarithmic factor) as the best non-private methods from the literature. Experiments on both synthetic and real datasets confirm our theoretical results, showing that the proposed algorithm achieves state-of-the-art accuracy/fairness/privacy trade-offs.",
+    "updated" : "2025-11-24T08:31:02Z",
+    "published" : "2025-11-24T08:31:02Z",
+    "authors" : [
+      {
+        "name" : "Lilian Say"
+      },
+      {
+        "name" : "Christophe Denis"
+      },
+      {
+        "name" : "Rafael Pinot"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.18583v1",
+    "title" : "Differential privacy with dependent data",
+    "summary" : "Dependent data underlies many statistical studies in the social and health sciences, which often involve sensitive or private information. Differential privacy (DP) and in particular \\textit{user-level} DP provide a natural formalization of privacy requirements for processing dependent data where each individual provides multiple observations to the dataset. However, dependence introduced, e.g., through repeated measurements challenges the existing statistical theory under DP-constraints. In \\iid{} settings, noisy Winsorized mean estimators have been shown to be minimax optimal for standard (\\textit{item-level}) and \\textit{user-level} DP estimation of a mean $μ\\in \\R^d$. Yet, their behavior on potentially dependent observations has not previously been studied. We fill this gap and show that Winsorized mean estimators can also be used under dependence for bounded and unbounded data, and can lead to asymptotic and finite sample guarantees that resemble their \\iid{} counterparts under a weak notion of dependence. For this, we formalize dependence via log-Sobolev inequalities on the joint distribution of observations. This enables us to adapt the stable histogram by Karwa and Vadhan (2018) to a non-\\iid{} setting, which we then use to estimate the private projection intervals of the Winsorized estimator. The resulting guarantees for our item-level mean estimator extend to \\textit{user-level} mean estimation and transfer to the local model via a randomized response histogram. Using the mean estimators as building blocks, we provide extensions to random effects models, longitudinal linear regression and nonparametric regression. Therefore, our work constitutes a first step towards a systematic study of DP for dependent data.",
+    "updated" : "2025-11-23T18:56:40Z",
+    "published" : "2025-11-23T18:56:40Z",
+    "authors" : [
+      {
+        "name" : "Valentin Roth"
+      },
+      {
+        "name" : "Marco Avella-Medina"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.18268v1",
+    "title" : "Privacy Concerns and ChatGPT: Exploring Online Discourse through the Lens of Information Practice on Reddit",
+    "summary" : "As millions of people use ChatGPT for tasks such as education, writing assistance, and health advice, concerns have grown about how personal prompts and data are stored and used. This study explores how Reddit users collectively negotiate and respond to these privacy concerns. Posts were collected from three major subreddits -- r/Chatgpt, r/privacy, and r/OpenAI -- between November 2022 and May 2025. An iterative keyword search followed by manual screening resulted in a final dataset of 426 posts and 1,900 comments. Using information practice as the theoretical lens, we conducted a qualitative thematic analysis to identify collective practices of risk negotiation, validated with BERTopic topic modeling to ensure thematic saturation. Findings revealed risk signaling, norm-setting, and resignation as dominant discourses, and collective troubleshooting and advocacy for privacy-preserving alternatives as key adaptive practices. Reddit functions as a site of collective sense-making where users surface risks, establish informal norms, and share strategies for mitigating privacy threats, offering insights for AI design and privacy literacy initiatives.",
+    "updated" : "2025-11-23T03:37:49Z",
+    "published" : "2025-11-23T03:37:49Z",
+    "authors" : [
+      {
+        "name" : "S M Mehedi Zaman"
+      },
+      {
+        "name" : "Saubhagya Joshi"
+      },
+      {
+        "name" : "Yiyi Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.18025v1",
+    "title" : "Correlated-Sequence Differential Privacy",
+    "summary" : "Data streams collected from multiple sources are rarely independent. Values evolve over time and influence one another across sequences. These correlations improve prediction in healthcare, finance, and smart-city control yet violate the record-independence assumption built into most Differential Privacy (DP) mechanisms. To restore rigorous privacy guarantees without sacrificing utility, we introduce Correlated-Sequence Differential Privacy (CSDP), a framework specifically designed for preserving privacy in correlated sequential data. CSDP addresses two linked challenges: quantifying the extra information an attacker gains from joint temporal and cross-sequence links, and adding just enough noise to hide that information while keeping the data useful. We model multivariate streams as a Coupling Markov Chain, yielding the derived loose leakage bound expressed with a few spectral terms and revealing a counterintuitive result: stronger coupling can actually decrease worst-case leakage by dispersing perturbations across sequences. Guided by these bounds, we build the Freshness-Regulated Adaptive Noise (FRAN) mechanism--combining data aging, correlation-aware sensitivity scaling, and Laplace noise--that runs in linear time. Tests on two-sequence datasets show that CSDP improves the privacy-utility trade-off by approximately 50% over existing correlated-DP methods and by two orders of magnitude compared to the standard DP approach.",
+    "updated" : "2025-11-22T11:28:59Z",
+    "published" : "2025-11-22T11:28:59Z",
+    "authors" : [
+      {
+        "name" : "Yifan Luo"
+      },
+      {
+        "name" : "Meng Zhang"
+      },
+      {
+        "name" : "Jin Xu"
+      },
+      {
+        "name" : "Junting Chen"
+      },
+      {
+        "name" : "Jianwei Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.17989v1",
+    "title" : "Privacy Auditing of Multi-domain Graph Pre-trained Model under Membership Inference Attacks",
+    "summary" : "Multi-domain graph pre-training has emerged as a pivotal technique in developing graph foundation models. While it greatly improves the generalization of graph neural networks, its privacy risks under membership inference attacks (MIAs), which aim to identify whether a specific instance was used in training (member), remain largely unexplored. However, effectively conducting MIAs against multi-domain graph pre-trained models is a significant challenge due to: (i) Enhanced Generalization Capability: Multi-domain pre-training reduces the overfitting characteristics commonly exploited by MIAs. (ii) Unrepresentative Shadow Datasets: Diverse training graphs hinder the obtaining of reliable shadow graphs. (iii) Weakened Membership Signals: Embedding-based outputs offer less informative cues than logits for MIAs. To tackle these challenges, we propose MGP-MIA, a novel framework for Membership Inference Attacks against Multi-domain Graph Pre-trained models. Specifically, we first propose a membership signal amplification mechanism that amplifies the overfitting characteristics of target models via machine unlearning. We then design an incremental shadow model construction mechanism that builds a reliable shadow model with limited shadow graphs via incremental learning. Finally, we introduce a similarity-based inference mechanism that identifies members based on their similarity to positive and negative samples. Extensive experiments demonstrate the effectiveness of our proposed MGP-MIA and reveal the privacy risks of multi-domain graph pre-training.",
+    "updated" : "2025-11-22T09:04:58Z",
+    "published" : "2025-11-22T09:04:58Z",
+    "authors" : [
+      {
+        "name" : "Jiayi Luo"
+      },
+      {
+        "name" : "Qingyun Sun"
+      },
+      {
+        "name" : "Yuecen Wei"
+      },
+      {
+        "name" : "Haonan Yuan"
+      },
+      {
+        "name" : "Xingcheng Fu"
+      },
+      {
+        "name" : "Jianxin Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.17747v1",
+    "title" : "AEGIS: Preserving privacy of 3D Facial Avatars with Adversarial Perturbations",
+    "summary" : "The growing adoption of photorealistic 3D facial avatars, particularly those utilizing efficient 3D Gaussian Splatting representations, introduces new risks of online identity theft, especially in systems that rely on biometric authentication. While effective adversarial masking methods have been developed for 2D images, a significant gap remains in achieving robust, viewpoint-consistent identity protection for dynamic 3D avatars. To address this, we present AEGIS, the first privacy-preserving identity masking framework for 3D Gaussian Avatars that maintains the subject's perceived characteristics. Our method aims to conceal identity-related facial features while preserving the avatar's perceptual realism and functional integrity. AEGIS applies adversarial perturbations to the Gaussian color coefficients, guided by a pre-trained face verification network, ensuring consistent protection across multiple viewpoints without retraining or modifying the avatar's geometry. AEGIS achieves complete de-identification, reducing face retrieval and verification accuracy to 0%, while maintaining high perceptual quality (SSIM = 0.9555, PSNR = 35.52 dB). It also preserves key facial attributes such as age, race, gender, and emotion, demonstrating strong privacy protection with minimal visual distortion.",
+    "updated" : "2025-11-21T19:57:28Z",
+    "published" : "2025-11-21T19:57:28Z",
+    "authors" : [
+      {
+        "name" : "Dawid Wolkiewicz"
+      },
+      {
+        "name" : "Anastasiya Pechko"
+      },
+      {
+        "name" : "Przemysław Spurek"
+      },
+      {
+        "name" : "Piotr Syga"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.07242v4",
+    "title" : "Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data",
+    "summary" : "Mobile motion sensors such as accelerometers and gyroscopes are now ubiquitously accessible by third-party apps via standard APIs. While enabling rich functionalities like activity recognition and step counting, this openness has also enabled unregulated inference of sensitive user traits, such as gender, age, and even identity, without user consent. Existing privacy-preserving techniques, such as GAN-based obfuscation or differential privacy, typically require access to the full input sequence, introducing latency that is incompatible with real-time scenarios. Worse, they tend to distort temporal and semantic patterns, degrading the utility of the data for benign tasks like activity recognition. To address these limitations, we propose the Predictive Adversarial Transformation Network (PATN), a real-time privacy-preserving framework that leverages historical signals to generate adversarial perturbations proactively. The perturbations are applied immediately upon data acquisition, enabling continuous protection without disrupting application functionality. Experiments on two datasets demonstrate that PATN substantially degrades the performance of privacy inference models, achieving Attack Success Rate (ASR) of 40.11% and 44.65% (reducing inference accuracy to near-random) and increasing the Equal Error Rate (EER) from 8.30% and 7.56% to 41.65% and 46.22%. On ASR, PATN outperforms baseline methods by 16.16% and 31.96%, respectively.",
+    "updated" : "2025-11-24T08:58:20Z",
+    "published" : "2025-11-10T15:57:17Z",
+    "authors" : [
+      {
+        "name" : "Tianle Song"
+      },
+      {
+        "name" : "Chenhao Lin"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Zhengyu Zhao"
+      },
+      {
+        "name" : "Jiahao Sun"
+      },
+      {
+        "name" : "Chong Zhang"
+      },
+      {
+        "name" : "Le Yang"
+      },
+      {
+        "name" : "Chao Shen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
