@@ -2,6 +2,102 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.19015v1">A General Framework for Per-record Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-24T11:44:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xinghe Chen, Dajun Sun, Quanqing Xu, Wei Dong</p>
+    <p><b>Summary:</b> Differential Privacy (DP) is a widely adopted standard for privacy-preserving data analysis, but it assumes a uniform privacy budget across all records, limiting its applicability when privacy requirements vary with data values. Per-record Differential Privacy (PrDP) addresses this by defining the privacy budget as a function of each record, offering better alignment with real-world needs. However, the dependency between the privacy budget and the data value introduces challenges in protecting the budget's privacy itself. Existing solutions either handle specific privacy functions or adopt relaxed PrDP definitions. A simple workaround is to use the global minimum of the privacy function, but this severely degrades utility, as the minimum is often set extremely low to account for rare records with high privacy needs. In this work, we propose a general and practical framework that enables any standard DP mechanism to support PrDP, with error depending only on the minimal privacy requirement among records actually present in the dataset. Since directly revealing this minimum may leak information, we introduce a core technique called privacy-specified domain partitioning, which ensures accurate estimation without compromising privacy. We also extend our framework to the local DP setting via a novel technique, privacy-specified query augmentation. Using our framework, we present the first PrDP solutions for fundamental tasks such as count, sum, and maximum estimation. Experimental results show that our mechanisms achieve high utility and significantly outperform existing Personalized DP (PDP) methods, which can be viewed as a special case of PrDP with relaxed privacy protection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.18965v1">REFLECTing SPERET: Measuring and Promoting Ethics and Privacy Reflexivity in Eye-Tracking Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-11-24T10:31:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Susanne Hindennach, Mayar Elfares, Céline Gressel, Andreas Bulling</p>
+    <p><b>Summary:</b> The proliferation of eye tracking in high-stakes domains - such as healthcare, marketing and surveillance - underscores the need for researchers to be ethically aware when employing this technology. Although privacy and ethical guidelines have emerged in recent years, empirical research on how scholars reflect on their own work remains scarce. To address this gap, we present two complementary instruments developed with input from more than 70 researchers: REFLECT, a qualitative questionnaire, and SPERET (Latin for "hope"), a quantitative psychometric scale that measures privacy and ethics reflexivity in eye tracking. Our findings reveal a research community that is concerned about user privacy, cognisant of methodological constraints, such as sample bias, and that possesses a nuanced sense of ethical responsibility evolving with project maturity. Together, these tools and our analyses offer a systematic examination and a hopeful outlook on reflexivity in eye-tracking research, promoting more privacy and ethics-conscious practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.18876v1">Fairness Meets Privacy: Integrating Differential Privacy and Demographic Parity in Multi-class Classification</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-11-24T08:31:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lilian Say, Christophe Denis, Rafael Pinot</p>
+    <p><b>Summary:</b> The increasing use of machine learning in sensitive applications demands algorithms that simultaneously preserve data privacy and ensure fairness across potentially sensitive sub-populations. While privacy and fairness have each been extensively studied, their joint treatment remains poorly understood. Existing research often frames them as conflicting objectives, with multiple studies suggesting that strong privacy notions such as differential privacy inevitably compromise fairness. In this work, we challenge that perspective by showing that differential privacy can be integrated into a fairness-enhancing pipeline with minimal impact on fairness guarantees. We design a postprocessing algorithm, called DP2DP, that enforces both demographic parity and differential privacy. Our analysis reveals that our algorithm converges towards its demographic parity objective at essentially the same rate (up logarithmic factor) as the best non-private methods from the literature. Experiments on both synthetic and real datasets confirm our theoretical results, showing that the proposed algorithm achieves state-of-the-art accuracy/fairness/privacy trade-offs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.18583v1">Differential privacy with dependent data</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
+  <p><b>Published on:</b> 2025-11-23T18:56:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Valentin Roth, Marco Avella-Medina</p>
+    <p><b>Summary:</b> Dependent data underlies many statistical studies in the social and health sciences, which often involve sensitive or private information. Differential privacy (DP) and in particular \textit{user-level} DP provide a natural formalization of privacy requirements for processing dependent data where each individual provides multiple observations to the dataset. However, dependence introduced, e.g., through repeated measurements challenges the existing statistical theory under DP-constraints. In \iid{} settings, noisy Winsorized mean estimators have been shown to be minimax optimal for standard (\textit{item-level}) and \textit{user-level} DP estimation of a mean $μ\in \R^d$. Yet, their behavior on potentially dependent observations has not previously been studied. We fill this gap and show that Winsorized mean estimators can also be used under dependence for bounded and unbounded data, and can lead to asymptotic and finite sample guarantees that resemble their \iid{} counterparts under a weak notion of dependence. For this, we formalize dependence via log-Sobolev inequalities on the joint distribution of observations. This enables us to adapt the stable histogram by Karwa and Vadhan (2018) to a non-\iid{} setting, which we then use to estimate the private projection intervals of the Winsorized estimator. The resulting guarantees for our item-level mean estimator extend to \textit{user-level} mean estimation and transfer to the local model via a randomized response histogram. Using the mean estimators as building blocks, we provide extensions to random effects models, longitudinal linear regression and nonparametric regression. Therefore, our work constitutes a first step towards a systematic study of DP for dependent data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.18268v1">Privacy Concerns and ChatGPT: Exploring Online Discourse through the Lens of Information Practice on Reddit</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
+  <p><b>Published on:</b> 2025-11-23T03:37:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> S M Mehedi Zaman, Saubhagya Joshi, Yiyi Wu</p>
+    <p><b>Summary:</b> As millions of people use ChatGPT for tasks such as education, writing assistance, and health advice, concerns have grown about how personal prompts and data are stored and used. This study explores how Reddit users collectively negotiate and respond to these privacy concerns. Posts were collected from three major subreddits -- r/Chatgpt, r/privacy, and r/OpenAI -- between November 2022 and May 2025. An iterative keyword search followed by manual screening resulted in a final dataset of 426 posts and 1,900 comments. Using information practice as the theoretical lens, we conducted a qualitative thematic analysis to identify collective practices of risk negotiation, validated with BERTopic topic modeling to ensure thematic saturation. Findings revealed risk signaling, norm-setting, and resignation as dominant discourses, and collective troubleshooting and advocacy for privacy-preserving alternatives as key adaptive practices. Reddit functions as a site of collective sense-making where users surface risks, establish informal norms, and share strategies for mitigating privacy threats, offering insights for AI design and privacy literacy initiatives.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.18025v1">Correlated-Sequence Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-11-22T11:28:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yifan Luo, Meng Zhang, Jin Xu, Junting Chen, Jianwei Huang</p>
+    <p><b>Summary:</b> Data streams collected from multiple sources are rarely independent. Values evolve over time and influence one another across sequences. These correlations improve prediction in healthcare, finance, and smart-city control yet violate the record-independence assumption built into most Differential Privacy (DP) mechanisms. To restore rigorous privacy guarantees without sacrificing utility, we introduce Correlated-Sequence Differential Privacy (CSDP), a framework specifically designed for preserving privacy in correlated sequential data. CSDP addresses two linked challenges: quantifying the extra information an attacker gains from joint temporal and cross-sequence links, and adding just enough noise to hide that information while keeping the data useful. We model multivariate streams as a Coupling Markov Chain, yielding the derived loose leakage bound expressed with a few spectral terms and revealing a counterintuitive result: stronger coupling can actually decrease worst-case leakage by dispersing perturbations across sequences. Guided by these bounds, we build the Freshness-Regulated Adaptive Noise (FRAN) mechanism--combining data aging, correlation-aware sensitivity scaling, and Laplace noise--that runs in linear time. Tests on two-sequence datasets show that CSDP improves the privacy-utility trade-off by approximately 50% over existing correlated-DP methods and by two orders of magnitude compared to the standard DP approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.17989v1">Privacy Auditing of Multi-domain Graph Pre-trained Model under Membership Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-22T09:04:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiayi Luo, Qingyun Sun, Yuecen Wei, Haonan Yuan, Xingcheng Fu, Jianxin Li</p>
+    <p><b>Summary:</b> Multi-domain graph pre-training has emerged as a pivotal technique in developing graph foundation models. While it greatly improves the generalization of graph neural networks, its privacy risks under membership inference attacks (MIAs), which aim to identify whether a specific instance was used in training (member), remain largely unexplored. However, effectively conducting MIAs against multi-domain graph pre-trained models is a significant challenge due to: (i) Enhanced Generalization Capability: Multi-domain pre-training reduces the overfitting characteristics commonly exploited by MIAs. (ii) Unrepresentative Shadow Datasets: Diverse training graphs hinder the obtaining of reliable shadow graphs. (iii) Weakened Membership Signals: Embedding-based outputs offer less informative cues than logits for MIAs. To tackle these challenges, we propose MGP-MIA, a novel framework for Membership Inference Attacks against Multi-domain Graph Pre-trained models. Specifically, we first propose a membership signal amplification mechanism that amplifies the overfitting characteristics of target models via machine unlearning. We then design an incremental shadow model construction mechanism that builds a reliable shadow model with limited shadow graphs via incremental learning. Finally, we introduce a similarity-based inference mechanism that identifies members based on their similarity to positive and negative samples. Extensive experiments demonstrate the effectiveness of our proposed MGP-MIA and reveal the privacy risks of multi-domain graph pre-training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.17747v1">AEGIS: Preserving privacy of 3D Facial Avatars with Adversarial Perturbations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-11-21T19:57:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dawid Wolkiewicz, Anastasiya Pechko, Przemysław Spurek, Piotr Syga</p>
+    <p><b>Summary:</b> The growing adoption of photorealistic 3D facial avatars, particularly those utilizing efficient 3D Gaussian Splatting representations, introduces new risks of online identity theft, especially in systems that rely on biometric authentication. While effective adversarial masking methods have been developed for 2D images, a significant gap remains in achieving robust, viewpoint-consistent identity protection for dynamic 3D avatars. To address this, we present AEGIS, the first privacy-preserving identity masking framework for 3D Gaussian Avatars that maintains the subject's perceived characteristics. Our method aims to conceal identity-related facial features while preserving the avatar's perceptual realism and functional integrity. AEGIS applies adversarial perturbations to the Gaussian color coefficients, guided by a pre-trained face verification network, ensuring consistent protection across multiple viewpoints without retraining or modifying the avatar's geometry. AEGIS achieves complete de-identification, reducing face retrieval and verification accuracy to 0%, while maintaining high perceptual quality (SSIM = 0.9555, PSNR = 35.52 dB). It also preserves key facial attributes such as age, race, gender, and emotion, demonstrating strong privacy protection with minimal visual distortion.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.16940v1">MultiPriv: Benchmarking Individual-Level Privacy Reasoning in Vision-Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-21T04:33:11Z</p>
@@ -498,7 +594,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07242v3">Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.07242v4">Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-10T15:57:17Z</p>
   <details>
@@ -1116,105 +1212,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Austin Shouli, Yulia Bobkova, Ajay Kumar Shrestha</p>
     <p><b>Summary:</b> This paper investigates how smart devices covertly capture private conversations and discusses in more in-depth the implications of this for youth privacy. Using a structured review guided by the PRISMA methodology, the analysis focuses on privacy concerns, data capture methods, data storage and sharing practices, and proposed technical mitigations. To structure and synthesize findings, we introduce the SCOUR framework, encompassing Surveillance mechanisms, Consent and awareness, Operational data flow, Usage and exploitation, and Regulatory and technical safeguards. Findings reveal that smart devices have been covertly capturing personal data, especially with smart toys and voice-activated smart gadgets built for youth. These issues are worsened by unclear data collection practices and insufficient transparency in smart device applications. Balancing privacy and utility in smart devices is crucial, as youth are becoming more aware of privacy breaches and value their personal data more. Strategies to improve regulatory and technical safeguards are also provided. The review identifies research gaps and suggests future directions. The limitations of this literature review are also explained. The findings have significant implications for policy development and the transparency of data collection for smart devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.24807v1">Learning to Attack: Uncovering Privacy Risks in Sequential Data Releases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-28T04:32:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziyao Cui, Minxing Zhang, Jian Pei</p>
-    <p><b>Summary:</b> Privacy concerns have become increasingly critical in modern AI and data science applications, where sensitive information is collected, analyzed, and shared across diverse domains such as healthcare, finance, and mobility. While prior research has focused on protecting privacy in a single data release, many real-world systems operate under sequential or continuous data publishing, where the same or related data are released over time. Such sequential disclosures introduce new vulnerabilities, as temporal correlations across releases may enable adversaries to infer sensitive information that remains hidden in any individual release. In this paper, we investigate whether an attacker can compromise privacy in sequential data releases by exploiting dependencies between consecutive publications, even when each individual release satisfies standard privacy guarantees. To this end, we propose a novel attack model that captures these sequential dependencies by integrating a Hidden Markov Model with a reinforcement learning-based bi-directional inference mechanism. This enables the attacker to leverage both earlier and later observations in the sequence to infer private information. We instantiate our framework in the context of trajectory data, demonstrating how an adversary can recover sensitive locations from sequential mobility datasets. Extensive experiments on Geolife, Porto Taxi, and SynMob datasets show that our model consistently outperforms baseline approaches that treat each release independently. The results reveal a fundamental privacy risk inherent to sequential data publishing, where individually protected releases can collectively leak sensitive information when analyzed temporally. These findings underscore the need for new privacy-preserving frameworks that explicitly model temporal dependencies, such as time-aware differential privacy or sequential data obfuscation strategies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.23931v1">Differential Privacy: Gradient Leakage Attacks in Federated Learning Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-10-27T23:33:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Miguel Fernandez-de-Retana, Unai Zulaika, Rubén Sánchez-Corcuera, Aitor Almeida</p>
-    <p><b>Summary:</b> Federated Learning (FL) allows for the training of Machine Learning models in a collaborative manner without the need to share sensitive data. However, it remains vulnerable to Gradient Leakage Attacks (GLAs), which can reveal private information from the shared model updates. In this work, we investigate the effectiveness of Differential Privacy (DP) mechanisms - specifically, DP-SGD and a variant based on explicit regularization (PDP-SGD) - as defenses against GLAs. To this end, we evaluate the performance of several computer vision models trained under varying privacy levels on a simple classification task, and then analyze the quality of private data reconstructions obtained from the intercepted gradients in a simulated FL environment. Our results demonstrate that DP-SGD significantly mitigates the risk of gradient leakage attacks, albeit with a moderate trade-off in model utility. In contrast, PDP-SGD maintains strong classification performance but proves ineffective as a practical defense against reconstruction attacks. These findings highlight the importance of empirically evaluating privacy mechanisms beyond their theoretical guarantees, particularly in distributed learning scenarios where information leakage may represent an unassumable critical threat to data security and privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.23463v2">Differential Privacy as a Perk: Federated Learning over Multiple-Access Fading Channels with a Multi-Antenna Base Station</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-10-27T16:01:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hao Liang, Haifeng Wen, Kaishun Wu, Hong Xing</p>
-    <p><b>Summary:</b> Federated Learning (FL) is a distributed learning paradigm that preserves privacy by eliminating the need to exchange raw data during training. In its prototypical edge instantiation with underlying wireless transmissions enabled by analog over-the-air computing (AirComp), referred to as \emph{over-the-air FL (AirFL)}, the inherent channel noise plays a unique role of \emph{frenemy} in the sense that it degrades training due to noisy global aggregation while providing a natural source of randomness for privacy-preserving mechanisms, formally quantified by \emph{differential privacy (DP)}. It remains, nevertheless, challenging to effectively harness such channel impairments, as prior arts, under assumptions of either simple channel models or restricted types of loss functions, mostly considering (local) DP enhancement with a single-round or non-convergent bound on privacy loss. In this paper, we study AirFL over multiple-access fading channels with a multi-antenna base station (BS) subject to user-level DP requirements. Despite a recent study, which claimed in similar settings that artificial noise (AN) must be injected to ensure DP in general, we demonstrate, on the contrary, that DP can be gained as a \emph{perk} even \emph{without} employing any AN. Specifically, we derive a novel bound on DP that converges under general bounded-domain assumptions on model parameters, along with a convergence bound with general smooth and non-convex loss functions. Next, we optimize over receive beamforming and power allocations to characterize the optimal convergence-privacy trade-offs, which also reveal explicit conditions in which DP is achievable without compromising training. Finally, our theoretical findings are validated by extensive numerical results.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.23427v1">PrivacyGuard: A Modular Framework for Privacy Auditing in Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-27T15:33:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luca Melis, Matthew Grange, Iden Kalemaj, Karan Chadha, Shengyuan Hu, Elena Kashtelyan, Will Bullock</p>
-    <p><b>Summary:</b> The increasing deployment of Machine Learning (ML) models in sensitive domains motivates the need for robust, practical privacy assessment tools. PrivacyGuard is a comprehensive tool for empirical differential privacy (DP) analysis, designed to evaluate privacy risks in ML models through state-of-the-art inference attacks and advanced privacy measurement techniques. To this end, PrivacyGuard implements a diverse suite of privacy attack -- including membership inference , extraction, and reconstruction attacks -- enabling both off-the-shelf and highly configurable privacy analyses. Its modular architecture allows for the seamless integration of new attacks, and privacy metrics, supporting rapid adaptation to emerging research advances. We make PrivacyGuard available at https://github.com/facebookresearch/PrivacyGuard.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.23274v1">Privacy-Preserving Semantic Communication over Wiretap Channels with Learnable Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-10-27T12:34:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Weixuan Chen, Qianqian Yang, Shuo Shao, Shunpu Tang, Zhiguo Shi, Shui Yu</p>
-    <p><b>Summary:</b> While semantic communication (SemCom) improves transmission efficiency by focusing on task-relevant information, it also raises critical privacy concerns. Many existing secure SemCom approaches rely on restrictive or impractical assumptions, such as favorable channel conditions for the legitimate user or prior knowledge of the eavesdropper's model. To address these limitations, this paper proposes a novel secure SemCom framework for image transmission over wiretap channels, leveraging differential privacy (DP) to provide approximate privacy guarantees. Specifically, our approach first extracts disentangled semantic representations from source images using generative adversarial network (GAN) inversion method, and then selectively perturbs private semantic representations with approximate DP noise. Distinct from conventional DP-based protection methods, we introduce DP noise with learnable pattern, instead of traditional white Gaussian or Laplace noise, achieved through adversarial training of neural networks (NNs). This design mitigates the inherent non-invertibility of DP while effectively protecting private information. Moreover, it enables explicitly controllable security levels by adjusting the privacy budget according to specific security requirements, which is not achieved in most existing secure SemCom approaches. Experimental results demonstrate that, compared with the previous DP-based method and direct transmission, the proposed method significantly degrades the reconstruction quality for the eavesdropper, while introducing only slight degradation in task performance. Under comparable security levels, our approach achieves an LPIPS advantage of 0.06-0.29 and an FPPSR advantage of 0.10-0.86 for the legitimate user compared with the previous DP-based method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.23024v1">A Multi-Store Privacy Measurement of Virtual Reality App Ecosystem</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-10-27T05:42:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chuan Yan, Zeng Li, Kunlin Cai, Liuhuo Wan, Ruomai Ren, Yiran Shen, Guangdong Bai</p>
-    <p><b>Summary:</b> Virtual Reality (VR) has gained increasing traction among various domains in recent years, with major companies such as Meta, Pico, and Microsoft launching their application stores to support third-party developers in releasing their applications (or simply apps). These apps offer rich functionality but inherently collect privacy-sensitive data, such as user biometrics, behaviors, and the surrounding environment. Nevertheless, there is still a lack of domain-specific regulations to govern the data handling of VR apps, resulting in significant variations in their privacy practices among app stores.
-  In this work, we present the first comprehensive multi-store study of privacy practices in the current VR app ecosystem, covering a large-scale dataset involving 6,565 apps collected from five major app stores. We assess both declarative and behavioral privacy practices of VR apps, using a multi-faceted approach based on natural language processing, reverse engineering, and static analysis. Our assessment reveals significant privacy compliance issues across all stores, underscoring the premature status of privacy protection in this rapidly growing ecosystem. For instance, one third of apps fail to declare their use of sensitive data, and 21.5\% of apps neglect to provide valid privacy policies. Our work sheds light on the status quo of privacy protection within the VR app ecosystem for the first time. Our findings should raise an alert to VR app developers and users, and encourage store operators to implement stringent regulations on privacy compliance among VR apps.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.22387v1">Privacy-Aware Federated nnU-Net for ECG Page Digitization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-25T18:10:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nader Nemati</p>
-    <p><b>Summary:</b> Deep neural networks can convert ECG page images into analyzable waveforms, yet centralized training often conflicts with cross-institutional privacy and deployment constraints. A cross-silo federated digitization framework is presented that trains a full-model nnU-Net segmentation backbone without sharing images and aggregates updates across sites under realistic non-IID heterogeneity (layout, grid style, scanner profile, noise).
-  The protocol integrates three standard server-side aggregators--FedAvg, FedProx, and FedAdam--and couples secure aggregation with central, user-level differential privacy to align utility with formal guarantees. Key features include: (i) end-to-end full-model training and synchronization across clients; (ii) secure aggregation so the server only observes a clipped, weighted sum once a participation threshold is met; (iii) central Gaussian DP with Renyi accounting applied post-aggregation for auditable user-level privacy; and (iv) a calibration-aware digitization pipeline comprising page normalization, trace segmentation, grid-leakage suppression, and vectorization to twelve-lead signals.
-  Experiments on ECG pages rendered from PTB-XL show consistently faster convergence and higher late-round plateaus with adaptive server updates (FedAdam) relative to FedAvg and FedProx, while approaching centralized performance. The privacy mechanism maintains competitive accuracy while preventing exposure of raw images or per-client updates, yielding deployable, auditable guarantees suitable for multi-institution settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.21946v1">$δ$-STEAL: LLM Stealing Attack with Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-24T18:19:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kieu Dang, Phung Lai, NhatHai Phan, Yelong Shen, Ruoming Jin, Abdallah Khreishah</p>
-    <p><b>Summary:</b> Large language models (LLMs) demonstrate remarkable capabilities across various tasks. However, their deployment introduces significant risks related to intellectual property. In this context, we focus on model stealing attacks, where adversaries replicate the behaviors of these models to steal services. These attacks are highly relevant to proprietary LLMs and pose serious threats to revenue and financial stability. To mitigate these risks, the watermarking solution embeds imperceptible patterns in LLM outputs, enabling model traceability and intellectual property verification. In this paper, we study the vulnerability of LLM service providers by introducing $δ$-STEAL, a novel model stealing attack that bypasses the service provider's watermark detectors while preserving the adversary's model utility. $δ$-STEAL injects noise into the token embeddings of the adversary's model during fine-tuning in a way that satisfies local differential privacy (LDP) guarantees. The adversary queries the service provider's model to collect outputs and form input-output training pairs. By applying LDP-preserving noise to these pairs, $δ$-STEAL obfuscates watermark signals, making it difficult for the service provider to determine whether its outputs were used, thereby preventing claims of model theft. Our experiments show that $δ$-STEAL with lightweight modifications achieves attack success rates of up to $96.95\%$ without significantly compromising the adversary's model utility. The noise scale in LDP controls the trade-off between attack effectiveness and model utility. This poses a significant risk, as even robust watermarks can be bypassed, allowing adversaries to deceive watermark detectors and undermine current intellectual property protection methods.</p>
   </details>
 </div>
 
