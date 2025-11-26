@@ -2978,5 +2978,307 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20637v1",
+    "title" : "Behavioural Sciences and the Regulation of Privacy on the Internet",
+    "summary" : "This chapter examines the policy implications of behavioural sciences insights for the regulation of privacy on the Internet, by focusing in particular on behavioural targeting. This marketing technique involves tracking people's online behaviour to use the collected information to show people individually targeted advertisements. Enforcing data protection law may not be enough to protect privacy in this area. I argue that, if society is better off when certain behavioural targeting practices do not happen, policymakers should consider banning them.",
+    "updated" : "2025-11-25T18:55:51Z",
+    "published" : "2025-11-25T18:55:51Z",
+    "authors" : [
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20497v1",
+    "title" : "Quantifying the Privacy Implications of High-Fidelity Synthetic Network Traffic",
+    "summary" : "To address the scarcity and privacy concerns of network traffic data, various generative models have been developed to produce synthetic traffic. However, synthetic traffic is not inherently privacy-preserving, and the extent to which it leaks sensitive information, and how to measure such leakage, remain largely unexplored. This challenge is further compounded by the diversity of model architectures, which shape how traffic is represented and synthesized. We introduce a comprehensive set of privacy metrics for synthetic network traffic, combining standard approaches like membership inference attacks (MIA) and data extraction attacks with network-specific identifiers and attributes. Using these metrics, we systematically evaluate the vulnerability of different representative generative models and examine the factors that influence attack success. Our results reveal substantial variability in privacy risks across models and datasets. MIA success ranges from 0% to 88%, and up to 100% of network identifiers can be recovered from generated traffic, highlighting serious privacy vulnerabilities. We further identify key factors that significantly affect attack outcomes, including training data diversity and how well the generative model fits the training data. These findings provide actionable guidance for designing and deploying generative models that minimize privacy leakage, establishing a foundation for safer synthetic network traffic generation.",
+    "updated" : "2025-11-25T17:04:02Z",
+    "published" : "2025-11-25T17:04:02Z",
+    "authors" : [
+      {
+        "name" : "Van Tran"
+      },
+      {
+        "name" : "Shinan Liu"
+      },
+      {
+        "name" : "Tian Li"
+      },
+      {
+        "name" : "Nick Feamster"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20252v1",
+    "title" : "Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy",
+    "summary" : "WhatsApp, with 3.5 billion active accounts as of early 2025, is the world's largest instant messaging platform. Given its massive user base, WhatsApp plays a critical role in global communication.\n  To initiate conversations, users must first discover whether their contacts are registered on the platform. This is achieved by querying WhatsApp's servers with mobile phone numbers extracted from the user's address book (if they allowed access). This architecture inherently enables phone number enumeration, as the service must allow legitimate users to query contact availability. While rate limiting is a standard defense against abuse, we revisit the problem and show that WhatsApp remains highly vulnerable to enumeration at scale. In our study, we were able to probe over a hundred million phone numbers per hour without encountering blocking or effective rate limiting.\n  Our findings demonstrate not only the persistence but the severity of this vulnerability. We further show that nearly half of the phone numbers disclosed in the 2021 Facebook data leak are still active on WhatsApp, underlining the enduring risks associated with such exposures. Moreover, we were able to perform a census of WhatsApp users, providing a glimpse on the macroscopic insights a large messaging service is able to generate even though the messages themselves are end-to-end encrypted. Using the gathered data, we also discovered the re-use of certain X25519 keys across different devices and phone numbers, indicating either insecure (custom) implementations, or fraudulent activity.\n  In this updated version of the paper, we also provide insights into the collaborative remediation process through which we confirmed that the underlying rate-limiting issue had been resolved.",
+    "updated" : "2025-11-25T12:27:05Z",
+    "published" : "2025-11-25T12:27:05Z",
+    "authors" : [
+      {
+        "name" : "Gabriel K. Gegenhuber"
+      },
+      {
+        "name" : "Philipp É. Frenzel"
+      },
+      {
+        "name" : "Maximilian Günther"
+      },
+      {
+        "name" : "Johanna Ullrich"
+      },
+      {
+        "name" : "Aljosha Judmayer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20125v1",
+    "title" : "N2E: A General Framework to Reduce Node-Differential Privacy to Edge-Differential Privacy for Graph Analytics",
+    "summary" : "Differential privacy (DP) has been widely adopted to protect sensitive information in graph analytics. While edge-DP, which protects privacy at the edge level, has been extensively studied, node-DP, offering stronger protection for entire nodes and their incident edges, remains largely underexplored due to its technical challenges. A natural way to bridge this gap is to develop a general framework for reducing node-DP graph analytical tasks to edge-DP ones, enabling the reuse of existing edge-DP mechanisms. A straightforward solution based on group privacy divides the privacy budget by a given degree upper bound, but this leads to poor utility when the bound is set conservatively large to accommodate worst-case inputs. To address this, we propose node-to-edge (N2E), a general framework that reduces any node-DP graph analytical task to an edge-DP one, with the error dependency on the graph's true maximum degree. N2E introduces two novel techniques: a distance-preserving clipping mechanism that bounds edge distance between neighboring graphs after clipping, and the first node-DP mechanism for maximum degree approximation, enabling tight, privacy-preserving clipping thresholds. By instantiating N2E with existing edge-DP mechanisms, we obtain the first node-DP solutions for tasks such as maximum degree estimation. For edge counting, our method theoretically matches the error of the state-of-the-art, which is provably optimal, and significantly outperforms existing approaches for degree distribution estimation. Experimental results demonstrate that our framework achieves up to a 2.5x reduction in error for edge counting and up to an 80x reduction for degree distribution estimation.",
+    "updated" : "2025-11-25T09:46:38Z",
+    "published" : "2025-11-25T09:46:38Z",
+    "authors" : [
+      {
+        "name" : "Yihua Hu"
+      },
+      {
+        "name" : "Hao Ding"
+      },
+      {
+        "name" : "Wei Dong"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.19958v1",
+    "title" : "GFT-GCN: Privacy-Preserving 3D Face Mesh Recognition with Spectral Diffusion",
+    "summary" : "3D face recognition offers a robust biometric solution by capturing facial geometry, providing resilience to variations in illumination, pose changes, and presentation attacks. Its strong spoof resistance makes it suitable for high-security applications, but protecting stored biometric templates remains critical. We present GFT-GCN, a privacy-preserving 3D face recognition framework that combines spectral graph learning with diffusion-based template protection. Our approach integrates the Graph Fourier Transform (GFT) and Graph Convolutional Networks (GCN) to extract compact, discriminative spectral features from 3D face meshes. To secure these features, we introduce a spectral diffusion mechanism that produces irreversible, renewable, and unlinkable templates. A lightweight client-server architecture ensures that raw biometric data never leaves the client device. Experiments on the BU-3DFE and FaceScape datasets demonstrate high recognition accuracy and strong resistance to reconstruction attacks. Results show that GFT-GCN effectively balances privacy and performance, offering a practical solution for secure 3D face authentication.",
+    "updated" : "2025-11-25T06:07:26Z",
+    "published" : "2025-11-25T06:07:26Z",
+    "authors" : [
+      {
+        "name" : "Hichem Felouat"
+      },
+      {
+        "name" : "Hanrui Wang"
+      },
+      {
+        "name" : "Isao Echizen"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.19750v1",
+    "title" : "DISCO: A Browser-Based Privacy-Preserving Framework for Distributed Collaborative Learning",
+    "summary" : "Data is often impractical to share for a range of well considered reasons, such as concerns over privacy, intellectual property, and legal constraints. This not only fragments the statistical power of predictive models, but creates an accessibility bias, where accuracy becomes inequitably distributed to those who have the resources to overcome these concerns. We present DISCO: an open-source DIStributed COllaborative learning platform accessible to non-technical users, offering a means to collaboratively build machine learning models without sharing any original data or requiring any programming knowledge. DISCO's web application trains models locally directly in the browser, making our tool cross-platform out-of-the-box, including smartphones. The modular design of \\disco offers choices between federated and decentralized paradigms, various levels of privacy guarantees and several approaches to weight aggregation strategies that allow for model personalization and bias resilience in the collaborative training. Code repository is available at https://github.com/epfml/disco and a showcase web interface at https://discolab.ai",
+    "updated" : "2025-11-24T22:16:07Z",
+    "published" : "2025-11-24T22:16:07Z",
+    "authors" : [
+      {
+        "name" : "Julien T. T. Vignoud"
+      },
+      {
+        "name" : "Valérian Rousset"
+      },
+      {
+        "name" : "Hugo El Guedj"
+      },
+      {
+        "name" : "Ignacio Aleman"
+      },
+      {
+        "name" : "Walid Bennaceur"
+      },
+      {
+        "name" : "Batuhan Faik Derinbay"
+      },
+      {
+        "name" : "Eduard Ďurech"
+      },
+      {
+        "name" : "Damien Gengler"
+      },
+      {
+        "name" : "Lucas Giordano"
+      },
+      {
+        "name" : "Felix Grimberg"
+      },
+      {
+        "name" : "Franziska Lippoldt"
+      },
+      {
+        "name" : "Christina Kopidaki"
+      },
+      {
+        "name" : "Jiafan Liu"
+      },
+      {
+        "name" : "Lauris Lopata"
+      },
+      {
+        "name" : "Nathan Maire"
+      },
+      {
+        "name" : "Paul Mansat"
+      },
+      {
+        "name" : "Martin Milenkoski"
+      },
+      {
+        "name" : "Emmanuel Omont"
+      },
+      {
+        "name" : "Güneş Özgün"
+      },
+      {
+        "name" : "Mina Petrović"
+      },
+      {
+        "name" : "Francesco Posa"
+      },
+      {
+        "name" : "Morgan Ridel"
+      },
+      {
+        "name" : "Giorgio Savini"
+      },
+      {
+        "name" : "Marcel Torne"
+      },
+      {
+        "name" : "Lucas Trognon"
+      },
+      {
+        "name" : "Alyssa Unell"
+      },
+      {
+        "name" : "Olena Zavertiaieva"
+      },
+      {
+        "name" : "Sai Praneeth Karimireddy"
+      },
+      {
+        "name" : "Tahseen Rabbani"
+      },
+      {
+        "name" : "Mary-Anne Hartley"
+      },
+      {
+        "name" : "Martin Jaggi"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.18583v2",
+    "title" : "Differential privacy with dependent data",
+    "summary" : "Dependent data underlies many statistical studies in the social and health sciences, which often involve sensitive or private information. Differential privacy (DP) and in particular \\textit{user-level} DP provide a natural formalization of privacy requirements for processing dependent data where each individual provides multiple observations to the dataset. However, dependence introduced, e.g., through repeated measurements challenges the existing statistical theory under DP-constraints. In \\iid{} settings, noisy Winsorized mean estimators have been shown to be minimax optimal for standard (\\textit{item-level}) and \\textit{user-level} DP estimation of a mean $μ\\in \\R^d$. Yet, their behavior on potentially dependent observations has not previously been studied. We fill this gap and show that Winsorized mean estimators can also be used under dependence for bounded and unbounded data, and can lead to asymptotic and finite sample guarantees that resemble their \\iid{} counterparts under a weak notion of dependence. For this, we formalize dependence via log-Sobolev inequalities on the joint distribution of observations. This enables us to adapt the stable histogram by Karwa and Vadhan (2018) to a non-\\iid{} setting, which we then use to estimate the private projection intervals of the Winsorized estimator. The resulting guarantees for our item-level mean estimator extend to \\textit{user-level} mean estimation and transfer to the local model via a randomized response histogram. Using the mean estimators as building blocks, we provide extensions to random effects models, longitudinal linear regression and nonparametric regression. Therefore, our work constitutes a first step towards a systematic study of DP for dependent data.",
+    "updated" : "2025-11-25T03:41:49Z",
+    "published" : "2025-11-23T18:56:40Z",
+    "authors" : [
+      {
+        "name" : "Valentin Roth"
+      },
+      {
+        "name" : "Marco Avella-Medina"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.19498v1",
+    "title" : "Hierarchical Dual-Strategy Unlearning for Biomedical and Healthcare Intelligence Using Imperfect and Privacy-Sensitive Medical Data",
+    "summary" : "Large language models (LLMs) exhibit exceptional performance but pose substantial privacy risks due to training data memorization, particularly within healthcare contexts involving imperfect or privacy-sensitive patient information. We present a hierarchical dual-strategy framework for selective knowledge unlearning that precisely removes specialized knowledge while preserving fundamental medical competencies. Our approach synergistically integrates geometric-constrained gradient updates to selectively modulate target parameters with concept-aware token-level interventions that distinguish between preservation-critical and unlearning-targeted tokens via a unified four-level medical concept hierarchy. Comprehensive evaluations on the MedMCQA (surgical) and MHQA (anxiety, depression, trauma) datasets demonstrate superior performance, achieving an 82.7% forgetting rate and 88.5% knowledge preservation. Notably, our framework maintains robust privacy guarantees while requiring modification of only 0.1% of parameters, addressing critical needs for regulatory compliance, auditability, and ethical standards in clinical research.",
+    "updated" : "2025-11-23T15:28:19Z",
+    "published" : "2025-11-23T15:28:19Z",
+    "authors" : [
+      {
+        "name" : "Yi Zhang"
+      },
+      {
+        "name" : "Tianxiang Xu"
+      },
+      {
+        "name" : "Zijian Li"
+      },
+      {
+        "name" : "Chao Zhang"
+      },
+      {
+        "name" : "Kunyu Zhang"
+      },
+      {
+        "name" : "Zhan Gao"
+      },
+      {
+        "name" : "Meinuo Li"
+      },
+      {
+        "name" : "Xiaohan Zhang"
+      },
+      {
+        "name" : "Qichao Qi"
+      },
+      {
+        "name" : "Bing Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.11811v2",
+    "title" : "Lessons Learned from Developing a Privacy-Preserving Multimodal Wearable for Local Voice-and-Vision Inference",
+    "summary" : "Many promising applications of multimodal wearables require continuous sensing and heavy computation, yet users reject such devices due to privacy concerns. This paper shares our experiences building an ear-mounted voice-and-vision wearable that performs local AI inference using a paired smartphone as a trusted personal edge. We describe the hardware-software co-design of this privacy-preserving system, including challenges in integrating a camera, microphone, and speaker within a 30-gram form factor, enabling wake word-triggered capture, and running quantized vision-language and large-language models entirely offline. Through iterative prototyping, we identify key design hurdles in power budgeting, connectivity, latency, and social acceptability. Our initial evaluation shows that fully local multimodal inference is feasible on commodity mobile hardware with interactive latency. We conclude with design lessons for researchers developing embedded AI systems that balance privacy, responsiveness, and usability in everyday settings.",
+    "updated" : "2025-11-24T21:49:38Z",
+    "published" : "2025-11-14T19:04:52Z",
+    "authors" : [
+      {
+        "name" : "Yonatan Tussa"
+      },
+      {
+        "name" : "Andy Heredia"
+      },
+      {
+        "name" : "Nirupam Roy"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "eess.AS",
+      "eess.IV",
+      "eess.SY"
+    ]
   }
 ]
