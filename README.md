@@ -2,6 +2,81 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20637v1">Behavioural Sciences and the Regulation of Privacy on the Internet</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-11-25T18:55:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Frederik Zuiderveen Borgesius</p>
+    <p><b>Summary:</b> This chapter examines the policy implications of behavioural sciences insights for the regulation of privacy on the Internet, by focusing in particular on behavioural targeting. This marketing technique involves tracking people's online behaviour to use the collected information to show people individually targeted advertisements. Enforcing data protection law may not be enough to protect privacy in this area. I argue that, if society is better off when certain behavioural targeting practices do not happen, policymakers should consider banning them.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20497v1">Quantifying the Privacy Implications of High-Fidelity Synthetic Network Traffic</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-11-25T17:04:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Van Tran, Shinan Liu, Tian Li, Nick Feamster</p>
+    <p><b>Summary:</b> To address the scarcity and privacy concerns of network traffic data, various generative models have been developed to produce synthetic traffic. However, synthetic traffic is not inherently privacy-preserving, and the extent to which it leaks sensitive information, and how to measure such leakage, remain largely unexplored. This challenge is further compounded by the diversity of model architectures, which shape how traffic is represented and synthesized. We introduce a comprehensive set of privacy metrics for synthetic network traffic, combining standard approaches like membership inference attacks (MIA) and data extraction attacks with network-specific identifiers and attributes. Using these metrics, we systematically evaluate the vulnerability of different representative generative models and examine the factors that influence attack success. Our results reveal substantial variability in privacy risks across models and datasets. MIA success ranges from 0% to 88%, and up to 100% of network identifiers can be recovered from generated traffic, highlighting serious privacy vulnerabilities. We further identify key factors that significantly affect attack outcomes, including training data diversity and how well the generative model fits the training data. These findings provide actionable guidance for designing and deploying generative models that minimize privacy leakage, establishing a foundation for safer synthetic network traffic generation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20252v1">Hey there! You are using WhatsApp: Enumerating Three Billion Accounts for Security and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-11-25T12:27:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel K. Gegenhuber, Philipp É. Frenzel, Maximilian Günther, Johanna Ullrich, Aljosha Judmayer</p>
+    <p><b>Summary:</b> WhatsApp, with 3.5 billion active accounts as of early 2025, is the world's largest instant messaging platform. Given its massive user base, WhatsApp plays a critical role in global communication.
+  To initiate conversations, users must first discover whether their contacts are registered on the platform. This is achieved by querying WhatsApp's servers with mobile phone numbers extracted from the user's address book (if they allowed access). This architecture inherently enables phone number enumeration, as the service must allow legitimate users to query contact availability. While rate limiting is a standard defense against abuse, we revisit the problem and show that WhatsApp remains highly vulnerable to enumeration at scale. In our study, we were able to probe over a hundred million phone numbers per hour without encountering blocking or effective rate limiting.
+  Our findings demonstrate not only the persistence but the severity of this vulnerability. We further show that nearly half of the phone numbers disclosed in the 2021 Facebook data leak are still active on WhatsApp, underlining the enduring risks associated with such exposures. Moreover, we were able to perform a census of WhatsApp users, providing a glimpse on the macroscopic insights a large messaging service is able to generate even though the messages themselves are end-to-end encrypted. Using the gathered data, we also discovered the re-use of certain X25519 keys across different devices and phone numbers, indicating either insecure (custom) implementations, or fraudulent activity.
+  In this updated version of the paper, we also provide insights into the collaborative remediation process through which we confirmed that the underlying rate-limiting issue had been resolved.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20125v1">N2E: A General Framework to Reduce Node-Differential Privacy to Edge-Differential Privacy for Graph Analytics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-11-25T09:46:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yihua Hu, Hao Ding, Wei Dong</p>
+    <p><b>Summary:</b> Differential privacy (DP) has been widely adopted to protect sensitive information in graph analytics. While edge-DP, which protects privacy at the edge level, has been extensively studied, node-DP, offering stronger protection for entire nodes and their incident edges, remains largely underexplored due to its technical challenges. A natural way to bridge this gap is to develop a general framework for reducing node-DP graph analytical tasks to edge-DP ones, enabling the reuse of existing edge-DP mechanisms. A straightforward solution based on group privacy divides the privacy budget by a given degree upper bound, but this leads to poor utility when the bound is set conservatively large to accommodate worst-case inputs. To address this, we propose node-to-edge (N2E), a general framework that reduces any node-DP graph analytical task to an edge-DP one, with the error dependency on the graph's true maximum degree. N2E introduces two novel techniques: a distance-preserving clipping mechanism that bounds edge distance between neighboring graphs after clipping, and the first node-DP mechanism for maximum degree approximation, enabling tight, privacy-preserving clipping thresholds. By instantiating N2E with existing edge-DP mechanisms, we obtain the first node-DP solutions for tasks such as maximum degree estimation. For edge counting, our method theoretically matches the error of the state-of-the-art, which is provably optimal, and significantly outperforms existing approaches for degree distribution estimation. Experimental results demonstrate that our framework achieves up to a 2.5x reduction in error for edge counting and up to an 80x reduction for degree distribution estimation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.19958v1">GFT-GCN: Privacy-Preserving 3D Face Mesh Recognition with Spectral Diffusion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-11-25T06:07:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hichem Felouat, Hanrui Wang, Isao Echizen</p>
+    <p><b>Summary:</b> 3D face recognition offers a robust biometric solution by capturing facial geometry, providing resilience to variations in illumination, pose changes, and presentation attacks. Its strong spoof resistance makes it suitable for high-security applications, but protecting stored biometric templates remains critical. We present GFT-GCN, a privacy-preserving 3D face recognition framework that combines spectral graph learning with diffusion-based template protection. Our approach integrates the Graph Fourier Transform (GFT) and Graph Convolutional Networks (GCN) to extract compact, discriminative spectral features from 3D face meshes. To secure these features, we introduce a spectral diffusion mechanism that produces irreversible, renewable, and unlinkable templates. A lightweight client-server architecture ensures that raw biometric data never leaves the client device. Experiments on the BU-3DFE and FaceScape datasets demonstrate high recognition accuracy and strong resistance to reconstruction attacks. Results show that GFT-GCN effectively balances privacy and performance, offering a practical solution for secure 3D face authentication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.19750v1">DISCO: A Browser-Based Privacy-Preserving Framework for Distributed Collaborative Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-11-24T22:16:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Julien T. T. Vignoud, Valérian Rousset, Hugo El Guedj, Ignacio Aleman, Walid Bennaceur, Batuhan Faik Derinbay, Eduard Ďurech, Damien Gengler, Lucas Giordano, Felix Grimberg, Franziska Lippoldt, Christina Kopidaki, Jiafan Liu, Lauris Lopata, Nathan Maire, Paul Mansat, Martin Milenkoski, Emmanuel Omont, Güneş Özgün, Mina Petrović, Francesco Posa, Morgan Ridel, Giorgio Savini, Marcel Torne, Lucas Trognon, Alyssa Unell, Olena Zavertiaieva, Sai Praneeth Karimireddy, Tahseen Rabbani, Mary-Anne Hartley, Martin Jaggi</p>
+    <p><b>Summary:</b> Data is often impractical to share for a range of well considered reasons, such as concerns over privacy, intellectual property, and legal constraints. This not only fragments the statistical power of predictive models, but creates an accessibility bias, where accuracy becomes inequitably distributed to those who have the resources to overcome these concerns. We present DISCO: an open-source DIStributed COllaborative learning platform accessible to non-technical users, offering a means to collaboratively build machine learning models without sharing any original data or requiring any programming knowledge. DISCO's web application trains models locally directly in the browser, making our tool cross-platform out-of-the-box, including smartphones. The modular design of \disco offers choices between federated and decentralized paradigms, various levels of privacy guarantees and several approaches to weight aggregation strategies that allow for model personalization and bias resilience in the collaborative training. Code repository is available at https://github.com/epfml/disco and a showcase web interface at https://discolab.ai</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.19015v1">A General Framework for Per-record Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-24T11:44:10Z</p>
@@ -38,13 +113,25 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.18583v1">Differential privacy with dependent data</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.18583v2">Differential privacy with dependent data</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
   <p><b>Published on:</b> 2025-11-23T18:56:40Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Valentin Roth, Marco Avella-Medina</p>
     <p><b>Summary:</b> Dependent data underlies many statistical studies in the social and health sciences, which often involve sensitive or private information. Differential privacy (DP) and in particular \textit{user-level} DP provide a natural formalization of privacy requirements for processing dependent data where each individual provides multiple observations to the dataset. However, dependence introduced, e.g., through repeated measurements challenges the existing statistical theory under DP-constraints. In \iid{} settings, noisy Winsorized mean estimators have been shown to be minimax optimal for standard (\textit{item-level}) and \textit{user-level} DP estimation of a mean $μ\in \R^d$. Yet, their behavior on potentially dependent observations has not previously been studied. We fill this gap and show that Winsorized mean estimators can also be used under dependence for bounded and unbounded data, and can lead to asymptotic and finite sample guarantees that resemble their \iid{} counterparts under a weak notion of dependence. For this, we formalize dependence via log-Sobolev inequalities on the joint distribution of observations. This enables us to adapt the stable histogram by Karwa and Vadhan (2018) to a non-\iid{} setting, which we then use to estimate the private projection intervals of the Winsorized estimator. The resulting guarantees for our item-level mean estimator extend to \textit{user-level} mean estimation and transfer to the local model via a randomized response histogram. Using the mean estimators as building blocks, we provide extensions to random effects models, longitudinal linear regression and nonparametric regression. Therefore, our work constitutes a first step towards a systematic study of DP for dependent data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.19498v1">Hierarchical Dual-Strategy Unlearning for Biomedical and Healthcare Intelligence Using Imperfect and Privacy-Sensitive Medical Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-23T15:28:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yi Zhang, Tianxiang Xu, Zijian Li, Chao Zhang, Kunyu Zhang, Zhan Gao, Meinuo Li, Xiaohan Zhang, Qichao Qi, Bing Chen</p>
+    <p><b>Summary:</b> Large language models (LLMs) exhibit exceptional performance but pose substantial privacy risks due to training data memorization, particularly within healthcare contexts involving imperfect or privacy-sensitive patient information. We present a hierarchical dual-strategy framework for selective knowledge unlearning that precisely removes specialized knowledge while preserving fundamental medical competencies. Our approach synergistically integrates geometric-constrained gradient updates to selectively modulate target parameters with concept-aware token-level interventions that distinguish between preservation-critical and unlearning-targeted tokens via a unified four-level medical concept hierarchy. Comprehensive evaluations on the MedMCQA (surgical) and MHQA (anxiety, depression, trauma) datasets demonstrate superior performance, achieving an 82.7% forgetting rate and 88.5% knowledge preservation. Notably, our framework maintains robust privacy guarantees while requiring modification of only 0.1% of parameters, addressing critical needs for regulatory compliance, auditability, and ethical standards in clinical research.</p>
   </details>
 </div>
 
@@ -317,13 +404,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.11811v1">Lessons Learned from Developing a Privacy-Preserving Multimodal Wearable for Local Voice-and-Vision Inference</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.11811v2">Lessons Learned from Developing a Privacy-Preserving Multimodal Wearable for Local Voice-and-Vision Inference</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">   
   <p><b>Published on:</b> 2025-11-14T19:04:52Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Yonatan Tussa, Andy Heredia, Nirupam Roy</p>
-    <p><b>Summary:</b> Many promising applications of multimodal wearables require continuous sensing and heavy computation, yet users reject such devices due to privacy concerns. This paper shares our experiences building an ear-mounted voice-and-vision wearable that performs local AI inference using a paired smartphone as a trusted personal edge. We describe the hardware--software co-design of this privacy-preserving system, including challenges in integrating a camera, microphone, and speaker within a 30-gram form factor, enabling wake word-triggered capture, and running quantized vision-language and large-language models entirely offline. Through iterative prototyping, we identify key design hurdles in power budgeting, connectivity, latency, and social acceptability. Our initial evaluation shows that fully local multimodal inference is feasible on commodity mobile hardware with interactive latency. We conclude with design lessons for researchers developing embedded AI systems that balance privacy, responsiveness, and usability in everyday settings.</p>
+    <p><b>Summary:</b> Many promising applications of multimodal wearables require continuous sensing and heavy computation, yet users reject such devices due to privacy concerns. This paper shares our experiences building an ear-mounted voice-and-vision wearable that performs local AI inference using a paired smartphone as a trusted personal edge. We describe the hardware-software co-design of this privacy-preserving system, including challenges in integrating a camera, microphone, and speaker within a 30-gram form factor, enabling wake word-triggered capture, and running quantized vision-language and large-language models entirely offline. Through iterative prototyping, we identify key design hurdles in power budgeting, connectivity, latency, and social acceptability. Our initial evaluation shows that fully local multimodal inference is feasible on commodity mobile hardware with interactive latency. We conclude with design lessons for researchers developing embedded AI systems that balance privacy, responsiveness, and usability in everyday settings.</p>
   </details>
 </div>
 
@@ -1127,91 +1214,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Lisha Shuai, Jiuling Dong, Nan Zhang, Shaofeng Tan, Haokun Zhang, Zilong Song, Gaoya Dong, Xiaolong Yang</p>
     <p><b>Summary:</b> Local Differential Privacy (LDP) is a widely adopted privacy-protection model in the Internet of Things (IoT) due to its lightweight, decentralized, and scalable nature. However, it is vulnerable to poisoning attacks, and existing defenses either incur prohibitive resource overheads or rely on domain-specific prior knowledge, limiting their practical deployment. To address these limitations, we propose PEEL, a Poisoning-Exposing Encoding theoretical framework for LDP, which departs from resource- or prior-dependent countermeasures and instead leverages the inherent structural consistency of LDP-perturbed data. As a non-intrusive post-processing module, PEEL amplifies stealthy poisoning effects by re-encoding LDP-perturbed data via sparsification, normalization, and low-rank projection, thereby revealing both output and rule poisoning attacks through structural inconsistencies in the reconstructed space. Theoretical analysis proves that PEEL, integrated with LDP, retains unbiasedness and statistical accuracy, while being robust to expose both output and rule poisoning attacks. Moreover, evaluation results show that LDP-integrated PEEL not only outperforms four state-of-the-art defenses in terms of poisoning exposure accuracy but also significantly reduces client-side computational costs, making it highly suitable for large-scale IoT deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.25932v2">FakeZero: Real-Time, Privacy-Preserving Misinformation Detection for Facebook and X</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-10-29T20:11:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Soufiane Essahli, Oussama Sarsar, Ahmed Bentajer, Anas Motii, Imane Fouad</p>
-    <p><b>Summary:</b> Social platforms distribute information at unprecedented speed, which in turn accelerates the spread of misinformation and threatens public discourse. We present FakeZero, a fully client-side, cross-platform browser extension that flags unreliable posts on Facebook and X (formerly Twitter) while the user scrolls. All computation, DOM scraping, tokenization, Transformer inference, and UI rendering run locally through the Chromium messaging API, so no personal data leaves the device. FakeZero employs a three-stage training curriculum: baseline fine-tuning and domain-adaptive training enhanced with focal loss, adversarial augmentation, and post-training quantization. Evaluated on a dataset of 239,000 posts, the DistilBERT-Quant model (67.6 MB) reaches 97.1% macro-F1, 97.4% accuracy, and an AUROC of 0.996, with a median latency of approximately 103 ms on a commodity laptop. A memory-efficient TinyBERT-Quant variant retains 95.7% macro-F1 and 96.1% accuracy while shrinking the model to 14.7 MB and lowering latency to approximately 40 ms, showing that high-quality fake-news detection is feasible under tight resource budgets with only modest performance loss. By providing inline credibility cues, the extension can serve as a valuable tool for policymakers seeking to curb the spread of misinformation across social networks. With user consent, FakeZero also opens the door for researchers to collect large-scale datasets of fake news in the wild, enabling deeper analysis and the development of more robust detection techniques.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.25670v1">Spectral Perturbation Bounds for Low-Rank Approximation with Applications to Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Spectral Theory-D91E36">
-  <p><b>Published on:</b> 2025-10-29T16:36:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Phuc Tran, Nisheeth K. Vishnoi, Van H. Vu</p>
-    <p><b>Summary:</b> A central challenge in machine learning is to understand how noise or measurement errors affect low-rank approximations, particularly in the spectral norm. This question is especially important in differentially private low-rank approximation, where one aims to preserve the top-$p$ structure of a data-derived matrix while ensuring privacy. Prior work often analyzes Frobenius norm error or changes in reconstruction quality, but these metrics can over- or under-estimate true subspace distortion. The spectral norm, by contrast, captures worst-case directional error and provides the strongest utility guarantees. We establish new high-probability spectral-norm perturbation bounds for symmetric matrices that refine the classical Eckart--Young--Mirsky theorem and explicitly capture interactions between a matrix $A \in \mathbb{R}^{n \times n}$ and an arbitrary symmetric perturbation $E$. Under mild eigengap and norm conditions, our bounds yield sharp estimates for $\|(A + E)_p - A_p\|$, where $A_p$ is the best rank-$p$ approximation of $A$, with improvements of up to a factor of $\sqrt{n}$. As an application, we derive improved utility guarantees for differentially private PCA, resolving an open problem in the literature. Our analysis relies on a novel contour bootstrapping method from complex analysis and extends it to a broad class of spectral functionals, including polynomials and matrix exponentials. Empirical results on real-world datasets confirm that our bounds closely track the actual spectral error under diverse perturbation regimes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.25477v1">A Study on Privacy-Preserving Scholarship Evaluation Based on Decentralized Identity and Zero-Knowledge Proofs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-29T12:56:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yi Chen, Bin Chen, Peichang Zhang, Da Che</p>
-    <p><b>Summary:</b> Traditional centralized scholarship evaluation processes typically require students to submit detailed academic records and qualification information, which exposes them to risks of data leakage and misuse, making it difficult to simultaneously ensure privacy protection and transparent auditability. To address these challenges, this paper proposes a scholarship evaluation system based on Decentralized Identity (DID) and Zero-Knowledge Proofs (ZKP). The system aggregates multidimensional ZKPs off-chain, and smart contracts verify compliance with evaluation criteria without revealing raw scores or computational details. Experimental results demonstrate that the proposed solution not only automates the evaluation efficiently but also maximally preserves student privacy and data integrity, offering a practical and trustworthy technical paradigm for higher education scholarship programs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.25277v1">A Privacy-Preserving Ecosystem for Developing Machine Learning Algorithms Using Patient Data: Insights from the TUM.ai Makeathon</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-10-29T08:37:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Simon Süwer, Mai Khanh Mai, Christoph Klein, Nicola Götzenberger, Denis Dalić, Andreas Maier, Jan Baumbach</p>
-    <p><b>Summary:</b> The integration of clinical data offers significant potential for the development of personalized medicine. However, its use is severely restricted by the General Data Protection Regulation (GDPR), especially for small cohorts with rare diseases. High-quality, structured data is essential for the development of predictive medical AI. In this case study, we propose a novel, multi-stage approach to secure AI training: (1) The model is designed on a simulated clinical knowledge graph (cKG). This graph is used exclusively to represent the structural characteristics of the real cKG without revealing any sensitive content. (2) The model is then integrated into the FeatureCloud (FC) federated learning framework, where it is prepared in a single-client configuration within a protected execution environment. (3) Training then takes place within the hospital environment on the real cKG, either under the direct supervision of hospital staff or via a fully automated pipeline controlled by the hospital. (4) Finally, verified evaluation scripts are executed, which only return aggregated performance metrics. This enables immediate performance feedback without sensitive patient data or individual predictions, leaving the clinic. A fundamental element of this approach involves the incorporation of a cKG, which serves to organize multi-omics and patient data within the context of real-world hospital environments. This approach was successfully validated during the TUM.ai Makeathon 2024 (TUMaiM24) challenge set by the Dr. von Hauner Children's Hospital (HCH-LMU): 50 students developed models for patient classification and diagnosis without access to real data. Deploying secure algorithms via federated frameworks, such as the FC framework, could be a practical way of achieving privacy-preserving AI in healthcare.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.24498v1">Design and Optimization of Cloud Native Homomorphic Encryption Workflows for Privacy-Preserving ML Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-10-28T15:13:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tejaswini Bollikonda</p>
-    <p><b>Summary:</b> As machine learning (ML) models become increasingly deployed through cloud infrastructures, the confidentiality of user data during inference poses a significant security challenge. Homomorphic Encryption (HE) has emerged as a compelling cryptographic technique that enables computation on encrypted data, allowing predictions to be generated without decrypting sensitive inputs. However, the integration of HE within large scale cloud native pipelines remains constrained by high computational overhead, orchestration complexity, and model compatibility issues.
-  This paper presents a systematic framework for the design and optimization of cloud native homomorphic encryption workflows that support privacy-preserving ML inference. The proposed architecture integrates containerized HE modules with Kubernetes-based orchestration, enabling elastic scaling and parallel encrypted computation across distributed environments. Furthermore, optimization strategies including ciphertext packing, polynomial modulus adjustment, and operator fusion are employed to minimize latency and resource consumption while preserving cryptographic integrity. Experimental results demonstrate that the proposed system achieves up to 3.2times inference acceleration and 40% reduction in memory utilization compared to conventional HE pipelines. These findings illustrate a practical pathway for deploying secure ML-as-a-Service (MLaaS) systems that guarantee data confidentiality under zero-trust cloud conditions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.24233v1">PRIVET: Privacy Metric Based on Extreme Value Theory</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-28T09:42:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antoine Szatkownik, Aurélien Decelle, Beatriz Seoane, Nicolas Bereux, Léo Planche, Guillaume Charpiat, Burak Yelmen, Flora Jay, Cyril Furtlehner</p>
-    <p><b>Summary:</b> Deep generative models are often trained on sensitive data, such as genetic sequences, health data, or more broadly, any copyrighted, licensed or protected content. This raises critical concerns around privacy-preserving synthetic data, and more specifically around privacy leakage, an issue closely tied to overfitting. Existing methods almost exclusively rely on global criteria to estimate the risk of privacy failure associated to a model, offering only quantitative non interpretable insights. The absence of rigorous evaluation methods for data privacy at the sample-level may hinder the practical deployment of synthetic data in real-world applications. Using extreme value statistics on nearest-neighbor distances, we propose PRIVET, a generic sample-based, modality-agnostic algorithm that assigns an individual privacy leak score to each synthetic sample. We empirically demonstrate that PRIVET reliably detects instances of memorization and privacy leakage across diverse data modalities, including settings with very high dimensionality, limited sample sizes such as genetic data and even under underfitting regimes. We compare our method to existing approaches under controlled settings and show its advantage in providing both dataset level and sample level assessments through qualitative and quantitative outputs. Additionally, our analysis reveals limitations in existing computer vision embeddings to yield perceptually meaningful distances when identifying near-duplicate samples.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.24072v1">Covert Surveillance in Smart Devices: A SCOUR Framework Analysis of Youth Privacy Implications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-10-28T05:10:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Austin Shouli, Yulia Bobkova, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> This paper investigates how smart devices covertly capture private conversations and discusses in more in-depth the implications of this for youth privacy. Using a structured review guided by the PRISMA methodology, the analysis focuses on privacy concerns, data capture methods, data storage and sharing practices, and proposed technical mitigations. To structure and synthesize findings, we introduce the SCOUR framework, encompassing Surveillance mechanisms, Consent and awareness, Operational data flow, Usage and exploitation, and Regulatory and technical safeguards. Findings reveal that smart devices have been covertly capturing personal data, especially with smart toys and voice-activated smart gadgets built for youth. These issues are worsened by unclear data collection practices and insufficient transparency in smart device applications. Balancing privacy and utility in smart devices is crucial, as youth are becoming more aware of privacy breaches and value their personal data more. Strategies to improve regulatory and technical safeguards are also provided. The review identifies research gaps and suggests future directions. The limitations of this literature review are also explained. The findings have significant implications for policy development and the transparency of data collection for smart devices.</p>
   </details>
 </div>
 
