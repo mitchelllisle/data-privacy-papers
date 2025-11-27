@@ -2,6 +2,66 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.21196v1">Privacy-Constrained Signals</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2025-11-26T09:21:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhang Xu, Wei Zhao</p>
+    <p><b>Summary:</b> This paper provides a unified approach to characterize the set of all feasible signals subject to privacy constraints. The Blackwell frontier of feasible signals can be decomposed into minimum informative signals achieving the Blackwell frontier of privacy variables, and conditionally privacy-preserving signals. A complete characterization of the minimum informative signals is then provided. We apply the framework to ex-post privacy (including differential and inferential privacy) and to constraints on posterior means of arbitrary statistics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.21181v1">Privacy in Federated Learning with Spiking Neural Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-11-26T08:55:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dogukan Aksu, Jesus Martinez del Rincon, Ihsen Alouani</p>
+    <p><b>Summary:</b> Spiking neural networks (SNNs) have emerged as prominent candidates for embedded and edge AI. Their inherent low power consumption makes them far more efficient than conventional ANNs in scenarios where energy budgets are tightly constrained. In parallel, federated learning (FL) has become the prevailing training paradigm in such settings, enabling on-device learning while limiting the exposure of raw data. However, gradient inversion attacks represent a critical privacy threat in FL, where sensitive training data can be reconstructed directly from shared gradients. While this vulnerability has been widely investigated in conventional ANNs, its implications for SNNs remain largely unexplored. In this work, we present the first comprehensive empirical study of gradient leakage in SNNs across diverse data domains. SNNs are inherently non-differentiable and are typically trained using surrogate gradients, which we hypothesized would be less correlated with the original input and thus less informative from a privacy perspective. To investigate this, we adapt different gradient leakage attacks to the spike domain. Our experiments reveal a striking contrast with conventional ANNs: whereas ANN gradients reliably expose salient input content, SNN gradients yield noisy, temporally inconsistent reconstructions that fail to recover meaningful spatial or temporal structure. These results indicate that the combination of event-driven dynamics and surrogate-gradient training substantially reduces gradient informativeness. To the best of our knowledge, this work provides the first systematic benchmark of gradient inversion attacks for spiking architectures, highlighting the inherent privacy-preserving potential of neuromorphic computation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.21020v1">Road Network-Aware Personalized Trajectory Protection with Differential Privacy under Spatiotemporal Correlations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-26T03:33:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minghui Min, Jiahui Liu, Mingge Cao, Shiyin Li, Hongliang Zhang, Miao Pan, Zhu Han</p>
+    <p><b>Summary:</b> Location-Based Services (LBSs) offer significant convenience to mobile users but pose significant privacy risks, as attackers can infer sensitive personal information through spatiotemporal correlations in user trajectories. Since users' sensitivity to location data varies based on factors such as stay duration, access frequency, and semantic sensitivity, implementing personalized privacy protection is imperative. This paper proposes a Personalized Trajectory Privacy Protection Mechanism (PTPPM) to address these challenges. Our approach begins by modeling an attacker's knowledge of a user's trajectory spatiotemporal correlations, which enables the attacker to identify possible location sets and disregard low-probability location sets. To combat this, we integrate geo-indistinguishability with distortion privacy, allowing users to customize their privacy preferences through a configurable privacy budget and expected inference error bound. This approach provides the theoretical framework for constructing a Protection Location Set (PLS) that obscures users' actual locations. Additionally, we introduce a Personalized Privacy Budget Allocation Algorithm (PPBA), which assesses the sensitivity of locations based on trajectory data and allocates privacy budgets accordingly. This algorithm considers factors such as location semantics and road network constraints. Furthermore, we propose a Permute-and-Flip mechanism that generates perturbed locations while minimizing perturbation distance, thus balancing privacy protection and Quality of Service (QoS). Simulation results demonstrate that our mechanism outperforms existing benchmarks, offering superior privacy protection while maintaining user QoS requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20983v1">Privacy-Preserving Federated Vision Transformer Learning Leveraging Lightweight Homomorphic Encryption in Medical AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-26T02:27:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Al Amin, Kamrul Hasan, Liang Hong, Sharif Ullah</p>
+    <p><b>Summary:</b> Collaborative machine learning across healthcare institutions promises improved diagnostic accuracy by leveraging diverse datasets, yet privacy regulations such as HIPAA prohibit direct patient data sharing. While federated learning (FL) enables decentralized training without raw data exchange, recent studies show that model gradients in conventional FL remain vulnerable to reconstruction attacks, potentially exposing sensitive medical information. This paper presents a privacy-preserving federated learning framework combining Vision Transformers (ViT) with homomorphic encryption (HE) for secure multi-institutional histopathology classification. The approach leverages the ViT CLS token as a compact 768-dimensional feature representation for secure aggregation, encrypting these tokens using CKKS homomorphic encryption before transmission to the server. We demonstrate that encrypting CLS tokens achieves a 30-fold communication reduction compared to gradient encryption while maintaining strong privacy guarantees. Through evaluation on a three-client federated setup for lung cancer histopathology classification, we show that gradients are highly susceptible to model inversion attacks (PSNR: 52.26 dB, SSIM: 0.999, NMI: 0.741), enabling near-perfect image reconstruction. In contrast, the proposed CLS-protected HE approach prevents such attacks while enabling encrypted inference directly on ciphertexts, requiring only 326 KB of encrypted data transmission per aggregation round. The framework achieves 96.12 percent global classification accuracy in the unencrypted domain and 90.02 percent in the encrypted domain.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20791v1">Beyond the Legal Lens: A Sociotechnical Taxonomy of Lived Privacy Incidents and Harms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-11-25T19:31:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kirsten Chapman, Garrett Smith, Kaitlyn Klabacka, Harrison Winslow, Louise Barkhuus, Cori Faklaris, Sauvik Das, Pamela Wisniewski, Bart Piet Knijnenburg, Heather Lipford, Xinru Page</p>
+    <p><b>Summary:</b> To understand how privacy incidents lead to harms, HCI researchers have historically leveraged legal frameworks. However, these frameworks expect acute, tangible harms and thus may not cover the full range of human experience relevant to modern-day digital privacy. To address this gap, our research builds upon these existing frameworks to develop a more comprehensive representation of people's lived experiences with privacy harms. We analyzed 369 privacy incidents reported by individuals from the general public. We found a broader range of privacy incidents and harms than accounted for in existing legal frameworks. The majority of reported privacy harms were not based on tangible harm, but on fear and loss of psychological safety. We also characterize the actors, motives, and information associated with various incidents. This work contributes a new framework for understanding digital privacy harms that can be utilized both in research and practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2511.20637v1">Behavioural Sciences and the Regulation of Privacy on the Internet</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2025-11-25T18:55:51Z</p>
@@ -9,6 +69,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Frederik Zuiderveen Borgesius</p>
     <p><b>Summary:</b> This chapter examines the policy implications of behavioural sciences insights for the regulation of privacy on the Internet, by focusing in particular on behavioural targeting. This marketing technique involves tracking people's online behaviour to use the collected information to show people individually targeted advertisements. Enforcing data protection law may not be enough to protect privacy in this area. I argue that, if society is better off when certain behavioural targeting practices do not happen, policymakers should consider banning them.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20744v1">Scoping Electronic Communication Privacy Rules: Data, Services and Values</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-25T18:55:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joris van Hoboken, Frederik Zuiderveen Borgesius</p>
+    <p><b>Summary:</b> We use electronic communication networks for more than simply traditional telecommunications: we access the news, buy goods online, file our taxes, contribute to public debate, and more. As a result, a wider array of privacy interests is implicated for users of electronic communications networks and services. This development calls into question the scope of electronic communications privacy rules. This paper analyses the scope of these rules, taking into account the rationale and the historic background of the European electronic communications privacy framework. We develop a framework for analysing the scope of electronic communications privacy rules using three approaches: (i) a service-centric approach, (ii) a data-centric approach, and (iii) a value-centric approach. We discuss the strengths and weaknesses of each approach. The current e-Privacy Directive contains a complex blend of the three approaches, which does not seem to be based on a thorough analysis of their strengths and weaknesses. The upcoming review of the directive announced by the European Commission provides an opportunity to improve the scoping of the rules.</p>
   </details>
 </div>
 
@@ -53,13 +125,25 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.19958v1">GFT-GCN: Privacy-Preserving 3D Face Mesh Recognition with Spectral Diffusion</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.19958v2">GFT-GCN: Privacy-Preserving 3D Face Mesh Recognition with Spectral Diffusion</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2025-11-25T06:07:26Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Hichem Felouat, Hanrui Wang, Isao Echizen</p>
     <p><b>Summary:</b> 3D face recognition offers a robust biometric solution by capturing facial geometry, providing resilience to variations in illumination, pose changes, and presentation attacks. Its strong spoof resistance makes it suitable for high-security applications, but protecting stored biometric templates remains critical. We present GFT-GCN, a privacy-preserving 3D face recognition framework that combines spectral graph learning with diffusion-based template protection. Our approach integrates the Graph Fourier Transform (GFT) and Graph Convolutional Networks (GCN) to extract compact, discriminative spectral features from 3D face meshes. To secure these features, we introduce a spectral diffusion mechanism that produces irreversible, renewable, and unlinkable templates. A lightweight client-server architecture ensures that raw biometric data never leaves the client device. Experiments on the BU-3DFE and FaceScape datasets demonstrate high recognition accuracy and strong resistance to reconstruction attacks. Results show that GFT-GCN effectively balances privacy and performance, offering a practical solution for secure 3D face authentication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2511.20710v1">Are Neuro-Inspired Multi-Modal Vision-Language Models Resilient to Membership Inference Privacy Leakage?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-11-24T22:32:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> David Amebley, Sayanton Dibbo</p>
+    <p><b>Summary:</b> In the age of agentic AI, the growing deployment of multi-modal models (MMs) has introduced new attack vectors that can leak sensitive training data in MMs, causing privacy leakage. This paper investigates a black-box privacy attack, i.e., membership inference attack (MIA) on multi-modal vision-language models (VLMs). State-of-the-art research analyzes privacy attacks primarily to unimodal AI-ML systems, while recent studies indicate MMs can also be vulnerable to privacy attacks. While researchers have demonstrated that biologically inspired neural network representations can improve unimodal model resilience against adversarial attacks, it remains unexplored whether neuro-inspired MMs are resilient against privacy attacks. In this work, we introduce a systematic neuroscience-inspired topological regularization (tau) framework to analyze MM VLMs resilience against image-text-based inference privacy attacks. We examine this phenomenon using three VLMs: BLIP, PaliGemma 2, and ViT-GPT2, across three benchmark datasets: COCO, CC3M, and NoCaps. Our experiments compare the resilience of baseline and neuro VLMs (with topological regularization), where the tau > 0 configuration defines the NEURO variant of VLM. Our results on the BLIP model using the COCO dataset illustrate that MIA attack success in NEURO VLMs drops by 24% mean ROC-AUC, while achieving similar model utility (similarities between generated and reference captions) in terms of MPNet and ROUGE-2 metrics. This shows neuro VLMs are comparatively more resilient against privacy attacks, while not significantly compromising model utility. Our extensive evaluation with PaliGemma 2 and ViT-GPT2 models, on two additional datasets: CC3M and NoCaps, further validates the consistency of the findings. This work contributes to the growing understanding of privacy risks in MMs and provides evidence on neuro VLMs privacy threat resilience.</p>
   </details>
 </div>
 
@@ -1130,90 +1214,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Long Li, Jiajia Li, Dong Chen, Lina Pu, Haibo Yao, Yanbo Huang</p>
     <p><b>Summary:</b> Accurate classification plays a pivotal role in smart agriculture, enabling applications such as crop monitoring, fruit recognition, and pest detection. However, conventional centralized training often requires large-scale data collection, which raises privacy concerns, while standard federated learning struggles with non-independent and identically distributed (non-IID) data and incurs high communication costs. To address these challenges, we propose a federated learning framework that integrates a frozen Contrastive Language-Image Pre-training (CLIP) vision transformer (ViT) with a lightweight transformer classifier. By leveraging the strong feature extraction capability of the pre-trained CLIP ViT, the framework avoids training large-scale models from scratch and restricts federated updates to a compact classifier, thereby reducing transmission overhead significantly. Furthermore, to mitigate performance degradation caused by non-IID data distribution, a small subset (1%) of CLIP-extracted feature representations from all classes is shared across clients. These shared features are non-reversible to raw images, ensuring privacy preservation while aligning class representation across participants. Experimental results on agricultural classification tasks show that the proposed method achieve 86.6% accuracy, which is more than 4 times higher compared to baseline federated learning approaches. This demonstrates the effectiveness and efficiency of combining vision-language model features with federated learning for privacy-preserving and scalable agricultural intelligence.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.27275v1">Prevalence of Security and Privacy Risk-Inducing Usage of AI-based Conversational Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-31T08:35:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kathrin Grosse, Nico Ebert</p>
-    <p><b>Summary:</b> Recent improvement gains in large language models (LLMs) have lead to everyday usage of AI-based Conversational Agents (CAs). At the same time, LLMs are vulnerable to an array of threats, including jailbreaks and, for example, causing remote code execution when fed specific inputs. As a result, users may unintentionally introduce risks, for example, by uploading malicious files or disclosing sensitive information. However, the extent to which such user behaviors occur and thus potentially facilitate exploits remains largely unclear. To shed light on this issue, we surveyed a representative sample of 3,270 UK adults in 2024 using Prolific. A third of these use CA services such as ChatGPT or Gemini at least once a week. Of these ``regular users'', up to a third exhibited behaviors that may enable attacks, and a fourth have tried jailbreaking (often out of understandable reasons such as curiosity, fun or information seeking). Half state that they sanitize data and most participants report not sharing sensitive data. However, few share very sensitive data such as passwords. The majority are unaware that their data can be used to train models and that they can opt-out. Our findings suggest that current academic threat models manifest in the wild, and mitigations or guidelines for the secure usage of CAs should be developed. In areas critical to security and privacy, CAs must be equipped with effective AI guardrails to prevent, for example, revealing sensitive information to curious employees. Vendors need to increase efforts to prevent the entry of sensitive data, and to create transparency with regard to data usage policies and settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.27213v1">Privacy-Aware Continual Self-Supervised Learning on Multi-Window Chest Computed Tomography for Domain-Shift Robustness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-31T06:16:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ren Tasai, Guang Li, Ren Togo, Takahiro Ogawa, Kenji Hirata, Minghui Tang, Takaaki Yoshimura, Hiroyuki Sugimori, Noriko Nishioka, Yukie Shimizu, Kohsuke Kudo, Miki Haseyama</p>
-    <p><b>Summary:</b> We propose a novel continual self-supervised learning (CSSL) framework for simultaneously learning diverse features from multi-window-obtained chest computed tomography (CT) images and ensuring data privacy. Achieving a robust and highly generalizable model in medical image diagnosis is challenging, mainly because of issues, such as the scarcity of large-scale, accurately annotated datasets and domain shifts inherent to dynamic healthcare environments. Specifically, in chest CT, these domain shifts often arise from differences in window settings, which are optimized for distinct clinical purposes. Previous CSSL frameworks often mitigated domain shift by reusing past data, a typically impractical approach owing to privacy constraints. Our approach addresses these challenges by effectively capturing the relationship between previously learned knowledge and new information across different training stages through continual pretraining on unlabeled images. Specifically, by incorporating a latent replay-based mechanism into CSSL, our method mitigates catastrophic forgetting due to domain shifts during continual pretraining while ensuring data privacy. Additionally, we introduce a feature distillation technique that integrates Wasserstein distance-based knowledge distillation (WKD) and batch-knowledge ensemble (BKE), enhancing the ability of the model to learn meaningful, domain-shift-robust representations. Finally, we validate our approach using chest CT images obtained across two different window settings, demonstrating superior performance compared with other approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.27016v1">Semantically-Aware LLM Agent to Enhance Privacy in Conversational AI Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-10-30T21:34:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jayden Serenari, Stephen Lee</p>
-    <p><b>Summary:</b> With the increasing use of conversational AI systems, there is growing concern over privacy leaks, especially when users share sensitive personal data in interactions with Large Language Models (LLMs). Conversations shared with these models may contain Personally Identifiable Information (PII), which, if exposed, could lead to security breaches or identity theft. To address this challenge, we present the Local Optimizations for Pseudonymization with Semantic Integrity Directed Entity Detection (LOPSIDED) framework, a semantically-aware privacy agent designed to safeguard sensitive PII data when using remote LLMs. Unlike prior work that often degrade response quality, our approach dynamically replaces sensitive PII entities in user prompts with semantically consistent pseudonyms, preserving the contextual integrity of conversations. Once the model generates its response, the pseudonyms are automatically depseudonymized, ensuring the user receives an accurate, privacy-preserving output. We evaluate our approach using real-world conversations sourced from ShareGPT, which we further augment and annotate to assess whether named entities are contextually relevant to the model's response. Our results show that LOPSIDED reduces semantic utility errors by a factor of 5 compared to baseline techniques, all while enhancing privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.26523v1">Interdependent Privacy in Smart Homes: Hunting for Bystanders in Privacy Policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-30T14:16:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuaishuai Liu, Gergely Acs, Gergely Biczók</p>
-    <p><b>Summary:</b> Smart home devices such as video doorbells and security cameras are becoming increasingly common in everyday life. While these devices offer convenience and safety, they also raise new privacy concerns: how these devices affect others, like neighbors, visitors, or people passing by. This issue is generally known as interdependent privacy, where one person's actions (or inaction) may impact the privacy of others, and, specifically, bystander privacy in the context of smart homes. Given lax data protection regulations in terms of shared physical spaces and amateur joint data controllers, we expect that the privacy policies of smart home products reflect the missing regulatory incentives. This paper presents a focused privacy policy analysis of 20 video doorbell and smart camera products, concentrating explicitly on the bystander aspect. We show that although some of the vendors acknowledge bystanders, they address it only to the extent of including disclaimers, shifting the ethical responsibility for collecting the data of non-users to the device owner. In addition, we identify and examine real-world cases related to bystander privacy, demonstrating how current deployments can impact non-users. Based on our findings, we analyze vendor privacy policies in light of existing legal frameworks and technical capabilities, and we provide practical recommendations for both policy language and system design to enhance transparency and empower both bystanders and device owners.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.26841v1">Accurate Target Privacy Preserving Federated Learning Balancing Fairness and Utility</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-10-30T07:14:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kangkang Sun, Jun Wu, Minyi Guo, Jianhua Li, Jianwei Huang</p>
-    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without data sharing, yet participants face a fundamental challenge, e.g., simultaneously ensuring fairness across demographic groups while protecting sensitive client data. We introduce a differentially private fair FL algorithm (\textit{FedPF}) that transforms this multi-objective optimization into a zero-sum game where fairness and privacy constraints compete against model utility. Our theoretical analysis reveals a surprising inverse relationship, i.e., stricter privacy protection fundamentally limits the system's ability to detect and correct demographic biases, creating an inherent tension between privacy and fairness. Counterintuitively, we prove that moderate fairness constraints initially improve model generalization before causing performance degradation, where a non-monotonic relationship that challenges conventional wisdom about fairness-utility tradeoffs. Experimental validation demonstrates up to 42.9 % discrimination reduction across three datasets while maintaining competitive accuracy, but more importantly, reveals that the privacy-fairness tension is unavoidable, i.e., achieving both objectives simultaneously requires carefully balanced compromises rather than optimization of either in isolation. The source code for our proposed algorithm is publicly accessible at https://github.com/szpsunkk/FedPF.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.26148v1">STAR: A Privacy-Preserving, Energy-Efficient Edge AI Framework for Human Activity Recognition via Wi-Fi CSI in Mobile and Pervasive Computing Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-10-30T05:08:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kexing Liu</p>
-    <p><b>Summary:</b> Human Activity Recognition (HAR) via Wi-Fi Channel State Information (CSI) presents a privacy-preserving, contactless sensing approach suitable for smart homes, healthcare monitoring, and mobile IoT systems. However, existing methods often encounter computational inefficiency, high latency, and limited feasibility within resource-constrained, embedded mobile edge environments. This paper proposes STAR (Sensing Technology for Activity Recognition), an edge-AI-optimized framework that integrates a lightweight neural architecture, adaptive signal processing, and hardware-aware co-optimization to enable real-time, energy-efficient HAR on low-power embedded devices. STAR incorporates a streamlined Gated Recurrent Unit (GRU)-based recurrent neural network, reducing model parameters by 33% compared to conventional LSTM models while maintaining effective temporal modeling capability. A multi-stage pre-processing pipeline combining median filtering, 8th-order Butterworth low-pass filtering, and Empirical Mode Decomposition (EMD) is employed to denoise CSI amplitude data and extract spatial-temporal features. For on-device deployment, STAR is implemented on a Rockchip RV1126 processor equipped with an embedded Neural Processing Unit (NPU), interfaced with an ESP32-S3-based CSI acquisition module. Experimental results demonstrate a mean recognition accuracy of 93.52% across seven activity classes and 99.11% for human presence detection, utilizing a compact 97.6k-parameter model. INT8 quantized inference achieves a processing speed of 33 MHz with just 8% CPU utilization, delivering sixfold speed improvements over CPU-based execution. With sub-second response latency and low power consumption, the system ensures real-time, privacy-preserving HAR, offering a practical, scalable solution for mobile and pervasive computing environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2510.26102v1">PEEL: A Poisoning-Exposing Encoding Theoretical Framework for Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-10-30T03:29:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lisha Shuai, Jiuling Dong, Nan Zhang, Shaofeng Tan, Haokun Zhang, Zilong Song, Gaoya Dong, Xiaolong Yang</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) is a widely adopted privacy-protection model in the Internet of Things (IoT) due to its lightweight, decentralized, and scalable nature. However, it is vulnerable to poisoning attacks, and existing defenses either incur prohibitive resource overheads or rely on domain-specific prior knowledge, limiting their practical deployment. To address these limitations, we propose PEEL, a Poisoning-Exposing Encoding theoretical framework for LDP, which departs from resource- or prior-dependent countermeasures and instead leverages the inherent structural consistency of LDP-perturbed data. As a non-intrusive post-processing module, PEEL amplifies stealthy poisoning effects by re-encoding LDP-perturbed data via sparsification, normalization, and low-rank projection, thereby revealing both output and rule poisoning attacks through structural inconsistencies in the reconstructed space. Theoretical analysis proves that PEEL, integrated with LDP, retains unbiasedness and statistical accuracy, while being robust to expose both output and rule poisoning attacks. Moreover, evaluation results show that LDP-integrated PEEL not only outperforms four state-of-the-art defenses in terms of poisoning exposure accuracy but also significantly reduces client-side computational costs, making it highly suitable for large-scale IoT deployments.</p>
   </details>
 </div>
 
