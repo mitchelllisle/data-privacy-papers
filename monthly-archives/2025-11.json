@@ -3280,5 +3280,210 @@
       "eess.IV",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.21196v1",
+    "title" : "Privacy-Constrained Signals",
+    "summary" : "This paper provides a unified approach to characterize the set of all feasible signals subject to privacy constraints. The Blackwell frontier of feasible signals can be decomposed into minimum informative signals achieving the Blackwell frontier of privacy variables, and conditionally privacy-preserving signals. A complete characterization of the minimum informative signals is then provided. We apply the framework to ex-post privacy (including differential and inferential privacy) and to constraints on posterior means of arbitrary statistics.",
+    "updated" : "2025-11-26T09:21:24Z",
+    "published" : "2025-11-26T09:21:24Z",
+    "authors" : [
+      {
+        "name" : "Zhang Xu"
+      },
+      {
+        "name" : "Wei Zhao"
+      }
+    ],
+    "categories" : [
+      "econ.TH",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.21181v1",
+    "title" : "Privacy in Federated Learning with Spiking Neural Networks",
+    "summary" : "Spiking neural networks (SNNs) have emerged as prominent candidates for embedded and edge AI. Their inherent low power consumption makes them far more efficient than conventional ANNs in scenarios where energy budgets are tightly constrained. In parallel, federated learning (FL) has become the prevailing training paradigm in such settings, enabling on-device learning while limiting the exposure of raw data. However, gradient inversion attacks represent a critical privacy threat in FL, where sensitive training data can be reconstructed directly from shared gradients. While this vulnerability has been widely investigated in conventional ANNs, its implications for SNNs remain largely unexplored. In this work, we present the first comprehensive empirical study of gradient leakage in SNNs across diverse data domains. SNNs are inherently non-differentiable and are typically trained using surrogate gradients, which we hypothesized would be less correlated with the original input and thus less informative from a privacy perspective. To investigate this, we adapt different gradient leakage attacks to the spike domain. Our experiments reveal a striking contrast with conventional ANNs: whereas ANN gradients reliably expose salient input content, SNN gradients yield noisy, temporally inconsistent reconstructions that fail to recover meaningful spatial or temporal structure. These results indicate that the combination of event-driven dynamics and surrogate-gradient training substantially reduces gradient informativeness. To the best of our knowledge, this work provides the first systematic benchmark of gradient inversion attacks for spiking architectures, highlighting the inherent privacy-preserving potential of neuromorphic computation.",
+    "updated" : "2025-11-26T08:55:11Z",
+    "published" : "2025-11-26T08:55:11Z",
+    "authors" : [
+      {
+        "name" : "Dogukan Aksu"
+      },
+      {
+        "name" : "Jesus Martinez del Rincon"
+      },
+      {
+        "name" : "Ihsen Alouani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.21020v1",
+    "title" : "Road Network-Aware Personalized Trajectory Protection with Differential Privacy under Spatiotemporal Correlations",
+    "summary" : "Location-Based Services (LBSs) offer significant convenience to mobile users but pose significant privacy risks, as attackers can infer sensitive personal information through spatiotemporal correlations in user trajectories. Since users' sensitivity to location data varies based on factors such as stay duration, access frequency, and semantic sensitivity, implementing personalized privacy protection is imperative. This paper proposes a Personalized Trajectory Privacy Protection Mechanism (PTPPM) to address these challenges. Our approach begins by modeling an attacker's knowledge of a user's trajectory spatiotemporal correlations, which enables the attacker to identify possible location sets and disregard low-probability location sets. To combat this, we integrate geo-indistinguishability with distortion privacy, allowing users to customize their privacy preferences through a configurable privacy budget and expected inference error bound. This approach provides the theoretical framework for constructing a Protection Location Set (PLS) that obscures users' actual locations. Additionally, we introduce a Personalized Privacy Budget Allocation Algorithm (PPBA), which assesses the sensitivity of locations based on trajectory data and allocates privacy budgets accordingly. This algorithm considers factors such as location semantics and road network constraints. Furthermore, we propose a Permute-and-Flip mechanism that generates perturbed locations while minimizing perturbation distance, thus balancing privacy protection and Quality of Service (QoS). Simulation results demonstrate that our mechanism outperforms existing benchmarks, offering superior privacy protection while maintaining user QoS requirements.",
+    "updated" : "2025-11-26T03:33:24Z",
+    "published" : "2025-11-26T03:33:24Z",
+    "authors" : [
+      {
+        "name" : "Minghui Min"
+      },
+      {
+        "name" : "Jiahui Liu"
+      },
+      {
+        "name" : "Mingge Cao"
+      },
+      {
+        "name" : "Shiyin Li"
+      },
+      {
+        "name" : "Hongliang Zhang"
+      },
+      {
+        "name" : "Miao Pan"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20983v1",
+    "title" : "Privacy-Preserving Federated Vision Transformer Learning Leveraging Lightweight Homomorphic Encryption in Medical AI",
+    "summary" : "Collaborative machine learning across healthcare institutions promises improved diagnostic accuracy by leveraging diverse datasets, yet privacy regulations such as HIPAA prohibit direct patient data sharing. While federated learning (FL) enables decentralized training without raw data exchange, recent studies show that model gradients in conventional FL remain vulnerable to reconstruction attacks, potentially exposing sensitive medical information. This paper presents a privacy-preserving federated learning framework combining Vision Transformers (ViT) with homomorphic encryption (HE) for secure multi-institutional histopathology classification. The approach leverages the ViT CLS token as a compact 768-dimensional feature representation for secure aggregation, encrypting these tokens using CKKS homomorphic encryption before transmission to the server. We demonstrate that encrypting CLS tokens achieves a 30-fold communication reduction compared to gradient encryption while maintaining strong privacy guarantees. Through evaluation on a three-client federated setup for lung cancer histopathology classification, we show that gradients are highly susceptible to model inversion attacks (PSNR: 52.26 dB, SSIM: 0.999, NMI: 0.741), enabling near-perfect image reconstruction. In contrast, the proposed CLS-protected HE approach prevents such attacks while enabling encrypted inference directly on ciphertexts, requiring only 326 KB of encrypted data transmission per aggregation round. The framework achieves 96.12 percent global classification accuracy in the unencrypted domain and 90.02 percent in the encrypted domain.",
+    "updated" : "2025-11-26T02:27:40Z",
+    "published" : "2025-11-26T02:27:40Z",
+    "authors" : [
+      {
+        "name" : "Al Amin"
+      },
+      {
+        "name" : "Kamrul Hasan"
+      },
+      {
+        "name" : "Liang Hong"
+      },
+      {
+        "name" : "Sharif Ullah"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20791v1",
+    "title" : "Beyond the Legal Lens: A Sociotechnical Taxonomy of Lived Privacy Incidents and Harms",
+    "summary" : "To understand how privacy incidents lead to harms, HCI researchers have historically leveraged legal frameworks. However, these frameworks expect acute, tangible harms and thus may not cover the full range of human experience relevant to modern-day digital privacy. To address this gap, our research builds upon these existing frameworks to develop a more comprehensive representation of people's lived experiences with privacy harms. We analyzed 369 privacy incidents reported by individuals from the general public. We found a broader range of privacy incidents and harms than accounted for in existing legal frameworks. The majority of reported privacy harms were not based on tangible harm, but on fear and loss of psychological safety. We also characterize the actors, motives, and information associated with various incidents. This work contributes a new framework for understanding digital privacy harms that can be utilized both in research and practice.",
+    "updated" : "2025-11-25T19:31:26Z",
+    "published" : "2025-11-25T19:31:26Z",
+    "authors" : [
+      {
+        "name" : "Kirsten Chapman"
+      },
+      {
+        "name" : "Garrett Smith"
+      },
+      {
+        "name" : "Kaitlyn Klabacka"
+      },
+      {
+        "name" : "Harrison Winslow"
+      },
+      {
+        "name" : "Louise Barkhuus"
+      },
+      {
+        "name" : "Cori Faklaris"
+      },
+      {
+        "name" : "Sauvik Das"
+      },
+      {
+        "name" : "Pamela Wisniewski"
+      },
+      {
+        "name" : "Bart Piet Knijnenburg"
+      },
+      {
+        "name" : "Heather Lipford"
+      },
+      {
+        "name" : "Xinru Page"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20744v1",
+    "title" : "Scoping Electronic Communication Privacy Rules: Data, Services and Values",
+    "summary" : "We use electronic communication networks for more than simply traditional telecommunications: we access the news, buy goods online, file our taxes, contribute to public debate, and more. As a result, a wider array of privacy interests is implicated for users of electronic communications networks and services. This development calls into question the scope of electronic communications privacy rules. This paper analyses the scope of these rules, taking into account the rationale and the historic background of the European electronic communications privacy framework. We develop a framework for analysing the scope of electronic communications privacy rules using three approaches: (i) a service-centric approach, (ii) a data-centric approach, and (iii) a value-centric approach. We discuss the strengths and weaknesses of each approach. The current e-Privacy Directive contains a complex blend of the three approaches, which does not seem to be based on a thorough analysis of their strengths and weaknesses. The upcoming review of the directive announced by the European Commission provides an opportunity to improve the scoping of the rules.",
+    "updated" : "2025-11-25T18:55:47Z",
+    "published" : "2025-11-25T18:55:47Z",
+    "authors" : [
+      {
+        "name" : "Joris van Hoboken"
+      },
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.19958v2",
+    "title" : "GFT-GCN: Privacy-Preserving 3D Face Mesh Recognition with Spectral Diffusion",
+    "summary" : "3D face recognition offers a robust biometric solution by capturing facial geometry, providing resilience to variations in illumination, pose changes, and presentation attacks. Its strong spoof resistance makes it suitable for high-security applications, but protecting stored biometric templates remains critical. We present GFT-GCN, a privacy-preserving 3D face recognition framework that combines spectral graph learning with diffusion-based template protection. Our approach integrates the Graph Fourier Transform (GFT) and Graph Convolutional Networks (GCN) to extract compact, discriminative spectral features from 3D face meshes. To secure these features, we introduce a spectral diffusion mechanism that produces irreversible, renewable, and unlinkable templates. A lightweight client-server architecture ensures that raw biometric data never leaves the client device. Experiments on the BU-3DFE and FaceScape datasets demonstrate high recognition accuracy and strong resistance to reconstruction attacks. Results show that GFT-GCN effectively balances privacy and performance, offering a practical solution for secure 3D face authentication.",
+    "updated" : "2025-11-26T04:15:27Z",
+    "published" : "2025-11-25T06:07:26Z",
+    "authors" : [
+      {
+        "name" : "Hichem Felouat"
+      },
+      {
+        "name" : "Hanrui Wang"
+      },
+      {
+        "name" : "Isao Echizen"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.20710v1",
+    "title" : "Are Neuro-Inspired Multi-Modal Vision-Language Models Resilient to Membership Inference Privacy Leakage?",
+    "summary" : "In the age of agentic AI, the growing deployment of multi-modal models (MMs) has introduced new attack vectors that can leak sensitive training data in MMs, causing privacy leakage. This paper investigates a black-box privacy attack, i.e., membership inference attack (MIA) on multi-modal vision-language models (VLMs). State-of-the-art research analyzes privacy attacks primarily to unimodal AI-ML systems, while recent studies indicate MMs can also be vulnerable to privacy attacks. While researchers have demonstrated that biologically inspired neural network representations can improve unimodal model resilience against adversarial attacks, it remains unexplored whether neuro-inspired MMs are resilient against privacy attacks. In this work, we introduce a systematic neuroscience-inspired topological regularization (tau) framework to analyze MM VLMs resilience against image-text-based inference privacy attacks. We examine this phenomenon using three VLMs: BLIP, PaliGemma 2, and ViT-GPT2, across three benchmark datasets: COCO, CC3M, and NoCaps. Our experiments compare the resilience of baseline and neuro VLMs (with topological regularization), where the tau > 0 configuration defines the NEURO variant of VLM. Our results on the BLIP model using the COCO dataset illustrate that MIA attack success in NEURO VLMs drops by 24% mean ROC-AUC, while achieving similar model utility (similarities between generated and reference captions) in terms of MPNet and ROUGE-2 metrics. This shows neuro VLMs are comparatively more resilient against privacy attacks, while not significantly compromising model utility. Our extensive evaluation with PaliGemma 2 and ViT-GPT2 models, on two additional datasets: CC3M and NoCaps, further validates the consistency of the findings. This work contributes to the growing understanding of privacy risks in MMs and provides evidence on neuro VLMs privacy threat resilience.",
+    "updated" : "2025-11-24T22:32:03Z",
+    "published" : "2025-11-24T22:32:03Z",
+    "authors" : [
+      {
+        "name" : "David Amebley"
+      },
+      {
+        "name" : "Sayanton Dibbo"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
