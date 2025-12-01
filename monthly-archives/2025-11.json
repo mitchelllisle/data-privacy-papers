@@ -3485,5 +3485,329 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.23200v1",
+    "title" : "Quantifying the Privacy-Utility Trade-off in GPS-based Daily Stress Recognition using Semantic Features",
+    "summary" : "Psychological stress is a widespread issue that significantly impacts student well-being and academic performance. Effective remote stress recognition is crucial, yet existing methods often rely on wearable devices or GPS-based clustering techniques that pose privacy risks. In this study, we introduce a novel, end-to-end privacy-enhanced framework for semantic location encoding using a self-hosted OSM engine and an LLM-bootstrapped static map. We rigorously quantify the privacy-utility trade-off and demonstrate (via LOSO validation) that our Privacy-Aware (PA) model achieves performance statistically indistinguishable from a non-private model, proving that utility does not require sacrificing privacy. Feature importance analysis highlights that recreational activity time, working time, and travel time play a significant role in stress recognition.",
+    "updated" : "2025-11-28T14:04:00Z",
+    "published" : "2025-11-28T14:04:00Z",
+    "authors" : [
+      {
+        "name" : "Hoang Khang Phan"
+      },
+      {
+        "name" : "Nhat Tan Le"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22791v1",
+    "title" : "An Efficient Privacy-preserving Intrusion Detection Scheme for UAV Swarm Networks",
+    "summary" : "The rapid proliferation of unmanned aerial vehicles (UAVs) and their applications in diverse domains, such as surveillance, disaster management, agriculture, and defense, have revolutionized modern technology. While the potential benefits of swarm-based UAV networks are growing significantly, they are vulnerable to various security attacks that can jeopardize the overall mission success by degrading their performance, disrupting decision-making, and compromising the trajectory planning process. The Intrusion Detection System (IDS) plays a vital role in identifying potential security attacks to ensure the secure operation of UAV swarm networks. However, conventional IDS primarily focuses on binary classification with resource-intensive neural networks and faces challenges, including latency, privacy breaches, increased performance overhead, and model drift. This research aims to address these challenges by developing a novel lightweight and federated continuous learning-based IDS scheme. Our proposed model facilitates decentralized training across diverse UAV swarms to ensure data heterogeneity and privacy. The performance evaluation of our model demonstrates significant improvements, with classification accuracies of 99.45% on UKM-IDS, 99.99% on UAV-IDS, 96.85% on TLM-UAV dataset, and 98.05% on Cyber-Physical datasets.",
+    "updated" : "2025-11-27T22:37:06Z",
+    "published" : "2025-11-27T22:37:06Z",
+    "authors" : [
+      {
+        "name" : "Kanchon Gharami"
+      },
+      {
+        "name" : "Shafika Showkat Moni"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22788v1",
+    "title" : "PRISM: Privacy-Aware Routing for Adaptive Cloud-Edge LLM Inference via Semantic Sketch Collaboration",
+    "summary" : "Large Language Models (LLMs) demonstrate impressive capabilities in natural language understanding and generation, but incur high communication overhead and privacy risks in cloud deployments, while facing compute and memory constraints when confined to edge devices. Cloud-edge inference has emerged as a promising paradigm for improving privacy in LLM services by retaining sensitive computations on local devices. However, existing cloud-edge inference approaches apply uniform privacy protection without considering input sensitivity, resulting in unnecessary perturbation and degraded utility even for non-sensitive tokens. To address this limitation, we propose Privacy-aware Routing for Inference with Semantic Modulation (PRISM), a context-aware framework that dynamically balances privacy and inference quality. PRISM executes in four stages: (1) the edge device profiles entity-level sensitivity; (2) a soft gating module on the edge selects an execution mode - cloud, edge, or collaboration; (3) for collaborative paths, the edge applies adaptive two-layer local differential privacy based on entity risks; and (4) the cloud LLM generates a semantic sketch from the perturbed prompt, which is then refined by the edge-side small language model (SLM) using local context. Our results show that PRISM consistently achieves superior privacy-utility trade-offs across various scenarios, reducing energy consumption and latency to 40-50% of baseline methods such as Uniform and Selective LDP, while maintaining high output quality under strong privacy constraints. These findings are validated through comprehensive evaluations involving realistic prompts, actual energy measurements, and heterogeneous cloud-edge model deployments.",
+    "updated" : "2025-11-27T22:32:33Z",
+    "published" : "2025-11-27T22:32:33Z",
+    "authors" : [
+      {
+        "name" : "Junfei Zhan"
+      },
+      {
+        "name" : "Haoxun Shen"
+      },
+      {
+        "name" : "Zheng Lin"
+      },
+      {
+        "name" : "Tengjiao He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22554v1",
+    "title" : "Privacy-preserving fall detection at the edge using Sony IMX636 event-based vision sensor and Intel Loihi 2 neuromorphic processor",
+    "summary" : "Fall detection for elderly care using non-invasive vision-based systems remains an important yet unsolved problem. Driven by strict privacy requirements, inference must run at the edge of the vision sensor, demanding robust, real-time, and always-on perception under tight hardware constraints. To address these challenges, we propose a neuromorphic fall detection system that integrates the Sony IMX636 event-based vision sensor with the Intel Loihi 2 neuromorphic processor via a dedicated FPGA-based interface, leveraging the sparsity of event data together with near-memory asynchronous processing. Using a newly recorded dataset under diverse environmental conditions, we explore the design space of sparse neural networks deployable on a single Loihi 2 chip and analyze the tradeoffs between detection F1 score and computational cost. Notably, on the Pareto front, our LIF-based convolutional SNN with graded spikes achieves the highest computational efficiency, reaching a 55x synaptic operations sparsity for an F1 score of 58%. The LIF with graded spikes shows a gain of 6% in F1 score with 5x less operations compared to binary spikes. Furthermore, our MCUNet feature extractor with patched inference, combined with the S4D state space model, achieves the highest F1 score of 84% with a synaptic operations sparsity of 2x and a total power consumption of 90 mW on Loihi 2. Overall, our smart security camera proof-of-concept highlights the potential of integrating neuromorphic sensing and processing for edge AI applications where latency, energy consumption, and privacy are critical.",
+    "updated" : "2025-11-27T15:44:55Z",
+    "published" : "2025-11-27T15:44:55Z",
+    "authors" : [
+      {
+        "name" : "Lyes Khacef"
+      },
+      {
+        "name" : "Philipp Weidel"
+      },
+      {
+        "name" : "Susumu Hogyoku"
+      },
+      {
+        "name" : "Harry Liu"
+      },
+      {
+        "name" : "Claire Alexandra Bräuer"
+      },
+      {
+        "name" : "Shunsuke Koshino"
+      },
+      {
+        "name" : "Takeshi Oyakawa"
+      },
+      {
+        "name" : "Vincent Parret"
+      },
+      {
+        "name" : "Yoshitaka Miyatani"
+      },
+      {
+        "name" : "Mike Davies"
+      },
+      {
+        "name" : "Mathis Richter"
+      }
+    ],
+    "categories" : [
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22515v1",
+    "title" : "Privacy-Utility-Bias Trade-offs for Privacy-Preserving Recommender Systems",
+    "summary" : "Recommender systems (RSs) output ranked lists of items, such as movies or restaurants, that users may find interesting, based on the user's past ratings and ratings from other users. RSs increasingly incorporate differential privacy (DP) to protect user data, raising questions about how privacy mechanisms affect both recommendation accuracy and fairness. We conduct a comprehensive, cross-model evaluation of two DP mechanisms, differentially private stochastic gradient descent (DPSGD) and local differential privacy (LDP), applied to four recommender systems (Neural Collaborative Filtering (NCF), Bayesian Personalized Ranking (BPR), Singular Value Decomposition (SVD), and Variational Autoencoder (VAE)) on the MovieLens-1M and Yelp datasets. We find that stronger privacy consistently reduces utility, but not uniformly. NCF under DPSGD shows the smallest accuracy loss (under 10 percent at epsilon approximately 1), whereas SVD and BPR experience larger drops, especially for users with niche preferences. VAE is the most sensitive to privacy, with sharp declines for sparsely represented groups. The impact on bias metrics is similarly heterogeneous. DPSGD generally reduces the gap between recommendations of popular and less popular items, whereas LDP preserves existing patterns more closely. These results highlight that no single DP mechanism is uniformly superior; instead, each provides trade-offs under different privacy regimes and data conditions.",
+    "updated" : "2025-11-27T14:50:20Z",
+    "published" : "2025-11-27T14:50:20Z",
+    "authors" : [
+      {
+        "name" : "Shiva Parsarad"
+      },
+      {
+        "name" : "Isabel Wagner"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22441v1",
+    "title" : "GEO-Detective: Unveiling Location Privacy Risks in Images with LLM Agents",
+    "summary" : "Images shared on social media often expose geographic cues. While early geolocation methods required expert effort and lacked generalization, the rise of Large Vision Language Models (LVLMs) now enables accurate geolocation even for ordinary users. However, existing approaches are not optimized for this task. To explore the full potential and associated privacy risks, we present Geo-Detective, an agent that mimics human reasoning and tool use for image geolocation inference. It follows a procedure with four steps that adaptively selects strategies based on image difficulty and is equipped with specialized tools such as visual reverse search, which emulates how humans gather external geographic clues. Experimental results show that GEO-Detective outperforms baseline large vision language models (LVLMs) overall, particularly on images lacking visible geographic features. In country level geolocation tasks, it achieves an improvement of over 11.1% compared to baseline LLMs, and even at finer grained levels, it still provides around a 5.2% performance gain. Meanwhile, when equipped with external clues, GEO-Detective becomes more likely to produce accurate predictions, reducing the \"unknown\" prediction rate by more than 50.6%. We further explore multiple defense strategies and find that Geo-Detective exhibits stronger robustness, highlighting the need for more effective privacy safeguards.",
+    "updated" : "2025-11-27T13:27:26Z",
+    "published" : "2025-11-27T13:27:26Z",
+    "authors" : [
+      {
+        "name" : "Xinyu Zhang"
+      },
+      {
+        "name" : "Yixin Wu"
+      },
+      {
+        "name" : "Boyang Zhang"
+      },
+      {
+        "name" : "Chenhao Lin"
+      },
+      {
+        "name" : "Chao Shen"
+      },
+      {
+        "name" : "Michael Backes"
+      },
+      {
+        "name" : "Yang Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22180v1",
+    "title" : "Personalized 3D Spatiotemporal Trajectory Privacy Protection with Differential and Distortion Geo-Perturbation",
+    "summary" : "The rapid advancement of location-based services (LBSs) in three-dimensional (3D) domains, such as smart cities and intelligent transportation, has raised concerns over 3D spatiotemporal trajectory privacy protection. However, existing research has not fully addressed the risk of attackers exploiting the spatiotemporal correlation of 3D spatiotemporal trajectories and the impact of height information, both of which can potentially lead to significant privacy leakage. To address these issues, this paper proposes a personalized 3D spatiotemporal trajectory privacy protection mechanism, named 3DSTPM. First, we analyze the characteristics of attackers that exploit spatiotemporal correlations between locations in a trajectory and present the attack model. Next, we exploit the complementary characteristics of 3D geo-indistinguishability (3D-GI) and distortion privacy to find a protection location set (PLS) that obscures the real location for all possible locations. To address the issue of privacy accumulation caused by continuous trajectory queries, we propose a Window-based Adaptive Privacy Budget Allocation (W-APBA), which dynamically allocates privacy budgets to all locations in the current PLS based on their predictability and sensitivity. Finally, we perturb the real location using the allocated privacy budget by the PF (Permute-and-Flip) mechanism, effectively balancing privacy protection and Quality of Service (QoS). Simulation results demonstrate that the proposed 3DSTPM effectively reduces QoS loss while meeting the user's personalized privacy protection needs.",
+    "updated" : "2025-11-27T07:41:14Z",
+    "published" : "2025-11-27T07:41:14Z",
+    "authors" : [
+      {
+        "name" : "Minghui Min"
+      },
+      {
+        "name" : "Yulu Li"
+      },
+      {
+        "name" : "Gang Li"
+      },
+      {
+        "name" : "Meng Li"
+      },
+      {
+        "name" : "Hongliang Zhang"
+      },
+      {
+        "name" : "Miao Pan"
+      },
+      {
+        "name" : "Dusit Niyato"
+      },
+      {
+        "name" : "Zhu Han"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22117v1",
+    "title" : "Privacy-preserving formal concept analysis: A homomorphic encryption-based concept construction",
+    "summary" : "Formal Concept Analysis (FCA) is extensively used in knowledge extraction, cognitive concept learning, and data mining. However, its computational demands on large-scale datasets often require outsourcing to external computing services, raising concerns about the leakage of sensitive information. To address this challenge, we propose a novel approach to enhance data security and privacy in FCA-based computations. Specifically, we introduce a Privacy-preserving Formal Context Analysis (PFCA) framework that combines binary data representation with homomorphic encryption techniques. This method enables secure and efficient concept construction without revealing private data. Experimental results and security analysis confirm the effectiveness of our approach in preserving privacy while maintaining computational performance. These findings have important implications for privacy-preserving data mining and secure knowledge discovery in large-scale FCA applications.",
+    "updated" : "2025-11-27T05:16:01Z",
+    "published" : "2025-11-27T05:16:01Z",
+    "authors" : [
+      {
+        "name" : "Qiangqiang Chen"
+      },
+      {
+        "name" : "Yunfeng Ke"
+      },
+      {
+        "name" : "Shen Li"
+      },
+      {
+        "name" : "Jinhai Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.22099v1",
+    "title" : "Decomposed Trust: Exploring Privacy, Adversarial Robustness, Fairness, and Ethics of Low-Rank LLMs",
+    "summary" : "Large language models (LLMs) have driven major advances across domains, yet their massive size hinders deployment in resource-constrained settings. Model compression addresses this challenge, with low-rank factorization emerging as a particularly effective method for reducing size, memory, and computation while maintaining accuracy. However, while these compressed models boast of benign performance and system-level advantages, their trustworthiness implications remain poorly understood. In this paper, we present the first comprehensive study of how low-rank factorization affects LLM trustworthiness across privacy, adversarial robustness, fairness, and ethical alignment. We evaluate multiple LLMs of different sizes and variants compressed with diverse low-rank algorithms, revealing key insights: (1) low-rank compression preserves or improves training data privacy but weakens PII protection during conversation; (2) adversarial robustness is generally preserved and often enhanced, even under deep compression; (3) ethical reasoning degrades in zero-shot settings but partially recovers with few-shot prompting; (4) fairness declines under compression. Beyond compression, we investigate how model scale and fine-tuning affect trustworthiness, as both are important in low-rank methods. To guide trustworthy compression strategies, we end our paper with a gradient-based attribution analysis to identify which layers in LLMs contribute most to adversarial robustness.",
+    "updated" : "2025-11-27T04:40:56Z",
+    "published" : "2025-11-27T04:40:56Z",
+    "authors" : [
+      {
+        "name" : "Daniel Agyei Asante"
+      },
+      {
+        "name" : "Md Mokarram Chowdhury"
+      },
+      {
+        "name" : "Yang Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.21876v1",
+    "title" : "Differential privacy from axioms",
+    "summary" : "Differential privacy (DP) is the de facto notion of privacy both in theory and in practice. However, despite its popularity, DP imposes strict requirements which guard against strong worst-case scenarios. For example, it guards against seemingly unrealistic scenarios where an attacker has full information about all but one point in the data set, and still nothing can be learned about the remaining point. While preventing such a strong attack is desirable, many works have explored whether average-case relaxations of DP are easier to satisfy [HWR13,WLF16,BF16,LWX23].\n  In this work, we are motivated by the question of whether alternate, weaker notions of privacy are possible: can a weakened privacy notion still guarantee some basic level of privacy, and on the other hand, achieve privacy more efficiently and/or for a substantially broader set of tasks? Our main result shows the answer is no: even in the statistical setting, any reasonable measure of privacy satisfying nontrivial composition is equivalent to DP. To prove this, we identify a core set of four axioms or desiderata: pre-processing invariance, prohibition of blatant non-privacy, strong composition, and linear scalability. Our main theorem shows that any privacy measure satisfying our axioms is equivalent to DP, up to polynomial factors in sample complexity. We complement this result by showing our axioms are minimal: removing any one of our axioms enables ill-behaved measures of privacy.",
+    "updated" : "2025-11-26T19:53:02Z",
+    "published" : "2025-11-26T19:53:02Z",
+    "authors" : [
+      {
+        "name" : "Guy Blanc"
+      },
+      {
+        "name" : "William Pires"
+      },
+      {
+        "name" : "Toniann Pitassi"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.21804v1",
+    "title" : "Beyond Membership: Limitations of Add/Remove Adjacency in Differential Privacy",
+    "summary" : "Training machine learning models with differential privacy (DP) limits an adversary's ability to infer sensitive information about the training data. It can be interpreted as a bound on adversary's capability to distinguish two adjacent datasets according to chosen adjacency relation. In practice, most DP implementations use the add/remove adjacency relation, where two datasets are adjacent if one can be obtained from the other by adding or removing a single record, thereby protecting membership. In many ML applications, however, the goal is to protect attributes of individual records (e.g., labels used in supervised fine-tuning). We show that privacy accounting under add/remove overstates attribute privacy compared to accounting under the substitute adjacency relation, which permits substituting one record. To demonstrate this gap, we develop novel attacks to audit DP under substitute adjacency, and show empirically that audit results are inconsistent with DP guarantees reported under add/remove, yet remain consistent with the budget accounted under the substitute adjacency relation. Our results highlight that the choice of adjacency when reporting DP guarantees is critical when the protection target is per-record attributes rather than membership.",
+    "updated" : "2025-11-26T18:55:13Z",
+    "published" : "2025-11-26T18:55:13Z",
+    "authors" : [
+      {
+        "name" : "Gauri Pradhan"
+      },
+      {
+        "name" : "Joonas Jälkö"
+      },
+      {
+        "name" : "Santiago Zanella-Bèguelin"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2511.21758v1",
+    "title" : "A Longitudinal Measurement of Privacy Policy Evolution for Large Language Models",
+    "summary" : "Large language model (LLM) services have been rapidly integrated into people's daily lives as chatbots and agentic systems. They are nourished by collecting rich streams of data, raising privacy concerns around excessive collection of sensitive personal information. Privacy policies are the fundamental mechanism for informing users about data practices in modern information privacy paradigm. Although traditional web and mobile policies are well studied, the privacy policies of LLM providers, their LLM-specific content, and their evolution over time remain largely underexplored. In this paper, we present the first longitudinal empirical study of privacy policies for mainstream LLM providers worldwide. We curate a chronological dataset of 74 historical privacy policies and 115 supplemental privacy documents from 11 LLM providers across 5 countries up to August 2025, and extract over 3,000 sentence-level edits between consecutive policy versions. We compare LLM privacy policies to those of other software formats, propose a taxonomy tailored to LLM privacy policies, annotate policy edits and align them with a timeline of key LLM ecosystem events. Results show they are substantially longer, demand college-level reading ability, and remain highly vague. Our taxonomy analysis reveals patterns in how providers disclose LLM-specific practices and highlights regional disparities in coverage. Policy edits are concentrated in first-party data collection and international/specific-audience sections, and that product releases and regulatory actions are the primary drivers, shedding light on the status quo and the evolution of LLM privacy policies.",
+    "updated" : "2025-11-24T12:40:15Z",
+    "published" : "2025-11-24T12:40:15Z",
+    "authors" : [
+      {
+        "name" : "Zhen Tao"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Zhenchang Xing"
+      },
+      {
+        "name" : "Emily Black"
+      },
+      {
+        "name" : "Talia Gillis"
+      },
+      {
+        "name" : "Chunyang Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
   }
 ]
