@@ -3809,5 +3809,246 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.01115v1",
+    "title" : "Sliced Rényi Pufferfish Privacy: Directional Additive Noise Mechanism and Private Learning with Gradient Clipping",
+    "summary" : "We study privatization mechanism design and privacy accounting in the Pufferfish family, addressing two practical gaps of Renyi Pufferfish Privacy (RPP): high-dimensional optimal transport (OT) calibration and the absence of a general, mechanism-agnostic composition rule for iterative learning. We introduce Sliced Renyi Pufferfish Privacy (SRPP), which replaces high-dimensional comparisons by directional ones over a set of unit vectors, enabling geometry-aware and tractable guarantees. To calibrate noise without high-dimensional OT, we propose sliced Wasserstein mechanisms that compute per-direction (1-D) sensitivities, yielding closed-form, statistically stable, and anisotropic calibrations. We further define SRPP Envelope (SRPE) as computable upper bounds that are tightly implementable by these sliced Wasserstein mechanisms. For iterative deep learning algorithms, we develop a decompose-then-compose SRPP-SGD scheme with gradient clipping based on a History-Uniform Cap (HUC), a pathwise bound on one-step directional changes that is uniform over optimization history, and a mean-square variant (ms-HUC) that leverages subsampling randomness to obtain on-average SRPP guarantees with improved utility. The resulting HUC and ms-HUC accountants aggregate per-iteration, per-direction Renyi costs and integrate naturally with moments-accountant style analyses. Finally, when multiple mechanisms are trained and privatized independently under a common slicing geometry, our analysis yields graceful additive composition in both worst-case and mean-square regimes. Our experiments indicate that the proposed SRPP-based methods achieve favorable privacy-utility trade-offs in both static and iterative settings.",
+    "updated" : "2025-11-30T22:22:29Z",
+    "published" : "2025-11-30T22:22:29Z",
+    "authors" : [
+      {
+        "name" : "Tao Zhang"
+      },
+      {
+        "name" : "Yevgeniy Vorobeychik"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.01109v1",
+    "title" : "How do we measure privacy in text? A survey of text anonymization metrics",
+    "summary" : "In this work, we aim to clarify and reconcile metrics for evaluating privacy protection in text through a systematic survey. Although text anonymization is essential for enabling NLP research and model development in domains with sensitive data, evaluating whether anonymization methods sufficiently protect privacy remains an open challenge. In manually reviewing 47 papers that report privacy metrics, we identify and compare six distinct privacy notions, and analyze how the associated metrics capture different aspects of privacy risk. We then assess how well these notions align with legal privacy standards (HIPAA and GDPR), as well as user-centered expectations grounded in HCI studies. Our analysis offers practical guidance on navigating the landscape of privacy evaluation approaches further and highlights gaps in current practices. Ultimately, we aim to facilitate more robust, comparable, and legally aware privacy evaluations in text anonymization.",
+    "updated" : "2025-11-30T22:12:30Z",
+    "published" : "2025-11-30T22:12:30Z",
+    "authors" : [
+      {
+        "name" : "Yaxuan Ren"
+      },
+      {
+        "name" : "Krithika Ramesh"
+      },
+      {
+        "name" : "Yaxing Yao"
+      },
+      {
+        "name" : "Anjalie Field"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00849v1",
+    "title" : "Topological Federated Clustering via Gravitational Potential Fields under Local Differential Privacy",
+    "summary" : "Clustering non-independent and identically distributed (non-IID) data under local differential privacy (LDP) in federated settings presents a critical challenge: preserving privacy while maintaining accuracy without iterative communication. Existing one-shot methods rely on unstable pairwise centroid distances or neighborhood rankings, degrading severely under strong LDP noise and data heterogeneity. We present Gravitational Federated Clustering (GFC), a novel approach to privacy-preserving federated clustering that overcomes the limitations of distance-based methods under varying LDP. Addressing the critical challenge of clustering non-IID data with diverse privacy guarantees, GFC transforms privatized client centroids into a global gravitational potential field where true cluster centers emerge as topologically persistent singularities. Our framework introduces two key innovations: (1) a client-side compactness-aware perturbation mechanism that encodes local cluster geometry as \"mass\" values, and (2) a server-side topological aggregation phase that extracts stable centroids through persistent homology analysis of the potential field's superlevel sets. Theoretically, we establish a closed-form bound between the privacy budget $ε$ and centroid estimation error, proving the potential field's Lipschitz smoothing properties exponentially suppress noise in high-density regions. Empirically, GFC outperforms state-of-the-art methods on ten benchmarks, especially under strong LDP constraints ($ε< 1$), while maintaining comparable performance at lower privacy budgets. By reformulating federated clustering as a topological persistence problem in a synthetic physics-inspired space, GFC achieves unprecedented privacy-accuracy trade-offs without iterative communication, providing a new perspective for privacy-preserving distributed learning.",
+    "updated" : "2025-11-30T11:41:16Z",
+    "published" : "2025-11-30T11:41:16Z",
+    "authors" : [
+      {
+        "name" : "Yunbo Long"
+      },
+      {
+        "name" : "Jiaquan Zhang"
+      },
+      {
+        "name" : "Xi Chen"
+      },
+      {
+        "name" : "Alexandra Brintrup"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00734v1",
+    "title" : "Infinitely divisible privacy and beyond I: resolution of the $s^2=2k$ conjecture",
+    "summary" : "Differential privacy is increasingly formalized through the lens of hypothesis testing via the robust and interpretable $f$-DP framework, where privacy guarantees are encoded by a baseline Blackwell trade-off function $f_{\\infty} = T(P_{\\infty}, Q_{\\infty})$ involving a pair of distributions $(P_{\\infty}, Q_{\\infty})$. The problem of choosing the right privacy metric in practice leads to a central question: what is a statistically appropriate baseline $f_{\\infty}$ given some prior modeling assumptions? The special case of Gaussian differential privacy (GDP) showed that, under compositions of nearly perfect mechanisms, these trade-off functions exhibit a central limit behavior with a Gaussian limit experiment. Inspired by Le Cam's theory of limits of statistical experiments, we answer this question in full generality in an infinitely divisible setting.\n  We show that suitable composition experiments $(P_n^{\\otimes n}, Q_n^{\\otimes n})$ converge to a binary limit experiment $(P_{\\infty}, Q_{\\infty})$ whose log-likelihood ratio $L = \\log(dQ_{\\infty} / dP_{\\infty})$ is infinitely divisible under $P_{\\infty}$. Thus any limiting trade-off function $f_{\\infty}$ is determined by an infinitely divisible law $P_{\\infty}$, characterized by its Levy--Khintchine triplet, and its Esscher tilt defined by $dQ_{\\infty}(x) = e^{x} dP_{\\infty}(x)$. This characterizes all limiting baseline trade-off functions $f_{\\infty}$ arising from compositions of nearly perfect differentially private mechanisms. Our framework recovers GDP as the purely Gaussian case and yields explicit non-Gaussian limits, including Poisson examples. It also positively resolves the empirical $s^2 = 2k$ phenomenon observed in the GDP paper and provides an optimal mechanism for count statistics achieving asymmetric Poisson differential privacy.",
+    "updated" : "2025-11-30T05:09:31Z",
+    "published" : "2025-11-30T05:09:31Z",
+    "authors" : [
+      {
+        "name" : "Aaradhya Pandey"
+      },
+      {
+        "name" : "Arian Maleki"
+      },
+      {
+        "name" : "Sanjeev Kulkarni"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.CR",
+      "cs.IT",
+      "math.PR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00638v1",
+    "title" : "Privacy Preserving Diffusion Models for Mixed-Type Tabular Data Generation",
+    "summary" : "We introduce DP-FinDiff, a differentially private diffusion framework for synthesizing mixed-type tabular data. DP-FinDiff employs embedding-based representations for categorical features, reducing encoding overhead and scaling to high-dimensional datasets. To adapt DP-training to the diffusion process, we propose two privacy-aware training strategies: an adaptive timestep sampler that aligns updates with diffusion dynamics, and a feature-aggregated loss that mitigates clipping-induced bias. Together, these enhancements improve fidelity and downstream utility without weakening privacy guarantees. On financial and medical datasets, DP-FinDiff achieves 16-42% higher utility than DP baselines at comparable privacy levels, demonstrating its promise for safe and effective data sharing in sensitive domains.",
+    "updated" : "2025-11-29T21:23:57Z",
+    "published" : "2025-11-29T21:23:57Z",
+    "authors" : [
+      {
+        "name" : "Timur Sattarov"
+      },
+      {
+        "name" : "Marco Schreyer"
+      },
+      {
+        "name" : "Damian Borth"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00614v1",
+    "title" : "Hierarchical Decentralized Multi-Agent Coordination with Privacy-Preserving Knowledge Sharing: Extending AgentNet for Scalable Autonomous Systems",
+    "summary" : "Decentralized multi-agent systems have shown promise in enabling autonomous collaboration among LLM-based agents. While AgentNet demonstrated the feasibility of fully decentralized coordination through dynamic DAG topologies, several limitations remain: scalability challenges with large agent populations, communication overhead, lack of privacy guarantees, and suboptimal resource allocation. We propose AgentNet++, a hierarchical decentralized framework that extends AgentNet with multilevel agent organization, privacy-preserving knowledge sharing via differential privacy and secure aggregation, adaptive resource management, and theoretical convergence guarantees. Our approach introduces cluster-based hierarchies where agents self-organize into specialized groups, enabling efficient task routing and knowledge distillation while maintaining full decentralization. We provide formal analysis of convergence properties and privacy bounds, and demonstrate through extensive experiments on complex multi-agent tasks that AgentNet++ achieves 23% higher task completion rates, 40% reduction in communication overhead, and maintains strong privacy guarantees compared to AgentNet and other baselines. Our framework scales effectively to 1000+ agents while preserving the emergent intelligence properties of the original AgentNet.",
+    "updated" : "2025-11-29T20:07:20Z",
+    "published" : "2025-11-29T20:07:20Z",
+    "authors" : [
+      {
+        "name" : "Goutham Nalagatla"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00595v1",
+    "title" : "IslandRun: Privacy-Aware Multi-Objective Orchestration for Distributed AI Inference",
+    "summary" : "Modern AI inference faces an irreducible tension: no single computational resource simultaneously maximizes performance, preserves privacy, minimizes cost, and maintains trust. Existing orchestration frameworks optimize single dimensions (Kubernetes prioritizes latency, federated learning preserves privacy, edge computing reduces network distance), creating solutions that struggle under real-world heterogeneity. We present IslandRun, a multi-objective orchestration system that treats computational resources as autonomous \"islands\" spanning personal devices, private edge servers, and public cloud. Our key insights: (1) request-level heterogeneity demands policy-constrained multi-objective optimization, (2) data locality enables routing compute to data rather than data to compute, and (3) typed placeholder sanitization preserves context semantics across trust boundaries. IslandRun introduces agent-based routing, tiered island groups with differential trust, and reversible anonymization. This establishes a new paradigm for privacy-aware, decentralized inference orchestration across heterogeneous personal computing ecosystems.",
+    "updated" : "2025-11-29T18:52:27Z",
+    "published" : "2025-11-29T18:52:27Z",
+    "authors" : [
+      {
+        "name" : "Bala Siva Sai Akhil Malepati"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00434v1",
+    "title" : "Privacy-Preserving Generative Modeling and Clinical Validation of Longitudinal Health Records for Chronic Disease",
+    "summary" : "Data privacy is a critical challenge in modern medical workflows as the adoption of electronic patient records has grown rapidly. Stringent data protection regulations limit access to clinical records for training and integrating machine learning models that have shown promise in improving diagnostic accuracy and personalized care outcomes. Synthetic data offers a promising alternative; however, current generative models either struggle with time-series data or lack formal privacy guaranties. In this paper, we enhance a state-of-the-art time-series generative model to better handle longitudinal clinical data while incorporating quantifiable privacy safeguards. Using real data from chronic kidney disease and ICU patients, we evaluate our method through statistical tests, a Train-on-Synthetic-Test-on-Real (TSTR) setup, and expert clinical review. Our non-private model (Augmented TimeGAN) outperforms transformer- and flow-based models on statistical metrics in several datasets, while our private model (DP-TimeGAN) maintains a mean authenticity of 0.778 on the CKD dataset, outperforming existing state-of-the-art models on the privacy-utility frontier. Both models achieve performance comparable to real data in clinician evaluations, providing robust input data necessary for developing models for complex chronic conditions without compromising data privacy.",
+    "updated" : "2025-11-29T10:16:14Z",
+    "published" : "2025-11-29T10:16:14Z",
+    "authors" : [
+      {
+        "name" : "Benjamin D. Ballyk"
+      },
+      {
+        "name" : "Ankit Gupta"
+      },
+      {
+        "name" : "Sujay Konda"
+      },
+      {
+        "name" : "Kavitha Subramanian"
+      },
+      {
+        "name" : "Chris Landon"
+      },
+      {
+        "name" : "Ahmed Ammar Naseer"
+      },
+      {
+        "name" : "Georg Maierhofer"
+      },
+      {
+        "name" : "Sumanth Swaminathan"
+      },
+      {
+        "name" : "Vasudevan Venkateshwaran"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00307v1",
+    "title" : "Adversarial Signed Graph Learning with Differential Privacy",
+    "summary" : "Signed graphs with positive and negative edges can model complex relationships in social networks. Leveraging on balance theory that deduces edge signs from multi-hop node pairs, signed graph learning can generate node embeddings that preserve both structural and sign information. However, training on sensitive signed graphs raises significant privacy concerns, as model parameters may leak private link information. Existing protection methods with differential privacy (DP) typically rely on edge or gradient perturbation for unsigned graph protection. Yet, they are not well-suited for signed graphs, mainly because edge perturbation tends to cascading errors in edge sign inference under balance theory, while gradient perturbation increases sensitivity due to node interdependence and gradient polarity change caused by sign flips, resulting in larger noise injection. In this paper, motivated by the robustness of adversarial learning to noisy interactions, we present ASGL, a privacy-preserving adversarial signed graph learning method that preserves high utility while achieving node-level DP. We first decompose signed graphs into positive and negative subgraphs based on edge signs, and then design a gradient-perturbed adversarial module to approximate the true signed connectivity distribution. In particular, the gradient perturbation helps mitigate cascading errors, while the subgraph separation facilitates sensitivity reduction. Further, we devise a constrained breadth-first search tree strategy that fuses with balance theory to identify the edge signs between generated node pairs. This strategy also enables gradient decoupling, thereby effectively lowering gradient sensitivity. Extensive experiments on real-world datasets show that ASGL achieves favorable privacy-utility trade-offs across multiple downstream tasks.",
+    "updated" : "2025-11-29T04:02:48Z",
+    "published" : "2025-11-29T04:02:48Z",
+    "authors" : [
+      {
+        "name" : "Haobin Ke"
+      },
+      {
+        "name" : "Sen Zhang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Xun Ran"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.00272v1",
+    "title" : "Teleportation-Based Defenses for Privacy in Approximate Machine Unlearning",
+    "summary" : "Approximate machine unlearning aims to efficiently remove the influence of specific data points from a trained model, offering a practical alternative to full retraining. However, it introduces privacy risks: an adversary with access to pre- and post-unlearning models can exploit their differences for membership inference or data reconstruction. We show these vulnerabilities arise from two factors: large gradient norms of forget-set samples and the close proximity of unlearned parameters to the original model. To demonstrate their severity, we propose unlearning-specific membership inference and reconstruction attacks, showing that several state-of-the-art methods (e.g., NGP, SCRUB) remain vulnerable. To mitigate this leakage, we introduce WARP, a plug-and-play teleportation defense that leverages neural network symmetries to reduce forget-set gradient energy and increase parameter dispersion while preserving predictions. This reparameterization obfuscates the signal of forgotten data, making it harder for attackers to distinguish forgotten samples from non-members or recover them via reconstruction. Across six unlearning algorithms, our approach achieves consistent privacy gains, reducing adversarial advantage (AUC) by up to 64% in black-box and 92% in white-box settings, while maintaining accuracy on retained data. These results highlight teleportation as a general tool for reducing attack success in approximate unlearning.",
+    "updated" : "2025-11-29T01:50:33Z",
+    "published" : "2025-11-29T01:50:33Z",
+    "authors" : [
+      {
+        "name" : "Mohammad M Maheri"
+      },
+      {
+        "name" : "Xavier Cadet"
+      },
+      {
+        "name" : "Peter Chin"
+      },
+      {
+        "name" : "Hamed Haddadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
