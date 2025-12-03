@@ -1163,32 +1163,32 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.03966v1">PrivacyCD: Hierarchical Unlearning for Protecting Student Privacy in Cognitive Diagnosis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-06T01:39:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingliang Hou, Yinuo Wang, Teng Guo, Zitao Liu, Wenzhou Dou, Jiaqi Zheng, Renqiang Luo, Mi Tian, Weiqi Luo</p>
-    <p><b>Summary:</b> The need to remove specific student data from cognitive diagnosis (CD) models has become a pressing requirement, driven by users' growing assertion of their "right to be forgotten". However, existing CD models are largely designed without privacy considerations and lack effective data unlearning mechanisms. Directly applying general purpose unlearning algorithms is suboptimal, as they struggle to balance unlearning completeness, model utility, and efficiency when confronted with the unique heterogeneous structure of CD models. To address this, our paper presents the first systematic study of the data unlearning problem for CD models, proposing a novel and efficient algorithm: hierarchical importanceguided forgetting (HIF). Our key insight is that parameter importance in CD models exhibits distinct layer wise characteristics. HIF leverages this via an innovative smoothing mechanism that combines individual and layer, level importance, enabling a more precise distinction of parameters associated with the data to be unlearned. Experiments on three real world datasets show that HIF significantly outperforms baselines on key metrics, offering the first effective solution for CD models to respond to user data removal requests and for deploying high-performance, privacy preserving AI systems</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.03665v1">A Lightweight 3D-CNN for Event-Based Human Action Recognition with Privacy-Preserving Potential</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-11-05T17:30:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mehdi Sefidgar Dilmaghani, Francis Fowley, Peter Corcoran</p>
-    <p><b>Summary:</b> This paper presents a lightweight three-dimensional convolutional neural network (3DCNN) for human activity recognition (HAR) using event-based vision data. Privacy preservation is a key challenge in human monitoring systems, as conventional frame-based cameras capture identifiable personal information. In contrast, event cameras record only changes in pixel intensity, providing an inherently privacy-preserving sensing modality. The proposed network effectively models both spatial and temporal dynamics while maintaining a compact design suitable for edge deployment. To address class imbalance and enhance generalization, focal loss with class reweighting and targeted data augmentation strategies are employed. The model is trained and evaluated on a composite dataset derived from the Toyota Smart Home and ETRI datasets. Experimental results demonstrate an F1-score of 0.9415 and an overall accuracy of 94.17%, outperforming benchmark 3D-CNN architectures such as C3D, ResNet3D, and MC3_18 by up to 3%. These results highlight the potential of event-based deep learning for developing accurate, efficient, and privacy-aware human action recognition systems suitable for real-world edge applications.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.02369v1">SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-12-02T03:20:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qingmei Li, Yang Zhang, Peifeng Zhang, Haohuan Fu, Juepeng Zheng</p>
+    <p><b>Summary:</b> Domain generalization for semantic segmentation aims to mitigate the degradation in model performance caused by domain shifts. However, in many real-world scenarios, we are unable to access the model parameters and architectural details due to privacy concerns and security constraints. Traditional fine-tuning or adaptation is hindered, leading to the demand for input-level strategies that can enhance generalization without modifying model weights. To this end, we propose a \textbf{S}tyle-\textbf{A}daptive \textbf{GE}neralization framework (\textbf{SAGE}), which improves the generalization of frozen models under privacy constraints. SAGE learns to synthesize visual prompts that implicitly align feature distributions across styles instead of directly fine-tuning the backbone. Specifically, we first utilize style transfer to construct a diverse style representation of the source domain, thereby learning a set of style characteristics that can cover a wide range of visual features. Then, the model adaptively fuses these style cues according to the visual context of each input, forming a dynamic prompt that harmonizes the image appearance without touching the interior of the model. Through this closed-loop design, SAGE effectively bridges the gap between frozen model invariance and the diversity of unseen domains. Extensive experiments on five benchmark datasets demonstrate that SAGE achieves competitive or superior performance compared to state-of-the-art methods under privacy constraints and outperforms full fine-tuning baselines in all settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.02301v1">Quantum Vanguard: Server Optimized Privacy Fortified Federated Intelligence for Future Vehicles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-02T00:43:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dev Gurung, Shiva Raj Pokhrel</p>
+    <p><b>Summary:</b> This work presents vQFL (vehicular Quantum Federated Learning), a new framework that leverages quantum machine learning techniques to tackle key privacy and security issues in autonomous vehicular networks. Furthermore, we propose a server-side adapted fine-tuning method, ft-VQFL,to achieve enhanced and more resilient performance. By integrating quantum federated learning with differential privacy and quantum key distribution (QKD), our quantum vanguard approach creates a multi-layered defense against both classical and quantum threats while preserving model utility. Extensive experimentation with industry-standard datasets (KITTI, Waymo, and nuScenes) demonstrates that vQFL maintains accuracy comparable to standard QFL while significantly improving privacy guaranties and communication security. Our implementation using various quantum models (VQC, QCNN, and SamplerQNN) reveals minimal performance overhead despite the added security measures. This work establishes a crucial foundation for quantum-resistant autonomous vehicle systems that can operate securely in the post-quantum era while efficiently processing the massive data volumes (20-40TB/day per vehicle) generated by modern autonomous fleets. The modular design of the framework allows for seamless integration with existing vehicular networks, positioning vQFL as an essential component for future intelligent transportation infrastructure.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.01832v1">A Privacy-Preserving Information-Sharing Protocol for Federated Authentication</a></h3>
