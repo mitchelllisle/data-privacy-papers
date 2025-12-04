@@ -4050,5 +4050,23 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.01115v2",
+    "title" : "Sliced Rényi Pufferfish Privacy: Directional Additive Noise Mechanism and Private Learning with Gradient Clipping",
+    "summary" : "We study privatization mechanism design and privacy accounting in the Pufferfish family, addressing two practical gaps of Renyi Pufferfish Privacy (RPP): high-dimensional optimal transport (OT) calibration and the absence of a general, mechanism-agnostic composition rule for iterative learning. We introduce Sliced Renyi Pufferfish Privacy (SRPP), which replaces high-dimensional comparisons by directional ones over a set of unit vectors, enabling geometry-aware and tractable guarantees. To calibrate noise without high-dimensional OT, we propose sliced Wasserstein mechanisms that compute per-direction (1-D) sensitivities, yielding closed-form, statistically stable, and anisotropic calibrations. We further define SRPP Envelope (SRPE) as computable upper bounds that are tightly implementable by these sliced Wasserstein mechanisms. For iterative deep learning algorithms, we develop a decompose-then-compose SRPP-SGD scheme with gradient clipping based on a History-Uniform Cap (HUC), a pathwise bound on one-step directional changes that is uniform over optimization history, and a mean-square variant (ms-HUC) that leverages subsampling randomness to obtain on-average SRPP guarantees with improved utility. The resulting HUC and ms-HUC accountants aggregate per-iteration, per-direction Renyi costs and integrate naturally with moments-accountant style analyses. Finally, when multiple mechanisms are trained and privatized independently under a common slicing geometry, our analysis yields graceful additive composition in both worst-case and mean-square regimes. Our experiments indicate that the proposed SRPP-based methods achieve favorable privacy-utility trade-offs in both static and iterative settings.",
+    "updated" : "2025-12-02T19:44:01Z",
+    "published" : "2025-11-30T22:22:29Z",
+    "authors" : [
+      {
+        "name" : "Tao Zhang"
+      },
+      {
+        "name" : "Yevgeniy Vorobeychik"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
