@@ -2,7 +2,7 @@
 <h2>2025-11</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.01115v1">Sliced Rényi Pufferfish Privacy: Directional Additive Noise Mechanism and Private Learning with Gradient Clipping</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.01115v2">Sliced Rényi Pufferfish Privacy: Directional Additive Noise Mechanism and Private Learning with Gradient Clipping</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-30T22:22:29Z</p>
   <details>
@@ -1067,104 +1067,94 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.06363v1">Privacy-Preserving Federated Learning for Fair and Efficient Urban Traffic Optimization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> 
-  <p><b>Published on:</b> 2025-11-09T13:03:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rathin Chandra Shit, Sharmila Subudhi</p>
-    <p><b>Summary:</b> The optimization of urban traffic is threatened by the complexity of achieving a balance between transport efficiency and the maintenance of privacy, as well as the equitable distribution of traffic based on socioeconomically diverse neighborhoods. Current centralized traffic management schemes invade user location privacy and further entrench traffic disparity by offering disadvantaged route suggestions, whereas current federated learning frameworks do not consider fairness constraints in multi-objective traffic settings. This study presents a privacy-preserving federated learning framework, termed FedFair-Traffic, that jointly and simultaneously optimizes travel efficiency, traffic fairness, and differential privacy protection. This is the first attempt to integrate three conflicting objectives to improve urban transportation systems. The proposed methodology enables collaborative learning between related vehicles with data locality by integrating Graph Neural Networks with differential privacy mechanisms ($ε$-privacy guarantees) and Gini coefficient-based fair constraints using multi-objective optimization. The framework uses federated aggregation methods of gradient clipping and noise injection to provide differential privacy and optimize Pareto-efficient solutions for the efficiency-fairness tradeoff. Real-world comprehensive experiments on the METR-LA traffic dataset showed that FedFair-Traffic can reduce the average travel time by 7\% (14.2 minutes) compared with their centralized baselines, promote traffic fairness by 73\% (Gini coefficient, 0.78), and offer high privacy protection (privacy score, 0.8) with an 89\% reduction in communication overhead. These outcomes demonstrate that FedFair-Traffic is a scalable privacy-aware smart city infrastructure with possible use-cases in metropolitan traffic flow control and federated transportation networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.06305v1">Setting $\varepsilon$ is not the Issue in Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-09T10:03:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Edwige Cyffers</p>
-    <p><b>Summary:</b> This position paper argues that setting the privacy budget in differential privacy should not be viewed as an important limitation of differential privacy compared to alternative methods for privacy-preserving machine learning. The so-called problem of interpreting the privacy budget is often presented as a major hindrance to the wider adoption of differential privacy in real-world deployments and is sometimes used to promote alternative mitigation techniques for data protection. We believe this misleads decision-makers into choosing unsafe methods. We argue that the difficulty in interpreting privacy budgets does not stem from the definition of differential privacy itself, but from the intrinsic difficulty of estimating privacy risks in context, a challenge that any rigorous method for privacy risk assessment face. Moreover, we claim that any sound method for estimating privacy risks should, given the current state of research, be expressible within the differential privacy framework or justify why it cannot.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.06231v1">Synheart Emotion: Privacy-Preserving On-Device Emotion Recognition from Biosignals</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-09T05:15:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Henok Ademtew, Israel Goytom</p>
-    <p><b>Summary:</b> Human-computer interaction increasingly demands systems that recognize not only explicit user inputs but also implicit emotional states. While substantial progress has been made in affective computing, most emotion recognition systems rely on cloud-based inference, introducing privacy vulnerabilities and latency constraints unsuitable for real-time applications. This work presents a comprehensive evaluation of machine learning architectures for on-device emotion recognition from wrist-based photoplethysmography (PPG), systematically comparing different models spanning classical ensemble methods, deep neural networks, and transformers on the WESAD stress detection dataset. Results demonstrate that classical ensemble methods substantially outperform deep learning on small physiological datasets, with ExtraTrees achieving F1 = 0.826 on combined features and F1 = 0.623 on wrist-only features, compared to transformers achieving only F1 = 0.509-0.577. We deploy the wrist-only ExtraTrees model optimized via ONNX conversion, achieving a 4.08 MB footprint, 0.05 ms inference latency, and 152x speedup over the original implementation. Furthermore, ONNX optimization yields a 30.5% average storage reduction and 40.1x inference speedup, highlighting the feasibility of privacy-preserving on-device emotion recognition for real-world wearables.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.06064v1">A Privacy-Preserving Federated Learning Method with Homomorphic Encryption in Omics Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-11-08T16:18:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yusaku Negoya, Feifei Cui, Zilong Zhang, Miao Pan, Tomoaki Ohtsuki, Aohan Li</p>
-    <p><b>Summary:</b> Omics data is widely employed in medical research to identify disease mechanisms and contains highly sensitive personal information. Federated Learning (FL) with Differential Privacy (DP) can ensure the protection of omics data privacy against malicious user attacks. However, FL with the DP method faces an inherent trade-off: stronger privacy protection degrades predictive accuracy due to injected noise. On the other hand, Homomorphic Encryption (HE) allows computations on encrypted data and enables aggregation of encrypted gradients without DP-induced noise can increase the predictive accuracy. However, it may increase the computation cost. To improve the predictive accuracy while considering the computational ability of heterogeneous clients, we propose a Privacy-Preserving Machine Learning (PPML)-Hybrid method by introducing HE. In the proposed PPML-Hybrid method, clients distributed select either HE or DP based on their computational resources, so that HE clients contribute noise-free updates while DP clients reduce computational overhead. Meanwhile, clients with high computational resources clients can flexibly adopt HE or DP according to their privacy needs. Performance evaluation on omics datasets show that our proposed method achieves comparable predictive accuracy while significantly reducing computation time relative to HE-only. Additionally, it outperforms DP-only methods under equivalent or stricter privacy budgets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.05327v1">Privacy-Preserving Cramér-Rao Lower Bound</a></h3>
-  
-  <p><b>Published on:</b> 2025-11-07T15:26:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jieming Ke, Jimin Wang, Ji-Feng Zhang</p>
-    <p><b>Summary:</b> This paper establishes the privacy-preserving Cramér-Rao (CR) lower bound theory, characterizing the fundamental limit of identification accuracy under privacy constraint. An identifiability criterion under privacy constraint is derived by using Fisher information matrix as the privacy metric. In the identifiable case, the privacy-preserving CR lower bound is established and its attainability is demonstrated, thereby ensuring the existence of the privacy-preserving Fisher information matrix with explicit expression. Then, the privacy-preserving CR lower bound theory is extended to the multi-sensor multi-measurement system. Specifically, the additivity principle of privacy-preserving Fisher information matrices across both spatial and temporal dimensions is established, building a relationship between privacy-preserving CR lower bounds for the multi-sensor multi-measurement system and its subsystems. Using this additivity principle, distributed identification algorithms capable of achieving the privacy-preserving CR lower bound are further proposed. Numerical examples are provided to demonstrate the privacy-preserving CR lower bound and show the effectiveness of the proposed algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.05092v1">A Dual-stage Prompt-driven Privacy-preserving Paradigm for Person Re-Identification</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-11-07T09:17:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruolin Li, Min Liu, Yuan Bian, Zhaoyang Li, Yuzhen Li, Xueping Wang, Yaonan Wang</p>
-    <p><b>Summary:</b> With growing concerns over data privacy, researchers have started using virtual data as an alternative to sensitive real-world images for training person re-identification (Re-ID) models. However, existing virtual datasets produced by game engines still face challenges such as complex construction and poor domain generalization, making them difficult to apply in real scenarios. To address these challenges, we propose a Dual-stage Prompt-driven Privacy-preserving Paradigm (DPPP). In the first stage, we generate rich prompts incorporating multi-dimensional attributes such as pedestrian appearance, illumination, and viewpoint that drive the diffusion model to synthesize diverse data end-to-end, building a large-scale virtual dataset named GenePerson with 130,519 images of 6,641 identities. In the second stage, we propose a Prompt-driven Disentanglement Mechanism (PDM) to learn domain-invariant generalization features. With the aid of contrastive learning, we employ two textual inversion networks to map images into pseudo-words representing style and content, respectively, thereby constructing style-disentangled content prompts to guide the model in learning domain-invariant content features at the image level. Experiments demonstrate that models trained on GenePerson with PDM achieve state-of-the-art generalization performance, surpassing those on popular real and virtual Re-ID datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.04438v1">Limiting one-way distillable secret key via privacy testing of extendible states</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2025-11-06T15:11:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vishal Singh, Karol Horodecki, Aby Philip, Mark M. Wilde</p>
-    <p><b>Summary:</b> The notions of privacy tests and $k$-extendible states have both been instrumental in quantum information theory, particularly in understanding the limits of secure communication. In this paper, we determine the maximum probability with which an arbitrary $k$-extendible state can pass a privacy test, and we prove that it is equal to the maximum fidelity between an arbitrary $k$-extendible state and the standard maximally entangled state. Our findings, coupled with the resource theory of $k$-unextendibility, lead to an efficiently computable upper bound on the one-shot, one-way distillable key of a bipartite state, and we prove that it is equal to the best-known efficiently computable upper bound on the one-shot, one-way distillable entanglement. We also establish efficiently computable upper bounds on the one-shot, forward-assisted private capacity of channels. Extending our formalism to the independent and identically distributed setting, we obtain single-letter efficiently computable bounds on the $n$-shot, one-way distillable key of a state and the $n$-shot, forward-assisted private capacity of a channel. For some key examples of interest, our bounds are significantly tighter than other known efficiently computable bounds.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.04261v1">A Parallel Region-Adaptive Differential Privacy Framework for Image Pixelization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-06T10:51:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ming Liu</p>
-    <p><b>Summary:</b> The widespread deployment of high-resolution visual sensing systems, coupled with the rise of foundation models, has amplified privacy risks in video-based applications. Differentially private pixelization offers mathematically guaranteed protection for visual data through grid-based noise addition, but challenges remain in preserving task-relevant fidelity, achieving scalability, and enabling efficient real-time deployment. To address this, we propose a novel parallel, region-adaptive pixelization framework that combines the theoretical rigor of differential privacy with practical efficiency. Our method adaptively adjusts grid sizes and noise scales based on regional complexity, leveraging GPU parallelism to achieve significant runtime acceleration compared to the classical baseline. A lightweight storage scheme is introduced by retaining only essential noisy statistics, significantly reducing space overhead. Formal privacy analysis is provided under the Laplace mechanism and parallel composition theorem. Extensive experiments on the PETS, Venice-2, and PPM-100 datasets demonstrate favorable privacy-utility trade-offs and significant runtime/storage reductions. A face re-identification attack experiment on CelebA further confirms the method's effectiveness in preventing identity inference. This validates its suitability for real-time privacy-critical applications such as elderly care, smart home monitoring, driver behavior analysis, and crowd behavior monitoring.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03793v1">The enshittification of online search? Privacy and quality of Google, Bing and Apple in coding advice</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2025-12-03T13:42:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Konrad Kollnig</p>
+    <p><b>Summary:</b> Even though currently being challenged by ChatGPT and other large-language models (LLMs), Google Search remains one of the primary means for many individuals to find information on the internet. Interestingly, the way that we retrieve information on the web has hardly changed ever since Google was established in 1998, raising concerns as to Google's dominance in search and lack of competition. If the market for search was sufficiently competitive, then we should probably see a steady increase in search quality over time as well as alternative approaches to the Google's approach to search. However, hardly any research has so far looked at search quality, which is a key facet of a competitive market, especially not over time.
+  In this report, we conducted a relatively large-scale quantitative comparison of search quality of 1,467 search queries relating to coding advice in October 2023. We focus on coding advice because the study of general search quality is difficult, with the aim of learning more about the assessment of search quality and motivating follow-up research into this important topic. We evaluate the search quality of Google Search, Microsoft Bing, and Apple Search, with a special emphasis on Apple Search, a widely used search engine that has never been explored in previous research. For the assessment of search quality, we use two independent metrics of search quality: 1) the number of trackers on the first search result, as a measure of privacy in web search, and 2) the average rank of the first Stack Overflow search result, under the assumption that Stack Overflow gives the best coding advice. Our results suggest that the privacy of search results is higher on Bing than on Google and Apple. Similarly, the quality of coding advice -- as measured by the average rank of Stack Overflow -- was highest on Bing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03791v1">CCN: Decentralized Cross-Chain Channel Networks Supporting Secure and Privacy-Preserving Multi-Hop Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-03T13:41:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minghui Xu, Yihao Guo, Yanqiang Zhang, Zhiguang Shan, Guangyong Shang, Zhen Ma, Bin Xiao, Xiuzhen Cheng</p>
+    <p><b>Summary:</b> Cross-chain technology enables interoperability among otherwise isolated blockchains, supporting interactions across heterogeneous networks. Similar to how multi-hop communication became fundamental in the evolution of the Internet, the demand for multi-hop cross-chain interactions is gaining increasing attention. However, this growing demand introduces new security and privacy challenges. On the security side, multi-hop interactions depend on the availability of multiple participating nodes. If any node becomes temporarily offline during execution, the protocol may fail to complete correctly, leading to settlement failure or fund loss. On the privacy side, the need for on-chain transparency to validate intermediate states may unintentionally leak linkable information, compromising the unlinkability of user interactions. In this paper, we propose the Cross-Chain Channel Network (CCN), a decentralized network designed to support secure and privacy-preserving multi-hop cross-chain transactions. Through experimental evaluation, we identify two critical types of offline failures, referred to as active and passive offline cases, which have not been adequately addressed by existing solutions. To mitigate these issues, we introduce R-HTLC, a core protocol within CCN. R-HTLC incorporates an hourglass mechanism and a multi-path refund strategy to ensure settlement correctness even when some nodes go offline during execution. Importantly, CCN addresses not only the correctness under offline conditions but also maintains unlinkability in such adversarial settings. To overcome this, CCN leverages zero-knowledge proofs and off-chain coordination, ensuring that interaction relationships remain indistinguishable even when certain nodes are temporarily offline.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03694v1">SRPG: Semantically Reconstructed Privacy Guard for Zero-Trust Privacy in Educational Multi-Agent Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2025-12-03T11:36:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuang Guo, Zihui Li</p>
+    <p><b>Summary:</b> Multi-Agent Systems (MAS) with large language models (LLMs) enable personalized education but risk leaking minors personally identifiable information (PII) via unstructured dialogue. Existing privacy methods struggle to balance security and utility: role-based access control fails on unstructured text, while naive masking destroys pedagogical context. We propose SRPG, a privacy guard for educational MAS, using a Dual-Stream Reconstruction Mechanism: a strict sanitization stream ensures zero PII leakage, and a context reconstruction stream (LLM driven) recovers mathematical logic. This decouples instructional content from private data, preserving teaching efficacy. Tests on MathDial show SRPG works across models; with GPT-4o, it achieves 0.0000 Attack Success Rate (ASR) (zero leakage) and 0.8267 Exact Match, far outperforming the zero trust Pure LLM baseline (0.2138). SRPG effectively protects minors privacy without sacrificing mathematical instructional quality.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03669v1">Towards Privacy-Preserving Range Queries with Secure Learned Spatial Index over Encrypted Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2025-12-03T10:59:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zuan Wang, Juntao Lu, Jiazhuang Wu, Youliang Tian, Wei Song, Qiuxian Li, Duo Zhang</p>
+    <p><b>Summary:</b> With the growing reliance on cloud services for large-scale data management, preserving the security and privacy of outsourced datasets has become increasingly critical. While encrypting data and queries can prevent direct content exposure, recent research reveals that adversaries can still infer sensitive information via access pattern and search path analysis. However, existing solutions that offer strong access pattern privacy often incur substantial performance overhead. In this paper, we propose a novel privacy-preserving range query scheme over encrypted datasets, offering strong security guarantees while maintaining high efficiency. To achieve this, we develop secure learned spatial index (SLS-INDEX), a secure learned index that integrates the Paillier cryptosystem with a hierarchical prediction architecture and noise-injected buckets, enabling data-aware query acceleration in the encrypted domain. To further obfuscate query execution paths, SLS-INDEXbased Range Queries (SLRQ) employs a permutation-based secure bucket prediction protocol. Additionally, we introduce a secure point extraction protocol that generates candidate results to reduce the overhead of secure computation. We provide formal security analysis under realistic leakage functions and implement a prototype to evaluate its practical performance. Extensive experiments on both real-world and synthetic datasets demonstrate that SLRQ significantly outperforms existing solutions in query efficiency while ensuring dataset, query, result, and access pattern privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03358v1">Scaling Trust in Quantum Federated Learning: A Multi-Protocol Privacy Design</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-03T01:45:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dev Gurung, Shiva Raj Pokhrel</p>
+    <p><b>Summary:</b> Quantum Federated Learning (QFL) promises to revolutionize distributed machine learning by combining the computational power of quantum devices with collaborative model training. Yet, privacy of both data and models remains a critical challenge. In this work, we propose a privacy-preserving QFL framework where a network of $n$ quantum devices trains local models and transmits them to a central server under a multi-layered privacy protocol. Our design leverages Singular Value Decomposition (SVD), Quantum Key Distribution (QKD), and Analytic Quantum Gradient Descent (AQGD) to secure data preparation, model sharing, and training stages. Through theoretical analysis and experiments on contemporary quantum platforms and datasets, we demonstrate that the framework robustly safeguards data and model confidentiality while maintaining training efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03238v1">How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2025-12-02T21:14:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Natalia Ponomareva, Zheng Xu, H. Brendan McMahan, Peter Kairouz, Lucas Rosenblatt, Vincent Cohen-Addad, Cristóbal Guzmán, Ryan McKenna, Galen Andrew, Alex Bie, Da Yu, Alex Kurakin, Morteza Zadimoghaddam, Sergei Vassilvitskii, Andreas Terzis</p>
+    <p><b>Summary:</b> High quality data is needed to unlock the full potential of AI for end users. However finding new sources of such data is getting harder: most publicly-available human generated data will soon have been used. Additionally, publicly available data often is not representative of users of a particular system -- for example, a research speech dataset of contractors interacting with an AI assistant will likely be more homogeneous, well articulated and self-censored than real world commands that end users will issue. Therefore unlocking high-quality data grounded in real user interactions is of vital interest. However, the direct use of user data comes with significant privacy risks. Differential Privacy (DP) is a well established framework for reasoning about and limiting information leakage, and is a gold standard for protecting user privacy. The focus of this work, \emph{Differentially Private Synthetic data}, refers to synthetic data that preserves the overall trends of source data,, while providing strong privacy guarantees to individuals that contributed to the source dataset. DP synthetic data can unlock the value of datasets that have previously been inaccessible due to privacy concerns and can replace the use of sensitive datasets that previously have only had rudimentary protections like ad-hoc rule-based anonymization.
+  In this paper we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections they offer and the state-of-the-art for various modalities (image, tabular, text and decentralized). We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use and empirical privacy testing. We hope that work will result in increased adoption of DP synthetic data, spur additional research and increase trust in DP synthetic data approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03207v1">Technical Report: The Need for a (Research) Sandstorm through the Privacy Sandbox</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-02T20:14:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yohan Beugin, Patrick McDaniel</p>
+    <p><b>Summary:</b> The Privacy Sandbox, launched in 2019, is a series of proposals from Google to reduce ``cross-site and cross-app tracking while helping to keep online content and services free for all''. Over the years, Google implemented, experimented, and deprecated some of these APIs into their own products (Chrome, Android, etc.) which raised concerns about the potential of these mechanisms to fundamentally disrupt the advertising, mobile, and web ecosystems. As a result, it is paramount for researchers to understand the consequences that these new technologies, and future ones, will have on billions of users if and when deployed. In this report, we outline our call for privacy, security, usability, and utility evaluations of these APIs, our efforts materialized through the creation and operation of Privacy Sandstorm (https://privacysandstorm.github.io); a research portal to systematically gather resources (overview, analyses, artifacts, etc.) about such proposals. We find that our inventory provides a better visibility and broader perspective on the research findings in that space than what Google lets show through official channels.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.02369v1">SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains</a></h3>
@@ -1186,6 +1176,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Dev Gurung, Shiva Raj Pokhrel</p>
     <p><b>Summary:</b> This work presents vQFL (vehicular Quantum Federated Learning), a new framework that leverages quantum machine learning techniques to tackle key privacy and security issues in autonomous vehicular networks. Furthermore, we propose a server-side adapted fine-tuning method, ft-VQFL,to achieve enhanced and more resilient performance. By integrating quantum federated learning with differential privacy and quantum key distribution (QKD), our quantum vanguard approach creates a multi-layered defense against both classical and quantum threats while preserving model utility. Extensive experimentation with industry-standard datasets (KITTI, Waymo, and nuScenes) demonstrates that vQFL maintains accuracy comparable to standard QFL while significantly improving privacy guaranties and communication security. Our implementation using various quantum models (VQC, QCNN, and SamplerQNN) reveals minimal performance overhead despite the added security measures. This work establishes a crucial foundation for quantum-resistant autonomous vehicle systems that can operate securely in the post-quantum era while efficiently processing the massive data volumes (20-40TB/day per vehicle) generated by modern autonomous fleets. The modular design of the framework allows for seamless integration with existing vehicular networks, positioning vQFL as an essential component for future intelligent transportation infrastructure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.03100v1">Ensemble Privacy Defense for Knowledge-Intensive LLMs against Membership Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-01T18:12:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haowei Fu, Bo Ni, Han Xu, Kunpeng Liu, Dan Lin, Tyler Derr</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) and Supervised Finetuning (SFT) have become the predominant paradigms for equipping Large Language Models (LLMs) with external knowledge for diverse, knowledge-intensive tasks. However, while such knowledge injection improves performance, it also exposes new attack surfaces. Membership Inference Attacks (MIAs), which aim to determine whether a given data sample was included in a model's training set, pose serious threats to privacy and trust in sensitive domains. To this end, we first systematically evaluate the vulnerability of RAG- and SFT-based LLMs to various MIAs. Then, to address the privacy risk, we further introduce a novel, model-agnostic defense framework, Ensemble Privacy Defense (EPD), which aggregates and evaluates the outputs of a knowledge-injected LLM, a base LLM, and a dedicated judge model to enhance resistance against MIAs. Comprehensive experiments show that, on average, EPD reduces MIA success by up to 27.8\% for SFT and 526.3\% for RAG compared to inference-time baseline, while maintaining answer quality.</p>
   </details>
 </div>
 
