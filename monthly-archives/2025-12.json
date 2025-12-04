@@ -79,5 +79,235 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03793v1",
+    "title" : "The enshittification of online search? Privacy and quality of Google, Bing and Apple in coding advice",
+    "summary" : "Even though currently being challenged by ChatGPT and other large-language models (LLMs), Google Search remains one of the primary means for many individuals to find information on the internet. Interestingly, the way that we retrieve information on the web has hardly changed ever since Google was established in 1998, raising concerns as to Google's dominance in search and lack of competition. If the market for search was sufficiently competitive, then we should probably see a steady increase in search quality over time as well as alternative approaches to the Google's approach to search. However, hardly any research has so far looked at search quality, which is a key facet of a competitive market, especially not over time.\n  In this report, we conducted a relatively large-scale quantitative comparison of search quality of 1,467 search queries relating to coding advice in October 2023. We focus on coding advice because the study of general search quality is difficult, with the aim of learning more about the assessment of search quality and motivating follow-up research into this important topic. We evaluate the search quality of Google Search, Microsoft Bing, and Apple Search, with a special emphasis on Apple Search, a widely used search engine that has never been explored in previous research. For the assessment of search quality, we use two independent metrics of search quality: 1) the number of trackers on the first search result, as a measure of privacy in web search, and 2) the average rank of the first Stack Overflow search result, under the assumption that Stack Overflow gives the best coding advice. Our results suggest that the privacy of search results is higher on Bing than on Google and Apple. Similarly, the quality of coding advice -- as measured by the average rank of Stack Overflow -- was highest on Bing.",
+    "updated" : "2025-12-03T13:42:22Z",
+    "published" : "2025-12-03T13:42:22Z",
+    "authors" : [
+      {
+        "name" : "Konrad Kollnig"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03791v1",
+    "title" : "CCN: Decentralized Cross-Chain Channel Networks Supporting Secure and Privacy-Preserving Multi-Hop Interactions",
+    "summary" : "Cross-chain technology enables interoperability among otherwise isolated blockchains, supporting interactions across heterogeneous networks. Similar to how multi-hop communication became fundamental in the evolution of the Internet, the demand for multi-hop cross-chain interactions is gaining increasing attention. However, this growing demand introduces new security and privacy challenges. On the security side, multi-hop interactions depend on the availability of multiple participating nodes. If any node becomes temporarily offline during execution, the protocol may fail to complete correctly, leading to settlement failure or fund loss. On the privacy side, the need for on-chain transparency to validate intermediate states may unintentionally leak linkable information, compromising the unlinkability of user interactions. In this paper, we propose the Cross-Chain Channel Network (CCN), a decentralized network designed to support secure and privacy-preserving multi-hop cross-chain transactions. Through experimental evaluation, we identify two critical types of offline failures, referred to as active and passive offline cases, which have not been adequately addressed by existing solutions. To mitigate these issues, we introduce R-HTLC, a core protocol within CCN. R-HTLC incorporates an hourglass mechanism and a multi-path refund strategy to ensure settlement correctness even when some nodes go offline during execution. Importantly, CCN addresses not only the correctness under offline conditions but also maintains unlinkability in such adversarial settings. To overcome this, CCN leverages zero-knowledge proofs and off-chain coordination, ensuring that interaction relationships remain indistinguishable even when certain nodes are temporarily offline.",
+    "updated" : "2025-12-03T13:41:02Z",
+    "published" : "2025-12-03T13:41:02Z",
+    "authors" : [
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Yihao Guo"
+      },
+      {
+        "name" : "Yanqiang Zhang"
+      },
+      {
+        "name" : "Zhiguang Shan"
+      },
+      {
+        "name" : "Guangyong Shang"
+      },
+      {
+        "name" : "Zhen Ma"
+      },
+      {
+        "name" : "Bin Xiao"
+      },
+      {
+        "name" : "Xiuzhen Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03694v1",
+    "title" : "SRPG: Semantically Reconstructed Privacy Guard for Zero-Trust Privacy in Educational Multi-Agent Systems",
+    "summary" : "Multi-Agent Systems (MAS) with large language models (LLMs) enable personalized education but risk leaking minors personally identifiable information (PII) via unstructured dialogue. Existing privacy methods struggle to balance security and utility: role-based access control fails on unstructured text, while naive masking destroys pedagogical context. We propose SRPG, a privacy guard for educational MAS, using a Dual-Stream Reconstruction Mechanism: a strict sanitization stream ensures zero PII leakage, and a context reconstruction stream (LLM driven) recovers mathematical logic. This decouples instructional content from private data, preserving teaching efficacy. Tests on MathDial show SRPG works across models; with GPT-4o, it achieves 0.0000 Attack Success Rate (ASR) (zero leakage) and 0.8267 Exact Match, far outperforming the zero trust Pure LLM baseline (0.2138). SRPG effectively protects minors privacy without sacrificing mathematical instructional quality.",
+    "updated" : "2025-12-03T11:36:33Z",
+    "published" : "2025-12-03T11:36:33Z",
+    "authors" : [
+      {
+        "name" : "Shuang Guo"
+      },
+      {
+        "name" : "Zihui Li"
+      }
+    ],
+    "categories" : [
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03669v1",
+    "title" : "Towards Privacy-Preserving Range Queries with Secure Learned Spatial Index over Encrypted Data",
+    "summary" : "With the growing reliance on cloud services for large-scale data management, preserving the security and privacy of outsourced datasets has become increasingly critical. While encrypting data and queries can prevent direct content exposure, recent research reveals that adversaries can still infer sensitive information via access pattern and search path analysis. However, existing solutions that offer strong access pattern privacy often incur substantial performance overhead. In this paper, we propose a novel privacy-preserving range query scheme over encrypted datasets, offering strong security guarantees while maintaining high efficiency. To achieve this, we develop secure learned spatial index (SLS-INDEX), a secure learned index that integrates the Paillier cryptosystem with a hierarchical prediction architecture and noise-injected buckets, enabling data-aware query acceleration in the encrypted domain. To further obfuscate query execution paths, SLS-INDEXbased Range Queries (SLRQ) employs a permutation-based secure bucket prediction protocol. Additionally, we introduce a secure point extraction protocol that generates candidate results to reduce the overhead of secure computation. We provide formal security analysis under realistic leakage functions and implement a prototype to evaluate its practical performance. Extensive experiments on both real-world and synthetic datasets demonstrate that SLRQ significantly outperforms existing solutions in query efficiency while ensuring dataset, query, result, and access pattern privacy.",
+    "updated" : "2025-12-03T10:59:40Z",
+    "published" : "2025-12-03T10:59:40Z",
+    "authors" : [
+      {
+        "name" : "Zuan Wang"
+      },
+      {
+        "name" : "Juntao Lu"
+      },
+      {
+        "name" : "Jiazhuang Wu"
+      },
+      {
+        "name" : "Youliang Tian"
+      },
+      {
+        "name" : "Wei Song"
+      },
+      {
+        "name" : "Qiuxian Li"
+      },
+      {
+        "name" : "Duo Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03358v1",
+    "title" : "Scaling Trust in Quantum Federated Learning: A Multi-Protocol Privacy Design",
+    "summary" : "Quantum Federated Learning (QFL) promises to revolutionize distributed machine learning by combining the computational power of quantum devices with collaborative model training. Yet, privacy of both data and models remains a critical challenge. In this work, we propose a privacy-preserving QFL framework where a network of $n$ quantum devices trains local models and transmits them to a central server under a multi-layered privacy protocol. Our design leverages Singular Value Decomposition (SVD), Quantum Key Distribution (QKD), and Analytic Quantum Gradient Descent (AQGD) to secure data preparation, model sharing, and training stages. Through theoretical analysis and experiments on contemporary quantum platforms and datasets, we demonstrate that the framework robustly safeguards data and model confidentiality while maintaining training efficiency.",
+    "updated" : "2025-12-03T01:45:48Z",
+    "published" : "2025-12-03T01:45:48Z",
+    "authors" : [
+      {
+        "name" : "Dev Gurung"
+      },
+      {
+        "name" : "Shiva Raj Pokhrel"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03238v1",
+    "title" : "How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy",
+    "summary" : "High quality data is needed to unlock the full potential of AI for end users. However finding new sources of such data is getting harder: most publicly-available human generated data will soon have been used. Additionally, publicly available data often is not representative of users of a particular system -- for example, a research speech dataset of contractors interacting with an AI assistant will likely be more homogeneous, well articulated and self-censored than real world commands that end users will issue. Therefore unlocking high-quality data grounded in real user interactions is of vital interest. However, the direct use of user data comes with significant privacy risks. Differential Privacy (DP) is a well established framework for reasoning about and limiting information leakage, and is a gold standard for protecting user privacy. The focus of this work, \\emph{Differentially Private Synthetic data}, refers to synthetic data that preserves the overall trends of source data,, while providing strong privacy guarantees to individuals that contributed to the source dataset. DP synthetic data can unlock the value of datasets that have previously been inaccessible due to privacy concerns and can replace the use of sensitive datasets that previously have only had rudimentary protections like ad-hoc rule-based anonymization.\n  In this paper we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections they offer and the state-of-the-art for various modalities (image, tabular, text and decentralized). We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use and empirical privacy testing. We hope that work will result in increased adoption of DP synthetic data, spur additional research and increase trust in DP synthetic data approaches.",
+    "updated" : "2025-12-02T21:14:39Z",
+    "published" : "2025-12-02T21:14:39Z",
+    "authors" : [
+      {
+        "name" : "Natalia Ponomareva"
+      },
+      {
+        "name" : "Zheng Xu"
+      },
+      {
+        "name" : "H. Brendan McMahan"
+      },
+      {
+        "name" : "Peter Kairouz"
+      },
+      {
+        "name" : "Lucas Rosenblatt"
+      },
+      {
+        "name" : "Vincent Cohen-Addad"
+      },
+      {
+        "name" : "Cristóbal Guzmán"
+      },
+      {
+        "name" : "Ryan McKenna"
+      },
+      {
+        "name" : "Galen Andrew"
+      },
+      {
+        "name" : "Alex Bie"
+      },
+      {
+        "name" : "Da Yu"
+      },
+      {
+        "name" : "Alex Kurakin"
+      },
+      {
+        "name" : "Morteza Zadimoghaddam"
+      },
+      {
+        "name" : "Sergei Vassilvitskii"
+      },
+      {
+        "name" : "Andreas Terzis"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03207v1",
+    "title" : "Technical Report: The Need for a (Research) Sandstorm through the Privacy Sandbox",
+    "summary" : "The Privacy Sandbox, launched in 2019, is a series of proposals from Google to reduce ``cross-site and cross-app tracking while helping to keep online content and services free for all''. Over the years, Google implemented, experimented, and deprecated some of these APIs into their own products (Chrome, Android, etc.) which raised concerns about the potential of these mechanisms to fundamentally disrupt the advertising, mobile, and web ecosystems. As a result, it is paramount for researchers to understand the consequences that these new technologies, and future ones, will have on billions of users if and when deployed. In this report, we outline our call for privacy, security, usability, and utility evaluations of these APIs, our efforts materialized through the creation and operation of Privacy Sandstorm (https://privacysandstorm.github.io); a research portal to systematically gather resources (overview, analyses, artifacts, etc.) about such proposals. We find that our inventory provides a better visibility and broader perspective on the research findings in that space than what Google lets show through official channels.",
+    "updated" : "2025-12-02T20:14:44Z",
+    "published" : "2025-12-02T20:14:44Z",
+    "authors" : [
+      {
+        "name" : "Yohan Beugin"
+      },
+      {
+        "name" : "Patrick McDaniel"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.03100v1",
+    "title" : "Ensemble Privacy Defense for Knowledge-Intensive LLMs against Membership Inference Attacks",
+    "summary" : "Retrieval-Augmented Generation (RAG) and Supervised Finetuning (SFT) have become the predominant paradigms for equipping Large Language Models (LLMs) with external knowledge for diverse, knowledge-intensive tasks. However, while such knowledge injection improves performance, it also exposes new attack surfaces. Membership Inference Attacks (MIAs), which aim to determine whether a given data sample was included in a model's training set, pose serious threats to privacy and trust in sensitive domains. To this end, we first systematically evaluate the vulnerability of RAG- and SFT-based LLMs to various MIAs. Then, to address the privacy risk, we further introduce a novel, model-agnostic defense framework, Ensemble Privacy Defense (EPD), which aggregates and evaluates the outputs of a knowledge-injected LLM, a base LLM, and a dedicated judge model to enhance resistance against MIAs. Comprehensive experiments show that, on average, EPD reduces MIA success by up to 27.8\\% for SFT and 526.3\\% for RAG compared to inference-time baseline, while maintaining answer quality.",
+    "updated" : "2025-12-01T18:12:18Z",
+    "published" : "2025-12-01T18:12:18Z",
+    "authors" : [
+      {
+        "name" : "Haowei Fu"
+      },
+      {
+        "name" : "Bo Ni"
+      },
+      {
+        "name" : "Han Xu"
+      },
+      {
+        "name" : "Kunpeng Liu"
+      },
+      {
+        "name" : "Dan Lin"
+      },
+      {
+        "name" : "Tyler Derr"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
