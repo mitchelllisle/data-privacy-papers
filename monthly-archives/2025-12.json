@@ -309,5 +309,110 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05065v1",
+    "title" : "Personalizing Agent Privacy Decisions via Logical Entailment",
+    "summary" : "Personal language model-based agents are becoming more widespread for completing tasks on behalf of users; however, this raises serious privacy questions regarding whether these models will appropriately disclose user data. While prior work has evaluated language models on data-sharing scenarios based on general privacy norms, we focus on personalizing language models' privacy decisions, grounding their judgments directly in prior user privacy decisions. Our findings suggest that general privacy norms are insufficient for effective personalization of privacy decisions. Furthermore, we find that eliciting privacy judgments from the model through In-context Learning (ICL) is unreliable to due misalignment with the user's prior privacy judgments and opaque reasoning traces, which make it difficult for the user to interpret the reasoning behind the model's decisions. To address these limitations, we propose ARIEL (Agentic Reasoning with Individualized Entailment Logic), a framework that jointly leverages a language model and rule-based logic for structured data-sharing reasoning. ARIEL is based on formulating personalization of data sharing as an entailment, whether a prior user judgment on a data-sharing request implies the same judgment for an incoming request. Our experimental evaluations on advanced models and publicly-available datasets demonstrate that ARIEL can reduce the F1 score error by $\\textbf{39.1%}$ over language model-based reasoning (ICL), demonstrating that ARIEL is effective at correctly judging requests where the user would approve data sharing. Overall, our findings suggest that combining LLMs with strict logical entailment is a highly effective strategy for enabling personalized privacy judgments for agents.",
+    "updated" : "2025-12-04T18:24:56Z",
+    "published" : "2025-12-04T18:24:56Z",
+    "authors" : [
+      {
+        "name" : "James Flemings"
+      },
+      {
+        "name" : "Ren Yi"
+      },
+      {
+        "name" : "Octavian Suciu"
+      },
+      {
+        "name" : "Kassem Fawaz"
+      },
+      {
+        "name" : "Murali Annavaram"
+      },
+      {
+        "name" : "Marco Gruteser"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05053v1",
+    "title" : "A Randomized Scheduling Framework for Privacy-Preserving Multi-robot Rendezvous given Prior Information",
+    "summary" : "Privacy has become a critical concern in modern multi-robot systems, driven by both ethical considerations and operational constraints. As a result, growing attention has been directed toward privacy-preserving coordination in dynamical multi-robot systems. This work introduces a randomized scheduling mechanism for privacy-preserving robot rendezvous. The proposed approach achieves improved privacy even at lower communication rates, where privacy is quantified via pointwise maximal leakage. We show that lower transmission rates provide stronger privacy guarantees and prove that rendezvous is still achieved under the randomized scheduling mechanism. Numerical simulations are provided to demonstrate the effectiveness of the method.",
+    "updated" : "2025-12-04T18:07:17Z",
+    "published" : "2025-12-04T18:07:17Z",
+    "authors" : [
+      {
+        "name" : "Le Liu"
+      },
+      {
+        "name" : "Yu Kawano"
+      },
+      {
+        "name" : "Ming Cao"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.04852v1",
+    "title" : "Ask Safely: Privacy-Aware LLM Query Generation for Knowledge Graphs",
+    "summary" : "Large Language Models (LLMs) are increasingly used to query knowledge graphs (KGs) due to their strong semantic understanding and extrapolation capabilities compared to traditional approaches. However, these methods cannot be applied when the KG contains sensitive data and the user lacks the resources to deploy a local generative LLM. To address this issue, we propose a privacy-aware query generation approach for KGs. Our method identifies sensitive information in the graph based on its structure and omits such values before requesting the LLM to translate natural language questions into Cypher queries. Experimental results show that our approach preserves the quality of the generated queries while preventing sensitive data from being transmitted to third-party services.",
+    "updated" : "2025-12-04T14:37:00Z",
+    "published" : "2025-12-04T14:37:00Z",
+    "authors" : [
+      {
+        "name" : "Mauro Dalle Lucca Tosi"
+      },
+      {
+        "name" : "Jordi Cabot"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.04316v1",
+    "title" : "ConsentDiff at Scale: Longitudinal Audits of Web Privacy Policy Changes and UI Frictions",
+    "summary" : "Web privacy is experienced via two public artifacts: site utterances in policy texts, and the actions users are required to take during consent interfaces. In the extensive cross-section audits we've studied, there is a lack of longitudinal data detailing how these artifacts are changing together, and if interfaces are actually doing what they promise in policy. ConsentDiff provides that longitudinal view. We build a reproducible pipeline that snapshots sites every month, semantically aligns policy clauses to track clause-level churn, and classifies consent-UI patterns by pulling together DOM signals with cues provided by screenshots. We introduce a novel weighted claim-UI alignment score, connecting common policy claims to observable predicates, and enabling comparisons over time, regions, and verticals. Our measurements suggest continued policy churn, systematic changes to eliminate a higher-friction banner design, and significantly higher alignment where rejecting is visible and lower friction.",
+    "updated" : "2025-12-03T23:05:42Z",
+    "published" : "2025-12-03T23:05:42Z",
+    "authors" : [
+      {
+        "name" : "Haoze Guo"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.04225v1",
+    "title" : "GOPHER: Optimization-based Phenotype Randomization for Genome-Wide Association Studies with Differential Privacy",
+    "summary" : "Genome-wide association studies (GWAS) are an essential tool in biomedical research for identifying genetic factors linked to health and disease. However, publicly releasing GWAS summary statistics poses well-recognized privacy risks, including the potential to infer an individual's participation in the study or to reveal sensitive phenotypic information (e.g., disease status). While differential privacy (DP) offers a rigorous mathematical framework for mitigating these risks, existing DP techniques for GWAS either introduce excessive noise or restrict the release to a limited set of results. In this work, we present practical DP mechanisms for releasing the complete set of genome-wide association statistics with privacy guarantees. We demonstrate the accuracy of the privacy-preserving statistics released by our mechanisms on a range of GWAS datasets from the UK Biobank, utilizing both real and simulated phenotypes. We introduce two key techniques to overcome the limitations of prior approaches: (1) an optimization-based randomization mechanism that directly minimizes the expected error in GWAS results to enhance utility, and (2) the use of personalized priors, derived from predictive models privately trained on a subset of the dataset, to enable sample-specific optimization which further reduces the amount of noise introduced by DP. Overall, our work provides practical tools for accurately releasing comprehensive GWAS results with provable protection of study participants.",
+    "updated" : "2025-12-03T19:44:50Z",
+    "published" : "2025-12-03T19:44:50Z",
+    "authors" : [
+      {
+        "name" : "Anupama Nandi"
+      },
+      {
+        "name" : "Seth Neel"
+      },
+      {
+        "name" : "Hyunghoon Cho"
+      }
+    ],
+    "categories" : [
+      "q-bio.QM"
+    ]
   }
 ]
