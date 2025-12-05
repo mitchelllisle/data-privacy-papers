@@ -1006,69 +1006,68 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07807v1">PRISM: Privacy-preserving Inference System with Homomorphic Encryption and Modular Activation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-11T03:57:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zeinab Elkhatib, Ali Sekmen, Kamrul Hasan</p>
-    <p><b>Summary:</b> With the rapid advancements in machine learning, models have become increasingly capable of learning and making predictions in various industries. However, deploying these models in critical infrastructures presents a major challenge, as concerns about data privacy prevent unrestricted data sharing. Homomorphic encryption (HE) offers a solution by enabling computations on encrypted data, but it remains incompatible with machine learning models like convolutional neural networks (CNNs), due to their reliance on non-linear activation functions. To bridge this gap, this work proposes an optimized framework that replaces standard non-linear functions with homomorphically compatible approximations, ensuring secure computations while minimizing computational overhead. The proposed approach restructures the CNN architecture and introduces an efficient activation function approximation method to mitigate the performance trade-offs introduced by encryption. Experiments on CIFAR-10 achieve 94.4% accuracy with 2.42 s per single encrypted sample and 24,000 s per 10,000 encrypted samples, using a degree-4 polynomial and Softplus activation under CKKS, balancing accuracy and privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07505v1">FedRW: Efficient Privacy-Preserving Data Reweighting for Enhancing Federated Learning of Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-11-10T18:29:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pukang Ye, Junwei Luo, Xiaolei Dong, Yunbo Yang</p>
-    <p><b>Summary:</b> Data duplication within large-scale corpora often impedes large language models' (LLMs) performance and privacy. In privacy-concerned federated learning scenarios, conventional deduplication methods typically rely on trusted third parties to perform uniform deletion, risking loss of informative samples while introducing privacy vulnerabilities. To address these gaps, we propose Federated ReWeighting (FedRW), the first privacy-preserving framework, to the best of our knowledge, that performs soft deduplication via sample reweighting instead of deletion in federated LLM training, without assuming a trusted third party. At its core, FedRW proposes a secure, frequency-aware reweighting protocol through secure multi-party computation, coupled with a parallel orchestration strategy to ensure efficiency and scalability. During training, FedRW utilizes an adaptive reweighting mechanism with global sample frequencies to adjust individual loss contributions, effectively improving generalization and robustness. Empirical results demonstrate that FedRW outperforms the state-of-the-art method by achieving up to 28.78x speedup in preprocessing and approximately 11.42% improvement in perplexity, while offering enhanced security guarantees. FedRW thus establishes a new paradigm for managing duplication in federated LLM training.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07242v4">Privacy on the Fly: A Predictive Adversarial Transformation Network for Mobile Sensor Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-10T15:57:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tianle Song, Chenhao Lin, Yang Cao, Zhengyu Zhao, Jiahao Sun, Chong Zhang, Le Yang, Chao Shen</p>
-    <p><b>Summary:</b> Mobile motion sensors such as accelerometers and gyroscopes are now ubiquitously accessible by third-party apps via standard APIs. While enabling rich functionalities like activity recognition and step counting, this openness has also enabled unregulated inference of sensitive user traits, such as gender, age, and even identity, without user consent. Existing privacy-preserving techniques, such as GAN-based obfuscation or differential privacy, typically require access to the full input sequence, introducing latency that is incompatible with real-time scenarios. Worse, they tend to distort temporal and semantic patterns, degrading the utility of the data for benign tasks like activity recognition. To address these limitations, we propose the Predictive Adversarial Transformation Network (PATN), a real-time privacy-preserving framework that leverages historical signals to generate adversarial perturbations proactively. The perturbations are applied immediately upon data acquisition, enabling continuous protection without disrupting application functionality. Experiments on two datasets demonstrate that PATN substantially degrades the performance of privacy inference models, achieving Attack Success Rate (ASR) of 40.11% and 44.65% (reducing inference accuracy to near-random) and increasing the Equal Error Rate (EER) from 8.30% and 7.56% to 41.65% and 46.22%. On ASR, PATN outperforms baseline methods by 16.16% and 31.96%, respectively.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.07073v1">Breaking Privacy in Federated Clustering: Perfect Input Reconstruction via Temporal Correlations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-10T13:06:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guang Yang, Lixia Luo, Qiongxiu Li</p>
-    <p><b>Summary:</b> Federated clustering allows multiple parties to discover patterns in distributed data without sharing raw samples. To reduce overhead, many protocols disclose intermediate centroids during training. While often treated as harmless for efficiency, whether such disclosure compromises privacy remains an open question. Prior analyses modeled the problem as a so-called Hidden Subset Sum Problem (HSSP) and argued that centroid release may be safe, since classical HSSP attacks fail to recover inputs.
-  We revisit this question and uncover a new leakage mechanism: temporal regularities in $k$-means iterations create exploitable structure that enables perfect input reconstruction. Building on this insight, we propose Trajectory-Aware Reconstruction (TAR), an attack that combines temporal assignment information with algebraic analysis to recover exact original inputs. Our findings provide the first rigorous evidence, supported by a practical attack, that centroid disclosure in federated clustering significantly compromises privacy, exposing a fundamental tension between privacy and efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.06778v2">SAFENLIDB: A Privacy-Preserving Safety Alignment Framework for LLM-based Natural Language Database Interfaces</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-11-10T07:05:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruiheng Liu, XiaoBing Chen, Jinyu Zhang, Qiongwen Zhang, Yu Zhang, Bailong Yang</p>
-    <p><b>Summary:</b> The rapid advancement of Large Language Models (LLMs) has driven significant progress in Natural Language Interface to Database (NLIDB). However, the widespread adoption of LLMs has raised critical privacy and security concerns. During interactions, LLMs may unintentionally expose confidential database contents or be manipulated by attackers to exfiltrate data through seemingly benign queries. While current efforts typically rely on rule-based heuristics or LLM agents to mitigate this leakage risk, these methods still struggle with complex inference-based attacks, suffer from high false positive rates, and often compromise the reliability of SQL queries. To address these challenges, we propose \textsc{SafeNlidb}, a novel privacy-security alignment framework for LLM-based NLIDB. The framework features an automated pipeline that generates hybrid chain-of-thought interaction data from scratch, seamlessly combining implicit security reasoning with SQL generation. Additionally, we introduce reasoning warm-up and alternating preference optimization to overcome the multi-preference oscillations of Direct Preference Optimization (DPO), enabling LLMs to produce security-aware SQL through fine-grained reasoning without the need for human-annotated preference data. Extensive experiments demonstrate that our method outperforms both larger-scale LLMs and ideal-setting baselines, achieving significant security improvements while preserving high utility. WARNING: This work may contain content that is offensive and harmful!</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.05065v1">Personalizing Agent Privacy Decisions via Logical Entailment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-04T18:24:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> James Flemings, Ren Yi, Octavian Suciu, Kassem Fawaz, Murali Annavaram, Marco Gruteser</p>
+    <p><b>Summary:</b> Personal language model-based agents are becoming more widespread for completing tasks on behalf of users; however, this raises serious privacy questions regarding whether these models will appropriately disclose user data. While prior work has evaluated language models on data-sharing scenarios based on general privacy norms, we focus on personalizing language models' privacy decisions, grounding their judgments directly in prior user privacy decisions. Our findings suggest that general privacy norms are insufficient for effective personalization of privacy decisions. Furthermore, we find that eliciting privacy judgments from the model through In-context Learning (ICL) is unreliable to due misalignment with the user's prior privacy judgments and opaque reasoning traces, which make it difficult for the user to interpret the reasoning behind the model's decisions. To address these limitations, we propose ARIEL (Agentic Reasoning with Individualized Entailment Logic), a framework that jointly leverages a language model and rule-based logic for structured data-sharing reasoning. ARIEL is based on formulating personalization of data sharing as an entailment, whether a prior user judgment on a data-sharing request implies the same judgment for an incoming request. Our experimental evaluations on advanced models and publicly-available datasets demonstrate that ARIEL can reduce the F1 score error by $\textbf{39.1%}$ over language model-based reasoning (ICL), demonstrating that ARIEL is effective at correctly judging requests where the user would approve data sharing. Overall, our findings suggest that combining LLMs with strict logical entailment is a highly effective strategy for enabling personalized privacy judgments for agents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.05053v1">A Randomized Scheduling Framework for Privacy-Preserving Multi-robot Rendezvous given Prior Information</a></h3>
+  
+  <p><b>Published on:</b> 2025-12-04T18:07:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Le Liu, Yu Kawano, Ming Cao</p>
+    <p><b>Summary:</b> Privacy has become a critical concern in modern multi-robot systems, driven by both ethical considerations and operational constraints. As a result, growing attention has been directed toward privacy-preserving coordination in dynamical multi-robot systems. This work introduces a randomized scheduling mechanism for privacy-preserving robot rendezvous. The proposed approach achieves improved privacy even at lower communication rates, where privacy is quantified via pointwise maximal leakage. We show that lower transmission rates provide stronger privacy guarantees and prove that rendezvous is still achieved under the randomized scheduling mechanism. Numerical simulations are provided to demonstrate the effectiveness of the method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.04852v1">Ask Safely: Privacy-Aware LLM Query Generation for Knowledge Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2025-12-04T14:37:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mauro Dalle Lucca Tosi, Jordi Cabot</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly used to query knowledge graphs (KGs) due to their strong semantic understanding and extrapolation capabilities compared to traditional approaches. However, these methods cannot be applied when the KG contains sensitive data and the user lacks the resources to deploy a local generative LLM. To address this issue, we propose a privacy-aware query generation approach for KGs. Our method identifies sensitive information in the graph based on its structure and omits such values before requesting the LLM to translate natural language questions into Cypher queries. Experimental results show that our approach preserves the quality of the generated queries while preventing sensitive data from being transmitted to third-party services.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.04316v1">ConsentDiff at Scale: Longitudinal Audits of Web Privacy Policy Changes and UI Frictions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-12-03T23:05:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoze Guo</p>
+    <p><b>Summary:</b> Web privacy is experienced via two public artifacts: site utterances in policy texts, and the actions users are required to take during consent interfaces. In the extensive cross-section audits we've studied, there is a lack of longitudinal data detailing how these artifacts are changing together, and if interfaces are actually doing what they promise in policy. ConsentDiff provides that longitudinal view. We build a reproducible pipeline that snapshots sites every month, semantically aligns policy clauses to track clause-level churn, and classifies consent-UI patterns by pulling together DOM signals with cues provided by screenshots. We introduce a novel weighted claim-UI alignment score, connecting common policy claims to observable predicates, and enabling comparisons over time, regions, and verticals. Our measurements suggest continued policy churn, systematic changes to eliminate a higher-friction banner design, and significantly higher alignment where rejecting is visible and lower friction.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.04225v1">GOPHER: Optimization-based Phenotype Randomization for Genome-Wide Association Studies with Differential Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2025-12-03T19:44:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anupama Nandi, Seth Neel, Hyunghoon Cho</p>
+    <p><b>Summary:</b> Genome-wide association studies (GWAS) are an essential tool in biomedical research for identifying genetic factors linked to health and disease. However, publicly releasing GWAS summary statistics poses well-recognized privacy risks, including the potential to infer an individual's participation in the study or to reveal sensitive phenotypic information (e.g., disease status). While differential privacy (DP) offers a rigorous mathematical framework for mitigating these risks, existing DP techniques for GWAS either introduce excessive noise or restrict the release to a limited set of results. In this work, we present practical DP mechanisms for releasing the complete set of genome-wide association statistics with privacy guarantees. We demonstrate the accuracy of the privacy-preserving statistics released by our mechanisms on a range of GWAS datasets from the UK Biobank, utilizing both real and simulated phenotypes. We introduce two key techniques to overcome the limitations of prior approaches: (1) an optimization-based randomization mechanism that directly minimizes the expected error in GWAS results to enhance utility, and (2) the use of personalized priors, derived from predictive models privately trained on a subset of the dataset, to enable sample-specific optimization which further reduces the amount of noise introduced by DP. Overall, our work provides practical tools for accurately releasing comprehensive GWAS results with provable protection of study participants.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.03793v1">The enshittification of online search? Privacy and quality of Google, Bing and Apple in coding advice</a></h3>
