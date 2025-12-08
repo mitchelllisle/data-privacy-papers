@@ -414,5 +414,113 @@
     "categories" : [
       "q-bio.QM"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05730v1",
+    "title" : "De mythe van geïnformeerde toestemming: online privacybescherming kan beter [Informed Consent: We Can Do Better to Defend Privacy]",
+    "summary" : "We need to rethink our approach to defend privacy on the internet. Currently, policymakers focus heavily on the idea of informed consent as a means to defend privacy. For instance, in many countries the law requires firms to obtain an individual's consent before they use data about her; with such informed consent requirements, the law aims to empower people to make privacy choices in their best interests. But behavioural studies cast doubt on this approach's effectiveness, as people tend to click OK to almost any request they see on their screens. To improve privacy protection, this article argues for a combined approach of protecting and empowering the individual. This article discusses practical problems with informed consent as a means to protect privacy, and illustrates the problems with current data privacy rules regarding behavioural targeting. First, the privacy problems of behavioural targeting, and the central role of informed consent in privacy law are discussed. Following that, practical problems with informed consent are highlighted. Then, the article argues that policymakers should give more attention to rules that protect, rather than empower, people.",
+    "updated" : "2025-12-05T14:08:34Z",
+    "published" : "2025-12-05T14:08:34Z",
+    "authors" : [
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05729v1",
+    "title" : "Informed Consent: We Can Do Better to Defend Privacy",
+    "summary" : "We need to rethink our approach to defend privacy on the internet. Currently, policymakers focus heavily on the idea of informed consent as a means to defend privacy. For instance, in many countries the law requires firms to obtain an individual's consent before they use data about her; with such informed consent requirements, the law aims to empower people to make privacy choices in their best interests. But behavioural studies cast doubt on this approach's effectiveness, as people tend to click OK to almost any request they see on their screens. To improve privacy protection, this article argues for a combined approach of protecting and empowering the individual. This article discusses practical problems with informed consent as a means to protect privacy, and illustrates the problems with current data privacy rules regarding behavioural targeting. First, the privacy problems of behavioural targeting, and the central role of informed consent in privacy law are discussed. Following that, practical problems with informed consent are highlighted. Then, the article argues that policymakers should give more attention to rules that protect, rather than empower, people.",
+    "updated" : "2025-12-05T14:08:29Z",
+    "published" : "2025-12-05T14:08:29Z",
+    "authors" : [
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05728v1",
+    "title" : "Open Data, Privacy, and Fair Information Principles: Towards a Balancing Framework",
+    "summary" : "Open data are held to contribute to a wide variety of social and political goals, including strengthening transparency, public participation and democratic accountability, promoting economic growth and innovation, and enabling greater public sector efficiency and cost savings. However, releasing government data that contain personal information may threaten privacy and related rights and interests. In this Article we ask how these privacy interests can be respected, without unduly hampering benefits from disclosing public sector information. We propose a balancing framework to help public authorities address this question in different contexts. The framework takes into account different levels of privacy risks for different types of data. It also separates decisions about access and re-use, and highlights a range of different disclosure routes. A circumstance catalogue lists factors that might be considered when assessing whether, under which conditions, and how a dataset can be released. While open data remains an important route for the publication of government information, we conclude that it is not the only route, and there must be clear and robust public interest arguments in order to justify the disclosure of personal information as open data.",
+    "updated" : "2025-12-05T14:08:26Z",
+    "published" : "2025-12-05T14:08:26Z",
+    "authors" : [
+      {
+        "name" : "Frederik Zuiderveen Borgesius"
+      },
+      {
+        "name" : "Jonathan Gray"
+      },
+      {
+        "name" : "Mireille van Eechoud"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05473v1",
+    "title" : "Privacy-Preserving Fully Distributed Gaussian Process Regression",
+    "summary" : "Although distributed Gaussian process regression (GPR) enables multiple agents with separate datasets to jointly learn a model of the target function, its collaborative nature poses risks of private data leakage. To address this, we propose a privacy-preserving fully distributed GPR protocol based on secure multi-party computation (SMPC) that preserves the confidentiality of each agent's local dataset. Building upon a secure distributed average consensus algorithm, the protocol guarantees that each agent's local model practically converges to the same global model that would be obtained by the standard distributed GPR. Further, we adopt the paradigm of simulation based security to provide formal privacy guarantees, and extend the proposed protocol to enable kernel hyperparameter optimization, which is critical yet often overlooked in the literature. Experimental results demonstrate the effectiveness and practical applicability of the proposed method.",
+    "updated" : "2025-12-05T07:05:54Z",
+    "published" : "2025-12-05T07:05:54Z",
+    "authors" : [
+      {
+        "name" : "Yeongjun Jang"
+      },
+      {
+        "name" : "Kaoru Teranishi"
+      },
+      {
+        "name" : "Jihoon Suh"
+      },
+      {
+        "name" : "Takashi Tanaka"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05459v1",
+    "title" : "PrivCode: When Code Generation Meets Differential Privacy",
+    "summary" : "Large language models (LLMs) have presented outstanding performance in code generation and completion. However, fine-tuning these models on private datasets can raise privacy and proprietary concerns, such as the leakage of sensitive personal information. Differentially private (DP) code generation provides theoretical guarantees for protecting sensitive code by generating synthetic datasets that preserve statistical properties while reducing privacy leakage concerns. However, DP code generation faces significant challenges due to the strict syntactic dependencies and the privacy-utility trade-off.\n  We propose PrivCode, the first DP synthesizer specifically designed for code datasets. It incorporates a two-stage framework to improve both privacy and utility. In the first stage, termed \"privacy-sanitizing\", PrivCode generates DP-compliant synthetic code by training models using DP-SGD while introducing syntactic information to preserve code structure. The second stage, termed \"utility-boosting\", fine-tunes a larger pre-trained LLM on the synthetic privacy-free code to mitigate the utility loss caused by DP, enhancing the utility of the generated code. Extensive experiments on four LLMs show that PrivCode generates higher-utility code across various testing tasks under four benchmarks. The experiments also confirm its ability to protect sensitive data under varying privacy budgets. We provide the replication package at the anonymous link.",
+    "updated" : "2025-12-05T06:27:06Z",
+    "published" : "2025-12-05T06:27:06Z",
+    "authors" : [
+      {
+        "name" : "Zheng Liu"
+      },
+      {
+        "name" : "Chen Gong"
+      },
+      {
+        "name" : "Terry Yue Zhuo"
+      },
+      {
+        "name" : "Kecen Li"
+      },
+      {
+        "name" : "Weichen Yu"
+      },
+      {
+        "name" : "Matt Fredrikson"
+      },
+      {
+        "name" : "Tianhao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
