@@ -657,7 +657,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.13502v1">Tight and Practical Privacy Auditing for Differentially Private In-Context Learning</a></h3>
+  <h3><a href="http://arxiv.org/abs/2511.13502v2">Tight and Practical Privacy Auditing for Differentially Private In-Context Learning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-11-17T15:39:54Z</p>
   <details>
@@ -825,129 +825,130 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.10423v2">Enhanced Privacy Leakage from Noise-Perturbed Gradients via Gradient-Guided Conditional Diffusion Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-13T15:43:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiayang Meng, Tao Huang, Hong Chen, Chen Hou, Guolong Zheng</p>
-    <p><b>Summary:</b> Federated learning synchronizes models through gradient transmission and aggregation. However, these gradients pose significant privacy risks, as sensitive training data is embedded within them. Existing gradient inversion attacks suffer from significantly degraded reconstruction performance when gradients are perturbed by noise-a common defense mechanism. In this paper, we introduce gradient-guided conditional diffusion models for reconstructing private images from leaked gradients, without prior knowledge of the target data distribution. Our approach leverages the inherent denoising capability of diffusion models to circumvent the partial protection offered by noise perturbation, thereby improving attack performance under such defenses. We further provide a theoretical analysis of the reconstruction error bounds and the convergence properties of the attack loss, characterizing the impact of key factors-such as noise magnitude and attacked model architecture-on reconstruction quality. Extensive experiments demonstrate our attack's superior reconstruction performance with Gaussian noise-perturbed gradients, and confirm our theoretical findings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.10284v1">Beyond Verification: Abductive Explanations for Post-AI Assessment of Privacy Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-11-13T13:14:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Belona Sonna, Alban Grastien, Claire Benn</p>
-    <p><b>Summary:</b> Privacy leakage in AI-based decision processes poses significant risks, particularly when sensitive information can be inferred. We propose a formal framework to audit privacy leakage using abductive explanations, which identifies minimal sufficient evidence justifying model decisions and determines whether sensitive information disclosed. Our framework formalizes both individual and system-level leakage, introducing the notion of Potentially Applicable Explanations (PAE) to identify individuals whose outcomes can shield those with sensitive features. This approach provides rigorous privacy guarantees while producing human understandable explanations, a key requirement for auditing tools. Experimental evaluation on the German Credit Dataset illustrates how the importance of sensitive literal in the model decision process affects privacy leakage. Despite computational challenges and simplifying assumptions, our results demonstrate that abductive reasoning enables interpretable privacy auditing, offering a practical pathway to reconcile transparency, model interpretability, and privacy preserving in AI decision-making.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.10226v1">Privacy Structure and Blackwell Frontier</a></h3>
-  
-  <p><b>Published on:</b> 2025-11-13T11:56:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhang Xu, Wei Zhao</p>
-    <p><b>Summary:</b> This paper characterizes the set of feasible posterior distributions subject to graph-based inferential privacy constraint, including both differential and inferential privacy. This characterization can be done through enumerating all extreme points of the feasible posterior set. A connection between extreme posteriors and strongly connected semi-chains is then established. All these semi-chains can be constructed through successive unfolding operations on semi-chains with two partitions, which can be constructed through classical spanning tree algorithm. A sharper characterization of semi-chains with two partitions for differential privacy is provided.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.10001v1">Mailing address aliasing as a method to protect consumer privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-11-13T06:12:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Greg Hather, Daniel Aranki</p>
-    <p><b>Summary:</b> During online commerce, a customer will typically share his or her mailing address with a merchant to allow product delivery. This creates privacy risks for the customer, where the information may be misused, sold, or leaked by multiple merchants. While physical and virtual PO boxes can reduce the privacy risk, these solutions have associated costs that prevent greater adoption. Here, we introduce the concept of mailing address aliasing, which may offer lower cost and greater control in some cases. With this approach, an alias address is created that maps to the customer's true address. The mapping is kept private from the merchant but shared with the carrier. We discuss the advantages and disadvantages of this approach compared with traditional methods for mailing address privacy. We find that mailing address aliasing is likely to reduce unsolicited mail to a greater extent than physical or virtual PO boxes. However, mailing address aliasing may not be compatible with all merchants' ordering systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.09882v1">Truth, Justice, and Secrecy: Cake Cutting Under Privacy Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2025-11-13T02:28:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaron Salman, Tamir Tassa, Omer Lev, Roie Zivan</p>
-    <p><b>Summary:</b> Cake-cutting algorithms, which aim to fairly allocate a continuous resource based on individual agent preferences, have seen significant progress over the past two decades. Much of the research has concentrated on fairness, with comparatively less attention given to other important aspects. Chen et al. (2010) introduced an algorithm that, in addition to ensuring fairness, was strategyproof -- meaning agents had no incentive to misreport their valuations. However, even in the absence of strategic incentives to misreport, agents may still hesitate to reveal their true preferences due to privacy concerns (e.g., when allocating advertising time between firms, revealing preferences could inadvertently expose planned marketing strategies or product launch timelines). In this work, we extend the strategyproof algorithm of Chen et al. by introducing a privacy-preserving dimension. To the best of our knowledge, we present the first private cake-cutting protocol, and, in addition, this protocol is also envy-free and strategyproof. Our approach replaces the algorithm's centralized computation with a novel adaptation of cryptographic techniques, enabling privacy without compromising fairness or strategyproofness. Thus, our protocol encourages agents to report their true preferences not only because they are not incentivized to lie, but also because they are protected from having their preferences exposed.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.09846v1">Real-Time Lightweight Gaze Privacy-Preservation Techniques Validated via Offline Gaze-Based Interaction Simulation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-13T01:01:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mehedi Hasan Raju, Oleg V. Komogortsev</p>
-    <p><b>Summary:</b> This study examines the effectiveness of the real-time privacy-preserving techniques through an offline gaze-based interaction simulation framework. Those techniques aim to reduce the amount of identity-related information in eye-tracking data while improving the efficacy of the gaze-based interaction. Although some real-time gaze privatization methods were previously explored, their validation on the large dataset was not conducted. We propose a functional framework that allows to study the efficacy of real-time gaze privatization on an already collected offline dataset. The key metric used to assess the reduction of identity-related information is the identification rate, while improvements in gaze-based interactions are evaluated through signal quality during interaction. Our additional contribution is the employment of an extremely lightweight Kalman filter framework that reduces the amount of identity-related information in the gaze signal and improves gaze-based interaction performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.09775v1">Privacy-Preserving Explainable AIoT Application via SHAP Entropy Regularization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-11-12T22:13:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dilli Prasad Sharma, Xiaowei Sun, Liang Xue, Xiaodong Lin, Pulei Xiong</p>
-    <p><b>Summary:</b> The widespread integration of Artificial Intelligence of Things (AIoT) in smart home environments has amplified the demand for transparent and interpretable machine learning models. To foster user trust and comply with emerging regulatory frameworks, the Explainable AI (XAI) methods, particularly post-hoc techniques such as SHapley Additive exPlanations (SHAP), and Local Interpretable Model-Agnostic Explanations (LIME), are widely employed to elucidate model behavior. However, recent studies have shown that these explanation methods can inadvertently expose sensitive user attributes and behavioral patterns, thereby introducing new privacy risks. To address these concerns, we propose a novel privacy-preserving approach based on SHAP entropy regularization to mitigate privacy leakage in explainable AIoT applications. Our method incorporates an entropy-based regularization objective that penalizes low-entropy SHAP attribution distributions during training, promoting a more uniform spread of feature contributions. To evaluate the effectiveness of our approach, we developed a suite of SHAP-based privacy attacks that strategically leverage model explanation outputs to infer sensitive information. We validate our method through comparative evaluations using these attacks alongside utility metrics on benchmark smart home energy consumption datasets. Experimental results demonstrate that SHAP entropy regularization substantially reduces privacy leakage compared to baseline models, while maintaining high predictive accuracy and faithful explanation fidelity. This work contributes to the development of privacy-preserving explainable AI techniques for secure and trustworthy AIoT applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.09696v1">Cooperative Local Differential Privacy: Securing Time Series Data in Distributed Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-12T19:52:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bikash Chandra Singh, Md Jakir Hossain, Rafael Diaz, Sandip Roy, Ravi Mukkamala, Sachin Shetty</p>
-    <p><b>Summary:</b> The rapid growth of smart devices such as phones, wearables, IoT sensors, and connected vehicles has led to an explosion of continuous time series data that offers valuable insights in healthcare, transportation, and more. However, this surge raises significant privacy concerns, as sensitive patterns can reveal personal details. While traditional differential privacy (DP) relies on trusted servers, local differential privacy (LDP) enables users to perturb their own data. However, traditional LDP methods perturb time series data by adding user-specific noise but exhibit vulnerabilities. For instance, noise applied within fixed time windows can be canceled during aggregation (e.g., averaging), enabling adversaries to infer individual statistics over time, thereby eroding privacy guarantees.
-  To address these issues, we introduce a Cooperative Local Differential Privacy (CLDP) mechanism that enhances privacy by distributing noise vectors across multiple users. In our approach, noise is collaboratively generated and assigned so that when all users' perturbed data is aggregated, the noise cancels out preserving overall statistical properties while protecting individual privacy. This cooperative strategy not only counters vulnerabilities inherent in time-window-based methods but also scales effectively for large, real-time datasets, striking a better balance between data utility and privacy in multiuser environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.09400v1">Abstract Gradient Training: A Unified Certification Framework for Data Poisoning, Unlearning, and Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-12T15:15:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Philip Sosnin, Matthew Wicker, Josh Collyer, Calvin Tsay</p>
-    <p><b>Summary:</b> The impact of inference-time data perturbation (e.g., adversarial attacks) has been extensively studied in machine learning, leading to well-established certification techniques for adversarial robustness. In contrast, certifying models against training data perturbations remains a relatively under-explored area. These perturbations can arise in three critical contexts: adversarial data poisoning, where an adversary manipulates training samples to corrupt model performance; machine unlearning, which requires certifying model behavior under the removal of specific training data; and differential privacy, where guarantees must be given with respect to substituting individual data points. This work introduces Abstract Gradient Training (AGT), a unified framework for certifying robustness of a given model and training procedure to training data perturbations, including bounded perturbations, the removal of data points, and the addition of new samples. By bounding the reachable set of parameters, i.e., establishing provable parameter-space bounds, AGT provides a formal approach to analyzing the behavior of models trained via first-order optimization methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.09094v1">RIS-based Communication Enhancement and Location Privacy Protection in UAV Networks</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2025-11-12T08:10:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziqi Chen, Jun Du, Chunxiao Jiang, Tony Q. S. Quek, Zhu Han</p>
-    <p><b>Summary:</b> With the explosive advancement of unmanned aerial vehicles (UAVs), the security of efficient UAV networks has become increasingly critical. Owing to the open nature of its communication environment, illegitimate malicious UAVs (MUs) can infer the position of the source UAV (SU) by analyzing received signals, thus compromising the SU location privacy. To protect the SU location privacy while ensuring efficient communication with legitimate receiving UAVs (RUs), we propose an Active Reconfigurable Intelligent Surface (ARIS)-assisted covert communication scheme based on virtual partitioning and artificial noise (AN). Specifically, we design a novel ARIS architecture integrated with an AN module. This architecture dynamically partitions its reflecting elements into multiple sub-regions: one subset is optimized to enhance the communication rate between the SU and RUs, while the other subset generates AN to interfere with the localization of the SU by MUs. We first derive the Cramér-Rao Lower Bound (CRLB) for the localization with received signal strength (RSS), based on which, we establish a joint optimization framework for communication enhancement and localization interference. Subsequently, we derive and validate the optimal ARIS partitioning and power allocation under average channel conditions. Finally, tailored optimization methods are proposed for the reflection precoding and AN design of the two partitions. Simulation results validate that, compared to baseline schemes, the proposed scheme significantly increases the localization error of the SU by MUs while maintaining efficient communication between the SU and RUs, thereby effectively protecting the SU location privacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.07814v1">Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-08T18:47:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hua Yang, Alejandro Velasco, Sen Fang, Bowen Xu, Denys Poshyvanyk</p>
+    <p><b>Summary:</b> Large language models for code (LLM4Code) have greatly improved developer productivity but also raise privacy concerns due to their reliance on open-source repositories containing abundant personally identifiable information (PII). Prior work shows that commercial models can reproduce sensitive PII, yet existing studies largely treat PII as a single category and overlook the heterogeneous risks among different types. We investigate whether distinct PII types vary in their likelihood of being learned and leaked by LLM4Code, and whether this relationship is causal. Our methodology includes building a dataset with diverse PII types, fine-tuning representative models of different scales, computing training dynamics on real PII data, and formulating a structural causal model to estimate the causal effect of learnability on leakage. Results show that leakage risks differ substantially across PII types and correlate with their training dynamics: easy-to-learn instances such as IP addresses exhibit higher leakage, while harder types such as keys and passwords leak less frequently. Ambiguous types show mixed behaviors. This work provides the first causal evidence that leakage risks are type-dependent and offers guidance for developing type-aware and learnability-aware defenses for LLM4Code.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.07725v1">Privacy Practices of Browser Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-08T17:16:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alisha Ukani, Hamed Haddadi, Ali Shahin Shamsabadi, Peter Snyder</p>
+    <p><b>Summary:</b> This paper presents a systematic evaluation of the privacy behaviors and attributes of eight recent, popular browser agents. Browser agents are software that automate Web browsing using large language models and ancillary tooling. However, the automated capabilities that make browser agents powerful also make them high-risk points of failure. Both the kinds of tasks browser agents are designed to execute, along with the kinds of information browser agents are entrusted with to fulfill those tasks, mean that vulnerabilities in these tools can result in enormous privacy harm.
+  This work presents a framework of five broad factors (totaling 15 distinct measurements) to measure the privacy risks in browser agents. Our framework assesses i. vulnerabilities in the browser agent's components, ii. how the browser agent protects against website behaviors, iii. whether the browser agent prevents cross-site tracking, iv. how the agent responds to privacy-affecting prompts, and v. whether the tool leaks personal information to sites. We apply our framework to eight browser agents and identify 30 vulnerabilities, ranging from disabled browser privacy features to "autocompleting" sensitive personal information in form fields. We have responsibly disclosed our findings, and plan to release our dataset and other artifacts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.07166v1">When Privacy Meets Recovery: The Overlooked Half of Surrogate-Driven Privacy Preservation for MLLM Editing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2025-12-08T04:59:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siyuan Xu, Yibing Liu, Peilin Chen, Yung-Hui Li, Shiqi Wang, Sam Kwong</p>
+    <p><b>Summary:</b> Privacy leakage in Multimodal Large Language Models (MLLMs) has long been an intractable problem. Existing studies, though effectively obscure private information in MLLMs, often overlook the evaluation of the authenticity and recovery quality of user privacy. To this end, this work uniquely focuses on the critical challenge of how to restore surrogate-driven protected data in diverse MLLM scenarios. We first bridge this research gap by contributing the SPPE (Surrogate Privacy Protected Editable) dataset, which includes a wide range of privacy categories and user instructions to simulate real MLLM applications. This dataset offers protected surrogates alongside their various MLLM-edited versions, thus enabling the direct assessment of privacy recovery quality. By formulating privacy recovery as a guided generation task conditioned on complementary multimodal signals, we further introduce a unified approach that reliably reconstructs private content while preserving the fidelity of MLLM-generated edits. The experiments on both SPPE and InstructPix2Pix further show that our approach generalizes well across diverse visual content and editing tasks, achieving a strong balance between privacy protection and MLLM usability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06971v1">Prediction with Expert Advice under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
+  <p><b>Published on:</b> 2025-12-07T19:31:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ben Jacobsen, Kassem Fawaz</p>
+    <p><b>Summary:</b> We study the classic problem of prediction with expert advice under the constraint of local differential privacy (LDP). In this context, we first show that a classical algorithm naturally satisfies LDP and then design two new algorithms that improve it: RW-AdaBatch and RW-Meta. For RW-AdaBatch, we exploit the limited-switching behavior induced by LDP to provide a novel form of privacy amplification that grows stronger on easier data, analogous to the shuffle model in offline learning. Drawing on the theory of random walks, we prove that this improvement carries essentially no utility cost. For RW-Meta, we develop a general method for privately selecting between experts that are themselves non-trivial learning algorithms, and we show that in the context of LDP this carries no extra privacy cost. In contrast, prior work has only considered data-independent experts. We also derive formal regret bounds that scale inversely with the degree of independence between experts. Our analysis is supplemented by evaluation on real-world data reported by hospitals during the COVID-19 pandemic; RW-Meta outperforms both the classical baseline and a state-of-the-art \textit{central} DP algorithm by 1.5-3$\times$ on the task of predicting which hospital will report the highest density of COVID patients each week.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06747v1">PrivLLMSwarm: Privacy-Preserving LLM-Driven UAV Swarms for Secure IoT Surveillance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-07T09:20:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jifar Wakuma Ayana, Huang Qiming</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are emerging as powerful enablers for autonomous reasoning and natural-language coordination in unmanned aerial vehicle (UAV) swarms operating within Internet of Things (IoT) environments. However, existing LLM-driven UAV systems process sensitive operational data in plaintext, exposing them to privacy and security risks. This work introduces PrivLLMSwarm, a privacy-preserving framework that performs secure LLM inference for UAV swarm coordination through Secure Multi-Party Computation (MPC). The framework incorporates MPC-optimized transformer components with efficient approximations of nonlinear activations, enabling practical encrypted inference on resource-constrained aerial platforms. A fine-tuned GPT-based command generator, enhanced through reinforcement learning in simulation, provides reliable instructions while maintaining confidentiality. Experimental evaluation in urban-scale simulations demonstrates that PrivLLMSwarm achieves high semantic accuracy, low encrypted inference latency, and robust formation control under privacy constraints. Comparative analysis shows PrivLLMSwarm offers a superior privacy-utility balance compared to differential privacy, federated learning, and plaintext baselines. To support reproducibility, the full implementation including source code, MPC components, and a synthetic dataset is publicly available. PrivLLMSwarm establishes a practical foundation for secure, LLM-enabled UAV swarms in privacy-sensitive IoT applications including smart-city monitoring and emergency response.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06711v1">Parameter-Efficient Fine-Tuning with Differential Privacy for Robust Instruction Adaptation in Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2025-12-07T08:01:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yulin Huang, Yaxuan Luan, Jinxu Guo, Xiangchen Song, Yuchen Liu</p>
+    <p><b>Summary:</b> This study addresses the issues of privacy protection and efficiency in instruction fine-tuning of large-scale language models by proposing a parameter-efficient method that integrates differential privacy noise allocation with gradient clipping in a collaborative optimization framework. The method keeps the backbone model frozen and updates parameters through a low-dimensional projection subspace, while introducing clipping and adaptive noise allocation during gradient computation. This design reduces privacy budget consumption and ensures training stability and robustness. The unified framework combines gradient constraints, noise allocation, and parameter projection, effectively mitigating performance fluctuations and privacy risks in multi-task instruction scenarios. Experiments are conducted across hyperparameter, environment, and data sensitivity dimensions. Results show that the method outperforms baseline models in accuracy, privacy budget, and parameter efficiency, and maintains stable performance under diverse and uncertain data conditions. The findings enrich the theoretical integration of differential privacy and parameter-efficient fine-tuning and demonstrate its practical adaptability in instruction tasks, providing a feasible solution for secure training in complex instruction environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06534v1">"Having Confidence in My Confidence Intervals": How Data Users Engage with Privacy-Protected Wikipedia Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2025-12-06T18:59:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Harold Triedman, Jayshree Sarathy, Priyanka Nanayakkara, Rachel Cummings, Gabriel Kaptchuk, Sean Kross, Elissa M. Redmiles</p>
+    <p><b>Summary:</b> In response to calls for open data and growing privacy threats, organizations are increasingly adopting privacy-preserving techniques such as differential privacy (DP) that inject statistical noise when generating published datasets. These techniques are designed to protect privacy of data subjects while enabling useful analyses, but their reception by data users is under-explored. We developed documentation that presents the noise characteristics of two Wikipedia pageview datasets: one using rounding (heuristic privacy) and another using DP (formal privacy). After incorporating expert feedback (n=5), we used these documents to conduct a task-based contextual inquiry (n=15) exploring how data users--largely unfamiliar with these methods--perceive, interact with, and interpret privacy-preserving noise during data analysis.
+  Participants readily used simple uncertainty metrics from the documentation, but struggled when asked to compute confidence intervals across multiple noisy estimates. They were better able to devise simulation-based approaches for computing uncertainty with DP data compared to rounded data. Surprisingly, several participants incorrectly believed DP's stronger utility implied weaker privacy protections. Based on our findings, we offer design recommendations for documentation and tools to better support data users working with privacy-noised data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06380v1">Protecting Bystander Privacy via Selective Hearing in LALMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-06T10:24:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiao Zhan, Guangzhi Sun, Jose Such, Phil Woodland</p>
+    <p><b>Summary:</b> Large audio language models (LALMs) are increasingly deployed in real-world settings where they inevitably capture speech from unintended nearby bystanders, raising privacy risks that existing benchmarks and defences largely overlook. We introduce SH-Bench, the first benchmark designed to evaluate selective hearing: a model's ability to attend to an intended main speaker while refusing to process or reveal information about incidental bystander speech. SH-Bench contains 3,968 multi-speaker audio mixtures spanning both real-world and synthetic scenarios, paired with 77k multiple-choice questions that probe models under general and selective operating modes. We propose Selective Efficacy (SE), a unified metric capturing both multi-speaker comprehension and bystander-privacy protection. Our evaluation of state-of-the-art open-source and proprietary LALMs reveals substantial privacy leakage, with strong audio understanding failing to translate into selective protection of bystander privacy. To mitigate this gap, we introduce Bystander Privacy Fine-Tuning (BPFT), a training pipeline that teaches models to refuse bystander-related queries without degrading main-speaker comprehension. BPFT yields substantial gains which improve SE by up to 15.9% over Gemini 2.5 Pro, demonstrating that selective hearing is learnable but far from achieved in current LALMs. SH-Bench and BPFT provide the first systematic framework for measuring and improving bystander privacy in audio foundation models.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06253v1">Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-06T02:55:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuainan Liu, Tianxi Ji, Zhongshuo Fang, Lu Wei, Pan Li</p>
+    <p><b>Summary:</b> Noise perturbation is one of the most fundamental approaches for achieving $(ε,δ)$-differential privacy (DP) guarantees when releasing the result of a query or function $f(\cdot)\in\mathbb{R}^M$ evaluated on a sensitive dataset $\mathbf{x}$. In this approach, calibrated noise $\mathbf{n}\in\mathbb{R}^M$ is used to obscure the difference vector $f(\mathbf{x})-f(\mathbf{x}')$, where $\mathbf{x}'$ is known as a neighboring dataset. A DP guarantee is obtained by studying the tail probability bound of a privacy loss random variable (PLRV), defined as the Radon-Nikodym derivative between two distributions. When $\mathbf{n}$ follows a multivariate Gaussian distribution, the PLRV is characterized as a specific univariate Gaussian. In this paper, we propose a novel scheme to generate $\mathbf{n}$ by leveraging the fact that the perturbation noise is typically spherically symmetric (i.e., the distribution is rotationally invariant around the origin). The new noise generation scheme allows us to investigate the privacy loss from a geometric perspective and express the resulting PLRV using a product measure, $W\times U$; measure $W$ is related to a radius random variable controlling the magnitude of $\mathbf{n}$, while measure $U$ involves a directional random variable governing the angle between $\mathbf{n}$ and the difference $f(\mathbf{x})-f(\mathbf{x}')$. We derive a closed-form moment bound on the product measure to prove $(ε,δ)$-DP. Under the same $(ε,δ)$-DP guarantee, our mechanism yields a smaller expected noise magnitude than the classic Gaussian noise in high dimensions, thereby significantly improving the utility of the noisy result $f(\mathbf{x})+\mathbf{n}$. To validate this, we consider convex and non-convex empirical risk minimization (ERM) problems in high dimensional space and apply the proposed product noise to achieve privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.06062v1">When Privacy Isn't Synthetic: Hidden Data Leakage in Generative AI Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-05T18:52:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> S. M. Mustaqim, Anantaa Kotal, Paul H. Yi</p>
+    <p><b>Summary:</b> Generative models are increasingly used to produce privacy-preserving synthetic data as a safe alternative to sharing sensitive training datasets. However, we demonstrate that such synthetic releases can still leak information about the underlying training samples through structural overlap in the data manifold. We propose a black-box membership inference attack that exploits this vulnerability without requiring access to model internals or real data. The attacker repeatedly queries the generative model to obtain large numbers of synthetic samples, performs unsupervised clustering to identify dense regions of the synthetic distribution, and then analyzes cluster medoids and neighborhoods that correspond to high-density regions in the original training data. These neighborhoods act as proxies for training samples, enabling the adversary to infer membership or reconstruct approximate records. Our experiments across healthcare, finance, and other sensitive domains show that cluster overlap between real and synthetic data leads to measurable membership leakage-even when the generator is trained with differential privacy or other noise mechanisms. The results highlight an under-explored attack surface in synthetic data generation pipelines and call for stronger privacy guarantees that account for distributional neighborhood inference rather than sample-level memorization alone, underscoring its role in privacy-preserving data publishing. Implementation and evaluation code are publicly available at:github.com/Cluster-Medoid-Leakage-Attack.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.05730v1">De mythe van geïnformeerde toestemming: online privacybescherming kan beter [Informed Consent: We Can Do Better to Defend Privacy]</a></h3>
@@ -1011,7 +1012,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.05065v1">Personalizing Agent Privacy Decisions via Logical Entailment</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.05065v2">Personalizing Agent Privacy Decisions via Logical Entailment</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-12-04T18:24:56Z</p>
   <details>
@@ -1047,7 +1048,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.04316v1">ConsentDiff at Scale: Longitudinal Audits of Web Privacy Policy Changes and UI Frictions</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.04316v2">ConsentDiff at Scale: Longitudinal Audits of Web Privacy Policy Changes and UI Frictions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2025-12-03T23:05:42Z</p>
   <details>
