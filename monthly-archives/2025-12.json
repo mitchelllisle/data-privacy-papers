@@ -824,5 +824,292 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08870v1",
+    "title" : "Fed-SE: Federated Self-Evolution for Privacy-Constrained Multi-Environment LLM Agents",
+    "summary" : "LLM agents are widely deployed in complex interactive tasks, yet privacy constraints often preclude centralized optimization and co-evolution across dynamic environments. While Federated Learning (FL) has proven effective on static datasets, its extension to the open-ended self-evolution of agents remains underexplored. Directly applying standard FL is challenging: heterogeneous tasks and sparse, trajectory-level rewards introduce severe gradient conflicts, destabilizing the global optimization process. To bridge this gap, we propose Fed-SE, a Federated Self-Evolution framework for LLM agents. Fed-SE establishes a local evolution-global aggregation paradigm. Locally, agents employ parameter-efficient fine-tuning on filtered, high-return trajectories to achieve stable gradient updates. Globally, Fed-SE aggregates updates within a low-rank subspace that disentangles environment-specific dynamics, effectively reducing negative transfer across clients. Experiments across five heterogeneous environments demonstrate that Fed-SE improves average task success rates by approximately 18% over federated baselines, validating its effectiveness in robust cross-environment knowledge transfer in privacy-constrained deployments.",
+    "updated" : "2025-12-09T18:04:41Z",
+    "published" : "2025-12-09T18:04:41Z",
+    "authors" : [
+      {
+        "name" : "Xiang Chen"
+      },
+      {
+        "name" : "Yuling Shi"
+      },
+      {
+        "name" : "Qizhen Lan"
+      },
+      {
+        "name" : "Yuchao Qiu"
+      },
+      {
+        "name" : "Xiaodong Gu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08862v1",
+    "title" : "Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety",
+    "summary" : "Underground mining operations depend on sensor networks to monitor critical parameters such as temperature, gas concentration, and miner movement, enabling timely hazard detection and safety decisions. However, transmitting raw sensor data to a centralized server for machine learning (ML) model training raises serious privacy and security concerns. Federated Learning (FL) offers a promising alternative by enabling decentralized model training without exposing sensitive local data. Yet, applying FL in underground mining presents unique challenges: (i) Adversaries may eavesdrop on shared model updates to launch model inversion or membership inference attacks, compromising data privacy and operational safety; (ii) Non-IID data distributions across mines and sensor noise can hinder model convergence. To address these issues, we propose FedMining--a privacy-preserving FL framework tailored for underground mining. FedMining introduces two core innovations: (1) a Decentralized Functional Encryption (DFE) scheme that keeps local models encrypted, thwarting unauthorized access and inference attacks; and (2) a balancing aggregation mechanism to mitigate data heterogeneity and enhance convergence. Evaluations on real-world mining datasets demonstrate FedMining's ability to safeguard privacy while maintaining high model accuracy and achieving rapid convergence with reduced communication and computation overhead. These advantages make FedMining both secure and practical for real-time underground safety monitoring.",
+    "updated" : "2025-12-09T17:53:19Z",
+    "published" : "2025-12-09T17:53:19Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Elmahallawy"
+      },
+      {
+        "name" : "Sanjay Madria"
+      },
+      {
+        "name" : "Samuel Frimpong"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08809v1",
+    "title" : "PrivTune: Efficient and Privacy-Preserving Fine-Tuning of Large Language Models via Device-Cloud Collaboration",
+    "summary" : "With the rise of large language models, service providers offer language models as a service, enabling users to fine-tune customized models via uploaded private datasets. However, this raises concerns about sensitive data leakage. Prior methods, relying on differential privacy within device-cloud collaboration frameworks, struggle to balance privacy and utility, exposing users to inference attacks or degrading fine-tuning performance. To address this, we propose PrivTune, an efficient and privacy-preserving fine-tuning framework via Split Learning (SL). The key idea of PrivTune is to inject crafted noise into token representations from the SL bottom model, making each token resemble the $n$-hop indirect neighbors. PrivTune formulates this as an optimization problem to compute the optimal noise vector, aligning with defense-utility goals. On this basis, it then adjusts the parameters (i.e., mean) of the $d_χ$-Privacy noise distribution to align with the optimization direction and scales the noise according to token importance to minimize distortion. Experiments on five datasets (covering both classification and generation tasks) against three embedding inversion and three attribute inference attacks show that, using RoBERTa on the Stanford Sentiment Treebank dataset, PrivTune reduces the attack success rate to 10% with only a 3.33% drop in utility performance, outperforming state-of-the-art baselines.",
+    "updated" : "2025-12-09T17:03:59Z",
+    "published" : "2025-12-09T17:03:59Z",
+    "authors" : [
+      {
+        "name" : "Yi Liu"
+      },
+      {
+        "name" : "Weixiang Han"
+      },
+      {
+        "name" : "Chengjun Cai"
+      },
+      {
+        "name" : "Xingliang Yuan"
+      },
+      {
+        "name" : "Cong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08503v1",
+    "title" : "Disrupting Hierarchical Reasoning: Adversarial Protection for Geographic Privacy in Multimodal Reasoning Models",
+    "summary" : "Multi-modal large reasoning models (MLRMs) pose significant privacy risks by inferring precise geographic locations from personal images through hierarchical chain-of-thought reasoning. Existing privacy protection techniques, primarily designed for perception-based models, prove ineffective against MLRMs' sophisticated multi-step reasoning processes that analyze environmental cues. We introduce \\textbf{ReasonBreak}, a novel adversarial framework specifically designed to disrupt hierarchical reasoning in MLRMs through concept-aware perturbations. Our approach is founded on the key insight that effective disruption of geographic reasoning requires perturbations aligned with conceptual hierarchies rather than uniform noise. ReasonBreak strategically targets critical conceptual dependencies within reasoning chains, generating perturbations that invalidate specific inference steps and cascade through subsequent reasoning stages. To facilitate this approach, we contribute \\textbf{GeoPrivacy-6K}, a comprehensive dataset comprising 6,341 ultra-high-resolution images ($\\geq$2K) with hierarchical concept annotations. Extensive evaluation across seven state-of-the-art MLRMs (including GPT-o3, GPT-5, Gemini 2.5 Pro) demonstrates ReasonBreak's superior effectiveness, achieving a 14.4\\% improvement in tract-level protection (33.8\\% vs 19.4\\%) and nearly doubling block-level protection (33.5\\% vs 16.8\\%). This work establishes a new paradigm for privacy protection against reasoning-based threats.",
+    "updated" : "2025-12-09T11:35:51Z",
+    "published" : "2025-12-09T11:35:51Z",
+    "authors" : [
+      {
+        "name" : "Jiaming Zhang"
+      },
+      {
+        "name" : "Che Wang"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Longtao Huang"
+      },
+      {
+        "name" : "Wei Yang Bryan Lim"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08310v1",
+    "title" : "Privacy-Preserving Identifier Checking in 5G",
+    "summary" : "Device identifiers like the International Mobile Equipment Identity (IMEI) are crucial for ensuring device integrity and meeting regulations in 4G and 5G networks. However, sharing these identifiers with Mobile Network Operators (MNOs) brings significant privacy risks by enabling long-term tracking and linking of user activities across sessions. In this work, we propose a privacy-preserving identifier checking method in 5G. This paper introduces a protocol for verifying device identifiers without exposing them to the network while maintaining the same functions as the 3GPP-defined Equipment Identity Register (EIR) process. The proposed solution modifies the PEPSI protocol for a Private Set Membership (PSM) setting using the BFV homomorphic encryption scheme. This lets User Equipment (UE) prove that its identifier is not on an operator's blacklist or greylist while ensuring that the MNO only learns the outcome of the verification. The protocol allows controlled deanonymization through an authorized Law Enforcement (LE) hook, striking a balance between privacy and accountability. Implementation results show that the system can perform online verification within five seconds and requires about 15 to 16 MB of communication per session. This confirms its practical use under post-quantum security standards. The findings highlight the promise of homomorphic encryption for managing identifiers while preserving privacy in 5G, laying the groundwork for scalable and compliant verification systems in future 6G networks.",
+    "updated" : "2025-12-09T07:17:39Z",
+    "published" : "2025-12-09T07:17:39Z",
+    "authors" : [
+      {
+        "name" : "Marcel D. S. K. Gräfenstein"
+      },
+      {
+        "name" : "Stefan Köpsell"
+      },
+      {
+        "name" : "Maryam Zarezadeh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08263v1",
+    "title" : "Geometry-Aligned Differential Privacy for Location-Safe Federated Radio Map Construction",
+    "summary" : "Radio maps that describe spatial variations in wireless signal strength are widely used to optimize networks and support aerial platforms. Their construction requires location-labeled signal measurements from distributed users, raising fundamental concerns about location privacy. Even when raw data are kept local, the shared model updates can reveal user locations through their spatial structure, while naive noise injection either fails to hide this leakage or degrades model accuracy. This work analyzes how location leakage arises from gradients in a virtual-environment radio map model and proposes a geometry-aligned differential privacy mechanism with heterogeneous noise tailored to both confuse localization and cover gradient spatial patterns. The approach is theoretically supported with a convergence guarantee linking privacy strength to learning accuracy. Numerical experiments show the approach increases attacker localization error from 30 m to over 180 m, with only 0.2 dB increase in radio map construction error compared to a uniform-noise baseline.",
+    "updated" : "2025-12-09T05:40:49Z",
+    "published" : "2025-12-09T05:40:49Z",
+    "authors" : [
+      {
+        "name" : "Jijia Tian"
+      },
+      {
+        "name" : "Wangqian Chen"
+      },
+      {
+        "name" : "Junting Chen"
+      },
+      {
+        "name" : "Pooi-Yuen Kam"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08185v1",
+    "title" : "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+    "summary" : "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating medical AI security under realistic resource constraints. Our framework design covers multiple medical specialties stratified by clinical risk -- from high-risk domains such as emergency medicine and psychiatry to general practice -- addressing jailbreaking attacks (role-playing, authority impersonation, multi-turn manipulation) and privacy extraction attacks. All evaluation utilizes synthetic patient records requiring no IRB approval. The framework is designed to run entirely on consumer CPU hardware using freely available models, eliminating cost barriers. We present the framework specification including threat models, data generation methodology, evaluation protocols, and scoring rubrics. This proposal establishes a foundation for comparative security assessment of medical-specialist models and defense mechanisms, advancing the broader goal of ensuring safe and trustworthy medical AI systems.",
+    "updated" : "2025-12-09T02:28:15Z",
+    "published" : "2025-12-09T02:28:15Z",
+    "authors" : [
+      {
+        "name" : "Jinghao Wang"
+      },
+      {
+        "name" : "Ping Zhang"
+      },
+      {
+        "name" : "Carter Yagemann"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08104v1",
+    "title" : "AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration",
+    "summary" : "As AI agents increasingly operate in real-world, multi-agent environments, ensuring reliable and context-aware privacy in agent communication is critical, especially to comply with evolving regulatory requirements. Traditional access controls are insufficient, as privacy risks often arise after access is granted; agents may use information in ways that compromise privacy, such as messaging humans, sharing context with other agents, making tool calls, persisting data, or generating derived private information. Existing approaches often treat privacy as a binary constraint, whether data is shareable or not, overlooking nuanced, role-specific, and computation-dependent privacy needs essential for regulatory compliance.\n  Agents, including those based on large language models, are inherently probabilistic and heuristic. There is no formal guarantee of how an agent will behave for any query, making them ill-suited for operations critical to security. To address this, we introduce AgentCrypt, a four-tiered framework for fine-grained, encrypted agent communication that adds a protection layer atop any AI agent platform. AgentCrypt spans unrestricted data exchange (Level 1) to fully encrypted computation using techniques such as homomorphic encryption (Level 4). Crucially, it guarantees the privacy of tagged data is always maintained, prioritizing privacy above correctness.\n  AgentCrypt ensures privacy across diverse interactions and enables computation on otherwise inaccessible data, overcoming barriers such as data silos. We implemented and tested it with Langgraph and Google ADK, demonstrating versatility across platforms. We also introduce a benchmark dataset simulating privacy-critical tasks at all privacy levels, enabling systematic evaluation and fostering the development of regulatable machine learning systems for secure agent communication and computation.",
+    "updated" : "2025-12-08T23:20:20Z",
+    "published" : "2025-12-08T23:20:20Z",
+    "authors" : [
+      {
+        "name" : "Harish Karthikeyan"
+      },
+      {
+        "name" : "Yue Guo"
+      },
+      {
+        "name" : "Leo de Castro"
+      },
+      {
+        "name" : "Antigoni Polychroniadou"
+      },
+      {
+        "name" : "Leo Ardon"
+      },
+      {
+        "name" : "Udari Madhushani Sehwag"
+      },
+      {
+        "name" : "Sumitra Ganesh"
+      },
+      {
+        "name" : "Manuela Veloso"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08096v1",
+    "title" : "Selling Privacy in Blockchain Transactions",
+    "summary" : "We study methods to enhance privacy in blockchain transactions from an economic angle. We consider mechanisms for privacy-aware users whose utility depends not only on the outcome of the mechanism but also negatively on the exposure of their economic preferences. Specifically, we study two auction-theoretic settings with privacy-aware users. First, we analyze an order flow auction, where a user auctions off to specialized agents, called searchers, the right to execute her transaction while maintaining a degree of privacy. We examine how the degree of privacy affects the revenue of the auction and, broadly, the net utility of the privacy-aware user. In this new setting, we describe the optimal auction, which is a sealed-bid auction. Subsequently, we analyze a variant of a Dutch auction in which the user gradually decreases the price and the degree of privacy until the transaction is sold. We compare the revenue of this auction to that of the optimal one as a function of the number of communication rounds. Then, we introduce a two-sided market - a privacy marketplace - with multiple users selling their transactions under their privacy preferences to multiple searchers. We propose a posted-price mechanism for the two-sided market that guarantees constant approximation of the optimal social welfare while maintaining incentive compatibility (from both sides of the market) and budget balance. This work builds on the emerging line of research that attempts to improve the performance of economic mechanisms by appending cryptographic primitives to them.",
+    "updated" : "2025-12-08T23:13:02Z",
+    "published" : "2025-12-08T23:13:02Z",
+    "authors" : [
+      {
+        "name" : "Georgios Chionas"
+      },
+      {
+        "name" : "Olga Gorelkina"
+      },
+      {
+        "name" : "Piotr Krysta"
+      },
+      {
+        "name" : "Rida Laraki"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08025v1",
+    "title" : "\"Your Privacy is Your Responsibility\": Understanding How Users Collectively Navigate the Complexity of Privacy on Quora",
+    "summary" : "In the current technology environment, users are often in a vulnerable position when it comes to protecting their privacy. Previous efforts to promote privacy protection have largely focused on top-down approaches such as regulation and technology design, missing opportunities to understand how to empower users through bottom-up, collective approaches. Our paper addresses this by analyzing what and how privacy-related topics are discussed on Quora. We identified a wide range of interconnected privacy topics brought up by the users, including privacy risks and dangers, protection strategies, organizational practices, and existing laws and regulations. Our results highlight the interplay among the individual, technological, organizational, and societal factors affecting users' privacy attitudes. Moreover, we provide implications for designing community-based tools to better support users' collective efforts in navigating privacy, tools that incorporate users' diverse privacy-related behaviors and preferences, simplify information access and sharing, and connect designers and developers with the user community.",
+    "updated" : "2025-12-08T20:35:25Z",
+    "published" : "2025-12-08T20:35:25Z",
+    "authors" : [
+      {
+        "name" : "Varun Shiri"
+      },
+      {
+        "name" : "Maggie Xiong"
+      },
+      {
+        "name" : "Jin L. C. Guo"
+      },
+      {
+        "name" : "Jinghui Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.07814v2",
+    "title" : "Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach",
+    "summary" : "Large language models for code (LLM4Code) have greatly improved developer productivity but also raise privacy concerns due to their reliance on open-source repositories containing abundant personally identifiable information (PII). Prior work shows that commercial models can reproduce sensitive PII, yet existing studies largely treat PII as a single category and overlook the heterogeneous risks among different types. We investigate whether distinct PII types vary in their likelihood of being learned and leaked by LLM4Code, and whether this relationship is causal. Our methodology includes building a dataset with diverse PII types, fine-tuning representative models of different scales, computing training dynamics on real PII data, and formulating a structural causal model to estimate the causal effect of learnability on leakage. Results show that leakage risks differ substantially across PII types and correlate with their training dynamics: easy-to-learn instances such as IP addresses exhibit higher leakage, while harder types such as keys and passwords leak less frequently. Ambiguous types show mixed behaviors. This work provides the first causal evidence that leakage risks are type-dependent and offers guidance for developing type-aware and learnability-aware defenses for LLM4Code.",
+    "updated" : "2025-12-09T03:23:33Z",
+    "published" : "2025-12-08T18:47:40Z",
+    "authors" : [
+      {
+        "name" : "Hua Yang"
+      },
+      {
+        "name" : "Alejandro Velasco"
+      },
+      {
+        "name" : "Sen Fang"
+      },
+      {
+        "name" : "Bowen Xu"
+      },
+      {
+        "name" : "Denys Poshyvanyk"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
