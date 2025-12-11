@@ -1111,5 +1111,92 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.09463v1",
+    "title" : "Privacy-Preserving Computer Vision for Industry: Three Case Studies in Human-Centric Manufacturing",
+    "summary" : "The adoption of AI-powered computer vision in industry is often constrained by the need to balance operational utility with worker privacy. Building on our previously proposed privacy-preserving framework, this paper presents its first comprehensive validation on real-world data collected directly by industrial partners in active production environments. We evaluate the framework across three representative use cases: woodworking production monitoring, human-aware AGV navigation, and multi-camera ergonomic risk assessment. The approach employs learned visual transformations that obscure sensitive or task-irrelevant information while retaining features essential for task performance. Through both quantitative evaluation of the privacy-utility trade-off and qualitative feedback from industrial partners, we assess the framework's effectiveness, deployment feasibility, and trust implications. Results demonstrate that task-specific obfuscation enables effective monitoring with reduced privacy risks, establishing the framework's readiness for real-world adoption and providing cross-domain recommendations for responsible, human-centric AI deployment in industry.",
+    "updated" : "2025-12-10T09:33:03Z",
+    "published" : "2025-12-10T09:33:03Z",
+    "authors" : [
+      {
+        "name" : "Sander De Coninck"
+      },
+      {
+        "name" : "Emilio Gamba"
+      },
+      {
+        "name" : "Bart Van Doninck"
+      },
+      {
+        "name" : "Abdellatif Bey-Temsamani"
+      },
+      {
+        "name" : "Sam Leroux"
+      },
+      {
+        "name" : "Pieter Simoens"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.09309v1",
+    "title" : "A Distributed Framework for Privacy-Enhanced Vision Transformers on the Edge",
+    "summary" : "Nowadays, visual intelligence tools have become ubiquitous, offering all kinds of convenience and possibilities. However, these tools have high computational requirements that exceed the capabilities of resource-constrained mobile and wearable devices. While offloading visual data to the cloud is a common solution, it introduces significant privacy vulnerabilities during transmission and server-side computation. To address this, we propose a novel distributed, hierarchical offloading framework for Vision Transformers (ViTs) that addresses these privacy challenges by design. Our approach uses a local trusted edge device, such as a mobile phone or an Nvidia Jetson, as the edge orchestrator. This orchestrator partitions the user's visual data into smaller portions and distributes them across multiple independent cloud servers. By design, no single external server possesses the complete image, preventing comprehensive data reconstruction. The final data merging and aggregation computation occurs exclusively on the user's trusted edge device. We apply our framework to the Segment Anything Model (SAM) as a practical case study, which demonstrates that our method substantially enhances content privacy over traditional cloud-based approaches. Evaluations show our framework maintains near-baseline segmentation performance while substantially reducing the risk of content reconstruction and user data exposure. Our framework provides a scalable, privacy-preserving solution for vision tasks in the edge-cloud continuum.",
+    "updated" : "2025-12-10T04:37:07Z",
+    "published" : "2025-12-10T04:37:07Z",
+    "authors" : [
+      {
+        "name" : "Zihao Ding"
+      },
+      {
+        "name" : "Mufeng Zhu"
+      },
+      {
+        "name" : "Zhongze Tang"
+      },
+      {
+        "name" : "Sheng Wei"
+      },
+      {
+        "name" : "Yao Liu"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.06253v2",
+    "title" : "Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure",
+    "summary" : "Noise perturbation is one of the most fundamental approaches for achieving $(ε,δ)$-differential privacy (DP) guarantees when releasing the result of a query or function $f(\\cdot)\\in\\mathbb{R}^M$ evaluated on a sensitive dataset $\\mathbf{x}$. In this approach, calibrated noise $\\mathbf{n}\\in\\mathbb{R}^M$ is used to obscure the difference vector $f(\\mathbf{x})-f(\\mathbf{x}')$, where $\\mathbf{x}'$ is known as a neighboring dataset. A DP guarantee is obtained by studying the tail probability bound of a privacy loss random variable (PLRV), defined as the Radon-Nikodym derivative between two distributions. When $\\mathbf{n}$ follows a multivariate Gaussian distribution, the PLRV is characterized as a specific univariate Gaussian. In this paper, we propose a novel scheme to generate $\\mathbf{n}$ by leveraging the fact that the perturbation noise is typically spherically symmetric (i.e., the distribution is rotationally invariant around the origin). The new noise generation scheme allows us to investigate the privacy loss from a geometric perspective and express the resulting PLRV using a product measure, $W\\times U$; measure $W$ is related to a radius random variable controlling the magnitude of $\\mathbf{n}$, while measure $U$ involves a directional random variable governing the angle between $\\mathbf{n}$ and the difference $f(\\mathbf{x})-f(\\mathbf{x}')$. We derive a closed-form moment bound on the product measure to prove $(ε,δ)$-DP. Under the same $(ε,δ)$-DP guarantee, our mechanism yields a smaller expected noise magnitude than the classic Gaussian noise in high dimensions, thereby significantly improving the utility of the noisy result $f(\\mathbf{x})+\\mathbf{n}$. To validate this, we consider convex and non-convex empirical risk minimization (ERM) problems in high dimensional space and apply the proposed product noise to achieve privacy.",
+    "updated" : "2025-12-10T02:46:23Z",
+    "published" : "2025-12-06T02:55:46Z",
+    "authors" : [
+      {
+        "name" : "Shuainan Liu"
+      },
+      {
+        "name" : "Tianxi Ji"
+      },
+      {
+        "name" : "Zhongshuo Fang"
+      },
+      {
+        "name" : "Lu Wei"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
