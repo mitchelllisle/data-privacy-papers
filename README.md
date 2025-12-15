@@ -99,7 +99,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.00307v1">Adversarial Signed Graph Learning with Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.00307v2">Adversarial Signed Graph Learning with Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2025-11-29T04:02:48Z</p>
   <details>
@@ -606,20 +606,20 @@
 </div>
 
 
+
+<h2>2025-12</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.14524v1">Compression with Privacy-Preserving Random Access</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2025-11-18T14:24:25Z</p>
+  <h3><a href="http://arxiv.org/abs/2512.11482v1">Towards Privacy-Preserving Code Generation: Differentially Private Code Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-12T11:31:13Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Venkat Chandar, Aslan Tchamkerten, Shashank Vatedka</p>
-    <p><b>Summary:</b> It is shown that an i.i.d. binary source sequence $X_1, \ldots, X_n$ can be losslessly compressed at any rate above entropy such that the individual decoding of any $X_i$ reveals \emph{no} information about the other bits $\{X_j : j \neq i\}$.</p>
+    <p><b>Authors:</b> Melih Catal, Pooja Rani, Harald C. Gall</p>
+    <p><b>Summary:</b> Large language models specialized for code (CodeLLMs) have demonstrated remarkable capabilities in generating code snippets, documentation, and test cases. However, despite their promising capabilities, CodeLLMs can inadvertently memorize and reproduce snippets from their training data, which poses risks of privacy breaches and intellectual property violations. These risks restrict the deployment of CodeLLMs in sensitive domains and limit their training datasets to publicly available sources. To mitigate the memorization risk without compromising their task performance, we apply Differential Privacy (DP) to CodeLLMs. To the best of our knowledge, this is the first comprehensive study that systematically evaluates the effectiveness of DP in CodeLLMs. DP adds calibrated noise to the training process to protect individual data points while still allowing the model to learn useful patterns. To this end, we first identify and understand the driving reasons of the memorization behaviour of the CodeLLMs during their fine-tuning. Then, to address this issue, we empirically evaluate the effect of DP on mitigating memorization while preserving code generation capabilities. Our findings show that DP substantially reduces memorization in CodeLLMs across all the tested snippet types. The snippet types most prone to memorization are also the most effectively mitigated by DP. Furthermore, we observe that DP slightly increases perplexity but preserves, and can even enhance, the code generation capabilities of CodeLLMs, which makes it feasible to apply DP in practice without significantly compromising model utility. Finally, we analyze the impact of DP on training efficiency and energy consumption, finding that DP does not significantly affect training time or energy usage, making it a practical choice for privacy-preserving CodeLLMs training.</p>
   </details>
 </div>
 
-
-
-<h2>2025-12</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.10618v1">Analyzing developer discussions on EU and US privacy legislation compliance in GitHub repositories</a></h3>
