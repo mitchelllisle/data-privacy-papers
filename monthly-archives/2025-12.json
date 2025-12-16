@@ -1410,5 +1410,245 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.13439v1",
+    "title" : "Balancing Timeliness and Privacy in Discrete-Time Updating Systems",
+    "summary" : "We study the trade-off between Age of Information (AoI) and maximal leakage (MaxL) in discrete-time status updating systems. A source generates time-stamped update packets that are processed by a server that delivers them to a monitor. An adversary, who eavesdrops on the server-monitor link, wishes to infer the timing of the underlying source update sequence. The server must balance the timeliness of the status information at the monitor against the timing information leaked to the adversary. We consider a model with Bernoulli source updates under two classes of Last-Come-First-Served (LCFS) service policies: (1) Coupled policies that tie the server's deliveries to the update arrival process in a preemptive queue; (2) Decoupled (dumping) policies in which the server transmits its freshest update according to a schedule that is independent of the update arrivals. For each class, we characterize the structure of the optimal policy that minimizes AoI for a given MaxL rate. Our analysis reveals that decoupled dumping policies offer a superior age-leakage trade-off to coupled policies. When subject to a MaxL constraint, we prove that the optimal dumping strategy is achieved by dithering between two adjacent deterministic dump periods.",
+    "updated" : "2025-12-15T15:34:30Z",
+    "published" : "2025-12-15T15:34:30Z",
+    "authors" : [
+      {
+        "name" : "Nitya Sathyavageeswaran"
+      },
+      {
+        "name" : "Anand D. Sarwate"
+      },
+      {
+        "name" : "Narayan B. Mandayam"
+      },
+      {
+        "name" : "Roy D. Yates"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.13405v1",
+    "title" : "Improving Privacy Protection in the area of Behavioural Targeting",
+    "summary" : "This PhD thesis discusses how European law could improve privacy protection in the area of behavioural targeting. Behavioural targeting, also referred to as online profiling, involves monitoring people's online behaviour, and using the collected information to show people individually targeted advertisements. To protect privacy in the area of behavioural targeting, the EU lawmaker mainly relies on the consent requirement for the use of tracking technologies in the e-Privacy Directive, and on general data protection law. With informed consent requirements, the law aims to empower people to make choices in their best interests. But behavioural studies cast doubt on the effectiveness of the empowerment approach as a privacy protection measure. Many people click \"I agree\" to any statement that is presented to them. Therefore, to mitigate privacy problems such as chilling effects, this study argues for a combined approach of protecting and empowering the individual. Compared to the current approach, the lawmaker should focus more on protecting people. The PhD thesis is a legal study, but it also incorporates insights from other disciplines, such as computer science, behavioural economics, and media studies. This study is among the first to discuss the implications of behavioural research for European data protection policy. The topic of whether data protection law should apply to pseudonymous data is discussed in depth. The study contains a detailed analysis of the role of informed consent in data protection law, and gives much attention to the tension between protecting and empowering the individual within data protection law.",
+    "updated" : "2025-12-15T14:53:42Z",
+    "published" : "2025-12-15T14:53:42Z",
+    "authors" : [
+      {
+        "name" : "Frederik Johannes Zuiderveen Borgesius"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.12914v1",
+    "title" : "CTIGuardian: A Few-Shot Framework for Mitigating Privacy Leakage in Fine-Tuned LLMs",
+    "summary" : "Large Language Models (LLMs) are often fine-tuned to adapt their general-purpose knowledge to specific tasks and domains such as cyber threat intelligence (CTI). Fine-tuning is mostly done through proprietary datasets that may contain sensitive information. Owners expect their fine-tuned model to not inadvertently leak this information to potentially adversarial end users. Using CTI as a use case, we demonstrate that data-extraction attacks can recover sensitive information from fine-tuned models on CTI reports, underscoring the need for mitigation. Retraining the full model to eliminate this leakage is computationally expensive and impractical. We propose an alternative approach, which we call privacy alignment, inspired by safety alignment in LLMs. Just like safety alignment teaches the model to abide by safety constraints through a few examples, we enforce privacy alignment through few-shot supervision, integrating a privacy classifier and a privacy redactor, both handled by the same underlying LLM. We evaluate our system, called CTIGuardian, using GPT-4o mini and Mistral-7B Instruct models, benchmarking against Presidio, a named entity recognition (NER) baseline. Results show that CTIGuardian provides a better privacy-utility trade-off than NER based models. While we demonstrate its effectiveness on a CTI use case, the framework is generic enough to be applicable to other sensitive domains.",
+    "updated" : "2025-12-15T01:59:14Z",
+    "published" : "2025-12-15T01:59:14Z",
+    "authors" : [
+      {
+        "name" : "Shashie Dilhara Batan Arachchige"
+      },
+      {
+        "name" : "Benjamin Zi Hao Zhao"
+      },
+      {
+        "name" : "Hassan Jameel Asghar"
+      },
+      {
+        "name" : "Dinusha Vatsalan"
+      },
+      {
+        "name" : "Dali Kaafar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.12856v1",
+    "title" : "Forgetful but Faithful: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents",
+    "summary" : "As generative agents become increasingly sophisticated and deployed in long-term interactive scenarios, their memory management capabilities emerge as a critical bottleneck for both performance and privacy. Current approaches either maintain unlimited memory stores, leading to computational intractability and privacy concerns, or employ simplistic forgetting mechanisms that compromise agent coherence and functionality. This paper introduces the Memory-Aware Retention Schema (MaRS), a novel framework for human-centered memory management in generative agents, coupled with six theoretically-grounded forgetting policies that balance performance, privacy, and computational efficiency. We present the Forgetful but Faithful Agent (FiFA) benchmark, a comprehensive evaluation framework that assesses agent performance across narrative coherence, goal completion, social recall accuracy, privacy preservation, and cost efficiency. Through extensive experimentation involving 300 evaluation runs across multiple memory budgets and agent configurations, we demonstrate that our hybrid forgetting policy achieves superior performance (composite score: 0.911) while maintaining computational tractability and privacy guarantees. Our work establishes new benchmarks for memory-budgeted agent evaluation and provides practical guidelines for deploying generative agents in resource-constrained, privacy-sensitive environments. The theoretical foundations, implementation framework, and empirical results contribute to the emerging field of human-centered AI by addressing fundamental challenges in agent memory management that directly impact user trust, system scalability, and regulatory compliance.",
+    "updated" : "2025-12-14T21:40:07Z",
+    "published" : "2025-12-14T21:40:07Z",
+    "authors" : [
+      {
+        "name" : "Saad Alqithami"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.12840v1",
+    "title" : "PRIVEE: Privacy-Preserving Vertical Federated Learning Against Feature Inference Attacks",
+    "summary" : "Vertical Federated Learning (VFL) enables collaborative model training across organizations that share common user samples but hold disjoint feature spaces. Despite its potential, VFL is susceptible to feature inference attacks, in which adversarial parties exploit shared confidence scores (i.e., prediction probabilities) during inference to reconstruct private input features of other participants. To counter this threat, we propose PRIVEE (PRIvacy-preserving Vertical fEderated lEarning), a novel defense mechanism named after the French word privée, meaning \"private.\" PRIVEE obfuscates confidence scores while preserving critical properties such as relative ranking and inter-score distances. Rather than exposing raw scores, PRIVEE shares only the transformed representations, mitigating the risk of reconstruction attacks without degrading model prediction accuracy. Extensive experiments show that PRIVEE achieves a threefold improvement in privacy protection compared to state-of-the-art defenses, while preserving full predictive performance against advanced feature inference attacks.",
+    "updated" : "2025-12-14T21:05:19Z",
+    "published" : "2025-12-14T21:05:19Z",
+    "authors" : [
+      {
+        "name" : "Sindhuja Madabushi"
+      },
+      {
+        "name" : "Ahmad Faraz Khan"
+      },
+      {
+        "name" : "Haider Ali"
+      },
+      {
+        "name" : "Ananthram Swami"
+      },
+      {
+        "name" : "Rui Ning"
+      },
+      {
+        "name" : "Hongyi Wu"
+      },
+      {
+        "name" : "Jin-Hee Cho"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.12586v1",
+    "title" : "StegaVAR: Privacy-Preserving Video Action Recognition via Steganographic Domain Analysis",
+    "summary" : "Despite the rapid progress of deep learning in video action recognition (VAR) in recent years, privacy leakage in videos remains a critical concern. Current state-of-the-art privacy-preserving methods often rely on anonymization. These methods suffer from (1) low concealment, where producing visually distorted videos that attract attackers' attention during transmission, and (2) spatiotemporal disruption, where degrading essential spatiotemporal features for accurate VAR. To address these issues, we propose StegaVAR, a novel framework that embeds action videos into ordinary cover videos and directly performs VAR in the steganographic domain for the first time. Throughout both data transmission and action analysis, the spatiotemporal information of hidden secret video remains complete, while the natural appearance of cover videos ensures the concealment of transmission. Considering the difficulty of steganographic domain analysis, we propose Secret Spatio-Temporal Promotion (STeP) and Cross-Band Difference Attention (CroDA) for analysis within the steganographic domain. STeP uses the secret video to guide spatiotemporal feature extraction in the steganographic domain during training. CroDA suppresses cover interference by capturing cross-band semantic differences. Experiments demonstrate that StegaVAR achieves superior VAR and privacy-preserving performance on widely used datasets. Moreover, our framework is effective for multiple steganographic models.",
+    "updated" : "2025-12-14T07:44:07Z",
+    "published" : "2025-12-14T07:44:07Z",
+    "authors" : [
+      {
+        "name" : "Lixin Chen"
+      },
+      {
+        "name" : "Chaomeng Chen"
+      },
+      {
+        "name" : "Jiale Zhou"
+      },
+      {
+        "name" : "Zhijian Wu"
+      },
+      {
+        "name" : "Xun Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.12471v1",
+    "title" : "Privacy-Aware Ambient Audio Sensing for Healthy Indoor Spaces",
+    "summary" : "Indoor airborne transmission poses a significant health risk, yet current monitoring solutions are invasive, costly, or fail to address it directly. My research explores the untapped potential of ambient audio sensing to estimate key transmission risk factors such as ventilation, aerosol emissions, and occupant distribution non-invasively and in real time. I develop privacy-preserving systems that leverage existing microphones to monitor the whole spectrum of indoor air quality which can have a significant effect on an individual's health. This work lays the foundation for privacy-aware airborne risk monitoring using everyday devices.",
+    "updated" : "2025-12-13T21:55:11Z",
+    "published" : "2025-12-13T21:55:11Z",
+    "authors" : [
+      {
+        "name" : "Bhawana Chhaglani"
+      }
+    ],
+    "categories" : [
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.12224v1",
+    "title" : "Cluster-guided LLM-Based Anonymization of Software Analytics Data: Studying Privacy-Utility Trade-offs in JIT Defect Prediction",
+    "summary" : "The increasing use of machine learning (ML) for Just-In-Time (JIT) defect prediction raises concerns about privacy leakage from software analytics data. Existing anonymization methods, such as tabular transformations and graph perturbations, often overlook contextual dependencies among software metrics, leading to suboptimal privacy-utility tradeoffs. Leveraging the contextual reasoning of Large Language Models (LLMs), we propose a cluster-guided anonymization technique that preserves contextual and statistical relationships within JIT datasets. Our method groups commits into feature-based clusters and employs an LLM to generate context-aware parameter configurations for each commit cluster, defining alpha-beta ratios and churn mixture distributions used for anonymization. Our evaluation on six projects (Cassandra, Flink, Groovy, Ignite, OpenStack, and Qt) shows that our LLM-based approach achieves privacy level 2 (IPR >= 80 percent), improving privacy by 18 to 25 percent over four state-of-the-art graph-based anonymization baselines while maintaining comparable F1 scores. Our results demonstrate that LLMs can act as adaptive anonymization engines when provided with cluster-specific statistical information about similar data points, enabling context-sensitive and privacy-preserving software analytics without compromising predictive accuracy.",
+    "updated" : "2025-12-13T07:37:30Z",
+    "published" : "2025-12-13T07:37:30Z",
+    "authors" : [
+      {
+        "name" : "Maaz Khan"
+      },
+      {
+        "name" : "Gul Sher Khan"
+      },
+      {
+        "name" : "Ahsan Raza"
+      },
+      {
+        "name" : "Pir Sami Ullah"
+      },
+      {
+        "name" : "Abdul Ali Bangash"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.06380v2",
+    "title" : "Protecting Bystander Privacy via Selective Hearing in Audio LLMs",
+    "summary" : "Audio Large language models (LLMs) are increasingly deployed in the real world, where they inevitably capture speech from unintended nearby bystanders, raising privacy risks that existing benchmarks and defences did not consider. We introduce SH-Bench, the first benchmark designed to evaluate selective hearing: a model's ability to attend to an intended main speaker while refusing to process or reveal information about incidental bystander speech. SH-Bench contains 3,968 multi-speaker audio mixtures, including both real-world and synthetic scenarios, paired with 77k multiple-choice questions that probe models under general and selective operating modes. In addition, we propose Selective Efficacy (SE), a novel metric capturing both multi-speaker comprehension and bystander-privacy protection. Our evaluation of state-of-the-art open-source and proprietary LLMs reveals substantial bystander privacy leakage, with strong audio understanding failing to translate into selective protection of bystander privacy. To mitigate this gap, we also present Bystander Privacy Fine-Tuning (BPFT), a novel training pipeline that teaches models to refuse bystander-related queries without degrading main-speaker comprehension. We show that BPFT yields substantial gains, achieving an absolute 47% higher bystander accuracy under selective mode and an absolute 16% higher SE compared to Gemini 2.5 Pro, which is the best audio LLM without BPFT. Together, SH-Bench and BPFT provide the first systematic framework for measuring and improving bystander privacy in audio LLMs.",
+    "updated" : "2025-12-13T14:48:07Z",
+    "published" : "2025-12-06T10:24:04Z",
+    "authors" : [
+      {
+        "name" : "Xiao Zhan"
+      },
+      {
+        "name" : "Guangzhi Sun"
+      },
+      {
+        "name" : "Jose Such"
+      },
+      {
+        "name" : "Phil Woodland"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.06253v3",
+    "title" : "Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure",
+    "summary" : "Noise perturbation is one of the most fundamental approaches for achieving $(ε,δ)$-differential privacy (DP) guarantees when releasing the result of a query or function $f(\\cdot)\\in\\mathbb{R}^M$ evaluated on a sensitive dataset $\\mathbf{x}$. In this approach, calibrated noise $\\mathbf{n}\\in\\mathbb{R}^M$ is used to obscure the difference vector $f(\\mathbf{x})-f(\\mathbf{x}')$, where $\\mathbf{x}'$ is known as a neighboring dataset. A DP guarantee is obtained by studying the tail probability bound of a privacy loss random variable (PLRV), defined as the Radon-Nikodym derivative between two distributions. When $\\mathbf{n}$ follows a multivariate Gaussian distribution, the PLRV is characterized as a specific univariate Gaussian. In this paper, we propose a novel scheme to generate $\\mathbf{n}$ by leveraging the fact that the perturbation noise is typically spherically symmetric (i.e., the distribution is rotationally invariant around the origin). The new noise generation scheme allows us to investigate the privacy loss from a geometric perspective and express the resulting PLRV using a product measure, $W\\times U$; measure $W$ is related to a radius random variable controlling the magnitude of $\\mathbf{n}$, while measure $U$ involves a directional random variable governing the angle between $\\mathbf{n}$ and the difference $f(\\mathbf{x})-f(\\mathbf{x}')$. We derive a closed-form moment bound on the product measure to prove $(ε,δ)$-DP. Under the same $(ε,δ)$-DP guarantee, our mechanism yields a smaller expected noise magnitude than the classic Gaussian noise in high dimensions, thereby significantly improving the utility of the noisy result $f(\\mathbf{x})+\\mathbf{n}$. To validate this, we consider convex and non-convex empirical risk minimization (ERM) problems in high dimensional space and apply the proposed product noise to achieve privacy.",
+    "updated" : "2025-12-13T19:26:45Z",
+    "published" : "2025-12-06T02:55:46Z",
+    "authors" : [
+      {
+        "name" : "Shuainan Liu"
+      },
+      {
+        "name" : "Tianxi Ji"
+      },
+      {
+        "name" : "Zhongshuo Fang"
+      },
+      {
+        "name" : "Lu Wei"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
