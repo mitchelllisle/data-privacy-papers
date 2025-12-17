@@ -1650,5 +1650,134 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.14388v1",
+    "title" : "Black-Box Auditing of Quantum Model: Lifted Differential Privacy with Quantum Canaries",
+    "summary" : "Quantum machine learning (QML) promises significant computational advantages, yet models trained on sensitive data risk memorizing individual records, creating serious privacy vulnerabilities. While Quantum Differential Privacy (QDP) mechanisms provide theoretical worst-case guarantees, they critically lack empirical verification tools for deployed models. We introduce the first black-box privacy auditing framework for QML based on Lifted Quantum Differential Privacy, leveraging quantum canaries (strategically offset-encoded quantum states) to detect memorization and precisely quantify privacy leakage during training. Our framework establishes a rigorous mathematical connection between canary offset and trace distance bounds, deriving empirical lower bounds on privacy budget consumption that bridge the critical gap between theoretical guarantees and practical privacy verification. Comprehensive evaluations across both simulated and physical quantum hardware demonstrate our framework's effectiveness in measuring actual privacy loss in QML models, enabling robust privacy verification in QML systems.",
+    "updated" : "2025-12-16T13:26:41Z",
+    "published" : "2025-12-16T13:26:41Z",
+    "authors" : [
+      {
+        "name" : "Baobao Song"
+      },
+      {
+        "name" : "Shiva Raj Pokhrel"
+      },
+      {
+        "name" : "Athanasios V. Vasilakos"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Gang Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.14337v1",
+    "title" : "The Cost of Adaptation under Differential Privacy: Optimal Adaptive Federated Density Estimation",
+    "summary" : "Privacy-preserving data analysis has become a central challenge in modern statistics. At the same time, a long-standing goal in statistics is the development of adaptive procedures -- methods that achieve near-optimal performance across diverse function classes without prior knowledge of underlying smoothness or complexity. While adaptation is often achievable at no extra cost in the classical non-private setting, this naturally raises a fundamental question: to what extent is adaptation still possible under privacy constraints?\n  We address this question in the context of density estimation under federated differential privacy (FDP), a framework that encompasses both central and local DP models. We establish sharp results that characterize the cost of adaptation under FDP for both global and pointwise estimation, revealing fundamental differences from the non-private case. We then propose an adaptive FDP estimator that achieves explicit performance guarantees by introducing a new noise mechanism, enabling one-shot adaptation via post-processing. This approach strictly improves upon existing adaptive DP methods. Finally, we develop new lower bound techniques that capture the limits of adaptive inference under privacy and may be of independent interest beyond this problem.\n  Our findings reveal a sharp contrast between private and non-private settings. For global estimation, where adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy trade-off.",
+    "updated" : "2025-12-16T12:06:16Z",
+    "published" : "2025-12-16T12:06:16Z",
+    "authors" : [
+      {
+        "name" : "T. Tony Cai"
+      },
+      {
+        "name" : "Abhinav Chakraborty"
+      },
+      {
+        "name" : "Lasse Vuursteen"
+      }
+    ],
+    "categories" : [
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.13880v1",
+    "title" : "Privacy-Enhancing Infant Cry Classification with Federated Transformers and Denoising Regularization",
+    "summary" : "Infant cry classification can aid early assessment of infant needs. However, deployment of such solutions is limited by privacy concerns around audio data, sensitivity to background noise, and domain shift across recording environments. We present an end-to-end infant cry analysis pipeline that integrates a denoising autoencoder (DAE), a convolutional tokenizer, and a Transformer encoder trained using communication-efficient federated learning (FL). The system performs on-device denoising, adaptive segmentation, post hoc calibration, and energy-based out-of-distribution (OOD) abstention. Federated training employs a regularized control variate update with 8-bit adapter deltas under secure aggregation. Using the Baby Chillanto and Donate-a-Cry datasets with ESC-50 noise overlays, the model achieves a macro F1 score of 0.938, an AUC of 0.962, and an Expected Calibration Error (ECE) of 0.032, while reducing per-round client upload from approximately 36 to 42 MB to 3.3 MB. Real-time edge inference on an NVIDIA Jetson Nano (4 GB, TensorRT FP16) achieves 96 ms per one-second spectrogram frame. These results demonstrate a practical path toward privacy-preserving, noise-robust, and communication-efficient infant cry classification suitable for federated deployment.",
+    "updated" : "2025-12-15T20:33:24Z",
+    "published" : "2025-12-15T20:33:24Z",
+    "authors" : [
+      {
+        "name" : "Geofrey Owino"
+      },
+      {
+        "name" : "Bernard Shibwabo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.13717v1",
+    "title" : "Federated Few-Shot Learning for Epileptic Seizure Detection Under Privacy Constraints",
+    "summary" : "Many deep learning approaches have been developed for EEG-based seizure detection; however, most rely on access to large centralized annotated datasets. In clinical practice, EEG data are often scarce, patient-specific distributed across institutions, and governed by strict privacy regulations that prohibit data pooling. As a result, creating usable AI-based seizure detection models remains challenging in real-world medical settings. To address these constraints, we propose a two-stage federated few-shot learning (FFSL) framework for personalized EEG-based seizure detection. The method is trained and evaluated on the TUH Event Corpus, which includes six EEG event classes. In Stage 1, a pretrained biosignal transformer (BIOT) is fine-tuned across non-IID simulated hospital sites using federated learning, enabling shared representation learning without centralizing EEG recordings. In Stage 2, federated few-shot personalization adapts the classifier to each patient using only five labeled EEG segments, retaining seizure-specific information while still benefiting from cross-site knowledge. Federated fine-tuning achieved a balanced accuracy of 0.43 (centralized: 0.52), Cohen's kappa of 0.42 (0.49), and weighted F1 of 0.69 (0.74). In the FFSL stage, client-specific models reached an average balanced accuracy of 0.77, Cohen's kappa of 0.62, and weighted F1 of 0.73 across four sites with heterogeneous event distributions. These results suggest that FFSL can support effective patient-adaptive seizure detection under realistic data-availability and privacy constraints.",
+    "updated" : "2025-12-09T16:01:35Z",
+    "published" : "2025-12-09T16:01:35Z",
+    "authors" : [
+      {
+        "name" : "Ekaterina Sysoykova"
+      },
+      {
+        "name" : "Bernhard Anzengruber-Tanase"
+      },
+      {
+        "name" : "Michael Haslgrubler"
+      },
+      {
+        "name" : "Philipp Seidl"
+      },
+      {
+        "name" : "Alois Ferscha"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.05459v2",
+    "title" : "PrivCode: When Code Generation Meets Differential Privacy",
+    "summary" : "Large language models (LLMs) have presented outstanding performance in code generation and completion. However, fine-tuning these models on private datasets can raise privacy and proprietary concerns, such as the leakage of sensitive personal information. Differentially private (DP) code generation provides theoretical guarantees for protecting sensitive code by generating synthetic datasets that preserve statistical properties while reducing privacy leakage concerns. However, DP code generation faces significant challenges due to the strict syntactic dependencies and the privacy-utility trade-off.\n  We propose PrivCode, the first DP synthesizer specifically designed for code datasets. It incorporates a two-stage framework to improve both privacy and utility. In the first stage, termed \"privacy-sanitizing\", PrivCode generates DP-compliant synthetic code by training models using DP-SGD while introducing syntactic information to preserve code structure. The second stage, termed \"utility-boosting\", fine-tunes a larger pre-trained LLM on the synthetic privacy-free code to mitigate the utility loss caused by DP, enhancing the utility of the generated code. Extensive experiments on four LLMs show that PrivCode generates higher-utility code across various testing tasks under four benchmarks. The experiments also confirm its ability to protect sensitive data under varying privacy budgets. We provide the replication package at the anonymous link.",
+    "updated" : "2025-12-16T02:43:15Z",
+    "published" : "2025-12-05T06:27:06Z",
+    "authors" : [
+      {
+        "name" : "Zheng Liu"
+      },
+      {
+        "name" : "Chen Gong"
+      },
+      {
+        "name" : "Terry Yue Zhuo"
+      },
+      {
+        "name" : "Kecen Li"
+      },
+      {
+        "name" : "Weichen Yu"
+      },
+      {
+        "name" : "Matt Fredrikson"
+      },
+      {
+        "name" : "Tianhao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
