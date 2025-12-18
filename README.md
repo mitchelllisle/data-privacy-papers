@@ -390,80 +390,32 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.20710v1">Are Neuro-Inspired Multi-Modal Vision-Language Models Resilient to Membership Inference Privacy Leakage?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-24T22:32:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> David Amebley, Sayanton Dibbo</p>
-    <p><b>Summary:</b> In the age of agentic AI, the growing deployment of multi-modal models (MMs) has introduced new attack vectors that can leak sensitive training data in MMs, causing privacy leakage. This paper investigates a black-box privacy attack, i.e., membership inference attack (MIA) on multi-modal vision-language models (VLMs). State-of-the-art research analyzes privacy attacks primarily to unimodal AI-ML systems, while recent studies indicate MMs can also be vulnerable to privacy attacks. While researchers have demonstrated that biologically inspired neural network representations can improve unimodal model resilience against adversarial attacks, it remains unexplored whether neuro-inspired MMs are resilient against privacy attacks. In this work, we introduce a systematic neuroscience-inspired topological regularization (tau) framework to analyze MM VLMs resilience against image-text-based inference privacy attacks. We examine this phenomenon using three VLMs: BLIP, PaliGemma 2, and ViT-GPT2, across three benchmark datasets: COCO, CC3M, and NoCaps. Our experiments compare the resilience of baseline and neuro VLMs (with topological regularization), where the tau > 0 configuration defines the NEURO variant of VLM. Our results on the BLIP model using the COCO dataset illustrate that MIA attack success in NEURO VLMs drops by 24% mean ROC-AUC, while achieving similar model utility (similarities between generated and reference captions) in terms of MPNet and ROUGE-2 metrics. This shows neuro VLMs are comparatively more resilient against privacy attacks, while not significantly compromising model utility. Our extensive evaluation with PaliGemma 2 and ViT-GPT2 models, on two additional datasets: CC3M and NoCaps, further validates the consistency of the findings. This work contributes to the growing understanding of privacy risks in MMs and provides evidence on neuro VLMs privacy threat resilience.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.19750v1">DISCO: A Browser-Based Privacy-Preserving Framework for Distributed Collaborative Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-24T22:16:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Julien T. T. Vignoud, Valérian Rousset, Hugo El Guedj, Ignacio Aleman, Walid Bennaceur, Batuhan Faik Derinbay, Eduard Ďurech, Damien Gengler, Lucas Giordano, Felix Grimberg, Franziska Lippoldt, Christina Kopidaki, Jiafan Liu, Lauris Lopata, Nathan Maire, Paul Mansat, Martin Milenkoski, Emmanuel Omont, Güneş Özgün, Mina Petrović, Francesco Posa, Morgan Ridel, Giorgio Savini, Marcel Torne, Lucas Trognon, Alyssa Unell, Olena Zavertiaieva, Sai Praneeth Karimireddy, Tahseen Rabbani, Mary-Anne Hartley, Martin Jaggi</p>
-    <p><b>Summary:</b> Data is often impractical to share for a range of well considered reasons, such as concerns over privacy, intellectual property, and legal constraints. This not only fragments the statistical power of predictive models, but creates an accessibility bias, where accuracy becomes inequitably distributed to those who have the resources to overcome these concerns. We present DISCO: an open-source DIStributed COllaborative learning platform accessible to non-technical users, offering a means to collaboratively build machine learning models without sharing any original data or requiring any programming knowledge. DISCO's web application trains models locally directly in the browser, making our tool cross-platform out-of-the-box, including smartphones. The modular design of \disco offers choices between federated and decentralized paradigms, various levels of privacy guarantees and several approaches to weight aggregation strategies that allow for model personalization and bias resilience in the collaborative training. Code repository is available at https://github.com/epfml/disco and a showcase web interface at https://discolab.ai</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.21758v1">A Longitudinal Measurement of Privacy Policy Evolution for Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-11-24T12:40:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhen Tao, Shidong Pan, Zhenchang Xing, Emily Black, Talia Gillis, Chunyang Chen</p>
-    <p><b>Summary:</b> Large language model (LLM) services have been rapidly integrated into people's daily lives as chatbots and agentic systems. They are nourished by collecting rich streams of data, raising privacy concerns around excessive collection of sensitive personal information. Privacy policies are the fundamental mechanism for informing users about data practices in modern information privacy paradigm. Although traditional web and mobile policies are well studied, the privacy policies of LLM providers, their LLM-specific content, and their evolution over time remain largely underexplored. In this paper, we present the first longitudinal empirical study of privacy policies for mainstream LLM providers worldwide. We curate a chronological dataset of 74 historical privacy policies and 115 supplemental privacy documents from 11 LLM providers across 5 countries up to August 2025, and extract over 3,000 sentence-level edits between consecutive policy versions. We compare LLM privacy policies to those of other software formats, propose a taxonomy tailored to LLM privacy policies, annotate policy edits and align them with a timeline of key LLM ecosystem events. Results show they are substantially longer, demand college-level reading ability, and remain highly vague. Our taxonomy analysis reveals patterns in how providers disclose LLM-specific practices and highlights regional disparities in coverage. Policy edits are concentrated in first-party data collection and international/specific-audience sections, and that product releases and regulatory actions are the primary drivers, shedding light on the status quo and the evolution of LLM privacy policies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.19015v1">A General Framework for Per-record Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-24T11:44:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinghe Chen, Dajun Sun, Quanqing Xu, Wei Dong</p>
-    <p><b>Summary:</b> Differential Privacy (DP) is a widely adopted standard for privacy-preserving data analysis, but it assumes a uniform privacy budget across all records, limiting its applicability when privacy requirements vary with data values. Per-record Differential Privacy (PrDP) addresses this by defining the privacy budget as a function of each record, offering better alignment with real-world needs. However, the dependency between the privacy budget and the data value introduces challenges in protecting the budget's privacy itself. Existing solutions either handle specific privacy functions or adopt relaxed PrDP definitions. A simple workaround is to use the global minimum of the privacy function, but this severely degrades utility, as the minimum is often set extremely low to account for rare records with high privacy needs. In this work, we propose a general and practical framework that enables any standard DP mechanism to support PrDP, with error depending only on the minimal privacy requirement among records actually present in the dataset. Since directly revealing this minimum may leak information, we introduce a core technique called privacy-specified domain partitioning, which ensures accurate estimation without compromising privacy. We also extend our framework to the local DP setting via a novel technique, privacy-specified query augmentation. Using our framework, we present the first PrDP solutions for fundamental tasks such as count, sum, and maximum estimation. Experimental results show that our mechanisms achieve high utility and significantly outperform existing Personalized DP (PDP) methods, which can be viewed as a special case of PrDP with relaxed privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.18965v1">REFLECTing SPERET: Measuring and Promoting Ethics and Privacy Reflexivity in Eye-Tracking Research</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2025-11-24T10:31:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Susanne Hindennach, Mayar Elfares, Céline Gressel, Andreas Bulling</p>
-    <p><b>Summary:</b> The proliferation of eye tracking in high-stakes domains - such as healthcare, marketing and surveillance - underscores the need for researchers to be ethically aware when employing this technology. Although privacy and ethical guidelines have emerged in recent years, empirical research on how scholars reflect on their own work remains scarce. To address this gap, we present two complementary instruments developed with input from more than 70 researchers: REFLECT, a qualitative questionnaire, and SPERET (Latin for "hope"), a quantitative psychometric scale that measures privacy and ethics reflexivity in eye tracking. Our findings reveal a research community that is concerned about user privacy, cognisant of methodological constraints, such as sample bias, and that possesses a nuanced sense of ethical responsibility evolving with project maturity. Together, these tools and our analyses offer a systematic examination and a hopeful outlook on reflexivity in eye-tracking research, promoting more privacy and ethics-conscious practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2511.18876v1">Fairness Meets Privacy: Integrating Differential Privacy and Demographic Parity in Multi-class Classification</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-24T08:31:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lilian Say, Christophe Denis, Rafael Pinot</p>
-    <p><b>Summary:</b> The increasing use of machine learning in sensitive applications demands algorithms that simultaneously preserve data privacy and ensure fairness across potentially sensitive sub-populations. While privacy and fairness have each been extensively studied, their joint treatment remains poorly understood. Existing research often frames them as conflicting objectives, with multiple studies suggesting that strong privacy notions such as differential privacy inevitably compromise fairness. In this work, we challenge that perspective by showing that differential privacy can be integrated into a fairness-enhancing pipeline with minimal impact on fairness guarantees. We design a postprocessing algorithm, called DP2DP, that enforces both demographic parity and differential privacy. Our analysis reveals that our algorithm converges towards its demographic parity objective at essentially the same rate (up logarithmic factor) as the best non-private methods from the literature. Experiments on both synthetic and real datasets confirm our theoretical results, showing that the proposed algorithm achieves state-of-the-art accuracy/fairness/privacy trade-offs.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.15335v1">Bits for Privacy: Evaluating Post-Training Quantization via Membership Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-17T11:28:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenxiang Zhang, Tongxi Qu, Zhong Li, Tian Zhang, Jun Pang, Sjouke Mauw</p>
+    <p><b>Summary:</b> Deep neural networks are widely deployed with quantization techniques to reduce memory and computational costs by lowering the numerical precision of their parameters. While quantization alters model parameters and their outputs, existing privacy analyses primarily focus on full-precision models, leaving a gap in understanding how bit-width reduction can affect privacy leakage. We present the first systematic study of the privacy-utility relationship in post-training quantization (PTQ), a versatile family of methods that can be applied to pretrained models without further training. Using membership inference attacks as our evaluation framework, we analyze three popular PTQ algorithms-AdaRound, BRECQ, and OBC-across multiple precision levels (4-bit, 2-bit, and 1.58-bit) on CIFAR-10, CIFAR-100, and TinyImageNet datasets. Our findings consistently show that low-precision PTQs can reduce privacy leakage. In particular, lower-precision models demonstrate up to an order of magnitude reduction in membership inference vulnerability compared to their full-precision counterparts, albeit at the cost of decreased utility. Additional ablation studies on the 1.58-bit quantization level show that quantizing only the last layer at higher precision enables fine-grained control over the privacy-utility trade-off. These results offer actionable insights for practitioners to balance efficiency, utility, and privacy protection in real-world deployments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.15123v1">TrajSyn: Privacy-Preserving Dataset Distillation from Federated Model Trajectories for Server-Side Adversarial Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-12-17T06:29:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mukur Gupta, Niharika Gupta, Saifur Rahman, Shantanu Pal, Chandan Karmakar</p>
+    <p><b>Summary:</b> Deep learning models deployed on edge devices are increasingly used in safety-critical applications. However, their vulnerability to adversarial perturbations poses significant risks, especially in Federated Learning (FL) settings where identical models are distributed across thousands of clients. While adversarial training is a strong defense, it is difficult to apply in FL due to strict client-data privacy constraints and the limited compute available on edge devices. In this work, we introduce TrajSyn, a privacy-preserving framework that enables effective server-side adversarial training by synthesizing a proxy dataset from the trajectories of client model updates, without accessing raw client data. We show that TrajSyn consistently improves adversarial robustness on image classification benchmarks with no extra compute burden on the client device.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.14388v1">Black-Box Auditing of Quantum Model: Lifted Differential Privacy with Quantum Canaries</a></h3>
@@ -487,6 +439,18 @@
     <p><b>Summary:</b> Privacy-preserving data analysis has become a central challenge in modern statistics. At the same time, a long-standing goal in statistics is the development of adaptive procedures -- methods that achieve near-optimal performance across diverse function classes without prior knowledge of underlying smoothness or complexity. While adaptation is often achievable at no extra cost in the classical non-private setting, this naturally raises a fundamental question: to what extent is adaptation still possible under privacy constraints?
   We address this question in the context of density estimation under federated differential privacy (FDP), a framework that encompasses both central and local DP models. We establish sharp results that characterize the cost of adaptation under FDP for both global and pointwise estimation, revealing fundamental differences from the non-private case. We then propose an adaptive FDP estimator that achieves explicit performance guarantees by introducing a new noise mechanism, enabling one-shot adaptation via post-processing. This approach strictly improves upon existing adaptive DP methods. Finally, we develop new lower bound techniques that capture the limits of adaptive inference under privacy and may be of independent interest beyond this problem.
   Our findings reveal a sharp contrast between private and non-private settings. For global estimation, where adaptation can be achieved for free in the classical non-private setting, we prove that under FDP an intrinsic adaptation cost is unavoidable. For pointwise estimation, where a logarithmic penalty is already known to arise in the non-private setting, we show that FDP introduces an additional logarithmic factor, thereby compounding the cost of adaptation. Taken together, these results provide the first rigorous characterization of the adaptive privacy-accuracy trade-off.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.14767v1">Privacy-Preserving Feature Valuation in Vertical Federated Learning Using Shapley-CMI and PSI Permutation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-12-16T08:01:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Unai Laskurain, Aitor Aguirre-Ortuzar, Urko Zurutuza</p>
+    <p><b>Summary:</b> Federated Learning (FL) is an emerging machine learning paradigm that enables multiple parties to collaboratively train models without sharing raw data, ensuring data privacy. In Vertical FL (VFL), where each party holds different features for the same users, a key challenge is to evaluate the feature contribution of each party before any model is trained, particularly in the early stages when no model exists. To address this, the Shapley-CMI method was recently proposed as a model-free, information-theoretic approach to feature valuation using Conditional Mutual Information (CMI). However, its original formulation did not provide a practical implementation capable of computing the required permutations and intersections securely. This paper presents a novel privacy-preserving implementation of Shapley-CMI for VFL. Our system introduces a private set intersection (PSI) server that performs all necessary feature permutations and computes encrypted intersection sizes across discretized and encrypted ID groups, without the need for raw data exchange. Each party then uses these intersection results to compute Shapley-CMI values, computing the marginal utility of their features. Initial experiments confirm the correctness and privacy of the proposed system, demonstrating its viability for secure and efficient feature contribution estimation in VFL. This approach ensures data confidentiality, scales across multiple parties, and enables fair data valuation without requiring the sharing of raw data or training models.</p>
   </details>
 </div>
 
@@ -523,6 +487,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Frederik Johannes Zuiderveen Borgesius</p>
     <p><b>Summary:</b> This PhD thesis discusses how European law could improve privacy protection in the area of behavioural targeting. Behavioural targeting, also referred to as online profiling, involves monitoring people's online behaviour, and using the collected information to show people individually targeted advertisements. To protect privacy in the area of behavioural targeting, the EU lawmaker mainly relies on the consent requirement for the use of tracking technologies in the e-Privacy Directive, and on general data protection law. With informed consent requirements, the law aims to empower people to make choices in their best interests. But behavioural studies cast doubt on the effectiveness of the empowerment approach as a privacy protection measure. Many people click "I agree" to any statement that is presented to them. Therefore, to mitigate privacy problems such as chilling effects, this study argues for a combined approach of protecting and empowering the individual. Compared to the current approach, the lawmaker should focus more on protecting people. The PhD thesis is a legal study, but it also incorporates insights from other disciplines, such as computer science, behavioural economics, and media studies. This study is among the first to discuss the implications of behavioural research for European data protection policy. The topic of whether data protection law should apply to pseudonymous data is discussed in depth. The study contains a detailed analysis of the role of informed consent in data protection law, and gives much attention to the tension between protecting and empowering the individual within data protection law.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.14756v1">Examining Software Developers' Needs for Privacy Enforcing Techniques: A survey</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2025-12-15T13:20:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ioanna Theophilou, Georgia M. Kapitsaki</p>
+    <p><b>Summary:</b> Data privacy legislation, such as GDPR and CCPA/CPRA, has rendered data privacy law compliance a requirement of all software systems. Developers need to implement various kinds of functionalities to cover law needs, including user rights and law principles. As data compliance is tightly coupled with legal knowledge, it is not always easy to perform such integrations in software systems. Prior studies have focused on developers' understanding of privacy principles, such as Privacy by Design, and have examined privacy techniques used in the software industry. Nevertheless, emerging developer needs that can assist in privacy law compliance have not been examined but are useful in understanding what development automation tools, such as Generative AI, need to cover to make the compliance process more straightforward and seamless within the development process. In this work, we present a survey that examines the above needs with the participation of 68 developers, while we have examined which factors affect practitioners' needs. Most developers express a need for more automated tools, while privacy experience increases practitioners' concerns for privacy tools. Our results can assist practitioners in better positioning their development activities within privacy law compliance and point to an urgent need for privacy facilitators.</p>
   </details>
 </div>
 
@@ -600,6 +576,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.14746v1">BLINDSPOT: Enabling Bystander-Controlled Privacy Signaling for Camera-Enabled Devices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2025-12-12T19:12:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jad Al Aaraj, Athina Markopoulou</p>
+    <p><b>Summary:</b> Camera-equipped mobile devices, such as phones, smart glasses, and AR headsets, pose a privacy challenge for bystanders, who currently lack effective real-time mechanisms to control the capture of their picture, video, including their face. We present BlindSpot, an on-device system that enables bystanders to manage their own privacy by signaling their privacy preferences in real-time without previously sharing any sensitive information. Our main contribution is the design and comparative evaluation of three distinct signaling modalities: a hand gesture mechanism, a significantly improved visible light communication (VLC) protocol, and a novel ultra-wideband (UWB) communication protocol. For all these modalities, we also design a validation mechanism that uses geometric consistency checks to verify the origin of a signal relative to the sending bystander, and defend against impersonation attacks. We implement the complete system (BlindSpot) on a commodity smartphone and conduct a comprehensive evaluation of each modality's accuracy and latency across various distances, lighting conditions, and user movements. Our results demonstrate the feasibility of these novel bystander signaling techniques and their trade-offs in terms of system performance and convenience.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.11482v1">Towards Privacy-Preserving Code Generation: Differentially Private Code Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-12-12T11:31:13Z</p>
@@ -607,6 +595,20 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Melih Catal, Pooja Rani, Harald C. Gall</p>
     <p><b>Summary:</b> Large language models specialized for code (CodeLLMs) have demonstrated remarkable capabilities in generating code snippets, documentation, and test cases. However, despite their promising capabilities, CodeLLMs can inadvertently memorize and reproduce snippets from their training data, which poses risks of privacy breaches and intellectual property violations. These risks restrict the deployment of CodeLLMs in sensitive domains and limit their training datasets to publicly available sources. To mitigate the memorization risk without compromising their task performance, we apply Differential Privacy (DP) to CodeLLMs. To the best of our knowledge, this is the first comprehensive study that systematically evaluates the effectiveness of DP in CodeLLMs. DP adds calibrated noise to the training process to protect individual data points while still allowing the model to learn useful patterns. To this end, we first identify and understand the driving reasons of the memorization behaviour of the CodeLLMs during their fine-tuning. Then, to address this issue, we empirically evaluate the effect of DP on mitigating memorization while preserving code generation capabilities. Our findings show that DP substantially reduces memorization in CodeLLMs across all the tested snippet types. The snippet types most prone to memorization are also the most effectively mitigated by DP. Furthermore, we observe that DP slightly increases perplexity but preserves, and can even enhance, the code generation capabilities of CodeLLMs, which makes it feasible to apply DP in practice without significantly compromising model utility. Finally, we analyze the impact of DP on training efficiency and energy consumption, finding that DP does not significantly affect training time or energy usage, making it a practical choice for privacy-preserving CodeLLMs training.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.14737v1">Zero-Knowledge Audit for Internet of Agents: Privacy-Preserving Communication Verification with Model Context Protocol</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-11T19:18:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guanlin Jing, Huayi Qi</p>
+    <p><b>Summary:</b> Existing agent communication frameworks face critical limitations in providing verifiable audit trails without compromising the privacy and confidentiality of agent interactions. The protection of agent communication privacy while ensuring auditability emerges as a fundamental challenge for applications requiring accurate billing, compliance verification, and accountability in regulated environments.
+  We introduce a framework for auditing agent communications that keeps messages private while still checking they follow expected rules. It pairs zero-knowledge proofs with the existing Model Context Protocol (MCP) so messages can be verified without revealing their contents. The approach runs in lightweight networks, stays compatible with standard MCP exchanges, and adds asynchronous audit verification to confirm format and general message types without exposing specifics.
+  The framework enables mutual audits between agents: one side can check communication content and quality while the other verifies usage metrics, all without revealing sensitive information. We formalize security goals and show that zk-MCP provides data authenticity and communication privacy, achieving efficient verification with negligible latency overhead. We fully implement the framework, including Circom-based zero-knowledge proof generation and an audit protocol integrated with MCP's bidirectional channel, and, to our knowledge, this is the first privacy-preserving audit system for agent communications that offers verifiable mutual auditing without exposing message content or compromising agent privacy.</p>
   </details>
 </div>
 
