@@ -1916,5 +1916,279 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16851v1",
+    "title" : "PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy",
+    "summary" : "The convergence of artificial AI and XR technologies (AI XR) promises innovative applications across many domains. However, the sensitive nature of data (e.g., eye-tracking) used in these systems raises significant privacy concerns, as adversaries can exploit these data and models to infer and leak personal information through membership inference attacks (MIA) and re-identification (RDA) with a high success rate. Researchers have proposed various techniques to mitigate such privacy attacks, including differential privacy (DP). However, AI XR datasets often contain numerous features, and applying DP uniformly can introduce unnecessary noise to less relevant features, degrade model accuracy, and increase inference time, limiting real-time XR deployment. Motivated by this, we propose a novel framework combining explainable AI (XAI) and DP-enabled privacy-preserving mechanisms to defend against privacy attacks. Specifically, we leverage post-hoc explanations to identify the most influential features in AI XR models and selectively apply DP to those features during inference. We evaluate our XAI-guided DP approach on three state-of-the-art AI XR models and three datasets: cybersickness, emotion, and activity classification. Our results show that the proposed method reduces MIA and RDA success rates by up to 43% and 39%, respectively, for cybersickness tasks while preserving model utility with up to 97% accuracy using Transformer models. Furthermore, it improves inference time by up to ~2x compared to traditional DP approaches. To demonstrate practicality, we deploy the XAI-guided DP AI XR models on an HTC VIVE Pro headset and develop a user interface (UI), namely PrivateXR, allowing users to adjust privacy levels (e.g., low, medium, high) while receiving real-time task predictions, protecting user privacy during XR gameplay.",
+    "updated" : "2025-12-18T18:23:06Z",
+    "published" : "2025-12-18T18:23:06Z",
+    "authors" : [
+      {
+        "name" : "Ripan Kumar Kundu"
+      },
+      {
+        "name" : "Istiak Ahmed"
+      },
+      {
+        "name" : "Khaza Anuarul Hoque"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16394v1",
+    "title" : "SoK: Reviewing Two Decades of Security, Privacy, Accessibility, and Usability Studies on Internet of Things for Older Adults",
+    "summary" : "The Internet of Things (IoT) has the potential to enhance older adults' independence and quality of life, but it also exposes them to security, privacy, accessibility, and usability (SPAU) risks. We conducted a systematic review of 44 peer-reviewed studies published between 2004 and 2024 using a five-phase screening pipeline. From each study, we extracted data on study design, IoT type, SPAU measures, and identified research gaps. We introduce the SPAU-IoT Framework, which comprises 27 criteria across four dimensions: security (e.g., resilience to cyber threats, secure authentication, encrypted communication, secure-by-default settings, and guardianship features), privacy (e.g., data minimization, explicit consent, and privacy-preserving analytics), accessibility (e.g., compliance with ADA/WCAG standards and assistive-technology compatibility), and usability (e.g., guided interaction, integrated assistance, and progressive learning). Applying this framework revealed that more than 70% of studies implemented authentication and encryption mechanisms, whereas fewer than 50% addressed accessibility or usability concerns. We further developed a threat model that maps IoT assets, networks, and backend servers to exploit vectors such as phishing, caregiver exploitation, and weak-password attacks, explicitly accounting for age-related vulnerabilities including cognitive decline and sensory impairment. Our results expose a systemic lack of integrated SPAU approaches in existing IoT research and translate these gaps into actionable, standards-aligned design guidelines for IoT systems designed for older adults.",
+    "updated" : "2025-12-18T10:43:41Z",
+    "published" : "2025-12-18T10:43:41Z",
+    "authors" : [
+      {
+        "name" : "Suleiman Saka"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16284v1",
+    "title" : "Empirical Evaluation of Structured Synthetic Data Privacy Metrics: Novel experimental framework",
+    "summary" : "Synthetic data generation is gaining traction as a privacy enhancing technology (PET). When properly generated, synthetic data preserve the analytic utility of real data while avoiding the retention of information that would allow the identification of specific individuals. However, the concept of data privacy remains elusive, making it challenging for practitioners to evaluate and benchmark the degree of privacy protection offered by synthetic data. In this paper, we propose a framework to empirically assess the efficacy of tabular synthetic data privacy quantification methods through controlled, deliberate risk insertion. To demonstrate this framework, we survey existing approaches to synthetic data privacy quantification and the related legal theory. We then apply the framework to the main privacy quantification methods with no-box threat models on publicly available datasets.",
+    "updated" : "2025-12-18T08:09:28Z",
+    "published" : "2025-12-18T08:09:28Z",
+    "authors" : [
+      {
+        "name" : "Milton Nicolás Plasencia Palacios"
+      },
+      {
+        "name" : "Alexander Boudewijn"
+      },
+      {
+        "name" : "Sebastiano Saccani"
+      },
+      {
+        "name" : "Andrea Filippo Ferraris"
+      },
+      {
+        "name" : "Diana Sofronieva"
+      },
+      {
+        "name" : "Giuseppe D'Acquisto"
+      },
+      {
+        "name" : "Filiberto Brozzetti"
+      },
+      {
+        "name" : "Daniele Panfilo"
+      },
+      {
+        "name" : "Luca Bortolussi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16265v1",
+    "title" : "Privacy-Aware Sharing of Raw Spatial Sensor Data for Cooperative Perception",
+    "summary" : "Cooperative perception between vehicles is poised to offer robust and reliable scene understanding. Recently, we are witnessing experimental systems research building testbeds that share raw spatial sensor data for cooperative perception. While there has been a marked improvement in accuracies and is the natural way forward, we take a moment to consider the problems with such an approach for eventual adoption by automakers. In this paper, we first argue that new forms of privacy concerns arise and discourage stakeholders to share raw sensor data. Next, we present SHARP, a research framework to minimize privacy leakage and drive stakeholders towards the ambitious goal of raw data based cooperative perception. Finally, we discuss open questions for networked systems, mobile computing, perception researchers, industry and government in realizing our proposed framework.",
+    "updated" : "2025-12-18T07:27:09Z",
+    "published" : "2025-12-18T07:27:09Z",
+    "authors" : [
+      {
+        "name" : "Bangya Liu"
+      },
+      {
+        "name" : "Chengpo Yan"
+      },
+      {
+        "name" : "Chenghao Jiang"
+      },
+      {
+        "name" : "Suman Banerjee"
+      },
+      {
+        "name" : "Akarsh Prabhakara"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16126v1",
+    "title" : "Dual-View Inference Attack: Machine Unlearning Amplifies Privacy Exposure",
+    "summary" : "Machine unlearning is a newly popularized technique for removing specific training data from a trained model, enabling it to comply with data deletion requests. While it protects the rights of users requesting unlearning, it also introduces new privacy risks. Prior works have primarily focused on the privacy of data that has been unlearned, while the risks to retained data remain largely unexplored. To address this gap, we focus on the privacy risks of retained data and, for the first time, reveal the vulnerabilities introduced by machine unlearning under the dual-view setting, where an adversary can query both the original and the unlearned models. From an information-theoretic perspective, we introduce the concept of {privacy knowledge gain} and demonstrate that the dual-view setting allows adversaries to obtain more information than querying either model alone, thereby amplifying privacy leakage. To effectively demonstrate this threat, we propose DVIA, a Dual-View Inference Attack, which extracts membership information on retained data using black-box queries to both models. DVIA eliminates the need to train an attack model and employs a lightweight likelihood ratio inference module for efficient inference. Experiments across different datasets and model architectures validate the effectiveness of DVIA and highlight the privacy risks inherent in the dual-view setting.",
+    "updated" : "2025-12-18T03:24:50Z",
+    "published" : "2025-12-18T03:24:50Z",
+    "authors" : [
+      {
+        "name" : "Lulu Xue"
+      },
+      {
+        "name" : "Shengshan Hu"
+      },
+      {
+        "name" : "Linqiang Qian"
+      },
+      {
+        "name" : "Peijin Guo"
+      },
+      {
+        "name" : "Yechao Zhang"
+      },
+      {
+        "name" : "Minghui Li"
+      },
+      {
+        "name" : "Yanjun Zhang"
+      },
+      {
+        "name" : "Dayong Ye"
+      },
+      {
+        "name" : "Leo Yu Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16086v1",
+    "title" : "Privacy Blur: Quantifying Privacy and Utility for Image Data Release",
+    "summary" : "Image data collected in the wild often contains private information such as faces and license plates, and responsible data release must ensure that this information stays hidden. At the same time, released data should retain its usefulness for model-training. The standard method for private information obfuscation in images is Gaussian blurring. In this work, we show that practical implementations of Gaussian blurring are reversible enough to break privacy. We then take a closer look at the privacy-utility tradeoffs offered by three other obfuscation algorithms -- pixelization, pixelization and noise addition (DP-Pix), and cropping. Privacy is evaluated by reversal and discrimination attacks, while utility by the quality of the learnt representations when the model is trained on data with obfuscated faces. We show that the most popular industry-standard method, Gaussian blur is the least private of the four -- being susceptible to reversal attacks in its practical low-precision implementations. In contrast, pixelization and pixelization plus noise addition, when used at the right level of granularity, offer both privacy and utility for a number of computer vision tasks. We make our proposed methods together with suggested parameters available in a software package called Privacy Blur.",
+    "updated" : "2025-12-18T02:01:17Z",
+    "published" : "2025-12-18T02:01:17Z",
+    "authors" : [
+      {
+        "name" : "Saeed Mahloujifar"
+      },
+      {
+        "name" : "Narine Kokhlikyan"
+      },
+      {
+        "name" : "Chuan Guo"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.15981v1",
+    "title" : "Improved Lower Bounds for Privacy under Continual Release",
+    "summary" : "We study the problem of continually releasing statistics of an evolving dataset under differential privacy. In the event-level setting, we show the first polynomial lower bounds on the additive error for insertions-only graph problems such as maximum matching, degree histogram and $k$-core. This is an exponential improvement on the polylogarithmic lower bounds of Fichtenberger et al.[ESA 2021] for the former two problems, and are the first continual release lower bounds for the latter. Our results run counter to the intuition that the difference between insertions-only vs fully dynamic updates causes the gap between polylogarithmic and polynomial additive error. We show that for maximum matching and $k$-core, allowing small multiplicative approximations is what brings the additive error down to polylogarithmic.\n  Beyond graph problems, our techniques also show that polynomial additive error is unavoidable for Simultaneous Norm Estimation in the insertions-only setting. When multiplicative approximations are allowed, we circumvent this lower bound by giving the first continual mechanism with polylogarithmic additive error under $(1+ζ)$ multiplicative approximations, for $ζ>0$, for estimating all monotone symmetric norms simultaneously.\n  In the item-level setting, we show polynomial lower bounds on the product of the multiplicative and the additive error of continual mechanisms for a large range of graph problems. To the best of our knowledge, these are the first lower bounds for any differentially private continual release mechanism with multiplicative error. To obtain this, we prove a new lower bound on the product of multiplicative and additive error for 1-Way-Marginals, from which we reduce to continual graph problems. This generalizes the lower bounds of Hardt and Talwar[STOC 2010] and Bun et al.[STOC 2014] on the additive error for mechanisms with no multiplicative error.",
+    "updated" : "2025-12-17T21:26:41Z",
+    "published" : "2025-12-17T21:26:41Z",
+    "authors" : [
+      {
+        "name" : "Bardiya Aryanfard"
+      },
+      {
+        "name" : "Monika Henzinger"
+      },
+      {
+        "name" : "David Saulpic"
+      },
+      {
+        "name" : "A. R. Sricharan"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.15945v1",
+    "title" : "Privacy Discourse and Emotional Dynamics in Mental Health Information Interaction on Reddit",
+    "summary" : "Reddit is a major venue for mental-health information interaction and peer support, where privacy concerns increasingly surface in user discourse. Thus, we analyze privacy-related discussions across 14 mental-health and regulatory subreddits, comprising 10,119 posts and 65,385 comments collected with a custom web scraper. Using lexicon-based sentiment analysis, we quantify emotional alignment between communities via cosine similarity of sentiment distributions, observing high similarity for Bipolar and ADHD (0.877), Anxiety and Depression (0.849), and MentalHealthSupport and MentalIllness (0.989) subreddits. We also construct keyword dictionaries to tag privacy-related themes (e.g., HIPAA, GDPR) and perform temporal analysis from 2020 to 2025, finding a 50% increase in privacy discourse with intermittent regulatory spikes. A chi-square test of independence across subreddit domains indicates significant distributional differences. The results characterize how privacy-oriented discussion co-varies with user sentiment in online mental-health communities.",
+    "updated" : "2025-12-17T20:12:51Z",
+    "published" : "2025-12-17T20:12:51Z",
+    "authors" : [
+      {
+        "name" : "Jai Kruthunz Naveen Kumar"
+      },
+      {
+        "name" : "Aishwarya Umeshkumar Surani"
+      },
+      {
+        "name" : "Harkirat Singh"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.15759v1",
+    "title" : "Semantic-Constrained Federated Aggregation: Convergence Theory and Privacy-Utility Bounds for Knowledge-Enhanced Distributed Learning",
+    "summary" : "Federated learning enables collaborative model training across distributed data sources but suffers from slow convergence under non-IID data conditions. Existing solutions employ algorithmic modifications treating all client updates identically, ignoring semantic validity. We introduce Semantic-Constrained Federated Aggregation (SCFA), a theoretically-grounded framework incorporating domain knowledge constraints into distributed optimization. We prove SCFA achieves convergence rate O(1/sqrt(T) + rho) where rho represents constraint violation rate, establishing the first convergence theory for constraint-based federated learning. Our analysis shows constraints reduce effective data heterogeneity by 41% and improve privacy-utility tradeoffs through hypothesis space reduction by factor theta=0.37. Under (epsilon,delta)-differential privacy with epsilon=10, constraint regularization maintains utility within 3.7% of non-private baseline versus 12.1% degradation for standard federated learning, representing 2.7x improvement. We validate our framework on manufacturing predictive maintenance using Bosch production data with 1.18 million samples and 968 sensor features, constructing knowledge graphs encoding 3,000 constraints from ISA-95 and MASON ontologies. Experiments demonstrate 22% faster convergence, 41.3% model divergence reduction, and constraint violation thresholds where rho<0.05 maintains 90% optimal performance while rho>0.18 causes catastrophic failure. Our theoretical predictions match empirical observations with R^2>0.90 across convergence, privacy, and violation-performance relationships.",
+    "updated" : "2025-12-12T04:29:29Z",
+    "published" : "2025-12-12T04:29:29Z",
+    "authors" : [
+      {
+        "name" : "Jahidul Arafat"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.15754v1",
+    "title" : "A Survey on Reconfigurable Intelligent Surfaces in Practical Systems: Security and Privacy Perspectives",
+    "summary" : "Reconfigurable Intelligent Surfaces (RIS) have emerged as a transformative technology capable of reshaping wireless environments through dynamic manipulation of electromagnetic waves. While extensive research has explored their theoretical benefits for communication and sensing, practical deployments in smart environments such as homes, vehicles, and industrial settings remain limited and under-examined, particularly from security and privacy perspectives. This survey provides a comprehensive examination of RIS applications in real-world systems, with a focus on the security and privacy threats, vulnerabilities, and defensive strategies relevant to practical use. We analyze scenarios with two types of systems (with and without legitimate RIS) and two types of attackers (with and without malicious RIS), and demonstrate how RIS may introduce new attacks to practical systems, including eavesdropping, jamming, and spoofing attacks. In response, we review defenses against RIS-related attacks in these systems, such as applying additional security algorithms, disrupting attackers, and early detection of unauthorized RIS. We also discuss scenarios in which the legitimate user applies an additional RIS to defend against attacks. To support future research, we also provide a collection of open-source tools, datasets, demos, and papers at: https://awesome-ris-security.github.io/. By highlighting RIS's functionality and its security/privacy challenges and opportunities, this survey aims to guide researchers and engineers toward the development of secure, resilient, and privacy-preserving RIS-enabled practical wireless systems and environments.",
+    "updated" : "2025-12-12T00:54:24Z",
+    "published" : "2025-12-12T00:54:24Z",
+    "authors" : [
+      {
+        "name" : "Ziyu Chen"
+      },
+      {
+        "name" : "Yitong Shen"
+      },
+      {
+        "name" : "Jingzhe Zhang"
+      },
+      {
+        "name" : "Yao Zheng"
+      },
+      {
+        "name" : "Yili Ren"
+      },
+      {
+        "name" : "Xuyu Wang"
+      },
+      {
+        "name" : "Shiwen Mao"
+      },
+      {
+        "name" : "Hanqing Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI",
+      "eess.SP"
+    ]
   }
 ]
