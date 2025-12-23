@@ -2271,5 +2271,273 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.19019v1",
+    "title" : "Optimizer Dynamics at the Edge of Stability with Differential Privacy",
+    "summary" : "Deep learning models can reveal sensitive information about individual training examples, and while differential privacy (DP) provides guarantees restricting such leakage, it also alters optimization dynamics in poorly understood ways. We study the training dynamics of neural networks under DP by comparing Gradient Descent (GD), and Adam to their privacy-preserving variants. Prior work shows that these optimizers exhibit distinct stability dynamics: full-batch methods train at the Edge of Stability (EoS), while mini-batch and adaptive methods exhibit analogous edge-of-stability behavior. At these regimes, the training loss and the sharpness--the maximum eigenvalue of the training loss Hessian--exhibit certain characteristic behavior. In DP training, per-example gradient clipping and Gaussian noise modify the update rule, and it is unclear whether these stability patterns persist. We analyze how clipping and noise change sharpness and loss evolution and show that while DP generally reduces the sharpness and can prevent optimizers from fully reaching the classical stability thresholds, patterns from EoS and analogous adaptive methods stability regimes persist, with the largest learning rates and largest privacy budgets approaching, and sometimes exceeding, these thresholds. These findings highlight the unpredictability introduced by DP in neural network optimization.",
+    "updated" : "2025-12-22T04:16:13Z",
+    "published" : "2025-12-22T04:16:13Z",
+    "authors" : [
+      {
+        "name" : "Ayana Hussain"
+      },
+      {
+        "name" : "Ricky Fang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18809v1",
+    "title" : "FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation",
+    "summary" : "The rapid growth of short-form video platforms increases the need for privacy-preserving moderation, as cloud-based pipelines expose raw videos to privacy risks, high bandwidth costs, and inference latency. To address these challenges, we propose an on-device federated learning framework for video violence detection that integrates self-supervised VideoMAE representations, LoRA-based parameter-efficient adaptation, and defense-in-depth privacy protection. Our approach reduces the trainable parameter count to 5.5M (~3.5% of a 156M backbone) and incorporates DP-SGD with configurable privacy budgets and secure aggregation. Experiments on RWF-2000 with 40 clients achieve 77.25% accuracy without privacy protection and 65-66% under strong differential privacy, while reducing communication cost by $28.3\\times$ compared to full-model federated learning. The code is available at: {https://github.com/zyt-599/FedVideoMAE}",
+    "updated" : "2025-12-21T17:01:44Z",
+    "published" : "2025-12-21T17:01:44Z",
+    "authors" : [
+      {
+        "name" : "Ziyuan Tao"
+      },
+      {
+        "name" : "Chuanzhi Xu"
+      },
+      {
+        "name" : "Sandaru Jayawardana"
+      },
+      {
+        "name" : "Wei Bao"
+      },
+      {
+        "name" : "Kanchana Thilakarathna"
+      },
+      {
+        "name" : "Teng Joon Lim"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18646v1",
+    "title" : "Volley Revolver: A Novel Matrix-Encoding Method for Privacy-Preserving Deep Learning (Inference++)",
+    "summary" : "Privacy-preserving inference of convolutional neural networks (CNNs) using homomorphic encryption has emerged as a promising approach for enabling secure machine learning in untrusted environments. In our previous work, we introduced a matrix-encoding strategy that allows convolution and matrix multiplication to be efficiently evaluated over encrypted data, enabling practical CNN inference without revealing either the input data or the model parameters. The core idea behind this strategy is to construct a three-dimensional representation within ciphertexts that preserves the intrinsic spatial structure of both input image data and model weights, rather than flattening them into conventional two-dimensional encodings. However, this approach can operate efficiently $only$ when the number of available plaintext slots within a ciphertext is sufficient to accommodate an entire input image, which becomes a critical bottleneck when processing high-resolution images. In this paper, we address this fundamental limitation by proposing an improved encoding and computation framework that removes the requirement that a single encrypted ciphertext must fully contain one input image. Our method reformulates the data layout and homomorphic operations to partition high-resolution inputs across multiple ciphertexts while preserving the algebraic structure required for efficient convolution and matrix multiplication. As a result, our approach enables privacy-preserving CNN inference to scale naturally beyond the slot-capacity constraints of prior methods, making homomorphic evaluation of CNNs practical for higher-resolution and more complex datasets.",
+    "updated" : "2025-12-21T08:40:31Z",
+    "published" : "2025-12-21T08:40:31Z",
+    "authors" : [
+      {
+        "name" : "John Chiang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18632v1",
+    "title" : "Multi-user Pufferfish Privacy",
+    "summary" : "This paper studies how to achieve individual indistinguishability by pufferfish privacy in aggregated query to a multi-user system. It is assumed that each user reports realization of a random variable. We study how to calibrate Laplace noise, added to the query answer, to attain pufferfish privacy when user changes his/her reported data value, leaves the system and is replaced by another use with different randomness. Sufficient conditions are derived for all scenarios for attaining statistical indistinguishability on four sets of secret pairs. They are derived using the existing Kantorovich method (Wasserstain metric of order $1$). These results can be applied to attain indistinguishability when a certain class of users is added or removed from a tabular data. It is revealed that attaining indifference in individual's data is conditioned on the statistics of this user only. For binary (Bernoulli distributed) random variables, the derived sufficient conditions can be further relaxed to reduce the noise and improve data utility.",
+    "updated" : "2025-12-21T08:06:24Z",
+    "published" : "2025-12-21T08:06:24Z",
+    "authors" : [
+      {
+        "name" : "Ni Ding"
+      },
+      {
+        "name" : "Songpei Lu"
+      },
+      {
+        "name" : "Wenjing Yang"
+      },
+      {
+        "name" : "Zijian Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18432v1",
+    "title" : "Federated Learning Based Decentralized Adaptive Intelligent Transmission Protocol for Privacy Preserving 6G Networks",
+    "summary" : "The move to 6th Generation (6G) wireless networks creates new issues with privacy, scalability, and adaptability. The data-intensive nature of 6G is not handled well by older, centralized network models. A shift toward more secure and decentralized systems is therefore required. A new framework called the Federated Learning-based Decentralized Adaptive Intelligent Transmission Protocol (AITP) is proposed to meet these challenges. The AITP uses the distributed learning of Federated Learning (FL) within a decentralized system. Transmission parameters can be adjusted intelligently in real time. User privacy is maintained by keeping raw data on local edge devices. The protocol's performance was evaluated with mathematical modeling and detailed simulations. It was shown to be superior to traditional non-adaptive and centralized AI methods across several key metrics. These included latency, network throughput, energy efficiency, and robustness. The AITP is presented as a foundational technology for future 6G networks that supports a user-centric, privacy-first design. This study is a step forward for privacy-preserving research in 6G.",
+    "updated" : "2025-12-20T17:18:15Z",
+    "published" : "2025-12-20T17:18:15Z",
+    "authors" : [
+      {
+        "name" : "Ansar Ahmed"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18296v1",
+    "title" : "Privacy Data Pricing: A Stackelberg Game Approach",
+    "summary" : "Data markets are emerging as key mechanisms for trading personal and organizational data. Traditional data pricing studies -- such as query-based or arbitrage-free pricing models -- mainly emphasize price consistency and profit maximization but often neglect privacy constraints and strategic interactions. The widespread adoption of differential privacy (DP) introduces a fundamental privacy-utility trade-off: noise protects individuals' privacy but reduces data accuracy and market value. This paper develops a Stackelberg game framework for pricing DP data, where the market maker (leader) sets the price function and the data buyer (follower) selects the optimal query precision under DP constraints. We derive the equilibrium strategies for both parties under a balanced pricing function where the pricing decision variable enters linearly into the original pricing model. We obtain closed-form solutions for the optimal variance and pricing level, and determine the boundary conditions for market participation. Furthermore, we extend the analysis to Stackelberg games involving nonlinear power pricing functions. The model bridges DP and economic mechanism design, offering a unified foundation for incentive-compatible and privacy-conscious data pricing in data markets.",
+    "updated" : "2025-12-20T09:59:39Z",
+    "published" : "2025-12-20T09:59:39Z",
+    "authors" : [
+      {
+        "name" : "Lijun Bo"
+      },
+      {
+        "name" : "Weiqiang Chang"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18295v1",
+    "title" : "AL-GNN: Privacy-Preserving and Replay-Free Continual Graph Learning via Analytic Learning",
+    "summary" : "Continual graph learning (CGL) aims to enable graph neural networks to incrementally learn from a stream of graph structured data without forgetting previously acquired knowledge. Existing methods particularly those based on experience replay typically store and revisit past graph data to mitigate catastrophic forgetting. However, these approaches pose significant limitations, including privacy concerns, inefficiency. In this work, we propose AL GNN, a novel framework for continual graph learning that eliminates the need for backpropagation and replay buffers. Instead, AL GNN leverages principles from analytic learning theory to formulate learning as a recursive least squares optimization process. It maintains and updates model knowledge analytically through closed form classifier updates and a regularized feature autocorrelation matrix. This design enables efficient one pass training for each task, and inherently preserves data privacy by avoiding historical sample storage. Extensive experiments on multiple dynamic graph classification benchmarks demonstrate that AL GNN achieves competitive or superior performance compared to existing methods. For instance, it improves average performance by 10% on CoraFull and reduces forgetting by over 30% on Reddit, while also reducing training time by nearly 50% due to its backpropagation free design.",
+    "updated" : "2025-12-20T09:55:36Z",
+    "published" : "2025-12-20T09:55:36Z",
+    "authors" : [
+      {
+        "name" : "Xuling Zhang"
+      },
+      {
+        "name" : "Jindong Li"
+      },
+      {
+        "name" : "Yifei Zhang"
+      },
+      {
+        "name" : "Menglin Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18207v1",
+    "title" : "FedWiLoc: Federated Learning for Privacy-Preserving WiFi Indoor Localization",
+    "summary" : "Current data-driven Wi-Fi-based indoor localization systems face three critical challenges: protecting user privacy, achieving accurate predictions in dynamic multipath environments, and generalizing across different deployments. Traditional Wi-Fi localization systems often compromise user privacy, particularly when facing compromised access points (APs) or man-in-the-middle attacks. As IoT devices proliferate in indoor environments, developing solutions that deliver accurate localization while robustly protecting privacy has become imperative. We introduce FedWiLoc, a privacy-preserving indoor localization system that addresses these challenges through three key innovations. First, FedWiLoc employs a split architecture where APs process Channel State Information (CSI) locally and transmit only privacy-preserving embedding vectors to user devices, preventing raw CSI exposure. Second, during training, FedWiLoc uses federated learning to collaboratively train the model across APs without centralizing sensitive user data. Third, we introduce a geometric loss function that jointly optimizes angle-of-arrival predictions and location estimates, enforcing geometric consistency to improve accuracy in challenging multipath conditions. Extensive evaluation across six diverse indoor environments spanning over 2,000 sq. ft. demonstrates that FedWiLoc outperforms state-of-the-art methods by up to 61.9% in median localization error while maintaining strong privacy guarantees throughout both training and inference.",
+    "updated" : "2025-12-20T04:10:15Z",
+    "published" : "2025-12-20T04:10:15Z",
+    "authors" : [
+      {
+        "name" : "Kanishka Roy"
+      },
+      {
+        "name" : "Tahsin Fuad Hasan"
+      },
+      {
+        "name" : "Chenfeng Wu"
+      },
+      {
+        "name" : "Eshwar Vangala"
+      },
+      {
+        "name" : "Roshan Ayyalasomayajula"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.18035v1",
+    "title" : "Towards Benchmarking Privacy Vulnerabilities in Selective Forgetting with Large Language Models",
+    "summary" : "The rapid advancements in artificial intelligence (AI) have primarily focused on the process of learning from data to acquire knowledgeable learning systems. As these systems are increasingly deployed in critical areas, ensuring their privacy and alignment with human values is paramount. Recently, selective forgetting (also known as machine unlearning) has shown promise for privacy and data removal tasks, and has emerged as a transformative paradigm shift in the field of AI. It refers to the ability of a model to selectively erase the influence of previously seen data, which is especially important for compliance with modern data protection regulations and for aligning models with human values. Despite its promise, selective forgetting raises significant privacy concerns, especially when the data involved come from sensitive domains. While new unlearning-induced privacy attacks are continuously proposed, each is shown to outperform its predecessors using different experimental settings, which can lead to overly optimistic and potentially unfair assessments that may disproportionately favor one particular attack over the others. In this work, we present the first comprehensive benchmark for evaluating privacy vulnerabilities in selective forgetting. We extensively investigate privacy vulnerabilities of machine unlearning techniques and benchmark privacy leakage across a wide range of victim data, state-of-the-art unlearning privacy attacks, unlearning methods, and model architectures. We systematically evaluate and identify critical factors related to unlearning-induced privacy leakage. With our novel insights, we aim to provide a standardized tool for practitioners seeking to deploy customized unlearning applications with faithful privacy assessments.",
+    "updated" : "2025-12-19T20:04:06Z",
+    "published" : "2025-12-19T20:04:06Z",
+    "authors" : [
+      {
+        "name" : "Wei Qian"
+      },
+      {
+        "name" : "Chenxu Zhao"
+      },
+      {
+        "name" : "Yangyi Li"
+      },
+      {
+        "name" : "Mengdi Huai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16401v2",
+    "title" : "Navigating the Reality Gap: Privacy-Preserving Adaptation of ASR for Challenging Low-Resource Domains",
+    "summary" : "Automatic Speech Recognition (ASR) holds immense potential to assist in clinical documentation and patient report generation, particularly in resource-constrained regions. However, deployment is currently hindered by a technical deadlock: a severe \"Reality Gap\" between laboratory performance and noisy, real-world clinical audio, coupled with strict privacy and resource constraints. We quantify this gap, showing that a robust multilingual model (IndicWav2Vec) degrades to a 40.94% WER on rural clinical data from India, rendering it unusable. To address this, we explore a zero-data-exfiltration framework enabling localized, continual adaptation via Low-Rank Adaptation (LoRA). We conduct a rigorous investigative study of continual learning strategies, characterizing the trade-offs between data-driven and parameter-driven stability. Our results demonstrate that multi-domain Experience Replay (ER) yields the primary performance gains, achieving a 17.1% relative improvement in target WER and reducing catastrophic forgetting by 55% compared to naive adaptation. Furthermore, we observed that standard Elastic Weight Consolidation (EWC) faced numerical stability challenges when applied to LoRA in noisy environments. Our experiments show that a stabilized, linearized formulation effectively controls gradient magnitudes and enables stable convergence. Finally, we verify via a domain-specific spot check that acoustic adaptation is a fundamental prerequisite for usability which cannot be bypassed by language models alone.",
+    "updated" : "2025-12-22T16:22:23Z",
+    "published" : "2025-12-18T10:56:27Z",
+    "authors" : [
+      {
+        "name" : "Darshil Chauhan"
+      },
+      {
+        "name" : "Adityasinh Solanki"
+      },
+      {
+        "name" : "Vansh Patel"
+      },
+      {
+        "name" : "Kanav Kapoor"
+      },
+      {
+        "name" : "Ritvik Jain"
+      },
+      {
+        "name" : "Aditya Bansal"
+      },
+      {
+        "name" : "Pratik Narang"
+      },
+      {
+        "name" : "Dhruv Kumar"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16265v1",
+    "title" : "Privacy-Aware Sharing of Raw Spatial Sensor Data for Cooperative Perception",
+    "summary" : "Cooperative perception between vehicles is poised to offer robust and reliable scene understanding. Recently, we are witnessing experimental systems research building testbeds that share raw spatial sensor data for cooperative perception. While there has been a marked improvement in accuracies and is the natural way forward, we take a moment to consider the problems with such an approach for eventual adoption by automakers. In this paper, we first argue that new forms of privacy concerns arise and discourage stakeholders to share raw sensor data. Next, we present SHARP, a research framework to minimize privacy leakage and drive stakeholders towards the ambitious goal of raw data based cooperative perception. Finally, we discuss open questions for networked systems, mobile computing, perception researchers, industry and government in realizing our proposed framework.",
+    "updated" : "2025-12-18T07:27:09Z",
+    "published" : "2025-12-18T07:27:09Z",
+    "authors" : [
+      {
+        "name" : "Bangya Liu"
+      },
+      {
+        "name" : "Chengpo Yan"
+      },
+      {
+        "name" : "Chenghao Jiang"
+      },
+      {
+        "name" : "Suman Banerjee"
+      },
+      {
+        "name" : "Akarsh Prabhakara"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.CV",
+      "cs.RO"
+    ]
   }
 ]
