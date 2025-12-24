@@ -2539,5 +2539,77 @@
       "cs.CV",
       "cs.RO"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.20323v1",
+    "title" : "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary" : "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "updated" : "2025-12-23T12:45:49Z",
+    "published" : "2025-12-23T12:45:49Z",
+    "authors" : [
+      {
+        "name" : "Ipek Sena Yilmaz"
+      },
+      {
+        "name" : "Onur G. Tuncer"
+      },
+      {
+        "name" : "Zeynep E. Aksoy"
+      },
+      {
+        "name" : "Zeynep Yağmur Baydemir"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.20234v1",
+    "title" : "Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks",
+    "summary" : "Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.",
+    "updated" : "2025-12-23T10:49:05Z",
+    "published" : "2025-12-23T10:49:05Z",
+    "authors" : [
+      {
+        "name" : "Bin Xie"
+      },
+      {
+        "name" : "Rui Song"
+      },
+      {
+        "name" : "Xuyuan Cai"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.06253v4",
+    "title" : "Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure",
+    "summary" : "Noise perturbation is one of the most fundamental approaches for achieving $(ε,δ)$-differential privacy (DP) guarantees when releasing the result of a query or function $f(\\cdot)\\in\\mathbb{R}^M$ evaluated on a sensitive dataset $\\mathbf{x}$. In this approach, calibrated noise $\\mathbf{n}\\in\\mathbb{R}^M$ is used to obscure the difference vector $f(\\mathbf{x})-f(\\mathbf{x}')$, where $\\mathbf{x}'$ is known as a neighboring dataset. A DP guarantee is obtained by studying the tail probability bound of a privacy loss random variable (PLRV), defined as the Radon-Nikodym derivative between two distributions. When $\\mathbf{n}$ follows a multivariate Gaussian distribution, the PLRV is characterized as a specific univariate Gaussian. In this paper, we propose a novel scheme to generate $\\mathbf{n}$ by leveraging the fact that the perturbation noise is typically spherically symmetric (i.e., the distribution is rotationally invariant around the origin). The new noise generation scheme allows us to investigate the privacy loss from a geometric perspective and express the resulting PLRV using a product measure, $W\\times U$; measure $W$ is related to a radius random variable controlling the magnitude of $\\mathbf{n}$, while measure $U$ involves a directional random variable governing the angle between $\\mathbf{n}$ and the difference $f(\\mathbf{x})-f(\\mathbf{x}')$. We derive a closed-form moment bound on the product measure to prove $(ε,δ)$-DP. Under the same $(ε,δ)$-DP guarantee, our mechanism yields a smaller expected noise magnitude than the classic Gaussian noise in high dimensions, thereby significantly improving the utility of the noisy result $f(\\mathbf{x})+\\mathbf{n}$. To validate this, we consider convex and non-convex empirical risk minimization (ERM) problems in high dimensional space and apply the proposed product noise to achieve privacy.",
+    "updated" : "2025-12-22T22:31:48Z",
+    "published" : "2025-12-06T02:55:46Z",
+    "authors" : [
+      {
+        "name" : "Shuainan Liu"
+      },
+      {
+        "name" : "Tianxi Ji"
+      },
+      {
+        "name" : "Zhongshuo Fang"
+      },
+      {
+        "name" : "Lu Wei"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
