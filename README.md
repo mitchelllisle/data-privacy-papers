@@ -86,32 +86,32 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.00434v1">Privacy-Preserving Generative Modeling and Clinical Validation of Longitudinal Health Records for Chronic Disease</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2025-11-29T10:16:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Benjamin D. Ballyk, Ankit Gupta, Sujay Konda, Kavitha Subramanian, Chris Landon, Ahmed Ammar Naseer, Georg Maierhofer, Sumanth Swaminathan, Vasudevan Venkateshwaran</p>
-    <p><b>Summary:</b> Data privacy is a critical challenge in modern medical workflows as the adoption of electronic patient records has grown rapidly. Stringent data protection regulations limit access to clinical records for training and integrating machine learning models that have shown promise in improving diagnostic accuracy and personalized care outcomes. Synthetic data offers a promising alternative; however, current generative models either struggle with time-series data or lack formal privacy guaranties. In this paper, we enhance a state-of-the-art time-series generative model to better handle longitudinal clinical data while incorporating quantifiable privacy safeguards. Using real data from chronic kidney disease and ICU patients, we evaluate our method through statistical tests, a Train-on-Synthetic-Test-on-Real (TSTR) setup, and expert clinical review. Our non-private model (Augmented TimeGAN) outperforms transformer- and flow-based models on statistical metrics in several datasets, while our private model (DP-TimeGAN) maintains a mean authenticity of 0.778 on the CKD dataset, outperforming existing state-of-the-art models on the privacy-utility frontier. Both models achieve performance comparable to real data in clinician evaluations, providing robust input data necessary for developing models for complex chronic conditions without compromising data privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.00307v2">Adversarial Signed Graph Learning with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-11-29T04:02:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haobin Ke, Sen Zhang, Qingqing Ye, Xun Ran, Haibo Hu</p>
-    <p><b>Summary:</b> Signed graphs with positive and negative edges can model complex relationships in social networks. Leveraging on balance theory that deduces edge signs from multi-hop node pairs, signed graph learning can generate node embeddings that preserve both structural and sign information. However, training on sensitive signed graphs raises significant privacy concerns, as model parameters may leak private link information. Existing protection methods with differential privacy (DP) typically rely on edge or gradient perturbation for unsigned graph protection. Yet, they are not well-suited for signed graphs, mainly because edge perturbation tends to cascading errors in edge sign inference under balance theory, while gradient perturbation increases sensitivity due to node interdependence and gradient polarity change caused by sign flips, resulting in larger noise injection. In this paper, motivated by the robustness of adversarial learning to noisy interactions, we present ASGL, a privacy-preserving adversarial signed graph learning method that preserves high utility while achieving node-level DP. We first decompose signed graphs into positive and negative subgraphs based on edge signs, and then design a gradient-perturbed adversarial module to approximate the true signed connectivity distribution. In particular, the gradient perturbation helps mitigate cascading errors, while the subgraph separation facilitates sensitivity reduction. Further, we devise a constrained breadth-first search tree strategy that fuses with balance theory to identify the edge signs between generated node pairs. This strategy also enables gradient decoupling, thereby effectively lowering gradient sensitivity. Extensive experiments on real-world datasets show that ASGL achieves favorable privacy-utility trade-offs across multiple downstream tasks.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.20323v1">Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-23T12:45:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ipek Sena Yilmaz, Onur G. Tuncer, Zeynep E. Aksoy, Zeynep Yağmur Baydemir</p>
+    <p><b>Summary:</b> Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.20234v1">Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-23T10:49:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bin Xie, Rui Song, Xuyuan Cai</p>
+    <p><b>Summary:</b> Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.19019v1">Optimizer Dynamics at the Edge of Stability with Differential Privacy</a></h3>
@@ -933,7 +933,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.06253v3">Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.06253v4">Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-12-06T02:55:46Z</p>
   <details>
