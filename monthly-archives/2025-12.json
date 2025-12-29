@@ -2652,5 +2652,74 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.21700v1",
+    "title" : "Inference in the $p_0$ model for directed networks under local differential privacy",
+    "summary" : "We explore the edge-flipping mechanism, a type of input perturbation, to release the directed graph under edge-local differential privacy. By using the noisy bi-degree sequence from the output graph, we construct the moment equations to estimate the unknown parameters in the $p_0$ model, which is an exponential family distribution with the bi-degree sequence as the natural sufficient statistic. We show that the resulting private estimator is asymptotically consistent and normally distributed under some conditions. In addition, we compare the performance of input and output perturbation mechanisms for releasing bi-degree sequences in terms of parameter estimation accuracy and privacy protection. Numerical studies demonstrate our theoretical findings and compare the performance of the private estimates obtained by different types of perturbation methods. We apply the proposed method to analyze the UC Irvine message network.",
+    "updated" : "2025-12-25T14:51:22Z",
+    "published" : "2025-12-25T14:51:22Z",
+    "authors" : [
+      {
+        "name" : "Xueying Sun"
+      },
+      {
+        "name" : "Ting Yan"
+      },
+      {
+        "name" : "Binyan Jiang"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.CO",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.20323v2",
+    "title" : "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary" : "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "updated" : "2025-12-26T17:21:55Z",
+    "published" : "2025-12-23T12:45:49Z",
+    "authors" : [
+      {
+        "name" : "Ipek Sena Yilmaz"
+      },
+      {
+        "name" : "Onur G. Tuncer"
+      },
+      {
+        "name" : "Zeynep E. Aksoy"
+      },
+      {
+        "name" : "Zeynep Yağmur Baydemir"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.21358v1",
+    "title" : "Composition Theorems for f-Differential Privacy",
+    "summary" : "\"f differential privacy\" (fDP) is a recent definition for privacy privacy which can offer improved predictions of \"privacy loss\". It has been used to analyse specific privacy mechanisms, such as the popular Gaussian mechanism. In this paper we show how fDP's foundation in statistical hypothesis testing implies equivalence to the channel model of Quantitative Information Flow. We demonstrate this equivalence by a Galois connection between two partially ordered sets. This equivalence enables novel general composition theorems for fDP, supporting improved analysis for complex privacy designs.",
+    "updated" : "2025-12-23T08:21:00Z",
+    "published" : "2025-12-23T08:21:00Z",
+    "authors" : [
+      {
+        "name" : "Natasha Fernandes"
+      },
+      {
+        "name" : "Annabelle McIver"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT"
+    ]
   }
 ]
