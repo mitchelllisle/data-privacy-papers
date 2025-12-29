@@ -37,33 +37,20 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.00734v1">Infinitely divisible privacy and beyond I: resolution of the $s^2=2k$ conjecture</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB"> 
-  <p><b>Published on:</b> 2025-11-30T05:09:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aaradhya Pandey, Arian Maleki, Sanjeev Kulkarni</p>
-    <p><b>Summary:</b> Differential privacy is increasingly formalized through the lens of hypothesis testing via the robust and interpretable $f$-DP framework, where privacy guarantees are encoded by a baseline Blackwell trade-off function $f_{\infty} = T(P_{\infty}, Q_{\infty})$ involving a pair of distributions $(P_{\infty}, Q_{\infty})$. The problem of choosing the right privacy metric in practice leads to a central question: what is a statistically appropriate baseline $f_{\infty}$ given some prior modeling assumptions? The special case of Gaussian differential privacy (GDP) showed that, under compositions of nearly perfect mechanisms, these trade-off functions exhibit a central limit behavior with a Gaussian limit experiment. Inspired by Le Cam's theory of limits of statistical experiments, we answer this question in full generality in an infinitely divisible setting.
-  We show that suitable composition experiments $(P_n^{\otimes n}, Q_n^{\otimes n})$ converge to a binary limit experiment $(P_{\infty}, Q_{\infty})$ whose log-likelihood ratio $L = \log(dQ_{\infty} / dP_{\infty})$ is infinitely divisible under $P_{\infty}$. Thus any limiting trade-off function $f_{\infty}$ is determined by an infinitely divisible law $P_{\infty}$, characterized by its Levy--Khintchine triplet, and its Esscher tilt defined by $dQ_{\infty}(x) = e^{x} dP_{\infty}(x)$. This characterizes all limiting baseline trade-off functions $f_{\infty}$ arising from compositions of nearly perfect differentially private mechanisms. Our framework recovers GDP as the purely Gaussian case and yields explicit non-Gaussian limits, including Poisson examples. It also positively resolves the empirical $s^2 = 2k$ phenomenon observed in the GDP paper and provides an optimal mechanism for count statistics achieving asymmetric Poisson differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.00638v1">Privacy Preserving Diffusion Models for Mixed-Type Tabular Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-11-29T21:23:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Timur Sattarov, Marco Schreyer, Damian Borth</p>
-    <p><b>Summary:</b> We introduce DP-FinDiff, a differentially private diffusion framework for synthesizing mixed-type tabular data. DP-FinDiff employs embedding-based representations for categorical features, reducing encoding overhead and scaling to high-dimensional datasets. To adapt DP-training to the diffusion process, we propose two privacy-aware training strategies: an adaptive timestep sampler that aligns updates with diffusion dynamics, and a feature-aggregated loss that mitigates clipping-induced bias. Together, these enhancements improve fidelity and downstream utility without weakening privacy guarantees. On financial and medical datasets, DP-FinDiff achieves 16-42% higher utility than DP baselines at comparable privacy levels, demonstrating its promise for safe and effective data sharing in sensitive domains.</p>
-  </details>
-</div>
-
-
 
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.21700v1">Inference in the $p_0$ model for directed networks under local differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">  
+  <p><b>Published on:</b> 2025-12-25T14:51:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xueying Sun, Ting Yan, Binyan Jiang</p>
+    <p><b>Summary:</b> We explore the edge-flipping mechanism, a type of input perturbation, to release the directed graph under edge-local differential privacy. By using the noisy bi-degree sequence from the output graph, we construct the moment equations to estimate the unknown parameters in the $p_0$ model, which is an exponential family distribution with the bi-degree sequence as the natural sufficient statistic. We show that the resulting private estimator is asymptotically consistent and normally distributed under some conditions. In addition, we compare the performance of input and output perturbation mechanisms for releasing bi-degree sequences in terms of parameter estimation accuracy and privacy protection. Numerical studies demonstrate our theoretical findings and compare the performance of the private estimates obtained by different types of perturbation methods. We apply the proposed method to analyze the UC Irvine message network.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.21048v1">zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy</a></h3>
@@ -90,7 +77,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.20323v1">Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.20323v2">Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-12-23T12:45:49Z</p>
   <details>
@@ -109,6 +96,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Bin Xie, Rui Song, Xuyuan Cai</p>
     <p><b>Summary:</b> Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.21358v1">Composition Theorems for f-Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2025-12-23T08:21:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Natasha Fernandes, Annabelle McIver, Parastoo Sadeghi</p>
+    <p><b>Summary:</b> "f differential privacy" (fDP) is a recent definition for privacy privacy which can offer improved predictions of "privacy loss". It has been used to analyse specific privacy mechanisms, such as the popular Gaussian mechanism. In this paper we show how fDP's foundation in statistical hypothesis testing implies equivalence to the channel model of Quantitative Information Flow. We demonstrate this equivalence by a Galois connection between two partially ordered sets. This equivalence enables novel general composition theorems for fDP, supporting improved analysis for complex privacy designs.</p>
   </details>
 </div>
 
