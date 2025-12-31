@@ -1,44 +1,42 @@
 
-<h2>2025-11</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.01115v2">Sliced Rényi Pufferfish Privacy: Directional Additive Noise Mechanism and Private Learning with Gradient Clipping</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-11-30T22:22:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tao Zhang, Yevgeniy Vorobeychik</p>
-    <p><b>Summary:</b> We study privatization mechanism design and privacy accounting in the Pufferfish family, addressing two practical gaps of Renyi Pufferfish Privacy (RPP): high-dimensional optimal transport (OT) calibration and the absence of a general, mechanism-agnostic composition rule for iterative learning. We introduce Sliced Renyi Pufferfish Privacy (SRPP), which replaces high-dimensional comparisons by directional ones over a set of unit vectors, enabling geometry-aware and tractable guarantees. To calibrate noise without high-dimensional OT, we propose sliced Wasserstein mechanisms that compute per-direction (1-D) sensitivities, yielding closed-form, statistically stable, and anisotropic calibrations. We further define SRPP Envelope (SRPE) as computable upper bounds that are tightly implementable by these sliced Wasserstein mechanisms. For iterative deep learning algorithms, we develop a decompose-then-compose SRPP-SGD scheme with gradient clipping based on a History-Uniform Cap (HUC), a pathwise bound on one-step directional changes that is uniform over optimization history, and a mean-square variant (ms-HUC) that leverages subsampling randomness to obtain on-average SRPP guarantees with improved utility. The resulting HUC and ms-HUC accountants aggregate per-iteration, per-direction Renyi costs and integrate naturally with moments-accountant style analyses. Finally, when multiple mechanisms are trained and privatized independently under a common slicing geometry, our analysis yields graceful additive composition in both worst-case and mean-square regimes. Our experiments indicate that the proposed SRPP-based methods achieve favorable privacy-utility trade-offs in both static and iterative settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.01109v1">How do we measure privacy in text? A survey of text anonymization metrics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2025-11-30T22:12:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaxuan Ren, Krithika Ramesh, Yaxing Yao, Anjalie Field</p>
-    <p><b>Summary:</b> In this work, we aim to clarify and reconcile metrics for evaluating privacy protection in text through a systematic survey. Although text anonymization is essential for enabling NLP research and model development in domains with sensitive data, evaluating whether anonymization methods sufficiently protect privacy remains an open challenge. In manually reviewing 47 papers that report privacy metrics, we identify and compare six distinct privacy notions, and analyze how the associated metrics capture different aspects of privacy risk. We then assess how well these notions align with legal privacy standards (HIPAA and GDPR), as well as user-centered expectations grounded in HCI studies. Our analysis offers practical guidance on navigating the landscape of privacy evaluation approaches further and highlights gaps in current practices. Ultimately, we aim to facilitate more robust, comparable, and legally aware privacy evaluations in text anonymization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.00849v1">Topological Federated Clustering via Gravitational Potential Fields under Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-11-30T11:41:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunbo Long, Jiaquan Zhang, Xi Chen, Alexandra Brintrup</p>
-    <p><b>Summary:</b> Clustering non-independent and identically distributed (non-IID) data under local differential privacy (LDP) in federated settings presents a critical challenge: preserving privacy while maintaining accuracy without iterative communication. Existing one-shot methods rely on unstable pairwise centroid distances or neighborhood rankings, degrading severely under strong LDP noise and data heterogeneity. We present Gravitational Federated Clustering (GFC), a novel approach to privacy-preserving federated clustering that overcomes the limitations of distance-based methods under varying LDP. Addressing the critical challenge of clustering non-IID data with diverse privacy guarantees, GFC transforms privatized client centroids into a global gravitational potential field where true cluster centers emerge as topologically persistent singularities. Our framework introduces two key innovations: (1) a client-side compactness-aware perturbation mechanism that encodes local cluster geometry as "mass" values, and (2) a server-side topological aggregation phase that extracts stable centroids through persistent homology analysis of the potential field's superlevel sets. Theoretically, we establish a closed-form bound between the privacy budget $ε$ and centroid estimation error, proving the potential field's Lipschitz smoothing properties exponentially suppress noise in high-density regions. Empirically, GFC outperforms state-of-the-art methods on ten benchmarks, especially under strong LDP constraints ($ε< 1$), while maintaining comparable performance at lower privacy budgets. By reformulating federated clustering as a topological persistence problem in a synthetic physics-inspired space, GFC achieves unprecedented privacy-accuracy trade-offs without iterative communication, providing a new perspective for privacy-preserving distributed learning.</p>
-  </details>
-</div>
-
-
-
 <h2>2025-12</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.23535v1">A Privacy Protocol Using Ephemeral Intermediaries and a Rank-Deficient Matrix Power Function (RDMPF)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2025-12-29T15:19:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eduardo Salazar</p>
+    <p><b>Summary:</b> This paper presents a private transfer architecture for the Internet Computer (ICP) that decouples deposit and retrieval through two short-lived intermediaries, with sealed storage and attested teardown by an ephemeral witness. The protocol uses a non-interactive RDMPF-based encapsulation to derive per-transfer transport keys. A public notice hint is computed from the capsule to enable discovery without fingerprinting the recipient's key. Retrieval is authorized by a short proof of decapsulation that reveals no identities. All transaction intermediaries are ephemeral and issue certified destruction intents and proofs, allowing a noticeboard to publish auditable finalization records. The design provides sender identity privacy with respect to the recipient, content confidentiality against intermediaries, forward secrecy for transport keys after staged destruction, verifiable liveness and finality. We formalize the basic interfaces, provide the security arguments for encapsulation correctness, hint privacy, authorization soundness and timeout reclaim.
+  In terms of implementation, it has been recently brought into production on the ICP under the name ICPP. It has been subject to exhaustive testing and incorporates a few enhancements, focusing on the operational possibilities offered by ICP's technology. This work hence serves as a broad reference for the protocol now publicly accessible.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.23235v1">FairGFL: Privacy-Preserving Fairness-Aware Federated Learning with Overlapping Subgraphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2025-12-29T06:31:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihao Zhou, Shusen Yang, Fangyuan Zhao, Xuebin Ren</p>
+    <p><b>Summary:</b> Graph federated learning enables the collaborative extraction of high-order information from distributed subgraphs while preserving the privacy of raw data. However, graph data often exhibits overlap among different clients. Previous research has demonstrated certain benefits of overlapping data in mitigating data heterogeneity. However, the negative effects have not been explored, particularly in cases where the overlaps are imbalanced across clients. In this paper, we uncover the unfairness issue arising from imbalanced overlapping subgraphs through both empirical observations and theoretical reasoning. To address this issue, we propose FairGFL (FAIRness-aware subGraph Federated Learning), a novel algorithm that enhances cross-client fairness while maintaining model utility in a privacy-preserving manner. Specifically, FairGFL incorporates an interpretable weighted aggregation approach to enhance fairness across clients, leveraging privacy-preserving estimation of their overlapping ratios. Furthermore, FairGFL improves the tradeoff between model utility and fairness by integrating a carefully crafted regularizer into the federated composite loss function. Through extensive experiments on four benchmark graph datasets, we demonstrate that FairGFL outperforms four representative baseline algorithms in terms of both model utility and fairness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.22307v1">LLA: Enhancing Security and Privacy for Generative Models with Logic-Locked Accelerators</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-12-26T05:47:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> You Li, Guannan Zhao, Yuhao Ju, Yunqi He, Jie Gu, Hai Zhou</p>
+    <p><b>Summary:</b> We introduce LLA, an effective intellectual property (IP) protection scheme for generative AI models. LLA leverages the synergy between hardware and software to defend against various supply chain threats, including model theft, model corruption, and information leakage. On the software side, it embeds key bits into neurons that can trigger outliers to degrade performance and applies invariance transformations to obscure the key values. On the hardware side, it integrates a lightweight locking module into the AI accelerator while maintaining compatibility with various dataflow patterns and toolchains. An accelerator with a pre-stored secret key acts as a license to access the model services provided by the IP owner. The evaluation results show that LLA can withstand a broad range of oracle-guided key optimization attacks, while incurring a minimal computational overhead of less than 0.1% for 7,168 key bits.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.21700v1">Inference in the $p_0$ model for directed networks under local differential privacy</a></h3>
@@ -77,7 +75,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.20323v2">Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.20323v3">Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-12-23T12:45:49Z</p>
   <details>
@@ -932,7 +930,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.06253v4">Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.06253v5">Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2025-12-06T02:55:46Z</p>
   <details>
