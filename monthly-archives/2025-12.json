@@ -2721,5 +2721,129 @@
       "cs.CR",
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.23535v1",
+    "title" : "A Privacy Protocol Using Ephemeral Intermediaries and a Rank-Deficient Matrix Power Function (RDMPF)",
+    "summary" : "This paper presents a private transfer architecture for the Internet Computer (ICP) that decouples deposit and retrieval through two short-lived intermediaries, with sealed storage and attested teardown by an ephemeral witness. The protocol uses a non-interactive RDMPF-based encapsulation to derive per-transfer transport keys. A public notice hint is computed from the capsule to enable discovery without fingerprinting the recipient's key. Retrieval is authorized by a short proof of decapsulation that reveals no identities. All transaction intermediaries are ephemeral and issue certified destruction intents and proofs, allowing a noticeboard to publish auditable finalization records. The design provides sender identity privacy with respect to the recipient, content confidentiality against intermediaries, forward secrecy for transport keys after staged destruction, verifiable liveness and finality. We formalize the basic interfaces, provide the security arguments for encapsulation correctness, hint privacy, authorization soundness and timeout reclaim.\n  In terms of implementation, it has been recently brought into production on the ICP under the name ICPP. It has been subject to exhaustive testing and incorporates a few enhancements, focusing on the operational possibilities offered by ICP's technology. This work hence serves as a broad reference for the protocol now publicly accessible.",
+    "updated" : "2025-12-29T15:19:09Z",
+    "published" : "2025-12-29T15:19:09Z",
+    "authors" : [
+      {
+        "name" : "Eduardo Salazar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.23235v1",
+    "title" : "FairGFL: Privacy-Preserving Fairness-Aware Federated Learning with Overlapping Subgraphs",
+    "summary" : "Graph federated learning enables the collaborative extraction of high-order information from distributed subgraphs while preserving the privacy of raw data. However, graph data often exhibits overlap among different clients. Previous research has demonstrated certain benefits of overlapping data in mitigating data heterogeneity. However, the negative effects have not been explored, particularly in cases where the overlaps are imbalanced across clients. In this paper, we uncover the unfairness issue arising from imbalanced overlapping subgraphs through both empirical observations and theoretical reasoning. To address this issue, we propose FairGFL (FAIRness-aware subGraph Federated Learning), a novel algorithm that enhances cross-client fairness while maintaining model utility in a privacy-preserving manner. Specifically, FairGFL incorporates an interpretable weighted aggregation approach to enhance fairness across clients, leveraging privacy-preserving estimation of their overlapping ratios. Furthermore, FairGFL improves the tradeoff between model utility and fairness by integrating a carefully crafted regularizer into the federated composite loss function. Through extensive experiments on four benchmark graph datasets, we demonstrate that FairGFL outperforms four representative baseline algorithms in terms of both model utility and fairness.",
+    "updated" : "2025-12-29T06:31:08Z",
+    "published" : "2025-12-29T06:31:08Z",
+    "authors" : [
+      {
+        "name" : "Zihao Zhou"
+      },
+      {
+        "name" : "Shusen Yang"
+      },
+      {
+        "name" : "Fangyuan Zhao"
+      },
+      {
+        "name" : "Xuebin Ren"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.22307v1",
+    "title" : "LLA: Enhancing Security and Privacy for Generative Models with Logic-Locked Accelerators",
+    "summary" : "We introduce LLA, an effective intellectual property (IP) protection scheme for generative AI models. LLA leverages the synergy between hardware and software to defend against various supply chain threats, including model theft, model corruption, and information leakage. On the software side, it embeds key bits into neurons that can trigger outliers to degrade performance and applies invariance transformations to obscure the key values. On the hardware side, it integrates a lightweight locking module into the AI accelerator while maintaining compatibility with various dataflow patterns and toolchains. An accelerator with a pre-stored secret key acts as a license to access the model services provided by the IP owner. The evaluation results show that LLA can withstand a broad range of oracle-guided key optimization attacks, while incurring a minimal computational overhead of less than 0.1% for 7,168 key bits.",
+    "updated" : "2025-12-26T05:47:29Z",
+    "published" : "2025-12-26T05:47:29Z",
+    "authors" : [
+      {
+        "name" : "You Li"
+      },
+      {
+        "name" : "Guannan Zhao"
+      },
+      {
+        "name" : "Yuhao Ju"
+      },
+      {
+        "name" : "Yunqi He"
+      },
+      {
+        "name" : "Jie Gu"
+      },
+      {
+        "name" : "Hai Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.20323v3",
+    "title" : "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary" : "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "updated" : "2025-12-29T12:08:34Z",
+    "published" : "2025-12-23T12:45:49Z",
+    "authors" : [
+      {
+        "name" : "Ipek Sena Yilmaz"
+      },
+      {
+        "name" : "Onur G. Tuncer"
+      },
+      {
+        "name" : "Zeynep E. Aksoy"
+      },
+      {
+        "name" : "Zeynep Yağmur Baydemir"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.06253v5",
+    "title" : "Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure",
+    "summary" : "Noise perturbation is one of the most fundamental approaches for achieving $(ε,δ)$-differential privacy (DP) guarantees when releasing the result of a query or function $f(\\cdot)\\in\\mathbb{R}^M$ evaluated on a sensitive dataset $\\mathbf{x}$. In this approach, calibrated noise $\\mathbf{n}\\in\\mathbb{R}^M$ is used to obscure the difference vector $f(\\mathbf{x})-f(\\mathbf{x}')$, where $\\mathbf{x}'$ is known as a neighboring dataset. A DP guarantee is obtained by studying the tail probability bound of a privacy loss random variable (PLRV), defined as the Radon-Nikodym derivative between two distributions. When $\\mathbf{n}$ follows a multivariate Gaussian distribution, the PLRV is characterized as a specific univariate Gaussian. In this paper, we propose a novel scheme to generate $\\mathbf{n}$ by leveraging the fact that the perturbation noise is typically spherically symmetric (i.e., the distribution is rotationally invariant around the origin). The new noise generation scheme allows us to investigate the privacy loss from a geometric perspective and express the resulting PLRV using a product measure, $W\\times U$; measure $W$ is related to a radius random variable controlling the magnitude of $\\mathbf{n}$, while measure $U$ involves a directional random variable governing the angle between $\\mathbf{n}$ and the difference $f(\\mathbf{x})-f(\\mathbf{x}')$. We derive a closed-form moment bound on the product measure to prove $(ε,δ)$-DP. Under the same $(ε,δ)$-DP guarantee, our mechanism yields a smaller expected noise magnitude than the classic Gaussian noise in high dimensions, thereby significantly improving the utility of the noisy result $f(\\mathbf{x})+\\mathbf{n}$. To validate this, we consider convex and non-convex empirical risk minimization (ERM) problems in high dimensional space and apply the proposed product noise to achieve privacy.",
+    "updated" : "2025-12-29T05:18:56Z",
+    "published" : "2025-12-06T02:55:46Z",
+    "authors" : [
+      {
+        "name" : "Shuainan Liu"
+      },
+      {
+        "name" : "Tianxi Ji"
+      },
+      {
+        "name" : "Zhongshuo Fang"
+      },
+      {
+        "name" : "Lu Wei"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
