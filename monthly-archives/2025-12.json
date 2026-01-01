@@ -2845,5 +2845,114 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.24899v1",
+    "title" : "MTSP-LDP: A Framework for Multi-Task Streaming Data Publication under Local Differential Privacy",
+    "summary" : "The proliferation of streaming data analytics in data-driven applications raises critical privacy concerns, as directly collecting user data may compromise personal privacy. Although existing $w$-event local differential privacy (LDP) mechanisms provide formal guarantees without relying on trusted third parties, their practical deployment is hindered by two key limitations. First, these methods are designed primarily for publishing simple statistics at each timestamp, making them inherently unsuitable for complex queries. Second, they handle data at each timestamp independently, failing to capture temporal correlations and consequently degrading the overall utility. To address these issues, we propose MTSP-LDP, a novel framework for \\textbf{M}ulti-\\textbf{T}ask \\textbf{S}treaming data \\textbf{P}ublication under $w$-event LDP. MTSP-LDP adopts an \\emph{Optimal Privacy Budget Allocation} algorithm to dynamically allocate privacy budgets by analyzing temporal correlations within each window. It then constructs a \\emph{data-adaptive private binary tree structure} to support complex queries, which is further refined by cross-timestamp grouping and smoothing operations to enhance estimation accuracy. Furthermore, a unified \\emph{Budget-Free Multi-Task Processing} mechanism is introduced to support a variety of streaming queries without consuming additional privacy budget. Extensive experiments on real-world datasets demonstrate that MTSP-LDP consistently achieves high utility across various streaming tasks, significantly outperforming existing methods.",
+    "updated" : "2025-12-31T14:52:29Z",
+    "published" : "2025-12-31T14:52:29Z",
+    "authors" : [
+      {
+        "name" : "Chang Liu"
+      },
+      {
+        "name" : "Junzhou Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.24848v1",
+    "title" : "PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI",
+    "summary" : "Personalized AI agents rely on access to a user's digital footprint, which often includes sensitive data from private emails, chats and purchase histories. Yet this access creates a fundamental societal and privacy risk: systems lacking social-context awareness can unintentionally expose user secrets, threatening digital well-being. We introduce PrivacyBench, a benchmark with socially grounded datasets containing embedded secrets and a multi-turn conversational evaluation to measure secret preservation. Testing Retrieval-Augmented Generation (RAG) assistants reveals that they leak secrets in up to 26.56% of interactions. A privacy-aware prompt lowers leakage to 5.12%, yet this measure offers only partial mitigation. The retrieval mechanism continues to access sensitive data indiscriminately, which shifts the entire burden of privacy preservation onto the generator. This creates a single point of failure, rendering current architectures unsafe for wide-scale deployment. Our findings underscore the urgent need for structural, privacy-by-design safeguards to ensure an ethical and inclusive web for everyone.",
+    "updated" : "2025-12-31T13:16:45Z",
+    "published" : "2025-12-31T13:16:45Z",
+    "authors" : [
+      {
+        "name" : "Srija Mukhopadhyay"
+      },
+      {
+        "name" : "Sathwik Reddy"
+      },
+      {
+        "name" : "Shruthi Muthukumar"
+      },
+      {
+        "name" : "Jisun An"
+      },
+      {
+        "name" : "Ponnurangam Kumaraguru"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.24452v1",
+    "title" : "Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations",
+    "summary" : "Semantic communications conveys task-relevant meaning rather than focusing solely on message reconstruction, improving bandwidth efficiency and robustness for next-generation wireless systems. However, learned semantic representations can still leak sensitive information to unintended receivers (eavesdroppers). This paper presents a deep learning-based semantic communication framework that jointly supports multiple receiver tasks while explicitly limiting semantic leakage to an eavesdropper. The legitimate link employs a learned encoder at the transmitter, while the receiver trains decoders for semantic inference and data reconstruction. The security problem is formulated via an iterative min-max optimization in which an eavesdropper is trained to improve its semantic inference, while the legitimate transmitter-receiver pair is trained to preserve task performance while reducing the eavesdropper's success. We also introduce an auxiliary layer that superimposes a cooperative, adversarially crafted perturbation on the transmitted waveform to degrade semantic leakage to an eavesdropper. Performance is evaluated over Rayleigh fading channels with additive white Gaussian noise using MNIST and CIFAR-10 datasets. Semantic accuracy and reconstruction quality improve with increasing latent dimension, while the min-max mechanism reduces the eavesdropper's inference performance significantly without degrading the legitimate receiver. The perturbation layer is successful in reducing semantic leakage even when the legitimate link is trained only for its own task. This comprehensive framework motivates semantic communication designs with tunable, end-to-end privacy against adaptive adversaries in realistic wireless settings.",
+    "updated" : "2025-12-30T20:19:49Z",
+    "published" : "2025-12-30T20:19:49Z",
+    "authors" : [
+      {
+        "name" : "Yalin E. Sagduyu"
+      },
+      {
+        "name" : "Tugba Erpek"
+      },
+      {
+        "name" : "Aylin Yener"
+      },
+      {
+        "name" : "Sennur Ulukus"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.AI",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.24041v1",
+    "title" : "Exposed: Shedding Blacklight on Online Privacy",
+    "summary" : "To what extent are users surveilled on the web, by what technologies, and by whom? We answer these questions by combining passively observed, anonymized browsing data of a large, representative sample of Americans with domain-level data on tracking from Blacklight. We find that nearly all users ($ > 99\\%$) encounter at least one ad tracker or third-party cookie over the observation window. More invasive techniques like session recording, keylogging, and canvas fingerprinting are less widespread, but over half of the users visited a site employing at least one of these within the first 48 hours of the start of tracking. Linking trackers to their parent organizations reveals that a single organization, usually Google, can track over $50\\%$ of web activity of more than half the users. Demographic differences in exposure are modest and often attenuate when we account for browsing volume. However, disparities by age and race remain, suggesting that what users browse, not just how much, shapes their surveillance risk.",
+    "updated" : "2025-12-30T07:31:48Z",
+    "published" : "2025-12-30T07:31:48Z",
+    "authors" : [
+      {
+        "name" : "Lucas Shen"
+      },
+      {
+        "name" : "Gaurav Sood"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.23743v1",
+    "title" : "Hybrid-Code: A Privacy-Preserving, Redundant Multi-Agent Framework for Reliable Local Clinical Coding",
+    "summary" : "Clinical coding automation using cloud-based Large Language Models (LLMs) poses privacy risks and latency bottlenecks, rendering them unsuitable for on-premise healthcare deployment. We introduce Hybrid-Code, a hybrid neuro-symbolic multi-agent framework for local clinical coding that ensures production reliability through redundancy and verification. Our system comprises two agents: a Coder that attempts language model-based semantic reasoning using BioMistral-7B but falls back to deterministic keyword matching when model output is unreliable, ensuring pipeline completion; and an Auditor that verifies codes against a 257-code knowledge base and clinical evidence. Evaluating on 1,000 MIMIC-III discharge summaries, we demonstrate no hallucinated codes among accepted outputs within the knowledge base, 24.47% verification rate, and 34.11% coverage (95% CI: 31.2%--37.0%) with 86%+ language model utilization. The Auditor filtered invalid format codes and provided evidence-based quality control (75.53% rejection rate) while ensuring no patient data leaves the hospital firewall. The hybrid architecture -- combining language model semantic understanding (when successful), deterministic fallback (when the model fails), and symbolic verification (always active) -- ensures both reliability and privacy preservation, addressing critical barriers to AI adoption in healthcare. Our key finding is that reliability through redundancy is more valuable than pure model performance in production healthcare systems, where system failures are unacceptable.",
+    "updated" : "2025-12-26T02:27:36Z",
+    "published" : "2025-12-26T02:27:36Z",
+    "authors" : [
+      {
+        "name" : "Yunguo Yu"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.AI"
+    ]
   }
 ]
