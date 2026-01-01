@@ -2,6 +2,54 @@
 <h2>2025-12</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.24899v1">MTSP-LDP: A Framework for Multi-Task Streaming Data Publication under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-31T14:52:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chang Liu, Junzhou Zhao</p>
+    <p><b>Summary:</b> The proliferation of streaming data analytics in data-driven applications raises critical privacy concerns, as directly collecting user data may compromise personal privacy. Although existing $w$-event local differential privacy (LDP) mechanisms provide formal guarantees without relying on trusted third parties, their practical deployment is hindered by two key limitations. First, these methods are designed primarily for publishing simple statistics at each timestamp, making them inherently unsuitable for complex queries. Second, they handle data at each timestamp independently, failing to capture temporal correlations and consequently degrading the overall utility. To address these issues, we propose MTSP-LDP, a novel framework for \textbf{M}ulti-\textbf{T}ask \textbf{S}treaming data \textbf{P}ublication under $w$-event LDP. MTSP-LDP adopts an \emph{Optimal Privacy Budget Allocation} algorithm to dynamically allocate privacy budgets by analyzing temporal correlations within each window. It then constructs a \emph{data-adaptive private binary tree structure} to support complex queries, which is further refined by cross-timestamp grouping and smoothing operations to enhance estimation accuracy. Furthermore, a unified \emph{Budget-Free Multi-Task Processing} mechanism is introduced to support a variety of streaming queries without consuming additional privacy budget. Extensive experiments on real-world datasets demonstrate that MTSP-LDP consistently achieves high utility across various streaming tasks, significantly outperforming existing methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.24848v1">PrivacyBench: A Conversational Benchmark for Evaluating Privacy in Personalized AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-31T13:16:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Srija Mukhopadhyay, Sathwik Reddy, Shruthi Muthukumar, Jisun An, Ponnurangam Kumaraguru</p>
+    <p><b>Summary:</b> Personalized AI agents rely on access to a user's digital footprint, which often includes sensitive data from private emails, chats and purchase histories. Yet this access creates a fundamental societal and privacy risk: systems lacking social-context awareness can unintentionally expose user secrets, threatening digital well-being. We introduce PrivacyBench, a benchmark with socially grounded datasets containing embedded secrets and a multi-turn conversational evaluation to measure secret preservation. Testing Retrieval-Augmented Generation (RAG) assistants reveals that they leak secrets in up to 26.56% of interactions. A privacy-aware prompt lowers leakage to 5.12%, yet this measure offers only partial mitigation. The retrieval mechanism continues to access sensitive data indiscriminately, which shifts the entire burden of privacy preservation onto the generator. This creates a single point of failure, rendering current architectures unsafe for wide-scale deployment. Our findings underscore the urgent need for structural, privacy-by-design safeguards to ensure an ethical and inclusive web for everyone.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.24452v1">Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2025-12-30T20:19:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus</p>
+    <p><b>Summary:</b> Semantic communications conveys task-relevant meaning rather than focusing solely on message reconstruction, improving bandwidth efficiency and robustness for next-generation wireless systems. However, learned semantic representations can still leak sensitive information to unintended receivers (eavesdroppers). This paper presents a deep learning-based semantic communication framework that jointly supports multiple receiver tasks while explicitly limiting semantic leakage to an eavesdropper. The legitimate link employs a learned encoder at the transmitter, while the receiver trains decoders for semantic inference and data reconstruction. The security problem is formulated via an iterative min-max optimization in which an eavesdropper is trained to improve its semantic inference, while the legitimate transmitter-receiver pair is trained to preserve task performance while reducing the eavesdropper's success. We also introduce an auxiliary layer that superimposes a cooperative, adversarially crafted perturbation on the transmitted waveform to degrade semantic leakage to an eavesdropper. Performance is evaluated over Rayleigh fading channels with additive white Gaussian noise using MNIST and CIFAR-10 datasets. Semantic accuracy and reconstruction quality improve with increasing latent dimension, while the min-max mechanism reduces the eavesdropper's inference performance significantly without degrading the legitimate receiver. The perturbation layer is successful in reducing semantic leakage even when the legitimate link is trained only for its own task. This comprehensive framework motivates semantic communication designs with tunable, end-to-end privacy against adaptive adversaries in realistic wireless settings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.24041v1">Exposed: Shedding Blacklight on Online Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2025-12-30T07:31:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lucas Shen, Gaurav Sood</p>
+    <p><b>Summary:</b> To what extent are users surveilled on the web, by what technologies, and by whom? We answer these questions by combining passively observed, anonymized browsing data of a large, representative sample of Americans with domain-level data on tracking from Blacklight. We find that nearly all users ($ > 99\%$) encounter at least one ad tracker or third-party cookie over the observation window. More invasive techniques like session recording, keylogging, and canvas fingerprinting are less widespread, but over half of the users visited a site employing at least one of these within the first 48 hours of the start of tracking. Linking trackers to their parent organizations reveals that a single organization, usually Google, can track over $50\%$ of web activity of more than half the users. Demographic differences in exposure are modest and often attenuate when we account for browsing volume. However, disparities by age and race remain, suggesting that what users browse, not just how much, shapes their surveillance risk.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2512.23535v1">A Privacy Protocol Using Ephemeral Intermediaries and a Rank-Deficient Matrix Power Function (RDMPF)</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
   <p><b>Published on:</b> 2025-12-29T15:19:09Z</p>
@@ -34,6 +82,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> You Li, Guannan Zhao, Yuhao Ju, Yunqi He, Jie Gu, Hai Zhou</p>
     <p><b>Summary:</b> We introduce LLA, an effective intellectual property (IP) protection scheme for generative AI models. LLA leverages the synergy between hardware and software to defend against various supply chain threats, including model theft, model corruption, and information leakage. On the software side, it embeds key bits into neurons that can trigger outliers to degrade performance and applies invariance transformations to obscure the key values. On the hardware side, it integrates a lightweight locking module into the AI accelerator while maintaining compatibility with various dataflow patterns and toolchains. An accelerator with a pre-stored secret key acts as a license to access the model services provided by the IP owner. The evaluation results show that LLA can withstand a broad range of oracle-guided key optimization attacks, while incurring a minimal computational overhead of less than 0.1% for 7,168 key bits.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2512.23743v1">Hybrid-Code: A Privacy-Preserving, Redundant Multi-Agent Framework for Reliable Local Clinical Coding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2025-12-26T02:27:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunguo Yu</p>
+    <p><b>Summary:</b> Clinical coding automation using cloud-based Large Language Models (LLMs) poses privacy risks and latency bottlenecks, rendering them unsuitable for on-premise healthcare deployment. We introduce Hybrid-Code, a hybrid neuro-symbolic multi-agent framework for local clinical coding that ensures production reliability through redundancy and verification. Our system comprises two agents: a Coder that attempts language model-based semantic reasoning using BioMistral-7B but falls back to deterministic keyword matching when model output is unreliable, ensuring pipeline completion; and an Auditor that verifies codes against a 257-code knowledge base and clinical evidence. Evaluating on 1,000 MIMIC-III discharge summaries, we demonstrate no hallucinated codes among accepted outputs within the knowledge base, 24.47% verification rate, and 34.11% coverage (95% CI: 31.2%--37.0%) with 86%+ language model utilization. The Auditor filtered invalid format codes and provided evidence-based quality control (75.53% rejection rate) while ensuring no patient data leaves the hospital firewall. The hybrid architecture -- combining language model semantic understanding (when successful), deterministic fallback (when the model fails), and symbolic verification (always active) -- ensures both reliability and privacy preservation, addressing critical barriers to AI adoption in healthcare. Our key finding is that reliability through redundancy is more valuable than pure model performance in production healthcare systems, where system failures are unacceptable.</p>
   </details>
 </div>
 
@@ -1156,66 +1216,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Yohan Beugin, Patrick McDaniel</p>
     <p><b>Summary:</b> The Privacy Sandbox, launched in 2019, is a series of proposals from Google to reduce ``cross-site and cross-app tracking while helping to keep online content and services free for all''. Over the years, Google implemented, experimented, and deprecated some of these APIs into their own products (Chrome, Android, etc.) which raised concerns about the potential of these mechanisms to fundamentally disrupt the advertising, mobile, and web ecosystems. As a result, it is paramount for researchers to understand the consequences that these new technologies, and future ones, will have on billions of users if and when deployed. In this report, we outline our call for privacy, security, usability, and utility evaluations of these APIs, our efforts materialized through the creation and operation of Privacy Sandstorm (https://privacysandstorm.github.io); a research portal to systematically gather resources (overview, analyses, artifacts, etc.) about such proposals. We find that our inventory provides a better visibility and broader perspective on the research findings in that space than what Google lets show through official channels.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.02369v1">SAGE: Style-Adaptive Generalization for Privacy-Constrained Semantic Segmentation Across Domains</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-12-02T03:20:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qingmei Li, Yang Zhang, Peifeng Zhang, Haohuan Fu, Juepeng Zheng</p>
-    <p><b>Summary:</b> Domain generalization for semantic segmentation aims to mitigate the degradation in model performance caused by domain shifts. However, in many real-world scenarios, we are unable to access the model parameters and architectural details due to privacy concerns and security constraints. Traditional fine-tuning or adaptation is hindered, leading to the demand for input-level strategies that can enhance generalization without modifying model weights. To this end, we propose a \textbf{S}tyle-\textbf{A}daptive \textbf{GE}neralization framework (\textbf{SAGE}), which improves the generalization of frozen models under privacy constraints. SAGE learns to synthesize visual prompts that implicitly align feature distributions across styles instead of directly fine-tuning the backbone. Specifically, we first utilize style transfer to construct a diverse style representation of the source domain, thereby learning a set of style characteristics that can cover a wide range of visual features. Then, the model adaptively fuses these style cues according to the visual context of each input, forming a dynamic prompt that harmonizes the image appearance without touching the interior of the model. Through this closed-loop design, SAGE effectively bridges the gap between frozen model invariance and the diversity of unseen domains. Extensive experiments on five benchmark datasets demonstrate that SAGE achieves competitive or superior performance compared to state-of-the-art methods under privacy constraints and outperforms full fine-tuning baselines in all settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.02301v1">Quantum Vanguard: Server Optimized Privacy Fortified Federated Intelligence for Future Vehicles</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-02T00:43:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dev Gurung, Shiva Raj Pokhrel</p>
-    <p><b>Summary:</b> This work presents vQFL (vehicular Quantum Federated Learning), a new framework that leverages quantum machine learning techniques to tackle key privacy and security issues in autonomous vehicular networks. Furthermore, we propose a server-side adapted fine-tuning method, ft-VQFL,to achieve enhanced and more resilient performance. By integrating quantum federated learning with differential privacy and quantum key distribution (QKD), our quantum vanguard approach creates a multi-layered defense against both classical and quantum threats while preserving model utility. Extensive experimentation with industry-standard datasets (KITTI, Waymo, and nuScenes) demonstrates that vQFL maintains accuracy comparable to standard QFL while significantly improving privacy guaranties and communication security. Our implementation using various quantum models (VQC, QCNN, and SamplerQNN) reveals minimal performance overhead despite the added security measures. This work establishes a crucial foundation for quantum-resistant autonomous vehicle systems that can operate securely in the post-quantum era while efficiently processing the massive data volumes (20-40TB/day per vehicle) generated by modern autonomous fleets. The modular design of the framework allows for seamless integration with existing vehicular networks, positioning vQFL as an essential component for future intelligent transportation infrastructure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03100v1">Ensemble Privacy Defense for Knowledge-Intensive LLMs against Membership Inference Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-12-01T18:12:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haowei Fu, Bo Ni, Han Xu, Kunpeng Liu, Dan Lin, Tyler Derr</p>
-    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) and Supervised Finetuning (SFT) have become the predominant paradigms for equipping Large Language Models (LLMs) with external knowledge for diverse, knowledge-intensive tasks. However, while such knowledge injection improves performance, it also exposes new attack surfaces. Membership Inference Attacks (MIAs), which aim to determine whether a given data sample was included in a model's training set, pose serious threats to privacy and trust in sensitive domains. To this end, we first systematically evaluate the vulnerability of RAG- and SFT-based LLMs to various MIAs. Then, to address the privacy risk, we further introduce a novel, model-agnostic defense framework, Ensemble Privacy Defense (EPD), which aggregates and evaluates the outputs of a knowledge-injected LLM, a base LLM, and a dedicated judge model to enhance resistance against MIAs. Comprehensive experiments show that, on average, EPD reduces MIA success by up to 27.8\% for SFT and 526.3\% for RAG compared to inference-time baseline, while maintaining answer quality.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.01832v1">A Privacy-Preserving Information-Sharing Protocol for Federated Authentication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-01T16:13:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Francesco Buccafurri, Carmen Licciardi</p>
-    <p><b>Summary:</b> This paper presents a privacy-preserving protocol for identity registration and information sharing in federated authentication systems. The goal is to enable Identity Providers (IdPs) to detect duplicate or fraudulent identity enrollments without revealing users personal data or enabling cross-domain correlation. The protocol relies on Oblivious Pseudorandom Functions (OPRFs) combined with domain-specific transformations, ensuring that each IdP generates independent pseudonymous identifiers derived from a shared cryptographic service while maintaining full input confidentiality. A central authority maintains a blind registry that records successful and failed identity verifications using only pseudonymous identifiers, allowing global consistency checks without exposing sensitive information or linking users across domains. The proposed construction provides a general and abstract framework suitable for a wide range of federated authentication systems, achieving strong privacy guarantees while supporting effective fraud-prevention mechanisms during identity registration.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.01748v1">SA-ADP: Sensitivity-Aware Adaptive Differential Privacy for Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-12-01T14:50:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Stella Etuk, Ashraf Matrawy</p>
-    <p><b>Summary:</b> Despite advances in the use of large language models (LLMs) in downstream tasks, their ability to memorize information has raised privacy concerns. Therefore, protecting personally identifiable information (PII) during LLM training remains a fundamental challenge. Conventional methods like Differential Privacy-Stochastic Gradient Descent (DP-SGD) provide robust privacy protection via uniform noising, protecting PII regardless of its distinct sensitivity. This comes at the expense of the model's utility, leading to a trade-off. In this paper, we propose SA-ADP, a sensitivity-aware approach that allocates noise based on the sensitivity of individual PII. We evaluated our method on four datasets (ABCD, CUSTOMERSIM, Wikitext-2, and UNSW-NB15 ). Our results show that SA-ADP achieves results comparable to the baseline (No-DP) and the conventional DP-SGD. This means that our method did not degrade the model's utility while still maintaining strong privacy protection.</p>
   </details>
 </div>
 
