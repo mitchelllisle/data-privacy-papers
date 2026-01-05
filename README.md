@@ -330,13 +330,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.16401v2">Navigating the Reality Gap: Privacy-Preserving Adaptation of ASR for Challenging Low-Resource Domains</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.16401v3">Navigating the Reality Gap: Privacy-Preserving On-Device Continual Adaptation of ASR for Clinical Telephony</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-12-18T10:56:27Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Darshil Chauhan, Adityasinh Solanki, Vansh Patel, Kanav Kapoor, Ritvik Jain, Aditya Bansal, Pratik Narang, Dhruv Kumar</p>
-    <p><b>Summary:</b> Automatic Speech Recognition (ASR) holds immense potential to assist in clinical documentation and patient report generation, particularly in resource-constrained regions. However, deployment is currently hindered by a technical deadlock: a severe "Reality Gap" between laboratory performance and noisy, real-world clinical audio, coupled with strict privacy and resource constraints. We quantify this gap, showing that a robust multilingual model (IndicWav2Vec) degrades to a 40.94% WER on rural clinical data from India, rendering it unusable. To address this, we explore a zero-data-exfiltration framework enabling localized, continual adaptation via Low-Rank Adaptation (LoRA). We conduct a rigorous investigative study of continual learning strategies, characterizing the trade-offs between data-driven and parameter-driven stability. Our results demonstrate that multi-domain Experience Replay (ER) yields the primary performance gains, achieving a 17.1% relative improvement in target WER and reducing catastrophic forgetting by 55% compared to naive adaptation. Furthermore, we observed that standard Elastic Weight Consolidation (EWC) faced numerical stability challenges when applied to LoRA in noisy environments. Our experiments show that a stabilized, linearized formulation effectively controls gradient magnitudes and enables stable convergence. Finally, we verify via a domain-specific spot check that acoustic adaptation is a fundamental prerequisite for usability which cannot be bypassed by language models alone.</p>
+    <p><b>Summary:</b> Automatic Speech Recognition (ASR) holds immense potential to assist in clinical documentation and patient report generation, particularly in resource-constrained regions. However, deployment is currently hindered by a technical deadlock: a severe "Reality Gap" between laboratory performance and noisy, real-world clinical audio, coupled with strict privacy and resource constraints. Such adaptation is essential for clinical telephony systems, where patient speech is highly variable and transcription errors can directly impact downstream clinical workflows. We quantify this gap, showing that a robust multilingual model (IndicWav2Vec) degrades up to a 40.94% WER on rural clinical telephony speech from India, rendering it unusable. We demonstrate consistent improvements on these helpline interactions without transmitting raw patient data off-device via an on-device continual adaptation framework using Low-Rank Adaptation (LoRA). We conduct an investigative study of stabilization strategies, characterizing the trade-offs between data-driven and parameter-driven approaches. Our results demonstrate that multi-domain Experience Replay (ER) yields the primary performance gains, achieving a 17.1% relative improvement in target WER and reducing catastrophic forgetting by 55% compared to naive adaptation. Furthermore, we investigate a stabilized importance estimation strategy (Absolute Fisher) to ensure robust convergence against the high-variance gradients common in clinical telephony speech. Finally, we verify via a domain-specific spot check that acoustic adaptation is a fundamental prerequisite for usability in healthcare settings which cannot be bypassed by language models alone.</p>
   </details>
 </div>
 
@@ -782,7 +782,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.08809v1">PrivTune: Efficient and Privacy-Preserving Fine-Tuning of Large Language Models via Device-Cloud Collaboration</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.08809v2">PrivTune: Efficient and Privacy-Preserving Fine-Tuning of Large Language Models via Device-Cloud Collaboration</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2025-12-09T17:03:59Z</p>
   <details>
@@ -1147,75 +1147,79 @@
 </div>
 
 
+
+<h2>2026-01</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03791v1">CCN: Decentralized Cross-Chain Channel Networks Supporting Secure and Privacy-Preserving Multi-Hop Interactions</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.00715v1">PDPL Metric: Validating a Scale to Measure Personal Data Privacy Literacy Among University Students</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-01-02T15:12:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Brady D. Lund, Nathan Brown, Ana Roeschley, Gahangir Hossain</p>
+    <p><b>Summary:</b> Personal data privacy literacy (PDPL) refers to a collection of digital literacy skills related to an individuals ability to understand, evaluate, and manage the collection, use, and protection of personal data in online and digital environments. This study introduces and validates a new psychometric scale (PDPL Metric) designed to measure data privacy literacy among university students, focusing on six key privacy constructs: perceived risk of data misuse, expectations of informed consent, general privacy concern, privacy management awareness, privacy-utility trade-off acceptance, and perceived importance of data security. A 24-item questionnaire was developed and administered to students at U.S.-based research universities. Principal components analysis confirmed the unidimensionality and internal consistency of each construct, and a second-order analysis supported the integration of all six into a unified PDPL construct. No differences in PDPL were found based on basic demographic variables like academic level and gender, although a difference was found based on domestic/international status. The findings of this study offer a validated framework for assessing personal data privacy literacy within the higher education context and support the integration of the core constructs into higher education programs, organizational policies, and digital literacy initiatives on university campuses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.00418v1">Secure, Verifiable, and Scalable Multi-Client Data Sharing via Consensus-Based Privacy-Preserving Data Distribution</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-01-01T18:12:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prajwal Panth, Sahaj Raj Malla</p>
+    <p><b>Summary:</b> We propose the Consensus-Based Privacy-Preserving Data Distribution (CPPDD) framework, a lightweight and post-setup autonomous protocol for secure multi-client data aggregation. The framework enforces unanimous-release confidentiality through a dual-layer protection mechanism that combines per-client affine masking with priority-driven sequential consensus locking. Decentralized integrity is verified via step (sigma_S) and data (sigma_D) checksums, facilitating autonomous malicious deviation detection and atomic abort without requiring persistent coordination. The design supports scalar, vector, and matrix payloads with O(N*D) computation and communication complexity, optional edge-server offloading, and resistance to collusion under N-1 corruptions. Formal analysis proves correctness, Consensus-Dependent Integrity and Fairness (CDIF) with overwhelming-probability abort on deviation, and IND-CPA security assuming a pseudorandom function family. Empirical evaluations on MNIST-derived vectors demonstrate linear scalability up to N = 500 with sub-millisecond per-client computation times. The framework achieves 100% malicious deviation detection, exact data recovery, and three-to-four orders of magnitude lower FLOPs compared to MPC and HE baselines. CPPDD enables atomic collaboration in secure voting, consortium federated learning, blockchain escrows, and geo-information capacity building, addressing critical gaps in scalability, trust minimization, and verifiable multi-party computation for regulated and resource-constrained environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.00385v1">Exploring the Integration of Differential Privacy in Cybersecurity Analytics: Balancing Data Utility and Privacy in Threat Intelligence</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-03T13:41:02Z</p>
+  <p><b>Published on:</b> 2026-01-01T16:31:47Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Minghui Xu, Yihao Guo, Yanqiang Zhang, Zhiguang Shan, Guangyong Shang, Zhen Ma, Bin Xiao, Xiuzhen Cheng</p>
-    <p><b>Summary:</b> Cross-chain technology enables interoperability among otherwise isolated blockchains, supporting interactions across heterogeneous networks. Similar to how multi-hop communication became fundamental in the evolution of the Internet, the demand for multi-hop cross-chain interactions is gaining increasing attention. However, this growing demand introduces new security and privacy challenges. On the security side, multi-hop interactions depend on the availability of multiple participating nodes. If any node becomes temporarily offline during execution, the protocol may fail to complete correctly, leading to settlement failure or fund loss. On the privacy side, the need for on-chain transparency to validate intermediate states may unintentionally leak linkable information, compromising the unlinkability of user interactions. In this paper, we propose the Cross-Chain Channel Network (CCN), a decentralized network designed to support secure and privacy-preserving multi-hop cross-chain transactions. Through experimental evaluation, we identify two critical types of offline failures, referred to as active and passive offline cases, which have not been adequately addressed by existing solutions. To mitigate these issues, we introduce R-HTLC, a core protocol within CCN. R-HTLC incorporates an hourglass mechanism and a multi-path refund strategy to ensure settlement correctness even when some nodes go offline during execution. Importantly, CCN addresses not only the correctness under offline conditions but also maintains unlinkability in such adversarial settings. To overcome this, CCN leverages zero-knowledge proofs and off-chain coordination, ensuring that interaction relationships remain indistinguishable even when certain nodes are temporarily offline.</p>
+    <p><b>Authors:</b> Brahim Khalil Sedraoui, Abdelmadjid Benmachiche, Amina Makhlouf, Chaouki Chemam</p>
+    <p><b>Summary:</b> To resolve the acute problem of privacy protection and guarantee that data can be used in the context of threat intelligence, this paper considers the implementation of Differential Privacy (DP) in cybersecurity analytics. DP, which is a sound mathematical framework, ensures privacy by adding a controlled noise to data outputs and thus avoids sensitive information disclosure even with auxiliary datasets. The use of DP in Security Information and Event Management (SIEM) systems is highlighted, and it can be seen that DP has the capability to protect event log and threat data analysis without interfering with the analytical efficiency. The utility versus privacy trade-offs linked to the maximization of the epsilon parameter, which is one of the critical components of DP mechanisms, is pointed out. The article shows the transformative power of DP in promoting safe sharing of data and joint threat intelligence through real-world systems and case studies. Finally, this paper makes DP one of the key strategies to improve privacy-preserving analytics in the field of cybersecurity.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03694v1">SRPG: Semantically Reconstructed Privacy Guard for Zero-Trust Privacy in Educational Multi-Agent Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2025-12-03T11:36:33Z</p>
+  <h3><a href="http://arxiv.org/abs/2601.00382v1">Unseen Risks of Clinical Speech-to-Text Systems: Transparency, Privacy, and Reliability Challenges in AI-Driven Documentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-01-01T16:18:54Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Shuang Guo, Zihui Li</p>
-    <p><b>Summary:</b> Multi-Agent Systems (MAS) with large language models (LLMs) enable personalized education but risk leaking minors personally identifiable information (PII) via unstructured dialogue. Existing privacy methods struggle to balance security and utility: role-based access control fails on unstructured text, while naive masking destroys pedagogical context. We propose SRPG, a privacy guard for educational MAS, using a Dual-Stream Reconstruction Mechanism: a strict sanitization stream ensures zero PII leakage, and a context reconstruction stream (LLM driven) recovers mathematical logic. This decouples instructional content from private data, preserving teaching efficacy. Tests on MathDial show SRPG works across models; with GPT-4o, it achieves 0.0000 Attack Success Rate (ASR) (zero leakage) and 0.8267 Exact Match, far outperforming the zero trust Pure LLM baseline (0.2138). SRPG effectively protects minors privacy without sacrificing mathematical instructional quality.</p>
+    <p><b>Authors:</b> Nelly Elsayed</p>
+    <p><b>Summary:</b> AI-driven speech-to-text (STT) documentation systems are increasingly adopted in clinical settings to reduce documentation burden and improve workflow efficiency. However, their rapid deployment has outpaced understanding of the associated socio-technical risks, including transparency, reliability, patient autonomy, workflow alignment, and organizational governance. A clearer analysis of these risks is needed to support safe and equitable integration into healthcare practice. This study synthesizes interdisciplinary evidence from technical performance research, regulatory and ethical standards, clinical workflow analyses, and organizational policy guidance. The synthesis was used to develop a multi-layered socio-technical conceptual framework for evaluating and governing STT systems. Findings show that STT systems operate within tightly coupled socio-technical environments in which model performance, clinician oversight, patient rights, workflow design, and institutional governance are interdependent. The study offers a structured socio-technical governance framework and an implementation roadmap that outlines readiness assessment, vendor evaluation, pilot deployment, clinician training, ongoing monitoring, and iterative improvement. The framework emphasizes safeguards that protect patient autonomy, documentation integrity, and institutional trust while enabling the efficient and beneficial use of STT technologies. This work provides actionable guidance for healthcare organizations seeking to adopt STT systems responsibly and equitably.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03669v1">Towards Privacy-Preserving Range Queries with Secure Learned Spatial Index over Encrypted Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2025-12-03T10:59:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zuan Wang, Juntao Lu, Jiazhuang Wu, Youliang Tian, Wei Song, Qiuxian Li, Duo Zhang</p>
-    <p><b>Summary:</b> With the growing reliance on cloud services for large-scale data management, preserving the security and privacy of outsourced datasets has become increasingly critical. While encrypting data and queries can prevent direct content exposure, recent research reveals that adversaries can still infer sensitive information via access pattern and search path analysis. However, existing solutions that offer strong access pattern privacy often incur substantial performance overhead. In this paper, we propose a novel privacy-preserving range query scheme over encrypted datasets, offering strong security guarantees while maintaining high efficiency. To achieve this, we develop secure learned spatial index (SLS-INDEX), a secure learned index that integrates the Paillier cryptosystem with a hierarchical prediction architecture and noise-injected buckets, enabling data-aware query acceleration in the encrypted domain. To further obfuscate query execution paths, SLS-INDEXbased Range Queries (SLRQ) employs a permutation-based secure bucket prediction protocol. Additionally, we introduce a secure point extraction protocol that generates candidate results to reduce the overhead of secure computation. We provide formal security analysis under realistic leakage functions and implement a prototype to evaluate its practical performance. Extensive experiments on both real-world and synthetic datasets demonstrate that SLRQ significantly outperforms existing solutions in query efficiency while ensuring dataset, query, result, and access pattern privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03358v1">Scaling Trust in Quantum Federated Learning: A Multi-Protocol Privacy Design</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.00372v1">LLM-Powered Analysis of IoT User Reviews: Tracking and Ranking Security and Privacy Concerns</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-03T01:45:48Z</p>
+  <p><b>Published on:</b> 2026-01-01T15:24:21Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Dev Gurung, Shiva Raj Pokhrel</p>
-    <p><b>Summary:</b> Quantum Federated Learning (QFL) promises to revolutionize distributed machine learning by combining the computational power of quantum devices with collaborative model training. Yet, privacy of both data and models remains a critical challenge. In this work, we propose a privacy-preserving QFL framework where a network of $n$ quantum devices trains local models and transmits them to a central server under a multi-layered privacy protocol. Our design leverages Singular Value Decomposition (SVD), Quantum Key Distribution (QKD), and Analytic Quantum Gradient Descent (AQGD) to secure data preparation, model sharing, and training stages. Through theoretical analysis and experiments on contemporary quantum platforms and datasets, we demonstrate that the framework robustly safeguards data and model confidentiality while maintaining training efficiency.</p>
+    <p><b>Authors:</b> Taufiq Islam Protick, Sai Teja Peddinti, Nina Taft, Anupam Das</p>
+    <p><b>Summary:</b> Being able to understand the security and privacy (S&P) concerns of IoT users brings benefits to both developers and users. To learn about users' views, we examine Amazon IoT reviews - one of the biggest IoT markets. This work presents a state-of-the-art methodology to identify and categorize reviews in which users express S&P concerns. We developed an automated pipeline by fine-tuning GPT-3.5-Turbo to build two models: the Classifier-Rationalizer-Categorizer and the Thematic Mapper. By leveraging dynamic few-shot prompting and the model's large context size, our pipeline achieved over 97% precision and recall, significantly outperforming keyword-based and classical ML methods. We applied our pipeline to 91K Amazon reviews about fitness trackers, smart speakers and cameras, over multiple years. We found that on average 5% contained S&P concerns, while security camera exhibited the highest prevalence at 10%. Our method detected significantly more S&P-relevant reviews than prior works: 15x more for fitness trackers, 29% more for smart speakers, and 70% more for cameras. Our longitudinal analysis reveals that concerns like surveillance and data control have persisted for years, suggesting limited industry progress. We demonstrate that across all device types, users consistently demand more precise control over what data is collected and shared. We uncover challenges in multi-user and multi-device interactions, identifying two previously unreported themes concerning inadequate controls for account separation and data access. These findings, ranging from broad persistent trends to specific instances of customer loss, offer actionable insights for developers to improve user satisfaction and trust.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03238v1">How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2025-12-02T21:14:39Z</p>
+  <h3><a href="http://arxiv.org/abs/2601.00337v1">When Does Quantum Differential Privacy Compose?</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-01-01T13:24:09Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Natalia Ponomareva, Zheng Xu, H. Brendan McMahan, Peter Kairouz, Lucas Rosenblatt, Vincent Cohen-Addad, Cristóbal Guzmán, Ryan McKenna, Galen Andrew, Alex Bie, Da Yu, Alex Kurakin, Morteza Zadimoghaddam, Sergei Vassilvitskii, Andreas Terzis</p>
-    <p><b>Summary:</b> High quality data is needed to unlock the full potential of AI for end users. However finding new sources of such data is getting harder: most publicly-available human generated data will soon have been used. Additionally, publicly available data often is not representative of users of a particular system -- for example, a research speech dataset of contractors interacting with an AI assistant will likely be more homogeneous, well articulated and self-censored than real world commands that end users will issue. Therefore unlocking high-quality data grounded in real user interactions is of vital interest. However, the direct use of user data comes with significant privacy risks. Differential Privacy (DP) is a well established framework for reasoning about and limiting information leakage, and is a gold standard for protecting user privacy. The focus of this work, \emph{Differentially Private Synthetic data}, refers to synthetic data that preserves the overall trends of source data,, while providing strong privacy guarantees to individuals that contributed to the source dataset. DP synthetic data can unlock the value of datasets that have previously been inaccessible due to privacy concerns and can replace the use of sensitive datasets that previously have only had rudimentary protections like ad-hoc rule-based anonymization.
-  In this paper we explore the full suite of techniques surrounding DP synthetic data, the types of privacy protections they offer and the state-of-the-art for various modalities (image, tabular, text and decentralized). We outline all the components needed in a system that generates DP synthetic data, from sensitive data handling and preparation, to tracking the use and empirical privacy testing. We hope that work will result in increased adoption of DP synthetic data, spur additional research and increase trust in DP synthetic data approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.03207v1">Technical Report: The Need for a (Research) Sandstorm through the Privacy Sandbox</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-02T20:14:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yohan Beugin, Patrick McDaniel</p>
-    <p><b>Summary:</b> The Privacy Sandbox, launched in 2019, is a series of proposals from Google to reduce ``cross-site and cross-app tracking while helping to keep online content and services free for all''. Over the years, Google implemented, experimented, and deprecated some of these APIs into their own products (Chrome, Android, etc.) which raised concerns about the potential of these mechanisms to fundamentally disrupt the advertising, mobile, and web ecosystems. As a result, it is paramount for researchers to understand the consequences that these new technologies, and future ones, will have on billions of users if and when deployed. In this report, we outline our call for privacy, security, usability, and utility evaluations of these APIs, our efforts materialized through the creation and operation of Privacy Sandstorm (https://privacysandstorm.github.io); a research portal to systematically gather resources (overview, analyses, artifacts, etc.) about such proposals. We find that our inventory provides a better visibility and broader perspective on the research findings in that space than what Google lets show through official channels.</p>
+    <p><b>Authors:</b> Daniel Alabi, Theshani Nuradha</p>
+    <p><b>Summary:</b> Composition is a cornerstone of classical differential privacy, enabling strong end-to-end guarantees for complex algorithms through composition theorems (e.g., basic and advanced). In the quantum setting, however, privacy is defined operationally against arbitrary measurements, and classical composition arguments based on scalar privacy-loss random variables no longer apply. As a result, it has remained unclear when meaningful composition guarantees can be obtained for quantum differential privacy (QDP).
+  In this work, we clarify both the limitations and possibilities of composition in the quantum setting. We first show that classical-style composition fails in full generality for POVM-based approximate QDP: even quantum channels that are individually perfectly private can completely lose privacy when combined through correlated joint implementations. We then identify a setting in which clean composition guarantees can be restored. For tensor-product channels acting on product neighboring inputs, we introduce a quantum moments accountant based on an operator-valued notion of privacy loss and a matrix moment-generating function. Although the resulting Rényi-type divergence does not satisfy a data-processing inequality, we prove that controlling its moments suffices to bound measured Rényi divergence, yielding operational privacy guarantees against arbitrary measurements. This leads to advanced-composition-style bounds with the same leading-order behavior as in the classical theory.
+  Our results demonstrate that meaningful composition theorems for quantum differential privacy require carefully articulated structural assumptions on channels, inputs, and adversarial measurements, and provide a principled framework for understanding which classical ideas do and do not extend to the quantum setting.</p>
   </details>
 </div>
 
