@@ -3019,5 +3019,66 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.10426v2",
+    "title" : "Differential Privacy for Secure Machine Learning in Healthcare IoT-Cloud Systems",
+    "summary" : "Healthcare has become exceptionally sophisticated, as wearables and connected medical devices are revolutionising remote patient monitoring, emergency response, medication management, diagnosis, and predictive and prescriptive analytics. Internet of Things and Cloud computing integrated systems (IoT-Cloud) facilitate sensing, automation, and processing for these healthcare applications. While real-time response is crucial for alleviating patient emergencies, protecting patient privacy is extremely important in data-driven healthcare. In this paper, we propose a multi-layer IoT, Edge and Cloud architecture to enhance the speed of response for emergency healthcare by distributing tasks based on response criticality and permanence of storage. Privacy of patient data is assured by proposing a Differential Privacy framework across several machine learning models such as K-means, Logistic Regression, Random Forest and Naive Bayes. We establish a comprehensive threat model identifying three adversary classes and evaluate Laplace, Gaussian, and hybrid noise mechanisms across varying privacy budgets, with supervised algorithms achieving up to 86% accuracy. The proposed hybrid Laplace-Gaussian noise mechanism with adaptive budget allocation provides a balanced approach, offering moderate tails and better privacy-utility trade-offs for both low and high dimension datasets. At the practical threshold of $\\varepsilon = 5.0$, supervised algorithms achieve 82-84% accuracy while reducing attribute inference attacks by up to 18% and data reconstruction correlation by 70%. Blockchain security further ensures trusted communication through time-stamping, traceability, and immutability for analytics applications. Edge computing demonstrates 8$\\times$ latency reduction for emergency scenarios, validating the hierarchical architecture for time-critical operations.",
+    "updated" : "2026-01-05T12:15:57Z",
+    "published" : "2025-12-11T08:37:37Z",
+    "authors" : [
+      {
+        "name" : "N Mangala"
+      },
+      {
+        "name" : "Murtaza Rangwala"
+      },
+      {
+        "name" : "S Aishwarya"
+      },
+      {
+        "name" : "B Eswara Reddy"
+      },
+      {
+        "name" : "Rajkumar Buyya"
+      },
+      {
+        "name" : "KR Venugopal"
+      },
+      {
+        "name" : "SS Iyengar"
+      },
+      {
+        "name" : "LM Patnaik"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.08096v2",
+    "title" : "Selling Privacy in Blockchain Transactions",
+    "summary" : "We study methods to enhance statistical privacy in blockchain transactions. We analyze economic mechanisms for privacy-aware transaction owners whose utility depends not only on the outcome of the mechanism but also negatively on the exposure of their economic preferences. First, we consider an order flow auction, where a user auctions off to specialized agents, called searchers, the right to execute her transaction while maintaining a degree of privacy. We examine how the degree of privacy affects the revenue of the auction and, broadly, the net utility of the privacy-aware user. In this new setting, we characterize the optimal auction, which is a sealed-bid auction. Subsequently, we analyze a variant of a Dutch auction in which the user gradually decreases the price and the degree of privacy until the transaction is sold. We compare the revenue of this auction to that of the optimal one as a function of the number of communication rounds. Then, we introduce a two-sided market - a privacy marketplace - with multiple users selling their transactions under their privacy preferences to multiple searchers. We propose a posted-price mechanism for the two-sided market that guarantees constant approximation of the optimal social welfare while maintaining incentive compatibility (from both sides of the market) and budget balance. This work builds on the emerging literature on privacy-preserving mechanism design, integrating statistical privacy guarantees into economic protocols to capture the impact of information leakage on blockchain users' utility.",
+    "updated" : "2026-01-05T10:53:33Z",
+    "published" : "2025-12-08T23:13:02Z",
+    "authors" : [
+      {
+        "name" : "Georgios Chionas"
+      },
+      {
+        "name" : "Olga Gorelkina"
+      },
+      {
+        "name" : "Piotr Krysta"
+      },
+      {
+        "name" : "Rida Laraki"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
   }
 ]
