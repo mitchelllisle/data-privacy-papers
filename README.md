@@ -1025,32 +1025,32 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.05729v1">Informed Consent: We Can Do Better to Defend Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-12-05T14:08:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Frederik Zuiderveen Borgesius</p>
-    <p><b>Summary:</b> We need to rethink our approach to defend privacy on the internet. Currently, policymakers focus heavily on the idea of informed consent as a means to defend privacy. For instance, in many countries the law requires firms to obtain an individual's consent before they use data about her; with such informed consent requirements, the law aims to empower people to make privacy choices in their best interests. But behavioural studies cast doubt on this approach's effectiveness, as people tend to click OK to almost any request they see on their screens. To improve privacy protection, this article argues for a combined approach of protecting and empowering the individual. This article discusses practical problems with informed consent as a means to protect privacy, and illustrates the problems with current data privacy rules regarding behavioural targeting. First, the privacy problems of behavioural targeting, and the central role of informed consent in privacy law are discussed. Following that, practical problems with informed consent are highlighted. Then, the article argues that policymakers should give more attention to rules that protect, rather than empower, people.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.05728v1">Open Data, Privacy, and Fair Information Principles: Towards a Balancing Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-12-05T14:08:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Frederik Zuiderveen Borgesius, Jonathan Gray, Mireille van Eechoud</p>
-    <p><b>Summary:</b> Open data are held to contribute to a wide variety of social and political goals, including strengthening transparency, public participation and democratic accountability, promoting economic growth and innovation, and enabling greater public sector efficiency and cost savings. However, releasing government data that contain personal information may threaten privacy and related rights and interests. In this Article we ask how these privacy interests can be respected, without unduly hampering benefits from disclosing public sector information. We propose a balancing framework to help public authorities address this question in different contexts. The framework takes into account different levels of privacy risks for different types of data. It also separates decisions about access and re-use, and highlights a range of different disclosure routes. A circumstance catalogue lists factors that might be considered when assessing whether, under which conditions, and how a dataset can be released. While open data remains an important route for the publication of government information, we conclude that it is not the only route, and there must be clear and robust public interest arguments in order to justify the disclosure of personal information as open data.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.02855v1">Context-aware Privacy Bounds for Linear Queries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-06T09:34:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Heng Zhao, Sara Saeidian, Tobias J. Oechtering</p>
+    <p><b>Summary:</b> Linear queries, as the basis of broad analysis tasks, are often released through privacy mechanisms based on differential privacy (DP), the most popular framework for privacy protection. However, DP adopts a context-free definition that operates independently of the data-generating distribution. In this paper, we revisit the privacy analysis of the Laplace mechanism through the lens of pointwise maximal leakage (PML). We demonstrate that the distribution-agnostic definition of the DP framework often mandates excessive noise. To address this, we incorporate an assumption about the prior distribution by lower-bounding the probability of any single record belonging to any specific class. With this assumption, we derive a tight, context-aware leakage bound for general linear queries, and prove that our derived bound is strictly tighter than the standard DP guarantee and converges to the DP guarantee as this probability lower bound approaches zero. Numerical evaluations demonstrate that by exploiting this prior knowledge, the required noise scale can be reduced while maintaining privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.02720v1">Privacy-Preserving AI-Enabled Decentralized Learning and Employment Records System</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-01-06T05:18:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuqiao Xu, Mina Namazi, Sahith Reddy Jalapally, Osama Zafar, Youngjin Yoo, Erman Ayday</p>
+    <p><b>Summary:</b> Learning and Employment Record (LER) systems are emerging as critical infrastructure for securely compiling and sharing educational and work achievements. Existing blockchain-based platforms leverage verifiable credentials but typically lack automated skill-credential generation and the ability to incorporate unstructured evidence of learning. In this paper,a privacy-preserving, AI-enabled decentralized LER system is proposed to address these gaps. Digitally signed transcripts from educational institutions are accepted, and verifiable self-issued skill credentials are derived inside a trusted execution environment (TEE) by a natural language processing pipeline that analyzes formal records (e.g., transcripts, syllabi) and informal artifacts. All verification and job-skill matching are performed inside the enclave with selective disclosure, so raw credentials and private keys remain enclave-confined. Job matching relies solely on attested skill vectors and is invariant to non-skill resume fields, thereby reducing opportunities for screening bias.The NLP component was evaluated on sample learner data; the mapping follows the validated Syllabus-to-O*NET methodology,and a stability test across repeated runs observed <5% variance in top-ranked skills. Formal security statements and proof sketches are provided showing that derived credentials are unforgeable and that sensitive information remains confidential. The proposed system thus supports secure education and employment credentialing, robust transcript verification,and automated, privacy-preserving skill extraction within a decentralized framework.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.02307v1">Differential Privacy for Transformer Embeddings of Text with Nonparametric Variational Information Bottleneck</a></h3>
