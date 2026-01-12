@@ -794,5 +794,113 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.05789v1",
+    "title" : "SAFE: Secure and Accurate Federated Learning for Privacy-Preserving Brain-Computer Interfaces",
+    "summary" : "Electroencephalogram (EEG)-based brain-computer interfaces (BCIs) are widely adopted due to their efficiency and portability; however, their decoding algorithms still face multiple challenges, including inadequate generalization, adversarial vulnerability, and privacy leakage. This paper proposes Secure and Accurate FEderated learning (SAFE), a federated learning-based approach that protects user privacy by keeping data local during model training. SAFE employs local batch-specific normalization to mitigate cross-subject feature distribution shifts and hence improves model generalization. It further enhances adversarial robustness by introducing perturbations in both the input space and the parameter space through federated adversarial training and adversarial weight perturbation. Experiments on five EEG datasets from motor imagery (MI) and event-related potential (ERP) BCI paradigms demonstrated that SAFE consistently outperformed 14 state-of-the-art approaches in both decoding accuracy and adversarial robustness, while ensuring privacy protection. Notably, it even outperformed centralized training approaches that do not consider privacy protection at all. To our knowledge, SAFE is the first algorithm to simultaneously achieve high decoding accuracy, strong adversarial robustness, and reliable privacy protection without using any calibration data from the target subject, making it highly desirable for real-world BCIs.",
+    "updated" : "2026-01-09T13:29:41Z",
+    "published" : "2026-01-09T13:29:41Z",
+    "authors" : [
+      {
+        "name" : "Tianwang Jia"
+      },
+      {
+        "name" : "Xiaoqing Chen"
+      },
+      {
+        "name" : "Dongrui Wu"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.05635v1",
+    "title" : "Continual Pretraining on Encrypted Synthetic Data for Privacy-Preserving LLMs",
+    "summary" : "Preserving privacy in sensitive data while pretraining large language models on small, domain-specific corpora presents a significant challenge. In this work, we take an exploratory step toward privacy-preserving continual pretraining by proposing an entity-based framework that synthesizes encrypted training data to protect personally identifiable information (PII). Our approach constructs a weighted entity graph to guide data synthesis and applies deterministic encryption to PII entities, enabling LLMs to encode new knowledge through continual pretraining while granting authorized access to sensitive data through decryption keys. Our results on limited-scale datasets demonstrate that our pretrained models outperform base models and ensure PII security, while exhibiting a modest performance gap compared to models trained on unencrypted synthetic data. We further show that increasing the number of entities and leveraging graph-based synthesis improves model performance, and that encrypted models retain instruction-following capabilities with long retrieved contexts. We discuss the security implications and limitations of deterministic encryption, positioning this work as an initial investigation into the design space of encrypted data pretraining for privacy-preserving LLMs. Our code is available at https://github.com/DataArcTech/SoE.",
+    "updated" : "2026-01-09T08:44:07Z",
+    "published" : "2026-01-09T08:44:07Z",
+    "authors" : [
+      {
+        "name" : "Honghao Liu"
+      },
+      {
+        "name" : "Xuhui Jiang"
+      },
+      {
+        "name" : "Chengjin Xu"
+      },
+      {
+        "name" : "Cehao Yang"
+      },
+      {
+        "name" : "Yiran Cheng"
+      },
+      {
+        "name" : "Lionel Ni"
+      },
+      {
+        "name" : "Jian Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.04488v2",
+    "title" : "Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces",
+    "summary" : "The environmental and target-related information inherently carried in wireless signals, such as channel state information (CSI), has brought increasing attention to integrated sensing and communication (ISAC). However, it also raises pressing concerns about privacy leakage through eavesdropping. While existing efforts have attempted to mitigate this issue, they either fail to account for the needs of legitimate communication and sensing users or rely on hardware with high complexity and cost. To overcome these limitations, we propose PrivISAC, a plug-and-play, low-cost solution that leverages RIS to protect user privacy while preserving ISAC performance. At the core of PrivISAC is a novel strategy in which each RIS row is assigned two distinct beamforming vectors, from which we deliberately construct a limited set of RIS configurations. During operation, exactly one configuration is randomly activated at each time slot to introduce additional perturbations, effectively masking sensitive sensing information from unauthorized eavesdroppers. To jointly ensure privacy protection and communication performance, we design the two vectors such that their responses remain nearly identical in the communication direction, thereby preserving stable, high-throughput transmission, while exhibiting pronounced differences in the sensing direction, which introduces sufficient perturbations to thwart eavesdroppers. Additionally, to enable legitimate sensing under such randomized configurations, we introduce a time-domain masking and demasking method that allows the authorized receiver to associate each CSI sample with its underlying configuration and eliminate configuration-induced discrepancies, thereby recovering valid CSI. We implement PrivISAC on commodity wireless devices and experiment results show that PrivISAC provides strong privacy protection while preserving high-quality legitimate ISAC.",
+    "updated" : "2026-01-09T09:19:48Z",
+    "published" : "2026-01-08T01:47:51Z",
+    "authors" : [
+      {
+        "name" : "Yinghui He"
+      },
+      {
+        "name" : "Long Fan"
+      },
+      {
+        "name" : "Lei Xie"
+      },
+      {
+        "name" : "Dusit Niyato"
+      },
+      {
+        "name" : "Chau Yuen"
+      },
+      {
+        "name" : "Jun Luo"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.03508v2",
+    "title" : "A Critical Analysis of the Medibank Health Data Breach and Differential Privacy Solutions",
+    "summary" : "This paper critically examines the 2022 Medibank health insurance data breach, which exposed sensitive medical records of 9.7 million individuals due to unencrypted storage, centralized access, and the absence of privacy-preserving analytics. To address these vulnerabilities, we propose an entropy-aware differential privacy (DP) framework that integrates Laplace and Gaussian mechanisms with adaptive budget allocation. The design incorporates TLS-encrypted database access, field-level mechanism selection, and smooth sensitivity models to mitigate re-identification risks. Experimental validation was conducted using synthetic Medibank datasets (N = 131,000) with entropy-calibrated DP mechanisms, where high-entropy attributes received stronger noise injection. Results demonstrate a 90.3% reduction in re-identification probability while maintaining analytical utility loss below 24%. The framework further aligns with GDPR Article 32 and Australian Privacy Principle 11.1, ensuring regulatory compliance. By combining rigorous privacy guarantees with practical usability, this work contributes a scalable and technically feasible solution for healthcare data protection, offering a pathway toward resilient, trustworthy, and regulation-ready medical analytics.",
+    "updated" : "2026-01-09T01:46:36Z",
+    "published" : "2026-01-07T01:42:36Z",
+    "authors" : [
+      {
+        "name" : "Zhuohan Cui"
+      },
+      {
+        "name" : "Qianqian Lang"
+      },
+      {
+        "name" : "Zikun Song"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
