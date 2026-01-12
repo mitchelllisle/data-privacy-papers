@@ -817,32 +817,32 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.08310v1">Privacy-Preserving Identifier Checking in 5G</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-09T07:17:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marcel D. S. K. Gräfenstein, Stefan Köpsell, Maryam Zarezadeh</p>
-    <p><b>Summary:</b> Device identifiers like the International Mobile Equipment Identity (IMEI) are crucial for ensuring device integrity and meeting regulations in 4G and 5G networks. However, sharing these identifiers with Mobile Network Operators (MNOs) brings significant privacy risks by enabling long-term tracking and linking of user activities across sessions. In this work, we propose a privacy-preserving identifier checking method in 5G. This paper introduces a protocol for verifying device identifiers without exposing them to the network while maintaining the same functions as the 3GPP-defined Equipment Identity Register (EIR) process. The proposed solution modifies the PEPSI protocol for a Private Set Membership (PSM) setting using the BFV homomorphic encryption scheme. This lets User Equipment (UE) prove that its identifier is not on an operator's blacklist or greylist while ensuring that the MNO only learns the outcome of the verification. The protocol allows controlled deanonymization through an authorized Law Enforcement (LE) hook, striking a balance between privacy and accountability. Implementation results show that the system can perform online verification within five seconds and requires about 15 to 16 MB of communication per session. This confirms its practical use under post-quantum security standards. The findings highlight the promise of homomorphic encryption for managing identifiers while preserving privacy in 5G, laying the groundwork for scalable and compliant verification systems in future 6G networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.08263v1">Geometry-Aligned Differential Privacy for Location-Safe Federated Radio Map Construction</a></h3>
-  
-  <p><b>Published on:</b> 2025-12-09T05:40:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jijia Tian, Wangqian Chen, Junting Chen, Pooi-Yuen Kam</p>
-    <p><b>Summary:</b> Radio maps that describe spatial variations in wireless signal strength are widely used to optimize networks and support aerial platforms. Their construction requires location-labeled signal measurements from distributed users, raising fundamental concerns about location privacy. Even when raw data are kept local, the shared model updates can reveal user locations through their spatial structure, while naive noise injection either fails to hide this leakage or degrades model accuracy. This work analyzes how location leakage arises from gradients in a virtual-environment radio map model and proposes a geometry-aligned differential privacy mechanism with heterogeneous noise tailored to both confuse localization and cover gradient spatial patterns. The approach is theoretically supported with a convergence guarantee linking privacy strength to learning accuracy. Numerical experiments show the approach increases attacker localization error from 30 m to over 180 m, with only 0.2 dB increase in radio map construction error compared to a uniform-noise baseline.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.05789v1">SAFE: Secure and Accurate Federated Learning for Privacy-Preserving Brain-Computer Interfaces</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-01-09T13:29:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianwang Jia, Xiaoqing Chen, Dongrui Wu</p>
+    <p><b>Summary:</b> Electroencephalogram (EEG)-based brain-computer interfaces (BCIs) are widely adopted due to their efficiency and portability; however, their decoding algorithms still face multiple challenges, including inadequate generalization, adversarial vulnerability, and privacy leakage. This paper proposes Secure and Accurate FEderated learning (SAFE), a federated learning-based approach that protects user privacy by keeping data local during model training. SAFE employs local batch-specific normalization to mitigate cross-subject feature distribution shifts and hence improves model generalization. It further enhances adversarial robustness by introducing perturbations in both the input space and the parameter space through federated adversarial training and adversarial weight perturbation. Experiments on five EEG datasets from motor imagery (MI) and event-related potential (ERP) BCI paradigms demonstrated that SAFE consistently outperformed 14 state-of-the-art approaches in both decoding accuracy and adversarial robustness, while ensuring privacy protection. Notably, it even outperformed centralized training approaches that do not consider privacy protection at all. To our knowledge, SAFE is the first algorithm to simultaneously achieve high decoding accuracy, strong adversarial robustness, and reliable privacy protection without using any calibration data from the target subject, making it highly desirable for real-world BCIs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.05635v1">Continual Pretraining on Encrypted Synthetic Data for Privacy-Preserving LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-01-09T08:44:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Honghao Liu, Xuhui Jiang, Chengjin Xu, Cehao Yang, Yiran Cheng, Lionel Ni, Jian Guo</p>
+    <p><b>Summary:</b> Preserving privacy in sensitive data while pretraining large language models on small, domain-specific corpora presents a significant challenge. In this work, we take an exploratory step toward privacy-preserving continual pretraining by proposing an entity-based framework that synthesizes encrypted training data to protect personally identifiable information (PII). Our approach constructs a weighted entity graph to guide data synthesis and applies deterministic encryption to PII entities, enabling LLMs to encode new knowledge through continual pretraining while granting authorized access to sensitive data through decryption keys. Our results on limited-scale datasets demonstrate that our pretrained models outperform base models and ensure PII security, while exhibiting a modest performance gap compared to models trained on unencrypted synthetic data. We further show that increasing the number of entities and leveraging graph-based synthesis improves model performance, and that encrypted models retain instruction-following capabilities with long retrieved contexts. We discuss the security implications and limitations of deterministic encryption, positioning this work as an initial investigation into the design space of encrypted data pretraining for privacy-preserving LLMs. Our code is available at https://github.com/DataArcTech/SoE.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.05180v1">The Adverse Effects of Omitting Records in Differential Privacy: How Sampling and Suppression Degrade the Privacy-Utility Tradeoff (Long Version)</a></h3>
@@ -894,7 +894,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.04488v1">Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.04488v2">Invisible Walls: Privacy-Preserving ISAC Empowered by Reconfigurable Intelligent Surfaces</a></h3>
   
   <p><b>Published on:</b> 2026-01-08T01:47:51Z</p>
   <details>
@@ -1002,7 +1002,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.03508v1">A Critical Analysis of the Medibank Health Data Breach and Differential Privacy Solutions</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.03508v2">A Critical Analysis of the Medibank Health Data Breach and Differential Privacy Solutions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-01-07T01:42:36Z</p>
   <details>
