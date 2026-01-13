@@ -902,5 +902,394 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.07608v1",
+    "title" : "Recursive Binary Identification with Differential Privacy and Data Tampering Attacks",
+    "summary" : "In this paper, we consider the parameter estimation in a bandwidth-constrained sensor network communicating through an insecure medium. The sensor performs a local quantization, and transmits a 1-bit message to an estimation center through a wireless medium where the transmission of information is vulnerable to attackers. Both eavesdroppers and data tampering attackers are considered in our setting. A differential privacy method is used to protect the sensitive information against eavesdroppers. Then, a recursive projection algorithm is proposed such that the estimation center achieves the almost sure convergence and mean-square convergence when quantized measurements, differential privacy, and data tampering attacks are considered in a uniform framework. A privacy analysis including the convergence rate with privacy or without privacy is given. Further, we extend the problem to multi-agent systems. For this case, a distributed recursive projection algorithm is proposed with guaranteed almost sure and mean square convergence. A simulation example is provided to illustrate the effectiveness of the proposed algorithms.",
+    "updated" : "2026-01-12T14:58:10Z",
+    "published" : "2026-01-12T14:58:10Z",
+    "authors" : [
+      {
+        "name" : "Jimin Wang"
+      },
+      {
+        "name" : "Jieming Ke"
+      },
+      {
+        "name" : "Jin Guo"
+      },
+      {
+        "name" : "Yanlong Zhao"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.07523v1",
+    "title" : "Sparse Point-wise Privacy Leakage: Mechanism Design and Fundamental Limits",
+    "summary" : "We study an information-theoretic privacy mechanism design problem, where an agent observes useful data $Y$ that is arbitrarily correlated with sensitive data $X$, and design disclosed data $U$ generated from $Y$ (the agent has no direct access to $X$). We introduce \\emph{sparse point-wise privacy leakage}, a worst-case privacy criterion that enforces two simultaneous constraints for every disclosed symbol $u\\in\\mathcal{U}$: (i) $u$ may be correlated with at most $N$ realizations of $X$, and (ii) the total leakage toward those realizations is bounded. In the high-privacy regime, we use concepts from information geometry to obtain a local quadratic approximation of mutual information which measures utility between $U$ and $Y$. When the leakage matrix $P_{X|Y}$ is invertible, this approximation reduces the design problem to a sparse quadratic maximization, known as the Rayleigh-quotient problem, with an $\\ell_0$ constraint. We further show that, for the approximated problem, one can without loss of optimality restrict attention to a binary released variable $U$ with a uniform distribution. For small alphabet sizes, the exact sparsity-constrained optimum can be computed via combinatorial support enumeration, which quickly becomes intractable as the dimension grows. For general dimensions, the resulting sparse Rayleigh-quotient maximization is NP-hard and closely related to sparse principal component analysis (PCA). We propose a convex semidefinite programming (SDP) relaxation that is solvable in polynomial time and provides a tractable surrogate for the NP-hard design, together with a simple rounding procedure to recover a feasible leakage direction. We also identify a sparsity threshold beyond which the sparse optimum saturates at the unconstrained spectral value and the SDP relaxation becomes tight.",
+    "updated" : "2026-01-12T13:25:14Z",
+    "published" : "2026-01-12T13:25:14Z",
+    "authors" : [
+      {
+        "name" : "Amirreza Zamani"
+      },
+      {
+        "name" : "Sajad Daei"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.07134v1",
+    "title" : "Proof of Reasoning for Privacy Enhanced Federated Blockchain Learning at the Edge",
+    "summary" : "Consensus mechanisms are the core of any blockchain system. However, the majority of these mechanisms do not target federated learning directly nor do they aid in the aggregation step. This paper introduces Proof of Reasoning (PoR), a novel consensus mechanism specifically designed for federated learning using blockchain, aimed at preserving data privacy, defending against malicious attacks, and enhancing the validation of participating networks. Unlike generic blockchain consensus mechanisms commonly found in the literature, PoR integrates three distinct processes tailored for federated learning. Firstly, a masked autoencoder (MAE) is trained to generate an encoder that functions as a feature map and obfuscates input data, rendering it resistant to human reconstruction and model inversion attacks. Secondly, a downstream classifier is trained at the edge, receiving input from the trained encoder. The downstream network's weights, a single encoded datapoint, the network's output and the ground truth are then added to a block for federated aggregation. Lastly, this data facilitates the aggregation of all participating networks, enabling more complex and verifiable aggregation methods than previously possible. This three-stage process results in more robust networks with significantly reduced computational complexity, maintaining high accuracy by training only the downstream classifier at the edge. PoR scales to large IoT networks with low latency and storage growth, and adapts to evolving data, regulations, and network conditions.",
+    "updated" : "2026-01-12T01:57:17Z",
+    "published" : "2026-01-12T01:57:17Z",
+    "authors" : [
+      {
+        "name" : "James Calo"
+      },
+      {
+        "name" : "Benny Lo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06742v1",
+    "title" : "Federated Continual Learning for Privacy-Preserving Hospital Imaging Classification",
+    "summary" : "Deep learning models for radiology interpretation increasingly rely on multi-institutional data, yet privacy regulations and distribution shift across hospitals limit central data pooling. Federated learning (FL) allows hospitals to collaboratively train models without sharing raw images, but current FL algorithms typically assume a static data distribution. In practice, hospitals experience continual evolution in case mix, annotation protocols, and imaging devices, which leads to catastrophic forgetting when models are updated sequentially. Federated continual learning (FCL) aims to reconcile these challenges but existing methods either ignore the stringent privacy constraints of healthcare or rely on replay buffers and public surrogate datasets that are difficult to justify in clinical settings. We study FCL for chest radiography classification in a setting where hospitals are clients that receive temporally evolving streams of cases and labels. We introduce DP-FedEPC (Differentially Private Federated Elastic Prototype Consolidation), a method that combines elastic weight consolidation (EWC), prototype-based rehearsal, and client-side differential privacy within a standard FedAvg framework. EWC constrains updates along parameters deemed important for previous tasks, while a memory of latent prototypes preserves class structure without storing raw images. Differentially private stochastic gradient descent (DP-SGD) at each client adds calibrated Gaussian noise to clipped gradients, providing formal privacy guarantees for individual radiographs.",
+    "updated" : "2026-01-11T01:28:34Z",
+    "published" : "2026-01-11T01:28:34Z",
+    "authors" : [
+      {
+        "name" : "Anay Sinhal"
+      },
+      {
+        "name" : "Arpana Sinhal"
+      },
+      {
+        "name" : "Amit Sinhal"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06710v1",
+    "title" : "Privacy-Preserving Data Processing in Cloud : From Homomorphic Encryption to Federated Analytics",
+    "summary" : "Privacy-preserving data processing refers to the methods and models that allow computing and analyzing sensitive data with a guarantee of confidentiality. As cloud computing and applications that rely on data continue to expand, there is an increasing need to protect personal, financial and healthcare information. Conventional centralized data processing methods expose sensitive data to risk of breaches, compelling the need to use decentralized and secure data methods. This paper gives a detailed review of privacy-saving mechanisms in the cloud platform, such as statistical approaches like differential privacy and cryptographic solutions like homomorphic encryption. Federated analytics and federated learning, two distributed learning frameworks, are also discussed. Their principles, applications, benefits, and limitations are reviewed, with roles of use in the fields of healthcare, finance, IoT, and industrial cases. Comparative analyses measure trade-offs in security, efficiency, scalability, and accuracy, and investigations are done of emerging hybrid frameworks to provide better privacy protection. Critical issues, including computational overhead, privacy-utility trade-offs, standardization, adversarial threats, and cloud integration are also addressed. This review examines in detail the recent privacy-protecting approaches in cloud computation and offers scholars and practitioners crucial information on secure and effective solutions to data processing.",
+    "updated" : "2026-01-10T22:33:48Z",
+    "published" : "2026-01-10T22:33:48Z",
+    "authors" : [
+      {
+        "name" : "Gaurav Sarraf"
+      },
+      {
+        "name" : "Vibhor Pal"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06699v1",
+    "title" : "Incentive Mechanism Design for Privacy-Preserving Decentralized Blockchain Relayers",
+    "summary" : "Public blockchains, though renowned for their transparency and immutability, suffer from significant privacy concerns. Network-level analysis and long-term observation of publicly available transactions can often be used to infer user identities. To mitigate this, several blockchain applications rely on relayers, which serve as intermediary nodes between users and smart contracts deployed on the blockchain. However, dependence on a single relayer not only creates a single point of failure but also introduces exploitable vulnerabilities that weaken the system's privacy guarantees. This paper proposes a decentralized relayer architecture that enhances privacy and reliability through game-theoretic incentive design. We model the interaction among relayers as a non-cooperative game and design an incentive mechanism in which probabilistic uploading emerges as a unique mixed Nash equilibrium. Using evolutionary game analysis, we demonstrate the equilibrium's stability against perturbations and coordinated deviations. Through numerical evaluations, we analyze how equilibrium strategies and system behavior evolve with key parameters such as the number of relayers, upload costs, rewards, and penalties. In particular, we show that even with high transaction costs, the system maintains reliability with an outage probability below 0.05 . Furthermore, our results highlight a fundamental trade-off between privacy, reliability, robustness, and cost in decentralized relayer systems.",
+    "updated" : "2026-01-10T21:49:32Z",
+    "published" : "2026-01-10T21:49:32Z",
+    "authors" : [
+      {
+        "name" : "Boutaina Jebari"
+      },
+      {
+        "name" : "Khalil Ibrahimi"
+      },
+      {
+        "name" : "Hamidou Tembine"
+      },
+      {
+        "name" : "Mounir Ghogho"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06641v1",
+    "title" : "Leveraging Soft Prompts for Privacy Attacks in Federated Prompt Tuning",
+    "summary" : "Membership inference attack (MIA) poses a significant privacy threat in federated learning (FL) as it allows adversaries to determine whether a client's private dataset contains a specific data sample. While defenses against membership inference attacks in standard FL have been well studied, the recent shift toward federated fine-tuning has introduced new, largely unexplored attack surfaces. To highlight this vulnerability in the emerging FL paradigm, we demonstrate that federated prompt-tuning, which adapts pre-trained models with small input prefixes to improve efficiency, also exposes a new vector for privacy attacks. We propose PromptMIA, a membership inference attack tailored to federated prompt-tuning, in which a malicious server can insert adversarially crafted prompts and monitors their updates during collaborative training to accurately determine whether a target data point is in a client's private dataset. We formalize this threat as a security game and empirically show that PromptMIA consistently attains high advantage in this game across diverse benchmark datasets. Our theoretical analysis further establishes a lower bound on the attack's advantage which explains and supports the consistently high advantage observed in our empirical results. We also investigate the effectiveness of standard membership inference defenses originally developed for gradient or output based attacks and analyze their interaction with the distinct threat landscape posed by PromptMIA. The results highlight non-trivial challenges for current defenses and offer insights into their limitations, underscoring the need for defense strategies that are specifically tailored to prompt-tuning in federated settings.",
+    "updated" : "2026-01-10T17:50:05Z",
+    "published" : "2026-01-10T17:50:05Z",
+    "authors" : [
+      {
+        "name" : "Quan Minh Nguyen"
+      },
+      {
+        "name" : "Min-Seon Kim"
+      },
+      {
+        "name" : "Hoang M. Ngo"
+      },
+      {
+        "name" : "Trong Nghia Hoang"
+      },
+      {
+        "name" : "Hyuk-Yoon Kwon"
+      },
+      {
+        "name" : "My T. Thai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06612v1",
+    "title" : "Cross-Border Data Security and Privacy Risks in Large Language Models and IoT Systems",
+    "summary" : "The reliance of Large Language Models and Internet of Things systems on massive, globally distributed data flows creates systemic security and privacy challenges. When data traverses borders, it becomes subject to conflicting legal regimes, such as the EU's General Data Protection Regulation and China's Personal Information Protection Law, compounded by technical vulnerabilities like model memorization. Current static encryption and data localization methods are fragmented and reactive, failing to provide adequate, policy-aligned safeguards. This research proposes a Jurisdiction-Aware, Privacy-by-Design architecture that dynamically integrates localized encryption, adaptive differential privacy, and real-time compliance assertion via cryptographic proofs. Empirical validation in a multi-jurisdictional simulation demonstrates this architecture reduced unauthorized data exposure to below five percent and achieved zero compliance violations. These security gains were realized while maintaining model utility retention above ninety percent and limiting computational overhead. This establishes that proactive, integrated controls are feasible for secure and globally compliant AI deployment.",
+    "updated" : "2026-01-10T16:21:56Z",
+    "published" : "2026-01-10T16:21:56Z",
+    "authors" : [
+      {
+        "name" : "Chalitha Handapangoda"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06471v1",
+    "title" : "PRISP: Privacy-Safe Few-Shot Personalization via Lightweight Adaptation",
+    "summary" : "Large language model (LLM) personalization aims to adapt general-purpose models to individual users. Most existing methods, however, are developed under data-rich and resource-abundant settings, often incurring privacy risks. In contrast, realistic personalization typically occurs after deployment under (i) extremely limited user data, (ii) constrained computational resources, and (iii) strict privacy requirements. We propose PRISP, a lightweight and privacy-safe personalization framework tailored to these constraints. PRISP leverages a Text-to-LoRA hypernetwork to generate task-aware LoRA parameters from task descriptions, and enables efficient user personalization by optimizing a small subset of task-aware LoRA parameters together with minimal additional modules using few-shot user data. Experiments on a few-shot variant of the LaMP benchmark demonstrate that PRISP achieves strong overall performance compared to prior approaches, while reducing computational overhead and eliminating privacy risks.",
+    "updated" : "2026-01-10T07:34:28Z",
+    "published" : "2026-01-10T07:34:28Z",
+    "authors" : [
+      {
+        "name" : "Junho Park"
+      },
+      {
+        "name" : "Dohoon Kim"
+      },
+      {
+        "name" : "Taesup Moon"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06466v1",
+    "title" : "SecureDyn-FL: A Robust Privacy-Preserving Federated Learning Framework for Intrusion Detection in IoT Networks",
+    "summary" : "The rapid proliferation of Internet of Things (IoT) devices across domains such as smart homes, industrial control systems, and healthcare networks has significantly expanded the attack surface for cyber threats, including botnet-driven distributed denial-of-service (DDoS), malware injection, and data exfiltration. Conventional intrusion detec- tion systems (IDS) face critical challenges like privacy, scala- bility, and robustness when applied in such heterogeneous IoT environments. To address these issues, we propose SecureDyn- FL, a comprehensive and robust privacy-preserving federated learning (FL) framework tailored for intrusion detection in IoT networks. SecureDyn-FL is designed to simultaneously address multiple security dimensions in FL-based IDS: (1) poisoning detection through dynamic temporal gradient auditing, (2) privacy protection against inference and eavesdrop- ping attacks through secure aggregation, and (3) adaptation to heterogeneous non-IID data via personalized learning. The framework introduces three core contributions: (i) a dynamic temporal gradient auditing mechanism that leverages Gaussian mixture models (GMMs) and Mahalanobis distance (MD) to detect stealthy and adaptive poisoning attacks, (ii) an optimized privacy-preserving aggregation scheme based on transformed additive ElGamal encryption with adaptive pruning and quantization for secure and efficient communication, and (iii) a dual-objective personalized learning strategy that improves model adaptation under non-IID data using logit-adjusted loss. Extensive experiments on the N-BaIoT dataset under both IID and non-IID settings, including scenarios with up to 50% adversarial clients, demonstrate that SecureDyn- FL consistently outperforms state-of-the-art FL-based IDS defenses.",
+    "updated" : "2026-01-10T07:23:49Z",
+    "published" : "2026-01-10T07:23:49Z",
+    "authors" : [
+      {
+        "name" : "Imtiaz Ali Soomro"
+      },
+      {
+        "name" : "Hamood Ur Rehman"
+      },
+      {
+        "name" : "S. Jawad Hussain ID"
+      },
+      {
+        "name" : "Adeel Iqbal"
+      },
+      {
+        "name" : "Waqas Khalid"
+      },
+      {
+        "name" : "Heejung Yu ID"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06385v1",
+    "title" : "Noise Reduction for Pufferfish Privacy: A Practical Noise Calibration Method",
+    "summary" : "This paper introduces a relaxed noise calibration method to enhance data utility while attaining pufferfish privacy. This work builds on the existing $1$-Wasserstein (Kantorovich) mechanism by alleviating the existing overly strict condition that leads to excessive noise, and proposes a practical mechanism design algorithm as a general solution. We prove that a strict noise reduction by our approach always exists compared to $1$-Wasserstein mechanism for all privacy budgets $ε$ and prior beliefs, and the noise reduction (also represents improvement on data utility) gains increase significantly for low privacy budget situations--which are commonly seen in real-world deployments. We also analyze the variation and optimality of the noise reduction with different prior distributions. Moreover, all the properties of the noise reduction still exist in the worst-case $1$-Wasserstein mechanism we introduced, when the additive noise is largest. We further show that the worst-case $1$-Wasserstein mechanism is equivalent to the $\\ell_1$-sensitivity method. Experimental results on three real-world datasets demonstrate $47\\%$ to $87\\%$ improvement in data utility.",
+    "updated" : "2026-01-10T02:01:45Z",
+    "published" : "2026-01-10T02:01:45Z",
+    "authors" : [
+      {
+        "name" : "Wenjin Yang"
+      },
+      {
+        "name" : "Ni Ding"
+      },
+      {
+        "name" : "Zijian Zhang"
+      },
+      {
+        "name" : "Jing Sun"
+      },
+      {
+        "name" : "Zhen Li"
+      },
+      {
+        "name" : "Yan Wu"
+      },
+      {
+        "name" : "Jiahang Sun"
+      },
+      {
+        "name" : "Haotian Lin"
+      },
+      {
+        "name" : "Yong Liu"
+      },
+      {
+        "name" : "Jincheng An"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06357v1",
+    "title" : "Smart Privacy Policy Assistant: An LLM-Powered System for Transparent and Actionable Privacy Notices",
+    "summary" : "Most users agree to online privacy policies without reading or understanding them, even though these documents govern how personal data is collected, shared, and monetized. Privacy policies are typically long, legally complex, and difficult for non-experts to interpret. This paper presents the Smart Privacy Policy Assistant, an LLM-powered system that automatically ingests privacy policies, extracts and categorizes key clauses, assigns human-interpretable risk levels, and generates clear, concise explanations. The system is designed for real-time use through browser extensions or mobile interfaces, surfacing contextual warnings before users disclose sensitive information or grant risky permissions. We describe the end-to-end pipeline, including policy ingestion, clause categorization, risk scoring, and explanation generation, and propose an evaluation framework based on clause-level accuracy, policy-level risk agreement, and user comprehension.",
+    "updated" : "2026-01-09T23:42:59Z",
+    "published" : "2026-01-09T23:42:59Z",
+    "authors" : [
+      {
+        "name" : "Sriharshini Kalvakuntla"
+      },
+      {
+        "name" : "Luoxi Tang"
+      },
+      {
+        "name" : "Yuqiao Meng"
+      },
+      {
+        "name" : "Zhaohan Xi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06276v1",
+    "title" : "Automated Generation of Accurate Privacy Captions From Android Source Code Using Large Language Models",
+    "summary" : "Privacy captions are short sentences that succinctly describe what personal information is used, how it is used, and why, within an app. These captions can be utilized in various notice formats, such as privacy policies, app rationales, and app store descriptions. However, inaccurate captions may mislead users and expose developers to regulatory fines. Existing approaches to generating privacy notices or just privacy captions include using questionnaires, templates, static analysis, or machine learning. However, these approaches either rely heavily on developers' inputs and thus strain their efforts, use limited source code context, leading to the incomplete capture of app privacy behaviors, or depend on potentially inaccurate privacy policies as a source for creating notices. In this work, we address these limitations by developing Privacy Caption Generator (PCapGen), an approach that - i) automatically identifies and extracts large and precise source code context that implements privacy behaviors in an app, ii) uses a Large Language Model (LLM) to describe coarse- and fine-grained privacy behaviors, and iii) generates accurate, concise, and complete privacy captions to describe the privacy behaviors of the app. Our evaluation shows PCapGen generates concise, complete, and accurate privacy captions as compared to the baseline approach. Furthermore, privacy experts choose PCapGen captions at least 71\\% of the time, whereas LLMs-as-judge prefer PCapGen captions at least 76\\% of the time, indicating strong performance of our approach.",
+    "updated" : "2026-01-09T19:41:28Z",
+    "published" : "2026-01-09T19:41:28Z",
+    "authors" : [
+      {
+        "name" : "Vijayanta Jain"
+      },
+      {
+        "name" : "Sepideh Ghanavati"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Collin McMillan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.05635v2",
+    "title" : "Continual Pretraining on Encrypted Synthetic Data for Privacy-Preserving LLMs",
+    "summary" : "Preserving privacy in sensitive data while pretraining large language models on small, domain-specific corpora presents a significant challenge. In this work, we take an exploratory step toward privacy-preserving continual pretraining by proposing an entity-based framework that synthesizes encrypted training data to protect personally identifiable information (PII). Our approach constructs a weighted entity graph to guide data synthesis and applies deterministic encryption to PII entities, enabling LLMs to encode new knowledge through continual pretraining while granting authorized access to sensitive data through decryption keys. Our results on limited-scale datasets demonstrate that our pretrained models outperform base models and ensure PII security, while exhibiting a modest performance gap compared to models trained on unencrypted synthetic data. We further show that increasing the number of entities and leveraging graph-based synthesis improves model performance, and that encrypted models retain instruction-following capabilities with long retrieved contexts. We discuss the security implications and limitations of deterministic encryption, positioning this work as an initial investigation into the design space of encrypted data pretraining for privacy-preserving LLMs. Our code is available at https://github.com/DataArcTech/SoE.",
+    "updated" : "2026-01-12T04:33:16Z",
+    "published" : "2026-01-09T08:44:07Z",
+    "authors" : [
+      {
+        "name" : "Honghao Liu"
+      },
+      {
+        "name" : "Xuhui Jiang"
+      },
+      {
+        "name" : "Chengjin Xu"
+      },
+      {
+        "name" : "Cehao Yang"
+      },
+      {
+        "name" : "Yiran Cheng"
+      },
+      {
+        "name" : "Lionel Ni"
+      },
+      {
+        "name" : "Jian Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06200v1",
+    "title" : "Leveraging Membership Inference Attacks for Privacy Measurement in Federated Learning for Remote Sensing Images",
+    "summary" : "Federated Learning (FL) enables collaborative model training while keeping training data localized, allowing us to preserve privacy in various domains including remote sensing. However, recent studies show that FL models may still leak sensitive information through their outputs, motivating the need for rigorous privacy evaluation. In this paper, we leverage membership inference attacks (MIA) as a quantitative privacy measurement framework for FL applied to remote sensing image classification. We evaluate multiple black-box MIA techniques, including entropy-based attacks, modified entropy attacks, and the likelihood ratio attack, across different FL algorithms and communication strategies. Experiments conducted on two public scene classification datasets demonstrate that MIA effectively reveals privacy leakage not captured by accuracy alone. Our results show that communication-efficient FL strategies reduce MIA success rates while maintaining competitive performance. These findings confirm MIA as a practical metric and highlight the importance of integrating privacy measurement into FL system design for remote sensing applications.",
+    "updated" : "2026-01-08T08:58:33Z",
+    "published" : "2026-01-08T08:58:33Z",
+    "authors" : [
+      {
+        "name" : "Anh-Kiet Duong"
+      },
+      {
+        "name" : "Petra Gomez-Krämer"
+      },
+      {
+        "name" : "Hoàng-Ân Lê"
+      },
+      {
+        "name" : "Minh-Tan Pham"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
   }
 ]
