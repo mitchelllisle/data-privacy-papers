@@ -609,44 +609,44 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.14746v1">BLINDSPOT: Enabling Bystander-Controlled Privacy Signaling for Camera-Enabled Devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2025-12-12T19:12:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jad Al Aaraj, Athina Markopoulou</p>
-    <p><b>Summary:</b> Camera-equipped mobile devices, such as phones, smart glasses, and AR headsets, pose a privacy challenge for bystanders, who currently lack effective real-time mechanisms to control the capture of their picture, video, including their face. We present BlindSpot, an on-device system that enables bystanders to manage their own privacy by signaling their privacy preferences in real-time without previously sharing any sensitive information. Our main contribution is the design and comparative evaluation of three distinct signaling modalities: a hand gesture mechanism, a significantly improved visible light communication (VLC) protocol, and a novel ultra-wideband (UWB) communication protocol. For all these modalities, we also design a validation mechanism that uses geometric consistency checks to verify the origin of a signal relative to the sending bystander, and defend against impersonation attacks. We implement the complete system (BlindSpot) on a commodity smartphone and conduct a comprehensive evaluation of each modality's accuracy and latency across various distances, lighting conditions, and user movements. Our results demonstrate the feasibility of these novel bystander signaling techniques and their trade-offs in terms of system performance and convenience.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.11482v1">Towards Privacy-Preserving Code Generation: Differentially Private Code Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-12T11:31:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Melih Catal, Pooja Rani, Harald C. Gall</p>
-    <p><b>Summary:</b> Large language models specialized for code (CodeLLMs) have demonstrated remarkable capabilities in generating code snippets, documentation, and test cases. However, despite their promising capabilities, CodeLLMs can inadvertently memorize and reproduce snippets from their training data, which poses risks of privacy breaches and intellectual property violations. These risks restrict the deployment of CodeLLMs in sensitive domains and limit their training datasets to publicly available sources. To mitigate the memorization risk without compromising their task performance, we apply Differential Privacy (DP) to CodeLLMs. To the best of our knowledge, this is the first comprehensive study that systematically evaluates the effectiveness of DP in CodeLLMs. DP adds calibrated noise to the training process to protect individual data points while still allowing the model to learn useful patterns. To this end, we first identify and understand the driving reasons of the memorization behaviour of the CodeLLMs during their fine-tuning. Then, to address this issue, we empirically evaluate the effect of DP on mitigating memorization while preserving code generation capabilities. Our findings show that DP substantially reduces memorization in CodeLLMs across all the tested snippet types. The snippet types most prone to memorization are also the most effectively mitigated by DP. Furthermore, we observe that DP slightly increases perplexity but preserves, and can even enhance, the code generation capabilities of CodeLLMs, which makes it feasible to apply DP in practice without significantly compromising model utility. Finally, we analyze the impact of DP on training efficiency and energy consumption, finding that DP does not significantly affect training time or energy usage, making it a practical choice for privacy-preserving CodeLLMs training.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.15759v1">Semantic-Constrained Federated Aggregation: Convergence Theory and Privacy-Utility Bounds for Knowledge-Enhanced Distributed Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-12-12T04:29:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jahidul Arafat</p>
-    <p><b>Summary:</b> Federated learning enables collaborative model training across distributed data sources but suffers from slow convergence under non-IID data conditions. Existing solutions employ algorithmic modifications treating all client updates identically, ignoring semantic validity. We introduce Semantic-Constrained Federated Aggregation (SCFA), a theoretically-grounded framework incorporating domain knowledge constraints into distributed optimization. We prove SCFA achieves convergence rate O(1/sqrt(T) + rho) where rho represents constraint violation rate, establishing the first convergence theory for constraint-based federated learning. Our analysis shows constraints reduce effective data heterogeneity by 41% and improve privacy-utility tradeoffs through hypothesis space reduction by factor theta=0.37. Under (epsilon,delta)-differential privacy with epsilon=10, constraint regularization maintains utility within 3.7% of non-private baseline versus 12.1% degradation for standard federated learning, representing 2.7x improvement. We validate our framework on manufacturing predictive maintenance using Bosch production data with 1.18 million samples and 968 sensor features, constructing knowledge graphs encoding 3,000 constraints from ISA-95 and MASON ontologies. Experiments demonstrate 22% faster convergence, 41.3% model divergence reduction, and constraint violation thresholds where rho<0.05 maintains 90% optimal performance while rho>0.18 causes catastrophic failure. Our theoretical predictions match empirical observations with R^2>0.90 across convergence, privacy, and violation-performance relationships.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.08739v1">PrivGemo: Privacy-Preserving Dual-Tower Graph Retrieval for Empowering LLM Reasoning with Memory Augmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-01-13T17:14:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xingyu Tan, Xiaoyang Wang, Qing Liu, Xiwei Xu, Xin Yuan, Liming Zhu, Wenjie Zhang</p>
+    <p><b>Summary:</b> Knowledge graphs (KGs) provide structured evidence that can ground large language model (LLM) reasoning for knowledge-intensive question answering. However, many practical KGs are private, and sending retrieved triples or exploration traces to closed-source LLM APIs introduces leakage risk. Existing privacy treatments focus on masking entity names, but they still face four limitations: structural leakage under semantic masking, uncontrollable remote interaction, fragile multi-hop and multi-entity reasoning, and limited experience reuse for stability and efficiency. To address these issues, we propose PrivGemo, a privacy-preserving retrieval-augmented framework for KG-grounded reasoning with memory-guided exposure control. PrivGemo uses a dual-tower design to keep raw KG knowledge local while enabling remote reasoning over an anonymized view that goes beyond name masking to limit both semantic and structural exposure. PrivGemo supports multi-hop, multi-entity reasoning by retrieving anonymized long-hop paths that connect all topic entities, while keeping grounding and verification on the local KG. A hierarchical controller and a privacy-aware experience memory further reduce unnecessary exploration and remote interactions. Comprehensive experiments on six benchmarks show that PrivGemo achieves overall state-of-the-art results, outperforming the strongest baseline by up to 17.1%. Furthermore, PrivGemo enables smaller models (e.g., Qwen3-4B) to achieve reasoning performance comparable to that of GPT-4-Turbo.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.08339v1">Blockchain-Enabled Renewable Energy Certificate Trading: A Secure and Privacy-Preserving Approach</a></h3>
+  
+  <p><b>Published on:</b> 2026-01-13T08:57:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Wei-Jen Liu, Wei-Yu Chiu, Weiqi Hua</p>
+    <p><b>Summary:</b> In the 21st century, transitioning to renewable energy sources is imperative, with fossil fuel reserves depleting rapidly and recognizing critical environmental issues such as climate change, air pollution, water pollution, and habitat destruction. Embracing renewable energy is not only an environmental necessity but also a strategic move with multiple benefits. By shifting to renewable energy sources and supporting their production through the acquisition of renewable energy certificates, we foster innovation and drive economic growth in the renewable energy sector. This, in turn, reduces greenhouse gas emissions, aligning with global efforts to mitigate climate change. Additionally, renewable energy certificates ensure compliance with regulations that mandate the use of renewable energy, enhancing legal adherence while promoting transparency and trust in energy sourcing. To monitor the uptake of renewable energy, governments have implemented Renewable Energy Certificates (RECs) as a tracking mechanism for the production and consumption of renewable energy. However, there are two main challenges to the existing REC schema: 1) The RECs have not been globally adopted due to inconsistent design; 2) The consumer privacy has not been well incorporated in the design of blockchain. In this study, we investigate the trading of RECs between suppliers and consumers using the directed acyclic graph (DAG) blockchain system and introduce a trading schema to help protect consumer information. Our results demonstrate lower transaction time by 41\% and energy consumption by 65\% compared to proof-of-stake.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.07997v1">Can Inherent Communication Noise Guarantee Privacy in Distributed Cooperative Control ?</a></h3>
+  
+  <p><b>Published on:</b> 2026-01-12T21:04:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuwen Ma, Sarah K. Spurgeon, Tao Li, Boli Chen</p>
+    <p><b>Summary:</b> This paper investigates privacy-preserving distributed cooperative control for multi-agent systems within the framework of differential privacy. In cooperative control, communication noise is inevitable and is usually regarded as a disturbance that impairs coordination. This work revisits such noise as a potential privacy-enhancing factor. A linear quadratic regulator (LQR)-based framework is proposed for agents communicating over noisy channels, \textcolor{black}{where the noise variance depends on the relative state differences between neighbouring agents.} The resulting controller achieves formation while protecting the reference signals from inference attacks. It is analytically proven that the inherent communication noise can guarantee bounded $(ε,δ)$-differential privacy without adding dedicated privacy noise, while the \textcolor{black}{system cooperative tracking error} remains bounded and convergent in both the mean-square and almost-sure sense.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.07608v1">Recursive Binary Identification with Differential Privacy and Data Tampering Attacks</a></h3>
@@ -763,7 +763,7 @@
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Imtiaz Ali Soomro, Hamood Ur Rehman, S. Jawad Hussain ID, Adeel Iqbal, Waqas Khalid, Heejung Yu ID</p>
-    <p><b>Summary:</b> The rapid proliferation of Internet of Things (IoT) devices across domains such as smart homes, industrial control systems, and healthcare networks has significantly expanded the attack surface for cyber threats, including botnet-driven distributed denial-of-service (DDoS), malware injection, and data exfiltration. Conventional intrusion detec- tion systems (IDS) face critical challenges like privacy, scala- bility, and robustness when applied in such heterogeneous IoT environments. To address these issues, we propose SecureDyn- FL, a comprehensive and robust privacy-preserving federated learning (FL) framework tailored for intrusion detection in IoT networks. SecureDyn-FL is designed to simultaneously address multiple security dimensions in FL-based IDS: (1) poisoning detection through dynamic temporal gradient auditing, (2) privacy protection against inference and eavesdrop- ping attacks through secure aggregation, and (3) adaptation to heterogeneous non-IID data via personalized learning. The framework introduces three core contributions: (i) a dynamic temporal gradient auditing mechanism that leverages Gaussian mixture models (GMMs) and Mahalanobis distance (MD) to detect stealthy and adaptive poisoning attacks, (ii) an optimized privacy-preserving aggregation scheme based on transformed additive ElGamal encryption with adaptive pruning and quantization for secure and efficient communication, and (iii) a dual-objective personalized learning strategy that improves model adaptation under non-IID data using logit-adjusted loss. Extensive experiments on the N-BaIoT dataset under both IID and non-IID settings, including scenarios with up to 50% adversarial clients, demonstrate that SecureDyn- FL consistently outperforms state-of-the-art FL-based IDS defenses.</p>
+    <p><b>Summary:</b> The rapid proliferation of Internet of Things (IoT) devices across domains such as smart homes, industrial control systems, and healthcare networks has significantly expanded the attack surface for cyber threats, including botnet-driven distributed denial-of-service (DDoS), malware injection, and data exfiltration. Conventional intrusion detection systems (IDS) face critical challenges like privacy, scalability, and robustness when applied in such heterogeneous IoT environments. To address these issues, we propose SecureDyn-FL, a comprehensive and robust privacy-preserving federated learning (FL) framework tailored for intrusion detection in IoT networks. SecureDyn-FL is designed to simultaneously address multiple security dimensions in FL-based IDS: (1) poisoning detection through dynamic temporal gradient auditing, (2) privacy protection against inference and eavesdropping attacks through secure aggregation, and (3) adaptation to heterogeneous non-IID data via personalized learning. The framework introduces three core contributions: (i) a dynamic temporal gradient auditing mechanism that leverages Gaussian mixture models (GMMs) and Mahalanobis distance (MD) to detect stealthy and adaptive poisoning attacks, (ii) an optimized privacy-preserving aggregation scheme based on transformed additive ElGamal encryption with adaptive pruning and quantization for secure and efficient communication, and (iii) a dual-objective personalized learning strategy that improves model adaptation under non-IID data using logit-adjusted loss. Extensive experiments on the N-BaIoT dataset under both IID and non-IID settings, including scenarios with up to 50% adversarial clients, demonstrate that SecureDyn-FL consistently outperforms state-of-the-art FL-based IDS defenses.</p>
   </details>
 </div>
 
