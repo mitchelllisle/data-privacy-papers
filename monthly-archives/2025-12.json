@@ -3080,5 +3080,41 @@
     "categories" : [
       "cs.GT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2512.16401v4",
+    "title" : "Navigating the Reality Gap: Privacy-Preserving On-Device Continual Adaptation of ASR for Clinical Telephony",
+    "summary" : "Automatic Speech Recognition (ASR) holds immense potential to assist in clinical documentation and patient report generation, particularly in resource-constrained regions. However, deployment is currently hindered by a technical deadlock: a severe \"Reality Gap\" between laboratory performance and noisy, real-world clinical audio, coupled with strict privacy and resource constraints. Such adaptation is essential for clinical telephony systems, where patient speech is highly variable and transcription errors can directly impact downstream clinical workflows. We quantify this gap, showing that a robust multilingual model (IndicWav2Vec) degrades up to a 40.94% WER on rural clinical telephony speech from India, rendering it unusable. We demonstrate consistent improvements on these helpline interactions without transmitting raw patient data off-device via an on-device continual adaptation framework using Low-Rank Adaptation (LoRA). We conduct an investigative study of stabilization strategies, characterizing the trade-offs between data-driven and parameter-driven approaches. Our results demonstrate that multi-domain Experience Replay (ER) yields the primary performance gains, achieving a 17.1% relative improvement in target WER and reducing catastrophic forgetting by 55% compared to naive adaptation. Furthermore, we investigate a stabilized importance estimation strategy (Absolute Fisher) to ensure robust convergence against the high-variance gradients common in clinical telephony speech. Finally, we verify via a domain-specific spot check that acoustic adaptation is a fundamental prerequisite for usability in healthcare settings which cannot be bypassed by language models alone.",
+    "updated" : "2026-01-14T15:22:47Z",
+    "published" : "2025-12-18T10:56:27Z",
+    "authors" : [
+      {
+        "name" : "Darshil Chauhan"
+      },
+      {
+        "name" : "Adityasinh Solanki"
+      },
+      {
+        "name" : "Vansh Patel"
+      },
+      {
+        "name" : "Kanav Kapoor"
+      },
+      {
+        "name" : "Ritvik Jain"
+      },
+      {
+        "name" : "Aditya Bansal"
+      },
+      {
+        "name" : "Pratik Narang"
+      },
+      {
+        "name" : "Dhruv Kumar"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
