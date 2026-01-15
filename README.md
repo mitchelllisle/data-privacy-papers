@@ -330,7 +330,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.16401v3">Navigating the Reality Gap: Privacy-Preserving On-Device Continual Adaptation of ASR for Clinical Telephony</a></h3>
+  <h3><a href="http://arxiv.org/abs/2512.16401v4">Navigating the Reality Gap: Privacy-Preserving On-Device Continual Adaptation of ASR for Clinical Telephony</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2025-12-18T10:56:27Z</p>
   <details>
@@ -549,68 +549,69 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.12856v1">Forgetful but Faithful: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-12-14T21:40:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saad Alqithami</p>
-    <p><b>Summary:</b> As generative agents become increasingly sophisticated and deployed in long-term interactive scenarios, their memory management capabilities emerge as a critical bottleneck for both performance and privacy. Current approaches either maintain unlimited memory stores, leading to computational intractability and privacy concerns, or employ simplistic forgetting mechanisms that compromise agent coherence and functionality. This paper introduces the Memory-Aware Retention Schema (MaRS), a novel framework for human-centered memory management in generative agents, coupled with six theoretically-grounded forgetting policies that balance performance, privacy, and computational efficiency. We present the Forgetful but Faithful Agent (FiFA) benchmark, a comprehensive evaluation framework that assesses agent performance across narrative coherence, goal completion, social recall accuracy, privacy preservation, and cost efficiency. Through extensive experimentation involving 300 evaluation runs across multiple memory budgets and agent configurations, we demonstrate that our hybrid forgetting policy achieves superior performance (composite score: 0.911) while maintaining computational tractability and privacy guarantees. Our work establishes new benchmarks for memory-budgeted agent evaluation and provides practical guidelines for deploying generative agents in resource-constrained, privacy-sensitive environments. The theoretical foundations, implementation framework, and empirical results contribute to the emerging field of human-centered AI by addressing fundamental challenges in agent memory management that directly impact user trust, system scalability, and regulatory compliance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.12840v1">PRIVEE: Privacy-Preserving Vertical Federated Learning Against Feature Inference Attacks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2025-12-14T21:05:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sindhuja Madabushi, Ahmad Faraz Khan, Haider Ali, Ananthram Swami, Rui Ning, Hongyi Wu, Jin-Hee Cho</p>
-    <p><b>Summary:</b> Vertical Federated Learning (VFL) enables collaborative model training across organizations that share common user samples but hold disjoint feature spaces. Despite its potential, VFL is susceptible to feature inference attacks, in which adversarial parties exploit shared confidence scores (i.e., prediction probabilities) during inference to reconstruct private input features of other participants. To counter this threat, we propose PRIVEE (PRIvacy-preserving Vertical fEderated lEarning), a novel defense mechanism named after the French word privée, meaning "private." PRIVEE obfuscates confidence scores while preserving critical properties such as relative ranking and inter-score distances. Rather than exposing raw scores, PRIVEE shares only the transformed representations, mitigating the risk of reconstruction attacks without degrading model prediction accuracy. Extensive experiments show that PRIVEE achieves a threefold improvement in privacy protection compared to state-of-the-art defenses, while preserving full predictive performance against advanced feature inference attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.12586v1">StegaVAR: Privacy-Preserving Video Action Recognition via Steganographic Domain Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2025-12-14T07:44:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lixin Chen, Chaomeng Chen, Jiale Zhou, Zhijian Wu, Xun Lin</p>
-    <p><b>Summary:</b> Despite the rapid progress of deep learning in video action recognition (VAR) in recent years, privacy leakage in videos remains a critical concern. Current state-of-the-art privacy-preserving methods often rely on anonymization. These methods suffer from (1) low concealment, where producing visually distorted videos that attract attackers' attention during transmission, and (2) spatiotemporal disruption, where degrading essential spatiotemporal features for accurate VAR. To address these issues, we propose StegaVAR, a novel framework that embeds action videos into ordinary cover videos and directly performs VAR in the steganographic domain for the first time. Throughout both data transmission and action analysis, the spatiotemporal information of hidden secret video remains complete, while the natural appearance of cover videos ensures the concealment of transmission. Considering the difficulty of steganographic domain analysis, we propose Secret Spatio-Temporal Promotion (STeP) and Cross-Band Difference Attention (CroDA) for analysis within the steganographic domain. STeP uses the secret video to guide spatiotemporal feature extraction in the steganographic domain during training. CroDA suppresses cover interference by capturing cross-band semantic differences. Experiments demonstrate that StegaVAR achieves superior VAR and privacy-preserving performance on widely used datasets. Moreover, our framework is effective for multiple steganographic models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.12471v1">Privacy-Aware Ambient Audio Sensing for Healthy Indoor Spaces</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2025-12-13T21:55:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bhawana Chhaglani</p>
-    <p><b>Summary:</b> Indoor airborne transmission poses a significant health risk, yet current monitoring solutions are invasive, costly, or fail to address it directly. My research explores the untapped potential of ambient audio sensing to estimate key transmission risk factors such as ventilation, aerosol emissions, and occupant distribution non-invasively and in real time. I develop privacy-preserving systems that leverage existing microphones to monitor the whole spectrum of indoor air quality which can have a significant effect on an individual's health. This work lays the foundation for privacy-aware airborne risk monitoring using everyday devices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.12224v1">Cluster-guided LLM-Based Anonymization of Software Analytics Data: Studying Privacy-Utility Trade-offs in JIT Defect Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-13T07:37:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maaz Khan, Gul Sher Khan, Ahsan Raza, Pir Sami Ullah, Abdul Ali Bangash</p>
-    <p><b>Summary:</b> The increasing use of machine learning (ML) for Just-In-Time (JIT) defect prediction raises concerns about privacy leakage from software analytics data. Existing anonymization methods, such as tabular transformations and graph perturbations, often overlook contextual dependencies among software metrics, leading to suboptimal privacy-utility tradeoffs. Leveraging the contextual reasoning of Large Language Models (LLMs), we propose a cluster-guided anonymization technique that preserves contextual and statistical relationships within JIT datasets. Our method groups commits into feature-based clusters and employs an LLM to generate context-aware parameter configurations for each commit cluster, defining alpha-beta ratios and churn mixture distributions used for anonymization. Our evaluation on six projects (Cassandra, Flink, Groovy, Ignite, OpenStack, and Qt) shows that our LLM-based approach achieves privacy level 2 (IPR >= 80 percent), improving privacy by 18 to 25 percent over four state-of-the-art graph-based anonymization baselines while maintaining comparable F1 scores. Our results demonstrate that LLMs can act as adaptive anonymization engines when provided with cluster-specific statistical information about similar data points, enabling context-sensitive and privacy-preserving software analytics without compromising predictive accuracy.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.09498v1">Dobrushin Coefficients of Private Mechanisms Beyond Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-14T14:03:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Leonhard Grosse, Sara Saeidian, Tobias J. Oechtering, Mikael Skoglund</p>
+    <p><b>Summary:</b> We investigate Dobrushin coefficients of discrete Markov kernels that have bounded pointwise maximal leakage (PML) with respect to all distributions with a minimum probability mass bounded away from zero by a constant $c>0$. This definition recovers local differential privacy (LDP) for $c\to 0$. We derive achievable bounds on contraction in terms of a kernels PML guarantees, and provide mechanism constructions that achieve the presented bounds. Further, we extend the results to general $f$-divergences by an application of Binette's inequality. Our analysis yields tighter bounds for mechanisms satisfying LDP and extends beyond the LDP regime to any discrete kernel.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.09460v1">SoK: Enhancing Cryptographic Collaborative Learning with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-01-14T13:09:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francesco Capano, Jonas Böhler, Benjamin Weggenmann</p>
+    <p><b>Summary:</b> In collaborative learning (CL), multiple parties jointly train a machine learning model on their private datasets. However, data can not be shared directly due to privacy concerns. To ensure input confidentiality, cryptographic techniques, e.g., multi-party computation (MPC), enable training on encrypted data. Yet, even securely trained models are vulnerable to inference attacks aiming to extract memorized data from model outputs. To ensure output privacy and mitigate inference attacks, differential privacy (DP) injects calibrated noise during training. While cryptography and DP offer complementary guarantees, combining them efficiently for cryptographic and differentially private CL (CPCL) is challenging. Cryptography incurs performance overheads, while DP degrades accuracy, creating a privacy-accuracy-performance trade-off that needs careful design considerations. This work systematizes the CPCL landscape. We introduce a unified framework that generalizes common phases across CPCL paradigms, and identify secure noise sampling as the foundational phase to achieve CPCL. We analyze trade-offs of different secure noise sampling techniques, noise types, and DP mechanisms discussing their implementation challenges and evaluating their accuracy and cryptographic overhead across CPCL paradigms. Additionally, we implement identified secure noise sampling options in MPC and evaluate their computation and communication costs in WAN and LAN. Finally, we propose future research directions based on identified key observations, gaps and possible enhancements in the literature.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.09232v1">Private Links, Public Leaks: Consequences of Frictionless User Experience on the Security and Privacy Posture of SMS-Delivered URLs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-14T07:12:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Danish, Enrique Sobrados, Priya Kaushik, Bhupendra Acharya, Muhammad Saad, Abdullah Mueen, Sazzadur Rahaman, Afsah Anwar</p>
+    <p><b>Summary:</b> Digital service providers often prioritize a frictionless user experience by adopting technologies that simplify access to their services. One widely used mechanism is the Short Message Service (SMS) to deliver links (URLs) that enable single-click access to online services with little to no resistance. However, SMS is inherently insecure, and numerous reports have documented message interception and data leaks. Thus, attributing excessive trust in such an insecure channel opens avenues for unintended access and exploitation by adversaries.
+  In this paper, we present a comprehensive investigation of the implications of SMS-delivered URLs from the lens of public SMS gateways. We conduct the study on more than 322K unique SMS-delivered URLs extracted from more than 33 million messages across more than 30K phone numbers, revealing critical security and privacy vulnerabilities. We identify and validate critical Personally Identifiable Information (PII) exposure in 701 endpoints affecting 177 services. Our manual investigation of the root cause of the exposure reveals a weak authentication model which hinges upon tokenized bearer links as sufficient authorization proofs, thereby allowing anyone with the URL to access private user information, including social security number, date of birth, bank account number, and credit score. Additionally, we identify 125 services allowing mass enumeration of valid URLs due to low entropy within tokens, thereby cascading the privacy risks beyond the initially compromised users. Furthermore, we identify mismatches between the GUI and data fetched by the client, extending the scale of privacy leakages. Particularly, we identify 76 services that perform data overfetching. Finally, 18 services have acknowledged and addressed the weaknesses in their services, thereby enhancing the privacy of at least 120M users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.09152v1">PrivacyReasoner: Can LLM Emulate a Human-like Privacy Mind?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-01-14T04:47:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yiwen Tu, Xuan Liu, Lianhui Qin, Haojian Jin</p>
+    <p><b>Summary:</b> This paper introduces PRA, an AI-agent design for simulating how individual users form privacy concerns in response to real-world news. Moving beyond population-level sentiment analysis, PRA integrates privacy and cognitive theories to simulate user-specific privacy reasoning grounded in personal comment histories and contextual cues. The agent reconstructs each user's "privacy mind", dynamically activates relevant privacy memory through a contextual filter that emulates bounded rationality, and generates synthetic comments reflecting how that user would likely respond to new privacy scenarios. A complementary LLM-as-a-Judge evaluator, calibrated against an established privacy concern taxonomy, quantifies the faithfulness of generated reasoning. Experiments on real-world Hacker News discussions show that \PRA outperforms baseline agents in privacy concern prediction and captures transferable reasoning patterns across domains including AI, e-commerce, and healthcare.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.08953v1">Fairness risk and its privacy-enabled solution in AI-driven robotic applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-01-13T19:43:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Le Liu, Bangguo Yu, Nynke Vellinga, Ming Cao</p>
+    <p><b>Summary:</b> Complex decision-making by autonomous machines and algorithms could underpin the foundations of future society. Generative AI is emerging as a powerful engine for such transitions. However, we show that Generative AI-driven developments pose a critical pitfall: fairness concerns. In robotic applications, although intuitions about fairness are common, a precise and implementable definition that captures user utility and inherent data randomness is missing. Here we provide a utility-aware fairness metric for robotic decision making and analyze fairness jointly with user-data privacy, deriving conditions under which privacy budgets govern fairness metrics. This yields a unified framework that formalizes and quantifies fairness and its interplay with privacy, which is tested in a robot navigation task. In view of the fact that under legal requirements, most robotic systems will enforce user privacy, the approach shows surprisingly that such privacy budgets can be jointly used to meet fairness targets. Addressing fairness concerns in the creative combined consideration of privacy is a step towards ethical use of AI and strengthens trust in autonomous robots deployed in everyday environments.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.08739v1">PrivGemo: Privacy-Preserving Dual-Tower Graph Retrieval for Empowering LLM Reasoning with Memory Augmentation</a></h3>
@@ -1048,13 +1049,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.02307v1">Differential Privacy for Transformer Embeddings of Text with Nonparametric Variational Information Bottleneck</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.02307v2">Differential Privacy for Transformer Embeddings of Text with Nonparametric Variational Information Bottleneck</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-01-05T17:49:39Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Dina El Zein, James Henderson</p>
-    <p><b>Summary:</b> We propose a privacy-preserving method for sharing text data by sharing noisy versions of their transformer embeddings. It has been shown that hidden representations learned by deep models can encode sensitive information from the input, making it possible for adversaries to recover the input data with considerable accuracy. This problem is exacerbated in transformer embeddings because they consist of multiple vectors, one per token. To mitigate this risk, we propose Nonparametric Variational Differential Privacy (NVDP), which ensures both useful data sharing and strong privacy protection. We take a differential privacy approach, integrating a Nonparametric Variational Information Bottleneck (NVIB) layer into the transformer architecture to inject noise into its multi-vector embeddings and thereby hide information, and measuring privacy protection with Rényi divergence and its corresponding Bayesian Differential Privacy (BDP) guarantee. Training the NVIB layer calibrates the noise level according to utility. We test NVDP on the GLUE benchmark and show that varying the noise level gives us a useful tradeoff between privacy and accuracy. With lower noise levels, our model maintains high accuracy while offering strong privacy guarantees, effectively balancing privacy and utility.</p>
+    <p><b>Summary:</b> We propose a privacy-preserving method for sharing text data by sharing noisy versions of their transformer embeddings. It has been shown that hidden representations learned by deep models can encode sensitive information from the input, making it possible for adversaries to recover the input data with considerable accuracy. This problem is exacerbated in transformer embeddings because they consist of multiple vectors, one per token. To mitigate this risk, we propose Nonparametric Variational Differential Privacy (NVDP), which ensures both useful data sharing and strong privacy protection. We take a differential privacy (DP) approach, integrating a nonparametric variational information bottleneck (NVIB) layer into the transformer architecture to inject noise into its multivector embeddings and thereby hide information, and measuring privacy protection with Rényi Divergence (RD) and its corresponding Bayesian Differential Privacy (BDP) guarantee. Training the NVIB layer calibrates the noise level according to the utility of the downstream task. We test NVDP on the General Language Understanding Evaluation (GLUE) benchmark and show that varying the noise level gives us a useful trade-off between privacy and accuracy. With lower noise levels, our model maintains high accuracy while offering strong privacy guarantees, effectively balancing privacy and utility.</p>
   </details>
 </div>
 
