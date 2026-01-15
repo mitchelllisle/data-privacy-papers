@@ -1400,5 +1400,156 @@
       "cs.CR",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.09498v1",
+    "title" : "Dobrushin Coefficients of Private Mechanisms Beyond Local Differential Privacy",
+    "summary" : "We investigate Dobrushin coefficients of discrete Markov kernels that have bounded pointwise maximal leakage (PML) with respect to all distributions with a minimum probability mass bounded away from zero by a constant $c>0$. This definition recovers local differential privacy (LDP) for $c\\to 0$. We derive achievable bounds on contraction in terms of a kernels PML guarantees, and provide mechanism constructions that achieve the presented bounds. Further, we extend the results to general $f$-divergences by an application of Binette's inequality. Our analysis yields tighter bounds for mechanisms satisfying LDP and extends beyond the LDP regime to any discrete kernel.",
+    "updated" : "2026-01-14T14:03:42Z",
+    "published" : "2026-01-14T14:03:42Z",
+    "authors" : [
+      {
+        "name" : "Leonhard Grosse"
+      },
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.09460v1",
+    "title" : "SoK: Enhancing Cryptographic Collaborative Learning with Differential Privacy",
+    "summary" : "In collaborative learning (CL), multiple parties jointly train a machine learning model on their private datasets. However, data can not be shared directly due to privacy concerns. To ensure input confidentiality, cryptographic techniques, e.g., multi-party computation (MPC), enable training on encrypted data. Yet, even securely trained models are vulnerable to inference attacks aiming to extract memorized data from model outputs. To ensure output privacy and mitigate inference attacks, differential privacy (DP) injects calibrated noise during training. While cryptography and DP offer complementary guarantees, combining them efficiently for cryptographic and differentially private CL (CPCL) is challenging. Cryptography incurs performance overheads, while DP degrades accuracy, creating a privacy-accuracy-performance trade-off that needs careful design considerations. This work systematizes the CPCL landscape. We introduce a unified framework that generalizes common phases across CPCL paradigms, and identify secure noise sampling as the foundational phase to achieve CPCL. We analyze trade-offs of different secure noise sampling techniques, noise types, and DP mechanisms discussing their implementation challenges and evaluating their accuracy and cryptographic overhead across CPCL paradigms. Additionally, we implement identified secure noise sampling options in MPC and evaluate their computation and communication costs in WAN and LAN. Finally, we propose future research directions based on identified key observations, gaps and possible enhancements in the literature.",
+    "updated" : "2026-01-14T13:09:29Z",
+    "published" : "2026-01-14T13:09:29Z",
+    "authors" : [
+      {
+        "name" : "Francesco Capano"
+      },
+      {
+        "name" : "Jonas Böhler"
+      },
+      {
+        "name" : "Benjamin Weggenmann"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.09232v1",
+    "title" : "Private Links, Public Leaks: Consequences of Frictionless User Experience on the Security and Privacy Posture of SMS-Delivered URLs",
+    "summary" : "Digital service providers often prioritize a frictionless user experience by adopting technologies that simplify access to their services. One widely used mechanism is the Short Message Service (SMS) to deliver links (URLs) that enable single-click access to online services with little to no resistance. However, SMS is inherently insecure, and numerous reports have documented message interception and data leaks. Thus, attributing excessive trust in such an insecure channel opens avenues for unintended access and exploitation by adversaries.\n  In this paper, we present a comprehensive investigation of the implications of SMS-delivered URLs from the lens of public SMS gateways. We conduct the study on more than 322K unique SMS-delivered URLs extracted from more than 33 million messages across more than 30K phone numbers, revealing critical security and privacy vulnerabilities. We identify and validate critical Personally Identifiable Information (PII) exposure in 701 endpoints affecting 177 services. Our manual investigation of the root cause of the exposure reveals a weak authentication model which hinges upon tokenized bearer links as sufficient authorization proofs, thereby allowing anyone with the URL to access private user information, including social security number, date of birth, bank account number, and credit score. Additionally, we identify 125 services allowing mass enumeration of valid URLs due to low entropy within tokens, thereby cascading the privacy risks beyond the initially compromised users. Furthermore, we identify mismatches between the GUI and data fetched by the client, extending the scale of privacy leakages. Particularly, we identify 76 services that perform data overfetching. Finally, 18 services have acknowledged and addressed the weaknesses in their services, thereby enhancing the privacy of at least 120M users.",
+    "updated" : "2026-01-14T07:12:10Z",
+    "published" : "2026-01-14T07:12:10Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Danish"
+      },
+      {
+        "name" : "Enrique Sobrados"
+      },
+      {
+        "name" : "Priya Kaushik"
+      },
+      {
+        "name" : "Bhupendra Acharya"
+      },
+      {
+        "name" : "Muhammad Saad"
+      },
+      {
+        "name" : "Abdullah Mueen"
+      },
+      {
+        "name" : "Sazzadur Rahaman"
+      },
+      {
+        "name" : "Afsah Anwar"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.09152v1",
+    "title" : "PrivacyReasoner: Can LLM Emulate a Human-like Privacy Mind?",
+    "summary" : "This paper introduces PRA, an AI-agent design for simulating how individual users form privacy concerns in response to real-world news. Moving beyond population-level sentiment analysis, PRA integrates privacy and cognitive theories to simulate user-specific privacy reasoning grounded in personal comment histories and contextual cues. The agent reconstructs each user's \"privacy mind\", dynamically activates relevant privacy memory through a contextual filter that emulates bounded rationality, and generates synthetic comments reflecting how that user would likely respond to new privacy scenarios. A complementary LLM-as-a-Judge evaluator, calibrated against an established privacy concern taxonomy, quantifies the faithfulness of generated reasoning. Experiments on real-world Hacker News discussions show that \\PRA outperforms baseline agents in privacy concern prediction and captures transferable reasoning patterns across domains including AI, e-commerce, and healthcare.",
+    "updated" : "2026-01-14T04:47:06Z",
+    "published" : "2026-01-14T04:47:06Z",
+    "authors" : [
+      {
+        "name" : "Yiwen Tu"
+      },
+      {
+        "name" : "Xuan Liu"
+      },
+      {
+        "name" : "Lianhui Qin"
+      },
+      {
+        "name" : "Haojian Jin"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.08953v1",
+    "title" : "Fairness risk and its privacy-enabled solution in AI-driven robotic applications",
+    "summary" : "Complex decision-making by autonomous machines and algorithms could underpin the foundations of future society. Generative AI is emerging as a powerful engine for such transitions. However, we show that Generative AI-driven developments pose a critical pitfall: fairness concerns. In robotic applications, although intuitions about fairness are common, a precise and implementable definition that captures user utility and inherent data randomness is missing. Here we provide a utility-aware fairness metric for robotic decision making and analyze fairness jointly with user-data privacy, deriving conditions under which privacy budgets govern fairness metrics. This yields a unified framework that formalizes and quantifies fairness and its interplay with privacy, which is tested in a robot navigation task. In view of the fact that under legal requirements, most robotic systems will enforce user privacy, the approach shows surprisingly that such privacy budgets can be jointly used to meet fairness targets. Addressing fairness concerns in the creative combined consideration of privacy is a step towards ethical use of AI and strengthens trust in autonomous robots deployed in everyday environments.",
+    "updated" : "2026-01-13T19:43:55Z",
+    "published" : "2026-01-13T19:43:55Z",
+    "authors" : [
+      {
+        "name" : "Le Liu"
+      },
+      {
+        "name" : "Bangguo Yu"
+      },
+      {
+        "name" : "Nynke Vellinga"
+      },
+      {
+        "name" : "Ming Cao"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.02307v2",
+    "title" : "Differential Privacy for Transformer Embeddings of Text with Nonparametric Variational Information Bottleneck",
+    "summary" : "We propose a privacy-preserving method for sharing text data by sharing noisy versions of their transformer embeddings. It has been shown that hidden representations learned by deep models can encode sensitive information from the input, making it possible for adversaries to recover the input data with considerable accuracy. This problem is exacerbated in transformer embeddings because they consist of multiple vectors, one per token. To mitigate this risk, we propose Nonparametric Variational Differential Privacy (NVDP), which ensures both useful data sharing and strong privacy protection. We take a differential privacy (DP) approach, integrating a nonparametric variational information bottleneck (NVIB) layer into the transformer architecture to inject noise into its multivector embeddings and thereby hide information, and measuring privacy protection with Rényi Divergence (RD) and its corresponding Bayesian Differential Privacy (BDP) guarantee. Training the NVIB layer calibrates the noise level according to the utility of the downstream task. We test NVDP on the General Language Understanding Evaluation (GLUE) benchmark and show that varying the noise level gives us a useful trade-off between privacy and accuracy. With lower noise levels, our model maintains high accuracy while offering strong privacy guarantees, effectively balancing privacy and utility.",
+    "updated" : "2026-01-14T15:01:54Z",
+    "published" : "2026-01-05T17:49:39Z",
+    "authors" : [
+      {
+        "name" : "Dina El Zein"
+      },
+      {
+        "name" : "James Henderson"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
