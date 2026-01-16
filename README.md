@@ -477,80 +477,83 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.14767v1">Privacy-Preserving Feature Valuation in Vertical Federated Learning Using Shapley-CMI and PSI Permutation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-12-16T08:01:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Unai Laskurain, Aitor Aguirre-Ortuzar, Urko Zurutuza</p>
-    <p><b>Summary:</b> Federated Learning (FL) is an emerging machine learning paradigm that enables multiple parties to collaboratively train models without sharing raw data, ensuring data privacy. In Vertical FL (VFL), where each party holds different features for the same users, a key challenge is to evaluate the feature contribution of each party before any model is trained, particularly in the early stages when no model exists. To address this, the Shapley-CMI method was recently proposed as a model-free, information-theoretic approach to feature valuation using Conditional Mutual Information (CMI). However, its original formulation did not provide a practical implementation capable of computing the required permutations and intersections securely. This paper presents a novel privacy-preserving implementation of Shapley-CMI for VFL. Our system introduces a private set intersection (PSI) server that performs all necessary feature permutations and computes encrypted intersection sizes across discretized and encrypted ID groups, without the need for raw data exchange. Each party then uses these intersection results to compute Shapley-CMI values, computing the marginal utility of their features. Initial experiments confirm the correctness and privacy of the proposed system, demonstrating its viability for secure and efficient feature contribution estimation in VFL. This approach ensures data confidentiality, scales across multiple parties, and enables fair data valuation without requiring the sharing of raw data or training models.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.13880v1">Privacy-Enhancing Infant Cry Classification with Federated Transformers and Denoising Regularization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2025-12-15T20:33:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Geofrey Owino, Bernard Shibwabo</p>
-    <p><b>Summary:</b> Infant cry classification can aid early assessment of infant needs. However, deployment of such solutions is limited by privacy concerns around audio data, sensitivity to background noise, and domain shift across recording environments. We present an end-to-end infant cry analysis pipeline that integrates a denoising autoencoder (DAE), a convolutional tokenizer, and a Transformer encoder trained using communication-efficient federated learning (FL). The system performs on-device denoising, adaptive segmentation, post hoc calibration, and energy-based out-of-distribution (OOD) abstention. Federated training employs a regularized control variate update with 8-bit adapter deltas under secure aggregation. Using the Baby Chillanto and Donate-a-Cry datasets with ESC-50 noise overlays, the model achieves a macro F1 score of 0.938, an AUC of 0.962, and an Expected Calibration Error (ECE) of 0.032, while reducing per-round client upload from approximately 36 to 42 MB to 3.3 MB. Real-time edge inference on an NVIDIA Jetson Nano (4 GB, TensorRT FP16) achieves 96 ms per one-second spectrogram frame. These results demonstrate a practical path toward privacy-preserving, noise-robust, and communication-efficient infant cry classification suitable for federated deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.13439v1">Balancing Timeliness and Privacy in Discrete-Time Updating Systems</a></h3>
-  
-  <p><b>Published on:</b> 2025-12-15T15:34:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nitya Sathyavageeswaran, Anand D. Sarwate, Narayan B. Mandayam, Roy D. Yates</p>
-    <p><b>Summary:</b> We study the trade-off between Age of Information (AoI) and maximal leakage (MaxL) in discrete-time status updating systems. A source generates time-stamped update packets that are processed by a server that delivers them to a monitor. An adversary, who eavesdrops on the server-monitor link, wishes to infer the timing of the underlying source update sequence. The server must balance the timeliness of the status information at the monitor against the timing information leaked to the adversary. We consider a model with Bernoulli source updates under two classes of Last-Come-First-Served (LCFS) service policies: (1) Coupled policies that tie the server's deliveries to the update arrival process in a preemptive queue; (2) Decoupled (dumping) policies in which the server transmits its freshest update according to a schedule that is independent of the update arrivals. For each class, we characterize the structure of the optimal policy that minimizes AoI for a given MaxL rate. Our analysis reveals that decoupled dumping policies offer a superior age-leakage trade-off to coupled policies. When subject to a MaxL constraint, we prove that the optimal dumping strategy is achieved by dithering between two adjacent deterministic dump periods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.13405v1">Improving Privacy Protection in the area of Behavioural Targeting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2025-12-15T14:53:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Frederik Johannes Zuiderveen Borgesius</p>
-    <p><b>Summary:</b> This PhD thesis discusses how European law could improve privacy protection in the area of behavioural targeting. Behavioural targeting, also referred to as online profiling, involves monitoring people's online behaviour, and using the collected information to show people individually targeted advertisements. To protect privacy in the area of behavioural targeting, the EU lawmaker mainly relies on the consent requirement for the use of tracking technologies in the e-Privacy Directive, and on general data protection law. With informed consent requirements, the law aims to empower people to make choices in their best interests. But behavioural studies cast doubt on the effectiveness of the empowerment approach as a privacy protection measure. Many people click "I agree" to any statement that is presented to them. Therefore, to mitigate privacy problems such as chilling effects, this study argues for a combined approach of protecting and empowering the individual. Compared to the current approach, the lawmaker should focus more on protecting people. The PhD thesis is a legal study, but it also incorporates insights from other disciplines, such as computer science, behavioural economics, and media studies. This study is among the first to discuss the implications of behavioural research for European data protection policy. The topic of whether data protection law should apply to pseudonymous data is discussed in depth. The study contains a detailed analysis of the role of informed consent in data protection law, and gives much attention to the tension between protecting and empowering the individual within data protection law.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.14756v1">Examining Software Developers' Needs for Privacy Enforcing Techniques: A survey</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2025-12-15T13:20:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ioanna Theophilou, Georgia M. Kapitsaki</p>
-    <p><b>Summary:</b> Data privacy legislation, such as GDPR and CCPA/CPRA, has rendered data privacy law compliance a requirement of all software systems. Developers need to implement various kinds of functionalities to cover law needs, including user rights and law principles. As data compliance is tightly coupled with legal knowledge, it is not always easy to perform such integrations in software systems. Prior studies have focused on developers' understanding of privacy principles, such as Privacy by Design, and have examined privacy techniques used in the software industry. Nevertheless, emerging developer needs that can assist in privacy law compliance have not been examined but are useful in understanding what development automation tools, such as Generative AI, need to cover to make the compliance process more straightforward and seamless within the development process. In this work, we present a survey that examines the above needs with the participation of 68 developers, while we have examined which factors affect practitioners' needs. Most developers express a need for more automated tools, while privacy experience increases practitioners' concerns for privacy tools. Our results can assist practitioners in better positioning their development activities within privacy law compliance and point to an urgent need for privacy facilitators.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.12914v1">CTIGuardian: A Few-Shot Framework for Mitigating Privacy Leakage in Fine-Tuned LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-12-15T01:59:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shashie Dilhara Batan Arachchige, Benjamin Zi Hao Zhao, Hassan Jameel Asghar, Dinusha Vatsalan, Dali Kaafar</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) are often fine-tuned to adapt their general-purpose knowledge to specific tasks and domains such as cyber threat intelligence (CTI). Fine-tuning is mostly done through proprietary datasets that may contain sensitive information. Owners expect their fine-tuned model to not inadvertently leak this information to potentially adversarial end users. Using CTI as a use case, we demonstrate that data-extraction attacks can recover sensitive information from fine-tuned models on CTI reports, underscoring the need for mitigation. Retraining the full model to eliminate this leakage is computationally expensive and impractical. We propose an alternative approach, which we call privacy alignment, inspired by safety alignment in LLMs. Just like safety alignment teaches the model to abide by safety constraints through a few examples, we enforce privacy alignment through few-shot supervision, integrating a privacy classifier and a privacy redactor, both handled by the same underlying LLM. We evaluate our system, called CTIGuardian, using GPT-4o mini and Mistral-7B Instruct models, benchmarking against Presidio, a named entity recognition (NER) baseline. Results show that CTIGuardian provides a better privacy-utility trade-off than NER based models. While we demonstrate its effectiveness on a CTI use case, the framework is generic enough to be applicable to other sensitive domains.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.10701v1">Communication-Efficient and Privacy-Adaptable Mechanism -- a Federated Learning Scheme with Convergence Analysis</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-01-15T18:55:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chun Hei Michael Shiu, Chih Wei Ling</p>
+    <p><b>Summary:</b> Federated learning enables multiple parties to jointly train learning models without sharing their own underlying data, offering a practical pathway to privacy-preserving collaboration under data-governance constraints. Continued study of federated learning is essential to address key challenges in it, including communication efficiency and privacy protection between parties. A recent line of work introduced a novel approach called the Communication-Efficient and Privacy-Adaptable Mechanism (CEPAM), which achieves both objectives simultaneously. CEPAM leverages the rejection-sampled universal quantizer (RSUQ), a randomized vector quantizer whose quantization error is equivalent to a prescribed noise, which can be tuned to customize privacy protection between parties. In this work, we theoretically analyze the privacy guarantees and convergence properties of CEPAM. Moreover, we assess CEPAM's utility performance through experimental evaluations, including convergence profiles compared with other baselines, and accuracy-privacy trade-offs between different parties.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.10413v1">LADFA: A Framework of Using Large Language Models and Retrieval-Augmented Generation for Personal Data Flow Analysis in Privacy Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-15T14:03:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haiyue Yuan, Nikolay Matyunin, Ali Raza, Shujun Li</p>
+    <p><b>Summary:</b> Privacy policies help inform people about organisations' personal data processing practices, covering different aspects such as data collection, data storage, and sharing of personal data with third parties. Privacy policies are often difficult for people to fully comprehend due to the lengthy and complex legal language used and inconsistent practices across different sectors and organisations. To help conduct automated and large-scale analyses of privacy policies, many researchers have studied applications of machine learning and natural language processing techniques, including large language models (LLMs). While a limited number of prior studies utilised LLMs for extracting personal data flows from privacy policies, our approach builds on this line of work by combining LLMs with retrieval-augmented generation (RAG) and a customised knowledge base derived from existing studies. This paper presents the development of LADFA, an end-to-end computational framework, which can process unstructured text in a given privacy policy, extract personal data flows and construct a personal data flow graph, and conduct analysis of the data flow graph to facilitate insight discovery. The framework consists of a pre-processor, an LLM-based processor, and a data flow post-processor. We demonstrated and validated the effectiveness and accuracy of the proposed approach by conducting a case study that involved examining ten selected privacy policies from the automotive industry. Moreover, it is worth noting that LADFA is designed to be flexible and customisable, making it suitable for a range of text-based analysis tasks beyond privacy policy analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.10237v1">Fundamental Limitations of Favorable Privacy-Utility Guarantees for DP-SGD</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-15T09:50:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Murat Bilgehan Ertan, Marten van Dijk</p>
+    <p><b>Summary:</b> Differentially Private Stochastic Gradient Descent (DP-SGD) is the dominant paradigm for private training, but its fundamental limitations under worst-case adversarial privacy definitions remain poorly understood. We analyze DP-SGD in the $f$-differential privacy framework, which characterizes privacy via hypothesis-testing trade-off curves, and study shuffled sampling over a single epoch with $M$ gradient updates. We derive an explicit suboptimal upper bound on the achievable trade-off curve. This result induces a geometric lower bound on the separation $κ$ which is the maximum distance between the mechanism's trade-off curve and the ideal random-guessing line. Because a large separation implies significant adversarial advantage, meaningful privacy requires small $κ$. However, we prove that enforcing a small separation imposes a strict lower bound on the Gaussian noise multiplier $σ$, which directly limits the achievable utility. In particular, under the standard worst-case adversarial model, shuffled DP-SGD must satisfy
+  $σ\ge \frac{1}{\sqrt{2\ln M}}$ $\quad\text{or}\quad$ $κ\ge\ \frac{1}{\sqrt{8}}\!\left(1-\frac{1}{\sqrt{4π\ln M}}\right)$,
+  and thus cannot simultaneously achieve strong privacy and high utility. Although this bound vanishes asymptotically as $M \to \infty$, the convergence is extremely slow: even for practically relevant numbers of updates the required noise magnitude remains substantial. We further show that the same limitation extends to Poisson subsampling up to constant factors. Our experiments confirm that the noise levels implied by this bound leads to significant accuracy degradation at realistic training settings, thus showing a critical bottleneck in DP-SGD under standard worst-case adversarial assumptions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.10045v1">Privacy Enhanced PEFT: Tensor Train Decomposition Improves Privacy Utility Tradeoffs under DP-SGD</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-15T03:41:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pradip Kunwar, Minh Vu, Maanak Gupta, Manish Bhattarai</p>
+    <p><b>Summary:</b> Fine-tuning large language models on sensitive data poses significant privacy risks, as membership inference attacks can reveal whether individual records were used during training. While Differential Privacy (DP) provides formal protection, applying DP to conventional Parameter-Efficient Fine-Tuning (PEFT) methods such as Low-Rank Adaptation (LoRA) often incurs substantial utility loss. In this work, we show that a more structurally constrained PEFT architecture, Tensor Train Low-Rank Adaptation (TTLoRA), can improve the privacy-utility tradeoff by shrinking the effective parameter space while preserving expressivity. To this end, we develop TTLoRA-DP, a differentially private training framework for TTLoRA. Specifically, we extend the ghost clipping algorithm to Tensor Train cores via cached contraction states, enabling efficient Differentially Private Stochastic Gradient Descent (DP-SGD) with exact per-example gradient norm computation without materializing full per-example gradients. Experiments on GPT-2 fine-tuning over the Enron and Penn Treebank datasets show that TTLoRA-DP consistently strengthens privacy protection relative to LoRA-DP while maintaining comparable or better downstream utility. Moreover, TTLoRA exhibits lower membership leakage even without DP training, using substantially smaller adapters and requiring on average 7.6X fewer parameters than LoRA. Overall, our results demonstrate that TTLoRA offers a practical path to improving the privacy-utility tradeoff in parameter-efficient language model adaptation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.10004v1">SoK: Privacy-aware LLM in Healthcare: Threat Model, Privacy Techniques, Challenges and Recommendations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-01-15T02:28:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohoshin Ara Tahera, Karamveer Singh Sidhu, Shuvalaxmi Dass, Sajal Saha</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly adopted in healthcare to support clinical decision-making, summarize electronic health records (EHRs), and enhance patient care. However, this integration introduces significant privacy and security challenges, driven by the sensitivity of clinical data and the high-stakes nature of medical workflows. These risks become even more pronounced across heterogeneous deployment environments, ranging from small on-premise hospital systems to regional health networks, each with unique resource limitations and regulatory demands. This Systematization of Knowledge (SoK) examines the evolving threat landscape across the three core LLM phases: Data preprocessing, Fine-tuning, and Inference within realistic healthcare settings. We present a detailed threat model that characterizes adversaries, capabilities, and attack surfaces at each phase, and we systematize how existing privacy-preserving techniques (PPTs) attempt to mitigate these vulnerabilities. While existing defenses show promise, our analysis identifies persistent limitations in securing sensitive clinical data across diverse operational tiers. We conclude with phase-aware recommendations and future research directions aimed at strengthening privacy guarantees for LLMs in regulated environments. This work provides a foundation for understanding the intersection of LLMs, threats, and privacy in healthcare, offering a roadmap toward more robust and clinically trustworthy AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.09946v1">Interpolation-Based Optimization for Enforcing lp-Norm Metric Differential Privacy in Continuous and Fine-Grained Domains</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-01-15T00:12:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenxi Qiu</p>
+    <p><b>Summary:</b> Metric Differential Privacy (mDP) generalizes Local Differential Privacy (LDP) by adapting privacy guarantees based on pairwise distances, enabling context-aware protection and improved utility. While existing optimization-based methods reduce utility loss effectively in coarse-grained domains, optimizing mDP in fine-grained or continuous settings remains challenging due to the computational cost of constructing dense perterubation matrices and satisfying pointwise constraints.
+  In this paper, we propose an interpolation-based framework for optimizing lp-norm mDP in such domains. Our approach optimizes perturbation distributions at a sparse set of anchor points and interpolates distributions at non-anchor locations via log-convex combinations, which provably preserve mDP. To address privacy violations caused by naive interpolation in high-dimensional spaces, we decompose the interpolation process into a sequence of one-dimensional steps and derive a corrected formulation that enforces lp-norm mDP by design. We further explore joint optimization over perturbation distributions and privacy budget allocation across dimensions. Experiments on real-world location datasets demonstrate that our method offers rigorous privacy guarantees and competitive utility in fine-grained domains, outperforming baseline mechanisms. in high-dimensional spaces, we decompose the interpolation process into a sequence of one-dimensional steps and derive a corrected formulation that enforces lp-norm mDP by design. We further explore joint optimization over perturbation distributions and privacy budget allocation across dimensions. Experiments on real-world location datasets demonstrate that our method offers rigorous privacy guarantees and competitive utility in fine-grained domains, outperforming baseline mechanisms.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.09498v1">Dobrushin Coefficients of Private Mechanisms Beyond Local Differential Privacy</a></h3>
