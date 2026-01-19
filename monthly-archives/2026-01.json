@@ -1678,5 +1678,133 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.11398v1",
+    "title" : "Understanding Help Seeking for Digital Privacy, Safety, and Security",
+    "summary" : "The complexity of navigating digital privacy, safety, and security threats often falls directly on users. This leads to users seeking help from family and peers, platforms and advice guides, dedicated communities, and even large language models (LLMs). As a precursor to improving resources across this ecosystem, our community needs to understand what help seeking looks like in the wild. To that end, we blend qualitative coding with LLM fine-tuning to sift through over one billion Reddit posts from the last four years to identify where and for what users seek digital privacy, safety, or security help. We isolate three million relevant posts with 93% precision and recall and automatically annotate each with the topics discussed (e.g., security tools, privacy configurations, scams, account compromise, content moderation, and more). We use this dataset to understand the scope and scale of help seeking, the communities that provide help, and the types of help sought. Our work informs the development of better resources for users (e.g., user guides or LLM help-giving agents) while underscoring the inherent challenges of supporting users through complex combinations of threats, platforms, mitigations, context, and emotions.",
+    "updated" : "2026-01-16T16:10:02Z",
+    "published" : "2026-01-16T16:10:02Z",
+    "authors" : [
+      {
+        "name" : "Kurt Thomas"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Sarah Meiklejohn"
+      },
+      {
+        "name" : "Tara Matthews"
+      },
+      {
+        "name" : "Amelia Hassoun"
+      },
+      {
+        "name" : "Animesh Srivastava"
+      },
+      {
+        "name" : "Jessica McClearn"
+      },
+      {
+        "name" : "Patrick Gage Kelley"
+      },
+      {
+        "name" : "Sunny Consolvo"
+      },
+      {
+        "name" : "Nina Taft"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.11134v1",
+    "title" : "FSL-BDP: Federated Survival Learning with Bayesian Differential Privacy for Credit Risk Modeling",
+    "summary" : "Credit risk models are a critical decision-support tool for financial institutions, yet tightening data-protection rules (e.g., GDPR, CCPA) increasingly prohibit cross-border sharing of borrower data, even as these models benefit from cross-institution learning. Traditional default prediction suffers from two limitations: binary classification ignores default timing, treating early defaulters (high loss) equivalently to late defaulters (low loss), and centralized training violates emerging regulatory constraints. We propose a Federated Survival Learning framework with Bayesian Differential Privacy (FSL-BDP) that models time-to-default trajectories without centralizing sensitive data. The framework provides Bayesian (data-dependent) differential privacy (DP) guarantees while enabling institutions to jointly learn risk dynamics. Experiments on three real-world credit datasets (LendingClub, SBA, Bondora) show that federation fundamentally alters the relative effectiveness of privacy mechanisms. While classical DP performs better than Bayesian DP in centralized settings, the latter benefits substantially more from federation (+7.0\\% vs +1.4\\%), achieving near parity of non-private performance and outperforming classical DP in the majority of participating clients. This ranking reversal yields a key decision-support insight: privacy mechanism selection should be evaluated in the target deployment architecture, rather than centralized benchmarks. These findings provide actionable guidance for practitioners designing privacy-preserving decision support systems in regulated, multi-institutional environments.",
+    "updated" : "2026-01-16T09:48:57Z",
+    "published" : "2026-01-16T09:48:57Z",
+    "authors" : [
+      {
+        "name" : "Sultan Amed"
+      },
+      {
+        "name" : "Tanmay Sen"
+      },
+      {
+        "name" : "Sayantan Banerjee"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "q-fin.RM",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.10866v1",
+    "title" : "Adaptive Privacy Budgeting",
+    "summary" : "We study the problem of adaptive privacy budgeting under generalized differential privacy. Consider the setting where each user $i\\in [n]$ holds a tuple $x_i\\in U:=U_1\\times \\dotsb \\times U_T$, where $x_i(l)\\in U_l$ represents the $l$-th component of their data. For every $l\\in [T]$ (or a subset), an untrusted analyst wishes to compute some $f_l(x_1(l),\\dots,x_n(l))$, while respecting the privacy of each user. For many functions $f_l$, data from the users are not all equally important, and there is potential to use the privacy budgets of the users strategically, leading to privacy savings that can be used to improve the utility of later queries. In particular, the budgeting should be adaptive to the outputs of previous queries, so that greater savings can be achieved on more typical instances. In this paper, we provide such an adaptive budgeting framework, with various applications demonstrating its applicability.",
+    "updated" : "2026-01-15T21:32:50Z",
+    "published" : "2026-01-15T21:32:50Z",
+    "authors" : [
+      {
+        "name" : "Yuting Liang"
+      },
+      {
+        "name" : "Ke Yi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.10754v1",
+    "title" : "Chatting with Confidants or Corporations? Privacy Management with AI Companions",
+    "summary" : "AI chatbots designed as emotional companions blur the boundaries between interpersonal intimacy and institutional software, creating a complex, multi-dimensional privacy environment. Drawing on Communication Privacy Management theory and Masur's horizontal (user-AI) and vertical (user-platform) privacy framework, we conducted in-depth interviews with fifteen users of companion AI platforms such as Replika and Character.AI. Our findings reveal that users blend interpersonal habits with institutional awareness: while the non-judgmental, always-available nature of chatbots fosters emotional safety and encourages self-disclosure, users remain mindful of institutional risks and actively manage privacy through layered strategies and selective sharing. Despite this, many feel uncertain or powerless regarding platform-level data control. Anthropomorphic design further blurs privacy boundaries, sometimes leading to unintentional oversharing and privacy turbulence. These results extend privacy theory by highlighting the unique interplay of emotional and institutional privacy management in human-AI companionship.",
+    "updated" : "2026-01-13T15:15:37Z",
+    "published" : "2026-01-13T15:15:37Z",
+    "authors" : [
+      {
+        "name" : "Hsuen-Chi Chiu"
+      },
+      {
+        "name" : "Jeremy Foote"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.06699v2",
+    "title" : "Incentive Mechanism Design for Privacy-Preserving Decentralized Blockchain Relayers",
+    "summary" : "Public blockchains, though renowned for their transparency and immutability, suffer from significant privacy concerns. Network-level analysis and long-term observation of publicly available transactions can often be used to infer user identities. To mitigate this, several blockchain applications rely on relayers, which serve as intermediary nodes between users and smart contracts deployed on the blockchain. However, dependence on a single relayer not only creates a single point of failure but also introduces exploitable vulnerabilities that weaken the system's privacy guarantees. This paper proposes a decentralized relayer architecture that enhances privacy and reliability through game-theoretic incentive design. We model the interaction among relayers as a non-cooperative game and design an incentive mechanism in which probabilistic uploading emerges as a unique mixed Nash equilibrium. Using evolutionary game analysis, we demonstrate the equilibrium's stability against perturbations and coordinated deviations. Through numerical evaluations, we analyze how equilibrium strategies and system behavior evolve with key parameters such as the number of relayers, upload costs, rewards, and penalties. In particular, we show that even with high transaction costs, the system maintains reliability with an outage probability below 0.05 . Furthermore, our results highlight a fundamental trade-off between privacy, reliability, robustness, and cost in decentralized relayer systems.",
+    "updated" : "2026-01-16T15:02:53Z",
+    "published" : "2026-01-10T21:49:32Z",
+    "authors" : [
+      {
+        "name" : "Boutaina Jebari"
+      },
+      {
+        "name" : "Khalil Ibrahimi"
+      },
+      {
+        "name" : "Hamidou Tembine"
+      },
+      {
+        "name" : "Mounir Ghogho"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.MA"
+    ]
   }
 ]
