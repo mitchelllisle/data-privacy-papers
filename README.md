@@ -146,92 +146,92 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.20323v3">Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-23T12:45:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ipek Sena Yilmaz, Onur G. Tuncer, Zeynep E. Aksoy, Zeynep Yağmur Baydemir</p>
-    <p><b>Summary:</b> Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.20234v1">Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-23T10:49:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bin Xie, Rui Song, Xuyuan Cai</p>
-    <p><b>Summary:</b> Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.21358v1">Composition Theorems for f-Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2025-12-23T08:21:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Natasha Fernandes, Annabelle McIver, Parastoo Sadeghi</p>
-    <p><b>Summary:</b> "f differential privacy" (fDP) is a recent definition for privacy privacy which can offer improved predictions of "privacy loss". It has been used to analyse specific privacy mechanisms, such as the popular Gaussian mechanism. In this paper we show how fDP's foundation in statistical hypothesis testing implies equivalence to the channel model of Quantitative Information Flow. We demonstrate this equivalence by a Galois connection between two partially ordered sets. This equivalence enables novel general composition theorems for fDP, supporting improved analysis for complex privacy designs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.19019v1">Optimizer Dynamics at the Edge of Stability with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-12-22T04:16:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ayana Hussain, Ricky Fang</p>
-    <p><b>Summary:</b> Deep learning models can reveal sensitive information about individual training examples, and while differential privacy (DP) provides guarantees restricting such leakage, it also alters optimization dynamics in poorly understood ways. We study the training dynamics of neural networks under DP by comparing Gradient Descent (GD), and Adam to their privacy-preserving variants. Prior work shows that these optimizers exhibit distinct stability dynamics: full-batch methods train at the Edge of Stability (EoS), while mini-batch and adaptive methods exhibit analogous edge-of-stability behavior. At these regimes, the training loss and the sharpness--the maximum eigenvalue of the training loss Hessian--exhibit certain characteristic behavior. In DP training, per-example gradient clipping and Gaussian noise modify the update rule, and it is unclear whether these stability patterns persist. We analyze how clipping and noise change sharpness and loss evolution and show that while DP generally reduces the sharpness and can prevent optimizers from fully reaching the classical stability thresholds, patterns from EoS and analogous adaptive methods stability regimes persist, with the largest learning rates and largest privacy budgets approaching, and sometimes exceeding, these thresholds. These findings highlight the unpredictability introduced by DP in neural network optimization.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.18809v1">FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2025-12-21T17:01:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziyuan Tao, Chuanzhi Xu, Sandaru Jayawardana, Wei Bao, Kanchana Thilakarathna, Teng Joon Lim</p>
-    <p><b>Summary:</b> The rapid growth of short-form video platforms increases the need for privacy-preserving moderation, as cloud-based pipelines expose raw videos to privacy risks, high bandwidth costs, and inference latency. To address these challenges, we propose an on-device federated learning framework for video violence detection that integrates self-supervised VideoMAE representations, LoRA-based parameter-efficient adaptation, and defense-in-depth privacy protection. Our approach reduces the trainable parameter count to 5.5M (~3.5% of a 156M backbone) and incorporates DP-SGD with configurable privacy budgets and secure aggregation. Experiments on RWF-2000 with 40 clients achieve 77.25% accuracy without privacy protection and 65-66% under strong differential privacy, while reducing communication cost by $28.3\times$ compared to full-model federated learning. The code is available at: {https://github.com/zyt-599/FedVideoMAE}</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.18646v1">Volley Revolver: A Novel Matrix-Encoding Method for Privacy-Preserving Deep Learning (Inference++)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-21T08:40:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> John Chiang</p>
-    <p><b>Summary:</b> Privacy-preserving inference of convolutional neural networks (CNNs) using homomorphic encryption has emerged as a promising approach for enabling secure machine learning in untrusted environments. In our previous work, we introduced a matrix-encoding strategy that allows convolution and matrix multiplication to be efficiently evaluated over encrypted data, enabling practical CNN inference without revealing either the input data or the model parameters. The core idea behind this strategy is to construct a three-dimensional representation within ciphertexts that preserves the intrinsic spatial structure of both input image data and model weights, rather than flattening them into conventional two-dimensional encodings. However, this approach can operate efficiently $only$ when the number of available plaintext slots within a ciphertext is sufficient to accommodate an entire input image, which becomes a critical bottleneck when processing high-resolution images. In this paper, we address this fundamental limitation by proposing an improved encoding and computation framework that removes the requirement that a single encrypted ciphertext must fully contain one input image. Our method reformulates the data layout and homomorphic operations to partition high-resolution inputs across multiple ciphertexts while preserving the algebraic structure required for efficient convolution and matrix multiplication. As a result, our approach enables privacy-preserving CNN inference to scale naturally beyond the slot-capacity constraints of prior methods, making homomorphic evaluation of CNNs practical for higher-resolution and more complex datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.18632v1">Multi-user Pufferfish Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-21T08:06:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ni Ding, Songpei Lu, Wenjing Yang, Zijian Zhang</p>
-    <p><b>Summary:</b> This paper studies how to achieve individual indistinguishability by pufferfish privacy in aggregated query to a multi-user system. It is assumed that each user reports realization of a random variable. We study how to calibrate Laplace noise, added to the query answer, to attain pufferfish privacy when user changes his/her reported data value, leaves the system and is replaced by another use with different randomness. Sufficient conditions are derived for all scenarios for attaining statistical indistinguishability on four sets of secret pairs. They are derived using the existing Kantorovich method (Wasserstain metric of order $1$). These results can be applied to attain indistinguishability when a certain class of users is added or removed from a tabular data. It is revealed that attaining indifference in individual's data is conditioned on the statistics of this user only. For binary (Bernoulli distributed) random variables, the derived sufficient conditions can be further relaxed to reduce the noise and improve data utility.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.15220v1">Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-01-21T17:53:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anmol Goel, Cornelius Emde, Sangdoo Yun, Seong Joon Oh, Martin Gubri</p>
+    <p><b>Summary:</b> We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Fine-tuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.15061v1">Differential Privacy Image Generation with Reconstruction Loss and Noise Injection Using an Error Feedback SGD</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-01-21T15:07:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qiwei Ma, Jun Zhang</p>
+    <p><b>Summary:</b> Traditional data masking techniques such as anonymization cannot achieve the expected privacy protection while ensuring data utility for privacy-preserving machine learning. Synthetic data plays an increasingly important role as it generates a large number of training samples and prevents information leakage in real data. The existing methods suffer from the repeating trade-off processes between privacy and utility. We propose a novel framework for differential privacy generation, which employs an Error Feedback Stochastic Gradient Descent(EFSGD) method and introduces a reconstruction loss and noise injection mechanism into the training process. We generate images with higher quality and usability under the same privacy budget as the related work. Extensive experiments demonstrate the effectiveness and generalization of our proposed framework for both grayscale and RGB images. We achieve state-of-the-art results over almost all metrics on three benchmarks: MNIST, Fashion-MNIST, and CelebA.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.15042v1">Federated Transformer-GNN for Privacy-Preserving Brain Tumor Localization with Modality-Level Explainability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-01-21T14:46:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andrea Protani, Riccardo Taiello, Marc Molina Van Den Bosch, Luigi Serio</p>
+    <p><b>Summary:</b> Deep learning models for brain tumor analysis require large and diverse datasets that are often siloed across healthcare institutions due to privacy regulations. We present a federated learning framework for brain tumor localization that enables multi-institutional collaboration without sharing sensitive patient data. Our method extends a hybrid Transformer-Graph Neural Network architecture derived from prior decoder-free supervoxel GNNs and is deployed within CAFEIN\textsuperscript{\textregistered}, CERN's federated learning platform designed for healthcare environments. We provide an explainability analysis through Transformer attention mechanisms that reveals which MRI modalities drive the model predictions. Experiments on the BraTS dataset demonstrate a key finding: while isolated training on individual client data triggers early stopping well before reaching full training capacity, federated learning enables continued model improvement by leveraging distributed data, ultimately matching centralized performance. This result provides strong justification for federated learning when dealing with complex tasks and high-dimensional input data, as aggregating knowledge from multiple institutions significantly benefits the learning process. Our explainability analysis, validated through rigorous statistical testing on the full test set (paired t-tests with Bonferroni correction), reveals that deeper network layers significantly increase attention to T2 and FLAIR modalities ($p<0.001$, Cohen's $d$=1.50), aligning with clinical practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.14980v1">Parallel Collaborative ADMM Privacy Computing and Adaptive GPU Acceleration for Distributed Edge Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-01-21T13:28:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mengchun Xia, Zhicheng Dong, Donghong Cai, Fang Fang, Lisheng Fan, Pingzhi Fan</p>
+    <p><b>Summary:</b> Distributed computing has been widely applied in distributed edge networks for reducing the processing burden of high-dimensional data centralization, where a high-dimensional computational task is decomposed into multiple low-dimensional collaborative processing tasks or multiple edge nodes use distributed data to train a global model. However, the computing power of a single-edge node is limited, and collaborative computing will cause information leakage and excessive communication overhead. In this paper, we design a parallel collaborative distributed alternating direction method of multipliers (ADMM) and propose a three-phase parallel collaborative ADMM privacy computing (3P-ADMM-PC2) algorithm for distributed computing in edge networks, where the Paillier homomorphic encryption is utilized to protect data privacy during interactions. Especially, a quantization method is introduced, which maps the real numbers to a positive integer interval without affecting the homomorphic operations. To address the architectural mismatch between large-integer and Graphics Processing Unit (GPU) computing, we transform high-bitwidth computations into low-bitwidth matrix and vector operations. Thus the GPU can be utilized to implement parallel encryption and decryption computations with long keys. Finally, a GPU-accelerated 3P-ADMM-PC2 is proposed to optimize the collaborative computing tasks. Meanwhile, large-scale computational tasks are conducted in network topologies with varying numbers of edge nodes. Experimental results demonstrate that the proposed 3P-ADMM-PC2 has excellent mean square error performance, which is close to that of distributed ADMM without privacy-preserving. Compared to centralized ADMM and distributed ADMM implemented with Central Processing Unit (CPU) computation, the proposed scheme demonstrates a significant speedup ratio.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.14725v1">Differential Privacy on Affine Manifolds: Geometrically Confined Privacy in Linear Dynamical Systems</a></h3>
+  
+  <p><b>Published on:</b> 2026-01-21T07:30:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zihao Ren, Lei Wang, Deming Yuan, Guodong Shi</p>
+    <p><b>Summary:</b> In this paper, we present a comprehensive framework for differential privacy over affine manifolds and validate its usefulness in the contexts of differentially private cloud-based control and average consensus. We consider differential privacy mechanisms for linear queries when the input data are constrained to lie on affine manifolds, a structural property that is assumed to be available as prior knowledge to adversaries. In this setting, the definition of neighborhood adjacency must be formulated with respect to the intrinsic geometry of the manifolds. We demonstrate that such affine-manifold constraints can fundamentally alter the attainable privacy levels relative to the unconstrained case. In particular, we derive necessary and sufficient conditions under which differential privacy can be realized via structured noise injection mechanisms, wherein correlated Gaussian or Laplace noise distributions, rather than i.i.d. perturbations, are calibrated to the dataset. Based on these characterizations, we develop explicit noise calibration procedures that guarantee the tight realization of any prescribed privacy budget with a matching noise magnitude. Finally, we show that the proposed framework admits direct applications to linear dynamical systems ranging from differentially private cloud-based control to privacy-preserving average consensus, all of which naturally involve affine-manifold constraints. The established theoretical results are illustrated through numerical examples.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.14660v1">NeuroFilter: Privacy Guardrails for Conversational LLM Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-01-21T05:16:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saswat Das, Ferdinando Fioretto</p>
+    <p><b>Summary:</b> This work addresses the computational challenge of enforcing privacy for agentic Large Language Models (LLMs), where privacy is governed by the contextual integrity framework. Indeed, existing defenses rely on LLM-mediated checking stages that add substantial latency and cost, and that can be undermined in multi-turn interactions through manipulation or benign-looking conversational scaffolding. Contrasting this background, this paper makes a key observation: internal representations associated with privacy-violating intent can be separated from benign requests using linear structure. Using this insight, the paper proposes NeuroFilter, a guardrail framework that operationalizes contextual integrity by mapping norm violations to simple directions in the model's activation space, enabling detection even when semantic filters are bypassed. The proposed filter is also extended to capture threats arising during long conversations using the concept of activation velocity, which measures cumulative drift in internal representations across turns. A comprehensive evaluation across over 150,000 interactions and covering models from 7B to 70B parameters, illustrates the strong performance of NeuroFilter in detecting privacy attacks while maintaining zero false positives on benign prompts, all while reducing the computational inference cost by several orders of magnitude when compared to LLM-based agentic privacy defenses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.14597v1">Optimality of Staircase Mechanisms for Vector Queries under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2026-01-21T02:35:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> James Melbourne, Mario Diaz, Shahab Asoodeh</p>
+    <p><b>Summary:</b> We study the optimal design of additive mechanisms for vector-valued queries under $ε$-differential privacy (DP). Given only the sensitivity of a query and a norm-monotone cost function measuring utility loss, we ask which noise distribution minimizes expected cost among all additive $ε$-DP mechanisms. Using convex rearrangement theory, we show that this infinite-dimensional optimization problem admits a reduction to a one-dimensional compact and convex family of radially symmetric distributions whose extreme points are the staircase distributions. As a consequence, we prove that for any dimension, any norm, and any norm-monotone cost function, there exists an $ε$-DP staircase mechanism that is optimal among all additive mechanisms. This result resolves a conjecture of Geng, Kairouz, Oh, and Viswanath, and provides a geometric explanation for the emergence of staircase mechanisms as extremal solutions in differential privacy.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.13824v1">ELSA: Efficient LLM-Centric Split Aggregation for Privacy-Aware Hierarchical Federated Learning over Resource-Constrained Edge Networks</a></h3>
