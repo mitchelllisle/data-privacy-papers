@@ -2228,5 +2228,174 @@
       "cs.AI",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.15220v1",
+    "title" : "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+    "summary" : "We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Fine-tuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents.",
+    "updated" : "2026-01-21T17:53:06Z",
+    "published" : "2026-01-21T17:53:06Z",
+    "authors" : [
+      {
+        "name" : "Anmol Goel"
+      },
+      {
+        "name" : "Cornelius Emde"
+      },
+      {
+        "name" : "Sangdoo Yun"
+      },
+      {
+        "name" : "Seong Joon Oh"
+      },
+      {
+        "name" : "Martin Gubri"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.15061v1",
+    "title" : "Differential Privacy Image Generation with Reconstruction Loss and Noise Injection Using an Error Feedback SGD",
+    "summary" : "Traditional data masking techniques such as anonymization cannot achieve the expected privacy protection while ensuring data utility for privacy-preserving machine learning. Synthetic data plays an increasingly important role as it generates a large number of training samples and prevents information leakage in real data. The existing methods suffer from the repeating trade-off processes between privacy and utility. We propose a novel framework for differential privacy generation, which employs an Error Feedback Stochastic Gradient Descent(EFSGD) method and introduces a reconstruction loss and noise injection mechanism into the training process. We generate images with higher quality and usability under the same privacy budget as the related work. Extensive experiments demonstrate the effectiveness and generalization of our proposed framework for both grayscale and RGB images. We achieve state-of-the-art results over almost all metrics on three benchmarks: MNIST, Fashion-MNIST, and CelebA.",
+    "updated" : "2026-01-21T15:07:33Z",
+    "published" : "2026-01-21T15:07:33Z",
+    "authors" : [
+      {
+        "name" : "Qiwei Ma"
+      },
+      {
+        "name" : "Jun Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.15042v1",
+    "title" : "Federated Transformer-GNN for Privacy-Preserving Brain Tumor Localization with Modality-Level Explainability",
+    "summary" : "Deep learning models for brain tumor analysis require large and diverse datasets that are often siloed across healthcare institutions due to privacy regulations. We present a federated learning framework for brain tumor localization that enables multi-institutional collaboration without sharing sensitive patient data. Our method extends a hybrid Transformer-Graph Neural Network architecture derived from prior decoder-free supervoxel GNNs and is deployed within CAFEIN\\textsuperscript{\\textregistered}, CERN's federated learning platform designed for healthcare environments. We provide an explainability analysis through Transformer attention mechanisms that reveals which MRI modalities drive the model predictions. Experiments on the BraTS dataset demonstrate a key finding: while isolated training on individual client data triggers early stopping well before reaching full training capacity, federated learning enables continued model improvement by leveraging distributed data, ultimately matching centralized performance. This result provides strong justification for federated learning when dealing with complex tasks and high-dimensional input data, as aggregating knowledge from multiple institutions significantly benefits the learning process. Our explainability analysis, validated through rigorous statistical testing on the full test set (paired t-tests with Bonferroni correction), reveals that deeper network layers significantly increase attention to T2 and FLAIR modalities ($p<0.001$, Cohen's $d$=1.50), aligning with clinical practice.",
+    "updated" : "2026-01-21T14:46:00Z",
+    "published" : "2026-01-21T14:46:00Z",
+    "authors" : [
+      {
+        "name" : "Andrea Protani"
+      },
+      {
+        "name" : "Riccardo Taiello"
+      },
+      {
+        "name" : "Marc Molina Van Den Bosch"
+      },
+      {
+        "name" : "Luigi Serio"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.14980v1",
+    "title" : "Parallel Collaborative ADMM Privacy Computing and Adaptive GPU Acceleration for Distributed Edge Networks",
+    "summary" : "Distributed computing has been widely applied in distributed edge networks for reducing the processing burden of high-dimensional data centralization, where a high-dimensional computational task is decomposed into multiple low-dimensional collaborative processing tasks or multiple edge nodes use distributed data to train a global model. However, the computing power of a single-edge node is limited, and collaborative computing will cause information leakage and excessive communication overhead. In this paper, we design a parallel collaborative distributed alternating direction method of multipliers (ADMM) and propose a three-phase parallel collaborative ADMM privacy computing (3P-ADMM-PC2) algorithm for distributed computing in edge networks, where the Paillier homomorphic encryption is utilized to protect data privacy during interactions. Especially, a quantization method is introduced, which maps the real numbers to a positive integer interval without affecting the homomorphic operations. To address the architectural mismatch between large-integer and Graphics Processing Unit (GPU) computing, we transform high-bitwidth computations into low-bitwidth matrix and vector operations. Thus the GPU can be utilized to implement parallel encryption and decryption computations with long keys. Finally, a GPU-accelerated 3P-ADMM-PC2 is proposed to optimize the collaborative computing tasks. Meanwhile, large-scale computational tasks are conducted in network topologies with varying numbers of edge nodes. Experimental results demonstrate that the proposed 3P-ADMM-PC2 has excellent mean square error performance, which is close to that of distributed ADMM without privacy-preserving. Compared to centralized ADMM and distributed ADMM implemented with Central Processing Unit (CPU) computation, the proposed scheme demonstrates a significant speedup ratio.",
+    "updated" : "2026-01-21T13:28:28Z",
+    "published" : "2026-01-21T13:28:28Z",
+    "authors" : [
+      {
+        "name" : "Mengchun Xia"
+      },
+      {
+        "name" : "Zhicheng Dong"
+      },
+      {
+        "name" : "Donghong Cai"
+      },
+      {
+        "name" : "Fang Fang"
+      },
+      {
+        "name" : "Lisheng Fan"
+      },
+      {
+        "name" : "Pingzhi Fan"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.14725v1",
+    "title" : "Differential Privacy on Affine Manifolds: Geometrically Confined Privacy in Linear Dynamical Systems",
+    "summary" : "In this paper, we present a comprehensive framework for differential privacy over affine manifolds and validate its usefulness in the contexts of differentially private cloud-based control and average consensus. We consider differential privacy mechanisms for linear queries when the input data are constrained to lie on affine manifolds, a structural property that is assumed to be available as prior knowledge to adversaries. In this setting, the definition of neighborhood adjacency must be formulated with respect to the intrinsic geometry of the manifolds. We demonstrate that such affine-manifold constraints can fundamentally alter the attainable privacy levels relative to the unconstrained case. In particular, we derive necessary and sufficient conditions under which differential privacy can be realized via structured noise injection mechanisms, wherein correlated Gaussian or Laplace noise distributions, rather than i.i.d. perturbations, are calibrated to the dataset. Based on these characterizations, we develop explicit noise calibration procedures that guarantee the tight realization of any prescribed privacy budget with a matching noise magnitude. Finally, we show that the proposed framework admits direct applications to linear dynamical systems ranging from differentially private cloud-based control to privacy-preserving average consensus, all of which naturally involve affine-manifold constraints. The established theoretical results are illustrated through numerical examples.",
+    "updated" : "2026-01-21T07:30:31Z",
+    "published" : "2026-01-21T07:30:31Z",
+    "authors" : [
+      {
+        "name" : "Zihao Ren"
+      },
+      {
+        "name" : "Lei Wang"
+      },
+      {
+        "name" : "Deming Yuan"
+      },
+      {
+        "name" : "Guodong Shi"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.14660v1",
+    "title" : "NeuroFilter: Privacy Guardrails for Conversational LLM Agents",
+    "summary" : "This work addresses the computational challenge of enforcing privacy for agentic Large Language Models (LLMs), where privacy is governed by the contextual integrity framework. Indeed, existing defenses rely on LLM-mediated checking stages that add substantial latency and cost, and that can be undermined in multi-turn interactions through manipulation or benign-looking conversational scaffolding. Contrasting this background, this paper makes a key observation: internal representations associated with privacy-violating intent can be separated from benign requests using linear structure. Using this insight, the paper proposes NeuroFilter, a guardrail framework that operationalizes contextual integrity by mapping norm violations to simple directions in the model's activation space, enabling detection even when semantic filters are bypassed. The proposed filter is also extended to capture threats arising during long conversations using the concept of activation velocity, which measures cumulative drift in internal representations across turns. A comprehensive evaluation across over 150,000 interactions and covering models from 7B to 70B parameters, illustrates the strong performance of NeuroFilter in detecting privacy attacks while maintaining zero false positives on benign prompts, all while reducing the computational inference cost by several orders of magnitude when compared to LLM-based agentic privacy defenses.",
+    "updated" : "2026-01-21T05:16:50Z",
+    "published" : "2026-01-21T05:16:50Z",
+    "authors" : [
+      {
+        "name" : "Saswat Das"
+      },
+      {
+        "name" : "Ferdinando Fioretto"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.14597v1",
+    "title" : "Optimality of Staircase Mechanisms for Vector Queries under Differential Privacy",
+    "summary" : "We study the optimal design of additive mechanisms for vector-valued queries under $ε$-differential privacy (DP). Given only the sensitivity of a query and a norm-monotone cost function measuring utility loss, we ask which noise distribution minimizes expected cost among all additive $ε$-DP mechanisms. Using convex rearrangement theory, we show that this infinite-dimensional optimization problem admits a reduction to a one-dimensional compact and convex family of radially symmetric distributions whose extreme points are the staircase distributions. As a consequence, we prove that for any dimension, any norm, and any norm-monotone cost function, there exists an $ε$-DP staircase mechanism that is optimal among all additive mechanisms. This result resolves a conjecture of Geng, Kairouz, Oh, and Viswanath, and provides a geometric explanation for the emergence of staircase mechanisms as extremal solutions in differential privacy.",
+    "updated" : "2026-01-21T02:35:33Z",
+    "published" : "2026-01-21T02:35:33Z",
+    "authors" : [
+      {
+        "name" : "James Melbourne"
+      },
+      {
+        "name" : "Mario Diaz"
+      },
+      {
+        "name" : "Shahab Asoodeh"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.AI",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
