@@ -2397,5 +2397,141 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.16160v1",
+    "title" : "CONTEX-T: Contextual Privacy Exploitation via Transformer Spectral Analysis for IoT Device Fingerprinting",
+    "summary" : "The rapid expansion of internet of things (IoT) devices have created a pervasive ecosystem where encrypted wireless communications serve as the primary privacy and security protection mechanism. While encryption effectively protects message content, packet metadata and statistics inadvertently expose device identities and user contexts. Various studies have exploited raw packet statistics and their visual representations for device fingerprinting and identification. However, these approaches remain confined to the spatial domain with limited feature representation. Therefore, this paper presents CONTEX-T, a novel framework that exploits contextual privacy vulnerabilities using spectral representation of encrypted wireless traffic for IoT device characterization. The experiments show that spectral analysis provides new and rich feature representation for covert reconnaissance attacks, revealing a complex and expanding threat landscape that would require robust countermeasures for IoT security management. CONTEXT-T first transforms raw packet length sequences into time-frequency spectral representations and then utilizes transformer-based spectral analysis for the device identification. We systematically evaluated multiple spectral representation techniques and transformer-based models across encrypted traffic samples from various IoT devices. CONTEXT-T effectively exploited privacy vulnerabilities and achieved device classification accuracy exceeding 99% across all devices while remaining completely passive and undetectable.",
+    "updated" : "2026-01-22T18:03:34Z",
+    "published" : "2026-01-22T18:03:34Z",
+    "authors" : [
+      {
+        "name" : "Nazmul Islam"
+      },
+      {
+        "name" : "Mohammad Zulkernine"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.16080v1",
+    "title" : "Towards a Goal-Centric Assessment of Requirements Engineering Methods for Privacy by Design",
+    "summary" : "Implementing privacy by design (PbD) according to the General Data Protection Regulation (GDPR) is met with a growing number of requirements engineering (RE) approaches. However, the question of which RE method for PbD fits best the goals of organisations remains a challenge. We report our endeavor to close this gap by synthesizing a goal-centric approach for PbD methods assessment. We used literature review, interviews, and validation with practitioners to achieve the goal of our study. As practitioners do not approach PbD systematically, we suggest that RE methods for PbD should be assessed against organisational goals, rather than process characteristics only. We hope that, when further developed, the goal-centric approach could support the development, selection, and tailoring of RE practices for PbD.",
+    "updated" : "2026-01-22T16:22:23Z",
+    "published" : "2026-01-22T16:22:23Z",
+    "authors" : [
+      {
+        "name" : "Oleksandr Kosenkov"
+      },
+      {
+        "name" : "Ehsan Zabardast"
+      },
+      {
+        "name" : "Jannik Fischbach"
+      },
+      {
+        "name" : "Tony Gorschek"
+      },
+      {
+        "name" : "Daniel Mendez"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.15697v1",
+    "title" : "Balancing Security and Privacy: The Pivotal Role of AI in Modern Healthcare Systems",
+    "summary" : "As digital threats continue to grow, organizations must find ways to enhance security while protecting user privacy. This paper explores how artificial intelligence (AI) plays a crucial role in achieving this balance. AI technologies can improve security by detecting threats, monitoring systems, and automating responses. However, using AI also raises privacy concerns that need careful consideration.We examine real-world examples from the healthcare sector to illustrate how organizations can implement AI solutions that strengthen security without compromising patient privacy. Additionally, we discuss the importance of creating transparent AI systems and adhering to privacy regulations.Ultimately, this paper provides insights and recommendations for integrating AI into healthcare security practices, helping organizations navigate the challenges of modern management while keeping patient data safe.",
+    "updated" : "2026-01-22T06:51:45Z",
+    "published" : "2026-01-22T06:51:45Z",
+    "authors" : [
+      {
+        "name" : "Binu V P"
+      },
+      {
+        "name" : "Deepthy K Bhaskar"
+      },
+      {
+        "name" : "Minimol B"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.15682v1",
+    "title" : "Tight Bounds for Gaussian Mean Estimation under Personalized Differential Privacy",
+    "summary" : "We study mean estimation for Gaussian distributions under \\textit{personalized differential privacy} (PDP), where each record has its own privacy budget. PDP is commonly considered in two variants: \\textit{bounded} and \\textit{unbounded} PDP. In bounded PDP, the privacy budgets are public and neighboring datasets differ by replacing one record. In unbounded PDP, neighboring datasets differ by adding or removing a record; consequently, an algorithm must additionally protect participation information, making both the dataset size and the privacy profile sensitive. Existing works have only studied mean estimation over bounded distributions under bounded PDP. Different from mean estimation for distributions with bounded range, where each element can be treated equally and we only need to consider the privacy diversity of elements, the challenge for Gaussian is that, elements can have very different contributions due to the unbounded support. we need to jointly consider the privacy information and the data values. Such a problem becomes even more challenging under unbounded PDP, where the privacy information is protected and the way to compute the weights becomes unclear. In this paper, we address these challenges by proposing optimal Gaussian mean estimators under both bounded and unbounded PDP, where in each setting we first derive lower bounds for both problems, following PDP mean estimators with the algorithmic upper bounds matching the corresponding lower bounds up to logarithmic factors.",
+    "updated" : "2026-01-22T06:04:41Z",
+    "published" : "2026-01-22T06:04:41Z",
+    "authors" : [
+      {
+        "name" : "Wei Dong"
+      },
+      {
+        "name" : "Li Ge"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.15595v1",
+    "title" : "Data-Free Privacy-Preserving for LLMs via Model Inversion and Selective Unlearning",
+    "summary" : "Large language models (LLMs) exhibit powerful capabilities but risk memorizing sensitive personally identifiable information (PII) from their training data, posing significant privacy concerns. While machine unlearning techniques aim to remove such data, they predominantly depend on access to the training data. This requirement is often impractical, as training data in real-world deployments is commonly proprietary or inaccessible. To address this limitation, we propose Data-Free Selective Unlearning (DFSU), a novel privacy-preserving framework that removes sensitive PII from an LLM without requiring its training data. Our approach first synthesizes pseudo-PII through language model inversion, then constructs token-level privacy masks for these synthetic samples, and finally performs token-level selective unlearning via a contrastive mask loss within a low-rank adaptation (LoRA) subspace. Extensive experiments on the AI4Privacy PII-Masking dataset using Pythia models demonstrate that our method effectively removes target PII while maintaining model utility.",
+    "updated" : "2026-01-22T02:43:12Z",
+    "published" : "2026-01-22T02:43:12Z",
+    "authors" : [
+      {
+        "name" : "Xinjie Zhou"
+      },
+      {
+        "name" : "Zhihui Yang"
+      },
+      {
+        "name" : "Lechao Cheng"
+      },
+      {
+        "name" : "Sai Wu"
+      },
+      {
+        "name" : "Gang Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.05180v2",
+    "title" : "The Adverse Effects of Omitting Records in Differential Privacy: How Sampling and Suppression Degrade the Privacy--Utility Tradeoff (Long Version)",
+    "summary" : "Sampling is renowned for its privacy amplification in differential privacy (DP), and is often assumed to improve the utility of a DP mechanism by allowing a noise reduction. In this paper, we further show that this last assumption is flawed: When measuring utility at equal privacy levels, sampling as preprocessing consistently yields penalties due to utility loss from omitting records over all canonical DP mechanisms -- Laplace, Gaussian, exponential, and report noisy max -- , as well as recent applications of sampling, such as clustering.\n  Extending this analysis, we investigate suppression as a generalized method of choosing, or omitting, records. Developing a theoretical analysis of this technique, we derive privacy bounds for arbitrary suppression strategies under unbounded approximate DP. We find that our tested suppression strategy also fails to improve the privacy--utility tradeoff. Surprisingly, uniform sampling emerges as one of the best suppression methods -- despite its still degrading effect. Our results call into question common preprocessing assumptions in DP practice.",
+    "updated" : "2026-01-22T17:15:02Z",
+    "published" : "2026-01-08T18:03:57Z",
+    "authors" : [
+      {
+        "name" : "Àlex Miranda-Pascual"
+      },
+      {
+        "name" : "Javier Parra-Arnau"
+      },
+      {
+        "name" : "Thorsten Strufe"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
