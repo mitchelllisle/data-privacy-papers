@@ -25,69 +25,68 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.24452v1">Privacy-Preserving Semantic Communications via Multi-Task Learning and Adversarial Perturbations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2025-12-30T20:19:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus</p>
-    <p><b>Summary:</b> Semantic communications conveys task-relevant meaning rather than focusing solely on message reconstruction, improving bandwidth efficiency and robustness for next-generation wireless systems. However, learned semantic representations can still leak sensitive information to unintended receivers (eavesdroppers). This paper presents a deep learning-based semantic communication framework that jointly supports multiple receiver tasks while explicitly limiting semantic leakage to an eavesdropper. The legitimate link employs a learned encoder at the transmitter, while the receiver trains decoders for semantic inference and data reconstruction. The security problem is formulated via an iterative min-max optimization in which an eavesdropper is trained to improve its semantic inference, while the legitimate transmitter-receiver pair is trained to preserve task performance while reducing the eavesdropper's success. We also introduce an auxiliary layer that superimposes a cooperative, adversarially crafted perturbation on the transmitted waveform to degrade semantic leakage to an eavesdropper. Performance is evaluated over Rayleigh fading channels with additive white Gaussian noise using MNIST and CIFAR-10 datasets. Semantic accuracy and reconstruction quality improve with increasing latent dimension, while the min-max mechanism reduces the eavesdropper's inference performance significantly without degrading the legitimate receiver. The perturbation layer is successful in reducing semantic leakage even when the legitimate link is trained only for its own task. This comprehensive framework motivates semantic communication designs with tunable, end-to-end privacy against adaptive adversaries in realistic wireless settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.24041v1">Exposed: Shedding Blacklight on Online Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2025-12-30T07:31:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lucas Shen, Gaurav Sood</p>
-    <p><b>Summary:</b> To what extent are users surveilled on the web, by what technologies, and by whom? We answer these questions by combining passively observed, anonymized browsing data of a large, representative sample of Americans with domain-level data on tracking from Blacklight. We find that nearly all users ($ > 99\%$) encounter at least one ad tracker or third-party cookie over the observation window. More invasive techniques like session recording, keylogging, and canvas fingerprinting are less widespread, but over half of the users visited a site employing at least one of these within the first 48 hours of the start of tracking. Linking trackers to their parent organizations reveals that a single organization, usually Google, can track over $50\%$ of web activity of more than half the users. Demographic differences in exposure are modest and often attenuate when we account for browsing volume. However, disparities by age and race remain, suggesting that what users browse, not just how much, shapes their surveillance risk.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.23535v1">A Privacy Protocol Using Ephemeral Intermediaries and a Rank-Deficient Matrix Power Function (RDMPF)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2025-12-29T15:19:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eduardo Salazar</p>
-    <p><b>Summary:</b> This paper presents a private transfer architecture for the Internet Computer (ICP) that decouples deposit and retrieval through two short-lived intermediaries, with sealed storage and attested teardown by an ephemeral witness. The protocol uses a non-interactive RDMPF-based encapsulation to derive per-transfer transport keys. A public notice hint is computed from the capsule to enable discovery without fingerprinting the recipient's key. Retrieval is authorized by a short proof of decapsulation that reveals no identities. All transaction intermediaries are ephemeral and issue certified destruction intents and proofs, allowing a noticeboard to publish auditable finalization records. The design provides sender identity privacy with respect to the recipient, content confidentiality against intermediaries, forward secrecy for transport keys after staged destruction, verifiable liveness and finality. We formalize the basic interfaces, provide the security arguments for encapsulation correctness, hint privacy, authorization soundness and timeout reclaim.
-  In terms of implementation, it has been recently brought into production on the ICP under the name ICPP. It has been subject to exhaustive testing and incorporates a few enhancements, focusing on the operational possibilities offered by ICP's technology. This work hence serves as a broad reference for the protocol now publicly accessible.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2512.23235v1">FairGFL: Privacy-Preserving Fairness-Aware Federated Learning with Overlapping Subgraphs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2025-12-29T06:31:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihao Zhou, Shusen Yang, Fangyuan Zhao, Xuebin Ren</p>
-    <p><b>Summary:</b> Graph federated learning enables the collaborative extraction of high-order information from distributed subgraphs while preserving the privacy of raw data. However, graph data often exhibits overlap among different clients. Previous research has demonstrated certain benefits of overlapping data in mitigating data heterogeneity. However, the negative effects have not been explored, particularly in cases where the overlaps are imbalanced across clients. In this paper, we uncover the unfairness issue arising from imbalanced overlapping subgraphs through both empirical observations and theoretical reasoning. To address this issue, we propose FairGFL (FAIRness-aware subGraph Federated Learning), a novel algorithm that enhances cross-client fairness while maintaining model utility in a privacy-preserving manner. Specifically, FairGFL incorporates an interpretable weighted aggregation approach to enhance fairness across clients, leveraging privacy-preserving estimation of their overlapping ratios. Furthermore, FairGFL improves the tradeoff between model utility and fairness by integrating a carefully crafted regularizer into the federated composite loss function. Through extensive experiments on four benchmark graph datasets, we demonstrate that FairGFL outperforms four representative baseline algorithms in terms of both model utility and fairness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.11570v1">Privacy-Preserving Black-Box Optimization (PBBO): Theory and the Model-Based Algorithm DFOp</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Numerical Analysis-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2025-12-28T09:04:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pengcheng Xie</p>
-    <p><b>Summary:</b> This paper focuses on solving unconstrained privacy-preserving black-box optimization (PBBO), its corresponding least Frobenius norm updating of quadratic models, and the differentially privacy mechanisms for PBBO. Optimization problems with transformed/encrypted objective functions aim to minimize F(x), which is encrypted/transformed/encrypted to F_k(x) as the output at the k-th iteration. A new derivative-free solver named DFOp, with its implementation, is proposed in this paper, which has a new updating formula for the quadratic model functions. The convergence of DFOp for solving problems with transformed/encrypted objective functions is given. Other analyses, including the new model updating formula and the analysis of the transformation's impact to model functions are presented. We propose two differentially private noise-adding mechanisms for privacy-preserving black-box optimization. Numerical results show that DFOp performs better than compared algorithms. To the best of our knowledge, DFOp is the first derivative-free solver that can solve black-box optimization problems with step-encryption and privacy-preserving black-box problems exactly, which also tries to answer the open question about the combination of derivative-free optimization and privacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-01</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.16857v1">Perfect Privacy and Strong Stationary Times for Markovian Sources</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-01-23T16:04:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fangwei Ye, Zonghong Liu, Parimal Parag, Salim El Rouayheb</p>
+    <p><b>Summary:</b> We consider the problem of sharing correlated data under a perfect information-theoretic privacy constraint. We focus on redaction (erasure) mechanisms, in which data are either withheld or released unchanged, and measure utility by the average cardinality of the released set, equivalently, the expected Hamming distortion. Assuming the data are generated by a finite time-homogeneous Markov chain, we study the protection of the initial state while maximizing the amount of shared data. We establish a connection between perfect privacy and window-based redaction schemes, showing that erasing data up to a strong stationary time preserves privacy under suitable conditions. We further study an optimal sequential redaction mechanism and prove that it admits an equivalent window interpretation. Interestingly, we show that both mechanisms achieve the optimal distortion while redacting only a constant average number of data points, independent of the data length~$N$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.16825v1">Privacy-Resolution Tradeoff for Adaptive Noisy Twenty Questions Estimation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-01-23T15:23:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chunsong Sun, Lin Zhou</p>
+    <p><b>Summary:</b> We revisit noisy twenty questions estimation and study the privacy-resolution tradeoff for adaptive query procedures. Specifically, in twenty questions estimation, there are two players: an oracle and a questioner. The questioner aims to estimate target variables by posing queries to the oracle that knows the variables and using noisy responses to form reliable estimates. Typically, there are adaptive and non-adaptive query procedures. In adaptive querying, one designs the current query using previous queries and their noisy responses while in non-adaptive querying, all queries are posed simultaneously. Generally speaking, adaptive query procedures yield better performance. However, adaptive querying leads to privacy concerns, which were first studied by Tsitsiklis, Xu and Xu (COLT 2018) and by Xu, Xu and Yang (AISTATS 2021) for the noiseless case, where the oracle always provides correct answers to queries. In this paper, we generalize the above results to the more practical noisy case, by proposing a two-stage private query procedure, analyzing its non-asymptotic and second-order asymptotic achievable performance and discussing the impact of privacy concerns. Furthermore, when specialized to the noiseless case, our private query procedure achieves better performance than above-mentioned query procedures (COLT 2018, AISTATS 2021).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.16824v1">Privacy in Human-AI Romantic Relationships: Concerns, Boundaries, and Agency</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-01-23T15:23:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rongjun Ma, Shijing He, Jose Luis Martin-Navarro, Xiao Zhan, Jose Such</p>
+    <p><b>Summary:</b> An increasing number of LLM-based applications are being developed to facilitate romantic relationships with AI partners, yet the safety and privacy risks in these partnerships remain largely underexplored. In this work, we investigate privacy in human-AI romantic relationships through an interview study (N=17), examining participants' experiences and privacy perceptions across stages of exploration, intimacy, and dissolution, alongside platforms they used. We found that these relationships took varied forms, from one-to-one to one-to-many, and were shaped by multiple actors, including creators, platforms, and moderators. AI partners were perceived as having agency, actively negotiating privacy boundaries with participants and sometimes encouraging disclosure of personal details. As intimacy deepened, these boundaries became more permeable, though some participants voiced concerns such as conversation exposure and sought to preserve anonymity. Overall, platform affordances and diverse romantic dynamics expand the privacy landscape, underscoring the need to rethink how privacy is constructed in human-AI intimacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.16658v1">Talking about privacy always feels like opening a can of worms. How Intimate Partners Navigate Boundary-Setting in Mobile Phone Without Words</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-01-23T11:21:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sima Amirkhani, Mahla Fatemeh Alizadeh, Farzaneh Gerami, Dave Randall, Gunnar Stevens</p>
+    <p><b>Summary:</b> Mobile phones, as simultaneously personal and shared technologies, complicate how partners manage digital privacy in intimate relationships. While prior research has examined device-access practices, explicit privacy-rule negotiation, and toxic practices such as surveillance, little is known about how couples manage digital privacy without direct discussion in everyday relationships. To address this gap, we ask: How is digital privacy managed nonverbally and across different media on mobile phones? Drawing on 20 semi-structured interviews, we find that partners often regulate privacy practices through privacy silence -- the intentional avoidance of privacy-related conversations. We identify five motivations for leaving boundaries unspoken: perceiving privacy as unnecessary in intimacy, assuming implicit respect for boundaries, signaling trust and closeness, avoiding potential conflict or harm, and responding to broader societal and cultural expectations that discourage explicit privacy talk. We also identify a hierarchical grouping of content-specific privacy sensitivities, ranging from highly private domains such as financial data to lower-risk domains such as streaming accounts, and show how these priorities shift across relationship stages. These findings show how silence, culture, and content sensitivity shape everyday boundary-setting and underscore the relational and emotional dynamics underpinning mobile phone privacy management.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.16354v1">NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-01-22T22:39:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Khoa Nguyen, Khiem Ton, NhatHai Phan, Issa Khalil, Khang Tran, Cristian Borcea, Ruoming Jin, Abdallah Khreishah, My T. Thai</p>
+    <p><b>Summary:</b> Although boosting software development performance, large language model (LLM)-powered code generation introduces intellectual property and data security risks rooted in the fact that a service provider (cloud) observes a client's prompts and generated code, which can be proprietary in commercial systems. To mitigate this problem, we propose NOIR, the first framework to protect the client's prompts and generated code from the cloud. NOIR uses an encoder and a decoder at the client to encode and send the prompts' embeddings to the cloud to get enriched embeddings from the LLM, which are then decoded to generate the code locally at the client. Since the cloud can use the embeddings to infer the prompt and the generated code, NOIR introduces a new mechanism to achieve indistinguishability, a local differential privacy protection at the token embedding level, in the vocabulary used in the prompts and code, and a data-independent and randomized tokenizer on the client side. These components effectively defend against reconstruction and frequency analysis attacks by an honest-but-curious cloud. Extensive analysis and results using open-source LLMs show that NOIR significantly outperforms existing baselines on benchmarks, including the Evalplus (MBPP and HumanEval, Pass@1 of 76.7 and 77.4), and BigCodeBench (Pass@1 of 38.7, only a 1.77% drop from the original LLM) under strong privacy against attacks.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.16160v1">CONTEX-T: Contextual Privacy Exploitation via Transformer Spectral Analysis for IoT Device Fingerprinting</a></h3>
