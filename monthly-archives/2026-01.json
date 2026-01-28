@@ -3034,5 +3034,274 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19837v1",
+    "title" : "Self-Sovereign Identity and eIDAS 2.0: An Analysis of Control, Privacy, and Legal Implications",
+    "summary" : "European digital identity initiatives are grounded in regulatory frameworks designed to ensure interoperability and robust, harmonized security standards. The evolution of these frameworks culminates in eIDAS 2.0, whose origins trace back to the Electronic Signatures Directive 1999/93/EC, the first EU-wide legal foundation for the use of electronic signatures in cross-border electronic transactions. As technological capabilities advanced, the initial eIDAS 1.0 framework was increasingly criticized for its limitations and lack of comprehensiveness. Emerging decentralized approaches further exposed these shortcomings and introduced the possibility of integrating innovative identity paradigms, such as Self-Sovereign Identity (SSI) models.\n  In this article, we analyse key provisions of the eIDAS 2.0 Regulation and its accompanying recitals, drawing on existing literature to identify legislative gaps and implementation challenges. Furthermore, we examine the European Digital Identity Architecture and Reference Framework (ARF), assessing its proposed guidelines and evaluating the extent to which its emerging implementations align with SSI principles.",
+    "updated" : "2026-01-27T17:43:48Z",
+    "published" : "2026-01-27T17:43:48Z",
+    "authors" : [
+      {
+        "name" : "Nacereddine Sitouah"
+      },
+      {
+        "name" : "Marco Esposito"
+      },
+      {
+        "name" : "Francesco Bruschi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DC",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19575v1",
+    "title" : "Putting Privacy to the Test: Introducing Red Teaming for Research Data Anonymization",
+    "summary" : "Recently, the data protection practices of researchers in human-computer interaction and elsewhere have gained attention. Initial results suggest that researchers struggle with anonymization, partly due to a lack of clear, actionable guidance. In this work, we propose simulating re-identification attacks using the approach of red teaming versus blue teaming: a technique commonly employed in security testing, where one team tries to re-identify data, and the other team tries to prevent it. We discuss our experience applying this method to data collected in a mixed-methods study in human-centered privacy. We present usable materials for researchers to apply red teaming when anonymizing and publishing their studies' data.",
+    "updated" : "2026-01-27T13:04:06Z",
+    "published" : "2026-01-27T13:04:06Z",
+    "authors" : [
+      {
+        "name" : "Luisa Jansen"
+      },
+      {
+        "name" : "Tim Ulmann"
+      },
+      {
+        "name" : "Robine Jordi"
+      },
+      {
+        "name" : "Malte Elson"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19502v1",
+    "title" : "VisGuardian: A Lightweight Group-based Privacy Control Technique For Front Camera Data From AR Glasses in Home Environments",
+    "summary" : "Always-on sensing of AI applications on AR glasses makes traditional permission techniques ill-suited for context-dependent visual data, especially within home environments. The home presents a highly challenging privacy context due to the high density of sensitive objects, and the frequent presence of non-consenting family members, and the intimate nature of daily routines, making it a critical focus area for scalable privacy control mechanisms. Existing fine-grained controls, while offering nuanced choices, are inefficient for managing multiple private objects. We propose VisGuardian, a fine-grained content-based visual permission technique for AR glasses. VisGuardian features a group-based control mechanism that enables users to efficiently manage permissions for multiple private objects. VisGuardian detects objects using YOLO and adopts a pre-classified schema to group them. By selecting a single object, users can efficiently obscure groups of related objects based on criteria including privacy sensitivity, object category, or spatial proximity. A technical evaluation shows VisGuardian achieves mAP50 of 0.6704 with only 14.0 ms latency and a 1.7% increase in battery consumption per hour. Furthermore, a user study (N=24) comparing VisGuardian to slider-based and object-based baselines found it to be significantly faster for setting permissions and was preferred by users for its efficiency, effectiveness, and ease of use.",
+    "updated" : "2026-01-27T11:41:21Z",
+    "published" : "2026-01-27T11:41:21Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Qucheng Zang"
+      },
+      {
+        "name" : "Yongquan `Owen' Hu"
+      },
+      {
+        "name" : "Jiachen Du"
+      },
+      {
+        "name" : "Xueyang Wang"
+      },
+      {
+        "name" : "Yan Kong"
+      },
+      {
+        "name" : "Xinyi Fu"
+      },
+      {
+        "name" : "Suranga Nanayakkara"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19206v1",
+    "title" : "Universal Operational Privacy in Distributed Quantum Sensing",
+    "summary" : "Privacy is a fundamental requirement in distributed quantum sensing networks, where multiple clients estimate spatially distributed parameters using shared quantum resources while interacting with potentially untrusted servers. Despite its importance, existing privacy conditions rely on idealized quantum bounds and do not fully capture the operational constraints imposed by realistic measurements. Here, we introduce a universal operational privacy framework for distributed quantum sensing, formulated in terms of the experimentally accessible classical Fisher information matrix and applicable to arbitrary protocols characterized by singular information structures. The proposed condition provides a protocol-independent criterion ensuring that no information about individual parameters is accessible to untrusted parties. We further experimentally demonstrate that a distributed quantum sensing protocol employing fewer photons than the number of estimated parameters simultaneously satisfies the universal privacy condition and achieves Heisenberg-limited precision. Our results establish universal operational constraints governing privacy in distributed quantum sensing networks and provide a foundation for practical, privacy-preserving quantum sensing beyond full-rank regimes.",
+    "updated" : "2026-01-27T05:17:46Z",
+    "published" : "2026-01-27T05:17:46Z",
+    "authors" : [
+      {
+        "name" : "Min Namkung"
+      },
+      {
+        "name" : "Dong-Hyun Kim"
+      },
+      {
+        "name" : "Seongjin Hong"
+      },
+      {
+        "name" : "Yong-Su Kim"
+      },
+      {
+        "name" : "Su-Yong Lee"
+      },
+      {
+        "name" : "Hyang-Tag Lim"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19154v1",
+    "title" : "Analysis of Shuffling Beyond Pure Local Differential Privacy",
+    "summary" : "Shuffling is a powerful way to amplify privacy of a local randomizer in private distributed data analysis, but existing analyses mostly treat the local differential privacy (DP) parameter $\\varepsilon_0$ as the only knob and give generic upper bounds that can be loose and do not even characterize how shuffling amplifies privacy for basic mechanisms such as the Gaussian mechanism. We revisit the privacy blanket bound of Balle et al. (the blanket divergence) and develop an asymptotic analysis that applies to a broad class of local randomizers under mild regularity assumptions, without requiring pure local DP. Our key finding is that the leading term of the blanket divergence depends on the local mechanism only through a single scalar parameter $χ$, which we call the shuffle index. By applying this asymptotic analysis to both upper and lower bounds, we obtain a tight band for $δ_n$ in the shuffled mechanism's $(\\varepsilon_n,δ_n)$-DP guarantee. Moreover, we derive a simple structural necessary and sufficient condition on the local randomizer under which the blanket-divergence-based upper and lower bounds coincide asymptotically. $k$-RR families with $k\\ge3$ satisfy this condition, while for generalized Gaussian mechanisms the condition may not hold but the resulting band remains tight. Finally, we complement the asymptotic theory with an FFT-based algorithm for computing the blanket divergence at finite $n$, which offers rigorously controlled relative error and near-linear running time in $n$, providing a practical numerical analysis for shuffle DP.",
+    "updated" : "2026-01-27T03:35:03Z",
+    "published" : "2026-01-27T03:35:03Z",
+    "authors" : [
+      {
+        "name" : "Shun Takagi"
+      },
+      {
+        "name" : "Seng Pei Liew"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19126v1",
+    "title" : "How Entanglement Reshapes the Geometry of Quantum Differential Privacy",
+    "summary" : "Quantum differential privacy provides a rigorous framework for quantifying privacy guarantees in quantum information processing. While classical correlations are typically regarded as adversarial to privacy, the role of their quantum analogue, entanglement, is not well understood. In this work, we investigate how quantum entanglement fundamentally shapes quantum local differential privacy (QLDP). We consider a bipartite quantum system whose input state has a prescribed level of entanglement, characterized by a lower bound on the entanglement entropy. Each subsystem is then processed by a local quantum mechanism and measured using local operations only, ensuring that no additional entanglement is generated during the process. Our main result reveals a sharp phase-transition phenomenon in the relation between entanglement and QLDP: below a mechanism-dependent entropy threshold, the optimal privacy leakage level mirrors that of unentangled inputs; beyond this threshold, the privacy leakage level decreases with the entropy, which strictly improves privacy guarantees and can even turn some non-private mechanisms into private ones. The phase-transition phenomenon gives rise to a nonlinear dependence of the privacy leakage level on the entanglement entropy, even though the underlying quantum mechanisms and measurements are linear. We show that the transition is governed by the intrinsic non-convex geometry of the set of entanglement-constrained quantum states, which we parametrize as a smooth manifold and analyze via Riemannian optimization. Our findings demonstrate that entanglement serves as a genuine privacy-enhancing resource, offering a geometric and operational foundation for designing robust privacy-preserving quantum protocols.",
+    "updated" : "2026-01-27T02:50:51Z",
+    "published" : "2026-01-27T02:50:51Z",
+    "authors" : [
+      {
+        "name" : "Xi Wang"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      },
+      {
+        "name" : "Guodong Shi"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19090v1",
+    "title" : "Privacy-Preserving Model Transcription with Differentially Private Synthetic Distillation",
+    "summary" : "While many deep learning models trained on private datasets have been deployed in various practical tasks, they may pose a privacy leakage risk as attackers could recover informative data or label knowledge from models. In this work, we present \\emph{privacy-preserving model transcription}, a data-free model-to-model conversion solution to facilitate model deployment with a privacy guarantee. To this end, we propose a cooperative-competitive learning approach termed \\emph{differentially private synthetic distillation} that learns to convert a pretrained model (teacher) into its privacy-preserving counterpart (student) via a trainable generator without access to private data. The learning collaborates with three players in a unified framework and performs alternate optimization: i)~the generator is learned to generate synthetic data, ii)~the teacher and student accept the synthetic data and compute differential private labels by flexible data or label noisy perturbation, and iii)~the student is updated with noisy labels and the generator is updated by taking the student as a discriminator for adversarial training. We theoretically prove that our approach can guarantee differential privacy and convergence. The transcribed student has good performance and privacy protection, while the resulting generator can generate private synthetic data for downstream tasks. Extensive experiments clearly demonstrate that our approach outperforms 26 state-of-the-arts.",
+    "updated" : "2026-01-27T01:51:35Z",
+    "published" : "2026-01-27T01:51:35Z",
+    "authors" : [
+      {
+        "name" : "Bochao Liu"
+      },
+      {
+        "name" : "Shiming Ge"
+      },
+      {
+        "name" : "Pengju Wang"
+      },
+      {
+        "name" : "Shikun Li"
+      },
+      {
+        "name" : "Tongliang Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.18842v1",
+    "title" : "GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents",
+    "summary" : "GUI agents enable end-to-end automation through direct perception of and interaction with on-screen interfaces. However, these agents frequently access interfaces containing sensitive personal information, and screenshots are often transmitted to remote models, creating substantial privacy risks. These risks are particularly severe in GUI workflows: GUIs expose richer, more accessible private information, and privacy risks depend on interaction trajectories across sequential scenes. We propose GUIGuard, a three-stage framework for privacy-preserving GUI agents: (1) privacy recognition, (2) privacy protection, and (3) task execution under protection. We further construct GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and 13,830 screenshots, annotated with region-level privacy grounding and fine-grained labels of risk level, privacy category, and task necessity. Evaluations reveal that existing agents exhibit limited privacy recognition, with state-of-the-art models achieving only 13.3% accuracy on Android and 1.4% on PC. Under privacy protection, task-planning semantics can still be maintained, with closed-source models showing stronger semantic consistency than open-source ones. Case studies on MobileWorld show that carefully designed protection strategies achieve higher task accuracy while preserving privacy. Our results highlight privacy recognition as a critical bottleneck for practical GUI agents. Project: https://futuresis.github.io/GUIGuard-page/",
+    "updated" : "2026-01-26T11:33:40Z",
+    "published" : "2026-01-26T11:33:40Z",
+    "authors" : [
+      {
+        "name" : "Yanxi Wang"
+      },
+      {
+        "name" : "Zhiling Zhang"
+      },
+      {
+        "name" : "Wenbo Zhou"
+      },
+      {
+        "name" : "Weiming Zhang"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Qiannan Zhu"
+      },
+      {
+        "name" : "Yu Shi"
+      },
+      {
+        "name" : "Shuxin Zheng"
+      },
+      {
+        "name" : "Jiyan He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.18834v1",
+    "title" : "CanaryBench: Stress Testing Privacy Leakage in Cluster-Level Conversation Summaries",
+    "summary" : "Aggregate analytics over conversational data are increasingly used for safety monitoring, governance, and product analysis in large language model systems. A common practice is to embed conversations, cluster them, and publish short textual summaries describing each cluster. While raw conversations may never be exposed, these derived summaries can still pose privacy risks if they contain personally identifying information (PII) or uniquely traceable strings copied from individual conversations.\n  We introduce CanaryBench, a simple and reproducible stress test for privacy leakage in cluster-level conversation summaries. CanaryBench generates synthetic conversations with planted secret strings (\"canaries\") that simulate sensitive identifiers. Because canaries are known a priori, any appearance of these strings in published summaries constitutes a measurable leak.\n  Using TF-IDF embeddings and k-means clustering on 3,000 synthetic conversations (24 topics) with a canary injection rate of 0.60, we evaluate an intentionally extractive example snippet summarizer that models quote-like reporting. In this configuration, we observe canary leakage in 50 of 52 canary-containing clusters (cluster-level leakage rate 0.961538), along with nonzero regex-based PII indicator counts. A minimal defense combining a minimum cluster-size publication threshold (k-min = 25) and regex-based redaction eliminates measured canary leakage and PII indicator hits in the reported run while maintaining a similar cluster-coherence proxy. We position this work as a societal impacts contribution centered on privacy risk measurement for published analytics artifacts rather than raw user data.",
+    "updated" : "2026-01-25T20:30:37Z",
+    "published" : "2026-01-25T20:30:37Z",
+    "authors" : [
+      {
+        "name" : "Deep Mehta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.17644v2",
+    "title" : "A Systemic Evaluation of Multimodal RAG Privacy",
+    "summary" : "The growing adoption of multimodal Retrieval-Augmented Generation (mRAG) pipelines for vision-centric tasks (e.g. visual QA) introduces important privacy challenges. In particular, while mRAG provides a practical capability to connect private datasets to improve model performance, it risks the leakage of private information from these datasets during inference. In this paper, we perform an empirical study to analyze the privacy risks inherent in the mRAG pipeline observed through standard model prompting. Specifically, we implement a case study that attempts to infer the inclusion of a visual asset, e.g. image, in the mRAG, and if present leak the metadata, e.g. caption, related to it. Our findings highlight the need for privacy-preserving mechanisms and motivate future research on mRAG privacy.",
+    "updated" : "2026-01-27T02:40:35Z",
+    "published" : "2026-01-25T01:37:01Z",
+    "authors" : [
+      {
+        "name" : "Ali Al-Lawati"
+      },
+      {
+        "name" : "Suhang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
