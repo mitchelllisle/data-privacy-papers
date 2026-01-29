@@ -2,6 +2,59 @@
 <h2>2026-01</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.20792v1">Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-01-28T17:29:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Thomas Brackin</p>
+    <p><b>Summary:</b> Privacy policies are supposed to provide notice. But what if substantive information appears only where users skip it? We identify a structural pattern we call jurisdiction-siloed disclosure: information about data practices appearing in specific, actionable form only within regional compliance sections labeled "California Residents" or "EU/UK Users," while general sections use vague or qualified language for the same practices.
+  Our audit of 123 major companies identifies 282 potential instances across 77 companies (62.6% of this purposive sample). A conservative estimate restricted to practice categories validated against OPP-115 human annotations finds 138 instances across 54 companies (44%); post-2018 categories central to our findings await independent validation. If users skip jurisdiction-labeled sections as information foraging theory predicts, users outside regulated jurisdictions would receive less specific information about practices affecting them--a transparency failure operating through document architecture rather than omission.
+  We propose universal substantive disclosure: practices affecting all users should appear in the main policy body, with regional sections containing only procedural rights information. This standard finds support in analogous disclosure regimes (securities, truth-in-lending, nutritional labeling) where material information must reach all affected parties. Regulators could operationalize this through the FTC's "clear and conspicuous" standard and GDPR transparency principles.
+  This work is hypothesis-generating: we establish that the structural pattern exists and ground the transparency concern in behavioral theory, but direct measurement of jurisdiction-specific section skipping remains the critical validation priority. We release our methodology and annotated dataset to enable replication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.20716v1">Decentralized Identity in Practice: Benchmarking Latency, Cost, and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2026-01-28T15:48:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abylay Satybaldy, Kamil Tylinski, Jiahua Xu</p>
+    <p><b>Summary:</b> Decentralized Identifiers (DIDs) are increasingly deployed on distributed ledgers, yet systematic cross-platform evidence on their operational behavior remains limited. We present an empirical benchmarking study of three prominent ledger-based DID methods - Ethereum, Hedera, and XRP Ledger - using reference Software Development Kits (SDKs) under a unified experimental setup. We measure latency, transaction cost, and on-chain metadata exposure, normalizing latency by each platform's block or consensus interval and cost by its native value transfer fee. Privacy leakage is quantified using a Metadata-Leakage Score (MLS), an entropy-based measure expressed in bits per operation.
+  Our results reveal distinct architectural trade-offs. Ethereum enables near-instant, off-chain DID creation, but incurs the highest latency and cost for on-chain lifecycle operations. XRPL delivers deterministic and stable latency with fixed, low fees, yet exhibits higher metadata leakage due to more verbose transaction payloads. Hedera achieves the lowest on-chain latency and low fees with minimal metadata leakage, while occasional variance arises from SDK-side processing and confirmation pipelines.
+  Overall, the findings show that ledger architecture and SDK workflows play a major role in shaping DID latency, cost, and metadata exposure, complementing the effects of the underlying consensus mechanism. These results provide evidence-based insights to support informed selection and configuration of DID systems under performance and privacy constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.20325v1">UnlearnShield: Shielding Forgotten Privacy against Unlearning Inversion</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-01-28T07:42:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lulu Xue, Shengshan Hu, Wei Lu, Ziqi Zhou, Yufei Song, Jianhong Cheng, Minghui Li, Yanjun Zhang, Leo Yu Zhang</p>
+    <p><b>Summary:</b> Machine unlearning is an emerging technique that aims to remove the influence of specific data from trained models, thereby enhancing privacy protection. However, recent research has uncovered critical privacy vulnerabilities, showing that adversaries can exploit unlearning inversion to reconstruct data that was intended to be erased. Despite the severity of this threat, dedicated defenses remain lacking. To address this gap, we propose UnlearnShield, the first defense specifically tailored to counter unlearning inversion. UnlearnShield introduces directional perturbations in the cosine representation space and regulates them through a constraint module to jointly preserve model accuracy and forgetting efficacy, thereby reducing inversion risk while maintaining utility. Experiments demonstrate that it achieves a good trade-off among privacy protection, accuracy, and forgetting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.20161v1">Supporting Informed Self-Disclosure: Design Recommendations for Presenting AI-Estimates of Privacy Risks to Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-01-28T01:35:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Isadora Krsek, Meryl Ye, Wei Xu, Alan Ritter, Laura Dabbish, Sauvik Das</p>
+    <p><b>Summary:</b> People candidly discuss sensitive topics online under the perceived safety of anonymity; yet, for many, this perceived safety is tenuous, as miscalibrated risk perceptions can lead to over-disclosure. Recent advances in Natural Language Processing (NLP) afford an unprecedented opportunity to present users with quantified disclosure-based re-identification risk (i.e., "population risk estimates", PREs). How can PREs be presented to users in a way that promotes informed decision-making, mitigating risk without encouraging unnecessary self-censorship? Using design fictions and comic-boarding, we story-boarded five design concepts for presenting PREs to users and evaluated them through an online survey with N = 44 Reddit users. We found participants had detailed conceptions of how PREs may impact risk awareness and motivation, but envisioned needing additional context and support to effectively interpret and act on risks. We distill our findings into four key design recommendations for how best to present users with quantified privacy risks to support informed disclosure decision-making.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2601.19837v1">Self-Sovereign Identity and eIDAS 2.0: An Analysis of Control, Privacy, and Legal Implications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
   <p><b>Published on:</b> 2026-01-27T17:43:48Z</p>
@@ -15,7 +68,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.19575v1">Putting Privacy to the Test: Introducing Red Teaming for Research Data Anonymization</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.19575v2">Putting Privacy to the Test: Introducing Red Teaming for Research Data Anonymization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-01-27T13:04:06Z</p>
   <details>
@@ -34,6 +87,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Shuning Zhang, Qucheng Zang, Yongquan `Owen' Hu, Jiachen Du, Xueyang Wang, Yan Kong, Xinyi Fu, Suranga Nanayakkara, Xin Yi, Hewu Li</p>
     <p><b>Summary:</b> Always-on sensing of AI applications on AR glasses makes traditional permission techniques ill-suited for context-dependent visual data, especially within home environments. The home presents a highly challenging privacy context due to the high density of sensitive objects, and the frequent presence of non-consenting family members, and the intimate nature of daily routines, making it a critical focus area for scalable privacy control mechanisms. Existing fine-grained controls, while offering nuanced choices, are inefficient for managing multiple private objects. We propose VisGuardian, a fine-grained content-based visual permission technique for AR glasses. VisGuardian features a group-based control mechanism that enables users to efficiently manage permissions for multiple private objects. VisGuardian detects objects using YOLO and adopts a pre-classified schema to group them. By selecting a single object, users can efficiently obscure groups of related objects based on criteria including privacy sensitivity, object category, or spatial proximity. A technical evaluation shows VisGuardian achieves mAP50 of 0.6704 with only 14.0 ms latency and a 1.7% increase in battery consumption per hour. Furthermore, a user study (N=24) comparing VisGuardian to slider-based and object-based baselines found it to be significantly faster for setting permissions and was preferred by users for its efficiency, effectiveness, and ease of use.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2601.19956v1">VoxPrivacy: A Benchmark for Evaluating Interactional Privacy of Speech Language Models</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2026-01-27T06:22:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxiang Wang, Hongyu Liu, Dekun Chen, Xueyao Zhang, Zhizheng Wu</p>
+    <p><b>Summary:</b> As Speech Language Models (SLMs) transition from personal devices to shared, multi-user environments such as smart homes, a new challenge emerges: the model is expected to distinguish between users to manage information flow appropriately. Without this capability, an SLM could reveal one user's confidential schedule to another, a privacy failure we term interactional privacy. Thus, the ability to generate speaker-aware responses becomes essential for SLM safe deployment. Current SLM benchmarks test dialogue ability but overlook speaker identity. Multi-speaker benchmarks check who said what without assessing whether SLMs adapt their responses. Privacy benchmarks focus on globally sensitive data (e.g., bank passwords) while neglecting contextual privacy-sensitive information (e.g., a user's private appointment). To address this gap, we introduce VoxPrivacy, the first benchmark designed to evaluate interactional privacy in SLMs. VoxPrivacy spans three tiers of increasing difficulty, from following direct secrecy commands to proactively protecting privacy. Our evaluation of nine SLMs on a 32-hour bilingual dataset reveals a widespread vulnerability: most open-source models perform close to random chance (around 50% accuracy) on conditional privacy decisions, while even strong closed-source systems fall short on proactive privacy inference. We further validate these findings on Real-VoxPrivacy, a human-recorded subset, confirming that failures observed on synthetic data persist in real speech. Finally, we demonstrate a viable path forward: by fine-tuning on a new 4,000-hour training set, we improve privacy-preserving abilities while maintaining robustness. To support future work, we release the VoxPrivacy benchmark, the large-scale training set, and the fine-tuned model to foster the development of safer and more context-aware SLMs.</p>
   </details>
 </div>
 
@@ -1150,66 +1215,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Trevor De Clark, Yulia Bobkova, Ajay Kumar Shrestha</p>
     <p><b>Summary:</b> This paper investigates the privacy and usability of AI-enabled smart devices commonly used by youth, focusing on Google Home Mini, Amazon Alexa, and Apple Siri. While these devices provide convenience and efficiency, they also raise privacy and transparency concerns due to their always-listening design and complex data management processes. The study proposes and applies a combined framework of Heuristic Evaluation, Personal Information Protection and Electronic Documents Act (PIPEDA) Compliance Assessment, and Youth-Centered Usability Testing to assess whether these devices align with Privacy-by-Design principles and support meaningful user control. Results show that Google Home achieved the highest usability score, while Siri scored highest in regulatory compliance, indicating a trade-off between user convenience and privacy protection. Alexa demonstrated clearer task navigation but weaker transparency in data retention. Findings suggest that although youth may feel capable of managing their data, their privacy self-efficacy remains limited by technical design, complex settings, and unclear data policies. The paper concludes that enhancing transparency, embedding privacy guidance during onboarding, and improving policy alignment are critical steps toward ensuring that smart devices are both usable and compliant with privacy standards that protect young users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.11598v1">Toward Youth-Centered Privacy-by-Design in Smart Devices: A Systematic Review</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-07T21:17:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Molly Campbell, Mohamad Sheikho Al Jasem, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> This literature review evaluates privacy-by-design frameworks, tools, and policies intended to protect youth in AI-enabled smart devices using a PRISMA-guided workflow. Sources from major academic and grey-literature repositories from the past decade were screened. The search identified 2,216 records; after deduplication and screening, 645 articles underwent eligibility assessment, and 122 were included for analysis. The corpus was organized along three thematic categories: technical solutions, policy/regulatory measures, and education/awareness strategies. Findings reveal that while technical interventions such as on-device processing, federated learning, and lightweight encryption significantly reduce data exposure, their adoption remains limited. Policy frameworks, including the EU's GDPR, the UK Age-Appropriate Design Code, and Canada's PIPEDA, provide important baselines but are hindered by gaps in enforcement and age-appropriate design obligations, while educational initiatives are rarely integrated systematically into curricula. Overall, the corpus skews toward technical solutions (67%) relative to policy (21%) and education (12%), indicating an implementation gap outside the technical domain. To address these challenges, we recommend a multi-stakeholder model in which policymakers, manufacturers, and educators co-develop inclusive, transparent, and context-sensitive privacy ecosystems. This work advances discourse on youth data protection by offering empirically grounded insights and actionable recommendations for the design of ethical, privacy-preserving AI systems tailored to young users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.04399v1">Convenience vs. Control: A Qualitative Study of Youth Privacy with Smart Voice Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-07T21:15:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Molly Campbell, Trevor De Clark, Mohamad Sheikho Al Jasem, Sandhya Joshi, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> Smart voice assistants (SVAs) are embedded in the daily lives of youth, yet their privacy controls often remain opaque and difficult to manage. Through five semi-structured focus groups (N=26) with young Canadians (ages 16-24), we investigate how perceived privacy risks (PPR) and benefits (PPBf) intersect with algorithmic transparency and trust (ATT) and privacy self-efficacy (PSE) to shape privacy-protective behaviors (PPB). Our analysis reveals that policy overload, fragmented settings, and unclear data retention undermine self-efficacy and discourage protective actions. Conversely, simple transparency cues were associated with greater confidence without diminishing the utility of hands-free tasks and entertainment. We synthesize these findings into a qualitative model in which transparency friction erodes PSE, which in turn weakens PPB. From this model, we derive actionable design guidance for SVAs, including a unified privacy hub, plain-language "data nutrition" labels, clear retention defaults, and device-conditional micro-tutorials. This work foregrounds youth perspectives and offers a path for SVA governance and design that empowers young digital citizens while preserving convenience.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.04298v1">Privacy at Scale in Networked Healthcare</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2026-01-07T17:58:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> M. Amin Rahimian, Benjamin Panny, James Joshi</p>
-    <p><b>Summary:</b> Digitized, networked healthcare promises earlier detection, precision therapeutics, and continuous care; yet, it also expands the surface for privacy loss and compliance risk. We argue for a shift from siloed, application-specific protections to privacy-by-design at scale, centered on decision-theoretic differential privacy (DP) across the full healthcare data lifecycle; network-aware privacy accounting for interdependence in people, sensors, and organizations; and compliance-as-code tooling that lets health systems share evidence while demonstrating regulatory due care. We synthesize the privacy-enhancing technology (PET) landscape in health (federated analytics, DP, cryptographic computation), identify practice gaps, and outline a deployable agenda involving privacy-budget ledgers, a control plane to coordinate PET components across sites, shared testbeds, and PET literacy, to make lawful, trustworthy sharing the default. We illustrate with use cases (multi-site trials, genomics, disease surveillance, mHealth) and highlight distributed inference as a workhorse for multi-institution learning under explicit privacy budgets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.03979v1">SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-01-07T14:50:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andreea-Elena Bodea, Stephen Meisenbacher, Alexandra Klymenko, Florian Matthes</p>
-    <p><b>Summary:</b> The continued promise of Large Language Models (LLMs), particularly in their natural language understanding and generation capabilities, has driven a rapidly increasing interest in identifying and developing LLM use cases. In an effort to complement the ingrained "knowledge" of LLMs, Retrieval-Augmented Generation (RAG) techniques have become widely popular. At its core, RAG involves the coupling of LLMs with domain-specific knowledge bases, whereby the generation of a response to a user question is augmented with contextual and up-to-date information. The proliferation of RAG has sparked concerns about data privacy, particularly with the inherent risks that arise when leveraging databases with potentially sensitive information. Numerous recent works have explored various aspects of privacy risks in RAG systems, from adversarial attacks to proposed mitigations. With the goal of surveying and unifying these works, we ask one simple question: What are the privacy risks in RAG, and how can they be measured and mitigated? To answer this question, we conduct a systematic literature review of RAG works addressing privacy, and we systematize our findings into a comprehensive set of privacy risks, mitigation techniques, and evaluation strategies. We supplement these findings with two primary artifacts: a Taxonomy of RAG Privacy Risks and a RAG Privacy Process Diagram. Our work contributes to the study of privacy in RAG not only by conducting the first systematization of risks and mitigations, but also by uncovering important considerations when mitigating privacy risks in RAG systems and assessing the current maturity of proposed mitigations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.04280v1">A Privacy-Preserving Localization Scheme with Node Selection in Mobile Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-07T12:48:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liangbo Xie, Mude Cai, Xiaolong Yang, Mu Zhou, Jiacheng Wang, Dusit Niyato</p>
-    <p><b>Summary:</b> Localization in mobile networks has been widely applied in many scenarios. However, an entity responsible for location estimation exposes both the target and anchors to potential location leakage at any time, creating serious security risks. Although existing studies have proposed privacy-preserving localization algorithms, they still face challenges of insufficient positioning accuracy and excessive communication overhead. In this article, we propose a privacy-preserving localization scheme, named PPLZN. PPLZN protects protects the location privacy of both the target and anchor nodes in crowdsourced localization. Simulation results validate the effectiveness of PPLZN. Evidently, it can achieve accurate position estimation without location leakage and outperform state-of-the-art approaches in both positioning accuracy and communication overhead. In addition, PPLZN significantly reduces computational and communication overhead in large-scale deployments, making it well-fitted for practical privacy-preserving localization in resource-constrained networks.</p>
   </details>
 </div>
 
