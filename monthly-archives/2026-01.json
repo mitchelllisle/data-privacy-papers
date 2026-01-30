@@ -3465,5 +3465,192 @@
       "cs.AI",
       "cs.SD"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22104v1",
+    "title" : "Social Media Data for Population Mapping: A Bayesian Approach to Address Representativeness and Privacy Challenges",
+    "summary" : "Accurate and timely population data are essential for disaster response and humanitarian planning, but traditional censuses often cannot capture rapid demographic changes. Social media data offer a promising alternative for dynamic population monitoring, but their representativeness remains poorly understood and stringent privacy requirements limit their reliability. Here, we address these limitations in the context of the Philippines by calibrating Facebook user counts with the country's 2020 census figures. First, we find that differential privacy techniques commonly applied to social media-based population datasets disproportionately mask low-population areas. To address this, we propose a Bayesian imputation approach to recover missing values, restoring data coverage for $5.5\\%$ of rural areas. Further, using the imputed social media data and leveraging predictors such as urbanisation level, demographic composition, and socio-economic status, we develop a statistical model for the proportion of Facebook users in each municipality, which links observed Facebook user numbers to the true population levels. Out-of-sample validation demonstrates strong result generalisability, with errors as low as ${\\approx}18\\%$ and ${\\approx}24\\%$ for urban and rural Facebook user proportions, respectively. We further demonstrate that accounting for overdispersion and spatial correlations in the data is crucial to obtain accurate estimates and appropriate credible intervals. Crucially, as predictors change over time, the models can be used to regularly update the population predictions, providing a dynamic complement to census-based estimates. These results have direct implications for humanitarian response in disaster-prone regions and offer a general framework for using biased social media signals to generate reliable and timely population data.",
+    "updated" : "2026-01-29T18:36:16Z",
+    "published" : "2026-01-29T18:36:16Z",
+    "authors" : [
+      {
+        "name" : "Paolo Andrich"
+      },
+      {
+        "name" : "Shengjie Lai"
+      },
+      {
+        "name" : "Halim Jun"
+      },
+      {
+        "name" : "Qianwen Duan"
+      },
+      {
+        "name" : "Zhifeng Cheng"
+      },
+      {
+        "name" : "Seth R. Flaxman"
+      },
+      {
+        "name" : "Andrew J. Tatem"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.21859v1",
+    "title" : "Adaptive Privacy of Sequential Data Releases Under Collusion",
+    "summary" : "The fundamental trade-off between privacy and utility remains an active area of research. Our contribution is motivated by two observations. First, privacy mechanisms developed for one-time data release cannot straightforwardly be extended to sequential releases. Second, practical databases are likely to be useful to multiple distinct parties. Furthermore, we can not rule out the possibility of data sharing between parties. With utility in mind, we formulate a privacy-utility trade-off problem to adaptively tackle sequential data requests made by different, potentially colluding entities. We consider both expected distortion and mutual information as measures to quantify utility, and use mutual information to measure privacy. We assume an attack model whereby illicit data sharing, which we call collusion, can occur between data receivers. We develop an adaptive algorithm for data releases that makes use of a modified Blahut-Arimoto algorithm. We show that the resulting data releases are optimal when expected distortion quantifies utility, and locally optimal when mutual information quantifies utility. Finally, we discuss how our findings may extend to applications in machine learning.",
+    "updated" : "2026-01-29T15:29:38Z",
+    "published" : "2026-01-29T15:29:38Z",
+    "authors" : [
+      {
+        "name" : "Sophie Taylor"
+      },
+      {
+        "name" : "Praneeth Kumar Vippathalla"
+      },
+      {
+        "name" : "Justin Coon"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.21719v1",
+    "title" : "LoRA and Privacy: When Random Projections Help (and When They Don't)",
+    "summary" : "We introduce the (Wishart) projection mechanism, a randomized map of the form $S \\mapsto M f(S)$ with $M \\sim W_d(1/r I_d, r)$ and study its differential privacy properties. For vector-valued queries $f$, we prove non-asymptotic DP guarantees without any additive noise, showing that Wishart randomness alone can suffice. For matrix-valued queries, however, we establish a sharp negative result: in the noise-free setting, the mechanism is not DP, and we demonstrate its vulnerability by implementing a near perfect membership inference attack (AUC $> 0.99$). We then analyze a noisy variant and prove privacy amplification due to randomness and low rank projection, in both large- and small-rank regimes, yielding stronger privacy guarantees than additive noise alone. Finally, we show that LoRA-style updates are an instance of the matrix-valued mechanism, implying that LoRA is not inherently private despite its built-in randomness, but that low-rank fine-tuning can be more private than full fine-tuning at the same noise level. Preliminary experiments suggest that tighter accounting enables lower noise and improved accuracy in practice.",
+    "updated" : "2026-01-29T13:43:37Z",
+    "published" : "2026-01-29T13:43:37Z",
+    "authors" : [
+      {
+        "name" : "Yaxi Hu"
+      },
+      {
+        "name" : "Johanna Düngler"
+      },
+      {
+        "name" : "Bernhard Schölkopf"
+      },
+      {
+        "name" : "Amartya Sanyal"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.21636v1",
+    "title" : "Sampling-Free Privacy Accounting for Matrix Mechanisms under Random Allocation",
+    "summary" : "We study privacy amplification for differentially private model training with matrix factorization under random allocation (also known as the balls-in-bins model). Recent work by Choquette-Choo et al. (2025) proposes a sampling-based Monte Carlo approach to compute amplification parameters in this setting. However, their guarantees either only hold with some high probability or require random abstention by the mechanism. Furthermore, the required number of samples for ensuring $(ε,δ)$-DP is inversely proportional to $δ$. In contrast, we develop sampling-free bounds based on Rényi divergence and conditional composition. The former is facilitated by a dynamic programming formulation to efficiently compute the bounds. The latter complements it by offering stronger privacy guarantees for small $ε$, where Rényi divergence bounds inherently lead to an over-approximation. Our framework applies to arbitrary banded and non-banded matrices. Through numerical comparisons, we demonstrate the efficacy of our approach across a broad range of matrix mechanisms used in research and practice.",
+    "updated" : "2026-01-29T12:40:29Z",
+    "published" : "2026-01-29T12:40:29Z",
+    "authors" : [
+      {
+        "name" : "Jan Schuchardt"
+      },
+      {
+        "name" : "Nikita Kalinin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.21265v1",
+    "title" : "A Quantum-Memory-Free Quantum Secure Direct Communication Protocol Based on Privacy Amplification of Coded Sequences",
+    "summary" : "We develop an information-theoretic analysis of Quantum-Memory-Free (QMF) Quantum Secure Direct Communication (QSDC) under collective attacks as an alternative to the conventional Quantum Key Distribution (QKD) protocol with one-time pads. Our main contributions are: 1) a QMF-QSDC protocol that only relies on universal hashing of coded sequences without wiretap coding; 2) a set of privacy amplification theorems for extracting secrecy from coded classical sequences against quantum side-information. These tools open the way to the design of robust QMF-QSDC protocols.",
+    "updated" : "2026-01-29T04:55:31Z",
+    "published" : "2026-01-29T04:55:31Z",
+    "authors" : [
+      {
+        "name" : "Shang-Jen Su"
+      },
+      {
+        "name" : "Shi-Yuan Wang"
+      },
+      {
+        "name" : "Matthieu R. Bloch"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.18842v2",
+    "title" : "GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents",
+    "summary" : "GUI agents enable end-to-end automation through direct perception of and interaction with on-screen interfaces. However, these agents frequently access interfaces containing sensitive personal information, and screenshots are often transmitted to remote models, creating substantial privacy risks. These risks are particularly severe in GUI workflows: GUIs expose richer, more accessible private information, and privacy risks depend on interaction trajectories across sequential scenes. We propose GUIGuard, a three-stage framework for privacy-preserving GUI agents: (1) privacy recognition, (2) privacy protection, and (3) task execution under protection. We further construct GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and 13,830 screenshots, annotated with region-level privacy grounding and fine-grained labels of risk level, privacy category, and task necessity. Evaluations reveal that existing agents exhibit limited privacy recognition, with state-of-the-art models achieving only 13.3% accuracy on Android and 1.4% on PC. Under privacy protection, task-planning semantics can still be maintained, with closed-source models showing stronger semantic consistency than open-source ones. Case studies on MobileWorld show that carefully designed protection strategies achieve higher task accuracy while preserving privacy. Our results highlight privacy recognition as a critical bottleneck for practical GUI agents. Project: https://futuresis.github.io/GUIGuard-page/",
+    "updated" : "2026-01-29T01:37:29Z",
+    "published" : "2026-01-26T11:33:40Z",
+    "authors" : [
+      {
+        "name" : "Yanxi Wang"
+      },
+      {
+        "name" : "Zhiling Zhang"
+      },
+      {
+        "name" : "Wenbo Zhou"
+      },
+      {
+        "name" : "Weiming Zhang"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Qiannan Zhu"
+      },
+      {
+        "name" : "Yu Shi"
+      },
+      {
+        "name" : "Shuxin Zheng"
+      },
+      {
+        "name" : "Jiyan He"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.11219v2",
+    "title" : "SDFLoRA: Selective Decoupled Federated LoRA for Privacy-preserving Fine-tuning with Heterogeneous Clients",
+    "summary" : "Federated learning (FL) for large language models (LLMs) has attracted increasing attention as a privacy-preserving approach for adapting models over distributed data, where parameter-efficient methods such as Low-Rank Adaptation (LoRA) are widely adopted to reduce communication and memory costs. However, practical deployments often exhibit rank and data heterogeneity: clients operate under different low-rank budgets and data distributions, making direct aggregation of LoRA updates biased and unstable. Existing approaches either enforce a unified rank or align heterogeneous updates into a single shared subspace, which tends to mix transferable and client-specific directions and consequently undermines personalization. Moreover, under differential privacy (DP), perturbing such structurally mixed updates injects noise into directions that should remain purely local, leading to unnecessary utility degradation. To address these issues, we propose Selective Decoupled Federated LoRA (SDFLoRA), a structure-aware LoRA framework that decouples each client update into a shared component for aggregation and a private component that preserves client-specific semantics. Only the shared component participates in subspace alignment, while the private component remains local and uncommunicated, making the training DP-compatible and stabilizing aggregation under rank heterogeneity. By injecting noise only into the aggregated shareable update, this approach avoids perturbations to local directions and improves the utility-privacy trade-off. Experiments on multiple benchmarks demonstrate that SDFLoRA outperforms federated LoRA baselines and achieves a strong utility-privacy trade-off.",
+    "updated" : "2026-01-29T06:50:08Z",
+    "published" : "2026-01-16T11:53:38Z",
+    "authors" : [
+      {
+        "name" : "Zhikang Shen"
+      },
+      {
+        "name" : "Jianrong Lu"
+      },
+      {
+        "name" : "Haiyuan Wan"
+      },
+      {
+        "name" : "Jianhai Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
   }
 ]
