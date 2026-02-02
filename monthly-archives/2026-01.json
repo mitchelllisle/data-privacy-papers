@@ -3652,5 +3652,304 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22945v1",
+    "title" : "Persuasive Privacy",
+    "summary" : "We propose a novel framework for measuring privacy from a Bayesian game-theoretic perspective. This framework enables the creation of new, purpose-driven privacy definitions that are rigorously justified, while also allowing for the assessment of existing privacy guarantees through game theory. We show that pure and probabilistic differential privacy are special cases of our framework, and provide new interpretations of the post-processing inequality in this setting. Further, we demonstrate that privacy guarantees can be established for deterministic algorithms, which are overlooked by current privacy standards.",
+    "updated" : "2026-01-30T13:03:21Z",
+    "published" : "2026-01-30T13:03:21Z",
+    "authors" : [
+      {
+        "name" : "Joshua J Bon"
+      },
+      {
+        "name" : "James Bailie"
+      },
+      {
+        "name" : "Judith Rousseau"
+      },
+      {
+        "name" : "Christian P Robert"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.CR",
+      "econ.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22938v1",
+    "title" : "A Real-Time Privacy-Preserving Behavior Recognition System via Edge-Cloud Collaboration",
+    "summary" : "As intelligent sensing expands into high-privacy environments such as restrooms and changing rooms, the field faces a critical privacy-security paradox. Traditional RGB surveillance raises significant concerns regarding visual recording and storage, while existing privacy-preserving methods-ranging from physical desensitization to traditional cryptographic or obfuscation techniques-often compromise semantic understanding capabilities or fail to guarantee mathematical irreversibility against reconstruction attacks. To address these challenges, this study presents a novel privacy-preserving perception technology based on the AI Flow theoretical framework and an edge-cloud collaborative architecture. The proposed methodology integrates source desensitization with irreversible feature mapping. Leveraging Information Bottleneck theory, the edge device performs millisecond-level processing to transform raw imagery into abstract feature vectors via non-linear mapping and stochastic noise injection. This process constructs a unidirectional information flow that strips identity-sensitive attributes, rendering the reconstruction of original images impossible. Subsequently, the cloud platform utilizes multimodal family models to perform joint inference solely on these abstract vectors to detect abnormal behaviors. This approach fundamentally severs the path to privacy leakage at the architectural level, achieving a breakthrough from video surveillance to de-identified behavior perception and offering a robust solution for risk management in high-sensitivity public spaces.",
+    "updated" : "2026-01-30T12:55:36Z",
+    "published" : "2026-01-30T12:55:36Z",
+    "authors" : [
+      {
+        "name" : "Huan Song"
+      },
+      {
+        "name" : "Shuyu Tian"
+      },
+      {
+        "name" : "Junyi Hao"
+      },
+      {
+        "name" : "Cheng Yuan"
+      },
+      {
+        "name" : "Zhenyu Jia"
+      },
+      {
+        "name" : "Jiawei Shao"
+      },
+      {
+        "name" : "Xuelong Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "eess.IV",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22935v1",
+    "title" : "Protecting Private Code in IDE Autocomplete using Differential Privacy",
+    "summary" : "Modern Integrated Development Environments (IDEs) increasingly leverage Large Language Models (LLMs) to provide advanced features like code autocomplete. While powerful, training these models on user-written code introduces significant privacy risks, making the models themselves a new type of data vulnerability. Malicious actors can exploit this by launching attacks to reconstruct sensitive training data or infer whether a specific code snippet was used for training. This paper investigates the use of Differential Privacy (DP) as a robust defense mechanism for training an LLM for Kotlin code completion. We fine-tune a \\texttt{Mellum} model using DP and conduct a comprehensive evaluation of its privacy and utility. Our results demonstrate that DP provides a strong defense against Membership Inference Attacks (MIAs), reducing the attack's success rate close to a random guess (AUC from 0.901 to 0.606). Furthermore, we show that this privacy guarantee comes at a minimal cost to model performance, with the DP-trained model achieving utility scores comparable to its non-private counterpart, even when trained on 100x less data. Our findings suggest that DP is a practical and effective solution for building private and trustworthy AI-powered IDE features.",
+    "updated" : "2026-01-30T12:51:43Z",
+    "published" : "2026-01-30T12:51:43Z",
+    "authors" : [
+      {
+        "name" : "Evgeny Grigorenko"
+      },
+      {
+        "name" : "David Stanojević"
+      },
+      {
+        "name" : "David Ilić"
+      },
+      {
+        "name" : "Egor Bogomolov"
+      },
+      {
+        "name" : "Kostadin Cvejoski"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22752v1",
+    "title" : "OSNIP: Breaking the Privacy-Utility-Efficiency Trilemma in LLM Inference via Obfuscated Semantic Null Space",
+    "summary" : "We propose Obfuscated Semantic Null space Injection for Privacy (OSNIP), a lightweight client-side encryption framework for privacy-preserving LLM inference. Generalizing the geometric intuition of linear kernels to the high-dimensional latent space of LLMs, we formally define the ``Obfuscated Semantic Null Space'', a high-dimensional regime that preserves semantic fidelity while enforcing near-orthogonality to the original embedding. By injecting perturbations that project the original embedding into this space, OSNIP ensures privacy without any post-processing. Furthermore, OSNIP employs a key-dependent stochastic mapping that synthesizes individualized perturbation trajectories unique to each user. Evaluations on 12 generative and classification benchmarks show that OSNIP achieves state-of-the-art performance, sharply reducing attack success rates while maintaining strong model utility under strict security constraints.",
+    "updated" : "2026-01-30T09:29:54Z",
+    "published" : "2026-01-30T09:29:54Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Cao"
+      },
+      {
+        "name" : "Zeyu Ma"
+      },
+      {
+        "name" : "Chenhao Yang"
+      },
+      {
+        "name" : "Han Zheng"
+      },
+      {
+        "name" : "Mingang Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22710v1",
+    "title" : "AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs",
+    "summary" : "Modern LLMs are increasingly accessed via black-box APIs, requiring users to transmit sensitive prompts, outputs, and fine-tuning data to external providers, creating a critical privacy risk at the API boundary. We introduce AlienLM, a deployable API-only privacy layer that protects text by translating it into an Alien Language via a vocabulary-scale bijection, enabling lossless recovery on the client side. Using only standard fine-tuning APIs, Alien Adaptation Training (AAT) adapts target models to operate directly on alienized inputs. Across four LLM backbones and seven benchmarks, AlienLM retains over 81\\% of plaintext-oracle performance on average, substantially outperforming random-bijection and character-level baselines. Under adversaries with access to model weights, corpus statistics, and learning-based inverse translation, recovery attacks reconstruct fewer than 0.22\\% of alienized tokens. Our results demonstrate a practical pathway for privacy-preserving LLM deployment under API-only access, substantially reducing plaintext exposure while maintaining task performance.",
+    "updated" : "2026-01-30T08:32:32Z",
+    "published" : "2026-01-30T08:32:32Z",
+    "authors" : [
+      {
+        "name" : "Jaehee Kim"
+      },
+      {
+        "name" : "Pilsung Kang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22625v1",
+    "title" : "RPWithPrior: Label Differential Privacy in Regression",
+    "summary" : "With the wide application of machine learning techniques in practice, privacy preservation has gained increasing attention. Protecting user privacy with minimal accuracy loss is a fundamental task in the data analysis and mining community. In this paper, we focus on regression tasks under $ε$-label differential privacy guarantees. Some existing methods for regression with $ε$-label differential privacy, such as the RR-On-Bins mechanism, discretized the output space into finite bins and then applied RR algorithm. To efficiently determine these finite bins, the authors rounded the original responses down to integer values. However, such operations does not align well with real-world scenarios. To overcome these limitations, we model both original and randomized responses as continuous random variables, avoiding discretization entirely. Our novel approach estimates an optimal interval for randomized responses and introduces new algorithms designed for scenarios where a prior is either known or unknown. Additionally, we prove that our algorithm, RPWithPrior, guarantees $ε$-label differential privacy. Numerical results demonstrate that our approach gets better performance compared with the Gaussian, Laplace, Staircase, and RRonBins, Unbiased mechanisms on the Communities and Crime, Criteo Sponsored Search Conversion Log, California Housing datasets.",
+    "updated" : "2026-01-30T06:27:13Z",
+    "published" : "2026-01-30T06:27:13Z",
+    "authors" : [
+      {
+        "name" : "Haixia Liu"
+      },
+      {
+        "name" : "Ruifan Huang"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22434v1",
+    "title" : "Rethinking Anonymity Claims in Synthetic Data Generation: A Model-Centric Privacy Attack Perspective",
+    "summary" : "Training generative machine learning models to produce synthetic tabular data has become a popular approach for enhancing privacy in data sharing. As this typically involves processing sensitive personal information, releasing either the trained model or generated synthetic datasets can still pose privacy risks. Yet, recent research, commercial deployments, and privacy regulations like the General Data Protection Regulation (GDPR) largely assess anonymity at the level of an individual dataset.\n  In this paper, we rethink anonymity claims about synthetic data from a model-centric perspective and argue that meaningful assessments must account for the capabilities and properties of the underlying generative model and be grounded in state-of-the-art privacy attacks. This perspective better reflects real-world products and deployments, where trained models are often readily accessible for interaction or querying. We interpret the GDPR's definitions of personal data and anonymization under such access assumptions to identify the types of identifiability risks that must be mitigated and map them to privacy attacks across different threat settings. We then argue that synthetic data techniques alone do not ensure sufficient anonymization. Finally, we compare the two mechanisms most commonly used alongside synthetic data -- Differential Privacy (DP) and Similarity-based Privacy Metrics (SBPMs) -- and argue that while DP can offer robust protections against identifiability risks, SBPMs lack adequate safeguards. Overall, our work connects regulatory notions of identifiability with model-centric privacy attacks, enabling more responsible and trustworthy regulatory assessment of synthetic data systems by researchers, practitioners, and policymakers.",
+    "updated" : "2026-01-30T00:57:41Z",
+    "published" : "2026-01-30T00:57:41Z",
+    "authors" : [
+      {
+        "name" : "Georgi Ganev"
+      },
+      {
+        "name" : "Emiliano De Cristofaro"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22409v1",
+    "title" : "Optimization, Generalization and Differential Privacy Bounds for Gradient Descent on Kolmogorov-Arnold Networks",
+    "summary" : "Kolmogorov--Arnold Networks (KANs) have recently emerged as a structured alternative to standard MLPs, yet a principled theory for their training dynamics, generalization, and privacy properties remains limited. In this paper, we analyze gradient descent (GD) for training two-layer KANs and derive general bounds that characterize their training dynamics, generalization, and utility under differential privacy (DP). As a concrete instantiation, we specialize our analysis to logistic loss under an NTK-separable assumption, where we show that polylogarithmic network width suffices for GD to achieve an optimization rate of order $1/T$ and a generalization rate of order $1/n$, with $T$ denoting the number of GD iterations and $n$ the sample size. In the private setting, we characterize the noise required for $(ε,δ)$-DP and obtain a utility bound of order $\\sqrt{d}/(nε)$ (with $d$ the input dimension), matching the classical lower bound for general convex Lipschitz problems. Our results imply that polylogarithmic width is not only sufficient but also necessary under differential privacy, revealing a qualitative gap between non-private (sufficiency only) and private (necessity also emerges) training regimes. Experiments further illustrate how these theoretical insights can guide practical choices, including network width selection and early stopping.",
+    "updated" : "2026-01-29T23:43:26Z",
+    "published" : "2026-01-29T23:43:26Z",
+    "authors" : [
+      {
+        "name" : "Puyu Wang"
+      },
+      {
+        "name" : "Junyu Zhou"
+      },
+      {
+        "name" : "Philipp Liznerski"
+      },
+      {
+        "name" : "Marius Kloft"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22320v1",
+    "title" : "Matrix Factorization for Practical Continual Mean Estimation Under User-Level Differential Privacy",
+    "summary" : "We study continual mean estimation, where data vectors arrive sequentially and the goal is to maintain accurate estimates of the running mean. We address this problem under user-level differential privacy, which protects each user's entire dataset even when they contribute multiple data points. Previous work on this problem has focused on pure differential privacy. While important, this approach limits applicability, as it leads to overly noisy estimates. In contrast, we analyze the problem under approximate differential privacy, adopting recent advances in the Matrix Factorization mechanism. We introduce a novel mean estimation specific factorization, which is both efficient and accurate, achieving asymptotically lower mean-squared error bounds in continual mean estimation under user-level differential privacy.",
+    "updated" : "2026-01-29T21:02:58Z",
+    "published" : "2026-01-29T21:02:58Z",
+    "authors" : [
+      {
+        "name" : "Nikita P. Kalinin"
+      },
+      {
+        "name" : "Ali Najar"
+      },
+      {
+        "name" : "Valentin Roth"
+      },
+      {
+        "name" : "Christoph H. Lampert"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22265v1",
+    "title" : "Privacy-Preserving Sensor-Based Human Activity Recognition for Low-Resource Healthcare Using Classical Machine Learning",
+    "summary" : "Limited access to medical infrastructure forces elderly and vulnerable patients to rely on home-based care, often leading to neglect and poor adherence to therapeutic exercises such as yoga or physiotherapy. To address this gap, we propose a low-cost and automated human activity recognition (HAR) framework based on wearable inertial sensors and machine learning. Activity data, including walking, walking upstairs, walking downstairs, sitting, standing, and lying, were collected using accelerometer and gyroscope measurements. Four classical classifiers, Logistic Regression, Random Forest, Support Vector Machine (SVM), and k-Nearest Neighbors (k-NN), were evaluated and compared with the proposed Support Tensor Machine (STM). Experimental results show that SVM achieved an accuracy of 93.33 percent, while Logistic Regression, Random Forest, and k-NN achieved 91.11 percent. In contrast, STM significantly outperformed these models, achieving a test accuracy of 96.67 percent and the highest cross-validation accuracy of 98.50 percent. Unlike conventional methods, STM leverages tensor representations to preserve spatio-temporal motion dynamics, resulting in robust classification across diverse activities. The proposed framework demonstrates strong potential for remote healthcare, elderly assistance, child activity monitoring, yoga feedback, and smart home wellness, offering a scalable solution for low-resource and rural healthcare settings.",
+    "updated" : "2026-01-29T19:35:02Z",
+    "published" : "2026-01-29T19:35:02Z",
+    "authors" : [
+      {
+        "name" : "Ramakant Kumar"
+      },
+      {
+        "name" : "Pravin Kumar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.20161v2",
+    "title" : "Supporting Informed Self-Disclosure: Design Recommendations for Presenting AI-Estimates of Privacy Risks to Users",
+    "summary" : "People candidly discuss sensitive topics online under the perceived safety of anonymity; yet, for many, this perceived safety is tenuous, as miscalibrated risk perceptions can lead to over-disclosure. Recent advances in Natural Language Processing (NLP) afford an unprecedented opportunity to present users with quantified disclosure-based re-identification risk (i.e., \"population risk estimates\", PREs). How can PREs be presented to users in a way that promotes informed decision-making, mitigating risk without encouraging unnecessary self-censorship? Using design fictions and comic-boarding, we story-boarded five design concepts for presenting PREs to users and evaluated them through an online survey with N = 44 Reddit users. We found participants had detailed conceptions of how PREs may impact risk awareness and motivation, but envisioned needing additional context and support to effectively interpret and act on risks. We distill our findings into four key design recommendations for how best to present users with quantified privacy risks to support informed disclosure decision-making.",
+    "updated" : "2026-01-30T13:56:27Z",
+    "published" : "2026-01-28T01:35:36Z",
+    "authors" : [
+      {
+        "name" : "Isadora Krsek"
+      },
+      {
+        "name" : "Meryl Ye"
+      },
+      {
+        "name" : "Wei Xu"
+      },
+      {
+        "name" : "Alan Ritter"
+      },
+      {
+        "name" : "Laura Dabbish"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.19575v3",
+    "title" : "Putting Privacy to the Test: Introducing Red Teaming for Research Data Anonymization",
+    "summary" : "Recently, the data protection practices of researchers in human-computer interaction and elsewhere have gained attention. Initial results suggest that researchers struggle with anonymization, partly due to a lack of clear, actionable guidance. In this work, we propose simulating re-identification attacks using the approach of red teaming versus blue teaming: a technique commonly employed in security testing, where one team tries to re-identify data, and the other team tries to prevent it. We discuss our experience applying this method to data collected in a mixed-methods study in human-centered privacy. We present usable materials for researchers to apply red teaming when anonymizing and publishing their studies' data.",
+    "updated" : "2026-01-30T09:34:00Z",
+    "published" : "2026-01-27T13:04:06Z",
+    "authors" : [
+      {
+        "name" : "Luisa Jansen"
+      },
+      {
+        "name" : "Tim Ulmann"
+      },
+      {
+        "name" : "Robine Jordi"
+      },
+      {
+        "name" : "Malte Elson"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
