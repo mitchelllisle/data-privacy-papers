@@ -3951,5 +3951,111 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.00821v1",
+    "title" : "Edge-Native Generative De-identification: Inversion-Free Flow for Privacy-Preserving Federated Skin Image Analysis",
+    "summary" : "The deployment of Federated Learning (FL) for clinical dermatology is hindered by the competing requirements of protecting patient privacy and preserving diagnostic features. Traditional de-identification methods often degrade pathological fidelity, while standard generative editing techniques rely on computationally intensive inversion processes unsuitable for resource-constrained edge devices. We propose a framework for identity-agnostic pathology preservation that serves as a client-side privacy-preserving utility. By leveraging inversion-free Rectified Flow Transformers (FlowEdit), the system performs high-fidelity identity transformation in near real-time (less than 20s), facilitating local deployment on clinical nodes. We introduce a \"Segment-by-Synthesis\" mechanism that generates counterfactual healthy and pathological twin pairs locally. This enables the extraction of differential erythema masks that are decoupled from biometric markers and semantic artifacts (e.g. jewelry). Pilot validation on high-resolution clinical samples demonstrates an Intersection over Union (IoU) stability greater than 0.67 across synthetic identities. By generating privacy-compliant synthetic surrogates at the edge, this framework mitigates the risk of gradient leakage at the source, providing a secure pathway for high-precision skin image analysis in federated environments.",
+    "updated" : "2026-01-31T17:19:23Z",
+    "published" : "2026-01-31T17:19:23Z",
+    "authors" : [
+      {
+        "name" : "Konstantinos Moutselos"
+      },
+      {
+        "name" : "Ilias Maglogiannis"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.00689v1",
+    "title" : "Computing Maximal Per-Record Leakage and Leakage-Distortion Functions for Privacy Mechanisms under Entropy-Constrained Adversaries",
+    "summary" : "The exponential growth of data collection necessitates robust privacy protections that preserve data utility. We address information disclosure against adversaries with bounded prior knowledge, modeled by an entropy constraint $H(X) \\geq b$. Within this information privacy framework -- which replaces differential privacy's independence assumption with a bounded-knowledge model -- we study three core problems: maximal per-record leakage, the primal leakage-distortion tradeoff (minimizing worst-case leakage under distortion $D$), and the dual distortion minimization (minimizing distortion under leakage constraint $L$).\n  These problems resemble classical information-theoretic ones (channel capacity, rate-distortion) but are more complex due to high dimensionality and the entropy constraint. We develop efficient alternating optimization algorithms that exploit convexity-concavity duality, with theoretical guarantees including local convergence for the primal problem and convergence to a stationary point for the dual.\n  Experiments on binary symmetric channels and modular sum queries validate the algorithms, showing improved privacy-utility tradeoffs over classical differential privacy mechanisms. This work provides a computational framework for auditing privacy risks and designing certified mechanisms under realistic adversary assumptions.",
+    "updated" : "2026-01-31T12:23:24Z",
+    "published" : "2026-01-31T12:23:24Z",
+    "authors" : [
+      {
+        "name" : "Genqiang Wu"
+      },
+      {
+        "name" : "Xiaoying Zhang"
+      },
+      {
+        "name" : "Yu Qi"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Jikui Wang"
+      },
+      {
+        "name" : "Yeping He"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.00515v1",
+    "title" : "Contrastive Learning for Privacy Enhancements in Industrial Internet of Things",
+    "summary" : "The Industrial Internet of Things (IIoT) integrates intelligent sensing, communication, and analytics into industrial environments, including manufacturing, energy, and critical infrastructure. While IIoT enables predictive maintenance and cross-site optimization of modern industrial control systems, such as those in manufacturing and energy, it also introduces significant privacy and confidentiality risks due to the sensitivity of operational data. Contrastive learning, a self-supervised representation learning paradigm, has recently emerged as a promising approach for privacy-preserving analytics by reducing reliance on labeled data and raw data sharing. Although contrastive learning-based privacy-preserving techniques have been explored in the Internet of Things (IoT) domain, this paper offers a comprehensive review of these techniques specifically for privacy preservation in Industrial Internet of Things (IIoT) systems. It emphasizes the unique characteristics of industrial data, system architectures, and various application scenarios. Additionally, the paper discusses solutions and open challenges and outlines future research directions.",
+    "updated" : "2026-01-31T05:11:57Z",
+    "published" : "2026-01-31T05:11:57Z",
+    "authors" : [
+      {
+        "name" : "Lin Liu"
+      },
+      {
+        "name" : "Rita Machacy"
+      },
+      {
+        "name" : "Simi Kuniyilh"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.00417v1",
+    "title" : "Shuffle and Joint Differential Privacy for Generalized Linear Contextual Bandits",
+    "summary" : "We present the first algorithms for generalized linear contextual bandits under shuffle differential privacy and joint differential privacy. While prior work on private contextual bandits has been restricted to linear reward models -- which admit closed-form estimators -- generalized linear models (GLMs) pose fundamental new challenges: no closed-form estimator exists, requiring private convex optimization; privacy must be tracked across multiple evolving design matrices; and optimization error must be explicitly incorporated into regret analysis.\n  We address these challenges under two privacy models and context settings. For stochastic contexts, we design a shuffle-DP algorithm achieving $\\tilde{O}(d^{3/2}\\sqrt{T}/\\sqrt{\\varepsilon})$ regret. For adversarial contexts, we provide a joint-DP algorithm with $\\tilde{O}(d\\sqrt{T}/\\sqrt{\\varepsilon})$ regret -- matching the non-private rate up to a $1/\\sqrt{\\varepsilon}$ factor. Both algorithms remove dependence on the instance-specific parameter $κ$ (which can be exponential in dimension) from the dominant $\\sqrt{T}$ term. Unlike prior work on locally private GLM bandits, our methods require no spectral assumptions on the context distribution beyond $\\ell_2$ boundedness.",
+    "updated" : "2026-01-31T00:15:20Z",
+    "published" : "2026-01-31T00:15:20Z",
+    "authors" : [
+      {
+        "name" : "Sahasrajit Sarmasarkar"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.21636v2",
+    "title" : "Sampling-Free Privacy Accounting for Matrix Mechanisms under Random Allocation",
+    "summary" : "We study privacy amplification for differentially private model training with matrix factorization under random allocation (also known as the balls-in-bins model). Recent work by Choquette-Choo et al. (2025) proposes a sampling-based Monte Carlo approach to compute amplification parameters in this setting. However, their guarantees either only hold with some high probability or require random abstention by the mechanism. Furthermore, the required number of samples for ensuring $(ε,δ)$-DP is inversely proportional to $δ$. In contrast, we develop sampling-free bounds based on Rényi divergence and conditional composition. The former is facilitated by a dynamic programming formulation to efficiently compute the bounds. The latter complements it by offering stronger privacy guarantees for small $ε$, where Rényi divergence bounds inherently lead to an over-approximation. Our framework applies to arbitrary banded and non-banded matrices. Through numerical comparisons, we demonstrate the efficacy of our approach across a broad range of matrix mechanisms used in research and practice.",
+    "updated" : "2026-02-02T15:10:13Z",
+    "published" : "2026-01-29T12:40:29Z",
+    "authors" : [
+      {
+        "name" : "Jan Schuchardt"
+      },
+      {
+        "name" : "Nikita Kalinin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
