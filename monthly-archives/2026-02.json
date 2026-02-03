@@ -1,1 +1,174 @@
-[{"id":"http://arxiv.org/abs/2602.02364v1","title":"Guaranteeing Privacy in Hybrid Quantum Learning through Theoretical Mechanisms","summary":"Quantum Machine Learning (QML) is becoming increasingly prevalent due to its potential to enhance classical machine learning (ML) tasks, such as classification. Although quantum noise is often viewed as a major challenge in quantum computing, it also offers a unique opportunity to enhance privacy. In particular, intrinsic quantum noise provides a natural stochastic resource that, when rigorously analyzed within the differential privacy (DP) framework and composed with classical mechanisms, can satisfy formal $(\\varepsilon, δ)$-DP guarantees. This enables a reduction in the required classical perturbation without compromising the privacy budget, potentially improving model utility. However, the integration of classical and quantum noise for privacy preservation remains unexplored. In this work, we propose a hybrid noise-added mechanism, HYPER-Q, that combines classical and quantum noise to protect the privacy of QML models. We provide a comprehensive analysis of its privacy guarantees and establish theoretical bounds on its utility. Empirically, we demonstrate that HYPER-Q outperforms existing classical noise-based mechanisms in terms of adversarial robustness across multiple real-world datasets.","updated":"2026-02-02T17:23:37Z","published":"2026-02-02T17:23:37Z","authors":[{"name":"Hoang M. Ngo"},{"name":"Tre' R. Jeter"},{"name":"Incheol Shin"},{"name":"Wanli Xing"},{"name":"Tamer Kahveci"},{"name":"My T. Thai"}],"categories":["quant-ph","cs.CR"]},{"id":"http://arxiv.org/abs/2602.02296v1","title":"Decoupling Generalizability and Membership Privacy Risks in Neural Networks","summary":"A deep learning model usually has to sacrifice some utilities when it acquires some other abilities or characteristics. Privacy preservation has such trade-off relationships with utilities. The loss disparity between various defense approaches implies the potential to decouple generalizability and privacy risks to maximize privacy gain. In this paper, we identify that the model's generalization and privacy risks exist in different regions in deep neural network architectures. Based on the observations that we investigate, we propose Privacy-Preserving Training Principle (PPTP) to protect model components from privacy risks while minimizing the loss in generalizability. Through extensive evaluations, our approach shows significantly better maintenance in model generalizability while enhancing privacy preservation.","updated":"2026-02-02T16:32:42Z","published":"2026-02-02T16:32:42Z","authors":[{"name":"Xingli Fang"},{"name":"Jung-Eun Kim"}],"categories":["cs.LG","cs.AI","cs.CR"]},{"id":"http://arxiv.org/abs/2602.01928v1","title":"Privacy Amplification by Missing Data","summary":"Privacy preservation is a fundamental requirement in many high-stakes domains such as medicine and finance, where sensitive personal data must be analyzed without compromising individual confidentiality. At the same time, these applications often involve datasets with missing values due to non-response, data corruption, or deliberate anonymization. Missing data is traditionally viewed as a limitation because it reduces the information available to analysts and can degrade model performance. In this work, we take an alternative perspective and study missing data from a privacy preservation standpoint. Intuitively, when features are missing, less information is revealed about individuals, suggesting that missingness could inherently enhance privacy. We formalize this intuition by analyzing missing data as a privacy amplification mechanism within the framework of differential privacy. We show, for the first time, that incomplete data can yield privacy amplification for differentially private algorithms.","updated":"2026-02-02T10:28:41Z","published":"2026-02-02T10:28:41Z","authors":[{"name":"Simon Roburin"},{"name":"Rafaël Pinot"},{"name":"Erwan Scornet"}],"categories":["stat.ML","cs.LG"]},{"id":"http://arxiv.org/abs/2602.01804v1","title":"Fostering Data Collaboration in Digital Transportation Marketplaces: The Role of Privacy-Preserving Mechanisms","summary":"Data collaboration between municipal authorities (MA) and mobility providers (MPs) has brought tremendous benefits to transportation systems in the era of big data. Engaging in collaboration can improve the service operations (e.g., reduced delay) of these data owners, however, it can also raise privacy concerns and discourage data-sharing willingness. Specifically, data owners may be concerned that the shared data may leak sensitive information about their customers' mobility patterns or business secrets, resulting in the failure of collaboration. This paper investigates how privacy-preserving mechanisms can foster data collaboration in such settings. We propose a game-theoretic framework to investigate data-sharing among transportation stakeholders, especially considering perturbation-based privacy-preserving mechanisms. Numerical studies demonstrate that lower data quality expectations can incentivize voluntary data sharing, improving transport-related welfare for both MAs and MPs. Our findings provide actionable insights for policymakers and system designers on how privacy-preserving technologies can help bridge data silos and promote collaborative, privacy-aware transportation systems.","updated":"2026-02-02T08:35:29Z","published":"2026-02-02T08:35:29Z","authors":[{"name":"Qiqing Wang"},{"name":"Haokun Yu"},{"name":"Kaidi Yang"}],"categories":["eess.SY","cs.GT"]},{"id":"http://arxiv.org/abs/2602.01387v1","title":"Disclose with Care: Designing Privacy Controls in Interview Chatbots","summary":"Collecting data on sensitive topics remains challenging in HCI, as participants often withhold information due to privacy concerns and social desirability bias. While chatbots' perceived anonymity may reduce these barriers, research paradoxically suggests people tend to over-share personal or sensitive information with chatbots. In this work, we explore privacy controls in chatbot interviews to address this problem. The privacy control allows participants to revise their transcripts at the end of the interview, featuring two design variants: free editing and AI-aided editing. In a between-subjects study \\red{($N=188$)}, we compared no-editing, free-editing, and AI-aided editing conditions in a chatbot-based interview on a sensitive topic. Our results confirm the prevalent issue of oversharing in chatbot-based interviews and show that AI-aided editing serves as an effective privacy-control mechanism, reducing PII disclosure while maintaining data quality and user engagement, thereby offering a promising approach to balancing ethical practice and data quality in such interviews.","updated":"2026-02-01T18:48:19Z","published":"2026-02-01T18:48:19Z","authors":[{"name":"Ziwen Li"},{"name":"Ziang Xiao"},{"name":"Tianshi Li"}],"categories":["cs.HC"]},{"id":"http://arxiv.org/abs/2602.01177v1","title":"Equivalence of Privacy and Stability with Generalization Guarantees in Quantum Learning","summary":"We present a unified information-theoretic framework to analyze the generalization performance of differentially private (DP) quantum learning algorithms. By leveraging the connection between privacy and algorithmic stability, we establish that $(\\varepsilon, δ)$-Quantum Differential Privacy (QDP) imposes a strong constraint on the mutual information between the training data and the algorithm's output. We derive a rigorous, mechanism-agnostic upper bound on this mutual information for learning algorithms satisfying a 1-neighbor privacy constraint. Furthermore, we connect this stability guarantee to generalization, proving that the expected generalization error of any $(\\varepsilon, δ)$-QDP learning algorithm is bounded by the square root of the privacy-induced stability term. Finally, we extend our framework to the setting of an untrusted Data Processor, introducing the concept of Information-Theoretic Admissibility (ITA) to characterize the fundamental limits of privacy in scenarios where the learning map itself must remain oblivious to the specific dataset instance.","updated":"2026-02-01T12:03:07Z","published":"2026-02-01T12:03:07Z","authors":[{"name":"Ayanava Dasgupta"},{"name":"Naqueeb Ahmad Warsi"},{"name":"Masahito Hayashi"}],"categories":["quant-ph","cs.IT","cs.LG"]},{"id":"http://arxiv.org/abs/2602.01126v1","title":"WinFLoRA: Incentivizing Client-Adaptive Aggregation in Federated LoRA under Privacy Heterogeneity","summary":"Large Language Models (LLMs) increasingly underpin intelligent web applications, from chatbots to search and recommendation, where efficient specialization is essential. Low-Rank Adaptation (LoRA) enables such adaptation with minimal overhead, while federated LoRA allows web service providers to fine-tune shared models without data sharing. However, in privacy-sensitive deployments, clients inject varying levels of differential privacy (DP) noise, creating privacy heterogeneity that misaligns individual incentives and global performance. In this paper, we propose WinFLoRA, a privacy-heterogeneous federated LoRA that utilizes aggregation weights as incentives with noise awareness. Specifically, the noises from clients are estimated based on the uploaded LoRA adapters. A larger weight indicates greater influence on the global model and better downstream task performance, rewarding lower-noise contributions. By up-weighting low-noise updates, WinFLoRA improves global accuracy while accommodating clients' heterogeneous privacy requirements. Consequently, WinFLoRA aligns heterogeneous client utility in terms of privacy and downstream performance with global model objectives without third-party involvement. Extensive evaluations demonstrate that across multiple LLMs and datasets, WinFLoRA achieves up to 52.58% higher global accuracy and up to 2.56x client utility than state-of-the-art benchmarks. Source code is publicly available at https://github.com/koums24/WinFLoRA.git.","updated":"2026-02-01T09:52:57Z","published":"2026-02-01T09:52:57Z","authors":[{"name":"Mengsha Kou"},{"name":"Xiaoyu Xia"},{"name":"Ziqi Wang"},{"name":"Ibrahim Khalil"},{"name":"Runkun Luo"},{"name":"Jingwen Zhou"},{"name":"Minhui Xue"}],"categories":["cs.LG"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2602.02364v1",
+    "title" : "Guaranteeing Privacy in Hybrid Quantum Learning through Theoretical Mechanisms",
+    "summary" : "Quantum Machine Learning (QML) is becoming increasingly prevalent due to its potential to enhance classical machine learning (ML) tasks, such as classification. Although quantum noise is often viewed as a major challenge in quantum computing, it also offers a unique opportunity to enhance privacy. In particular, intrinsic quantum noise provides a natural stochastic resource that, when rigorously analyzed within the differential privacy (DP) framework and composed with classical mechanisms, can satisfy formal $(\\varepsilon, δ)$-DP guarantees. This enables a reduction in the required classical perturbation without compromising the privacy budget, potentially improving model utility. However, the integration of classical and quantum noise for privacy preservation remains unexplored. In this work, we propose a hybrid noise-added mechanism, HYPER-Q, that combines classical and quantum noise to protect the privacy of QML models. We provide a comprehensive analysis of its privacy guarantees and establish theoretical bounds on its utility. Empirically, we demonstrate that HYPER-Q outperforms existing classical noise-based mechanisms in terms of adversarial robustness across multiple real-world datasets.",
+    "updated" : "2026-02-02T17:23:37Z",
+    "published" : "2026-02-02T17:23:37Z",
+    "authors" : [
+      {
+        "name" : "Hoang M. Ngo"
+      },
+      {
+        "name" : "Tre' R. Jeter"
+      },
+      {
+        "name" : "Incheol Shin"
+      },
+      {
+        "name" : "Wanli Xing"
+      },
+      {
+        "name" : "Tamer Kahveci"
+      },
+      {
+        "name" : "My T. Thai"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.02296v1",
+    "title" : "Decoupling Generalizability and Membership Privacy Risks in Neural Networks",
+    "summary" : "A deep learning model usually has to sacrifice some utilities when it acquires some other abilities or characteristics. Privacy preservation has such trade-off relationships with utilities. The loss disparity between various defense approaches implies the potential to decouple generalizability and privacy risks to maximize privacy gain. In this paper, we identify that the model's generalization and privacy risks exist in different regions in deep neural network architectures. Based on the observations that we investigate, we propose Privacy-Preserving Training Principle (PPTP) to protect model components from privacy risks while minimizing the loss in generalizability. Through extensive evaluations, our approach shows significantly better maintenance in model generalizability while enhancing privacy preservation.",
+    "updated" : "2026-02-02T16:32:42Z",
+    "published" : "2026-02-02T16:32:42Z",
+    "authors" : [
+      {
+        "name" : "Xingli Fang"
+      },
+      {
+        "name" : "Jung-Eun Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01928v1",
+    "title" : "Privacy Amplification by Missing Data",
+    "summary" : "Privacy preservation is a fundamental requirement in many high-stakes domains such as medicine and finance, where sensitive personal data must be analyzed without compromising individual confidentiality. At the same time, these applications often involve datasets with missing values due to non-response, data corruption, or deliberate anonymization. Missing data is traditionally viewed as a limitation because it reduces the information available to analysts and can degrade model performance. In this work, we take an alternative perspective and study missing data from a privacy preservation standpoint. Intuitively, when features are missing, less information is revealed about individuals, suggesting that missingness could inherently enhance privacy. We formalize this intuition by analyzing missing data as a privacy amplification mechanism within the framework of differential privacy. We show, for the first time, that incomplete data can yield privacy amplification for differentially private algorithms.",
+    "updated" : "2026-02-02T10:28:41Z",
+    "published" : "2026-02-02T10:28:41Z",
+    "authors" : [
+      {
+        "name" : "Simon Roburin"
+      },
+      {
+        "name" : "Rafaël Pinot"
+      },
+      {
+        "name" : "Erwan Scornet"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01804v1",
+    "title" : "Fostering Data Collaboration in Digital Transportation Marketplaces: The Role of Privacy-Preserving Mechanisms",
+    "summary" : "Data collaboration between municipal authorities (MA) and mobility providers (MPs) has brought tremendous benefits to transportation systems in the era of big data. Engaging in collaboration can improve the service operations (e.g., reduced delay) of these data owners, however, it can also raise privacy concerns and discourage data-sharing willingness. Specifically, data owners may be concerned that the shared data may leak sensitive information about their customers' mobility patterns or business secrets, resulting in the failure of collaboration. This paper investigates how privacy-preserving mechanisms can foster data collaboration in such settings. We propose a game-theoretic framework to investigate data-sharing among transportation stakeholders, especially considering perturbation-based privacy-preserving mechanisms. Numerical studies demonstrate that lower data quality expectations can incentivize voluntary data sharing, improving transport-related welfare for both MAs and MPs. Our findings provide actionable insights for policymakers and system designers on how privacy-preserving technologies can help bridge data silos and promote collaborative, privacy-aware transportation systems.",
+    "updated" : "2026-02-02T08:35:29Z",
+    "published" : "2026-02-02T08:35:29Z",
+    "authors" : [
+      {
+        "name" : "Qiqing Wang"
+      },
+      {
+        "name" : "Haokun Yu"
+      },
+      {
+        "name" : "Kaidi Yang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01387v1",
+    "title" : "Disclose with Care: Designing Privacy Controls in Interview Chatbots",
+    "summary" : "Collecting data on sensitive topics remains challenging in HCI, as participants often withhold information due to privacy concerns and social desirability bias. While chatbots' perceived anonymity may reduce these barriers, research paradoxically suggests people tend to over-share personal or sensitive information with chatbots. In this work, we explore privacy controls in chatbot interviews to address this problem. The privacy control allows participants to revise their transcripts at the end of the interview, featuring two design variants: free editing and AI-aided editing. In a between-subjects study \\red{($N=188$)}, we compared no-editing, free-editing, and AI-aided editing conditions in a chatbot-based interview on a sensitive topic. Our results confirm the prevalent issue of oversharing in chatbot-based interviews and show that AI-aided editing serves as an effective privacy-control mechanism, reducing PII disclosure while maintaining data quality and user engagement, thereby offering a promising approach to balancing ethical practice and data quality in such interviews.",
+    "updated" : "2026-02-01T18:48:19Z",
+    "published" : "2026-02-01T18:48:19Z",
+    "authors" : [
+      {
+        "name" : "Ziwen Li"
+      },
+      {
+        "name" : "Ziang Xiao"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01177v1",
+    "title" : "Equivalence of Privacy and Stability with Generalization Guarantees in Quantum Learning",
+    "summary" : "We present a unified information-theoretic framework to analyze the generalization performance of differentially private (DP) quantum learning algorithms. By leveraging the connection between privacy and algorithmic stability, we establish that $(\\varepsilon, δ)$-Quantum Differential Privacy (QDP) imposes a strong constraint on the mutual information between the training data and the algorithm's output. We derive a rigorous, mechanism-agnostic upper bound on this mutual information for learning algorithms satisfying a 1-neighbor privacy constraint. Furthermore, we connect this stability guarantee to generalization, proving that the expected generalization error of any $(\\varepsilon, δ)$-QDP learning algorithm is bounded by the square root of the privacy-induced stability term. Finally, we extend our framework to the setting of an untrusted Data Processor, introducing the concept of Information-Theoretic Admissibility (ITA) to characterize the fundamental limits of privacy in scenarios where the learning map itself must remain oblivious to the specific dataset instance.",
+    "updated" : "2026-02-01T12:03:07Z",
+    "published" : "2026-02-01T12:03:07Z",
+    "authors" : [
+      {
+        "name" : "Ayanava Dasgupta"
+      },
+      {
+        "name" : "Naqueeb Ahmad Warsi"
+      },
+      {
+        "name" : "Masahito Hayashi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01126v1",
+    "title" : "WinFLoRA: Incentivizing Client-Adaptive Aggregation in Federated LoRA under Privacy Heterogeneity",
+    "summary" : "Large Language Models (LLMs) increasingly underpin intelligent web applications, from chatbots to search and recommendation, where efficient specialization is essential. Low-Rank Adaptation (LoRA) enables such adaptation with minimal overhead, while federated LoRA allows web service providers to fine-tune shared models without data sharing. However, in privacy-sensitive deployments, clients inject varying levels of differential privacy (DP) noise, creating privacy heterogeneity that misaligns individual incentives and global performance. In this paper, we propose WinFLoRA, a privacy-heterogeneous federated LoRA that utilizes aggregation weights as incentives with noise awareness. Specifically, the noises from clients are estimated based on the uploaded LoRA adapters. A larger weight indicates greater influence on the global model and better downstream task performance, rewarding lower-noise contributions. By up-weighting low-noise updates, WinFLoRA improves global accuracy while accommodating clients' heterogeneous privacy requirements. Consequently, WinFLoRA aligns heterogeneous client utility in terms of privacy and downstream performance with global model objectives without third-party involvement. Extensive evaluations demonstrate that across multiple LLMs and datasets, WinFLoRA achieves up to 52.58% higher global accuracy and up to 2.56x client utility than state-of-the-art benchmarks. Source code is publicly available at https://github.com/koums24/WinFLoRA.git.",
+    "updated" : "2026-02-01T09:52:57Z",
+    "published" : "2026-02-01T09:52:57Z",
+    "authors" : [
+      {
+        "name" : "Mengsha Kou"
+      },
+      {
+        "name" : "Xiaoyu Xia"
+      },
+      {
+        "name" : "Ziqi Wang"
+      },
+      {
+        "name" : "Ibrahim Khalil"
+      },
+      {
+        "name" : "Runkun Luo"
+      },
+      {
+        "name" : "Jingwen Zhou"
+      },
+      {
+        "name" : "Minhui Xue"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  }
+]
