@@ -170,5 +170,166 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.03671v1",
+    "title" : "mopri - An Analysis Framework for Unveiling Privacy Violations in Mobile Apps",
+    "summary" : "Everyday services of society increasingly rely on mobile applications, resulting in a conflicting situation between the possibility of participation on the one side and user privacy and digital freedom on the other. In order to protect users' rights to informational self-determination, regulatory approaches for the collection and processing of personal data have been developed, such as the EU's GDPR. However, inspecting the compliance of mobile apps with privacy regulations remains difficult. Thus, in order to enable end users and enforcement bodies to verify and enforce data protection compliance, we propose mopri, a conceptual framework designed for analyzing the behavior of mobile apps through a comprehensive, adaptable, and user-centered approach. Recognizing the gaps in existing frameworks, mopri serves as a foundation for integrating various analysis tools into a streamlined, modular pipeline that employs static and dynamic analysis methods. Building on this concept, a prototype has been developed which effectively extracts permissions and tracking libraries while employing robust methods for dynamic traffic recording and decryption. Additionally, it incorporates result enrichment and reporting features that enhance the clarity and usability of the analysis outcomes. The prototype showcases the feasibility of a holistic and modular approach to privacy analysis, emphasizing the importance of continuous adaptation to the evolving challenges presented by the mobile app ecosystem.",
+    "updated" : "2026-02-03T15:52:31Z",
+    "published" : "2026-02-03T15:52:31Z",
+    "authors" : [
+      {
+        "name" : "Cornell Ziepel"
+      },
+      {
+        "name" : "Stephan Escher"
+      },
+      {
+        "name" : "Sebastian Rehms"
+      },
+      {
+        "name" : "Stefan Köpsell"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.03611v1",
+    "title" : "Explanations Leak: Membership Inference with Differential Privacy and Active Learning Defense",
+    "summary" : "Counterfactual explanations (CFs) are increasingly integrated into Machine Learning as a Service (MLaaS) systems to improve transparency; however, ML models deployed via APIs are already vulnerable to privacy attacks such as membership inference and model extraction, and the impact of explanations on this threat landscape remains insufficiently understood. In this work, we focus on the problem of how CFs expand the attack surface of MLaaS by strengthening membership inference attacks (MIAs), and on the need to design defense mechanisms that mitigate this emerging risk without undermining utility and explainability. First, we systematically analyze how exposing CFs through query-based APIs enables more effective shadow-based MIAs. Second, we propose a defense framework that integrates Differential Privacy (DP) with Active Learning (AL) to jointly reduce memorization and limit effective training data exposure. Finally, we conduct an extensive empirical evaluation to characterize the three-way trade-off between privacy leakage, predictive performance, and explanation quality. Our findings highlight the need to carefully balance transparency, utility, and privacy in the responsible deployment of explainable MLaaS systems.",
+    "updated" : "2026-02-03T15:04:09Z",
+    "published" : "2026-02-03T15:04:09Z",
+    "authors" : [
+      {
+        "name" : "Fatima Ezzeddine"
+      },
+      {
+        "name" : "Osama Zammar"
+      },
+      {
+        "name" : "Silvia Giordano"
+      },
+      {
+        "name" : "Omran Ayoub"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.03423v1",
+    "title" : "Origin Lens: A Privacy-First Mobile Framework for Cryptographic Image Provenance and AI Detection",
+    "summary" : "The proliferation of generative AI poses challenges for information integrity assurance, requiring systems that connect model governance with end-user verification. We present Origin Lens, a privacy-first mobile framework that targets visual disinformation through a layered verification architecture. Unlike server-side detection systems, Origin Lens performs cryptographic image provenance verification and AI detection locally on the device via a Rust/Flutter hybrid architecture. Our system integrates multiple signals - including cryptographic provenance, generative model fingerprints, and optional retrieval-augmented verification - to provide users with graded confidence indicators at the point of consumption. We discuss the framework's alignment with regulatory requirements (EU AI Act, DSA) and its role in verification infrastructure that complements platform-level mechanisms.",
+    "updated" : "2026-02-03T11:49:00Z",
+    "published" : "2026-02-03T11:49:00Z",
+    "authors" : [
+      {
+        "name" : "Alexander Loth"
+      },
+      {
+        "name" : "Dominique Conceicao Rosario"
+      },
+      {
+        "name" : "Peter Ebinger"
+      },
+      {
+        "name" : "Martin Kappes"
+      },
+      {
+        "name" : "Marc-Oliver Pahl"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.03277v1",
+    "title" : "BlockRR: A Unified Framework of RR-type Algorithms for Label Differential Privacy",
+    "summary" : "In this paper, we introduce BlockRR, a novel and unified randomized-response mechanism for label differential privacy. This framework generalizes existed RR-type mechanisms as special cases under specific parameter settings, which eliminates the need for separate, case-by-case analysis. Theoretically, we prove that BlockRR satisfies $ε$-label DP. We also design a partition method for BlockRR based on a weight matrix derived from label prior information; the parallel composition principle ensures that the composition of two such mechanisms remains $ε$-label DP. Empirically, we evaluate BlockRR on two variants of CIFAR-10 with varying degrees of class imbalance. Results show that in the high-privacy and moderate-privacy regimes ($ε\\leq 3.0$), our propsed method gets a better balance between test accuaracy and the average of per-class accuracy. In the low-privacy regime ($ε\\geq 4.0$), all methods reduce BlockRR to standard RR without additional performance loss.",
+    "updated" : "2026-02-03T09:00:45Z",
+    "published" : "2026-02-03T09:00:45Z",
+    "authors" : [
+      {
+        "name" : "Haixia Liu"
+      },
+      {
+        "name" : "Yi Ding"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.02914v1",
+    "title" : "FaceLinkGen: Rethinking Identity Leakage in Privacy-Preserving Face Recognition with Identity Extraction",
+    "summary" : "Transformation-based privacy-preserving face recognition (PPFR) aims to verify identities while hiding facial data from attackers and malicious service providers. Existing evaluations mostly treat privacy as resistance to pixel-level reconstruction, measured by PSNR and SSIM. We show that this reconstruction-centric view fails. We present FaceLinkGen, an identity extraction attack that performs linkage/matching and face regeneration directly from protected templates without recovering original pixels. On three recent PPFR systems, FaceLinkGen reaches over 98.5\\% matching accuracy and above 96\\% regeneration success, and still exceeds 92\\% matching and 94\\% regeneration in a near zero knowledge setting. These results expose a structural gap between pixel distortion metrics, which are widely used in PPFR evaluation, and real privacy. We show that visual obfuscation leaves identity information broadly exposed to both external intruders and untrusted service providers.",
+    "updated" : "2026-02-02T23:41:14Z",
+    "published" : "2026-02-02T23:41:14Z",
+    "authors" : [
+      {
+        "name" : "Wenqi Guo"
+      },
+      {
+        "name" : "Shan Du"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.02744v1",
+    "title" : "An introduction to local differential privacy protocols using block designs",
+    "summary" : "The design of protocols for local differential privacy (or LDP) has been a topic of considerable research interest in recent years. LDP protocols utilise the randomised encoding of outcomes of an experiment using a transition probability matrix (TPM). Several authors have observed that balanced incomplete block designs (BIBDs) provide nice examples of TPMs for LDP protocols. Indeed, it has been shown that such BIBD-based LDP protocols provide optimal estimators.\n  In this primarily expository paper, we give a detailed introduction to LDP protocols and their connections with block designs. We prove that a subclass of LDP protocols known as pure LDP protocols are equivalent to $(r,λ)$-designs (which contain balanced incomplete block designs as a special case). An unbiased estimator for an LDP scheme is a left inverse of the transition probability matrix. We show that the optimal estimators for BIBD-based TPMs are precisely those obtained from the Moore-Penrose inverse of the corresponding TPM. We also review some existing work on optimal LDP protocols in the context of pure protocols.",
+    "updated" : "2026-02-02T19:58:58Z",
+    "published" : "2026-02-02T19:58:58Z",
+    "authors" : [
+      {
+        "name" : "Maura B. Paterson"
+      },
+      {
+        "name" : "Douglas R. Stinson"
+      }
+    ],
+    "categories" : [
+      "math.CO",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.02718v1",
+    "title" : "Composition for Pufferfish Privacy",
+    "summary" : "When creating public data products out of confidential datasets, inferential/posterior-based privacy definitions, such as Pufferfish, provide compelling privacy semantics for data with correlations. However, such privacy definitions are rarely used in practice because they do not always compose. For example, it is possible to design algorithms for these privacy definitions that have no leakage when run once but reveal the entire dataset when run more than once. We prove necessary and sufficient conditions that must be added to ensure linear composition for Pufferfish mechanisms, hence avoiding such privacy collapse. These extra conditions turn out to be differential privacy-style inequalities, indicating that achieving both the interpretable semantics of Pufferfish for correlated data and composition benefits requires adopting differentially private mechanisms to Pufferfish. We show that such translation is possible through a concept called the $(a,b)$-influence curve, and many existing differentially private algorithms can be translated with our framework into a composable Pufferfish algorithm. We illustrate the benefit of our new framework by designing composable Pufferfish algorithms for Markov chains that significantly outperform prior work.",
+    "updated" : "2026-02-02T19:36:44Z",
+    "published" : "2026-02-02T19:36:44Z",
+    "authors" : [
+      {
+        "name" : "Jiamu Bai"
+      },
+      {
+        "name" : "Guanlin He"
+      },
+      {
+        "name" : "Xin Gu"
+      },
+      {
+        "name" : "Daniel Kifer"
+      },
+      {
+        "name" : "Kiwan Maeng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
