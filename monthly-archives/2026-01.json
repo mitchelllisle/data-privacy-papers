@@ -4057,5 +4057,29 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.18497v2",
+    "title" : "BAIT: Visual-illusion-inspired Privacy Preservation for Mobile Data Visualization",
+    "summary" : "With the prevalence of mobile data visualizations, there have been growing concerns about their privacy risks, especially shoulder surfing attacks. Inspired by prior research on visual illusion, we propose BAIT, a novel approach to automatically generate privacy-preserving visualizations by stacking a decoy visualization over a given visualization. It allows visualization owners at proximity to clearly discern the original visualization and makes shoulder surfers at a distance be misled by the decoy visualization, by adjusting different visual channels of a decoy visualization (e.g., shape, position, tilt, size, color and spatial frequency). We explicitly model human perception effect at different viewing distances to optimize the decoy visualization design. Privacy-preserving examples and two in-depth user studies demonstrate the effectiveness of BAIT in both controlled lab study and real-world scenarios.",
+    "updated" : "2026-02-03T05:26:53Z",
+    "published" : "2026-01-26T13:58:23Z",
+    "authors" : [
+      {
+        "name" : "Sizhe Cheng"
+      },
+      {
+        "name" : "Songheng Zhang"
+      },
+      {
+        "name" : "Dong Ma"
+      },
+      {
+        "name" : "Yong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
