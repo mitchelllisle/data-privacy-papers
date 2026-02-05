@@ -2,6 +2,78 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.04616v1">A Human-Centered Privacy Approach (HCP) to AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-04T14:43:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luyi Sun, Wei Xu, Zaifeng Gao</p>
+    <p><b>Summary:</b> As the paradigm of Human-Centered AI (HCAI) gains prominence, its benefits to society are accompanied by significant ethical concerns, one of which is the protection of individual privacy. This chapter provides a comprehensive overview of privacy within HCAI, proposing a human-centered privacy (HCP) framework, providing integrated solution from technology, ethics, and human factors perspectives. The chapter begins by mapping privacy risks across each stage of AI development lifecycle, from data collection to deployment and reuse, highlighting the impact of privacy risks on the entire system. The chapter then introduces privacy-preserving techniques such as federated learning and dif erential privacy. Subsequent chapters integrate the crucial user perspective by examining mental models, alongside the evolving regulatory and ethical landscapes as well as privacy governance. Next, advice on design guidelines is provided based on the human-centered privacy framework. After that, we introduce practical case studies across diverse fields. Finally, the chapter discusses persistent open challenges and future research directions, concluding that a multidisciplinary approach, merging technical, design, policy, and ethical expertise, is essential to successfully embed privacy into the core of HCAI, thereby ensuring these technologies advance in a manner that respects and ensures human autonomy, trust and dignity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.04562v1">Optimal conversion from Rényi Differential Privacy to $f$-Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-04T13:49:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anneliese Riess, Juan Felipe Gomez, Flavio du Pin Calmon, Julia Anne Schnabel, Georgios Kaissis</p>
+    <p><b>Summary:</b> We prove the conjecture stated in Appendix F.3 of [Zhu et al. (2022)]: among all conversion rules that map a Rényi Differential Privacy (RDP) profile $τ\mapsto ρ(τ)$ to a valid hypothesis-testing trade-off $f$, the rule based on the intersection of single-order RDP privacy regions is optimal. This optimality holds simultaneously for all valid RDP profiles and for all Type I error levels $α$. Concretely, we show that in the space of trade-off functions, the tightest possible bound is $f_{ρ(\cdot)}(α) = \sup_{τ\geq 0.5} f_{τ,ρ(τ)}(α)$: the pointwise maximum of the single-order bounds for each RDP privacy region. Our proof unifies and sharpens the insights of [Balle et al. (2019)], [Asoodeh et al. (2021)], and [Zhu et al. (2022)]. Our analysis relies on a precise geometric characterization of the RDP privacy region, leveraging its convexity and the fact that its boundary is determined exclusively by Bernoulli mechanisms. Our results establish that the "intersection-of-RDP-privacy-regions" rule is not only valid, but optimal: no other black-box conversion can uniformly dominate it in the Blackwell sense, marking the fundamental limit of what can be inferred about a mechanism's privacy solely from its RDP guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.04482v1">Proactive Agents, Long-term User Context, VLM Annotation, Privacy Protection, Human-Computer Interaction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-04T12:09:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuanbo Tang, Huaze Tang, Tingyu Cao, Lam Nguyen, Anping Zhang, Xinwen Cao, Chunkang Liu, Wenbo Ding, Yang Li</p>
+    <p><b>Summary:</b> Proactive agents that anticipate user intentions without explicit prompts represent a significant evolution in human-AI interaction, promising to reduce cognitive load and streamline workflows. However, existing datasets suffer from two critical deficiencies: (1) reliance on LLM-synthesized data that fails to capture authentic human decision-making patterns, and (2) focus on isolated tasks rather than continuous workflows, missing the pre-assistance behavioral context essential for learning proactive intervention signals. To address these gaps, we introduce ProAgentBench, a rigorous benchmark for proactive agents in working scenarios. Our contributions include: (1) a hierarchical task framework that decomposes proactive assistance into timing prediction and assist content generation; (2) a privacy-compliant dataset with 28,000+ events from 500+ hours of real user sessions, preserving bursty interaction patterns (burstiness B=0.787) absent in synthetic data; and (3) extensive experiments that evaluates LLM- and VLM-based baselines. Numerically, we showed that long-term memory and historical context significantly enhance prediction accuracy, while real-world training data substantially outperforms synthetic alternatives. We release our dataset and code at https://anonymous.4open.science/r/ProAgentBench-6BC0.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.04262v1">Parameter Privacy-Preserving Data Sharing: A Particle-Belief MDP Formulation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2026-02-04T06:55:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haokun Yu, Jingyuan Zhou, Kaidi Yang</p>
+    <p><b>Summary:</b> This paper investigates parameter-privacy-preserving data sharing in continuous-state dynamical systems, where a data owner designs a data-sharing policy to support downstream estimation and control while preventing adversarial inference of a sensitive parameter. This data-sharing problem is formulated as an optimization problem that trades off privacy leakage and the impact of data sharing on the data owner's utility, subject to a data-usability constraint. We show that this problem admits an equivalent belief Markov decision process (MDP) formulation, which provides a simplified representation of the optimal policy. To efficiently characterize information-theoretic privacy leakage in continuous state and action spaces, we propose a particle-belief MDP formulation that tracks the parameter posterior via sequential Monte Carlo, yielding a tractable belief-state approximation that converges asymptotically as the number of particles increases. We further derive a tractable closed-form upper bound on particle-based MI via Gaussian mixture approximations, which enables efficient optimization of the particle-belief MDP. Experiments on a mixed-autonomy platoon show that the learned continuous policy substantially impedes inference attacks on human-driving behavior parameters while maintaining data usability and system performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.04124v1">Privacy Amplification for Synthetic data using Range Restriction</a></h3>
+  
+  <p><b>Published on:</b> 2026-02-04T01:36:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Monika Hu, Matthew R. Williams, Terrance D. Savitsky</p>
+    <p><b>Summary:</b> We introduce a new class of range restricted formal data privacy standards that condition on owner beliefs about sensitive data ranges. By incorporating this additional information, we can provide a stronger privacy guarantee (e.g. an amplification). The range restricted formal privacy standards protect only a subset (or ball) of data values and exclude ranges (or balls) believed to be already publicly known. The privacy standards are designed for the risk-weighted pseudo posterior (model) mechanism (PPM) used to generate synthetic data under an asymptotic Differential (aDP) privacy guarantee. The PPM downweights the likelihood contribution for each record proportionally to its disclosure risk. The PPM is adapted under inclusion of beliefs by adjusting the risk-weighted pseudo likelihood. We introduce two alternative adjustments. The first expresses data owner knowledge of the sensitive range as a probability, $λ$, that a datum value drawn from the underlying generating distribution lies outside the ball or subspace of values that are sensitive. The portion of each datum likelihood contribution deemed sensitive is then $(1-λ) \leq 1$ and is the only portion of the likelihood subject to risk down-weighting. The second adjustment encodes knowledge as the difference in probability masses $P(R) \leq 1$ between the edges of the sensitive range, $R$. We use the resulting conditional (pseudo) likelihood for a sensitive record, which boosts its worst case tail values away from 0. We compare privacy and utility properties for the PPM under the aDP and range restricted privacy standards.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.03948v1">Privacy utility trade offs for parameter estimation in degree heterogeneous higher order networks</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
+  <p><b>Published on:</b> 2026-02-03T19:11:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bibhabasu Mandal, Sagnik Nandy</p>
+    <p><b>Summary:</b> In sensitive applications involving relational datasets, protecting information about individual links from adversarial queries is of paramount importance. In many such settings, the available data are summarized solely through the degrees of the nodes in the network. We adopt the $β$ model, which is the prototypical statistical model adopted for this form of aggregated relational information, and study the problem of minimax-optimal parameter estimation under both local and central differential privacy constraints. We establish finite sample minimax lower bounds that characterize the precise dependence of the estimation risk on the network size and the privacy parameters, and we propose simple estimators that achieve these bounds up to constants and logarithmic factors under both local and central differential privacy frameworks. Our results provide the first comprehensive finite sample characterization of privacy utility trade offs for parameter estimation in $β$ models, addressing the classical graph case and extending the analysis to higher order hypergraph models. We further demonstrate the effectiveness of our methods through experiments on synthetic data and a real world communication network.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.03671v1">mopri - An Analysis Framework for Unveiling Privacy Violations in Mobile Apps</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2026-02-03T15:52:31Z</p>
@@ -111,7 +183,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.01928v1">Privacy Amplification by Missing Data</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.01928v2">Privacy Amplification by Missing Data</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-02-02T10:28:41Z</p>
   <details>
@@ -310,7 +382,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22409v1">Optimization, Generalization and Differential Privacy Bounds for Gradient Descent on Kolmogorov-Arnold Networks</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.22409v2">Optimization, Generalization and Differential Privacy Bounds for Gradient Descent on Kolmogorov-Arnold Networks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
   <p><b>Published on:</b> 2026-01-29T23:43:26Z</p>
   <details>
@@ -1146,80 +1218,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Kurt Thomas, Sai Teja Peddinti, Sarah Meiklejohn, Tara Matthews, Amelia Hassoun, Animesh Srivastava, Jessica McClearn, Patrick Gage Kelley, Sunny Consolvo, Nina Taft</p>
     <p><b>Summary:</b> The complexity of navigating digital privacy, safety, and security threats often falls directly on users. This leads to users seeking help from family and peers, platforms and advice guides, dedicated communities, and even large language models (LLMs). As a precursor to improving resources across this ecosystem, our community needs to understand what help seeking looks like in the wild. To that end, we blend qualitative coding with LLM fine-tuning to sift through over one billion Reddit posts from the last four years to identify where and for what users seek digital privacy, safety, or security help. We isolate three million relevant posts with 93% precision and recall and automatically annotate each with the topics discussed (e.g., security tools, privacy configurations, scams, account compromise, content moderation, and more). We use this dataset to understand the scope and scale of help seeking, the communities that provide help, and the types of help sought. Our work informs the development of better resources for users (e.g., user guides or LLM help-giving agents) while underscoring the inherent challenges of supporting users through complex combinations of threats, platforms, mitigations, context, and emotions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.11219v2">SDFLoRA: Selective Decoupled Federated LoRA for Privacy-preserving Fine-tuning with Heterogeneous Clients</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-16T11:53:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhikang Shen, Jianrong Lu, Haiyuan Wan, Jianhai Chen</p>
-    <p><b>Summary:</b> Federated learning (FL) for large language models (LLMs) has attracted increasing attention as a privacy-preserving approach for adapting models over distributed data, where parameter-efficient methods such as Low-Rank Adaptation (LoRA) are widely adopted to reduce communication and memory costs. However, practical deployments often exhibit rank and data heterogeneity: clients operate under different low-rank budgets and data distributions, making direct aggregation of LoRA updates biased and unstable. Existing approaches either enforce a unified rank or align heterogeneous updates into a single shared subspace, which tends to mix transferable and client-specific directions and consequently undermines personalization. Moreover, under differential privacy (DP), perturbing such structurally mixed updates injects noise into directions that should remain purely local, leading to unnecessary utility degradation. To address these issues, we propose Selective Decoupled Federated LoRA (SDFLoRA), a structure-aware LoRA framework that decouples each client update into a shared component for aggregation and a private component that preserves client-specific semantics. Only the shared component participates in subspace alignment, while the private component remains local and uncommunicated, making the training DP-compatible and stabilizing aggregation under rank heterogeneity. By injecting noise only into the aggregated shareable update, this approach avoids perturbations to local directions and improves the utility-privacy trade-off. Experiments on multiple benchmarks demonstrate that SDFLoRA outperforms federated LoRA baselines and achieves a strong utility-privacy trade-off.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.11134v1">FSL-BDP: Federated Survival Learning with Bayesian Differential Privacy for Credit Risk Modeling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">  
-  <p><b>Published on:</b> 2026-01-16T09:48:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sultan Amed, Tanmay Sen, Sayantan Banerjee</p>
-    <p><b>Summary:</b> Credit risk models are a critical decision-support tool for financial institutions, yet tightening data-protection rules (e.g., GDPR, CCPA) increasingly prohibit cross-border sharing of borrower data, even as these models benefit from cross-institution learning. Traditional default prediction suffers from two limitations: binary classification ignores default timing, treating early defaulters (high loss) equivalently to late defaulters (low loss), and centralized training violates emerging regulatory constraints. We propose a Federated Survival Learning framework with Bayesian Differential Privacy (FSL-BDP) that models time-to-default trajectories without centralizing sensitive data. The framework provides Bayesian (data-dependent) differential privacy (DP) guarantees while enabling institutions to jointly learn risk dynamics. Experiments on three real-world credit datasets (LendingClub, SBA, Bondora) show that federation fundamentally alters the relative effectiveness of privacy mechanisms. While classical DP performs better than Bayesian DP in centralized settings, the latter benefits substantially more from federation (+7.0\% vs +1.4\%), achieving near parity of non-private performance and outperforming classical DP in the majority of participating clients. This ranking reversal yields a key decision-support insight: privacy mechanism selection should be evaluated in the target deployment architecture, rather than centralized benchmarks. These findings provide actionable guidance for practitioners designing privacy-preserving decision support systems in regulated, multi-institutional environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.10866v1">Adaptive Privacy Budgeting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-15T21:32:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuting Liang, Ke Yi</p>
-    <p><b>Summary:</b> We study the problem of adaptive privacy budgeting under generalized differential privacy. Consider the setting where each user $i\in [n]$ holds a tuple $x_i\in U:=U_1\times \dotsb \times U_T$, where $x_i(l)\in U_l$ represents the $l$-th component of their data. For every $l\in [T]$ (or a subset), an untrusted analyst wishes to compute some $f_l(x_1(l),\dots,x_n(l))$, while respecting the privacy of each user. For many functions $f_l$, data from the users are not all equally important, and there is potential to use the privacy budgets of the users strategically, leading to privacy savings that can be used to improve the utility of later queries. In particular, the budgeting should be adaptive to the outputs of previous queries, so that greater savings can be achieved on more typical instances. In this paper, we provide such an adaptive budgeting framework, with various applications demonstrating its applicability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.10701v1">Communication-Efficient and Privacy-Adaptable Mechanism -- a Federated Learning Scheme with Convergence Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-15T18:55:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chun Hei Michael Shiu, Chih Wei Ling</p>
-    <p><b>Summary:</b> Federated learning enables multiple parties to jointly train learning models without sharing their own underlying data, offering a practical pathway to privacy-preserving collaboration under data-governance constraints. Continued study of federated learning is essential to address key challenges in it, including communication efficiency and privacy protection between parties. A recent line of work introduced a novel approach called the Communication-Efficient and Privacy-Adaptable Mechanism (CEPAM), which achieves both objectives simultaneously. CEPAM leverages the rejection-sampled universal quantizer (RSUQ), a randomized vector quantizer whose quantization error is equivalent to a prescribed noise, which can be tuned to customize privacy protection between parties. In this work, we theoretically analyze the privacy guarantees and convergence properties of CEPAM. Moreover, we assess CEPAM's utility performance through experimental evaluations, including convergence profiles compared with other baselines, and accuracy-privacy trade-offs between different parties.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.10413v1">LADFA: A Framework of Using Large Language Models and Retrieval-Augmented Generation for Personal Data Flow Analysis in Privacy Policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-15T14:03:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haiyue Yuan, Nikolay Matyunin, Ali Raza, Shujun Li</p>
-    <p><b>Summary:</b> Privacy policies help inform people about organisations' personal data processing practices, covering different aspects such as data collection, data storage, and sharing of personal data with third parties. Privacy policies are often difficult for people to fully comprehend due to the lengthy and complex legal language used and inconsistent practices across different sectors and organisations. To help conduct automated and large-scale analyses of privacy policies, many researchers have studied applications of machine learning and natural language processing techniques, including large language models (LLMs). While a limited number of prior studies utilised LLMs for extracting personal data flows from privacy policies, our approach builds on this line of work by combining LLMs with retrieval-augmented generation (RAG) and a customised knowledge base derived from existing studies. This paper presents the development of LADFA, an end-to-end computational framework, which can process unstructured text in a given privacy policy, extract personal data flows and construct a personal data flow graph, and conduct analysis of the data flow graph to facilitate insight discovery. The framework consists of a pre-processor, an LLM-based processor, and a data flow post-processor. We demonstrated and validated the effectiveness and accuracy of the proposed approach by conducting a case study that involved examining ten selected privacy policies from the automotive industry. Moreover, it is worth noting that LADFA is designed to be flexible and customisable, making it suitable for a range of text-based analysis tasks beyond privacy policy analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.10237v1">Fundamental Limitations of Favorable Privacy-Utility Guarantees for DP-SGD</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-15T09:50:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Murat Bilgehan Ertan, Marten van Dijk</p>
-    <p><b>Summary:</b> Differentially Private Stochastic Gradient Descent (DP-SGD) is the dominant paradigm for private training, but its fundamental limitations under worst-case adversarial privacy definitions remain poorly understood. We analyze DP-SGD in the $f$-differential privacy framework, which characterizes privacy via hypothesis-testing trade-off curves, and study shuffled sampling over a single epoch with $M$ gradient updates. We derive an explicit suboptimal upper bound on the achievable trade-off curve. This result induces a geometric lower bound on the separation $κ$ which is the maximum distance between the mechanism's trade-off curve and the ideal random-guessing line. Because a large separation implies significant adversarial advantage, meaningful privacy requires small $κ$. However, we prove that enforcing a small separation imposes a strict lower bound on the Gaussian noise multiplier $σ$, which directly limits the achievable utility. In particular, under the standard worst-case adversarial model, shuffled DP-SGD must satisfy
-  $σ\ge \frac{1}{\sqrt{2\ln M}}$ $\quad\text{or}\quad$ $κ\ge\ \frac{1}{\sqrt{8}}\!\left(1-\frac{1}{\sqrt{4π\ln M}}\right)$,
-  and thus cannot simultaneously achieve strong privacy and high utility. Although this bound vanishes asymptotically as $M \to \infty$, the convergence is extremely slow: even for practically relevant numbers of updates the required noise magnitude remains substantial. We further show that the same limitation extends to Poisson subsampling up to constant factors. Our experiments confirm that the noise levels implied by this bound leads to significant accuracy degradation at realistic training settings, thus showing a critical bottleneck in DP-SGD under standard worst-case adversarial assumptions.</p>
   </details>
 </div>
 
