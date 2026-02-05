@@ -331,5 +331,182 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04616v1",
+    "title" : "A Human-Centered Privacy Approach (HCP) to AI",
+    "summary" : "As the paradigm of Human-Centered AI (HCAI) gains prominence, its benefits to society are accompanied by significant ethical concerns, one of which is the protection of individual privacy. This chapter provides a comprehensive overview of privacy within HCAI, proposing a human-centered privacy (HCP) framework, providing integrated solution from technology, ethics, and human factors perspectives. The chapter begins by mapping privacy risks across each stage of AI development lifecycle, from data collection to deployment and reuse, highlighting the impact of privacy risks on the entire system. The chapter then introduces privacy-preserving techniques such as federated learning and dif erential privacy. Subsequent chapters integrate the crucial user perspective by examining mental models, alongside the evolving regulatory and ethical landscapes as well as privacy governance. Next, advice on design guidelines is provided based on the human-centered privacy framework. After that, we introduce practical case studies across diverse fields. Finally, the chapter discusses persistent open challenges and future research directions, concluding that a multidisciplinary approach, merging technical, design, policy, and ethical expertise, is essential to successfully embed privacy into the core of HCAI, thereby ensuring these technologies advance in a manner that respects and ensures human autonomy, trust and dignity.",
+    "updated" : "2026-02-04T14:43:25Z",
+    "published" : "2026-02-04T14:43:25Z",
+    "authors" : [
+      {
+        "name" : "Luyi Sun"
+      },
+      {
+        "name" : "Wei Xu"
+      },
+      {
+        "name" : "Zaifeng Gao"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04562v1",
+    "title" : "Optimal conversion from Rényi Differential Privacy to $f$-Differential Privacy",
+    "summary" : "We prove the conjecture stated in Appendix F.3 of [Zhu et al. (2022)]: among all conversion rules that map a Rényi Differential Privacy (RDP) profile $τ\\mapsto ρ(τ)$ to a valid hypothesis-testing trade-off $f$, the rule based on the intersection of single-order RDP privacy regions is optimal. This optimality holds simultaneously for all valid RDP profiles and for all Type I error levels $α$. Concretely, we show that in the space of trade-off functions, the tightest possible bound is $f_{ρ(\\cdot)}(α) = \\sup_{τ\\geq 0.5} f_{τ,ρ(τ)}(α)$: the pointwise maximum of the single-order bounds for each RDP privacy region. Our proof unifies and sharpens the insights of [Balle et al. (2019)], [Asoodeh et al. (2021)], and [Zhu et al. (2022)]. Our analysis relies on a precise geometric characterization of the RDP privacy region, leveraging its convexity and the fact that its boundary is determined exclusively by Bernoulli mechanisms. Our results establish that the \"intersection-of-RDP-privacy-regions\" rule is not only valid, but optimal: no other black-box conversion can uniformly dominate it in the Blackwell sense, marking the fundamental limit of what can be inferred about a mechanism's privacy solely from its RDP guarantees.",
+    "updated" : "2026-02-04T13:49:51Z",
+    "published" : "2026-02-04T13:49:51Z",
+    "authors" : [
+      {
+        "name" : "Anneliese Riess"
+      },
+      {
+        "name" : "Juan Felipe Gomez"
+      },
+      {
+        "name" : "Flavio du Pin Calmon"
+      },
+      {
+        "name" : "Julia Anne Schnabel"
+      },
+      {
+        "name" : "Georgios Kaissis"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04482v1",
+    "title" : "Proactive Agents, Long-term User Context, VLM Annotation, Privacy Protection, Human-Computer Interaction",
+    "summary" : "Proactive agents that anticipate user intentions without explicit prompts represent a significant evolution in human-AI interaction, promising to reduce cognitive load and streamline workflows. However, existing datasets suffer from two critical deficiencies: (1) reliance on LLM-synthesized data that fails to capture authentic human decision-making patterns, and (2) focus on isolated tasks rather than continuous workflows, missing the pre-assistance behavioral context essential for learning proactive intervention signals. To address these gaps, we introduce ProAgentBench, a rigorous benchmark for proactive agents in working scenarios. Our contributions include: (1) a hierarchical task framework that decomposes proactive assistance into timing prediction and assist content generation; (2) a privacy-compliant dataset with 28,000+ events from 500+ hours of real user sessions, preserving bursty interaction patterns (burstiness B=0.787) absent in synthetic data; and (3) extensive experiments that evaluates LLM- and VLM-based baselines. Numerically, we showed that long-term memory and historical context significantly enhance prediction accuracy, while real-world training data substantially outperforms synthetic alternatives. We release our dataset and code at https://anonymous.4open.science/r/ProAgentBench-6BC0.",
+    "updated" : "2026-02-04T12:09:15Z",
+    "published" : "2026-02-04T12:09:15Z",
+    "authors" : [
+      {
+        "name" : "Yuanbo Tang"
+      },
+      {
+        "name" : "Huaze Tang"
+      },
+      {
+        "name" : "Tingyu Cao"
+      },
+      {
+        "name" : "Lam Nguyen"
+      },
+      {
+        "name" : "Anping Zhang"
+      },
+      {
+        "name" : "Xinwen Cao"
+      },
+      {
+        "name" : "Chunkang Liu"
+      },
+      {
+        "name" : "Wenbo Ding"
+      },
+      {
+        "name" : "Yang Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04262v1",
+    "title" : "Parameter Privacy-Preserving Data Sharing: A Particle-Belief MDP Formulation",
+    "summary" : "This paper investigates parameter-privacy-preserving data sharing in continuous-state dynamical systems, where a data owner designs a data-sharing policy to support downstream estimation and control while preventing adversarial inference of a sensitive parameter. This data-sharing problem is formulated as an optimization problem that trades off privacy leakage and the impact of data sharing on the data owner's utility, subject to a data-usability constraint. We show that this problem admits an equivalent belief Markov decision process (MDP) formulation, which provides a simplified representation of the optimal policy. To efficiently characterize information-theoretic privacy leakage in continuous state and action spaces, we propose a particle-belief MDP formulation that tracks the parameter posterior via sequential Monte Carlo, yielding a tractable belief-state approximation that converges asymptotically as the number of particles increases. We further derive a tractable closed-form upper bound on particle-based MI via Gaussian mixture approximations, which enables efficient optimization of the particle-belief MDP. Experiments on a mixed-autonomy platoon show that the learned continuous policy substantially impedes inference attacks on human-driving behavior parameters while maintaining data usability and system performance.",
+    "updated" : "2026-02-04T06:55:01Z",
+    "published" : "2026-02-04T06:55:01Z",
+    "authors" : [
+      {
+        "name" : "Haokun Yu"
+      },
+      {
+        "name" : "Jingyuan Zhou"
+      },
+      {
+        "name" : "Kaidi Yang"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04124v1",
+    "title" : "Privacy Amplification for Synthetic data using Range Restriction",
+    "summary" : "We introduce a new class of range restricted formal data privacy standards that condition on owner beliefs about sensitive data ranges. By incorporating this additional information, we can provide a stronger privacy guarantee (e.g. an amplification). The range restricted formal privacy standards protect only a subset (or ball) of data values and exclude ranges (or balls) believed to be already publicly known. The privacy standards are designed for the risk-weighted pseudo posterior (model) mechanism (PPM) used to generate synthetic data under an asymptotic Differential (aDP) privacy guarantee. The PPM downweights the likelihood contribution for each record proportionally to its disclosure risk. The PPM is adapted under inclusion of beliefs by adjusting the risk-weighted pseudo likelihood. We introduce two alternative adjustments. The first expresses data owner knowledge of the sensitive range as a probability, $λ$, that a datum value drawn from the underlying generating distribution lies outside the ball or subspace of values that are sensitive. The portion of each datum likelihood contribution deemed sensitive is then $(1-λ) \\leq 1$ and is the only portion of the likelihood subject to risk down-weighting. The second adjustment encodes knowledge as the difference in probability masses $P(R) \\leq 1$ between the edges of the sensitive range, $R$. We use the resulting conditional (pseudo) likelihood for a sensitive record, which boosts its worst case tail values away from 0. We compare privacy and utility properties for the PPM under the aDP and range restricted privacy standards.",
+    "updated" : "2026-02-04T01:36:01Z",
+    "published" : "2026-02-04T01:36:01Z",
+    "authors" : [
+      {
+        "name" : "Monika Hu"
+      },
+      {
+        "name" : "Matthew R. Williams"
+      },
+      {
+        "name" : "Terrance D. Savitsky"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.03948v1",
+    "title" : "Privacy utility trade offs for parameter estimation in degree heterogeneous higher order networks",
+    "summary" : "In sensitive applications involving relational datasets, protecting information about individual links from adversarial queries is of paramount importance. In many such settings, the available data are summarized solely through the degrees of the nodes in the network. We adopt the $β$ model, which is the prototypical statistical model adopted for this form of aggregated relational information, and study the problem of minimax-optimal parameter estimation under both local and central differential privacy constraints. We establish finite sample minimax lower bounds that characterize the precise dependence of the estimation risk on the network size and the privacy parameters, and we propose simple estimators that achieve these bounds up to constants and logarithmic factors under both local and central differential privacy frameworks. Our results provide the first comprehensive finite sample characterization of privacy utility trade offs for parameter estimation in $β$ models, addressing the classical graph case and extending the analysis to higher order hypergraph models. We further demonstrate the effectiveness of our methods through experiments on synthetic data and a real world communication network.",
+    "updated" : "2026-02-03T19:11:37Z",
+    "published" : "2026-02-03T19:11:37Z",
+    "authors" : [
+      {
+        "name" : "Bibhabasu Mandal"
+      },
+      {
+        "name" : "Sagnik Nandy"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG",
+      "cs.SI",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01928v2",
+    "title" : "Privacy Amplification by Missing Data",
+    "summary" : "Privacy preservation is a fundamental requirement in many high-stakes domains such as medicine and finance, where sensitive personal data must be analyzed without compromising individual confidentiality. At the same time, these applications often involve datasets with missing values due to non-response, data corruption, or deliberate anonymization. Missing data is traditionally viewed as a limitation because it reduces the information available to analysts and can degrade model performance. In this work, we take an alternative perspective and study missing data from a privacy preservation standpoint. Intuitively, when features are missing, less information is revealed about individuals, suggesting that missingness could inherently enhance privacy. We formalize this intuition by analyzing missing data as a privacy amplification mechanism within the framework of differential privacy. We show, for the first time, that incomplete data can yield privacy amplification for differentially private algorithms.",
+    "updated" : "2026-02-04T09:07:53Z",
+    "published" : "2026-02-02T10:28:41Z",
+    "authors" : [
+      {
+        "name" : "Simon Roburin"
+      },
+      {
+        "name" : "Rafaël Pinot"
+      },
+      {
+        "name" : "Erwan Scornet"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
   }
 ]
