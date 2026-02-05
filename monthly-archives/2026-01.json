@@ -4081,5 +4081,31 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2601.22409v2",
+    "title" : "Optimization, Generalization and Differential Privacy Bounds for Gradient Descent on Kolmogorov-Arnold Networks",
+    "summary" : "Kolmogorov--Arnold Networks (KANs) have recently emerged as a structured alternative to standard MLPs, yet a principled theory for their training dynamics, generalization, and privacy properties remains limited. In this paper, we analyze gradient descent (GD) for training two-layer KANs and derive general bounds that characterize their training dynamics, generalization, and utility under differential privacy (DP). As a concrete instantiation, we specialize our analysis to logistic loss under an NTK-separable assumption, where we show that polylogarithmic network width suffices for GD to achieve an optimization rate of order $1/T$ and a generalization rate of order $1/n$, with $T$ denoting the number of GD iterations and $n$ the sample size. In the private setting, we characterize the noise required for $(ε,δ)$-DP and obtain a utility bound of order $\\sqrt{d}/(nε)$ (with $d$ the input dimension), matching the classical lower bound for general convex Lipschitz problems. Our results imply that polylogarithmic width is not only sufficient but also necessary under differential privacy, revealing a qualitative gap between non-private (sufficiency only) and private (necessity also emerges) training regimes. Experiments further illustrate how these theoretical insights can guide practical choices, including network width selection and early stopping.",
+    "updated" : "2026-02-04T17:03:18Z",
+    "published" : "2026-01-29T23:43:26Z",
+    "authors" : [
+      {
+        "name" : "Puyu Wang"
+      },
+      {
+        "name" : "Junyu Zhou"
+      },
+      {
+        "name" : "Philipp Liznerski"
+      },
+      {
+        "name" : "Marius Kloft"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
   }
 ]
