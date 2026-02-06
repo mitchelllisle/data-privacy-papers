@@ -508,5 +508,227 @@
       "stat.ML",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.05833v1",
+    "title" : "Synthesizing Realistic Test Data without Breaking Privacy",
+    "summary" : "There is a need for synthetic training and test datasets that replicate statistical distributions of original datasets without compromising their confidentiality. A lot of research has been done in leveraging Generative Adversarial Networks (GANs) for synthetic data generation. However, the resulting models are either not accurate enough or are still vulnerable to membership inference attacks (MIA) or dataset reconstruction attacks since the original data has been leveraged in the training process. In this paper, we explore the feasibility of producing a synthetic test dataset with the same statistical properties as the original one, with only indirectly leveraging the original data in the generation process. The approach is inspired by GANs, with a generation step and a discrimination step. However, in our approach, we use a test generator (a fuzzer) to produce test data from an input specification, preserving constraints set by the original data; a discriminator model determines how close we are to the original data. By evolving samples and determining \"good samples\" with the discriminator, we can generate privacy-preserving data that follows the same statistical distributions are the original dataset, leading to a similar utility as the original data. We evaluated our approach on four datasets that have been used to evaluate the state-of-the-art techniques. Our experiments highlight the potential of our approach towards generating synthetic datasets that have high utility while preserving privacy.",
+    "updated" : "2026-02-05T16:22:01Z",
+    "published" : "2026-02-05T16:22:01Z",
+    "authors" : [
+      {
+        "name" : "Laura Plein"
+      },
+      {
+        "name" : "Alexi Turcotte"
+      },
+      {
+        "name" : "Arina Hallemans"
+      },
+      {
+        "name" : "Andreas Zeller"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.05803v1",
+    "title" : "Privacy-Preserving Dynamic Average Consensus by Masking Reference Signals",
+    "summary" : "In multi-agent systems, dynamic average consensus (DAC) is a decentralized estimation strategy in which a set of agents tracks the average of time-varying reference signals. Because DAC requires exchanging state information with neighbors, attackers may gain access to these states and infer private information. In this paper, we develop a privacy-preserving method that protects each agent's reference signal from external eavesdroppers and honest-but-curious agents while achieving the same convergence accuracy and convergence rate as conventional DAC. Our approach masks the reference signals by having each agent draw a random real number for each neighbor, exchanges that number over an encrypted channel at the initialization, and computes a masking value to form a masked reference. Then the agents run the conventional DAC algorithm using the masked references. Convergence and privacy analyses show that the proposed algorithm matches the convergence properties of conventional DAC while preserving the privacy of the reference signals. Numerical simulations validate the effectiveness of the proposed privacy-preserving DAC algorithm.",
+    "updated" : "2026-02-05T15:57:14Z",
+    "published" : "2026-02-05T15:57:14Z",
+    "authors" : [
+      {
+        "name" : "Mihitha Maithripala"
+      },
+      {
+        "name" : "Zongli Lin"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.05797v1",
+    "title" : "Classification Under Local Differential Privacy with Model Reversal and Model Averaging",
+    "summary" : "Local differential privacy (LDP) has become a central topic in data privacy research, offering strong privacy guarantees by perturbing user data at the source and removing the need for a trusted curator. However, the noise introduced by LDP often significantly reduces data utility. To address this issue, we reinterpret private learning under LDP as a transfer learning problem, where the noisy data serve as the source domain and the unobserved clean data as the target. We propose novel techniques specifically designed for LDP to improve classification performance without compromising privacy: (1) a noised binary feedback-based evaluation mechanism for estimating dataset utility; (2) model reversal, which salvages underperforming classifiers by inverting their decision boundaries; and (3) model averaging, which assigns weights to multiple reversed classifiers based on their estimated utility. We provide theoretical excess risk bounds under LDP and demonstrate how our methods reduce this risk. Empirical results on both simulated and real-world datasets show substantial improvements in classification accuracy.",
+    "updated" : "2026-02-05T15:52:34Z",
+    "published" : "2026-02-05T15:52:34Z",
+    "authors" : [
+      {
+        "name" : "Caihong Qin"
+      },
+      {
+        "name" : "Yang Bai"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.05016v1",
+    "title" : "From Fragmentation to Integration: Exploring the Design Space of AI Agents for Human-as-the-Unit Privacy Management",
+    "summary" : "Managing one's digital footprint is overwhelming, as it spans multiple platforms and involves countless context-dependent decisions. Recent advances in agentic AI offer ways forward by enabling holistic, contextual privacy-enhancing solutions. Building on this potential, we adopted a ''human-as-the-unit'' perspective and investigated users' cross-context privacy challenges through 12 semi-structured interviews. Results reveal that people rely on ad hoc manual strategies while lacking comprehensive privacy controls, highlighting nine privacy-management challenges across applications, temporal contexts, and relationships. To explore solutions, we generated nine AI agent concepts and evaluated them via a speed-dating survey with 116 US participants. The three highest-ranked concepts were all post-sharing management tools with half or full agent autonomy, with users expressing greater trust in AI accuracy than in their own efforts. Our findings highlight a promising design space where users see AI agents bridging the fragments in privacy management, particularly through automated, comprehensive post-sharing remediation of users' digital footprints.",
+    "updated" : "2026-02-04T20:12:37Z",
+    "published" : "2026-02-04T20:12:37Z",
+    "authors" : [
+      {
+        "name" : "Eryue Xu"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI",
+      "cs.CY",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04994v1",
+    "title" : "SIDeR: Semantic Identity Decoupling for Unrestricted Face Privacy",
+    "summary" : "With the deep integration of facial recognition into online banking, identity verification, and other networked services, achieving effective decoupling of identity information from visual representations during image storage and transmission has become a critical challenge for privacy protection. To address this issue, we propose SIDeR, a Semantic decoupling-driven framework for unrestricted face privacy protection. SIDeR decomposes a facial image into a machine-recognizable identity feature vector and a visually perceptible semantic appearance component. By leveraging semantic-guided recomposition in the latent space of a diffusion model, it generates visually anonymous adversarial faces while maintaining machine-level identity consistency. The framework incorporates momentum-driven unrestricted perturbation optimization and a semantic-visual balancing factor to synthesize multiple visually diverse, highly natural adversarial samples. Furthermore, for authorized access, the protected image can be restored to its original form when the correct password is provided. Extensive experiments on the CelebA-HQ and FFHQ datasets demonstrate that SIDeR achieves a 99% attack success rate in black-box scenarios and outperforms baseline methods by 41.28% in PSNR-based restoration quality.",
+    "updated" : "2026-02-04T19:30:48Z",
+    "published" : "2026-02-04T19:30:48Z",
+    "authors" : [
+      {
+        "name" : "Zhuosen Bao"
+      },
+      {
+        "name" : "Xia Du"
+      },
+      {
+        "name" : "Zheng Lin"
+      },
+      {
+        "name" : "Jizhe Zhou"
+      },
+      {
+        "name" : "Zihan Fang"
+      },
+      {
+        "name" : "Jiening Wu"
+      },
+      {
+        "name" : "Yuxin Zhang"
+      },
+      {
+        "name" : "Zhe Chen"
+      },
+      {
+        "name" : "Chi-man Pun"
+      },
+      {
+        "name" : "Wei Ni"
+      },
+      {
+        "name" : "Jun Luo"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04933v1",
+    "title" : "The Birthmark Standard: Privacy-Preserving Photo Authentication via Hardware Roots of Trust and Consortium Blockchain",
+    "summary" : "The rapid advancement of generative AI systems has collapsed the credibility landscape for photographic evidence. Modern image generation models produce photorealistic images undermining the evidentiary foundation upon which journalism and public discourse depend. Existing authentication approaches, such as the Coalition for Content Provenance and Authenticity (C2PA), embed cryptographically signed metadata directly into image files but suffer from two critical failures: technical vulnerability to metadata stripping during social media reprocessing, and structural dependency on corporate-controlled verification infrastructure where commercial incentives may conflict with public interest. We present the Birthmark Standard, an authentication architecture leveraging manufacturing-unique sensor entropy from non-uniformity correction (NUC) maps and PRNU patterns to generate hardware-rooted authentication keys. During capture, cameras create anonymized authentication certificates proving sensor authenticity without exposing device identity via a key table architecture maintaining anonymity sets exceeding 1,000 devices. Authentication records are stored on a consortium blockchain operated by journalism organizations rather than commercial platforms, enabling verification that survives all metadata loss. We formally verify privacy properties using ProVerif, proving observational equivalence for Manufacturer Non-Correlation and Blockchain Observer Non-Identification under Dolev-Yao adversary assumptions. The architecture is validated through prototype implementation using Raspberry Pi 4 hardware, demonstrating the complete cryptographic pipeline. Performance analysis projects camera overhead below 100ms and verification latency below 500ms at scale of one million daily authentications.",
+    "updated" : "2026-02-04T13:16:03Z",
+    "published" : "2026-02-04T13:16:03Z",
+    "authors" : [
+      {
+        "name" : "Sam Ryan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04927v1",
+    "title" : "PriMod4AI: Lifecycle-Aware Privacy Threat Modeling for AI Systems using LLM",
+    "summary" : "Artificial intelligence systems introduce complex privacy risks throughout their lifecycle, especially when processing sensitive or high-dimensional data. Beyond the seven traditional privacy threat categories defined by the LINDDUN framework, AI systems are also exposed to model-centric privacy attacks such as membership inference and model inversion, which LINDDUN does not cover. To address both classical LINDDUN threats and additional AI-driven privacy attacks, PriMod4AI introduces a hybrid privacy threat modeling approach that unifies two structured knowledge sources, a LINDDUN knowledge base representing the established taxonomy, and a model-centric privacy attack knowledge base capturing threats outside LINDDUN. These knowledge bases are embedded into a vector database for semantic retrieval and combined with system level metadata derived from Data Flow Diagram. PriMod4AI uses retrieval-augmented and Data Flow specific prompt generation to guide large language models (LLMs) in identifying, explaining, and categorizing privacy threats across lifecycle stages. The framework produces justified and taxonomy-grounded threat assessments that integrate both classical and AI-driven perspectives. Evaluation on two AI systems indicates that PriMod4AI provides broad coverage of classical privacy categories while additionally identifying model-centric privacy threats. The framework produces consistent, knowledge-grounded outputs across LLMs, as reflected in agreement scores in the observed range.",
+    "updated" : "2026-02-04T08:58:19Z",
+    "published" : "2026-02-04T08:58:19Z",
+    "authors" : [
+      {
+        "name" : "Gautam Savaliya"
+      },
+      {
+        "name" : "Robert Aufschläger"
+      },
+      {
+        "name" : "Abhishek Subedi"
+      },
+      {
+        "name" : "Michael Heigl"
+      },
+      {
+        "name" : "Martin Schramm"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04895v1",
+    "title" : "Privacy Amplification Persists under Unlimited Synthetic Data Release",
+    "summary" : "We study privacy amplification by synthetic data release, a phenomenon in which differential privacy guarantees are improved by releasing only synthetic data rather than the private generative model itself. Recent work by Pierquin et al. (2025) established the first formal amplification guarantees for a linear generator, but they apply only in asymptotic regimes where the model dimension far exceeds the number of released synthetic records, limiting their practical relevance. In this work, we show a surprising result: under a bounded-parameter assumption, privacy amplification persists even when releasing an unbounded number of synthetic records, thereby improving upon the bounds of Pierquin et al. (2025). Our analysis provides structural insights that may guide the development of tighter privacy guarantees for more complex release mechanisms.",
+    "updated" : "2026-02-03T09:27:42Z",
+    "published" : "2026-02-03T09:27:42Z",
+    "authors" : [
+      {
+        "name" : "Clément Pierquin"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      },
+      {
+        "name" : "Marc Tommasi"
+      },
+      {
+        "name" : "Matthieu Boussard"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.01177v2",
+    "title" : "Equivalence of Privacy and Stability with Generalization Guarantees in Quantum Learning",
+    "summary" : "We present a unified information-theoretic framework elucidating the interplay between stability, privacy, and the generalization performance of quantum learning algorithms. We establish a bound on the expected generalization error in terms of quantum mutual information and derive a probabilistic upper bound that generalizes the classical result by Esposito et al. (2021). Complementing these findings, we provide a lower bound on the expected true loss relative to the expected empirical loss. Additionally, we demonstrate that $(\\varepsilon, δ)$-quantum differentially private learning algorithms are stable, thereby ensuring strong generalization guarantees. Finally, we extend our analysis to dishonest learning algorithms, introducing Information-Theoretic Admissibility (ITA) to characterize the fundamental limits of privacy when the learning algorithm is oblivious to specific dataset instances.",
+    "updated" : "2026-02-05T10:06:53Z",
+    "published" : "2026-02-01T12:03:07Z",
+    "authors" : [
+      {
+        "name" : "Ayanava Dasgupta"
+      },
+      {
+        "name" : "Naqueeb Ahmad Warsi"
+      },
+      {
+        "name" : "Masahito Hayashi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT",
+      "cs.LG"
+    ]
   }
 ]
