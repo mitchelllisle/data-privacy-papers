@@ -2,6 +2,54 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.06756v1">$f$-Differential Privacy Filters: Validity and Approximate Solutions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-06T15:04:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Long Tran, Antti Koskela, Ossi Räisä, Antti Honkela</p>
+    <p><b>Summary:</b> Accounting for privacy loss under fully adaptive composition -- where both the choice of mechanisms and their privacy parameters may depend on the entire history of prior outputs -- is a central challenge in differential privacy (DP). In this setting, privacy filters are stopping rules for compositions that ensure a prescribed global privacy budget is not exceeded. It remains unclear whether optimal trade-off-function-based notions, such as $f$-DP, admit valid privacy filters under fully adaptive interaction. We show that the natural approach to defining an $f$-DP filter -- composing individual trade-off curves and stopping when the prescribed $f$-DP curve is crossed -- is fundamentally invalid. We characterise when and why this failure occurs, and establish necessary and sufficient conditions under which the natural filter is valid. Furthermore, we prove a fully adaptive central limit theorem for $f$-DP and construct an approximate Gaussian DP filter for subsampled Gaussian mechanisms at small sampling rates $q<0.2$ and large sampling rates $q>0.8$, yielding tighter privacy guarantees than filters based on Rényi DP in the same setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.06518v1">Sequential Auditing for f-Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">  
+  <p><b>Published on:</b> 2026-02-06T09:22:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tim Kutta, Martin Dunsche, Yu Wei, Vassilis Zikas</p>
+    <p><b>Summary:</b> We present new auditors to assess Differential Privacy (DP) of an algorithm based on output samples. Such empirical auditors are common to check for algorithmic correctness and implementation bugs. Most existing auditors are batch-based or targeted toward the traditional notion of $(\varepsilon,δ)$-DP; typically both. In this work, we shift the focus to the highly expressive privacy concept of $f$-DP, in which the entire privacy behavior is captured by a single tradeoff curve. Our auditors detect violations across the full privacy spectrum with statistical significance guarantees, which are supported by theory and simulations. Most importantly, and in contrast to prior work, our auditors do not require a user-specified sample size as an input. Rather, they adaptively determine a near-optimal number of samples needed to reach a decision, thereby avoiding the excessively large sample sizes common in many auditing studies. This reduction in sampling cost becomes especially beneficial for expensive training procedures such as DP-SGD. Our method supports both whitebox and blackbox settings and can also be executed in single-run frameworks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.06390v1">Generating High-quality Privacy-preserving Synthetic Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-06T05:03:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> David Yavo, Richard Khoury, Christophe Pere, Sadoune Ait Kaci Azzou</p>
+    <p><b>Summary:</b> Synthetic tabular data enables sharing and analysis of sensitive records, but its practical deployment requires balancing distributional fidelity, downstream utility, and privacy protection. We study a simple, model agnostic post processing framework that can be applied on top of any synthetic data generator to improve this trade off. First, a mode patching step repairs categories that are missing or severely underrepresented in the synthetic data, while largely preserving learned dependencies. Second, a k nearest neighbor filter replaces synthetic records that lie too close to real data points, enforcing a minimum distance between real and synthetic samples. We instantiate this framework for two neural generative models for tabular data, a feed forward generator and a variational autoencoder, and evaluate it on three public datasets covering credit card transactions, cardiovascular health, and census based income. We assess marginal and joint distributional similarity, the performance of models trained on synthetic data and evaluated on real data, and several empirical privacy indicators, including nearest neighbor distances and attribute inference attacks. With moderate thresholds between 0.2 and 0.35, the post processing reduces divergence between real and synthetic categorical distributions by up to 36 percent and improves a combined measure of pairwise dependence preservation by 10 to 14 percent, while keeping downstream predictive performance within about 1 percent of the unprocessed baseline. At the same time, distance based privacy indicators improve and the success rate of attribute inference attacks remains largely unchanged. These results provide practical guidance for selecting thresholds and applying post hoc repairs to improve the quality and empirical privacy of synthetic tabular data, while complementing approaches that provide formal differential privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.06238v1">Private Sum Computation: Trade-Offs between Communication, Randomness, and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-05T22:29:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Remi A. Chou, Joerg Kliewer, Aylin Yener</p>
+    <p><b>Summary:</b> Consider multiple users and a fusion center. Each user possesses a sequence of bits and can communicate with the fusion center through a one-way public channel. The fusion center's task is to compute the sum of all the sequences under the privacy requirement that a set of colluding users, along with the fusion center, cannot gain more than a predetermined amount $δ$ of information, measured through mutual information, about the sequences of other users. Our first contribution is to characterize the minimum amount of necessary communication between the users and the fusion center, as well as the minimum amount of necessary randomness at the users. Our second contribution is to establish a connection between private sum computation and secret sharing by showing that secret sharing is necessary to generate the local randomness needed for private sum computation, and prove that it holds true for any $δ\geq 0$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.05833v1">Synthesizing Realistic Test Data without Breaking Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-02-05T16:22:01Z</p>
@@ -688,7 +736,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.19154v1">Analysis of Shuffling Beyond Pure Local Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2601.19154v2">Analysis of Shuffling Beyond Pure Local Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-01-27T03:35:03Z</p>
   <details>
@@ -1168,54 +1216,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Carlos Franzreb, Arnab Das, Tim Polzehl, Sebastian Möller</p>
     <p><b>Summary:</b> Speaker anonymization aims to conceal a speaker's identity, without considering the linguistic content. In this study, we reveal a weakness of Librispeech, the dataset that is commonly used to evaluate anonymizers: the books read by the Librispeech speakers are so distinct, that speakers can be identified by their vocabularies. Even perfect anonymizers cannot prevent this identity leakage. The EdAcc dataset is better in this regard: only a few speakers can be identified through their vocabularies, encouraging the attacker to look elsewhere for the identities of the anonymized speakers. EdAcc also comprises spontaneous speech and more diverse speakers, complementing Librispeech and giving more insights into how anonymizers work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.13003v1">PrivFly: A Privacy-Preserving Self-Supervised Framework for Rare Attack Detection in IoFT</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-19T12:30:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Safaa Menssouri, El Mehdi Amhoud</p>
-    <p><b>Summary:</b> The Internet of Flying Things (IoFT) plays a vital role in modern applications such as aerial surveillance and smart mobility. However, it remains highly vulnerable to cyberattacks that threaten the confidentiality, integrity, and availability of sensitive data. Developing effective intrusion detection systems (IDS) for IoFT networks faces key challenges, including data imbalance, privacy concerns, and the limited capability of traditional models to detect rare but potentially damaging cyber threats. In this work, we propose PrivFly, a privacy-preserving IDS framework that integrates self-supervised representation learning and differential privacy (DP) to enhance detection performance in imbalanced IoFT network traffic. We propose a masked feature reconstruction module for self-supervised pretraining, improving feature representations and boosting rare-class detection. Differential privacy is applied during training to protect sensitive information without significantly compromising model performance. In addition, we conduct a SHapley additive explanations (SHAP)-based analysis to evaluate the impact of DP on feature importance and model behavior. Experimental results on the ECU-IoFT dataset show that PrivFly achieves up to 98% accuracy and 99% F1-score, effectively balancing privacy and detection performance for secure IoFT systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.12922v1">Your Privacy Depends on Others: Collusion Vulnerabilities in Individual Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-19T10:26:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Johannes Kaiser, Alexander Ziller, Eleni Triantafillou, Daniel Rückert, Georgios Kaissis</p>
-    <p><b>Summary:</b> Individual Differential Privacy (iDP) promises users control over their privacy, but this promise can be broken in practice. We reveal a previously overlooked vulnerability in sampling-based iDP mechanisms: while conforming to the iDP guarantees, an individual's privacy risk is not solely governed by their own privacy budget, but critically depends on the privacy choices of all other data contributors. This creates a mismatch between the promise of individual privacy control and the reality of a system where risk is collectively determined. We demonstrate empirically that certain distributions of privacy preferences can unintentionally inflate the privacy risk of individuals, even when their formal guarantees are met. Moreover, this excess risk provides an exploitable attack vector. A central adversary or a set of colluding adversaries can deliberately choose privacy budgets to amplify vulnerabilities of targeted individuals. Most importantly, this attack operates entirely within the guarantees of DP, hiding this excess vulnerability. Our empirical evaluation demonstrates successful attacks against 62% of targeted individuals, substantially increasing their membership inference susceptibility. To mitigate this, we propose $(\varepsilon_i,δ_i,\overlineΔ)$-iDP a privacy contract that uses $Δ$-divergences to provide users with a hard upper bound on their excess vulnerability, while offering flexibility to mechanism design. Our findings expose a fundamental challenge to the current paradigm, demanding a re-evaluation of how iDP systems are designed, audited, communicated, and deployed to make excess risks transparent and controllable.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.12693v1">BlocksecRT-DETR: Decentralized Privacy-Preserving and Token-Efficient Federated Transformer Learning for Secure Real-Time Object Detection in ITS</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-19T03:29:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohoshin Ara Tahera, Sabbir Rahman, Shuvalaxmi Dass, Sharif Ullah, Mahmoud Abouyessef</p>
-    <p><b>Summary:</b> Federated real-time object detection using transformers in Intelligent Transportation Systems (ITS) faces three major challenges: (1) missing-class non-IID data heterogeneity from geographically diverse traffic environments, (2) latency constraints on edge hardware for high-capacity transformer models, and (3) privacy and security risks from untrusted client updates and centralized aggregation. We propose BlockSecRT-DETR, a BLOCKchain-SECured Real-Time Object DEtection TRansformer framework for ITS that provides a decentralized, token-efficient, and privacy-preserving federated training solution using RT-DETR transformer, incorporating a blockchain-secured update validation mechanism for trustworthy aggregation. In this framework, challenges (1) and (2) are jointly addressed through a unified client-side design that integrates RT-DETR training with a Token Engineering Module (TEM). TEM prunes low-utility tokens, reducing encoder complexity and latency on edge hardware, while aggregated updates mitigate non-IID data heterogeneity across clients. To address challenge (3), BlockSecRT-DETR incorporates a decentralized blockchain-secured update validation mechanism that enables tamper-proof, privacy-preserving, and trust-free authenticated model aggregation without relying on a central server. We evaluated the proposed framework under a missing-class Non-IID partition of the KITTI dataset and conducted a blockchain case study to quantify security overhead. TEM improves inference latency by 17.2% and reduces encoder FLOPs by 47.8%, while maintaining global detection accuracy (89.20% mAP@0.5). The blockchain integration adds 400 ms per round, and the ledger size remains under 12 KB due to metadata-only on-chain storage.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.12447v1">Privacy-Preserving Federated Learning with Verifiable Fairness Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-01-18T15:06:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammed Himayath Ali, Mohammed Aqib Abdullah, Syed Muneer Hussin, Mohammed Mudassir Uddin, Shahnawaz Alam</p>
-    <p><b>Summary:</b> Federated learning enables collaborative model training across distributed institutions without centralizing sensitive data; however, ensuring algorithmic fairness across heterogeneous data distributions while preserving privacy remains fundamentally unresolved. This paper introduces CryptoFair-FL, a novel cryptographic framework providing the first verifiable fairness guarantees for federated learning systems under formal security definitions. The proposed approach combines additively homomorphic encryption with secure multi-party computation to enable privacy-preserving verification of demographic parity and equalized odds metrics without revealing protected attribute distributions or individual predictions. A novel batched verification protocol reduces computational complexity from BigO(n^2) to BigO(n \log n) while maintaining (\dparam, \deltap)-differential privacy with dparam = 0.5 and deltap = 10^{-6}. Theoretical analysis establishes information-theoretic lower bounds on the privacy cost of fairness verification, demonstrating that the proposed protocol achieves near-optimal privacy-fairness tradeoffs. Comprehensive experiments across four benchmark datasets (MIMIC-IV healthcare records, Adult Income, CelebA, and a novel FedFair-100 benchmark) demonstrate that CryptoFair-FL reduces fairness violations from 0.231 to 0.031 demographic parity difference while incurring only 2.3 times computational overhead compared to standard federated averaging. The framework successfully defends against attribute inference attacks, maintaining adversarial success probability below 0.05 across all tested configurations. These results establish a practical pathway for deploying fairness-aware federated learning in regulated industries requiring both privacy protection and algorithmic accountability.</p>
   </details>
 </div>
 
