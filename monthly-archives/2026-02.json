@@ -730,5 +730,102 @@
       "cs.IT",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.06756v1",
+    "title" : "$f$-Differential Privacy Filters: Validity and Approximate Solutions",
+    "summary" : "Accounting for privacy loss under fully adaptive composition -- where both the choice of mechanisms and their privacy parameters may depend on the entire history of prior outputs -- is a central challenge in differential privacy (DP). In this setting, privacy filters are stopping rules for compositions that ensure a prescribed global privacy budget is not exceeded. It remains unclear whether optimal trade-off-function-based notions, such as $f$-DP, admit valid privacy filters under fully adaptive interaction. We show that the natural approach to defining an $f$-DP filter -- composing individual trade-off curves and stopping when the prescribed $f$-DP curve is crossed -- is fundamentally invalid. We characterise when and why this failure occurs, and establish necessary and sufficient conditions under which the natural filter is valid. Furthermore, we prove a fully adaptive central limit theorem for $f$-DP and construct an approximate Gaussian DP filter for subsampled Gaussian mechanisms at small sampling rates $q<0.2$ and large sampling rates $q>0.8$, yielding tighter privacy guarantees than filters based on Rényi DP in the same setting.",
+    "updated" : "2026-02-06T15:04:02Z",
+    "published" : "2026-02-06T15:04:02Z",
+    "authors" : [
+      {
+        "name" : "Long Tran"
+      },
+      {
+        "name" : "Antti Koskela"
+      },
+      {
+        "name" : "Ossi Räisä"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.06518v1",
+    "title" : "Sequential Auditing for f-Differential Privacy",
+    "summary" : "We present new auditors to assess Differential Privacy (DP) of an algorithm based on output samples. Such empirical auditors are common to check for algorithmic correctness and implementation bugs. Most existing auditors are batch-based or targeted toward the traditional notion of $(\\varepsilon,δ)$-DP; typically both. In this work, we shift the focus to the highly expressive privacy concept of $f$-DP, in which the entire privacy behavior is captured by a single tradeoff curve. Our auditors detect violations across the full privacy spectrum with statistical significance guarantees, which are supported by theory and simulations. Most importantly, and in contrast to prior work, our auditors do not require a user-specified sample size as an input. Rather, they adaptively determine a near-optimal number of samples needed to reach a decision, thereby avoiding the excessively large sample sizes common in many auditing studies. This reduction in sampling cost becomes especially beneficial for expensive training procedures such as DP-SGD. Our method supports both whitebox and blackbox settings and can also be executed in single-run frameworks.",
+    "updated" : "2026-02-06T09:22:24Z",
+    "published" : "2026-02-06T09:22:24Z",
+    "authors" : [
+      {
+        "name" : "Tim Kutta"
+      },
+      {
+        "name" : "Martin Dunsche"
+      },
+      {
+        "name" : "Yu Wei"
+      },
+      {
+        "name" : "Vassilis Zikas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.ME",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.06390v1",
+    "title" : "Generating High-quality Privacy-preserving Synthetic Data",
+    "summary" : "Synthetic tabular data enables sharing and analysis of sensitive records, but its practical deployment requires balancing distributional fidelity, downstream utility, and privacy protection. We study a simple, model agnostic post processing framework that can be applied on top of any synthetic data generator to improve this trade off. First, a mode patching step repairs categories that are missing or severely underrepresented in the synthetic data, while largely preserving learned dependencies. Second, a k nearest neighbor filter replaces synthetic records that lie too close to real data points, enforcing a minimum distance between real and synthetic samples. We instantiate this framework for two neural generative models for tabular data, a feed forward generator and a variational autoencoder, and evaluate it on three public datasets covering credit card transactions, cardiovascular health, and census based income. We assess marginal and joint distributional similarity, the performance of models trained on synthetic data and evaluated on real data, and several empirical privacy indicators, including nearest neighbor distances and attribute inference attacks. With moderate thresholds between 0.2 and 0.35, the post processing reduces divergence between real and synthetic categorical distributions by up to 36 percent and improves a combined measure of pairwise dependence preservation by 10 to 14 percent, while keeping downstream predictive performance within about 1 percent of the unprocessed baseline. At the same time, distance based privacy indicators improve and the success rate of attribute inference attacks remains largely unchanged. These results provide practical guidance for selecting thresholds and applying post hoc repairs to improve the quality and empirical privacy of synthetic tabular data, while complementing approaches that provide formal differential privacy guarantees.",
+    "updated" : "2026-02-06T05:03:49Z",
+    "published" : "2026-02-06T05:03:49Z",
+    "authors" : [
+      {
+        "name" : "David Yavo"
+      },
+      {
+        "name" : "Richard Khoury"
+      },
+      {
+        "name" : "Christophe Pere"
+      },
+      {
+        "name" : "Sadoune Ait Kaci Azzou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.06238v1",
+    "title" : "Private Sum Computation: Trade-Offs between Communication, Randomness, and Privacy",
+    "summary" : "Consider multiple users and a fusion center. Each user possesses a sequence of bits and can communicate with the fusion center through a one-way public channel. The fusion center's task is to compute the sum of all the sequences under the privacy requirement that a set of colluding users, along with the fusion center, cannot gain more than a predetermined amount $δ$ of information, measured through mutual information, about the sequences of other users. Our first contribution is to characterize the minimum amount of necessary communication between the users and the fusion center, as well as the minimum amount of necessary randomness at the users. Our second contribution is to establish a connection between private sum computation and secret sharing by showing that secret sharing is necessary to generate the local randomness needed for private sum computation, and prove that it holds true for any $δ\\geq 0$.",
+    "updated" : "2026-02-05T22:29:10Z",
+    "published" : "2026-02-05T22:29:10Z",
+    "authors" : [
+      {
+        "name" : "Remi A. Chou"
+      },
+      {
+        "name" : "Joerg Kliewer"
+      },
+      {
+        "name" : "Aylin Yener"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR"
+    ]
   }
 ]
