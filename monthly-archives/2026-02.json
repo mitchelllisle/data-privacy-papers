@@ -827,5 +827,264 @@
       "cs.IT",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.08657v1",
+    "title" : "Two-Stage Data Synthesization: A Statistics-Driven Restricted Trade-off between Privacy and Prediction",
+    "summary" : "Synthetic data have gained increasing attention across various domains, with a growing emphasis on their performance in downstream prediction tasks. However, most existing synthesis strategies focus on maintaining statistical information. Although some studies address prediction performance guarantees, their single-stage synthesis designs make it challenging to balance the privacy requirements that necessitate significant perturbations and the prediction performance that is sensitive to such perturbations. We propose a two-stage synthesis strategy. In the first stage, we introduce a synthesis-then-hybrid strategy, which involves a synthesis operation to generate pure synthetic data, followed by a hybrid operation that fuses the synthetic data with the original data. In the second stage, we present a kernel ridge regression (KRR)-based synthesis strategy, where a KRR model is first trained on the original data and then used to generate synthetic outputs based on the synthetic inputs produced in the first stage. By leveraging the theoretical strengths of KRR and the covariant distribution retention achieved in the first stage, our proposed two-stage synthesis strategy enables a statistics-driven restricted privacy--prediction trade-off and guarantee optimal prediction performance. We validate our approach and demonstrate its characteristics of being statistics-driven and restricted in achieving the privacy--prediction trade-off both theoretically and numerically. Additionally, we showcase its generalizability through applications to a marketing problem and five real-world datasets.",
+    "updated" : "2026-02-09T13:49:42Z",
+    "published" : "2026-02-09T13:49:42Z",
+    "authors" : [
+      {
+        "name" : "Xiaotong Liu"
+      },
+      {
+        "name" : "Shao-Bo Lin"
+      },
+      {
+        "name" : "Jun Fan"
+      },
+      {
+        "name" : "Ding-Xuan Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.08617v1",
+    "title" : "ERIS: Enhancing Privacy and Communication Efficiency in Serverless Federated Learning",
+    "summary" : "Scaling federated learning (FL) to billion-parameter models introduces critical trade-offs between communication efficiency, model accuracy, and privacy guarantees. Existing solutions often tackle these challenges in isolation, sacrificing accuracy or relying on costly cryptographic tools. We propose ERIS, a serverless FL framework that balances privacy and accuracy while eliminating the server bottleneck and distributing the communication load. ERIS combines a model partitioning strategy, distributing aggregation across multiple client-side aggregators, with a distributed shifted gradient compression mechanism. We theoretically prove that ERIS (i) converges at the same rate as FedAvg under standard assumptions, and (ii) bounds mutual information leakage inversely with the number of aggregators, enabling strong privacy guarantees with no accuracy degradation. Experiments across image and text tasks, including large language models, confirm that ERIS achieves FedAvg-level accuracy while substantially reducing communication cost and improving robustness to membership inference and reconstruction attacks, without relying on heavy cryptography or noise injection.",
+    "updated" : "2026-02-09T13:05:41Z",
+    "published" : "2026-02-09T13:05:41Z",
+    "authors" : [
+      {
+        "name" : "Dario Fenoglio"
+      },
+      {
+        "name" : "Pasquale Polverino"
+      },
+      {
+        "name" : "Jacopo Quizi"
+      },
+      {
+        "name" : "Martin Gjoreski"
+      },
+      {
+        "name" : "Marc Langheinrich"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.08465v1",
+    "title" : "A Two-Week In-the-Wild Study of Screen Filters and Camera Sliders for Smartphone Privacy in Public Spaces",
+    "summary" : "Smartphone usage in public spaces can raise privacy concerns, in terms of shoulder surfing and unintended camera capture. In real-world public space settings, we investigated the impact of tangible privacy-enhancing tools (here: screen filter and camera slider) on smartphone users' reported privacy perception, behavioral adaptations, usability and social dynamics. We conducted a mixed-method, in-the-wild study ($N = 22$) using off-the-shelf smartphone privacy tools. We investigated subjective behavioral transition by combining questionnaires with semi-structured interviews. Participants used the screen filter and the camera slider for two weeks; they reported changes in attitude and behavior after using a screen filter including screen visibility and comfort when using phones publicly. They explained decreased privacy-protective behaviors, such as actively covering their screens, suggesting a shift in perceived risk. Qualitative findings about the camera slider suggested underlying psychological mechanisms, including privacy awareness and concerns about social perception, while also offering insights regarding the tools' effectiveness.",
+    "updated" : "2026-02-09T10:14:22Z",
+    "published" : "2026-02-09T10:14:22Z",
+    "authors" : [
+      {
+        "name" : "Andreas Tjeldflaat"
+      },
+      {
+        "name" : "Piero Romare"
+      },
+      {
+        "name" : "Yuki Onishi"
+      },
+      {
+        "name" : "Morten Fjeld"
+      },
+      {
+        "name" : "Bjørn Sætrevik"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.08268v1",
+    "title" : "Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI",
+    "summary" : "Personal data centralization among dominant platform providers including search engines, social networking services, and e-commerce has created siloed ecosystems that restrict user sovereignty, thereby impeding data use across services. Meanwhile, the rapid proliferation of Large Language Model (LLM)-based agents has intensified demand for highly personalized services that require the dynamic provision of diverse personal data. This presents a significant challenge: balancing the utilization of such data with privacy protection. To address this challenge, we propose Puda (Private User Dataset Agent), a user-sovereign architecture that aggregates data across services and enables client-side management. Puda allows users to control data sharing at three privacy levels: (i) Detailed Browsing History, (ii) Extracted Keywords, and (iii) Predefined Category Subsets. We implemented Puda as a browser-based system that serves as a common platform across diverse services and evaluated it through a personalized travel planning task. Our results show that providing Predefined Category Subsets achieves 97.2% of the personalization performance (evaluated via an LLM-as-a-Judge framework across three criteria) obtained when sharing Detailed Browsing History. These findings demonstrate that Puda enables effective multi-granularity management, offering practical choices to mitigate the privacy-personalization trade-off. Overall, Puda provides an AI-native foundation for user sovereignty, empowering users to safely leverage the full potential of personalized AI.",
+    "updated" : "2026-02-09T05:00:48Z",
+    "published" : "2026-02-09T05:00:48Z",
+    "authors" : [
+      {
+        "name" : "Akinori Maeda"
+      },
+      {
+        "name" : "Yuto Sekiya"
+      },
+      {
+        "name" : "Sota Sugimura"
+      },
+      {
+        "name" : "Tomoya Asai"
+      },
+      {
+        "name" : "Yu Tsuda"
+      },
+      {
+        "name" : "Kohei Ikeda"
+      },
+      {
+        "name" : "Hiroshi Fujii"
+      },
+      {
+        "name" : "Kohei Watanabe"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.07936v1",
+    "title" : "Privacy-Preserving Covert Communication Using Encrypted Wearable Gesture Recognition",
+    "summary" : "Secure communication is essential in covert and safety-critical settings where verbal interactions may expose user intent or operational context. Wearable gesture-based communication enables low-effort, nonverbal interaction, but existing systems leak motion data, intermediate representations, or inference outputs to untrusted infrastructure, enabling intent inference, behavioral biometric leakage, and insider attacks. This work proposes a privacy-preserving gesture-based covert communication system that ensures, no raw sensor signals, learned features, or classification outputs are exposed to any third-party. The system employs a multi-party homomorphic learning pipeline for gesture recognition directly over encrypted motion data, preventing adversaries from inferring gesture semantics, replaying sensor traces, or accessing intermediate representations. To our knowledge, this work is the first to apply encrypted gesture recognition in a wearable-based covert communication setting. We design and evaluate haptic and visual feedback mechanisms for covert signal delivery and evaluate the system using 600 gesture samples from a commodity smartwatch, achieving over 94.44% classification accuracy and demonstrating the feasibility of the proposed system with practical deployability from high-performance systems to resource-constrained edge devices.",
+    "updated" : "2026-02-08T12:06:01Z",
+    "published" : "2026-02-08T12:06:01Z",
+    "authors" : [
+      {
+        "name" : "Tasnia Ashrafi Heya"
+      },
+      {
+        "name" : "Sayed Erfan Arefin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.07850v1",
+    "title" : "Privacy-Preserving Coding Schemes for Multi-Access Distributed Computing Models",
+    "summary" : "Distributed computing frameworks such as MapReduce have become essential for large-scale data processing by decomposing tasks across multiple nodes. The multi-access distributed computing (MADC) model further advances this paradigm by decoupling mapper and reducer roles: dedicated mapper nodes store data and compute intermediate values, while reducer nodes are connected to multiple mappers and aggregate results to compute final outputs. This separation reduces communication bottlenecks without requiring file replication. In this paper, we introduce privacy constraints into MADC and develop private coded schemes for two specific connectivity models. We construct new families of extended placement delivery arrays and derive corresponding coding schemes that guarantee privacy of each reducer's assigned function.",
+    "updated" : "2026-02-08T07:40:02Z",
+    "published" : "2026-02-08T07:40:02Z",
+    "authors" : [
+      {
+        "name" : "Shanuja Sasi"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.07722v1",
+    "title" : "IPBAC: Interaction Provenance-Based Access Control for Secure and Privacy-Aware Systems",
+    "summary" : "Traditional access control systems, including RBAC, face significant limitations such as inflexible role definitions, difficulty handling dynamic scenarios, and lack of detailed accountability and traceability. To this end, we introduce the Interaction Provenance-based Access Control (IPBAC) model. In this paper, we explore the integration of interaction provenance with access control to overcome these limitations. Interaction provenance refers to the detailed recording of actions and interactions within a system, capturing comprehensive metadata such as the identity of the actor, the time of an action, and the context. IPBAC ensures stronger protection against unauthorized access, enhances traceability for auditing and compliance, and supports adaptive security policies. This provenance-based access control not only strengthens security, but also provides a robust framework for auditing and compliance.",
+    "updated" : "2026-02-07T22:32:59Z",
+    "published" : "2026-02-07T22:32:59Z",
+    "authors" : [
+      {
+        "name" : "Sharif Noor Zisad"
+      },
+      {
+        "name" : "Ragib Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.07149v1",
+    "title" : "Privacy in Image Datasets: A Case Study on Pregnancy Ultrasounds",
+    "summary" : "The rise of generative models has led to increased use of large-scale datasets collected from the internet, often with minimal or no data curation. This raises concerns about the inclusion of sensitive or private information. In this work, we explore the presence of pregnancy ultrasound images, which contain sensitive personal information and are often shared online. Through a systematic examination of LAION-400M dataset using CLIP embedding similarity, we retrieve images containing pregnancy ultrasound and detect thousands of entities of private information such as names and locations. Our findings reveal that multiple images have high-risk information that could enable re-identification or impersonation. We conclude with recommended practices for dataset curation, data privacy, and ethical use of public image datasets.",
+    "updated" : "2026-02-06T19:47:10Z",
+    "published" : "2026-02-06T19:47:10Z",
+    "authors" : [
+      {
+        "name" : "Rawisara Lohanimit"
+      },
+      {
+        "name" : "Yankun Wu"
+      },
+      {
+        "name" : "Amelia Katirai"
+      },
+      {
+        "name" : "Yuta Nakashima"
+      },
+      {
+        "name" : "Noa Garcia"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.07090v1",
+    "title" : "Concept-Aware Privacy Mechanisms for Defending Embedding Inversion Attacks",
+    "summary" : "Text embeddings enable numerous NLP applications but face severe privacy risks from embedding inversion attacks, which can expose sensitive attributes or reconstruct raw text. Existing differential privacy defenses assume uniform sensitivity across embedding dimensions, leading to excessive noise and degraded utility. We propose SPARSE, a user-centric framework for concept-specific privacy protection in text embeddings. SPARSE combines (1) differentiable mask learning to identify privacy-sensitive dimensions for user-defined concepts, and (2) the Mahalanobis mechanism that applies elliptical noise calibrated by dimension sensitivity. Unlike traditional spherical noise injection, SPARSE selectively perturbs privacy-sensitive dimensions while preserving non-sensitive semantics. Evaluated across six datasets with three embedding models and attack scenarios, SPARSE consistently reduces privacy leakage while achieving superior downstream performance compared to state-of-the-art DP methods.",
+    "updated" : "2026-02-06T09:28:55Z",
+    "published" : "2026-02-06T09:28:55Z",
+    "authors" : [
+      {
+        "name" : "Yu-Che Tsai"
+      },
+      {
+        "name" : "Hsiang Hsiao"
+      },
+      {
+        "name" : "Kuan-Yu Chen"
+      },
+      {
+        "name" : "Shou-De Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.04124v2",
+    "title" : "Privacy Amplification for Synthetic data using Range Restriction",
+    "summary" : "We introduce a new class of range restricted formal data privacy standards that condition on owner beliefs about sensitive data ranges. By incorporating this additional information, we can provide a stronger privacy guarantee (e.g. an amplification). The range restricted formal privacy standards protect only a subset (or ball) of data values and exclude ranges (or balls) believed to be already publicly known. The privacy standards are designed for the risk-weighted pseudo posterior (model) mechanism (PPM) used to generate synthetic data under an asymptotic Differential (aDP) privacy guarantee. The PPM downweights the likelihood contribution for each record proportionally to its disclosure risk. The PPM is adapted under inclusion of beliefs by adjusting the risk-weighted pseudo likelihood. We introduce two alternative adjustments. The first expresses data owner knowledge of the sensitive range as a probability, $λ$, that a datum value drawn from the underlying generating distribution lies outside the ball or subspace of values that are sensitive. The portion of each datum likelihood contribution deemed sensitive is then $(1-λ) \\leq 1$ and is the only portion of the likelihood subject to risk down-weighting. The second adjustment encodes knowledge as the difference in probability masses $P(R) \\leq 1$ between the edges of the sensitive range, $R$. We use the resulting conditional (pseudo) likelihood for a sensitive record, which boosts its worst case tail values away from 0. We compare privacy and utility properties for the PPM under the aDP and range restricted privacy standards.",
+    "updated" : "2026-02-06T19:57:59Z",
+    "published" : "2026-02-04T01:36:01Z",
+    "authors" : [
+      {
+        "name" : "Jingchen Hu"
+      },
+      {
+        "name" : "Matthew R. Williams"
+      },
+      {
+        "name" : "Terrance D. Savitsky"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.02296v2",
+    "title" : "Decoupling Generalizability and Membership Privacy Risks in Neural Networks",
+    "summary" : "A deep learning model usually has to sacrifice some utilities when it acquires some other abilities or characteristics. Privacy preservation has such trade-off relationships with utilities. The loss disparity between various defense approaches implies the potential to decouple generalizability and privacy risks to maximize privacy gain. In this paper, we identify that the model's generalization and privacy risks exist in different regions in deep neural network architectures. Based on the observations that we investigate, we propose Privacy-Preserving Training Principle (PPTP) to protect model components from privacy risks while minimizing the loss in generalizability. Through extensive evaluations, our approach shows significantly better maintenance in model generalizability while enhancing privacy preservation.",
+    "updated" : "2026-02-09T18:44:22Z",
+    "published" : "2026-02-02T16:32:42Z",
+    "authors" : [
+      {
+        "name" : "Xingli Fang"
+      },
+      {
+        "name" : "Jung-Eun Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
