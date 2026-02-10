@@ -2,6 +2,102 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.08657v1">Two-Stage Data Synthesization: A Statistics-Driven Restricted Trade-off between Privacy and Prediction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2026-02-09T13:49:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaotong Liu, Shao-Bo Lin, Jun Fan, Ding-Xuan Zhou</p>
+    <p><b>Summary:</b> Synthetic data have gained increasing attention across various domains, with a growing emphasis on their performance in downstream prediction tasks. However, most existing synthesis strategies focus on maintaining statistical information. Although some studies address prediction performance guarantees, their single-stage synthesis designs make it challenging to balance the privacy requirements that necessitate significant perturbations and the prediction performance that is sensitive to such perturbations. We propose a two-stage synthesis strategy. In the first stage, we introduce a synthesis-then-hybrid strategy, which involves a synthesis operation to generate pure synthetic data, followed by a hybrid operation that fuses the synthetic data with the original data. In the second stage, we present a kernel ridge regression (KRR)-based synthesis strategy, where a KRR model is first trained on the original data and then used to generate synthetic outputs based on the synthetic inputs produced in the first stage. By leveraging the theoretical strengths of KRR and the covariant distribution retention achieved in the first stage, our proposed two-stage synthesis strategy enables a statistics-driven restricted privacy--prediction trade-off and guarantee optimal prediction performance. We validate our approach and demonstrate its characteristics of being statistics-driven and restricted in achieving the privacy--prediction trade-off both theoretically and numerically. Additionally, we showcase its generalizability through applications to a marketing problem and five real-world datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.08617v1">ERIS: Enhancing Privacy and Communication Efficiency in Serverless Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-09T13:05:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dario Fenoglio, Pasquale Polverino, Jacopo Quizi, Martin Gjoreski, Marc Langheinrich</p>
+    <p><b>Summary:</b> Scaling federated learning (FL) to billion-parameter models introduces critical trade-offs between communication efficiency, model accuracy, and privacy guarantees. Existing solutions often tackle these challenges in isolation, sacrificing accuracy or relying on costly cryptographic tools. We propose ERIS, a serverless FL framework that balances privacy and accuracy while eliminating the server bottleneck and distributing the communication load. ERIS combines a model partitioning strategy, distributing aggregation across multiple client-side aggregators, with a distributed shifted gradient compression mechanism. We theoretically prove that ERIS (i) converges at the same rate as FedAvg under standard assumptions, and (ii) bounds mutual information leakage inversely with the number of aggregators, enabling strong privacy guarantees with no accuracy degradation. Experiments across image and text tasks, including large language models, confirm that ERIS achieves FedAvg-level accuracy while substantially reducing communication cost and improving robustness to membership inference and reconstruction attacks, without relying on heavy cryptography or noise injection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.08465v1">A Two-Week In-the-Wild Study of Screen Filters and Camera Sliders for Smartphone Privacy in Public Spaces</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-09T10:14:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andreas Tjeldflaat, Piero Romare, Yuki Onishi, Morten Fjeld, Bjørn Sætrevik</p>
+    <p><b>Summary:</b> Smartphone usage in public spaces can raise privacy concerns, in terms of shoulder surfing and unintended camera capture. In real-world public space settings, we investigated the impact of tangible privacy-enhancing tools (here: screen filter and camera slider) on smartphone users' reported privacy perception, behavioral adaptations, usability and social dynamics. We conducted a mixed-method, in-the-wild study ($N = 22$) using off-the-shelf smartphone privacy tools. We investigated subjective behavioral transition by combining questionnaires with semi-structured interviews. Participants used the screen filter and the camera slider for two weeks; they reported changes in attitude and behavior after using a screen filter including screen visibility and comfort when using phones publicly. They explained decreased privacy-protective behaviors, such as actively covering their screens, suggesting a shift in perceived risk. Qualitative findings about the camera slider suggested underlying psychological mechanisms, including privacy awareness and concerns about social perception, while also offering insights regarding the tools' effectiveness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.08268v1">Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-09T05:00:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akinori Maeda, Yuto Sekiya, Sota Sugimura, Tomoya Asai, Yu Tsuda, Kohei Ikeda, Hiroshi Fujii, Kohei Watanabe</p>
+    <p><b>Summary:</b> Personal data centralization among dominant platform providers including search engines, social networking services, and e-commerce has created siloed ecosystems that restrict user sovereignty, thereby impeding data use across services. Meanwhile, the rapid proliferation of Large Language Model (LLM)-based agents has intensified demand for highly personalized services that require the dynamic provision of diverse personal data. This presents a significant challenge: balancing the utilization of such data with privacy protection. To address this challenge, we propose Puda (Private User Dataset Agent), a user-sovereign architecture that aggregates data across services and enables client-side management. Puda allows users to control data sharing at three privacy levels: (i) Detailed Browsing History, (ii) Extracted Keywords, and (iii) Predefined Category Subsets. We implemented Puda as a browser-based system that serves as a common platform across diverse services and evaluated it through a personalized travel planning task. Our results show that providing Predefined Category Subsets achieves 97.2% of the personalization performance (evaluated via an LLM-as-a-Judge framework across three criteria) obtained when sharing Detailed Browsing History. These findings demonstrate that Puda enables effective multi-granularity management, offering practical choices to mitigate the privacy-personalization trade-off. Overall, Puda provides an AI-native foundation for user sovereignty, empowering users to safely leverage the full potential of personalized AI.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.07936v1">Privacy-Preserving Covert Communication Using Encrypted Wearable Gesture Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-08T12:06:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tasnia Ashrafi Heya, Sayed Erfan Arefin</p>
+    <p><b>Summary:</b> Secure communication is essential in covert and safety-critical settings where verbal interactions may expose user intent or operational context. Wearable gesture-based communication enables low-effort, nonverbal interaction, but existing systems leak motion data, intermediate representations, or inference outputs to untrusted infrastructure, enabling intent inference, behavioral biometric leakage, and insider attacks. This work proposes a privacy-preserving gesture-based covert communication system that ensures, no raw sensor signals, learned features, or classification outputs are exposed to any third-party. The system employs a multi-party homomorphic learning pipeline for gesture recognition directly over encrypted motion data, preventing adversaries from inferring gesture semantics, replaying sensor traces, or accessing intermediate representations. To our knowledge, this work is the first to apply encrypted gesture recognition in a wearable-based covert communication setting. We design and evaluate haptic and visual feedback mechanisms for covert signal delivery and evaluate the system using 600 gesture samples from a commodity smartwatch, achieving over 94.44% classification accuracy and demonstrating the feasibility of the proposed system with practical deployability from high-performance systems to resource-constrained edge devices.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.07850v1">Privacy-Preserving Coding Schemes for Multi-Access Distributed Computing Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-02-08T07:40:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shanuja Sasi</p>
+    <p><b>Summary:</b> Distributed computing frameworks such as MapReduce have become essential for large-scale data processing by decomposing tasks across multiple nodes. The multi-access distributed computing (MADC) model further advances this paradigm by decoupling mapper and reducer roles: dedicated mapper nodes store data and compute intermediate values, while reducer nodes are connected to multiple mappers and aggregate results to compute final outputs. This separation reduces communication bottlenecks without requiring file replication. In this paper, we introduce privacy constraints into MADC and develop private coded schemes for two specific connectivity models. We construct new families of extended placement delivery arrays and derive corresponding coding schemes that guarantee privacy of each reducer's assigned function.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.07722v1">IPBAC: Interaction Provenance-Based Access Control for Secure and Privacy-Aware Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-07T22:32:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sharif Noor Zisad, Ragib Hasan</p>
+    <p><b>Summary:</b> Traditional access control systems, including RBAC, face significant limitations such as inflexible role definitions, difficulty handling dynamic scenarios, and lack of detailed accountability and traceability. To this end, we introduce the Interaction Provenance-based Access Control (IPBAC) model. In this paper, we explore the integration of interaction provenance with access control to overcome these limitations. Interaction provenance refers to the detailed recording of actions and interactions within a system, capturing comprehensive metadata such as the identity of the actor, the time of an action, and the context. IPBAC ensures stronger protection against unauthorized access, enhances traceability for auditing and compliance, and supports adaptive security policies. This provenance-based access control not only strengthens security, but also provides a robust framework for auditing and compliance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.07149v1">Privacy in Image Datasets: A Case Study on Pregnancy Ultrasounds</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-02-06T19:47:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rawisara Lohanimit, Yankun Wu, Amelia Katirai, Yuta Nakashima, Noa Garcia</p>
+    <p><b>Summary:</b> The rise of generative models has led to increased use of large-scale datasets collected from the internet, often with minimal or no data curation. This raises concerns about the inclusion of sensitive or private information. In this work, we explore the presence of pregnancy ultrasound images, which contain sensitive personal information and are often shared online. Through a systematic examination of LAION-400M dataset using CLIP embedding similarity, we retrieve images containing pregnancy ultrasound and detect thousands of entities of private information such as names and locations. Our findings reveal that multiple images have high-risk information that could enable re-identification or impersonation. We conclude with recommended practices for dataset curation, data privacy, and ethical use of public image datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.06756v1">$f$-Differential Privacy Filters: Validity and Approximate Solutions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-02-06T15:04:02Z</p>
@@ -9,6 +105,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Long Tran, Antti Koskela, Ossi Räisä, Antti Honkela</p>
     <p><b>Summary:</b> Accounting for privacy loss under fully adaptive composition -- where both the choice of mechanisms and their privacy parameters may depend on the entire history of prior outputs -- is a central challenge in differential privacy (DP). In this setting, privacy filters are stopping rules for compositions that ensure a prescribed global privacy budget is not exceeded. It remains unclear whether optimal trade-off-function-based notions, such as $f$-DP, admit valid privacy filters under fully adaptive interaction. We show that the natural approach to defining an $f$-DP filter -- composing individual trade-off curves and stopping when the prescribed $f$-DP curve is crossed -- is fundamentally invalid. We characterise when and why this failure occurs, and establish necessary and sufficient conditions under which the natural filter is valid. Furthermore, we prove a fully adaptive central limit theorem for $f$-DP and construct an approximate Gaussian DP filter for subsampled Gaussian mechanisms at small sampling rates $q<0.2$ and large sampling rates $q>0.8$, yielding tighter privacy guarantees than filters based on Rényi DP in the same setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.07090v1">Concept-Aware Privacy Mechanisms for Defending Embedding Inversion Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-06T09:28:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu-Che Tsai, Hsiang Hsiao, Kuan-Yu Chen, Shou-De Lin</p>
+    <p><b>Summary:</b> Text embeddings enable numerous NLP applications but face severe privacy risks from embedding inversion attacks, which can expose sensitive attributes or reconstruct raw text. Existing differential privacy defenses assume uniform sensitivity across embedding dimensions, leading to excessive noise and degraded utility. We propose SPARSE, a user-centric framework for concept-specific privacy protection in text embeddings. SPARSE combines (1) differentiable mask learning to identify privacy-sensitive dimensions for user-defined concepts, and (2) the Mahalanobis mechanism that applies elliptical noise calibrated by dimension sensitivity. Unlike traditional spherical noise injection, SPARSE selectively perturbs privacy-sensitive dimensions while preserving non-sensitive semantics. Evaluated across six datasets with three embedding models and attack scenarios, SPARSE consistently reduces privacy leakage while achieving superior downstream performance compared to state-of-the-art DP methods.</p>
   </details>
 </div>
 
@@ -182,12 +290,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.04124v1">Privacy Amplification for Synthetic data using Range Restriction</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.04124v2">Privacy Amplification for Synthetic data using Range Restriction</a></h3>
   
   <p><b>Published on:</b> 2026-02-04T01:36:01Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Monika Hu, Matthew R. Williams, Terrance D. Savitsky</p>
+    <p><b>Authors:</b> Jingchen Hu, Matthew R. Williams, Terrance D. Savitsky</p>
     <p><b>Summary:</b> We introduce a new class of range restricted formal data privacy standards that condition on owner beliefs about sensitive data ranges. By incorporating this additional information, we can provide a stronger privacy guarantee (e.g. an amplification). The range restricted formal privacy standards protect only a subset (or ball) of data values and exclude ranges (or balls) believed to be already publicly known. The privacy standards are designed for the risk-weighted pseudo posterior (model) mechanism (PPM) used to generate synthetic data under an asymptotic Differential (aDP) privacy guarantee. The PPM downweights the likelihood contribution for each record proportionally to its disclosure risk. The PPM is adapted under inclusion of beliefs by adjusting the risk-weighted pseudo likelihood. We introduce two alternative adjustments. The first expresses data owner knowledge of the sensitive range as a probability, $λ$, that a datum value drawn from the underlying generating distribution lies outside the ball or subspace of values that are sensitive. The portion of each datum likelihood contribution deemed sensitive is then $(1-λ) \leq 1$ and is the only portion of the likelihood subject to risk down-weighting. The second adjustment encodes knowledge as the difference in probability masses $P(R) \leq 1$ between the edges of the sensitive range, $R$. We use the resulting conditional (pseudo) likelihood for a sensitive record, which boosts its worst case tail values away from 0. We compare privacy and utility properties for the PPM under the aDP and range restricted privacy standards.</p>
   </details>
 </div>
@@ -315,7 +423,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.02296v1">Decoupling Generalizability and Membership Privacy Risks in Neural Networks</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.02296v2">Decoupling Generalizability and Membership Privacy Risks in Neural Networks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-02-02T16:32:42Z</p>
   <details>
@@ -1108,114 +1216,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Andrea Protani, Riccardo Taiello, Marc Molina Van Den Bosch, Luigi Serio</p>
     <p><b>Summary:</b> Deep learning models for brain tumor analysis require large and diverse datasets that are often siloed across healthcare institutions due to privacy regulations. We present a federated learning framework for brain tumor localization that enables multi-institutional collaboration without sharing sensitive patient data. Our method extends a hybrid Transformer-Graph Neural Network architecture derived from prior decoder-free supervoxel GNNs and is deployed within CAFEIN\textsuperscript{\textregistered}, CERN's federated learning platform designed for healthcare environments. We provide an explainability analysis through Transformer attention mechanisms that reveals which MRI modalities drive the model predictions. Experiments on the BraTS dataset demonstrate a key finding: while isolated training on individual client data triggers early stopping well before reaching full training capacity, federated learning enables continued model improvement by leveraging distributed data, ultimately matching centralized performance. This result provides strong justification for federated learning when dealing with complex tasks and high-dimensional input data, as aggregating knowledge from multiple institutions significantly benefits the learning process. Our explainability analysis, validated through rigorous statistical testing on the full test set (paired t-tests with Bonferroni correction), reveals that deeper network layers significantly increase attention to T2 and FLAIR modalities ($p<0.001$, Cohen's $d$=1.50), aligning with clinical practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.14980v1">Parallel Collaborative ADMM Privacy Computing and Adaptive GPU Acceleration for Distributed Edge Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2026-01-21T13:28:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengchun Xia, Zhicheng Dong, Donghong Cai, Fang Fang, Lisheng Fan, Pingzhi Fan</p>
-    <p><b>Summary:</b> Distributed computing has been widely applied in distributed edge networks for reducing the processing burden of high-dimensional data centralization, where a high-dimensional computational task is decomposed into multiple low-dimensional collaborative processing tasks or multiple edge nodes use distributed data to train a global model. However, the computing power of a single-edge node is limited, and collaborative computing will cause information leakage and excessive communication overhead. In this paper, we design a parallel collaborative distributed alternating direction method of multipliers (ADMM) and propose a three-phase parallel collaborative ADMM privacy computing (3P-ADMM-PC2) algorithm for distributed computing in edge networks, where the Paillier homomorphic encryption is utilized to protect data privacy during interactions. Especially, a quantization method is introduced, which maps the real numbers to a positive integer interval without affecting the homomorphic operations. To address the architectural mismatch between large-integer and Graphics Processing Unit (GPU) computing, we transform high-bitwidth computations into low-bitwidth matrix and vector operations. Thus the GPU can be utilized to implement parallel encryption and decryption computations with long keys. Finally, a GPU-accelerated 3P-ADMM-PC2 is proposed to optimize the collaborative computing tasks. Meanwhile, large-scale computational tasks are conducted in network topologies with varying numbers of edge nodes. Experimental results demonstrate that the proposed 3P-ADMM-PC2 has excellent mean square error performance, which is close to that of distributed ADMM without privacy-preserving. Compared to centralized ADMM and distributed ADMM implemented with Central Processing Unit (CPU) computation, the proposed scheme demonstrates a significant speedup ratio.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17050v1">Single-Pixel Vision-Language Model for Intrinsic Privacy-Preserving Behavioral Intelligence</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-21T09:11:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hongjun An, Yiliang Song, Jiawei Shao, Zhe Sun, Xuelong Li</p>
-    <p><b>Summary:</b> Adverse social interactions, such as bullying, harassment, and other illicit activities, pose significant threats to individual well-being and public safety, leaving profound impacts on physical and mental health. However, these critical events frequently occur in privacy-sensitive environments like restrooms, and changing rooms, where conventional surveillance is prohibited or severely restricted by stringent privacy regulations and ethical concerns. Here, we propose the Single-Pixel Vision-Language Model (SP-VLM), a novel framework that reimagines secure environmental monitoring. It achieves intrinsic privacy-by-design by capturing human dynamics through inherently low-dimensional single-pixel modalities and inferring complex behavioral patterns via seamless vision-language integration. Building on this framework, we demonstrate that single-pixel sensing intrinsically suppresses identity recoverability, rendering state-of-the-art face recognition systems ineffective below a critical sampling rate. We further show that SP-VLM can nonetheless extract meaningful behavioral semantics, enabling robust anomaly detection, people counting, and activity understanding from severely degraded single-pixel observations. Combining these findings, we identify a practical sampling-rate regime in which behavioral intelligence emerges while personal identity remains strongly protected. Together, these results point to a human-rights-aligned pathway for safety monitoring that can support timely intervention without normalizing intrusive surveillance in privacy-sensitive spaces.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.14725v1">Differential Privacy on Affine Manifolds: Geometrically Confined Privacy in Linear Dynamical Systems</a></h3>
-  
-  <p><b>Published on:</b> 2026-01-21T07:30:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihao Ren, Lei Wang, Deming Yuan, Guodong Shi</p>
-    <p><b>Summary:</b> In this paper, we present a comprehensive framework for differential privacy over affine manifolds and validate its usefulness in the contexts of differentially private cloud-based control and average consensus. We consider differential privacy mechanisms for linear queries when the input data are constrained to lie on affine manifolds, a structural property that is assumed to be available as prior knowledge to adversaries. In this setting, the definition of neighborhood adjacency must be formulated with respect to the intrinsic geometry of the manifolds. We demonstrate that such affine-manifold constraints can fundamentally alter the attainable privacy levels relative to the unconstrained case. In particular, we derive necessary and sufficient conditions under which differential privacy can be realized via structured noise injection mechanisms, wherein correlated Gaussian or Laplace noise distributions, rather than i.i.d. perturbations, are calibrated to the dataset. Based on these characterizations, we develop explicit noise calibration procedures that guarantee the tight realization of any prescribed privacy budget with a matching noise magnitude. Finally, we show that the proposed framework admits direct applications to linear dynamical systems ranging from differentially private cloud-based control to privacy-preserving average consensus, all of which naturally involve affine-manifold constraints. The established theoretical results are illustrated through numerical examples.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.14660v1">NeuroFilter: Privacy Guardrails for Conversational LLM Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-01-21T05:16:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saswat Das, Ferdinando Fioretto</p>
-    <p><b>Summary:</b> This work addresses the computational challenge of enforcing privacy for agentic Large Language Models (LLMs), where privacy is governed by the contextual integrity framework. Indeed, existing defenses rely on LLM-mediated checking stages that add substantial latency and cost, and that can be undermined in multi-turn interactions through manipulation or benign-looking conversational scaffolding. Contrasting this background, this paper makes a key observation: internal representations associated with privacy-violating intent can be separated from benign requests using linear structure. Using this insight, the paper proposes NeuroFilter, a guardrail framework that operationalizes contextual integrity by mapping norm violations to simple directions in the model's activation space, enabling detection even when semantic filters are bypassed. The proposed filter is also extended to capture threats arising during long conversations using the concept of activation velocity, which measures cumulative drift in internal representations across turns. A comprehensive evaluation across over 150,000 interactions and covering models from 7B to 70B parameters, illustrates the strong performance of NeuroFilter in detecting privacy attacks while maintaining zero false positives on benign prompts, all while reducing the computational inference cost by several orders of magnitude when compared to LLM-based agentic privacy defenses.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.14597v1">Optimality of Staircase Mechanisms for Vector Queries under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2026-01-21T02:35:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> James Melbourne, Mario Diaz, Shahab Asoodeh</p>
-    <p><b>Summary:</b> We study the optimal design of additive mechanisms for vector-valued queries under $ε$-differential privacy (DP). Given only the sensitivity of a query and a norm-monotone cost function measuring utility loss, we ask which noise distribution minimizes expected cost among all additive $ε$-DP mechanisms. Using convex rearrangement theory, we show that this infinite-dimensional optimization problem admits a reduction to a one-dimensional compact and convex family of radially symmetric distributions whose extreme points are the staircase distributions. As a consequence, we prove that for any dimension, any norm, and any norm-monotone cost function, there exists an $ε$-DP staircase mechanism that is optimal among all additive mechanisms. This result resolves a conjecture of Geng, Kairouz, Oh, and Viswanath, and provides a geometric explanation for the emergence of staircase mechanisms as extremal solutions in differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.13824v1">ELSA: Efficient LLM-Centric Split Aggregation for Privacy-Aware Hierarchical Federated Learning over Resource-Constrained Edge Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-20T10:33:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaohong Yang, Tong Xie, Minghui Liwang, Chikai Shang, Yang Lu, Zhenzhen Jiao, Liqun Fu, Seyyedali Hosseinalipour</p>
-    <p><b>Summary:</b> Training large language models (LLMs) at the network edge faces fundamental challenges arising from device resource constraints, severe data heterogeneity, and heightened privacy risks. To address these, we propose ELSA (Efficient LLM-centric Split Aggregation), a novel framework that systematically integrates split learning (SL) and hierarchical federated learning (HFL) for distributed LLM fine-tuning over resource-constrained edge networks. ELSA introduces three key innovations. First, it employs a task-agnostic, behavior-aware client clustering mechanism that constructs semantic fingerprints using public probe inputs and symmetric KL divergence, further enhanced by prediction-consistency-based trust scoring and latency-aware edge assignment to jointly address data heterogeneity, client unreliability, and communication constraints. Second, it splits the LLM into three parts across clients and edge servers, with the cloud used only for adapter aggregation, enabling an effective balance between on-device computation cost and global convergence stability. Third, it incorporates a lightweight communication scheme based on computational sketches combined with semantic subspace orthogonal perturbation (SS-OP) to reduce communication overhead while mitigating privacy leakage during model exchanges. Experiments across diverse NLP tasks demonstrate that ELSA consistently outperforms state-of-the-art methods in terms of adaptability, convergence behavior, and robustness, establishing a scalable and privacy-aware solution for edge-side LLM fine-tuning under resource constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.13698v1">Does Privacy Always Harm Fairness? Data-Dependent Trade-offs via Chernoff Information Neural Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2026-01-20T07:51:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arjun Nichani, Hsiang Hsu,  Chun-Fu,  Chen, Haewon Jeong</p>
-    <p><b>Summary:</b> Fairness and privacy are two vital pillars of trustworthy machine learning. Despite extensive research on these individual topics, the relationship between fairness and privacy has received significantly less attention. In this paper, we utilize the information-theoretic measure Chernoff Information to highlight the data-dependent nature of the relationship among the triad of fairness, privacy, and accuracy. We first define Noisy Chernoff Difference, a tool that allows us to analyze the relationship among the triad simultaneously. We then show that for synthetic data, this value behaves in 3 distinct ways (depending on the distribution of the data). We highlight the data distributions involved in these cases and explore their fairness and privacy implications. Additionally, we show that Noisy Chernoff Difference acts as a proxy for the steepness of the fairness-accuracy curves. Finally, we propose a method for estimating Chernoff Information on data from unknown distributions and utilize this framework to examine the triad dynamic on real datasets. This work builds towards a unified understanding of the fairness-privacy-accuracy relationship and highlights its data-dependent nature.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.13342v1">Privacy Starts with UI: Privacy Patterns and Designer Perspectives in UI/UX Practice</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-19T19:24:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anxhela Maloku, Alexandra Klymenko, Stephen Meisenbacher, Florian Matthes</p>
-    <p><b>Summary:</b> In the study of Human-Computer Interaction, privacy is often seen as a core issue, and it has been explored directly in connection with User Interface (UI) and User Experience (UX) design. We systematically investigate the key considerations and factors for privacy in UI/UX, drawing upon the extant literature and 15 semi-structured interviews with experts working in the field. These insights lead to the synthesis of 14 primary design considerations for privacy in UI/UX, as well as 14 key factors under four main axes affecting privacy work therein. From these findings, we produce our main research artifact, a UI/UX Privacy Pattern Catalog, which we validate in a series of two interactive workshops and one online survey with UI/UX practitioners. Our work not only systematizes a field growing in both attention and importance, but it also provides an actionable and expert-validated artifact to guide UI/UX designers in realizing privacy-preserving UI/UX design.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.13107v1">Content Leakage in LibriSpeech and Its Impact on the Privacy Evaluation of Speaker Anonymization</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
-  <p><b>Published on:</b> 2026-01-19T14:44:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Carlos Franzreb, Arnab Das, Tim Polzehl, Sebastian Möller</p>
-    <p><b>Summary:</b> Speaker anonymization aims to conceal a speaker's identity, without considering the linguistic content. In this study, we reveal a weakness of Librispeech, the dataset that is commonly used to evaluate anonymizers: the books read by the Librispeech speakers are so distinct, that speakers can be identified by their vocabularies. Even perfect anonymizers cannot prevent this identity leakage. The EdAcc dataset is better in this regard: only a few speakers can be identified through their vocabularies, encouraging the attacker to look elsewhere for the identities of the anonymized speakers. EdAcc also comprises spontaneous speech and more diverse speakers, complementing Librispeech and giving more insights into how anonymizers work.</p>
   </details>
 </div>
 
