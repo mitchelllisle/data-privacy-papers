@@ -2,6 +2,105 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10100v1">Towards Explainable Federated Learning: Understanding the Impact of Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-10T18:58:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Júlio Oliveira, Rodrigo Ferreira, André Riker, Glaucio H. S. Carvalho, Eirini Eleni Tsilopoulou</p>
+    <p><b>Summary:</b> Data privacy and eXplainable Artificial Intelligence (XAI) are two important aspects for modern Machine Learning systems. To enhance data privacy, recent machine learning models have been designed as a Federated Learning (FL) system. On top of that, additional privacy layers can be added, via Differential Privacy (DP). On the other hand, to improve explainability, ML must consider more interpretable approaches with reduced number of features and less complex internal architecture. In this context, this paper aims to achieve a machine learning (ML) model that combines enhanced data privacy with explainability. So, we propose a FL solution, called Federated EXplainable Trees with Differential Privacy (FEXT-DP), that: (i) is based on Decision Trees, since they are lightweight and have superior explainability than neural networks-based FL systems; (ii) provides additional layer of data privacy protection applying Differential Privacy (DP) to the Tree-Based model. However, there is a side effect adding DP: it harms the explainability of the system. So, this paper also presents the impact of DP protection on the explainability of the ML model. The carried out performance assessment shows improvements of FEXT-DP in terms of a faster training, i.e., numbers of rounds, Mean Squared Error and explainability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09904v1">Safeguarding Privacy: Privacy-Preserving Detection of Mind Wandering and Disengagement Using Federated Learning in Online Education</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-10T15:40:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anna Bodonhelyi, Mengdi Wang, Efe Bozkir, Babette Bühler, Enkelejda Kasneci</p>
+    <p><b>Summary:</b> Since the COVID-19 pandemic, online courses have expanded access to education, yet the absence of direct instructor support challenges learners' ability to self-regulate attention and engagement. Mind wandering and disengagement can be detrimental to learning outcomes, making their automated detection via video-based indicators a promising approach for real-time learner support. However, machine learning-based approaches often require sharing sensitive data, raising privacy concerns. Federated learning offers a privacy-preserving alternative by enabling decentralized model training while also distributing computational load. We propose a framework exploiting cross-device federated learning to address different manifestations of behavioral and cognitive disengagement during remote learning, specifically behavioral disengagement, mind wandering, and boredom. We fit video-based cognitive disengagement detection models using facial expressions and gaze features. By adopting federated learning, we safeguard users' data privacy through privacy-by-design and introduce a novel solution with the potential for real-time learner support. We further address challenges posed by eyeglasses by incorporating related features, enhancing overall model performance. To validate the performance of our approach, we conduct extensive experiments on five datasets and benchmark multiple federated learning algorithms. Our results show great promise for privacy-preserving educational technologies promoting learner engagement.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09627v1">Parallel Composition for Statistical Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-10T10:13:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dennis Breutigam, Rüdiger Reischuk</p>
+    <p><b>Summary:</b> Differential Privacy (DP) considers a scenario in which an adversary has almost complete information about the entries of a database. This worst-case assumption is likely to overestimate the privacy threat faced by an individual in practice. In contrast, Statistical Privacy (SP), as well as related notions such as noiseless privacy or limited background knowledge privacy, describe a setting in which the adversary knows the distribution of the database entries, but not their exact realizations. In this case, privacy analysis must account for the interaction between uncertainty induced by the entropy of the underlying distributions and privacy mechanisms that distort query answers, which can be highly non-trivial.
+  This paper investigates this problem for multiple queries (composition). A privacy mechanism is proposed that is based on subsampling and randomly partitioning the database to bound the dependency among queries. This way for the first time, to the best of our knowledge, upper privacy bounds against limited adversaries are obtained without any further restriction on the database.
+  These bounds show that in realistic application scenarios taking the entropy of distributions into account yields improvements of privacy and precision guarantees. We illustrate examples where for fixed privacy parameters and utility loss SP allows significantly more queries than DP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09357v1">Data Sharing with Endogenous Choices over Differential Privacy Levels</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-10T03:01:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Raef Bassily, Kate Donahue, Diptangshu Sen, Annuo Zhao, Juba Ziani</p>
+    <p><b>Summary:</b> We study coalition formation for data sharing under differential privacy when agents have heterogeneous privacy costs. Each agent holds a sensitive data point and decides whether to participate in a data-sharing coalition and how much noise to add to their data. Privacy choices induce a fundamental trade-off: higher privacy reduces individual data-sharing costs but degrades data utility and statistical accuracy for the coalition. These choices generate externalities across agents, making both participation and privacy levels strategic. Our goal is to understand which coalitions are stable, how privacy choices shape equilibrium outcomes, and how decentralized data sharing compares to a centralized, socially optimal benchmark.
+  We provide a comprehensive equilibrium analysis across a broad range of privacy-cost regimes, from decreasing costs (e.g., privacy amplification from pooling data) to increasing costs (e.g., greater exposure to privacy attacks in larger coalitions). We first characterize Nash equilibrium coalitions with endogenous privacy levels and show that equilibria may fail to exist and can be non-monotonic in problem parameters. We also introduce a weaker equilibrium notion called robust equilibrium (that allows more widespread equilibrium existence by equipping existing players in the coalition with the power to prevent or veto external players from joining) and fully characterize such equilibria. Finally, we analyze, for both Nash and robust equilibria, the efficiency relative to the social optimum in terms of social welfare and estimator accuracy. We derive bounds that depend sharply on the number of players, properties of the cost profile and how privacy costs scale with coalition size.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09338v1">Privacy Amplification for BandMF via $b$-Min-Sep Subsampling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-10T02:10:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Andy Dong, Arun Ganesh</p>
+    <p><b>Summary:</b> We study privacy amplification for BandMF, i.e., DP-SGD with correlated noise across iterations via a banded correlation matrix. We propose $b$-min-sep subsampling, a new subsampling scheme that generalizes Poisson and balls-in-bins subsampling, extends prior practical batching strategies for BandMF, and enables stronger privacy amplification than cyclic Poisson while preserving the structural properties needed for analysis. We give a near-exact privacy analysis using Monte Carlo accounting, based on a dynamic program that leverages the Markovian structure in the subsampling procedure. We show that $b$-min-sep matches cyclic Poisson subsampling in the high noise regime and achieves strictly better guarantees in the mid-to-low noise regime, with experimental results that bolster our claims. We further show that unlike previous BandMF subsampling schemes, our $b$-min-sep subsampling naturally extends to the multi-attribution user-level privacy setting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09288v1">Measuring Privacy Risks and Tradeoffs in Financial Synthetic Data Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-10T00:14:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michael Zuo, Inwon Kang, Stacy Patterson, Oshani Seneviratne</p>
+    <p><b>Summary:</b> We explore the privacy-utility tradeoff of synthetic data generation schemes on tabular financial datasets, a domain characterized by high regulatory risk and severe class imbalance. We consider representative tabular data generators, including autoencoders, generative adversarial networks, diffusion, and copula synthesizers. To address the challenges of the financial domain, we provide novel privacy-preserving implementations of GAN and autoencoder synthesizers. We evaluate whether and how well the generators simultaneously achieve data quality, downstream utility, and privacy, with comparison across balanced and imbalanced input datasets. Our results offer insight into the distinct challenges of generating synthetic data from datasets that exhibit severe class imbalance and mixed-type attributes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09273v1">The Price of Privacy For Approximating Max-CSP</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-09T23:16:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prathamesh Dharangutte, Jingcheng Liu, Pasin Manurangsi, Akbar Rafiey, Phanu Vajanopath, Zongrui Zou</p>
+    <p><b>Summary:</b> We study approximation algorithms for Maximum Constraint Satisfaction Problems (Max-CSPs) under differential privacy (DP) where the constraints are considered sensitive data. Information-theoretically, we aim to classify the best approximation ratios possible for a given privacy budget $\varepsilon$. In the high-privacy regime ($\varepsilon \ll 1$), we show that any $\varepsilon$-DP algorithm cannot beat a random assignment by more than $O(\varepsilon)$ in the approximation ratio. We devise a polynomial-time algorithm which matches this barrier under the assumptions that the instances are bounded-degree and triangle-free. Finally, we show that one or both of these assumptions can be removed for specific CSPs--such as Max-Cut or Max $k$-XOR--albeit at the cost of computational efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.09254v1">Investigating Bystander Privacy in Chinese Smart Home Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-02-09T22:38:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shijing He, Xuchen Wang, Yaxiong Lei, Chi Zhang, Ruba Abu-Salma, Jose Such</p>
+    <p><b>Summary:</b> Bystander privacy in smart homes has been widely studied in Western contexts, yet it remains underexplored in non-Western countries such as China. In this study, we analyze 49 Chinese smart home apps using a mixed-methods approach, including privacy policy review, UX/UI evaluation, and assessment of Apple App Store privacy labels. While most apps nominally comply with national regulations, we identify significant gaps between written policies and actual implementation. Our traceability analysis highlights inconsistencies in data controls and a lack of transparency in data-sharing practices. Crucially, bystander privacy -- particularly for visitors and non-user individuals -- is largely absent from both policy documents and interface design. Additionally, discrepancies between privacy labels and actual data practices threaten user trust and undermine informed consent. We provide design recommendations to strengthen bystander protections, improve privacy-oriented UI transparency, and enhance the credibility of privacy labels, supporting the development of inclusive smart home ecosystems in non-Western contexts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.08657v1">Two-Stage Data Synthesization: A Statistics-Driven Restricted Trade-off between Privacy and Prediction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2026-02-09T13:49:42Z</p>
@@ -38,7 +137,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.08268v1">Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.08268v2">Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-02-09T05:00:48Z</p>
   <details>
@@ -249,18 +348,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Sam Ryan</p>
     <p><b>Summary:</b> The rapid advancement of generative AI systems has collapsed the credibility landscape for photographic evidence. Modern image generation models produce photorealistic images undermining the evidentiary foundation upon which journalism and public discourse depend. Existing authentication approaches, such as the Coalition for Content Provenance and Authenticity (C2PA), embed cryptographically signed metadata directly into image files but suffer from two critical failures: technical vulnerability to metadata stripping during social media reprocessing, and structural dependency on corporate-controlled verification infrastructure where commercial incentives may conflict with public interest. We present the Birthmark Standard, an authentication architecture leveraging manufacturing-unique sensor entropy from non-uniformity correction (NUC) maps and PRNU patterns to generate hardware-rooted authentication keys. During capture, cameras create anonymized authentication certificates proving sensor authenticity without exposing device identity via a key table architecture maintaining anonymity sets exceeding 1,000 devices. Authentication records are stored on a consortium blockchain operated by journalism organizations rather than commercial platforms, enabling verification that survives all metadata loss. We formally verify privacy properties using ProVerif, proving observational equivalence for Manufacturer Non-Correlation and Blockchain Observer Non-Identification under Dolev-Yao adversary assumptions. The architecture is validated through prototype implementation using Raspberry Pi 4 hardware, demonstrating the complete cryptographic pipeline. Performance analysis projects camera overhead below 100ms and verification latency below 500ms at scale of one million daily authentications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.04482v1">Proactive Agents, Long-term User Context, VLM Annotation, Privacy Protection, Human-Computer Interaction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-04T12:09:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuanbo Tang, Huaze Tang, Tingyu Cao, Lam Nguyen, Anping Zhang, Xinwen Cao, Chunkang Liu, Wenbo Ding, Yang Li</p>
-    <p><b>Summary:</b> Proactive agents that anticipate user intentions without explicit prompts represent a significant evolution in human-AI interaction, promising to reduce cognitive load and streamline workflows. However, existing datasets suffer from two critical deficiencies: (1) reliance on LLM-synthesized data that fails to capture authentic human decision-making patterns, and (2) focus on isolated tasks rather than continuous workflows, missing the pre-assistance behavioral context essential for learning proactive intervention signals. To address these gaps, we introduce ProAgentBench, a rigorous benchmark for proactive agents in working scenarios. Our contributions include: (1) a hierarchical task framework that decomposes proactive assistance into timing prediction and assist content generation; (2) a privacy-compliant dataset with 28,000+ events from 500+ hours of real user sessions, preserving bursty interaction patterns (burstiness B=0.787) absent in synthetic data; and (3) extensive experiments that evaluates LLM- and VLM-based baselines. Numerically, we showed that long-term memory and historical context significantly enhance prediction accuracy, while real-world training data substantially outperforms synthetic alternatives. We release our dataset and code at https://anonymous.4open.science/r/ProAgentBench-6BC0.</p>
   </details>
 </div>
 
@@ -1132,90 +1219,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Nazmul Islam, Mohammad Zulkernine</p>
     <p><b>Summary:</b> The rapid expansion of internet of things (IoT) devices have created a pervasive ecosystem where encrypted wireless communications serve as the primary privacy and security protection mechanism. While encryption effectively protects message content, packet metadata and statistics inadvertently expose device identities and user contexts. Various studies have exploited raw packet statistics and their visual representations for device fingerprinting and identification. However, these approaches remain confined to the spatial domain with limited feature representation. Therefore, this paper presents CONTEX-T, a novel framework that exploits contextual privacy vulnerabilities using spectral representation of encrypted wireless traffic for IoT device characterization. The experiments show that spectral analysis provides new and rich feature representation for covert reconnaissance attacks, revealing a complex and expanding threat landscape that would require robust countermeasures for IoT security management. CONTEXT-T first transforms raw packet length sequences into time-frequency spectral representations and then utilizes transformer-based spectral analysis for the device identification. We systematically evaluated multiple spectral representation techniques and transformer-based models across encrypted traffic samples from various IoT devices. CONTEXT-T effectively exploited privacy vulnerabilities and achieved device classification accuracy exceeding 99% across all devices while remaining completely passive and undetectable.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16080v1">Towards a Goal-Centric Assessment of Requirements Engineering Methods for Privacy by Design</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-01-22T16:22:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Oleksandr Kosenkov, Ehsan Zabardast, Jannik Fischbach, Tony Gorschek, Daniel Mendez</p>
-    <p><b>Summary:</b> Implementing privacy by design (PbD) according to the General Data Protection Regulation (GDPR) is met with a growing number of requirements engineering (RE) approaches. However, the question of which RE method for PbD fits best the goals of organisations remains a challenge. We report our endeavor to close this gap by synthesizing a goal-centric approach for PbD methods assessment. We used literature review, interviews, and validation with practitioners to achieve the goal of our study. As practitioners do not approach PbD systematically, we suggest that RE methods for PbD should be assessed against organisational goals, rather than process characteristics only. We hope that, when further developed, the goal-centric approach could support the development, selection, and tailoring of RE practices for PbD.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.15697v1">Balancing Security and Privacy: The Pivotal Role of AI in Modern Healthcare Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-22T06:51:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Binu V P, Deepthy K Bhaskar, Minimol B</p>
-    <p><b>Summary:</b> As digital threats continue to grow, organizations must find ways to enhance security while protecting user privacy. This paper explores how artificial intelligence (AI) plays a crucial role in achieving this balance. AI technologies can improve security by detecting threats, monitoring systems, and automating responses. However, using AI also raises privacy concerns that need careful consideration.We examine real-world examples from the healthcare sector to illustrate how organizations can implement AI solutions that strengthen security without compromising patient privacy. Additionally, we discuss the importance of creating transparent AI systems and adhering to privacy regulations.Ultimately, this paper provides insights and recommendations for integrating AI into healthcare security practices, helping organizations navigate the challenges of modern management while keeping patient data safe.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.15682v1">Tight Bounds for Gaussian Mean Estimation under Personalized Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2026-01-22T06:04:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Dong, Li Ge</p>
-    <p><b>Summary:</b> We study mean estimation for Gaussian distributions under \textit{personalized differential privacy} (PDP), where each record has its own privacy budget. PDP is commonly considered in two variants: \textit{bounded} and \textit{unbounded} PDP. In bounded PDP, the privacy budgets are public and neighboring datasets differ by replacing one record. In unbounded PDP, neighboring datasets differ by adding or removing a record; consequently, an algorithm must additionally protect participation information, making both the dataset size and the privacy profile sensitive. Existing works have only studied mean estimation over bounded distributions under bounded PDP. Different from mean estimation for distributions with bounded range, where each element can be treated equally and we only need to consider the privacy diversity of elements, the challenge for Gaussian is that, elements can have very different contributions due to the unbounded support. we need to jointly consider the privacy information and the data values. Such a problem becomes even more challenging under unbounded PDP, where the privacy information is protected and the way to compute the weights becomes unclear. In this paper, we address these challenges by proposing optimal Gaussian mean estimators under both bounded and unbounded PDP, where in each setting we first derive lower bounds for both problems, following PDP mean estimators with the algorithmic upper bounds matching the corresponding lower bounds up to logarithmic factors.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.15595v1">Data-Free Privacy-Preserving for LLMs via Model Inversion and Selective Unlearning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-22T02:43:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xinjie Zhou, Zhihui Yang, Lechao Cheng, Sai Wu, Gang Chen</p>
-    <p><b>Summary:</b> Large language models (LLMs) exhibit powerful capabilities but risk memorizing sensitive personally identifiable information (PII) from their training data, posing significant privacy concerns. While machine unlearning techniques aim to remove such data, they predominantly depend on access to the training data. This requirement is often impractical, as training data in real-world deployments is commonly proprietary or inaccessible. To address this limitation, we propose Data-Free Selective Unlearning (DFSU), a novel privacy-preserving framework that removes sensitive PII from an LLM without requiring its training data. Our approach first synthesizes pseudo-PII through language model inversion, then constructs token-level privacy masks for these synthetic samples, and finally performs token-level selective unlearning via a contrastive mask loss within a low-rank adaptation (LoRA) subspace. Extensive experiments on the AI4Privacy PII-Masking dataset using Pythia models demonstrate that our method effectively removes target PII while maintaining model utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.15220v1">Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-01-21T17:53:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anmol Goel, Cornelius Emde, Sangdoo Yun, Seong Joon Oh, Martin Gubri</p>
-    <p><b>Summary:</b> We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Fine-tuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.15061v1">Differential Privacy Image Generation with Reconstruction Loss and Noise Injection Using an Error Feedback SGD</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-21T15:07:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiwei Ma, Jun Zhang</p>
-    <p><b>Summary:</b> Traditional data masking techniques such as anonymization cannot achieve the expected privacy protection while ensuring data utility for privacy-preserving machine learning. Synthetic data plays an increasingly important role as it generates a large number of training samples and prevents information leakage in real data. The existing methods suffer from the repeating trade-off processes between privacy and utility. We propose a novel framework for differential privacy generation, which employs an Error Feedback Stochastic Gradient Descent(EFSGD) method and introduces a reconstruction loss and noise injection mechanism into the training process. We generate images with higher quality and usability under the same privacy budget as the related work. Extensive experiments demonstrate the effectiveness and generalization of our proposed framework for both grayscale and RGB images. We achieve state-of-the-art results over almost all metrics on three benchmarks: MNIST, Fashion-MNIST, and CelebA.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.15042v1">Federated Transformer-GNN for Privacy-Preserving Brain Tumor Localization with Modality-Level Explainability</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-21T14:46:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrea Protani, Riccardo Taiello, Marc Molina Van Den Bosch, Luigi Serio</p>
-    <p><b>Summary:</b> Deep learning models for brain tumor analysis require large and diverse datasets that are often siloed across healthcare institutions due to privacy regulations. We present a federated learning framework for brain tumor localization that enables multi-institutional collaboration without sharing sensitive patient data. Our method extends a hybrid Transformer-Graph Neural Network architecture derived from prior decoder-free supervoxel GNNs and is deployed within CAFEIN\textsuperscript{\textregistered}, CERN's federated learning platform designed for healthcare environments. We provide an explainability analysis through Transformer attention mechanisms that reveals which MRI modalities drive the model predictions. Experiments on the BraTS dataset demonstrate a key finding: while isolated training on individual client data triggers early stopping well before reaching full training capacity, federated learning enables continued model improvement by leveraging distributed data, ultimately matching centralized performance. This result provides strong justification for federated learning when dealing with complex tasks and high-dimensional input data, as aggregating knowledge from multiple institutions significantly benefits the learning process. Our explainability analysis, validated through rigorous statistical testing on the full test set (paired t-tests with Bonferroni correction), reveals that deeper network layers significantly increase attention to T2 and FLAIR modalities ($p<0.001$, Cohen's $d$=1.50), aligning with clinical practice.</p>
   </details>
 </div>
 
