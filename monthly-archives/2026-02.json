@@ -1086,5 +1086,247 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.10100v1",
+    "title" : "Towards Explainable Federated Learning: Understanding the Impact of Differential Privacy",
+    "summary" : "Data privacy and eXplainable Artificial Intelligence (XAI) are two important aspects for modern Machine Learning systems. To enhance data privacy, recent machine learning models have been designed as a Federated Learning (FL) system. On top of that, additional privacy layers can be added, via Differential Privacy (DP). On the other hand, to improve explainability, ML must consider more interpretable approaches with reduced number of features and less complex internal architecture. In this context, this paper aims to achieve a machine learning (ML) model that combines enhanced data privacy with explainability. So, we propose a FL solution, called Federated EXplainable Trees with Differential Privacy (FEXT-DP), that: (i) is based on Decision Trees, since they are lightweight and have superior explainability than neural networks-based FL systems; (ii) provides additional layer of data privacy protection applying Differential Privacy (DP) to the Tree-Based model. However, there is a side effect adding DP: it harms the explainability of the system. So, this paper also presents the impact of DP protection on the explainability of the ML model. The carried out performance assessment shows improvements of FEXT-DP in terms of a faster training, i.e., numbers of rounds, Mean Squared Error and explainability.",
+    "updated" : "2026-02-10T18:58:11Z",
+    "published" : "2026-02-10T18:58:11Z",
+    "authors" : [
+      {
+        "name" : "Júlio Oliveira"
+      },
+      {
+        "name" : "Rodrigo Ferreira"
+      },
+      {
+        "name" : "André Riker"
+      },
+      {
+        "name" : "Glaucio H. S. Carvalho"
+      },
+      {
+        "name" : "Eirini Eleni Tsilopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09904v1",
+    "title" : "Safeguarding Privacy: Privacy-Preserving Detection of Mind Wandering and Disengagement Using Federated Learning in Online Education",
+    "summary" : "Since the COVID-19 pandemic, online courses have expanded access to education, yet the absence of direct instructor support challenges learners' ability to self-regulate attention and engagement. Mind wandering and disengagement can be detrimental to learning outcomes, making their automated detection via video-based indicators a promising approach for real-time learner support. However, machine learning-based approaches often require sharing sensitive data, raising privacy concerns. Federated learning offers a privacy-preserving alternative by enabling decentralized model training while also distributing computational load. We propose a framework exploiting cross-device federated learning to address different manifestations of behavioral and cognitive disengagement during remote learning, specifically behavioral disengagement, mind wandering, and boredom. We fit video-based cognitive disengagement detection models using facial expressions and gaze features. By adopting federated learning, we safeguard users' data privacy through privacy-by-design and introduce a novel solution with the potential for real-time learner support. We further address challenges posed by eyeglasses by incorporating related features, enhancing overall model performance. To validate the performance of our approach, we conduct extensive experiments on five datasets and benchmark multiple federated learning algorithms. Our results show great promise for privacy-preserving educational technologies promoting learner engagement.",
+    "updated" : "2026-02-10T15:40:01Z",
+    "published" : "2026-02-10T15:40:01Z",
+    "authors" : [
+      {
+        "name" : "Anna Bodonhelyi"
+      },
+      {
+        "name" : "Mengdi Wang"
+      },
+      {
+        "name" : "Efe Bozkir"
+      },
+      {
+        "name" : "Babette Bühler"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09627v1",
+    "title" : "Parallel Composition for Statistical Privacy",
+    "summary" : "Differential Privacy (DP) considers a scenario in which an adversary has almost complete information about the entries of a database. This worst-case assumption is likely to overestimate the privacy threat faced by an individual in practice. In contrast, Statistical Privacy (SP), as well as related notions such as noiseless privacy or limited background knowledge privacy, describe a setting in which the adversary knows the distribution of the database entries, but not their exact realizations. In this case, privacy analysis must account for the interaction between uncertainty induced by the entropy of the underlying distributions and privacy mechanisms that distort query answers, which can be highly non-trivial.\n  This paper investigates this problem for multiple queries (composition). A privacy mechanism is proposed that is based on subsampling and randomly partitioning the database to bound the dependency among queries. This way for the first time, to the best of our knowledge, upper privacy bounds against limited adversaries are obtained without any further restriction on the database.\n  These bounds show that in realistic application scenarios taking the entropy of distributions into account yields improvements of privacy and precision guarantees. We illustrate examples where for fixed privacy parameters and utility loss SP allows significantly more queries than DP.",
+    "updated" : "2026-02-10T10:13:44Z",
+    "published" : "2026-02-10T10:13:44Z",
+    "authors" : [
+      {
+        "name" : "Dennis Breutigam"
+      },
+      {
+        "name" : "Rüdiger Reischuk"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09357v1",
+    "title" : "Data Sharing with Endogenous Choices over Differential Privacy Levels",
+    "summary" : "We study coalition formation for data sharing under differential privacy when agents have heterogeneous privacy costs. Each agent holds a sensitive data point and decides whether to participate in a data-sharing coalition and how much noise to add to their data. Privacy choices induce a fundamental trade-off: higher privacy reduces individual data-sharing costs but degrades data utility and statistical accuracy for the coalition. These choices generate externalities across agents, making both participation and privacy levels strategic. Our goal is to understand which coalitions are stable, how privacy choices shape equilibrium outcomes, and how decentralized data sharing compares to a centralized, socially optimal benchmark.\n  We provide a comprehensive equilibrium analysis across a broad range of privacy-cost regimes, from decreasing costs (e.g., privacy amplification from pooling data) to increasing costs (e.g., greater exposure to privacy attacks in larger coalitions). We first characterize Nash equilibrium coalitions with endogenous privacy levels and show that equilibria may fail to exist and can be non-monotonic in problem parameters. We also introduce a weaker equilibrium notion called robust equilibrium (that allows more widespread equilibrium existence by equipping existing players in the coalition with the power to prevent or veto external players from joining) and fully characterize such equilibria. Finally, we analyze, for both Nash and robust equilibria, the efficiency relative to the social optimum in terms of social welfare and estimator accuracy. We derive bounds that depend sharply on the number of players, properties of the cost profile and how privacy costs scale with coalition size.",
+    "updated" : "2026-02-10T03:01:14Z",
+    "published" : "2026-02-10T03:01:14Z",
+    "authors" : [
+      {
+        "name" : "Raef Bassily"
+      },
+      {
+        "name" : "Kate Donahue"
+      },
+      {
+        "name" : "Diptangshu Sen"
+      },
+      {
+        "name" : "Annuo Zhao"
+      },
+      {
+        "name" : "Juba Ziani"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09338v1",
+    "title" : "Privacy Amplification for BandMF via $b$-Min-Sep Subsampling",
+    "summary" : "We study privacy amplification for BandMF, i.e., DP-SGD with correlated noise across iterations via a banded correlation matrix. We propose $b$-min-sep subsampling, a new subsampling scheme that generalizes Poisson and balls-in-bins subsampling, extends prior practical batching strategies for BandMF, and enables stronger privacy amplification than cyclic Poisson while preserving the structural properties needed for analysis. We give a near-exact privacy analysis using Monte Carlo accounting, based on a dynamic program that leverages the Markovian structure in the subsampling procedure. We show that $b$-min-sep matches cyclic Poisson subsampling in the high noise regime and achieves strictly better guarantees in the mid-to-low noise regime, with experimental results that bolster our claims. We further show that unlike previous BandMF subsampling schemes, our $b$-min-sep subsampling naturally extends to the multi-attribution user-level privacy setting.",
+    "updated" : "2026-02-10T02:10:38Z",
+    "published" : "2026-02-10T02:10:38Z",
+    "authors" : [
+      {
+        "name" : "Andy Dong"
+      },
+      {
+        "name" : "Arun Ganesh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09288v1",
+    "title" : "Measuring Privacy Risks and Tradeoffs in Financial Synthetic Data Generation",
+    "summary" : "We explore the privacy-utility tradeoff of synthetic data generation schemes on tabular financial datasets, a domain characterized by high regulatory risk and severe class imbalance. We consider representative tabular data generators, including autoencoders, generative adversarial networks, diffusion, and copula synthesizers. To address the challenges of the financial domain, we provide novel privacy-preserving implementations of GAN and autoencoder synthesizers. We evaluate whether and how well the generators simultaneously achieve data quality, downstream utility, and privacy, with comparison across balanced and imbalanced input datasets. Our results offer insight into the distinct challenges of generating synthetic data from datasets that exhibit severe class imbalance and mixed-type attributes.",
+    "updated" : "2026-02-10T00:14:19Z",
+    "published" : "2026-02-10T00:14:19Z",
+    "authors" : [
+      {
+        "name" : "Michael Zuo"
+      },
+      {
+        "name" : "Inwon Kang"
+      },
+      {
+        "name" : "Stacy Patterson"
+      },
+      {
+        "name" : "Oshani Seneviratne"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09273v1",
+    "title" : "The Price of Privacy For Approximating Max-CSP",
+    "summary" : "We study approximation algorithms for Maximum Constraint Satisfaction Problems (Max-CSPs) under differential privacy (DP) where the constraints are considered sensitive data. Information-theoretically, we aim to classify the best approximation ratios possible for a given privacy budget $\\varepsilon$. In the high-privacy regime ($\\varepsilon \\ll 1$), we show that any $\\varepsilon$-DP algorithm cannot beat a random assignment by more than $O(\\varepsilon)$ in the approximation ratio. We devise a polynomial-time algorithm which matches this barrier under the assumptions that the instances are bounded-degree and triangle-free. Finally, we show that one or both of these assumptions can be removed for specific CSPs--such as Max-Cut or Max $k$-XOR--albeit at the cost of computational efficiency.",
+    "updated" : "2026-02-09T23:16:36Z",
+    "published" : "2026-02-09T23:16:36Z",
+    "authors" : [
+      {
+        "name" : "Prathamesh Dharangutte"
+      },
+      {
+        "name" : "Jingcheng Liu"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Akbar Rafiey"
+      },
+      {
+        "name" : "Phanu Vajanopath"
+      },
+      {
+        "name" : "Zongrui Zou"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.09254v1",
+    "title" : "Investigating Bystander Privacy in Chinese Smart Home Apps",
+    "summary" : "Bystander privacy in smart homes has been widely studied in Western contexts, yet it remains underexplored in non-Western countries such as China. In this study, we analyze 49 Chinese smart home apps using a mixed-methods approach, including privacy policy review, UX/UI evaluation, and assessment of Apple App Store privacy labels. While most apps nominally comply with national regulations, we identify significant gaps between written policies and actual implementation. Our traceability analysis highlights inconsistencies in data controls and a lack of transparency in data-sharing practices. Crucially, bystander privacy -- particularly for visitors and non-user individuals -- is largely absent from both policy documents and interface design. Additionally, discrepancies between privacy labels and actual data practices threaten user trust and undermine informed consent. We provide design recommendations to strengthen bystander protections, improve privacy-oriented UI transparency, and enhance the credibility of privacy labels, supporting the development of inclusive smart home ecosystems in non-Western contexts.",
+    "updated" : "2026-02-09T22:38:42Z",
+    "published" : "2026-02-09T22:38:42Z",
+    "authors" : [
+      {
+        "name" : "Shijing He"
+      },
+      {
+        "name" : "Xuchen Wang"
+      },
+      {
+        "name" : "Yaxiong Lei"
+      },
+      {
+        "name" : "Chi Zhang"
+      },
+      {
+        "name" : "Ruba Abu-Salma"
+      },
+      {
+        "name" : "Jose Such"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.08268v2",
+    "title" : "Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI",
+    "summary" : "Personal data centralization among dominant platform providers including search engines, social networking services, and e-commerce has created siloed ecosystems that restrict user sovereignty, thereby impeding data use across services. Meanwhile, the rapid proliferation of Large Language Model (LLM)-based agents has intensified demand for highly personalized services that require the dynamic provision of diverse personal data. This presents a significant challenge: balancing the utilization of such data with privacy protection. To address this challenge, we propose Puda (Private User Dataset Agent), a user-sovereign architecture that aggregates data across services and enables client-side management. Puda allows users to control data sharing at three privacy levels: (i) Detailed Browsing History, (ii) Extracted Keywords, and (iii) Predefined Category Subsets. We implemented Puda as a browser-based system that serves as a common platform across diverse services and evaluated it through a personalized travel planning task. Our results show that providing Predefined Category Subsets achieves 97.2% of the personalization performance (evaluated via an LLM-as-a-Judge framework across three criteria) obtained when sharing Detailed Browsing History. These findings demonstrate that Puda enables effective multi-granularity management, offering practical choices to mitigate the privacy-personalization trade-off. Overall, Puda provides an AI-native foundation for user sovereignty, empowering users to safely leverage the full potential of personalized AI.",
+    "updated" : "2026-02-10T05:00:53Z",
+    "published" : "2026-02-09T05:00:48Z",
+    "authors" : [
+      {
+        "name" : "Akinori Maeda"
+      },
+      {
+        "name" : "Yuto Sekiya"
+      },
+      {
+        "name" : "Sota Sugimura"
+      },
+      {
+        "name" : "Tomoya Asai"
+      },
+      {
+        "name" : "Yu Tsuda"
+      },
+      {
+        "name" : "Kohei Ikeda"
+      },
+      {
+        "name" : "Hiroshi Fujii"
+      },
+      {
+        "name" : "Kohei Watanabe"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
   }
 ]
