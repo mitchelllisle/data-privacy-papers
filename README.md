@@ -2,6 +2,115 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.11026v1">Normalized Surveillance in the Datafied Car: How Autonomous Vehicle Users Rationalize Privacy Trade-offs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-11T16:52:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yehuda Perry, Tawfiq Ammari</p>
+    <p><b>Summary:</b> Autonomous vehicles (AVs) are characterized by pervasive datafication and surveillance through sensors like in-cabin cameras, LIDAR, and GPS. Drawing on 16 semi-structured interviews with AV drivers analyzed using constructivist grounded theory, this study examines how users make sense of vehicular surveillance within everyday datafication. Findings reveal drivers demonstrate few AV-specific privacy concerns, instead normalizing monitoring through comparisons with established digital platforms. We theorize this indifference by situating AV surveillance within the `surveillance ecology' of platform environments, arguing the datafied car functions as a mobile extension of the `leaky home' -- private spaces rendered permeable through connected technologies continuously transmitting behavioral data.
+  The study contributes to scholarship on surveillance beliefs, datafication, and platform governance by demonstrating how users who have accepted comprehensive smartphone and smart home monitoring encounter AV datafication as just another node in normalized data extraction. We highlight how geographic restrictions on data access -- currently limiting driver log access to California -- create asymmetries that impede informed privacy deliberation, exemplifying `tertiary digital divides.' Finally, we examine how machine learning's reliance on data-intensive approaches creates structural pressure for surveillance that transcends individual manufacturer choices. We propose governance interventions to democratize social learning, including universal data access rights, binding transparency requirements, and data minimization standards to prevent race-to-the-bottom dynamics in automotive datafication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.11023v1">IU-GUARD: Privacy-Preserving Spectrum Coordination for Incumbent Users under Dynamic Spectrum Sharing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-11T16:49:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shaoyu Li, Hexuan Yu, Shanghao Shi, Md Mohaimin Al Barat, Yang Xiao, Y. Thomas Hou, Wenjing Lou</p>
+    <p><b>Summary:</b> With the growing demand for wireless spectrum, dynamic spectrum sharing (DSS) frameworks such as the Citizens Broadband Radio Service (CBRS) have emerged as practical solutions to improve utilization while protecting incumbent users (IUs) such as military radars. However, current incumbent protection mechanisms face critical limitations. The Environmental Sensing Capability (ESC) requires costly sensor deployments and remains vulnerable to interference and security risks. Alternatively, the Incumbent Informing Capability (IIC) requires IUs to disclose their identities and operational parameters to the Spectrum Coordination System (SCS), creating linkable records that compromise operational privacy and mission secrecy. We propose IU-GUARD, a privacy-preserving spectrum sharing framework that enables IUs to access spectrum without revealing their identities. Leveraging verifiable credentials (VCs) and zero-knowledge proofs (ZKPs), IU-GUARD allows IUs to prove their authorization to the SCS while disclosing only essential operational parameters. This decouples IU identity from spectrum access, prevents cross-request linkage, and mitigates the risk of centralized SCS data leakage. We implement a prototype, and our evaluation shows that IU-GUARD achieves strong privacy guarantees with practical computation and communication overhead, making it suitable for real-time DSS deployment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10877v1">Beyond Permissions: An Empirical Static Analysis of Privacy and Security Risks in Children-Oriented and General-Audience Mobile Apps for Gaming</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-11T14:06:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bakheet Aljedaani</p>
+    <p><b>Summary:</b> Mobile gaming applications (apps) have become increasingly pervasive, including a growing number of games designed for children. Despite their popularity, these apps often integrate complex analytics, advertising, and attribution infrastructures that may introduce privacy and security risks. Existing research has primarily focused on tracking behaviors or monetization models, leaving configuration-level privacy exposure and children-oriented apps underexplored. In this study, we conducted a comparative static analysis of Android mobile games to investigate privacy and security risks beyond permission usage. The analysis follows a three-phase methodology comprising (i) designing study protocol, (ii) Android Package Kit (APK) collection and static inspection, and (iii) data analysis. We examined permissions, manifest-level configuration properties (e.g., backup settings, cleartext network traffic, and exported components), and embedded third-party Software Development Kit (SDK) ecosystems across children-oriented and general-audience mobile games. The extracted indicators are synthesized into qualitative privacy-risk categories to support comparative reporting. The results showed that while children-oriented games often request fewer permissions, they frequently exhibit configuration-level risks and embed third-party tracking SDKs similar to general-audience games. Architectural and configuration decisions play a critical role in shaping privacy risks, particularly for apps targeting children. This study contributes a holistic static assessment of privacy exposure in mobile games and provides actionable insights for developers, platform providers, and researchers seeking to improve privacy-by-design practices in mobile applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10735v1">Calliope: A TTS-based Narrated E-book Creator Ensuring Exact Synchronization, Privacy, and Layout Fidelity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-02-11T10:54:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hugo L. Hammer, Vajira Thambawita, Pål Halvorsen</p>
+    <p><b>Summary:</b> A narrated e-book combines synchronized audio with digital text, highlighting the currently spoken word or sentence during playback. This format supports early literacy and assists individuals with reading challenges, while also allowing general readers to seamlessly switch between reading and listening. With the emergence of natural-sounding neural Text-to-Speech (TTS) technology, several commercial services have been developed to leverage these technology for converting standard text e-books into high-quality narrated e-books. However, no open-source solutions currently exist to perform this task. In this paper, we present Calliope, an open-source framework designed to fill this gap. Our method leverages state-of-the-art open-source TTS to convert a text e-book into a narrated e-book in the EPUB 3 Media Overlay format. The method offers several innovative steps: audio timestamps are captured directly during TTS, ensuring exact synchronization between narration and text highlighting; the publisher's original typography, styling, and embedded media are strictly preserved; and the entire pipeline operates offline. This offline capability eliminates recurring API costs, mitigates privacy concerns, and avoids copyright compliance issues associated with cloud-based services. The framework currently supports the state-of-the-art open-source TTS systems XTTS-v2 and Chatterbox. A potential alternative approach involves first generating narration via TTS and subsequently synchronizing it with the text using forced alignment. However, while our method ensures exact synchronization, our experiments show that forced alignment introduces drift between the audio and text highlighting significant enough to degrade the reading experience. Source code and usage instructions are available at https://github.com/hugohammer/TTS-Narrated-Ebook-Creator.git.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10734v1">Security, Privacy and System-Level Resillience of 6G End-to-End System: Hexa-X-II Perspective</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2026-02-11T10:53:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pawani Porambage, Diego Lopez, Antonio Pastor, Bin Han, José María Jorquera Valero, Manuel Gil Pérez, Noelia Pérez Palma, Antonio Skarmeta, Prajnamaya Dass, Stefan Köpsell, Sonika Ujjwal, Javier José Díaz Rivera, Pol Alemany, Raul Muñoz, Jafar Mohammadi, Chaitanya Aggarwal, Betul Guvenc Paltun, Ferhat Karakoc</p>
+    <p><b>Summary:</b> The sixth generation (6G) of mobile networks are being developed to overcome limitations in previous generations and meet emerging user demands. As a European project, the Smart Networks and Services Joint Undertaking (SNS JU) 6G Flagship project Hexa-X-II has a leading role for developing technologies and anchoring 6G end-to-end system. This paper summarizes the security, privacy and resilient (SPR) controls identified by Hexa-X-II project and their validation frameworks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10684v1">Privacy Control in Conversational LLM Platforms: A Walkthrough Study</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-11T09:39:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhuoyang Li, Yanlai Wu, Yao Li, Xinning Gui, Yuhan Luo</p>
+    <p><b>Summary:</b> Large language models (LLMs) are increasingly integrated into daily life through conversational interfaces, processing user data via natural language inputs and exhibiting advanced reasoning capabilities, which raises new concerns about user control over privacy. While much research has focused on potential privacy risks, less attention has been paid to the data control mechanisms these platforms provide. This study examines six conversational LLM platforms, analyzing how they define and implement features for users to access, edit, delete, and share data. Our analysis reveals an emerging paradigm of data control in conversational LLM platforms, where user data is generated and derived through interaction itself, natural language enables flexible yet often ambiguous control, and multi-user interactions with shared data raise questions of co-ownership and governance. Based on these findings, we offer practical insights for platform developers, policymakers, and researchers to design more effective and usable privacy controls in LLM-powered conversational interactions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10631v1">Generative clinical time series models trained on moderate amounts of patient data are privacy preserving</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-11T08:23:54Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Rustam Zhumagambetov, Niklas Giesa, Sebastian D. Boie, Stefan Haufe</p>
+    <p><b>Summary:</b> Sharing medical data for machine learning model training purposes is often impossible due to the risk of disclosing identifying information about individual patients. Synthetic data produced by generative artificial intelligence (genAI) models trained on real data is often seen as one possible solution to comply with privacy regulations. While powerful genAI models for heterogeneous hospital time series have recently been introduced, such modeling does not guarantee privacy protection, as the generated data may still reveal identifying information about individuals in the models' training cohort. Applying established privacy mechanisms to generative time series models, however, proves challenging as post-hoc data anonymization through k-anonymization or similar techniques is limited, while model-centered privacy mechanisms that implement differential privacy (DP) may lead to unstable training, compromising the utility of generated data. Given these known limitations, privacy audits for generative time series models are currently indispensable regardless of the concrete privacy mechanisms applied to models and/or data. In this work, we use a battery of established privacy attacks to audit state-of-the-art hospital time series models, trained on the public MIMIC-IV dataset, with respect to privacy preservation. Furthermore, the eICU dataset was used to mount a privacy attack against the synthetic data generator trained on the MIMIC-IV dataset. Results show that established privacy attacks are ineffective against generated multivariate clinical time series when synthetic data generators are trained on large enough training datasets. Furthermore, we discuss how the use of existing DP mechanisms for these synthetic data generators would not bring desired improvement in privacy, but only a decrease in utility for machine learning prediction tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10584v1">When Gradient Clipping Becomes a Control Mechanism for Differential Privacy in Deep Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-11T07:18:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad Partohaghighi, Roummel Marcia, Bruce J. West, YangQuan Chen</p>
+    <p><b>Summary:</b> Privacy-preserving training on sensitive data commonly relies on differentially private stochastic optimization with gradient clipping and Gaussian noise. The clipping threshold is a critical control knob: if set too small, systematic over-clipping induces optimization bias; if too large, injected noise dominates updates and degrades accuracy. Existing adaptive clipping methods often depend on per-example gradient norm statistics, adding computational overhead and introducing sensitivity to datasets and architectures. We propose a control-driven clipping strategy that adapts the threshold using a lightweight, weight-only spectral diagnostic computed from model parameters. At periodic probe steps, the method analyzes a designated weight matrix via spectral decomposition and estimates a heavy-tailed spectral indicator associated with training stability. This indicator is smoothed over time and fed into a bounded feedback controller that updates the clipping threshold multiplicatively in the log domain. Because the controller uses only parameters produced during privacy-preserving training, the resulting threshold updates are post-processing and do not increase privacy loss beyond that of the underlying DP optimizer under standard composition accounting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10510v1">Privacy-Utility Tradeoffs in Quantum Information Processing</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-11T04:21:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Theshani Nuradha, Sujeet Bhalerao, Felix Leditzky</p>
+    <p><b>Summary:</b> When sensitive information is encoded in data, it is important to ensure the privacy of information when attempting to learn useful information from the data. There is a natural tradeoff whereby increasing privacy requirements may decrease the utility of a learning protocol. In the quantum setting of differential privacy, such tradeoffs between privacy and utility have so far remained largely unexplored. In this work, we study optimal privacy-utility tradeoffs for both generic and application-specific utility metrics when privacy is quantified by $(\varepsilon,δ)$-quantum local differential privacy. In the generic setting, we focus on optimizing fidelity and trace distance between the original state and the privatized state. We show that the depolarizing mechanism achieves the optimal utility for given privacy requirements. We then study the specific application of learning the expectation of an observable with respect to an input state when only given access to privatized states. We derive a lower bound on the number of samples of privatized data required to achieve a fixed accuracy guarantee with high probability. To prove this result, we employ existing lower bounds on private quantum hypothesis testing, thus showcasing the first operational use of them. We also devise private mechanisms that achieve optimal sample complexity with respect to the privacy parameters and accuracy parameters, demonstrating that utility can be significantly improved for specific tasks in contrast to the generic setting. In addition, we show that the number of samples required to privately learn observable expectation values scales as $Θ((\varepsilon β)^{-2})$, where $\varepsilon \in (0,1)$ is the privacy parameter and $β$ is the accuracy tolerance. We conclude by initiating the study of private classical shadows, which promise useful applications for private learning tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.10100v1">Towards Explainable Federated Learning: Understanding the Impact of Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-02-10T18:58:11Z</p>
@@ -101,6 +210,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10154v1">PRISM-XR: Empowering Privacy-Aware XR Collaboration with Multimodal Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
+  <p><b>Published on:</b> 2026-02-09T21:28:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiangong Chen, Mingyu Zhu, Bin Li</p>
+    <p><b>Summary:</b> Multimodal Large Language Models (MLLMs) enhance collaboration in Extended Reality (XR) environments by enabling flexible object and animation creation through the combination of natural language and visual inputs. However, visual data captured by XR headsets includes real-world backgrounds that may contain irrelevant or sensitive user information, such as credit cards left on the table or facial identities of other users. Uploading those frames to cloud-based MLLMs poses serious privacy risks, particularly when such data is processed without explicit user consent. Additionally, existing colocation and synchronization mechanisms in commercial XR APIs rely on time-consuming, privacy-invasive environment scanning and struggle to adapt to the highly dynamic nature of MLLM-integrated XR environments. In this paper, we propose PRISM-XR, a novel framework that facilitates multi-user collaboration in XR by providing privacy-aware MLLM integration. PRISM-XR employs intelligent frame preprocessing on the edge server to filter sensitive data and remove irrelevant context before communicating with cloud generative AI models. Additionally, we introduce a lightweight registration process and a fully customizable content-sharing mechanism to enable efficient, accurate, and privacy-preserving content synchronization among users. Our numerical evaluation results indicate that the proposed platform achieves nearly 90% accuracy in fulfilling user requests and less than 0.27 seconds registration time while maintaining spatial inconsistencies of less than 3.5 cm. Furthermore, we conducted an IRB-approved user study with 28 participants, demonstrating that our system could automatically filter highly sensitive objects in over 90% of scenarios while maintaining strong overall usability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.08657v1">Two-Stage Data Synthesization: A Statistics-Driven Restricted Trade-off between Privacy and Prediction</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2026-02-09T13:49:42Z</p>
@@ -137,6 +258,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10142v1">Privacy by Voice: Modeling Youth Privacy-Protective Behavior in Smart Voice Assistants</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-02-09T05:56:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Molly Campbell, Ajay Kumar Shrestha</p>
+    <p><b>Summary:</b> Smart Voice Assistants (SVAs) are deeply embedded in the lives of youth, yet the mechanisms driving the privacy-protective behaviors among young users remain poorly understood. This study investigates how Canadian youth (aged 16-24) negotiate privacy with SVAs by developing and testing a structural model grounded in five key constructs: perceived privacy risks (PPR), perceived benefits (PPBf), algorithmic transparency and trust (ATT), privacy self-efficacy (PSE), and privacy-protective behaviors (PPB). A cross-sectional survey of N=469 youth was analyzed using partial least squares structural equation modeling. Results reveal that PSE is the strongest predictor of PPB, while the effect of ATT on PPB is fully mediated by PSE. This identifies a critical efficacy gap, where youth's confidence must first be built up for them to act. The model confirms that PPBf directly discourages protective action, yet also indirectly fosters it by slightly boosting self-efficacy. These findings empirically validate and extend earlier qualitative work, quantifying how policy overload and hidden controls erode the self-efficacy necessary for protective action. This study contributes an evidence-based pathway from perception to action and translates it into design imperatives that empower young digital citizens without sacrificing the utility of SVAs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.08268v2">Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-02-09T05:00:48Z</p>
@@ -144,6 +277,20 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Akinori Maeda, Yuto Sekiya, Sota Sugimura, Tomoya Asai, Yu Tsuda, Kohei Ikeda, Hiroshi Fujii, Kohei Watanabe</p>
     <p><b>Summary:</b> Personal data centralization among dominant platform providers including search engines, social networking services, and e-commerce has created siloed ecosystems that restrict user sovereignty, thereby impeding data use across services. Meanwhile, the rapid proliferation of Large Language Model (LLM)-based agents has intensified demand for highly personalized services that require the dynamic provision of diverse personal data. This presents a significant challenge: balancing the utilization of such data with privacy protection. To address this challenge, we propose Puda (Private User Dataset Agent), a user-sovereign architecture that aggregates data across services and enables client-side management. Puda allows users to control data sharing at three privacy levels: (i) Detailed Browsing History, (ii) Extracted Keywords, and (iii) Predefined Category Subsets. We implemented Puda as a browser-based system that serves as a common platform across diverse services and evaluated it through a personalized travel planning task. Our results show that providing Predefined Category Subsets achieves 97.2% of the personalization performance (evaluated via an LLM-as-a-Judge framework across three criteria) obtained when sharing Detailed Browsing History. These findings demonstrate that Puda enables effective multi-granularity management, offering practical choices to mitigate the privacy-personalization trade-off. Overall, Puda provides an AI-native foundation for user sovereignty, empowering users to safely leverage the full potential of personalized AI.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.10139v1">Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-08T15:50:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lepeng Zhao, Zhenhua Zou, Shuo Li, Zhuotao Liu</p>
+    <p><b>Summary:</b> Mobile Graphical User Interface (GUI) agents have demonstrated strong capabilities in automating complex smartphone tasks by leveraging multimodal large language models (MLLMs) and system-level control interfaces. However, this paradigm introduces significant privacy risks, as agents typically capture and process entire screen contents, thereby exposing sensitive personal data such as phone numbers, addresses, messages, and financial information. Existing defenses either reduce UI exposure, obfuscate only task-irrelevant content, or rely on user authorization, but none can protect task-critical sensitive information while preserving seamless agent usability.
+  We propose an anonymization-based privacy protection framework that enforces the principle of available-but-invisible access to sensitive data: sensitive information remains usable for task execution but is never directly visible to the cloud-based agent. Our system detects sensitive UI content using a PII-aware recognition model and replaces it with deterministic, type-preserving placeholders (e.g., PHONE_NUMBER#a1b2c) that retain semantic categories while removing identifying details. A layered architecture comprising a PII Detector, UI Transformer, Secure Interaction Proxy, and Privacy Gatekeeper ensures consistent anonymization across user instructions, XML hierarchies, and screenshots, mediates all agent actions over anonymized interfaces, and supports narrowly scoped local computations when reasoning over raw values is necessary.
+  Extensive experiments on the AndroidLab and PrivScreen benchmarks show that our framework substantially reduces privacy leakage across multiple models while incurring only modest utility degradation, achieving the best observed privacy-utility trade-off among existing methods.</p>
   </details>
 </div>
 
@@ -293,7 +440,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.05016v1">From Fragmentation to Integration: Exploring the Design Space of AI Agents for Human-as-the-Unit Privacy Management</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.05016v2">From Fragmentation to Integration: Exploring the Design Space of AI Agents for Human-as-the-Unit Privacy Management</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
   <p><b>Published on:</b> 2026-02-04T20:12:37Z</p>
   <details>
@@ -1075,150 +1222,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Adriana Watson</p>
     <p><b>Summary:</b> Differential privacy has become the gold standard for privacy-preserving machine learning systems. Unfortunately, subsequent work has primarily fixated on the privacy-utility tradeoff, leaving the subject of fairness constraints undervalued and under-researched. This paper provides a systematic treatment connecting three threads: (1) Dalenius's impossibility results for semantic privacy, (2) Dwork's differential privacy as an achievable alternative, and (3) emerging impossibility results from the addition of a fairness requirement. Through concrete examples and technical analysis, the three-way Pareto frontier between privacy, utility, and fairness is demonstrated to showcase the fundamental limits on what can be simultaneously achieved. In this work, these limits are characterized, the impact on minority groups is demonstrated, and practical guidance for navigating these tradeoffs are provided. This forms a unified framework synthesizing scattered results to help practitioners and policymakers make informed decisions when deploying private fair learning systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17644v2">A Systemic Evaluation of Multimodal RAG Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-25T01:37:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ali Al-Lawati, Suhang Wang</p>
-    <p><b>Summary:</b> The growing adoption of multimodal Retrieval-Augmented Generation (mRAG) pipelines for vision-centric tasks (e.g. visual QA) introduces important privacy challenges. In particular, while mRAG provides a practical capability to connect private datasets to improve model performance, it risks the leakage of private information from these datasets during inference. In this paper, we perform an empirical study to analyze the privacy risks inherent in the mRAG pipeline observed through standard model prompting. Specifically, we implement a case study that attempts to infer the inclusion of a visual asset, e.g. image, in the mRAG, and if present leak the metadata, e.g. caption, related to it. Our findings highlight the need for privacy-preserving mechanisms and motivate future research on mRAG privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17569v1">Improving User Privacy in Personalized Generation: Client-Side Retrieval-Augmented Modification of Server-Side Generated Speculations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2026-01-24T19:46:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alireza Salemi, Hamed Zamani</p>
-    <p><b>Summary:</b> Personalization is crucial for aligning Large Language Model (LLM) outputs with individual user preferences and background knowledge. State-of-the-art solutions are based on retrieval augmentation, where relevant context from a user profile is retrieved for LLM consumption. These methods deal with a trade-off between exposing retrieved private data to cloud providers and relying on less capable local models. We introduce $P^3$, an interactive framework for high-quality personalization without revealing private profiles to server-side LLMs. In $P^3$, a large server-side model generates a sequence of $k$ draft tokens based solely on the user query, while a small client-side model, with retrieval access to the user's private profile, evaluates and modifies these drafts to better reflect user preferences. This process repeats until an end token is generated. Experiments on LaMP-QA, a recent benchmark consisting of three personalized question answering datasets, show that $P^3$ consistently outperforms both non-personalized server-side and personalized client-side baselines, achieving statistically significant improvements of $7.4%$ to $9%$ on average. Importantly, $P^3$ recovers $90.3%$ to $95.7%$ of the utility of a ``leaky'' upper-bound scenario in which the full profile is exposed to the large server-side model. Privacy analyses, including linkability and attribute inference attacks, indicate that $P^3$ preserves the privacy of a non-personalized server-side model, introducing only marginal additional leakage ($1.5%$--$3.5%$) compared to submitting a query without any personal context. Additionally, the framework is efficient for edge deployment, with the client-side model generating only $9.2%$ of the total tokens. These results demonstrate that $P^3$ provides a practical, effective solution for personalized generation with improved privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17373v1">"Privacy across the boundary": Examining Perceived Privacy Risk Across Data Transmission and Sharing Ranges of Smart Home Personal Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-24T08:42:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Shixuan Li, Haobin Xing, Jiarui Liu, Yan Kong, Xin Yi, Hewu Li</p>
-    <p><b>Summary:</b> As Smart Home Personal Assistants (SPAs) evolve into social agents, understanding user privacy necessitates interpersonal communication frameworks, such as Privacy Boundary Theory (PBT). To ground our investigation, our three-phase preliminary study (1) identified transmission and sharing ranges as key boundary-related risk factors, (2) categorized relevant SPA functions and data types, and (3) analyzed commercial practices, revealing widespread data sharing and non-transparent safeguards. A subsequent mixed-methods study (N=412 survey, N=40 interviews among the survey participants) assessed users' perceived privacy risks across data types, transmission ranges and sharing ranges. Results demonstrate a significant, non-linear escalation in perceived risk when data crosses two critical boundaries: the `public network' (transmission) and `third parties' (sharing). This boundary effect holds robustly across data types and demographics. Furthermore, risk perception is modulated by data attributes (e.g., social relational data), and contextual privacy calculus. Conversely, anonymization safeguards show limited efficacy especially for third-party sharing, a finding attributed to user distrust. These findings empirically ground PBT in the SPA context and inform design of boundary-aware privacy protection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17368v1">A Scoping Review and Guidelines on Privacy Policy's Visualization from an HCI Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-24T08:22:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Eve He, Sixing Tao, Yuting Yang, Ying Ma, Ailei Wang, Xin Yi, Hewu Li</p>
-    <p><b>Summary:</b> Privacy Policies are a cornerstone of informed consent, yet a persistent gap exists between their legal intent and practical efficacy. Despite decades of Human-Computer Interaction (HCI) research proposing various visualizations, user comprehension remains low, and designs rarely see widespread adoption. To understand this landscape and chart a path forward, we synthesized 65 top-tier papers using a framework adapted from the user-centered design lifecycle. Our analysis presented findings of the field's evolution across four dimensions: (1) the trade-off between information load and decision efficacy, which demonstrates a shift from augmenting disclosures to prioritizing information condensation and cognitive load management to counter the inefficacy of comprehensive texts, (2) the co-evolutionary dynamic of design and automation, revealing that complex design ambitions such as context-awareness drove the need for advanced NLP, while recent LLM breakthroughs are enabling the semantic interpretation required to realize those designs, (3) the tension between generality and specificity, highlighting the divergence between standardized, cross-platform solutions and the increasing necessity for specialized, context-aware interaction patterns in IoT and immersive environments, and (4) balancing stakeholder opinions, which shows that visualization efficacy is constrained by the complex interplay of regulatory mandates, developer capabilities and provider incentives. We conclude by outlining four critical challenges for future research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17360v1">Robust Privacy: Inference-Time Privacy through Certified Robustness</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-24T08:13:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiankai Jin, Xiangzheng Zhang, Zhao Liu, Deyue Zhang, Quanchen Zou</p>
-    <p><b>Summary:</b> Machine learning systems can produce personalized outputs that allow an adversary to infer sensitive input attributes at inference time. We introduce Robust Privacy (RP), an inference-time privacy notion inspired by certified robustness: if a model's prediction is provably invariant within a radius-$R$ neighborhood around an input $x$ (e.g., under the $\ell_2$ norm), then $x$ enjoys $R$-Robust Privacy, i.e., observing the prediction cannot distinguish $x$ from any input within distance $R$ of $x$. We further develop Attribute Privacy Enhancement (APE) to translate input-level invariance into an attribute-level privacy effect. In a controlled recommendation task where the decision depends primarily on a sensitive attribute, we show that RP expands the set of sensitive-attribute values compatible with a positive recommendation, expanding the inference interval accordingly. Finally, we empirically demonstrate that RP also mitigates model inversion attacks (MIAs) by masking fine-grained input-output dependence. Even at small noise levels ($σ=0.1$), RP reduces the attack success rate (ASR) from 73% to 4% with partial model performance degradation. RP can also partially mitigate MIAs (e.g., ASR drops to 44%) with no model performance degradation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17183v1">Federated Proximal Optimization for Privacy-Preserving Heart Disease Prediction: A Controlled Simulation Study on Non-IID Clinical Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-23T21:18:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Farzam Asad, Junaid Saif Khan, Maria Tariq, Sundus Munir, Muhammad Adnan Khan</p>
-    <p><b>Summary:</b> Healthcare institutions have access to valuable patient data that could be of great help in the development of improved diagnostic models, but privacy regulations like HIPAA and GDPR prevent hospitals from directly sharing data with one another. Federated Learning offers a way out to this problem by facilitating collaborative model training without having the raw patient data centralized. However, clinical datasets intrinsically have non-IID (non-independent and identically distributed) features brought about by demographic disparity and diversity in disease prevalence and institutional practices. This paper presents a comprehensive simulation research of Federated Proximal Optimization (FedProx) for Heart Disease prediction based on UCI Heart Disease dataset. We generate realistic non-IID data partitions by simulating four heterogeneous hospital clients from the Cleveland Clinic dataset (303 patients), by inducing statistical heterogeneity by demographic-based stratification. Our experimental results show that FedProx with proximal parameter mu=0.05 achieves 85.00% accuracy, which is better than both centralized learning (83.33%) and isolated local models (78.45% average) without revealing patient privacy. Through generous sheer ablation studies with statistical validation on 50 independent runs we demonstrate that proximal regularization is effective in curbing client drift in heterogeneous environments. This proof-of-concept research offers algorithmic insights and practical deployment guidelines for real-world federated healthcare systems, and thus, our results are directly transferable to hospital IT-administrators, implementing privacy-preserving collaborative learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16857v1">Perfect Privacy and Strong Stationary Times for Markovian Sources</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-01-23T16:04:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fangwei Ye, Zonghong Liu, Parimal Parag, Salim El Rouayheb</p>
-    <p><b>Summary:</b> We consider the problem of sharing correlated data under a perfect information-theoretic privacy constraint. We focus on redaction (erasure) mechanisms, in which data are either withheld or released unchanged, and measure utility by the average cardinality of the released set, equivalently, the expected Hamming distortion. Assuming the data are generated by a finite time-homogeneous Markov chain, we study the protection of the initial state while maximizing the amount of shared data. We establish a connection between perfect privacy and window-based redaction schemes, showing that erasing data up to a strong stationary time preserves privacy under suitable conditions. We further study an optimal sequential redaction mechanism and prove that it admits an equivalent window interpretation. Interestingly, we show that both mechanisms achieve the optimal distortion while redacting only a constant average number of data points, independent of the data length~$N$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16825v1">Privacy-Resolution Tradeoff for Adaptive Noisy Twenty Questions Estimation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-01-23T15:23:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chunsong Sun, Lin Zhou</p>
-    <p><b>Summary:</b> We revisit noisy twenty questions estimation and study the privacy-resolution tradeoff for adaptive query procedures. Specifically, in twenty questions estimation, there are two players: an oracle and a questioner. The questioner aims to estimate target variables by posing queries to the oracle that knows the variables and using noisy responses to form reliable estimates. Typically, there are adaptive and non-adaptive query procedures. In adaptive querying, one designs the current query using previous queries and their noisy responses while in non-adaptive querying, all queries are posed simultaneously. Generally speaking, adaptive query procedures yield better performance. However, adaptive querying leads to privacy concerns, which were first studied by Tsitsiklis, Xu and Xu (COLT 2018) and by Xu, Xu and Yang (AISTATS 2021) for the noiseless case, where the oracle always provides correct answers to queries. In this paper, we generalize the above results to the more practical noisy case, by proposing a two-stage private query procedure, analyzing its non-asymptotic and second-order asymptotic achievable performance and discussing the impact of privacy concerns. Furthermore, when specialized to the noiseless case, our private query procedure achieves better performance than above-mentioned query procedures (COLT 2018, AISTATS 2021).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16824v1">Privacy in Human-AI Romantic Relationships: Concerns, Boundaries, and Agency</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-01-23T15:23:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rongjun Ma, Shijing He, Jose Luis Martin-Navarro, Xiao Zhan, Jose Such</p>
-    <p><b>Summary:</b> An increasing number of LLM-based applications are being developed to facilitate romantic relationships with AI partners, yet the safety and privacy risks in these partnerships remain largely underexplored. In this work, we investigate privacy in human-AI romantic relationships through an interview study (N=17), examining participants' experiences and privacy perceptions across stages of exploration, intimacy, and dissolution, alongside platforms they used. We found that these relationships took varied forms, from one-to-one to one-to-many, and were shaped by multiple actors, including creators, platforms, and moderators. AI partners were perceived as having agency, actively negotiating privacy boundaries with participants and sometimes encouraging disclosure of personal details. As intimacy deepened, these boundaries became more permeable, though some participants voiced concerns such as conversation exposure and sought to preserve anonymity. Overall, platform affordances and diverse romantic dynamics expand the privacy landscape, underscoring the need to rethink how privacy is constructed in human-AI intimacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16658v1">Talking about privacy always feels like opening a can of worms. How Intimate Partners Navigate Boundary-Setting in Mobile Phone Without Words</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-23T11:21:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sima Amirkhani, Mahla Fatemeh Alizadeh, Farzaneh Gerami, Dave Randall, Gunnar Stevens</p>
-    <p><b>Summary:</b> Mobile phones, as simultaneously personal and shared technologies, complicate how partners manage digital privacy in intimate relationships. While prior research has examined device-access practices, explicit privacy-rule negotiation, and toxic practices such as surveillance, little is known about how couples manage digital privacy without direct discussion in everyday relationships. To address this gap, we ask: How is digital privacy managed nonverbally and across different media on mobile phones? Drawing on 20 semi-structured interviews, we find that partners often regulate privacy practices through privacy silence -- the intentional avoidance of privacy-related conversations. We identify five motivations for leaving boundaries unspoken: perceiving privacy as unnecessary in intimacy, assuming implicit respect for boundaries, signaling trust and closeness, avoiding potential conflict or harm, and responding to broader societal and cultural expectations that discourage explicit privacy talk. We also identify a hierarchical grouping of content-specific privacy sensitivities, ranging from highly private domains such as financial data to lower-risk domains such as streaming accounts, and show how these priorities shift across relationship stages. These findings show how silence, culture, and content sensitivity shape everyday boundary-setting and underscore the relational and emotional dynamics underpinning mobile phone privacy management.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16354v1">NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-22T22:39:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Khoa Nguyen, Khiem Ton, NhatHai Phan, Issa Khalil, Khang Tran, Cristian Borcea, Ruoming Jin, Abdallah Khreishah, My T. Thai</p>
-    <p><b>Summary:</b> Although boosting software development performance, large language model (LLM)-powered code generation introduces intellectual property and data security risks rooted in the fact that a service provider (cloud) observes a client's prompts and generated code, which can be proprietary in commercial systems. To mitigate this problem, we propose NOIR, the first framework to protect the client's prompts and generated code from the cloud. NOIR uses an encoder and a decoder at the client to encode and send the prompts' embeddings to the cloud to get enriched embeddings from the LLM, which are then decoded to generate the code locally at the client. Since the cloud can use the embeddings to infer the prompt and the generated code, NOIR introduces a new mechanism to achieve indistinguishability, a local differential privacy protection at the token embedding level, in the vocabulary used in the prompts and code, and a data-independent and randomized tokenizer on the client side. These components effectively defend against reconstruction and frequency analysis attacks by an honest-but-curious cloud. Extensive analysis and results using open-source LLMs show that NOIR significantly outperforms existing baselines on benchmarks, including the Evalplus (MBPP and HumanEval, Pass@1 of 76.7 and 77.4), and BigCodeBench (Pass@1 of 38.7, only a 1.77% drop from the original LLM) under strong privacy against attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.16160v1">CONTEX-T: Contextual Privacy Exploitation via Transformer Spectral Analysis for IoT Device Fingerprinting</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-22T18:03:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nazmul Islam, Mohammad Zulkernine</p>
-    <p><b>Summary:</b> The rapid expansion of internet of things (IoT) devices have created a pervasive ecosystem where encrypted wireless communications serve as the primary privacy and security protection mechanism. While encryption effectively protects message content, packet metadata and statistics inadvertently expose device identities and user contexts. Various studies have exploited raw packet statistics and their visual representations for device fingerprinting and identification. However, these approaches remain confined to the spatial domain with limited feature representation. Therefore, this paper presents CONTEX-T, a novel framework that exploits contextual privacy vulnerabilities using spectral representation of encrypted wireless traffic for IoT device characterization. The experiments show that spectral analysis provides new and rich feature representation for covert reconnaissance attacks, revealing a complex and expanding threat landscape that would require robust countermeasures for IoT security management. CONTEXT-T first transforms raw packet length sequences into time-frequency spectral representations and then utilizes transformer-based spectral analysis for the device identification. We systematically evaluated multiple spectral representation techniques and transformer-based models across encrypted traffic samples from various IoT devices. CONTEXT-T effectively exploited privacy vulnerabilities and achieved device classification accuracy exceeding 99% across all devices while remaining completely passive and undetectable.</p>
   </details>
 </div>
 
