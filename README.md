@@ -2,6 +2,30 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.12009v1">On the Sensitivity of Firing Rate-Based Federated Spiking Neural Networks to Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-12T14:40:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luiz Pereira, Mirko Perkusich, Dalton Valadares, Kyller Gorgônio</p>
+    <p><b>Summary:</b> Federated Neuromorphic Learning (FNL) enables energy-efficient and privacy-preserving learning on devices without centralizing data. However, real-world deployments require additional privacy mechanisms that can significantly alter training signals. This paper analyzes how Differential Privacy (DP) mechanisms, specifically gradient clipping and noise injection, perturb firing-rate statistics in Spiking Neural Networks (SNNs) and how these perturbations are propagated to rate-based FNL coordination. On a speech recognition task under non-IID settings, ablations across privacy budgets and clipping bounds reveal systematic rate shifts, attenuated aggregation, and ranking instability during client selection. Moreover, we relate these shifts to sparsity and memory indicators. Our findings provide actionable guidance for privacy-preserving FNL, specifically regarding the balance between privacy strength and rate-dependent coordination.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.11510v1">AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-12T03:10:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Faouzi El Yagoubi, Ranwa Al Mallah, Godwin Badu-Marfo</p>
+    <p><b>Summary:</b> Multi-agent Large Language Model (LLM) systems create privacy risks that current benchmarks cannot measure. When agents coordinate on tasks, sensitive data passes through inter-agent messages, shared memory, and tool arguments; pathways that output-only audits never inspect. We introduce AgentLeak, to the best of our knowledge the first full-stack benchmark for privacy leakage covering internal channels, spanning 1,000 scenarios across healthcare, finance, legal, and corporate domains, paired with a 32-class attack taxonomy and three-tier detection pipeline. Testing GPT-4o, GPT-4o-mini, Claude 3.5 Sonnet, Mistral Large, and Llama 3.3 70B across 4,979 traces reveals that multi-agent configurations reduce per-channel output leakage (C1: 27.2% vs 43.2% in single-agent) but introduce unmonitored internal channels that raise total system exposure to 68.9% (OR-aggregated across C1, C2, C5). Internal channels account for most of this gap: inter-agent messages (C2) leak at 68.8%, compared to 27.2% on C1 (output channel). This means that output-only audits miss 41.7% of violations. Claude 3.5 Sonnet, which emphasizes safety alignment in its design, achieves the lowest leakage rates on both external (3.3%) and internal (28.1%) channels, suggesting that model-level safety training may transfer to internal channel protection. Across all five models and four domains, the pattern C2 > C1 holds consistently, confirming that inter-agent communication is the primary vulnerability. These findings underscore the need for coordination frameworks that incorporate internal-channel privacy protections and enforce privacy controls on inter-agent communication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.11026v1">Normalized Surveillance in the Datafied Car: How Autonomous Vehicle Users Rationalize Privacy Trade-offs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-02-11T16:52:06Z</p>
@@ -1198,30 +1222,6 @@
     <p><b>Summary:</b> Aggregate analytics over conversational data are increasingly used for safety monitoring, governance, and product analysis in large language model systems. A common practice is to embed conversations, cluster them, and publish short textual summaries describing each cluster. While raw conversations may never be exposed, these derived summaries can still pose privacy risks if they contain personally identifying information (PII) or uniquely traceable strings copied from individual conversations.
   We introduce CanaryBench, a simple and reproducible stress test for privacy leakage in cluster-level conversation summaries. CanaryBench generates synthetic conversations with planted secret strings ("canaries") that simulate sensitive identifiers. Because canaries are known a priori, any appearance of these strings in published summaries constitutes a measurable leak.
   Using TF-IDF embeddings and k-means clustering on 3,000 synthetic conversations (24 topics) with a canary injection rate of 0.60, we evaluate an intentionally extractive example snippet summarizer that models quote-like reporting. In this configuration, we observe canary leakage in 50 of 52 canary-containing clusters (cluster-level leakage rate 0.961538), along with nonzero regex-based PII indicator counts. A minimal defense combining a minimum cluster-size publication threshold (k-min = 25) and regex-based redaction eliminates measured canary leakage and PII indicator hits in the reported run while maintaining a similar cluster-coherence proxy. We position this work as a societal impacts contribution centered on privacy risk measurement for published analytics artifacts rather than raw user data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17935v1">FedGraph-VASP: Privacy-Preserving Federated Graph Learning with Post-Quantum Security for Cross-Institutional Anti-Money Laundering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2026-01-25T18:14:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Daniel Commey, Matilda Nkoom, Yousef Alsenani, Sena G. Hounsinou, Garth V. Crosby</p>
-    <p><b>Summary:</b> Virtual Asset Service Providers (VASPs) face a fundamental tension between regulatory compliance and user privacy when detecting cross-institutional money laundering. Current approaches require either sharing sensitive transaction data or operating in isolation, leaving critical cross-chain laundering patterns undetected. We present FedGraph-VASP, a privacy-preserving federated graph learning framework that enables collaborative anti-money laundering (AML) without exposing raw user data. Our key contribution is a Boundary Embedding Exchange protocol that shares only compressed, non-invertible graph neural network representations of boundary accounts. These exchanges are secured using post-quantum cryptography, specifically the NIST-standardized Kyber-512 key encapsulation mechanism combined with AES-256-GCM authenticated encryption. Experiments on the Elliptic Bitcoin dataset with realistic Louvain partitioning show that FedGraph-VASP achieves an F1-score of 0.508, outperforming the state-of-the-art generative baseline FedSage+ (F1 = 0.453) by 12.1 percent on binary fraud detection. We further show robustness under low-connectivity settings where generative imputation degrades performance, while approaching centralized performance (F1 = 0.620) in high-connectivity regimes. We additionally evaluate generalization on an Ethereum fraud detection dataset, where FedGraph-VASP (F1 = 0.635) is less effective under sparse cross-silo connectivity, while FedSage+ excels (F1 = 0.855), outperforming even local training (F1 = 0.785). These results highlight a topology-dependent trade-off: embedding exchange benefits connected transaction graphs, whereas generative imputation can dominate in highly modular sparse graphs. A privacy audit shows embeddings are only partially invertible (R^2 = 0.32), limiting exact feature recovery.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.17909v1">From Statistical Disclosure Control to Fair AI: Navigating Fundamental Tradeoffs in Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-25T17:07:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Adriana Watson</p>
-    <p><b>Summary:</b> Differential privacy has become the gold standard for privacy-preserving machine learning systems. Unfortunately, subsequent work has primarily fixated on the privacy-utility tradeoff, leaving the subject of fairness constraints undervalued and under-researched. This paper provides a systematic treatment connecting three threads: (1) Dalenius's impossibility results for semantic privacy, (2) Dwork's differential privacy as an achievable alternative, and (3) emerging impossibility results from the addition of a fairness requirement. Through concrete examples and technical analysis, the three-way Pareto frontier between privacy, utility, and fairness is demonstrated to showcase the fundamental limits on what can be simultaneously achieved. In this work, these limits are characterized, the impact on minority groups is demonstrated, and practical guidance for navigating these tradeoffs are provided. This forms a unified framework synthesizing scattered results to help practitioners and policymakers make informed decisions when deploying private fair learning systems.</p>
   </details>
 </div>
 
