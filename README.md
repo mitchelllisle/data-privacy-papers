@@ -2,6 +2,18 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.12749v1">SoK: Understanding the Pedagogical, Health, Ethical, and Privacy Challenges of Extended Reality in Early Childhood Education</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-13T09:25:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Supriya Khadka, Sanchari Das</p>
+    <p><b>Summary:</b> Extended Reality (XR) combines dense sensing, real-time rendering, and close-range interaction, making its use in early childhood education both promising and high risk. To investigate this, we conduct a Systematization of Knowledge (SoK) of 111 peer-reviewed studies with children aged 3-8, quantifying how technical, pedagogical, health, privacy, and equity challenges arise in practice. We found that AR dominates the landscape (73%), focusing primarily on tablets or phones, while VR remains uncommon and typically relies on head mounted displays (HMDs). We integrate these quantitative patterns into a joint risk and attention matrix and an Augmented Human Development (AHD) model that link XR pipeline properties to cognitive load, sensory conflict, and access inequity. Finally, implementing a seven dimension coding scheme on a 0 - 2 scale, we obtain mean scholarly attention scores of 1.56 for pedagogy, 1.04 for privacy (primarily procedural consent), 0.96 for technical reliability, 0.92 for accessibility in low resource contexts, 0.81 for medical and health issues, 0.52 for accessibility for disabilities, and 0.14 for data security practices. This indicates that pedagogy receives the most systematic scrutiny, while data access practices is largely overlooked. We conclude by offering a roadmap for Child-Centered XR that helps HCI researchers and educators move beyond novelty to design systems that are developmentally aligned, secure by default, and accessible to diverse learners.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.12009v1">On the Sensitivity of Firing Rate-Based Federated Spiking Neural Networks to Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-02-12T14:40:25Z</p>
@@ -1208,20 +1220,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Mohammad Hadi Nezhad, Francisco Enrique Vicente Castro, Ivon Arroyo</p>
     <p><b>Summary:</b> Conversational agents (CAs) (e.g., chatbots) are increasingly used in settings where users disclose sensitive information, raising significant privacy concerns. Because privacy judgments are highly contextual, supporting users to engage in privacy-protective actions during chatbot interactions is essential. However, enabling meaningful engagement requires a deeper understanding of how users currently reason about and manage sensitive information during realistic chatbot use scenarios. To investigate this, we qualitatively examined computer science (undergraduate and masters) students' in-the-moment disclosure and protection behaviors, as well as the reasoning underlying these behaviors, across a range of realistic chatbot tasks. Participants used a simulated ChatGPT interface with and without a privacy notice panel that intercepts message submissions, highlights potentially sensitive information, and offers privacy protective actions. The panel supports anonymization through retracting, faking, and generalizing, and surfaces two of ChatGPT's built-in privacy controls to improve their discoverability. Drawing on interaction logs, think-alouds, and survey responses, we analyzed how the panel fostered privacy awareness, encouraged protective actions, and supported context-specific reasoning about what information to protect and how. We further discuss design opportunities for tools that provide users greater and more meaningful agency in protecting sensitive information during CA interactions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.18834v1">CanaryBench: Stress Testing Privacy Leakage in Cluster-Level Conversation Summaries</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-25T20:30:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Deep Mehta</p>
-    <p><b>Summary:</b> Aggregate analytics over conversational data are increasingly used for safety monitoring, governance, and product analysis in large language model systems. A common practice is to embed conversations, cluster them, and publish short textual summaries describing each cluster. While raw conversations may never be exposed, these derived summaries can still pose privacy risks if they contain personally identifying information (PII) or uniquely traceable strings copied from individual conversations.
-  We introduce CanaryBench, a simple and reproducible stress test for privacy leakage in cluster-level conversation summaries. CanaryBench generates synthetic conversations with planted secret strings ("canaries") that simulate sensitive identifiers. Because canaries are known a priori, any appearance of these strings in published summaries constitutes a measurable leak.
-  Using TF-IDF embeddings and k-means clustering on 3,000 synthetic conversations (24 topics) with a canary injection rate of 0.60, we evaluate an intentionally extractive example snippet summarizer that models quote-like reporting. In this configuration, we observe canary leakage in 50 of 52 canary-containing clusters (cluster-level leakage rate 0.961538), along with nonzero regex-based PII indicator counts. A minimal defense combining a minimum cluster-size publication threshold (k-min = 25) and regex-based redaction eliminates measured canary leakage and PII indicator hits in the reported run while maintaining a similar cluster-coherence proxy. We position this work as a societal impacts contribution centered on privacy risk measurement for published analytics artifacts rather than raw user data.</p>
   </details>
 </div>
 
