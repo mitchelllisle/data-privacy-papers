@@ -1716,5 +1716,23 @@
     "categories" : [
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.12749v1",
+    "title" : "SoK: Understanding the Pedagogical, Health, Ethical, and Privacy Challenges of Extended Reality in Early Childhood Education",
+    "summary" : "Extended Reality (XR) combines dense sensing, real-time rendering, and close-range interaction, making its use in early childhood education both promising and high risk. To investigate this, we conduct a Systematization of Knowledge (SoK) of 111 peer-reviewed studies with children aged 3-8, quantifying how technical, pedagogical, health, privacy, and equity challenges arise in practice. We found that AR dominates the landscape (73%), focusing primarily on tablets or phones, while VR remains uncommon and typically relies on head mounted displays (HMDs). We integrate these quantitative patterns into a joint risk and attention matrix and an Augmented Human Development (AHD) model that link XR pipeline properties to cognitive load, sensory conflict, and access inequity. Finally, implementing a seven dimension coding scheme on a 0 - 2 scale, we obtain mean scholarly attention scores of 1.56 for pedagogy, 1.04 for privacy (primarily procedural consent), 0.96 for technical reliability, 0.92 for accessibility in low resource contexts, 0.81 for medical and health issues, 0.52 for accessibility for disabilities, and 0.14 for data security practices. This indicates that pedagogy receives the most systematic scrutiny, while data access practices is largely overlooked. We conclude by offering a roadmap for Child-Centered XR that helps HCI researchers and educators move beyond novelty to design systems that are developmentally aligned, secure by default, and accessible to diverse learners.",
+    "updated" : "2026-02-13T09:25:56Z",
+    "published" : "2026-02-13T09:25:56Z",
+    "authors" : [
+      {
+        "name" : "Supriya Khadka"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
