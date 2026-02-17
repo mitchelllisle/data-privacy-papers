@@ -2,6 +2,54 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.15028v1">Long Context, Less Focus: A Scaling Gap in LLMs Revealed through Privacy and Personalization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-16T18:59:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shangding Gu</p>
+    <p><b>Summary:</b> Large language models (LLMs) are increasingly deployed in privacy-critical and personalization-oriented scenarios, yet the role of context length in shaping privacy leakage and personalization effectiveness remains largely unexplored. We introduce a large-scale benchmark, PAPerBench, to systematically study how increasing context length influences both personalization quality and privacy protection in LLMs. The benchmark comprises approximately 29,000 instances with context lengths ranging from 1K to 256K tokens, yielding a total of 377K evaluation questions. It jointly evaluates personalization performance and privacy risks across diverse scenarios, enabling controlled analysis of long-context model behavior. Extensive evaluations across state-of-the-art LLMs reveal consistent performance degradation in both personalization and privacy as context length increases. We further provide a theoretical analysis of attention dilution under context scaling, explaining this behavior as an inherent limitation of soft attention in fixed-capacity Transformers. The empirical and theoretical findings together suggest a general scaling gap in current models -- long context, less focus. We release the benchmark to support reproducible evaluation and future research on scalable privacy and personalization. Code and data are available at https://github.com/SafeRL-Lab/PAPerBench</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.13941v1">Avoiding Social Judgment, Seeking Privacy: Investigating why Mothers Shift from Facebook Groups to Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-15T00:37:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shayla Sharmin, Sadia Afrin</p>
+    <p><b>Summary:</b> Social media platforms, especially Facebook parenting groups, have long been used as informal support networks for mothers seeking advice and reassurance. However, growing concerns about social judgment, privacy exposure, and unreliable information are changing how mothers seek help. This exploratory mixed-method study examines why mothers are moving from Facebook parenting groups to large language models such as ChatGPT and Gemini. We conducted a cross-sectional online survey of 109 mothers. Results show that 41.3% of participants avoided Facebook parenting groups because they expected judgment from others. This difference was statistically significant across location and family structure. Mothers living in their home country and those in joint families were more likely to avoid Facebook groups. Qualitative findings revealed three themes: social judgment and exposure, LLMs as safe and private spaces, and quick and structured support. Participants described LLMs as immediate, emotionally safe, and reliable alternatives that reduce social risk when asking for help. Rather than replacing human support, LLMs appear to fill emotional and practical gaps within existing support systems. These findings show a change in maternal digital support and highlight the need to design LLM systems that support both information and emotional safety.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.13840v1">PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-02-14T18:07:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuhan Cheng, Hancheng Ye, Hai Helen Li, Jingwei Sun, Yiran Chen</p>
+    <p><b>Summary:</b> Large language model (LLM) agents are increasingly deployed in personalized tasks involving sensitive, context-dependent information, where privacy violations may arise in agents' action due to the implicitness of contextual privacy. Existing approaches rely on external, inference-time interventions which are brittle, scenario-specific, and may expand the privacy attack surface. We propose PrivAct, a contextual privacy-aware multi-agent learning framework that internalizes contextual privacy preservation directly into models' generation behavior for privacy-compliant agentic actions. By embedding privacy preferences into each agent, PrivAct enhances system-wide contextual integrity while achieving a more favorable privacy-helpfulness tradeoff. Experiments across multiple LLM backbones and benchmarks demonstrate consistent improvements in contextual privacy preservation, reducing leakage rates by up to 12.32% while maintaining comparable helpfulness, as well as zero-shot generalization and robustness across diverse multi-agent topologies. Code is available at https://github.com/chengyh23/PrivAct.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.13555v1">Privacy-Concealing Cooperative Perception for BEV Scene Segmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-14T02:11:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Song Wang, Lingling Li, Marcus Santos, Guanghui Wang</p>
+    <p><b>Summary:</b> Cooperative perception systems for autonomous driving aim to overcome the limited perception range of a single vehicle by communicating with adjacent agents to share sensing information. While this improves perception performance, these systems also face a significant privacy-leakage issue, as sensitive visual content can potentially be reconstructed from the shared data. In this paper, we propose a novel Privacy-Concealing Cooperation (PCC) framework for Bird's Eye View (BEV) semantic segmentation. Based on commonly shared BEV features, we design a hiding network to prevent an image reconstruction network from recovering the input images from the shared features. An adversarial learning mechanism is employed to train the network, where the hiding network works to conceal the visual clues in the BEV features while the reconstruction network attempts to uncover these clues. To maintain segmentation performance, the perception network is integrated with the hiding network and optimized end-to-end. The experimental results demonstrate that the proposed PCC framework effectively degrades the quality of the reconstructed images with minimal impact on segmentation performance, providing privacy protection for cooperating vehicles. The source code will be made publicly available upon publication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.12749v1">SoK: Understanding the Pedagogical, Health, Ethical, and Privacy Challenges of Extended Reality in Early Childhood Education</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-02-13T09:25:56Z</p>
@@ -318,7 +366,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10139v1">Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.10139v2">Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-02-08T15:50:04Z</p>
   <details>
@@ -326,7 +374,7 @@
     <p><b>Authors:</b> Lepeng Zhao, Zhenhua Zou, Shuo Li, Zhuotao Liu</p>
     <p><b>Summary:</b> Mobile Graphical User Interface (GUI) agents have demonstrated strong capabilities in automating complex smartphone tasks by leveraging multimodal large language models (MLLMs) and system-level control interfaces. However, this paradigm introduces significant privacy risks, as agents typically capture and process entire screen contents, thereby exposing sensitive personal data such as phone numbers, addresses, messages, and financial information. Existing defenses either reduce UI exposure, obfuscate only task-irrelevant content, or rely on user authorization, but none can protect task-critical sensitive information while preserving seamless agent usability.
   We propose an anonymization-based privacy protection framework that enforces the principle of available-but-invisible access to sensitive data: sensitive information remains usable for task execution but is never directly visible to the cloud-based agent. Our system detects sensitive UI content using a PII-aware recognition model and replaces it with deterministic, type-preserving placeholders (e.g., PHONE_NUMBER#a1b2c) that retain semantic categories while removing identifying details. A layered architecture comprising a PII Detector, UI Transformer, Secure Interaction Proxy, and Privacy Gatekeeper ensures consistent anonymization across user instructions, XML hierarchies, and screenshots, mediates all agent actions over anonymized interfaces, and supports narrowly scoped local computations when reasoning over raw values is necessary.
-  Extensive experiments on the AndroidLab and PrivScreen benchmarks show that our framework substantially reduces privacy leakage across multiple models while incurring only modest utility degradation, achieving the best observed privacy-utility trade-off among existing methods.</p>
+  Extensive experiments on the AndroidLab and PrivScreen benchmarks show that our framework substantially reduces privacy leakage across multiple models while incurring only modest utility degradation, achieving the best observed privacy-utility trade-off among existing methods. Code available at: https://github.com/one-step-beh1nd/gui_privacy_protection</p>
   </details>
 </div>
 
@@ -1169,57 +1217,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Susim Roy, Nalini Ratha</p>
     <p><b>Summary:</b> The canonical challenge of entity resolution within high-compliance sectors, where secure identity reconciliation is frequently confounded by significant data heterogeneity, including syntactic variations in personal identifiers, is a longstanding and complex problem. To this end, we introduce a novel multimodal framework operating with the voluminous data sets typical of government and financial institutions. Specifically, our methodology is designed to address the tripartite challenge of data volume, matching fidelity, and privacy. Consequently, the underlying plaintext of personally identifiable information remains computationally inaccessible throughout the matching lifecycle, empowering institutions to rigorously satisfy stringent regulatory mandates with cryptographic assurances of client confidentiality while achieving a demonstrably low equal error rate and maintaining computational tractability at scale.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.18511v1">Scaling up Privacy-Preserving ML: A CKKS Implementation of Llama-2-7B</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-26T14:17:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jaiyoung Park, Sejin Park, Jai Hyun Park, Jung Ho Ahn, Jung Hee Cheon, Guillaume Hanrot, Jung Woo Kim, Minje Park, Damien Stehlé</p>
-    <p><b>Summary:</b> As large language models (LLMs) become ubiquitous, privacy concerns pertaining to inference inputs keep growing. In this context, fully homomorphic encryption (FHE) has emerged as a primary cryptographic solution to provide non-interactive confidential LLM inference. Existing solutions scale poorly with the input token length, and hence focus either on small models or larger models with a small number of input tokens. They also suffer from the existence of large outlier values. These values have a strong impact on the evaluation of non-linear layers, leading to large-degree polynomial approximation and thus heavy evaluation costs.
-  We propose an FHE-based private LLM inference solution that allows thousands of input tokens with only a part of them being encrypted: this fits with a scenario where the context is benign and only part of the input is sensitive. To do so, we suggest an unbalanced chunked prefill framework that processes the private and public parts of the input tokens differently. Our framework contains plaintext-plaintext, plaintext-ciphertext and ciphertext-ciphertext computational components. We adopt different strategies and ingredients for each component. We also devise new homomorphic algorithms for specific matrix multiplication and polynomial evaluation tasks encountered during LLM inference.
-  Furthermore, without retraining, we tailor the LLM inference algorithm to reduce the ranges of outlier values: we leverage machine learning strategies (token prepending and rotations) to mitigate the impact of the outliers on non-linear layers.
-  Based on these ingredients, we describe a CKKS-based end-to-end implementation of Llama-2-7B private inference for up to 4096 input tokens, of which the last 128 are encrypted. On a cluster of 8~NVIDIA RTX-4090 GPUs, inference takes 85s for summarization and 33s for generation per output token.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.18497v2">BAIT: Visual-illusion-inspired Privacy Preservation for Mobile Data Visualization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-26T13:58:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sizhe Cheng, Songheng Zhang, Dong Ma, Yong Wang</p>
-    <p><b>Summary:</b> With the prevalence of mobile data visualizations, there have been growing concerns about their privacy risks, especially shoulder surfing attacks. Inspired by prior research on visual illusion, we propose BAIT, a novel approach to automatically generate privacy-preserving visualizations by stacking a decoy visualization over a given visualization. It allows visualization owners at proximity to clearly discern the original visualization and makes shoulder surfers at a distance be misled by the decoy visualization, by adjusting different visual channels of a decoy visualization (e.g., shape, position, tilt, size, color and spatial frequency). We explicitly model human perception effect at different viewing distances to optimize the decoy visualization design. Privacy-preserving examples and two in-depth user studies demonstrate the effectiveness of BAIT in both controlled lab study and real-world scenarios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.18842v2">GUIGuard: Toward a General Framework for Privacy-Preserving GUI Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-01-26T11:33:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanxi Wang, Zhiling Zhang, Wenbo Zhou, Weiming Zhang, Jie Zhang, Qiannan Zhu, Yu Shi, Shuxin Zheng, Jiyan He</p>
-    <p><b>Summary:</b> GUI agents enable end-to-end automation through direct perception of and interaction with on-screen interfaces. However, these agents frequently access interfaces containing sensitive personal information, and screenshots are often transmitted to remote models, creating substantial privacy risks. These risks are particularly severe in GUI workflows: GUIs expose richer, more accessible private information, and privacy risks depend on interaction trajectories across sequential scenes. We propose GUIGuard, a three-stage framework for privacy-preserving GUI agents: (1) privacy recognition, (2) privacy protection, and (3) task execution under protection. We further construct GUIGuard-Bench, a cross-platform benchmark with 630 trajectories and 13,830 screenshots, annotated with region-level privacy grounding and fine-grained labels of risk level, privacy category, and task necessity. Evaluations reveal that existing agents exhibit limited privacy recognition, with state-of-the-art models achieving only 13.3% accuracy on Android and 1.4% on PC. Under privacy protection, task-planning semantics can still be maintained, with closed-source models showing stronger semantic consistency than open-source ones. Case studies on MobileWorld show that carefully designed protection strategies achieve higher task accuracy while preserving privacy. Our results highlight privacy recognition as a critical bottleneck for practical GUI agents. Project: https://futuresis.github.io/GUIGuard-page/</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.18125v1">Understanding Users' Privacy Reasoning and Behaviors During Chatbot Use to Support Meaningful Agency in Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-26T04:13:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Hadi Nezhad, Francisco Enrique Vicente Castro, Ivon Arroyo</p>
-    <p><b>Summary:</b> Conversational agents (CAs) (e.g., chatbots) are increasingly used in settings where users disclose sensitive information, raising significant privacy concerns. Because privacy judgments are highly contextual, supporting users to engage in privacy-protective actions during chatbot interactions is essential. However, enabling meaningful engagement requires a deeper understanding of how users currently reason about and manage sensitive information during realistic chatbot use scenarios. To investigate this, we qualitatively examined computer science (undergraduate and masters) students' in-the-moment disclosure and protection behaviors, as well as the reasoning underlying these behaviors, across a range of realistic chatbot tasks. Participants used a simulated ChatGPT interface with and without a privacy notice panel that intercepts message submissions, highlights potentially sensitive information, and offers privacy protective actions. The panel supports anonymization through retracting, faking, and generalizing, and surfaces two of ChatGPT's built-in privacy controls to improve their discoverability. Drawing on interaction logs, think-alouds, and survey responses, we analyzed how the panel fostered privacy awareness, encouraged protective actions, and supported context-specific reasoning about what information to protect and how. We further discuss design opportunities for tools that provide users greater and more meaningful agency in protecting sensitive information during CA interactions.</p>
   </details>
 </div>
 
