@@ -1845,5 +1845,220 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15815v1",
+    "title" : "Natural Privacy Filters Are Not Always Free: A Characterization of Free Natural Filters",
+    "summary" : "We study natural privacy filters, which enable the exact composition of differentially private (DP) mechanisms with adaptively chosen privacy characteristics. Earlier privacy filters consider only simple privacy parameters such as Rényi-DP or Gaussian DP parameters. Natural filters account for the entire privacy profile of every query, promising greater utility for a given privacy budget. We show that, contrary to other forms of DP, natural privacy filters are not free in general. Indeed, we show that only families of privacy mechanisms that are well-ordered when composed admit free natural privacy filters.",
+    "updated" : "2026-02-17T18:52:46Z",
+    "published" : "2026-02-17T18:52:46Z",
+    "authors" : [
+      {
+        "name" : "Matthew Regehr"
+      },
+      {
+        "name" : "Bingshan Hu"
+      },
+      {
+        "name" : "Ethan Leeman"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      },
+      {
+        "name" : "Pierre Tholoniat"
+      },
+      {
+        "name" : "Mathias Lécuyer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15802v1",
+    "title" : "Local Node Differential Privacy",
+    "summary" : "We initiate an investigation of node differential privacy for graphs in the local model of private data analysis. In our model, dubbed LNDP, each node sees its own edge list and releases the output of a local randomizer on this input. These outputs are aggregated by an untrusted server to obtain a final output.\n  We develop a novel algorithmic framework for this setting that allows us to accurately answer arbitrary linear queries on a blurry approximation of the input graph's degree distribution. For some natural problems, the resulting algorithms match the accuracy achievable with node privacy in the central model, where data are held and processed by a trusted server. We also prove lower bounds on the error required by LNDP that imply the optimality of our algorithms for several fundamental graph statistics. We then lift these lower bounds to the interactive LNDP setting, demonstrating the optimality of our algorithms even when constantly many rounds of interaction are permitted. Obtaining our lower bounds requires new approaches, since those developed for the usual local model do not apply to the inherently overlapping inputs that arise from graphs. Finally, we prove structural results that reveal qualitative differences between local node privacy and the standard local model for tabular data.",
+    "updated" : "2026-02-17T18:41:48Z",
+    "published" : "2026-02-17T18:41:48Z",
+    "authors" : [
+      {
+        "name" : "Sofya Raskhodnikova"
+      },
+      {
+        "name" : "Adam Smith"
+      },
+      {
+        "name" : "Connor Wagaman"
+      },
+      {
+        "name" : "Anatoly Zavyalov"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15705v1",
+    "title" : "Privacy-Preserving and Secure Spectrum Sharing for Database-Driven Cognitive Radio Networks",
+    "summary" : "Database-driven cognitive radio networks (DB-CRNs) enable dynamic spectrum sharing through geolocation databases but introduce critical security and privacy challenges, including mandatory location disclosure, susceptibility to location spoofing, and denial-of-service (DoS) attacks on centralized services. Existing approaches address these issues in isolation and lack a unified, regulation-compliant solution under realistic adversarial conditions. In this work, we present a unified security framework for DB-CRNs that simultaneously provides location privacy, user anonymity, verifiable location, and DoS resilience. Our framework, denoted as SLAPX, enables privacy-preserving spectrum queries using delegatable anonymous credentials, supports adaptive location verification without revealing precise user location, and mitigates DoS attacks through verifiable delay functions (VDFs) combined with RLRS-based rate limiting. Extensive cryptographic benchmarking and network simulations demonstrate that SLAPX achieves significantly lower latency and communication overhead than existing solutions while effectively resisting location spoofing and DoS attacks. These results show that SLAPX is practical and well-suited for secure next-generation DB-CRN deployments.",
+    "updated" : "2026-02-17T16:39:07Z",
+    "published" : "2026-02-17T16:39:07Z",
+    "authors" : [
+      {
+        "name" : "Saleh Darzia"
+      },
+      {
+        "name" : "Gökcan Cantalib"
+      },
+      {
+        "name" : "Attila Altay Yavuza"
+      },
+      {
+        "name" : "Gürkan Gür"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15614v1",
+    "title" : "Onto-DP: Constructing Neighborhoods for Differential Privacy on Ontological Databases",
+    "summary" : "In this paper, we investigate how attackers can discover sensitive information embedded within databases by exploiting inference rules. We demonstrate the inadequacy of naively applied existing state of the art differential privacy (DP) models in safeguarding against such attacks. We introduce ontology aware differential privacy (Onto-DP), a novel extension of differential privacy paradigms built on top of any classical DP model by enriching it with semantic awareness. We show that this extension is a sufficient condition to adequately protect against attackers aware of inference rules.",
+    "updated" : "2026-02-17T14:42:17Z",
+    "published" : "2026-02-17T14:42:17Z",
+    "authors" : [
+      {
+        "name" : "Yasmine Hayder"
+      },
+      {
+        "name" : "Adrien Boiret"
+      },
+      {
+        "name" : "Cédric Eichler"
+      },
+      {
+        "name" : "Benjamin Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15377v1",
+    "title" : "Orchestration-Free Customer Service Automation: A Privacy-Preserving and Flowchart-Guided Framework",
+    "summary" : "Customer service automation has seen growing demand within digital transformation. Existing approaches either rely on modular system designs with extensive agent orchestration or employ over-simplified instruction schemas, providing limited guidance and poor generalizability. This paper introduces an orchestration-free framework using Task-Oriented Flowcharts (TOFs) to enable end-to-end automation without manual intervention. We first define the components and evaluation metrics for TOFs, then formalize a cost-efficient flowchart construction algorithm to abstract procedural knowledge from service dialogues. We emphasize local deployment of small language models and propose decentralized distillation with flowcharts to mitigate data scarcity and privacy issues in model training. Extensive experiments validate the effectiveness in various service tasks, with superior quantitative and application performance compared to strong baselines and market products. By releasing a web-based system demonstration with case studies, we aim to promote streamlined creation of future service automation.",
+    "updated" : "2026-02-17T06:17:37Z",
+    "published" : "2026-02-17T06:17:37Z",
+    "authors" : [
+      {
+        "name" : "Mengze Hong"
+      },
+      {
+        "name" : "Chen Jason Zhang"
+      },
+      {
+        "name" : "Zichang Guo"
+      },
+      {
+        "name" : "Hanlin Gu"
+      },
+      {
+        "name" : "Di Jiang"
+      },
+      {
+        "name" : "Li Qing"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15304v1",
+    "title" : "Hybrid Federated and Split Learning for Privacy Preserving Clinical Prediction and Treatment Optimization",
+    "summary" : "Collaborative clinical decision support is often constrained by governance and privacy rules that prevent pooling patient-level records across institutions. We present a hybrid privacy-preserving framework that combines Federated Learning (FL) and Split Learning (SL) to support decision-oriented healthcare modeling without raw-data sharing. The approach keeps feature-extraction trunks on clients while hosting prediction heads on a coordinating server, enabling shared representation learning and exposing an explicit collaboration boundary where privacy controls can be applied. Rather than assuming distributed training is inherently private, we audit leakage empirically using membership inference on cut-layer representations and study lightweight defenses based on activation clipping and additive Gaussian noise. We evaluate across three public clinical datasets under non-IID client partitions using a unified pipeline and assess performance jointly along four deployment-relevant axes: factual predictive utility, uplift-based ranking under capacity constraints, audited privacy leakage, and communication overhead. Results show that hybrid FL-SL variants achieve competitive predictive performance and decision-facing prioritization behavior relative to standalone FL or SL, while providing a tunable privacy-utility trade-off that can reduce audited leakage without requiring raw-data sharing. Overall, the work positions hybrid FL-SL as a practical design space for privacy-preserving healthcare decision support where utility, leakage risk, and deployment cost must be balanced explicitly.",
+    "updated" : "2026-02-17T01:57:27Z",
+    "published" : "2026-02-17T01:57:27Z",
+    "authors" : [
+      {
+        "name" : "Farzana Akter"
+      },
+      {
+        "name" : "Rakib Hossain"
+      },
+      {
+        "name" : "Deb Kanna Roy Toushi"
+      },
+      {
+        "name" : "Mahmood Menon Khan"
+      },
+      {
+        "name" : "Sultana Amin"
+      },
+      {
+        "name" : "Lisan Al Amin"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15290v1",
+    "title" : "Intellicise Wireless Networks Meet Agentic AI: A Security and Privacy Perspective",
+    "summary" : "Intellicise (Intelligent and Concise) wireless network is the main direction of the evolution of future mobile communication systems, a perspective now widely acknowledged across academia and industry. As a key technology within it, Agentic AI has garnered growing attention due to its advanced cognitive capabilities, enabled through continuous perception-memory-reasoning-action cycles. This paper first analyses the unique advantages that Agentic AI introduces to intellicise wireless networks. We then propose a structured taxonomy for Agentic AI-enhanced secure intellicise wireless networks. Building on this framework, we identify emerging security and privacy challenges introduced by Agentic AI and summarize targeted strategies to address these vulnerabilities. A case study further demonstrates Agentic AI's efficacy in defending against intelligent eavesdropping attacks. Finally, we outline key open research directions to guide future exploration in this field.",
+    "updated" : "2026-02-17T01:19:33Z",
+    "published" : "2026-02-17T01:19:33Z",
+    "authors" : [
+      {
+        "name" : "Rui Meng"
+      },
+      {
+        "name" : "Zhidi Zhang"
+      },
+      {
+        "name" : "Song Gao"
+      },
+      {
+        "name" : "Yaheng Wang"
+      },
+      {
+        "name" : "Xiaodong Xu"
+      },
+      {
+        "name" : "Yijing Lin"
+      },
+      {
+        "name" : "Yiming Liu"
+      },
+      {
+        "name" : "Chenyuan Feng"
+      },
+      {
+        "name" : "Lexi Xu"
+      },
+      {
+        "name" : "Yi Ma"
+      },
+      {
+        "name" : "Ping Zhang"
+      },
+      {
+        "name" : "Rahim Tafazolli"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP"
+    ]
   }
 ]
