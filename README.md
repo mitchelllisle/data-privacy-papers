@@ -2,6 +2,30 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.16480v1">SRFed: Mitigating Poisoning Attacks in Privacy-Preserving Federated Learning with Heterogeneous Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-02-18T14:14:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yiwen Lu</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without exposing clients' private data, and has been widely adopted in privacy-sensitive scenarios. However, FL faces two critical security threats: curious servers that may launch inference attacks to reconstruct clients' private data, and compromised clients that can launch poisoning attacks to disrupt model aggregation. Existing solutions mitigate these attacks by combining mainstream privacy-preserving techniques with defensive aggregation strategies. However, they either incur high computation and communication overhead or perform poorly under non-independent and identically distributed (Non-IID) data settings. To tackle these challenges, we propose SRFed, an efficient Byzantine-robust and privacy-preserving FL framework for Non-IID scenarios. First, we design a decentralized efficient functional encryption (DEFE) scheme to support efficient model encryption and non-interactive decryption. DEFE also eliminates third-party reliance and defends against server-side inference attacks. Second, we develop a privacy-preserving defensive model aggregation mechanism based on DEFE. This mechanism filters poisonous models under Non-IID data by layer-wise projection and clustering-based analysis. Theoretical analysis and extensive experiments show that SRFed outperforms state-of-the-art baselines in privacy protection, Byzantine robustness, and efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.16100v1">LLM-Driven Intent-Based Privacy-Aware Orchestration Across the Cloud-Edge Continuum</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-02-18T00:09:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zijie Su, Muhammed Tawfiqul Islam, Mohammad Goudarzi, Adel N. Toosi</p>
+    <p><b>Summary:</b> With the rapid advancement of large language models (LLMs), efficiently serving LLM inference under limited GPU resources has become a critical challenge. Recently, an increasing number of studies have explored applying serverless computing paradigms to LLM serving in order to maximize resource utilization. However, LLM inference workloads are highly diverse, and modern GPU clusters are inherently heterogeneous, making it necessary to dynamically adjust deployment configurations online to better adapt to the elastic and dynamic nature of serverless environments. At the same time, enabling such online reconfiguration is particularly challenging due to the stateful nature of LLM inference and the massive size of model parameters. In this paper, we propose a dynamic pipeline reconfiguration approach that enables online adjustment of pipeline configurations while minimizing service downtime and performance degradation. Our method allows the system to select the optimal pipeline configuration in response to changing workloads. Experimental results on heterogeneous GPU platforms, including NVIDIA A100 and L40s, demonstrate that our migration mechanism incurs less than 50 ms of service downtime, while introducing under 10% overhead on both time-to-first-token (TTFT) and time-per-output-token (TPOT).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.15815v1">Natural Privacy Filters Are Not Always Free: A Characterization of Free Natural Filters</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
   <p><b>Published on:</b> 2026-02-17T18:52:46Z</p>
@@ -46,6 +70,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Yasmine Hayder, Adrien Boiret, Cédric Eichler, Benjamin Nguyen</p>
     <p><b>Summary:</b> In this paper, we investigate how attackers can discover sensitive information embedded within databases by exploiting inference rules. We demonstrate the inadequacy of naively applied existing state of the art differential privacy (DP) models in safeguarding against such attacks. We introduce ontology aware differential privacy (Onto-DP), a novel extension of differential privacy paradigms built on top of any classical DP model by enriching it with semantic awareness. We show that this extension is a sufficient condition to adequately protect against attackers aware of inference rules.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.15919v1">Generalized Leverage Score for Scalable Assessment of Privacy Vulnerability</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-17T07:07:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Valentin Dorseuil, Jamal Atif, Olivier Cappé</p>
+    <p><b>Summary:</b> Can the privacy vulnerability of individual data points be assessed without retraining models or explicitly simulating attacks? We answer affirmatively by showing that exposure to membership inference attack (MIA) is fundamentally governed by a data point's influence on the learned model. We formalize this in the linear setting by establishing a theoretical correspondence between individual MIA risk and the leverage score, identifying it as a principled metric for vulnerability. This characterization explains how data-dependent sensitivity translates into exposure, without the computational burden of training shadow models. Building on this, we propose a computationally efficient generalization of the leverage score for deep learning. Empirical evaluations confirm a strong correlation between the proposed score and MIA success, validating this metric as a practical surrogate for individual privacy risk assessment.</p>
   </details>
 </div>
 
@@ -1181,43 +1217,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Isadora Krsek, Meryl Ye, Wei Xu, Alan Ritter, Laura Dabbish, Sauvik Das</p>
     <p><b>Summary:</b> People candidly discuss sensitive topics online under the perceived safety of anonymity; yet, for many, this perceived safety is tenuous, as miscalibrated risk perceptions can lead to over-disclosure. Recent advances in Natural Language Processing (NLP) afford an unprecedented opportunity to present users with quantified disclosure-based re-identification risk (i.e., "population risk estimates", PREs). How can PREs be presented to users in a way that promotes informed decision-making, mitigating risk without encouraging unnecessary self-censorship? Using design fictions and comic-boarding, we story-boarded five design concepts for presenting PREs to users and evaluated them through an online survey with N = 44 Reddit users. We found participants had detailed conceptions of how PREs may impact risk awareness and motivation, but envisioned needing additional context and support to effectively interpret and act on risks. We distill our findings into four key design recommendations for how best to present users with quantified privacy risks to support informed disclosure decision-making.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.19837v1">Self-Sovereign Identity and eIDAS 2.0: An Analysis of Control, Privacy, and Legal Implications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2026-01-27T17:43:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nacereddine Sitouah, Marco Esposito, Francesco Bruschi</p>
-    <p><b>Summary:</b> European digital identity initiatives are grounded in regulatory frameworks designed to ensure interoperability and robust, harmonized security standards. The evolution of these frameworks culminates in eIDAS 2.0, whose origins trace back to the Electronic Signatures Directive 1999/93/EC, the first EU-wide legal foundation for the use of electronic signatures in cross-border electronic transactions. As technological capabilities advanced, the initial eIDAS 1.0 framework was increasingly criticized for its limitations and lack of comprehensiveness. Emerging decentralized approaches further exposed these shortcomings and introduced the possibility of integrating innovative identity paradigms, such as Self-Sovereign Identity (SSI) models.
-  In this article, we analyse key provisions of the eIDAS 2.0 Regulation and its accompanying recitals, drawing on existing literature to identify legislative gaps and implementation challenges. Furthermore, we examine the European Digital Identity Architecture and Reference Framework (ARF), assessing its proposed guidelines and evaluating the extent to which its emerging implementations align with SSI principles.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.19575v3">Putting Privacy to the Test: Introducing Red Teaming for Research Data Anonymization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-27T13:04:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luisa Jansen, Tim Ulmann, Robine Jordi, Malte Elson</p>
-    <p><b>Summary:</b> Recently, the data protection practices of researchers in human-computer interaction and elsewhere have gained attention. Initial results suggest that researchers struggle with anonymization, partly due to a lack of clear, actionable guidance. In this work, we propose simulating re-identification attacks using the approach of red teaming versus blue teaming: a technique commonly employed in security testing, where one team tries to re-identify data, and the other team tries to prevent it. We discuss our experience applying this method to data collected in a mixed-methods study in human-centered privacy. We present usable materials for researchers to apply red teaming when anonymizing and publishing their studies' data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.19502v1">VisGuardian: A Lightweight Group-based Privacy Control Technique For Front Camera Data From AR Glasses in Home Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-27T11:41:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shuning Zhang, Qucheng Zang, Yongquan `Owen' Hu, Jiachen Du, Xueyang Wang, Yan Kong, Xinyi Fu, Suranga Nanayakkara, Xin Yi, Hewu Li</p>
-    <p><b>Summary:</b> Always-on sensing of AI applications on AR glasses makes traditional permission techniques ill-suited for context-dependent visual data, especially within home environments. The home presents a highly challenging privacy context due to the high density of sensitive objects, and the frequent presence of non-consenting family members, and the intimate nature of daily routines, making it a critical focus area for scalable privacy control mechanisms. Existing fine-grained controls, while offering nuanced choices, are inefficient for managing multiple private objects. We propose VisGuardian, a fine-grained content-based visual permission technique for AR glasses. VisGuardian features a group-based control mechanism that enables users to efficiently manage permissions for multiple private objects. VisGuardian detects objects using YOLO and adopts a pre-classified schema to group them. By selecting a single object, users can efficiently obscure groups of related objects based on criteria including privacy sensitivity, object category, or spatial proximity. A technical evaluation shows VisGuardian achieves mAP50 of 0.6704 with only 14.0 ms latency and a 1.7% increase in battery consumption per hour. Furthermore, a user study (N=24) comparing VisGuardian to slider-based and object-based baselines found it to be significantly faster for setting permissions and was preferred by users for its efficiency, effectiveness, and ease of use.</p>
   </details>
 </div>
 
