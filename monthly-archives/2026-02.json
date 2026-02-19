@@ -2060,5 +2060,68 @@
       "cs.CR",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.16480v1",
+    "title" : "SRFed: Mitigating Poisoning Attacks in Privacy-Preserving Federated Learning with Heterogeneous Data",
+    "summary" : "Federated Learning (FL) enables collaborative model training without exposing clients' private data, and has been widely adopted in privacy-sensitive scenarios. However, FL faces two critical security threats: curious servers that may launch inference attacks to reconstruct clients' private data, and compromised clients that can launch poisoning attacks to disrupt model aggregation. Existing solutions mitigate these attacks by combining mainstream privacy-preserving techniques with defensive aggregation strategies. However, they either incur high computation and communication overhead or perform poorly under non-independent and identically distributed (Non-IID) data settings. To tackle these challenges, we propose SRFed, an efficient Byzantine-robust and privacy-preserving FL framework for Non-IID scenarios. First, we design a decentralized efficient functional encryption (DEFE) scheme to support efficient model encryption and non-interactive decryption. DEFE also eliminates third-party reliance and defends against server-side inference attacks. Second, we develop a privacy-preserving defensive model aggregation mechanism based on DEFE. This mechanism filters poisonous models under Non-IID data by layer-wise projection and clustering-based analysis. Theoretical analysis and extensive experiments show that SRFed outperforms state-of-the-art baselines in privacy protection, Byzantine robustness, and efficiency.",
+    "updated" : "2026-02-18T14:14:38Z",
+    "published" : "2026-02-18T14:14:38Z",
+    "authors" : [
+      {
+        "name" : "Yiwen Lu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.16100v1",
+    "title" : "LLM-Driven Intent-Based Privacy-Aware Orchestration Across the Cloud-Edge Continuum",
+    "summary" : "With the rapid advancement of large language models (LLMs), efficiently serving LLM inference under limited GPU resources has become a critical challenge. Recently, an increasing number of studies have explored applying serverless computing paradigms to LLM serving in order to maximize resource utilization. However, LLM inference workloads are highly diverse, and modern GPU clusters are inherently heterogeneous, making it necessary to dynamically adjust deployment configurations online to better adapt to the elastic and dynamic nature of serverless environments. At the same time, enabling such online reconfiguration is particularly challenging due to the stateful nature of LLM inference and the massive size of model parameters. In this paper, we propose a dynamic pipeline reconfiguration approach that enables online adjustment of pipeline configurations while minimizing service downtime and performance degradation. Our method allows the system to select the optimal pipeline configuration in response to changing workloads. Experimental results on heterogeneous GPU platforms, including NVIDIA A100 and L40s, demonstrate that our migration mechanism incurs less than 50 ms of service downtime, while introducing under 10% overhead on both time-to-first-token (TTFT) and time-per-output-token (TPOT).",
+    "updated" : "2026-02-18T00:09:09Z",
+    "published" : "2026-02-18T00:09:09Z",
+    "authors" : [
+      {
+        "name" : "Zijie Su"
+      },
+      {
+        "name" : "Muhammed Tawfiqul Islam"
+      },
+      {
+        "name" : "Mohammad Goudarzi"
+      },
+      {
+        "name" : "Adel N. Toosi"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15919v1",
+    "title" : "Generalized Leverage Score for Scalable Assessment of Privacy Vulnerability",
+    "summary" : "Can the privacy vulnerability of individual data points be assessed without retraining models or explicitly simulating attacks? We answer affirmatively by showing that exposure to membership inference attack (MIA) is fundamentally governed by a data point's influence on the learned model. We formalize this in the linear setting by establishing a theoretical correspondence between individual MIA risk and the leverage score, identifying it as a principled metric for vulnerability. This characterization explains how data-dependent sensitivity translates into exposure, without the computational burden of training shadow models. Building on this, we propose a computationally efficient generalization of the leverage score for deep learning. Empirical evaluations confirm a strong correlation between the proposed score and MIA success, validating this metric as a practical surrogate for individual privacy risk assessment.",
+    "updated" : "2026-02-17T07:07:31Z",
+    "published" : "2026-02-17T07:07:31Z",
+    "authors" : [
+      {
+        "name" : "Valentin Dorseuil"
+      },
+      {
+        "name" : "Jamal Atif"
+      },
+      {
+        "name" : "Olivier Cappé"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
