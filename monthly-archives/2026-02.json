@@ -2123,5 +2123,158 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.17454v1",
+    "title" : "Privacy in Theory, Bugs in Practice: Grey-Box Auditing of Differential Privacy Libraries",
+    "summary" : "Differential privacy (DP) implementations are notoriously prone to errors, with subtle bugs frequently invalidating theoretical guarantees. Existing verification methods are often impractical: formal tools are too restrictive, while black-box statistical auditing is intractable for complex pipelines and fails to pinpoint the source of the bug. This paper introduces Re:cord-play, a gray-box auditing paradigm that inspects the internal state of DP algorithms. By running an instrumented algorithm on neighboring datasets with identical randomness, Re:cord-play directly checks for data-dependent control flow and provides concrete falsification of sensitivity violations by comparing declared sensitivity against the empirically measured distance between internal inputs. We generalize this to Re:cord-play-sample, a full statistical audit that isolates and tests each component, including untrusted ones. We show that our novel testing approach is both effective and necessary by auditing 12 open-source libraries, including SmartNoise SDK, Opacus, and Diffprivlib, and uncovering 13 privacy violations that impact their theoretical guarantees. We release our framework as an open-source Python package, thereby making it easy for DP developers to integrate effective, computationally inexpensive, and seamless privacy testing as part of their software development lifecycle.",
+    "updated" : "2026-02-19T15:18:00Z",
+    "published" : "2026-02-19T15:18:00Z",
+    "authors" : [
+      {
+        "name" : "Tudor Cebere"
+      },
+      {
+        "name" : "David Erb"
+      },
+      {
+        "name" : "Damien Desfontaines"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      },
+      {
+        "name" : "Jack Fitzsimons"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.17418v1",
+    "title" : "A Privacy by Design Framework for Large Language Model-Based Applications for Children",
+    "summary" : "Children are increasingly using technologies powered by Artificial Intelligence (AI). However, there are growing concerns about privacy risks, particularly for children. Although existing privacy regulations require companies and organizations to implement protections, doing so can be challenging in practice. To address this challenge, this article proposes a framework based on Privacy-by-Design (PbD), which guides designers and developers to take on a proactive and risk-averse approach to technology design. Our framework includes principles from several privacy regulations, such as the General Data Protection Regulation (GDPR) from the European Union, the Personal Information Protection and Electronic Documents Act (PIPEDA) from Canada, and the Children's Online Privacy Protection Act (COPPA) from the United States. We map these principles to various stages of applications that use Large Language Models (LLMs), including data collection, model training, operational monitoring, and ongoing validation. For each stage, we discuss the operational controls found in the recent academic literature to help AI service providers and developers reduce privacy risks while meeting legal standards. In addition, the framework includes design guidelines for children, drawing from the United Nations Convention on the Rights of the Child (UNCRC), the UK's Age-Appropriate Design Code (AADC), and recent academic research. To demonstrate how this framework can be applied in practice, we present a case study of an LLM-based educational tutor for children under 13. Through our analysis and the case study, we show that by using data protection strategies such as technical and organizational controls and making age-appropriate design decisions throughout the LLM life cycle, we can support the development of AI applications for children that provide privacy protections and comply with legal requirements.",
+    "updated" : "2026-02-19T14:50:52Z",
+    "published" : "2026-02-19T14:50:52Z",
+    "authors" : [
+      {
+        "name" : "Diana Addae"
+      },
+      {
+        "name" : "Diana Rogachova"
+      },
+      {
+        "name" : "Nafiseh Kahani"
+      },
+      {
+        "name" : "Masoud Barati"
+      },
+      {
+        "name" : "Michael Christensen"
+      },
+      {
+        "name" : "Chen Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.17284v1",
+    "title" : "Efficient privacy loss accounting for subsampling and random allocation",
+    "summary" : "We consider the privacy amplification properties of a sampling scheme in which a user's data is used in $k$ steps chosen randomly and uniformly from a sequence (or set) of $t$ steps. This sampling scheme has been recently applied in the context of differentially private optimization (Chua et al., 2024a; Choquette-Choo et al., 2025) and communication-efficient high-dimensional private aggregation (Asi et al., 2025), where it was shown to have utility advantages over the standard Poisson sampling. Theoretical analyses of this sampling scheme (Feldman & Shenfeld, 2025; Dong et al., 2025) lead to bounds that are close to those of Poisson sampling, yet still have two significant shortcomings. First, in many practical settings, the resulting privacy parameters are not tight due to the approximation steps in the analysis. Second, the computed parameters are either the hockey stick or Renyi divergence, both of which introduce overheads when used in privacy loss accounting.\n  In this work, we demonstrate that the privacy loss distribution (PLD) of random allocation applied to any differentially private algorithm can be computed efficiently. When applied to the Gaussian mechanism, our results demonstrate that the privacy-utility trade-off for random allocation is at least as good as that of Poisson subsampling. In particular, random allocation is better suited for training via DP-SGD. To support these computations, our work develops new tools for general privacy loss accounting based on a notion of PLD realization. This notion allows us to extend accurate privacy loss accounting to subsampling which previously required manual noise-mechanism-specific analysis.",
+    "updated" : "2026-02-19T11:44:25Z",
+    "published" : "2026-02-19T11:44:25Z",
+    "authors" : [
+      {
+        "name" : "Vitaly Feldman"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.17223v1",
+    "title" : "Privacy-Preserving Mechanisms Enable Cheap Verifiable Inference of LLMs",
+    "summary" : "As large language models (LLMs) continue to grow in size, fewer users are able to host and run models locally. This has led to increased use of third-party hosting services. However, in this setting, there is a lack of guarantees on the computation performed by the inference provider. For example, a dishonest provider may replace an expensive large model with a cheaper-to-run weaker model and return the results from the weaker model to the user. Existing tools to verify inference typically rely on methods from cryptography such as zero-knowledge proofs (ZKPs), but these add significant computational overhead, and remain infeasible for use for large models. In this work, we develop a new insight -- that given a method for performing private LLM inference, one can obtain forms of verified inference at marginal extra cost. Specifically, we propose two new protocols which leverage privacy-preserving LLM inference in order to provide guarantees over the inference that was carried out. Our approaches are cheap, requiring the addition of a few extra tokens of computation, and have little to no downstream impact. As the fastest privacy-preserving inference methods are typically faster than ZK methods, the proposed protocols also improve verification runtime. Our work provides novel insights into the connections between privacy and verifiability in LLM inference.",
+    "updated" : "2026-02-19T10:15:51Z",
+    "published" : "2026-02-19T10:15:51Z",
+    "authors" : [
+      {
+        "name" : "Arka Pal"
+      },
+      {
+        "name" : "Louai Zahran"
+      },
+      {
+        "name" : "William Gvozdjak"
+      },
+      {
+        "name" : "Akilesh Potti"
+      },
+      {
+        "name" : "Micah Goldblum"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.16975v1",
+    "title" : "\"It's like a pet...but my pet doesn't collect data about me\": Multi-person Households' Privacy Design Preferences for Household Robots",
+    "summary" : "Household robots boasting mobility, more sophisticated sensors, and powerful processing models have become increasingly prevalent in the commercial market. However, these features may expose users to unwanted privacy risks, including unsolicited data collection and unauthorized data sharing. While security and privacy researchers thus far have explored people's privacy concerns around household robots, literature investigating people's preferred privacy designs and mitigation strategies is still limited. Additionally, the existing literature has not yet accounted for multi-user perspectives on privacy design and household robots. We aimed to fill this gap by conducting in-person participatory design sessions with 15 households to explore how they would design a privacy-aware household robot based on their concerns and expectations. We found that participants did not trust that robots, or their respective manufacturers, would respect the data privacy of household members or operate in a multi-user ecosystem without jeopardizing users' personal data. Based on these concerns, they generated designs that gave them authority over their data, contained accessible controls and notification systems, and could be customized and tailored to suit the needs and preferences of each user over time. We synthesize our findings into actionable design recommendations for robot manufacturers and developers.",
+    "updated" : "2026-02-19T00:30:00Z",
+    "published" : "2026-02-19T00:30:00Z",
+    "authors" : [
+      {
+        "name" : "Jennica Li"
+      },
+      {
+        "name" : "Shirley Zhang"
+      },
+      {
+        "name" : "Dakota Sullivan"
+      },
+      {
+        "name" : "Bengisu Cagiltay"
+      },
+      {
+        "name" : "Heather Kirkorian"
+      },
+      {
+        "name" : "Bilge Mutlu"
+      },
+      {
+        "name" : "Kassem Fawaz"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.16760v1",
+    "title" : "Privacy-Aware Split Inference with Speculative Decoding for Large Language Models over Wide-Area Networks",
+    "summary" : "We present a practical system for privacy-aware large language model (LLM) inference that splits a transformer between a trusted local GPU and an untrusted cloud GPU, communicating only intermediate activations over the network. Our system addresses the unique challenges of autoregressive LLM decoding over high-latency wide-area networks (WANs), contributing: (1) an asymmetric layer split where embedding and unembedding layers remain local, ensuring raw tokens never leave the trusted device; (2) the first application of lookahead decoding to split inference over WANs, amortizing network round-trip latency across multiple tokens per iteration; (3) an empirical inversion attack evaluation showing that split depth provides a tunable privacy-performance tradeoff -- an attacker can recover ~59%% of tokens at a 2-layer split but only ~35%% at an 8-layer split, with minimal throughput impact; (4) ablation experiments showing that n-gram speculation accepts 1.2-1.3 tokens per decoding step on average (peak of 7 observed on code), with acceptance rates consistent across model scales; (5) formal verification that lookahead decoding produces token-identical output to sequential decoding under greedy argmax, with zero quality degradation; and (6) scaling validation on Mistral NeMo 12B (40 layers), demonstrating that the system generalizes to larger models with only 4.9 GB local VRAM and matching 7B throughput. Evaluated on Mistral 7B and NeMo 12B over a ~80ms WAN link, our system achieves 8.7-9.3 tok/s (7B) and 7.8-8.7 tok/s (12B) with lookahead decoding, with an RTT decomposition model (validated at <6.2%% cross-validation error) projecting 15-19 tok/s at 20ms RTT.",
+    "updated" : "2026-02-18T14:13:08Z",
+    "published" : "2026-02-18T14:13:08Z",
+    "authors" : [
+      {
+        "name" : "Michael Cunningham"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
