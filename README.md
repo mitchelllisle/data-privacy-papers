@@ -2,6 +2,67 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.17454v1">Privacy in Theory, Bugs in Practice: Grey-Box Auditing of Differential Privacy Libraries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-19T15:18:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tudor Cebere, David Erb, Damien Desfontaines, Aurélien Bellet, Jack Fitzsimons</p>
+    <p><b>Summary:</b> Differential privacy (DP) implementations are notoriously prone to errors, with subtle bugs frequently invalidating theoretical guarantees. Existing verification methods are often impractical: formal tools are too restrictive, while black-box statistical auditing is intractable for complex pipelines and fails to pinpoint the source of the bug. This paper introduces Re:cord-play, a gray-box auditing paradigm that inspects the internal state of DP algorithms. By running an instrumented algorithm on neighboring datasets with identical randomness, Re:cord-play directly checks for data-dependent control flow and provides concrete falsification of sensitivity violations by comparing declared sensitivity against the empirically measured distance between internal inputs. We generalize this to Re:cord-play-sample, a full statistical audit that isolates and tests each component, including untrusted ones. We show that our novel testing approach is both effective and necessary by auditing 12 open-source libraries, including SmartNoise SDK, Opacus, and Diffprivlib, and uncovering 13 privacy violations that impact their theoretical guarantees. We release our framework as an open-source Python package, thereby making it easy for DP developers to integrate effective, computationally inexpensive, and seamless privacy testing as part of their software development lifecycle.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.17418v1">A Privacy by Design Framework for Large Language Model-Based Applications for Children</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-19T14:50:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Diana Addae, Diana Rogachova, Nafiseh Kahani, Masoud Barati, Michael Christensen, Chen Zhou</p>
+    <p><b>Summary:</b> Children are increasingly using technologies powered by Artificial Intelligence (AI). However, there are growing concerns about privacy risks, particularly for children. Although existing privacy regulations require companies and organizations to implement protections, doing so can be challenging in practice. To address this challenge, this article proposes a framework based on Privacy-by-Design (PbD), which guides designers and developers to take on a proactive and risk-averse approach to technology design. Our framework includes principles from several privacy regulations, such as the General Data Protection Regulation (GDPR) from the European Union, the Personal Information Protection and Electronic Documents Act (PIPEDA) from Canada, and the Children's Online Privacy Protection Act (COPPA) from the United States. We map these principles to various stages of applications that use Large Language Models (LLMs), including data collection, model training, operational monitoring, and ongoing validation. For each stage, we discuss the operational controls found in the recent academic literature to help AI service providers and developers reduce privacy risks while meeting legal standards. In addition, the framework includes design guidelines for children, drawing from the United Nations Convention on the Rights of the Child (UNCRC), the UK's Age-Appropriate Design Code (AADC), and recent academic research. To demonstrate how this framework can be applied in practice, we present a case study of an LLM-based educational tutor for children under 13. Through our analysis and the case study, we show that by using data protection strategies such as technical and organizational controls and making age-appropriate design decisions throughout the LLM life cycle, we can support the development of AI applications for children that provide privacy protections and comply with legal requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.17284v1">Efficient privacy loss accounting for subsampling and random allocation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-19T11:44:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Vitaly Feldman, Moshe Shenfeld</p>
+    <p><b>Summary:</b> We consider the privacy amplification properties of a sampling scheme in which a user's data is used in $k$ steps chosen randomly and uniformly from a sequence (or set) of $t$ steps. This sampling scheme has been recently applied in the context of differentially private optimization (Chua et al., 2024a; Choquette-Choo et al., 2025) and communication-efficient high-dimensional private aggregation (Asi et al., 2025), where it was shown to have utility advantages over the standard Poisson sampling. Theoretical analyses of this sampling scheme (Feldman & Shenfeld, 2025; Dong et al., 2025) lead to bounds that are close to those of Poisson sampling, yet still have two significant shortcomings. First, in many practical settings, the resulting privacy parameters are not tight due to the approximation steps in the analysis. Second, the computed parameters are either the hockey stick or Renyi divergence, both of which introduce overheads when used in privacy loss accounting.
+  In this work, we demonstrate that the privacy loss distribution (PLD) of random allocation applied to any differentially private algorithm can be computed efficiently. When applied to the Gaussian mechanism, our results demonstrate that the privacy-utility trade-off for random allocation is at least as good as that of Poisson subsampling. In particular, random allocation is better suited for training via DP-SGD. To support these computations, our work develops new tools for general privacy loss accounting based on a notion of PLD realization. This notion allows us to extend accurate privacy loss accounting to subsampling which previously required manual noise-mechanism-specific analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.17223v1">Privacy-Preserving Mechanisms Enable Cheap Verifiable Inference of LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-19T10:15:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arka Pal, Louai Zahran, William Gvozdjak, Akilesh Potti, Micah Goldblum</p>
+    <p><b>Summary:</b> As large language models (LLMs) continue to grow in size, fewer users are able to host and run models locally. This has led to increased use of third-party hosting services. However, in this setting, there is a lack of guarantees on the computation performed by the inference provider. For example, a dishonest provider may replace an expensive large model with a cheaper-to-run weaker model and return the results from the weaker model to the user. Existing tools to verify inference typically rely on methods from cryptography such as zero-knowledge proofs (ZKPs), but these add significant computational overhead, and remain infeasible for use for large models. In this work, we develop a new insight -- that given a method for performing private LLM inference, one can obtain forms of verified inference at marginal extra cost. Specifically, we propose two new protocols which leverage privacy-preserving LLM inference in order to provide guarantees over the inference that was carried out. Our approaches are cheap, requiring the addition of a few extra tokens of computation, and have little to no downstream impact. As the fastest privacy-preserving inference methods are typically faster than ZK methods, the proposed protocols also improve verification runtime. Our work provides novel insights into the connections between privacy and verifiability in LLM inference.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.16975v1">"It's like a pet...but my pet doesn't collect data about me": Multi-person Households' Privacy Design Preferences for Household Robots</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2026-02-19T00:30:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jennica Li, Shirley Zhang, Dakota Sullivan, Bengisu Cagiltay, Heather Kirkorian, Bilge Mutlu, Kassem Fawaz</p>
+    <p><b>Summary:</b> Household robots boasting mobility, more sophisticated sensors, and powerful processing models have become increasingly prevalent in the commercial market. However, these features may expose users to unwanted privacy risks, including unsolicited data collection and unauthorized data sharing. While security and privacy researchers thus far have explored people's privacy concerns around household robots, literature investigating people's preferred privacy designs and mitigation strategies is still limited. Additionally, the existing literature has not yet accounted for multi-user perspectives on privacy design and household robots. We aimed to fill this gap by conducting in-person participatory design sessions with 15 households to explore how they would design a privacy-aware household robot based on their concerns and expectations. We found that participants did not trust that robots, or their respective manufacturers, would respect the data privacy of household members or operate in a multi-user ecosystem without jeopardizing users' personal data. Based on these concerns, they generated designs that gave them authority over their data, contained accessible controls and notification systems, and could be customized and tailored to suit the needs and preferences of each user over time. We synthesize our findings into actionable design recommendations for robot manufacturers and developers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.16480v1">SRFed: Mitigating Poisoning Attacks in Privacy-Preserving Federated Learning with Heterogeneous Data</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2026-02-18T14:14:38Z</p>
@@ -9,6 +70,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Yiwen Lu</p>
     <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training without exposing clients' private data, and has been widely adopted in privacy-sensitive scenarios. However, FL faces two critical security threats: curious servers that may launch inference attacks to reconstruct clients' private data, and compromised clients that can launch poisoning attacks to disrupt model aggregation. Existing solutions mitigate these attacks by combining mainstream privacy-preserving techniques with defensive aggregation strategies. However, they either incur high computation and communication overhead or perform poorly under non-independent and identically distributed (Non-IID) data settings. To tackle these challenges, we propose SRFed, an efficient Byzantine-robust and privacy-preserving FL framework for Non-IID scenarios. First, we design a decentralized efficient functional encryption (DEFE) scheme to support efficient model encryption and non-interactive decryption. DEFE also eliminates third-party reliance and defends against server-side inference attacks. Second, we develop a privacy-preserving defensive model aggregation mechanism based on DEFE. This mechanism filters poisonous models under Non-IID data by layer-wise projection and clustering-based analysis. Theoretical analysis and extensive experiments show that SRFed outperforms state-of-the-art baselines in privacy protection, Byzantine robustness, and efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.16760v1">Privacy-Aware Split Inference with Speculative Decoding for Large Language Models over Wide-Area Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-02-18T14:13:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Michael Cunningham</p>
+    <p><b>Summary:</b> We present a practical system for privacy-aware large language model (LLM) inference that splits a transformer between a trusted local GPU and an untrusted cloud GPU, communicating only intermediate activations over the network. Our system addresses the unique challenges of autoregressive LLM decoding over high-latency wide-area networks (WANs), contributing: (1) an asymmetric layer split where embedding and unembedding layers remain local, ensuring raw tokens never leave the trusted device; (2) the first application of lookahead decoding to split inference over WANs, amortizing network round-trip latency across multiple tokens per iteration; (3) an empirical inversion attack evaluation showing that split depth provides a tunable privacy-performance tradeoff -- an attacker can recover ~59%% of tokens at a 2-layer split but only ~35%% at an 8-layer split, with minimal throughput impact; (4) ablation experiments showing that n-gram speculation accepts 1.2-1.3 tokens per decoding step on average (peak of 7 observed on code), with acceptance rates consistent across model scales; (5) formal verification that lookahead decoding produces token-identical output to sequential decoding under greedy argmax, with zero quality degradation; and (6) scaling validation on Mistral NeMo 12B (40 layers), demonstrating that the system generalizes to larger models with only 4.9 GB local VRAM and matching 7B throughput. Evaluated on Mistral 7B and NeMo 12B over a ~80ms WAN link, our system achieves 8.7-9.3 tok/s (7B) and 7.8-8.7 tok/s (12B) with lookahead decoding, with an RTT decomposition model (validated at <6.2%% cross-validation error) projecting 15-19 tok/s at 20ms RTT.</p>
   </details>
 </div>
 
@@ -1140,83 +1213,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Yaxi Hu, Johanna Düngler, Bernhard Schölkopf, Amartya Sanyal</p>
     <p><b>Summary:</b> We introduce the (Wishart) projection mechanism, a randomized map of the form $S \mapsto M f(S)$ with $M \sim W_d(1/r I_d, r)$ and study its differential privacy properties. For vector-valued queries $f$, we prove non-asymptotic DP guarantees without any additive noise, showing that Wishart randomness alone can suffice. For matrix-valued queries, however, we establish a sharp negative result: in the noise-free setting, the mechanism is not DP, and we demonstrate its vulnerability by implementing a near perfect membership inference attack (AUC $> 0.99$). We then analyze a noisy variant and prove privacy amplification due to randomness and low rank projection, in both large- and small-rank regimes, yielding stronger privacy guarantees than additive noise alone. Finally, we show that LoRA-style updates are an instance of the matrix-valued mechanism, implying that LoRA is not inherently private despite its built-in randomness, but that low-rank fine-tuning can be more private than full fine-tuning at the same noise level. Preliminary experiments suggest that tighter accounting enables lower noise and improved accuracy in practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.21636v2">Sampling-Free Privacy Accounting for Matrix Mechanisms under Random Allocation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2026-01-29T12:40:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jan Schuchardt, Nikita Kalinin</p>
-    <p><b>Summary:</b> We study privacy amplification for differentially private model training with matrix factorization under random allocation (also known as the balls-in-bins model). Recent work by Choquette-Choo et al. (2025) proposes a sampling-based Monte Carlo approach to compute amplification parameters in this setting. However, their guarantees either only hold with some high probability or require random abstention by the mechanism. Furthermore, the required number of samples for ensuring $(ε,δ)$-DP is inversely proportional to $δ$. In contrast, we develop sampling-free bounds based on Rényi divergence and conditional composition. The former is facilitated by a dynamic programming formulation to efficiently compute the bounds. The latter complements it by offering stronger privacy guarantees for small $ε$, where Rényi divergence bounds inherently lead to an over-approximation. Our framework applies to arbitrary banded and non-banded matrices. Through numerical comparisons, we demonstrate the efficacy of our approach across a broad range of matrix mechanisms used in research and practice.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.21265v1">A Quantum-Memory-Free Quantum Secure Direct Communication Protocol Based on Privacy Amplification of Coded Sequences</a></h3>
-  
-  <p><b>Published on:</b> 2026-01-29T04:55:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shang-Jen Su, Shi-Yuan Wang, Matthieu R. Bloch</p>
-    <p><b>Summary:</b> We develop an information-theoretic analysis of Quantum-Memory-Free (QMF) Quantum Secure Direct Communication (QSDC) under collective attacks as an alternative to the conventional Quantum Key Distribution (QKD) protocol with one-time pads. Our main contributions are: 1) a QMF-QSDC protocol that only relies on universal hashing of coded sequences without wiretap coding; 2) a set of privacy amplification theorems for extracting secrecy from coded classical sequences against quantum side-information. These tools open the way to the design of robust QMF-QSDC protocols.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.20792v1">Jurisdiction as Structural Barrier: How Privacy Policy Organization May Reduce Visibility of Substantive Disclosures</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-28T17:29:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Thomas Brackin</p>
-    <p><b>Summary:</b> Privacy policies are supposed to provide notice. But what if substantive information appears only where users skip it? We identify a structural pattern we call jurisdiction-siloed disclosure: information about data practices appearing in specific, actionable form only within regional compliance sections labeled "California Residents" or "EU/UK Users," while general sections use vague or qualified language for the same practices.
-  Our audit of 123 major companies identifies 282 potential instances across 77 companies (62.6% of this purposive sample). A conservative estimate restricted to practice categories validated against OPP-115 human annotations finds 138 instances across 54 companies (44%); post-2018 categories central to our findings await independent validation. If users skip jurisdiction-labeled sections as information foraging theory predicts, users outside regulated jurisdictions would receive less specific information about practices affecting them--a transparency failure operating through document architecture rather than omission.
-  We propose universal substantive disclosure: practices affecting all users should appear in the main policy body, with regional sections containing only procedural rights information. This standard finds support in analogous disclosure regimes (securities, truth-in-lending, nutritional labeling) where material information must reach all affected parties. Regulators could operationalize this through the FTC's "clear and conspicuous" standard and GDPR transparency principles.
-  This work is hypothesis-generating: we establish that the structural pattern exists and ground the transparency concern in behavioral theory, but direct measurement of jurisdiction-specific section skipping remains the critical validation priority. We release our methodology and annotated dataset to enable replication.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.20716v1">Decentralized Identity in Practice: Benchmarking Latency, Cost, and Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2026-01-28T15:48:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abylay Satybaldy, Kamil Tylinski, Jiahua Xu</p>
-    <p><b>Summary:</b> Decentralized Identifiers (DIDs) are increasingly deployed on distributed ledgers, yet systematic cross-platform evidence on their operational behavior remains limited. We present an empirical benchmarking study of three prominent ledger-based DID methods - Ethereum, Hedera, and XRP Ledger - using reference Software Development Kits (SDKs) under a unified experimental setup. We measure latency, transaction cost, and on-chain metadata exposure, normalizing latency by each platform's block or consensus interval and cost by its native value transfer fee. Privacy leakage is quantified using a Metadata-Leakage Score (MLS), an entropy-based measure expressed in bits per operation.
-  Our results reveal distinct architectural trade-offs. Ethereum enables near-instant, off-chain DID creation, but incurs the highest latency and cost for on-chain lifecycle operations. XRPL delivers deterministic and stable latency with fixed, low fees, yet exhibits higher metadata leakage due to more verbose transaction payloads. Hedera achieves the lowest on-chain latency and low fees with minimal metadata leakage, while occasional variance arises from SDK-side processing and confirmation pipelines.
-  Overall, the findings show that ledger architecture and SDK workflows play a major role in shaping DID latency, cost, and metadata exposure, complementing the effects of the underlying consensus mechanism. These results provide evidence-based insights to support informed selection and configuration of DID systems under performance and privacy constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.20325v1">UnlearnShield: Shielding Forgotten Privacy against Unlearning Inversion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-01-28T07:42:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lulu Xue, Shengshan Hu, Wei Lu, Ziqi Zhou, Yufei Song, Jianhong Cheng, Minghui Li, Yanjun Zhang, Leo Yu Zhang</p>
-    <p><b>Summary:</b> Machine unlearning is an emerging technique that aims to remove the influence of specific data from trained models, thereby enhancing privacy protection. However, recent research has uncovered critical privacy vulnerabilities, showing that adversaries can exploit unlearning inversion to reconstruct data that was intended to be erased. Despite the severity of this threat, dedicated defenses remain lacking. To address this gap, we propose UnlearnShield, the first defense specifically tailored to counter unlearning inversion. UnlearnShield introduces directional perturbations in the cosine representation space and regulates them through a constraint module to jointly preserve model accuracy and forgetting efficacy, thereby reducing inversion risk while maintaining utility. Experiments demonstrate that it achieves a good trade-off among privacy protection, accuracy, and forgetting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.20161v2">Supporting Informed Self-Disclosure: Design Recommendations for Presenting AI-Estimates of Privacy Risks to Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-01-28T01:35:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Isadora Krsek, Meryl Ye, Wei Xu, Alan Ritter, Laura Dabbish, Sauvik Das</p>
-    <p><b>Summary:</b> People candidly discuss sensitive topics online under the perceived safety of anonymity; yet, for many, this perceived safety is tenuous, as miscalibrated risk perceptions can lead to over-disclosure. Recent advances in Natural Language Processing (NLP) afford an unprecedented opportunity to present users with quantified disclosure-based re-identification risk (i.e., "population risk estimates", PREs). How can PREs be presented to users in a way that promotes informed decision-making, mitigating risk without encouraging unnecessary self-censorship? Using design fictions and comic-boarding, we story-boarded five design concepts for presenting PREs to users and evaluated them through an online survey with N = 44 Reddit users. We found participants had detailed conceptions of how PREs may impact risk awareness and motivation, but envisioned needing additional context and support to effectively interpret and act on risks. We distill our findings into four key design recommendations for how best to present users with quantified privacy risks to support informed disclosure decision-making.</p>
   </details>
 </div>
 
