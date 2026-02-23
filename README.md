@@ -2,6 +2,42 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.18415v1">AI-Wrapped: Participatory, Privacy-Preserving Measurement of Longitudinal LLM Use In-the-Wild</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-20T18:34:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Cathy Mengying Fang, Sheer Karny, Chayapatr Archiwaranguprok, Yasith Samaradivakara, Pat Pataranutaporn, Pattie Maes</p>
+    <p><b>Summary:</b> Alignment research on large language models (LLMs) increasingly depends on understanding how these systems are used in everyday contexts. yet naturalistic interaction data is difficult to access due to privacy constraints and platform control. We present AI-Wrapped, a prototype workflow for collecting naturalistic LLM usage data while providing participants with an immediate ``wrapped''-style report on their usage statistics, top topics, and safety-relevant behavioral patterns. We report findings from an initial deployment with 82 U.S.-based adults across 48,495 conversations from their 2025 histories. Participants used LLMs for both instrumental and reflective purposes, including creative work, professional tasks, and emotional or existential themes. Some usage patterns were consistent with potential over-reliance or perfectionistic refinement, while heavier users showed comparatively more reflective exchanges than primarily transactional ones. Methodologically, even with zero data retention and PII removal, participants may remain hesitant to share chat data due to perceived privacy and judgment risks, underscoring the importance of trust, agency, and transparent design when building measurement infrastructure for alignment research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.17973v1">PenTiDef: Enhancing Privacy and Robustness in Decentralized Federated Intrusion Detection Systems against Poisoning Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-20T03:58:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Phan The Duy, Nghi Hoang Khoa, Nguyen Tran Anh Quan, Luong Ha Tien, Ngo Duc Hoang Son, Van-Hau Pham</p>
+    <p><b>Summary:</b> The increasing deployment of Federated Learning (FL) in Intrusion Detection Systems (IDS) introduces new challenges related to data privacy, centralized coordination, and susceptibility to poisoning attacks. While significant research has focused on protecting traditional FL-IDS with centralized aggregation servers, there remains a notable gap in addressing the unique challenges of decentralized FL-IDS (DFL-IDS). This study aims to address the limitations of traditional centralized FL-IDS by proposing a novel defense framework tailored for the decentralized FL-IDS architecture, with a focus on privacy preservation and robustness against poisoning attacks. We propose PenTiDef, a privacy-preserving and robust defense framework for DFL-IDS, which incorporates Distributed Differential Privacy (DDP) to protect data confidentiality and utilizes latent space representations (LSR) derived from neural networks to detect malicious updates in the decentralized model aggregation context. To eliminate single points of failure and enhance trust without a centralized aggregation server, PenTiDef employs a blockchain-based decentralized coordination mechanism that manages model aggregation, tracks update history, and supports trust enforcement through smart contracts. Experimental results on CIC-IDS2018 and Edge-IIoTSet demonstrate that PenTiDef consistently outperforms existing defenses (e.g., FLARE, FedCC) across various attack scenarios and data distributions. These findings highlight the potential of PenTiDef as a scalable and secure framework for deploying DFL-based IDS in adversarial environments. By leveraging privacy protection, malicious behavior detection in hidden data, and working without a central server, it provides a useful security solution against real-world attacks from untrust participants.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.17861v1">JAX-Privacy: A library for differentially private machine learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-19T21:55:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ryan McKenna, Galen Andrew, Borja Balle, Vadym Doroshenko, Arun Ganesh, Weiwei Kong, Alex Kurakin, Brendan McMahan, Mikhail Pravilov</p>
+    <p><b>Summary:</b> JAX-Privacy is a library designed to simplify the deployment of robust and performant mechanisms for differentially private machine learning. Guided by design principles of usability, flexibility, and efficiency, JAX-Privacy serves both researchers requiring deep customization and practitioners who want a more out-of-the-box experience. The library provides verified, modular primitives for critical components for all aspects of the mechanism design including batch selection, gradient clipping, noise addition, accounting, and auditing, and brings together a large body of recent research on differentially private ML.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.17454v1">Privacy in Theory, Bugs in Practice: Grey-Box Auditing of Differential Privacy Libraries</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-02-19T15:18:00Z</p>
@@ -1177,42 +1213,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Ramakant Kumar, Pravin Kumar</p>
     <p><b>Summary:</b> Limited access to medical infrastructure forces elderly and vulnerable patients to rely on home-based care, often leading to neglect and poor adherence to therapeutic exercises such as yoga or physiotherapy. To address this gap, we propose a low-cost and automated human activity recognition (HAR) framework based on wearable inertial sensors and machine learning. Activity data, including walking, walking upstairs, walking downstairs, sitting, standing, and lying, were collected using accelerometer and gyroscope measurements. Four classical classifiers, Logistic Regression, Random Forest, Support Vector Machine (SVM), and k-Nearest Neighbors (k-NN), were evaluated and compared with the proposed Support Tensor Machine (STM). Experimental results show that SVM achieved an accuracy of 93.33 percent, while Logistic Regression, Random Forest, and k-NN achieved 91.11 percent. In contrast, STM significantly outperformed these models, achieving a test accuracy of 96.67 percent and the highest cross-validation accuracy of 98.50 percent. Unlike conventional methods, STM leverages tensor representations to preserve spatio-temporal motion dynamics, resulting in robust classification across diverse activities. The proposed framework demonstrates strong potential for remote healthcare, elderly assistance, child activity monitoring, yoga feedback, and smart home wellness, offering a scalable solution for low-resource and rural healthcare settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22104v1">Social Media Data for Population Mapping: A Bayesian Approach to Address Representativeness and Privacy Challenges</a></h3>
-   
-  <p><b>Published on:</b> 2026-01-29T18:36:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Paolo Andrich, Shengjie Lai, Halim Jun, Qianwen Duan, Zhifeng Cheng, Seth R. Flaxman, Andrew J. Tatem</p>
-    <p><b>Summary:</b> Accurate and timely population data are essential for disaster response and humanitarian planning, but traditional censuses often cannot capture rapid demographic changes. Social media data offer a promising alternative for dynamic population monitoring, but their representativeness remains poorly understood and stringent privacy requirements limit their reliability. Here, we address these limitations in the context of the Philippines by calibrating Facebook user counts with the country's 2020 census figures. First, we find that differential privacy techniques commonly applied to social media-based population datasets disproportionately mask low-population areas. To address this, we propose a Bayesian imputation approach to recover missing values, restoring data coverage for $5.5\%$ of rural areas. Further, using the imputed social media data and leveraging predictors such as urbanisation level, demographic composition, and socio-economic status, we develop a statistical model for the proportion of Facebook users in each municipality, which links observed Facebook user numbers to the true population levels. Out-of-sample validation demonstrates strong result generalisability, with errors as low as ${\approx}18\%$ and ${\approx}24\%$ for urban and rural Facebook user proportions, respectively. We further demonstrate that accounting for overdispersion and spatial correlations in the data is crucial to obtain accurate estimates and appropriate credible intervals. Crucially, as predictors change over time, the models can be used to regularly update the population predictions, providing a dynamic complement to census-based estimates. These results have direct implications for humanitarian response in disaster-prone regions and offer a general framework for using biased social media signals to generate reliable and timely population data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.21859v1">Adaptive Privacy of Sequential Data Releases Under Collusion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-01-29T15:29:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sophie Taylor, Praneeth Kumar Vippathalla, Justin Coon</p>
-    <p><b>Summary:</b> The fundamental trade-off between privacy and utility remains an active area of research. Our contribution is motivated by two observations. First, privacy mechanisms developed for one-time data release cannot straightforwardly be extended to sequential releases. Second, practical databases are likely to be useful to multiple distinct parties. Furthermore, we can not rule out the possibility of data sharing between parties. With utility in mind, we formulate a privacy-utility trade-off problem to adaptively tackle sequential data requests made by different, potentially colluding entities. We consider both expected distortion and mutual information as measures to quantify utility, and use mutual information to measure privacy. We assume an attack model whereby illicit data sharing, which we call collusion, can occur between data receivers. We develop an adaptive algorithm for data releases that makes use of a modified Blahut-Arimoto algorithm. We show that the resulting data releases are optimal when expected distortion quantifies utility, and locally optimal when mutual information quantifies utility. Finally, we discuss how our findings may extend to applications in machine learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.21719v1">LoRA and Privacy: When Random Projections Help (and When They Don't)</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-01-29T13:43:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yaxi Hu, Johanna Düngler, Bernhard Schölkopf, Amartya Sanyal</p>
-    <p><b>Summary:</b> We introduce the (Wishart) projection mechanism, a randomized map of the form $S \mapsto M f(S)$ with $M \sim W_d(1/r I_d, r)$ and study its differential privacy properties. For vector-valued queries $f$, we prove non-asymptotic DP guarantees without any additive noise, showing that Wishart randomness alone can suffice. For matrix-valued queries, however, we establish a sharp negative result: in the noise-free setting, the mechanism is not DP, and we demonstrate its vulnerability by implementing a near perfect membership inference attack (AUC $> 0.99$). We then analyze a noisy variant and prove privacy amplification due to randomness and low rank projection, in both large- and small-rank regimes, yielding stronger privacy guarantees than additive noise alone. Finally, we show that LoRA-style updates are an instance of the matrix-valued mechanism, implying that LoRA is not inherently private despite its built-in randomness, but that low-rank fine-tuning can be more private than full fine-tuning at the same noise level. Preliminary experiments suggest that tighter accounting enables lower noise and improved accuracy in practice.</p>
   </details>
 </div>
 
