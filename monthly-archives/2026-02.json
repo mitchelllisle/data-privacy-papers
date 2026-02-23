@@ -2276,5 +2276,105 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18415v1",
+    "title" : "AI-Wrapped: Participatory, Privacy-Preserving Measurement of Longitudinal LLM Use In-the-Wild",
+    "summary" : "Alignment research on large language models (LLMs) increasingly depends on understanding how these systems are used in everyday contexts. yet naturalistic interaction data is difficult to access due to privacy constraints and platform control. We present AI-Wrapped, a prototype workflow for collecting naturalistic LLM usage data while providing participants with an immediate ``wrapped''-style report on their usage statistics, top topics, and safety-relevant behavioral patterns. We report findings from an initial deployment with 82 U.S.-based adults across 48,495 conversations from their 2025 histories. Participants used LLMs for both instrumental and reflective purposes, including creative work, professional tasks, and emotional or existential themes. Some usage patterns were consistent with potential over-reliance or perfectionistic refinement, while heavier users showed comparatively more reflective exchanges than primarily transactional ones. Methodologically, even with zero data retention and PII removal, participants may remain hesitant to share chat data due to perceived privacy and judgment risks, underscoring the importance of trust, agency, and transparent design when building measurement infrastructure for alignment research.",
+    "updated" : "2026-02-20T18:34:23Z",
+    "published" : "2026-02-20T18:34:23Z",
+    "authors" : [
+      {
+        "name" : "Cathy Mengying Fang"
+      },
+      {
+        "name" : "Sheer Karny"
+      },
+      {
+        "name" : "Chayapatr Archiwaranguprok"
+      },
+      {
+        "name" : "Yasith Samaradivakara"
+      },
+      {
+        "name" : "Pat Pataranutaporn"
+      },
+      {
+        "name" : "Pattie Maes"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.17973v1",
+    "title" : "PenTiDef: Enhancing Privacy and Robustness in Decentralized Federated Intrusion Detection Systems against Poisoning Attacks",
+    "summary" : "The increasing deployment of Federated Learning (FL) in Intrusion Detection Systems (IDS) introduces new challenges related to data privacy, centralized coordination, and susceptibility to poisoning attacks. While significant research has focused on protecting traditional FL-IDS with centralized aggregation servers, there remains a notable gap in addressing the unique challenges of decentralized FL-IDS (DFL-IDS). This study aims to address the limitations of traditional centralized FL-IDS by proposing a novel defense framework tailored for the decentralized FL-IDS architecture, with a focus on privacy preservation and robustness against poisoning attacks. We propose PenTiDef, a privacy-preserving and robust defense framework for DFL-IDS, which incorporates Distributed Differential Privacy (DDP) to protect data confidentiality and utilizes latent space representations (LSR) derived from neural networks to detect malicious updates in the decentralized model aggregation context. To eliminate single points of failure and enhance trust without a centralized aggregation server, PenTiDef employs a blockchain-based decentralized coordination mechanism that manages model aggregation, tracks update history, and supports trust enforcement through smart contracts. Experimental results on CIC-IDS2018 and Edge-IIoTSet demonstrate that PenTiDef consistently outperforms existing defenses (e.g., FLARE, FedCC) across various attack scenarios and data distributions. These findings highlight the potential of PenTiDef as a scalable and secure framework for deploying DFL-based IDS in adversarial environments. By leveraging privacy protection, malicious behavior detection in hidden data, and working without a central server, it provides a useful security solution against real-world attacks from untrust participants.",
+    "updated" : "2026-02-20T03:58:48Z",
+    "published" : "2026-02-20T03:58:48Z",
+    "authors" : [
+      {
+        "name" : "Phan The Duy"
+      },
+      {
+        "name" : "Nghi Hoang Khoa"
+      },
+      {
+        "name" : "Nguyen Tran Anh Quan"
+      },
+      {
+        "name" : "Luong Ha Tien"
+      },
+      {
+        "name" : "Ngo Duc Hoang Son"
+      },
+      {
+        "name" : "Van-Hau Pham"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.17861v1",
+    "title" : "JAX-Privacy: A library for differentially private machine learning",
+    "summary" : "JAX-Privacy is a library designed to simplify the deployment of robust and performant mechanisms for differentially private machine learning. Guided by design principles of usability, flexibility, and efficiency, JAX-Privacy serves both researchers requiring deep customization and practitioners who want a more out-of-the-box experience. The library provides verified, modular primitives for critical components for all aspects of the mechanism design including batch selection, gradient clipping, noise addition, accounting, and auditing, and brings together a large body of recent research on differentially private ML.",
+    "updated" : "2026-02-19T21:55:05Z",
+    "published" : "2026-02-19T21:55:05Z",
+    "authors" : [
+      {
+        "name" : "Ryan McKenna"
+      },
+      {
+        "name" : "Galen Andrew"
+      },
+      {
+        "name" : "Borja Balle"
+      },
+      {
+        "name" : "Vadym Doroshenko"
+      },
+      {
+        "name" : "Arun Ganesh"
+      },
+      {
+        "name" : "Weiwei Kong"
+      },
+      {
+        "name" : "Alex Kurakin"
+      },
+      {
+        "name" : "Brendan McMahan"
+      },
+      {
+        "name" : "Mikhail Pravilov"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
