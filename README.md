@@ -2,6 +2,66 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.19926v1">Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-02-23T15:05:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jin Liu, Yinbin Miao, Ning Xi, Junkang Liu</p>
+    <p><b>Summary:</b> Fine-tuning large vision models (LVMs) and large language models (LLMs) under differentially private federated learning (DPFL) is hindered by a fundamental privacy-utility trade-off. Low-Rank Adaptation (LoRA), a promising parameter-efficient fine-tuning (PEFT) method, reduces computational and communication costs by introducing two trainable low-rank matrices while freezing pre-trained weights. However, directly applying LoRA in DPFL settings leads to performance degradation, especially in LVMs. Our analysis reveals three previously underexplored challenges: (1) gradient coupling caused by the simultaneous update of two asymmetric low-rank matrices, (2) compounded noise amplification under differential privacy, and (3) sharpness of the global aggregated model in the parameter space. To address these issues, we propose LA-LoRA (\textbf{L}ocal \textbf{A}lternating \textbf{LoRA}), a novel approach that decouples gradient interactions and aligns update directions across clients to enhance robustness under stringent privacy constraints. Theoretically, LA-LoRA strengthens convergence guarantees in noisy federated environments. Extensive experiments demonstrate that LA-LoRA achieves state-of-the-art (SOTA) performance on Swin Transformer and RoBERTa models, showcasing robustness to DP noise and broad applicability across both LVMs and LLMs. For example, when fine-tuning the Swin-B model on the Tiny-ImageNet dataset under a strict privacy budget ($ε= 1$), LA-LoRA outperforms the best baseline, RoLoRA, by 16.83\% in test accuracy. Code is provided in \repolink.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.19352v1">Beyond Privacy Labels: How Users Perceive Different Information Sources for Understanding App's Privacy Practices</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-22T22:02:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Varun Shiri, Charles Liu, Keyu Yao, Jin L. C. Guo, Jinghui Cheng</p>
+    <p><b>Summary:</b> Despite having growing awareness and concerns about privacy, technology users are often insufficiently informed of the data practices of various digital products to protect themselves. Privacy policies and privacy labels, as two conventional ways of communicating data practices, are each criticized for important limitations -- one being lengthy and filled with legal jargon, and the other oversimplified and inaccurate -- causing users significant difficulty in understanding the privacy practices of the products and assessing their impact. To mitigate those issues, we explore ways to enhance privacy labels with the relevant content in complementary sources, including privacy policy, app reviews, and community-curated privacy assessments. Our user study results indicate that perceived usefulness and trust on those information sources are personal and influenced by past experience. Our work highlights the importance of considering various information needs for privacy practice and consolidating different sources for more useful privacy solutions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.18910v1">SLDP: Semi-Local Differential Privacy for Density-Adaptive Analytics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-21T17:26:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexey Kroshnin, Alexandra Suvorikova</p>
+    <p><b>Summary:</b> Density-adaptive domain discretization is essential for high-utility privacy-preserving analytics but remains challenging under Local Differential Privacy (LDP) due to the privacy-budget costs associated with iterative refinement. We propose a novel framework, Semi-Local Differential Privacy (SLDP), that assigns a privacy region to each user based on local density and defines adjacency by the potential movement of a point within its privacy region. We present an interactive $(\varepsilon, δ)$-SLDP protocol, orchestrated by an honest-but-curious server over a public channel, to estimate these regions privately. Crucially, our framework decouples the privacy cost from the number of refinement iterations, allowing for high-resolution grids without additional privacy budget cost. We experimentally demonstrate the framework's effectiveness on estimation tasks across synthetic and real-world datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.18900v1">PrivacyBench: Privacy Isn't Free in Hybrid Privacy-Preserving Vision Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-02-21T16:45:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nnaemeka Obiefuna, Samuel Oyeneye, Similoluwa Odunaiya, Iremide Oyelaja, Steven Kolawole</p>
+    <p><b>Summary:</b> Privacy preserving machine learning deployments in sensitive deep learning applications; from medical imaging to autonomous systems; increasingly require combining multiple techniques. Yet, practitioners lack systematic guidance to assess the synergistic and non-additive interactions of these hybrid configurations, relying instead on isolated technique analysis that misses critical system level interactions. We introduce PrivacyBench, a benchmarking framework that reveals striking failures in privacy technique combinations with severe deployment implications. Through systematic evaluation across ResNet18 and ViT models on medical datasets, we uncover that FL + DP combinations exhibit severe convergence failure, with accuracy dropping from 98% to 13% while compute costs and energy consumption substantially increase. In contrast, FL + SMPC maintains near-baseline performance with modest overhead. Our framework provides the first systematic platform for evaluating privacy-utility-cost trade-offs through automated YAML configuration, resource monitoring, and reproducible experimental protocols. PrivacyBench enables practitioners to identify problematic technique interactions before deployment, moving privacy-preserving computer vision from ad-hoc evaluation toward principled systems design. These findings demonstrate that privacy techniques cannot be composed arbitrarily and provide critical guidance for robust deployment in resource-constrained environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.18648v1">Differential Perspectives: Epistemic Disconnects Surrounding the US Census Bureau's Use of Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-20T22:49:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Danah Boyd, Jayshree Sarathy</p>
+    <p><b>Summary:</b> When the U.S. Census Bureau announced its intention to modernize its disclosure avoidance procedures for the 2020 Census, it sparked a controversy that is still underway. The move to differential privacy introduced technical and procedural uncertainties, leaving stakeholders unable to evaluate the quality of the data. More importantly, this transformation exposed the statistical illusions and limitations of census data, weakening stakeholders' trust in the data and in the Census Bureau itself. This essay examines the epistemic currents of this controversy. Drawing on theories from Science and Technology Studies (STS) and ethnographic fieldwork, we analyze the current controversy over differential privacy as a battle over uncertainty, trust, and legitimacy of the Census. We argue that rebuilding trust will require more than technical repairs or improved communication; it will require reconstructing what we identify as a 'statistical imaginary.'</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.18415v1">AI-Wrapped: Participatory, Privacy-Preserving Measurement of Longitudinal LLM Use In-the-Wild</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-02-20T18:34:23Z</p>
@@ -9,6 +69,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Cathy Mengying Fang, Sheer Karny, Chayapatr Archiwaranguprok, Yasith Samaradivakara, Pat Pataranutaporn, Pattie Maes</p>
     <p><b>Summary:</b> Alignment research on large language models (LLMs) increasingly depends on understanding how these systems are used in everyday contexts. yet naturalistic interaction data is difficult to access due to privacy constraints and platform control. We present AI-Wrapped, a prototype workflow for collecting naturalistic LLM usage data while providing participants with an immediate ``wrapped''-style report on their usage statistics, top topics, and safety-relevant behavioral patterns. We report findings from an initial deployment with 82 U.S.-based adults across 48,495 conversations from their 2025 histories. Participants used LLMs for both instrumental and reflective purposes, including creative work, professional tasks, and emotional or existential themes. Some usage patterns were consistent with potential over-reliance or perfectionistic refinement, while heavier users showed comparatively more reflective exchanges than primarily transactional ones. Methodologically, even with zero data retention and PII removal, participants may remain hesitant to share chat data due to perceived privacy and judgment risks, underscoring the importance of trust, agency, and transparent design when building measurement infrastructure for alignment research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.18539v1">Poster: Privacy-Preserving Compliance Checks on Ethereum via Selective Disclosure</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-02-20T14:54:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Supriya Khadka, Dhiman Goswami, Sanchari Das</p>
+    <p><b>Summary:</b> Digital identity verification often forces a privacy trade-off, where users must disclose sensitive personal data to prove simple eligibility criteria. As blockchain applications integrate with regulated environments, this over-disclosure creates significant risks of data breaches and surveillance. This work proposes a general Selective Disclosure Framework built on Ethereum, designed to decouple attribute verification from identity revelation. By utilizing client-side zk-SNARKs, the framework enables users to prove specific eligibility predicates without revealing underlying identity documents. We present a case study, ZK-Compliance, which implements a functional Grant, Verify, Revoke lifecycle for age verification. Preliminary results indicate that strict compliance requirements can be satisfied with negligible client-side latency (< 200 ms) while preserving the pseudonymous nature of public blockchains.</p>
   </details>
 </div>
 
@@ -646,6 +718,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.18464v1">How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-06T21:57:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxuan Li, Leyang Li,  Hao-Ping,  Lee, Sauvik Das</p>
+    <p><b>Summary:</b> A growing body of research assumes that large language model (LLM) agents can serve as proxies for how people form attitudes toward and behave in response to security and privacy (S&P) threats. If correct, these simulations could offer a scalable way to forecast S&P risks in products prior to deployment. We interrogate this assumption using SP-ABCBench, a new benchmark of 30 tests derived from validated S&P human-subject studies, which measures alignment between simulations and human-subjects studies on a 0-100 ascending scale, where higher scores indicate better alignment across three dimensions: Attitude, Behavior, and Coherence. Evaluating twelve LLMs, four persona construction strategies, and two prompting methods, we found that there remains substantial room for improvement: all models score between 50 and 64 on average. Newer, bigger, and smarter models do not reliably do better and sometimes do worse. Some simulation configurations, however, do yield high alignment: e.g., with scores above 95 for some behavior tests when agents are prompted to apply bounded rationality and weigh privacy costs against perceived benefits. We release SP-ABCBench to enable reproducible evaluation as methods improve.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.07149v1">Privacy in Image Datasets: A Case Study on Pregnancy Ultrasounds</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-02-06T19:47:10Z</p>
@@ -1128,91 +1212,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Evgeny Grigorenko, David Stanojević, David Ilić, Egor Bogomolov, Kostadin Cvejoski</p>
     <p><b>Summary:</b> Modern Integrated Development Environments (IDEs) increasingly leverage Large Language Models (LLMs) to provide advanced features like code autocomplete. While powerful, training these models on user-written code introduces significant privacy risks, making the models themselves a new type of data vulnerability. Malicious actors can exploit this by launching attacks to reconstruct sensitive training data or infer whether a specific code snippet was used for training. This paper investigates the use of Differential Privacy (DP) as a robust defense mechanism for training an LLM for Kotlin code completion. We fine-tune a \texttt{Mellum} model using DP and conduct a comprehensive evaluation of its privacy and utility. Our results demonstrate that DP provides a strong defense against Membership Inference Attacks (MIAs), reducing the attack's success rate close to a random guess (AUC from 0.901 to 0.606). Furthermore, we show that this privacy guarantee comes at a minimal cost to model performance, with the DP-trained model achieving utility scores comparable to its non-private counterpart, even when trained on 100x less data. Our findings suggest that DP is a practical and effective solution for building private and trustworthy AI-powered IDE features.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22752v1">OSNIP: Breaking the Privacy-Utility-Efficiency Trilemma in LLM Inference via Obfuscated Semantic Null Space</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-30T09:29:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhiyuan Cao, Zeyu Ma, Chenhao Yang, Han Zheng, Mingang Chen</p>
-    <p><b>Summary:</b> We propose Obfuscated Semantic Null space Injection for Privacy (OSNIP), a lightweight client-side encryption framework for privacy-preserving LLM inference. Generalizing the geometric intuition of linear kernels to the high-dimensional latent space of LLMs, we formally define the ``Obfuscated Semantic Null Space'', a high-dimensional regime that preserves semantic fidelity while enforcing near-orthogonality to the original embedding. By injecting perturbations that project the original embedding into this space, OSNIP ensures privacy without any post-processing. Furthermore, OSNIP employs a key-dependent stochastic mapping that synthesizes individualized perturbation trajectories unique to each user. Evaluations on 12 generative and classification benchmarks show that OSNIP achieves state-of-the-art performance, sharply reducing attack success rates while maintaining strong model utility under strict security constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22710v1">AlienLM: Alienization of Language for API-Boundary Privacy in Black-Box LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-01-30T08:32:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jaehee Kim, Pilsung Kang</p>
-    <p><b>Summary:</b> Modern LLMs are increasingly accessed via black-box APIs, requiring users to transmit sensitive prompts, outputs, and fine-tuning data to external providers, creating a critical privacy risk at the API boundary. We introduce AlienLM, a deployable API-only privacy layer that protects text by translating it into an Alien Language via a vocabulary-scale bijection, enabling lossless recovery on the client side. Using only standard fine-tuning APIs, Alien Adaptation Training (AAT) adapts target models to operate directly on alienized inputs. Across four LLM backbones and seven benchmarks, AlienLM retains over 81\% of plaintext-oracle performance on average, substantially outperforming random-bijection and character-level baselines. Under adversaries with access to model weights, corpus statistics, and learning-based inverse translation, recovery attacks reconstruct fewer than 0.22\% of alienized tokens. Our results demonstrate a practical pathway for privacy-preserving LLM deployment under API-only access, substantially reducing plaintext exposure while maintaining task performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22625v1">RPWithPrior: Label Differential Privacy in Regression</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-30T06:27:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haixia Liu, Ruifan Huang</p>
-    <p><b>Summary:</b> With the wide application of machine learning techniques in practice, privacy preservation has gained increasing attention. Protecting user privacy with minimal accuracy loss is a fundamental task in the data analysis and mining community. In this paper, we focus on regression tasks under $ε$-label differential privacy guarantees. Some existing methods for regression with $ε$-label differential privacy, such as the RR-On-Bins mechanism, discretized the output space into finite bins and then applied RR algorithm. To efficiently determine these finite bins, the authors rounded the original responses down to integer values. However, such operations does not align well with real-world scenarios. To overcome these limitations, we model both original and randomized responses as continuous random variables, avoiding discretization entirely. Our novel approach estimates an optimal interval for randomized responses and introduces new algorithms designed for scenarios where a prior is either known or unknown. Additionally, we prove that our algorithm, RPWithPrior, guarantees $ε$-label differential privacy. Numerical results demonstrate that our approach gets better performance compared with the Gaussian, Laplace, Staircase, and RRonBins, Unbiased mechanisms on the Communities and Crime, Criteo Sponsored Search Conversion Log, California Housing datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22434v1">Rethinking Anonymity Claims in Synthetic Data Generation: A Model-Centric Privacy Attack Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-30T00:57:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Georgi Ganev, Emiliano De Cristofaro</p>
-    <p><b>Summary:</b> Training generative machine learning models to produce synthetic tabular data has become a popular approach for enhancing privacy in data sharing. As this typically involves processing sensitive personal information, releasing either the trained model or generated synthetic datasets can still pose privacy risks. Yet, recent research, commercial deployments, and privacy regulations like the General Data Protection Regulation (GDPR) largely assess anonymity at the level of an individual dataset.
-  In this paper, we rethink anonymity claims about synthetic data from a model-centric perspective and argue that meaningful assessments must account for the capabilities and properties of the underlying generative model and be grounded in state-of-the-art privacy attacks. This perspective better reflects real-world products and deployments, where trained models are often readily accessible for interaction or querying. We interpret the GDPR's definitions of personal data and anonymization under such access assumptions to identify the types of identifiability risks that must be mitigated and map them to privacy attacks across different threat settings. We then argue that synthetic data techniques alone do not ensure sufficient anonymization. Finally, we compare the two mechanisms most commonly used alongside synthetic data -- Differential Privacy (DP) and Similarity-based Privacy Metrics (SBPMs) -- and argue that while DP can offer robust protections against identifiability risks, SBPMs lack adequate safeguards. Overall, our work connects regulatory notions of identifiability with model-centric privacy attacks, enabling more responsible and trustworthy regulatory assessment of synthetic data systems by researchers, practitioners, and policymakers.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22409v2">Optimization, Generalization and Differential Privacy Bounds for Gradient Descent on Kolmogorov-Arnold Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
-  <p><b>Published on:</b> 2026-01-29T23:43:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Puyu Wang, Junyu Zhou, Philipp Liznerski, Marius Kloft</p>
-    <p><b>Summary:</b> Kolmogorov--Arnold Networks (KANs) have recently emerged as a structured alternative to standard MLPs, yet a principled theory for their training dynamics, generalization, and privacy properties remains limited. In this paper, we analyze gradient descent (GD) for training two-layer KANs and derive general bounds that characterize their training dynamics, generalization, and utility under differential privacy (DP). As a concrete instantiation, we specialize our analysis to logistic loss under an NTK-separable assumption, where we show that polylogarithmic network width suffices for GD to achieve an optimization rate of order $1/T$ and a generalization rate of order $1/n$, with $T$ denoting the number of GD iterations and $n$ the sample size. In the private setting, we characterize the noise required for $(ε,δ)$-DP and obtain a utility bound of order $\sqrt{d}/(nε)$ (with $d$ the input dimension), matching the classical lower bound for general convex Lipschitz problems. Our results imply that polylogarithmic width is not only sufficient but also necessary under differential privacy, revealing a qualitative gap between non-private (sufficiency only) and private (necessity also emerges) training regimes. Experiments further illustrate how these theoretical insights can guide practical choices, including network width selection and early stopping.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22320v1">Matrix Factorization for Practical Continual Mean Estimation Under User-Level Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-01-29T21:02:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nikita P. Kalinin, Ali Najar, Valentin Roth, Christoph H. Lampert</p>
-    <p><b>Summary:</b> We study continual mean estimation, where data vectors arrive sequentially and the goal is to maintain accurate estimates of the running mean. We address this problem under user-level differential privacy, which protects each user's entire dataset even when they contribute multiple data points. Previous work on this problem has focused on pure differential privacy. While important, this approach limits applicability, as it leads to overly noisy estimates. In contrast, we analyze the problem under approximate differential privacy, adopting recent advances in the Matrix Factorization mechanism. We introduce a novel mean estimation specific factorization, which is both efficient and accurate, achieving asymptotically lower mean-squared error bounds in continual mean estimation under user-level differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22265v1">Privacy-Preserving Sensor-Based Human Activity Recognition for Low-Resource Healthcare Using Classical Machine Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2026-01-29T19:35:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ramakant Kumar, Pravin Kumar</p>
-    <p><b>Summary:</b> Limited access to medical infrastructure forces elderly and vulnerable patients to rely on home-based care, often leading to neglect and poor adherence to therapeutic exercises such as yoga or physiotherapy. To address this gap, we propose a low-cost and automated human activity recognition (HAR) framework based on wearable inertial sensors and machine learning. Activity data, including walking, walking upstairs, walking downstairs, sitting, standing, and lying, were collected using accelerometer and gyroscope measurements. Four classical classifiers, Logistic Regression, Random Forest, Support Vector Machine (SVM), and k-Nearest Neighbors (k-NN), were evaluated and compared with the proposed Support Tensor Machine (STM). Experimental results show that SVM achieved an accuracy of 93.33 percent, while Logistic Regression, Random Forest, and k-NN achieved 91.11 percent. In contrast, STM significantly outperformed these models, achieving a test accuracy of 96.67 percent and the highest cross-validation accuracy of 98.50 percent. Unlike conventional methods, STM leverages tensor representations to preserve spatio-temporal motion dynamics, resulting in robust classification across diverse activities. The proposed framework demonstrates strong potential for remote healthcare, elderly assistance, child activity monitoring, yoga feedback, and smart home wellness, offering a scalable solution for low-resource and rural healthcare settings.</p>
   </details>
 </div>
 
