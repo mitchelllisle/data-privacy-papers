@@ -2376,5 +2376,174 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.19926v1",
+    "title" : "Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models",
+    "summary" : "Fine-tuning large vision models (LVMs) and large language models (LLMs) under differentially private federated learning (DPFL) is hindered by a fundamental privacy-utility trade-off. Low-Rank Adaptation (LoRA), a promising parameter-efficient fine-tuning (PEFT) method, reduces computational and communication costs by introducing two trainable low-rank matrices while freezing pre-trained weights. However, directly applying LoRA in DPFL settings leads to performance degradation, especially in LVMs. Our analysis reveals three previously underexplored challenges: (1) gradient coupling caused by the simultaneous update of two asymmetric low-rank matrices, (2) compounded noise amplification under differential privacy, and (3) sharpness of the global aggregated model in the parameter space. To address these issues, we propose LA-LoRA (\\textbf{L}ocal \\textbf{A}lternating \\textbf{LoRA}), a novel approach that decouples gradient interactions and aligns update directions across clients to enhance robustness under stringent privacy constraints. Theoretically, LA-LoRA strengthens convergence guarantees in noisy federated environments. Extensive experiments demonstrate that LA-LoRA achieves state-of-the-art (SOTA) performance on Swin Transformer and RoBERTa models, showcasing robustness to DP noise and broad applicability across both LVMs and LLMs. For example, when fine-tuning the Swin-B model on the Tiny-ImageNet dataset under a strict privacy budget ($ε= 1$), LA-LoRA outperforms the best baseline, RoLoRA, by 16.83\\% in test accuracy. Code is provided in \\repolink.",
+    "updated" : "2026-02-23T15:05:28Z",
+    "published" : "2026-02-23T15:05:28Z",
+    "authors" : [
+      {
+        "name" : "Jin Liu"
+      },
+      {
+        "name" : "Yinbin Miao"
+      },
+      {
+        "name" : "Ning Xi"
+      },
+      {
+        "name" : "Junkang Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.19352v1",
+    "title" : "Beyond Privacy Labels: How Users Perceive Different Information Sources for Understanding App's Privacy Practices",
+    "summary" : "Despite having growing awareness and concerns about privacy, technology users are often insufficiently informed of the data practices of various digital products to protect themselves. Privacy policies and privacy labels, as two conventional ways of communicating data practices, are each criticized for important limitations -- one being lengthy and filled with legal jargon, and the other oversimplified and inaccurate -- causing users significant difficulty in understanding the privacy practices of the products and assessing their impact. To mitigate those issues, we explore ways to enhance privacy labels with the relevant content in complementary sources, including privacy policy, app reviews, and community-curated privacy assessments. Our user study results indicate that perceived usefulness and trust on those information sources are personal and influenced by past experience. Our work highlights the importance of considering various information needs for privacy practice and consolidating different sources for more useful privacy solutions.",
+    "updated" : "2026-02-22T22:02:23Z",
+    "published" : "2026-02-22T22:02:23Z",
+    "authors" : [
+      {
+        "name" : "Varun Shiri"
+      },
+      {
+        "name" : "Charles Liu"
+      },
+      {
+        "name" : "Keyu Yao"
+      },
+      {
+        "name" : "Jin L. C. Guo"
+      },
+      {
+        "name" : "Jinghui Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18910v1",
+    "title" : "SLDP: Semi-Local Differential Privacy for Density-Adaptive Analytics",
+    "summary" : "Density-adaptive domain discretization is essential for high-utility privacy-preserving analytics but remains challenging under Local Differential Privacy (LDP) due to the privacy-budget costs associated with iterative refinement. We propose a novel framework, Semi-Local Differential Privacy (SLDP), that assigns a privacy region to each user based on local density and defines adjacency by the potential movement of a point within its privacy region. We present an interactive $(\\varepsilon, δ)$-SLDP protocol, orchestrated by an honest-but-curious server over a public channel, to estimate these regions privately. Crucially, our framework decouples the privacy cost from the number of refinement iterations, allowing for high-resolution grids without additional privacy budget cost. We experimentally demonstrate the framework's effectiveness on estimation tasks across synthetic and real-world datasets.",
+    "updated" : "2026-02-21T17:26:04Z",
+    "published" : "2026-02-21T17:26:04Z",
+    "authors" : [
+      {
+        "name" : "Alexey Kroshnin"
+      },
+      {
+        "name" : "Alexandra Suvorikova"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18900v1",
+    "title" : "PrivacyBench: Privacy Isn't Free in Hybrid Privacy-Preserving Vision Systems",
+    "summary" : "Privacy preserving machine learning deployments in sensitive deep learning applications; from medical imaging to autonomous systems; increasingly require combining multiple techniques. Yet, practitioners lack systematic guidance to assess the synergistic and non-additive interactions of these hybrid configurations, relying instead on isolated technique analysis that misses critical system level interactions. We introduce PrivacyBench, a benchmarking framework that reveals striking failures in privacy technique combinations with severe deployment implications. Through systematic evaluation across ResNet18 and ViT models on medical datasets, we uncover that FL + DP combinations exhibit severe convergence failure, with accuracy dropping from 98% to 13% while compute costs and energy consumption substantially increase. In contrast, FL + SMPC maintains near-baseline performance with modest overhead. Our framework provides the first systematic platform for evaluating privacy-utility-cost trade-offs through automated YAML configuration, resource monitoring, and reproducible experimental protocols. PrivacyBench enables practitioners to identify problematic technique interactions before deployment, moving privacy-preserving computer vision from ad-hoc evaluation toward principled systems design. These findings demonstrate that privacy techniques cannot be composed arbitrarily and provide critical guidance for robust deployment in resource-constrained environments.",
+    "updated" : "2026-02-21T16:45:56Z",
+    "published" : "2026-02-21T16:45:56Z",
+    "authors" : [
+      {
+        "name" : "Nnaemeka Obiefuna"
+      },
+      {
+        "name" : "Samuel Oyeneye"
+      },
+      {
+        "name" : "Similoluwa Odunaiya"
+      },
+      {
+        "name" : "Iremide Oyelaja"
+      },
+      {
+        "name" : "Steven Kolawole"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18648v1",
+    "title" : "Differential Perspectives: Epistemic Disconnects Surrounding the US Census Bureau's Use of Differential Privacy",
+    "summary" : "When the U.S. Census Bureau announced its intention to modernize its disclosure avoidance procedures for the 2020 Census, it sparked a controversy that is still underway. The move to differential privacy introduced technical and procedural uncertainties, leaving stakeholders unable to evaluate the quality of the data. More importantly, this transformation exposed the statistical illusions and limitations of census data, weakening stakeholders' trust in the data and in the Census Bureau itself. This essay examines the epistemic currents of this controversy. Drawing on theories from Science and Technology Studies (STS) and ethnographic fieldwork, we analyze the current controversy over differential privacy as a battle over uncertainty, trust, and legitimacy of the Census. We argue that rebuilding trust will require more than technical repairs or improved communication; it will require reconstructing what we identify as a 'statistical imaginary.'",
+    "updated" : "2026-02-20T22:49:07Z",
+    "published" : "2026-02-20T22:49:07Z",
+    "authors" : [
+      {
+        "name" : "Danah Boyd"
+      },
+      {
+        "name" : "Jayshree Sarathy"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18539v1",
+    "title" : "Poster: Privacy-Preserving Compliance Checks on Ethereum via Selective Disclosure",
+    "summary" : "Digital identity verification often forces a privacy trade-off, where users must disclose sensitive personal data to prove simple eligibility criteria. As blockchain applications integrate with regulated environments, this over-disclosure creates significant risks of data breaches and surveillance. This work proposes a general Selective Disclosure Framework built on Ethereum, designed to decouple attribute verification from identity revelation. By utilizing client-side zk-SNARKs, the framework enables users to prove specific eligibility predicates without revealing underlying identity documents. We present a case study, ZK-Compliance, which implements a functional Grant, Verify, Revoke lifecycle for age verification. Preliminary results indicate that strict compliance requirements can be satisfied with negligible client-side latency (< 200 ms) while preserving the pseudonymous nature of public blockchains.",
+    "updated" : "2026-02-20T14:54:22Z",
+    "published" : "2026-02-20T14:54:22Z",
+    "authors" : [
+      {
+        "name" : "Supriya Khadka"
+      },
+      {
+        "name" : "Dhiman Goswami"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18464v1",
+    "title" : "How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?",
+    "summary" : "A growing body of research assumes that large language model (LLM) agents can serve as proxies for how people form attitudes toward and behave in response to security and privacy (S&P) threats. If correct, these simulations could offer a scalable way to forecast S&P risks in products prior to deployment. We interrogate this assumption using SP-ABCBench, a new benchmark of 30 tests derived from validated S&P human-subject studies, which measures alignment between simulations and human-subjects studies on a 0-100 ascending scale, where higher scores indicate better alignment across three dimensions: Attitude, Behavior, and Coherence. Evaluating twelve LLMs, four persona construction strategies, and two prompting methods, we found that there remains substantial room for improvement: all models score between 50 and 64 on average. Newer, bigger, and smarter models do not reliably do better and sometimes do worse. Some simulation configurations, however, do yield high alignment: e.g., with scores above 95 for some behavior tests when agents are prompted to apply bounded rationality and weigh privacy costs against perceived benefits. We release SP-ABCBench to enable reproducible evaluation as methods improve.",
+    "updated" : "2026-02-06T21:57:08Z",
+    "published" : "2026-02-06T21:57:08Z",
+    "authors" : [
+      {
+        "name" : "Yuxuan Li"
+      },
+      {
+        "name" : "Leyang Li"
+      },
+      {
+        "name" : " Hao-Ping"
+      },
+      {
+        "name" : " Lee"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
