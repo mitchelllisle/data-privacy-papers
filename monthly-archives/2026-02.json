@@ -2545,5 +2545,87 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.20743v1",
+    "title" : "Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization",
+    "summary" : "Anonymizing textual documents is a highly context-sensitive problem: the appropriate balance between privacy protection and utility preservation varies with the data domain, privacy objectives, and downstream application. However, existing anonymization methods rely on static, manually designed strategies that lack the flexibility to adjust to diverse requirements and often fail to generalize across domains. We introduce adaptive text anonymization, a new task formulation in which anonymization strategies are automatically adapted to specific privacy-utility requirements. We propose a framework for task-specific prompt optimization that automatically constructs anonymization instructions for language models, enabling adaptation to different privacy goals, domains, and downstream usage patterns. To evaluate our approach, we present a benchmark spanning five datasets with diverse domains, privacy constraints, and utility objectives. Across all evaluated settings, our framework consistently achieves a better privacy-utility trade-off than existing baselines, while remaining computationally efficient and effective on open-source language models, with performance comparable to larger closed-source models. Additionally, we show that our method can discover novel anonymization strategies that explore different points along the privacy-utility trade-off frontier.",
+    "updated" : "2026-02-24T10:12:40Z",
+    "published" : "2026-02-24T10:12:40Z",
+    "authors" : [
+      {
+        "name" : "Gabriel Loiseau"
+      },
+      {
+        "name" : "Damien Sileo"
+      },
+      {
+        "name" : "Damien Riquet"
+      },
+      {
+        "name" : "Maxime Meyer"
+      },
+      {
+        "name" : "Marc Tommasi"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.20222v1",
+    "title" : "The TCF doesn't really A(A)ID -- Automatic Privacy Analysis and Legal Compliance of TCF-based Android Applications",
+    "summary" : "The Transparency and Consent Framework (TCF), developed by the Interactive Advertising Bureau (IAB) Europe, provides a de facto standard for requesting, recording, and managing user consent from European end-users. This framework has previously been found to infringe European data protection law and has subsequently been regularly updated. Previous research on the TCF focused exclusively on web contexts, with no attention given to its implementation in mobile applications. No work has systematically studied the privacy implications of the TCF on Android apps. To address this gap, we investigate the prevalence of the TCF in popular Android apps from the Google Play Store, and assess whether these apps respect users' consent banner choices. By scraping and downloading 4482 of the most popular Google Play Store apps on an emulated Android device, we automatically determine which apps use the TCF, automatically interact with consent banners, and analyze the apps' traffic in two different stages, passive (post choices) and active (during banner interaction and post choices).\n  We found that 576 (12.85%) of the 4482 downloadable apps in our dataset implemented the TCF, and we identified potential privacy violations within this subset. In 15 (2.6%) of these apps, users' choices are stored only when consent is granted. Users who refuse consent are shown the consent banner again each time they launch the app. Network traffic analysis conducted during the passive stage reveals that 66.2% of the analyzed TCF-based apps share personal data, through the Android Advertising ID (AAID), in the absence of a lawful basis for processing. 55.3% of apps analyzed during the active stage share AAID before users interact with the apps' consent banners, violating the prior consent requirement.",
+    "updated" : "2026-02-23T13:24:59Z",
+    "published" : "2026-02-23T13:24:59Z",
+    "authors" : [
+      {
+        "name" : "Victor Morel"
+      },
+      {
+        "name" : "Cristiana Santos"
+      },
+      {
+        "name" : "Pontus Carlsson"
+      },
+      {
+        "name" : "Joel Ahlinder"
+      },
+      {
+        "name" : "Romaric Duvignau"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.18464v2",
+    "title" : "How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?",
+    "summary" : "A growing body of research assumes that large language model (LLM) agents can serve as proxies for how people form attitudes toward and behave in response to security and privacy (S&P) threats. If correct, these simulations could offer a scalable way to forecast S&P risks in products prior to deployment. We interrogate this assumption using SP-ABCBench, a new benchmark of 30 tests derived from validated S&P human-subject studies, which measures alignment between simulations and human-subjects studies on a 0-100 ascending scale, where higher scores indicate better alignment across three dimensions: Attitude, Behavior, and Coherence. Evaluating twelve LLMs, four persona construction strategies, and two prompting methods, we found that there remains substantial room for improvement: all models score between 50 and 64 on average. Newer, bigger, and smarter models do not reliably do better and sometimes do worse. Some simulation configurations, however, do yield high alignment: e.g., with scores above 95 for some behavior tests when agents are prompted to apply bounded rationality and weigh privacy costs against perceived benefits. We release SP-ABCBench to enable reproducible evaluation as methods improve.",
+    "updated" : "2026-02-24T03:18:00Z",
+    "published" : "2026-02-06T21:57:08Z",
+    "authors" : [
+      {
+        "name" : "Yuxuan Li"
+      },
+      {
+        "name" : "Leyang Li"
+      },
+      {
+        "name" : "Hao-Ping Lee"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
   }
 ]
