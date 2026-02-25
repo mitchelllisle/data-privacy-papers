@@ -2,6 +2,18 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.20743v1">Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-02-24T10:12:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel Loiseau, Damien Sileo, Damien Riquet, Maxime Meyer, Marc Tommasi</p>
+    <p><b>Summary:</b> Anonymizing textual documents is a highly context-sensitive problem: the appropriate balance between privacy protection and utility preservation varies with the data domain, privacy objectives, and downstream application. However, existing anonymization methods rely on static, manually designed strategies that lack the flexibility to adjust to diverse requirements and often fail to generalize across domains. We introduce adaptive text anonymization, a new task formulation in which anonymization strategies are automatically adapted to specific privacy-utility requirements. We propose a framework for task-specific prompt optimization that automatically constructs anonymization instructions for language models, enabling adaptation to different privacy goals, domains, and downstream usage patterns. To evaluate our approach, we present a benchmark spanning five datasets with diverse domains, privacy constraints, and utility objectives. Across all evaluated settings, our framework consistently achieves a better privacy-utility trade-off than existing baselines, while remaining computationally efficient and effective on open-source language models, with performance comparable to larger closed-source models. Additionally, we show that our method can discover novel anonymization strategies that explore different points along the privacy-utility trade-off frontier.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.19926v1">Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-02-23T15:05:28Z</p>
@@ -9,6 +21,19 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Jin Liu, Yinbin Miao, Ning Xi, Junkang Liu</p>
     <p><b>Summary:</b> Fine-tuning large vision models (LVMs) and large language models (LLMs) under differentially private federated learning (DPFL) is hindered by a fundamental privacy-utility trade-off. Low-Rank Adaptation (LoRA), a promising parameter-efficient fine-tuning (PEFT) method, reduces computational and communication costs by introducing two trainable low-rank matrices while freezing pre-trained weights. However, directly applying LoRA in DPFL settings leads to performance degradation, especially in LVMs. Our analysis reveals three previously underexplored challenges: (1) gradient coupling caused by the simultaneous update of two asymmetric low-rank matrices, (2) compounded noise amplification under differential privacy, and (3) sharpness of the global aggregated model in the parameter space. To address these issues, we propose LA-LoRA (\textbf{L}ocal \textbf{A}lternating \textbf{LoRA}), a novel approach that decouples gradient interactions and aligns update directions across clients to enhance robustness under stringent privacy constraints. Theoretically, LA-LoRA strengthens convergence guarantees in noisy federated environments. Extensive experiments demonstrate that LA-LoRA achieves state-of-the-art (SOTA) performance on Swin Transformer and RoBERTa models, showcasing robustness to DP noise and broad applicability across both LVMs and LLMs. For example, when fine-tuning the Swin-B model on the Tiny-ImageNet dataset under a strict privacy budget ($ε= 1$), LA-LoRA outperforms the best baseline, RoLoRA, by 16.83\% in test accuracy. Code is provided in \repolink.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.20222v1">The TCF doesn't really A(A)ID -- Automatic Privacy Analysis and Legal Compliance of TCF-based Android Applications</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-02-23T13:24:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Victor Morel, Cristiana Santos, Pontus Carlsson, Joel Ahlinder, Romaric Duvignau</p>
+    <p><b>Summary:</b> The Transparency and Consent Framework (TCF), developed by the Interactive Advertising Bureau (IAB) Europe, provides a de facto standard for requesting, recording, and managing user consent from European end-users. This framework has previously been found to infringe European data protection law and has subsequently been regularly updated. Previous research on the TCF focused exclusively on web contexts, with no attention given to its implementation in mobile applications. No work has systematically studied the privacy implications of the TCF on Android apps. To address this gap, we investigate the prevalence of the TCF in popular Android apps from the Google Play Store, and assess whether these apps respect users' consent banner choices. By scraping and downloading 4482 of the most popular Google Play Store apps on an emulated Android device, we automatically determine which apps use the TCF, automatically interact with consent banners, and analyze the apps' traffic in two different stages, passive (post choices) and active (during banner interaction and post choices).
+  We found that 576 (12.85%) of the 4482 downloadable apps in our dataset implemented the TCF, and we identified potential privacy violations within this subset. In 15 (2.6%) of these apps, users' choices are stored only when consent is granted. Users who refuse consent are shown the consent banner again each time they launch the app. Network traffic analysis conducted during the passive stage reveals that 66.2% of the analyzed TCF-based apps share personal data, through the Android Advertising ID (AAID), in the absence of a lawful basis for processing. 55.3% of apps analyzed during the active stage share AAID before users interact with the apps' consent banners, violating the prior consent requirement.</p>
   </details>
 </div>
 
@@ -718,12 +743,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.18464v1">How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.18464v2">How Well Can LLM Agents Simulate End-User Security and Privacy Attitudes and Behaviors?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-02-06T21:57:08Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Yuxuan Li, Leyang Li,  Hao-Ping,  Lee, Sauvik Das</p>
+    <p><b>Authors:</b> Yuxuan Li, Leyang Li, Hao-Ping Lee, Sauvik Das</p>
     <p><b>Summary:</b> A growing body of research assumes that large language model (LLM) agents can serve as proxies for how people form attitudes toward and behave in response to security and privacy (S&P) threats. If correct, these simulations could offer a scalable way to forecast S&P risks in products prior to deployment. We interrogate this assumption using SP-ABCBench, a new benchmark of 30 tests derived from validated S&P human-subject studies, which measures alignment between simulations and human-subjects studies on a 0-100 ascending scale, where higher scores indicate better alignment across three dimensions: Attitude, Behavior, and Coherence. Evaluating twelve LLMs, four persona construction strategies, and two prompting methods, we found that there remains substantial room for improvement: all models score between 50 and 64 on average. Newer, bigger, and smarter models do not reliably do better and sometimes do worse. Some simulation configurations, however, do yield high alignment: e.g., with scores above 95 for some behavior tests when agents are prompted to apply bounded rationality and weigh privacy costs against perceived benefits. We release SP-ABCBench to enable reproducible evaluation as methods improve.</p>
   </details>
 </div>
@@ -1188,30 +1213,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Joshua J Bon, James Bailie, Judith Rousseau, Christian P Robert</p>
     <p><b>Summary:</b> We propose a novel framework for measuring privacy from a Bayesian game-theoretic perspective. This framework enables the creation of new, purpose-driven privacy definitions that are rigorously justified, while also allowing for the assessment of existing privacy guarantees through game theory. We show that pure and probabilistic differential privacy are special cases of our framework, and provide new interpretations of the post-processing inequality in this setting. Further, we demonstrate that privacy guarantees can be established for deterministic algorithms, which are overlooked by current privacy standards.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22938v1">A Real-Time Privacy-Preserving Behavior Recognition System via Edge-Cloud Collaboration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">  
-  <p><b>Published on:</b> 2026-01-30T12:55:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huan Song, Shuyu Tian, Junyi Hao, Cheng Yuan, Zhenyu Jia, Jiawei Shao, Xuelong Li</p>
-    <p><b>Summary:</b> As intelligent sensing expands into high-privacy environments such as restrooms and changing rooms, the field faces a critical privacy-security paradox. Traditional RGB surveillance raises significant concerns regarding visual recording and storage, while existing privacy-preserving methods-ranging from physical desensitization to traditional cryptographic or obfuscation techniques-often compromise semantic understanding capabilities or fail to guarantee mathematical irreversibility against reconstruction attacks. To address these challenges, this study presents a novel privacy-preserving perception technology based on the AI Flow theoretical framework and an edge-cloud collaborative architecture. The proposed methodology integrates source desensitization with irreversible feature mapping. Leveraging Information Bottleneck theory, the edge device performs millisecond-level processing to transform raw imagery into abstract feature vectors via non-linear mapping and stochastic noise injection. This process constructs a unidirectional information flow that strips identity-sensitive attributes, rendering the reconstruction of original images impossible. Subsequently, the cloud platform utilizes multimodal family models to perform joint inference solely on these abstract vectors to detect abnormal behaviors. This approach fundamentally severs the path to privacy leakage at the architectural level, achieving a breakthrough from video surveillance to de-identified behavior perception and offering a robust solution for risk management in high-sensitivity public spaces.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22935v1">Protecting Private Code in IDE Autocomplete using Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-30T12:51:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Evgeny Grigorenko, David Stanojević, David Ilić, Egor Bogomolov, Kostadin Cvejoski</p>
-    <p><b>Summary:</b> Modern Integrated Development Environments (IDEs) increasingly leverage Large Language Models (LLMs) to provide advanced features like code autocomplete. While powerful, training these models on user-written code introduces significant privacy risks, making the models themselves a new type of data vulnerability. Malicious actors can exploit this by launching attacks to reconstruct sensitive training data or infer whether a specific code snippet was used for training. This paper investigates the use of Differential Privacy (DP) as a robust defense mechanism for training an LLM for Kotlin code completion. We fine-tune a \texttt{Mellum} model using DP and conduct a comprehensive evaluation of its privacy and utility. Our results demonstrate that DP provides a strong defense against Membership Inference Attacks (MIAs), reducing the attack's success rate close to a random guess (AUC from 0.901 to 0.606). Furthermore, we show that this privacy guarantee comes at a minimal cost to model performance, with the DP-trained model achieving utility scores comparable to its non-private counterpart, even when trained on 100x less data. Our findings suggest that DP is a practical and effective solution for building private and trustworthy AI-powered IDE features.</p>
   </details>
 </div>
 
