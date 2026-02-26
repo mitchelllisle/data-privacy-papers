@@ -2,6 +2,54 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.21994v1">BEDCrypt: Privacy-preserving interval analytics with homomorphic encryption</a></h3>
+  
+  <p><b>Published on:</b> 2026-02-25T15:15:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kimon Antonios Provatas, Ilias Georgakopoulos-Soares</p>
+    <p><b>Summary:</b> Motivation. Genomic data and derived interval datasets can carry sensitive information, and the analysis itself can reveal an analyst's intent. As genomic workloads are increasingly outsourced to third-party infrastructure, there is a need for privacy-preserving technologies that protect both the data and the queried loci. Results. We present BEDCrypt, a privacy-preserving system for genomic interval analytics based on homomorphic encryption in an honest-but-curious server setting. The server operates only on encrypted data and returns encrypted answers that the client decrypts locally, enabling core functionalities such as coverage summaries, interval intersections, proximity (window-style) queries, and set-similarity statistics, without revealing plaintext intervals or query genomic locations to the server.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.21844v1">JSAM: Privacy Straggler-Resilient Joint Client Selection and Incentive Mechanism Design in Differentially Private Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2026-02-25T12:22:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruichen Xu, Ying-Jun Angela Zhang, Jianwei Huang</p>
+    <p><b>Summary:</b> Differentially private federated learning faces a fundamental tension: privacy protection mechanisms that safeguard client data simultaneously create quantifiable privacy costs that discourage participation, undermining the collaborative training process. Existing incentive mechanisms rely on unbiased client selection, forcing servers to compensate even the most privacy-sensitive clients ("privacy stragglers"), leading to systemic inefficiency and suboptimal resource allocation. We introduce JSAM (Joint client Selection and privacy compensAtion Mechanism), a Bayesian-optimal framework that simultaneously optimizes client selection probabilities and privacy compensation to maximize training effectiveness under budget constraints. Our approach transforms a complex 2N-dimensional optimization problem into an efficient three-dimensional formulation through novel theoretical characterization of optimal selection strategies. We prove that servers should preferentially select privacy-tolerant clients while excluding high-sensitivity participants, and uncover the counter-intuitive insight that clients with minimal privacy sensitivity may incur the highest cumulative costs due to frequent participation. Extensive evaluations on MNIST and CIFAR-10 demonstrate that JSAM achieves up to 15% improvement in test accuracy compared to existing unbiased selection mechanisms while maintaining cost efficiency across varying data heterogeneity levels.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.21525v1">Optimal Real-Time Fusion of Time-Series Data Under Rényi Differential Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2026-02-25T03:28:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chuanghong Weng, Ehsan Nekouei</p>
+    <p><b>Summary:</b> In this paper, we investigate the optimal real-time fusion of data collected by multiple sensors. In our set-up, the sensor measurements are considered to be private and are jointly correlated with an underlying process. A fusion center combines the private sensor measurements and releases its output to an honest-but-curious party, which is responsible for estimating the state of the underlying process based on the fusion center's output. The privacy leakage incurred by the fusion policy is quantified using Rényi differential privacy. We formulate the privacy-aware fusion design as a constrained finite-horizon optimization problem, in which the fusion policy and the state estimation are jointly optimized to minimize the state estimation error subject to a total privacy budget constraint. We derive the constrained optimality conditions for the proposed optimization problem and use them to characterize the structural properties of the optimal fusion policy. Unlike classical differential privacy mechanisms, the optimal fusion policy is shown to adaptively allocates the privacy budget and regulates the adversary's belief in a closed-loop manner. To reduce the computational burden of solving the resulting constrained optimality equations, we parameterize the fusion policy using a structured Gaussian distribution and show that the parameterized fusion policy satisfies the privacy constraint. We further develop a numerical algorithm to jointly optimize the fusion policy and state estimator. Finally, we demonstrate the effectiveness of the proposed fusion framework through a traffic density estimation case study.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.21374v1">Small Language Models for Privacy-Preserving Clinical Information Extraction in Low-Resource Languages</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-24T21:10:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammadreza Ghaffarzadeh-Esfahani, Nahid Yousefian, Ebrahim Heidari-Farsani, Ali Akbar Omidvarian, Sepehr Ghahraei, Atena Farangi, AmirBahador Boroumand</p>
+    <p><b>Summary:</b> Extracting clinical information from medical transcripts in low-resource languages remains a significant challenge in healthcare natural language processing (NLP). This study evaluates a two-step pipeline combining Aya-expanse-8B as a Persian-to-English translation model with five open-source small language models (SLMs) -- Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct, Llama-3.2-3B-Instruct, Qwen2.5-1.5B-Instruct, and Gemma-3-1B-it -- for binary extraction of 13 clinical features from 1,221 anonymized Persian transcripts collected at a cancer palliative care call center. Using a few-shot prompting strategy without fine-tuning, models were assessed on macro-averaged F1-score, Matthews Correlation Coefficient (MCC), sensitivity, and specificity to account for class imbalance. Qwen2.5-7B-Instruct achieved the highest overall performance (median macro-F1: 0.899; MCC: 0.797), while Gemma-3-1B-it showed the weakest results. Larger models (7B--8B parameters) consistently outperformed smaller counterparts in sensitivity and MCC. A bilingual analysis of Aya-expanse-8B revealed that translating Persian transcripts to English improved sensitivity, reduced missing outputs, and boosted metrics robust to class imbalance, though at the cost of slightly lower specificity and precision. Feature-level results showed reliable extraction of physiological symptoms across most models, whereas psychological complaints, administrative requests, and complex somatic features remained challenging. These findings establish a practical, privacy-preserving blueprint for deploying open-source SLMs in multilingual clinical NLP settings with limited infrastructure and annotation resources, and highlight the importance of jointly optimizing model scale and input language strategy for sensitive healthcare applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.20743v1">Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2026-02-24T10:12:40Z</p>
@@ -80,7 +128,7 @@
   <p><b>Published on:</b> 2026-02-20T22:49:07Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Danah Boyd, Jayshree Sarathy</p>
+    <p><b>Authors:</b> danah boyd, Jayshree Sarathy</p>
     <p><b>Summary:</b> When the U.S. Census Bureau announced its intention to modernize its disclosure avoidance procedures for the 2020 Census, it sparked a controversy that is still underway. The move to differential privacy introduced technical and procedural uncertainties, leaving stakeholders unable to evaluate the quality of the data. More importantly, this transformation exposed the statistical illusions and limitations of census data, weakening stakeholders' trust in the data and in the Census Bureau itself. This essay examines the epistemic currents of this controversy. Drawing on theories from Science and Technology Studies (STS) and ethnographic fieldwork, we analyze the current controversy over differential privacy as a battle over uncertainty, trust, and legitimacy of the Census. We argue that rebuilding trust will require more than technical repairs or improved communication; it will require reconstructing what we identify as a 'statistical imaginary.'</p>
   </details>
 </div>
@@ -1162,57 +1210,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Konstantinos Moutselos, Ilias Maglogiannis</p>
     <p><b>Summary:</b> The deployment of Federated Learning (FL) for clinical dermatology is hindered by the competing requirements of protecting patient privacy and preserving diagnostic features. Traditional de-identification methods often degrade pathological fidelity, while standard generative editing techniques rely on computationally intensive inversion processes unsuitable for resource-constrained edge devices. We propose a framework for identity-agnostic pathology preservation that serves as a client-side privacy-preserving utility. By leveraging inversion-free Rectified Flow Transformers (FlowEdit), the system performs high-fidelity identity transformation in near real-time (less than 20s), facilitating local deployment on clinical nodes. We introduce a "Segment-by-Synthesis" mechanism that generates counterfactual healthy and pathological twin pairs locally. This enables the extraction of differential erythema masks that are decoupled from biometric markers and semantic artifacts (e.g. jewelry). Pilot validation on high-resolution clinical samples demonstrates an Intersection over Union (IoU) stability greater than 0.67 across synthetic identities. By generating privacy-compliant synthetic surrogates at the edge, this framework mitigates the risk of gradient leakage at the source, providing a secure pathway for high-precision skin image analysis in federated environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.00689v1">Computing Maximal Per-Record Leakage and Leakage-Distortion Functions for Privacy Mechanisms under Entropy-Constrained Adversaries</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-01-31T12:23:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Genqiang Wu, Xiaoying Zhang, Yu Qi, Hao Wang, Jikui Wang, Yeping He</p>
-    <p><b>Summary:</b> The exponential growth of data collection necessitates robust privacy protections that preserve data utility. We address information disclosure against adversaries with bounded prior knowledge, modeled by an entropy constraint $H(X) \geq b$. Within this information privacy framework -- which replaces differential privacy's independence assumption with a bounded-knowledge model -- we study three core problems: maximal per-record leakage, the primal leakage-distortion tradeoff (minimizing worst-case leakage under distortion $D$), and the dual distortion minimization (minimizing distortion under leakage constraint $L$).
-  These problems resemble classical information-theoretic ones (channel capacity, rate-distortion) but are more complex due to high dimensionality and the entropy constraint. We develop efficient alternating optimization algorithms that exploit convexity-concavity duality, with theoretical guarantees including local convergence for the primal problem and convergence to a stationary point for the dual.
-  Experiments on binary symmetric channels and modular sum queries validate the algorithms, showing improved privacy-utility tradeoffs over classical differential privacy mechanisms. This work provides a computational framework for auditing privacy risks and designing certified mechanisms under realistic adversary assumptions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.00515v1">Contrastive Learning for Privacy Enhancements in Industrial Internet of Things</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-01-31T05:11:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lin Liu, Rita Machacy, Simi Kuniyilh</p>
-    <p><b>Summary:</b> The Industrial Internet of Things (IIoT) integrates intelligent sensing, communication, and analytics into industrial environments, including manufacturing, energy, and critical infrastructure. While IIoT enables predictive maintenance and cross-site optimization of modern industrial control systems, such as those in manufacturing and energy, it also introduces significant privacy and confidentiality risks due to the sensitivity of operational data. Contrastive learning, a self-supervised representation learning paradigm, has recently emerged as a promising approach for privacy-preserving analytics by reducing reliance on labeled data and raw data sharing. Although contrastive learning-based privacy-preserving techniques have been explored in the Internet of Things (IoT) domain, this paper offers a comprehensive review of these techniques specifically for privacy preservation in Industrial Internet of Things (IIoT) systems. It emphasizes the unique characteristics of industrial data, system architectures, and various application scenarios. Additionally, the paper discusses solutions and open challenges and outlines future research directions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.00417v1">Shuffle and Joint Differential Privacy for Generalized Linear Contextual Bandits</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-01-31T00:15:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sahasrajit Sarmasarkar</p>
-    <p><b>Summary:</b> We present the first algorithms for generalized linear contextual bandits under shuffle differential privacy and joint differential privacy. While prior work on private contextual bandits has been restricted to linear reward models -- which admit closed-form estimators -- generalized linear models (GLMs) pose fundamental new challenges: no closed-form estimator exists, requiring private convex optimization; privacy must be tracked across multiple evolving design matrices; and optimization error must be explicitly incorporated into regret analysis.
-  We address these challenges under two privacy models and context settings. For stochastic contexts, we design a shuffle-DP algorithm achieving $\tilde{O}(d^{3/2}\sqrt{T}/\sqrt{\varepsilon})$ regret. For adversarial contexts, we provide a joint-DP algorithm with $\tilde{O}(d\sqrt{T}/\sqrt{\varepsilon})$ regret -- matching the non-private rate up to a $1/\sqrt{\varepsilon}$ factor. Both algorithms remove dependence on the instance-specific parameter $κ$ (which can be exponential in dimension) from the dominant $\sqrt{T}$ term. Unlike prior work on locally private GLM bandits, our methods require no spectral assumptions on the context distribution beyond $\ell_2$ boundedness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2601.22945v1">Persuasive Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2026-01-30T13:03:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joshua J Bon, James Bailie, Judith Rousseau, Christian P Robert</p>
-    <p><b>Summary:</b> We propose a novel framework for measuring privacy from a Bayesian game-theoretic perspective. This framework enables the creation of new, purpose-driven privacy definitions that are rigorously justified, while also allowing for the assessment of existing privacy guarantees through game theory. We show that pure and probabilistic differential privacy are special cases of our framework, and provide new interpretations of the post-processing inequality in this setting. Further, we demonstrate that privacy guarantees can be established for deterministic algorithms, which are overlooked by current privacy standards.</p>
   </details>
 </div>
 
