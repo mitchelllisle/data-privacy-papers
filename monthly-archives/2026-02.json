@@ -2740,5 +2740,45 @@
       "cs.CY",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.22670v1",
+    "title" : "Robust Distributed Nonconvex Optimization Enabling Communication Acceleration and Privacy Protection",
+    "summary" : "This paper addresses a distributed nonconvex optimization problem over multi-agent networks, where each agent exchanges its local information solely with its neighbors. Given that most existing distributed nonconvex optimization algorithms are susceptible to information leakage during inter agent communications, we propose a Robust Proximal Primal dual algorithm, referred to as RPP, to enhance the security of information transmission. In contrast to many existing approaches that directly transmit local variables throughout the network, we introduce carefully designed random noises to obfuscate sensitive local information. This not only preserves privacy but also demonstrates the noise robustness of our proposed algorithm. We establish a sublinear rate at which RPP converges to a stationary solution. Moreover, by incorporating Chebyshev acceleration, an accelerated variant of RPP is developed and achieves the optimal communication complexity bound for the algorithms that allow for exchanging local deci sions at each iteration. The superior convergence performance of RPP is validated through a few numerical experiments, which also indicate that, within an appropriate range, the introduced perturbations do not impede the convergence speed of RPP.",
+    "updated" : "2026-02-26T06:39:30Z",
+    "published" : "2026-02-26T06:39:30Z",
+    "authors" : [
+      {
+        "name" : "Zichong Ou"
+      },
+      {
+        "name" : "Jie Lu"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.22633v1",
+    "title" : "Tackling Privacy Heterogeneity in Differentially Private Federated Learning",
+    "summary" : "Differentially private federated learning (DP-FL) enables clients to collaboratively train machine learning models while preserving the privacy of their local data. However, most existing DP-FL approaches assume that all clients share a uniform privacy budget, an assumption that does not hold in real-world scenarios where privacy requirements vary widely. This privacy heterogeneity poses a significant challenge: conventional client selection strategies, which typically rely on data quantity, cannot distinguish between clients providing high-quality updates and those introducing substantial noise due to strict privacy constraints. To address this gap, we present the first systematic study of privacy-aware client selection in DP-FL. We establish a theoretical foundation by deriving a convergence analysis that quantifies the impact of privacy heterogeneity on training error. Building on this analysis, we propose a privacy-aware client selection strategy, formulated as a convex optimization problem, that adaptively adjusts selection probabilities to minimize training error. Extensive experiments on benchmark datasets demonstrate that our approach achieves up to a 10% improvement in test accuracy on CIFAR-10 compared to existing baselines under heterogeneous privacy budgets. These results highlight the importance of incorporating privacy heterogeneity into client selection for practical and effective federated learning.",
+    "updated" : "2026-02-26T05:20:37Z",
+    "published" : "2026-02-26T05:20:37Z",
+    "authors" : [
+      {
+        "name" : "Ruichen Xu"
+      },
+      {
+        "name" : "Ying-Jun Angela Zhang"
+      },
+      {
+        "name" : "Jianwei Huang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC"
+    ]
   }
 ]
