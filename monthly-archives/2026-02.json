@@ -2780,5 +2780,105 @@
       "cs.LG",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.23798v1",
+    "title" : "MPU: Towards Secure and Privacy-Preserving Knowledge Unlearning for Large Language Models",
+    "summary" : "Machine unlearning for large language models often faces a privacy dilemma in which strict constraints prohibit sharing either the server's parameters or the client's forget set. To address this dual non-disclosure constraint, we propose MPU, an algorithm-agnostic privacy-preserving Multiple Perturbed Copies Unlearning framework that primarily introduces two server-side modules: Pre-Process for randomized copy generation and Post-Process for update aggregation. In Pre-Process, the server distributes multiple perturbed and reparameterized model instances, allowing the client to execute unlearning locally on its private forget set without accessing the server's exact original parameters. After local unlearning, the server performs Post-Process by inverting the reparameterization and aggregating updates with a harmonic denoising procedure to alleviate the impact of perturbation. Experiments with seven unlearning algorithms show that MPU achieves comparable unlearning performance to noise-free baselines, with most algorithms' average degradation well below 1% under 10% noise, and can even outperform the noise-free baseline for some algorithms under 1% noise. Code is available at https://github.com/Tristan-SHU/MPU.",
+    "updated" : "2026-02-27T08:39:36Z",
+    "published" : "2026-02-27T08:39:36Z",
+    "authors" : [
+      {
+        "name" : "Tiantong Wang"
+      },
+      {
+        "name" : "Xinyu Yan"
+      },
+      {
+        "name" : "Tiantong Wu"
+      },
+      {
+        "name" : "Yurong Hao"
+      },
+      {
+        "name" : "Yong Jiang"
+      },
+      {
+        "name" : "Fei Huang"
+      },
+      {
+        "name" : "Wei Yang Bryan Lim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.23698v1",
+    "title" : "Privacy-Preserving Local Energy Trading Considering Network Fees",
+    "summary" : "Driven by the widespread deployment of distributed energy resources, local energy markets (LEMs) have emerged as a promising approach for enabling direct trades among prosumers and consumers to balance intermittent generation and demand locally. However, LEMs involve processing sensitive participant data, which, if not protected, poses privacy risks. At the same time, since electricity is exchanged over the physical power network, market mechanisms should consider physical constraints and network-related costs. Existing work typically addresses these issues separately, either by incorporating grid-related aspects or by providing privacy protection. To address this gap, we propose a privacy-preserving protocol for LEMs, with consideration of network fees that can incite participants to respect physical limits. The protocol is based on a double-auction mechanism adapted from prior work to enable more efficient application of our privacy-preserving approach. To protect participants' data, we use secure multiparty computation. In addition, Schnorr's identification protocol is employed with multiparty verification to ensure authenticated participation without compromising privacy. We further optimise the protocol to reduce communication and round complexity. We prove that the protocol meets its security requirements and show through experimentation its feasibility at a typical LEM scale: a market with 5,000 participants can be cleared in 4.17 minutes.",
+    "updated" : "2026-02-27T05:55:12Z",
+    "published" : "2026-02-27T05:55:12Z",
+    "authors" : [
+      {
+        "name" : "Eman Alqahtani"
+      },
+      {
+        "name" : "Mustafa A. Mustafa"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.23659v1",
+    "title" : "Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?",
+    "summary" : "In an age of financial system digitisation and the increasing adoption of digital currencies, Central Bank Digital Currencies (CBDCs) have emerged as a focal point for technological innovation. Privacy compliance has become a key factor in the successful design of CBDCs, extending beyond technical requirements to influence legal requirements, user trust, and security considerations. Implementing Privacy-Enhancing Technologies (PETs) in CBDCs requires an interdisciplinary approach, however, the lack of a common understanding of privacy and the essential technological characteristics restricts progress. This work investigates: (1) How privacy can be defined within the framework of CBDCs and what implications does this definition have for CBDCs design? and (2) Which PETs can be employed to enhance privacy in CBDC design? We propose a comprehensive definition for privacy that is mapped to the cryptographic landscape for feature implementation. The research is validated against case studies from 20 current CBDCs. The study shows that comprehensive privacy can be designed in the proposal stage, but that privacy does not reach the launched version of the CBDC.",
+    "updated" : "2026-02-27T03:56:40Z",
+    "published" : "2026-02-27T03:56:40Z",
+    "authors" : [
+      {
+        "name" : "Jeff Nijsse"
+      },
+      {
+        "name" : "Andrea Pinto"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.20222v2",
+    "title" : "The TCF doesn't really A(A)ID -- Automatic Privacy Analysis and Legal Compliance of TCF-based Android Applications",
+    "summary" : "The Transparency and Consent Framework (TCF), developed by the Interactive Advertising Bureau (IAB) Europe, provides a de facto standard for requesting, recording, and managing user consent from European end-users. This framework has previously been found to infringe European data protection law and has subsequently been regularly updated. Previous research on the TCF focused exclusively on web contexts, with no attention given to its implementation in mobile applications. No work has systematically studied the privacy implications of the TCF on Android apps. To address this gap, we investigate the prevalence of the TCF in popular Android apps from the Google Play Store, and assess whether these apps respect users' consent banner choices. By scraping and downloading 4482 of the most popular Google Play Store apps on an emulated Android device, we automatically determine which apps use the TCF, automatically interact with consent banners, and analyze the apps' traffic in two different stages, passive (post choices) and active (during banner interaction and post choices).\n  We found that 576 (12.85%) of the 4482 downloadable apps in our dataset implemented the TCF, and we identified potential privacy violations within this subset. In 15 (2.6%) of these apps, users' choices are stored only when consent is granted. Users who refuse consent are shown the consent banner again each time they launch the app. Network traffic analysis conducted during the passive stage reveals that 66.2% of the analyzed TCF-based apps share personal data, through the Android Advertising ID (AAID), in the absence of a lawful basis for processing. 55.3% of apps analyzed during the active stage share AAID before users interact with the apps' consent banners, violating the prior consent requirement.",
+    "updated" : "2026-02-27T13:44:43Z",
+    "published" : "2026-02-23T13:24:59Z",
+    "authors" : [
+      {
+        "name" : "Victor Morel"
+      },
+      {
+        "name" : "Cristiana Santos"
+      },
+      {
+        "name" : "Pontus Carlsson"
+      },
+      {
+        "name" : "Joel Ahlinder"
+      },
+      {
+        "name" : "Romaric Duvignau"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
