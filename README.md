@@ -2,6 +2,42 @@
 <h2>2026-02</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.23798v1">MPU: Towards Secure and Privacy-Preserving Knowledge Unlearning for Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-02-27T08:39:36Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tiantong Wang, Xinyu Yan, Tiantong Wu, Yurong Hao, Yong Jiang, Fei Huang, Wei Yang Bryan Lim</p>
+    <p><b>Summary:</b> Machine unlearning for large language models often faces a privacy dilemma in which strict constraints prohibit sharing either the server's parameters or the client's forget set. To address this dual non-disclosure constraint, we propose MPU, an algorithm-agnostic privacy-preserving Multiple Perturbed Copies Unlearning framework that primarily introduces two server-side modules: Pre-Process for randomized copy generation and Post-Process for update aggregation. In Pre-Process, the server distributes multiple perturbed and reparameterized model instances, allowing the client to execute unlearning locally on its private forget set without accessing the server's exact original parameters. After local unlearning, the server performs Post-Process by inverting the reparameterization and aggregating updates with a harmonic denoising procedure to alleviate the impact of perturbation. Experiments with seven unlearning algorithms show that MPU achieves comparable unlearning performance to noise-free baselines, with most algorithms' average degradation well below 1% under 10% noise, and can even outperform the noise-free baseline for some algorithms under 1% noise. Code is available at https://github.com/Tristan-SHU/MPU.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.23698v1">Privacy-Preserving Local Energy Trading Considering Network Fees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-27T05:55:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Eman Alqahtani, Mustafa A. Mustafa</p>
+    <p><b>Summary:</b> Driven by the widespread deployment of distributed energy resources, local energy markets (LEMs) have emerged as a promising approach for enabling direct trades among prosumers and consumers to balance intermittent generation and demand locally. However, LEMs involve processing sensitive participant data, which, if not protected, poses privacy risks. At the same time, since electricity is exchanged over the physical power network, market mechanisms should consider physical constraints and network-related costs. Existing work typically addresses these issues separately, either by incorporating grid-related aspects or by providing privacy protection. To address this gap, we propose a privacy-preserving protocol for LEMs, with consideration of network fees that can incite participants to respect physical limits. The protocol is based on a double-auction mechanism adapted from prior work to enable more efficient application of our privacy-preserving approach. To protect participants' data, we use secure multiparty computation. In addition, Schnorr's identification protocol is employed with multiparty verification to ensure authenticated participation without compromising privacy. We further optimise the protocol to reduce communication and round complexity. We prove that the protocol meets its security requirements and show through experimentation its feasibility at a typical LEM scale: a market with 5,000 participants can be cleared in 4.17 minutes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2602.23659v1">Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-02-27T03:56:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jeff Nijsse, Andrea Pinto</p>
+    <p><b>Summary:</b> In an age of financial system digitisation and the increasing adoption of digital currencies, Central Bank Digital Currencies (CBDCs) have emerged as a focal point for technological innovation. Privacy compliance has become a key factor in the successful design of CBDCs, extending beyond technical requirements to influence legal requirements, user trust, and security considerations. Implementing Privacy-Enhancing Technologies (PETs) in CBDCs requires an interdisciplinary approach, however, the lack of a common understanding of privacy and the essential technological characteristics restricts progress. This work investigates: (1) How privacy can be defined within the framework of CBDCs and what implications does this definition have for CBDCs design? and (2) Which PETs can be employed to enhance privacy in CBDC design? We propose a comprehensive definition for privacy that is mapped to the cryptographic landscape for feature implementation. The research is validated against case studies from 20 current CBDCs. The study shows that comprehensive privacy can be designed in the proposal stage, but that privacy does not reach the launched version of the CBDC.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.22670v1">Robust Distributed Nonconvex Optimization Enabling Communication Acceleration and Privacy Protection</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
   <p><b>Published on:</b> 2026-02-26T06:39:30Z</p>
@@ -98,7 +134,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.20222v1">The TCF doesn't really A(A)ID -- Automatic Privacy Analysis and Legal Compliance of TCF-based Android Applications</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.20222v2">The TCF doesn't really A(A)ID -- Automatic Privacy Analysis and Legal Compliance of TCF-based Android Applications</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2026-02-23T13:24:59Z</p>
   <details>
@@ -1171,42 +1207,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Simon Roburin, Rafaël Pinot, Erwan Scornet</p>
     <p><b>Summary:</b> Privacy preservation is a fundamental requirement in many high-stakes domains such as medicine and finance, where sensitive personal data must be analyzed without compromising individual confidentiality. At the same time, these applications often involve datasets with missing values due to non-response, data corruption, or deliberate anonymization. Missing data is traditionally viewed as a limitation because it reduces the information available to analysts and can degrade model performance. In this work, we take an alternative perspective and study missing data from a privacy preservation standpoint. Intuitively, when features are missing, less information is revealed about individuals, suggesting that missingness could inherently enhance privacy. We formalize this intuition by analyzing missing data as a privacy amplification mechanism within the framework of differential privacy. We show, for the first time, that incomplete data can yield privacy amplification for differentially private algorithms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.01804v1">Fostering Data Collaboration in Digital Transportation Marketplaces: The Role of Privacy-Preserving Mechanisms</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2026-02-02T08:35:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qiqing Wang, Haokun Yu, Kaidi Yang</p>
-    <p><b>Summary:</b> Data collaboration between municipal authorities (MA) and mobility providers (MPs) has brought tremendous benefits to transportation systems in the era of big data. Engaging in collaboration can improve the service operations (e.g., reduced delay) of these data owners, however, it can also raise privacy concerns and discourage data-sharing willingness. Specifically, data owners may be concerned that the shared data may leak sensitive information about their customers' mobility patterns or business secrets, resulting in the failure of collaboration. This paper investigates how privacy-preserving mechanisms can foster data collaboration in such settings. We propose a game-theoretic framework to investigate data-sharing among transportation stakeholders, especially considering perturbation-based privacy-preserving mechanisms. Numerical studies demonstrate that lower data quality expectations can incentivize voluntary data sharing, improving transport-related welfare for both MAs and MPs. Our findings provide actionable insights for policymakers and system designers on how privacy-preserving technologies can help bridge data silos and promote collaborative, privacy-aware transportation systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.01387v1">Disclose with Care: Designing Privacy Controls in Interview Chatbots</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-01T18:48:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziwen Li, Ziang Xiao, Tianshi Li</p>
-    <p><b>Summary:</b> Collecting data on sensitive topics remains challenging in HCI, as participants often withhold information due to privacy concerns and social desirability bias. While chatbots' perceived anonymity may reduce these barriers, research paradoxically suggests people tend to over-share personal or sensitive information with chatbots. In this work, we explore privacy controls in chatbot interviews to address this problem. The privacy control allows participants to revise their transcripts at the end of the interview, featuring two design variants: free editing and AI-aided editing. In a between-subjects study \red{($N=188$)}, we compared no-editing, free-editing, and AI-aided editing conditions in a chatbot-based interview on a sensitive topic. Our results confirm the prevalent issue of oversharing in chatbot-based interviews and show that AI-aided editing serves as an effective privacy-control mechanism, reducing PII disclosure while maintaining data quality and user engagement, thereby offering a promising approach to balancing ethical practice and data quality in such interviews.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.01177v2">Equivalence of Privacy and Stability with Generalization Guarantees in Quantum Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-01T12:03:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ayanava Dasgupta, Naqueeb Ahmad Warsi, Masahito Hayashi</p>
-    <p><b>Summary:</b> We present a unified information-theoretic framework elucidating the interplay between stability, privacy, and the generalization performance of quantum learning algorithms. We establish a bound on the expected generalization error in terms of quantum mutual information and derive a probabilistic upper bound that generalizes the classical result by Esposito et al. (2021). Complementing these findings, we provide a lower bound on the expected true loss relative to the expected empirical loss. Additionally, we demonstrate that $(\varepsilon, δ)$-quantum differentially private learning algorithms are stable, thereby ensuring strong generalization guarantees. Finally, we extend our analysis to dishonest learning algorithms, introducing Information-Theoretic Admissibility (ITA) to characterize the fundamental limits of privacy when the learning algorithm is oblivious to specific dataset instances.</p>
   </details>
 </div>
 
