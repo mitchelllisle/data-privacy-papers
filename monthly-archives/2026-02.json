@@ -2880,5 +2880,211 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00841v1",
+    "title" : "Security Is Not Enough: Privacy in Encryption Regulation and Lawful-Surveillance Protocols",
+    "summary" : "This article argues that security is not enough to fully capture what is at stake in government exceptional access to encrypted data. A conception of privacy as security has little to say about ``lawful-surveillance protocols'' -- an active research agenda in cryptography that aims to enable government exceptional access without compromising systemic security. But the limitations are not contingent on the success of this agenda. The normative landscape today cannot be explained if security is all there is to privacy. And fundamental objections to Apple's abandoned client-side scanning system gesture beyond security. This article's contribution is modest: to show that there must be more to privacy than the security mold it has taken. A richer understanding is needed both to assess policy and to guide research on lawful-surveillance protocols.",
+    "updated" : "2026-02-28T23:41:22Z",
+    "published" : "2026-02-28T23:41:22Z",
+    "authors" : [
+      {
+        "name" : "Artur Pericles L. Monteiro"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00690v1",
+    "title" : "Local Differential Privacy for Molecular Communication Networks",
+    "summary" : "Molecular communication (MC) enables information exchange in nanoscale sensor networks operating in biological environments, yet privacy remains largely unaddressed. We integrate local differential privacy (LDP) into diffusion-based MC by privatizing each user's measurement at the transmitter and conveying the resulting randomized report over the MC channel. To our knowledge, this is the first systematic LDP implementation for diffusion-based MC, enabling privacy-preserving aggregate data analysis for in-body health monitoring and other population-scale sensing applications. We benchmark major LDP mechanisms under a realistic channel model. Simulation results show that k-ary Randomized Response (KRR) and Optimized Local Hashing (OLH) achieve the lowest average $\\ell_1$ distribution-estimation error under the MC channel: OLH is preferable when channel resources are sufficient and the number of possible user values (alphabet size) $k$ is moderate to large, whereas the KRR is more robust as the MC transmission quality deteriorates. We further propose RLIM-LDP, which combines run-length-limited ISI-mitigation (RLIM) coding with LDP coding. Extensive simulation results demonstrate that RLIM-LDP improves end-to-end reliability and reduces the final distribution-estimation error when time and molecule resources are limited.",
+    "updated" : "2026-02-28T15:01:41Z",
+    "published" : "2026-02-28T15:01:41Z",
+    "authors" : [
+      {
+        "name" : "Melih Şahin"
+      },
+      {
+        "name" : "Ozgur B. Akan"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00384v1",
+    "title" : "Privacy Cards for Surfacing Mental Models and Exploring Privacy Concerns: A Case Study of Voice-First Ambient Interfaces with Older Adults",
+    "summary" : "We investigate the ethical and privacy implications of voice-first ambient interfaces (VFAIs) for aging in place through an in-depth engagement with five older adults. Our participants were in the process of becoming experienced VFAI users, and had used a VFAI-based design probe for health data reporting. We create and iteratively refine an interview protocol using Privacy Cards. We customize Privacy Cards by drawing on participants' previous interviews and device usage logs. Using Privacy Cards, we conduct interviews to surface their mental models, and explore their privacy concerns. We find insufficient mental models for proper consent. For example, participants did not know who could access their data, and experienced difficulty distinguishing built-in functionality from third-party apps. Participants initially expressed little worry about VFAI-related ethical concerns, but interviews with Privacy Cards revealed nuanced issues, resulting in various implications for future research and design.",
+    "updated" : "2026-02-27T23:53:37Z",
+    "published" : "2026-02-27T23:53:37Z",
+    "authors" : [
+      {
+        "name" : "Andrea Cuadra"
+      },
+      {
+        "name" : "Samar Sabie"
+      },
+      {
+        "name" : "Yan Shvartzshnaider"
+      },
+      {
+        "name" : "Deborah Estrin"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00318v1",
+    "title" : "AESP: A Human-Sovereign Economic Protocol for AI Agents with Privacy-Preserving Settlement",
+    "summary" : "As AI agents increasingly perform economic tasks on behalf of humans, a fundamental tension arises between agent autonomy and human control over financial assets. We present the Agent Economic Sovereignty Protocol (AESP), a layered protocol in which agents transact autonomously at machine speed on crypto-native infrastructure while remaining cryptographically bound to human-defined governance boundaries. AESP enforces the invariant that agents are economically capable but never economically sovereign through five mechanisms: (1) a deterministic eight-check policy engine with tiered escalation; (2) human-in-the-loop review with automatic, explicit, and biometric tiers; (3) EIP-712 dual-signed commitments with escrow; (4) HKDF-based context-isolated privacy with batched consolidation; and (5) an ACE-GF-based cryptographic substrate. We formalize two testable hypotheses on security coverage and latency overhead, and specify a complete evaluation methodology with baselines and ablation design. The protocol is implemented as an open-source TypeScript SDK (208 tests, ten modules) with interoperability via MCP and A2A.",
+    "updated" : "2026-02-27T21:20:09Z",
+    "published" : "2026-02-27T21:20:09Z",
+    "authors" : [
+      {
+        "name" : "Jian Sheng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00181v1",
+    "title" : "Engineering FAIR Privacy-preserving Applications that Learn Histories of Disease",
+    "summary" : "A recent report on \"Learning the natural history of human disease with generative transformers\" created an opportunity to assess the engineering challenge of delivering user-facing Generative AI applications in privacy-sensitive domains. The application of these models, particularly for personalized healthcare tasks like predicting individual morbidity risk, is typically constrained by data privacy concerns. This project was accordingly designed as an in-browser model deployment exercise (an \"App\") testing the architectural boundaries of client-side inference generation (no downloads or installations). We relied exclusively on the documentation provided in the reference report to develop the model, specifically testing the \"R\" component of the FAIR data principles: Findability, Accessibility, Interoperability, and Reusability. The successful model deployment, leveraging ONNX and a custom JavaScript SDK, establishes a secure, high-performance architectural blueprint for the future of private generative AI in medicine.",
+    "updated" : "2026-02-26T21:19:28Z",
+    "published" : "2026-02-26T21:19:28Z",
+    "authors" : [
+      {
+        "name" : "Ines N. Duarte"
+      },
+      {
+        "name" : "Praphulla M. S. Bhawsar"
+      },
+      {
+        "name" : "Lee K. Mason"
+      },
+      {
+        "name" : "Jeya Balaji Balasubramanian"
+      },
+      {
+        "name" : "Daniel E. Russ"
+      },
+      {
+        "name" : "Arlindo L. Oliveira"
+      },
+      {
+        "name" : "Jonas S. Almeida"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00179v1",
+    "title" : "Privacy-Preserving Proof of Human Authorship via Zero-Knowledge Process Attestation",
+    "summary" : "Process attestation verifies human authorship by collecting behavioral biometric evidence, including keystroke dynamics, typing patterns, and editing behavior, during the creative process. However, the very data needed to prove authenticity can reveal intimate details about an author's cognitive state, health conditions, and identity, constituting sensitive biometric data under GDPR Article 9. We resolve this privacy-attestation paradox using zero-knowledge proofs. We present ZK-PoP, a construction that allows a verifier to confirm that (a) sequential work function chains were computed correctly, (b) behavioral feature vectors fall within human population distributions, and (c) content evolution is consistent with incremental human editing, all without learning the underlying behavioral data, exact timing, or intermediate content. Our construction uses Groth16 proofs over arithmetic circuits with Pedersen commitments and Bulletproof range proofs. We prove that ZK-PoP is computationally zero-knowledge, computationally sound, and achieves unlinkability across sessions. Evaluation shows proof generation in under 30 seconds for a 1-hour writing session, with 192-byte proofs verifiable in 8.2 ms, while incurring less than 5% accuracy loss in simulation at practical privacy levels (epsilon >= 1.0) compared to non-private baselines.",
+    "updated" : "2026-02-26T20:38:19Z",
+    "published" : "2026-02-26T20:38:19Z",
+    "authors" : [
+      {
+        "name" : "David Condrey"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00129v1",
+    "title" : "Safe Multi-Agent Deep Reinforcement Learning for Privacy-Aware Edge-Device Collaborative DNN Inference",
+    "summary" : "As Deep Neural Network (DNN) inference becomes increasingly prevalent on edge and mobile platforms, critical challenges emerge in privacy protection, resource constraints, and dynamic model deployment. This paper proposes a privacy-aware collaborative inference framework, in which adaptive model partitioning is performed across edge devices and servers. To jointly optimize inference delay, energy consumption, and privacy cost under dynamic service demands and resource constraints, we formulate the joint problem as a Constrained Markov Decision Process (CMDP) that integrates model deployment, user-server association, model partitioning, and resource allocation. We propose a Hierarchical Constrained Multi-Agent Proximal Policy Optimization with Lagrangian relaxation (HC-MAPPO-L) algorithm, a safe reinforcement learning-based framework that enhances Multi-Agent Proximal Policy Optimization (MAPPO) with adaptive Lagrangian dual updates to enforce long-term delay constraints. To ensure tractability while maintaining coordination, we decompose the CMDP into three hierarchically structured policy layers: an auto-regressive based model deployment policy, a Lagrangian-enhanced user association and model partitioning policy, and an attention-based resource allocation policy. Extensive experimental results demonstrate that HC-MAPPO-L consistently satisfies stringent delay constraints while achieving a superior balance among energy consumption and privacy cost, outperforming representative baseline algorithms across varying problem scales and resource configurations.",
+    "updated" : "2026-02-23T11:33:52Z",
+    "published" : "2026-02-23T11:33:52Z",
+    "authors" : [
+      {
+        "name" : "Hong Wang"
+      },
+      {
+        "name" : "Xuwei Fan"
+      },
+      {
+        "name" : "Zhipeng Cheng"
+      },
+      {
+        "name" : "Yachao Yuan"
+      },
+      {
+        "name" : "Minghui Min"
+      },
+      {
+        "name" : "Minghui Liwang"
+      },
+      {
+        "name" : "Xiaoyu Xia"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.15705v2",
+    "title" : "Privacy-Preserving and Secure Spectrum Sharing for Database-Driven Cognitive Radio Networks",
+    "summary" : "Database-driven cognitive radio networks (DB-CRNs) enable dynamic spectrum sharing through geolocation databases but introduce critical security and privacy challenges, including mandatory location disclosure, susceptibility to location spoofing, and denial-of-service (DoS) attacks on centralized services. Existing approaches address these issues in isolation and lack a unified, regulation-compliant solution under realistic adversarial conditions. In this work, we present a unified security framework for DB-CRNs that simultaneously provides location privacy, user anonymity, verifiable location, and DoS resilience. Our framework, denoted as SLAPX, enables privacy-preserving spectrum queries using delegatable anonymous credentials, supports adaptive location verification without revealing precise user location, and mitigates DoS attacks through verifiable delay functions (VDFs) combined with RLRS-based rate limiting. Extensive cryptographic benchmarking and network simulations demonstrate that SLAPX achieves significantly lower latency and communication overhead than existing solutions while effectively resisting location spoofing and DoS attacks. These results show that SLAPX is practical and well-suited for secure next-generation DB-CRN deployments.",
+    "updated" : "2026-03-02T16:23:48Z",
+    "published" : "2026-02-17T16:39:07Z",
+    "authors" : [
+      {
+        "name" : "Saleh Darzi"
+      },
+      {
+        "name" : "Gökcan Cantali"
+      },
+      {
+        "name" : "Attila Altay Yavuz"
+      },
+      {
+        "name" : "Gürkan Gür"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.00081v1",
+    "title" : "From Framework to Practice: Youth Negotiations of Privacy with Smart Voice Assistants Through the PEA-AI Lens",
+    "summary" : "Smart voice assistants (SVAs) have become embedded in the daily lives of youth, introducing complex privacy challenges due to always-on listening, shared device usage, and opaque data practices. This study applies the Privacy-Ethics Alignment in AI (PEA-AI) framework to examine how youth perceive and negotiate privacy within SVAs. Through a survey of 469 Canadian youth (aged 16-24), we measured five privacy constructs: Perceived Privacy Risk (PPR), Perceived Privacy Benefits (PPBf), Algorithmic Transparency and Trust (ATT), Privacy Self-Efficacy (PSE), and Privacy-Protective Behavior (PPB). Results reveal a persistent privacy paradox. While youth express moderate to high privacy concerns (PPR M = 3.61), perceived benefits (PPBf M = 3.00) and protective actions (PPB M = 3.03) remain moderate, with transparency and trust scoring lowest (ATT M = 2.52). Heavy SVA users report higher benefits and lower risk perception than light users. High protective behavior is strongly associated with both high risk perception and high self-efficacy. Qualitative insights from prior focus groups contextualize these patterns, illustrating how youth navigate tensions between convenience, control, and trust. The findings provide actionable design principles for SVA along with implications for multi-stakeholder governance and youth-centered digital literacy.",
+    "updated" : "2026-02-14T03:03:57Z",
+    "published" : "2026-02-14T03:03:57Z",
+    "authors" : [
+      {
+        "name" : "Molly Campbell"
+      },
+      {
+        "name" : "Yulia Bobkova"
+      },
+      {
+        "name" : "Ajay Kumar Shrestha"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
   }
 ]
