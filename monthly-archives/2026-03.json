@@ -628,5 +628,287 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.05158v1",
+    "title" : "Balancing Privacy-Quality-Efficiency in Federated Learning through Round-Based Interleaving of Protection Techniques",
+    "summary" : "In federated learning (FL), balancing privacy protection, learning quality, and efficiency remains a challenge. Privacy protection mechanisms, such as Differential Privacy (DP), degrade learning quality, or, as in the case of Homomorphic Encryption (HE), incur substantial system overhead. To address this, we propose Alt-FL, a privacy-preserving FL framework that combines DP, HE, and synthetic data via a novel round-based interleaving strategy. Alt-FL introduces three new methods, Privacy Interleaving (PI), Synthetic Interleaving with DP (SI/DP), and Synthetic Interleaving with HE (SI/HE), that enable flexible quality-efficiency trade-offs while providing privacy protection.\n  We systematically evaluate Alt-FL against representative reconstruction attacks, including Deep Leakage from Gradients, Inverting Gradients, When the Curious Abandon Honesty, and Robbing the Fed, using a LeNet-5 model on CIFAR-10 and Fashion-MNIST. To enable fair comparison between DP- and HE-based defenses, we introduce a new attacker-centric framework that compares empirical attack success rates across the three proposed interleaving methods. Our results show that, for the studied attacker model and dataset, PI achieves the most balanced trade-offs at high privacy protection levels, while DP-based methods are preferable at intermediate privacy requirements. We also discuss how such results can be the basis for selecting privacy-preserving FL methods under varying privacy and resource constraints.",
+    "updated" : "2026-03-05T13:28:51Z",
+    "published" : "2026-03-05T13:28:51Z",
+    "authors" : [
+      {
+        "name" : "Yenan Wang"
+      },
+      {
+        "name" : "Carla Fabiana Chiasserini"
+      },
+      {
+        "name" : "Elad Michael Schiller"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.05073v1",
+    "title" : "Robust Single-message Shuffle Differential Privacy Protocol for Accurate Distribution Estimation",
+    "summary" : "Shuffler-based differential privacy (shuffle-DP) is a privacy paradigm providing high utility by involving a shuffler to permute noisy report from users. Existing shuffle-DP protocols mainly focus on the design of shuffler-based categorical frequency oracle (SCFO) for frequency estimation on categorical data. However, numerical data is a more prevalent type and many real-world applications depend on the estimation of data distribution with ordinal nature. In this paper, we study the distribution estimation under pure shuffle model, which is a prevalent shuffle-DP framework without strong security assumptions. We initially attempt to transplant existing SCFOs and the naïve distribution recovery technique to this task, and demonstrate that these baseline protocols cannot simultaneously achieve outstanding performance in three metrics: 1) utility, 2) message complexity; and 3) robustness to data poisoning attacks. Therefore, we further propose a novel single-message \\textit{adaptive shuffler-based piecewise} (ASP) protocol with high utility and robustness. In ASP, we first develop a randomizer by parameter optimization using our proposed tighter bound of mutual information. We also design an \\textit{Expectation Maximization with Adaptive Smoothing} (EMAS) algorithm to accurately recover distribution with enhanced robustness. To quantify robustness, we propose a new evaluation framework to examine robustness under different attack targets, enabling us to comprehensively understand the protocol resilience under various adversarial scenarios. Extensive experiments demonstrate that ASP outperforms baseline protocols in all three metrics. Especially under small $ε$ values, ASP achieves an order of magnitude improvement in utility with minimal message complexity, and exhibits over threefold robustness compared to baseline methods.",
+    "updated" : "2026-03-05T11:40:26Z",
+    "published" : "2026-03-05T11:40:26Z",
+    "authors" : [
+      {
+        "name" : "Xiaoguang Li"
+      },
+      {
+        "name" : "Hanyi Wang"
+      },
+      {
+        "name" : "Yaowei Huang"
+      },
+      {
+        "name" : "Jungang Yang"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haonan Yan"
+      },
+      {
+        "name" : "Ke Pan"
+      },
+      {
+        "name" : "Zhe Sun"
+      },
+      {
+        "name" : "Hui Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04930v1",
+    "title" : "Mind the Gap: Mapping Wearer-Bystander Privacy Tensions and Context-Adaptive Pathways for Camera Glasses",
+    "summary" : "Camera glasses create fundamental privacy tensions between wearers seeking recording functionality and bystanders concerned about unauthorized surveillance. We present a systematic multi-stakeholder evaluation of privacy mechanisms through surveys (N=525) and paired interviews (N=20) in China. Study 1 quantifies expectation-willingness gaps: bystanders consistently demand stronger information transparency and protective measures than wearers will provide, with disparities intensifying in sensitive contexts where 65-90% of bystanders would take defensive action. Study 2 evaluates twelve privacy-enhancing technologies, revealing four fundamental trade-offs that undermine current approaches: visibility versus disruption, empowerment versus burden, protection versus agency, and accountability versus exposure. These gaps reflect structural incompatibilities rather than inadequate goodwill, with context emerging as the primary determinant of privacy acceptability. We propose context-adaptive pathways that dynamically adjust protection strategies: minimal-friction visibility in public spaces, structured negotiation in semi-public environments, and automatic protection in sensitive contexts. Our findings contribute a diagnostic framework for evaluating privacy mechanisms and implications for context-aware design in ubiquitous sensing.",
+    "updated" : "2026-03-05T08:27:15Z",
+    "published" : "2026-03-05T08:27:15Z",
+    "authors" : [
+      {
+        "name" : "Xueyang Wang"
+      },
+      {
+        "name" : "Kewen Peng"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04902v1",
+    "title" : "AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows",
+    "summary" : "Agentic systems are increasingly acting on users' behalf, accessing calendars, email, and personal files to complete everyday tasks. Privacy evaluation for these systems has focused on the input and output boundaries, but each task involves several intermediate information flows, from agent queries to tool responses, that are not currently evaluated. We argue that every boundary in an agentic pipeline is a site of potential privacy violation and must be assessed independently. To support this, we introduce the Privacy Flow Graph, a Contextual Integrity-grounded framework that decomposes agentic execution into a sequence of information flows, each annotated with the five CI parameters, and traces violations to their point of origin. We present AgentSCOPE, a benchmark of 62 multi-tool scenarios across eight regulatory domains with ground truth at every pipeline stage. Our evaluation across seven state-of-the-art LLMs show that privacy violations in the pipeline occur in over 80% of scenarios, even when final outputs appear clean (24%), with most violations arising at the tool-response stage where APIs return sensitive data indiscriminately. These results indicate that output-level evaluation alone substantially underestimates the privacy risk of agentic systems.",
+    "updated" : "2026-03-05T07:45:31Z",
+    "published" : "2026-03-05T07:45:31Z",
+    "authors" : [
+      {
+        "name" : "Ivoline C. Ngong"
+      },
+      {
+        "name" : "Keerthiram Murugesan"
+      },
+      {
+        "name" : "Swanand Kadhe"
+      },
+      {
+        "name" : "Justin D. Weisz"
+      },
+      {
+        "name" : "Amit Dhurandhar"
+      },
+      {
+        "name" : "Karthikeyan Natesan Ramamurthy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04881v1",
+    "title" : "Differential Privacy in Two-Layer Networks: How DP-SGD Harms Fairness and Robustness",
+    "summary" : "Differentially private learning is essential for training models on sensitive data, but empirical studies consistently show that it can degrade performance, introduce fairness issues like disparate impact, and reduce adversarial robustness. The theoretical underpinnings of these phenomena in modern, non-convex neural networks remain largely unexplored. This paper introduces a unified feature-centric framework to analyze the feature learning dynamics of differentially private stochastic gradient descent (DP-SGD) in two-layer ReLU convolutional neural networks. Our analysis establishes test loss bounds governed by a crucial metric: the feature-to-noise ratio (FNR). We demonstrate that the noise required for privacy leads to suboptimal feature learning, and specifically show that: 1) imbalanced FNRs across classes and subpopulations cause disparate impact; 2) even in the same class, noise has a greater negative impact on semantically long-tailed data; and 3) noise injection exacerbates vulnerability to adversarial attacks. Furthermore, our analysis reveals that the popular paradigm of public pre-training and private fine-tuning does not guarantee improvement, particularly under significant feature distribution shifts between datasets. Experiments on synthetic and real-world data corroborate our theoretical findings.",
+    "updated" : "2026-03-05T07:19:31Z",
+    "published" : "2026-03-05T07:19:31Z",
+    "authors" : [
+      {
+        "name" : "Ruichen Xu"
+      },
+      {
+        "name" : "Kexin Chen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04775v1",
+    "title" : "Privacy-Aware Camera 2.0 Technical Report",
+    "summary" : "With the increasing deployment of intelligent sensing technologies in highly sensitive environments such as restrooms and locker rooms, visual surveillance systems face a profound privacy-security paradox. Existing privacy-preserving approaches, including physical desensitization, encryption, and obfuscation, often compromise semantic understanding or fail to ensure mathematically provable irreversibility. Although Privacy Camera 1.0 eliminated visual data at the source to prevent leakage, it provided only textual judgments, leading to evidentiary blind spots in disputes. To address these limitations, this paper proposes a novel privacy-preserving perception framework based on the AI Flow paradigm and a collaborative edge-cloud architecture. By deploying a visual desensitizer at the edge, raw images are transformed in real time into abstract feature vectors through nonlinear mapping and stochastic noise injection under the Information Bottleneck principle, ensuring identity-sensitive information is stripped and original images are mathematically unreconstructable. The abstract representations are transmitted to the cloud for behavior recognition and semantic reconstruction via a \"dynamic contour\" visual language, achieving a critical balance between perception and privacy while enabling illustrative visual reference without exposing raw images.",
+    "updated" : "2026-03-05T03:46:20Z",
+    "published" : "2026-03-05T03:46:20Z",
+    "authors" : [
+      {
+        "name" : "Huan Song"
+      },
+      {
+        "name" : "Shuyu Tian"
+      },
+      {
+        "name" : "Ting Long"
+      },
+      {
+        "name" : "Jiang Liu"
+      },
+      {
+        "name" : "Cheng Yuan"
+      },
+      {
+        "name" : "Zhenyu Jia"
+      },
+      {
+        "name" : "Jiawei Shao"
+      },
+      {
+        "name" : "Xuelong Li"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04742v1",
+    "title" : "Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic Encryption",
+    "summary" : "Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge. Although HE enables privacy-preserving computation, its application to SpMV has remained largely unaddressed. To the best of our knowledge, this paper presents the first framework that efficiently integrates HE with SpMV, addressing the dual challenges of computational efficiency and data privacy. In particular, we introduce a novel compressed matrix format, named Compressed Sparse Sorted Column (CSSC), which is specifically designed to optimize encrypted sparse matrix computations. By preserving sparsity and enabling efficient ciphertext packing, CSSC significantly reduces storage and computational overhead. Our experimental results on real-world datasets demonstrate that the proposed method achieves significant gains in both processing time and memory usage. This study advances privacy-preserving SpMV and lays the groundwork for secure applications in federated learning, encrypted databases, scientific computing, and beyond.",
+    "updated" : "2026-03-05T02:29:50Z",
+    "published" : "2026-03-05T02:29:50Z",
+    "authors" : [
+      {
+        "name" : "Yang Gao"
+      },
+      {
+        "name" : "Gang Quan"
+      },
+      {
+        "name" : "Wujie Wen"
+      },
+      {
+        "name" : "Scott Piersall"
+      },
+      {
+        "name" : "Qian Lou"
+      },
+      {
+        "name" : "Liqiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04595v1",
+    "title" : "A Late-Fusion Multimodal AI Framework for Privacy-Preserving Deduplication in National Healthcare Data Environments",
+    "summary" : "Duplicate records pose significant challenges in customer relationship management (CRM)and healthcare, often leading to inaccuracies in analytics, impaired user experiences, and compliance risks. Traditional deduplication methods rely heavily on direct identifiers such as names, emails, or Social Security Numbers (SSNs), making them ineffective under strict privacy regulations like GDPR and HIPAA, where such personally identifiable information (PII) is restricted or masked. In this research, I propose a novel, scalable, multimodal AI framework for detecting duplicates without depending on sensitive information. This system leverages three distinct modalities: semantic embeddings derived from textual fields (names, cities) using pre-trained DistilBERT models, behavioral patterns extracted from user login timestamps, and device metadata encoded through categorical embeddings. These heterogeneous modalities are combined using a late fusion approach and clustered via DBSCAN, an unsupervised density-based algorithm. This proposed model is evaluated against a traditional string-matching baseline on a synthetic CRM dataset specifically designed to reflect privacy-preserving constraints. The multimodal framework demonstrated good performance, achieving a good F1-score by effectively identifying duplicates despite variations and noise inherent in the data. This approach offers a privacy-compliant solution to entity resolution and supports secure digital infrastructure, enhances the reliability of public health analytics, and promotes ethical AI adoption across government and enterprise settings. It is well-suited for integration into national health data modernization efforts, aligning with broader goals of privacy-first innovation.",
+    "updated" : "2026-03-04T20:46:26Z",
+    "published" : "2026-03-04T20:46:26Z",
+    "authors" : [
+      {
+        "name" : "Mohammed Omer Shakeel Ahmed"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.04493v1",
+    "title" : "Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification",
+    "summary" : "We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints. Our main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. For the key case of measured smooth Rényi divergence of order 2, we show that this can be alternatively understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. Building on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on quantum privacy amplification and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of randomness extraction, obtaining a corresponding improved one-shot bound. Relaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured Rényi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponent of [Dupuis, arXiv:2105.05342]. We show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., arXiv:2202.11590] and proving its optimality for all hash functions.",
+    "updated" : "2026-03-04T19:00:01Z",
+    "published" : "2026-03-04T19:00:01Z",
+    "authors" : [
+      {
+        "name" : "Bartosz Regula"
+      },
+      {
+        "name" : "Marco Tomamichel"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT",
+      "math-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.03906v2",
+    "title" : "Measuring Privacy vs. Fidelity in Synthetic Social Media Datasets",
+    "summary" : "Synthetic data is increasingly used to support research without exposing sensitive user content. Social media data is one of the types of datasets that would hugely benefit from representative synthetic equivalents that can be used to bootstrap research and allow reproducibility through data sharing. However, recent studies show that (tabular) synthetic data is not inherently privacy-preserving. Much less is known, however, about the privacy risks of synthetically generated unstructured texts. This work evaluates the privacy of synthetic Instagram posts generated by three state-of-the-art large language models using two prompting strategies. We propose a methodology that quantifies privacy by framing re-identification as an authorship attribution attack. A RoBERTa-large classifier trained on real posts achieved 81\\% accuracy in authorship attribution on real data, but only 16.5--29.7\\% on synthetic posts, showing reduced, though non-negligible, risk. Fidelity was assessed via text traits, sentiment, topic overlap, and embedding similarity, confirming the expected trade-off: higher fidelity coincides with greater privacy leakage. This work provides a framework for evaluating privacy in synthetic text and demonstrates the privacy--fidelity tension in social media datasets.",
+    "updated" : "2026-03-05T08:30:34Z",
+    "published" : "2026-03-04T10:12:34Z",
+    "authors" : [
+      {
+        "name" : "Henry Tari"
+      },
+      {
+        "name" : "Adriana Iamnitchi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.03659v2",
+    "title" : "Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms",
+    "summary" : "Popular social media platforms TikTok, Facebook and Instagram allow third-parties to run targeted advertising campaigns on sensitive attributes in-platform. These ads are interactive by default, meaning users can comment or ``react'' (e.g., ``like'', ``love'') to them. We find that this platform-level design choice creates a privacy loophole such that advertisers can view the profiles of those who interact with their ads, thus identifying individuals that fulfill certain targeting criteria. This behavior is in contradiction to the promises made by the platforms to hide user data from advertisers. We conclude by suggesting design modifications that could provide users with transparency about the consequences of ad interaction to protect against unintentional disclosure.",
+    "updated" : "2026-03-05T03:24:59Z",
+    "published" : "2026-03-04T02:27:45Z",
+    "authors" : [
+      {
+        "name" : "Julia B. Kieserman"
+      },
+      {
+        "name" : "Athanasios Andreou"
+      },
+      {
+        "name" : "Laura Edelson"
+      },
+      {
+        "name" : "Sandra Siby"
+      },
+      {
+        "name" : "Damon McCoy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
