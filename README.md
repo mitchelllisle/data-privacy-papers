@@ -158,7 +158,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.21525v1">Optimal Real-Time Fusion of Time-Series Data Under Rényi Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2602.21525v2">Optimal Real-Time Fusion of Time-Series Data Under Rényi Differential Privacy</a></h3>
   
   <p><b>Published on:</b> 2026-02-25T03:28:32Z</p>
   <details>
@@ -836,118 +836,117 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10154v1">PRISM-XR: Empowering Privacy-Aware XR Collaboration with Multimodal Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multimedia-5BC0EB">
-  <p><b>Published on:</b> 2026-02-09T21:28:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiangong Chen, Mingyu Zhu, Bin Li</p>
-    <p><b>Summary:</b> Multimodal Large Language Models (MLLMs) enhance collaboration in Extended Reality (XR) environments by enabling flexible object and animation creation through the combination of natural language and visual inputs. However, visual data captured by XR headsets includes real-world backgrounds that may contain irrelevant or sensitive user information, such as credit cards left on the table or facial identities of other users. Uploading those frames to cloud-based MLLMs poses serious privacy risks, particularly when such data is processed without explicit user consent. Additionally, existing colocation and synchronization mechanisms in commercial XR APIs rely on time-consuming, privacy-invasive environment scanning and struggle to adapt to the highly dynamic nature of MLLM-integrated XR environments. In this paper, we propose PRISM-XR, a novel framework that facilitates multi-user collaboration in XR by providing privacy-aware MLLM integration. PRISM-XR employs intelligent frame preprocessing on the edge server to filter sensitive data and remove irrelevant context before communicating with cloud generative AI models. Additionally, we introduce a lightweight registration process and a fully customizable content-sharing mechanism to enable efficient, accurate, and privacy-preserving content synchronization among users. Our numerical evaluation results indicate that the proposed platform achieves nearly 90% accuracy in fulfilling user requests and less than 0.27 seconds registration time while maintaining spatial inconsistencies of less than 3.5 cm. Furthermore, we conducted an IRB-approved user study with 28 participants, demonstrating that our system could automatically filter highly sensitive objects in over 90% of scenarios while maintaining strong overall usability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.08657v1">Two-Stage Data Synthesization: A Statistics-Driven Restricted Trade-off between Privacy and Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-02-09T13:49:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaotong Liu, Shao-Bo Lin, Jun Fan, Ding-Xuan Zhou</p>
-    <p><b>Summary:</b> Synthetic data have gained increasing attention across various domains, with a growing emphasis on their performance in downstream prediction tasks. However, most existing synthesis strategies focus on maintaining statistical information. Although some studies address prediction performance guarantees, their single-stage synthesis designs make it challenging to balance the privacy requirements that necessitate significant perturbations and the prediction performance that is sensitive to such perturbations. We propose a two-stage synthesis strategy. In the first stage, we introduce a synthesis-then-hybrid strategy, which involves a synthesis operation to generate pure synthetic data, followed by a hybrid operation that fuses the synthetic data with the original data. In the second stage, we present a kernel ridge regression (KRR)-based synthesis strategy, where a KRR model is first trained on the original data and then used to generate synthetic outputs based on the synthetic inputs produced in the first stage. By leveraging the theoretical strengths of KRR and the covariant distribution retention achieved in the first stage, our proposed two-stage synthesis strategy enables a statistics-driven restricted privacy--prediction trade-off and guarantee optimal prediction performance. We validate our approach and demonstrate its characteristics of being statistics-driven and restricted in achieving the privacy--prediction trade-off both theoretically and numerically. Additionally, we showcase its generalizability through applications to a marketing problem and five real-world datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.08617v1">ERIS: Enhancing Privacy and Communication Efficiency in Serverless Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-09T13:05:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dario Fenoglio, Pasquale Polverino, Jacopo Quizi, Martin Gjoreski, Marc Langheinrich</p>
-    <p><b>Summary:</b> Scaling federated learning (FL) to billion-parameter models introduces critical trade-offs between communication efficiency, model accuracy, and privacy guarantees. Existing solutions often tackle these challenges in isolation, sacrificing accuracy or relying on costly cryptographic tools. We propose ERIS, a serverless FL framework that balances privacy and accuracy while eliminating the server bottleneck and distributing the communication load. ERIS combines a model partitioning strategy, distributing aggregation across multiple client-side aggregators, with a distributed shifted gradient compression mechanism. We theoretically prove that ERIS (i) converges at the same rate as FedAvg under standard assumptions, and (ii) bounds mutual information leakage inversely with the number of aggregators, enabling strong privacy guarantees with no accuracy degradation. Experiments across image and text tasks, including large language models, confirm that ERIS achieves FedAvg-level accuracy while substantially reducing communication cost and improving robustness to membership inference and reconstruction attacks, without relying on heavy cryptography or noise injection.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.02214v2">Federated Inference: Toward Privacy-Preserving Collaborative and Incentivized Model Serving</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-09T11:13:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jungwon Seo, Ferhat Ozgur Catak, Chunming Rong, Jaeyeon Jang</p>
-    <p><b>Summary:</b> Federated Inference (FI) studies how independently trained and privately owned models can collaborate at inference time without sharing data or model parameters. While recent work has explored secure and distributed inference from disparate perspectives, a unified abstraction and system-level understanding of FI remain lacking. This paper positions FI as a distinct collaborative paradigm, complementary to federated learning, and identifies two fundamental requirements that govern its feasibility: inference-time privacy preservation and meaningful performance gains through collaboration. We formalize FI as a protected collaborative computation, analyze its core design dimensions, and examine the structural trade-offs that arise when privacy constraints, non-IID data, and limited observability are jointly imposed at inference time. Through a concrete instantiation and empirical analysis, we highlight recurring friction points in privacy-preserving inference, ensemble-based collaboration, and incentive alignment. Our findings suggest that FI exhibits system-level behaviors that cannot be directly inherited from training-time federation or classical ensemble methods. Overall, this work provides a unifying perspective on FI and outlines open challenges that must be addressed to enable practical, scalable, and privacy-preserving collaborative inference systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.08465v1">A Two-Week In-the-Wild Study of Screen Filters and Camera Sliders for Smartphone Privacy in Public Spaces</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-09T10:14:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andreas Tjeldflaat, Piero Romare, Yuki Onishi, Morten Fjeld, Bjørn Sætrevik</p>
-    <p><b>Summary:</b> Smartphone usage in public spaces can raise privacy concerns, in terms of shoulder surfing and unintended camera capture. In real-world public space settings, we investigated the impact of tangible privacy-enhancing tools (here: screen filter and camera slider) on smartphone users' reported privacy perception, behavioral adaptations, usability and social dynamics. We conducted a mixed-method, in-the-wild study ($N = 22$) using off-the-shelf smartphone privacy tools. We investigated subjective behavioral transition by combining questionnaires with semi-structured interviews. Participants used the screen filter and the camera slider for two weeks; they reported changes in attitude and behavior after using a screen filter including screen visibility and comfort when using phones publicly. They explained decreased privacy-protective behaviors, such as actively covering their screens, suggesting a shift in perceived risk. Qualitative findings about the camera slider suggested underlying psychological mechanisms, including privacy awareness and concerns about social perception, while also offering insights regarding the tools' effectiveness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10142v1">Privacy by Voice: Modeling Youth Privacy-Protective Behavior in Smart Voice Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-02-09T05:56:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Molly Campbell, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> Smart Voice Assistants (SVAs) are deeply embedded in the lives of youth, yet the mechanisms driving the privacy-protective behaviors among young users remain poorly understood. This study investigates how Canadian youth (aged 16-24) negotiate privacy with SVAs by developing and testing a structural model grounded in five key constructs: perceived privacy risks (PPR), perceived benefits (PPBf), algorithmic transparency and trust (ATT), privacy self-efficacy (PSE), and privacy-protective behaviors (PPB). A cross-sectional survey of N=469 youth was analyzed using partial least squares structural equation modeling. Results reveal that PSE is the strongest predictor of PPB, while the effect of ATT on PPB is fully mediated by PSE. This identifies a critical efficacy gap, where youth's confidence must first be built up for them to act. The model confirms that PPBf directly discourages protective action, yet also indirectly fosters it by slightly boosting self-efficacy. These findings empirically validate and extend earlier qualitative work, quantifying how policy overload and hidden controls erode the self-efficacy necessary for protective action. This study contributes an evidence-based pathway from perception to action and translates it into design imperatives that empower young digital citizens without sacrificing the utility of SVAs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.08268v2">Puda: Private User Dataset Agent for User-Sovereign and Privacy-Preserving Personalized AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-09T05:00:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Akinori Maeda, Yuto Sekiya, Sota Sugimura, Tomoya Asai, Yu Tsuda, Kohei Ikeda, Hiroshi Fujii, Kohei Watanabe</p>
-    <p><b>Summary:</b> Personal data centralization among dominant platform providers including search engines, social networking services, and e-commerce has created siloed ecosystems that restrict user sovereignty, thereby impeding data use across services. Meanwhile, the rapid proliferation of Large Language Model (LLM)-based agents has intensified demand for highly personalized services that require the dynamic provision of diverse personal data. This presents a significant challenge: balancing the utilization of such data with privacy protection. To address this challenge, we propose Puda (Private User Dataset Agent), a user-sovereign architecture that aggregates data across services and enables client-side management. Puda allows users to control data sharing at three privacy levels: (i) Detailed Browsing History, (ii) Extracted Keywords, and (iii) Predefined Category Subsets. We implemented Puda as a browser-based system that serves as a common platform across diverse services and evaluated it through a personalized travel planning task. Our results show that providing Predefined Category Subsets achieves 97.2% of the personalization performance (evaluated via an LLM-as-a-Judge framework across three criteria) obtained when sharing Detailed Browsing History. These findings demonstrate that Puda enables effective multi-granularity management, offering practical choices to mitigate the privacy-personalization trade-off. Overall, Puda provides an AI-native foundation for user sovereignty, empowering users to safely leverage the full potential of personalized AI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10139v2">Anonymization-Enhanced Privacy Protection for Mobile GUI Agents: Available but Invisible</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-08T15:50:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lepeng Zhao, Zhenhua Zou, Shuo Li, Zhuotao Liu</p>
-    <p><b>Summary:</b> Mobile Graphical User Interface (GUI) agents have demonstrated strong capabilities in automating complex smartphone tasks by leveraging multimodal large language models (MLLMs) and system-level control interfaces. However, this paradigm introduces significant privacy risks, as agents typically capture and process entire screen contents, thereby exposing sensitive personal data such as phone numbers, addresses, messages, and financial information. Existing defenses either reduce UI exposure, obfuscate only task-irrelevant content, or rely on user authorization, but none can protect task-critical sensitive information while preserving seamless agent usability.
-  We propose an anonymization-based privacy protection framework that enforces the principle of available-but-invisible access to sensitive data: sensitive information remains usable for task execution but is never directly visible to the cloud-based agent. Our system detects sensitive UI content using a PII-aware recognition model and replaces it with deterministic, type-preserving placeholders (e.g., PHONE_NUMBER#a1b2c) that retain semantic categories while removing identifying details. A layered architecture comprising a PII Detector, UI Transformer, Secure Interaction Proxy, and Privacy Gatekeeper ensures consistent anonymization across user instructions, XML hierarchies, and screenshots, mediates all agent actions over anonymized interfaces, and supports narrowly scoped local computations when reasoning over raw values is necessary.
-  Extensive experiments on the AndroidLab and PrivScreen benchmarks show that our framework substantially reduces privacy leakage across multiple models while incurring only modest utility degradation, achieving the best observed privacy-utility trade-off among existing methods. Code available at: https://github.com/one-step-beh1nd/gui_privacy_protection</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.07936v1">Privacy-Preserving Covert Communication Using Encrypted Wearable Gesture Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-08T12:06:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tasnia Ashrafi Heya, Sayed Erfan Arefin</p>
-    <p><b>Summary:</b> Secure communication is essential in covert and safety-critical settings where verbal interactions may expose user intent or operational context. Wearable gesture-based communication enables low-effort, nonverbal interaction, but existing systems leak motion data, intermediate representations, or inference outputs to untrusted infrastructure, enabling intent inference, behavioral biometric leakage, and insider attacks. This work proposes a privacy-preserving gesture-based covert communication system that ensures, no raw sensor signals, learned features, or classification outputs are exposed to any third-party. The system employs a multi-party homomorphic learning pipeline for gesture recognition directly over encrypted motion data, preventing adversaries from inferring gesture semantics, replaying sensor traces, or accessing intermediate representations. To our knowledge, this work is the first to apply encrypted gesture recognition in a wearable-based covert communication setting. We design and evaluate haptic and visual feedback mechanisms for covert signal delivery and evaluate the system using 600 gesture samples from a commodity smartwatch, achieving over 94.44% classification accuracy and demonstrating the feasibility of the proposed system with practical deployability from high-performance systems to resource-constrained edge devices.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.05158v1">Balancing Privacy-Quality-Efficiency in Federated Learning through Round-Based Interleaving of Protection Techniques</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-05T13:28:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yenan Wang, Carla Fabiana Chiasserini, Elad Michael Schiller</p>
+    <p><b>Summary:</b> In federated learning (FL), balancing privacy protection, learning quality, and efficiency remains a challenge. Privacy protection mechanisms, such as Differential Privacy (DP), degrade learning quality, or, as in the case of Homomorphic Encryption (HE), incur substantial system overhead. To address this, we propose Alt-FL, a privacy-preserving FL framework that combines DP, HE, and synthetic data via a novel round-based interleaving strategy. Alt-FL introduces three new methods, Privacy Interleaving (PI), Synthetic Interleaving with DP (SI/DP), and Synthetic Interleaving with HE (SI/HE), that enable flexible quality-efficiency trade-offs while providing privacy protection.
+  We systematically evaluate Alt-FL against representative reconstruction attacks, including Deep Leakage from Gradients, Inverting Gradients, When the Curious Abandon Honesty, and Robbing the Fed, using a LeNet-5 model on CIFAR-10 and Fashion-MNIST. To enable fair comparison between DP- and HE-based defenses, we introduce a new attacker-centric framework that compares empirical attack success rates across the three proposed interleaving methods. Our results show that, for the studied attacker model and dataset, PI achieves the most balanced trade-offs at high privacy protection levels, while DP-based methods are preferable at intermediate privacy requirements. We also discuss how such results can be the basis for selecting privacy-preserving FL methods under varying privacy and resource constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.05073v1">Robust Single-message Shuffle Differential Privacy Protocol for Accurate Distribution Estimation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-05T11:40:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoguang Li, Hanyi Wang, Yaowei Huang, Jungang Yang, Qingqing Ye, Haonan Yan, Ke Pan, Zhe Sun, Hui Li</p>
+    <p><b>Summary:</b> Shuffler-based differential privacy (shuffle-DP) is a privacy paradigm providing high utility by involving a shuffler to permute noisy report from users. Existing shuffle-DP protocols mainly focus on the design of shuffler-based categorical frequency oracle (SCFO) for frequency estimation on categorical data. However, numerical data is a more prevalent type and many real-world applications depend on the estimation of data distribution with ordinal nature. In this paper, we study the distribution estimation under pure shuffle model, which is a prevalent shuffle-DP framework without strong security assumptions. We initially attempt to transplant existing SCFOs and the naïve distribution recovery technique to this task, and demonstrate that these baseline protocols cannot simultaneously achieve outstanding performance in three metrics: 1) utility, 2) message complexity; and 3) robustness to data poisoning attacks. Therefore, we further propose a novel single-message \textit{adaptive shuffler-based piecewise} (ASP) protocol with high utility and robustness. In ASP, we first develop a randomizer by parameter optimization using our proposed tighter bound of mutual information. We also design an \textit{Expectation Maximization with Adaptive Smoothing} (EMAS) algorithm to accurately recover distribution with enhanced robustness. To quantify robustness, we propose a new evaluation framework to examine robustness under different attack targets, enabling us to comprehensively understand the protocol resilience under various adversarial scenarios. Extensive experiments demonstrate that ASP outperforms baseline protocols in all three metrics. Especially under small $ε$ values, ASP achieves an order of magnitude improvement in utility with minimal message complexity, and exhibits over threefold robustness compared to baseline methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04930v1">Mind the Gap: Mapping Wearer-Bystander Privacy Tensions and Context-Adaptive Pathways for Camera Glasses</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-03-05T08:27:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xueyang Wang, Kewen Peng, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> Camera glasses create fundamental privacy tensions between wearers seeking recording functionality and bystanders concerned about unauthorized surveillance. We present a systematic multi-stakeholder evaluation of privacy mechanisms through surveys (N=525) and paired interviews (N=20) in China. Study 1 quantifies expectation-willingness gaps: bystanders consistently demand stronger information transparency and protective measures than wearers will provide, with disparities intensifying in sensitive contexts where 65-90% of bystanders would take defensive action. Study 2 evaluates twelve privacy-enhancing technologies, revealing four fundamental trade-offs that undermine current approaches: visibility versus disruption, empowerment versus burden, protection versus agency, and accountability versus exposure. These gaps reflect structural incompatibilities rather than inadequate goodwill, with context emerging as the primary determinant of privacy acceptability. We propose context-adaptive pathways that dynamically adjust protection strategies: minimal-friction visibility in public spaces, structured negotiation in semi-public environments, and automatic protection in sensitive contexts. Our findings contribute a diagnostic framework for evaluating privacy mechanisms and implications for context-aware design in ubiquitous sensing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04902v1">AgentSCOPE: Evaluating Contextual Privacy Across Agentic Workflows</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-05T07:45:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ivoline C. Ngong, Keerthiram Murugesan, Swanand Kadhe, Justin D. Weisz, Amit Dhurandhar, Karthikeyan Natesan Ramamurthy</p>
+    <p><b>Summary:</b> Agentic systems are increasingly acting on users' behalf, accessing calendars, email, and personal files to complete everyday tasks. Privacy evaluation for these systems has focused on the input and output boundaries, but each task involves several intermediate information flows, from agent queries to tool responses, that are not currently evaluated. We argue that every boundary in an agentic pipeline is a site of potential privacy violation and must be assessed independently. To support this, we introduce the Privacy Flow Graph, a Contextual Integrity-grounded framework that decomposes agentic execution into a sequence of information flows, each annotated with the five CI parameters, and traces violations to their point of origin. We present AgentSCOPE, a benchmark of 62 multi-tool scenarios across eight regulatory domains with ground truth at every pipeline stage. Our evaluation across seven state-of-the-art LLMs show that privacy violations in the pipeline occur in over 80% of scenarios, even when final outputs appear clean (24%), with most violations arising at the tool-response stage where APIs return sensitive data indiscriminately. These results indicate that output-level evaluation alone substantially underestimates the privacy risk of agentic systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04881v1">Differential Privacy in Two-Layer Networks: How DP-SGD Harms Fairness and Robustness</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-03-05T07:19:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ruichen Xu, Kexin Chen</p>
+    <p><b>Summary:</b> Differentially private learning is essential for training models on sensitive data, but empirical studies consistently show that it can degrade performance, introduce fairness issues like disparate impact, and reduce adversarial robustness. The theoretical underpinnings of these phenomena in modern, non-convex neural networks remain largely unexplored. This paper introduces a unified feature-centric framework to analyze the feature learning dynamics of differentially private stochastic gradient descent (DP-SGD) in two-layer ReLU convolutional neural networks. Our analysis establishes test loss bounds governed by a crucial metric: the feature-to-noise ratio (FNR). We demonstrate that the noise required for privacy leads to suboptimal feature learning, and specifically show that: 1) imbalanced FNRs across classes and subpopulations cause disparate impact; 2) even in the same class, noise has a greater negative impact on semantically long-tailed data; and 3) noise injection exacerbates vulnerability to adversarial attacks. Furthermore, our analysis reveals that the popular paradigm of public pre-training and private fine-tuning does not guarantee improvement, particularly under significant feature distribution shifts between datasets. Experiments on synthetic and real-world data corroborate our theoretical findings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04775v1">Privacy-Aware Camera 2.0 Technical Report</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-03-05T03:46:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Huan Song, Shuyu Tian, Ting Long, Jiang Liu, Cheng Yuan, Zhenyu Jia, Jiawei Shao, Xuelong Li</p>
+    <p><b>Summary:</b> With the increasing deployment of intelligent sensing technologies in highly sensitive environments such as restrooms and locker rooms, visual surveillance systems face a profound privacy-security paradox. Existing privacy-preserving approaches, including physical desensitization, encryption, and obfuscation, often compromise semantic understanding or fail to ensure mathematically provable irreversibility. Although Privacy Camera 1.0 eliminated visual data at the source to prevent leakage, it provided only textual judgments, leading to evidentiary blind spots in disputes. To address these limitations, this paper proposes a novel privacy-preserving perception framework based on the AI Flow paradigm and a collaborative edge-cloud architecture. By deploying a visual desensitizer at the edge, raw images are transformed in real time into abstract feature vectors through nonlinear mapping and stochastic noise injection under the Information Bottleneck principle, ensuring identity-sensitive information is stripped and original images are mathematically unreconstructable. The abstract representations are transmitted to the cloud for behavior recognition and semantic reconstruction via a "dynamic contour" visual language, achieving a critical balance between perception and privacy while enabling illustrative visual reference without exposing raw images.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04742v1">Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-05T02:29:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yang Gao, Gang Quan, Wujie Wen, Scott Piersall, Qian Lou, Liqiang Wang</p>
+    <p><b>Summary:</b> Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge. Although HE enables privacy-preserving computation, its application to SpMV has remained largely unaddressed. To the best of our knowledge, this paper presents the first framework that efficiently integrates HE with SpMV, addressing the dual challenges of computational efficiency and data privacy. In particular, we introduce a novel compressed matrix format, named Compressed Sparse Sorted Column (CSSC), which is specifically designed to optimize encrypted sparse matrix computations. By preserving sparsity and enabling efficient ciphertext packing, CSSC significantly reduces storage and computational overhead. Our experimental results on real-world datasets demonstrate that the proposed method achieves significant gains in both processing time and memory usage. This study advances privacy-preserving SpMV and lays the groundwork for secure applications in federated learning, encrypted databases, scientific computing, and beyond.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04595v1">A Late-Fusion Multimodal AI Framework for Privacy-Preserving Deduplication in National Healthcare Data Environments</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-04T20:46:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammed Omer Shakeel Ahmed</p>
+    <p><b>Summary:</b> Duplicate records pose significant challenges in customer relationship management (CRM)and healthcare, often leading to inaccuracies in analytics, impaired user experiences, and compliance risks. Traditional deduplication methods rely heavily on direct identifiers such as names, emails, or Social Security Numbers (SSNs), making them ineffective under strict privacy regulations like GDPR and HIPAA, where such personally identifiable information (PII) is restricted or masked. In this research, I propose a novel, scalable, multimodal AI framework for detecting duplicates without depending on sensitive information. This system leverages three distinct modalities: semantic embeddings derived from textual fields (names, cities) using pre-trained DistilBERT models, behavioral patterns extracted from user login timestamps, and device metadata encoded through categorical embeddings. These heterogeneous modalities are combined using a late fusion approach and clustered via DBSCAN, an unsupervised density-based algorithm. This proposed model is evaluated against a traditional string-matching baseline on a synthetic CRM dataset specifically designed to reflect privacy-preserving constraints. The multimodal framework demonstrated good performance, achieving a good F1-score by effectively identifying duplicates despite variations and noise inherent in the data. This approach offers a privacy-compliant solution to entity resolution and supports secure digital infrastructure, enhances the reliability of public health analytics, and promotes ethical AI adoption across government and enterprise settings. It is well-suited for integration into national health data modernization efforts, aligning with broader goals of privacy-first innovation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.04493v1">Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2026-03-04T19:00:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bartosz Regula, Marco Tomamichel</p>
+    <p><b>Summary:</b> We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints. Our main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. For the key case of measured smooth Rényi divergence of order 2, we show that this can be alternatively understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. Building on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on quantum privacy amplification and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of randomness extraction, obtaining a corresponding improved one-shot bound. Relaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured Rényi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponent of [Dupuis, arXiv:2105.05342]. We show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., arXiv:2202.11590] and proving its optimality for all hash functions.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.04367v1">Scrollytelling as an Alternative Format for Privacy Policies</a></h3>
@@ -998,7 +997,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03906v1">Measuring Privacy vs. Fidelity in Synthetic Social Media Datasets</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.03906v2">Measuring Privacy vs. Fidelity in Synthetic Social Media Datasets</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-04T10:12:34Z</p>
   <details>
@@ -1022,12 +1021,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03659v1">Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.03659v2">Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
   <p><b>Published on:</b> 2026-03-04T02:27:45Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Julia B. Kieserman, Athanasios Andreou, Sandra Siby, Damon McCoy, Laura Edelson</p>
+    <p><b>Authors:</b> Julia B. Kieserman, Athanasios Andreou, Laura Edelson, Sandra Siby, Damon McCoy</p>
     <p><b>Summary:</b> Popular social media platforms TikTok, Facebook and Instagram allow third-parties to run targeted advertising campaigns on sensitive attributes in-platform. These ads are interactive by default, meaning users can comment or ``react'' (e.g., ``like'', ``love'') to them. We find that this platform-level design choice creates a privacy loophole such that advertisers can view the profiles of those who interact with their ads, thus identifying individuals that fulfill certain targeting criteria. This behavior is in contradiction to the promises made by the platforms to hide user data from advertisers. We conclude by suggesting design modifications that could provide users with transparency about the consequences of ad interaction to protect against unintentional disclosure.</p>
   </details>
 </div>
