@@ -3154,5 +3154,23 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2602.21525v2",
+    "title" : "Optimal Real-Time Fusion of Time-Series Data Under Rényi Differential Privacy",
+    "summary" : "In this paper, we investigate the optimal real-time fusion of data collected by multiple sensors. In our set-up, the sensor measurements are considered to be private and are jointly correlated with an underlying process. A fusion center combines the private sensor measurements and releases its output to an honest-but-curious party, which is responsible for estimating the state of the underlying process based on the fusion center's output. The privacy leakage incurred by the fusion policy is quantified using Rényi differential privacy. We formulate the privacy-aware fusion design as a constrained finite-horizon optimization problem, in which the fusion policy and the state estimation are jointly optimized to minimize the state estimation error subject to a total privacy budget constraint. We derive the constrained optimality conditions for the proposed optimization problem and use them to characterize the structural properties of the optimal fusion policy. Unlike classical differential privacy mechanisms, the optimal fusion policy is shown to adaptively allocates the privacy budget and regulates the adversary's belief in a closed-loop manner. To reduce the computational burden of solving the resulting constrained optimality equations, we parameterize the fusion policy using a structured Gaussian distribution and show that the parameterized fusion policy satisfies the privacy constraint. We further develop a numerical algorithm to jointly optimize the fusion policy and state estimator. Finally, we demonstrate the effectiveness of the proposed fusion framework through a traffic density estimation case study.",
+    "updated" : "2026-03-05T11:31:52Z",
+    "published" : "2026-02-25T03:28:32Z",
+    "authors" : [
+      {
+        "name" : "Chuanghong Weng"
+      },
+      {
+        "name" : "Ehsan Nekouei"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
   }
 ]
