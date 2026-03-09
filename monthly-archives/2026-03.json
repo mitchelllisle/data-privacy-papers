@@ -910,5 +910,116 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.06540v1",
+    "title" : "Proteus: A Practical Framework for Privacy-Preserving Device Logs",
+    "summary" : "Device logs are essential for forensic investigations, enterprise monitoring, and fraud detection; however, they often leak personally identifiable information (PII) when exported for third-party analysis. Existing approaches either fail to minimize PII exposure across all stages of log collection and analysis or sacrifice data fidelity, resulting in less effective analysis. We present Proteus, a privacy-preserving device logging framework that enables forensic analysis without disclosing plaintext PII or compromising fidelity, even when facing adversaries with access to multiple snapshots of the log files. To achieve this, Proteus proposes a two-layer scheme that employs keyed-hash pseudonymization of PII fields and time-rotating encryption with ratcheted ephemeral keys to prevent multi-snapshot correlation. For controlled sharing, clients export ratchet states that grant time-bounded access, permitting decryption of pseudonymized tokens that enable linkage and timeline reconstruction without exposing the underlying PII. Subsequent ratchet rotations ensure forward secrecy, while DICE-based attestation authenticates device provenance. We implement Proteus as a transparent extension to Android's logcat and evaluate it across three generations of hardware. Our results demonstrate a median latency of 0.2 ms per message and an average per-PII-field size overhead of only 97.1 bytes.",
+    "updated" : "2026-03-06T18:28:10Z",
+    "published" : "2026-03-06T18:28:10Z",
+    "authors" : [
+      {
+        "name" : "Sanket Goutam"
+      },
+      {
+        "name" : "Hunter Kippen"
+      },
+      {
+        "name" : "Mike Grace"
+      },
+      {
+        "name" : "Amir Rahmati"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.06051v1",
+    "title" : "A LINDDUN-based Privacy Threat Modeling Framework for GenAI",
+    "summary" : "As generative AI (GenAI) systems become increasingly prevalent across various technological stacks, the question of how such systems handle sensitive and personal data flows becomes increasingly important. Specifically, both the ability to harness and process large swaths of information as well as their stochastic nature raise key concerns related to both security and privacy. Unfortunately, while some of the traditional security threat modeling can effectively identify certain violations, privacy-related issues are often overlooked. To respond to these challenges, we introduce a novel domain-specific privacy threat modeling framework to support the privacy threat analysis of GenAI-based applications. This framework is constructed through a two-pronged approach: (1) a systematic review of the emerging literature on GenAI privacy threats, and (2) a case-driven application to a representative Chatbot system. These efforts yield a foundational GenAI privacy threat modeling framework built on LINDDUN. The new framework affects three out of the seven privacy threat types of LINDDUN and introduces 100 new GenAI examples to the knowledge base. Its effectiveness is validated on an AI Agent system, which demonstrates that a comprehensive privacy analysis can be supported by the new framework.",
+    "updated" : "2026-03-06T09:04:32Z",
+    "published" : "2026-03-06T09:04:32Z",
+    "authors" : [
+      {
+        "name" : "Qianying Liao"
+      },
+      {
+        "name" : "Jonah Bellemans"
+      },
+      {
+        "name" : "Laurens Sion"
+      },
+      {
+        "name" : "Xue Jiang"
+      },
+      {
+        "name" : "Dmitrii Usynin"
+      },
+      {
+        "name" : "Xuebing Zhou"
+      },
+      {
+        "name" : "Dimitri Van Landuyt"
+      },
+      {
+        "name" : "Lieven Desmet"
+      },
+      {
+        "name" : "Wouter Joosen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.05915v1",
+    "title" : "ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens",
+    "summary" : "CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers. In this paper, we present ThermoCAPTCHA, a novel privacy-preserving human verification system that uses real-time thermal imaging to detect live human presence without requiring users to solve challenges. A lightweight YOLOv4-tiny model identifies human heat signatures from a single thermal capture, while cryptographically bound traceable tokens prevent forwarding attacks by CAPTCHA farm workers. Our prototype achieves 96.70% detection accuracy with a 73.60 ms verification latency on a low-powered server. Comprehensive security evaluation, including MITM manipulation, spoofing attempts, adversarial perturbations, and misuse scenarios, shows that ThermoCAPTCHA withstands threats that commonly defeat behavioral CAPTCHAs. A user study with 50 participants, including visually challenged users, demonstrates improved accuracy, faster completion times, and higher perceived usability compared to reCAPTCHA v2.",
+    "updated" : "2026-03-06T05:07:53Z",
+    "published" : "2026-03-06T05:07:53Z",
+    "authors" : [
+      {
+        "name" : "Shovon Paul"
+      },
+      {
+        "name" : "Md Imran Hossen"
+      },
+      {
+        "name" : "Xiali Hei"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.05541v1",
+    "title" : "Privacy-Preserving Collaborative Medical Image Segmentation Using Latent Transform Networks",
+    "summary" : "Collaborative training across multiple institutions is becoming essential for building reliable medical image segmentation models. However, privacy regulations, data silos, and uneven data availability prevent hospitals from sharing raw scans or annotations, limiting the ability to train generalizable models. Latent-space collaboration frameworks such as privacy-segmentation framework (SF) offer a promising alternative, but such methods still face challenges in segmentation accuracy and vulnerability to latent inversion and membership-inference attacks. This work introduces a privacy-preserving collaborative medical image segmentation framework (PPCMI-SF) designed for heterogeneous medical datasets. The approach combines skip-connected autoencoders for images and masks with a keyed latent transform that applies client-specific orthogonal mixing and permutation to protect latent features before they are shared. A unified mapping network on the server-side performs multi-scale latent-to-latent translation, enabling segmentation inference without exposing raw data. Experiments on four datasets: PSFH ultrasound, ultrasound nerve segmentation, FUMPE CTA, and cardiac MRI show that the proposed PPCMI-SF consistently achieves high Dice scores and improved boundary accuracy, as reflected by lower 95th percentile Hausdorff distance (HD95) and average symmetric surface distance (ASD) compared to the current state-of-the-art and performs competitively with privacy-agnostic baselines. Privacy tests confirm strong resistance to inversion and membership attacks, and the overall system achieves real-time inference with low communication overhead. These results demonstrate that accurate and efficient medical image segmentation can be achieved without compromising data privacy in multi-institution settings.",
+    "updated" : "2026-03-04T12:05:45Z",
+    "published" : "2026-03-04T12:05:45Z",
+    "authors" : [
+      {
+        "name" : "Saheed Ademola Bello"
+      },
+      {
+        "name" : "Muhammad Shahid Jabbar"
+      },
+      {
+        "name" : "Muhammad Sohail Ibrahim"
+      },
+      {
+        "name" : "Shujaat Khan"
+      }
+    ],
+    "categories" : [
+      "q-bio.QM",
+      "cs.CR",
+      "eess.IV"
+    ]
   }
 ]
