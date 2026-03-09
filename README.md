@@ -593,6 +593,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.05520v1">Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-02-13T18:23:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sadia Asif, Mohammad Mohammadi Amiri</p>
+    <p><b>Summary:</b> Sequential multi-agent large language model (LLM) systems are increasingly deployed in sensitive domains such as healthcare, finance, and enterprise decision-making, where multiple specialized agents collaboratively process a single user request. Although individual agents may satisfy local privacy constraints, sensitive information can still be inferred through sequential composition and intermediate representations. In this work, we study \emph{compositional privacy leakage} in sequential LLM agent pipelines. We formalize leakage using mutual information and derive a theoretical bound that characterizes how locally introduced leakage can amplify across agents under sequential execution. Motivated by this analysis, we propose a privacy-regularized training framework that directly constrains information flow between agent outputs and agent-local sensitive variables. We evaluate our approach across sequential agent pipelines of varying depth on three benchmark datasets, demonstrating stable optimization dynamics and consistent, interpretable privacy-utility trade-offs. Our results show that privacy in agentic LLM systems cannot be guaranteed by local constraints alone and must instead be treated as a system-level property during both training and deployment.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2602.12749v1">SoK: Understanding the Pedagogical, Health, Ethical, and Privacy Challenges of Extended Reality in Early Childhood Education</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-02-13T09:25:56Z</p>
@@ -775,69 +787,44 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09357v1">Data Sharing with Endogenous Choices over Differential Privacy Levels</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-10T03:01:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Raef Bassily, Kate Donahue, Diptangshu Sen, Annuo Zhao, Juba Ziani</p>
-    <p><b>Summary:</b> We study coalition formation for data sharing under differential privacy when agents have heterogeneous privacy costs. Each agent holds a sensitive data point and decides whether to participate in a data-sharing coalition and how much noise to add to their data. Privacy choices induce a fundamental trade-off: higher privacy reduces individual data-sharing costs but degrades data utility and statistical accuracy for the coalition. These choices generate externalities across agents, making both participation and privacy levels strategic. Our goal is to understand which coalitions are stable, how privacy choices shape equilibrium outcomes, and how decentralized data sharing compares to a centralized, socially optimal benchmark.
-  We provide a comprehensive equilibrium analysis across a broad range of privacy-cost regimes, from decreasing costs (e.g., privacy amplification from pooling data) to increasing costs (e.g., greater exposure to privacy attacks in larger coalitions). We first characterize Nash equilibrium coalitions with endogenous privacy levels and show that equilibria may fail to exist and can be non-monotonic in problem parameters. We also introduce a weaker equilibrium notion called robust equilibrium (that allows more widespread equilibrium existence by equipping existing players in the coalition with the power to prevent or veto external players from joining) and fully characterize such equilibria. Finally, we analyze, for both Nash and robust equilibria, the efficiency relative to the social optimum in terms of social welfare and estimator accuracy. We derive bounds that depend sharply on the number of players, properties of the cost profile and how privacy costs scale with coalition size.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09338v1">Privacy Amplification for BandMF via $b$-Min-Sep Subsampling</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-10T02:10:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andy Dong, Arun Ganesh</p>
-    <p><b>Summary:</b> We study privacy amplification for BandMF, i.e., DP-SGD with correlated noise across iterations via a banded correlation matrix. We propose $b$-min-sep subsampling, a new subsampling scheme that generalizes Poisson and balls-in-bins subsampling, extends prior practical batching strategies for BandMF, and enables stronger privacy amplification than cyclic Poisson while preserving the structural properties needed for analysis. We give a near-exact privacy analysis using Monte Carlo accounting, based on a dynamic program that leverages the Markovian structure in the subsampling procedure. We show that $b$-min-sep matches cyclic Poisson subsampling in the high noise regime and achieves strictly better guarantees in the mid-to-low noise regime, with experimental results that bolster our claims. We further show that unlike previous BandMF subsampling schemes, our $b$-min-sep subsampling naturally extends to the multi-attribution user-level privacy setting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09288v1">Measuring Privacy Risks and Tradeoffs in Financial Synthetic Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-10T00:14:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Michael Zuo, Inwon Kang, Stacy Patterson, Oshani Seneviratne</p>
-    <p><b>Summary:</b> We explore the privacy-utility tradeoff of synthetic data generation schemes on tabular financial datasets, a domain characterized by high regulatory risk and severe class imbalance. We consider representative tabular data generators, including autoencoders, generative adversarial networks, diffusion, and copula synthesizers. To address the challenges of the financial domain, we provide novel privacy-preserving implementations of GAN and autoencoder synthesizers. We evaluate whether and how well the generators simultaneously achieve data quality, downstream utility, and privacy, with comparison across balanced and imbalanced input datasets. Our results offer insight into the distinct challenges of generating synthetic data from datasets that exhibit severe class imbalance and mixed-type attributes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09273v1">The Price of Privacy For Approximating Max-CSP</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-09T23:16:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Prathamesh Dharangutte, Jingcheng Liu, Pasin Manurangsi, Akbar Rafiey, Phanu Vajanopath, Zongrui Zou</p>
-    <p><b>Summary:</b> We study approximation algorithms for Maximum Constraint Satisfaction Problems (Max-CSPs) under differential privacy (DP) where the constraints are considered sensitive data. Information-theoretically, we aim to classify the best approximation ratios possible for a given privacy budget $\varepsilon$. In the high-privacy regime ($\varepsilon \ll 1$), we show that any $\varepsilon$-DP algorithm cannot beat a random assignment by more than $O(\varepsilon)$ in the approximation ratio. We devise a polynomial-time algorithm which matches this barrier under the assumptions that the instances are bounded-degree and triangle-free. Finally, we show that one or both of these assumptions can be removed for specific CSPs--such as Max-Cut or Max $k$-XOR--albeit at the cost of computational efficiency.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09254v1">Investigating Bystander Privacy in Chinese Smart Home Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-02-09T22:38:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shijing He, Xuchen Wang, Yaxiong Lei, Chi Zhang, Ruba Abu-Salma, Jose Such</p>
-    <p><b>Summary:</b> Bystander privacy in smart homes has been widely studied in Western contexts, yet it remains underexplored in non-Western countries such as China. In this study, we analyze 49 Chinese smart home apps using a mixed-methods approach, including privacy policy review, UX/UI evaluation, and assessment of Apple App Store privacy labels. While most apps nominally comply with national regulations, we identify significant gaps between written policies and actual implementation. Our traceability analysis highlights inconsistencies in data controls and a lack of transparency in data-sharing practices. Crucially, bystander privacy -- particularly for visitors and non-user individuals -- is largely absent from both policy documents and interface design. Additionally, discrepancies between privacy labels and actual data practices threaten user trust and undermine informed consent. We provide design recommendations to strengthen bystander protections, improve privacy-oriented UI transparency, and enhance the credibility of privacy labels, supporting the development of inclusive smart home ecosystems in non-Western contexts.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.06540v1">Proteus: A Practical Framework for Privacy-Preserving Device Logs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-06T18:28:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sanket Goutam, Hunter Kippen, Mike Grace, Amir Rahmati</p>
+    <p><b>Summary:</b> Device logs are essential for forensic investigations, enterprise monitoring, and fraud detection; however, they often leak personally identifiable information (PII) when exported for third-party analysis. Existing approaches either fail to minimize PII exposure across all stages of log collection and analysis or sacrifice data fidelity, resulting in less effective analysis. We present Proteus, a privacy-preserving device logging framework that enables forensic analysis without disclosing plaintext PII or compromising fidelity, even when facing adversaries with access to multiple snapshots of the log files. To achieve this, Proteus proposes a two-layer scheme that employs keyed-hash pseudonymization of PII fields and time-rotating encryption with ratcheted ephemeral keys to prevent multi-snapshot correlation. For controlled sharing, clients export ratchet states that grant time-bounded access, permitting decryption of pseudonymized tokens that enable linkage and timeline reconstruction without exposing the underlying PII. Subsequent ratchet rotations ensure forward secrecy, while DICE-based attestation authenticates device provenance. We implement Proteus as a transparent extension to Android's logcat and evaluate it across three generations of hardware. Our results demonstrate a median latency of 0.2 ms per message and an average per-PII-field size overhead of only 97.1 bytes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.06051v1">A LINDDUN-based Privacy Threat Modeling Framework for GenAI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2026-03-06T09:04:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qianying Liao, Jonah Bellemans, Laurens Sion, Xue Jiang, Dmitrii Usynin, Xuebing Zhou, Dimitri Van Landuyt, Lieven Desmet, Wouter Joosen</p>
+    <p><b>Summary:</b> As generative AI (GenAI) systems become increasingly prevalent across various technological stacks, the question of how such systems handle sensitive and personal data flows becomes increasingly important. Specifically, both the ability to harness and process large swaths of information as well as their stochastic nature raise key concerns related to both security and privacy. Unfortunately, while some of the traditional security threat modeling can effectively identify certain violations, privacy-related issues are often overlooked. To respond to these challenges, we introduce a novel domain-specific privacy threat modeling framework to support the privacy threat analysis of GenAI-based applications. This framework is constructed through a two-pronged approach: (1) a systematic review of the emerging literature on GenAI privacy threats, and (2) a case-driven application to a representative Chatbot system. These efforts yield a foundational GenAI privacy threat modeling framework built on LINDDUN. The new framework affects three out of the seven privacy threat types of LINDDUN and introduces 100 new GenAI examples to the knowledge base. Its effectiveness is validated on an AI Agent system, which demonstrates that a comprehensive privacy analysis can be supported by the new framework.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.05915v1">ThermoCAPTCHA: Privacy-Preserving Human Verification with Farm-Resistant Traceable Tokens</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-06T05:07:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shovon Paul, Md Imran Hossen, Xiali Hei</p>
+    <p><b>Summary:</b> CAPTCHAs remain a critical defense against automated abuse, yet modern systems suffer from well-known limitations in usability, accessibility, and resistance to increasingly capable bots and low-cost CAPTCHA farms. Behavioral and puzzle-based mechanisms often impose cognitive burdens, collect extensive interaction data, or permit outsourcing to human solvers. In this paper, we present ThermoCAPTCHA, a novel privacy-preserving human verification system that uses real-time thermal imaging to detect live human presence without requiring users to solve challenges. A lightweight YOLOv4-tiny model identifies human heat signatures from a single thermal capture, while cryptographically bound traceable tokens prevent forwarding attacks by CAPTCHA farm workers. Our prototype achieves 96.70% detection accuracy with a 73.60 ms verification latency on a low-powered server. Comprehensive security evaluation, including MITM manipulation, spoofing attempts, adversarial perturbations, and misuse scenarios, shows that ThermoCAPTCHA withstands threats that commonly defeat behavioral CAPTCHAs. A user study with 50 participants, including visually challenged users, demonstrates improved accuracy, faster completion times, and higher perceived usability compared to reCAPTCHA v2.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.05158v1">Balancing Privacy-Quality-Efficiency in Federated Learning through Round-Based Interleaving of Protection Techniques</a></h3>
@@ -992,6 +979,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Cameron Bell, Timothy Johnston, Antoine Luciano, Christian P Robert</p>
     <p><b>Summary:</b> Theoretical and applied research into privacy encompasses an incredibly broad swathe of differing approaches, emphasis and aims. This work introduces a new quantitative notion of privacy that is both contextual and specific. We argue that it provides a more meaningful notion of privacy than the widely utilised framework of differential privacy and a more explicit and rigorous formulation than what is commonly used in statistical disclosure theory. Our definition relies on concepts inherent to standard Bayesian decision theory, while departing from it in several important respects. In particular, the party controlling the release of sensitive information should make disclosure decisions from the prior viewpoint, rather than conditional on the data, even when the data is itself observed. Illuminating toy examples and computational methods are discussed in high detail in order to highlight the specificities of the method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.05541v1">Privacy-Preserving Collaborative Medical Image Segmentation Using Latent Transform Networks</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2026-03-04T12:05:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Saheed Ademola Bello, Muhammad Shahid Jabbar, Muhammad Sohail Ibrahim, Shujaat Khan</p>
+    <p><b>Summary:</b> Collaborative training across multiple institutions is becoming essential for building reliable medical image segmentation models. However, privacy regulations, data silos, and uneven data availability prevent hospitals from sharing raw scans or annotations, limiting the ability to train generalizable models. Latent-space collaboration frameworks such as privacy-segmentation framework (SF) offer a promising alternative, but such methods still face challenges in segmentation accuracy and vulnerability to latent inversion and membership-inference attacks. This work introduces a privacy-preserving collaborative medical image segmentation framework (PPCMI-SF) designed for heterogeneous medical datasets. The approach combines skip-connected autoencoders for images and masks with a keyed latent transform that applies client-specific orthogonal mixing and permutation to protect latent features before they are shared. A unified mapping network on the server-side performs multi-scale latent-to-latent translation, enabling segmentation inference without exposing raw data. Experiments on four datasets: PSFH ultrasound, ultrasound nerve segmentation, FUMPE CTA, and cardiac MRI show that the proposed PPCMI-SF consistently achieves high Dice scores and improved boundary accuracy, as reflected by lower 95th percentile Hausdorff distance (HD95) and average symmetric surface distance (ASD) compared to the current state-of-the-art and performs competitively with privacy-agnostic baselines. Privacy tests confirm strong resistance to inversion and membership attacks, and the overall system achieves real-time inference with low communication overhead. These results demonstrate that accurate and efficient medical image segmentation can be achieved without compromising data privacy in multi-institution settings.</p>
   </details>
 </div>
 
