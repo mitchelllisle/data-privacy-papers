@@ -713,82 +713,80 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10631v1">Generative clinical time series models trained on moderate amounts of patient data are privacy preserving</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-11T08:23:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rustam Zhumagambetov, Niklas Giesa, Sebastian D. Boie, Stefan Haufe</p>
-    <p><b>Summary:</b> Sharing medical data for machine learning model training purposes is often impossible due to the risk of disclosing identifying information about individual patients. Synthetic data produced by generative artificial intelligence (genAI) models trained on real data is often seen as one possible solution to comply with privacy regulations. While powerful genAI models for heterogeneous hospital time series have recently been introduced, such modeling does not guarantee privacy protection, as the generated data may still reveal identifying information about individuals in the models' training cohort. Applying established privacy mechanisms to generative time series models, however, proves challenging as post-hoc data anonymization through k-anonymization or similar techniques is limited, while model-centered privacy mechanisms that implement differential privacy (DP) may lead to unstable training, compromising the utility of generated data. Given these known limitations, privacy audits for generative time series models are currently indispensable regardless of the concrete privacy mechanisms applied to models and/or data. In this work, we use a battery of established privacy attacks to audit state-of-the-art hospital time series models, trained on the public MIMIC-IV dataset, with respect to privacy preservation. Furthermore, the eICU dataset was used to mount a privacy attack against the synthetic data generator trained on the MIMIC-IV dataset. Results show that established privacy attacks are ineffective against generated multivariate clinical time series when synthetic data generators are trained on large enough training datasets. Furthermore, we discuss how the use of existing DP mechanisms for these synthetic data generators would not bring desired improvement in privacy, but only a decrease in utility for machine learning prediction tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10584v1">When Gradient Clipping Becomes a Control Mechanism for Differential Privacy in Deep Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-11T07:18:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Partohaghighi, Roummel Marcia, Bruce J. West, YangQuan Chen</p>
-    <p><b>Summary:</b> Privacy-preserving training on sensitive data commonly relies on differentially private stochastic optimization with gradient clipping and Gaussian noise. The clipping threshold is a critical control knob: if set too small, systematic over-clipping induces optimization bias; if too large, injected noise dominates updates and degrades accuracy. Existing adaptive clipping methods often depend on per-example gradient norm statistics, adding computational overhead and introducing sensitivity to datasets and architectures. We propose a control-driven clipping strategy that adapts the threshold using a lightweight, weight-only spectral diagnostic computed from model parameters. At periodic probe steps, the method analyzes a designated weight matrix via spectral decomposition and estimates a heavy-tailed spectral indicator associated with training stability. This indicator is smoothed over time and fed into a bounded feedback controller that updates the clipping threshold multiplicatively in the log domain. Because the controller uses only parameters produced during privacy-preserving training, the resulting threshold updates are post-processing and do not increase privacy loss beyond that of the underlying DP optimizer under standard composition accounting.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10510v1">Privacy-Utility Tradeoffs in Quantum Information Processing</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-11T04:21:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Theshani Nuradha, Sujeet Bhalerao, Felix Leditzky</p>
-    <p><b>Summary:</b> When sensitive information is encoded in data, it is important to ensure the privacy of information when attempting to learn useful information from the data. There is a natural tradeoff whereby increasing privacy requirements may decrease the utility of a learning protocol. In the quantum setting of differential privacy, such tradeoffs between privacy and utility have so far remained largely unexplored. In this work, we study optimal privacy-utility tradeoffs for both generic and application-specific utility metrics when privacy is quantified by $(\varepsilon,δ)$-quantum local differential privacy. In the generic setting, we focus on optimizing fidelity and trace distance between the original state and the privatized state. We show that the depolarizing mechanism achieves the optimal utility for given privacy requirements. We then study the specific application of learning the expectation of an observable with respect to an input state when only given access to privatized states. We derive a lower bound on the number of samples of privatized data required to achieve a fixed accuracy guarantee with high probability. To prove this result, we employ existing lower bounds on private quantum hypothesis testing, thus showcasing the first operational use of them. We also devise private mechanisms that achieve optimal sample complexity with respect to the privacy parameters and accuracy parameters, demonstrating that utility can be significantly improved for specific tasks in contrast to the generic setting. In addition, we show that the number of samples required to privately learn observable expectation values scales as $Θ((\varepsilon β)^{-2})$, where $\varepsilon \in (0,1)$ is the privacy parameter and $β$ is the accuracy tolerance. We conclude by initiating the study of private classical shadows, which promise useful applications for private learning tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10100v1">Towards Explainable Federated Learning: Understanding the Impact of Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-10T18:58:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Júlio Oliveira, Rodrigo Ferreira, André Riker, Glaucio H. S. Carvalho, Eirini Eleni Tsilopoulou</p>
-    <p><b>Summary:</b> Data privacy and eXplainable Artificial Intelligence (XAI) are two important aspects for modern Machine Learning systems. To enhance data privacy, recent machine learning models have been designed as a Federated Learning (FL) system. On top of that, additional privacy layers can be added, via Differential Privacy (DP). On the other hand, to improve explainability, ML must consider more interpretable approaches with reduced number of features and less complex internal architecture. In this context, this paper aims to achieve a machine learning (ML) model that combines enhanced data privacy with explainability. So, we propose a FL solution, called Federated EXplainable Trees with Differential Privacy (FEXT-DP), that: (i) is based on Decision Trees, since they are lightweight and have superior explainability than neural networks-based FL systems; (ii) provides additional layer of data privacy protection applying Differential Privacy (DP) to the Tree-Based model. However, there is a side effect adding DP: it harms the explainability of the system. So, this paper also presents the impact of DP protection on the explainability of the ML model. The carried out performance assessment shows improvements of FEXT-DP in terms of a faster training, i.e., numbers of rounds, Mean Squared Error and explainability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09904v1">Safeguarding Privacy: Privacy-Preserving Detection of Mind Wandering and Disengagement Using Federated Learning in Online Education</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-10T15:40:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anna Bodonhelyi, Mengdi Wang, Efe Bozkir, Babette Bühler, Enkelejda Kasneci</p>
-    <p><b>Summary:</b> Since the COVID-19 pandemic, online courses have expanded access to education, yet the absence of direct instructor support challenges learners' ability to self-regulate attention and engagement. Mind wandering and disengagement can be detrimental to learning outcomes, making their automated detection via video-based indicators a promising approach for real-time learner support. However, machine learning-based approaches often require sharing sensitive data, raising privacy concerns. Federated learning offers a privacy-preserving alternative by enabling decentralized model training while also distributing computational load. We propose a framework exploiting cross-device federated learning to address different manifestations of behavioral and cognitive disengagement during remote learning, specifically behavioral disengagement, mind wandering, and boredom. We fit video-based cognitive disengagement detection models using facial expressions and gaze features. By adopting federated learning, we safeguard users' data privacy through privacy-by-design and introduce a novel solution with the potential for real-time learner support. We further address challenges posed by eyeglasses by incorporating related features, enhancing overall model performance. To validate the performance of our approach, we conduct extensive experiments on five datasets and benchmark multiple federated learning algorithms. Our results show great promise for privacy-preserving educational technologies promoting learner engagement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.09627v1">Parallel Composition for Statistical Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-10T10:13:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dennis Breutigam, Rüdiger Reischuk</p>
-    <p><b>Summary:</b> Differential Privacy (DP) considers a scenario in which an adversary has almost complete information about the entries of a database. This worst-case assumption is likely to overestimate the privacy threat faced by an individual in practice. In contrast, Statistical Privacy (SP), as well as related notions such as noiseless privacy or limited background knowledge privacy, describe a setting in which the adversary knows the distribution of the database entries, but not their exact realizations. In this case, privacy analysis must account for the interaction between uncertainty induced by the entropy of the underlying distributions and privacy mechanisms that distort query answers, which can be highly non-trivial.
-  This paper investigates this problem for multiple queries (composition). A privacy mechanism is proposed that is based on subsampling and randomly partitioning the database to bound the dependency among queries. This way for the first time, to the best of our knowledge, upper privacy bounds against limited adversaries are obtained without any further restriction on the database.
-  These bounds show that in realistic application scenarios taking the entropy of distributions into account yields improvements of privacy and precision guarantees. We illustrate examples where for fixed privacy parameters and utility loss SP allows significantly more queries than DP.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.08221v1">SplitAgent: A Privacy-Preserving Distributed Architecture for Enterprise-Cloud Agent Collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-09T10:51:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jianshu She</p>
+    <p><b>Summary:</b> Enterprise adoption of cloud-based AI agents faces a fundamental privacy dilemma: leveraging powerful cloud models requires sharing sensitive data, while local processing limits capability. Current agent frameworks like MCP and A2A assume complete data sharing, making them unsuitable for enterprise environments with confidential information. We present SplitAgent, a novel distributed architecture that enables privacy-preserving collaboration between enterprise-side privacy agents and cloud-side reasoning agents. Our key innovation is context-aware dynamic sanitization that adapts privacy protection based on task semantics -- contract review requires different sanitization than code review or financial analysis. SplitAgent extends existing agent protocols with differential privacy guarantees, zero-knowledge tool verification, and privacy budget management. Through comprehensive experiments on enterprise scenarios, we demonstrate that SplitAgent achieves 83.8\% task accuracy while maintaining 90.1\% privacy protection, significantly outperforming static approaches (73.2\% accuracy, 79.7\% privacy). Context-aware sanitization improves task utility by 24.1\% over static methods while reducing privacy leakage by 67\%. Our architecture provides a practical path for enterprise AI adoption without compromising sensitive data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.08179v1">Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2026-03-09T10:01:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nikita Kuzmin, Tao Zhong, Jiajun Deng, Yingke Zhu, Tristan Tsoi, Tianxiang Cao, Simon Lui, Kong Aik Lee, Eng Siong Chng</p>
+    <p><b>Summary:</b> End-to-end full-duplex speech models feed user audio through an always-on LLM backbone, yet the speaker privacy implications of their hidden representations remain unexamined. Following the VoicePrivacy 2024 protocol with a lazy-informed attacker, we show that the hidden states of SALM-Duplex and Moshi leak substantial speaker identity across all transformer layers. Layer-wise and turn-wise analyses reveal that leakage persists across all layers, with SALM-Duplex showing stronger leakage in early layers while Moshi leaks uniformly, and that Linkability rises sharply within the first few turns. We propose two streaming anonymization setups using Stream-Voice-Anon: a waveform-level front-end (Anon-W2W) and a feature-domain replacement (Anon-W2F). Anon-W2F raises EER by over 3.5x relative to the discrete encoder baseline (11.2% to 41.0%), approaching the 50% random-chance ceiling, while Anon-W2W retains 78-93% of baseline sBERT across setups with sub-second response latency (FRL under 0.8 s).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.07522v1">Beyond Data Splitting: Full-Data Conformal Prediction by Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-08T08:25:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Young Hyun Cho, Jordan Awan</p>
+    <p><b>Summary:</b> Privacy protection and uncertainty quantification are increasingly important in data-driven decision making. Conformal prediction provides finite-sample marginal coverage, but existing private approaches often rely on data splitting, reducing the effective sample size. We propose a full-data privacy-preserving conformal prediction framework that avoids splitting. Our framework leverages stability induced by differential privacy to control the gap between in-sample and out-of-sample conformal scores, and pairs this with a conservative private quantile routine designed to prevent under-coverage. We show that a generic differential privacy guarantee yields a universal coverage floor, yet cannot generally recover the nominal $1-α$ level. We then provide a refined, mechanism-specific stability analysis and yields asymptotic recovery of the nominal level. Experiments demonstrate sharper prediction sets than the split-based private baseline.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.07314v1">Faster-HEAL: An Efficient and Privacy-Preserving Collaborative Perception Framework for Heterogeneous Autonomous Vehicles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2026-03-07T19:18:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Armin Maleki, Hayder Radha</p>
+    <p><b>Summary:</b> Collaborative perception (CP) is a promising paradigm for improving situational awareness in autonomous vehicles by overcoming the limitations of single-agent perception. However, most existing approaches assume homogeneous agents, which restricts their applicability in real-world scenarios where vehicles use diverse sensors and perception models. This heterogeneity introduces a feature domain gap that degrades detection performance. Prior works address this issue by retraining entire models/major components, or using feature interpreters for each new agent type, which is computationally expensive, compromises privacy, and may reduce single-agent accuracy. We propose Faster-HEAL, a lightweight and privacy-preserving CP framework that fine-tunes a low-rank visual prompt to align heterogeneous features with a unified feature space while leveraging pyramid fusion for robust feature aggregation. This approach reduces the trainable parameters by 94%, enabling efficient adaptation to new agents without retraining large models. Experiments on the OPV2V-H dataset show that Faster-HEAL improves detection performance by 2% over state-of-the-art methods with significantly lower computational overhead, offering a practical solution for scalable heterogeneous CP.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.07027v1">Resource-Adaptive Federated Text Generation with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-07T04:11:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiayi Wang, John Gounley, Heidi Hanson</p>
+    <p><b>Summary:</b> In cross-silo federated learning (FL), sensitive text datasets remain confined to local organizations due to privacy regulations, making repeated training for each downstream task both communication-intensive and privacy-demanding. A promising alternative is to generate differentially private (DP) synthetic datasets that approximate the global distribution and can be reused across tasks. However, pretrained large language models (LLMs) often fail under domain shift, and federated finetuning is hindered by computational heterogeneity: only resource-rich clients can update the model, while weaker clients are excluded, amplifying data skew and the adverse effects of DP noise. We propose a flexible participation framework that adapts to client capacities. Strong clients perform DP federated finetuning, while weak clients contribute through a lightweight DP voting mechanism that refines synthetic text. To ensure the synthetic data mirrors the global dataset, we apply control codes (e.g., labels, topics, metadata) that represent each client's data proportions and constrain voting to semantically coherent subsets. This two-phase approach requires only a single round of communication for weak clients and integrates contributions from all participants. Experiments show that our framework improves distribution alignment and downstream robustness under DP and heterogeneity.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.07001v1">Privacy-Preserving Patient Identity Management Framework for Secure Healthcare Access</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-07T02:47:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nasif Muslim, Jean-Charles Grégoire</p>
+    <p><b>Summary:</b> Effective healthcare delivery depends on accurate longitudinal health records and addressing patients' concerns regarding the privacy of their information. While patient authentication is essential, reusing patient identifiers exposes individuals to linkability (associating multiple visits) and traceability (tying visits to real-world identities) risks. This paper presents a privacy-preserving, patient-centric identity management framework specifically tailored to the operational and regulatory requirements of healthcare. The framework balances operational reliability with strong privacy protections through a rooted trust anchor, anonymous pseudonyms, and a conditional traceability mechanism. It is formally specified, and its security and privacy properties are evaluated through MSRA-based architectural analysis and complementary formal verification. Simulation-based evaluation demonstrates that the framework's identity workflows are operationally feasible within the latency bounds typical of clinical environments.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.06540v1">Proteus: A Practical Framework for Privacy-Preserving Device Logs</a></h3>
@@ -1008,7 +1006,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03711v1">LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.03711v2">LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-03-04T04:25:41Z</p>
   <details>
