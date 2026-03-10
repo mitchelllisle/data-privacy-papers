@@ -1021,5 +1021,160 @@
       "cs.CR",
       "eess.IV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.08221v1",
+    "title" : "SplitAgent: A Privacy-Preserving Distributed Architecture for Enterprise-Cloud Agent Collaboration",
+    "summary" : "Enterprise adoption of cloud-based AI agents faces a fundamental privacy dilemma: leveraging powerful cloud models requires sharing sensitive data, while local processing limits capability. Current agent frameworks like MCP and A2A assume complete data sharing, making them unsuitable for enterprise environments with confidential information. We present SplitAgent, a novel distributed architecture that enables privacy-preserving collaboration between enterprise-side privacy agents and cloud-side reasoning agents. Our key innovation is context-aware dynamic sanitization that adapts privacy protection based on task semantics -- contract review requires different sanitization than code review or financial analysis. SplitAgent extends existing agent protocols with differential privacy guarantees, zero-knowledge tool verification, and privacy budget management. Through comprehensive experiments on enterprise scenarios, we demonstrate that SplitAgent achieves 83.8\\% task accuracy while maintaining 90.1\\% privacy protection, significantly outperforming static approaches (73.2\\% accuracy, 79.7\\% privacy). Context-aware sanitization improves task utility by 24.1\\% over static methods while reducing privacy leakage by 67\\%. Our architecture provides a practical path for enterprise AI adoption without compromising sensitive data.",
+    "updated" : "2026-03-09T10:51:31Z",
+    "published" : "2026-03-09T10:51:31Z",
+    "authors" : [
+      {
+        "name" : "Jianshu She"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.08179v1",
+    "title" : "Privacy-Preserving End-to-End Full-Duplex Speech Dialogue Models",
+    "summary" : "End-to-end full-duplex speech models feed user audio through an always-on LLM backbone, yet the speaker privacy implications of their hidden representations remain unexamined. Following the VoicePrivacy 2024 protocol with a lazy-informed attacker, we show that the hidden states of SALM-Duplex and Moshi leak substantial speaker identity across all transformer layers. Layer-wise and turn-wise analyses reveal that leakage persists across all layers, with SALM-Duplex showing stronger leakage in early layers while Moshi leaks uniformly, and that Linkability rises sharply within the first few turns. We propose two streaming anonymization setups using Stream-Voice-Anon: a waveform-level front-end (Anon-W2W) and a feature-domain replacement (Anon-W2F). Anon-W2F raises EER by over 3.5x relative to the discrete encoder baseline (11.2% to 41.0%), approaching the 50% random-chance ceiling, while Anon-W2W retains 78-93% of baseline sBERT across setups with sub-second response latency (FRL under 0.8 s).",
+    "updated" : "2026-03-09T10:01:24Z",
+    "published" : "2026-03-09T10:01:24Z",
+    "authors" : [
+      {
+        "name" : "Nikita Kuzmin"
+      },
+      {
+        "name" : "Tao Zhong"
+      },
+      {
+        "name" : "Jiajun Deng"
+      },
+      {
+        "name" : "Yingke Zhu"
+      },
+      {
+        "name" : "Tristan Tsoi"
+      },
+      {
+        "name" : "Tianxiang Cao"
+      },
+      {
+        "name" : "Simon Lui"
+      },
+      {
+        "name" : "Kong Aik Lee"
+      },
+      {
+        "name" : "Eng Siong Chng"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.07522v1",
+    "title" : "Beyond Data Splitting: Full-Data Conformal Prediction by Differential Privacy",
+    "summary" : "Privacy protection and uncertainty quantification are increasingly important in data-driven decision making. Conformal prediction provides finite-sample marginal coverage, but existing private approaches often rely on data splitting, reducing the effective sample size. We propose a full-data privacy-preserving conformal prediction framework that avoids splitting. Our framework leverages stability induced by differential privacy to control the gap between in-sample and out-of-sample conformal scores, and pairs this with a conservative private quantile routine designed to prevent under-coverage. We show that a generic differential privacy guarantee yields a universal coverage floor, yet cannot generally recover the nominal $1-α$ level. We then provide a refined, mechanism-specific stability analysis and yields asymptotic recovery of the nominal level. Experiments demonstrate sharper prediction sets than the split-based private baseline.",
+    "updated" : "2026-03-08T08:25:16Z",
+    "published" : "2026-03-08T08:25:16Z",
+    "authors" : [
+      {
+        "name" : "Young Hyun Cho"
+      },
+      {
+        "name" : "Jordan Awan"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.07314v1",
+    "title" : "Faster-HEAL: An Efficient and Privacy-Preserving Collaborative Perception Framework for Heterogeneous Autonomous Vehicles",
+    "summary" : "Collaborative perception (CP) is a promising paradigm for improving situational awareness in autonomous vehicles by overcoming the limitations of single-agent perception. However, most existing approaches assume homogeneous agents, which restricts their applicability in real-world scenarios where vehicles use diverse sensors and perception models. This heterogeneity introduces a feature domain gap that degrades detection performance. Prior works address this issue by retraining entire models/major components, or using feature interpreters for each new agent type, which is computationally expensive, compromises privacy, and may reduce single-agent accuracy. We propose Faster-HEAL, a lightweight and privacy-preserving CP framework that fine-tunes a low-rank visual prompt to align heterogeneous features with a unified feature space while leveraging pyramid fusion for robust feature aggregation. This approach reduces the trainable parameters by 94%, enabling efficient adaptation to new agents without retraining large models. Experiments on the OPV2V-H dataset show that Faster-HEAL improves detection performance by 2% over state-of-the-art methods with significantly lower computational overhead, offering a practical solution for scalable heterogeneous CP.",
+    "updated" : "2026-03-07T19:18:25Z",
+    "published" : "2026-03-07T19:18:25Z",
+    "authors" : [
+      {
+        "name" : "Armin Maleki"
+      },
+      {
+        "name" : "Hayder Radha"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.07027v1",
+    "title" : "Resource-Adaptive Federated Text Generation with Differential Privacy",
+    "summary" : "In cross-silo federated learning (FL), sensitive text datasets remain confined to local organizations due to privacy regulations, making repeated training for each downstream task both communication-intensive and privacy-demanding. A promising alternative is to generate differentially private (DP) synthetic datasets that approximate the global distribution and can be reused across tasks. However, pretrained large language models (LLMs) often fail under domain shift, and federated finetuning is hindered by computational heterogeneity: only resource-rich clients can update the model, while weaker clients are excluded, amplifying data skew and the adverse effects of DP noise. We propose a flexible participation framework that adapts to client capacities. Strong clients perform DP federated finetuning, while weak clients contribute through a lightweight DP voting mechanism that refines synthetic text. To ensure the synthetic data mirrors the global dataset, we apply control codes (e.g., labels, topics, metadata) that represent each client's data proportions and constrain voting to semantically coherent subsets. This two-phase approach requires only a single round of communication for weak clients and integrates contributions from all participants. Experiments show that our framework improves distribution alignment and downstream robustness under DP and heterogeneity.",
+    "updated" : "2026-03-07T04:11:58Z",
+    "published" : "2026-03-07T04:11:58Z",
+    "authors" : [
+      {
+        "name" : "Jiayi Wang"
+      },
+      {
+        "name" : "John Gounley"
+      },
+      {
+        "name" : "Heidi Hanson"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.07001v1",
+    "title" : "Privacy-Preserving Patient Identity Management Framework for Secure Healthcare Access",
+    "summary" : "Effective healthcare delivery depends on accurate longitudinal health records and addressing patients' concerns regarding the privacy of their information. While patient authentication is essential, reusing patient identifiers exposes individuals to linkability (associating multiple visits) and traceability (tying visits to real-world identities) risks. This paper presents a privacy-preserving, patient-centric identity management framework specifically tailored to the operational and regulatory requirements of healthcare. The framework balances operational reliability with strong privacy protections through a rooted trust anchor, anonymous pseudonyms, and a conditional traceability mechanism. It is formally specified, and its security and privacy properties are evaluated through MSRA-based architectural analysis and complementary formal verification. Simulation-based evaluation demonstrates that the framework's identity workflows are operationally feasible within the latency bounds typical of clinical environments.",
+    "updated" : "2026-03-07T02:47:29Z",
+    "published" : "2026-03-07T02:47:29Z",
+    "authors" : [
+      {
+        "name" : "Nasif Muslim"
+      },
+      {
+        "name" : "Jean-Charles Grégoire"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.03711v2",
+    "title" : "LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing",
+    "summary" : "Local Differential Privacy (LDP) is the gold standard trust model for privacy-preserving machine learning by guaranteeing privacy at the data source. However, its application to image data has long been considered impractical due to the high dimensionality of pixel space. Canonical LDP mechanisms are designed for low-dimensional data, resulting in severe utility degradation when applied to high-dimensional pixel spaces. This paper demonstrates that this utility loss is not inherent to LDP, but from its application to an inappropriate data representation. We introduce LDP-Slicing, a lightweight, training-free framework that resolves this domain mismatch. Our key insight is to decompose pixel values into a sequence of binary bit-planes. This transformation allows us to apply the LDP mechanism directly to the bit-level representation. To further strengthen privacy and preserve utility, we integrate a perceptual obfuscation module that mitigates human-perceivable leakage and an optimization-based privacy budget allocation strategy. This pipeline satisfies rigorous pixel-level $\\varepsilon$-LDP while producing images that retain high utility for downstream tasks. Extensive experiments on face recognition and image classification demonstrate that LDP-Slicing outperforms existing DP/LDP baselines under comparable privacy budgets, with negligible computational overhead.",
+    "updated" : "2026-03-07T05:50:38Z",
+    "published" : "2026-03-04T04:25:41Z",
+    "authors" : [
+      {
+        "name" : "Yuanming Cao"
+      },
+      {
+        "name" : "Chengqi Li"
+      },
+      {
+        "name" : "Wenbo He"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
