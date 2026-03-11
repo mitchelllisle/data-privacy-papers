@@ -1176,5 +1176,184 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.09904v1",
+    "title" : "Dynamic Average Consensus with Privacy Guarantees and Its Application to Battery Energy Storage Systems",
+    "summary" : "A privacy-preserving dynamic average consensus (DAC) algorithm is proposed that achieves consensus while preventing external eavesdroppers from inferring the reference signals and their derivatives. During the initialization phase, each agent generates a set of sinusoidal signals with randomly selected frequencies and exchanges them with its neighboring agents to construct a masking signal. Each agent masks its reference signals using this composite masking signal before executing the DAC update rule. It is shown that the developed scheme preserves the convergence properties of the conventional DAC framework while preventing information leakage to external eavesdroppers. Furthermore, the developed algorithm is applied to state-of-charge (SoC) balancing in a networked battery energy storage system to demonstrate its practical applicability. Simulation results validate the theoretical findings.",
+    "updated" : "2026-03-10T16:56:53Z",
+    "published" : "2026-03-10T16:56:53Z",
+    "authors" : [
+      {
+        "name" : "Mihitha Maithripala"
+      },
+      {
+        "name" : "Chenyang Qiu"
+      },
+      {
+        "name" : "Zongli Lin"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.09583v1",
+    "title" : "Nonparametric Variational Differential Privacy via Embedding Parameter Clipping",
+    "summary" : "The nonparametric variational information bottleneck (NVIB) provides the foundation for nonparametric variational differential privacy (NVDP), a framework for building privacy-preserving language models. However, the learned latent representations can drift into regions with high information content, leading to poor privacy guarantees, but also low utility due to numerical instability during training. In this work, we introduce a principled parameter clipping strategy to directly address this issue. Our method is mathematically derived from the objective of minimizing the Rényi Divergence (RD) upper bound, yielding specific, theoretically grounded constraints on the posterior mean, variance, and mixture weight parameters. We apply our technique to an NVIB based model and empirically compare it against an unconstrained baseline. Our findings demonstrate that the clipped model consistently achieves tighter RD bounds, implying stronger privacy, while simultaneously attaining higher performance on several downstream tasks. This work presents a simple yet effective method for improving the privacy-utility trade-off in variational models, making them more robust and practical.",
+    "updated" : "2026-03-10T12:34:03Z",
+    "published" : "2026-03-10T12:34:03Z",
+    "authors" : [
+      {
+        "name" : "Dina El Zein"
+      },
+      {
+        "name" : "Shashi Kumar"
+      },
+      {
+        "name" : "James Henderson"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.09577v1",
+    "title" : "Randomized Distributed Function Computation (RDFC): Ultra-Efficient Semantic Communication Applications to Privacy",
+    "summary" : "We establish the randomized distributed function computation (RDFC) framework, in which a sender transmits just enough information for a receiver to generate a randomized function of the input data. Describing RDFC as a form of semantic communication, which can be essentially seen as a generalized remote-source-coding problem, we show that security and privacy constraints naturally fit this model, as they generally require a randomization step. Using strong coordination metrics, we ensure (local differential) privacy for every input sequence and prove that such guarantees can be met even when no common randomness is shared between the transmitter and receiver.\n  This work provides lower bounds on Wyner's common information (WCI), which is the communication cost when common randomness is absent, and proposes numerical techniques to evaluate the other corner point of the RDFC rate region for continuous-alphabet random variables with unlimited shared randomness. Experiments illustrate that a sufficient amount of common randomness can reduce the semantic communication rate by up to two orders of magnitude compared to the WCI point, while RDFC without any shared randomness still outperforms lossless transmission by a large margin. A finite blocklength analysis further confirms that the privacy parameter gap between the asymptotic and non-asymptotic RDFC methods closes exponentially fast with input length. Our results position RDFC as an energy-efficient semantic communication strategy for privacy-aware distributed computation systems.",
+    "updated" : "2026-03-10T12:23:50Z",
+    "published" : "2026-03-10T12:23:50Z",
+    "authors" : [
+      {
+        "name" : "Onur Günlü"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.DC",
+      "cs.SC",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.09214v1",
+    "title" : "PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies",
+    "summary" : "End-users seldom read verbose privacy policies, leading app stores like Google Play to mandate simplified data safety declarations as a user-friendly alternative. However, these self-declared disclosures often contradict the full privacy policies, deceiving users about actual data practices and violating regulatory requirements for consistency. To address this, we introduce PrivPRISM, a robust framework that combines encoder and decoder language models to systematically extract and compare fine-grained data practices from privacy policies and to compare against data safety declarations, enabling scalable detection of non-compliance. Evaluating 7,770 popular mobile games uncovers discrepancies in nearly 53% of cases, rising to 61% among 1,711 widely used generic apps. Additionally, static code analysis reveals possible under-disclosures, with privacy policies disclosing just 66.8% of potential accesses to sensitive data like location and financial information, versus only 36.4% in data safety declarations of mobile games. Our findings expose systemic issues, including widespread reuse of generic privacy policies, vague / contradictory statements, and hidden risks in high-profile apps with 100M+ downloads, underscoring the urgent need for automated enforcement to protect platform integrity and for end-users to be vigilant about sensitive data they disclose via popular apps.",
+    "updated" : "2026-03-10T05:33:40Z",
+    "published" : "2026-03-10T05:33:40Z",
+    "authors" : [
+      {
+        "name" : "Bhanuka Silva"
+      },
+      {
+        "name" : "Dishanika Denipitiyage"
+      },
+      {
+        "name" : "Anirban Mahanti"
+      },
+      {
+        "name" : "Aruna Seneviratne"
+      },
+      {
+        "name" : "Suranga Seneviratne"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.09167v1",
+    "title" : "Optimal partition selection with Rényi differential privacy",
+    "summary" : "A common problem in private data analysis is the partition selection problem, where each user holds a set of partitions (e.g. keys in a GROUP BY operation) from a possibly unbounded set. The challenge here is in maximizing the set of released partitions while respecting a differential privacy constraint. Previous work [Desfontaines et al., PoPETS 2022] presented an optimal $(\\varepsilon, δ)$-DP algorithm when each user submits only a single partition. We generalize this approach to find the optimal algorithm under $δ$-approximate $(α, \\varepsilon)$-Rényi differential privacy (RDP), which allows much tighter analysis under composition. Motivated by the non-existence of a general optimality result in the case where users submit multiple partitions each, we present an extension of our optimal algorithm tuned for $L^2$ bounded weighted partition selection which can be used as a drop-in improvement over the Gaussian mechanism any time the partition frequency is not also needed. We show that our primitive can be easily plugged into state of the art partition selection algorithms (PolicyGaussian from [Gopi et al., ICML 2020] and MAD2R from [Chen et al., ICML 2025]), improving performance both for parallel and sequential adaptive algorithms. Finally, we show that there is an inherent cost to algorithms which do support releasing the frequency as well as the partitions. Specifically, we formulate a basic notion of optimal approximate RDP algorithm for partition selection using additive noise, and show that there is a numerical separation between additive and non-additive noise mechanisms for this problem.",
+    "updated" : "2026-03-10T04:13:38Z",
+    "published" : "2026-03-10T04:13:38Z",
+    "authors" : [
+      {
+        "name" : "Charlie Harrison"
+      },
+      {
+        "name" : "Pasin Pasin Manurangsi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.08913v1",
+    "title" : "Quantifying Memorization and Privacy Risks in Genomic Language Models",
+    "summary" : "Genomic language models (GLMs) have emerged as powerful tools for learning representations of DNA sequences, enabling advances in variant prediction, regulatory element identification, and cross-task transfer learning. However, as these models are increasingly trained or fine-tuned on sensitive genomic cohorts, they risk memorizing specific sequences from their training data, raising serious concerns around privacy, data leakage, and regulatory compliance. Despite growing awareness of memorization risks in general-purpose language models, little systematic evaluation exists for these risks in the genomic domain, where data exhibit unique properties such as a fixed nucleotide alphabet, strong biological structure, and individual identifiability. We present a comprehensive, multi-vector privacy evaluation framework designed to quantify memorization risks in GLMs. Our approach integrates three complementary risk assessment methodologies: perplexity-based detection, canary sequence extraction, and membership inference. These are combined into a unified evaluation pipeline that produces a worst-case memorization risk score. To enable controlled evaluation, we plant canary sequences at varying repetition rates into both synthetic and real genomic datasets, allowing precise quantification of how repetition and training dynamics influence memorization. We evaluate our framework across multiple GLM architectures, examining the relationship between sequence repetition, model capacity, and memorization risk. Our results establish that GLMs exhibit measurable memorization and that the degree of memorization varies across architectures and training regimes. These findings reveal that no single attack vector captures the full scope of memorization risk, underscoring the need for multi-vector privacy auditing as a standard practice for genomic AI systems.",
+    "updated" : "2026-03-09T20:30:37Z",
+    "published" : "2026-03-09T20:30:37Z",
+    "authors" : [
+      {
+        "name" : "Alexander Nemecek"
+      },
+      {
+        "name" : "Wenbiao Li"
+      },
+      {
+        "name" : "Xiaoqian Jiang"
+      },
+      {
+        "name" : "Jaideep Vaidya"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "q-bio.GN"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.08854v1",
+    "title" : "DeZent: Decentralized z-Anonymity with Privacy-Preserving Coordination",
+    "summary" : "Analyzing large volumes of sensor network data, such as electricity consumption measurements from smart meters, is essential for modern applications but raises significant privacy concerns. Privacy-enhancing technologies like z-anonymity offer efficient anonymization for continuous data streams by suppressing rare values that could lead to re-identification, making it particularly suited for resource-constrained environments. Originally designed for centralized architectures, z-anonymity assumes a trusted central entity. In this paper, we introduce deZent, a decentralized implementation of z-anonymity that minimizes trust in the central entity by realizing local z-anonymity with lightweight coordination. We develop deZent using a stochastic counting structure and secure sum to coordinate private anonymization across the network. Our results show that deZent achieves comparable performance to centralized z-anonymity in terms of publication ratio, while reducing the communication overhead towards the central entity. Thus, deZent presents a promising approach for enhancing privacy in sensor networks while preserving system efficiency.",
+    "updated" : "2026-03-09T19:14:23Z",
+    "published" : "2026-03-09T19:14:23Z",
+    "authors" : [
+      {
+        "name" : "Carolin Brunn"
+      },
+      {
+        "name" : "Florian Tschorsch"
+      }
+    ],
+    "categories" : [
+      "cs.DC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.08848v1",
+    "title" : "The Data-Dollars Tradeoff: Privacy Harms vs. Economic Risk in Personalized AI Adoption",
+    "summary" : "Privacy concerns significantly impact AI adoption, yet little is known about how information environments shape user responses to data leak threats. We conducted a 2 x 3 between-subjects experiment (N=610) examining how risk versus ambiguity about privacy leaks affects the adoption of AI personalization. Participants chose between standard and AI-personalized product baskets, with personalization requiring data sharing that could leak to pricing algorithms. Under risk (30% leak probability), we found no difference in AI adoption between privacy-threatening and neutral conditions (ca. 50% adoption). Under ambiguity (10-50% range), privacy threats significantly reduced adoption compared to neutral conditions. This effect holds for sensitive demographic data as well as anonymized preference data. Users systematically over-bid for privacy disclosure labels, suggesting strong demand for transparency institutions. Notably, privacy leak threats did not affect subsequent bargaining behavior with algorithms. Our findings indicate that ambiguity over data leaks, rather than only privacy preferences per se, drives avoidance behavior among users towards personalized AI.",
+    "updated" : "2026-03-09T19:03:57Z",
+    "published" : "2026-03-09T19:03:57Z",
+    "authors" : [
+      {
+        "name" : "Alexander Erlei"
+      },
+      {
+        "name" : "Tahir Abbas"
+      },
+      {
+        "name" : "Kilian Bizer"
+      },
+      {
+        "name" : "Ujwal Gadiraju"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "econ.GN"
+    ]
   }
 ]
