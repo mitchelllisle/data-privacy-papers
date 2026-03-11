@@ -616,105 +616,105 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.12009v1">On the Sensitivity of Firing Rate-Based Federated Spiking Neural Networks to Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-12T14:40:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luiz Pereira, Mirko Perkusich, Dalton Valadares, Kyller Gorgônio</p>
-    <p><b>Summary:</b> Federated Neuromorphic Learning (FNL) enables energy-efficient and privacy-preserving learning on devices without centralizing data. However, real-world deployments require additional privacy mechanisms that can significantly alter training signals. This paper analyzes how Differential Privacy (DP) mechanisms, specifically gradient clipping and noise injection, perturb firing-rate statistics in Spiking Neural Networks (SNNs) and how these perturbations are propagated to rate-based FNL coordination. On a speech recognition task under non-IID settings, ablations across privacy budgets and clipping bounds reveal systematic rate shifts, attenuated aggregation, and ranking instability during client selection. Moreover, we relate these shifts to sparsity and memory indicators. Our findings provide actionable guidance for privacy-preserving FNL, specifically regarding the balance between privacy strength and rate-dependent coordination.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.11510v1">AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-12T03:10:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Faouzi El Yagoubi, Ranwa Al Mallah, Godwin Badu-Marfo</p>
-    <p><b>Summary:</b> Multi-agent Large Language Model (LLM) systems create privacy risks that current benchmarks cannot measure. When agents coordinate on tasks, sensitive data passes through inter-agent messages, shared memory, and tool arguments; pathways that output-only audits never inspect. We introduce AgentLeak, to the best of our knowledge the first full-stack benchmark for privacy leakage covering internal channels, spanning 1,000 scenarios across healthcare, finance, legal, and corporate domains, paired with a 32-class attack taxonomy and three-tier detection pipeline. Testing GPT-4o, GPT-4o-mini, Claude 3.5 Sonnet, Mistral Large, and Llama 3.3 70B across 4,979 traces reveals that multi-agent configurations reduce per-channel output leakage (C1: 27.2% vs 43.2% in single-agent) but introduce unmonitored internal channels that raise total system exposure to 68.9% (OR-aggregated across C1, C2, C5). Internal channels account for most of this gap: inter-agent messages (C2) leak at 68.8%, compared to 27.2% on C1 (output channel). This means that output-only audits miss 41.7% of violations. Claude 3.5 Sonnet, which emphasizes safety alignment in its design, achieves the lowest leakage rates on both external (3.3%) and internal (28.1%) channels, suggesting that model-level safety training may transfer to internal channel protection. Across all five models and four domains, the pattern C2 > C1 holds consistently, confirming that inter-agent communication is the primary vulnerability. These findings underscore the need for coordination frameworks that incorporate internal-channel privacy protections and enforce privacy controls on inter-agent communication.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.11026v1">Normalized Surveillance in the Datafied Car: How Autonomous Vehicle Users Rationalize Privacy Trade-offs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-11T16:52:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yehuda Perry, Tawfiq Ammari</p>
-    <p><b>Summary:</b> Autonomous vehicles (AVs) are characterized by pervasive datafication and surveillance through sensors like in-cabin cameras, LIDAR, and GPS. Drawing on 16 semi-structured interviews with AV drivers analyzed using constructivist grounded theory, this study examines how users make sense of vehicular surveillance within everyday datafication. Findings reveal drivers demonstrate few AV-specific privacy concerns, instead normalizing monitoring through comparisons with established digital platforms. We theorize this indifference by situating AV surveillance within the `surveillance ecology' of platform environments, arguing the datafied car functions as a mobile extension of the `leaky home' -- private spaces rendered permeable through connected technologies continuously transmitting behavioral data.
-  The study contributes to scholarship on surveillance beliefs, datafication, and platform governance by demonstrating how users who have accepted comprehensive smartphone and smart home monitoring encounter AV datafication as just another node in normalized data extraction. We highlight how geographic restrictions on data access -- currently limiting driver log access to California -- create asymmetries that impede informed privacy deliberation, exemplifying `tertiary digital divides.' Finally, we examine how machine learning's reliance on data-intensive approaches creates structural pressure for surveillance that transcends individual manufacturer choices. We propose governance interventions to democratize social learning, including universal data access rights, binding transparency requirements, and data minimization standards to prevent race-to-the-bottom dynamics in automotive datafication.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.11023v1">IU-GUARD: Privacy-Preserving Spectrum Coordination for Incumbent Users under Dynamic Spectrum Sharing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-11T16:49:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shaoyu Li, Hexuan Yu, Shanghao Shi, Md Mohaimin Al Barat, Yang Xiao, Y. Thomas Hou, Wenjing Lou</p>
-    <p><b>Summary:</b> With the growing demand for wireless spectrum, dynamic spectrum sharing (DSS) frameworks such as the Citizens Broadband Radio Service (CBRS) have emerged as practical solutions to improve utilization while protecting incumbent users (IUs) such as military radars. However, current incumbent protection mechanisms face critical limitations. The Environmental Sensing Capability (ESC) requires costly sensor deployments and remains vulnerable to interference and security risks. Alternatively, the Incumbent Informing Capability (IIC) requires IUs to disclose their identities and operational parameters to the Spectrum Coordination System (SCS), creating linkable records that compromise operational privacy and mission secrecy. We propose IU-GUARD, a privacy-preserving spectrum sharing framework that enables IUs to access spectrum without revealing their identities. Leveraging verifiable credentials (VCs) and zero-knowledge proofs (ZKPs), IU-GUARD allows IUs to prove their authorization to the SCS while disclosing only essential operational parameters. This decouples IU identity from spectrum access, prevents cross-request linkage, and mitigates the risk of centralized SCS data leakage. We implement a prototype, and our evaluation shows that IU-GUARD achieves strong privacy guarantees with practical computation and communication overhead, making it suitable for real-time DSS deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10877v1">Beyond Permissions: An Empirical Static Analysis of Privacy and Security Risks in Children-Oriented and General-Audience Mobile Apps for Gaming</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-11T14:06:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bakheet Aljedaani</p>
-    <p><b>Summary:</b> Mobile gaming applications (apps) have become increasingly pervasive, including a growing number of games designed for children. Despite their popularity, these apps often integrate complex analytics, advertising, and attribution infrastructures that may introduce privacy and security risks. Existing research has primarily focused on tracking behaviors or monetization models, leaving configuration-level privacy exposure and children-oriented apps underexplored. In this study, we conducted a comparative static analysis of Android mobile games to investigate privacy and security risks beyond permission usage. The analysis follows a three-phase methodology comprising (i) designing study protocol, (ii) Android Package Kit (APK) collection and static inspection, and (iii) data analysis. We examined permissions, manifest-level configuration properties (e.g., backup settings, cleartext network traffic, and exported components), and embedded third-party Software Development Kit (SDK) ecosystems across children-oriented and general-audience mobile games. The extracted indicators are synthesized into qualitative privacy-risk categories to support comparative reporting. The results showed that while children-oriented games often request fewer permissions, they frequently exhibit configuration-level risks and embed third-party tracking SDKs similar to general-audience games. Architectural and configuration decisions play a critical role in shaping privacy risks, particularly for apps targeting children. This study contributes a holistic static assessment of privacy exposure in mobile games and provides actionable insights for developers, platform providers, and researchers seeking to improve privacy-by-design practices in mobile applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10735v1">Calliope: A TTS-based Narrated E-book Creator Ensuring Exact Synchronization, Privacy, and Layout Fidelity</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-02-11T10:54:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hugo L. Hammer, Vajira Thambawita, Pål Halvorsen</p>
-    <p><b>Summary:</b> A narrated e-book combines synchronized audio with digital text, highlighting the currently spoken word or sentence during playback. This format supports early literacy and assists individuals with reading challenges, while also allowing general readers to seamlessly switch between reading and listening. With the emergence of natural-sounding neural Text-to-Speech (TTS) technology, several commercial services have been developed to leverage these technology for converting standard text e-books into high-quality narrated e-books. However, no open-source solutions currently exist to perform this task. In this paper, we present Calliope, an open-source framework designed to fill this gap. Our method leverages state-of-the-art open-source TTS to convert a text e-book into a narrated e-book in the EPUB 3 Media Overlay format. The method offers several innovative steps: audio timestamps are captured directly during TTS, ensuring exact synchronization between narration and text highlighting; the publisher's original typography, styling, and embedded media are strictly preserved; and the entire pipeline operates offline. This offline capability eliminates recurring API costs, mitigates privacy concerns, and avoids copyright compliance issues associated with cloud-based services. The framework currently supports the state-of-the-art open-source TTS systems XTTS-v2 and Chatterbox. A potential alternative approach involves first generating narration via TTS and subsequently synchronizing it with the text using forced alignment. However, while our method ensures exact synchronization, our experiments show that forced alignment introduces drift between the audio and text highlighting significant enough to degrade the reading experience. Source code and usage instructions are available at https://github.com/hugohammer/TTS-Narrated-Ebook-Creator.git.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10734v1">Security, Privacy and System-Level Resillience of 6G End-to-End System: Hexa-X-II Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2026-02-11T10:53:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pawani Porambage, Diego Lopez, Antonio Pastor, Bin Han, José María Jorquera Valero, Manuel Gil Pérez, Noelia Pérez Palma, Antonio Skarmeta, Prajnamaya Dass, Stefan Köpsell, Sonika Ujjwal, Javier José Díaz Rivera, Pol Alemany, Raul Muñoz, Jafar Mohammadi, Chaitanya Aggarwal, Betul Guvenc Paltun, Ferhat Karakoc</p>
-    <p><b>Summary:</b> The sixth generation (6G) of mobile networks are being developed to overcome limitations in previous generations and meet emerging user demands. As a European project, the Smart Networks and Services Joint Undertaking (SNS JU) 6G Flagship project Hexa-X-II has a leading role for developing technologies and anchoring 6G end-to-end system. This paper summarizes the security, privacy and resilient (SPR) controls identified by Hexa-X-II project and their validation frameworks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.10684v1">Privacy Control in Conversational LLM Platforms: A Walkthrough Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-11T09:39:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhuoyang Li, Yanlai Wu, Yao Li, Xinning Gui, Yuhan Luo</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly integrated into daily life through conversational interfaces, processing user data via natural language inputs and exhibiting advanced reasoning capabilities, which raises new concerns about user control over privacy. While much research has focused on potential privacy risks, less attention has been paid to the data control mechanisms these platforms provide. This study examines six conversational LLM platforms, analyzing how they define and implement features for users to access, edit, delete, and share data. Our analysis reveals an emerging paradigm of data control in conversational LLM platforms, where user data is generated and derived through interaction itself, natural language enables flexible yet often ambiguous control, and multi-user interactions with shared data raise questions of co-ownership and governance. Based on these findings, we offer practical insights for platform developers, policymakers, and researchers to design more effective and usable privacy controls in LLM-powered conversational interactions.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.09904v1">Dynamic Average Consensus with Privacy Guarantees and Its Application to Battery Energy Storage Systems</a></h3>
+  
+  <p><b>Published on:</b> 2026-03-10T16:56:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mihitha Maithripala, Chenyang Qiu, Zongli Lin</p>
+    <p><b>Summary:</b> A privacy-preserving dynamic average consensus (DAC) algorithm is proposed that achieves consensus while preventing external eavesdroppers from inferring the reference signals and their derivatives. During the initialization phase, each agent generates a set of sinusoidal signals with randomly selected frequencies and exchanges them with its neighboring agents to construct a masking signal. Each agent masks its reference signals using this composite masking signal before executing the DAC update rule. It is shown that the developed scheme preserves the convergence properties of the conventional DAC framework while preventing information leakage to external eavesdroppers. Furthermore, the developed algorithm is applied to state-of-charge (SoC) balancing in a networked battery energy storage system to demonstrate its practical applicability. Simulation results validate the theoretical findings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.09583v1">Nonparametric Variational Differential Privacy via Embedding Parameter Clipping</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-10T12:34:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dina El Zein, Shashi Kumar, James Henderson</p>
+    <p><b>Summary:</b> The nonparametric variational information bottleneck (NVIB) provides the foundation for nonparametric variational differential privacy (NVDP), a framework for building privacy-preserving language models. However, the learned latent representations can drift into regions with high information content, leading to poor privacy guarantees, but also low utility due to numerical instability during training. In this work, we introduce a principled parameter clipping strategy to directly address this issue. Our method is mathematically derived from the objective of minimizing the Rényi Divergence (RD) upper bound, yielding specific, theoretically grounded constraints on the posterior mean, variance, and mixture weight parameters. We apply our technique to an NVIB based model and empirically compare it against an unconstrained baseline. Our findings demonstrate that the clipped model consistently achieves tighter RD bounds, implying stronger privacy, while simultaneously attaining higher performance on several downstream tasks. This work presents a simple yet effective method for improving the privacy-utility trade-off in variational models, making them more robust and practical.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.09577v1">Randomized Distributed Function Computation (RDFC): Ultra-Efficient Semantic Communication Applications to Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Symbolic Computation-5BC0EB"> 
+  <p><b>Published on:</b> 2026-03-10T12:23:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Onur Günlü</p>
+    <p><b>Summary:</b> We establish the randomized distributed function computation (RDFC) framework, in which a sender transmits just enough information for a receiver to generate a randomized function of the input data. Describing RDFC as a form of semantic communication, which can be essentially seen as a generalized remote-source-coding problem, we show that security and privacy constraints naturally fit this model, as they generally require a randomization step. Using strong coordination metrics, we ensure (local differential) privacy for every input sequence and prove that such guarantees can be met even when no common randomness is shared between the transmitter and receiver.
+  This work provides lower bounds on Wyner's common information (WCI), which is the communication cost when common randomness is absent, and proposes numerical techniques to evaluate the other corner point of the RDFC rate region for continuous-alphabet random variables with unlimited shared randomness. Experiments illustrate that a sufficient amount of common randomness can reduce the semantic communication rate by up to two orders of magnitude compared to the WCI point, while RDFC without any shared randomness still outperforms lossless transmission by a large margin. A finite blocklength analysis further confirms that the privacy parameter gap between the asymptotic and non-asymptotic RDFC methods closes exponentially fast with input length. Our results position RDFC as an energy-efficient semantic communication strategy for privacy-aware distributed computation systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.09214v1">PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-10T05:33:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bhanuka Silva, Dishanika Denipitiyage, Anirban Mahanti, Aruna Seneviratne, Suranga Seneviratne</p>
+    <p><b>Summary:</b> End-users seldom read verbose privacy policies, leading app stores like Google Play to mandate simplified data safety declarations as a user-friendly alternative. However, these self-declared disclosures often contradict the full privacy policies, deceiving users about actual data practices and violating regulatory requirements for consistency. To address this, we introduce PrivPRISM, a robust framework that combines encoder and decoder language models to systematically extract and compare fine-grained data practices from privacy policies and to compare against data safety declarations, enabling scalable detection of non-compliance. Evaluating 7,770 popular mobile games uncovers discrepancies in nearly 53% of cases, rising to 61% among 1,711 widely used generic apps. Additionally, static code analysis reveals possible under-disclosures, with privacy policies disclosing just 66.8% of potential accesses to sensitive data like location and financial information, versus only 36.4% in data safety declarations of mobile games. Our findings expose systemic issues, including widespread reuse of generic privacy policies, vague / contradictory statements, and hidden risks in high-profile apps with 100M+ downloads, underscoring the urgent need for automated enforcement to protect platform integrity and for end-users to be vigilant about sensitive data they disclose via popular apps.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.09167v1">Optimal partition selection with Rényi differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-10T04:13:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Charlie Harrison, Pasin Pasin Manurangsi</p>
+    <p><b>Summary:</b> A common problem in private data analysis is the partition selection problem, where each user holds a set of partitions (e.g. keys in a GROUP BY operation) from a possibly unbounded set. The challenge here is in maximizing the set of released partitions while respecting a differential privacy constraint. Previous work [Desfontaines et al., PoPETS 2022] presented an optimal $(\varepsilon, δ)$-DP algorithm when each user submits only a single partition. We generalize this approach to find the optimal algorithm under $δ$-approximate $(α, \varepsilon)$-Rényi differential privacy (RDP), which allows much tighter analysis under composition. Motivated by the non-existence of a general optimality result in the case where users submit multiple partitions each, we present an extension of our optimal algorithm tuned for $L^2$ bounded weighted partition selection which can be used as a drop-in improvement over the Gaussian mechanism any time the partition frequency is not also needed. We show that our primitive can be easily plugged into state of the art partition selection algorithms (PolicyGaussian from [Gopi et al., ICML 2020] and MAD2R from [Chen et al., ICML 2025]), improving performance both for parallel and sequential adaptive algorithms. Finally, we show that there is an inherent cost to algorithms which do support releasing the frequency as well as the partitions. Specifically, we formulate a basic notion of optimal approximate RDP algorithm for partition selection using additive noise, and show that there is a numerical separation between additive and non-additive noise mechanisms for this problem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.08913v1">Quantifying Memorization and Privacy Risks in Genomic Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2026-03-09T20:30:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexander Nemecek, Wenbiao Li, Xiaoqian Jiang, Jaideep Vaidya, Erman Ayday</p>
+    <p><b>Summary:</b> Genomic language models (GLMs) have emerged as powerful tools for learning representations of DNA sequences, enabling advances in variant prediction, regulatory element identification, and cross-task transfer learning. However, as these models are increasingly trained or fine-tuned on sensitive genomic cohorts, they risk memorizing specific sequences from their training data, raising serious concerns around privacy, data leakage, and regulatory compliance. Despite growing awareness of memorization risks in general-purpose language models, little systematic evaluation exists for these risks in the genomic domain, where data exhibit unique properties such as a fixed nucleotide alphabet, strong biological structure, and individual identifiability. We present a comprehensive, multi-vector privacy evaluation framework designed to quantify memorization risks in GLMs. Our approach integrates three complementary risk assessment methodologies: perplexity-based detection, canary sequence extraction, and membership inference. These are combined into a unified evaluation pipeline that produces a worst-case memorization risk score. To enable controlled evaluation, we plant canary sequences at varying repetition rates into both synthetic and real genomic datasets, allowing precise quantification of how repetition and training dynamics influence memorization. We evaluate our framework across multiple GLM architectures, examining the relationship between sequence repetition, model capacity, and memorization risk. Our results establish that GLMs exhibit measurable memorization and that the degree of memorization varies across architectures and training regimes. These findings reveal that no single attack vector captures the full scope of memorization risk, underscoring the need for multi-vector privacy auditing as a standard practice for genomic AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.08854v1">DeZent: Decentralized z-Anonymity with Privacy-Preserving Coordination</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-09T19:14:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Carolin Brunn, Florian Tschorsch</p>
+    <p><b>Summary:</b> Analyzing large volumes of sensor network data, such as electricity consumption measurements from smart meters, is essential for modern applications but raises significant privacy concerns. Privacy-enhancing technologies like z-anonymity offer efficient anonymization for continuous data streams by suppressing rare values that could lead to re-identification, making it particularly suited for resource-constrained environments. Originally designed for centralized architectures, z-anonymity assumes a trusted central entity. In this paper, we introduce deZent, a decentralized implementation of z-anonymity that minimizes trust in the central entity by realizing local z-anonymity with lightweight coordination. We develop deZent using a stochastic counting structure and secure sum to coordinate private anonymization across the network. Our results show that deZent achieves comparable performance to centralized z-anonymity in terms of publication ratio, while reducing the communication overhead towards the central entity. Thus, deZent presents a promising approach for enhancing privacy in sensor networks while preserving system efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.08848v1">The Data-Dollars Tradeoff: Privacy Harms vs. Economic Risk in Personalized AI Adoption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
+  <p><b>Published on:</b> 2026-03-09T19:03:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexander Erlei, Tahir Abbas, Kilian Bizer, Ujwal Gadiraju</p>
+    <p><b>Summary:</b> Privacy concerns significantly impact AI adoption, yet little is known about how information environments shape user responses to data leak threats. We conducted a 2 x 3 between-subjects experiment (N=610) examining how risk versus ambiguity about privacy leaks affects the adoption of AI personalization. Participants chose between standard and AI-personalized product baskets, with personalization requiring data sharing that could leak to pricing algorithms. Under risk (30% leak probability), we found no difference in AI adoption between privacy-threatening and neutral conditions (ca. 50% adoption). Under ambiguity (10-50% range), privacy threats significantly reduced adoption compared to neutral conditions. This effect holds for sensitive demographic data as well as anonymized preference data. Users systematically over-bid for privacy disclosure labels, suggesting strong demand for transparency institutions. Notably, privacy leak threats did not affect subsequent bargaining behavior with algorithms. Our findings indicate that ambiguity over data leaks, rather than only privacy preferences per se, drives avoidance behavior among users towards personalized AI.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.08221v1">SplitAgent: A Privacy-Preserving Distributed Architecture for Enterprise-Cloud Agent Collaboration</a></h3>
