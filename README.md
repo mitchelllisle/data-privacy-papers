@@ -580,44 +580,21 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.13555v1">Privacy-Concealing Cooperative Perception for BEV Scene Segmentation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-14T02:11:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Song Wang, Lingling Li, Marcus Santos, Guanghui Wang</p>
-    <p><b>Summary:</b> Cooperative perception systems for autonomous driving aim to overcome the limited perception range of a single vehicle by communicating with adjacent agents to share sensing information. While this improves perception performance, these systems also face a significant privacy-leakage issue, as sensitive visual content can potentially be reconstructed from the shared data. In this paper, we propose a novel Privacy-Concealing Cooperation (PCC) framework for Bird's Eye View (BEV) semantic segmentation. Based on commonly shared BEV features, we design a hiding network to prevent an image reconstruction network from recovering the input images from the shared features. An adversarial learning mechanism is employed to train the network, where the hiding network works to conceal the visual clues in the BEV features while the reconstruction network attempts to uncover these clues. To maintain segmentation performance, the perception network is integrated with the hiding network and optimized end-to-end. The experimental results demonstrate that the proposed PCC framework effectively degrades the quality of the reconstructed images with minimal impact on segmentation performance, providing privacy protection for cooperating vehicles. The source code will be made publicly available upon publication.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.05520v1">Information-Theoretic Privacy Control for Sequential Multi-Agent LLM Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-13T18:23:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sadia Asif, Mohammad Mohammadi Amiri</p>
-    <p><b>Summary:</b> Sequential multi-agent large language model (LLM) systems are increasingly deployed in sensitive domains such as healthcare, finance, and enterprise decision-making, where multiple specialized agents collaboratively process a single user request. Although individual agents may satisfy local privacy constraints, sensitive information can still be inferred through sequential composition and intermediate representations. In this work, we study \emph{compositional privacy leakage} in sequential LLM agent pipelines. We formalize leakage using mutual information and derive a theoretical bound that characterizes how locally introduced leakage can amplify across agents under sequential execution. Motivated by this analysis, we propose a privacy-regularized training framework that directly constrains information flow between agent outputs and agent-local sensitive variables. We evaluate our approach across sequential agent pipelines of varying depth on three benchmark datasets, demonstrating stable optimization dynamics and consistent, interpretable privacy-utility trade-offs. Our results show that privacy in agentic LLM systems cannot be guaranteed by local constraints alone and must instead be treated as a system-level property during both training and deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.12749v1">SoK: Understanding the Pedagogical, Health, Ethical, and Privacy Challenges of Extended Reality in Early Childhood Education</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-13T09:25:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Supriya Khadka, Sanchari Das</p>
-    <p><b>Summary:</b> Extended Reality (XR) combines dense sensing, real-time rendering, and close-range interaction, making its use in early childhood education both promising and high risk. To investigate this, we conduct a Systematization of Knowledge (SoK) of 111 peer-reviewed studies with children aged 3-8, quantifying how technical, pedagogical, health, privacy, and equity challenges arise in practice. We found that AR dominates the landscape (73%), focusing primarily on tablets or phones, while VR remains uncommon and typically relies on head mounted displays (HMDs). We integrate these quantitative patterns into a joint risk and attention matrix and an Augmented Human Development (AHD) model that link XR pipeline properties to cognitive load, sensory conflict, and access inequity. Finally, implementing a seven dimension coding scheme on a 0 - 2 scale, we obtain mean scholarly attention scores of 1.56 for pedagogy, 1.04 for privacy (primarily procedural consent), 0.96 for technical reliability, 0.92 for accessibility in low resource contexts, 0.81 for medical and health issues, 0.52 for accessibility for disabilities, and 0.14 for data security practices. This indicates that pedagogy receives the most systematic scrutiny, while data access practices is largely overlooked. We conclude by offering a roadmap for Child-Centered XR that helps HCI researchers and educators move beyond novelty to design systems that are developmentally aligned, secure by default, and accessible to diverse learners.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.11029v1">Separating Oblivious and Adaptive Differential Privacy under Continual Observation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-03-11T17:51:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mark Bun, Marco Gaboardi, Connor Wagaman</p>
+    <p><b>Summary:</b> We resolve an open question of Jain, Raskhodnikova, Sivakumar, and Smith (ICML 2023) by exhibiting a problem separating differential privacy under continual observation in the oblivious and adaptive settings. The continual observation (a.k.a. continual release) model formalizes privacy for streaming algorithms, where data is received over time and output is released at each time step. In the oblivious setting, privacy need only hold for data streams fixed in advance; in the adaptive setting, privacy is required even for streams that can be chosen adaptively based on the streaming algorithm's output.
+  We describe the first explicit separation between the oblivious and adaptive settings. The problem showing this separation is based on the correlated vector queries problem of Bun, Steinke, and Ullman (SODA 2017). Specifically, we present an $(\varepsilon,0)$-DP algorithm for the oblivious setting that remains accurate for exponentially many time steps in the dimension of the input. On the other hand, we show that every $(\varepsilon,δ)$-DP adaptive algorithm fails to be accurate after releasing output for only a constant number of time steps.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.09904v1">Dynamic Average Consensus with Privacy Guarantees and Its Application to Battery Energy Storage Systems</a></h3>
@@ -657,6 +634,20 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.10073v1">Universal Shuffle Asymptotics, Part II: Non-Gaussian Limits for Shuffle Privacy -- Poisson, Skellam, and Compound-Poisson Regimes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">
+  <p><b>Published on:</b> 2026-03-10T05:39:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Shvets</p>
+    <p><b>Summary:</b> Part I of this series (arXiv:2602.09029) develops a sharp Gaussian (LAN/GDP) limit theory for neighboring shuffle experiments when the local randomizer is fixed and has full support bounded away from zero. The present paper characterizes the first universality-breaking frontier: critical sequences of increasingly concentrated local randomizers for which classical Lindeberg conditions fail and the shuffle score exhibits rare macroscopic jumps.
+  For shuffled binary randomized response with local privacy $\varepsilon_0 = \varepsilon_0(n)$, we prove experiment-level convergence (in Le Cam distance) to explicit shift limit experiments: a Poisson-shift limit for the canonical neighboring pair when $\exp(\varepsilon_0(n))/n \to c^2$, and a Skellam-shift limit for proportional compositions $k/n \to π\in (0,1)$ in the same scaling, including an explicit disappearance of the two-sided $δ$-floor away from boundary compositions.
+  For general finite alphabets, we introduce a sparse-error critical regime and prove a multivariate compound-Poisson / independent Poisson vector limit for the centered released histogram, yielding a multivariate Poisson-shift experiment and an explicit limiting $(\varepsilon, δ)$ curve as a multivariate Poisson series. Together with Part I, these results yield a three-regime picture (Gaussian/GDP, critical Poisson/Skellam/compound-Poisson, and super-critical no privacy) under convergent macroscopic scalings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.09214v1">PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-03-10T05:33:40Z</p>
@@ -669,13 +660,25 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09167v1">Optimal partition selection with Rényi differential privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.09167v2">Optimal partition selection with Rényi differential privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-10T04:13:38Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Charlie Harrison, Pasin Pasin Manurangsi</p>
+    <p><b>Authors:</b> Charlie Harrison, Pasin Manurangsi</p>
     <p><b>Summary:</b> A common problem in private data analysis is the partition selection problem, where each user holds a set of partitions (e.g. keys in a GROUP BY operation) from a possibly unbounded set. The challenge here is in maximizing the set of released partitions while respecting a differential privacy constraint. Previous work [Desfontaines et al., PoPETS 2022] presented an optimal $(\varepsilon, δ)$-DP algorithm when each user submits only a single partition. We generalize this approach to find the optimal algorithm under $δ$-approximate $(α, \varepsilon)$-Rényi differential privacy (RDP), which allows much tighter analysis under composition. Motivated by the non-existence of a general optimality result in the case where users submit multiple partitions each, we present an extension of our optimal algorithm tuned for $L^2$ bounded weighted partition selection which can be used as a drop-in improvement over the Gaussian mechanism any time the partition frequency is not also needed. We show that our primitive can be easily plugged into state of the art partition selection algorithms (PolicyGaussian from [Gopi et al., ICML 2020] and MAD2R from [Chen et al., ICML 2025]), improving performance both for parallel and sequential adaptive algorithms. Finally, we show that there is an inherent cost to algorithms which do support releasing the frequency as well as the partitions. Specifically, we formulate a basic notion of optimal approximate RDP algorithm for partition selection using additive noise, and show that there is a numerical separation between additive and non-additive noise mechanisms for this problem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.10063v1">Building Privacy-and-Security-Focused Federated Learning Infrastructure for Global Multi-Centre Healthcare Research</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2026-03-09T22:13:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fan Zhang, Daniel Kreuter, Javier Fernandez-Marques, BloodCounts Consortium, Gregory Verghese, Bernard Butler, Nicholas Lane, Suthesh Sivapalaratnam, Joseph Taylor, Norbert C. J. de Wit, Nicholas S. Gleadall, Carola-Bibiane Schönlieb, Michael Roberts</p>
+    <p><b>Summary:</b> Collaborative healthcare research across multiple institutions increasingly requires diverse clinical datasets, but cross-border data sharing is strictly constrained by privacy regulations. Federated learning (FL) enables model training while keeping data local; however, many existing frameworks remain proof-of-concept and do not adequately address governance risks such as unauthorised participation, misuse, and lack of accountability. In particular, enforceable mechanisms for authentication, authorisation, and accounting (AAA) are often missing, limiting real-world clinical deployment. This paper presents FLA$^3$ (Federated Learning with Authentication, Authorisation, and Accounting), a governance-aware federated learning platform that operationalises regulatory obligations through runtime policy enforcement. FLA$^3$ integrates eXtensible Access Control Markup Language (XACML) compliant attribute-based access control (ABAC), cryptographic accounting, and study-scoped federation directly into the federated learning orchestration layer to enforce institutional sovereignty and protocol adherence. We evaluate FLA$^3$ through two complementary studies. First, we demonstrate operational feasibility by deploying the platform infrastructure across five BloodCounts! Consortium institutions in four countries: United Kingdom, Netherlands, India, and The Gambia. Second, we assess clinical utility using simulated federation of full blood count (FBC) data from 54,446 samples from 35,315 subjects across 25 centres in the INTERVAL study. Results show that FLA$^3$ achieves predictive performance comparable to centralised training while strictly enforcing governance constraints. These results show that enforceable governance can function as a first-class privacy-preserving control, improving trustworthiness for scalable artificial intelligence (AI) in cross-jurisdictional healthcare deployments.</p>
   </details>
 </div>
 
