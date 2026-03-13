@@ -508,80 +508,83 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.15304v1">Hybrid Federated and Split Learning for Privacy Preserving Clinical Prediction and Treatment Optimization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-17T01:57:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Farzana Akter, Rakib Hossain, Deb Kanna Roy Toushi, Mahmood Menon Khan, Sultana Amin, Lisan Al Amin</p>
-    <p><b>Summary:</b> Collaborative clinical decision support is often constrained by governance and privacy rules that prevent pooling patient-level records across institutions. We present a hybrid privacy-preserving framework that combines Federated Learning (FL) and Split Learning (SL) to support decision-oriented healthcare modeling without raw-data sharing. The approach keeps feature-extraction trunks on clients while hosting prediction heads on a coordinating server, enabling shared representation learning and exposing an explicit collaboration boundary where privacy controls can be applied. Rather than assuming distributed training is inherently private, we audit leakage empirically using membership inference on cut-layer representations and study lightweight defenses based on activation clipping and additive Gaussian noise. We evaluate across three public clinical datasets under non-IID client partitions using a unified pipeline and assess performance jointly along four deployment-relevant axes: factual predictive utility, uplift-based ranking under capacity constraints, audited privacy leakage, and communication overhead. Results show that hybrid FL-SL variants achieve competitive predictive performance and decision-facing prioritization behavior relative to standalone FL or SL, while providing a tunable privacy-utility trade-off that can reduce audited leakage without requiring raw-data sharing. Overall, the work positions hybrid FL-SL as a practical design space for privacy-preserving healthcare decision support where utility, leakage risk, and deployment cost must be balanced explicitly.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.15290v1">Intellicise Wireless Networks Meet Agentic AI: A Security and Privacy Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2026-02-17T01:19:33Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rui Meng, Zhidi Zhang, Song Gao, Yaheng Wang, Xiaodong Xu, Yijing Lin, Yiming Liu, Chenyuan Feng, Lexi Xu, Yi Ma, Ping Zhang, Rahim Tafazolli</p>
-    <p><b>Summary:</b> Intellicise (Intelligent and Concise) wireless network is the main direction of the evolution of future mobile communication systems, a perspective now widely acknowledged across academia and industry. As a key technology within it, Agentic AI has garnered growing attention due to its advanced cognitive capabilities, enabled through continuous perception-memory-reasoning-action cycles. This paper first analyses the unique advantages that Agentic AI introduces to intellicise wireless networks. We then propose a structured taxonomy for Agentic AI-enhanced secure intellicise wireless networks. Building on this framework, we identify emerging security and privacy challenges introduced by Agentic AI and summarize targeted strategies to address these vulnerabilities. A case study further demonstrates Agentic AI's efficacy in defending against intelligent eavesdropping attacks. Finally, we outline key open research directions to guide future exploration in this field.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.15028v1">Long Context, Less Focus: A Scaling Gap in LLMs Revealed through Privacy and Personalization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-16T18:59:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shangding Gu</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly deployed in privacy-critical and personalization-oriented scenarios, yet the role of context length in shaping privacy leakage and personalization effectiveness remains largely unexplored. We introduce a large-scale benchmark, PAPerBench, to systematically study how increasing context length influences both personalization quality and privacy protection in LLMs. The benchmark comprises approximately 29,000 instances with context lengths ranging from 1K to 256K tokens, yielding a total of 377K evaluation questions. It jointly evaluates personalization performance and privacy risks across diverse scenarios, enabling controlled analysis of long-context model behavior. Extensive evaluations across state-of-the-art LLMs reveal consistent performance degradation in both personalization and privacy as context length increases. We further provide a theoretical analysis of attention dilution under context scaling, explaining this behavior as an inherent limitation of soft attention in fixed-capacity Transformers. The empirical and theoretical findings together suggest a general scaling gap in current models -- long context, less focus. We release the benchmark to support reproducible evaluation and future research on scalable privacy and personalization. Code and data are available at https://github.com/SafeRL-Lab/PAPerBench</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.13941v1">Avoiding Social Judgment, Seeking Privacy: Investigating why Mothers Shift from Facebook Groups to Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-15T00:37:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shayla Sharmin, Sadia Afrin</p>
-    <p><b>Summary:</b> Social media platforms, especially Facebook parenting groups, have long been used as informal support networks for mothers seeking advice and reassurance. However, growing concerns about social judgment, privacy exposure, and unreliable information are changing how mothers seek help. This exploratory mixed-method study examines why mothers are moving from Facebook parenting groups to large language models such as ChatGPT and Gemini. We conducted a cross-sectional online survey of 109 mothers. Results show that 41.3% of participants avoided Facebook parenting groups because they expected judgment from others. This difference was statistically significant across location and family structure. Mothers living in their home country and those in joint families were more likely to avoid Facebook groups. Qualitative findings revealed three themes: social judgment and exposure, LLMs as safe and private spaces, and quick and structured support. Participants described LLMs as immediate, emotionally safe, and reliable alternatives that reduce social risk when asking for help. Rather than replacing human support, LLMs appear to fill emotional and practical gaps within existing support systems. These findings show a change in maternal digital support and highlight the need to design LLM systems that support both information and emotional safety.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.13840v1">PrivAct: Internalizing Contextual Privacy Preservation via Multi-Agent Preference Training</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-02-14T18:07:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuhan Cheng, Hancheng Ye, Hai Helen Li, Jingwei Sun, Yiran Chen</p>
-    <p><b>Summary:</b> Large language model (LLM) agents are increasingly deployed in personalized tasks involving sensitive, context-dependent information, where privacy violations may arise in agents' action due to the implicitness of contextual privacy. Existing approaches rely on external, inference-time interventions which are brittle, scenario-specific, and may expand the privacy attack surface. We propose PrivAct, a contextual privacy-aware multi-agent learning framework that internalizes contextual privacy preservation directly into models' generation behavior for privacy-compliant agentic actions. By embedding privacy preferences into each agent, PrivAct enhances system-wide contextual integrity while achieving a more favorable privacy-helpfulness tradeoff. Experiments across multiple LLM backbones and benchmarks demonstrate consistent improvements in contextual privacy preservation, reducing leakage rates by up to 12.32% while maintaining comparable helpfulness, as well as zero-shot generalization and robustness across diverse multi-agent topologies. Code is available at https://github.com/chengyh23/PrivAct.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00081v1">From Framework to Practice: Youth Negotiations of Privacy with Smart Voice Assistants Through the PEA-AI Lens</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-02-14T03:03:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Molly Campbell, Yulia Bobkova, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> Smart voice assistants (SVAs) have become embedded in the daily lives of youth, introducing complex privacy challenges due to always-on listening, shared device usage, and opaque data practices. This study applies the Privacy-Ethics Alignment in AI (PEA-AI) framework to examine how youth perceive and negotiate privacy within SVAs. Through a survey of 469 Canadian youth (aged 16-24), we measured five privacy constructs: Perceived Privacy Risk (PPR), Perceived Privacy Benefits (PPBf), Algorithmic Transparency and Trust (ATT), Privacy Self-Efficacy (PSE), and Privacy-Protective Behavior (PPB). Results reveal a persistent privacy paradox. While youth express moderate to high privacy concerns (PPR M = 3.61), perceived benefits (PPBf M = 3.00) and protective actions (PPB M = 3.03) remain moderate, with transparency and trust scoring lowest (ATT M = 2.52). Heavy SVA users report higher benefits and lower risk perception than light users. High protective behavior is strongly associated with both high risk perception and high self-efficacy. Qualitative insights from prior focus groups contextualize these patterns, illustrating how youth navigate tensions between convenience, control, and trust. The findings provide actionable design principles for SVA along with implications for multi-stakeholder governance and youth-centered digital literacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12237v1">STAMP: Selective Task-Aware Mechanism for Text Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-03-12T17:55:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fengwei Tian, Payel Bhattacharjee, Heidi Hanson, Geoffrey D. Rubin, Joseph Y. Lo, Ravi Tandon</p>
+    <p><b>Summary:</b> We present STAMP (Selective Task-Aware Mechanism for Text Privacy), a new framework for task-aware text privatization that achieves an improved privacy-utility trade-off. STAMP selectively allocates privacy budgets across tokens by jointly considering (i) each token's importance to the downstream task (as measured via a task- or query-specific representation), and (ii) its privacy sensitivity (e.g., names, dates, identifiers). This token-level partitioning enables fine-grained, group-wise control over the level of noise applied to different parts of the input, balancing privacy protection with task relevance. To privatize individual token embeddings, we introduce the polar mechanism, which perturbs only the direction of embeddings on the unit sphere while preserving their magnitude. Decoding is performed via cosine nearest-neighbor search, aligning the perturbation geometry with the decoding geometry. Unlike isotropic noise mechanisms, the polar mechanism maintains semantic neighborhoods in the embedding space and better preserves downstream utility. Experimental evaluations on SQuAD, Yelp, and AG News datasets demonstrate that STAMP, when combined with the normalized polar mechanism, consistently achieves superior privacy-utility trade-offs across varying per-token privacy budgets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12195v1">Privacy in ERP Systems: Behavioral Models of Developers and Consultants</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-12T17:24:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alicia Pang, Katsiaryna Labunets, Olga Gadyatskaya</p>
+    <p><b>Summary:</b> Applications like Enterprise Resource Planning (ERP) systems have become an indispensable part of the corporate digital infrastructure. These systems store sensitive data about customers, suppliers, and employees, and thus companies have to process these data in accordance with applicable regulations like the GDPR (the EU General Data Protection Regulation). This can be challenging due to a variety of reasons. For example, prior research has shown that developers sometimes lack knowledge about privacy.
+  In this work, we focus on privacy in ERP systems in the context of an international consultancy firm. We investigate the privacy awareness regarding privacy-by-design and data minimization of two important populations: developers of ERP systems and managers and consultants responsible for services related to ERP systems. Applying thematic analysis, we elicit privacy behavioral models of these two populations using Fogg's Behavioral Model (FBM) framework. Our findings provide a means to stimulate more adequate privacy-related behaviors for developers and consultants.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12142v1">Understanding Disclosure Risk in Differential Privacy with Applications to Noise Calibration and Auditing (Extended Version)</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-03-12T16:43:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Patricia Guerra-Balboa, Annika Sauer, Héber H. Arcolezi, Thorsten Strufe</p>
+    <p><b>Summary:</b> Differential Privacy (DP) is widely adopted in data management systems to enable data sharing with formal disclosure guarantees. A central systems challenge is understanding how DP noise translates into effective protection against inference attacks, since this directly determines achievable utility. Most existing analyses focus only on membership inference -- capturing only a threat -- or rely on reconstruction robustness (ReRo). However, under realistic assumptions, we show that ReRo can yield misleading risk estimates and violate claimed bounds, limiting their usefulness for principled DP calibration and auditing.
+  This paper introduces reconstruction advantage, a unified risk metric that consistently captures risk across membership inference, attribute inference, and data reconstruction. We derive tight bounds that relate DP noise to adversarial advantage and characterize optimal adversarial strategies for arbitrary DP mechanisms and attacker knowledge. These results enable risk-driven noise calibration and provide a foundation for systematic DP auditing. We show that reconstruction advantage improves the accuracy and scope of DP auditing and enables more effective utility-privacy trade-offs in DP-enabled data management systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12094v1">Human-Centred LLM Privacy Audits: Findings and Frictions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-03-12T16:01:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dimitri Staufer, Kirsten Morehouse, David Hartmann, Bettina Berendt</p>
+    <p><b>Summary:</b> Large language models (LLMs) learn statistical associations from massive training corpora and user interactions, and deployed systems can surface or infer information about individuals. Yet people lack practical ways to inspect what a model associates with their name. We report interim findings from an ongoing study and introduce LMP2, a browser-based self-audit tool. In two user studies ($N_{total}{=}458$), GPT-4o predicts 11 of 50 features for everyday people with $\ge$60\% accuracy, and participants report wanting control over LLM-generated associations despite not considering all outputs privacy violations. To validate our probing method, we evaluate eight LLMs on public figures and non-existent names, observing clear separation between stable name-conditioned associations and model defaults. Our findings also contribute to exposing a broader generative AI evaluation crisis: when outputs are probabilistic, context-dependent, and user-mediated through elicitation, what model--individual associations even include is under-specified and operationalisation relies on crafting probes and metrics that are hard to validate or compare. To move towards reliable, actionable human-centred LLM privacy audits, we identify nine frictions that emerged in our study and offer recommendations for future work and the design of human-centred LLM privacy audits.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.11526v1">CFD-HAR: User-controllable Privacy through Conditional Feature Disentanglement</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-12T04:29:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Gn, Fan Li, S Kuniyilh, Ada Axan</p>
+    <p><b>Summary:</b> Modern wearable and mobile devices are equipped with inertial measurement units (IMUs). Human Activity Recognition (HAR) applications running on such devices use machine-learning-based, data-driven techniques that leverage such sensor data. However, sensor-data-driven HAR deployments face two critical challenges: protecting sensitive user information embedded in sensor data in accordance with users' privacy preferences and maintaining high recognition performance with limited labeled samples. This paper proposes a technique for user-controllable privacy through feature disentanglement-based representation learning at the granular level for dynamic privacy filtering. We also compare the efficacy of our technique against few-shot HAR using autoencoder-based representation learning. We analyze their architectural designs, learning objectives, privacy guarantees, data efficiency, and suitability for edge Internet of Things (IoT) deployment. Our study shows that CFD-based HAR provides explicit, tunable privacy protection controls by separating activity and sensitive attributes in the latent space, whereas autoencoder-based few-shot HAR offers superior label efficiency and lightweight adaptability but lacks inherent privacy safeguards. We further examine the security implications of both approaches in continual IoT settings, highlighting differences in susceptibility to representation leakage and embedding-level attacks. The analysis reveals that neither paradigm alone fully satisfies the emerging requirements of next-generation IoT HAR systems. We conclude by outlining research directions toward unified frameworks that jointly optimize privacy preservation, few-shot adaptability, and robustness for trustworthy IoT intelligence.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.11523v1">Strict Optimality of Frequency Estimation Under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-12T04:16:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mingen Pan</p>
+    <p><b>Summary:</b> This paper establishes the strict optimality in precision for frequency estimation under local differential privacy (LDP). We prove that a frequency estimator with a symmetric and extremal configuration, and a constant support size equal to an optimized value, is sufficient to achieve maximum precision. Furthermore, we derive that the communication cost of such an optimal estimator can be as low as $\log_2(\frac{d(d-1)}{2}+1)$, where $d$ denotes the dictionary size, and propose an algorithm to generate this optimal estimator.
+  In addition, we introduce a modified Count-Mean Sketch and demonstrate that it is practically indistinguishable from theoretical optimality with a sufficiently large dictionary size (e.g., $d=100$ for a privacy factor of $ε= 1$). We compare existing methods with our proposed optimal estimator to provide selection guidelines for practical deployment. Finally, the performance of these estimators is evaluated experimentally, showing that the empirical results are consistent with our theoretical derivations.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.11029v1">Separating Oblivious and Adaptive Differential Privacy under Continual Observation</a></h3>
@@ -925,13 +928,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04493v1">Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.04493v2">Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2026-03-04T19:00:01Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Bartosz Regula, Marco Tomamichel</p>
-    <p><b>Summary:</b> We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints. Our main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. For the key case of measured smooth Rényi divergence of order 2, we show that this can be alternatively understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. Building on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on quantum privacy amplification and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of randomness extraction, obtaining a corresponding improved one-shot bound. Relaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured Rényi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponent of [Dupuis, arXiv:2105.05342]. We show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., arXiv:2202.11590] and proving its optimality for all hash functions.</p>
+    <p><b>Summary:</b> We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints. Our main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. A key role is played by the measured smooth Rényi relative entropy of order 2, which we show to admit an equivalent variational form: it can be understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. Building on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on extractable randomness and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of privacy amplification, obtaining a corresponding improved one-shot bound. Relaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured Rényi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponent of [Dupuis, arXiv:2105.05342]. We show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., arXiv:2202.11590] and proving its optimality for all hash functions.</p>
   </details>
 </div>
 
