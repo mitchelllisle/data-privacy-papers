@@ -460,56 +460,56 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.15614v1">Onto-DP: Constructing Neighborhoods for Differential Privacy on Ontological Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-17T14:42:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yasmine Hayder, Adrien Boiret, Cédric Eichler, Benjamin Nguyen</p>
-    <p><b>Summary:</b> In this paper, we investigate how attackers can discover sensitive information embedded within databases by exploiting inference rules. We demonstrate the inadequacy of naively applied existing state of the art differential privacy (DP) models in safeguarding against such attacks. We introduce ontology aware differential privacy (Onto-DP), a novel extension of differential privacy paradigms built on top of any classical DP model by enriching it with semantic awareness. We show that this extension is a sufficient condition to adequately protect against attackers aware of inference rules.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.02240v1">SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-17T12:35:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Varun Pratap Bhardwaj</p>
-    <p><b>Summary:</b> We present SuperLocalMemory, a local-first memory system for multi-agent AI that defends against OWASP ASI06 memory poisoning through architectural isolation and Bayesian trust scoring, while personalizing retrieval through adaptive learning-to-rank -- all without cloud dependencies or LLM inference calls. As AI agents increasingly rely on persistent memory, cloud-based memory systems create centralized attack surfaces where poisoned memories propagate across sessions and users -- a threat demonstrated in documented attacks against production systems. Our architecture combines SQLite-backed storage with FTS5 full-text search, Leiden-based knowledge graph clustering, an event-driven coordination layer with per-agent provenance, and an adaptive re-ranking framework that learns user preferences through three-layer behavioral analysis (cross-project technology preferences, project context detection, and workflow pattern mining). Evaluation across seven benchmark dimensions demonstrates 10.6ms median search latency, zero concurrency errors under 10 simultaneous agents, trust separation (gap =0.90) with 72% trust degradation for sleeper attacks, and 104% improvement in NDCG@5 when adaptive re-ranking is enabled. Behavioral data is isolated in a separate database with GDPR Article 17 erasure support. SuperLocalMemory is open-source (MIT) and integrates with 17+ development tools via Model Context Protocol.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.15919v1">Generalized Leverage Score for Scalable Assessment of Privacy Vulnerability</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-17T07:07:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Valentin Dorseuil, Jamal Atif, Olivier Cappé</p>
-    <p><b>Summary:</b> Can the privacy vulnerability of individual data points be assessed without retraining models or explicitly simulating attacks? We answer affirmatively by showing that exposure to membership inference attack (MIA) is fundamentally governed by a data point's influence on the learned model. We formalize this in the linear setting by establishing a theoretical correspondence between individual MIA risk and the leverage score, identifying it as a principled metric for vulnerability. This characterization explains how data-dependent sensitivity translates into exposure, without the computational burden of training shadow models. Building on this, we propose a computationally efficient generalization of the leverage score for deep learning. Empirical evaluations confirm a strong correlation between the proposed score and MIA success, validating this metric as a practical surrogate for individual privacy risk assessment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.15377v1">Orchestration-Free Customer Service Automation: A Privacy-Preserving and Flowchart-Guided Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-17T06:17:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mengze Hong, Chen Jason Zhang, Zichang Guo, Hanlin Gu, Di Jiang, Li Qing</p>
-    <p><b>Summary:</b> Customer service automation has seen growing demand within digital transformation. Existing approaches either rely on modular system designs with extensive agent orchestration or employ over-simplified instruction schemas, providing limited guidance and poor generalizability. This paper introduces an orchestration-free framework using Task-Oriented Flowcharts (TOFs) to enable end-to-end automation without manual intervention. We first define the components and evaluation metrics for TOFs, then formalize a cost-efficient flowchart construction algorithm to abstract procedural knowledge from service dialogues. We emphasize local deployment of small language models and propose decentralized distillation with flowcharts to mitigate data scarcity and privacy issues in model training. Extensive experiments validate the effectiveness in various service tasks, with superior quantitative and application performance compared to strong baselines and market products. By releasing a web-based system demonstration with case studies, we aim to promote streamlined creation of future service automation.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.13186v1">Learnability and Privacy Vulnerability are Entangled in a Few Critical Weights</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-13T17:20:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xingli Fang, Jung-Eun Kim</p>
+    <p><b>Summary:</b> Prior approaches for membership privacy preservation usually update or retrain all weights in neural networks, which is costly and can lead to unnecessary utility loss or even more serious misalignment in predictions between training data and non-training data. In this work, we observed three insights: i) privacy vulnerability exists in a very small fraction of weights; ii) however, most of those weights also critically impact utility performance; iii) the importance of weights stems from their locations rather than their values. According to these insights, to preserve privacy, we score critical weights, and instead of discarding those neurons, we rewind only the weights for fine-tuning. We show that, through extensive experiments, this mechanism exhibits outperforming resilience in most cases against Membership Inference Attacks while maintaining utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12753v1">Balancing the privacy-utility trade-off: How to draw reliable conclusions from private data</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-13T07:54:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Raphaël de Fondeville</p>
+    <p><b>Summary:</b> Absolute anonymization, conceived as an irreversible transformation that prevents re-identification and sensitive value disclosure, has proven to be a broken promise. Consequently, modern data protection must shift toward a privacy-utility trade-off grounded in risk mitigation. Differential Privacy (DP) offers a rigorous mathematical framework for balancing quantified disclosure risk with analytical usefulness. Nevertheless, widespread adoption remains limited, largely because effective translation of complex technical concepts, such as privacy-loss parameters, into forms meaningful to non-technical stakeholders has yet to be achieved. This difficulty arises from the inherent use of randomization: both legitimate analysts and potential adversaries must draw conclusions from uncertain observations rather than deterministic values. In this work, we propose a new interpretation of the privacy-utility trade-off based on hypothesis testing. This perspective explicitly accounts for the uncertainty introduced by randomized mechanisms in both membership inference scenarios and general data analysis. In particular, we introduce the concept of relative disclosure risk to quantify the maximum reduction in uncertainty an adversary can obtain from protected outputs, and we show that this measure is directly related to standard privacy-loss parameters. At the same time, we analyze how DP affects analytical validity by studying its impact on hypothesis tests commonly used to assess the statistical significance of empirical results. Finally, we provide practical guidance, accessible to non-experts, for navigating the privacy-utility trade-off, aiding in the selection of suitable protection mechanisms and the values for the privacy-loss parameters.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12598v1">Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-03-13T03:03:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiangkui Cao, Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen</p>
+    <p><b>Summary:</b> Large Vision-Language Models (LVLMs) have shown remarkable potential across a wide array of vision-language tasks, leading to their adoption in critical domains such as finance and healthcare. However, their growing deployment also introduces significant security and privacy risks. Malicious actors could potentially exploit these models to extract sensitive information, highlighting a critical vulnerability. Recent studies show that LVLMs often fail to consistently refuse instructions designed to compromise user privacy. While existing work on privacy protection has made meaningful progress in preventing the leakage of sensitive data, they are constrained by limitations in both generalization and non-destructiveness. They often struggle to robustly handle unseen privacy-related queries and may inadvertently degrade a model's performance on standard tasks. To address these challenges, we introduce Neural Gate, a novel method for mitigating privacy risks through neuron-level model editing. Our method improves a model's privacy safeguards by increasing its rate of refusal for privacy-related questions, crucially extending this protective behavior to novel sensitive queries not encountered during the editing process. Neural Gate operates by learning a feature vector to identify neurons associated with privacy-related concepts within the model's representation of a subject. This localization then precisely guides the update of model parameters. Through comprehensive experiments on MiniGPT and LLaVA, we demonstrate that our method significantly boosts the model's privacy protection while preserving its original utility.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.12374v1">The Privacy-Utility Trade-Off of Location Tracking in Ad Personalization</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-12T18:52:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad Mosaffa, Omid Rafieian</p>
+    <p><b>Summary:</b> Firms collect vast amounts of behavioral and geographical data on individuals. While behavioral data captures an individual's digital footprint, geographical data reflects their physical footprint. Given the significant privacy risks associated with combining these data sources, it is crucial to understand their respective value and whether they act as complements or substitutes in achieving firms' business objectives. In this paper, we combine economic theory, machine learning, and causal inference to quantify the value of geographical data, the extent to which behavioral data can substitute for it, and the mechanisms through which it benefits firms. Using data from a leading in-app advertising platform in a large Asian country, we document that geographical data is most valuable in the early cold-start stage, when behavioral histories are limited. In this stage, geographical data complements behavioral data, improving targeting performance by almost 20%. As users accumulate richer behavioral histories, however, the role of geographical data shifts: it becomes largely substitutable, as behavioral data alone captures the relevant heterogeneity. These results highlight a central privacy-utility trade-off in ad personalization and inform managerial decisions about when location tracking creates value.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.12237v1">STAMP: Selective Task-Aware Mechanism for Text Privacy</a></h3>
