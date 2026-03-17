@@ -1711,5 +1711,485 @@
       "econ.EM",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.15609v1",
+    "title" : "Differential Privacy for Network Connectedness Indices",
+    "summary" : "Researchers increasingly use data on social and economic networks to study a range of social science questions, but releasing statistics derived from networks can raise significant privacy concerns. We show how to release network connectedness indices that quantify assortative mixing across node attributes under edge-adjacent differential privacy. Standard privacy techniques perform poorly in this setting both because connectedness indices have high global sensitivity and because a single node's attribute can potentially be an input to connectedness in thousands of cells, leading to poor composition. Our method, which is straightforward to apply, first adds noise to node attributes, then analytically debiases downstream statistics, and finally applies a second layer of noise to protect the presence or absence of individual edges. We prove consistency and asymptotic normality of our estimators for both discrete and continuous labels and show our method works well in simulations and on real networks with as few as 200 nodes collected by social scientists.",
+    "updated" : "2026-03-16T17:57:24Z",
+    "published" : "2026-03-16T17:57:24Z",
+    "authors" : [
+      {
+        "name" : "Tom A. Rutter"
+      },
+      {
+        "name" : "Yuxin Liu"
+      },
+      {
+        "name" : "M. Amin Rahimian"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "cs.CR",
+      "cs.CY",
+      "cs.SI",
+      "physics.soc-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.15023v1",
+    "title" : "SIMD-PAC-DB: Pretty Performant PAC Privacy",
+    "summary" : "This work presents a highly optimized implementation of PAC-DB, a recent and promising database privacy model. We prove that our SIMD-PAC-DB can compute the same privatized answer with just a single query, instead of the 128 stochastic executions against different 50% database sub-samples needed by the original PAC-DB. Our key insight is that every bit of a hashed primary key can be seen to represent membership of such a sub-sample. We present new algorithms for approximate computation of stochastic aggregates based on these hashes, which, thanks to their SIMD-friendliness, run up to 40x faster than scalar equivalents. We release an open-source DuckDB community extension which includes a rewriter that PAC-privatizes arbitrary SQL queries. Our experiments on TPC-H, Clickbench, and SQLStorm evaluate thousands of queries in terms of performance and utility, significantly advancing the ease of use and functionality of privacy-aware data systems in practice.",
+    "updated" : "2026-03-16T09:24:08Z",
+    "published" : "2026-03-16T09:24:08Z",
+    "authors" : [
+      {
+        "name" : "Ilaria Battiston"
+      },
+      {
+        "name" : "Dandan Yuan"
+      },
+      {
+        "name" : "Xiaochen Zhu"
+      },
+      {
+        "name" : "Peter Boncz"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14994v1",
+    "title" : "DP-S4S: Accurate and Scalable Select-Join-Aggregate Query Processing with User-Level Differential Privacy",
+    "summary" : "Answering Select-Join-Aggregate queries with DP is a fundamental problem with important applications in various domains. The current SOTA methods ensure user-level DP (i.e., the adversary cannot infer the presence or absence of any given individual user with high confidence) and achieve instance-optimal accuracy on the query results. However, these solutions involve solving expensive optimization programs, which may incur prohibitive computational overhead for large databases.\n  One promising direction to achieve scalability is through sampling, which provides a tunable trade-off between result utility and computational costs. However, applying sampling to differentially private SJA processing is a challenge for two reasons. First, it is unclear what to sample, in order to achieve the best accuracy within a given computational budget. Second, prior solutions were not designed with sampling in mind, and their mathematical tool chains are not sampling-friendly. To our knowledge, the only known solution that applies sampling to private SJA processing is S&E, a recent proposal that (i) samples users and (ii) combines sampling directly with existing solutions to enforce DP. We show that both are suboptimal designs; consequently, even with a relatively high sample rate, the error incurred by S&E can be 10x higher than the underlying DP mechanism without sampling.\n  Motivated by this, we propose Differentially Private Sampling for Scale (DP-S4S), a novel mechanism that addresses the above challenges by (i) sampling aggregation units instead of users, and (ii) laying the mathematical foundation for SJA processing under RDP, which composes more easily with sampling. Further, DP-S4S can answer both scalar and vector SJA queries. Extensive experiments on real data demonstrate that DP-S4S enables scalable SJA processing on large datasets under user-level DP, while maintaining high result utility.",
+    "updated" : "2026-03-16T08:58:38Z",
+    "published" : "2026-03-16T08:58:38Z",
+    "authors" : [
+      {
+        "name" : "Yuan Qiu"
+      },
+      {
+        "name" : "Xiaokui Xiao"
+      },
+      {
+        "name" : "Yin Yang"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14778v1",
+    "title" : "$p^2$RAG: Privacy-Preserving RAG Service Supporting Arbitrary Top-$k$ Retrieval",
+    "summary" : "Retrieval-Augmented Generation (RAG) enables large language models to use external knowledge, but outsourcing the RAG service raises privacy concerns for both data owners and users. Privacy-preserving RAG systems address these concerns by performing secure top-$k$ retrieval, which typically is secure sorting to identify relevant documents. However, existing systems face challenges supporting arbitrary $k$ due to their inability to change $k$, new security issues, or efficiency degradation with large $k$. This is a significant limitation because modern long-context models generally achieve higher accuracy with larger retrieval sets. We propose $p^2$RAG, a privacy-preserving RAG service that supports arbitrary top-$k$ retrieval. Unlike existing systems, $p^2$RAG avoids sorting candidate documents. Instead, it uses an interactive bisection method to determine the set of top-$k$ documents. For security, $p^2$RAG uses secret sharing on two semi-honest non-colluding servers to protect the data owner's database and the user's prompt. It enforces restrictions and verification to defend against malicious users and tightly bound the information leakage of the database. The experiments show that $p^2$RAG is 3--300$\\times$ faster than the state-of-the-art PRAG for $k = 16$--$1024$.",
+    "updated" : "2026-03-16T03:19:39Z",
+    "published" : "2026-03-16T03:19:39Z",
+    "authors" : [
+      {
+        "name" : "Yulong Ming"
+      },
+      {
+        "name" : "Mingyue Wang"
+      },
+      {
+        "name" : "Jijia Yang"
+      },
+      {
+        "name" : "Cong Wang"
+      },
+      {
+        "name" : "Xiaohua Jia"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14756v1",
+    "title" : "Towards Privacy-Preserving Machine Translation at the Inference Stage: A New Task and Benchmark",
+    "summary" : "Current online translation services require sending user text to cloud servers, posing a risk of privacy leakage when the text contains sensitive information. This risk hinders the application of online translation services in privacy-sensitive scenarios. One way to mitigate this risk for online translation services is introducing privacy protection mechanisms targeting the inference stage of translation models. However, compared to subfields of NLP like text classification and summarization, the machine translation research community has limited exploration of privacy protection during the inference stage. There is no clearly defined privacy protection task for the inference stage, dedicated evaluation datasets and metrics, and reference benchmark methods. The absence of these elements has seriously constrained researchers' in-depth exploration of this direction. To bridge this gap, this paper proposes a novel \"Privacy-Preserving Machine Translation\" (PPMT) task, aiming to protect the private information in text during the model inference stage. For this task, we constructed three benchmark test datasets, designed corresponding evaluation metrics, and proposed a series of benchmark methods as a starting point for this task. The definition of privacy is complex and diverse. Considering that named entities often contain a large amount of personal privacy and commercial secrets, we have focused our research on protecting only the named entity's privacy in the text. We expect this research work will provide a new perspective and a solid foundation for the privacy protection problem in machine translation.",
+    "updated" : "2026-03-16T02:41:06Z",
+    "published" : "2026-03-16T02:41:06Z",
+    "authors" : [
+      {
+        "name" : "Wei Shao"
+      },
+      {
+        "name" : "Lemao Liu"
+      },
+      {
+        "name" : "Yinqiao Li"
+      },
+      {
+        "name" : "Guoping Huang"
+      },
+      {
+        "name" : "Shuming Shi"
+      },
+      {
+        "name" : "Linqi Song"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14606v1",
+    "title" : "Collective Grid: Privacy-Preserved Multi-Operator Energy Sharing Optimization via Federated Energy Prediction",
+    "summary" : "Electricity consumption in mobile networks is increasing with the continued 5G expansion, rising data traffic, and more complex infrastructures. However, energy management is often handled independently by each mobile network operator (MNO), leading to limited coordination and missed opportunities for collective efficiency gains. To address this gap, we propose a privacy-preserving framework for automated energy infrastructure sharing among co-located MNOs. Our framework consists of three modules: (i) a federated learning-based privacy-preserving site energy consumption forecasting module, (ii) an orchestration module in which a mixed-integer linear program is solved to schedule energy purchases from the grid, utilization of renewable sources, and shared battery charging or discharging, based on real-time prices, forecasts, and battery state, and (iii) an energy source selection module which handles the selection of cost-effective power sources and storage actions based on predicted demand across MNOs for the next control window. Using data from operational networks, our experiments confirm that the proposed solution substantially reduces operational costs and outperforms non-sharing baselines, with gains that increase as network density rises in 5G-and-beyond deployments.",
+    "updated" : "2026-03-15T21:02:49Z",
+    "published" : "2026-03-15T21:02:49Z",
+    "authors" : [
+      {
+        "name" : "Meysam Masoudi"
+      },
+      {
+        "name" : "Tahar Zanouda"
+      },
+      {
+        "name" : "Milad Ganjalizadeh"
+      },
+      {
+        "name" : "Cicek Cavdar"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14265v1",
+    "title" : "MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering",
+    "summary" : "Recent advances in Retrieval-Augmented Generation (RAG) have enabled large language models (LLMs) to ground outputs in clinical evidence. However, connecting LLMs with external databases introduces the risk of contextual leakage: a subtle privacy threat where unique combinations of medical details enable patient re-identification even without explicit identifiers. Current benchmarks in healthcare heavily focus on accuracy, ignoring such privacy issues, despite strict regulations like Health Insurance Portability and Accountability Act (HIPAA) and General Data Protection Regulation (GDPR). To fill this gap, we present MedPriv-Bench, the first benchmark specifically designed to jointly evaluate privacy preservation and clinical utility in medical open-ended question answering. Our framework utilizes a multi-agent, human-in-the-loop pipeline to synthesize sensitive medical contexts and clinically relevant queries that create realistic privacy pressure. We establish a standardized evaluation protocol leveraging a pre-trained RoBERTa-Natural Language Inference (NLI) model as an automated judge to quantify data leakage, achieving an average of 85.9% alignment with human experts. Through an extensive evaluation of 9 representative LLMs, we demonstrate a pervasive privacy-utility trade-off. Our findings underscore the necessity of domain-specific benchmarks to validate the safety and efficacy of medical AI systems in privacy-sensitive environments.",
+    "updated" : "2026-03-15T07:47:35Z",
+    "published" : "2026-03-15T07:47:35Z",
+    "authors" : [
+      {
+        "name" : "Shaowei Guan"
+      },
+      {
+        "name" : "Yu Zhai"
+      },
+      {
+        "name" : "Hin Chi Kwok"
+      },
+      {
+        "name" : "Jiawei Du"
+      },
+      {
+        "name" : "Xinyu Feng"
+      },
+      {
+        "name" : "Jing Li"
+      },
+      {
+        "name" : "Harry Qin"
+      },
+      {
+        "name" : "Vivian Hui"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14208v1",
+    "title" : "Tracing Your Account: A Gradient-Aware Dynamic Window Graph Framework for Ethereum under Privacy-Preserving Services",
+    "summary" : "With the rapid advancement of Web 3.0 technologies, public blockchain platforms are witnessing the emergence of novel services designed to enhance user privacy and anonymity. However, the powerful untraceability features inherent in these services inadvertently make them attractive tools for criminals seeking to launder illicit funds. Notably, existing de-anonymization methods face three major challenges when dealing with such transactions: highly homogenized transactional semantics, limited ability to model temporal discontinuities, and insufficient consideration of structural sparsity in account association graphs. To address these, we propose GradWATCH, designed to track anonymous accounts in Ethereum privacy-preserving services. Specifically, we first design a learnable account feature mapping module to extract informative transactional semantics from raw on-chain data. We then incorporate transaction relations into the account association graph to alleviate the adverse effects of structural sparsity. To capture temporal evolution, we further propose an edge-aware sliding-window mechanism that propagates and updates gradients at three granularities. Finally, we identify accounts controlled by the same entity by measuring their embedding distances in the learned representation space. Experimental results show that even under the conditions of unbalanced labels and sparse transactions, GradWATCH still achieves significant performance gains, with relative improvements ranging from 1.62% to 15. 22% in the MRR and from 3. 85% to 7. 31% in the F_1.",
+    "updated" : "2026-03-15T03:55:41Z",
+    "published" : "2026-03-15T03:55:41Z",
+    "authors" : [
+      {
+        "name" : "Miao Shuyi"
+      },
+      {
+        "name" : "Qiu Wangjie"
+      },
+      {
+        "name" : "Tu Xiaofan"
+      },
+      {
+        "name" : "Li Yunze"
+      },
+      {
+        "name" : "Wen Yongxin"
+      },
+      {
+        "name" : "Zheng Zhiming"
+      }
+    ],
+    "categories" : [
+      "cs.CE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13978v1",
+    "title" : "When Visual Privacy Protection Meets Multimodal Large Language Models",
+    "summary" : "The emergence of Multimodal Large Language Models (MLLMs) and the widespread usage of MLLM cloud services such as GPT-4V raised great concerns about privacy leakage in visual data. As these models are typically deployed in cloud services, users are required to submit their images and videos, posing serious privacy risks. However, how to tackle such privacy concerns is an under-explored problem. Thus, in this paper, we aim to conduct a new investigation to protect visual privacy when enjoying the convenience brought by MLLM services. We address the practical case where the MLLM is a \"black box\", i.e., we only have access to its input and output without knowing its internal model information. To tackle such a challenging yet demanding problem, we propose a novel framework, in which we carefully design the learning objective with Pareto optimality to seek a better trade-off between visual privacy and MLLM's performance, and propose critical-history enhanced optimization to effectively optimize the framework with the black-box MLLM. Our experiments show that our method is effective on different benchmarks.",
+    "updated" : "2026-03-14T15:15:32Z",
+    "published" : "2026-03-14T15:15:32Z",
+    "authors" : [
+      {
+        "name" : "Xiaofei Hui"
+      },
+      {
+        "name" : "Qian Wu"
+      },
+      {
+        "name" : "Haoxuan Qu"
+      },
+      {
+        "name" : "Majid Mirmehdi"
+      },
+      {
+        "name" : "Hossein Rahmani"
+      },
+      {
+        "name" : "Jun Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13747v1",
+    "title" : "Designing for Understanding: How Interface-Level Consent Designs Shape Attention and Understanding in Privacy Disclosures",
+    "summary" : "Privacy policies are intended to support informed consent, yet users rarely read them fully. This study examines how common privacy policy interface structures influence attention allocation, reading behavior, and perceived experience. Using eye-tracking and post-task surveys, we compared three interface designs: continuous scrolling text, collapsible sections, and collapsible sections with brief previews. Results show that interface structure systematically shaped how users allocated attention and navigated policy content, but did not uniformly improve comprehension. Guided layouts supported more efficient and coherent reading patterns, whereas more interactive designs elicited higher perceived engagement and satisfaction. Importantly, comprehension was closely linked to sustained attention rather than interface type alone. These findings highlight the limits of interface-centered consent approaches and suggest that effective consent design must account for attention dynamics and selective engagement, rather than assuming that improved layout alone ensures understanding.",
+    "updated" : "2026-03-14T04:35:05Z",
+    "published" : "2026-03-14T04:35:05Z",
+    "authors" : [
+      {
+        "name" : "Wei Xiao"
+      },
+      {
+        "name" : "Mengke Wu"
+      },
+      {
+        "name" : "Yeeun Jo"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13728v1",
+    "title" : "Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search",
+    "summary" : "Learning systems that preserve privacy often inject noise into hierarchical visual representations; a central challenge is to \\emph{model} how such perturbations align with a declared privacy budget in a way that is interpretable and applicable across vision backbones and vision--language models (VLMs). We propose \\emph{Bodhi VLM}, a \\emph{privacy-alignment modeling} framework for \\emph{hierarchical neural representations}: it (1) links sensitive concepts to layer-wise grouping via NCP and MDAV-based clustering; (2) locates sensitive feature regions using bottom-up (BUA) and top-down (TDA) strategies over multi-scale representations (e.g., feature pyramids or vision-encoder layers); and (3) uses an Expectation-Maximization Privacy Assessment (EMPA) module to produce an interpretable \\emph{budget-alignment signal} by comparing the fitted sensitive-feature distribution to an evaluator-specified reference (e.g., Laplace or Gaussian with scale $c/ε$). The output is reference-relative and is \\emph{not} a formal differential-privacy estimator. We formalize BUA/TDA over hierarchical feature structures and validate the framework on object detectors (YOLO, PPDPTS, DETR) and on the \\emph{visual encoders} of VLMs (CLIP, LLaVA, BLIP). BUA and TDA yield comparable deviation trends; EMPA provides a stable alignment signal under the reported setups. We compare with generic discrepancy baselines (Chi-square, K-L, MMD) and with task-relevant baselines (MomentReg, NoiseMLE, Wass-1). Results are reported as mean$\\pm$std over multiple seeds with confidence intervals in the supplementary materials. This work contributes a learnable, interpretable modeling perspective for privacy-aligned hierarchical representations rather than a post hoc audit only. Source code: \\href{https://github.com/mabo1215/bodhi-vlm.git}{Bodhi-VLM GitHub repository}",
+    "updated" : "2026-03-14T03:11:31Z",
+    "published" : "2026-03-14T03:11:31Z",
+    "authors" : [
+      {
+        "name" : "Bo Ma"
+      },
+      {
+        "name" : "Jinsong Wu"
+      },
+      {
+        "name" : "Wei Qi Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13667v1",
+    "title" : "TSDCRF: Balancing Privacy and Multi-Object Tracking via Time-Series CRF and Normalized Control Penalty",
+    "summary" : "Multi-object tracking in video often requires appearance or location cues that can reveal sensitive identity information, while adding privacy-preserving noise typically disrupts cross-frame association and causes ID switches or target loss. We propose TSDCRF, a plug-in refinement framework that balances privacy and tracking by combining three components: (i) $(\\varepsilon,δ)$-differential privacy via calibrated Gaussian noise on sensitive regions under a configurable privacy budget; (ii) a Normalized Control Penalty (NCP) that down-weights unstable or conflicting class predictions before noise injection to stabilize association; and (iii) a time-series dynamic conditional random field (DCRF) that enforces temporal consistency and corrects trajectory deviation after noise, mitigating ID switches and resilience to trajectory hijacking. The pipeline is agnostic to the choice of detector and tracker (e.g., YOLOv4 and DeepSORT). We evaluate on MOT16, MOT17, Cityscapes, and KITTI. Results show that TSDCRF achieves a better privacy--utility trade-off than white noise and prior methods (NTPD, PPDTSA): lower KL-divergence shift, lower tracking RMSE, and improved robustness under trajectory hijacking while preserving privacy. Source code in https://github.com/mabo1215/TSDCRF.git",
+    "updated" : "2026-03-14T00:27:12Z",
+    "published" : "2026-03-14T00:27:12Z",
+    "authors" : [
+      {
+        "name" : "Bo Ma"
+      },
+      {
+        "name" : "Jinsong Wu"
+      },
+      {
+        "name" : "Weiqi Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13655v1",
+    "title" : "Privacy Preserving Topic-wise Sentiment Analysis of the Iran Israel USA Conflict Using Federated Transformer Models",
+    "summary" : "The recent escalation of the Iran Israel USA conflict in 2026 has triggered widespread global discussions across social media platforms. As people increasingly use these platforms for expressing opinions, analyzing public sentiment from these discussions can provide valuable insights into global public perception. This study aims to analyze global public sentiment regarding the Iran Israel USA conflict by mining user-generated comments from YouTube news channels. The work contributes to public opinion analysis by introducing a privacy preserving framework that combines topic wise sentiment analysis with modern deep learning techniques and Federated Learning. To achieve this, approximately 19,000 YouTube comments were collected from major international news channels and preprocessed to remove noise and normalize text. Sentiment labels were initially generated using the VADER sentiment analyzer and later validated through manual inspection to improve reliability. Latent Dirichlet Allocation (LDA) was applied to identify key discussion topics related to the conflict. Several transformer-based models, including BERT, RoBERTa, XLNet, DistilBERT, ModernBERT, and ELECTRA, were fine tuned for sentiment classification. The best-performing model was further integrated into a federated learning environment to enable distributed training by preserving user data privacy. Additionally, Explainable Artificial Intelligence (XAI) techniques using SHAP were applied to interpret model predictions and identify influential words affecting sentiment classification. Experimental results demonstrate that transformer models perform effectively, and among them, ELECTRA achieved the best performance with 91.32% accuracy. The federated learning also maintained strong performance while preserving privacy, achieving 89.59% accuracy in a two client configuration.",
+    "updated" : "2026-03-13T23:41:11Z",
+    "published" : "2026-03-13T23:41:11Z",
+    "authors" : [
+      {
+        "name" : "Md Saiful Islam"
+      },
+      {
+        "name" : "Tanjim Taharat Aurpa"
+      },
+      {
+        "name" : "Sharad Hasan"
+      },
+      {
+        "name" : "Farzana Akter"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13617v1",
+    "title" : "Privacy-Preserving Federated Fraud Detection in Payment Transactions with NVIDIA FLARE",
+    "summary" : "Fraud-related financial losses continue to rise, while regulatory, privacy, and data-sovereignty constraints increasingly limit the feasibility of centralized fraud detection systems. Federated Learning (FL) has emerged as a promising paradigm for enabling collaborative model training across institutions without sharing raw transaction data. Yet, its practical effectiveness under realistic, non-IID financial data distributions remains insufficiently validated. In this work, we present a multi-institution, industry-oriented proof-of-concept study evaluating federated anomaly detection for payment transactions using the NVIDIA FLARE framework. We simulate a realistic federation of heterogeneous financial institutions, each observing distinct fraud typologies and operating under strict data isolation. Using a deep neural network trained via federated averaging (FedAvg), we demonstrate that federated models achieve a mean F1-score of 0.903 - substantially outperforming locally trained models (0.643) and closely approaching centralized training performance (0.925), while preserving full data sovereignty. We further analyze convergence behavior, showing that strong performance is achieved within 10 federated communication rounds, highlighting the operational viability of FL in latency- and cost-sensitive financial environments. To support deployment in regulated settings, we evaluate model interpretability using Shapley-based feature attribution and confirm that federated models rely on semantically coherent, domain-relevant decision signals. Finally, we incorporate sample-level differential privacy via DP-SGD and demonstrate favorable privacy-utility trade-offs...",
+    "updated" : "2026-03-13T21:50:53Z",
+    "published" : "2026-03-13T21:50:53Z",
+    "authors" : [
+      {
+        "name" : "Holger R. Roth"
+      },
+      {
+        "name" : "Sarthak Tickoo"
+      },
+      {
+        "name" : "Mayank Kumar"
+      },
+      {
+        "name" : "Isaac Yang"
+      },
+      {
+        "name" : "Andrew Liu"
+      },
+      {
+        "name" : "Amit Varshney"
+      },
+      {
+        "name" : "Sayani Kundu"
+      },
+      {
+        "name" : "Iustina Vintila"
+      },
+      {
+        "name" : "Peter Madsgaard"
+      },
+      {
+        "name" : "Juraj Milcak"
+      },
+      {
+        "name" : "Chester Chen"
+      },
+      {
+        "name" : "Yan Cheng"
+      },
+      {
+        "name" : "Andrew Feng"
+      },
+      {
+        "name" : "Jeff Savio"
+      },
+      {
+        "name" : "Vikram Singh"
+      },
+      {
+        "name" : "Craig Stancill"
+      },
+      {
+        "name" : "Gloria Wan"
+      },
+      {
+        "name" : "Evan Powell"
+      },
+      {
+        "name" : "Anwar Ul Haq"
+      },
+      {
+        "name" : "Sudhir Upadhyay"
+      },
+      {
+        "name" : "Jisoo Lee"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13570v1",
+    "title" : "Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap",
+    "summary" : "The rapid proliferation of the Internet of Things has intensified demand for robust privacy-preserving machine learning mechanisms to safeguard sensitive data generated by large-scale, heterogeneous, and resource-constrained devices. Unlike centralized environments, IoT ecosystems are inherently decentralized, bandwidth-limited, and latency-sensitive, exposing privacy risks across sensing, communication, and distributed training pipelines. These characteristics render conventional anonymization and centralized protection strategies insufficient for practical deployments. This survey presents a comprehensive IoT-centric, cross-paradigm analysis of privacy-preserving machine learning. We introduce a structured taxonomy spanning perturbation-based mechanisms such as differential privacy, distributed paradigms such as federated learning, cryptographic approaches including homomorphic encryption and secure multiparty computation, and generative synthesis techniques based on generative adversarial networks. For each paradigm, we examine formal privacy guarantees, computational and communication complexity, scalability under heterogeneous device participation, and resilience against threats including membership inference, model inversion, gradient leakage, and adversarial manipulation. We further analyze deployment constraints in wireless IoT environments, highlighting trade-offs between privacy, communication overhead, model convergence, and system efficiency within next-generation mobile architectures. We also consolidate evaluation methodologies, summarize representative datasets and open-source frameworks, and identify open challenges including hybrid privacy integration, energy-aware learning, privacy-preserving large language models, and quantum-resilient machine learning.",
+    "updated" : "2026-03-13T20:19:18Z",
+    "published" : "2026-03-13T20:19:18Z",
+    "authors" : [
+      {
+        "name" : "Zakia Zaman"
+      },
+      {
+        "name" : "Praveen Gauravaram"
+      },
+      {
+        "name" : "Mahbub Hassan"
+      },
+      {
+        "name" : "Sanjay Jha"
+      },
+      {
+        "name" : "Wen Hu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13444v1",
+    "title" : "Technical Case Study of Privacy-Enhancing Technologies (PETs) for Public Health",
+    "summary" : "We present a technical case study on the Privacy-Enhancing Technologies (PETs) for Public Health Challenge, a collaborative effort to safely leverage sensitive private sector data for social impact, specifically pandemic management. The project utilized Differential Privacy (DP) to create realistic, privacy-preserved synthetic financial transaction data, which was then combined with public health and mobility datasets. This approach successfully addressed the critical hurdle of sharing sensitive financial information for research and policy.\n  The analysis demonstrated that this synthetic, DP-protected data possesses significant spatial-temporal and predictive power for public health. Key outcomes include the development of six reusable tools and frameworks supporting diagnostic nowcasting (e.g., Hotspot Detection, Pandemic Adherence Monitoring) and predictive forecasting (e.g., Mobility Analysis, Contact Matrix Estimation) for epidemiological decision-making. The study provides best practices for advancing data sharing in a privacy-compliant manner.",
+    "updated" : "2026-03-13T13:04:59Z",
+    "published" : "2026-03-13T13:04:59Z",
+    "authors" : [
+      {
+        "name" : "Avinash Laddha"
+      },
+      {
+        "name" : "Danil Mikhailov"
+      },
+      {
+        "name" : "Uyi Stewart"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13407v1",
+    "title" : "Universal Shuffle Asymptotics, Part III: Dominant-Block Quotient Geometry and Hybrid Gaussian--Compound-Poisson Limits in Finite-Alphabet Shuffle Privacy",
+    "summary" : "Part I of this series (arXiv:2602.09029) establishes a sharp Gaussian (LAN/GDP) limit theory for neighboring shuffle experiments in the fixed full-support regime. Part II (arXiv:2603.10073) identifies the first universality-breaking frontier: critical Poisson, Skellam, and multivariate compound-Poisson regimes. The present paper completes the finite-alphabet weak-limit theory by identifying the dominant-block quotient geometry that governs neighboring shuffle experiments. We treat dominant blocks of arbitrary finite size, allow overlap between the dominant output sets under the two neighboring hypotheses, and show that the limiting experiment decomposes according to this geometry: projecting onto the sum of the dominant tangent spaces yields a Gaussian factor, while quotienting by those same tangent spaces isolates a compound-Poisson jump field in the rare block. We also identify the regimes in which this quotient description determines the full privacy-curve, as well as the obstruction that appears when projected jump limits alone do not suffice. Two further sections sharpen the rate picture and the boundary interface: we show that the O(n^{-1/2}) rate for the full hybrid experiment is sharp in general, identify a compatibility condition restoring the O(n^{-1}) rate, and prove a boundary Berry--Esseen theorem giving O(c) Le Cam proximity between the critical Poisson-shift and Gaussian shift experiments as c tends to 0. Together with Parts I--II, this yields a three-regime universality picture and a precise finite-alphabet Levy--Khintchine layer for shuffle privacy.",
+    "updated" : "2026-03-12T09:35:24Z",
+    "published" : "2026-03-12T09:35:24Z",
+    "authors" : [
+      {
+        "name" : "Alex Shvets"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
   }
 ]
