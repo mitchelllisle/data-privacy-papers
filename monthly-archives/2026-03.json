@@ -2191,5 +2191,106 @@
     "categories" : [
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.16780v1",
+    "title" : "Quantum-Enabled Probabilistic Optimal Power Flow with Built-in Differential Privacy",
+    "summary" : "Quantum computing has been regarded as a promising approach to accelerate power system optimization. However, challenges such as limited qubits and inherent noise hinder their widespread adoption in power systems. In this paper, we propose a qubit-efficient framework for solving a crucial power system optimization problem, the probabilistic optimal power flow (POPF). We demonstrate that quantum noise, traditionally viewed as a drawback, can in fact be leveraged to provide a built-in differential privacy (DP) guarantee. Specifically, we first linearize POPF into a multi-parametric linear program (MP-LP) with renewable uncertainties being the parameters. This decomposes the parameter space into critical regions with precomputed solution maps. Second, a variational quantum circuit (VQC) classifies the critical region based on each uncertainty realization and then recovers the final solution. In this way, the required qubits scale with the uncertain parameters instead of the network size, with only 5 qubits versus 600+ for direct quantum OPF in a 69-bus system. Moreover, we prove the depolarizing noise of VQC provides DP guarantees and characterize the privacy-cost tradeoff. Case studies validate the proposed VQC achieves 2.1$\\times$ smaller privacy budgets compared to its classical counterpart. At matched privacy levels, the VQC also maintains lower infeasibility and prediction error.",
+    "updated" : "2026-03-17T16:56:44Z",
+    "published" : "2026-03-17T16:56:44Z",
+    "authors" : [
+      {
+        "name" : "Yuji Cao"
+      },
+      {
+        "name" : "Tongxin Li"
+      },
+      {
+        "name" : "Yue Chen"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.15901v1",
+    "title" : "Federated Learning for Privacy-Preserving Medical AI",
+    "summary" : "This dissertation investigates privacy-preserving federated learning for Alzheimer's disease classification using three-dimensional MRI data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Existing methodologies often suffer from unrealistic data partitioning, inadequate privacy guarantees, and insufficient benchmarking, limiting their practical deployment in healthcare. To address these gaps, this research proposes a novel site-aware data partitioning strategy that preserves institutional boundaries, reflecting real-world multi-institutional collaborations and data heterogeneity. Furthermore, an Adaptive Local Differential Privacy (ALDP) mechanism is introduced, dynamically adjusting privacy parameters based on training progression and parameter characteristics, thereby significantly improving the privacy-utility trade-off over traditional fixed-noise approaches. Systematic empirical evaluation across multiple client federations and privacy budgets demonstrated that advanced federated optimisation algorithms, particularly FedProx, could equal or surpass centralised training performance while ensuring rigorous privacy protection. Notably, ALDP achieved up to 80.4% accuracy in a two-client configuration, surpassing fixed-noise Local DP by 5-7 percentage points and demonstrating substantially greater training stability. The comprehensive ablation studies and benchmarking establish quantitative standards for privacy-preserving collaborative medical AI, providing practical guidelines for real-world deployment. This work thereby advances the state-of-the-art in federated learning for medical imaging, establishing both methodological foundations and empirical evidence necessary for future privacy-compliant AI adoption in healthcare.",
+    "updated" : "2026-03-16T20:46:21Z",
+    "published" : "2026-03-16T20:46:21Z",
+    "authors" : [
+      {
+        "name" : "Tin Hoang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.15842v1",
+    "title" : "Informationally Compressive Anonymization: Non-Degrading Sensitive Input Protection for Privacy-Preserving Supervised Machine Learning",
+    "summary" : "Modern machine learning systems increasingly rely on sensitive data, creating significant privacy, security, and regulatory risks that existing privacy-preserving machine learning (ppML) techniques, such as Differential Privacy (DP) and Homomorphic Encryption (HE), address only at the cost of degraded performance, increased complexity, or prohibitive computational overhead. This paper introduces Informationally Compressive Anonymization (ICA) and the VEIL architecture, a privacy-preserving ML framework that achieves strong privacy guarantees through architectural and mathematical design rather than noise injection or cryptography. ICA embeds a supervised, multi-objective encoder within a trusted Source Environment to transform raw inputs into low-dimensional, task-aligned latent representations, ensuring that only irreversibly anonymized vectors are exported to untrusted Training and Inference Environments. The paper rigorously proves that these encodings are structurally non-invertible using topological and information-theoretic arguments, showing that inversion is logically impossible, even under idealized attacker assumptions, and that, in realistic deployments, the attackers conditional entropy over the original data diverges, driving reconstruction probability to zero. Unlike prior autoencoder-based ppML approaches, ICA preserves predictive utility by aligning representation learning with downstream supervised objectives, enabling low-latency, high-performance ML without gradient clipping, noise budgets, or encryption at inference time. The VEIL architecture enforces strict trust boundaries, supports scalable multi-region deployment, and naturally aligns with privacy-by-design regulatory frameworks, establishing a new foundation for enterprise ML that is secure, performant, and safe by construction, even in the face of post-quantum threats.",
+    "updated" : "2026-03-16T19:17:51Z",
+    "published" : "2026-03-16T19:17:51Z",
+    "authors" : [
+      {
+        "name" : "Jeremy J Samuelson"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.15705v1",
+    "title" : "Remarks on the Relevance of Privacy Expectations for Default Opt-out Settings",
+    "summary" : "Over the past few years an increasing number of states in the US have adopted new privacy laws. The majority of these laws require compliance with universal opt-out mechanisms (UOOMs), which allow consumers to send legally binding opt-out signals. However, a number of laws generally do not allow UOOMs to be enabled by default. While some laws exempt privacy-protective software from this prohibition, the exemption does not apply to pre-installed software, e.g., a privacy-protective web browser bundled with an operating system. The reason for not allowing default opt-out settings for pre-installed software is to ensure that settings reflect consumers' \"affirmative, freely given, and unambiguous choice,\" as, for example, the Colorado Privacy Act (CPA) is putting it. However, prohibiting vendors of privacy-protective software from turning on UOOMs by default can force them into committing unfair or deceptive acts or practices under the FTC Act and equivalent state laws. Thus, whether UOOMs can be turned on by default on pre-installed software should depend on consumers' privacy expectations. For pre-installed software that is creating a reasonable expectation for consumers that their privacy will be protected, the simple use of such software should be considered a valid choice for enabling UOOMs. In such software a turned-on UOOM is not a \"default setting\" but rather the software's inherent behavior that a consumer expects and chooses through its use. This interpretation of consumer choice is preferable under the CPA and similar laws as it grounds the notice and choice principle in the privacy expectations of consumers and enables companies to compete on better privacy for consumers.",
+    "updated" : "2026-03-16T12:48:05Z",
+    "published" : "2026-03-16T12:48:05Z",
+    "authors" : [
+      {
+        "name" : "Sebastian Zimmeck"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.01059v2",
+    "title" : "GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant",
+    "summary" : "Recent advances in large language models (LLMs) have enabled increasingly capable chatbots. However, most existing systems focus on single-user settings and do not generalize well to multi-user group chats, where agents require more proactive and accurate intervention under complex, evolving contexts. Existing approaches typically rely on LLMs for both reasoning and generation, leading to high token consumption, limited scalability, and potential privacy risks. To address these challenges, we propose GroupGPT, a token-efficient and privacy-preserving agentic framework for multi-user chat assistant. GroupGPT adopts a small-large model collaborative architecture to decouple intervention timing from response generation, enabling efficient and accurate decision-making. The framework also supports multimodal inputs, including memes, images, videos, and voice messages. We further introduce MUIR, a benchmark dataset for multi-user chat assistant intervention reasoning. MUIR contains 2,500 annotated group chat segments with intervention labels and rationales, supporting evaluation of timing accuracy and response quality. We evaluate a range of models on MUIR, from large language models to smaller counterparts. Extensive experiments demonstrate that GroupGPT produces accurate and well-timed responses, achieving an average score of 4.72/5.0 in LLM-based evaluation, and is well received by users across diverse group chat scenarios. Moreover, GroupGPT reduces token usage by up to 3 times compared to baseline methods, while providing privacy sanitization of user messages before cloud transmission. Code is available at: https://github.com/Eliot-Shen/GroupGPT .",
+    "updated" : "2026-03-17T14:00:13Z",
+    "published" : "2026-03-01T11:29:25Z",
+    "authors" : [
+      {
+        "name" : "Zhuokang Shen"
+      },
+      {
+        "name" : "Yifan Wang"
+      },
+      {
+        "name" : "Hanyu Chen"
+      },
+      {
+        "name" : "Wenxuan Huang"
+      },
+      {
+        "name" : "Yunhang Shen"
+      },
+      {
+        "name" : "Shaohui Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
