@@ -205,57 +205,44 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.20222v2">The TCF doesn't really A(A)ID -- Automatic Privacy Analysis and Legal Compliance of TCF-based Android Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-02-23T13:24:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Victor Morel, Cristiana Santos, Pontus Carlsson, Joel Ahlinder, Romaric Duvignau</p>
-    <p><b>Summary:</b> The Transparency and Consent Framework (TCF), developed by the Interactive Advertising Bureau (IAB) Europe, provides a de facto standard for requesting, recording, and managing user consent from European end-users. This framework has previously been found to infringe European data protection law and has subsequently been regularly updated. Previous research on the TCF focused exclusively on web contexts, with no attention given to its implementation in mobile applications. No work has systematically studied the privacy implications of the TCF on Android apps. To address this gap, we investigate the prevalence of the TCF in popular Android apps from the Google Play Store, and assess whether these apps respect users' consent banner choices. By scraping and downloading 4482 of the most popular Google Play Store apps on an emulated Android device, we automatically determine which apps use the TCF, automatically interact with consent banners, and analyze the apps' traffic in two different stages, passive (post choices) and active (during banner interaction and post choices).
-  We found that 576 (12.85%) of the 4482 downloadable apps in our dataset implemented the TCF, and we identified potential privacy violations within this subset. In 15 (2.6%) of these apps, users' choices are stored only when consent is granted. Users who refuse consent are shown the consent banner again each time they launch the app. Network traffic analysis conducted during the passive stage reveals that 66.2% of the analyzed TCF-based apps share personal data, through the Android Advertising ID (AAID), in the absence of a lawful basis for processing. 55.3% of apps analyzed during the active stage share AAID before users interact with the apps' consent banners, violating the prior consent requirement.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00129v1">Safe Multi-Agent Deep Reinforcement Learning for Privacy-Aware Edge-Device Collaborative DNN Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-23T11:33:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hong Wang, Xuwei Fan, Zhipeng Cheng, Yachao Yuan, Minghui Min, Minghui Liwang, Xiaoyu Xia</p>
-    <p><b>Summary:</b> As Deep Neural Network (DNN) inference becomes increasingly prevalent on edge and mobile platforms, critical challenges emerge in privacy protection, resource constraints, and dynamic model deployment. This paper proposes a privacy-aware collaborative inference framework, in which adaptive model partitioning is performed across edge devices and servers. To jointly optimize inference delay, energy consumption, and privacy cost under dynamic service demands and resource constraints, we formulate the joint problem as a Constrained Markov Decision Process (CMDP) that integrates model deployment, user-server association, model partitioning, and resource allocation. We propose a Hierarchical Constrained Multi-Agent Proximal Policy Optimization with Lagrangian relaxation (HC-MAPPO-L) algorithm, a safe reinforcement learning-based framework that enhances Multi-Agent Proximal Policy Optimization (MAPPO) with adaptive Lagrangian dual updates to enforce long-term delay constraints. To ensure tractability while maintaining coordination, we decompose the CMDP into three hierarchically structured policy layers: an auto-regressive based model deployment policy, a Lagrangian-enhanced user association and model partitioning policy, and an attention-based resource allocation policy. Extensive experimental results demonstrate that HC-MAPPO-L consistently satisfies stringent delay constraints while achieving a superior balance among energy consumption and privacy cost, outperforming representative baseline algorithms across varying problem scales and resource configurations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.19352v1">Beyond Privacy Labels: How Users Perceive Different Information Sources for Understanding App's Privacy Practices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-02-22T22:02:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Varun Shiri, Charles Liu, Keyu Yao, Jin L. C. Guo, Jinghui Cheng</p>
-    <p><b>Summary:</b> Despite having growing awareness and concerns about privacy, technology users are often insufficiently informed of the data practices of various digital products to protect themselves. Privacy policies and privacy labels, as two conventional ways of communicating data practices, are each criticized for important limitations -- one being lengthy and filled with legal jargon, and the other oversimplified and inaccurate -- causing users significant difficulty in understanding the privacy practices of the products and assessing their impact. To mitigate those issues, we explore ways to enhance privacy labels with the relevant content in complementary sources, including privacy policy, app reviews, and community-curated privacy assessments. Our user study results indicate that perceived usefulness and trust on those information sources are personal and influenced by past experience. Our work highlights the importance of considering various information needs for privacy practice and consolidating different sources for more useful privacy solutions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.18910v1">SLDP: Semi-Local Differential Privacy for Density-Adaptive Analytics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-21T17:26:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexey Kroshnin, Alexandra Suvorikova</p>
-    <p><b>Summary:</b> Density-adaptive domain discretization is essential for high-utility privacy-preserving analytics but remains challenging under Local Differential Privacy (LDP) due to the privacy-budget costs associated with iterative refinement. We propose a novel framework, Semi-Local Differential Privacy (SLDP), that assigns a privacy region to each user based on local density and defines adjacency by the potential movement of a point within its privacy region. We present an interactive $(\varepsilon, δ)$-SLDP protocol, orchestrated by an honest-but-curious server over a public channel, to estimate these regions privately. Crucially, our framework decouples the privacy cost from the number of refinement iterations, allowing for high-resolution grids without additional privacy budget cost. We experimentally demonstrate the framework's effectiveness on estimation tasks across synthetic and real-world datasets.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.16780v1">Quantum-Enabled Probabilistic Optimal Power Flow with Built-in Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2026-03-17T16:56:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuji Cao, Tongxin Li, Yue Chen</p>
+    <p><b>Summary:</b> Quantum computing has been regarded as a promising approach to accelerate power system optimization. However, challenges such as limited qubits and inherent noise hinder their widespread adoption in power systems. In this paper, we propose a qubit-efficient framework for solving a crucial power system optimization problem, the probabilistic optimal power flow (POPF). We demonstrate that quantum noise, traditionally viewed as a drawback, can in fact be leveraged to provide a built-in differential privacy (DP) guarantee. Specifically, we first linearize POPF into a multi-parametric linear program (MP-LP) with renewable uncertainties being the parameters. This decomposes the parameter space into critical regions with precomputed solution maps. Second, a variational quantum circuit (VQC) classifies the critical region based on each uncertainty realization and then recovers the final solution. In this way, the required qubits scale with the uncertain parameters instead of the network size, with only 5 qubits versus 600+ for direct quantum OPF in a 69-bus system. Moreover, we prove the depolarizing noise of VQC provides DP guarantees and characterize the privacy-cost tradeoff. Case studies validate the proposed VQC achieves 2.1$\times$ smaller privacy budgets compared to its classical counterpart. At matched privacy levels, the VQC also maintains lower infeasibility and prediction error.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.15901v1">Federated Learning for Privacy-Preserving Medical AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-03-16T20:46:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tin Hoang</p>
+    <p><b>Summary:</b> This dissertation investigates privacy-preserving federated learning for Alzheimer's disease classification using three-dimensional MRI data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Existing methodologies often suffer from unrealistic data partitioning, inadequate privacy guarantees, and insufficient benchmarking, limiting their practical deployment in healthcare. To address these gaps, this research proposes a novel site-aware data partitioning strategy that preserves institutional boundaries, reflecting real-world multi-institutional collaborations and data heterogeneity. Furthermore, an Adaptive Local Differential Privacy (ALDP) mechanism is introduced, dynamically adjusting privacy parameters based on training progression and parameter characteristics, thereby significantly improving the privacy-utility trade-off over traditional fixed-noise approaches. Systematic empirical evaluation across multiple client federations and privacy budgets demonstrated that advanced federated optimisation algorithms, particularly FedProx, could equal or surpass centralised training performance while ensuring rigorous privacy protection. Notably, ALDP achieved up to 80.4% accuracy in a two-client configuration, surpassing fixed-noise Local DP by 5-7 percentage points and demonstrating substantially greater training stability. The comprehensive ablation studies and benchmarking establish quantitative standards for privacy-preserving collaborative medical AI, providing practical guidelines for real-world deployment. This work thereby advances the state-of-the-art in federated learning for medical imaging, establishing both methodological foundations and empirical evidence necessary for future privacy-compliant AI adoption in healthcare.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.15842v1">Informationally Compressive Anonymization: Non-Degrading Sensitive Input Protection for Privacy-Preserving Supervised Machine Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-03-16T19:17:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jeremy J Samuelson</p>
+    <p><b>Summary:</b> Modern machine learning systems increasingly rely on sensitive data, creating significant privacy, security, and regulatory risks that existing privacy-preserving machine learning (ppML) techniques, such as Differential Privacy (DP) and Homomorphic Encryption (HE), address only at the cost of degraded performance, increased complexity, or prohibitive computational overhead. This paper introduces Informationally Compressive Anonymization (ICA) and the VEIL architecture, a privacy-preserving ML framework that achieves strong privacy guarantees through architectural and mathematical design rather than noise injection or cryptography. ICA embeds a supervised, multi-objective encoder within a trusted Source Environment to transform raw inputs into low-dimensional, task-aligned latent representations, ensuring that only irreversibly anonymized vectors are exported to untrusted Training and Inference Environments. The paper rigorously proves that these encodings are structurally non-invertible using topological and information-theoretic arguments, showing that inversion is logically impossible, even under idealized attacker assumptions, and that, in realistic deployments, the attackers conditional entropy over the original data diverges, driving reconstruction probability to zero. Unlike prior autoencoder-based ppML approaches, ICA preserves predictive utility by aligning representation learning with downstream supervised objectives, enabling low-latency, high-performance ML without gradient clipping, noise budgets, or encryption at inference time. The VEIL architecture enforces strict trust boundaries, supports scalable multi-region deployment, and naturally aligns with privacy-by-design regulatory frameworks, establishing a new foundation for enterprise ML that is secure, performant, and safe by construction, even in the face of post-quantum threats.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.15609v1">Differential Privacy for Network Connectedness Indices</a></h3>
@@ -265,6 +252,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Tom A. Rutter, Yuxin Liu, M. Amin Rahimian</p>
     <p><b>Summary:</b> Researchers increasingly use data on social and economic networks to study a range of social science questions, but releasing statistics derived from networks can raise significant privacy concerns. We show how to release network connectedness indices that quantify assortative mixing across node attributes under edge-adjacent differential privacy. Standard privacy techniques perform poorly in this setting both because connectedness indices have high global sensitivity and because a single node's attribute can potentially be an input to connectedness in thousands of cells, leading to poor composition. Our method, which is straightforward to apply, first adds noise to node attributes, then analytically debiases downstream statistics, and finally applies a second layer of noise to protect the presence or absence of individual edges. We prove consistency and asymptotic normality of our estimators for both discrete and continuous labels and show our method works well in simulations and on real networks with as few as 200 nodes collected by social scientists.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.15705v1">Remarks on the Relevance of Privacy Expectations for Default Opt-out Settings</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-03-16T12:48:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sebastian Zimmeck</p>
+    <p><b>Summary:</b> Over the past few years an increasing number of states in the US have adopted new privacy laws. The majority of these laws require compliance with universal opt-out mechanisms (UOOMs), which allow consumers to send legally binding opt-out signals. However, a number of laws generally do not allow UOOMs to be enabled by default. While some laws exempt privacy-protective software from this prohibition, the exemption does not apply to pre-installed software, e.g., a privacy-protective web browser bundled with an operating system. The reason for not allowing default opt-out settings for pre-installed software is to ensure that settings reflect consumers' "affirmative, freely given, and unambiguous choice," as, for example, the Colorado Privacy Act (CPA) is putting it. However, prohibiting vendors of privacy-protective software from turning on UOOMs by default can force them into committing unfair or deceptive acts or practices under the FTC Act and equivalent state laws. Thus, whether UOOMs can be turned on by default on pre-installed software should depend on consumers' privacy expectations. For pre-installed software that is creating a reasonable expectation for consumers that their privacy will be protected, the simple use of such software should be considered a valid choice for enabling UOOMs. In such software a turned-on UOOM is not a "default setting" but rather the software's inherent behavior that a consumer expects and chooses through its use. This interpretation of consumer choice is preferable under the CPA and similar laws as it grounds the notice and choice principle in the privacy expectations of consumers and enables companies to compete on better privacy for consumers.</p>
   </details>
 </div>
 
@@ -1205,12 +1204,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.01059v1">GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.01059v2">GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2026-03-01T11:29:25Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Zhuokang Shen, Yifan Wang, Hanyu Chen, Wenxuan Huang, Shaohui Lin</p>
+    <p><b>Authors:</b> Zhuokang Shen, Yifan Wang, Hanyu Chen, Wenxuan Huang, Yunhang Shen, Shaohui Lin</p>
     <p><b>Summary:</b> Recent advances in large language models (LLMs) have enabled increasingly capable chatbots. However, most existing systems focus on single-user settings and do not generalize well to multi-user group chats, where agents require more proactive and accurate intervention under complex, evolving contexts. Existing approaches typically rely on LLMs for both reasoning and generation, leading to high token consumption, limited scalability, and potential privacy risks. To address these challenges, we propose GroupGPT, a token-efficient and privacy-preserving agentic framework for multi-user chat assistant. GroupGPT adopts a small-large model collaborative architecture to decouple intervention timing from response generation, enabling efficient and accurate decision-making. The framework also supports multimodal inputs, including memes, images, videos, and voice messages. We further introduce MUIR, a benchmark dataset for multi-user chat assistant intervention reasoning. MUIR contains 2,500 annotated group chat segments with intervention labels and rationales, supporting evaluation of timing accuracy and response quality. We evaluate a range of models on MUIR, from large language models to smaller counterparts. Extensive experiments demonstrate that GroupGPT produces accurate and well-timed responses, achieving an average score of 4.72/5.0 in LLM-based evaluation, and is well received by users across diverse group chat scenarios. Moreover, GroupGPT reduces token usage by up to 3 times compared to baseline methods, while providing privacy sanitization of user messages before cloud transmission. Code is available at: https://github.com/Eliot-Shen/GroupGPT .</p>
   </details>
 </div>
