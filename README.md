@@ -145,68 +145,58 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.21844v1">JSAM: Privacy Straggler-Resilient Joint Client Selection and Incentive Mechanism Design in Differentially Private Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
-  <p><b>Published on:</b> 2026-02-25T12:22:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruichen Xu, Ying-Jun Angela Zhang, Jianwei Huang</p>
-    <p><b>Summary:</b> Differentially private federated learning faces a fundamental tension: privacy protection mechanisms that safeguard client data simultaneously create quantifiable privacy costs that discourage participation, undermining the collaborative training process. Existing incentive mechanisms rely on unbiased client selection, forcing servers to compensate even the most privacy-sensitive clients ("privacy stragglers"), leading to systemic inefficiency and suboptimal resource allocation. We introduce JSAM (Joint client Selection and privacy compensAtion Mechanism), a Bayesian-optimal framework that simultaneously optimizes client selection probabilities and privacy compensation to maximize training effectiveness under budget constraints. Our approach transforms a complex 2N-dimensional optimization problem into an efficient three-dimensional formulation through novel theoretical characterization of optimal selection strategies. We prove that servers should preferentially select privacy-tolerant clients while excluding high-sensitivity participants, and uncover the counter-intuitive insight that clients with minimal privacy sensitivity may incur the highest cumulative costs due to frequent participation. Extensive evaluations on MNIST and CIFAR-10 demonstrate that JSAM achieves up to 15% improvement in test accuracy compared to existing unbiased selection mechanisms while maintaining cost efficiency across varying data heterogeneity levels.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.21525v2">Optimal Real-Time Fusion of Time-Series Data Under Rényi Differential Privacy</a></h3>
-  
-  <p><b>Published on:</b> 2026-02-25T03:28:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chuanghong Weng, Ehsan Nekouei</p>
-    <p><b>Summary:</b> In this paper, we investigate the optimal real-time fusion of data collected by multiple sensors. In our set-up, the sensor measurements are considered to be private and are jointly correlated with an underlying process. A fusion center combines the private sensor measurements and releases its output to an honest-but-curious party, which is responsible for estimating the state of the underlying process based on the fusion center's output. The privacy leakage incurred by the fusion policy is quantified using Rényi differential privacy. We formulate the privacy-aware fusion design as a constrained finite-horizon optimization problem, in which the fusion policy and the state estimation are jointly optimized to minimize the state estimation error subject to a total privacy budget constraint. We derive the constrained optimality conditions for the proposed optimization problem and use them to characterize the structural properties of the optimal fusion policy. Unlike classical differential privacy mechanisms, the optimal fusion policy is shown to adaptively allocates the privacy budget and regulates the adversary's belief in a closed-loop manner. To reduce the computational burden of solving the resulting constrained optimality equations, we parameterize the fusion policy using a structured Gaussian distribution and show that the parameterized fusion policy satisfies the privacy constraint. We further develop a numerical algorithm to jointly optimize the fusion policy and state estimator. Finally, we demonstrate the effectiveness of the proposed fusion framework through a traffic density estimation case study.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.21374v1">Small Language Models for Privacy-Preserving Clinical Information Extraction in Low-Resource Languages</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-02-24T21:10:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammadreza Ghaffarzadeh-Esfahani, Nahid Yousefian, Ebrahim Heidari-Farsani, Ali Akbar Omidvarian, Sepehr Ghahraei, Atena Farangi, AmirBahador Boroumand</p>
-    <p><b>Summary:</b> Extracting clinical information from medical transcripts in low-resource languages remains a significant challenge in healthcare natural language processing (NLP). This study evaluates a two-step pipeline combining Aya-expanse-8B as a Persian-to-English translation model with five open-source small language models (SLMs) -- Qwen2.5-7B-Instruct, Llama-3.1-8B-Instruct, Llama-3.2-3B-Instruct, Qwen2.5-1.5B-Instruct, and Gemma-3-1B-it -- for binary extraction of 13 clinical features from 1,221 anonymized Persian transcripts collected at a cancer palliative care call center. Using a few-shot prompting strategy without fine-tuning, models were assessed on macro-averaged F1-score, Matthews Correlation Coefficient (MCC), sensitivity, and specificity to account for class imbalance. Qwen2.5-7B-Instruct achieved the highest overall performance (median macro-F1: 0.899; MCC: 0.797), while Gemma-3-1B-it showed the weakest results. Larger models (7B--8B parameters) consistently outperformed smaller counterparts in sensitivity and MCC. A bilingual analysis of Aya-expanse-8B revealed that translating Persian transcripts to English improved sensitivity, reduced missing outputs, and boosted metrics robust to class imbalance, though at the cost of slightly lower specificity and precision. Feature-level results showed reliable extraction of physiological symptoms across most models, whereas psychological complaints, administrative requests, and complex somatic features remained challenging. These findings establish a practical, privacy-preserving blueprint for deploying open-source SLMs in multilingual clinical NLP settings with limited infrastructure and annotation resources, and highlight the importance of jointly optimizing model scale and input language strategy for sensitive healthcare applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.20743v1">Adaptive Text Anonymization: Learning Privacy-Utility Trade-offs via Prompt Optimization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-02-24T10:12:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gabriel Loiseau, Damien Sileo, Damien Riquet, Maxime Meyer, Marc Tommasi</p>
-    <p><b>Summary:</b> Anonymizing textual documents is a highly context-sensitive problem: the appropriate balance between privacy protection and utility preservation varies with the data domain, privacy objectives, and downstream application. However, existing anonymization methods rely on static, manually designed strategies that lack the flexibility to adjust to diverse requirements and often fail to generalize across domains. We introduce adaptive text anonymization, a new task formulation in which anonymization strategies are automatically adapted to specific privacy-utility requirements. We propose a framework for task-specific prompt optimization that automatically constructs anonymization instructions for language models, enabling adaptation to different privacy goals, domains, and downstream usage patterns. To evaluate our approach, we present a benchmark spanning five datasets with diverse domains, privacy constraints, and utility objectives. Across all evaluated settings, our framework consistently achieves a better privacy-utility trade-off than existing baselines, while remaining computationally efficient and effective on open-source language models, with performance comparable to larger closed-source models. Additionally, we show that our method can discover novel anonymization strategies that explore different points along the privacy-utility trade-off frontier.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.19926v1">Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-23T15:05:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jin Liu, Yinbin Miao, Ning Xi, Junkang Liu</p>
-    <p><b>Summary:</b> Fine-tuning large vision models (LVMs) and large language models (LLMs) under differentially private federated learning (DPFL) is hindered by a fundamental privacy-utility trade-off. Low-Rank Adaptation (LoRA), a promising parameter-efficient fine-tuning (PEFT) method, reduces computational and communication costs by introducing two trainable low-rank matrices while freezing pre-trained weights. However, directly applying LoRA in DPFL settings leads to performance degradation, especially in LVMs. Our analysis reveals three previously underexplored challenges: (1) gradient coupling caused by the simultaneous update of two asymmetric low-rank matrices, (2) compounded noise amplification under differential privacy, and (3) sharpness of the global aggregated model in the parameter space. To address these issues, we propose LA-LoRA (\textbf{L}ocal \textbf{A}lternating \textbf{LoRA}), a novel approach that decouples gradient interactions and aligns update directions across clients to enhance robustness under stringent privacy constraints. Theoretically, LA-LoRA strengthens convergence guarantees in noisy federated environments. Extensive experiments demonstrate that LA-LoRA achieves state-of-the-art (SOTA) performance on Swin Transformer and RoBERTa models, showcasing robustness to DP noise and broad applicability across both LVMs and LLMs. For example, when fine-tuning the Swin-B model on the Tiny-ImageNet dataset under a strict privacy budget ($ε= 1$), LA-LoRA outperforms the best baseline, RoLoRA, by 16.83\% in test accuracy. Code is provided in \repolink.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.17902v1">Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-18T16:35:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ya-Ting Yang, Quanyan Zhu</p>
+    <p><b>Summary:</b> Large language models (LLMs) and AI agents are increasingly integrated into enterprise systems to access internal databases and generate context-aware responses. While such integration improves productivity and decision support, the model outputs may inadvertently reveal sensitive information. Although many prior efforts focus on protecting the privacy of user prompts, relatively few studies consider privacy risks from the enterprise data perspective. Hence, this paper develops a probabilistic framework for analyzing privacy leakage in AI agents based on differential privacy. We model response generation as a stochastic mechanism that maps prompts and datasets to distributions over token sequences. Within this framework, we introduce token-level and message-level differential privacy and derive privacy bounds that relate privacy leakage to generation parameters such as temperature and message length. We further formulate a privacy-utility design problem that characterizes optimal temperature selection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.17217v1">Anonymous-by-Construction: An LLM-Driven Framework for Privacy-Preserving Text</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-17T23:46:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Federico Albanese, Pablo Ronco, Nicolás D'Ippolito</p>
+    <p><b>Summary:</b> Responsible use of AI demands that we protect sensitive information without undermining the usefulness of data, an imperative that has become acute in the age of large language models. We address this challenge with an on-premise, LLM-driven substitution pipeline that anonymizes text by replacing personally identifiable information (PII) with realistic, type-consistent surrogates. Executed entirely within organizational boundaries using local LLMs, the approach prevents data egress while preserving fluency and task-relevant semantics.
+  We conduct a systematic, multi-metric, cross-technique evaluation on the Action-Based Conversation Dataset, benchmarking against industry standards (Microsoft Presidio and Google DLP) and a state-of-the-art approach (ZSTS, in redaction-only and redaction-plus-substitution variants). Our protocol jointly measures privacy, semantic utility, and trainability under privacy via a lifecycle-ready criterion obtained by fine-tuning a compact encoder (BERT+LoRA) on sanitized text. In addition, we assess agentic Q&A performance by inserting an on-premise anonymization layer before the answering LLM and evaluating the quality of its responses. This intermediate, type-preserving substitution stage ensures that no sensitive content is exposed to third-party APIs, enabling responsible deployment of Q\&A agents without compromising confidentiality.
+  Our method attains state-of-the-art privacy, minimal topical drift, strong factual utility, and low trainability loss, outperforming rule-based approaches and named-entity recognition (NER) baselines and ZSTS variants on the combined privacy--utility--trainability frontier. These results show that local LLM substitution yields anonymized corpora that are both responsible to use and operationally valuable: safe for agentic pipelines and suitable for downstream fine-tuning with limited degradation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.17109v1">SENSE: Efficient EEG-to-Text via Privacy-Preserving Semantic Retrieval</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-17T19:59:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Akshaj Murhekar, Christina Liu, Abhijit Mishra, Shounak Roychowdhury, Jacek Gwizdka</p>
+    <p><b>Summary:</b> Decoding brain activity into natural language is a major challenge in AI with important applications in assistive communication, neurotechnology, and human-computer interaction. Most existing Brain-Computer Interface (BCI) approaches rely on memory-intensive fine-tuning of Large Language Models (LLMs) or encoder-decoder models on raw EEG signals, resulting in expensive training pipelines, limited accessibility, and potential exposure of sensitive neural data. We introduce SENSE (SEmantic Neural Sparse Extraction), a lightweight and privacy-preserving framework that translates non-invasive electroencephalography (EEG) into text without LLM fine-tuning. SENSE decouples decoding into two stages: on-device semantic retrieval and prompt-based language generation. EEG signals are locally mapped to a discrete textual space to extract a non-sensitive Bag-of-Words (BoW), which conditions an off-the-shelf LLM to synthesize fluent text in a zero-shot manner. The EEG-to-keyword module contains only ~6M parameters and runs fully on-device, ensuring raw neural signals remain local while only abstract semantic cues interact with language models. Evaluated on a 128-channel EEG dataset across six subjects, SENSE matches or surpasses the generative quality of fully fine-tuned baselines such as Thought2Text while substantially reducing computational overhead. By localizing neural decoding and sharing only derived textual cues, SENSE provides a scalable and privacy-aware retrieval-augmented architecture for next-generation BCIs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.17061v1">Collecting Prosody in the Wild: A Content-Controlled, Privacy-First Smartphone Protocol and Empirical Evaluation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> 
+  <p><b>Published on:</b> 2026-03-17T18:49:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Timo K. Koch, Florian Bemmann, Ramona Schoedel, Markus Buehner, Clemens Stachl</p>
+    <p><b>Summary:</b> Collecting everyday speech data for prosodic analysis is challenging due to the confounding of prosody and semantics, privacy constraints, and participant compliance. We introduce and empirically evaluate a content-controlled, privacy-first smartphone protocol that uses scripted read-aloud sentences to standardize lexical content (including prompt valence) while capturing natural variation in prosodic delivery. The protocol performs on-device prosodic feature extraction, deletes raw audio immediately, and transmits only derived features for analysis. We deployed the protocol in a large study (N = 560; 9,877 recordings), evaluated compliance and data quality, and conducted diagnostic prediction tasks on the extracted features, predicting speaker sex and concurrently reported momentary affective states (valence, arousal). We discuss implications and directions for advancing and deploying the protocol.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.16780v1">Quantum-Enabled Probabilistic Optimal Power Flow with Built-in Differential Privacy</a></h3>
@@ -269,7 +259,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.15023v1">SIMD-PAC-DB: Pretty Performant PAC Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.15023v2">SIMD-PAC-DB: Pretty Performant PAC Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2026-03-16T09:24:08Z</p>
   <details>
@@ -379,12 +369,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.13728v1">Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.13728v2">Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-14T03:11:31Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Ma, Jinsong Wu, Wei Qi Yan</p>
+    <p><b>Authors:</b> Bo Ma, Wei Qi Yan, Jinsong Wu</p>
     <p><b>Summary:</b> Learning systems that preserve privacy often inject noise into hierarchical visual representations; a central challenge is to \emph{model} how such perturbations align with a declared privacy budget in a way that is interpretable and applicable across vision backbones and vision--language models (VLMs). We propose \emph{Bodhi VLM}, a \emph{privacy-alignment modeling} framework for \emph{hierarchical neural representations}: it (1) links sensitive concepts to layer-wise grouping via NCP and MDAV-based clustering; (2) locates sensitive feature regions using bottom-up (BUA) and top-down (TDA) strategies over multi-scale representations (e.g., feature pyramids or vision-encoder layers); and (3) uses an Expectation-Maximization Privacy Assessment (EMPA) module to produce an interpretable \emph{budget-alignment signal} by comparing the fitted sensitive-feature distribution to an evaluator-specified reference (e.g., Laplace or Gaussian with scale $c/ε$). The output is reference-relative and is \emph{not} a formal differential-privacy estimator. We formalize BUA/TDA over hierarchical feature structures and validate the framework on object detectors (YOLO, PPDPTS, DETR) and on the \emph{visual encoders} of VLMs (CLIP, LLaVA, BLIP). BUA and TDA yield comparable deviation trends; EMPA provides a stable alignment signal under the reported setups. We compare with generic discrepancy baselines (Chi-square, K-L, MMD) and with task-relevant baselines (MomentReg, NoiseMLE, Wass-1). Results are reported as mean$\pm$std over multiple seeds with confidence intervals in the supplementary materials. This work contributes a learnable, interpretable modeling perspective for privacy-aligned hierarchical representations rather than a post hoc audit only. Source code: \href{https://github.com/mabo1215/bodhi-vlm.git}{Bodhi-VLM GitHub repository}</p>
   </details>
 </div>
@@ -595,6 +585,18 @@
     <p><b>Authors:</b> Mark Bun, Marco Gaboardi, Connor Wagaman</p>
     <p><b>Summary:</b> We resolve an open question of Jain, Raskhodnikova, Sivakumar, and Smith (ICML 2023) by exhibiting a problem separating differential privacy under continual observation in the oblivious and adaptive settings. The continual observation (a.k.a. continual release) model formalizes privacy for streaming algorithms, where data is received over time and output is released at each time step. In the oblivious setting, privacy need only hold for data streams fixed in advance; in the adaptive setting, privacy is required even for streams that can be chosen adaptively based on the streaming algorithm's output.
   We describe the first explicit separation between the oblivious and adaptive settings. The problem showing this separation is based on the correlated vector queries problem of Bun, Steinke, and Ullman (SODA 2017). Specifically, we present an $(\varepsilon,0)$-DP algorithm for the oblivious setting that remains accurate for exponentially many time steps in the dimension of the input. On the other hand, we show that every $(\varepsilon,δ)$-DP adaptive algorithm fails to be accurate after releasing output for only a constant number of time steps.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.16918v1">Privacy and Safety Experiences and Concerns of U.S. Women Using Generative AI for Seeking Sexual and Reproductive Health Information</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-10T20:53:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ina Kaleva, Xiao Zhan, Ruba Abu-Salma, Jose Such</p>
+    <p><b>Summary:</b> The rapid adoption of generative AI (GenAI) chatbots has reshaped access to sexual and reproductive health (SRH) information, particularly following the overturning of Roe v. Wade, as individuals assigned female at birth increasingly turn to online sources. However, existing research remains largely model-centered, paying limited attention to user privacy and safety. We conducted semi-structured interviews with 18 U.S.-based participants from both restrictive and non-restrictive states who had used GenAI chatbots to seek SRH information. Adoption was influenced by perceived utility, usability, credibility, accessibility, and anthropomorphism, and many participants disclosed sensitive personal SRH details. Participants identified multiple privacy risks, including excessive data collection, government surveillance, profiling, model training, and data commodification. While most participants accepted these risks in exchange for perceived utility, abortion-related queries elicited heightened safety concerns. Few participants employed protective strategies beyond minimizing disclosures or deleting data. Based on these findings, we offer design and policy recommendations, such as health-specific features and stronger moderation practices, to enhance privacy and safety in GenAI-supported SRH information seeking.</p>
   </details>
 </div>
 
