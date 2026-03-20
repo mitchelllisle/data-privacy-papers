@@ -73,80 +73,58 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.23659v1">Central Bank Digital Currencies: Where is the Privacy, Technology, and Anonymity?</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-27T03:56:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jeff Nijsse, Andrea Pinto</p>
-    <p><b>Summary:</b> In an age of financial system digitisation and the increasing adoption of digital currencies, Central Bank Digital Currencies (CBDCs) have emerged as a focal point for technological innovation. Privacy compliance has become a key factor in the successful design of CBDCs, extending beyond technical requirements to influence legal requirements, user trust, and security considerations. Implementing Privacy-Enhancing Technologies (PETs) in CBDCs requires an interdisciplinary approach, however, the lack of a common understanding of privacy and the essential technological characteristics restricts progress. This work investigates: (1) How privacy can be defined within the framework of CBDCs and what implications does this definition have for CBDCs design? and (2) Which PETs can be employed to enhance privacy in CBDC design? We propose a comprehensive definition for privacy that is mapped to the cryptographic landscape for feature implementation. The research is validated against case studies from 20 current CBDCs. The study shows that comprehensive privacy can be designed in the proposal stage, but that privacy does not reach the launched version of the CBDC.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00181v1">Engineering FAIR Privacy-preserving Applications that Learn Histories of Disease</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2026-02-26T21:19:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ines N. Duarte, Praphulla M. S. Bhawsar, Lee K. Mason, Jeya Balaji Balasubramanian, Daniel E. Russ, Arlindo L. Oliveira, Jonas S. Almeida</p>
-    <p><b>Summary:</b> A recent report on "Learning the natural history of human disease with generative transformers" created an opportunity to assess the engineering challenge of delivering user-facing Generative AI applications in privacy-sensitive domains. The application of these models, particularly for personalized healthcare tasks like predicting individual morbidity risk, is typically constrained by data privacy concerns. This project was accordingly designed as an in-browser model deployment exercise (an "App") testing the architectural boundaries of client-side inference generation (no downloads or installations). We relied exclusively on the documentation provided in the reference report to develop the model, specifically testing the "R" component of the FAIR data principles: Findability, Accessibility, Interoperability, and Reusability. The successful model deployment, leveraging ONNX and a custom JavaScript SDK, establishes a secure, high-performance architectural blueprint for the future of private generative AI in medicine.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00179v1">Privacy-Preserving Proof of Human Authorship via Zero-Knowledge Process Attestation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-02-26T20:38:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> David Condrey</p>
-    <p><b>Summary:</b> Process attestation verifies human authorship by collecting behavioral biometric evidence, including keystroke dynamics, typing patterns, and editing behavior, during the creative process. However, the very data needed to prove authenticity can reveal intimate details about an author's cognitive state, health conditions, and identity, constituting sensitive biometric data under GDPR Article 9. We resolve this privacy-attestation paradox using zero-knowledge proofs. We present ZK-PoP, a construction that allows a verifier to confirm that (a) sequential work function chains were computed correctly, (b) behavioral feature vectors fall within human population distributions, and (c) content evolution is consistent with incremental human editing, all without learning the underlying behavioral data, exact timing, or intermediate content. Our construction uses Groth16 proofs over arithmetic circuits with Pedersen commitments and Bulletproof range proofs. We prove that ZK-PoP is computationally zero-knowledge, computationally sound, and achieves unlinkability across sessions. Evaluation shows proof generation in under 30 seconds for a 1-hour writing session, with 192-byte proofs verifiable in 8.2 ms, while incurring less than 5% accuracy loss in simulation at practical privacy levels (epsilon >= 1.0) compared to non-private baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.22670v1">Robust Distributed Nonconvex Optimization Enabling Communication Acceleration and Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2026-02-26T06:39:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zichong Ou, Jie Lu</p>
-    <p><b>Summary:</b> This paper addresses a distributed nonconvex optimization problem over multi-agent networks, where each agent exchanges its local information solely with its neighbors. Given that most existing distributed nonconvex optimization algorithms are susceptible to information leakage during inter agent communications, we propose a Robust Proximal Primal dual algorithm, referred to as RPP, to enhance the security of information transmission. In contrast to many existing approaches that directly transmit local variables throughout the network, we introduce carefully designed random noises to obfuscate sensitive local information. This not only preserves privacy but also demonstrates the noise robustness of our proposed algorithm. We establish a sublinear rate at which RPP converges to a stationary solution. Moreover, by incorporating Chebyshev acceleration, an accelerated variant of RPP is developed and achieves the optimal communication complexity bound for the algorithms that allow for exchanging local deci sions at each iteration. The superior convergence performance of RPP is validated through a few numerical experiments, which also indicate that, within an appropriate range, the introduced perturbations do not impede the convergence speed of RPP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.22633v1">Tackling Privacy Heterogeneity in Differentially Private Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2026-02-26T05:20:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruichen Xu, Ying-Jun Angela Zhang, Jianwei Huang</p>
-    <p><b>Summary:</b> Differentially private federated learning (DP-FL) enables clients to collaboratively train machine learning models while preserving the privacy of their local data. However, most existing DP-FL approaches assume that all clients share a uniform privacy budget, an assumption that does not hold in real-world scenarios where privacy requirements vary widely. This privacy heterogeneity poses a significant challenge: conventional client selection strategies, which typically rely on data quantity, cannot distinguish between clients providing high-quality updates and those introducing substantial noise due to strict privacy constraints. To address this gap, we present the first systematic study of privacy-aware client selection in DP-FL. We establish a theoretical foundation by deriving a convergence analysis that quantifies the impact of privacy heterogeneity on training error. Building on this analysis, we propose a privacy-aware client selection strategy, formulated as a convex optimization problem, that adaptively adjusts selection probabilities to minimize training error. Extensive experiments on benchmark datasets demonstrate that our approach achieves up to a 10% improvement in test accuracy on CIFAR-10 compared to existing baselines under heterogeneous privacy budgets. These results highlight the importance of incorporating privacy heterogeneity into client selection for practical and effective federated learning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.21994v1">BEDCrypt: Privacy-preserving interval analytics with homomorphic encryption</a></h3>
-  
-  <p><b>Published on:</b> 2026-02-25T15:15:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kimon Antonios Provatas, Ilias Georgakopoulos-Soares</p>
-    <p><b>Summary:</b> Motivation. Genomic data and derived interval datasets can carry sensitive information, and the analysis itself can reveal an analyst's intent. As genomic workloads are increasingly outsourced to third-party infrastructure, there is a need for privacy-preserving technologies that protect both the data and the queried loci. Results. We present BEDCrypt, a privacy-preserving system for genomic interval analytics based on homomorphic encryption in an honest-but-curious server setting. The server operates only on encrypted data and returns encrypted answers that the client decrypts locally, enabling core functionalities such as coverage summaries, interval intersections, proximity (window-style) queries, and set-similarity statistics, without revealing plaintext intervals or query genomic locations to the server.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.19040v1">When Differential Privacy Meets Wireless Federated Learning: An Improved Analysis for Privacy and Convergence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-19T15:38:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chen Yaoling, Liang Hao, Tu Xiaotong</p>
+    <p><b>Summary:</b> Differentially private wireless federated learning (DPWFL) is a promising framework for protecting sensitive user data. However, foundational questions on how to precisely characterize privacy loss remain open, and existing work is further limited by convergence analyses that rely on restrictive convexity assumptions or ignore the effect of gradient clipping. To overcome these issues, we present a comprehensive analysis of privacy and convergence for DPWFL with general smooth non-convex loss objectives. Our analysis explicitly incorporates both device selection and mini-batch sampling, and shows that the privacy loss can converge to a constant rather than diverge with the number of iterations. Moreover, we establish convergence guarantees with gradient clipping and derive an explicit privacy-utility trade-off. Numerical results validate our theoretical findings.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.18914v1">Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-03-19T13:50:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shiliang Zhang, Sabita Maharjan</p>
+    <p><b>Summary:</b> The rapid proliferation of artificial intelligence (AI) technologies has led to a dynamic regulatory landscape, where legislative frameworks strive to keep pace with technical advancements. As AI paradigms shift towards greater autonomy, specifically in the form of agentic AI, it becomes increasingly challenging to precisely articulate regulatory stipulations. This challenge is even more acute in the domains of security and privacy, where the capabilities of autonomous agents often blur traditional legal and technical boundaries. This paper reviews the evolving European Union (EU) AI regulatory provisions via analyzing 24 relevant documents published between 2024 and 2025. From this review, we provide a clarification of critical definitions. We deconstruct the regulatory interpretations of security, privacy, and agentic AI, distinguishing them from closely related concepts to resolve ambiguity. We synthesize the reviewed documents to articulate the current state of regulatory provisions targeting different types of AI, particularly those related to security and privacy aspects. We analyze and reflect on the existing provisions in the regulatory dimension to better align security and privacy obligations with AI and agentic behaviors. These insights serve to inform policymakers, developers, and researchers on the compliance and AI governance in the society with increasing algorithmic agencies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.18377v1">PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2026-03-19T00:32:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Guangsheng Yu, Qin Wang, Rui Lang, Shuai Su, Xu Wang</p>
+    <p><b>Summary:</b> Cloud-hosted large language models (LLMs) have become the de facto planners in agentic systems, coordinating tools and guiding execution over local environments. In many deployments, however, the environment being planned over is private, containing source code, files, credentials, and metadata that cannot be exposed to the cloud. Existing solutions address adjacent concerns, such as execution isolation, access control, or confidential inference, but they do not control what cloud planners observe during planning: within the permitted scope, \textit{raw environment state is still exposed}.
+  We introduce PlanTwin, a privacy-preserving architecture for cloud-assisted planning without exposing raw local context. The key idea is to project the real environment into a \textit{planning-oriented digital twin}: a schema-constrained and de-identified abstract graph that preserves planning-relevant structure while removing reconstructable details. The cloud planner operates solely on this sanitized twin through a bounded capability interface, while a local gatekeeper enforces safety policies and cumulative disclosure budgets. We further formalize the privacy-utility trade-off as a capability granularity problem, define architectural privacy goals using $(k,δ)$-anonymity and $ε$-unlinkability, and mitigate compositional leakage through multi-turn disclosure control.
+  We implement PlanTwin as middleware between local agents and cloud planners and evaluate it on 60 agentic tasks across ten domains with four cloud planners. PlanTwin achieves full sensitive-item non-disclosure (SND = 1.0) while maintaining planning quality close to full-context systems: three of four planners achieve PQS $> 0.79$, and the full pipeline incurs less than 2.2\% utility loss.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.18254v1">Computation-Utility-Privacy Tradeoffs in Bayesian Estimation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Complexity-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2026-03-18T20:20:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sitan Chen, Jingqiu Ding, Mahbod Majid, Walter McKelvie</p>
+    <p><b>Summary:</b> Bayesian methods lie at the heart of modern data science and provide a powerful scaffolding for estimation in data-constrained settings and principled quantification and propagation of uncertainty. Yet in many real-world use cases where these methods are deployed, there is a natural need to preserve the privacy of the individuals whose data is being scrutinized. While a number of works have attempted to approach the problem of differentially private Bayesian estimation through either reasoning about the inherent privacy of the posterior distribution or privatizing off-the-shelf Bayesian methods, these works generally do not come with rigorous utility guarantees beyond low-dimensional settings. In fact, even for the prototypical tasks of Gaussian mean estimation and linear regression, it was unknown how close one could get to the Bayes-optimal error with a private algorithm, even in the simplest case where the unknown parameter comes from a Gaussian prior. In this work, we give the first efficient algorithms for both of these problems that achieve mean-squared error $(1+o(1))\mathrm{OPT}$ and additionally show that both tasks exhibit an intriguing computational-statistical gap. For Bayesian mean estimation, we prove that the excess risk achieved by our method is optimal among all efficient algorithms within the low-degree framework, yet is provably worse than what is achievable by an exponential-time algorithm. For linear regression, we prove a qualitatively similar lower bound. Our algorithms draw upon the privacy-to-robustness framework of arXiv:2212.05015, but with the curious twist that to achieve private Bayes-optimal estimation, we need to design sum-of-squares-based robust estimators for inherently non-robust objects like the empirical mean and OLS estimator. Along the way we also add to the sum-of-squares toolkit a new kind of constraint based on short-flat decompositions.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.17902v1">Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs</a></h3>
@@ -156,6 +134,33 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Ya-Ting Yang, Quanyan Zhu</p>
     <p><b>Summary:</b> Large language models (LLMs) and AI agents are increasingly integrated into enterprise systems to access internal databases and generate context-aware responses. While such integration improves productivity and decision support, the model outputs may inadvertently reveal sensitive information. Although many prior efforts focus on protecting the privacy of user prompts, relatively few studies consider privacy risks from the enterprise data perspective. Hence, this paper develops a probabilistic framework for analyzing privacy leakage in AI agents based on differential privacy. We model response generation as a stochastic mechanism that maps prompts and datasets to distributions over token sequences. Within this framework, we introduce token-level and message-level differential privacy and derive privacy bounds that relate privacy leakage to generation parameters such as temperature and message length. We further formulate a privacy-utility design problem that characterizes optimal temperature selection.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.18097v1">One Key Good, L Keys Better: List Decoding Meets Quantum Privacy Amplification</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-18T10:37:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prateek P. Kulkarni</p>
+    <p><b>Summary:</b> We introduce list privacy amplification (LPA), a relaxation of the final step of quantum key distribution (QKD) in which Alice and Bob extract a list of $L$ candidate keys from a raw string correlated with an eavesdropper Eve, with the guarantee that at least one key is perfectly secret while Eve cannot identify which. This parallels list decoding in error-correcting codes: relaxing unique decoding to list decoding increases the decoding radius; analogously, list extraction increases achievable key length beyond the standard quantum leftover hash lemma (QLHL). Within the abstract cryptography framework, we formalise LPA and prove the \emph{Quantum List Leftover Hash Lemma} (QLLHL): an $L$-list of $\ell$-bit keys can be extracted from an $n$-bit source with smooth min-entropy $k$ iff \[ \ell \le k + \log L - 2\log(1/ε) - 3, \] yielding a tight additive $\log L$ gain over QLHL. This gain arises because the index of the secure key is chosen after hashing and hidden from Eve, effectively contributing $\log L$ bits of entropy. Applying QLLHL to BB84-type QKD, a list size $L = 2^{αn'}$ increases the tolerable phase-error threshold from $h^{-1}(1 - h(e_b))$ to $h^{-1}(1 - h(e_b) + α)$, exceeding the standard $\approx 11\%$ bound for any $α> 0$. We prove tightness via a matching intercept-resend attack, establish composability with Wegman--Carter authentication, and present two constructions: a polynomial inner-product hash over $\mathbb{F}_{2^m}$ and a Toeplitz-based variant, running in $O(nL)$ and $O(nL \log n)$ time.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.18080v1">Growing Alphabets Do Not Automatically Amplify Shuffle Privacy: Obstruction, Estimation Bounds, and Optimal Mechanism Design</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-03-18T07:46:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Shvets</p>
+    <p><b>Summary:</b> We study neighboring shuffle experiments for epsilon_0-LDP channels along growing alphabets d -> infinity, and optimal mechanism design for frequency estimation under a canonical pairwise chi-squared budget.
+  On the privacy side, we prove an exact compression theorem: the shuffled histogram experiment depends only on the pushforward law of the pairwise likelihood ratio. We establish a sharp universal bound chi^2 <= (e^{epsilon_0}-1)^2/e^{epsilon_0}, construct explicit obstruction families for which the shuffled privacy curve equals binary randomized response for all d, and prove a sharp diluting/persistent dichotomy.
+  On the estimation side, we prove a universal lower bound of order (d-1)/(n chi_*(W)) via Cramer-Rao and Assouad arguments, and show that symmetrization to equivariant channels is WLOG.
+  On the design side, we show calibrated GRR is not optimal. The optimal mechanism is an augmented GRR: fraction p of users applies aggressive GRR with lambda_* = sqrt(d-1), the rest sends a null symbol. This thinning principle is specific to shuffle and has no local-DP counterpart. For low budget 0 < C <= C_*(d), augmented GRR is optimal among all permutation-equivariant channels. GRR is also the unique optimizer within the subset-selection family.</p>
   </details>
 </div>
 
@@ -259,7 +264,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.15023v2">SIMD-PAC-DB: Pretty Performant PAC Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.15023v3">SIMD-PAC-DB: Pretty Performant PAC Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
   <p><b>Published on:</b> 2026-03-16T09:24:08Z</p>
   <details>
@@ -271,7 +276,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.14994v1">DP-S4S: Accurate and Scalable Select-Join-Aggregate Query Processing with User-Level Differential Privacy</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.14994v2">DP-S4S: Accurate and Scalable Select-Join-Aggregate Query Processing with User-Level Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-16T08:58:38Z</p>
   <details>
@@ -417,7 +422,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.13570v1">Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.13570v2">Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-13T20:19:18Z</p>
   <details>
@@ -614,7 +619,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09583v1">Nonparametric Variational Differential Privacy via Embedding Parameter Clipping</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.09583v2">Nonparametric Variational Differential Privacy via Embedding Parameter Clipping</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-03-10T12:34:03Z</p>
   <details>
