@@ -2460,5 +2460,229 @@
       "cs.HC",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.19040v1",
+    "title" : "When Differential Privacy Meets Wireless Federated Learning: An Improved Analysis for Privacy and Convergence",
+    "summary" : "Differentially private wireless federated learning (DPWFL) is a promising framework for protecting sensitive user data. However, foundational questions on how to precisely characterize privacy loss remain open, and existing work is further limited by convergence analyses that rely on restrictive convexity assumptions or ignore the effect of gradient clipping. To overcome these issues, we present a comprehensive analysis of privacy and convergence for DPWFL with general smooth non-convex loss objectives. Our analysis explicitly incorporates both device selection and mini-batch sampling, and shows that the privacy loss can converge to a constant rather than diverge with the number of iterations. Moreover, we establish convergence guarantees with gradient clipping and derive an explicit privacy-utility trade-off. Numerical results validate our theoretical findings.",
+    "updated" : "2026-03-19T15:38:06Z",
+    "published" : "2026-03-19T15:38:06Z",
+    "authors" : [
+      {
+        "name" : "Chen Yaoling"
+      },
+      {
+        "name" : "Liang Hao"
+      },
+      {
+        "name" : "Tu Xiaotong"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.18914v1",
+    "title" : "Security, privacy, and agentic AI in a regulatory view: From definitions and distinctions to provisions and reflections",
+    "summary" : "The rapid proliferation of artificial intelligence (AI) technologies has led to a dynamic regulatory landscape, where legislative frameworks strive to keep pace with technical advancements. As AI paradigms shift towards greater autonomy, specifically in the form of agentic AI, it becomes increasingly challenging to precisely articulate regulatory stipulations. This challenge is even more acute in the domains of security and privacy, where the capabilities of autonomous agents often blur traditional legal and technical boundaries. This paper reviews the evolving European Union (EU) AI regulatory provisions via analyzing 24 relevant documents published between 2024 and 2025. From this review, we provide a clarification of critical definitions. We deconstruct the regulatory interpretations of security, privacy, and agentic AI, distinguishing them from closely related concepts to resolve ambiguity. We synthesize the reviewed documents to articulate the current state of regulatory provisions targeting different types of AI, particularly those related to security and privacy aspects. We analyze and reflect on the existing provisions in the regulatory dimension to better align security and privacy obligations with AI and agentic behaviors. These insights serve to inform policymakers, developers, and researchers on the compliance and AI governance in the society with increasing algorithmic agencies.",
+    "updated" : "2026-03-19T13:50:52Z",
+    "published" : "2026-03-19T13:50:52Z",
+    "authors" : [
+      {
+        "name" : "Shiliang Zhang"
+      },
+      {
+        "name" : "Sabita Maharjan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.18377v1",
+    "title" : "PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents",
+    "summary" : "Cloud-hosted large language models (LLMs) have become the de facto planners in agentic systems, coordinating tools and guiding execution over local environments. In many deployments, however, the environment being planned over is private, containing source code, files, credentials, and metadata that cannot be exposed to the cloud. Existing solutions address adjacent concerns, such as execution isolation, access control, or confidential inference, but they do not control what cloud planners observe during planning: within the permitted scope, \\textit{raw environment state is still exposed}.\n  We introduce PlanTwin, a privacy-preserving architecture for cloud-assisted planning without exposing raw local context. The key idea is to project the real environment into a \\textit{planning-oriented digital twin}: a schema-constrained and de-identified abstract graph that preserves planning-relevant structure while removing reconstructable details. The cloud planner operates solely on this sanitized twin through a bounded capability interface, while a local gatekeeper enforces safety policies and cumulative disclosure budgets. We further formalize the privacy-utility trade-off as a capability granularity problem, define architectural privacy goals using $(k,δ)$-anonymity and $ε$-unlinkability, and mitigate compositional leakage through multi-turn disclosure control.\n  We implement PlanTwin as middleware between local agents and cloud planners and evaluate it on 60 agentic tasks across ten domains with four cloud planners. PlanTwin achieves full sensitive-item non-disclosure (SND = 1.0) while maintaining planning quality close to full-context systems: three of four planners achieve PQS $> 0.79$, and the full pipeline incurs less than 2.2\\% utility loss.",
+    "updated" : "2026-03-19T00:32:53Z",
+    "published" : "2026-03-19T00:32:53Z",
+    "authors" : [
+      {
+        "name" : "Guangsheng Yu"
+      },
+      {
+        "name" : "Qin Wang"
+      },
+      {
+        "name" : "Rui Lang"
+      },
+      {
+        "name" : "Shuai Su"
+      },
+      {
+        "name" : "Xu Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.18254v1",
+    "title" : "Computation-Utility-Privacy Tradeoffs in Bayesian Estimation",
+    "summary" : "Bayesian methods lie at the heart of modern data science and provide a powerful scaffolding for estimation in data-constrained settings and principled quantification and propagation of uncertainty. Yet in many real-world use cases where these methods are deployed, there is a natural need to preserve the privacy of the individuals whose data is being scrutinized. While a number of works have attempted to approach the problem of differentially private Bayesian estimation through either reasoning about the inherent privacy of the posterior distribution or privatizing off-the-shelf Bayesian methods, these works generally do not come with rigorous utility guarantees beyond low-dimensional settings. In fact, even for the prototypical tasks of Gaussian mean estimation and linear regression, it was unknown how close one could get to the Bayes-optimal error with a private algorithm, even in the simplest case where the unknown parameter comes from a Gaussian prior. In this work, we give the first efficient algorithms for both of these problems that achieve mean-squared error $(1+o(1))\\mathrm{OPT}$ and additionally show that both tasks exhibit an intriguing computational-statistical gap. For Bayesian mean estimation, we prove that the excess risk achieved by our method is optimal among all efficient algorithms within the low-degree framework, yet is provably worse than what is achievable by an exponential-time algorithm. For linear regression, we prove a qualitatively similar lower bound. Our algorithms draw upon the privacy-to-robustness framework of arXiv:2212.05015, but with the curious twist that to achieve private Bayes-optimal estimation, we need to design sum-of-squares-based robust estimators for inherently non-robust objects like the empirical mean and OLS estimator. Along the way we also add to the sum-of-squares toolkit a new kind of constraint based on short-flat decompositions.",
+    "updated" : "2026-03-18T20:20:58Z",
+    "published" : "2026-03-18T20:20:58Z",
+    "authors" : [
+      {
+        "name" : "Sitan Chen"
+      },
+      {
+        "name" : "Jingqiu Ding"
+      },
+      {
+        "name" : "Mahbod Majid"
+      },
+      {
+        "name" : "Walter McKelvie"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CC",
+      "cs.IT",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.18097v1",
+    "title" : "One Key Good, L Keys Better: List Decoding Meets Quantum Privacy Amplification",
+    "summary" : "We introduce list privacy amplification (LPA), a relaxation of the final step of quantum key distribution (QKD) in which Alice and Bob extract a list of $L$ candidate keys from a raw string correlated with an eavesdropper Eve, with the guarantee that at least one key is perfectly secret while Eve cannot identify which. This parallels list decoding in error-correcting codes: relaxing unique decoding to list decoding increases the decoding radius; analogously, list extraction increases achievable key length beyond the standard quantum leftover hash lemma (QLHL). Within the abstract cryptography framework, we formalise LPA and prove the \\emph{Quantum List Leftover Hash Lemma} (QLLHL): an $L$-list of $\\ell$-bit keys can be extracted from an $n$-bit source with smooth min-entropy $k$ iff \\[ \\ell \\le k + \\log L - 2\\log(1/ε) - 3, \\] yielding a tight additive $\\log L$ gain over QLHL. This gain arises because the index of the secure key is chosen after hashing and hidden from Eve, effectively contributing $\\log L$ bits of entropy. Applying QLLHL to BB84-type QKD, a list size $L = 2^{αn'}$ increases the tolerable phase-error threshold from $h^{-1}(1 - h(e_b))$ to $h^{-1}(1 - h(e_b) + α)$, exceeding the standard $\\approx 11\\%$ bound for any $α> 0$. We prove tightness via a matching intercept-resend attack, establish composability with Wegman--Carter authentication, and present two constructions: a polynomial inner-product hash over $\\mathbb{F}_{2^m}$ and a Toeplitz-based variant, running in $O(nL)$ and $O(nL \\log n)$ time.",
+    "updated" : "2026-03-18T10:37:05Z",
+    "published" : "2026-03-18T10:37:05Z",
+    "authors" : [
+      {
+        "name" : "Prateek P. Kulkarni"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.18080v1",
+    "title" : "Growing Alphabets Do Not Automatically Amplify Shuffle Privacy: Obstruction, Estimation Bounds, and Optimal Mechanism Design",
+    "summary" : "We study neighboring shuffle experiments for epsilon_0-LDP channels along growing alphabets d -> infinity, and optimal mechanism design for frequency estimation under a canonical pairwise chi-squared budget.\n  On the privacy side, we prove an exact compression theorem: the shuffled histogram experiment depends only on the pushforward law of the pairwise likelihood ratio. We establish a sharp universal bound chi^2 <= (e^{epsilon_0}-1)^2/e^{epsilon_0}, construct explicit obstruction families for which the shuffled privacy curve equals binary randomized response for all d, and prove a sharp diluting/persistent dichotomy.\n  On the estimation side, we prove a universal lower bound of order (d-1)/(n chi_*(W)) via Cramer-Rao and Assouad arguments, and show that symmetrization to equivariant channels is WLOG.\n  On the design side, we show calibrated GRR is not optimal. The optimal mechanism is an augmented GRR: fraction p of users applies aggressive GRR with lambda_* = sqrt(d-1), the rest sends a null symbol. This thinning principle is specific to shuffle and has no local-DP counterpart. For low budget 0 < C <= C_*(d), augmented GRR is optimal among all permutation-equivariant channels. GRR is also the unique optimizer within the subset-selection family.",
+    "updated" : "2026-03-18T07:46:00Z",
+    "published" : "2026-03-18T07:46:00Z",
+    "authors" : [
+      {
+        "name" : "Alex Shvets"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.15023v3",
+    "title" : "SIMD-PAC-DB: Pretty Performant PAC Privacy",
+    "summary" : "This work presents a highly optimized implementation of PAC-DB, a recent and promising database privacy model. We prove that our SIMD-PAC-DB can compute the same privatized answer with just a single query, instead of the 128 stochastic executions against different 50% database sub-samples needed by the original PAC-DB. Our key insight is that every bit of a hashed primary key can be seen to represent membership of such a sub-sample. We present new algorithms for approximate computation of stochastic aggregates based on these hashes, which, thanks to their SIMD-friendliness, run up to 40x faster than scalar equivalents. We release an open-source DuckDB community extension which includes a rewriter that PAC-privatizes arbitrary SQL queries. Our experiments on TPC-H, Clickbench, and SQLStorm evaluate thousands of queries in terms of performance and utility, significantly advancing the ease of use and functionality of privacy-aware data systems in practice.",
+    "updated" : "2026-03-19T12:17:44Z",
+    "published" : "2026-03-16T09:24:08Z",
+    "authors" : [
+      {
+        "name" : "Ilaria Battiston"
+      },
+      {
+        "name" : "Dandan Yuan"
+      },
+      {
+        "name" : "Xiaochen Zhu"
+      },
+      {
+        "name" : "Peter Boncz"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.14994v2",
+    "title" : "DP-S4S: Accurate and Scalable Select-Join-Aggregate Query Processing with User-Level Differential Privacy",
+    "summary" : "Answering Select-Join-Aggregate queries with DP is a fundamental problem with important applications in various domains. The current SOTA methods ensure user-level DP (i.e., the adversary cannot infer the presence or absence of any given individual user with high confidence) and achieve instance-optimal accuracy on the query results. However, these solutions involve solving expensive optimization programs, which may incur prohibitive computational overhead for large databases.\n  One promising direction to achieve scalability is through sampling, which provides a tunable trade-off between result utility and computational costs. However, applying sampling to differentially private SJA processing is a challenge for two reasons. First, it is unclear what to sample, in order to achieve the best accuracy within a given computational budget. Second, prior solutions were not designed with sampling in mind, and their mathematical tool chains are not sampling-friendly. To our knowledge, the only known solution that applies sampling to private SJA processing is S&E, a recent proposal that (i) samples users and (ii) combines sampling directly with existing solutions to enforce DP. We show that both are suboptimal designs; consequently, even with a relatively high sample rate, the error incurred by S&E can be 10x higher than the underlying DP mechanism without sampling.\n  Motivated by this, we propose Differentially Private Sampling for Scale (DP-S4S), a novel mechanism that addresses the above challenges by (i) sampling aggregation units instead of users, and (ii) laying the mathematical foundation for SJA processing under RDP, which composes more easily with sampling. Further, DP-S4S can answer both scalar and vector SJA queries. Extensive experiments on real data demonstrate that DP-S4S enables scalable SJA processing on large datasets under user-level DP, while maintaining high result utility.",
+    "updated" : "2026-03-19T09:22:10Z",
+    "published" : "2026-03-16T08:58:38Z",
+    "authors" : [
+      {
+        "name" : "Yuan Qiu"
+      },
+      {
+        "name" : "Xiaokui Xiao"
+      },
+      {
+        "name" : "Yin Yang"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.13570v2",
+    "title" : "Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap",
+    "summary" : "The rapid proliferation of the Internet of Things has intensified demand for robust privacy-preserving machine learning mechanisms to safeguard sensitive data generated by large-scale, heterogeneous, and resource-constrained devices. Unlike centralized environments, IoT ecosystems are inherently decentralized, bandwidth-limited, and latency-sensitive, exposing privacy risks across sensing, communication, and distributed training pipelines. These characteristics render conventional anonymization and centralized protection strategies insufficient for practical deployments. This survey presents a comprehensive IoT-centric, cross-paradigm analysis of privacy-preserving machine learning. We introduce a structured taxonomy spanning perturbation-based mechanisms such as differential privacy, distributed paradigms such as federated learning, cryptographic approaches including homomorphic encryption and secure multiparty computation, and generative synthesis techniques based on generative adversarial networks. For each paradigm, we examine formal privacy guarantees, computational and communication complexity, scalability under heterogeneous device participation, and resilience against threats including membership inference, model inversion, gradient leakage, and adversarial manipulation. We further analyze deployment constraints in wireless IoT environments, highlighting trade-offs between privacy, communication overhead, model convergence, and system efficiency within next-generation mobile architectures. We also consolidate evaluation methodologies, summarize representative datasets and open-source frameworks, and identify open challenges including hybrid privacy integration, energy-aware learning, privacy-preserving large language models, and quantum-resilient machine learning.",
+    "updated" : "2026-03-18T18:14:02Z",
+    "published" : "2026-03-13T20:19:18Z",
+    "authors" : [
+      {
+        "name" : "Zakia Zaman"
+      },
+      {
+        "name" : "Praveen Gauravaram"
+      },
+      {
+        "name" : "Mahbub Hassan"
+      },
+      {
+        "name" : "Sanjay Jha"
+      },
+      {
+        "name" : "Wen Hu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.09583v2",
+    "title" : "Nonparametric Variational Differential Privacy via Embedding Parameter Clipping",
+    "summary" : "The nonparametric variational information bottleneck (NVIB) provides the foundation for nonparametric variational differential privacy (NVDP), a framework for building privacy-preserving language models. However, the learned latent representations can drift into regions with high information content, leading to poor privacy guarantees, but also low utility due to numerical instability during training. In this work, we introduce a principled parameter clipping strategy to directly address this issue. Our method is mathematically derived from the objective of minimizing the Rényi Divergence (RD) upper bound, yielding specific, theoretically grounded constraints on the posterior mean, variance, and mixture weight parameters. We apply our technique to an NVIB based model and empirically compare it against an unconstrained baseline. Our findings demonstrate that the clipped model consistently achieves tighter RD bounds, implying stronger privacy, while simultaneously attaining higher performance on several downstream tasks. This work presents a simple yet effective method for improving the privacy-utility trade-off in variational models, making them more robust and practical.",
+    "updated" : "2026-03-19T13:29:29Z",
+    "published" : "2026-03-10T12:34:03Z",
+    "authors" : [
+      {
+        "name" : "Dina El Zein"
+      },
+      {
+        "name" : "Shashi Kumar"
+      },
+      {
+        "name" : "James Henderson"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
