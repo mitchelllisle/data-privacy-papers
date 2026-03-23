@@ -1,80 +1,66 @@
 
-<h2>2026-02</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00841v1">Security Is Not Enough: Privacy in Encryption Regulation and Lawful-Surveillance Protocols</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-02-28T23:41:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Artur Pericles L. Monteiro</p>
-    <p><b>Summary:</b> This article argues that security is not enough to fully capture what is at stake in government exceptional access to encrypted data. A conception of privacy as security has little to say about ``lawful-surveillance protocols'' -- an active research agenda in cryptography that aims to enable government exceptional access without compromising systemic security. But the limitations are not contingent on the success of this agenda. The normative landscape today cannot be explained if security is all there is to privacy. And fundamental objections to Apple's abandoned client-side scanning system gesture beyond security. This article's contribution is modest: to show that there must be more to privacy than the security mold it has taken. A richer understanding is needed both to assess policy and to guide research on lawful-surveillance protocols.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00690v1">Local Differential Privacy for Molecular Communication Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-02-28T15:01:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Melih Şahin, Ozgur B. Akan</p>
-    <p><b>Summary:</b> Molecular communication (MC) enables information exchange in nanoscale sensor networks operating in biological environments, yet privacy remains largely unaddressed. We integrate local differential privacy (LDP) into diffusion-based MC by privatizing each user's measurement at the transmitter and conveying the resulting randomized report over the MC channel. To our knowledge, this is the first systematic LDP implementation for diffusion-based MC, enabling privacy-preserving aggregate data analysis for in-body health monitoring and other population-scale sensing applications. We benchmark major LDP mechanisms under a realistic channel model. Simulation results show that k-ary Randomized Response (KRR) and Optimized Local Hashing (OLH) achieve the lowest average $\ell_1$ distribution-estimation error under the MC channel: OLH is preferable when channel resources are sufficient and the number of possible user values (alphabet size) $k$ is moderate to large, whereas the KRR is more robust as the MC transmission quality deteriorates. We further propose RLIM-LDP, which combines run-length-limited ISI-mitigation (RLIM) coding with LDP coding. Extensive simulation results demonstrate that RLIM-LDP improves end-to-end reliability and reduces the final distribution-estimation error when time and molecule resources are limited.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00384v1">Privacy Cards for Surfacing Mental Models and Exploring Privacy Concerns: A Case Study of Voice-First Ambient Interfaces with Older Adults</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-02-27T23:53:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrea Cuadra, Samar Sabie, Yan Shvartzshnaider, Deborah Estrin</p>
-    <p><b>Summary:</b> We investigate the ethical and privacy implications of voice-first ambient interfaces (VFAIs) for aging in place through an in-depth engagement with five older adults. Our participants were in the process of becoming experienced VFAI users, and had used a VFAI-based design probe for health data reporting. We create and iteratively refine an interview protocol using Privacy Cards. We customize Privacy Cards by drawing on participants' previous interviews and device usage logs. Using Privacy Cards, we conduct interviews to surface their mental models, and explore their privacy concerns. We find insufficient mental models for proper consent. For example, participants did not know who could access their data, and experienced difficulty distinguishing built-in functionality from third-party apps. Participants initially expressed little worry about VFAI-related ethical concerns, but interviews with Privacy Cards revealed nuanced issues, resulting in various implications for future research and design.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.00318v1">AESP: A Human-Sovereign Economic Protocol for AI Agents with Privacy-Preserving Settlement</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-02-27T21:20:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jian Sheng Wang</p>
-    <p><b>Summary:</b> As AI agents increasingly perform economic tasks on behalf of humans, a fundamental tension arises between agent autonomy and human control over financial assets. We present the Agent Economic Sovereignty Protocol (AESP), a layered protocol in which agents transact autonomously at machine speed on crypto-native infrastructure while remaining cryptographically bound to human-defined governance boundaries. AESP enforces the invariant that agents are economically capable but never economically sovereign through five mechanisms: (1) a deterministic eight-check policy engine with tiered escalation; (2) human-in-the-loop review with automatic, explicit, and biometric tiers; (3) EIP-712 dual-signed commitments with escrow; (4) HKDF-based context-isolated privacy with batched consolidation; and (5) an ACE-GF-based cryptographic substrate. We formalize two testable hypotheses on security coverage and latency overhead, and specify a complete evaluation methodology with baselines and ablation design. The protocol is implemented as an open-source TypeScript SDK (208 tests, ten modules) with interoperability via MCP and A2A.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.23798v1">MPU: Towards Secure and Privacy-Preserving Knowledge Unlearning for Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2026-02-27T08:39:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tiantong Wang, Xinyu Yan, Tiantong Wu, Yurong Hao, Yong Jiang, Fei Huang, Wei Yang Bryan Lim</p>
-    <p><b>Summary:</b> Machine unlearning for large language models often faces a privacy dilemma in which strict constraints prohibit sharing either the server's parameters or the client's forget set. To address this dual non-disclosure constraint, we propose MPU, an algorithm-agnostic privacy-preserving Multiple Perturbed Copies Unlearning framework that primarily introduces two server-side modules: Pre-Process for randomized copy generation and Post-Process for update aggregation. In Pre-Process, the server distributes multiple perturbed and reparameterized model instances, allowing the client to execute unlearning locally on its private forget set without accessing the server's exact original parameters. After local unlearning, the server performs Post-Process by inverting the reparameterization and aggregating updates with a harmonic denoising procedure to alleviate the impact of perturbation. Experiments with seven unlearning algorithms show that MPU achieves comparable unlearning performance to noise-free baselines, with most algorithms' average degradation well below 1% under 10% noise, and can even outperform the noise-free baseline for some algorithms under 1% noise. Code is available at https://github.com/Tristan-SHU/MPU.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2602.23698v1">Privacy-Preserving Local Energy Trading Considering Network Fees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-02-27T05:55:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eman Alqahtani, Mustafa A. Mustafa</p>
-    <p><b>Summary:</b> Driven by the widespread deployment of distributed energy resources, local energy markets (LEMs) have emerged as a promising approach for enabling direct trades among prosumers and consumers to balance intermittent generation and demand locally. However, LEMs involve processing sensitive participant data, which, if not protected, poses privacy risks. At the same time, since electricity is exchanged over the physical power network, market mechanisms should consider physical constraints and network-related costs. Existing work typically addresses these issues separately, either by incorporating grid-related aspects or by providing privacy protection. To address this gap, we propose a privacy-preserving protocol for LEMs, with consideration of network fees that can incite participants to respect physical limits. The protocol is based on a double-auction mechanism adapted from prior work to enable more efficient application of our privacy-preserving approach. To protect participants' data, we use secure multiparty computation. In addition, Schnorr's identification protocol is employed with multiparty verification to ensure authenticated participation without compromising privacy. We further optimise the protocol to reduce communication and round complexity. We prove that the protocol meets its security requirements and show through experimentation its feasibility at a typical LEM scale: a market with 5,000 participants can be cleared in 4.17 minutes.</p>
-  </details>
-</div>
-
-
-
 <h2>2026-03</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.20107v1">Sharing The Secret: Distributed Privacy-Preserving Monitoring</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Formal Languages and Automata Theory-D91E36">
+  <p><b>Published on:</b> 2026-03-20T16:30:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahyar Karimi, K. S. Thejaswini, Roderick Bloem, Thomas A. Henzinger</p>
+    <p><b>Summary:</b> In traditional runtime verification, a system is typically observed by a monolithic monitor. Enforcing privacy in such settings is computationally expensive, as it necessitates heavy cryptographic primitives. Therefore, privacy-preserving monitoring remains impractical for real-time applications. In this work, we address this scalability challenge by distributing the monitor across multiple parties -- at least one of which is honest. This architecture enables the use of efficient secret-sharing schemes instead of computationally intensive cryptography, dramatically reducing over-head while maintaining strong privacy guarantees. While existing secret-sharing approaches are typically limited to one-shot executions which do not maintain an internal state, we introduce a protocol tailored for continuous monitoring that supports repeated evaluations over an evolving internal state (kept secret from the system and the monitoring entities). We implement our approach using the MP-SPDZ framework. Our experiments demonstrate that, under these architectural assumptions, our protocol is significantly more scalable than existing alternatives.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.19791v1">Text-Based Personas for Simulating User Privacy Decisions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-20T09:28:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kassem Fawaz, Ren Yi, Octavian Suciu, Rishabh Khandelwal, Hamza Harkous, Nina Taft, Marco Gruteser</p>
+    <p><b>Summary:</b> The ability to simulate human privacy decisions has significant implications for aligning autonomous agents with individual intent and conducting cost-effective, large-scale privacy-centric user studies. Prior approaches prompt Large Language Models (LLMs) with natural language user statements, data-sharing histories, or demographic attributes to simulate privacy decisions. These approaches, however, fail to balance individual-level accuracy, prompt usability, token efficiency, and population-level representation. We present Narriva, an approach that generates text-based synthetic privacy personas to address these shortcomings. Narriva grounds persona generation in prior user privacy decisions, such as those from large-scale survey datasets, rather than purely relying on demographic stereotypes. It compresses this data into concise, human-readable summaries structured by established privacy theories. Through benchmarking across five diverse datasets, we analyze the characteristics of Narriva's synthetic personas in modeling both individual and population-level privacy preferences. We find that grounding personas in past privacy behaviors achieves up to 88% predictive accuracy (significantly outperforming a non-personalized LLM baseline), and yields an 80-95% reduction in prompt tokens compared to in-context learning with raw examples. Finally, we demonstrate that personas synthesized from a single survey can reproduce the aggregate privacy behaviors and statistical distributions (TVComplement up to 0.85) of entirely different studies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.19703v1">Minimax and Adaptive Covariance Matrix Estimation under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-20T07:13:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> T. Tony Cai, Yicheng Li</p>
+    <p><b>Summary:</b> The covariance matrix plays a fundamental role in the analysis of high-dimensional data. This paper studies minimax and adaptive estimation of high-dimensional bandable covariance matrices under differential privacy constraints. We propose a novel differentially private blockwise tridiagonal estimator that achieves minimax-optimal convergence rates under both the operator norm and the Frobenius norm. In contrast to the non-private setting, the privacy-induced error exhibits a polynomial dependence on the ambient dimension, revealing a substantial additional cost of privacy.
+  To establish optimality, we develop a new differentially private van Trees inequality and construct carefully designed prior distributions to obtain matching minimax lower bounds. The proposed private van Trees inequality applies more broadly to general private estimation problems and is of independent interest. We further introduce an adaptive estimator that attains the optimal rate up to a logarithmic factor without prior knowledge of the decay parameter, based on a novel hierarchical tridiagonal approach. Numerical experiments corroborate the theoretical results and illustrate the fundamental privacy-accuracy trade-off.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.19671v1">Acyclic Graph Pattern Counting under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-20T06:12:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yihua Hu, Kuncan Wang, Wei Dong</p>
+    <p><b>Summary:</b> Graph pattern counting serves as a cornerstone of network analysis with extensive real-world applications. Its integration with local differential privacy (LDP) has gained growing attention for protecting sensitive graph information in decentralized settings. However, existing LDP frameworks are largely ad hoc, offering solutions only for specific patterns such as triangles and stars. A general mechanism for counting arbitrary graph patterns, even for the subclass of acyclic patterns, has remained an open problem. To fill this gap, we present the first general solution for counting arbitrary acyclic patterns under LDP. We identify and tackle two fundamental challenges: generalizing pattern construction from distributed data and eliminating node duplication during the construction. To address the first challenge, we propose an LDP-tailored recursive subpattern counting framework that incrementally builds patterns across multiple communication rounds. For the second challenge, we apply a random marking technique that restricts each node to a unique position in the pattern during computation. Our mechanism achieves strong utility guarantees: for any acyclic graph pattern with $k$ edges, we achieve an additive error of $\tilde{O}(\sqrt{N}d(G)^k)$, where $N$ is the number of nodes and $d(G)$ is the maximum degree of the input graph $G$. Experiments on real-world graph datasets across multiple types of acyclic patterns demonstrate that our mechanisms achieve up to $46$-$2600\times$ improvement in utility and $300$-$650\times$ reduction in communication cost compared to the baseline methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.19416v1">Investigating In-Context Privacy Learning by Integrating User-Facing Privacy Tools into Conversational Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-19T19:18:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad Hadi Nezhad, Francisco Enrique Vicente Castro, Ivon Arroyo</p>
+    <p><b>Summary:</b> Supporting users in protecting sensitive information when using conversational agents (CAs) is crucial, as users may undervalue privacy protection due to outdated, partial, or inaccurate knowledge about privacy in CAs. Although privacy knowledge can be developed through standalone resources, it may not readily translate into practice and may remain detached from real-time contexts of use. In this study, we investigate in-context, experiential learning by examining how interactions with privacy tools during chatbot use enhance users' privacy learning. We also explore interface design features that facilitate engagement with these tools and learning about privacy by simulating ChatGPT's interface which we integrated with a just-in-time privacy notice panel. The panel intercepts messages containing sensitive information, warns users about potential sensitivity, offers protective actions, and provides FAQs about privacy in CAs. Participants used versions of the chatbot with and without the privacy panel across two task sessions designed to approximate realistic chatbot use. We qualitatively analyzed participants' pre- and post-test survey responses and think-aloud transcripts and describe findings related to (a) participants' perceptions of privacy before and after the task sessions and (b) interface design features that supported or hindered user-led protection of sensitive information. Finally, we discuss future directions for designing user-facing privacy tools in CAs that promote privacy learning and user engagement in protecting privacy in CAs.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.19040v1">When Differential Privacy Meets Wireless Federated Learning: An Improved Analysis for Privacy and Convergence</a></h3>
@@ -101,7 +87,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.18377v1">PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.18377v2">PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
   <p><b>Published on:</b> 2026-03-19T00:32:53Z</p>
   <details>
@@ -357,6 +343,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Xiaofei Hui, Qian Wu, Haoxuan Qu, Majid Mirmehdi, Hossein Rahmani, Jun Liu</p>
     <p><b>Summary:</b> The emergence of Multimodal Large Language Models (MLLMs) and the widespread usage of MLLM cloud services such as GPT-4V raised great concerns about privacy leakage in visual data. As these models are typically deployed in cloud services, users are required to submit their images and videos, posing serious privacy risks. However, how to tackle such privacy concerns is an under-explored problem. Thus, in this paper, we aim to conduct a new investigation to protect visual privacy when enjoying the convenience brought by MLLM services. We address the practical case where the MLLM is a "black box", i.e., we only have access to its input and output without knowing its internal model information. To tackle such a challenging yet demanding problem, we propose a novel framework, in which we carefully design the learning objective with Pareto optimality to seek a better trade-off between visual privacy and MLLM's performance, and propose critical-history enhanced optimization to effectively optimize the framework with the black-box MLLM. Our experiments show that our method is effective on different benchmarks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.19314v1">DPxFin: Adaptive Differential Privacy for Anti-Money Laundering Detection via Reputation-Weighted Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-14T08:34:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Renuga Kanagavelu, Manjil Nepal, Ning Peiyan, Cai Kangning, Xu Jiming, Fei Gao, Yong Liu, Goh Siow Mong Rick, Qingsong Wei</p>
+    <p><b>Summary:</b> In the modern financial system, combating money laundering is a critical challenge complicated by data privacy concerns and increasingly complex fraud transaction patterns. Although federated learning (FL) is a promising problem-solving approach as it allows institutions to train their models without sharing their data, it has the drawback of being prone to privacy leakage, specifically in tabular data forms like financial data. To address this, we propose DPxFin, a novel federated framework that integrates reputation-guided adaptive differential privacy. Our approach computes client reputation by evaluating the alignment between locally trained models and the global model. Based on this reputation, we dynamically assign differential privacy noise to client updates, enhancing privacy while maintaining overall model utility. Clients with higher reputations receive lower noise to amplify their trustworthy contributions, while low-reputation clients are allocated stronger noise to mitigate risk. We validate DPxFin on the Anti-Money Laundering (AML) dataset under both IID and non-IID settings using Multi Layer Perceptron (MLP). Experimental analysis established that our approach has a more desirable trade-off between accuracy and privacy than those of traditional FL and fixed-noise Differential Privacy (DP) baselines, where performance improvements were consistent, even though on a modest scale. Moreover, DPxFin does withstand tabular data leakage attacks, proving its effectiveness under real-world financial conditions.</p>
   </details>
 </div>
 
