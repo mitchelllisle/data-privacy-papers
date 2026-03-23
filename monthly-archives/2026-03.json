@@ -2684,5 +2684,195 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.20107v1",
+    "title" : "Sharing The Secret: Distributed Privacy-Preserving Monitoring",
+    "summary" : "In traditional runtime verification, a system is typically observed by a monolithic monitor. Enforcing privacy in such settings is computationally expensive, as it necessitates heavy cryptographic primitives. Therefore, privacy-preserving monitoring remains impractical for real-time applications. In this work, we address this scalability challenge by distributing the monitor across multiple parties -- at least one of which is honest. This architecture enables the use of efficient secret-sharing schemes instead of computationally intensive cryptography, dramatically reducing over-head while maintaining strong privacy guarantees. While existing secret-sharing approaches are typically limited to one-shot executions which do not maintain an internal state, we introduce a protocol tailored for continuous monitoring that supports repeated evaluations over an evolving internal state (kept secret from the system and the monitoring entities). We implement our approach using the MP-SPDZ framework. Our experiments demonstrate that, under these architectural assumptions, our protocol is significantly more scalable than existing alternatives.",
+    "updated" : "2026-03-20T16:30:57Z",
+    "published" : "2026-03-20T16:30:57Z",
+    "authors" : [
+      {
+        "name" : "Mahyar Karimi"
+      },
+      {
+        "name" : "K. S. Thejaswini"
+      },
+      {
+        "name" : "Roderick Bloem"
+      },
+      {
+        "name" : "Thomas A. Henzinger"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.FL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.19791v1",
+    "title" : "Text-Based Personas for Simulating User Privacy Decisions",
+    "summary" : "The ability to simulate human privacy decisions has significant implications for aligning autonomous agents with individual intent and conducting cost-effective, large-scale privacy-centric user studies. Prior approaches prompt Large Language Models (LLMs) with natural language user statements, data-sharing histories, or demographic attributes to simulate privacy decisions. These approaches, however, fail to balance individual-level accuracy, prompt usability, token efficiency, and population-level representation. We present Narriva, an approach that generates text-based synthetic privacy personas to address these shortcomings. Narriva grounds persona generation in prior user privacy decisions, such as those from large-scale survey datasets, rather than purely relying on demographic stereotypes. It compresses this data into concise, human-readable summaries structured by established privacy theories. Through benchmarking across five diverse datasets, we analyze the characteristics of Narriva's synthetic personas in modeling both individual and population-level privacy preferences. We find that grounding personas in past privacy behaviors achieves up to 88% predictive accuracy (significantly outperforming a non-personalized LLM baseline), and yields an 80-95% reduction in prompt tokens compared to in-context learning with raw examples. Finally, we demonstrate that personas synthesized from a single survey can reproduce the aggregate privacy behaviors and statistical distributions (TVComplement up to 0.85) of entirely different studies.",
+    "updated" : "2026-03-20T09:28:15Z",
+    "published" : "2026-03-20T09:28:15Z",
+    "authors" : [
+      {
+        "name" : "Kassem Fawaz"
+      },
+      {
+        "name" : "Ren Yi"
+      },
+      {
+        "name" : "Octavian Suciu"
+      },
+      {
+        "name" : "Rishabh Khandelwal"
+      },
+      {
+        "name" : "Hamza Harkous"
+      },
+      {
+        "name" : "Nina Taft"
+      },
+      {
+        "name" : "Marco Gruteser"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.19703v1",
+    "title" : "Minimax and Adaptive Covariance Matrix Estimation under Differential Privacy",
+    "summary" : "The covariance matrix plays a fundamental role in the analysis of high-dimensional data. This paper studies minimax and adaptive estimation of high-dimensional bandable covariance matrices under differential privacy constraints. We propose a novel differentially private blockwise tridiagonal estimator that achieves minimax-optimal convergence rates under both the operator norm and the Frobenius norm. In contrast to the non-private setting, the privacy-induced error exhibits a polynomial dependence on the ambient dimension, revealing a substantial additional cost of privacy.\n  To establish optimality, we develop a new differentially private van Trees inequality and construct carefully designed prior distributions to obtain matching minimax lower bounds. The proposed private van Trees inequality applies more broadly to general private estimation problems and is of independent interest. We further introduce an adaptive estimator that attains the optimal rate up to a logarithmic factor without prior knowledge of the decay parameter, based on a novel hierarchical tridiagonal approach. Numerical experiments corroborate the theoretical results and illustrate the fundamental privacy-accuracy trade-off.",
+    "updated" : "2026-03-20T07:13:19Z",
+    "published" : "2026-03-20T07:13:19Z",
+    "authors" : [
+      {
+        "name" : "T. Tony Cai"
+      },
+      {
+        "name" : "Yicheng Li"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.19671v1",
+    "title" : "Acyclic Graph Pattern Counting under Local Differential Privacy",
+    "summary" : "Graph pattern counting serves as a cornerstone of network analysis with extensive real-world applications. Its integration with local differential privacy (LDP) has gained growing attention for protecting sensitive graph information in decentralized settings. However, existing LDP frameworks are largely ad hoc, offering solutions only for specific patterns such as triangles and stars. A general mechanism for counting arbitrary graph patterns, even for the subclass of acyclic patterns, has remained an open problem. To fill this gap, we present the first general solution for counting arbitrary acyclic patterns under LDP. We identify and tackle two fundamental challenges: generalizing pattern construction from distributed data and eliminating node duplication during the construction. To address the first challenge, we propose an LDP-tailored recursive subpattern counting framework that incrementally builds patterns across multiple communication rounds. For the second challenge, we apply a random marking technique that restricts each node to a unique position in the pattern during computation. Our mechanism achieves strong utility guarantees: for any acyclic graph pattern with $k$ edges, we achieve an additive error of $\\tilde{O}(\\sqrt{N}d(G)^k)$, where $N$ is the number of nodes and $d(G)$ is the maximum degree of the input graph $G$. Experiments on real-world graph datasets across multiple types of acyclic patterns demonstrate that our mechanisms achieve up to $46$-$2600\\times$ improvement in utility and $300$-$650\\times$ reduction in communication cost compared to the baseline methods.",
+    "updated" : "2026-03-20T06:12:12Z",
+    "published" : "2026-03-20T06:12:12Z",
+    "authors" : [
+      {
+        "name" : "Yihua Hu"
+      },
+      {
+        "name" : "Kuncan Wang"
+      },
+      {
+        "name" : "Wei Dong"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.19416v1",
+    "title" : "Investigating In-Context Privacy Learning by Integrating User-Facing Privacy Tools into Conversational Agents",
+    "summary" : "Supporting users in protecting sensitive information when using conversational agents (CAs) is crucial, as users may undervalue privacy protection due to outdated, partial, or inaccurate knowledge about privacy in CAs. Although privacy knowledge can be developed through standalone resources, it may not readily translate into practice and may remain detached from real-time contexts of use. In this study, we investigate in-context, experiential learning by examining how interactions with privacy tools during chatbot use enhance users' privacy learning. We also explore interface design features that facilitate engagement with these tools and learning about privacy by simulating ChatGPT's interface which we integrated with a just-in-time privacy notice panel. The panel intercepts messages containing sensitive information, warns users about potential sensitivity, offers protective actions, and provides FAQs about privacy in CAs. Participants used versions of the chatbot with and without the privacy panel across two task sessions designed to approximate realistic chatbot use. We qualitatively analyzed participants' pre- and post-test survey responses and think-aloud transcripts and describe findings related to (a) participants' perceptions of privacy before and after the task sessions and (b) interface design features that supported or hindered user-led protection of sensitive information. Finally, we discuss future directions for designing user-facing privacy tools in CAs that promote privacy learning and user engagement in protecting privacy in CAs.",
+    "updated" : "2026-03-19T19:18:40Z",
+    "published" : "2026-03-19T19:18:40Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Hadi Nezhad"
+      },
+      {
+        "name" : "Francisco Enrique Vicente Castro"
+      },
+      {
+        "name" : "Ivon Arroyo"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.18377v2",
+    "title" : "PlanTwin: Privacy-Preserving Planning Abstractions for Cloud-Assisted LLM Agents",
+    "summary" : "Cloud-hosted large language models (LLMs) have become the de facto planners in agentic systems, coordinating tools and guiding execution over local environments. In many deployments, however, the environment being planned over is private, containing source code, files, credentials, and metadata that cannot be exposed to the cloud. Existing solutions address adjacent concerns, such as execution isolation, access control, or confidential inference, but they do not control what cloud planners observe during planning: within the permitted scope, \\textit{raw environment state is still exposed}.\n  We introduce PlanTwin, a privacy-preserving architecture for cloud-assisted planning without exposing raw local context. The key idea is to project the real environment into a \\textit{planning-oriented digital twin}: a schema-constrained and de-identified abstract graph that preserves planning-relevant structure while removing reconstructable details. The cloud planner operates solely on this sanitized twin through a bounded capability interface, while a local gatekeeper enforces safety policies and cumulative disclosure budgets. We further formalize the privacy-utility trade-off as a capability granularity problem, define architectural privacy goals using $(k,δ)$-anonymity and $ε$-unlinkability, and mitigate compositional leakage through multi-turn disclosure control.\n  We implement PlanTwin as middleware between local agents and cloud planners and evaluate it on 60 agentic tasks across ten domains with four cloud planners. PlanTwin achieves full sensitive-item non-disclosure (SND = 1.0) while maintaining planning quality close to full-context systems: three of four planners achieve PQS $> 0.79$, and the full pipeline incurs less than 2.2\\% utility loss.",
+    "updated" : "2026-03-20T12:22:16Z",
+    "published" : "2026-03-19T00:32:53Z",
+    "authors" : [
+      {
+        "name" : "Guangsheng Yu"
+      },
+      {
+        "name" : "Qin Wang"
+      },
+      {
+        "name" : "Rui Lang"
+      },
+      {
+        "name" : "Shuai Su"
+      },
+      {
+        "name" : "Xu Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.19314v1",
+    "title" : "DPxFin: Adaptive Differential Privacy for Anti-Money Laundering Detection via Reputation-Weighted Federated Learning",
+    "summary" : "In the modern financial system, combating money laundering is a critical challenge complicated by data privacy concerns and increasingly complex fraud transaction patterns. Although federated learning (FL) is a promising problem-solving approach as it allows institutions to train their models without sharing their data, it has the drawback of being prone to privacy leakage, specifically in tabular data forms like financial data. To address this, we propose DPxFin, a novel federated framework that integrates reputation-guided adaptive differential privacy. Our approach computes client reputation by evaluating the alignment between locally trained models and the global model. Based on this reputation, we dynamically assign differential privacy noise to client updates, enhancing privacy while maintaining overall model utility. Clients with higher reputations receive lower noise to amplify their trustworthy contributions, while low-reputation clients are allocated stronger noise to mitigate risk. We validate DPxFin on the Anti-Money Laundering (AML) dataset under both IID and non-IID settings using Multi Layer Perceptron (MLP). Experimental analysis established that our approach has a more desirable trade-off between accuracy and privacy than those of traditional FL and fixed-noise Differential Privacy (DP) baselines, where performance improvements were consistent, even though on a modest scale. Moreover, DPxFin does withstand tabular data leakage attacks, proving its effectiveness under real-world financial conditions.",
+    "updated" : "2026-03-14T08:34:39Z",
+    "published" : "2026-03-14T08:34:39Z",
+    "authors" : [
+      {
+        "name" : "Renuga Kanagavelu"
+      },
+      {
+        "name" : "Manjil Nepal"
+      },
+      {
+        "name" : "Ning Peiyan"
+      },
+      {
+        "name" : "Cai Kangning"
+      },
+      {
+        "name" : "Xu Jiming"
+      },
+      {
+        "name" : "Fei Gao"
+      },
+      {
+        "name" : "Yong Liu"
+      },
+      {
+        "name" : "Goh Siow Mong Rick"
+      },
+      {
+        "name" : "Qingsong Wei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
