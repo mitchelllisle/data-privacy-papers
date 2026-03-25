@@ -2,6 +2,104 @@
 <h2>2026-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.23221v1">PRETTINESS -- Privacy pResErving aTTrIbute maNagEment SyStem</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-24T13:59:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jelizaveta Vakarjuk, Alisa Pankova</p>
+    <p><b>Summary:</b> European Digital Identity (EUDI) Wallet aims to provide end users with a way to get attested credentials from issuers, and present them to different relying parties. An important property mentioned in the regulatory frameworks is the possibility to revoke a previously issued credential. While it is possible to issue a short-lived credential, in some cases it may be inconvenient, and a separate revocation service which allows to revoke a credential at any time may be necessary. In this work, we propose a full end-to-end description of a generic credential revocation system, which technically relies on a single server and secure transmission channels between parties. We prove security of the proposed revocation functionality in the universal composability model, and estimate its efficiency based on a proof-of-concept implementation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.23197v1">Privacy-Aware Smart Cameras: View Coverage via Socially Responsible Coordination</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> 
+  <p><b>Published on:</b> 2026-03-24T13:43:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chuhao Qin, Lukas Esterle, Evangelos Pournaras</p>
+    <p><b>Summary:</b> Coordination of view coverage via privacy-aware smart cameras is key to a more socially responsible urban intelligence. Rather than maximizing view coverage at any cost or over relying on expensive cryptographic techniques, we address how cameras can coordinate to legitimately monitor public spaces while excluding privacy-sensitive regions by design. This article proposes a decentralized framework in which interactive smart cameras coordinate to autonomously select their orientation via collective learning, while eliminating privacy violations via soft and hard constraint satisfaction. The approach scales to hundreds up to thousands of cameras without any centralized control. Experimental evidence shows 18.42% higher coverage efficiency and 85.53% lower privacy violation than baselines and other state-of-the-art approaches. This significant advance further unravels practical guidelines for operators and policymakers: how the field of view, spatial placement, and budget of cameras operating by ethically-aligned artificial intelligence jointly influence coverage efficiency and privacy protection in large-scale and sensitive urban environments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.22987v1">A Critical Review on the Effectiveness and Privacy Threats of Membership Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-24T09:23:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Najeeb Jebreel, David Sánchez, Josep Domingo-Ferrer</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) aim to determine whether a data sample was included in a machine learning (ML) model's training set and have become the de facto standard for measuring privacy leakages in ML. We propose an evaluation framework that defines the conditions under which MIAs constitute a genuine privacy threat, and review representative MIAs against it. We find that, under the realistic conditions defined in our framework, MIAs represent weak privacy threats. Thus, relying on them as a privacy metric in ML can lead to an overestimation of risk and to unnecessary sacrifices in model utility as a consequence of employing too strong defenses.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.22968v1">Beyond Theoretical Bounds: Empirical Privacy Loss Calibration for Text Rewriting Under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-03-24T09:05:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weijun Li, Arnaud Grivet Sébert, Qiongkai Xu, Annabelle McIver, Mark Dras</p>
+    <p><b>Summary:</b> The growing use of large language models has increased interest in sharing textual data in a privacy-preserving manner. One prominent line of work addresses this challenge through text rewriting under Local Differential Privacy (LDP), where input texts are locally obfuscated before release with formal privacy guarantees. These guarantees are typically expressed by a parameter $\varepsilon$ that upper bounds the worst-case privacy loss. However, nominal $\varepsilon$ values are often difficult to interpret and compare across mechanisms. In this work, we investigate how to empirically calibrate across text rewriting mechanisms under LDP. We propose TeDA, which formulates calibration via a hypothesis-testing framework that instantiates text distinguishability audits in both surface and embedding spaces, enabling empirical assessment of indistinguishability from privatized texts. Applying this calibration to several representative mechanisms, we demonstrate that similar nominal $\varepsilon$ bounds can imply very different levels of distinguishability. Empirical calibration thus provides a more comparable footing for evaluating privacy-utility trade-offs, as well as a practical tool for mechanism comparison and analysis in real-world LDP text rewriting deployments.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.22954v1">Privacy-Preserving EHR Data Transformation via Geometric Operators: A Human-AI Co-Design Technical Report</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-24T08:49:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maolin Wang, Beining Bao, Gan Yuan, Hongyu Chen, Bingkun Zhao, Baoshuo Kan, Jiming Xu, Qi Shi, Yinggong Zhao, Yao Wang, Wei Ying Ma, Jun Yan</p>
+    <p><b>Summary:</b> Electronic health records (EHRs) and other real-world clinical data are essential for clinical research, medical artificial intelligence, and life science, but their sharing is severely limited by privacy, governance, and interoperability constraints. These barriers create persistent data silos that hinder multi-center studies, large-scale model development, and broader biomedical discovery. Existing privacy-preserving approaches, including multi-party computation and related cryptographic techniques, provide strong protection but often introduce substantial computational overhead, reducing the efficiency of large-scale machine learning and foundation-model training. In addition, many such methods make data usable for restricted computation while leaving them effectively invisible to clinicians and researchers, limiting their value in workflows that still require direct inspection, exploratory analysis, and human interpretation. We propose a real-world-data transformation framework for privacy-preserving sharing of structured clinical records. Instead of converting data into opaque representations, our approach constructs transformed numeric views that preserve medical semantics and major statistical properties while, under a clearly specified threat model, provably breaking direct linkage between those views and protected patient-level attributes. Through collaboration between computer scientists and the AI agent \textbf{SciencePal}, acting as a constrained tool inventor under human guidance, we design three transformation operators that are non-reversible within this threat model, together with an additional mixing strategy for high-risk scenarios, supported by theoretical analysis and empirical evaluation under reconstruction, record linkage, membership inference, and attribute inference attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.22808v1">Combinatorial Privacy: Private Multi-Party Bitstream Grand Sum by Hiding in Birkhoff Polytopes</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-24T05:08:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Praneeth Vepakomma</p>
+    <p><b>Summary:</b> We introduce PolyVeil, a protocol for private Boolean summation across $k$ clients that encodes private bits as permutation matrices in the Birkhoff polytope. A two-layer architecture gives the server perfect simulation-based security (statistical distance zero) while a separate aggregator faces \#P-hard likelihood inference via the permanent and mixed discriminant. Two variants (full and compressed) differ in what the aggregator observes.
+  We develop a finite-sample $(\varepsilon,δ)$-DP analysis with explicit constants. In the full variant, where the aggregator sees a doubly stochastic matrix per client, the log-Lipschitz constant grows as $n^4 K_t$ and a signal-to-noise analysis shows the DP guarantee is non-vacuous only when the private signal is undetectable. In the compressed variant, where the aggregator sees a single scalar, the univariate density ratio yields non-vacuous $\varepsilon$ at moderate SNR, with the optimal decoy count balancing CLT accuracy against noise concentration.
+  This exposes a fundamental tension. \#P-hardness requires the full matrix view (Birkhoff structure visible), while non-vacuous DP requires the scalar view (low dimensionality). Whether both hold simultaneously in one variant remains open. The protocol needs no PKI, has $O(k)$ communication, and outputs exact aggregates.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.22751v1">CIPL: A Target-Independent Framework for Channel-Inversion Privacy Leakage in Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-24T03:29:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Huang, Chen Hou, Jiayang Meng</p>
+    <p><b>Summary:</b> Large language model (LLM) agents may expose sensitive information through more than their final textual responses. Whenever private content is internally selected, assembled, and reused inside an agent pipeline, an attacker may attempt to turn that hidden dependence into an observable output signal. Existing evidence of this risk is strongest for memory leakage, but current attack formulations remain largely tied to specific systems and output surfaces. In this paper, we formulate privacy leakage in agentic systems as a \emph{channel inversion} problem and present CIPL (Channel Inversion for Privacy Leakage), a target-independent framework for studying such attacks. CIPL represents a target system through a common signature consisting of a sensitive source, selection, assembly, execution, observation, and extraction stages, and instantiates attacks through a reusable attack language built from a locator, an aligner, and a diversification policy. As a unified evaluation framework, CIPL supports cross-target comparison while preserving target-specific execution semantics. Our results provide initial evidence that privacy leakage is not confined to memory alone; instead, it depends on how sensitive content is routed into attacker-visible observation channels. These findings suggest that privacy evaluation for agentic systems should move beyond single-surface attack analysis toward a channel-oriented view of information exposure.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.22563v1">Privacy-Preserving Reinforcement Learning from Human Feedback via Decoupled Reward Modeling</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-23T20:45:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Young Hyun Cho, Will Wei Sun</p>
+    <p><b>Summary:</b> Preference-based fine-tuning has become an important component in training large language models, and the data used at this stage may contain sensitive user information. A central question is how to design a differentially private pipeline that is well suited to the distinct structure of reinforcement learning from human feedback. We propose a privacy-preserving framework that imposes differential privacy only on reward learning and derives the final policy from the resulting private reward model. Theoretically, we study the suboptimality gap and show that privacy contributes an additional additive term beyond the usual non-private statistical error. We also establish a minimax lower bound and show that the dominant term changes with sample size and privacy level, which in turn characterizes regimes in which the upper bound is rate-optimal up to logarithmic factors. Empirically, synthetic experiments confirm the scaling predicted by the theory, and experiments on the Anthropic HH-RLHF dataset using the Gemma-2B-IT model show stronger private alignment performance than existing differentially private baseline methods across privacy budgets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.21804v1">Privacy-Preserving Formation Control for Networked Underactuated USVs: A Passivity-Based Approach</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
   <p><b>Published on:</b> 2026-03-23T10:47:52Z</p>
@@ -207,12 +305,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.20301v1">Voice Privacy from an Attribute-based Perspective</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.20301v2">Voice Privacy from an Attribute-based Perspective</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-03-19T09:53:30Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Mehtab Ur Rahman, Martha Larson, Cristian Tejedor García</p>
+    <p><b>Authors:</b> Mehtab Ur Rahman, Martha Larson, Cristian Tejedor-Garcia</p>
     <p><b>Summary:</b> Voice privacy approaches that preserve the anonymity of speakers modify speech in an attempt to break the link with the true identity of the speaker. Current benchmarks measure speaker protection based on signal-to-signal comparisons. In this paper, we introduce an attribute-based perspective, where we measure privacy protection in terms of comparisons between sets of speaker attributes. First, we analyze privacy impact by calculating speaker uniqueness for ground truth attributes, attributes inferred on the original speech, and attributes inferred on speech protected with standard anonymization. Next, we examine a threat scenario involving only a single utterance per speaker and calculate attack error rates. Overall, we observe that inferred attributes still present a risk despite attribute inference errors. Our research points to the importance of considering both attribute-related threats and protection mechanisms in future voice privacy research.</p>
   </details>
 </div>
@@ -1120,102 +1218,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Cameron Bell, Timothy Johnston, Antoine Luciano, Christian P Robert</p>
     <p><b>Summary:</b> Theoretical and applied research into privacy encompasses an incredibly broad swathe of differing approaches, emphasis and aims. This work introduces a new quantitative notion of privacy that is both contextual and specific. We argue that it provides a more meaningful notion of privacy than the widely utilised framework of differential privacy and a more explicit and rigorous formulation than what is commonly used in statistical disclosure theory. Our definition relies on concepts inherent to standard Bayesian decision theory, while departing from it in several important respects. In particular, the party controlling the release of sensitive information should make disclosure decisions from the prior viewpoint, rather than conditional on the data, even when the data is itself observed. Illuminating toy examples and computational methods are discussed in high detail in order to highlight the specificities of the method.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.05541v1">Privacy-Preserving Collaborative Medical Image Segmentation Using Latent Transform Networks</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2026-03-04T12:05:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Saheed Ademola Bello, Muhammad Shahid Jabbar, Muhammad Sohail Ibrahim, Shujaat Khan</p>
-    <p><b>Summary:</b> Collaborative training across multiple institutions is becoming essential for building reliable medical image segmentation models. However, privacy regulations, data silos, and uneven data availability prevent hospitals from sharing raw scans or annotations, limiting the ability to train generalizable models. Latent-space collaboration frameworks such as privacy-segmentation framework (SF) offer a promising alternative, but such methods still face challenges in segmentation accuracy and vulnerability to latent inversion and membership-inference attacks. This work introduces a privacy-preserving collaborative medical image segmentation framework (PPCMI-SF) designed for heterogeneous medical datasets. The approach combines skip-connected autoencoders for images and masks with a keyed latent transform that applies client-specific orthogonal mixing and permutation to protect latent features before they are shared. A unified mapping network on the server-side performs multi-scale latent-to-latent translation, enabling segmentation inference without exposing raw data. Experiments on four datasets: PSFH ultrasound, ultrasound nerve segmentation, FUMPE CTA, and cardiac MRI show that the proposed PPCMI-SF consistently achieves high Dice scores and improved boundary accuracy, as reflected by lower 95th percentile Hausdorff distance (HD95) and average symmetric surface distance (ASD) compared to the current state-of-the-art and performs competitively with privacy-agnostic baselines. Privacy tests confirm strong resistance to inversion and membership attacks, and the overall system achieves real-time inference with low communication overhead. These results demonstrate that accurate and efficient medical image segmentation can be achieved without compromising data privacy in multi-institution settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03906v2">Measuring Privacy vs. Fidelity in Synthetic Social Media Datasets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-04T10:12:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Henry Tari, Adriana Iamnitchi</p>
-    <p><b>Summary:</b> Synthetic data is increasingly used to support research without exposing sensitive user content. Social media data is one of the types of datasets that would hugely benefit from representative synthetic equivalents that can be used to bootstrap research and allow reproducibility through data sharing. However, recent studies show that (tabular) synthetic data is not inherently privacy-preserving. Much less is known, however, about the privacy risks of synthetically generated unstructured texts. This work evaluates the privacy of synthetic Instagram posts generated by three state-of-the-art large language models using two prompting strategies. We propose a methodology that quantifies privacy by framing re-identification as an authorship attribution attack. A RoBERTa-large classifier trained on real posts achieved 81\% accuracy in authorship attribution on real data, but only 16.5--29.7\% on synthetic posts, showing reduced, though non-negligible, risk. Fidelity was assessed via text traits, sentiment, topic overlap, and embedding similarity, confirming the expected trade-off: higher fidelity coincides with greater privacy leakage. This work provides a framework for evaluating privacy in synthetic text and demonstrates the privacy--fidelity tension in social media datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03711v2">LDP-Slicing: Local Differential Privacy for Images via Randomized Bit-Plane Slicing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-03-04T04:25:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuanming Cao, Chengqi Li, Wenbo He</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) is the gold standard trust model for privacy-preserving machine learning by guaranteeing privacy at the data source. However, its application to image data has long been considered impractical due to the high dimensionality of pixel space. Canonical LDP mechanisms are designed for low-dimensional data, resulting in severe utility degradation when applied to high-dimensional pixel spaces. This paper demonstrates that this utility loss is not inherent to LDP, but from its application to an inappropriate data representation. We introduce LDP-Slicing, a lightweight, training-free framework that resolves this domain mismatch. Our key insight is to decompose pixel values into a sequence of binary bit-planes. This transformation allows us to apply the LDP mechanism directly to the bit-level representation. To further strengthen privacy and preserve utility, we integrate a perceptual obfuscation module that mitigates human-perceivable leakage and an optimization-based privacy budget allocation strategy. This pipeline satisfies rigorous pixel-level $\varepsilon$-LDP while producing images that retain high utility for downstream tasks. Extensive experiments on face recognition and image classification demonstrate that LDP-Slicing outperforms existing DP/LDP baselines under comparable privacy budgets, with negligible computational overhead.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03659v2">Reckless Designs and Broken Promises: Privacy Implications of Targeted Interactive Advertisements on Social Media Platforms</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-03-04T02:27:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Julia B. Kieserman, Athanasios Andreou, Laura Edelson, Sandra Siby, Damon McCoy</p>
-    <p><b>Summary:</b> Popular social media platforms TikTok, Facebook and Instagram allow third-parties to run targeted advertising campaigns on sensitive attributes in-platform. These ads are interactive by default, meaning users can comment or ``react'' (e.g., ``like'', ``love'') to them. We find that this platform-level design choice creates a privacy loophole such that advertisers can view the profiles of those who interact with their ads, thus identifying individuals that fulfill certain targeting criteria. This behavior is in contradiction to the promises made by the platforms to hide user data from advertisers. We conclude by suggesting design modifications that could provide users with transparency about the consequences of ad interaction to protect against unintentional disclosure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03606v1">Are You Comfortable Sharing It?: Leveraging Image Obfuscation Techniques to Enhance Sharing Privacy for Blind and Visually Impaired Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-03-04T00:29:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Satabdi Das, Nahian Beente Firuj, Manjot Singh, Arshad Nasser, Khalad Hasan</p>
-    <p><b>Summary:</b> People with Blind Visual Impairments (BVI) face unique challenges when sharing images, as these may accidentally contain sensitive or inappropriate content. In many instances, they are unaware of the potential risks associated with sharing such content, which can compromise their privacy and interpersonal relationships. To address this issue, we investigated image filtering techniques that could help BVI users manage sensitive content before sharing with various audiences, including family, friends, or strangers. We conducted a study with 20 BVI participants, evaluating different filters applied to images varying in sensitivity, such as personal moments or embarrassing shots. Results indicated that pixelation was the least preferred method, while preferences for other filters varied depending on image type and sharing context. Additionally, participants reported greater comfort when sharing filtered versus unfiltered images across audiences. Based on the results, we offer a set of design guidelines to enhance the image-sharing experience for BVI individuals.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03412v1">PRIVATEEDIT: A Privacy-Preserving Pipeline for Face-Centric Generative Image Editing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-03-03T18:27:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dipesh Tamboli, Vineet Punyamoorty, Atharv Pawar, Vaneet Aggarwal</p>
-    <p><b>Summary:</b> Recent advances in generative image editing have enabled transformative applications, from professional head shot generation to avatar stylization. However, these systems often require uploading high-fidelity facial images to third-party models, raising concerns around biometric privacy, data misuse, and user consent. We propose a privacy-preserving pipeline that supports high-quality editing while keeping users in control over their biometric data in face-centric use cases. Our approach separates identity-sensitive regions from editable image context using on-device segmentation and masking, enabling secure, user-controlled editing without modifying third-party generative models. Unlike traditional cloud-based tools, PRIVATEEDIT enforces privacy by default: biometric data is never exposed or transmitted. This design requires no access to or retraining of third-party models, making it compatible with a wide range of commercial APIs. By treating privacy as a core design constraint, our system supports responsible generative AI centered on user autonomy and trust. The pipeline includes a tunable masking mechanism that lets users control how much facial information is concealed, allowing them to balance privacy and output fidelity based on trust level or use case. We demonstrate its applicability in professional and creative workflows and provide a user interface for selective anonymization. By advocating privacy-by-design in generative AI, our work offers both technical feasibility and normative guidance for protecting digital identity. The source code is available at https://github.com/Dipeshtamboli/PrivateEdit-Privacy-Preserving-GenAI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03226v1">Adaptive Methods Are Preferable in High Privacy Settings: An SDE Perspective</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-03T18:17:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Enea Monzio Compagnoni, Alessandro Stanghellini, Rustem Islamov, Aurelien Lucchi, Anastasiia Koloskova</p>
-    <p><b>Summary:</b> Differential Privacy (DP) is becoming central to large-scale training as privacy regulations tighten. We revisit how DP noise interacts with adaptivity in optimization through the lens of stochastic differential equations, providing the first SDE-based analysis of private optimizers. Focusing on DP-SGD and DP-SignSGD under per-example clipping, we show a sharp contrast under fixed hyperparameters: DP-SGD converges at a Privacy-Utility Trade-Off of $\mathcal{O}(1/\varepsilon^2)$ with speed independent of $\varepsilon$, while DP-SignSGD converges at a speed linear in $\varepsilon$ with an $\mathcal{O}(1/\varepsilon)$ trade-off, dominating in high-privacy or large batch noise regimes. By contrast, under optimal learning rates, both methods achieve comparable theoretical asymptotic performance; however, the optimal learning rate of DP-SGD scales linearly with $\varepsilon$, while that of DP-SignSGD is essentially $\varepsilon$-independent. This makes adaptive methods far more practical, as their hyperparameters transfer across privacy levels with little or no re-tuning. Empirical results confirm our theory across training and test metrics, and empirically extend from DP-SignSGD to DP-Adam.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.03108v1">RAIN: Secure and Robust Aggregation under Shuffle Model of Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-03T15:41:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuhang Li, Yajie Wang, Xiangyun Tang, Peng Jiang, Yu-an Tan, Liehuang Zhu</p>
-    <p><b>Summary:</b> Secure aggregation is a foundational building block of privacy-preserving learning, yet achieving robustness under adversarial behavior remains challenging. Modern systems increasingly adopt the shuffle model of differential privacy (Shuffle-DP) to locally perturb client updates and globally anonymize them via shuffling for enhanced privacy protection. However, these perturbations and anonymization distort gradient geometry and remove identity linkage, leaving systems vulnerable to adversarial poisoning attacks. Moreover, the shuffler, typically a third party, can be compromised, undermining security against malicious adversaries. To address these challenges, we present Robust Aggregation in Noise (RAIN), a unified framework that reconciles privacy, robustness, and verifiability under Shuffle-DP. At its core, RAIN adopts sign-space aggregation to robustly measure update consistency and limit malicious influence under noise and anonymization. Specifically, we design two novel secret-shared protocols for shuffling and aggregation that operate directly on additive shares and preserve Shuffle-DP's tight privacy guarantee. In each round, the aggregated result is verified to ensure correct aggregation and detect any selective dropping, achieving malicious security with minimal overhead. Extensive experiments across comprehensive benchmarks show that RAIN maintains strong privacy guarantees under Shuffle-DP and remains robust to poisoning attacks with negligible degradation in accuracy and convergence. It further provides real-time integrity verification with complete tampering detection, while achieving up to 90x lower communication cost and 10x faster aggregation compared with prior work.</p>
   </details>
 </div>
 
