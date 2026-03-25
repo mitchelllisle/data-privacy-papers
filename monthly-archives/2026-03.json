@@ -3160,5 +3160,223 @@
       "cs.IT",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.23221v1",
+    "title" : "PRETTINESS -- Privacy pResErving aTTrIbute maNagEment SyStem",
+    "summary" : "European Digital Identity (EUDI) Wallet aims to provide end users with a way to get attested credentials from issuers, and present them to different relying parties. An important property mentioned in the regulatory frameworks is the possibility to revoke a previously issued credential. While it is possible to issue a short-lived credential, in some cases it may be inconvenient, and a separate revocation service which allows to revoke a credential at any time may be necessary. In this work, we propose a full end-to-end description of a generic credential revocation system, which technically relies on a single server and secure transmission channels between parties. We prove security of the proposed revocation functionality in the universal composability model, and estimate its efficiency based on a proof-of-concept implementation.",
+    "updated" : "2026-03-24T13:59:00Z",
+    "published" : "2026-03-24T13:59:00Z",
+    "authors" : [
+      {
+        "name" : "Jelizaveta Vakarjuk"
+      },
+      {
+        "name" : "Alisa Pankova"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.23197v1",
+    "title" : "Privacy-Aware Smart Cameras: View Coverage via Socially Responsible Coordination",
+    "summary" : "Coordination of view coverage via privacy-aware smart cameras is key to a more socially responsible urban intelligence. Rather than maximizing view coverage at any cost or over relying on expensive cryptographic techniques, we address how cameras can coordinate to legitimately monitor public spaces while excluding privacy-sensitive regions by design. This article proposes a decentralized framework in which interactive smart cameras coordinate to autonomously select their orientation via collective learning, while eliminating privacy violations via soft and hard constraint satisfaction. The approach scales to hundreds up to thousands of cameras without any centralized control. Experimental evidence shows 18.42% higher coverage efficiency and 85.53% lower privacy violation than baselines and other state-of-the-art approaches. This significant advance further unravels practical guidelines for operators and policymakers: how the field of view, spatial placement, and budget of cameras operating by ethically-aligned artificial intelligence jointly influence coverage efficiency and privacy protection in large-scale and sensitive urban environments.",
+    "updated" : "2026-03-24T13:43:01Z",
+    "published" : "2026-03-24T13:43:01Z",
+    "authors" : [
+      {
+        "name" : "Chuhao Qin"
+      },
+      {
+        "name" : "Lukas Esterle"
+      },
+      {
+        "name" : "Evangelos Pournaras"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.MA",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22987v1",
+    "title" : "A Critical Review on the Effectiveness and Privacy Threats of Membership Inference Attacks",
+    "summary" : "Membership inference attacks (MIAs) aim to determine whether a data sample was included in a machine learning (ML) model's training set and have become the de facto standard for measuring privacy leakages in ML. We propose an evaluation framework that defines the conditions under which MIAs constitute a genuine privacy threat, and review representative MIAs against it. We find that, under the realistic conditions defined in our framework, MIAs represent weak privacy threats. Thus, relying on them as a privacy metric in ML can lead to an overestimation of risk and to unnecessary sacrifices in model utility as a consequence of employing too strong defenses.",
+    "updated" : "2026-03-24T09:23:57Z",
+    "published" : "2026-03-24T09:23:57Z",
+    "authors" : [
+      {
+        "name" : "Najeeb Jebreel"
+      },
+      {
+        "name" : "David Sánchez"
+      },
+      {
+        "name" : "Josep Domingo-Ferrer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22968v1",
+    "title" : "Beyond Theoretical Bounds: Empirical Privacy Loss Calibration for Text Rewriting Under Local Differential Privacy",
+    "summary" : "The growing use of large language models has increased interest in sharing textual data in a privacy-preserving manner. One prominent line of work addresses this challenge through text rewriting under Local Differential Privacy (LDP), where input texts are locally obfuscated before release with formal privacy guarantees. These guarantees are typically expressed by a parameter $\\varepsilon$ that upper bounds the worst-case privacy loss. However, nominal $\\varepsilon$ values are often difficult to interpret and compare across mechanisms. In this work, we investigate how to empirically calibrate across text rewriting mechanisms under LDP. We propose TeDA, which formulates calibration via a hypothesis-testing framework that instantiates text distinguishability audits in both surface and embedding spaces, enabling empirical assessment of indistinguishability from privatized texts. Applying this calibration to several representative mechanisms, we demonstrate that similar nominal $\\varepsilon$ bounds can imply very different levels of distinguishability. Empirical calibration thus provides a more comparable footing for evaluating privacy-utility trade-offs, as well as a practical tool for mechanism comparison and analysis in real-world LDP text rewriting deployments.",
+    "updated" : "2026-03-24T09:05:16Z",
+    "published" : "2026-03-24T09:05:16Z",
+    "authors" : [
+      {
+        "name" : "Weijun Li"
+      },
+      {
+        "name" : "Arnaud Grivet Sébert"
+      },
+      {
+        "name" : "Qiongkai Xu"
+      },
+      {
+        "name" : "Annabelle McIver"
+      },
+      {
+        "name" : "Mark Dras"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22954v1",
+    "title" : "Privacy-Preserving EHR Data Transformation via Geometric Operators: A Human-AI Co-Design Technical Report",
+    "summary" : "Electronic health records (EHRs) and other real-world clinical data are essential for clinical research, medical artificial intelligence, and life science, but their sharing is severely limited by privacy, governance, and interoperability constraints. These barriers create persistent data silos that hinder multi-center studies, large-scale model development, and broader biomedical discovery. Existing privacy-preserving approaches, including multi-party computation and related cryptographic techniques, provide strong protection but often introduce substantial computational overhead, reducing the efficiency of large-scale machine learning and foundation-model training. In addition, many such methods make data usable for restricted computation while leaving them effectively invisible to clinicians and researchers, limiting their value in workflows that still require direct inspection, exploratory analysis, and human interpretation. We propose a real-world-data transformation framework for privacy-preserving sharing of structured clinical records. Instead of converting data into opaque representations, our approach constructs transformed numeric views that preserve medical semantics and major statistical properties while, under a clearly specified threat model, provably breaking direct linkage between those views and protected patient-level attributes. Through collaboration between computer scientists and the AI agent \\textbf{SciencePal}, acting as a constrained tool inventor under human guidance, we design three transformation operators that are non-reversible within this threat model, together with an additional mixing strategy for high-risk scenarios, supported by theoretical analysis and empirical evaluation under reconstruction, record linkage, membership inference, and attribute inference attacks.",
+    "updated" : "2026-03-24T08:49:22Z",
+    "published" : "2026-03-24T08:49:22Z",
+    "authors" : [
+      {
+        "name" : "Maolin Wang"
+      },
+      {
+        "name" : "Beining Bao"
+      },
+      {
+        "name" : "Gan Yuan"
+      },
+      {
+        "name" : "Hongyu Chen"
+      },
+      {
+        "name" : "Bingkun Zhao"
+      },
+      {
+        "name" : "Baoshuo Kan"
+      },
+      {
+        "name" : "Jiming Xu"
+      },
+      {
+        "name" : "Qi Shi"
+      },
+      {
+        "name" : "Yinggong Zhao"
+      },
+      {
+        "name" : "Yao Wang"
+      },
+      {
+        "name" : "Wei Ying Ma"
+      },
+      {
+        "name" : "Jun Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22808v1",
+    "title" : "Combinatorial Privacy: Private Multi-Party Bitstream Grand Sum by Hiding in Birkhoff Polytopes",
+    "summary" : "We introduce PolyVeil, a protocol for private Boolean summation across $k$ clients that encodes private bits as permutation matrices in the Birkhoff polytope. A two-layer architecture gives the server perfect simulation-based security (statistical distance zero) while a separate aggregator faces \\#P-hard likelihood inference via the permanent and mixed discriminant. Two variants (full and compressed) differ in what the aggregator observes.\n  We develop a finite-sample $(\\varepsilon,δ)$-DP analysis with explicit constants. In the full variant, where the aggregator sees a doubly stochastic matrix per client, the log-Lipschitz constant grows as $n^4 K_t$ and a signal-to-noise analysis shows the DP guarantee is non-vacuous only when the private signal is undetectable. In the compressed variant, where the aggregator sees a single scalar, the univariate density ratio yields non-vacuous $\\varepsilon$ at moderate SNR, with the optimal decoy count balancing CLT accuracy against noise concentration.\n  This exposes a fundamental tension. \\#P-hardness requires the full matrix view (Birkhoff structure visible), while non-vacuous DP requires the scalar view (low dimensionality). Whether both hold simultaneously in one variant remains open. The protocol needs no PKI, has $O(k)$ communication, and outputs exact aggregates.",
+    "updated" : "2026-03-24T05:08:38Z",
+    "published" : "2026-03-24T05:08:38Z",
+    "authors" : [
+      {
+        "name" : "Praneeth Vepakomma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22751v1",
+    "title" : "CIPL: A Target-Independent Framework for Channel-Inversion Privacy Leakage in Agents",
+    "summary" : "Large language model (LLM) agents may expose sensitive information through more than their final textual responses. Whenever private content is internally selected, assembled, and reused inside an agent pipeline, an attacker may attempt to turn that hidden dependence into an observable output signal. Existing evidence of this risk is strongest for memory leakage, but current attack formulations remain largely tied to specific systems and output surfaces. In this paper, we formulate privacy leakage in agentic systems as a \\emph{channel inversion} problem and present CIPL (Channel Inversion for Privacy Leakage), a target-independent framework for studying such attacks. CIPL represents a target system through a common signature consisting of a sensitive source, selection, assembly, execution, observation, and extraction stages, and instantiates attacks through a reusable attack language built from a locator, an aligner, and a diversification policy. As a unified evaluation framework, CIPL supports cross-target comparison while preserving target-specific execution semantics. Our results provide initial evidence that privacy leakage is not confined to memory alone; instead, it depends on how sensitive content is routed into attacker-visible observation channels. These findings suggest that privacy evaluation for agentic systems should move beyond single-surface attack analysis toward a channel-oriented view of information exposure.",
+    "updated" : "2026-03-24T03:29:39Z",
+    "published" : "2026-03-24T03:29:39Z",
+    "authors" : [
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Chen Hou"
+      },
+      {
+        "name" : "Jiayang Meng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22563v1",
+    "title" : "Privacy-Preserving Reinforcement Learning from Human Feedback via Decoupled Reward Modeling",
+    "summary" : "Preference-based fine-tuning has become an important component in training large language models, and the data used at this stage may contain sensitive user information. A central question is how to design a differentially private pipeline that is well suited to the distinct structure of reinforcement learning from human feedback. We propose a privacy-preserving framework that imposes differential privacy only on reward learning and derives the final policy from the resulting private reward model. Theoretically, we study the suboptimality gap and show that privacy contributes an additional additive term beyond the usual non-private statistical error. We also establish a minimax lower bound and show that the dominant term changes with sample size and privacy level, which in turn characterizes regimes in which the upper bound is rate-optimal up to logarithmic factors. Empirically, synthetic experiments confirm the scaling predicted by the theory, and experiments on the Anthropic HH-RLHF dataset using the Gemma-2B-IT model show stronger private alignment performance than existing differentially private baseline methods across privacy budgets.",
+    "updated" : "2026-03-23T20:45:17Z",
+    "published" : "2026-03-23T20:45:17Z",
+    "authors" : [
+      {
+        "name" : "Young Hyun Cho"
+      },
+      {
+        "name" : "Will Wei Sun"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.20301v2",
+    "title" : "Voice Privacy from an Attribute-based Perspective",
+    "summary" : "Voice privacy approaches that preserve the anonymity of speakers modify speech in an attempt to break the link with the true identity of the speaker. Current benchmarks measure speaker protection based on signal-to-signal comparisons. In this paper, we introduce an attribute-based perspective, where we measure privacy protection in terms of comparisons between sets of speaker attributes. First, we analyze privacy impact by calculating speaker uniqueness for ground truth attributes, attributes inferred on the original speech, and attributes inferred on speech protected with standard anonymization. Next, we examine a threat scenario involving only a single utterance per speaker and calculate attack error rates. Overall, we observe that inferred attributes still present a risk despite attribute inference errors. Our research points to the importance of considering both attribute-related threats and protection mechanisms in future voice privacy research.",
+    "updated" : "2026-03-24T12:13:32Z",
+    "published" : "2026-03-19T09:53:30Z",
+    "authors" : [
+      {
+        "name" : "Mehtab Ur Rahman"
+      },
+      {
+        "name" : "Martha Larson"
+      },
+      {
+        "name" : "Cristian Tejedor-Garcia"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.AI"
+    ]
   }
 ]
