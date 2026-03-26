@@ -2,6 +2,42 @@
 <h2>2026-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.24392v1">Federated fairness-aware classification under differential privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2026-03-25T15:09:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gengyu Xue, Yi Yu</p>
+    <p><b>Summary:</b> Privacy and algorithmic fairness have become two central issues in modern machine learning. Although each has separately emerged as a rapidly growing research area, their joint effect remains comparatively under-explored. In this paper, we systematically study the joint impact of differential privacy and fairness on classification in a federated setting, where data are distributed across multiple servers. Targeting demographic disparity constrained classification under federated differential privacy, we propose a two-step algorithm, namely FDP-Fair. In the special case where there is only one server, we further propose a simple yet powerful algorithm, namely CDP-Fair, serving as a computationally-lightweight alternative. Under mild structural assumptions, theoretical guarantees on privacy, fairness and excess risk control are established. In particular, we disentangle the source of the private fairness-aware excess risk into a) intrinsic cost of classification, b) cost of private classification, c) non-private cost of fairness and d) private cost of fairness. Our theoretical findings are complemented by extensive numerical experiments on both synthetic and real datasets, highlighting the practicality of our designed algorithms.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.23935v1">An Empirical Analysis of Google Play Data Safety Disclosures: A Consistency Study of Privacy Indicators in Mobile Gaming Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-25T04:50:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bakheet Aljedaani</p>
+    <p><b>Summary:</b> The Google Play marketplace has introduced the Data Safety section to improve transparency regarding how mobile applications (apps) collect, share, and protect user data. This mechanism requires developers to disclose privacy and security-related practices. However, the reliability of these disclosures remains dependent on developer self-reporting, raising concerns about their accuracy. This study investigates the consistency between developer-reported Data Safety disclosures and observable privacy indicators extracted from Android Application Packages (APKs). An empirical analysis was conducted on a dataset of 41 mobile gaming apps. A static analysis approach was used to extract key privacy indicators from APK files, including device IDs, data sharing, personal information access, and location access. These indicators were systematically compared with the corresponding disclosures reported in the Google Play Data Safety labels using a structured consistency evaluation framework. The results revealed varying levels of agreement across privacy categories. Device ID disclosures demonstrated relatively high consistency (87.8%), whereas other indicators exhibited substantial mismatches. Location-related disclosures showed the highest inconsistency rate (56.1%), followed by personal information and data sharing. Comparative analysis between children-oriented and general-audience apps revealed similar mismatch patterns. Also, Chi-square statistical tests indicate that these differences are not statistically significant, suggesting that disclosure inconsistencies are not associated with app category but instead reflect broader ecosystem-level challenges. These findings highlight limitations in the reliability of current marketplace transparency mechanisms and emphasize the need for improved validation and verification approaches to ensure accurate privacy reporting in mobile app ecosystems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.23678v1">PLACID: Privacy-preserving Large language models for Acronym Clinical Inference and Disambiguation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-24T19:33:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Manjushree B. Aithal, Ph. D., Alexander Kotz, James Mitchell, Ph. D</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) offer transformative solutions across many domains, but healthcare integration is hindered by strict data privacy constraints. Clinical narratives are dense with ambiguous acronyms, misinterpretation these abbreviations can precipitate severe outcomes like life-threatening medication errors. While cloud-dependent LLMs excel at Acronym Disambiguation, transmitting Protected Health Information to external servers violates privacy frameworks. To bridge this gap, this study pioneers the evaluation of small-parameter models deployed entirely on-device to ensure privacy preservation. We introduce a privacy-preserving cascaded pipeline leveraging general-purpose local models to detect clinical acronyms, routing them to domain-specific biomedical models for context-relevant expansions. Results reveal that while general instruction-following models achieve high detection accuracy (~0.988), their expansion capabilities plummet (~0.655). Our cascaded approach utilizes domain-specific medical models to increase expansion accuracy to (~0.81). This novel work demonstrates that privacy-preserving, on-device (2B-10B) models deliver high-fidelity clinical acronym disambiguation support.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.23221v1">PRETTINESS -- Privacy pResErving aTTrIbute maNagEment SyStem</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-24T13:59:00Z</p>
@@ -148,12 +184,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21387v1">Knowledge Priors for Identity-Disentangled Open-Set Privacy-Preserving Video FER</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.21387v2">Knowledge Priors for Identity-Disentangled Open-Set Privacy-Preserving Video FER</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-03-22T20:18:31Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Feng Xu, Xun Li, Lars Petersson, Yulei Sui, David Ahmedt Aristizabal, Dadong Wang</p>
+    <p><b>Authors:</b> Feng Xu, Xun Li, Lars Petersson, Yulei Sui, David Ahmedt-Aristizabal, Dadong Wang</p>
     <p><b>Summary:</b> Facial expression recognition relies on facial data that inherently expose identity and thus raise significant privacy concerns. Current privacy-preserving methods typically fail in realistic open-set video settings where identities are unknown, and identity labels are unavailable. We propose a two-stage framework for video-based privacy-preserving FER in challenging open-set settings that requires no identity labels at any stage. To decouple privacy and utility, we first train an identity-suppression network using intra- and inter-video knowledge priors derived from real-world videos without identity labels. This network anonymizes identity while preserving expressive cues. A subsequent denoising module restores expression-related information and helps recover FER performance. Furthermore, we introduce a falsification-based validation method that uses recognition priors to rigorously evaluate privacy robustness without requiring annotated identity labels. Experiments on three video datasets demonstrate that our method effectively protects privacy while maintaining FER accuracy comparable to identity-supervised baselines.</p>
   </details>
 </div>
@@ -196,7 +232,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21106v1">Tracing Users' Privacy Concerns Across the Lifecycle of a Romantic AI Companion</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.21106v2">Tracing Users' Privacy Concerns Across the Lifecycle of a Romantic AI Companion</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-03-22T07:49:59Z</p>
   <details>
@@ -1066,6 +1102,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.23515v1">Training a Large Language Model for Medical Coding Using Privacy-Preserving Synthetic Clinical Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-06T02:02:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> John Cook, Michael Wyatt, Peng Wei, Iris Chin, Santosh Gupta, Van Zyl Van Vuuren, Richie Siburian, Amanda Spicer, Kristen Viviano, Alda Cami, Raunaq Malhotra, Zhewei Yao, Jeff Rasley, Gaurav Kaushik</p>
+    <p><b>Summary:</b> Improving the accuracy and reliability of medical coding reduces clinician burnout and supports revenue cycle processes, freeing providers to focus more on patient care. However, automating the assignment of ICD-10-CM and CPT codes from clinical documentation remains a challenge due to heterogeneous records, nuanced coding guidelines, and long-tail distributions. Large language models have been proposed to help or automate specific medical coding tasks. However, foundation models are not explicitly trained for medical coding and zero-shot coding has yielded poor results. We investigate whether a modern open-weight foundation model can be adapted for an expert-level medical coding task using privacy-preserving synthetic training data derived from electronic health records. We fine-tune Llama 3-70B on pairs of clinical notes and gold codes generated from EHR-grounded templates and coding policies, then evaluate exact-code prediction for ICD-10-CM and CPT. A zero-shot baseline with the unadapted model achieved an F1 score of 0.18 for exact code match. After fine-tuning on the synthetic corpus, exact-match F1 exceeded 0.70, representing a large absolute gain across both code systems. Notably, performance remained high on complex categories that often require multi-step clinical reasoning and code composition, including Advanced Illness and Frailty classes, and the model retained its performance on medical comprehension tasks. These results indicate that synthetic, policy-aware data can efficiently teach a general-purpose large language model to support precise medical coding without exposing protected health information. The approach offers a practical path for training coding agents safely and iteratively on specific tasks that represent real-world populations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.05158v1">Balancing Privacy-Quality-Efficiency in Federated Learning through Round-Based Interleaving of Protection Techniques</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-03-05T13:28:51Z</p>
@@ -1170,54 +1218,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Bartosz Regula, Marco Tomamichel</p>
     <p><b>Summary:</b> We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints. Our main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. A key role is played by the measured smooth Rényi relative entropy of order 2, which we show to admit an equivalent variational form: it can be understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. Building on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on extractable randomness and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of privacy amplification, obtaining a corresponding improved one-shot bound. Relaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured Rényi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponent of [Dupuis, arXiv:2105.05342]. We show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., arXiv:2202.11590] and proving its optimality for all hash functions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04367v1">Scrollytelling as an Alternative Format for Privacy Policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-03-04T18:32:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Gonzalo Gabriel Méndez, Jose Such</p>
-    <p><b>Summary:</b> Privacy policies are long, complex, and rarely read, which limits their effectiveness in informed consent. We investigate scrollytelling, a scroll-driven narrative approach, as a privacy policy presentation format. We built a prototype that interleaves the full policy text with animated visuals to create a dynamic reading experience. In an online study (N=454), we compared our tool against text, two nutrition-label variants, and a standalone interactive visualization. Scrollytelling improved user experience over text, yielding higher engagement, lower cognitive load, greater willingness to adopt the format, and increased perceived clarity. It also matched other formats on comprehension accuracy and confidence, with only one nutrition-label variant performing slightly better. Changes in perceived understanding, transparency, and trust were small and statistically inconclusive. These findings suggest that scrollytelling can preserve comprehension while enhancing the experience of policy reading. We discuss design implications for accessible policy communication and identify directions for increasing transparency and user trust.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04340v1">Balancing Fidelity, Utility, and Privacy in Synthetic Cardiac MRI Generation: A Comparative Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-03-04T17:59:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Madhura Edirisooriya, Dasuni Kawya, Ishan Kumarasinghe, Isuri Devindi, Mary M. Maleckar, Roshan Ragel, Isuru Nawinne, Vajira Thambawita</p>
-    <p><b>Summary:</b> Deep learning in cardiac MRI (CMR) is fundamentally constrained by both data scarcity and privacy regulations. This study systematically benchmarks three generative architectures: Denoising Diffusion Probabilistic Models (DDPM), Latent Diffusion Models (LDM), and Flow Matching (FM) for synthetic CMR generation. Utilizing a two-stage pipeline where anatomical masks condition image synthesis, we evaluate generated data across three critical axes: fidelity, utility, and privacy. Our results show that diffusion-based models, particularly DDPM, provide the most effective balance between downstream segmentation utility, image fidelity, and privacy preservation under limited-data conditions, while FM demonstrates promising privacy characteristics with slightly lower task-level performance. These findings quantify the trade-offs between cross-domain generalization and patient confidentiality, establishing a framework for safe and effective synthetic data augmentation in medical imaging.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04323v1">PTOPOFL: Privacy-Preserving Personalised Federated Learning via Persistent Homology</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">  
-  <p><b>Published on:</b> 2026-03-04T17:44:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kelly L Vomo-Donfack, Adryel Hoszu, Grégory Ginot, Ian Morilla</p>
-    <p><b>Summary:</b> Federated learning (FL) faces two structural tensions: gradient sharing enables data-reconstruction attacks, while non-IID client distributions degrade aggregation quality. We introduce PTOPOFL, a framework that addresses both challenges simultaneously by replacing gradient communication with topological descriptors derived from persistent homology (PH). Clients transmit only 48-dimensional PH feature vectors-compact shape summaries whose many-to-one structure makes inversion provably ill-posed-rather than model gradients. The server performs topology-guided personalised aggregation: clients are clustered by Wasserstein similarity between their PH diagrams, intra-cluster models are topology-weighted,and clusters are blended with a global consensus. We prove an information-contraction theorem showing that PH descriptors leak strictly less mutual information per sample than gradients under strongly convex loss functions, and we establish linear convergence of the Wasserstein-weighted aggregation scheme with an error floor strictly smaller than FedAvg. Evaluated against FedAvg, FedProx, SCAFFOLD, and pFedMe on a non-IID healthcare scenario (8 hospitals, 2 adversarial) and a pathological benchmark (10 clients), PTOPOFL achieves AUC 0.841 and 0.910 respectively-the highest in both settings-while reducing reconstruction risk by a factor of 4.5 relative to gradient sharing. Code is publicly available at https://github.com/MorillaLab/TopoFederatedL and data at https://doi.org/10.5281/zenodo.18827595.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04199v1">Bayesian Adversarial Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-03-04T15:46:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cameron Bell, Timothy Johnston, Antoine Luciano, Christian P Robert</p>
-    <p><b>Summary:</b> Theoretical and applied research into privacy encompasses an incredibly broad swathe of differing approaches, emphasis and aims. This work introduces a new quantitative notion of privacy that is both contextual and specific. We argue that it provides a more meaningful notion of privacy than the widely utilised framework of differential privacy and a more explicit and rigorous formulation than what is commonly used in statistical disclosure theory. Our definition relies on concepts inherent to standard Bayesian decision theory, while departing from it in several important respects. In particular, the party controlling the release of sensitive information should make disclosure decisions from the prior viewpoint, rather than conditional on the data, even when the data is itself observed. Illuminating toy examples and computational methods are discussed in high detail in order to highlight the specificities of the method.</p>
   </details>
 </div>
 
