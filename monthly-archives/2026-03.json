@@ -3378,5 +3378,175 @@
       "cs.SD",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.24392v1",
+    "title" : "Federated fairness-aware classification under differential privacy",
+    "summary" : "Privacy and algorithmic fairness have become two central issues in modern machine learning. Although each has separately emerged as a rapidly growing research area, their joint effect remains comparatively under-explored. In this paper, we systematically study the joint impact of differential privacy and fairness on classification in a federated setting, where data are distributed across multiple servers. Targeting demographic disparity constrained classification under federated differential privacy, we propose a two-step algorithm, namely FDP-Fair. In the special case where there is only one server, we further propose a simple yet powerful algorithm, namely CDP-Fair, serving as a computationally-lightweight alternative. Under mild structural assumptions, theoretical guarantees on privacy, fairness and excess risk control are established. In particular, we disentangle the source of the private fairness-aware excess risk into a) intrinsic cost of classification, b) cost of private classification, c) non-private cost of fairness and d) private cost of fairness. Our theoretical findings are complemented by extensive numerical experiments on both synthetic and real datasets, highlighting the practicality of our designed algorithms.",
+    "updated" : "2026-03-25T15:09:12Z",
+    "published" : "2026-03-25T15:09:12Z",
+    "authors" : [
+      {
+        "name" : "Gengyu Xue"
+      },
+      {
+        "name" : "Yi Yu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.23935v1",
+    "title" : "An Empirical Analysis of Google Play Data Safety Disclosures: A Consistency Study of Privacy Indicators in Mobile Gaming Apps",
+    "summary" : "The Google Play marketplace has introduced the Data Safety section to improve transparency regarding how mobile applications (apps) collect, share, and protect user data. This mechanism requires developers to disclose privacy and security-related practices. However, the reliability of these disclosures remains dependent on developer self-reporting, raising concerns about their accuracy. This study investigates the consistency between developer-reported Data Safety disclosures and observable privacy indicators extracted from Android Application Packages (APKs). An empirical analysis was conducted on a dataset of 41 mobile gaming apps. A static analysis approach was used to extract key privacy indicators from APK files, including device IDs, data sharing, personal information access, and location access. These indicators were systematically compared with the corresponding disclosures reported in the Google Play Data Safety labels using a structured consistency evaluation framework. The results revealed varying levels of agreement across privacy categories. Device ID disclosures demonstrated relatively high consistency (87.8%), whereas other indicators exhibited substantial mismatches. Location-related disclosures showed the highest inconsistency rate (56.1%), followed by personal information and data sharing. Comparative analysis between children-oriented and general-audience apps revealed similar mismatch patterns. Also, Chi-square statistical tests indicate that these differences are not statistically significant, suggesting that disclosure inconsistencies are not associated with app category but instead reflect broader ecosystem-level challenges. These findings highlight limitations in the reliability of current marketplace transparency mechanisms and emphasize the need for improved validation and verification approaches to ensure accurate privacy reporting in mobile app ecosystems.",
+    "updated" : "2026-03-25T04:50:21Z",
+    "published" : "2026-03-25T04:50:21Z",
+    "authors" : [
+      {
+        "name" : "Bakheet Aljedaani"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.23678v1",
+    "title" : "PLACID: Privacy-preserving Large language models for Acronym Clinical Inference and Disambiguation",
+    "summary" : "Large Language Models (LLMs) offer transformative solutions across many domains, but healthcare integration is hindered by strict data privacy constraints. Clinical narratives are dense with ambiguous acronyms, misinterpretation these abbreviations can precipitate severe outcomes like life-threatening medication errors. While cloud-dependent LLMs excel at Acronym Disambiguation, transmitting Protected Health Information to external servers violates privacy frameworks. To bridge this gap, this study pioneers the evaluation of small-parameter models deployed entirely on-device to ensure privacy preservation. We introduce a privacy-preserving cascaded pipeline leveraging general-purpose local models to detect clinical acronyms, routing them to domain-specific biomedical models for context-relevant expansions. Results reveal that while general instruction-following models achieve high detection accuracy (~0.988), their expansion capabilities plummet (~0.655). Our cascaded approach utilizes domain-specific medical models to increase expansion accuracy to (~0.81). This novel work demonstrates that privacy-preserving, on-device (2B-10B) models deliver high-fidelity clinical acronym disambiguation support.",
+    "updated" : "2026-03-24T19:33:44Z",
+    "published" : "2026-03-24T19:33:44Z",
+    "authors" : [
+      {
+        "name" : "Manjushree B. Aithal"
+      },
+      {
+        "name" : "Ph. D."
+      },
+      {
+        "name" : "Alexander Kotz"
+      },
+      {
+        "name" : "James Mitchell"
+      },
+      {
+        "name" : "Ph. D"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.21387v2",
+    "title" : "Knowledge Priors for Identity-Disentangled Open-Set Privacy-Preserving Video FER",
+    "summary" : "Facial expression recognition relies on facial data that inherently expose identity and thus raise significant privacy concerns. Current privacy-preserving methods typically fail in realistic open-set video settings where identities are unknown, and identity labels are unavailable. We propose a two-stage framework for video-based privacy-preserving FER in challenging open-set settings that requires no identity labels at any stage. To decouple privacy and utility, we first train an identity-suppression network using intra- and inter-video knowledge priors derived from real-world videos without identity labels. This network anonymizes identity while preserving expressive cues. A subsequent denoising module restores expression-related information and helps recover FER performance. Furthermore, we introduce a falsification-based validation method that uses recognition priors to rigorously evaluate privacy robustness without requiring annotated identity labels. Experiments on three video datasets demonstrate that our method effectively protects privacy while maintaining FER accuracy comparable to identity-supervised baselines.",
+    "updated" : "2026-03-25T04:30:03Z",
+    "published" : "2026-03-22T20:18:31Z",
+    "authors" : [
+      {
+        "name" : "Feng Xu"
+      },
+      {
+        "name" : "Xun Li"
+      },
+      {
+        "name" : "Lars Petersson"
+      },
+      {
+        "name" : "Yulei Sui"
+      },
+      {
+        "name" : "David Ahmedt-Aristizabal"
+      },
+      {
+        "name" : "Dadong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.21106v2",
+    "title" : "Tracing Users' Privacy Concerns Across the Lifecycle of a Romantic AI Companion",
+    "summary" : "Romantic AI chatbots have quickly attracted users, but their emotional use raises concerns about privacy and safety. As people turn to these systems for intimacy, comfort, and emotionally significant interaction, they often disclose highly sensitive information. Yet the privacy implications of such disclosure remain poorly understood in platforms shaped by persistence, intimacy, and opaque data practices. In this paper, we examine public Reddit discussions about privacy in romantic AI chatbot ecosystems through a lifecycle lens. Analyzing 2,909 posts from 79 subreddits collected over one year, we identify four recurring patterns: disproportionate entry requirements, intensified sensitivity in intimate use, interpretive uncertainty and perceived surveillance, and irreversibility, persistence, and user burden. We show that privacy in romantic AI is best understood as an evolving socio-technical governance problem spanning access, disclosure, interpretation, retention, and exit. These findings highlight the need for privacy and safety governance in romantic AI that is staged across the lifecycle of use, supports meaningful reversibility, and accounts for the emotional vulnerability of intimate human-AI interaction.",
+    "updated" : "2026-03-25T03:45:23Z",
+    "published" : "2026-03-22T07:49:59Z",
+    "authors" : [
+      {
+        "name" : "Kazi Ababil Azam"
+      },
+      {
+        "name" : "Imtiaz Karim"
+      },
+      {
+        "name" : "Dipto Das"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.23515v1",
+    "title" : "Training a Large Language Model for Medical Coding Using Privacy-Preserving Synthetic Clinical Data",
+    "summary" : "Improving the accuracy and reliability of medical coding reduces clinician burnout and supports revenue cycle processes, freeing providers to focus more on patient care. However, automating the assignment of ICD-10-CM and CPT codes from clinical documentation remains a challenge due to heterogeneous records, nuanced coding guidelines, and long-tail distributions. Large language models have been proposed to help or automate specific medical coding tasks. However, foundation models are not explicitly trained for medical coding and zero-shot coding has yielded poor results. We investigate whether a modern open-weight foundation model can be adapted for an expert-level medical coding task using privacy-preserving synthetic training data derived from electronic health records. We fine-tune Llama 3-70B on pairs of clinical notes and gold codes generated from EHR-grounded templates and coding policies, then evaluate exact-code prediction for ICD-10-CM and CPT. A zero-shot baseline with the unadapted model achieved an F1 score of 0.18 for exact code match. After fine-tuning on the synthetic corpus, exact-match F1 exceeded 0.70, representing a large absolute gain across both code systems. Notably, performance remained high on complex categories that often require multi-step clinical reasoning and code composition, including Advanced Illness and Frailty classes, and the model retained its performance on medical comprehension tasks. These results indicate that synthetic, policy-aware data can efficiently teach a general-purpose large language model to support precise medical coding without exposing protected health information. The approach offers a practical path for training coding agents safely and iteratively on specific tasks that represent real-world populations.",
+    "updated" : "2026-03-06T02:02:49Z",
+    "published" : "2026-03-06T02:02:49Z",
+    "authors" : [
+      {
+        "name" : "John Cook"
+      },
+      {
+        "name" : "Michael Wyatt"
+      },
+      {
+        "name" : "Peng Wei"
+      },
+      {
+        "name" : "Iris Chin"
+      },
+      {
+        "name" : "Santosh Gupta"
+      },
+      {
+        "name" : "Van Zyl Van Vuuren"
+      },
+      {
+        "name" : "Richie Siburian"
+      },
+      {
+        "name" : "Amanda Spicer"
+      },
+      {
+        "name" : "Kristen Viviano"
+      },
+      {
+        "name" : "Alda Cami"
+      },
+      {
+        "name" : "Raunaq Malhotra"
+      },
+      {
+        "name" : "Zhewei Yao"
+      },
+      {
+        "name" : "Jeff Rasley"
+      },
+      {
+        "name" : "Gaurav Kaushik"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
