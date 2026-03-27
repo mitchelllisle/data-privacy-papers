@@ -3548,5 +3548,118 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.25190v1",
+    "title" : "zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI via Zero-Knowledge Proofs",
+    "summary" : "Public blockchains impose an inherent tension between regulatory compliance and user privacy. Existing on-chain identity solutions require centralized KYC attestors, specialized hardware, or Decentralized Identifier (DID) frameworks needing entirely new credential infrastructure. Meanwhile, over four billion active X.509 certificates constitute a globally deployed, government-grade trust infrastructure largely unexploited for decentralized identity.\n  This paper presents zk-X509, a privacy-preserving identity system bridging legacy Public Key Infrastructure (PKI) with public ledgers via a RISC-V zero-knowledge virtual machine (zkVM). Users prove ownership of standard X.509 certificates without revealing private keys or personal identifiers. Crucially, the private key never enters the ZK circuit; ownership is proven via OS keychain signature delegation (e.g., macOS Secure Enclave, Windows TPM). The circuit verifies certificate chain validity, temporal validity, key ownership, trustless CRL revocation, blockchain address binding, and Sybil-resistant nullifier generation. It commits 13 public values, including a Certificate Authority (CA) Merkle root hiding the issuing CA, and four selective disclosure hashes.\n  We formalize eight security properties under a Dolev-Yao adversary with game-based definitions and reductions to sEUF-CMA, SHA-256 collision resistance, and ZK soundness. Evaluated on the SP1 zkVM, the system achieves 11.8M cycles for ECDSA P-256 (17.4M for RSA-2048), with on-chain Groth16 verification costing ~300K gas. By leveraging certificates deployed at scale across jurisdictions, zk-X509 enables adoption without new trust establishment, complementing emerging DID-based systems.",
+    "updated" : "2026-03-26T08:55:26Z",
+    "published" : "2026-03-26T08:55:26Z",
+    "authors" : [
+      {
+        "name" : "Yeongju Bak"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.25186v1",
+    "title" : "Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric Data: Privacy Preserving Synthetic Data Generation",
+    "summary" : "AI systems in healthcare research have shown potential to increase patient throughput and assist clinicians, yet progress is constrained by limited access to real patient data. To address this issue, we present a zero-shot, knowledge-guided framework for psychiatric tabular data in which large language models (LLMs) are steered via Retrieval-Augmented Generation using the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) and the International Classification of Diseases (ICD-10). We conducted experiments using different combinations of knowledge bases to generate privacy-preserving synthetic data. The resulting models were benchmarked against two state-of-the-art deep learning models for synthetic tabular data generation, namely CTGAN and TVAE, both of which rely on real data and therefore entail potential privacy risks. Evaluation was performed on six anxiety-related disorders: specific phobia, social anxiety disorder, agoraphobia, generalized anxiety disorder, separation anxiety disorder, and panic disorder. CTGAN typically achieves the best marginals and multivariate structure, while the knowledge-augmented LLM is competitive on pairwise structure and attains the lowest pairwise error in separation anxiety and social anxiety. An ablation study shows that clinical retrieval reliably improves univariate and pairwise fidelity over a no-retrieval LLM. Privacy analyses indicate that the real data-free LLM yields modest overlaps and a low average linkage risk comparable to CTGAN, whereas TVAE exhibits extensive duplication despite a low k-map score. Overall, grounding an LLM in clinical knowledge enables high-quality, privacy-preserving synthetic psychiatric data when real datasets are unavailable or cannot be shared.",
+    "updated" : "2026-03-26T08:52:41Z",
+    "published" : "2026-03-26T08:52:41Z",
+    "authors" : [
+      {
+        "name" : "Adam Jakobsen"
+      },
+      {
+        "name" : "Sushant Gautam"
+      },
+      {
+        "name" : "Hugo Lewi Hammer"
+      },
+      {
+        "name" : "Susanne Olofsdotter"
+      },
+      {
+        "name" : "Miriam S Johanson"
+      },
+      {
+        "name" : "Pål Halvorsen"
+      },
+      {
+        "name" : "Vajira Thambawita"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.24735v1",
+    "title" : "Examining the Effect of Explanations of AI Privacy Redaction in AI-mediated Interactions",
+    "summary" : "AI-mediated communication is increasingly being utilized to help facilitate interactions; however, in privacy sensitive domains, an AI mediator has the additional challenge of considering how to preserve privacy. In these contexts, a mediator may redact or withhold information, raising questions about how users perceive these interventions and whether explanations of system behavior can improve trust. In this work, we investigate how explanations of redaction operations can affect user trust in AI-mediated communication. We devise a scenario where a validated system removes sensitive content from messages and generates explanations of varying detail to communicate its decisions to recipients. We then conduct a user study with $180$ participants that studies how user trust and preferences vary for cases with different amounts of redacted content and different levels of explanation detail. Our results show that participants believed our system was more effective at preserving privacy when explanations were provided ($p<0.05$, Cohen's $d \\approx 0.3$). We also found that contextual factors had an impact; participants relied more on explanations and found them more helpful when the system performed extensive redactions ($p<0.05$, Cohen's $f \\approx 0.2$). We also found that explanation preferences depended on individual differences as well, and factors such as age and baseline familiarity with AI affected user trust in our system. These findings highlight the importance and challenge of balancing transparency and privacy in AI-mediated communications and suggest that adaptive, context-aware explanations are essential for designing privacy-aware, trustworthy AI systems.",
+    "updated" : "2026-03-25T18:59:08Z",
+    "published" : "2026-03-25T18:59:08Z",
+    "authors" : [
+      {
+        "name" : "Roshni Kaushik"
+      },
+      {
+        "name" : "Maarten Sap"
+      },
+      {
+        "name" : "Koichi Onoue"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.24695v1",
+    "title" : "Amplified Patch-Level Differential Privacy for Free via Random Cropping",
+    "summary" : "Random cropping is one of the most common data augmentation techniques in computer vision, yet the role of its inherent randomness in training differentially private machine learning models has thus far gone unexplored. We observe that when sensitive content in an image is spatially localized, such as a face or license plate, random cropping can probabilistically exclude that content from the model's input. This introduces a third source of stochasticity in differentially private training with stochastic gradient descent, in addition to gradient noise and minibatch sampling. This additional randomness amplifies differential privacy without requiring changes to model architecture or training procedure. We formalize this effect by introducing a patch-level neighboring relation for vision data and deriving tight privacy bounds for differentially private stochastic gradient descent (DP-SGD) when combined with random cropping. Our analysis quantifies the patch inclusion probability and shows how it composes with minibatch sampling to yield a lower effective sampling rate. Empirically, we validate that patch-level amplification improves the privacy-utility trade-off across multiple segmentation architectures and datasets. Our results demonstrate that aligning privacy accounting with domain structure and additional existing sources of randomness can yield stronger guarantees at no additional cost.",
+    "updated" : "2026-03-25T18:15:06Z",
+    "published" : "2026-03-25T18:15:06Z",
+    "authors" : [
+      {
+        "name" : "Kaan Durmaz"
+      },
+      {
+        "name" : "Jan Schuchardt"
+      },
+      {
+        "name" : "Sebastian Schmidt"
+      },
+      {
+        "name" : "Stephan Günnemann"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.22808v2",
+    "title" : "Combinatorial Privacy: Private Multi-Party Bitstream Grand Sum by Hiding in Birkhoff Polytopes",
+    "summary" : "We introduce PolyVeil, a protocol for private Boolean summation across $k$ clients that encodes private bits as permutation matrices in the Birkhoff polytope. A two-layer architecture gives the server perfect simulation-based security (statistical distance zero) while a separate aggregator faces \\#P-hard likelihood inference via the permanent and mixed discriminant. Two variants (full and compressed) differ in what the aggregator observes.\n  We develop a finite-sample $(\\varepsilon,δ)$-DP analysis with explicit constants. In the full variant, where the aggregator sees a doubly stochastic matrix per client, the log-Lipschitz constant grows as $n^4 K_t$ and a signal-to-noise analysis shows the DP guarantee is non-vacuous only when the private signal is undetectable. In the compressed variant, where the aggregator sees a single scalar, the univariate density ratio yields non-vacuous $\\varepsilon$ at moderate SNR, with the optimal decoy count balancing CLT accuracy against noise concentration.\n  This exposes a fundamental tension. \\#P-hardness requires the full matrix view (Birkhoff structure visible), while non-vacuous DP requires the scalar view (low dimensionality). Whether both hold simultaneously in one variant remains open. The protocol needs no PKI, has $O(k)$ communication, and outputs exact aggregates.",
+    "updated" : "2026-03-26T06:57:58Z",
+    "published" : "2026-03-24T05:08:38Z",
+    "authors" : [
+      {
+        "name" : "Praneeth Vepakomma"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
