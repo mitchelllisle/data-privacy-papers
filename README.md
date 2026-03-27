@@ -2,6 +2,56 @@
 <h2>2026-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.25190v1">zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI via Zero-Knowledge Proofs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-03-26T08:55:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yeongju Bak</p>
+    <p><b>Summary:</b> Public blockchains impose an inherent tension between regulatory compliance and user privacy. Existing on-chain identity solutions require centralized KYC attestors, specialized hardware, or Decentralized Identifier (DID) frameworks needing entirely new credential infrastructure. Meanwhile, over four billion active X.509 certificates constitute a globally deployed, government-grade trust infrastructure largely unexploited for decentralized identity.
+  This paper presents zk-X509, a privacy-preserving identity system bridging legacy Public Key Infrastructure (PKI) with public ledgers via a RISC-V zero-knowledge virtual machine (zkVM). Users prove ownership of standard X.509 certificates without revealing private keys or personal identifiers. Crucially, the private key never enters the ZK circuit; ownership is proven via OS keychain signature delegation (e.g., macOS Secure Enclave, Windows TPM). The circuit verifies certificate chain validity, temporal validity, key ownership, trustless CRL revocation, blockchain address binding, and Sybil-resistant nullifier generation. It commits 13 public values, including a Certificate Authority (CA) Merkle root hiding the issuing CA, and four selective disclosure hashes.
+  We formalize eight security properties under a Dolev-Yao adversary with game-based definitions and reductions to sEUF-CMA, SHA-256 collision resistance, and ZK soundness. Evaluated on the SP1 zkVM, the system achieves 11.8M cycles for ECDSA P-256 (17.4M for RSA-2048), with on-chain Groth16 verification costing ~300K gas. By leveraging certificates deployed at scale across jurisdictions, zk-X509 enables adoption without new trust establishment, complementing emerging DID-based systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.25186v1">Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric Data: Privacy Preserving Synthetic Data Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-03-26T08:52:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Adam Jakobsen, Sushant Gautam, Hugo Lewi Hammer, Susanne Olofsdotter, Miriam S Johanson, Pål Halvorsen, Vajira Thambawita</p>
+    <p><b>Summary:</b> AI systems in healthcare research have shown potential to increase patient throughput and assist clinicians, yet progress is constrained by limited access to real patient data. To address this issue, we present a zero-shot, knowledge-guided framework for psychiatric tabular data in which large language models (LLMs) are steered via Retrieval-Augmented Generation using the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) and the International Classification of Diseases (ICD-10). We conducted experiments using different combinations of knowledge bases to generate privacy-preserving synthetic data. The resulting models were benchmarked against two state-of-the-art deep learning models for synthetic tabular data generation, namely CTGAN and TVAE, both of which rely on real data and therefore entail potential privacy risks. Evaluation was performed on six anxiety-related disorders: specific phobia, social anxiety disorder, agoraphobia, generalized anxiety disorder, separation anxiety disorder, and panic disorder. CTGAN typically achieves the best marginals and multivariate structure, while the knowledge-augmented LLM is competitive on pairwise structure and attains the lowest pairwise error in separation anxiety and social anxiety. An ablation study shows that clinical retrieval reliably improves univariate and pairwise fidelity over a no-retrieval LLM. Privacy analyses indicate that the real data-free LLM yields modest overlaps and a low average linkage risk comparable to CTGAN, whereas TVAE exhibits extensive duplication despite a low k-map score. Overall, grounding an LLM in clinical knowledge enables high-quality, privacy-preserving synthetic psychiatric data when real datasets are unavailable or cannot be shared.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.24735v1">Examining the Effect of Explanations of AI Privacy Redaction in AI-mediated Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-03-25T18:59:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Roshni Kaushik, Maarten Sap, Koichi Onoue</p>
+    <p><b>Summary:</b> AI-mediated communication is increasingly being utilized to help facilitate interactions; however, in privacy sensitive domains, an AI mediator has the additional challenge of considering how to preserve privacy. In these contexts, a mediator may redact or withhold information, raising questions about how users perceive these interventions and whether explanations of system behavior can improve trust. In this work, we investigate how explanations of redaction operations can affect user trust in AI-mediated communication. We devise a scenario where a validated system removes sensitive content from messages and generates explanations of varying detail to communicate its decisions to recipients. We then conduct a user study with $180$ participants that studies how user trust and preferences vary for cases with different amounts of redacted content and different levels of explanation detail. Our results show that participants believed our system was more effective at preserving privacy when explanations were provided ($p<0.05$, Cohen's $d \approx 0.3$). We also found that contextual factors had an impact; participants relied more on explanations and found them more helpful when the system performed extensive redactions ($p<0.05$, Cohen's $f \approx 0.2$). We also found that explanation preferences depended on individual differences as well, and factors such as age and baseline familiarity with AI affected user trust in our system. These findings highlight the importance and challenge of balancing transparency and privacy in AI-mediated communications and suggest that adaptive, context-aware explanations are essential for designing privacy-aware, trustworthy AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.24695v1">Amplified Patch-Level Differential Privacy for Free via Random Cropping</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-03-25T18:15:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kaan Durmaz, Jan Schuchardt, Sebastian Schmidt, Stephan Günnemann</p>
+    <p><b>Summary:</b> Random cropping is one of the most common data augmentation techniques in computer vision, yet the role of its inherent randomness in training differentially private machine learning models has thus far gone unexplored. We observe that when sensitive content in an image is spatially localized, such as a face or license plate, random cropping can probabilistically exclude that content from the model's input. This introduces a third source of stochasticity in differentially private training with stochastic gradient descent, in addition to gradient noise and minibatch sampling. This additional randomness amplifies differential privacy without requiring changes to model architecture or training procedure. We formalize this effect by introducing a patch-level neighboring relation for vision data and deriving tight privacy bounds for differentially private stochastic gradient descent (DP-SGD) when combined with random cropping. Our analysis quantifies the patch inclusion probability and shows how it composes with minibatch sampling to yield a lower effective sampling rate. Empirically, we validate that patch-level amplification improves the privacy-utility trade-off across multiple segmentation architectures and datasets. Our results demonstrate that aligning privacy accounting with domain structure and additional existing sources of randomness can yield stronger guarantees at no additional cost.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.24392v1">Federated fairness-aware classification under differential privacy</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
   <p><b>Published on:</b> 2026-03-25T15:09:12Z</p>
@@ -98,7 +148,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.22808v1">Combinatorial Privacy: Private Multi-Party Bitstream Grand Sum by Hiding in Birkhoff Polytopes</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.22808v2">Combinatorial Privacy: Private Multi-Party Bitstream Grand Sum by Hiding in Birkhoff Polytopes</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-03-24T05:08:38Z</p>
   <details>
@@ -1170,54 +1220,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Ruichen Xu, Kexin Chen</p>
     <p><b>Summary:</b> Differentially private learning is essential for training models on sensitive data, but empirical studies consistently show that it can degrade performance, introduce fairness issues like disparate impact, and reduce adversarial robustness. The theoretical underpinnings of these phenomena in modern, non-convex neural networks remain largely unexplored. This paper introduces a unified feature-centric framework to analyze the feature learning dynamics of differentially private stochastic gradient descent (DP-SGD) in two-layer ReLU convolutional neural networks. Our analysis establishes test loss bounds governed by a crucial metric: the feature-to-noise ratio (FNR). We demonstrate that the noise required for privacy leads to suboptimal feature learning, and specifically show that: 1) imbalanced FNRs across classes and subpopulations cause disparate impact; 2) even in the same class, noise has a greater negative impact on semantically long-tailed data; and 3) noise injection exacerbates vulnerability to adversarial attacks. Furthermore, our analysis reveals that the popular paradigm of public pre-training and private fine-tuning does not guarantee improvement, particularly under significant feature distribution shifts between datasets. Experiments on synthetic and real-world data corroborate our theoretical findings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04775v1">Privacy-Aware Camera 2.0 Technical Report</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-03-05T03:46:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huan Song, Shuyu Tian, Ting Long, Jiang Liu, Cheng Yuan, Zhenyu Jia, Jiawei Shao, Xuelong Li</p>
-    <p><b>Summary:</b> With the increasing deployment of intelligent sensing technologies in highly sensitive environments such as restrooms and locker rooms, visual surveillance systems face a profound privacy-security paradox. Existing privacy-preserving approaches, including physical desensitization, encryption, and obfuscation, often compromise semantic understanding or fail to ensure mathematically provable irreversibility. Although Privacy Camera 1.0 eliminated visual data at the source to prevent leakage, it provided only textual judgments, leading to evidentiary blind spots in disputes. To address these limitations, this paper proposes a novel privacy-preserving perception framework based on the AI Flow paradigm and a collaborative edge-cloud architecture. By deploying a visual desensitizer at the edge, raw images are transformed in real time into abstract feature vectors through nonlinear mapping and stochastic noise injection under the Information Bottleneck principle, ensuring identity-sensitive information is stripped and original images are mathematically unreconstructable. The abstract representations are transmitted to the cloud for behavior recognition and semantic reconstruction via a "dynamic contour" visual language, achieving a critical balance between perception and privacy while enabling illustrative visual reference without exposing raw images.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04742v1">Efficient Privacy-Preserving Sparse Matrix-Vector Multiplication Using Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-05T02:29:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yang Gao, Gang Quan, Wujie Wen, Scott Piersall, Qian Lou, Liqiang Wang</p>
-    <p><b>Summary:</b> Sparse matrix-vector multiplication (SpMV) is a fundamental operation in scientific computing, data analysis, and machine learning. When the data being processed are sensitive, preserving privacy becomes critical, and homomorphic encryption (HE) has emerged as a leading approach for addressing this challenge. Although HE enables privacy-preserving computation, its application to SpMV has remained largely unaddressed. To the best of our knowledge, this paper presents the first framework that efficiently integrates HE with SpMV, addressing the dual challenges of computational efficiency and data privacy. In particular, we introduce a novel compressed matrix format, named Compressed Sparse Sorted Column (CSSC), which is specifically designed to optimize encrypted sparse matrix computations. By preserving sparsity and enabling efficient ciphertext packing, CSSC significantly reduces storage and computational overhead. Our experimental results on real-world datasets demonstrate that the proposed method achieves significant gains in both processing time and memory usage. This study advances privacy-preserving SpMV and lays the groundwork for secure applications in federated learning, encrypted databases, scientific computing, and beyond.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04595v1">A Late-Fusion Multimodal AI Framework for Privacy-Preserving Deduplication in National Healthcare Data Environments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-03-04T20:46:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammed Omer Shakeel Ahmed</p>
-    <p><b>Summary:</b> Duplicate records pose significant challenges in customer relationship management (CRM)and healthcare, often leading to inaccuracies in analytics, impaired user experiences, and compliance risks. Traditional deduplication methods rely heavily on direct identifiers such as names, emails, or Social Security Numbers (SSNs), making them ineffective under strict privacy regulations like GDPR and HIPAA, where such personally identifiable information (PII) is restricted or masked. In this research, I propose a novel, scalable, multimodal AI framework for detecting duplicates without depending on sensitive information. This system leverages three distinct modalities: semantic embeddings derived from textual fields (names, cities) using pre-trained DistilBERT models, behavioral patterns extracted from user login timestamps, and device metadata encoded through categorical embeddings. These heterogeneous modalities are combined using a late fusion approach and clustered via DBSCAN, an unsupervised density-based algorithm. This proposed model is evaluated against a traditional string-matching baseline on a synthetic CRM dataset specifically designed to reflect privacy-preserving constraints. The multimodal framework demonstrated good performance, achieving a good F1-score by effectively identifying duplicates despite variations and noise inherent in the data. This approach offers a privacy-compliant solution to entity resolution and supports secure digital infrastructure, enhances the reliability of public health analytics, and promotes ethical AI adoption across government and enterprise settings. It is well-suited for integration into national health data modernization efforts, aligning with broader goals of privacy-first innovation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.04493v2">Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
-  <p><b>Published on:</b> 2026-03-04T19:00:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bartosz Regula, Marco Tomamichel</p>
-    <p><b>Summary:</b> We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints. Our main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. A key role is played by the measured smooth Rényi relative entropy of order 2, which we show to admit an equivalent variational form: it can be understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. Building on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on extractable randomness and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of privacy amplification, obtaining a corresponding improved one-shot bound. Relaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured Rényi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponent of [Dupuis, arXiv:2105.05342]. We show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., arXiv:2202.11590] and proving its optimality for all hash functions.</p>
   </details>
 </div>
 
