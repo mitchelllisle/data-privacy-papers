@@ -2,6 +2,79 @@
 <h2>2026-03</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.29907v1">Security and Privacy in Virtual and Robotic Assistive Systems: A Comparative Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-31T15:53:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nelly Elsayed</p>
+    <p><b>Summary:</b> Assistive technologies increasingly support independence, accessibility, and safety for older adults, people with disabilities, and individuals requiring continuous care. Two major categories are virtual assistive systems and robotic assistive systems operating in physical environments. Although both offer significant benefits, they introduce important security and privacy risks due to their reliance on artificial intelligence, network connectivity, and sensor-based perception. Virtual systems are primarily exposed to threats involving data privacy, unauthorized access, and adversarial voice manipulation. In contrast, robotic systems introduce additional cyber-physical risks such as sensor spoofing, perception manipulation, command injection, and physical safety hazards. In this paper, we present a comparative analysis of security and privacy challenges across these systems. We develop a unified comparative threat-modeling framework that enables structured analysis of attack surfaces, risk profiles, and safety implications across both systems. Moreover, we provide design recommendations for developing secure, privacy-preserving, and trustworthy assistive technologies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.29668v1">An Empirical Comparison of Security and Privacy Characteristics of Android Messaging Apps</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-31T12:27:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ioannis Karyotakis, Foivos Timotheos Proestakis, Evangelos Talos, Diomidis Spinellis, Nikolaos Alexopoulos</p>
+    <p><b>Summary:</b> Mobile messaging apps are a fundamental communication infrastructure, used by billions of people every day to share information, including sensitive data. Security and Privacy are thus critical concerns for such applications. Although the cryptographic protocols prevalent in messaging apps are generally well studied, other relevant implementation characteristics of such apps, such as their software architecture, permission use, and network-related runtime behavior, have not received enough attention. In this paper, we present a methodology for comparing implementation characteristics of messaging applications by employing static and dynamic analysis under reproducible scenarios to identify discrepancies with potential security and privacy implications. We apply this methodology to study the Android clients of the Meta Messenger, Signal, and Telegram apps. Our main findings reveal discrepancies in application complexity, attack surface, and network behavior. Statically, Messenger presents the largest attack surface and the highest number of static analysis warnings, while Telegram requests the most dangerous permissions. In contrast, Signal consistently demonstrates a minimalist design with the fewest dependencies and dangerous permissions. Dynamically, these differences are reflected in network activity; Messenger is by far the most active, exhibiting persistent background communication, whereas Signal is the least active. Furthermore, our analysis shows that all applications properly adhere to the Android permission model, with no evidence of unauthorized data access.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.29497v1">Distilling Human-Aligned Privacy Sensitivity Assessment from Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-03-31T09:40:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel Loiseau, Damien Sileo, Damien Riquet, Maxime Meyer, Marc Tommasi</p>
+    <p><b>Summary:</b> Accurate privacy evaluation of textual data remains a critical challenge in privacy-preserving natural language processing. Recent work has shown that large language models (LLMs) can serve as reliable privacy evaluators, achieving strong agreement with human judgments; however, their computational cost and impracticality for processing sensitive data at scale limit real-world deployment. We address this gap by distilling the privacy assessment capabilities of Mistral Large 3 (675B) into lightweight encoder models with as few as 150M parameters. Leveraging a large-scale dataset of privacy-annotated texts spanning 10 diverse domains, we train efficient classifiers that preserve strong agreement with human annotations while dramatically reducing computational requirements. We validate our approach on human-annotated test data and demonstrate its practical utility as an evaluation metric for de-identification systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.29063v1">Uncovering Relationships between Android Developers, User Privacy, and Developer Willingness to Reduce Fingerprinting Risks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-03-30T23:01:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Berke, Güliz Seray Tuncay, Michael Specter, Mihai Christodorescu</p>
+    <p><b>Summary:</b> The major mobile platforms, Android and iOS, have introduced changes that restrict user tracking to improve user privacy, yet apps continue to covertly track users via device fingerprinting. We study the opportunity to improve this dynamic with a case study on mobile fingerprinting that evaluates developers' perceptions of how well platforms protect user privacy and how developers perceive platform privacy interventions. Specifically, we study developers' willingness to make changes to protect users from fingerprinting and how developers consider trade-offs between user privacy and developer effort. We do this via a survey of 246 Android developers, presented with a hypothetical Android change that protects users from fingerprinting at the cost of additional developer effort.
+  We find developers overwhelmingly (89%) support this change, even when they anticipate significant effort, yet prefer the change be optional versus required. Surprisingly, developers who use fingerprinting are six times more likely to support the change, despite being most impacted by it. We also find developers are most concerned about compliance and enforcement. In addition, our results show that while most rank iOS above Android for protecting user privacy, this distinction significantly reduces among developers very familiar with fingerprinting. Thus there is an important opportunity for platforms and developers to collaboratively build privacy protections, and we present actionable ways platforms can facilitate this.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.28972v1">Privacy Guard & Token Parsimony by Prompt and Context Handling and LLM Routing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-03-30T20:16:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alessio Langiu</p>
+    <p><b>Summary:</b> The large-scale adoption of Large Language Models (LLMs) forces a trade-off between operational cost (OpEx) and data privacy. Current routing frameworks reduce costs but ignore prompt sensitivity, exposing users and institutions to leakage risks towards third-party cloud providers. We formalise the "Inseparability Paradigm": advanced context management intrinsically coincides with privacy management. We propose a local "Privacy Guard" -- a holistic contextual observer powered by an on-premise Small Language Model (SLM) -- that performs abstractive summarisation and Automatic Prompt Optimisation (APO) to decompose prompts into focused sub-tasks, re-routing high-risk queries to Zero-Trust or NDA-covered models. This dual mechanism simultaneously eliminates sensitive inference vectors (Zero Leakage) and reduces cloud token payloads (OpEx Reduction). A LIFO-based context compacting mechanism further bounds working memory, limiting the emergent leakage surface. We validate the framework through a 2x2 benchmark (Lazy vs. Expert users; Personal vs. Institutional secrets) on a 1,000-sample dataset, achieving a 45% blended OpEx reduction, 100% redaction success on personal secrets, and -- via LLM-as-a-Judge evaluation -- an 85% preference rate for APO-compressed responses over raw baselines. Our results demonstrate that Token Parsimony and Zero Leakage are mathematically dual projections of the same contextual compression operator.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2603.28903v1">Differential Privacy for Symbolic Trajectories via the Permute-and-Flip Mechanism</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-03-30T18:30:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alexander Benvenuti, Huaiyuan Rao, Matthew Hale</p>
+    <p><b>Summary:</b> Privacy techniques have been developed for data-driven systems, but systems with non-numeric data cannot use typical noise-adding techniques. Therefore, we develop a new mechanism for privatizing state trajectories of symbolic systems that may be represented as words over a finite alphabet. Such systems include Markov chains, Markov decision processes, and finite-state automata, and we protect their symbolic trajectories with differential privacy. The mechanism we develop randomly selects a private approximation to be released in place of the original sensitive word, with a bias towards low-error private words. This work is based on the permute-and-flip mechanism for differential privacy, which can be applied to non-numeric data. However, a naïve implementation would have to enumerate an exponentially large list of words to generate a private word. As a result, we develop a new mechanism that generates private words without ever needing to enumerate such a list. We prove that the accuracy of our mechanism is never worse than the prior state of the art, and we empirically show on a real traffic dataset that it introduces up to $55\%$ less error than the prior state of the art under a conventional privacy implementation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2603.28334v1">Key-Embedded Privacy for Decentralized AI in Biomedical Omics</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2026-03-30T12:04:50Z</p>
@@ -221,14 +294,14 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.25190v1">zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI via Zero-Knowledge Proofs</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.25190v2">zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI via Zero-Knowledge Proofs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
   <p><b>Published on:</b> 2026-03-26T08:55:26Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Yeongju Bak</p>
     <p><b>Summary:</b> Public blockchains impose an inherent tension between regulatory compliance and user privacy. Existing on-chain identity solutions require centralized KYC attestors, specialized hardware, or Decentralized Identifier (DID) frameworks needing entirely new credential infrastructure. Meanwhile, over four billion active X.509 certificates constitute a globally deployed, government-grade trust infrastructure largely unexploited for decentralized identity.
-  This paper presents zk-X509, a privacy-preserving identity system bridging legacy Public Key Infrastructure (PKI) with public ledgers via a RISC-V zero-knowledge virtual machine (zkVM). Users prove ownership of standard X.509 certificates without revealing private keys or personal identifiers. Crucially, the private key never enters the ZK circuit; ownership is proven via OS keychain signature delegation (e.g., macOS Secure Enclave, Windows TPM). The circuit verifies certificate chain validity, temporal validity, key ownership, trustless CRL revocation, blockchain address binding, and Sybil-resistant nullifier generation. It commits 13 public values, including a Certificate Authority (CA) Merkle root hiding the issuing CA, and four selective disclosure hashes.
+  This paper presents zk-X509, a privacy-preserving identity system bridging legacy Public Key Infrastructure (PKI) with public ledgers via a RISC-V zero-knowledge virtual machine (zkVM). Users prove ownership of standard X.509 certificates without revealing private keys or personal identifiers. Crucially, the private key never enters the ZK circuit; ownership is proven via OS keychain signature delegation (macOS Security.framework, Windows CNG). The circuit verifies certificate chain validity, temporal validity, key ownership, trustless CRL revocation, blockchain address binding, and Sybil-resistant nullifier generation. It commits 13 public values, including a Certificate Authority (CA) Merkle root hiding the issuing CA, and four selective disclosure hashes.
   We formalize eight security properties under a Dolev-Yao adversary with game-based definitions and reductions to sEUF-CMA, SHA-256 collision resistance, and ZK soundness. Evaluated on the SP1 zkVM, the system achieves 11.8M cycles for ECDSA P-256 (17.4M for RSA-2048), with on-chain Groth16 verification costing ~300K gas. By leveraging certificates deployed at scale across jurisdictions, zk-X509 enables adoption without new trust establishment, complementing emerging DID-based systems.</p>
   </details>
 </div>
@@ -967,7 +1040,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.13570v2">Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap</a></h3>
+  <h3><a href="http://arxiv.org/abs/2603.13570v3">Privacy-Preserving Machine Learning for IoT: A Cross-Paradigm Survey and Future Roadmap</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-03-13T20:19:18Z</p>
   <details>
@@ -1147,81 +1220,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Ina Kaleva, Xiao Zhan, Ruba Abu-Salma, Jose Such</p>
     <p><b>Summary:</b> The rapid adoption of generative AI (GenAI) chatbots has reshaped access to sexual and reproductive health (SRH) information, particularly following the overturning of Roe v. Wade, as individuals assigned female at birth increasingly turn to online sources. However, existing research remains largely model-centered, paying limited attention to user privacy and safety. We conducted semi-structured interviews with 18 U.S.-based participants from both restrictive and non-restrictive states who had used GenAI chatbots to seek SRH information. Adoption was influenced by perceived utility, usability, credibility, accessibility, and anthropomorphism, and many participants disclosed sensitive personal SRH details. Participants identified multiple privacy risks, including excessive data collection, government surveillance, profiling, model training, and data commodification. While most participants accepted these risks in exchange for perceived utility, abortion-related queries elicited heightened safety concerns. Few participants employed protective strategies beyond minimizing disclosures or deleting data. Based on these findings, we offer design and policy recommendations, such as health-specific features and stronger moderation practices, to enhance privacy and safety in GenAI-supported SRH information seeking.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09904v1">Dynamic Average Consensus with Privacy Guarantees and Its Application to Battery Energy Storage Systems</a></h3>
-  
-  <p><b>Published on:</b> 2026-03-10T16:56:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mihitha Maithripala, Chenyang Qiu, Zongli Lin</p>
-    <p><b>Summary:</b> A privacy-preserving dynamic average consensus (DAC) algorithm is proposed that achieves consensus while preventing external eavesdroppers from inferring the reference signals and their derivatives. During the initialization phase, each agent generates a set of sinusoidal signals with randomly selected frequencies and exchanges them with its neighboring agents to construct a masking signal. Each agent masks its reference signals using this composite masking signal before executing the DAC update rule. It is shown that the developed scheme preserves the convergence properties of the conventional DAC framework while preventing information leakage to external eavesdroppers. Furthermore, the developed algorithm is applied to state-of-charge (SoC) balancing in a networked battery energy storage system to demonstrate its practical applicability. Simulation results validate the theoretical findings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09583v2">Nonparametric Variational Differential Privacy via Embedding Parameter Clipping</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-03-10T12:34:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dina El Zein, Shashi Kumar, James Henderson</p>
-    <p><b>Summary:</b> The nonparametric variational information bottleneck (NVIB) provides the foundation for nonparametric variational differential privacy (NVDP), a framework for building privacy-preserving language models. However, the learned latent representations can drift into regions with high information content, leading to poor privacy guarantees, but also low utility due to numerical instability during training. In this work, we introduce a principled parameter clipping strategy to directly address this issue. Our method is mathematically derived from the objective of minimizing the Rényi Divergence (RD) upper bound, yielding specific, theoretically grounded constraints on the posterior mean, variance, and mixture weight parameters. We apply our technique to an NVIB based model and empirically compare it against an unconstrained baseline. Our findings demonstrate that the clipped model consistently achieves tighter RD bounds, implying stronger privacy, while simultaneously attaining higher performance on several downstream tasks. This work presents a simple yet effective method for improving the privacy-utility trade-off in variational models, making them more robust and practical.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09577v1">Randomized Distributed Function Computation (RDFC): Ultra-Efficient Semantic Communication Applications to Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Symbolic Computation-5BC0EB"> 
-  <p><b>Published on:</b> 2026-03-10T12:23:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Onur Günlü</p>
-    <p><b>Summary:</b> We establish the randomized distributed function computation (RDFC) framework, in which a sender transmits just enough information for a receiver to generate a randomized function of the input data. Describing RDFC as a form of semantic communication, which can be essentially seen as a generalized remote-source-coding problem, we show that security and privacy constraints naturally fit this model, as they generally require a randomization step. Using strong coordination metrics, we ensure (local differential) privacy for every input sequence and prove that such guarantees can be met even when no common randomness is shared between the transmitter and receiver.
-  This work provides lower bounds on Wyner's common information (WCI), which is the communication cost when common randomness is absent, and proposes numerical techniques to evaluate the other corner point of the RDFC rate region for continuous-alphabet random variables with unlimited shared randomness. Experiments illustrate that a sufficient amount of common randomness can reduce the semantic communication rate by up to two orders of magnitude compared to the WCI point, while RDFC without any shared randomness still outperforms lossless transmission by a large margin. A finite blocklength analysis further confirms that the privacy parameter gap between the asymptotic and non-asymptotic RDFC methods closes exponentially fast with input length. Our results position RDFC as an energy-efficient semantic communication strategy for privacy-aware distributed computation systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.10073v1">Universal Shuffle Asymptotics, Part II: Non-Gaussian Limits for Shuffle Privacy -- Poisson, Skellam, and Compound-Poisson Regimes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB">
-  <p><b>Published on:</b> 2026-03-10T05:39:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alex Shvets</p>
-    <p><b>Summary:</b> Part I of this series (arXiv:2602.09029) develops a sharp Gaussian (LAN/GDP) limit theory for neighboring shuffle experiments when the local randomizer is fixed and has full support bounded away from zero. The present paper characterizes the first universality-breaking frontier: critical sequences of increasingly concentrated local randomizers for which classical Lindeberg conditions fail and the shuffle score exhibits rare macroscopic jumps.
-  For shuffled binary randomized response with local privacy $\varepsilon_0 = \varepsilon_0(n)$, we prove experiment-level convergence (in Le Cam distance) to explicit shift limit experiments: a Poisson-shift limit for the canonical neighboring pair when $\exp(\varepsilon_0(n))/n \to c^2$, and a Skellam-shift limit for proportional compositions $k/n \to π\in (0,1)$ in the same scaling, including an explicit disappearance of the two-sided $δ$-floor away from boundary compositions.
-  For general finite alphabets, we introduce a sparse-error critical regime and prove a multivariate compound-Poisson / independent Poisson vector limit for the centered released histogram, yielding a multivariate Poisson-shift experiment and an explicit limiting $(\varepsilon, δ)$ curve as a multivariate Poisson series. Together with Part I, these results yield a three-regime picture (Gaussian/GDP, critical Poisson/Skellam/compound-Poisson, and super-critical no privacy) under convergent macroscopic scalings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09214v1">PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-03-10T05:33:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bhanuka Silva, Dishanika Denipitiyage, Anirban Mahanti, Aruna Seneviratne, Suranga Seneviratne</p>
-    <p><b>Summary:</b> End-users seldom read verbose privacy policies, leading app stores like Google Play to mandate simplified data safety declarations as a user-friendly alternative. However, these self-declared disclosures often contradict the full privacy policies, deceiving users about actual data practices and violating regulatory requirements for consistency. To address this, we introduce PrivPRISM, a robust framework that combines encoder and decoder language models to systematically extract and compare fine-grained data practices from privacy policies and to compare against data safety declarations, enabling scalable detection of non-compliance. Evaluating 7,770 popular mobile games uncovers discrepancies in nearly 53% of cases, rising to 61% among 1,711 widely used generic apps. Additionally, static code analysis reveals possible under-disclosures, with privacy policies disclosing just 66.8% of potential accesses to sensitive data like location and financial information, versus only 36.4% in data safety declarations of mobile games. Our findings expose systemic issues, including widespread reuse of generic privacy policies, vague / contradictory statements, and hidden risks in high-profile apps with 100M+ downloads, underscoring the urgent need for automated enforcement to protect platform integrity and for end-users to be vigilant about sensitive data they disclose via popular apps.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.09167v2">Optimal partition selection with Rényi differential privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-10T04:13:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Charlie Harrison, Pasin Manurangsi</p>
-    <p><b>Summary:</b> A common problem in private data analysis is the partition selection problem, where each user holds a set of partitions (e.g. keys in a GROUP BY operation) from a possibly unbounded set. The challenge here is in maximizing the set of released partitions while respecting a differential privacy constraint. Previous work [Desfontaines et al., PoPETS 2022] presented an optimal $(\varepsilon, δ)$-DP algorithm when each user submits only a single partition. We generalize this approach to find the optimal algorithm under $δ$-approximate $(α, \varepsilon)$-Rényi differential privacy (RDP), which allows much tighter analysis under composition. Motivated by the non-existence of a general optimality result in the case where users submit multiple partitions each, we present an extension of our optimal algorithm tuned for $L^2$ bounded weighted partition selection which can be used as a drop-in improvement over the Gaussian mechanism any time the partition frequency is not also needed. We show that our primitive can be easily plugged into state of the art partition selection algorithms (PolicyGaussian from [Gopi et al., ICML 2020] and MAD2R from [Chen et al., ICML 2025]), improving performance both for parallel and sequential adaptive algorithms. Finally, we show that there is an inherent cost to algorithms which do support releasing the frequency as well as the partitions. Specifically, we formulate a basic notion of optimal approximate RDP algorithm for partition selection using additive noise, and show that there is a numerical separation between additive and non-additive noise mechanisms for this problem.</p>
   </details>
 </div>
 
