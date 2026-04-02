@@ -4390,5 +4390,80 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00326v1",
+    "title" : "Inference-Aware & Privacy-Preserving Deletion in Databases",
+    "summary" : "Deletion is a fundamental database operation, yet modern systems often fail to provide the privacy guarantee that users expect from it. A deleted value may disappear from query results and even from physical storage, yet remain inferable from dependencies, derived data, or traces exposed by the deletion event itself. Meaningful deletion, therefore, requires more than logical removal or physical erasure; it requires a privacy guarantee that limits what remains inferable after deletion. In this paper, we take an inference-centric view of deletion, focusing on two leakage channels: leakage from the post-deletion state and leakage from the deletion pattern itself. We use this lens to distinguish logical, physical, and semantic deletion, organize the design space of deletion operations, and highlight open research challenges for building deletion mechanisms with meaningful privacy guarantees in database systems.",
+    "updated" : "2026-03-31T23:58:32Z",
+    "published" : "2026-03-31T23:58:32Z",
+    "authors" : [
+      {
+        "name" : "Vishal Chakraborty"
+      },
+      {
+        "name" : "Youri Kaminsky"
+      },
+      {
+        "name" : "Arnav Abhijit Dhariya"
+      },
+      {
+        "name" : "Sharad Mehrotra"
+      },
+      {
+        "name" : "Felix Naumann"
+      },
+      {
+        "name" : "Sarvesh Pandey"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00312v1",
+    "title" : "Physically-intuitive Privacy and Security: A Design Paradigm for Building User Trust in Smart Sensing Environments",
+    "summary" : "Sensor-based interactive systems -- e.g., \"smart\" speakers, webcams, and RFID tags -- allow us to embed computational functionality into physical environments. They also expose users to real and perceived privacy risks: users know that device manufacturers, app developers, and malicious third parties want to collect and monetize their personal data, which fuels their mistrust of these systems even in the presence of privacy and security controls. We propose a new design paradigm, physically-intuitive privacy and security (PIPS), which aims to improve user trust by designing privacy and security controls that provide users with simple, physics-based conceptual models of their operation. PIPS consists of three principles: (1) direct physical manipulation of sensor state; (2) perceptible assurance of sensor state; and, (3) intent-aligned sensor (de)activation. We illustrate these principles through three case studies -- Smart Webcam Cover, Powering for Privacy, and On-demand RFID -- each of which has been shown to improve trust relative to existing sensor-based systems.",
+    "updated" : "2026-03-31T23:26:39Z",
+    "published" : "2026-03-31T23:26:39Z",
+    "authors" : [
+      {
+        "name" : "Youngwook Do"
+      },
+      {
+        "name" : "Yuxi Wu"
+      },
+      {
+        "name" : "Gregory D. Abowd"
+      },
+      {
+        "name" : "Sauvik Das"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00209v1",
+    "title" : "Do LLMs Know What Is Private Internally? Probing and Steering Contextual Privacy Norms in Large Language Model Representations",
+    "summary" : "Large language models (LLMs) are increasingly deployed in high-stakes settings, yet they frequently violate contextual privacy by disclosing private information in situations where humans would exercise discretion. This raises a fundamental question: do LLMs internally encode contextual privacy norms, and if so, why do violations persist? We present the first systematic study of contextual privacy as a structured latent representation in LLMs, grounded in contextual integrity (CI) theory. Probing multiple models, we find that the three norm-determining CI parameters (information type, recipient, and transmission principle) are encoded as linearly separable and functionally independent directions in activation space. Despite this internal structure, models still leak private information in practice, revealing a clear gap between concept representation and model behavior. To bridge this gap, we introduce CI-parametric steering, which independently intervenes along each CI dimension. This structured control reduces privacy violations more effectively and predictably than monolithic steering. Our results demonstrate that contextual privacy failures arise from misalignment between representation and behavior rather than missing awareness, and that leveraging the compositional structure of CI enables more reliable contextual privacy control, shedding light on potential improvement of contextual privacy understanding in LLMs.",
+    "updated" : "2026-03-31T20:23:41Z",
+    "published" : "2026-03-31T20:23:41Z",
+    "authors" : [
+      {
+        "name" : "Haoran Wang"
+      },
+      {
+        "name" : "Li Xiong"
+      },
+      {
+        "name" : "Kai Shu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
