@@ -1,1 +1,217 @@
-[{"id":"http://arxiv.org/abs/2604.01113v1","title":"CARE: Privacy-Compliant Agentic Reasoning with Evidence Discordance","summary":"Large language model (LLM) systems are increasingly used to support high-stakes decision-making, but they typically perform worse when the available evidence is internally inconsistent. Such a scenario exists in real-world healthcare settings, with patient-reported symptoms contradicting medical signs. To study this problem, we introduce MIMIC-DOS, a dataset for short-horizon organ dysfunction worsening prediction in the intensive care unit (ICU) setting. We derive this dataset from the widely recognized MIMIC-IV, a publicly available electronic health record dataset, and construct it exclusively from cases in which discordance between signs and symptoms exists. This setting poses a substantial challenge for existing LLM-based approaches, with single-pass LLMs and agentic pipelines often struggling to reconcile such conflicting signals. To address this problem, we propose CARE: a multi-stage privacy-compliant agentic reasoning framework in which a remote LLM provides guidance by generating structured categories and transitions without accessing sensitive patient data, while a local LLM uses these categories and transitions to support evidence acquisition and final decision-making. Empirically, CARE achieves stronger performance across all key metrics compared to multiple baseline settings, showing that CARE can more robustly handle conflicting clinical evidence while preserving privacy.","updated":"2026-04-01T16:37:01Z","published":"2026-04-01T16:37:01Z","authors":[{"name":"Haochen Liu"},{"name":"Weien Li"},{"name":"Rui Song"},{"name":"Zeyu Li"},{"name":"Chun Jason Xue"},{"name":"Xiao-Yang Liu"},{"name":"Sam Nallaperuma"},{"name":"Xue Liu"},{"name":"Ye Yuan"}],"categories":["cs.CL"]},{"id":"http://arxiv.org/abs/2604.00986v1","title":"Do Phone-Use Agents Respect Your Privacy?","summary":"We study whether phone-use agents respect privacy while completing benign mobile tasks. This question has remained hard to answer because privacy-compliant behavior is not operationalized for phone-use agents, and ordinary apps do not reveal exactly what data agents type into which form entries during execution. To make this question measurable, we introduce MyPhoneBench, a verifiable evaluation framework for privacy behavior in mobile agents. We operationalize privacy-respecting phone use as permissioned access, minimal disclosure, and user-controlled memory through a minimal privacy contract, iMy, and pair it with instrumented mock apps plus rule-based auditing that make unnecessary permission requests, deceptive re-disclosure, and unnecessary form filling observable and reproducible. Across five frontier models on 10 mobile apps and 300 tasks, we find that task success, privacy-compliant task completion, and later-session use of saved preferences are distinct capabilities, and no single model dominates all three. Evaluating success and privacy jointly reshuffles the model ordering relative to either metric alone. The most persistent failure mode across models is simple data minimization: agents still fill optional personal entries that the task does not require. These results show that privacy failures arise from over-helpful execution of benign tasks, and that success-only evaluation overestimates the deployment readiness of current phone-use agents. All code, mock apps, and agent trajectories are publicly available at~ https://github.com/tangzhy/MyPhoneBench.","updated":"2026-04-01T14:50:50Z","published":"2026-04-01T14:50:50Z","authors":[{"name":"Zhengyang Tang"},{"name":"Ke Ji"},{"name":"Xidong Wang"},{"name":"Zihan Ye"},{"name":"Xinyuan Wang"},{"name":"Yiduo Guo"},{"name":"Ziniu Li"},{"name":"Chenxin Li"},{"name":"Jingyuan Hu"},{"name":"Shunian Chen"},{"name":"Tongxu Luo"},{"name":"Jiaxi Bi"},{"name":"Zeyu Qin"},{"name":"Shaobo Wang"},{"name":"Xin Lai"},{"name":"Pengyuan Lyu"},{"name":"Junyi Li"},{"name":"Can Xu"},{"name":"Chengquan Zhang"},{"name":"Han Hu"},{"name":"Ming Yan"},{"name":"Benyou Wang"}],"categories":["cs.CR","cs.AI","cs.CL","cs.LG"]},{"id":"http://arxiv.org/abs/2604.00903v1","title":"IDDM: Identity-Decoupled Personalized Diffusion Models with a Tunable Privacy-Utility Trade-off","summary":"Personalized text-to-image diffusion models (e.g., DreamBooth, LoRA) enable users to synthesize high-fidelity avatars from a few reference photos for social expression. However, once these generations are shared on social media platforms (e.g., Instagram, Facebook), they can be linked to the real user via face recognition systems, enabling identity tracking and profiling. Existing defenses mainly follow an anti-personalization strategy that protects publicly released reference photos by disrupting model fine-tuning. While effective against unauthorized personalization, they do not address another practical setting in which personalization is authorized, but the resulting public outputs still leak identity information.\n  To address this problem, we introduce a new defense setting, termed model-side output immunization, whose goal is to produce a personalized model that supports authorized personalization while reducing the identity linkability of public generations, with tunable control over the privacy-utility trade-off to accommodate diverse privacy needs. To this end, we propose Identity-Decoupled personalized Diffusion Models (IDDM), a model-side defense that integrates identity decoupling into the personalization pipeline. Concretely, IDDM follows an alternating procedure that interleaves short personalization updates with identity-decoupled data optimization, using a two-stage schedule to balance identity linkability suppression and generation utility. Extensive experiments across multiple datasets, diverse prompts, and state-of-the-art face recognition systems show that IDDM consistently reduces identity linkability while preserving high-quality personalized generation.","updated":"2026-04-01T13:46:22Z","published":"2026-04-01T13:46:22Z","authors":[{"name":"Linyan Dai"},{"name":"Xinwei Zhang"},{"name":"Haoyang Li"},{"name":"Qingqing Ye"},{"name":"Haibo Hu"}],"categories":["cs.CV"]},{"id":"http://arxiv.org/abs/2604.00761v1","title":"PrivHAR-Bench: A Graduated Privacy Benchmark Dataset for Video-Based Action Recognition","summary":"Existing research on privacy-preserving Human Activity Recognition (HAR) typically evaluates methods against a binary paradigm: clear video versus a single privacy transformation. This limits cross-method comparability and obscures the nuanced relationship between privacy strength and recognition utility. We introduce \\textit{PrivHAR-Bench}, a multi-tier benchmark dataset designed to standardize the evaluation of the \\textit{Privacy-Utility Trade-off} in video-based action recognition. PrivHAR-Bench applies a graduated spectrum of visual privacy transformations: from lightweight spatial obfuscation to cryptographic block permutation, to a curated subset of 15 activity classes selected for human articulation diversity. Each of the 1,932 source videos is distributed across 9 parallel tiers of increasing privacy strength, with additional background-removed variants to isolate the contribution of human motion features from contextual scene bias. We provide lossless frame sequences, per-frame bounding boxes, estimated pose keypoints with joint-level confidence scores, standardized group-based train/test splits, and an evaluation toolkit computing recognition accuracy and privacy metrics. Empirical validation using R3D-18 demonstrates a measurable and interpretable degradation curve across tiers, with within-tier accuracy declining from 88.8\\% (clear) to 53.5\\% (encrypted, background-removed) and cross-domain accuracy collapsing to 4.8\\%, establishing PrivHAR-Bench as a controlled benchmark for comparing privacy-preserving HAR methods under standardized conditions. The dataset, generation pipeline, and evaluation code are publicly available.","updated":"2026-04-01T11:24:47Z","published":"2026-04-01T11:24:47Z","authors":[{"name":"Samar Ansari"}],"categories":["cs.CV","cs.CR"]},{"id":"http://arxiv.org/abs/2604.00559v1","title":"FecalFed: Privacy-Preserving Poultry Disease Detection via Federated Learning","summary":"Early detection of highly pathogenic avian influenza (HPAI) and endemic poultry diseases is critical for global food security. While computer vision models excel at classifying diseases from fecal imaging, deploying these systems at scale is bottlenecked by farm data privacy concerns and institutional data silos. Furthermore, existing open-source agricultural datasets frequently suffer from severe, undocumented data contamination. In this paper, we introduce $\\textbf{FecalFed}$, a privacy-preserving federated learning framework for poultry disease classification. We first curate and release $\\texttt{poultry-fecal-fl}$, a rigorously deduplicated dataset of 8,770 unique images across four disease classes, revealing and eliminating a 46.89$\\%$ duplication rate in popular public repositories. To simulate realistic agricultural environments, we evaluate FecalFed under highly heterogeneous, non-IID conditions (Dirichlet $α=0.5$). While isolated single-farm training collapses under this data heterogeneity, yielding only 64.86$\\%$ accuracy, our federated approach recovers performance without centralizing sensitive data. Specifically, utilizing server-side adaptive optimization (FedAdam) with a Swin-Small architecture achieves 90.31$\\%$ accuracy, closely approaching the centralized upper bound of 95.10\\%. Furthermore, we demonstrate that an edge-optimized Swin-Tiny model maintains highly competitive performance at 89.74$\\%$, establishing a highly efficient, privacy-first blueprint for on-farm avian disease monitoring.","updated":"2026-04-01T07:08:40Z","published":"2026-04-01T07:08:40Z","authors":[{"name":"Tien-Yu Chi"}],"categories":["cs.CV"]},{"id":"http://arxiv.org/abs/2604.00430v1","title":"Secure Forgetting: A Framework for Privacy-Driven Unlearning in Large Language Model (LLM)-Based Agents","summary":"Large language model (LLM)-based agents have recently gained considerable attention due to the powerful reasoning capabilities of LLMs. Existing research predominantly focuses on enhancing the task performance of these agents in diverse scenarios. However, as LLM-based agents become increasingly integrated into real-world applications, significant concerns emerge regarding their accumulation of sensitive or outdated knowledge. Addressing these concerns requires the development of mechanisms that allow agents to selectively forget previously learned knowledge, giving rise to a new term LLM-based agent unlearning. This paper initiates research on unlearning in LLM-based agents. Specifically, we propose a novel and comprehensive framework that categorizes unlearning scenarios into three contexts: state unlearning (forgetting specific states or items), trajectory unlearning (forgetting sequences of actions) and environment unlearning (forgetting entire environments or categories of tasks). Within this framework, we introduce a natural language-based unlearning method that trains a conversion model to transform high-level unlearning requests into actionable unlearning prompts, guiding agents through a controlled forgetting process. Moreover, to evaluate the robustness of the proposed framework, we introduce an unlearning inference adversary capable of crafting prompts, querying agents, and observing their behaviors in an attempt to infer the forgotten knowledge. Experimental results show that our approach effectively enables agents to forget targeted knowledge while preserving performance on untargeted tasks, and prevents the adversary from inferring the forgotten knowledge.","updated":"2026-04-01T03:17:35Z","published":"2026-04-01T03:17:35Z","authors":[{"name":"Dayong Ye"},{"name":"Tainqing Zhu"},{"name":"Congcong Zhu"},{"name":"Feng He"},{"name":"Qi He"},{"name":"Shang Wang"},{"name":"Bo Liu"},{"name":"Wanlei Zhou"}],"categories":["cs.MA","cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2604.01113v1",
+    "title" : "CARE: Privacy-Compliant Agentic Reasoning with Evidence Discordance",
+    "summary" : "Large language model (LLM) systems are increasingly used to support high-stakes decision-making, but they typically perform worse when the available evidence is internally inconsistent. Such a scenario exists in real-world healthcare settings, with patient-reported symptoms contradicting medical signs. To study this problem, we introduce MIMIC-DOS, a dataset for short-horizon organ dysfunction worsening prediction in the intensive care unit (ICU) setting. We derive this dataset from the widely recognized MIMIC-IV, a publicly available electronic health record dataset, and construct it exclusively from cases in which discordance between signs and symptoms exists. This setting poses a substantial challenge for existing LLM-based approaches, with single-pass LLMs and agentic pipelines often struggling to reconcile such conflicting signals. To address this problem, we propose CARE: a multi-stage privacy-compliant agentic reasoning framework in which a remote LLM provides guidance by generating structured categories and transitions without accessing sensitive patient data, while a local LLM uses these categories and transitions to support evidence acquisition and final decision-making. Empirically, CARE achieves stronger performance across all key metrics compared to multiple baseline settings, showing that CARE can more robustly handle conflicting clinical evidence while preserving privacy.",
+    "updated" : "2026-04-01T16:37:01Z",
+    "published" : "2026-04-01T16:37:01Z",
+    "authors" : [
+      {
+        "name" : "Haochen Liu"
+      },
+      {
+        "name" : "Weien Li"
+      },
+      {
+        "name" : "Rui Song"
+      },
+      {
+        "name" : "Zeyu Li"
+      },
+      {
+        "name" : "Chun Jason Xue"
+      },
+      {
+        "name" : "Xiao-Yang Liu"
+      },
+      {
+        "name" : "Sam Nallaperuma"
+      },
+      {
+        "name" : "Xue Liu"
+      },
+      {
+        "name" : "Ye Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00986v1",
+    "title" : "Do Phone-Use Agents Respect Your Privacy?",
+    "summary" : "We study whether phone-use agents respect privacy while completing benign mobile tasks. This question has remained hard to answer because privacy-compliant behavior is not operationalized for phone-use agents, and ordinary apps do not reveal exactly what data agents type into which form entries during execution. To make this question measurable, we introduce MyPhoneBench, a verifiable evaluation framework for privacy behavior in mobile agents. We operationalize privacy-respecting phone use as permissioned access, minimal disclosure, and user-controlled memory through a minimal privacy contract, iMy, and pair it with instrumented mock apps plus rule-based auditing that make unnecessary permission requests, deceptive re-disclosure, and unnecessary form filling observable and reproducible. Across five frontier models on 10 mobile apps and 300 tasks, we find that task success, privacy-compliant task completion, and later-session use of saved preferences are distinct capabilities, and no single model dominates all three. Evaluating success and privacy jointly reshuffles the model ordering relative to either metric alone. The most persistent failure mode across models is simple data minimization: agents still fill optional personal entries that the task does not require. These results show that privacy failures arise from over-helpful execution of benign tasks, and that success-only evaluation overestimates the deployment readiness of current phone-use agents. All code, mock apps, and agent trajectories are publicly available at~ https://github.com/tangzhy/MyPhoneBench.",
+    "updated" : "2026-04-01T14:50:50Z",
+    "published" : "2026-04-01T14:50:50Z",
+    "authors" : [
+      {
+        "name" : "Zhengyang Tang"
+      },
+      {
+        "name" : "Ke Ji"
+      },
+      {
+        "name" : "Xidong Wang"
+      },
+      {
+        "name" : "Zihan Ye"
+      },
+      {
+        "name" : "Xinyuan Wang"
+      },
+      {
+        "name" : "Yiduo Guo"
+      },
+      {
+        "name" : "Ziniu Li"
+      },
+      {
+        "name" : "Chenxin Li"
+      },
+      {
+        "name" : "Jingyuan Hu"
+      },
+      {
+        "name" : "Shunian Chen"
+      },
+      {
+        "name" : "Tongxu Luo"
+      },
+      {
+        "name" : "Jiaxi Bi"
+      },
+      {
+        "name" : "Zeyu Qin"
+      },
+      {
+        "name" : "Shaobo Wang"
+      },
+      {
+        "name" : "Xin Lai"
+      },
+      {
+        "name" : "Pengyuan Lyu"
+      },
+      {
+        "name" : "Junyi Li"
+      },
+      {
+        "name" : "Can Xu"
+      },
+      {
+        "name" : "Chengquan Zhang"
+      },
+      {
+        "name" : "Han Hu"
+      },
+      {
+        "name" : "Ming Yan"
+      },
+      {
+        "name" : "Benyou Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00903v1",
+    "title" : "IDDM: Identity-Decoupled Personalized Diffusion Models with a Tunable Privacy-Utility Trade-off",
+    "summary" : "Personalized text-to-image diffusion models (e.g., DreamBooth, LoRA) enable users to synthesize high-fidelity avatars from a few reference photos for social expression. However, once these generations are shared on social media platforms (e.g., Instagram, Facebook), they can be linked to the real user via face recognition systems, enabling identity tracking and profiling. Existing defenses mainly follow an anti-personalization strategy that protects publicly released reference photos by disrupting model fine-tuning. While effective against unauthorized personalization, they do not address another practical setting in which personalization is authorized, but the resulting public outputs still leak identity information.\n  To address this problem, we introduce a new defense setting, termed model-side output immunization, whose goal is to produce a personalized model that supports authorized personalization while reducing the identity linkability of public generations, with tunable control over the privacy-utility trade-off to accommodate diverse privacy needs. To this end, we propose Identity-Decoupled personalized Diffusion Models (IDDM), a model-side defense that integrates identity decoupling into the personalization pipeline. Concretely, IDDM follows an alternating procedure that interleaves short personalization updates with identity-decoupled data optimization, using a two-stage schedule to balance identity linkability suppression and generation utility. Extensive experiments across multiple datasets, diverse prompts, and state-of-the-art face recognition systems show that IDDM consistently reduces identity linkability while preserving high-quality personalized generation.",
+    "updated" : "2026-04-01T13:46:22Z",
+    "published" : "2026-04-01T13:46:22Z",
+    "authors" : [
+      {
+        "name" : "Linyan Dai"
+      },
+      {
+        "name" : "Xinwei Zhang"
+      },
+      {
+        "name" : "Haoyang Li"
+      },
+      {
+        "name" : "Qingqing Ye"
+      },
+      {
+        "name" : "Haibo Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00761v1",
+    "title" : "PrivHAR-Bench: A Graduated Privacy Benchmark Dataset for Video-Based Action Recognition",
+    "summary" : "Existing research on privacy-preserving Human Activity Recognition (HAR) typically evaluates methods against a binary paradigm: clear video versus a single privacy transformation. This limits cross-method comparability and obscures the nuanced relationship between privacy strength and recognition utility. We introduce \\textit{PrivHAR-Bench}, a multi-tier benchmark dataset designed to standardize the evaluation of the \\textit{Privacy-Utility Trade-off} in video-based action recognition. PrivHAR-Bench applies a graduated spectrum of visual privacy transformations: from lightweight spatial obfuscation to cryptographic block permutation, to a curated subset of 15 activity classes selected for human articulation diversity. Each of the 1,932 source videos is distributed across 9 parallel tiers of increasing privacy strength, with additional background-removed variants to isolate the contribution of human motion features from contextual scene bias. We provide lossless frame sequences, per-frame bounding boxes, estimated pose keypoints with joint-level confidence scores, standardized group-based train/test splits, and an evaluation toolkit computing recognition accuracy and privacy metrics. Empirical validation using R3D-18 demonstrates a measurable and interpretable degradation curve across tiers, with within-tier accuracy declining from 88.8\\% (clear) to 53.5\\% (encrypted, background-removed) and cross-domain accuracy collapsing to 4.8\\%, establishing PrivHAR-Bench as a controlled benchmark for comparing privacy-preserving HAR methods under standardized conditions. The dataset, generation pipeline, and evaluation code are publicly available.",
+    "updated" : "2026-04-01T11:24:47Z",
+    "published" : "2026-04-01T11:24:47Z",
+    "authors" : [
+      {
+        "name" : "Samar Ansari"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00559v1",
+    "title" : "FecalFed: Privacy-Preserving Poultry Disease Detection via Federated Learning",
+    "summary" : "Early detection of highly pathogenic avian influenza (HPAI) and endemic poultry diseases is critical for global food security. While computer vision models excel at classifying diseases from fecal imaging, deploying these systems at scale is bottlenecked by farm data privacy concerns and institutional data silos. Furthermore, existing open-source agricultural datasets frequently suffer from severe, undocumented data contamination. In this paper, we introduce $\\textbf{FecalFed}$, a privacy-preserving federated learning framework for poultry disease classification. We first curate and release $\\texttt{poultry-fecal-fl}$, a rigorously deduplicated dataset of 8,770 unique images across four disease classes, revealing and eliminating a 46.89$\\%$ duplication rate in popular public repositories. To simulate realistic agricultural environments, we evaluate FecalFed under highly heterogeneous, non-IID conditions (Dirichlet $α=0.5$). While isolated single-farm training collapses under this data heterogeneity, yielding only 64.86$\\%$ accuracy, our federated approach recovers performance without centralizing sensitive data. Specifically, utilizing server-side adaptive optimization (FedAdam) with a Swin-Small architecture achieves 90.31$\\%$ accuracy, closely approaching the centralized upper bound of 95.10\\%. Furthermore, we demonstrate that an edge-optimized Swin-Tiny model maintains highly competitive performance at 89.74$\\%$, establishing a highly efficient, privacy-first blueprint for on-farm avian disease monitoring.",
+    "updated" : "2026-04-01T07:08:40Z",
+    "published" : "2026-04-01T07:08:40Z",
+    "authors" : [
+      {
+        "name" : "Tien-Yu Chi"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.00430v1",
+    "title" : "Secure Forgetting: A Framework for Privacy-Driven Unlearning in Large Language Model (LLM)-Based Agents",
+    "summary" : "Large language model (LLM)-based agents have recently gained considerable attention due to the powerful reasoning capabilities of LLMs. Existing research predominantly focuses on enhancing the task performance of these agents in diverse scenarios. However, as LLM-based agents become increasingly integrated into real-world applications, significant concerns emerge regarding their accumulation of sensitive or outdated knowledge. Addressing these concerns requires the development of mechanisms that allow agents to selectively forget previously learned knowledge, giving rise to a new term LLM-based agent unlearning. This paper initiates research on unlearning in LLM-based agents. Specifically, we propose a novel and comprehensive framework that categorizes unlearning scenarios into three contexts: state unlearning (forgetting specific states or items), trajectory unlearning (forgetting sequences of actions) and environment unlearning (forgetting entire environments or categories of tasks). Within this framework, we introduce a natural language-based unlearning method that trains a conversion model to transform high-level unlearning requests into actionable unlearning prompts, guiding agents through a controlled forgetting process. Moreover, to evaluate the robustness of the proposed framework, we introduce an unlearning inference adversary capable of crafting prompts, querying agents, and observing their behaviors in an attempt to infer the forgotten knowledge. Experimental results show that our approach effectively enables agents to forget targeted knowledge while preserving performance on untargeted tasks, and prevents the adversary from inferring the forgotten knowledge.",
+    "updated" : "2026-04-01T03:17:35Z",
+    "published" : "2026-04-01T03:17:35Z",
+    "authors" : [
+      {
+        "name" : "Dayong Ye"
+      },
+      {
+        "name" : "Tainqing Zhu"
+      },
+      {
+        "name" : "Congcong Zhu"
+      },
+      {
+        "name" : "Feng He"
+      },
+      {
+        "name" : "Qi He"
+      },
+      {
+        "name" : "Shang Wang"
+      },
+      {
+        "name" : "Bo Liu"
+      },
+      {
+        "name" : "Wanlei Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.CR"
+    ]
+  }
+]
