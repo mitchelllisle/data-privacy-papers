@@ -4465,5 +4465,24 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.26227v2",
+    "title" : "Privacy-Accuracy Trade-offs in High-Dimensional LASSO under Perturbation Mechanisms",
+    "summary" : "We study privacy-preserving sparse linear regression in the high-dimensional regime, focusing on the LASSO estimator. We analyze two widely used mechanisms for differential privacy: output perturbation, which injects noise into the estimator, and objective perturbation, which adds a random linear term to the loss function. Using approximate message passing (AMP), we characterize the typical behavior of these estimators under random design and privacy noise. To quantify privacy, we adopt typical-case measures, including the on-average KL divergence, which admits a hypothesis-testing interpretation in terms of distinguishability between neighboring datasets. Our analysis reveals that sparsity plays a central role in shaping the privacy-accuracy trade-off: stronger regularization can improve privacy by stabilizing the estimator against single-point data changes. We further show that the two mechanisms exhibit qualitatively different behaviors. In particular, for objective perturbation, increasing the noise level can have non-monotonic effects, and excessive noise may destabilize the estimator, leading to increased sensitivity to data perturbations. Our results demonstrate that AMP provides a powerful framework for analyzing privacy-accuracy trade-offs in high-dimensional sparse models.",
+    "updated" : "2026-04-03T14:52:02Z",
+    "published" : "2026-03-27T09:50:43Z",
+    "authors" : [
+      {
+        "name" : "Ayaka Sakata"
+      },
+      {
+        "name" : "Haruka Tanzawa"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
   }
 ]
