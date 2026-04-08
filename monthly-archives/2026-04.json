@@ -542,5 +542,204 @@
     "categories" : [
       "quant-ph"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06101v1",
+    "title" : "Towards Securing IIoT: An Innovative Privacy-Preserving Anomaly Detector Based on Federated Learning",
+    "summary" : "In the light of the growing connectivity and sensitivity of industrial data,\n  cyberattacks and data breaches are becoming more common in the Industrial Internet of Things (IIoT). To cope with such threats, this study presents an anomaly detection system based on a novel Federated Learning (FL) framework. This system detects anomalies such as cyberattacks and protects industrial data privacy by processing data locally and training anomaly detection models on industrial agents without sharing raw data. The proposed FL framework incorporates two key components to enhance both privacy and efficiency. The first component is Homomorphic Encryption (HE), which is integrated into the framework to further protect sensitive data transmissions such as model parameters. HE enhances privacy in FL by preventing adversaries from inferring private industrial data through attacks, such as model inversion attacks. The second component is an innovative dynamic agent selection scheme, wherein a selection threshold is calculated based on agent delays and data size. The purpose of this new scheme is to mitigate the straggler effect and the communication bottleneck that occur in traditional FL architectures, such as synchronous and asynchronous architectures. It ensures that agents are not unfairly selected by the different delays resulting from heterogeneous data in IIoT environments, while simultaneously improving model performance and convergence speed.\n  The proposed framework exhibits superior performance over\n  baseline approaches in terms of accuracy, precision, F1-scores, communication costs, convergence speeds, and fairness rate.",
+    "updated" : "2026-04-07T17:14:10Z",
+    "published" : "2026-04-07T17:14:10Z",
+    "authors" : [
+      {
+        "name" : "Samira Kamali Poorazad"
+      },
+      {
+        "name" : "Chafika Benzaïd"
+      },
+      {
+        "name" : "Tarik Taleb"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.05793v1",
+    "title" : "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
+    "summary" : "In LLM/VLM agents, prompt privacy risk propagates beyond a single model call because raw user content can flow into retrieval queries, memory writes, tool calls, and logs. Existing de-identification pipelines address document boundaries but not this cross-stage propagation. We propose BodhiPromptShield, a policy-aware framework that detects sensitive spans, routes them via typed placeholders, semantic abstraction, or secure symbolic mapping, and delays restoration to authorized boundaries. Relative to enterprise redaction, this adds explicit propagation-aware mediation and restoration timing as a security variable. Under controlled evaluation on the Controlled Prompt-Privacy Benchmark (CPPB), stage-wise propagation suppresses from 10.7\\% to 7.1\\% across retrieval, memory, and tool stages; PER reaches 9.3\\% with 0.94 AC and 0.92 TSR, outperforming generic de-identification. These are controlled systems results on CPPB rather than formal privacy guarantees or public-benchmark transfer claims.\n  The project repository is available at https://github.com/mabo1215/BodhiPromptShield.git.",
+    "updated" : "2026-04-07T12:29:56Z",
+    "published" : "2026-04-07T12:29:56Z",
+    "authors" : [
+      {
+        "name" : "Bo Ma"
+      },
+      {
+        "name" : "Jinsong Wu"
+      },
+      {
+        "name" : "Weiqi Yan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.05571v1",
+    "title" : "Understanding User Privacy Perceptions of GenAI Smartphones",
+    "summary" : "GenAI smartphones, which natively embed generative AI at the system level, are transforming mobile interactions by automating a wide range of tasks and executing UI actions on behalf of users. Their superior capabilities rely on continuous access to sensitive and context-rich data, raising privacy concerns that surpass those of traditional mobile devices. Yet, little is known about how users perceive the privacy implications of such devices or what safeguards they expect, which is especially critical at this early stage of GenAI smartphone adoption. To address this gap, we conduct 22 semi-structured interviews with everyday mobile users to explore their usage of GenAI smartphones, privacy concerns, and privacy design expectations. Our findings show that users engage with GenAI smartphones with limited understanding of how these systems operate to deliver functions, but show heightened privacy concerns once exposed to the technical details. Participants' concerns span the entire data lifecycle, including nontransparent collection, insecure storage, and weak data control. In a follow-up focus group, participants discuss a range of privacy-enhancing suggestions that call for coordinated changes across system-level controls, data management practices, and user-facing transparency. Their concerns and suggestions offer user-centered guidances for designing GenAI smartphones that balance functionality with privacy protection, offering valuable takeaways for system designers and regulators.",
+    "updated" : "2026-04-07T08:13:45Z",
+    "published" : "2026-04-07T08:13:45Z",
+    "authors" : [
+      {
+        "name" : "Ran Jin"
+      },
+      {
+        "name" : "Liu Wang"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Luona Xu"
+      },
+      {
+        "name" : "Tianming Liu"
+      },
+      {
+        "name" : "Haoyu Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.05077v1",
+    "title" : "Feature-Aware Anisotropic Local Differential Privacy for Utility-Preserving Graph Representation Learning in Metal Additive Manufacturing",
+    "summary" : "Metal additive manufacturing (AM) enables the fabrication of safety-critical components, but reliable quality assurance depends on high-fidelity sensor streams containing proprietary process information, limiting collaborative data sharing. Existing defect-detection models typically treat melt-pool observations as independent samples, ignoring layer-wise physical couplings. Moreover, conventional privacy-preserving techniques, particularly Local Differential Privacy (LDP), lead to severe utility degradation because they inject uniform noise across all feature dimensions. To address these interrelated challenges, we propose FI-LDP-HGAT. This computational framework combines two methodological components: a stratified Hierarchical Graph Attention Network (HGAT) that captures spatial and thermal dependencies across scan tracks and deposited layers, and a feature-importance-aware anisotropic Gaussian mechanism (FI-LDP) for non-interactive feature privatization. Unlike isotropic LDP, FI-LDP redistributes the privacy budget across embedding coordinates using an encoder-derived importance prior, assigning lower noise to task-critical thermal signatures and higher noise to redundant dimensions while maintaining formal LDP guarantees. Experiments on a Directed Energy Deposition (DED) porosity dataset demonstrate that FI-LDP-HGAT achieves 81.5% utility recovery at a moderate privacy budget (epsilon = 4) and maintains defect recall of 0.762 under strict privacy (epsilon = 2), while outperforming classical ML, standard GNNs, and alternative privacy mechanisms, including DP-SGD across all evaluated metrics. Mechanistic analysis confirms a strong negative correlation (Spearman = -0.81) between feature importance and noise magnitude, providing interpretable evidence that the privacy-utility gains are driven by principled anisotropic allocation.",
+    "updated" : "2026-04-06T18:29:21Z",
+    "published" : "2026-04-06T18:29:21Z",
+    "authors" : [
+      {
+        "name" : "MD Shafikul Islam"
+      },
+      {
+        "name" : "Mahathir Mohammad Bappy"
+      },
+      {
+        "name" : "Saifur Rahman Tushar"
+      },
+      {
+        "name" : "Md Arifuzzaman"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.04572v1",
+    "title" : "Digital Privacy in IoT: Exploring Challenges, Approaches and Open Issues",
+    "summary" : "Privacy has always been a critical issue in the digital era, particularly with the increasing use of Internet of Things (IoT) devices. As the IoT continues to transform industries such as healthcare, smart cities, and home automation, it has also introduced serious challenges regarding the security of sensitive and private data. This paper examines the complex landscape of digital privacy in IoT ecosystems, highlighting the need to protect personally identifiable information (PII) of individuals and uphold their rights to digital independence. Global events, such as the COVID-19 pandemic, have accelerated the adoption of IoT, raising concerns about privacy and data protection. This paper provides an in-depth examination of digital privacy risks in the IoT domain and introduces a clear taxonomy for evaluating them using the IEEE Digital Privacy Model. The proposed framework categorizes privacy risks into five types: identity-oriented, behavioral, inference, data manipulation, and regulatory risks. We review existing digital privacy solutions, including encryption technologies, blockchain, federated learning, differential privacy, reinforcement learning, AI, and dynamic consent mechanisms, to mitigate these risks. We also highlight how these privacy-enhancing technologies (PETs) help with data confidentiality, access control, and trust management. Additionally, this study presents AURA-IoT, a futuristic framework that tackles AI-driven privacy risks through a multi-layered structure. AURA-IoT integrates adversarial robustness, explainability, transparency, fairness, compliance, dynamic consent, and policy enforcement mechanisms to ensure digital privacy, security, and accountable IoT operations. Finally, we discuss ongoing challenges and potential research directions for integrating AI and encryption-based privacy solutions to achieve comprehensive digital privacy in future IoT systems.",
+    "updated" : "2026-04-06T10:08:46Z",
+    "published" : "2026-04-06T10:08:46Z",
+    "authors" : [
+      {
+        "name" : "Shini Girija"
+      },
+      {
+        "name" : "Pranav M. Pawar"
+      },
+      {
+        "name" : "Raja Muthalagu"
+      },
+      {
+        "name" : "Mithun Mukherjee"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.04195v1",
+    "title" : "Stable and Privacy-Preserving Synthetic Educational Data with Empirical Marginals: A Copula-Based Approach",
+    "summary" : "To advance Educational Data Mining (EDM) within strict privacy-protecting regulatory frameworks, researchers must develop methods that enable data-driven analysis while protecting sensitive student information. Synthetic data generation is one such approach, enabling the release of statistically generated samples instead of real student records; however, existing deep learning and parametric generators often distort marginal distributions and degrade under iterative regeneration, leading to distribution drift and progressive loss of distributional support that compromise reliability. In response, we introduce the Non-Parametric Gaussian Copula (NPGC), a plug-and-play synthesis method that replaces deep learning and parametric optimization with empirical statistical anchoring to preserve the observed marginal distributions while modeling dependencies through a copula framework. NPGC integrates Differential Privacy (DP) at both the marginal and correlation levels, supports heterogeneous variable types, and treats missing data as an explicit state to retain informative absence patterns. We evaluate NPGC against deep learning and parametric baselines on five benchmark datasets and demonstrate that it remains stable across multiple regeneration cycles and achieves competitive downstream performance at substantially lower computational cost. We further validate NPGC through deployment in a real-world online learning platform, demonstrating its practicality for privacy-preserving research.",
+    "updated" : "2026-04-05T17:34:21Z",
+    "published" : "2026-04-05T17:34:21Z",
+    "authors" : [
+      {
+        "name" : "Gabriel Diaz Ramos"
+      },
+      {
+        "name" : "Lorenzo Luzi"
+      },
+      {
+        "name" : "Debshila Basu Mallick"
+      },
+      {
+        "name" : "Richard Baraniuk"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.03640v1",
+    "title" : "ComPrivDet: Efficient Privacy Object Detection in Compressed Domains Through Inference Reuse",
+    "summary" : "As the Internet of Things (IoT) becomes deeply embedded in daily life, users are increasingly concerned about privacy leakage, especially from video data. Since frame-by-frame protection in large-scale video analytics (e.g., smart communities) introduces significant latency, a more efficient solution is to selectively protect frames containing privacy objects (e.g., faces). Existing object detectors require fully decoded videos or per-frame processing in compressed videos, leading to decoding overhead or reduced accuracy. Therefore, we propose ComPrivDet, an efficient method for detecting privacy objects in compressed video by reusing I-frame inference results. By identifying the presence of new objects through compressed-domain cues, ComPrivDet either skips P- and B-frame detections or efficiently refines them with a lightweight detector. ComPrivDet maintains 99.75% accuracy in private face detection and 96.83% in private license plate detection while skipping over 80% of inferences. It averages 9.84% higher accuracy with 75.95% lower latency than existing compressed-domain detection methods.",
+    "updated" : "2026-04-04T08:32:24Z",
+    "published" : "2026-04-04T08:32:24Z",
+    "authors" : [
+      {
+        "name" : "Yunhao Yao"
+      },
+      {
+        "name" : "Zhiqiang Wang"
+      },
+      {
+        "name" : "Ruiqi Li"
+      },
+      {
+        "name" : "Haoran Cheng"
+      },
+      {
+        "name" : "Puhan Luo"
+      },
+      {
+        "name" : "Xiangyang Li"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.01487v2",
+    "title" : "AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks",
+    "summary" : "With the rise of personalized, persistent LLM agent frameworks such as OpenClaw, human-centered agentic social networks in which teams of collaborative AI agents serve individual users in a social network across multiple domains are becoming a reality. This setting creates novel privacy challenges: agents must coordinate across domain boundaries, mediate between humans, and interact with other users' agents, all while protecting sensitive personal information. While prior work has evaluated multi-agent coordination and privacy preservation, the dynamics and privacy risks of human-centered agentic social networks remain unexplored. To this end, we introduce AgentSocialBench, the first benchmark to systematically evaluate privacy risk in this setting, comprising scenarios across seven categories spanning dyadic and multi-party interactions, grounded in realistic user profiles with hierarchical sensitivity labels and directed social graphs. Our experiments reveal that privacy in agentic social networks is fundamentally harder than in single-agent settings: (1) cross-domain and cross-user coordination creates persistent leakage pressure even when agents are explicitly instructed to protect information, (2) privacy instructions that teach agents how to abstract sensitive information paradoxically cause them to discuss it more (we call it abstraction paradox). These findings underscore that current LLM agents lack robust mechanisms for privacy preservation in human-centered agentic social networks, and that new approaches beyond prompt engineering are needed to make agent-mediated social coordination safe for real-world deployment.",
+    "updated" : "2026-04-06T08:32:52Z",
+    "published" : "2026-04-01T23:43:23Z",
+    "authors" : [
+      {
+        "name" : "Prince Zizhuang Wang"
+      },
+      {
+        "name" : "Shuli Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.SI"
+    ]
   }
 ]
