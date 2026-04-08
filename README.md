@@ -955,92 +955,96 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.14606v1">Collective Grid: Privacy-Preserved Multi-Operator Energy Sharing Optimization via Federated Energy Prediction</a></h3>
-  
-  <p><b>Published on:</b> 2026-03-15T21:02:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meysam Masoudi, Tahar Zanouda, Milad Ganjalizadeh, Cicek Cavdar</p>
-    <p><b>Summary:</b> Electricity consumption in mobile networks is increasing with the continued 5G expansion, rising data traffic, and more complex infrastructures. However, energy management is often handled independently by each mobile network operator (MNO), leading to limited coordination and missed opportunities for collective efficiency gains. To address this gap, we propose a privacy-preserving framework for automated energy infrastructure sharing among co-located MNOs. Our framework consists of three modules: (i) a federated learning-based privacy-preserving site energy consumption forecasting module, (ii) an orchestration module in which a mixed-integer linear program is solved to schedule energy purchases from the grid, utilization of renewable sources, and shared battery charging or discharging, based on real-time prices, forecasts, and battery state, and (iii) an energy source selection module which handles the selection of cost-effective power sources and storage actions based on predicted demand across MNOs for the next control window. Using data from operational networks, our experiments confirm that the proposed solution substantially reduces operational costs and outperforms non-sharing baselines, with gains that increase as network density rises in 5G-and-beyond deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.14265v1">MedPriv-Bench: Benchmarking the Privacy-Utility Trade-off of Large Language Models in Medical Open-End Question Answering</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2026-03-15T07:47:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shaowei Guan, Yu Zhai, Hin Chi Kwok, Jiawei Du, Xinyu Feng, Jing Li, Harry Qin, Vivian Hui</p>
-    <p><b>Summary:</b> Recent advances in Retrieval-Augmented Generation (RAG) have enabled large language models (LLMs) to ground outputs in clinical evidence. However, connecting LLMs with external databases introduces the risk of contextual leakage: a subtle privacy threat where unique combinations of medical details enable patient re-identification even without explicit identifiers. Current benchmarks in healthcare heavily focus on accuracy, ignoring such privacy issues, despite strict regulations like Health Insurance Portability and Accountability Act (HIPAA) and General Data Protection Regulation (GDPR). To fill this gap, we present MedPriv-Bench, the first benchmark specifically designed to jointly evaluate privacy preservation and clinical utility in medical open-ended question answering. Our framework utilizes a multi-agent, human-in-the-loop pipeline to synthesize sensitive medical contexts and clinically relevant queries that create realistic privacy pressure. We establish a standardized evaluation protocol leveraging a pre-trained RoBERTa-Natural Language Inference (NLI) model as an automated judge to quantify data leakage, achieving an average of 85.9% alignment with human experts. Through an extensive evaluation of 9 representative LLMs, we demonstrate a pervasive privacy-utility trade-off. Our findings underscore the necessity of domain-specific benchmarks to validate the safety and efficacy of medical AI systems in privacy-sensitive environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.14208v1">Tracing Your Account: A Gradient-Aware Dynamic Window Graph Framework for Ethereum under Privacy-Preserving Services</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB">
-  <p><b>Published on:</b> 2026-03-15T03:55:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Miao Shuyi, Qiu Wangjie, Tu Xiaofan, Li Yunze, Wen Yongxin, Zheng Zhiming</p>
-    <p><b>Summary:</b> With the rapid advancement of Web 3.0 technologies, public blockchain platforms are witnessing the emergence of novel services designed to enhance user privacy and anonymity. However, the powerful untraceability features inherent in these services inadvertently make them attractive tools for criminals seeking to launder illicit funds. Notably, existing de-anonymization methods face three major challenges when dealing with such transactions: highly homogenized transactional semantics, limited ability to model temporal discontinuities, and insufficient consideration of structural sparsity in account association graphs. To address these, we propose GradWATCH, designed to track anonymous accounts in Ethereum privacy-preserving services. Specifically, we first design a learnable account feature mapping module to extract informative transactional semantics from raw on-chain data. We then incorporate transaction relations into the account association graph to alleviate the adverse effects of structural sparsity. To capture temporal evolution, we further propose an edge-aware sliding-window mechanism that propagates and updates gradients at three granularities. Finally, we identify accounts controlled by the same entity by measuring their embedding distances in the learned representation space. Experimental results show that even under the conditions of unbalanced labels and sparse transactions, GradWATCH still achieves significant performance gains, with relative improvements ranging from 1.62% to 15. 22% in the MRR and from 3. 85% to 7. 31% in the F_1.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.13978v1">When Visual Privacy Protection Meets Multimodal Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-03-14T15:15:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaofei Hui, Qian Wu, Haoxuan Qu, Majid Mirmehdi, Hossein Rahmani, Jun Liu</p>
-    <p><b>Summary:</b> The emergence of Multimodal Large Language Models (MLLMs) and the widespread usage of MLLM cloud services such as GPT-4V raised great concerns about privacy leakage in visual data. As these models are typically deployed in cloud services, users are required to submit their images and videos, posing serious privacy risks. However, how to tackle such privacy concerns is an under-explored problem. Thus, in this paper, we aim to conduct a new investigation to protect visual privacy when enjoying the convenience brought by MLLM services. We address the practical case where the MLLM is a "black box", i.e., we only have access to its input and output without knowing its internal model information. To tackle such a challenging yet demanding problem, we propose a novel framework, in which we carefully design the learning objective with Pareto optimality to seek a better trade-off between visual privacy and MLLM's performance, and propose critical-history enhanced optimization to effectively optimize the framework with the black-box MLLM. Our experiments show that our method is effective on different benchmarks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.19314v1">DPxFin: Adaptive Differential Privacy for Anti-Money Laundering Detection via Reputation-Weighted Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-14T08:34:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Renuga Kanagavelu, Manjil Nepal, Ning Peiyan, Cai Kangning, Xu Jiming, Fei Gao, Yong Liu, Goh Siow Mong Rick, Qingsong Wei</p>
-    <p><b>Summary:</b> In the modern financial system, combating money laundering is a critical challenge complicated by data privacy concerns and increasingly complex fraud transaction patterns. Although federated learning (FL) is a promising problem-solving approach as it allows institutions to train their models without sharing their data, it has the drawback of being prone to privacy leakage, specifically in tabular data forms like financial data. To address this, we propose DPxFin, a novel federated framework that integrates reputation-guided adaptive differential privacy. Our approach computes client reputation by evaluating the alignment between locally trained models and the global model. Based on this reputation, we dynamically assign differential privacy noise to client updates, enhancing privacy while maintaining overall model utility. Clients with higher reputations receive lower noise to amplify their trustworthy contributions, while low-reputation clients are allocated stronger noise to mitigate risk. We validate DPxFin on the Anti-Money Laundering (AML) dataset under both IID and non-IID settings using Multi Layer Perceptron (MLP). Experimental analysis established that our approach has a more desirable trade-off between accuracy and privacy than those of traditional FL and fixed-noise Differential Privacy (DP) baselines, where performance improvements were consistent, even though on a modest scale. Moreover, DPxFin does withstand tabular data leakage attacks, proving its effectiveness under real-world financial conditions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.13747v1">Designing for Understanding: How Interface-Level Consent Designs Shape Attention and Understanding in Privacy Disclosures</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-03-14T04:35:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wei Xiao, Mengke Wu, Yeeun Jo</p>
-    <p><b>Summary:</b> Privacy policies are intended to support informed consent, yet users rarely read them fully. This study examines how common privacy policy interface structures influence attention allocation, reading behavior, and perceived experience. Using eye-tracking and post-task surveys, we compared three interface designs: continuous scrolling text, collapsible sections, and collapsible sections with brief previews. Results show that interface structure systematically shaped how users allocated attention and navigated policy content, but did not uniformly improve comprehension. Guided layouts supported more efficient and coherent reading patterns, whereas more interactive designs elicited higher perceived engagement and satisfaction. Importantly, comprehension was closely linked to sustained attention rather than interface type alone. These findings highlight the limits of interface-centered consent approaches and suggest that effective consent design must account for attention dynamics and selective engagement, rather than assuming that improved layout alone ensures understanding.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.13728v2">Bodhi VLM: Privacy-Alignment Modeling for Hierarchical Visual Representations in Vision Backbones and VLM Encoders via Bottom-Up and Top-Down Feature Search</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-14T03:11:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Ma, Wei Qi Yan, Jinsong Wu</p>
-    <p><b>Summary:</b> Learning systems that preserve privacy often inject noise into hierarchical visual representations; a central challenge is to \emph{model} how such perturbations align with a declared privacy budget in a way that is interpretable and applicable across vision backbones and vision--language models (VLMs). We propose \emph{Bodhi VLM}, a \emph{privacy-alignment modeling} framework for \emph{hierarchical neural representations}: it (1) links sensitive concepts to layer-wise grouping via NCP and MDAV-based clustering; (2) locates sensitive feature regions using bottom-up (BUA) and top-down (TDA) strategies over multi-scale representations (e.g., feature pyramids or vision-encoder layers); and (3) uses an Expectation-Maximization Privacy Assessment (EMPA) module to produce an interpretable \emph{budget-alignment signal} by comparing the fitted sensitive-feature distribution to an evaluator-specified reference (e.g., Laplace or Gaussian with scale $c/ε$). The output is reference-relative and is \emph{not} a formal differential-privacy estimator. We formalize BUA/TDA over hierarchical feature structures and validate the framework on object detectors (YOLO, PPDPTS, DETR) and on the \emph{visual encoders} of VLMs (CLIP, LLaVA, BLIP). BUA and TDA yield comparable deviation trends; EMPA provides a stable alignment signal under the reported setups. We compare with generic discrepancy baselines (Chi-square, K-L, MMD) and with task-relevant baselines (MomentReg, NoiseMLE, Wass-1). Results are reported as mean$\pm$std over multiple seeds with confidence intervals in the supplementary materials. This work contributes a learnable, interpretable modeling perspective for privacy-aligned hierarchical representations rather than a post hoc audit only. Source code: \href{https://github.com/mabo1215/bodhi-vlm.git}{Bodhi-VLM GitHub repository}</p>
-  </details>
-</div>
-
-
 
 <h2>2026-04</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.06101v1">Towards Securing IIoT: An Innovative Privacy-Preserving Anomaly Detector Based on Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-07T17:14:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Samira Kamali Poorazad, Chafika Benzaïd, Tarik Taleb</p>
+    <p><b>Summary:</b> In the light of the growing connectivity and sensitivity of industrial data,
+  cyberattacks and data breaches are becoming more common in the Industrial Internet of Things (IIoT). To cope with such threats, this study presents an anomaly detection system based on a novel Federated Learning (FL) framework. This system detects anomalies such as cyberattacks and protects industrial data privacy by processing data locally and training anomaly detection models on industrial agents without sharing raw data. The proposed FL framework incorporates two key components to enhance both privacy and efficiency. The first component is Homomorphic Encryption (HE), which is integrated into the framework to further protect sensitive data transmissions such as model parameters. HE enhances privacy in FL by preventing adversaries from inferring private industrial data through attacks, such as model inversion attacks. The second component is an innovative dynamic agent selection scheme, wherein a selection threshold is calculated based on agent delays and data size. The purpose of this new scheme is to mitigate the straggler effect and the communication bottleneck that occur in traditional FL architectures, such as synchronous and asynchronous architectures. It ensures that agents are not unfairly selected by the different delays resulting from heterogeneous data in IIoT environments, while simultaneously improving model performance and convergence speed.
+  The proposed framework exhibits superior performance over
+  baseline approaches in terms of accuracy, precision, F1-scores, communication costs, convergence speeds, and fairness rate.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.05793v1">BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-04-07T12:29:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bo Ma, Jinsong Wu, Weiqi Yan</p>
+    <p><b>Summary:</b> In LLM/VLM agents, prompt privacy risk propagates beyond a single model call because raw user content can flow into retrieval queries, memory writes, tool calls, and logs. Existing de-identification pipelines address document boundaries but not this cross-stage propagation. We propose BodhiPromptShield, a policy-aware framework that detects sensitive spans, routes them via typed placeholders, semantic abstraction, or secure symbolic mapping, and delays restoration to authorized boundaries. Relative to enterprise redaction, this adds explicit propagation-aware mediation and restoration timing as a security variable. Under controlled evaluation on the Controlled Prompt-Privacy Benchmark (CPPB), stage-wise propagation suppresses from 10.7\% to 7.1\% across retrieval, memory, and tool stages; PER reaches 9.3\% with 0.94 AC and 0.92 TSR, outperforming generic de-identification. These are controlled systems results on CPPB rather than formal privacy guarantees or public-benchmark transfer claims.
+  The project repository is available at https://github.com/mabo1215/BodhiPromptShield.git.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.05571v1">Understanding User Privacy Perceptions of GenAI Smartphones</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-04-07T08:13:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ran Jin, Liu Wang, Shidong Pan, Luona Xu, Tianming Liu, Haoyu Wang</p>
+    <p><b>Summary:</b> GenAI smartphones, which natively embed generative AI at the system level, are transforming mobile interactions by automating a wide range of tasks and executing UI actions on behalf of users. Their superior capabilities rely on continuous access to sensitive and context-rich data, raising privacy concerns that surpass those of traditional mobile devices. Yet, little is known about how users perceive the privacy implications of such devices or what safeguards they expect, which is especially critical at this early stage of GenAI smartphone adoption. To address this gap, we conduct 22 semi-structured interviews with everyday mobile users to explore their usage of GenAI smartphones, privacy concerns, and privacy design expectations. Our findings show that users engage with GenAI smartphones with limited understanding of how these systems operate to deliver functions, but show heightened privacy concerns once exposed to the technical details. Participants' concerns span the entire data lifecycle, including nontransparent collection, insecure storage, and weak data control. In a follow-up focus group, participants discuss a range of privacy-enhancing suggestions that call for coordinated changes across system-level controls, data management practices, and user-facing transparency. Their concerns and suggestions offer user-centered guidances for designing GenAI smartphones that balance functionality with privacy protection, offering valuable takeaways for system designers and regulators.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.05077v1">Feature-Aware Anisotropic Local Differential Privacy for Utility-Preserving Graph Representation Learning in Metal Additive Manufacturing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-06T18:29:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> MD Shafikul Islam, Mahathir Mohammad Bappy, Saifur Rahman Tushar, Md Arifuzzaman</p>
+    <p><b>Summary:</b> Metal additive manufacturing (AM) enables the fabrication of safety-critical components, but reliable quality assurance depends on high-fidelity sensor streams containing proprietary process information, limiting collaborative data sharing. Existing defect-detection models typically treat melt-pool observations as independent samples, ignoring layer-wise physical couplings. Moreover, conventional privacy-preserving techniques, particularly Local Differential Privacy (LDP), lead to severe utility degradation because they inject uniform noise across all feature dimensions. To address these interrelated challenges, we propose FI-LDP-HGAT. This computational framework combines two methodological components: a stratified Hierarchical Graph Attention Network (HGAT) that captures spatial and thermal dependencies across scan tracks and deposited layers, and a feature-importance-aware anisotropic Gaussian mechanism (FI-LDP) for non-interactive feature privatization. Unlike isotropic LDP, FI-LDP redistributes the privacy budget across embedding coordinates using an encoder-derived importance prior, assigning lower noise to task-critical thermal signatures and higher noise to redundant dimensions while maintaining formal LDP guarantees. Experiments on a Directed Energy Deposition (DED) porosity dataset demonstrate that FI-LDP-HGAT achieves 81.5% utility recovery at a moderate privacy budget (epsilon = 4) and maintains defect recall of 0.762 under strict privacy (epsilon = 2), while outperforming classical ML, standard GNNs, and alternative privacy mechanisms, including DP-SGD across all evaluated metrics. Mechanistic analysis confirms a strong negative correlation (Spearman = -0.81) between feature importance and noise magnitude, providing interpretable evidence that the privacy-utility gains are driven by principled anisotropic allocation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.04572v1">Digital Privacy in IoT: Exploring Challenges, Approaches and Open Issues</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-06T10:08:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shini Girija, Pranav M. Pawar, Raja Muthalagu, Mithun Mukherjee</p>
+    <p><b>Summary:</b> Privacy has always been a critical issue in the digital era, particularly with the increasing use of Internet of Things (IoT) devices. As the IoT continues to transform industries such as healthcare, smart cities, and home automation, it has also introduced serious challenges regarding the security of sensitive and private data. This paper examines the complex landscape of digital privacy in IoT ecosystems, highlighting the need to protect personally identifiable information (PII) of individuals and uphold their rights to digital independence. Global events, such as the COVID-19 pandemic, have accelerated the adoption of IoT, raising concerns about privacy and data protection. This paper provides an in-depth examination of digital privacy risks in the IoT domain and introduces a clear taxonomy for evaluating them using the IEEE Digital Privacy Model. The proposed framework categorizes privacy risks into five types: identity-oriented, behavioral, inference, data manipulation, and regulatory risks. We review existing digital privacy solutions, including encryption technologies, blockchain, federated learning, differential privacy, reinforcement learning, AI, and dynamic consent mechanisms, to mitigate these risks. We also highlight how these privacy-enhancing technologies (PETs) help with data confidentiality, access control, and trust management. Additionally, this study presents AURA-IoT, a futuristic framework that tackles AI-driven privacy risks through a multi-layered structure. AURA-IoT integrates adversarial robustness, explainability, transparency, fairness, compliance, dynamic consent, and policy enforcement mechanisms to ensure digital privacy, security, and accountable IoT operations. Finally, we discuss ongoing challenges and potential research directions for integrating AI and encryption-based privacy solutions to achieve comprehensive digital privacy in future IoT systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.04195v1">Stable and Privacy-Preserving Synthetic Educational Data with Empirical Marginals: A Copula-Based Approach</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-04-05T17:34:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gabriel Diaz Ramos, Lorenzo Luzi, Debshila Basu Mallick, Richard Baraniuk</p>
+    <p><b>Summary:</b> To advance Educational Data Mining (EDM) within strict privacy-protecting regulatory frameworks, researchers must develop methods that enable data-driven analysis while protecting sensitive student information. Synthetic data generation is one such approach, enabling the release of statistically generated samples instead of real student records; however, existing deep learning and parametric generators often distort marginal distributions and degrade under iterative regeneration, leading to distribution drift and progressive loss of distributional support that compromise reliability. In response, we introduce the Non-Parametric Gaussian Copula (NPGC), a plug-and-play synthesis method that replaces deep learning and parametric optimization with empirical statistical anchoring to preserve the observed marginal distributions while modeling dependencies through a copula framework. NPGC integrates Differential Privacy (DP) at both the marginal and correlation levels, supports heterogeneous variable types, and treats missing data as an explicit state to retain informative absence patterns. We evaluate NPGC against deep learning and parametric baselines on five benchmark datasets and demonstrate that it remains stable across multiple regeneration cycles and achieves competitive downstream performance at substantially lower computational cost. We further validate NPGC through deployment in a real-world online learning platform, demonstrating its practicality for privacy-preserving research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.03640v1">ComPrivDet: Efficient Privacy Object Detection in Compressed Domains Through Inference Reuse</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-04T08:32:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yunhao Yao, Zhiqiang Wang, Ruiqi Li, Haoran Cheng, Puhan Luo, Xiangyang Li</p>
+    <p><b>Summary:</b> As the Internet of Things (IoT) becomes deeply embedded in daily life, users are increasingly concerned about privacy leakage, especially from video data. Since frame-by-frame protection in large-scale video analytics (e.g., smart communities) introduces significant latency, a more efficient solution is to selectively protect frames containing privacy objects (e.g., faces). Existing object detectors require fully decoded videos or per-frame processing in compressed videos, leading to decoding overhead or reduced accuracy. Therefore, we propose ComPrivDet, an efficient method for detecting privacy objects in compressed video by reusing I-frame inference results. By identifying the presence of new objects through compressed-domain cues, ComPrivDet either skips P- and B-frame detections or efficiently refines them with a lightweight detector. ComPrivDet maintains 99.75% accuracy in private face detection and 96.83% in private license plate detection while skipping over 80% of inferences. It averages 9.84% higher accuracy with 75.95% lower latency than existing compressed-domain detection methods.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2604.02616v1">Unlocking Multi-Site Clinical Data: A Federated Approach to Privacy-First Child Autism Behavior Analysis</a></h3>
@@ -1104,7 +1108,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.01487v1">AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.01487v2">AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
   <p><b>Published on:</b> 2026-04-01T23:43:23Z</p>
   <details>
