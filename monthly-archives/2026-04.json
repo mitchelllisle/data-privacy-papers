@@ -741,5 +741,270 @@
       "cs.AI",
       "cs.SI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07238v1",
+    "title" : "On the Price of Privacy for Language Identification and Generation",
+    "summary" : "As large language models (LLMs) are increasingly trained on sensitive user data, understanding the fundamental cost of privacy in language learning becomes essential. We initiate the study of differentially private (DP) language identification and generation in the agnostic statistical setting, establishing algorithms and matching lower bounds that precisely quantify the cost of privacy. For both tasks, approximate $(\\varepsilon, δ)$-DP with constant $\\varepsilon > 0$ recovers the non-private error rates: $\\exp(-r(n))$ for identification (for any $r(n) = o(n)$) and $\\exp(-Ω(n))$ for generation. Under pure $\\varepsilon$-DP, the exponents degrade by a multiplicative factor of $\\min\\{1, \\varepsilon\\}$, which we show is tight up to constants. Notably, for generation under pure DP with mild assumptions, the upper bound $\\exp(-\\min\\{1,\\varepsilon\\} \\cdot Ω(n))$ matches the lower bound up to some constants, establishing an optimal rate. Our results show that the cost of privacy in language learning is surprisingly mild: absent entirely under approximate DP, and exactly a $\\min\\{1,\\varepsilon\\}$ factor in the exponent under pure DP.",
+    "updated" : "2026-04-08T16:04:16Z",
+    "published" : "2026-04-08T16:04:16Z",
+    "authors" : [
+      {
+        "name" : "Xiaoyu Li"
+      },
+      {
+        "name" : "Andi Han"
+      },
+      {
+        "name" : "Jiaojiao Jiang"
+      },
+      {
+        "name" : "Junbin Gao"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07132v1",
+    "title" : "CSA-Graphs: A Privacy-Preserving Structural Dataset for Child Sexual Abuse Research",
+    "summary" : "Child Sexual Abuse Imagery (CSAI) classification is an important yet challenging problem for computer vision research due to the strict legal and ethical restrictions that prevent the public sharing of CSAI datasets. This limitation hinders reproducibility and slows progress in developing automated methods. In this work, we introduce CSA-Graphs, a privacy-preserving structural dataset. Instead of releasing the original images, we provide structural representations that remove explicit visual content while preserving contextual information. CSA-Graphs includes two complementary graph-based modalities: scene graphs describing object relationships and skeleton graphs encoding human pose. Experiments show that both representations retain useful information for classifying CSAI, and that combining them further improves performance. This dataset enables broader research on computer vision methods for child safety while respecting legal and ethical constraints.",
+    "updated" : "2026-04-08T14:26:52Z",
+    "published" : "2026-04-08T14:26:52Z",
+    "authors" : [
+      {
+        "name" : "Carlos Caetano"
+      },
+      {
+        "name" : "Camila Laranjeira"
+      },
+      {
+        "name" : "Clara Ernesto"
+      },
+      {
+        "name" : "Artur Barros"
+      },
+      {
+        "name" : "João Macedo"
+      },
+      {
+        "name" : "Leo S. F. Ribeiro"
+      },
+      {
+        "name" : "Jefersson A. dos Santos"
+      },
+      {
+        "name" : "Sandra Avila"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07125v1",
+    "title" : "DDP-SA: Scalable Privacy-Preserving Federated Learning via Distributed Differential Privacy and Secure Aggregation",
+    "summary" : "This article presents DDP-SA, a scalable privacy-preserving federated learning framework that jointly leverages client-side local differential privacy (LDP) and full-threshold additive secret sharing (ASS) for secure aggregation. Unlike existing methods that rely solely on differential privacy or on secure multi-party computation (MPC), DDP-SA integrates both techniques to deliver stronger end-to-end privacy guarantees while remaining computationally practical. The framework introduces a two-stage protection mechanism: clients first perturb their local gradients with calibrated Laplace noise, then decompose the noisy gradients into additive secret shares that are distributed across multiple intermediate servers. This design ensures that (i) no single compromised server or communication channel can reveal any information about individual client updates, and (ii) the parameter server reconstructs only the aggregated noisy gradient, never any client-specific contribution. Extensive experiments show that DDP-SA achieves substantially higher model accuracy than standalone LDP while providing stronger privacy protection than MPC-only approaches. The proposed framework scales linearly with the number of participants and offers a practical, privacy-preserving solution for federated learning applications with controllable computational and communication overhead.",
+    "updated" : "2026-04-08T14:19:39Z",
+    "published" : "2026-04-08T14:19:39Z",
+    "authors" : [
+      {
+        "name" : "Wenjing Wei"
+      },
+      {
+        "name" : "Farid Nait-Abdesselam"
+      },
+      {
+        "name" : "Alla Jammine"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06831v1",
+    "title" : "Towards Privacy-Preserving Large Language Model: Text-free Inference Through Alignment and Adaptation",
+    "summary" : "Current LLM-based services typically require users to submit raw text regardless of its sensitivity. While intuitive, such practice introduces substantial privacy risks, as unauthorized access may expose personal, medical, or legal information. Although prior defenses strived to mitigate these risks, they often incur substantial computational overhead and degrade model performance. To overcome this privacy-efficiency trade-off, we introduce Privacy-Preserving Fine-Tuning (PPFT), a novel training pipeline that eliminates the need for transmitting raw prompt text while maintaining a favorable balance between privacy preservation and model utility for both clients and service providers. Our approach operates in two stages: first, we train a client-side encoder together with a server-side projection module and LLM, enabling the server to condition on k-pooled prompt embeddings instead of raw text; second, we fine-tune the projection module and LLM on private, domain-specific data using noise-injected embeddings, allowing effective adaptation without exposing plain text prompts and requiring access to the decoder's internal parameters. Extensive experiments on domain-specific and general benchmarks demonstrate that PPFT achieves a striking balance between privacy and utility, maintaining competitive performance with minimal degradation compared to noise-free upper bounds.",
+    "updated" : "2026-04-08T08:49:17Z",
+    "published" : "2026-04-08T08:49:17Z",
+    "authors" : [
+      {
+        "name" : "Jeongho Yoon"
+      },
+      {
+        "name" : "Chanhee Park"
+      },
+      {
+        "name" : "Yongchan Chun"
+      },
+      {
+        "name" : "Hyeonseok Moon"
+      },
+      {
+        "name" : "Heuiseok Lim"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06518v1",
+    "title" : "Adaptive Differential Privacy for Federated Medical Image Segmentation Across Diverse Modalities",
+    "summary" : "Large volumes of medical data remain underutilized because centralizing distributed data is often infeasible due to strict privacy regulations and institutional constraints. In addition, models trained in centralized settings frequently fail to generalize across clinical sites because of heterogeneity in imaging protocols and continuously evolving data distributions arising from differences in scanners, acquisition parameters, and patient populations. Federated learning offers a promising solution by enabling collaborative model training without sharing raw data. However, incorporating differential privacy into federated learning, while essential for privacy guarantees, often leads to degraded accuracy, unstable convergence, and reduced generalization. In this work, we propose an adaptive differentially private federated learning (ADP-FL) framework for medical image segmentation that dynamically adjusts privacy mechanisms to better balance the privacy-utility trade-off. The proposed approach stabilizes training, significantly improves Dice scores and segmentation boundary quality, and maintains rigorous privacy guarantees. We evaluated ADP-FL across diverse imaging modalities and segmentation tasks, including skin lesion segmentation in dermoscopic images, kidney tumor segmentation in 3D CT scans, and brain tumor segmentation in multi-parametric MRI. Compared with conventional federated learning and standard differentially private federated learning, ADP-FL consistently achieves higher accuracy, improved boundary delineation, faster convergence, and greater training stability, with performance approaching that of non-private federated learning under the same privacy budgets. These results demonstrate the practical viability of ADP-FL for high-performance, privacy-preserving medical image segmentation in real-world federated settings.",
+    "updated" : "2026-04-07T23:18:20Z",
+    "published" : "2026-04-07T23:18:20Z",
+    "authors" : [
+      {
+        "name" : "Puja Saha"
+      },
+      {
+        "name" : "Eranga Ukwatta"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06499v1",
+    "title" : "Equivalence Testing Under Privacy Constraints",
+    "summary" : "Protecting individual privacy is essential across research domains, from socio-economic surveys to big-tech user data. This need is particularly acute in healthcare, where analyses often involve sensitive patient information. A typical example is comparing treatment efficacy across hospitals or ensuring consistency in diagnostic laboratory calibrations, both requiring privacy-preserving statistical procedures. However, standard equivalence testing procedures for differences in proportions or means, commonly used to assess average equivalence, can inadvertently disclose sensitive information. To address this problem, we develop differentially private equivalence testing procedures that rely on simulation-based calibration, as the finite-sample distribution is analytically intractable. Our approach introduces a unified framework, termed DP-TOST, for conducting differentially private equivalence testing of both means and proportions. Through numerical simulations and real-world applications, we demonstrate that the proposed method maintains type-I error control at the nominal level and achieves power comparable to its non-private counterpart as the privacy budget and/or sample size increases, while ensuring strong privacy guarantees. These findings establish a reliable and practical framework for privacy-preserving equivalence testing in high-stakes fields such as healthcare, among others.",
+    "updated" : "2026-04-07T22:06:33Z",
+    "published" : "2026-04-07T22:06:33Z",
+    "authors" : [
+      {
+        "name" : "Savita Pareek"
+      },
+      {
+        "name" : "Luca Insolia"
+      },
+      {
+        "name" : "Roberto Molinari"
+      },
+      {
+        "name" : "Stéphane Guerrier"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06409v1",
+    "title" : "Say Something Else: Rethinking Contextual Privacy as Information Sufficiency",
+    "summary" : "LLM agents increasingly draft messages on behalf of users, yet users routinely overshare sensitive information and disagree on what counts as private. Existing systems support only suppression (omitting sensitive information) and generalization (replacing information with an abstraction), and are typically evaluated on single isolated messages, leaving both the strategy space and evaluation setting incomplete. We formalize privacy-preserving LLM communication as an \\textbf{Information Sufficiency (IS)} task, introduce \\textbf{free-text pseudonymization} as a third strategy that replaces sensitive attributes with functionally equivalent alternatives, and propose a \\textbf{conversational evaluation protocol} that assesses strategies under realistic multi-turn follow-up pressure. Across 792 scenarios spanning three power-relation types (institutional, peer, intimate) and three sensitivity categories (discrimination risk, social cost, boundary), we evaluate seven frontier LLMs on privacy at two granularities, covertness, and utility. Pseudonymization yields the strongest privacy\\textendash utility tradeoff overall, and single-message evaluation systematically underestimates leakage, with generalization losing up to 16.3 percentage points of privacy under follow-up.",
+    "updated" : "2026-04-07T19:44:45Z",
+    "published" : "2026-04-07T19:44:45Z",
+    "authors" : [
+      {
+        "name" : "Yunze Xiao"
+      },
+      {
+        "name" : "Wenkai Li"
+      },
+      {
+        "name" : "Xiaoyuan Wu"
+      },
+      {
+        "name" : "Ningshan Ma"
+      },
+      {
+        "name" : "Yueqi Song"
+      },
+      {
+        "name" : "Weihao Xuan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06382v1",
+    "title" : "Designing Privacy-Preserving Visual Perception for Robot Navigation Based on User Privacy Preferences",
+    "summary" : "Visual navigation is a fundamental capability of mobile service robots, yet the onboard cameras required for such navigation can capture privacy-sensitive information and raise user privacy concerns. Existing approaches to privacy-preserving navigation-oriented visual perception have largely been driven by technical considerations, with limited grounding in user privacy preferences. In this work, we propose a user-centered approach to designing privacy-preserving visual perception for robot navigation. To investigate how user privacy preferences can inform such design, we conducted two user studies. The results show that users prefer privacy-preserving visual abstractions and capture-time low-resolution preservation mechanisms: their preferred RGB resolution depends both on the desired privacy level and robot proximity during navigation. Based on these findings, we further derive a user-configurable distance-to-resolution privacy policy for privacy-preserving robot visual navigation.",
+    "updated" : "2026-04-07T19:12:19Z",
+    "published" : "2026-04-07T19:12:19Z",
+    "authors" : [
+      {
+        "name" : "Xuying Huang"
+      },
+      {
+        "name" : "Sicong Pan"
+      },
+      {
+        "name" : "Delphine Reinhardt"
+      },
+      {
+        "name" : "Maren Bennewitz"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06367v1",
+    "title" : "WebSP-Eval: Evaluating Web Agents on Website Security and Privacy Tasks",
+    "summary" : "Web agents automate browser tasks, ranging from simple form completion to complex workflows like ordering groceries. While current benchmarks evaluate general-purpose performance~(e.g., WebArena) or safety against malicious actions~(e.g., SafeArena), no existing framework assesses an agent's ability to successfully execute user-facing website security and privacy tasks, such as managing cookie preferences, configuring privacy-sensitive account settings, or revoking inactive sessions. To address this gap, we introduce WebSP-Eval, an evaluation framework for measuring web agent performance on website security and privacy tasks. WebSP-Eval comprises 1) a manually crafted task dataset of 200 task instances across 28 websites; 2) a robust agentic system supporting account and initial state management across runs using a custom Google Chrome extension; and 3) an automated evaluator. We evaluate a total of 8 web agent instantiations using state-of-the-art multimodal large language models, conducting a fine-grained analysis across websites, task categories, and UI elements. Our evaluation reveals that current models suffer from limited autonomous exploration capabilities to reliably solve website security and privacy tasks, and struggle with specific task categories and websites. Crucially, we identify stateful UI elements such as toggles and checkboxes are a primary reason for agent failure, failing at a rate of more than 45\\% in tasks containing these elements across many models.",
+    "updated" : "2026-04-07T18:43:21Z",
+    "published" : "2026-04-07T18:43:21Z",
+    "authors" : [
+      {
+        "name" : "Guruprasad Viswanathan Ramesh"
+      },
+      {
+        "name" : "Asmit Nayak"
+      },
+      {
+        "name" : "Basieem Siddique"
+      },
+      {
+        "name" : "Kassem Fawaz"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.06235v1",
+    "title" : "Negotiating Privacy with Smart Voice Assistants: Risk-Benefit and Control-Acceptance Tensions",
+    "summary" : "Smart Voice assistants (SVAs) are widely adopted by youth, yet privacy decision-making in these environments is often characterized by competing considerations rather than clear-cut preferences. While our prior research has examined privacy risks, benefits, trust, and self-efficacy as distinct predictors of behavior, less attention has been paid to how these factors combine into higher-level tension that shapes privacy outcomes. This study introduces a negotiation-based framework for understanding youth privacy decision-making with SVAs by operationalizing two composite indices: the Risk-Benefit Tension Index (RBTI) and the Control-Acceptance Tension Index (CATI), using survey data from 469 Canadian youth aged 16-24. We examine the distribution of these indices and their relationship with privacy-protective behavior and SVA usage. Results show that both indices are meaningfully associated with protective action. Frequent SVA usage exhibits more benefit-dominant and acceptance-leaning negotiation profiles, suggesting that convenience-driven engagement may come at the expense of perceived control. By reframing privacy decision-making as a process of negotiation rather than inconsistency, this study offers a complementary perspective on the privacy paradox and provides a compact measurement approach for capturing how youth navigate competing privacy pressures in voice-enabled ecosystems.",
+    "updated" : "2026-04-04T06:35:59Z",
+    "published" : "2026-04-04T06:35:59Z",
+    "authors" : [
+      {
+        "name" : "Molly Campbell"
+      },
+      {
+        "name" : "Mohamad Sheikho Al Jasem"
+      },
+      {
+        "name" : "Ajay Kumar Shrestha"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
   }
 ]
