@@ -1006,5 +1006,216 @@
       "cs.AI",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.08113v1",
+    "title" : "TADP-RME: A Trust-Adaptive Differential Privacy Framework for Enhancing Reliability of Data-Driven Systems",
+    "summary" : "Ensuring reliability in adversarial settings necessitates treating privacy as a foundational component of data-driven systems. While differential privacy and cryptographic protocols offer strong guarantees, existing schemes rely on a fixed privacy budget, leading to a rigid utility-privacy trade-off that fails under heterogeneous user trust. Moreover, noise-only differential privacy preserves geometric structure, which inference attacks exploit, causing privacy leakage.\n  We propose TADP-RME (Trust-Adaptive Differential Privacy with Reverse Manifold Embedding), a framework that enhances reliability under varying levels of user trust. It introduces an inverse trust score in the range [0,1] to adaptively modulate the privacy budget, enabling smooth transitions between utility and privacy. Additionally, Reverse Manifold Embedding applies a nonlinear transformation to disrupt local geometric relationships while preserving formal differential privacy guarantees through post-processing.\n  Theoretical and empirical results demonstrate improved privacy-utility trade-offs, reducing attack success rates by up to 3.1 percent without significant utility degradation. The framework consistently outperforms existing methods against inference attacks, providing a unified approach for reliable learning in adversarial environments.",
+    "updated" : "2026-04-09T11:32:57Z",
+    "published" : "2026-04-09T11:32:57Z",
+    "authors" : [
+      {
+        "name" : "Labani Halder"
+      },
+      {
+        "name" : "Payel Sadhukhan"
+      },
+      {
+        "name" : "Sarbani Palit"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.08037v1",
+    "title" : "PrivFedTalk: Privacy-Aware Federated Diffusion with Identity-Stable Adapters for Personalized Talking-Head Generation",
+    "summary" : "Talking-head generation has advanced rapidly with diffusion-based generative models, but training usually depends on centralized face-video and speech datasets, raising major privacy concerns. The problem is more acute for personalized talking-head generation, where identity-specific data are highly sensitive and often cannot be pooled across users or devices. PrivFedTalk is presented as a privacy-aware federated framework for personalized talking-head generation that combines conditional latent diffusion with parameter-efficient identity adaptation. A shared diffusion backbone is trained across clients, while each client learns lightweight LoRA identity adapters from local private audio-visual data, avoiding raw data sharing and reducing communication cost. To address heterogeneous client distributions, Identity-Stable Federated Aggregation (ISFA) weights client updates using privacy-safe scalar reliability signals computed from on-device identity consistency and temporal stability estimates. Temporal-Denoising Consistency (TDC) regularization is introduced to reduce inter-frame drift, flicker, and identity drift during federated denoising. To limit update-side privacy risk, secure aggregation and client-level differential privacy are applied to adapter updates. The implementation supports both low-memory GPU execution and multi-GPU client-parallel training on heterogeneous shared hardware. Comparative experiments on the present setup across multiple training and aggregation conditions with PrivFedTalk, FedAvg, and FedProx show stable federated optimization and successful end-to-end training and evaluation under constrained resources. The results support the feasibility of privacy-aware personalized talking-head training in federated environments, while suggesting that stronger component-wise, privacy-utility, and qualitative claims need further standardized evaluation.",
+    "updated" : "2026-04-09T09:41:30Z",
+    "published" : "2026-04-09T09:41:30Z",
+    "authors" : [
+      {
+        "name" : "Soumya Mazumdar"
+      },
+      {
+        "name" : "Vineet Kumar Rakesh"
+      },
+      {
+        "name" : "Tapas Samanta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.08019v1",
+    "title" : "xDup: Privacy-Preserving Deduplication for Humanitarian Organizations using Fuzzy PSI",
+    "summary" : "Humanitarian organizations help to ensure people's livelihoods in crisis situations. Typically, multiple organizations operate in the same region. To ensure that the limited budget of these organizations can help as many people as possible, organizations perform cross-organizational deduplication to detect duplicate registrations and ensure recipients receive aid from at most one organization. Current deduplication approaches risk privacy harm to vulnerable aid recipients by sharing their data with other organizations. We analyzed the needs of humanitarian organizations to identify the requirements for privacy-friendly cross-organizational deduplication fit for real-life humanitarian missions. We present xDup, a new practical deduplication system that meets the requirements of humanitarian organizations and is two orders of magnitude faster than current solutions. xDup builds on Fuzzy PSI, and we present otFPSI, a concretely efficient Fuzzy PSI protocol for Hamming Space without input assumptions. We show that it is more efficient than existing Fuzzy PSI protocols.",
+    "updated" : "2026-04-09T09:18:05Z",
+    "published" : "2026-04-09T09:18:05Z",
+    "authors" : [
+      {
+        "name" : "Tim Rausch"
+      },
+      {
+        "name" : "Sylvain Chatel"
+      },
+      {
+        "name" : "Wouter Lueks"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07884v1",
+    "title" : "Reinforcement-Guided Synthetic Data Generation for Privacy-Sensitive Identity Recognition",
+    "summary" : "High-fidelity generative models are increasingly needed in privacy-sensitive scenarios, where access to data is severely restricted due to regulatory and copyright constraints. This scarcity hampers model development--ironically, in settings where generative models are most needed to compensate for the lack of data. This creates a self-reinforcing challenge: limited data leads to poor generative models, which in turn fail to mitigate data scarcity. To break this cycle, we propose a reinforcement-guided synthetic data generation framework that adapts general-domain generative priors to privacy-sensitive identity recognition tasks. We first perform a cold-start adaptation to align a pretrained generator with the target domain, establishing semantic relevance and initial fidelity. Building on this foundation, we introduce a multi-objective reward that jointly optimizes semantic consistency, coverage diversity, and expression richness, guiding the generator to produce both realistic and task-effective samples. During downstream training, a dynamic sample selection mechanism further prioritizes high-utility synthetic samples, enabling adaptive data scaling and improved domain alignment. Extensive experiments on benchmark datasets demonstrate that our framework significantly improves both generation fidelity and classification accuracy, while also exhibiting strong generalization to novel categories in small-data regimes.",
+    "updated" : "2026-04-09T06:52:03Z",
+    "published" : "2026-04-09T06:52:03Z",
+    "authors" : [
+      {
+        "name" : "Xuemei Jia"
+      },
+      {
+        "name" : "Jiawei Du"
+      },
+      {
+        "name" : "Hui Wei"
+      },
+      {
+        "name" : "Jun Chen"
+      },
+      {
+        "name" : "Joey Tianyi Zhou"
+      },
+      {
+        "name" : "Zheng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07839v1",
+    "title" : "A Hardware-Anchored Privacy Middleware for PII Sharing Across Heterogeneous Embedded Consumer Devices",
+    "summary" : "The rapid expansion of the Internet of Things (IoT) and smart home ecosystems has led to a fragmented landscape of user data management across consumer electronics (CE) such as Smart TVs, gaming consoles, and set-top boxes. Current onboarding processes on these devices are characterized by high friction due to manual data entry and opaque data-sharing practices. This paper introduces the User Data Sharing System (UDSS), a platform-agnostic framework designed to facilitate secure, privacy-first PII (Personally Identifiable Information) exchange between device platforms and third-party applications. Our system implements a Contextual Scope Enforcement (CSE) mechanism that programmatically restricts data exposure based on user intent - specifically distinguishing between Sign-In and Sign-Up workflows. Unlike cloud-anchored identity standards such as FIDO2/WebAuthn, UDSS is designed for shared, device-centric CE environments where persistent user-to-device binding cannot be assumed. We further propose a tiered access model that balances developer needs with regulatory compliance (GDPR/CCPA). A proof-of-concept implementation on a reference ARMv8 Linux-based middleware demonstrates that UDSS reduces user onboarding latency by 65% and measurably reduces PII over-exposure risk through protocol-enforced data minimization. This framework provides a standardized approach to identity management in the heterogeneous CE market.",
+    "updated" : "2026-04-09T05:40:55Z",
+    "published" : "2026-04-09T05:40:55Z",
+    "authors" : [
+      {
+        "name" : "Aditya Sabbineni"
+      },
+      {
+        "name" : "Pravin Nagare"
+      },
+      {
+        "name" : "Devendra Dahiphale"
+      },
+      {
+        "name" : "Preetam Dedu"
+      },
+      {
+        "name" : "Willison Lopes"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC",
+      "cs.OS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07797v1",
+    "title" : "BRASP: Boolean Range Queries over Encrypted Spatial Data with Access and Search Pattern Privacy",
+    "summary" : "Searchable Encryption (SE) enables users to query outsourced encrypted data while preserving data confidentiality. However, most efficient schemes still leak the search pattern and access pattern, which may allow an honest-but-curious cloud server to infer query contents, user interests, or returned records from repeated searches and observed results. Existing pattern-hiding solutions mainly target keyword queries and do not naturally support Boolean range queries over encrypted spatial data. This paper presents BRASP, a searchable encryption scheme for Boolean range queries over encrypted spatial data. BRASP combines Hilbert-curve-based prefix encoding with encrypted prefix--ID and keyword--ID inverted indexes to support efficient spatial range filtering and conjunctive keyword matching. To hide the search pattern and access pattern under a dual-server setting, BRASP integrates index shuffling for encrypted keyword and prefix entries with ID-field redistribution across two non-colluding cloud servers. BRASP also supports dynamic updates and achieves forward security. We formalize the security of BRASP through confidentiality, shuffle indistinguishability, query unforgeability, and forward-security analyses, and we evaluate its performance experimentally on a real-world dataset. The results show that BRASP effectively protects query privacy while incurring relatively low computation and communication overhead. To facilitate reproducibility and further research, the source code of BRASP is publicly available at https://github.com/Egbert-Lannister/BRASP",
+    "updated" : "2026-04-09T04:50:25Z",
+    "published" : "2026-04-09T04:50:25Z",
+    "authors" : [
+      {
+        "name" : "Jing Zhang"
+      },
+      {
+        "name" : "Ganxuan Yang"
+      },
+      {
+        "name" : "Yifei Yang"
+      },
+      {
+        "name" : "Siqi Wen"
+      },
+      {
+        "name" : "Zhengyang Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07531v1",
+    "title" : "PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults",
+    "summary" : "Young autistic adults may garner benefits through social media but also disproportionately experience privacy harms. Prior research found that these harms often stem from perceiving the affordances of social media differently than the general population, leading to unintentional risky behaviors and interactions with others. While educational interventions have been shown to increase social media privacy literacy for the general population, research has yet to focus on effective educational interventions for autistic young adults. We address this gap by developing and deploying Privacy Rules for Inclusive Social Media (PRISM), a classroom-based educational intervention tailored to the unique risks and neurodevelopmental differences of this population. Twenty-nine autistic students with substantial (level 2) support needs participated in a 14-week social media privacy literacy class. During these classes, participants often communicated their existing rule-based \"all or nothing\" approaches to privacy management (such as completely disengaging from social media to avoid privacy issues). Our course focused on empowering them by providing more nuanced guidance on safe privacy practices through the use of scenario-based formats and contextual, rule-based scenarios. Using pre- and post-knowledge assessments for each of our 6 course topics, our intervention led to a statistically significant increase in their making safer social media privacy decisions. We conclude with recommendations for how privacy educators and technology designers can leverage neuro-affirming educational interventions to increase privacy literacy for autistic social media users.",
+    "updated" : "2026-04-08T19:13:59Z",
+    "published" : "2026-04-08T19:13:59Z",
+    "authors" : [
+      {
+        "name" : "Kirsten Chapman"
+      },
+      {
+        "name" : "Garrett Smith"
+      },
+      {
+        "name" : "Kaitlyn Klabacka"
+      },
+      {
+        "name" : "Joseph Thomas Bills"
+      },
+      {
+        "name" : "Addisyn Bushman"
+      },
+      {
+        "name" : "Terisa Gabrielsen"
+      },
+      {
+        "name" : "Pamela J Wisniewski"
+      },
+      {
+        "name" : "Xinru Page"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.07486v1",
+    "title" : "Private Seeds, Public LLMs: Realistic and Privacy-Preserving Synthetic Data Generation",
+    "summary" : "Large language models (LLMs) have emerged as a powerful tool for synthetic data generation. A particularly important use case is producing synthetic replicas of private text, which requires carefully balancing privacy and utility. We propose Realistic and Privacy-Preserving Synthetic Data Generation (RPSG), which leverages privacy-preserving mechanisms, including formal differential privacy (DP); and private seeds, in particular text containing personal information, to generate realistic synthetic data. Comprehensive experiments against state-of-the-art private synthetic data generation methods demonstrate that RPSG achieves high fidelity to private data while providing strong privacy protection.",
+    "updated" : "2026-04-08T18:26:34Z",
+    "published" : "2026-04-08T18:26:34Z",
+    "authors" : [
+      {
+        "name" : "Qian Ma"
+      },
+      {
+        "name" : "Sarah Rajtmajer"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
