@@ -4484,5 +4484,20 @@
       "stat.ML",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2603.29907v2",
+    "title" : "Security and Privacy in Virtual and Robotic Assistive Systems: A Comparative Framework",
+    "summary" : "Assistive technologies increasingly support independence, accessibility, and safety for older adults, people with disabilities, and individuals requiring continuous care. Two major categories are virtual assistive systems and robotic assistive systems operating in physical environments. Although both offer significant benefits, they introduce important security and privacy risks due to their reliance on artificial intelligence, network connectivity, and sensor-based perception. Virtual systems are primarily exposed to threats involving data privacy, unauthorized access, and adversarial voice manipulation. In contrast, robotic systems introduce additional cyber-physical risks such as sensor spoofing, perception manipulation, command injection, and physical safety hazards. In this paper, we present a comparative analysis of security and privacy challenges across these systems. We develop a unified comparative threat-modeling framework that enables structured analysis of attack surfaces, risk profiles, and safety implications across both systems. Moreover, we provide design recommendations for developing secure, privacy-preserving, and trustworthy assistive technologies.",
+    "updated" : "2026-04-09T17:16:34Z",
+    "published" : "2026-03-31T15:53:01Z",
+    "authors" : [
+      {
+        "name" : "Nelly Elsayed"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
