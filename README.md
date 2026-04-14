@@ -549,144 +549,133 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21640v1">Compressed Distributed Stochastic Nonconvex Optimization with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2026-03-23T07:15:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antai Xie, Xiaoqiang Ren, Xinlei Yi, Tao Yang, Xiaofan Wang</p>
-    <p><b>Summary:</b> This paper studies distributed stochastic nonconvex optimization problems with compressed communication and differential privacy, in which each agent aims to minimize the sum of all agents' cost functions by using local compressed information exchange. To this end, we propose a compressed distributed stochastic gradient descent algorithm, which is robust under a general class of compression operators that allow both relative and absolute compression errors. We then show that the proposed algorithm finds the first-order stationary point for smooth nonconvex functions with the linear speedup convergence rate $\mathcal{O}(1/\sqrt{nT})$ and converges to the optimum if the global cost function additionally satisfies the Polyak--Łojasiewicz (P--Ł) condition with the convergence rate $\mathcal{O}(1/(nT^θ)),θ\in(0,1)$, where $T$ is the total number of iterations and $n$ is the number of agents. Furthermore, if the P--Ł~constant is known in advance, we show that the proposed algorithm achieves a convergence rate $\mathcal{O}(1/(nT))$. Finally, we show that the proposed algorithm is able to achieve $(0,δ)$-differential privacy without sacrificing convergence accuracy. Numerical experiments are carried out to</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21573v1">Rethinking Visual Privacy: A Compositional Privacy Risk Framework for Severity Assessment with VLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-03-23T04:48:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Efthymios Tsaprazlis, Tiantian Feng, Anil Ramakrishna, Sai Praneeth Karimireddy, Rahul Gupta, Shrikanth Narayanan</p>
-    <p><b>Summary:</b> Existing visual privacy benchmarks largely treat privacy as a binary property, labeling images as private or non-private based on visible sensitive content. We argue that privacy is fundamentally compositional. Attributes that are benign in isolation may combine to produce severe privacy violations. We introduce the Compositional Privacy Risk Taxonomy (CPRT), a regulation-aware framework that organizes visual attributes according to standalone identifiability and compositional harm potential. CPRT defines four graded severity levels and is paired with an interpretable scoring function that assigns continuous privacy severity scores. We further construct a taxonomy-aligned dataset of 6.7K images and derive ground-truth compositional risk scores. By evaluating frontier and open-weight VLMs we find that frontier models align well with compositional severity when provided structured guidance, but systematically underestimate composition-driven risks. Smaller models struggle to internalize graded privacy reasoning. To bridge this gap, we introduce a deployable 8B supervised fine-tuned (SFT) model that closely matches frontier-level performance on compositional privacy assessment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21387v2">Knowledge Priors for Identity-Disentangled Open-Set Privacy-Preserving Video FER</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-03-22T20:18:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Feng Xu, Xun Li, Lars Petersson, Yulei Sui, David Ahmedt-Aristizabal, Dadong Wang</p>
-    <p><b>Summary:</b> Facial expression recognition relies on facial data that inherently expose identity and thus raise significant privacy concerns. Current privacy-preserving methods typically fail in realistic open-set video settings where identities are unknown, and identity labels are unavailable. We propose a two-stage framework for video-based privacy-preserving FER in challenging open-set settings that requires no identity labels at any stage. To decouple privacy and utility, we first train an identity-suppression network using intra- and inter-video knowledge priors derived from real-world videos without identity labels. This network anonymizes identity while preserving expressive cues. A subsequent denoising module restores expression-related information and helps recover FER performance. Furthermore, we introduce a falsification-based validation method that uses recognition priors to rigorously evaluate privacy robustness without requiring annotated identity labels. Experiments on three video datasets demonstrate that our method effectively protects privacy while maintaining FER accuracy comparable to identity-supervised baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21305v1">Privacy-Preserving Federated Action Recognition via Differentially Private Selective Tuning and Efficient Communication</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-03-22T16:05:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Idris Zakariyya, Pai Chet Ng, Kaushik Bhargav Sivangi, S. Mohammad Sheikholeslami, Konstantinos N. Plataniotis, Fani Deligianni</p>
-    <p><b>Summary:</b> Federated video action recognition enables collaborative model training without sharing raw video data, yet remains vulnerable to two key challenges: \textit{model exposure} and \textit{communication overhead}. Gradients exchanged between clients and the server can leak private motion patterns, while full-model synchronization of high-dimensional video networks causes significant bandwidth and communication costs. To address these issues, we propose \textit{Federated Differential Privacy with Selective Tuning and Efficient Communication for Action Recognition}, namely \textit{FedDP-STECAR}. Our \textit{FedDP-STECAR} framework selectively fine-tunes and perturbs only a small subset of task-relevant layers under Differential Privacy (DP), reducing the surface of information leakage while preserving temporal coherence in video features. By transmitting only the tuned layers during aggregation, communication traffic is reduced by over 99\% compared to full-model updates. Experiments on the UCF-101 dataset using the MViT-B-16x4 transformer show that \textit{FedDP-STECAR} achieves up to \textbf{70.2\% higher accuracy} under strict privacy ($ε=0.65$) in centralized settings and \textbf{48\% faster training} with \textbf{73.1\% accuracy} in federated setups, enabling scalable and privacy-preserving video action recognition. Code available at https://github.com/izakariyya/mvit-federated-videodp</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21211v1">Security and Privacy in O-RAN for 6G: A Comprehensive Review of Threats and Mitigation Approaches</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2026-03-22T13:11:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lujia Liang, Lei Zhang</p>
-    <p><b>Summary:</b> Open Radio Access Network (O-RAN) is a major advancement in the telecommunications field, providing standardized interfaces that promote interoperability between different vendors' technologies, thereby enhancing network flexibility and reducing operational expenses. By leveraging cutting-edge developments in network virtualization and artificial intelligence, O-RAN enhances operational efficiency and stimulates innovation within an open ecosystem. In the context of 6G, the potential capabilities of O-RAN have been significantly expanded, enabling ultra-reliable low-latency communication, terabit-level data rates, and seamless integration of terrestrial and non-terrestrial networks. Despite these benefits, its open architecture paradigm also brings critical security and privacy challenges, which, if not addressed, could compromise network integrity and data confidentiality. This paper conducts a comprehensive investigation into the security vulnerabilities and privacy issues associated with the O-RAN architecture in the context of the evolving 6G landscape, systematically categorizing fundamental vulnerabilities, meticulously examining potential attack vectors, and assessing current and future threats. In addition, this study also examines the existing and emerging security mechanisms of O-RAN and reviews the ongoing standardization activities aimed at strengthening the O-RAN security framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21197v1">Anchored Likelihood-Ratio Geometry of Anonymous Shuffle Experiments: Exact Privacy Envelopes and Universal Low-Budget Design</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-03-22T12:34:04Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alex Shvets</p>
-    <p><b>Summary:</b> We develop a geometric framework for anonymous shuffle experiments based on an anchored affine likelihood-ratio law: a mean-zero measure on the regular simplex polytope. Every finite-output d-ary channel corresponds, up to refinements, to a unique anchored law, and conversely. On privacy: among all epsilon_0-LDP channels, binary randomized response universally extremizes all convex f-divergences and hockey-stick profiles after shuffling. A rigidity converse shows that saturation of both directed envelopes at finite n forces the binary endpoint law. On design: under the pairwise chi_* budget, we prove exact trace-cap and two-orbit frontier theorems. Every frontier point is realized by a mixture of at most two orbit laws. In the low-budget regime, augmented randomized response is minimax-optimal to the sharp constant over all channels and estimators. Under the raw LDP cap, the problem reduces to subset-selection with explicit optimal subset size. The arguments are self-contained and independent of the author's trilogy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.21106v2">Tracing Users' Privacy Concerns Across the Lifecycle of a Romantic AI Companion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-03-22T07:49:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kazi Ababil Azam, Imtiaz Karim, Dipto Das</p>
-    <p><b>Summary:</b> Romantic AI chatbots have quickly attracted users, but their emotional use raises concerns about privacy and safety. As people turn to these systems for intimacy, comfort, and emotionally significant interaction, they often disclose highly sensitive information. Yet the privacy implications of such disclosure remain poorly understood in platforms shaped by persistence, intimacy, and opaque data practices. In this paper, we examine public Reddit discussions about privacy in romantic AI chatbot ecosystems through a lifecycle lens. Analyzing 2,909 posts from 79 subreddits collected over one year, we identify four recurring patterns: disproportionate entry requirements, intensified sensitivity in intimate use, interpretive uncertainty and perceived surveillance, and irreversibility, persistence, and user burden. We show that privacy in romantic AI is best understood as an evolving socio-technical governance problem spanning access, disclosure, interpretation, retention, and exit. These findings highlight the need for privacy and safety governance in romantic AI that is staged across the lifecycle of use, supports meaningful reversibility, and accounts for the emotional vulnerability of intimate human-AI interaction.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.20968v1">Composition Theorems for Multiple Differential Privacy Constraints</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-03-21T22:39:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cemre Cadir, Salim Najib, Yanina Y. Shkel</p>
-    <p><b>Summary:</b> The exact composition of mechanisms for which two differential privacy (DP) constraints hold simultaneously is studied. The resulting privacy region admits an exact representation as a mixture over compositions of mechanisms of heterogeneous DP guarantees, yielding a framework that naturally generalizes to the composition of mechanisms for which any number of DP constraints hold. This result is shown through a structural lemma for mixtures of binary hypothesis tests. Lastly, the developed methodology is applied to approximate $f$-DP composition.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.20107v1">Sharing The Secret: Distributed Privacy-Preserving Monitoring</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Formal Languages and Automata Theory-D91E36">
-  <p><b>Published on:</b> 2026-03-20T16:30:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mahyar Karimi, K. S. Thejaswini, Roderick Bloem, Thomas A. Henzinger</p>
-    <p><b>Summary:</b> In traditional runtime verification, a system is typically observed by a monolithic monitor. Enforcing privacy in such settings is computationally expensive, as it necessitates heavy cryptographic primitives. Therefore, privacy-preserving monitoring remains impractical for real-time applications. In this work, we address this scalability challenge by distributing the monitor across multiple parties -- at least one of which is honest. This architecture enables the use of efficient secret-sharing schemes instead of computationally intensive cryptography, dramatically reducing over-head while maintaining strong privacy guarantees. While existing secret-sharing approaches are typically limited to one-shot executions which do not maintain an internal state, we introduce a protocol tailored for continuous monitoring that supports repeated evaluations over an evolving internal state (kept secret from the system and the monitoring entities). We implement our approach using the MP-SPDZ framework. Our experiments demonstrate that, under these architectural assumptions, our protocol is significantly more scalable than existing alternatives.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.19791v1">Text-Based Personas for Simulating User Privacy Decisions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-20T09:28:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kassem Fawaz, Ren Yi, Octavian Suciu, Rishabh Khandelwal, Hamza Harkous, Nina Taft, Marco Gruteser</p>
-    <p><b>Summary:</b> The ability to simulate human privacy decisions has significant implications for aligning autonomous agents with individual intent and conducting cost-effective, large-scale privacy-centric user studies. Prior approaches prompt Large Language Models (LLMs) with natural language user statements, data-sharing histories, or demographic attributes to simulate privacy decisions. These approaches, however, fail to balance individual-level accuracy, prompt usability, token efficiency, and population-level representation. We present Narriva, an approach that generates text-based synthetic privacy personas to address these shortcomings. Narriva grounds persona generation in prior user privacy decisions, such as those from large-scale survey datasets, rather than purely relying on demographic stereotypes. It compresses this data into concise, human-readable summaries structured by established privacy theories. Through benchmarking across five diverse datasets, we analyze the characteristics of Narriva's synthetic personas in modeling both individual and population-level privacy preferences. We find that grounding personas in past privacy behaviors achieves up to 88% predictive accuracy (significantly outperforming a non-personalized LLM baseline), and yields an 80-95% reduction in prompt tokens compared to in-context learning with raw examples. Finally, we demonstrate that personas synthesized from a single survey can reproduce the aggregate privacy behaviors and statistical distributions (TVComplement up to 0.85) of entirely different studies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.19703v1">Minimax and Adaptive Covariance Matrix Estimation under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-03-20T07:13:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> T. Tony Cai, Yicheng Li</p>
-    <p><b>Summary:</b> The covariance matrix plays a fundamental role in the analysis of high-dimensional data. This paper studies minimax and adaptive estimation of high-dimensional bandable covariance matrices under differential privacy constraints. We propose a novel differentially private blockwise tridiagonal estimator that achieves minimax-optimal convergence rates under both the operator norm and the Frobenius norm. In contrast to the non-private setting, the privacy-induced error exhibits a polynomial dependence on the ambient dimension, revealing a substantial additional cost of privacy.
-  To establish optimality, we develop a new differentially private van Trees inequality and construct carefully designed prior distributions to obtain matching minimax lower bounds. The proposed private van Trees inequality applies more broadly to general private estimation problems and is of independent interest. We further introduce an adaptive estimator that attains the optimal rate up to a logarithmic factor without prior knowledge of the decay parameter, based on a novel hierarchical tridiagonal approach. Numerical experiments corroborate the theoretical results and illustrate the fundamental privacy-accuracy trade-off.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-04</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.09518v1">Demonstrably Informed Consent in Privacy Policy Flows: Evidence from a Randomized Experiment</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.11523v1">PAC-BENCH: Evaluating Multi-Agent Collaboration under Privacy Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2026-04-13T14:26:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Minjun Park, Donghyun Kim, Hyeonjong Ju, Seungwon Lim, Dongwook Choi, Taeyoon Kwon, Minju Kim, Jinyoung Yeo</p>
+    <p><b>Summary:</b> We are entering an era in which individuals and organizations increasingly deploy dedicated AI agents that interact and collaborate with other agents. However, the dynamics of multi-agent collaboration under privacy constraints remain poorly understood. In this work, we present $PAC\text{-}Bench$, a benchmark for systematic evaluation of multi-agent collaboration under privacy constraints. Experiments on $PAC\text{-}Bench$ show that privacy constraints substantially degrade collaboration performance and make outcomes depend more on the initiating agent than the partner. Further analysis reveals that this degradation is driven by recurring coordination breakdowns, including early-stage privacy violations, overly conservative abstraction, and privacy-induced hallucinations. Together, our findings identify privacy-aware multi-agent collaboration as a distinct and unresolved challenge that requires new coordination mechanisms beyond existing agent capabilities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.11259v1">Mobile GUI Agent Privacy Personalization with Trajectory Induced Preference Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-13T10:12:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhixin Lin, Jungang Li, Dongliang Xu, Shidong Pan, Yibo Shi, Yuchi Liu, Yuecong Min, Yue Yao</p>
+    <p><b>Summary:</b> Mobile GUI agents powered by Multimodal Large Language Models (MLLMs) can execute complex tasks on mobile devices. Despite this progress, most existing systems still optimize task success or efficiency, neglecting users' privacy personalization. In this paper, we study the often-overlooked problem of agent personalization. We observe that personalization can induce systematic structural heterogeneity in execution trajectories. For example, privacy-first users often prefer protective actions, e.g., refusing permissions, logging out, and minimizing exposure, leading to logically different execution trajectories from utility-first users. Such variable-length and structurally different trajectories make standard preference optimization unstable and less informative. To address this issue, we propose Trajectory Induced Preference Optimization (TIPO), which uses preference-intensity weighting to emphasize key privacy-related steps and padding gating to suppress alignment noise. Results on our Privacy Preference Dataset show that TIPO improves persona alignment and distinction while preserving strong task executability, achieving 65.60% SR, 46.22 Compliance, and 66.67% PD, outperforming existing optimization methods across various GUI tasks. The code and dataset will be publicly released at https://github.com/Zhixin-L/TIPO.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10881v1">Answering Counting Queries with Differential Privacy on a Quantum Computer</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-13T00:57:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Arghya Mukherjee, Hassan Jameel Asghar, Gavin K. Brennen</p>
+    <p><b>Summary:</b> Differential privacy is a mathematical notion of data privacy that has fast become the de facto standard in privacy-preserving data analysis. Recently a lot of work has focused on differential privacy in the quantum setting. Continuing on this line of study, we investigate how to answer counting queries on a quantum encoded dataset with differential privacy. An example of a counting query is ``How many people in the dataset are over the age of 25 and with a university education?'' Counting queries form the most basic but nonetheless rich set of statistics extractable from a dataset. We show that answering these queries on a quantum encoded dataset reduces to measuring the amplitude of one of two orthogonal states. We then analyze the differential privacy properties of two algorithms from literature to measure amplitude: one which performs repeated measurements in the computational basis, and the other which utilizes the classic amplitude estimation algorithm. For the first technique, we prove privacy results for the case of counting queries that improve on previously known results on general queries, and show that the mechanism in fact \emph{amplifies} privacy due to inherent randomness. For the second method, we derive a tight bound on maximum possible change in the amplitude if we add or remove a single item in the dataset, a quantity called global sensitivity which is central in making an algorithm differentially private. We then show a differentially private version of the amplitude estimation algorithm for counting queries. We also discuss how these methods can be outsourced to a quantum server to blindly compute counting queries with differential privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10832v1">Privacy as Permissible Operations: An ABAC Framework for Policy-Law Compliance</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-12T21:57:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ajay Dhakar, Arunesh Sinha, Shamik Sural</p>
+    <p><b>Summary:</b> In recent years, many countries have started enacting laws to safeguard privacy of personal data of their citizens collected and maintained by various enterprises through websites, mobile apps, and other means. It is imperative that the privacy policies of these enterprises respect the provisions of the applicable law. In this paper, we show how such organizational privacy policies can be efficiently checked against a prevalent law. Our novel approach named APLiance (\underline{A}BAC framework for \underline{P}olicy-\underline{L}aw Compl\underline{iance}) models the requirements of the different sections of a privacy law in the form of Attribute-based Access Control (ABAC) rules and the clauses of a privacy policy as a sequence of implied access requests. A policy is considered to be compliant with the law if these access requests are permitted by the corresponding ABAC rules. Although APLiance can be used in any policy-law setting, we demonstrate its effectiveness in the context of the recently introduced Digital Personal Data Protection Act of India. A browser plugin has been developed and publicly released for real time compliance checking using APLiance whenever a user visits the privacy policy page of a website.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10685v1">COD-ssi: Enforcing Mutual Privacy for Credential Oblivious Disclosure in Self Sovereign Identity</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
+  <p><b>Published on:</b> 2026-04-12T15:23:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Elia Onofri, Andrea De Salve, Paolo Mori, Laura Emilia Maria Ricci, Roberto Di Pietro</p>
+    <p><b>Summary:</b> The Self-Sovereign Identity (SSI) paradigm is instrumental for decentralised identity management, allowing an entity to create, manage, and present their digital credentials without relying on centralised authorities. Credential selective disclosure is one of the most attractive privacy-preserving features of SSI, allowing users to reveal only the minimum necessary information from their credentials. However, current selective disclosure mechanisms primarily focus on protecting the privacy of credential Holders, while offering limited protection to the Verifiers of credentials. Indeed, the specific credential information requested by a Verifier can inadvertently reveal to credential Holders sensitive information, including internal decision-making criteria, business rules, or strategic plans. In this work, we address this threat by proposing, to the best of our knowledge, the first approach that enforces mutual privacy in credential exchanges. To this end, we introduce COD-ssi (Claim Oblivious Disclosure for SSI), a novel framework that leverages Oblivious Pseudorandom Functions to allow Verifiers to selectively access a subset of claims without revealing which specific claims were accessed to the credential Holder. The security of our solution is formally verified and its feasibility is assessed through the experimental evaluation of our open-source prototype implementation. These results show that provable mutual privacy in the context of SSI can be achieved with just moderate computational and communication overhead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10636v1">Mitigating Privacy Risk via Forget Set-Free Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-04-12T13:24:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aviraj Newatia, Michael Cooper, Viet Nguyen, Rahul G. Krishnan</p>
+    <p><b>Summary:</b> Training machine learning models requires the storage of large datasets, which often contain sensitive or private data. Storing data is associated with a number of potential risks which increase over time, such as database breaches and malicious adversaries. Machine unlearning is the study of methods to efficiently remove the influence of training data subsets from previously-trained models. Existing unlearning methods typically require direct access to the "forget set" -- the data to be forgotten-and organisations must retain this data for unlearning rather than deleting it immediately upon request, increasing risks associated with the forget set. We introduce partially-blind unlearning -- utilizing auxiliary information to unlearn without explicit access to the forget set. We also propose a practical framework Reload, a partially-blind method based on gradient optimization and structured weight sparsification to operationalize partially-blind unlearning. We show that Reload efficiently unlearns, approximating models retrained from scratch, and outperforms several forget set-dependent approaches. On language models, Reload unlearns entities using <0.025% of the retain set and <7% of model weights in <8 minutes on Llama2-7B. In the corrective case, Reload achieves unlearning even when only 10% of corrupted data is identified.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10499v1">FEDBUD: Joint Incentive and Privacy Optimization for Resource-Constrained Federated Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-04-12T07:11:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Liu, Xuehe Wang</p>
+    <p><b>Summary:</b> Federated learning has become a popular paradigm for privacy protection and edge-based machine learning. However, defending against differential attacks and devising incentive strategies remain significant bottlenecks in this field. Despite recent works on privacy-aware incentive mechanism design for federated learning, few of them consider both data volume and noise level. In this paper, we propose a novel federated learning system called FEDBUD, which combines privacy and economic concerns together by considering the joint influence of data volume and noise level on incentive strategy determination. In this system, the cloud server controls monetary payments to edge nodes, while edge nodes control data volume and noise level that potentially impact the model performance of the cloud server. To determine the mutually optimal strategies for both sides, we model FEDBUD as a two-stage Stackelberg Game and derive the Nash Equilibrium using the mean-field estimator and virtual queue. Experimental results on real-world datasets demonstrate the outstanding performance of FEDBUD.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10443v1">Tradeoffs in Privacy, Welfare, and Fairness for Facility Location</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB">
+  <p><b>Published on:</b> 2026-04-12T03:51:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sara Fish, Yannai A. Gonczarowski, Jason Z. Tang, Salil Vadhan</p>
+    <p><b>Summary:</b> The differentially private (DP) facility location problem seeks to determine a socially optimal placement for a public facility while ensuring that each participating agent's location remains private. To privatize its input data, a DP mechanism must inject noise into its output distribution, producing a placement that will have lower expected social welfare than the optimal spot for the facility. The privacy-induced welfare loss can be viewed as the "cost of privacy," illustrating a tradeoff between social welfare and privacy that has been the focus of prior work. Yet, the imposition of privacy also induces a third consideration that has not been similarly studied: fairness in how the "cost of privacy" is distributed across individuals. For instance, a mechanism may satisfy DP with minimal social welfare loss, yet still be undesirable if that loss falls entirely on one individual. In this paper, we quantify this new notion of unfairness and design mechanisms for facility location that attempt to simultaneously optimize across privacy, social welfare, and fairness.
+  We first derive an impossibility result, showing that privacy and fairness cannot be simultaneously guaranteed over all possible datasets that could represent the locations of individuals in a population. We then consider a relaxation that still requires worst-case DP, but only seeks fairness and social welfare over smaller, more "realistic-looking" families of datasets. For this relaxation, we construct a DP mechanism and demonstrate that it is simultaneously optimal (or, for a harder family of datasets, near-optimal up to small factors) on fairness and social welfare. This suggests that while there is a tradeoff between privacy and each of social welfare and fairness, there is no additional tradeoff when we consider all three objectives simultaneously, provided that the population data is sufficiently natural.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10424v1">Membership Inference Attacks Expose Participation Privacy in ECG Foundation Encoders</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-04-12T02:45:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ziyu Wang, Elahe Khatibi, Ankita Sharma, Krishnendu Chakrabarty, Sanaz Rahimi Moosavi, Farshad Firouzi, Amir Rahmani</p>
+    <p><b>Summary:</b> Foundation-style ECG encoders pretrained with self-supervised learning are increasingly reused across tasks, institutions, and deployment contexts, often through model-as-a-service interfaces that expose scalar scores or latent representations. While such reuse improves data efficiency and generalization, it raises a participation privacy concern: can an adversary infer whether a specific individual or cohort contributed ECG data to pretraining, even when raw waveforms and diagnostic labels are never disclosed? In connected-health settings, training participation itself may reveal institutional affiliation, study enrollment, or sensitive health context.
+  We present an implementation-grounded audit of membership inference attacks (MIAs) against modern self-supervised ECG foundation encoders, covering contrastive objectives (SimCLR, TS2Vec) and masked reconstruction objectives (CNN- and Transformer-based MAE). We evaluate three realistic attacker interfaces: (i) score-only black-box access to scalar outputs, (ii) adaptive learned attackers that aggregate subject-level statistics across repeated queries, and (iii) embedding-access attackers that probe latent representation geometry. Using a subject-centric protocol with window-to-subject aggregation and calibration at fixed false-positive rates under a cross-dataset auditing setting, we observe heterogeneous and objective-dependent participation leakage: leakage is most pronounced in small or institution-specific cohorts and, for contrastive encoders, can saturate in embedding space, while larger and more diverse datasets substantially attenuate operational tail risk. Overall, our results show that restricting access to raw signals or labels is insufficient to guarantee participation privacy, underscoring the need for deployment-aware auditing of reusable biosignal foundation encoders in connected-health systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.10145v1">Mask-Free Privacy Extraction and Rewriting: A Domain-Aware Approach via Prototype Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-11T10:21:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaodong Li, Yuhua Wang, Qingchen Yu, Zixuan Qin, Yifan Sun, Qinnan Zhang, Hainan Zhang, Zhiming Zheng</p>
+    <p><b>Summary:</b> Client-side privacy rewriting is crucial for deploying LLMs in privacy-sensitive domains. However, existing approaches struggle to balance privacy and utility. Full-text methods often distort context, while span-level approaches rely on impractical manual masks or brittle static dictionaries. Attempts to automate localization via prompt-based LLMs prove unreliable, as they suffer from unstable instruction following that leads to privacy leakage and excessive context scrubbing. To address these limitations, we propose DAMPER (Domain-Aware Mask-free Privacy Extraction and Rewriting). DAMPER operationalizes latent privacy semantics into compact Domain Privacy Prototypes via contrastive learning, enabling precise, autonomous span localization. Furthermore, we introduce a Prototype-Guided Preference Alignment, which leverages learned prototypes as semantic anchors to construct preference pairs, optimizing a domain-compliant rewriting policy without human annotations. At inference time, DAMPER integrates a sampling-based Exponential Mechanism to provide rigorous span-level Differential Privacy (DP) guarantees. Extensive experiments demonstrate that DAMPER significantly outperforms existing baselines, achieving a superior privacy-utility trade-off.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.09518v2">Demonstrably Informed Consent in Privacy Policy Flows: Evidence from a Randomized Experiment</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-04-10T17:39:11Z</p>
   <details>
@@ -820,13 +809,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.07486v1">Private Seeds, Public LLMs: Realistic and Privacy-Preserving Synthetic Data Generation</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.07486v2">Private Seeds, Public LLMs: Realistic and Privacy-Preserving Synthetic Data Generation</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-04-08T18:26:34Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Qian Ma, Sarah Rajtmajer</p>
-    <p><b>Summary:</b> Large language models (LLMs) have emerged as a powerful tool for synthetic data generation. A particularly important use case is producing synthetic replicas of private text, which requires carefully balancing privacy and utility. We propose Realistic and Privacy-Preserving Synthetic Data Generation (RPSG), which leverages privacy-preserving mechanisms, including formal differential privacy (DP); and private seeds, in particular text containing personal information, to generate realistic synthetic data. Comprehensive experiments against state-of-the-art private synthetic data generation methods demonstrate that RPSG achieves high fidelity to private data while providing strong privacy protection.</p>
+    <p><b>Summary:</b> Large language models (LLMs) have emerged as a powerful tool for synthetic data generation. A particularly important use case is producing synthetic replicas of private text, which requires carefully balancing privacy and utility. We propose Realistic and Privacy-Preserving Synthetic Data Generation (RPSG), which uses private seeds and integrates privacy-preserving strategies, including a formal differential privacy (DP) mechanism in the candidate selection, to generate realistic synthetic data. Comprehensive experiments against state-of-the-art private synthetic data generation methods demonstrate that RPSG achieves high fidelity to private data while providing strong privacy protection.</p>
   </details>
 </div>
 
@@ -980,6 +969,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.09695v1">Assessing Privacy Preservation and Utility in Online Vision-Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-04-06T20:44:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Karmesh Siddharam Chaudhari, Youxiang Zhu, Amy Feng, Xiaohui Liang, Honggang Zhang</p>
+    <p><b>Summary:</b> The increasing use of Online Vision Language Models (OVLMs) for processing images has introduced significant privacy risks, as individuals frequently upload images for various utilities, unaware of the potential for privacy violations. Images contain relationships that relate to Personally Identifiable Information (PII), where even seemingly harmless details can indirectly reveal sensitive information through surrounding clues. This paper explores the critical issue of PII disclosure in images uploaded to OVLMs and its implications for user privacy. We investigate how the extraction of contextual relationships from images can lead to direct (explicit) or indirect (implicit) exposure of PII, significantly compromising personal privacy. Furthermore, we propose methods to protect privacy while preserving the intended utility of the images in Vision Language Model (VLM)-based applications. Our evaluation demonstrates the efficacy of these techniques, highlighting the delicate balance between maintaining utility and protecting privacy in online image processing environments. Index Terms-Personally Identifiable Information (PII), Privacy, Utility, privacy concerns, sensitive information</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2604.05077v1">Feature-Aware Anisotropic Local Differential Privacy for Utility-Preserving Graph Representation Learning in Metal Additive Manufacturing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-04-06T18:29:21Z</p>
@@ -1089,7 +1090,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.01616v2">Quantum-Enhanced Processing with Tensor-Network Frontends for Privacy-Aware Federated Medical Diagnosis</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.01616v3">Quantum-Enhanced Processing with Tensor-Network Frontends for Privacy-Aware Federated Medical Diagnosis</a></h3>
   
   <p><b>Published on:</b> 2026-04-02T04:52:31Z</p>
   <details>
@@ -1137,7 +1138,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.01370v1">"The System Will Choose Security Over Humanity Every Time": Understanding Security and Privacy for U.S. Incarcerated Users</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.01370v2">"The System Will Choose Security Over Humanity Every Time": Understanding Security and Privacy for U.S. Incarcerated Users</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-04-01T20:28:09Z</p>
   <details>
