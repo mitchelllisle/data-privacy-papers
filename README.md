@@ -317,46 +317,44 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.26032v1">Protecting User Prompts Via Character-Level Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-03-27T03:02:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shashie Dilhara Batan Arachchige, Hassan Jameel Asghar, Benjamin Zi Hao Zhao, Dinusha Vatsalan, Dali Kaafar</p>
-    <p><b>Summary:</b> Large Language Models (LLMs) generate responses based on user prompts. Often, these prompts may contain highly sensitive information, including personally identifiable information (PII), which could be exposed to third parties hosting these models. In this work, we propose a new method to sanitize user prompts. Our mechanism uses the randomized response mechanism of differential privacy to randomly and independently perturb each character in a word. The perturbed text is then sent to a remote LLM, which first performs a prompt restoration and subsequently performs the intended downstream task. The idea is that the restoration will be able to reconstruct non-sensitive words even when they are perturbed due to cues from the context, as well as the fact that these words are often very common. On the other hand, perturbation would make reconstruction of sensitive words difficult because they are rare. We experimentally validate our method on two datasets, i2b2/UTHealth and Enron, using two LLMs: Llama-3.1 8B Instruct and GPT-4o mini. We also compare our approach with a word-level differentially private mechanism, and with a rule-based PII redaction baseline, using a unified privacy-utility evaluation. Our results show that sensitive PII tagged in these datasets are reconstructed at a rate close to the theoretical rate of reconstructing completely random words, whereas non-sensitive words are reconstructed at a much higher rate. Our method has the advantage that it can be applied without explicitly identifying sensitive pieces of information in the prompt, while showing a good privacy-utility tradeoff for downstream tasks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.25190v2">zk-X509: Privacy-Preserving On-Chain Identity from Legacy PKI via Zero-Knowledge Proofs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2026-03-26T08:55:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yeongju Bak</p>
-    <p><b>Summary:</b> Public blockchains impose an inherent tension between regulatory compliance and user privacy. Existing on-chain identity solutions require centralized KYC attestors, specialized hardware, or Decentralized Identifier (DID) frameworks needing entirely new credential infrastructure. Meanwhile, over four billion active X.509 certificates constitute a globally deployed, government-grade trust infrastructure largely unexploited for decentralized identity.
-  This paper presents zk-X509, a privacy-preserving identity system bridging legacy Public Key Infrastructure (PKI) with public ledgers via a RISC-V zero-knowledge virtual machine (zkVM). Users prove ownership of standard X.509 certificates without revealing private keys or personal identifiers. Crucially, the private key never enters the ZK circuit; ownership is proven via OS keychain signature delegation (macOS Security.framework, Windows CNG). The circuit verifies certificate chain validity, temporal validity, key ownership, trustless CRL revocation, blockchain address binding, and Sybil-resistant nullifier generation. It commits 13 public values, including a Certificate Authority (CA) Merkle root hiding the issuing CA, and four selective disclosure hashes.
-  We formalize eight security properties under a Dolev-Yao adversary with game-based definitions and reductions to sEUF-CMA, SHA-256 collision resistance, and ZK soundness. Evaluated on the SP1 zkVM, the system achieves 11.8M cycles for ECDSA P-256 (17.4M for RSA-2048), with on-chain Groth16 verification costing ~300K gas. By leveraging certificates deployed at scale across jurisdictions, zk-X509 enables adoption without new trust establishment, complementing emerging DID-based systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2603.25186v1">Knowledge-Guided Retrieval-Augmented Generation for Zero-Shot Psychiatric Data: Privacy Preserving Synthetic Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-03-26T08:52:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Adam Jakobsen, Sushant Gautam, Hugo Lewi Hammer, Susanne Olofsdotter, Miriam S Johanson, Pål Halvorsen, Vajira Thambawita</p>
-    <p><b>Summary:</b> AI systems in healthcare research have shown potential to increase patient throughput and assist clinicians, yet progress is constrained by limited access to real patient data. To address this issue, we present a zero-shot, knowledge-guided framework for psychiatric tabular data in which large language models (LLMs) are steered via Retrieval-Augmented Generation using the Diagnostic and Statistical Manual of Mental Disorders (DSM-5) and the International Classification of Diseases (ICD-10). We conducted experiments using different combinations of knowledge bases to generate privacy-preserving synthetic data. The resulting models were benchmarked against two state-of-the-art deep learning models for synthetic tabular data generation, namely CTGAN and TVAE, both of which rely on real data and therefore entail potential privacy risks. Evaluation was performed on six anxiety-related disorders: specific phobia, social anxiety disorder, agoraphobia, generalized anxiety disorder, separation anxiety disorder, and panic disorder. CTGAN typically achieves the best marginals and multivariate structure, while the knowledge-augmented LLM is competitive on pairwise structure and attains the lowest pairwise error in separation anxiety and social anxiety. An ablation study shows that clinical retrieval reliably improves univariate and pairwise fidelity over a no-retrieval LLM. Privacy analyses indicate that the real data-free LLM yields modest overlaps and a low average linkage risk comparable to CTGAN, whereas TVAE exhibits extensive duplication despite a low k-map score. Overall, grounding an LLM in clinical knowledge enables high-quality, privacy-preserving synthetic psychiatric data when real datasets are unavailable or cannot be shared.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-04</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.14833v1">Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2026-04-16T10:10:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lei Guo, Hongyun Yang, Pengjie Ren, Tong Chen, Hui Liu, Zhumin Chen</p>
+    <p><b>Summary:</b> Large Language Models have shown great success in recommender systems. However, the limited and sparse nature of user data often restricts the LLM's ability to effectively model behavior patterns. To address this, existing studies have explored cross-domain solutions by conducting Cross-Domain Recommendation tasks. But previous methods typically assume domains are overlapped and can be accessed readily. None of the LLM methods address the privacy-preserving issues in the CDR settings, that is, Privacy-Preserving Cross-Domain Recommendation. Conducting non-overlapping PPCDR with LLM is challenging since: 1)The inability to share user identity or behavioral data across domains impedes effective cross-domain alignment. 2)The heterogeneity of data modalities across domains complicates knowledge integration. 3)Fusing collaborative filtering signals from traditional recommendation models with LLMs is difficult, as they operate within distinct feature spaces. To address the above issues, we propose SF-UBM, a Semantic-enhanced Federated User Behavior Modeling method. Specifically, to deal with Challenge 1, we leverage natural language as a universal bridge to connect disjoint domains via a semantic-enhanced federated architecture. Here, text-based item representations are encrypted and shared, while user-specific data remains local. To handle Challenge 2, we design a Fact-counter Knowledge Distillation module to integrate domain-agnostic knowledge with domain-specific knowledge, across different data modalities. To tackle Challenge 3, we project pre-learned user preferences and cross-domain item representations into the soft prompt space, aligning behavioral and semantic spaces for effective LLM learning. We conduct extensive experiments on three pairs of real-world domains, and the experimental results demonstrate the effectiveness of SF-UBM compared to the recent SOTA methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.14495v1">Decoupling Identity from Utility: Privacy-by-Design Frameworks for Financial Ecosystems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-16T00:07:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ifayoyinsola Ibikunle, Tyler Farnan, Senthil Kumar, Mayana Pereira</p>
+    <p><b>Summary:</b> Financial institutions face tension between maximizing data utility and mitigating the re-identification risks inherent in traditional anonymization methods. This paper explores Differentially Private (DP) synthetic data as a robust "Privacy by Design" framework to resolve this conflict, ensuring output privacy while satisfying stringent regulatory obligations. We examine two distinct generative paradigms: Direct Tabular Synthesis, which reconstructs high-fidelity joint distributions from raw data, and DP-Seeded Agent-Based Modeling (ABM), which uses DP-protected aggregates to parameterize complex, stateful simulations. While tabular synthesis excels at reflecting static historical correlations for QA testing and business analytics, the DP-Seeded ABM offers a forward-looking "counterfactual laboratory" capable of modeling dynamic market behaviors and black swan events. By decoupling individual identities from data utility, these methodologies eliminate traditional data-clearing bottlenecks, enabling seamless cross-institutional research and compliant decision-making in an evolving regulatory landscape.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.14250v1">Head Count: Privacy-Preserving Face-Based Crowd Monitoring</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-04-15T09:19:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatemeh Marzani, Thijs van Ede, Geert Heijenk, Maarten van Steen</p>
+    <p><b>Summary:</b> An important aspect of crowd monitoring is knowing how many people we are dealing with. Sometimes, knowing the size of a crowd in a single location and at a specific moment is enough. Matters become problematic when counting the same people across dif ferent locations or counting them over longer periods of time. In those cases, we need to identify and later reidentify a person, which immediately leads to privacy concerns. Until recently, solutions have been based on unique identification of carry-on devices, yet privacy improvements have caused transmitted information to be randomized, rendering this technique mostly useless. We propose to use biometric data instead. We introduce a pipeline that counts people based on face recognition, yet without ever being able to reveal the identity of individuals. To count, a camera initially detects a face, extracts its features, and derives an identifier using a fuzzy extractor. The original facial image is then deleted. Identifiers are inserted into homomorphically encrypted Bloom filters. This allows oblivious set membership testing directly on encrypted data, enabling the system to count across locations or across different moments, without revealing any identities. We provide an initial evaluation of our method that shows promising results.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2604.13635v1">Look One Step Ahead: Forward-Looking Incentive Design with Strategic Privacy for Proactive Service Provisioning over Air-Ground Integrated Edge Networks</a></h3>
