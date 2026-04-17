@@ -2172,5 +2172,86 @@
     "categories" : [
       "quant-ph"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.14833v1",
+    "title" : "Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation",
+    "summary" : "Large Language Models have shown great success in recommender systems. However, the limited and sparse nature of user data often restricts the LLM's ability to effectively model behavior patterns. To address this, existing studies have explored cross-domain solutions by conducting Cross-Domain Recommendation tasks. But previous methods typically assume domains are overlapped and can be accessed readily. None of the LLM methods address the privacy-preserving issues in the CDR settings, that is, Privacy-Preserving Cross-Domain Recommendation. Conducting non-overlapping PPCDR with LLM is challenging since: 1)The inability to share user identity or behavioral data across domains impedes effective cross-domain alignment. 2)The heterogeneity of data modalities across domains complicates knowledge integration. 3)Fusing collaborative filtering signals from traditional recommendation models with LLMs is difficult, as they operate within distinct feature spaces. To address the above issues, we propose SF-UBM, a Semantic-enhanced Federated User Behavior Modeling method. Specifically, to deal with Challenge 1, we leverage natural language as a universal bridge to connect disjoint domains via a semantic-enhanced federated architecture. Here, text-based item representations are encrypted and shared, while user-specific data remains local. To handle Challenge 2, we design a Fact-counter Knowledge Distillation module to integrate domain-agnostic knowledge with domain-specific knowledge, across different data modalities. To tackle Challenge 3, we project pre-learned user preferences and cross-domain item representations into the soft prompt space, aligning behavioral and semantic spaces for effective LLM learning. We conduct extensive experiments on three pairs of real-world domains, and the experimental results demonstrate the effectiveness of SF-UBM compared to the recent SOTA methods.",
+    "updated" : "2026-04-16T10:10:16Z",
+    "published" : "2026-04-16T10:10:16Z",
+    "authors" : [
+      {
+        "name" : "Lei Guo"
+      },
+      {
+        "name" : "Hongyun Yang"
+      },
+      {
+        "name" : "Pengjie Ren"
+      },
+      {
+        "name" : "Tong Chen"
+      },
+      {
+        "name" : "Hui Liu"
+      },
+      {
+        "name" : "Zhumin Chen"
+      }
+    ],
+    "categories" : [
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.14495v1",
+    "title" : "Decoupling Identity from Utility: Privacy-by-Design Frameworks for Financial Ecosystems",
+    "summary" : "Financial institutions face tension between maximizing data utility and mitigating the re-identification risks inherent in traditional anonymization methods. This paper explores Differentially Private (DP) synthetic data as a robust \"Privacy by Design\" framework to resolve this conflict, ensuring output privacy while satisfying stringent regulatory obligations. We examine two distinct generative paradigms: Direct Tabular Synthesis, which reconstructs high-fidelity joint distributions from raw data, and DP-Seeded Agent-Based Modeling (ABM), which uses DP-protected aggregates to parameterize complex, stateful simulations. While tabular synthesis excels at reflecting static historical correlations for QA testing and business analytics, the DP-Seeded ABM offers a forward-looking \"counterfactual laboratory\" capable of modeling dynamic market behaviors and black swan events. By decoupling individual identities from data utility, these methodologies eliminate traditional data-clearing bottlenecks, enabling seamless cross-institutional research and compliant decision-making in an evolving regulatory landscape.",
+    "updated" : "2026-04-16T00:07:32Z",
+    "published" : "2026-04-16T00:07:32Z",
+    "authors" : [
+      {
+        "name" : "Ifayoyinsola Ibikunle"
+      },
+      {
+        "name" : "Tyler Farnan"
+      },
+      {
+        "name" : "Senthil Kumar"
+      },
+      {
+        "name" : "Mayana Pereira"
+      }
+    ],
+    "categories" : [
+      "cs.CE",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.14250v1",
+    "title" : "Head Count: Privacy-Preserving Face-Based Crowd Monitoring",
+    "summary" : "An important aspect of crowd monitoring is knowing how many people we are dealing with. Sometimes, knowing the size of a crowd in a single location and at a specific moment is enough. Matters become problematic when counting the same people across dif ferent locations or counting them over longer periods of time. In those cases, we need to identify and later reidentify a person, which immediately leads to privacy concerns. Until recently, solutions have been based on unique identification of carry-on devices, yet privacy improvements have caused transmitted information to be randomized, rendering this technique mostly useless. We propose to use biometric data instead. We introduce a pipeline that counts people based on face recognition, yet without ever being able to reveal the identity of individuals. To count, a camera initially detects a face, extracts its features, and derives an identifier using a fuzzy extractor. The original facial image is then deleted. Identifiers are inserted into homomorphically encrypted Bloom filters. This allows oblivious set membership testing directly on encrypted data, enabling the system to count across locations or across different moments, without revealing any identities. We provide an initial evaluation of our method that shows promising results.",
+    "updated" : "2026-04-15T09:19:08Z",
+    "published" : "2026-04-15T09:19:08Z",
+    "authors" : [
+      {
+        "name" : "Fatemeh Marzani"
+      },
+      {
+        "name" : "Thijs van Ede"
+      },
+      {
+        "name" : "Geert Heijenk"
+      },
+      {
+        "name" : "Maarten van Steen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
   }
 ]
