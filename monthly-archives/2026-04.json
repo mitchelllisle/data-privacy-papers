@@ -2253,5 +2253,142 @@
       "cs.CR",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.16128v1",
+    "title" : "PolicyGapper: Automated Detection of Inconsistencies Between Google Play Data Safety Sections and Privacy Policies Using LLMs",
+    "summary" : "Mobile application developers are required to disclose how they collect, use, and share user data in compliance with privacy regulations. To support transparency, major app marketplaces have introduced standardized disclosure mechanisms. In 2022, Google mandated the Data Safety Section (DSS) on Google Play, requiring developers to summarize their data practices. However, compiling accurate DSS disclosures is challenging, as they must remain consistent with the corresponding privacy policy (PP), and no automated tool currently verifies this alignment. Prior studies indicate that nearly 80% of popular apps contain incomplete or misleading DSS declarations. We present PolicyGapper, an LLM-based methodology for automatically detecting discrepancies between DSS disclosures and privacy policies. PolicyGapper operates in four stages: scraping, pre-processing, analysis, and post-processing, without requiring access to application binaries. We evaluate PolicyGapper on a dataset of 330 top-ranked apps spanning all 33 Google Play categories, collected in Q3 2025. The approach identifies 2,689 omitted disclosures, including 2,040 related to data collection and 649 to data sharing. Manual validation on a stratified 10% subset, repeated across three independent runs, yields an average Precision of 0.75, Recall of 0.77, Accuracy of 0.69, and F1-score of 0.76. To support reproducibility, we release a complete replication package, including the dataset, prompts, source code, and results available at https://github.com/Mobile-IoT-Security-Lab/PolicyGapper and https://doi.org/10.5281/zenodo.19628493.",
+    "updated" : "2026-04-17T15:02:01Z",
+    "published" : "2026-04-17T15:02:01Z",
+    "authors" : [
+      {
+        "name" : "Luca Ferrari"
+      },
+      {
+        "name" : "Billel Habbati"
+      },
+      {
+        "name" : "Meriem Guerar"
+      },
+      {
+        "name" : "Mariano Ceccato"
+      },
+      {
+        "name" : "Luca Verderame"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.16068v1",
+    "title" : "A Novel Framework for Transmitter Privacy in Integrated Sensing and Communication",
+    "summary" : "ISAC systems introduce new privacy risks because an unintended sensing node may exploit the shared radio waveform to infer transmitter-related information even when the communication payload remains secure. This paper investigates transmitter privacy, defined as limiting unauthorized inference of transmitter-related information through channel estimation, in a RIS-aided multi-antenna wireless system with a transmitter, a legitimate receiver, a malicious sensor, and a RIS. The malicious sensor is assumed to estimate the transmitter--sensor channel, and the resulting channel state information can then support unauthorized sensing, inference, or related signal processing. To mitigate this threat, we consider a privacy-oriented design in which the transmitter adopts superposition-based signaling with a message signal and transmit-side artificial noise, while the RIS shapes the propagation environment in a privacy-aware manner. The channel-estimation performance at the malicious sensor is first analyzed under imperfect prior knowledge, and both the true and predicted mean-square-error expressions are derived. Based on this analysis, we formulate a joint active--passive beamforming design problem that maximizes the malicious sensor's predicted channel-estimation error subject to a communication quality-of-service constraint, a transmit-power budget, and the unit-modulus constraints of the RIS. The resulting non-convex problem is handled through a numerically efficient alternating-optimization framework based on an augmented Lagrangian reformulation. Numerical results show that RIS-assisted propagation shaping can substantially degrade unauthorized channel estimation relative to the non-RIS case while preserving reliable communication, and further show that the privacy gains also improve a more direct sensing metric, namely the malicious sensor's angle-of-arrival estimation accuracy.",
+    "updated" : "2026-04-17T13:52:18Z",
+    "published" : "2026-04-17T13:52:18Z",
+    "authors" : [
+      {
+        "name" : "Vaibhav Kumar"
+      },
+      {
+        "name" : "Ahmad Bazzi"
+      },
+      {
+        "name" : "Christina Pöpper"
+      },
+      {
+        "name" : "Marwa Chafii"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.15851v1",
+    "title" : "DPrivBench: Benchmarking LLMs' Reasoning for Differential Privacy",
+    "summary" : "Differential privacy (DP) has a wide range of applications for protecting data privacy, but designing and verifying DP algorithms requires expert-level reasoning, creating a high barrier for non-expert practitioners. Prior works either rely on specialized verification languages that demand substantial domain expertise or remain semi-automated and require human-in-the-loop guidance. In this work, we investigate whether large language models (LLMs) can automate DP reasoning. We introduce DPrivBench, a benchmark in which each instance asks whether a function or algorithm satisfies a stated DP guarantee under specified assumptions. The benchmark is carefully designed to cover a broad range of DP topics, span diverse difficulty levels, and resist shortcut reasoning through trivial pattern matching. Experiments show that while the strongest models handle textbook mechanisms well, all models struggle with advanced algorithms, revealing substantial gaps in current DP reasoning capabilities. Through further analytic study and failure-mode analysis, we identify several promising directions for improving automated DP reasoning. Our benchmark provides a solid foundation for developing and evaluating such methods, and complements existing benchmarks for mathematical reasoning.",
+    "updated" : "2026-04-17T09:03:11Z",
+    "published" : "2026-04-17T09:03:11Z",
+    "authors" : [
+      {
+        "name" : "Erchi Wang"
+      },
+      {
+        "name" : "Pengrun Huang"
+      },
+      {
+        "name" : "Eli Chien"
+      },
+      {
+        "name" : "Om Thakkar"
+      },
+      {
+        "name" : "Kamalika Chaudhuri"
+      },
+      {
+        "name" : "Yu-Xiang Wang"
+      },
+      {
+        "name" : "Ruihan Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.15728v1",
+    "title" : "Privacy-Preserving LLMs Routing",
+    "summary" : "Large language model (LLM) routing has emerged as a critical strategy to balance model performance and cost-efficiency by dynamically selecting services from various model providers. However, LLM routing adds an intermediate layer between users and LLMs, creating new privacy risks to user data. These privacy risks have not been systematically studied. Although cryptographic techniques such as Secure Multi-Party Computation (MPC) enable privacy-preserving computation, their protocol design and implementation remain under-explored, and naïve implementations typically incur prohibitive computational overhead. To address this, we propose a privacy-preserving LLM routing framework (PPRoute). PPRoute includes multiple strategies to speed up encoder inference and nearest neighbor search under the MPC and maintain the quality of LLM routing. First, PPRoute uses MPC-friendly operations to boost the encoder inference. Second, PPRoute uses a multiple-step model training algorithm to maintain routing quality despite the constraints of the encrypted domain. Third, PPRoute proposes an unsorted Top-k algorithm with $O(1)$ communication complexity for secure sorting in model search, significantly reducing communication latency. Across different datasets, PPRoute achieves the performance of plaintext counterparts, while achieving approximately a 20$\\times$ speedup over naïve MPC implementations.",
+    "updated" : "2026-04-17T06:02:27Z",
+    "published" : "2026-04-17T06:02:27Z",
+    "authors" : [
+      {
+        "name" : "Xidong Wu"
+      },
+      {
+        "name" : "Yukuan Zhang"
+      },
+      {
+        "name" : "Yuqiong Ji"
+      },
+      {
+        "name" : "Reza Shirkavand"
+      },
+      {
+        "name" : "Qian Lou"
+      },
+      {
+        "name" : "Shangqian Gao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.15596v1",
+    "title" : "Privacy, Prediction, and Allocation",
+    "summary" : "Algorithmic predictions are increasingly used to inform the allocation of scarce resources. The promise of these methods is that, through machine learning, they can better identify the people who would benefit most from interventions. Recently, however, several works have called this assumption into question by demonstrating the existence of settings where simple, unit-level allocation strategies can meet or even exceed the performance of those based on individual-level targeting. Separately, other works have objected to individual-level targeting on privacy grounds, leading to an unusual situation where a single solution, unit-level targeting, is recommended for reasons of both privacy and utility. Motivated by the desire to fully understand the interplay of privacy and targeting levels, we initiate the study of aid allocation systems that satisfy differential privacy, synthesizing existing works on private optimization with the economic models of aid allocation used in the non-private literature. To this end, we investigate private variants of both individual and unit-level allocation strategies in both stochastic and distribution-free settings under a range of constraints on data availability. Through this analysis, we provide clean, interpretable bounds characterizing the tradeoffs between privacy, efficiency, and targeting precision in allocation.",
+    "updated" : "2026-04-17T00:31:58Z",
+    "published" : "2026-04-17T00:31:58Z",
+    "authors" : [
+      {
+        "name" : "Ben Jacobsen"
+      },
+      {
+        "name" : "Nitin Kohli"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
