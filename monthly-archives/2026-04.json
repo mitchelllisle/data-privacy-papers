@@ -2887,5 +2887,216 @@
       "cs.CY",
       "cs.SI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.19653v1",
+    "title" : "A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Privacy Vulnerabilities",
+    "summary" : "Human mobility data are used in numerous applications, ranging from public health to urban planning. Human mobility is inherently sensitive, as it can contain information such as religious beliefs and political affiliations. Historically, it has been proposed to modify the information using techniques such as aggregation, obfuscation, or noise addition, to adequately protect privacy and eliminate concerns. As these methods come at a great cost in utility, new methods leveraging development in generative models, were introduced. The extent to which such methods answer the privacy-utility trade-off remains an open problem. In this paper, we introduced a first step towards solving it, by the introduction and application of a new framework for utility evaluation. Furthermore, we provide evidence that privacy evaluation remains a great challenge to consider and that it should be tackled through adversarial evaluation in accordance with the current EU regulation. We propose a new membership inference attack against a subcategory of generative models, even though this subcategory was deemed private due to its resistance over the trajectory user-linking problem.",
+    "updated" : "2026-04-21T16:42:33Z",
+    "published" : "2026-04-21T16:42:33Z",
+    "authors" : [
+      {
+        "name" : "Aya Cherigui"
+      },
+      {
+        "name" : "Florent Guépin"
+      },
+      {
+        "name" : "Arnaud Legendre"
+      },
+      {
+        "name" : "Jean-François Couchot"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.19422v1",
+    "title" : "Secure Storage and Privacy-Preserving Scanpath Comparison via Garbled Circuits in Eye Tracking",
+    "summary" : "With the growing use of eye tracking on VR and mobile platforms, gaze data is increasing. While scanpath comparison is important to gaze behavior analysis, existing methods lack privacy-preserving capabilities for real-world use. We present a garbled-circuit (GC)-based approach enabling secure storage and privacy-preserving scanpath comparison under the semi-honest model. It supports two configurations: (1) a two-party setting where the data owner and processor jointly compute similarity scores without revealing their inputs, and (2) a server-assisted setting where encrypted scanpaths are stored and processed while the data owner remains offline. All decryption and comparison operations are executed inside the GC. Experiments on three eye-tracking datasets evaluate fidelity, runtime, and communication, and show secure results for MultiMatch, ScanMatch, and SubsMatch closely match plaintext outcomes, with manageable runtime and communication overhead. Tests under various network conditions indicate that the design remains feasible for real-world privacy-preserving scanpath analysis and can be extended to other GC-based behavioral algorithms.",
+    "updated" : "2026-04-21T12:53:20Z",
+    "published" : "2026-04-21T12:53:20Z",
+    "authors" : [
+      {
+        "name" : "Suleyman Ozdel"
+      },
+      {
+        "name" : "Amr Nader"
+      },
+      {
+        "name" : "Yasmeen Abdrabou"
+      },
+      {
+        "name" : "Enkelejda Kasneci"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.19219v1",
+    "title" : "Sherpa.ai Privacy-Preserving Multi-Party Entity Alignment without Intersection Disclosure for Noisy Identifiers",
+    "summary" : "Federated Learning (FL) enables collaborative model training among multiple parties without centralizing raw data. There are two main paradigms in FL: Horizontal FL (HFL), where all participants share the same feature space but hold different samples, and Vertical FL (VFL), where parties possess complementary features for the same set of samples. A prerequisite for VFL training is privacy-preserving entity alignment (PPEA), which establishes a common index of samples across parties (alignment) without revealing which samples are shared between them. Conventional private set intersection (PSI) achieves alignment but leaks intersection membership, exposing sensitive relationships between datasets. The standard private set union (PSU) mitigates this risk by aligning on the union of identifiers rather than the intersection. However, existing approaches are often limited to two parties or lack support for typo-tolerant matching.\n  In this paper, we introduce the Sherpa.ai multi-party PSU protocol for VFL, a PPEA method that hides intersection membership and enables both exact and noisy matching. The protocol generalizes two-party approaches to multiple parties with low communication overhead and offers two variants: an order-preserving version for exact alignment and an unordered version tolerant to typographical and formatting discrepancies. We prove correctness and privacy, analyze communication and computational (exponentiation) complexity, and formalize a universal index mapping from local records to a shared index space. This multi-party PSU offers a scalable, mathematically grounded protocol for PPEA in real-world VFL deployments, such as multi-institutional healthcare disease detection, collaborative risk modeling between banks and insurers, and cross-domain fraud detection between telecommunications and financial institutions, while preserving intersection privacy.",
+    "updated" : "2026-04-21T08:24:07Z",
+    "published" : "2026-04-21T08:24:07Z",
+    "authors" : [
+      {
+        "name" : "Daniel M. Jimenez-Gutierrez"
+      },
+      {
+        "name" : "Enrique Zuazua"
+      },
+      {
+        "name" : "Georgios Kellaris"
+      },
+      {
+        "name" : "Joaquin Del Rio"
+      },
+      {
+        "name" : "Oleksii Sliusarenko"
+      },
+      {
+        "name" : "Xabi Uribe-Etxebarria"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.18819v1",
+    "title" : "Blockchain-Driven AI-Enhanced Post-Quantum Multivariate Identity-based Signature and Privacy-Preserving Data Aggregation Scheme for Fog-enabled Flying Ad-Hoc Networks",
+    "summary" : "The integration of Fog Computing with Flying Ad-Hoc Networks (FANETs) offers promising capabilities for decentralized, low-latency intelligence in UAV-based applications. However, the distributed nature, mobility, and resource constraints of FANETs expose them to significant security and privacy challenges, particularly against quantum threats. To address these issues, this work introduces a blockchain-based, AI-enhanced key management framework designed for fog-enabled FANETs. The proposed scheme employs a Post-Quantum Multivariate Identity-Based Signature Scheme (PQ-MISS) and Zero-Knowledge Proofs (ZKPs) to achieve secure key establishment, privacy-preserving data aggregation, and integrity verification. A polynomial composition-based encryption mechanism and an aggregate signature model support secure and efficient multi-device communication across fog and UAV layers. Fog servers construct partial blockchain blocks from validated UAV data. These blocks are completed and mined by Cloud Servers (CSs). AI algorithms then analyze the verified data to generate accurate predictions and insights. NS-3 simulations validate the efficiency of PQ-MISS in reducing communication overhead while improving the speed and reliability of data aggregation and verification. Comparative analysis demonstrates the proposed scheme's advantages over existing methods in computational cost, post-quantum security, and scalability, making it a robust solution for secure, intelligent, and future-ready FANET systems.",
+    "updated" : "2026-04-20T20:40:55Z",
+    "published" : "2026-04-20T20:40:55Z",
+    "authors" : [
+      {
+        "name" : "Sufian Al majmaie"
+      },
+      {
+        "name" : "Ghazal Ghajari"
+      },
+      {
+        "name" : "Niraj Prasad Bhatta"
+      },
+      {
+        "name" : "Fathi Amsaad"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.18163v2",
+    "title" : "Audit-or-Cast: Enforcing Honest Elections with Privacy-Preserving Public Verification",
+    "summary" : "Electronic voting systems must balance public verifiability with voter privacy and coercion resistance. Existing cryptographic protocols typically achieve end-to-end verifiability by revealing vote distributions, relying on trusted clients, or enabling transferable receipts - design choices that often compromise trust or privacy in real-world deployments.\n  We present ACE, a voting protocol that reconciles public auditability with strong privacy guarantees. The protocol combines a publicly verifiable, tally-hiding aggregation mechanism with an Audit-or-Cast challenge that enforces cast-as-intended even under untrusted client assumptions. Tallier-side re-randomization eliminates persistent links between voters and public records, yielding information-theoretic receipt-freeness assuming at least one honest tallier.\n  We formalize the security of ACE and show that it simultaneously achieves end-to-end verifiability, publicly tally-hiding results, and strong receipt-freeness without trusted clients.",
+    "updated" : "2026-04-21T17:02:34Z",
+    "published" : "2026-04-20T12:26:58Z",
+    "authors" : [
+      {
+        "name" : "Aman Rojjha"
+      },
+      {
+        "name" : "Gaurang Tandon"
+      },
+      {
+        "name" : "Varul Srivastava"
+      },
+      {
+        "name" : "Kannan Srinathan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.17796v2",
+    "title" : "Teaching Usable Privacy in HCI Education: Designing, Implementing, and Evaluating an Active Learning Graduate",
+    "summary" : "As digital systems increasingly rely on pervasive data collection and inference, educating future designers and researchers about Usable Privacy has become a critical need for HCI. However, privacy education in higher education is often fragmented, theory-heavy, or detached from real-world applications. Thus, in this paper, we present the design, implementation, and evaluation of a 15-week graduate-level course on Usable Privacy that addresses this through active, practice-oriented pedagogy. The course integrates use cases, structured role playing, case-based discussions, guest lectures, and a multi-phase research project to support students in reasoning about privacy from multiple stakeholder perspectives. Grounded in contemporary privacy research and the Modern Privacy framework, the curriculum emphasizes both conceptual understanding and applied research skills. We report findings from two course offerings in consecutive years (2024-2025) using a mixed-methods evaluation that combines quantitative teaching evaluations with qualitative analysis of student reflections and instructor observations. Results indicate increased student engagement, improved ability to articulate trade-offs in privacy design, and stronger connections between theory and practice. To support adoption and replication, we also release detailed assignment descriptions and grading rubrics. This work contributes an empirically informed model for teaching Usable Privacy in HCI education and offers actionable guidance for educators seeking to integrate privacy into their curricula.",
+    "updated" : "2026-04-21T04:08:51Z",
+    "published" : "2026-04-20T04:36:33Z",
+    "authors" : [
+      {
+        "name" : "Sanchari Das"
+      },
+      {
+        "name" : "Dhiman Goswami"
+      },
+      {
+        "name" : "Michelle Melo"
+      },
+      {
+        "name" : "Aditya Johri"
+      },
+      {
+        "name" : "Vivian G. Motti"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.18633v1",
+    "title" : "Global Web, Local Privacy? An International Review of Web Tracking",
+    "summary" : "Web tracking by ad networks, social networks, and other third parties is privacy-invasive. To protect users' privacy an increasing number of countries are adopting new privacy laws. However, a major reason why their application on the web is so challenging is that privacy laws are local while the web is global. To that end, we evaluate websites' tracker connections for ten countries for two sets of sites -- the global Common Top 525 and the Country-specific Top 525 sites. We find that Australia and the US (California) -- two of the three opt-out jurisdictions in our study -- have the highest level of web tracking while opt-in jurisdictions generally have lower levels. We also find that the Common Top 525 sites have 50.5\\% fewer average tracker connections when accessed from EU countries compared to non-EU countries. Further, simply not interacting with cookie banners decreases trackers by 48.5\\% for Germany, as measured for a sample of 36 Common Top 525 sites. These results suggest that the General Data Protection Regulation and the ePrivacy Directive have a tangible effect in reducing tracking. As 28\\% of Common Top 525 sites show cookie banners in all ten countries, our results suggest a moderate Brussels effect. However, against the backdrop of global US ad tech practices, EU law primarily acts as a Brussels shield. Generally, we think that strong enforcement of privacy laws is key to increase user privacy on the web.",
+    "updated" : "2026-04-18T19:12:47Z",
+    "published" : "2026-04-18T19:12:47Z",
+    "authors" : [
+      {
+        "name" : "Harry Yu"
+      },
+      {
+        "name" : "Patton Yin"
+      },
+      {
+        "name" : "Sebastian Zimmeck"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.12258v2",
+    "title" : "Coding-Free and Privacy-Preserving Agentic Framework for Data-Driven Clinical Research",
+    "summary" : "Clinical data-driven research requires clinical expertise, programming skills, access to patient data, and extensive documentation, creating barriers and slowing the pace for clinicians and external researchers. To address this, we developed the Clinical Agentic Research Intelligence System (CARIS) that automates the workflow: research planning, literature search, cohort construction, Institutional Review Board (IRB) documentation, Vibe Machine Learning (ML), and report generation, with human-in-the-loop refinement. CARIS integrates Large Language Models (LLMs) with modular tools through the Model Context Protocol (MCP), enabling natural language-driven research without coding while allowing users to access only outputs. We evaluated CARIS on three heterogeneous datasets with distinct clinical tasks, where it completed planning and IRB documentation within four iterations, supported Vibe ML, and generated reports, achieving 96% completeness in LLM-based evaluation and 82% in human evaluation. CARIS demonstrates potential to reduce documentation burden and technical barriers, accelerating data-driven clinical research across public and private data environments.",
+    "updated" : "2026-04-21T05:52:08Z",
+    "published" : "2026-04-14T04:22:44Z",
+    "authors" : [
+      {
+        "name" : "Taehun Kim"
+      },
+      {
+        "name" : "Hyeryun Park"
+      },
+      {
+        "name" : "Hyeonhoon Lee"
+      },
+      {
+        "name" : "Yushin Lee"
+      },
+      {
+        "name" : "Kyungsang Kim"
+      },
+      {
+        "name" : "Hyung-Chul Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
   }
 ]
