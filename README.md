@@ -1,20 +1,54 @@
 
-<h2>2026-03</h2>
+<h2>2026-04</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.00326v1">Inference-Aware & Privacy-Preserving Deletion in Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2026-03-31T23:58:32Z</p>
+  <h3><a href="http://arxiv.org/abs/2604.19653v1">A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Privacy Vulnerabilities</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-04-21T16:42:33Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Vishal Chakraborty, Youri Kaminsky, Arnav Abhijit Dhariya, Sharad Mehrotra, Felix Naumann, Sarvesh Pandey</p>
-    <p><b>Summary:</b> Deletion is a fundamental database operation, yet modern systems often fail to provide the privacy guarantee that users expect from it. A deleted value may disappear from query results and even from physical storage, yet remain inferable from dependencies, derived data, or traces exposed by the deletion event itself. Meaningful deletion, therefore, requires more than logical removal or physical erasure; it requires a privacy guarantee that limits what remains inferable after deletion. In this paper, we take an inference-centric view of deletion, focusing on two leakage channels: leakage from the post-deletion state and leakage from the deletion pattern itself. We use this lens to distinguish logical, physical, and semantic deletion, organize the design space of deletion operations, and highlight open research challenges for building deletion mechanisms with meaningful privacy guarantees in database systems.</p>
+    <p><b>Authors:</b> Aya Cherigui, Florent Guépin, Arnaud Legendre, Jean-François Couchot</p>
+    <p><b>Summary:</b> Human mobility data are used in numerous applications, ranging from public health to urban planning. Human mobility is inherently sensitive, as it can contain information such as religious beliefs and political affiliations. Historically, it has been proposed to modify the information using techniques such as aggregation, obfuscation, or noise addition, to adequately protect privacy and eliminate concerns. As these methods come at a great cost in utility, new methods leveraging development in generative models, were introduced. The extent to which such methods answer the privacy-utility trade-off remains an open problem. In this paper, we introduced a first step towards solving it, by the introduction and application of a new framework for utility evaluation. Furthermore, we provide evidence that privacy evaluation remains a great challenge to consider and that it should be tackled through adversarial evaluation in accordance with the current EU regulation. We propose a new membership inference attack against a subcategory of generative models, even though this subcategory was deemed private due to its resistance over the trajectory user-linking problem.</p>
   </details>
 </div>
 
 
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.19422v1">Secure Storage and Privacy-Preserving Scanpath Comparison via Garbled Circuits in Eye Tracking</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-04-21T12:53:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Suleyman Ozdel, Amr Nader, Yasmeen Abdrabou, Enkelejda Kasneci</p>
+    <p><b>Summary:</b> With the growing use of eye tracking on VR and mobile platforms, gaze data is increasing. While scanpath comparison is important to gaze behavior analysis, existing methods lack privacy-preserving capabilities for real-world use. We present a garbled-circuit (GC)-based approach enabling secure storage and privacy-preserving scanpath comparison under the semi-honest model. It supports two configurations: (1) a two-party setting where the data owner and processor jointly compute similarity scores without revealing their inputs, and (2) a server-assisted setting where encrypted scanpaths are stored and processed while the data owner remains offline. All decryption and comparison operations are executed inside the GC. Experiments on three eye-tracking datasets evaluate fidelity, runtime, and communication, and show secure results for MultiMatch, ScanMatch, and SubsMatch closely match plaintext outcomes, with manageable runtime and communication overhead. Tests under various network conditions indicate that the design remains feasible for real-world privacy-preserving scanpath analysis and can be extended to other GC-based behavioral algorithms.</p>
+  </details>
+</div>
 
-<h2>2026-04</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.19219v1">Sherpa.ai Privacy-Preserving Multi-Party Entity Alignment without Intersection Disclosure for Noisy Identifiers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-04-21T08:24:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Daniel M. Jimenez-Gutierrez, Enrique Zuazua, Georgios Kellaris, Joaquin Del Rio, Oleksii Sliusarenko, Xabi Uribe-Etxebarria</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative model training among multiple parties without centralizing raw data. There are two main paradigms in FL: Horizontal FL (HFL), where all participants share the same feature space but hold different samples, and Vertical FL (VFL), where parties possess complementary features for the same set of samples. A prerequisite for VFL training is privacy-preserving entity alignment (PPEA), which establishes a common index of samples across parties (alignment) without revealing which samples are shared between them. Conventional private set intersection (PSI) achieves alignment but leaks intersection membership, exposing sensitive relationships between datasets. The standard private set union (PSU) mitigates this risk by aligning on the union of identifiers rather than the intersection. However, existing approaches are often limited to two parties or lack support for typo-tolerant matching.
+  In this paper, we introduce the Sherpa.ai multi-party PSU protocol for VFL, a PPEA method that hides intersection membership and enables both exact and noisy matching. The protocol generalizes two-party approaches to multiple parties with low communication overhead and offers two variants: an order-preserving version for exact alignment and an unordered version tolerant to typographical and formatting discrepancies. We prove correctness and privacy, analyze communication and computational (exponentiation) complexity, and formalize a universal index mapping from local records to a shared index space. This multi-party PSU offers a scalable, mathematically grounded protocol for PPEA in real-world VFL deployments, such as multi-institutional healthcare disease detection, collaborative risk modeling between banks and insurers, and cross-domain fraud detection between telecommunications and financial institutions, while preserving intersection privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.18819v1">Blockchain-Driven AI-Enhanced Post-Quantum Multivariate Identity-based Signature and Privacy-Preserving Data Aggregation Scheme for Fog-enabled Flying Ad-Hoc Networks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-20T20:40:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sufian Al majmaie, Ghazal Ghajari, Niraj Prasad Bhatta, Fathi Amsaad</p>
+    <p><b>Summary:</b> The integration of Fog Computing with Flying Ad-Hoc Networks (FANETs) offers promising capabilities for decentralized, low-latency intelligence in UAV-based applications. However, the distributed nature, mobility, and resource constraints of FANETs expose them to significant security and privacy challenges, particularly against quantum threats. To address these issues, this work introduces a blockchain-based, AI-enhanced key management framework designed for fog-enabled FANETs. The proposed scheme employs a Post-Quantum Multivariate Identity-Based Signature Scheme (PQ-MISS) and Zero-Knowledge Proofs (ZKPs) to achieve secure key establishment, privacy-preserving data aggregation, and integrity verification. A polynomial composition-based encryption mechanism and an aggregate signature model support secure and efficient multi-device communication across fog and UAV layers. Fog servers construct partial blockchain blocks from validated UAV data. These blocks are completed and mined by Cloud Servers (CSs). AI algorithms then analyze the verified data to generate accurate predictions and insights. NS-3 simulations validate the efficiency of PQ-MISS in reducing communication overhead while improving the speed and reliability of data aggregation and verification. Comparative analysis demonstrates the proposed scheme's advantages over existing methods in computational cost, post-quantum security, and scalability, making it a robust solution for secure, intelligent, and future-ready FANET systems.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2604.18552v1">Do Privacy Policies Match with the Logs? An Empirical Study of Privacy Disclosure in Android Application Logs</a></h3>
@@ -54,7 +88,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.18163v1">Audit-or-Cast: Enforcing Honest Elections with Privacy-Preserving Public Verification</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.18163v2">Audit-or-Cast: Enforcing Honest Elections with Privacy-Preserving Public Verification</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-04-20T12:26:58Z</p>
   <details>
@@ -80,7 +114,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.17796v1">Teaching Usable Privacy in HCI Education: Designing, Implementing, and Evaluating an Active Learning Graduate</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.17796v2">Teaching Usable Privacy in HCI Education: Designing, Implementing, and Evaluating an Active Learning Graduate</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-04-20T04:36:33Z</p>
   <details>
@@ -160,6 +194,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Haoze Guo, Ziqi Wei</p>
     <p><b>Summary:</b> While consent banners and privacy policies invite users to read and choose, many choices are shaped by repeated, low-yield interaction routines rather than deliberation. This paper studies performative scrolling: slow, low-information interaction that can signal attention to consent without substantially improving understanding. We present the Performative Scrolling Index (PSI), a reproducible interface-audit metric for measuring pre-choice burden before a meaningful non-accepting alternative becomes visible and actionable. PSI decomposes burden into four observable components: distance, time, focus loops, and hidden reveals. In this paper, PSI is the primary burden metric, while companion signals such as AAI, CSI, and divergence are used as secondary interpretive audit aids rather than standalone validated scales. We also provide a least-effort audit protocol, design-side invariants, a worked example, and a medium-scale live deployment across desktop and mobile conditions under pointer and keyboard traversal policies. Together, these analyses show how structural choices such as offscreen alternatives, fragmented disclosure, and staged modal flows can increase pre-choice friction without improving meaningful control. PSI is not a measure of comprehension or legal sufficiency; rather, it is a diagnostic of interface-side burden intended to support reproducible audits and redesigns.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.18633v1">Global Web, Local Privacy? An International Review of Web Tracking</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-04-18T19:12:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Harry Yu, Patton Yin, Sebastian Zimmeck</p>
+    <p><b>Summary:</b> Web tracking by ad networks, social networks, and other third parties is privacy-invasive. To protect users' privacy an increasing number of countries are adopting new privacy laws. However, a major reason why their application on the web is so challenging is that privacy laws are local while the web is global. To that end, we evaluate websites' tracker connections for ten countries for two sets of sites -- the global Common Top 525 and the Country-specific Top 525 sites. We find that Australia and the US (California) -- two of the three opt-out jurisdictions in our study -- have the highest level of web tracking while opt-in jurisdictions generally have lower levels. We also find that the Common Top 525 sites have 50.5\% fewer average tracker connections when accessed from EU countries compared to non-EU countries. Further, simply not interacting with cookie banners decreases trackers by 48.5\% for Germany, as measured for a sample of 36 Common Top 525 sites. These results suggest that the General Data Protection Regulation and the ePrivacy Directive have a tangible effect in reducing tracking. As 28\% of Common Top 525 sites show cookie banners in all ten countries, our results suggest a moderate Brussels effect. However, against the backdrop of global US ad tech practices, EU law primarily acts as a Brussels shield. Generally, we think that strong enforcement of privacy laws is key to increase user privacy on the web.</p>
   </details>
 </div>
 
@@ -496,13 +542,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.12258v1">Coding-Free and Privacy-Preserving MCP Framework for Clinical Agentic Research Intelligence System</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.12258v2">Coding-Free and Privacy-Preserving Agentic Framework for Data-Driven Clinical Research</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-04-14T04:22:44Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Taehun Kim, Hyeryun Park, Hyeonhoon Lee, Yushin Lee, Kyungsang Kim, Hyung-Chul Lee</p>
-    <p><b>Summary:</b> Clinical research involves labor-intensive processes such as study design, cohort construction, model development, and documentation, requiring domain expertise, programming skills, and access to sensitive patient data. These demands create barriers for clinicians and external researchers conducting data-driven studies. To overcome these limitations, we developed a Clinical Agentic Research Intelligence System (CARIS) that automates the clinical research workflow while preserving data privacy, enabling comprehensive studies without direct access to raw data. CARIS integrates Large Language Models (LLMs) with modular tools via the Model Context Protocol (MCP), enabling natural language-driven orchestration of appropriate tools. Databases remain securely within the MCP server, and users access only the outputs and final research reports. Based on user intent, CARIS automatically executes the full pipeline: research planning, literature search, cohort construction, Institutional Review Board (IRB) documentation, Vibe Machine Learning (ML), and report generation, with iterative human-in-the-loop refinement. We evaluated CARIS on three heterogeneous datasets with distinct clinical tasks. Research plans and IRB documents were finalized within three to four iterations, using evidence from literature and data. The system supported Vibe ML by exploring feature-model combinations, ranking the top ten models, and generating performance visualizations. Final reports showed high completeness based on a checklist derived from the TRIPOD+AI framework, achieving 96% coverage in LLM evaluation and 82% in human evaluation. CARIS demonstrates that agentic AI can transform clinical hypotheses into executable research workflows across heterogeneous datasets. By eliminating the need for coding and direct data access, the system lowers barriers and bridges public and private clinical data environments.</p>
+    <p><b>Summary:</b> Clinical data-driven research requires clinical expertise, programming skills, access to patient data, and extensive documentation, creating barriers and slowing the pace for clinicians and external researchers. To address this, we developed the Clinical Agentic Research Intelligence System (CARIS) that automates the workflow: research planning, literature search, cohort construction, Institutional Review Board (IRB) documentation, Vibe Machine Learning (ML), and report generation, with human-in-the-loop refinement. CARIS integrates Large Language Models (LLMs) with modular tools through the Model Context Protocol (MCP), enabling natural language-driven research without coding while allowing users to access only outputs. We evaluated CARIS on three heterogeneous datasets with distinct clinical tasks, where it completed planning and IRB documentation within four iterations, supported Vibe ML, and generated reports, achieving 96% completeness in LLM-based evaluation and 82% in human evaluation. CARIS demonstrates potential to reduce documentation burden and technical barriers, accelerating data-driven clinical research across public and private data environments.</p>
   </details>
 </div>
 
@@ -1172,55 +1218,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Zhengyang Tang, Ke Ji, Xidong Wang, Zihan Ye, Xinyuan Wang, Yiduo Guo, Ziniu Li, Chenxin Li, Jingyuan Hu, Shunian Chen, Tongxu Luo, Jiaxi Bi, Zeyu Qin, Shaobo Wang, Xin Lai, Pengyuan Lyu, Junyi Li, Can Xu, Chengquan Zhang, Han Hu, Ming Yan, Benyou Wang</p>
     <p><b>Summary:</b> We study whether phone-use agents respect privacy while completing benign mobile tasks. This question has remained hard to answer because privacy-compliant behavior is not operationalized for phone-use agents, and ordinary apps do not reveal exactly what data agents type into which form entries during execution. To make this question measurable, we introduce MyPhoneBench, a verifiable evaluation framework for privacy behavior in mobile agents. We operationalize privacy-respecting phone use as permissioned access, minimal disclosure, and user-controlled memory through a minimal privacy contract, iMy, and pair it with instrumented mock apps plus rule-based auditing that make unnecessary permission requests, deceptive re-disclosure, and unnecessary form filling observable and reproducible. Across five frontier models on 10 mobile apps and 300 tasks, we find that task success, privacy-compliant task completion, and later-session use of saved preferences are distinct capabilities, and no single model dominates all three. Evaluating success and privacy jointly reshuffles the model ordering relative to either metric alone. The most persistent failure mode across models is simple data minimization: agents still fill optional personal entries that the task does not require. These results show that privacy failures arise from over-helpful execution of benign tasks, and that success-only evaluation overestimates the deployment readiness of current phone-use agents. All code, mock apps, and agent trajectories are publicly available at~ https://github.com/FreedomIntelligence/MyPhoneBench.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.00903v1">IDDM: Identity-Decoupled Personalized Diffusion Models with a Tunable Privacy-Utility Trade-off</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-04-01T13:46:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Linyan Dai, Xinwei Zhang, Haoyang Li, Qingqing Ye, Haibo Hu</p>
-    <p><b>Summary:</b> Personalized text-to-image diffusion models (e.g., DreamBooth, LoRA) enable users to synthesize high-fidelity avatars from a few reference photos for social expression. However, once these generations are shared on social media platforms (e.g., Instagram, Facebook), they can be linked to the real user via face recognition systems, enabling identity tracking and profiling. Existing defenses mainly follow an anti-personalization strategy that protects publicly released reference photos by disrupting model fine-tuning. While effective against unauthorized personalization, they do not address another practical setting in which personalization is authorized, but the resulting public outputs still leak identity information.
-  To address this problem, we introduce a new defense setting, termed model-side output immunization, whose goal is to produce a personalized model that supports authorized personalization while reducing the identity linkability of public generations, with tunable control over the privacy-utility trade-off to accommodate diverse privacy needs. To this end, we propose Identity-Decoupled personalized Diffusion Models (IDDM), a model-side defense that integrates identity decoupling into the personalization pipeline. Concretely, IDDM follows an alternating procedure that interleaves short personalization updates with identity-decoupled data optimization, using a two-stage schedule to balance identity linkability suppression and generation utility. Extensive experiments across multiple datasets, diverse prompts, and state-of-the-art face recognition systems show that IDDM consistently reduces identity linkability while preserving high-quality personalized generation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.00761v1">PrivHAR-Bench: A Graduated Privacy Benchmark Dataset for Video-Based Action Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-01T11:24:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Samar Ansari</p>
-    <p><b>Summary:</b> Existing research on privacy-preserving Human Activity Recognition (HAR) typically evaluates methods against a binary paradigm: clear video versus a single privacy transformation. This limits cross-method comparability and obscures the nuanced relationship between privacy strength and recognition utility. We introduce \textit{PrivHAR-Bench}, a multi-tier benchmark dataset designed to standardize the evaluation of the \textit{Privacy-Utility Trade-off} in video-based action recognition. PrivHAR-Bench applies a graduated spectrum of visual privacy transformations: from lightweight spatial obfuscation to cryptographic block permutation, to a curated subset of 15 activity classes selected for human articulation diversity. Each of the 1,932 source videos is distributed across 9 parallel tiers of increasing privacy strength, with additional background-removed variants to isolate the contribution of human motion features from contextual scene bias. We provide lossless frame sequences, per-frame bounding boxes, estimated pose keypoints with joint-level confidence scores, standardized group-based train/test splits, and an evaluation toolkit computing recognition accuracy and privacy metrics. Empirical validation using R3D-18 demonstrates a measurable and interpretable degradation curve across tiers, with within-tier accuracy declining from 88.8\% (clear) to 53.5\% (encrypted, background-removed) and cross-domain accuracy collapsing to 4.8\%, establishing PrivHAR-Bench as a controlled benchmark for comparing privacy-preserving HAR methods under standardized conditions. The dataset, generation pipeline, and evaluation code are publicly available.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.00559v1">FecalFed: Privacy-Preserving Poultry Disease Detection via Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-04-01T07:08:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tien-Yu Chi</p>
-    <p><b>Summary:</b> Early detection of highly pathogenic avian influenza (HPAI) and endemic poultry diseases is critical for global food security. While computer vision models excel at classifying diseases from fecal imaging, deploying these systems at scale is bottlenecked by farm data privacy concerns and institutional data silos. Furthermore, existing open-source agricultural datasets frequently suffer from severe, undocumented data contamination. In this paper, we introduce $\textbf{FecalFed}$, a privacy-preserving federated learning framework for poultry disease classification. We first curate and release $\texttt{poultry-fecal-fl}$, a rigorously deduplicated dataset of 8,770 unique images across four disease classes, revealing and eliminating a 46.89$\%$ duplication rate in popular public repositories. To simulate realistic agricultural environments, we evaluate FecalFed under highly heterogeneous, non-IID conditions (Dirichlet $α=0.5$). While isolated single-farm training collapses under this data heterogeneity, yielding only 64.86$\%$ accuracy, our federated approach recovers performance without centralizing sensitive data. Specifically, utilizing server-side adaptive optimization (FedAdam) with a Swin-Small architecture achieves 90.31$\%$ accuracy, closely approaching the centralized upper bound of 95.10\%. Furthermore, we demonstrate that an edge-optimized Swin-Tiny model maintains highly competitive performance at 89.74$\%$, establishing a highly efficient, privacy-first blueprint for on-farm avian disease monitoring.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.00430v1">Secure Forgetting: A Framework for Privacy-Driven Unlearning in Large Language Model (LLM)-Based Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-01T03:17:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dayong Ye, Tainqing Zhu, Congcong Zhu, Feng He, Qi He, Shang Wang, Bo Liu, Wanlei Zhou</p>
-    <p><b>Summary:</b> Large language model (LLM)-based agents have recently gained considerable attention due to the powerful reasoning capabilities of LLMs. Existing research predominantly focuses on enhancing the task performance of these agents in diverse scenarios. However, as LLM-based agents become increasingly integrated into real-world applications, significant concerns emerge regarding their accumulation of sensitive or outdated knowledge. Addressing these concerns requires the development of mechanisms that allow agents to selectively forget previously learned knowledge, giving rise to a new term LLM-based agent unlearning. This paper initiates research on unlearning in LLM-based agents. Specifically, we propose a novel and comprehensive framework that categorizes unlearning scenarios into three contexts: state unlearning (forgetting specific states or items), trajectory unlearning (forgetting sequences of actions) and environment unlearning (forgetting entire environments or categories of tasks). Within this framework, we introduce a natural language-based unlearning method that trains a conversion model to transform high-level unlearning requests into actionable unlearning prompts, guiding agents through a controlled forgetting process. Moreover, to evaluate the robustness of the proposed framework, we introduce an unlearning inference adversary capable of crafting prompts, querying agents, and observing their behaviors in an attempt to infer the forgotten knowledge. Experimental results show that our approach effectively enables agents to forget targeted knowledge while preserving performance on untargeted tasks, and prevents the adversary from inferring the forgotten knowledge.</p>
   </details>
 </div>
 
