@@ -3098,5 +3098,106 @@
       "cs.CL",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.20761v1",
+    "title" : "Geometric Renyi Differential Privacy: Ricci Curvature Characterized by Heat Diffusion Mechanisms",
+    "summary" : "In this paper, we develop a novel privacy mechanism for Riemannian manifold-valued data. Our key contribution lies in uncovering unexpected connections among geometric analysis, heat diffusion models, and differential privacy (DP). We characterize the Renyi divergence via dimension-free Harnack inequalities on Riemannian manifolds and establish Renyi differential privacy guarantees governed by Ricci curvature. For manifolds with nonnegative Ricci curvature, we propose a mechanism based on heat diffusion. In contrast, for general manifolds we introduce a Langevin-process-based approach that yields intrinsic mechanisms supporting normalization-free sampling and continuous privacy-utility trade-offs. We derive detailed utility analyses for both mechanisms. As a statistical application, we develop privacy-preserving estimation of the generalized Frechet mean, including nontrivial sensitivity analysis and phase transition characterizations. Numerical experiments further demonstrate the advantages of the proposed DP mechanisms over existing approaches.",
+    "updated" : "2026-04-22T16:48:55Z",
+    "published" : "2026-04-22T16:48:55Z",
+    "authors" : [
+      {
+        "name" : "Xiaotian Chang"
+      },
+      {
+        "name" : "Yangdi Jiang"
+      },
+      {
+        "name" : "Cyrus Mostajeran"
+      },
+      {
+        "name" : "Qirui Hu"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.20596v1",
+    "title" : "Differentially Private Clustered Federated Learning with Privacy-Preserving Initialization and Normality-Driven Aggregation",
+    "summary" : "Federated learning (FL) enables training of a global model while keeping raw data on end-devices. Despite this, FL has shown to leak private user information and thus in practice, it is often coupled with methods such as differential privacy (DP) and secure vector sum to provide formal privacy guarantees to its participants. In realistic cross-device deployments, the data are highly heterogeneous, so vanilla federated learning converges slowly and generalizes poorly. Clustered federated learning (CFL) mitigates this by segregating users into clusters, leading to lower intra-cluster data heterogeneity. Nevertheless, coupling CFL with DP remains challenging: the injected DP noise makes individual client updates excessively noisy, and the server is unable to initialize cluster centroids with the less noisy aggregated updates. To address this challenge, we propose PINA, a two-stage framework that first lets each client fine-tune a lightweight low-rank adaptation (LoRA) adapter and privately share a compressed sketch of the update. The server leverages these sketches to construct robust cluster centroids. In the second stage, PINA introduces a normality-driven aggregation mechanism that improves convergence and robustness. Our method retains the benefits of clustered FL while providing formal privacy guarantees against an untrusted server. Extensive evaluations show that our proposed method outperforms state-of-the-art DP-FL algorithms by an average of 2.9% in accuracy for privacy budgets (epsilon in {2, 8}).",
+    "updated" : "2026-04-22T14:12:18Z",
+    "published" : "2026-04-22T14:12:18Z",
+    "authors" : [
+      {
+        "name" : "Jie Xu"
+      },
+      {
+        "name" : "Haaris Mehmood"
+      },
+      {
+        "name" : "Rogier Van Dalen"
+      },
+      {
+        "name" : "Karthikeyan Saravanan"
+      },
+      {
+        "name" : "Mete Ozay"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.20274v1",
+    "title" : "Estimating Power-Law Exponent with Edge Differential Privacy",
+    "summary" : "Many real-world graphs have degree distributions that are well approximated by a power-law, and the corresponding scaling parameter $α$ provides a compact summary of that structure which is useful for graph analysis and system optimization. When graphs contain sensitive relationship data, $α$ must be estimated without revealing information about individual edges. This paper studies power-law exponent estimation under edge differential privacy. Instead of first releasing a noisy degree distribution and then fitting a power-law model, we propose privatizing only the low-dimensional sufficient statistics needed to estimate $α$, thereby avoiding the high distortion introduced by traditional approaches. Using these released statistics, we support both discrete approximation and likelihood-based numerical optimization for efficient parameter estimation. We develop edge-DP algorithms for both centralized and local DP models, compare degree release and log-statistic release in the local setting, and evaluate the resulting methods on various graph datasets across multiple privacy budgets and tail-cutoff settings.",
+    "updated" : "2026-04-22T07:20:14Z",
+    "published" : "2026-04-22T07:20:14Z",
+    "authors" : [
+      {
+        "name" : "Adam Tan"
+      },
+      {
+        "name" : "Mohamed Hefny"
+      },
+      {
+        "name" : "Keval Vora"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.19925v1",
+    "title" : "Behavioral Transfer in AI Agents: Evidence and Privacy Implications",
+    "summary" : "AI agents powered by large language models are increasingly acting on behalf of humans in social and economic environments. Prior research has focused on their task performance and effects on human outcomes, but less is known about the relationship between agents and the specific individuals who deploy them. We ask whether agents systematically reflect the behavioral characteristics of their human owners, functioning as behavioral extensions rather than producing generic outputs. We study this question using 10,659 matched human-agent pairs from Moltbook, a social media platform where each autonomous agent is publicly linked to its owner's Twitter/X account. By comparing agents' posts on Moltbook with their owners' Twitter/X activity across features spanning topics, values, affect, and linguistic style, we find systematic transfer between agents and their specific owners. This transfer persists among agents without explicit configuration, and pairs that align on one behavioral dimension tend to align on others. These patterns are consistent with transfer emerging through accumulated interaction between owners (or owners' computer environments) and their agents in everyday use. We further show that agents with stronger behavioral transfer are more likely to disclose owner-related personal information in public discourse, suggesting that the same owner-specific context that drives behavioral transfer may also create privacy risk during ordinary use. Taken together, our results indicate that AI agents do not simply generate content, but reflect owner-related context in ways that can propagate human behavioral heterogeneity into digital environments, with implications for privacy, platform design, and the governance of agentic systems.",
+    "updated" : "2026-04-21T19:11:01Z",
+    "published" : "2026-04-21T19:11:01Z",
+    "authors" : [
+      {
+        "name" : "Shilei Luo"
+      },
+      {
+        "name" : "Zhiqi Zhang"
+      },
+      {
+        "name" : "Hengchen Dai"
+      },
+      {
+        "name" : "Dennis Zhang"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "cs.AI",
+      "cs.CY",
+      "cs.HC"
+    ]
   }
 ]
