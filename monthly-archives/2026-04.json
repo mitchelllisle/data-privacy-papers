@@ -3199,5 +3199,135 @@
       "cs.CY",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.21571v1",
+    "title" : "Separable Expert Architecture: Toward Privacy-Preserving LLM Personalization via Composable Adapters and Deletable User Proxies",
+    "summary" : "Current model training approaches incorporate user information directly into shared weights, making individual data removal computationally infeasible without retraining. This paper presents a three-layer architecture that decouples personal data from shared weights by combining a static base model, composable domain-expert LoRA adapters that shape behavior without imparting user data, and per-user proxy artefacts whose deletion constitutes deterministic unlearning. Evaluation on Phi-3.5-mini and Llama-3.1-8B confirms per-user differentiation in which personal data influences outputs while remaining isolated, verified by a return to baseline after proxy removal (KL divergence of approximately 0.21 nats, 82-89% verification pass rate) and near-zero cross-user contamination. Because user-specific information never enters shared weights, the architecture mitigates model inversion, membership inference, and training-data extraction against shared model components by construction. The approach converts machine unlearning from an intractable weight-editing problem into a deterministic deletion operation that preserves personalization alongside privacy-enhancing guarantees and is compatible with differentially private stochastic gradient descent (DP-SGD) for privacy-preserving shared model improvement.",
+    "updated" : "2026-04-23T11:51:31Z",
+    "published" : "2026-04-23T11:51:31Z",
+    "authors" : [
+      {
+        "name" : "Chris Schneider"
+      },
+      {
+        "name" : "Philipp Schoenegger"
+      },
+      {
+        "name" : "Ben Bariach"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.21491v1",
+    "title" : "Benchmarking the Utility of Privacy-Preserving Cox Regression Under Data-Driven Clipping Bounds: A Multi-Dataset Simulation Study",
+    "summary" : "Differential privacy (DP) is a mathematical framework that guarantees individual privacy; however, systematic evaluation of its impact on statistical utility in survival analyses remains limited. In this study, we systematically evaluated the impact of DP mechanisms (Laplace mechanism and Randomized Response) with data-driven clipping bounds on the Cox proportional hazards model, using 5 clinical datasets ($n = 168$--$6{,}524$), 15 levels of $\\varepsilon$ (0.1--1000), and $B = 1{,}000$ Monte Carlo iterations. The data-driven clipping bounds used here are observed min/max and therefore do not provide formal $\\varepsilon$-DP guarantees; the results represent an optimistic lower bound on utility degradation under formal DP. We compared three types of input perturbations (covariates only, all inputs, and the discrete-time model) with output perturbations (dfbeta-based sensitivity), using loss of significance rate (LSR), C-index, and coefficient bias as metrics. At standard DP levels ($\\varepsilon \\leq 1$), approximately 90% (90--94%) of the significant covariates lost significance, even in the largest dataset ($n = 6{,}524$), and the predictive performance approached random levels (test C-index $\\approx 0.5$) under many conditions. Among the input perturbation approaches, perturbing only covariates preserved the risk-set structure and achieved the best recovery, whereas output perturbation (dfbeta-based sensitivity) maintained near-baseline performance at $\\varepsilon \\geq 5$. At $n \\approx 3{,}000$, the significance recovered rapidly at $\\varepsilon = 3$--10; however, in practice, $\\varepsilon \\geq 10$ (for predictive performance) to $\\varepsilon \\geq 30$--60 (for significance preservation) is required. In the moderate-to-high $\\varepsilon$ range, false-positive rates increased for variables whose baseline $p$-values were near the significance threshold.",
+    "updated" : "2026-04-23T09:53:15Z",
+    "published" : "2026-04-23T09:53:15Z",
+    "authors" : [
+      {
+        "name" : "Keita Fukuyama"
+      },
+      {
+        "name" : "Yukiko Mori"
+      },
+      {
+        "name" : "Tomohiro Kuroda"
+      },
+      {
+        "name" : "Hiroaki Kikuchi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.AP",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.21455v1",
+    "title" : "The Privacy Guardian Agent: Towards Trustworthy AI Privacy Agents",
+    "summary" : "The current \"notice and consent\" paradigm is broken: consent dialogues are often manipulative, and users cannot realistically read or understand every privacy policy. While recent LLM-based tools empower users seeking active control, many with limited time or motivation prefer full automation. However, fully autonomous solutions risk hallucinations and opaque decisions, undermining trust. I propose a middle ground - a Privacy Guardian Agent that automates routine consent choices using user profiles and contextual awareness while recognizing uncertainty. It escalates unclear or high-risk cases to the user, maintaining a human-in-the-loop only when necessary. To ensure agency and transparency, the agent's reasoning on its autonomous decisions is reviewable, allowing for user recourse. For problematic cases, even with minimal consent, it alerts the user and suggests switching to an alternative site. This approach aims to reduce consent fatigue while preserving trust and meaningful user autonomy.",
+    "updated" : "2026-04-23T09:13:41Z",
+    "published" : "2026-04-23T09:13:41Z",
+    "authors" : [
+      {
+        "name" : "Vincent Freiberger"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.21381v1",
+    "title" : "Privacy-Preserving Distributed Stochastic Optimization with Homomorphic Encryption and Heterogeneous Stepsizes",
+    "summary" : "Distributed stochastic optimization enables multi-agent collaboration in applications such as distributed learning and sensor networks, but also raises critical privacy concerns due to the involvement of sensitive data. While existing privacy-preserving approaches often face limitations in balancing accuracy with efficiency, we propose a novel distributed stochastic gradient descent algorithm that integrates Paillier homomorphic encryption with heterogeneous and time-varying random stepsizes. The proposed algorithm provides inherent privacy protection against both internal honest-but-curious agents and external eavesdroppers, without relying on any trusted neighbors. Furthermore, we incorporate an attenuation factor to effectively mitigate quantization error induced by the encryption process, ensuring almost sure convergence to the optimal solution while maintaining privacy preservation. Numerical simulations demonstrate the effectiveness and efficiency of the proposed approach.",
+    "updated" : "2026-04-23T07:51:55Z",
+    "published" : "2026-04-23T07:51:55Z",
+    "authors" : [
+      {
+        "name" : "Haoqiang Zhou"
+      },
+      {
+        "name" : "Chi Chen"
+      },
+      {
+        "name" : "Yongfeng Zhi"
+      },
+      {
+        "name" : "Huan Gao"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.20904v1",
+    "title" : "Reinforcing privacy reasoning in LLMs via normative simulacra from fiction",
+    "summary" : "Information handling practices of LLM agents are broadly misaligned with the contextual privacy expectations of their users. Contextual Integrity (CI) provides a principled framework, defining privacy as the appropriate flow of information within context-relative norms. However, existing approaches either double inference cost via supervisor-assistant architectures, or fine-tune on narrow task-specific data. We propose extracting normative simulacra (structured representations of norms and information flows) from fiction novels and using them to fine-tune LLMs via supervised learning followed by GRPO reinforcement learning. Our composite reward function combines programmatic signals, including task clarity (subsuming schema validity, construct discrimination, and extraction confidence), structural completeness, internal consistency, and context identification, with an LLM judge that evaluates whether the model's privacy reasoning is grounded in the held-out normative universe of the source text. To mitigate overfitting, we introduce per-completion contrastive scoring: each completion is evaluated against both the correct normative universe and a randomly selected wrong one, teaching the model to condition on context rather than memorize source-specific norms. We evaluate on five CI-aligned benchmarks spanning distinct societal contexts and ablate the contributions of RL and normative grounding. Across seven models, SFT introduces a conservative prior toward restricting information flow, improving recognition of privacy-relevant situations but not the correctness of privacy judgments. GRPO with normative grounding achieves the highest score on a law compliance benchmark and strongest correlation with crowdsourced human privacy expectations, demonstrating that fiction-derived normative simulacra can teach contextual privacy reasoning that transfers to real-world domains.",
+    "updated" : "2026-04-21T19:16:22Z",
+    "published" : "2026-04-21T19:16:22Z",
+    "authors" : [
+      {
+        "name" : "Matt Franchi"
+      },
+      {
+        "name" : "Madiha Zahrah Choksi"
+      },
+      {
+        "name" : "Harold Triedman"
+      },
+      {
+        "name" : "Helen Nissenbaum"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.15596v2",
+    "title" : "Privacy, Prediction, and Allocation",
+    "summary" : "Algorithmic predictions are increasingly used to inform the allocation of scarce resources. The promise of these methods is that, through machine learning, they can better identify the people who would benefit most from interventions. Recently, however, several works have called this assumption into question by demonstrating the existence of settings where simple, unit-level allocation strategies can meet or even exceed the performance of those based on individual-level targeting. Separately, other works have objected to individual-level targeting on privacy grounds, leading to an unusual situation where a single solution, unit-level targeting, is recommended for reasons of both privacy and utility. Motivated by the desire to fully understand the interplay of privacy and targeting levels, we initiate the study of aid allocation systems that satisfy differential privacy, synthesizing existing works on private optimization with the economic models of aid allocation used in the non-private literature. To this end, we investigate private variants of both individual and unit-level allocation strategies in both stochastic and distribution-free settings under a range of constraints on data availability. Through this analysis, we provide clean, interpretable bounds characterizing the tradeoffs between privacy, efficiency, and targeting precision in allocation.",
+    "updated" : "2026-04-23T15:05:15Z",
+    "published" : "2026-04-17T00:31:58Z",
+    "authors" : [
+      {
+        "name" : "Ben Jacobsen"
+      },
+      {
+        "name" : "Nitin Kohli"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
