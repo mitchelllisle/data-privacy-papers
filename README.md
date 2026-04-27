@@ -2,6 +2,66 @@
 <h2>2026-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.22310v1">Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-04-24T07:44:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jeonggon Kim, Heejoon Moon, Je Hyeong Hong</p>
+    <p><b>Summary:</b> Privacy-Preserving Image Queries (PPIQ) are an emerging mechanism for cloud-based visual localization, enabling pose estimation from obfuscated features instead of private images or raw keypoints. However, the main approaches for PPIQ, primarily geometry-based and segmentation-based obfuscation, both suffer from vulnerabilities to recent privacy attacks. In particular, a fundamental limitation of geometry-based obfuscation is that the spatial distribution of obfuscated neighboring lines still effectively surrounds the original keypoint location, providing exploitable cues for recovering the original points. We revisit this geometric paradigm and introduce Dual Convergent Lines (DCL), a novel keypoint obfuscation method demonstrating strong resilience against such attack. DCL places two fixed anchors on a central partition line and lifts each keypoint to a line originating from one of them, with the active anchor determined by the keypoint's location. This arrangement invalidates the geometry-recovery attack by making its optimization ill-posed: Neighboring lines either misleadingly converge to one anchor, yielding a trivial solution, or become near-parallel at the partition boundary, yielding an unstable high-variance solution. Both outcomes thwart point recovery. DCL is also compatible with an existing line-based solver, enabling deployment in traditional localization pipelines. Experiments on both indoor and large-scale outdoor datasets demonstrate DCL's robustness against privacy attacks, efficiency, and scalability, while achieving practical localization performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.22157v1">PrivSTRUCT: Untangling Data Purpose Compliance of Privacy Policies in Google Play Store</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-04-24T02:12:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bhanuka Silva, Anirban Mahanti, Aruna Seneviratne, Suranga Senevirante</p>
+    <p><b>Summary:</b> Existing research typically treats privacy policies as flat, uniform text, extracting information without regard for the document's logical hierarchy. Disregard for structural cues of section headings designed to guide the reader, often leads automated methods to entangle distinct data practices, particularly when linking sensitive data items to their specific purposes. To address this, we introduce PrivSTRUCT, a novel and systematic encoder and decoder combined framework that to untangle complex privacy disclosures. Benchmarking against the state-of-the-art tool PoliGrapher reveals that PrivSTRUCT robustly extracts more than x2 the number of data item and purpose excerpts while retaining developer-defined structural cues. By applying PrivSTRUCT to a large-scale dataset of 3,756 Android apps, we uncover a critical transparency gap: the probability of developers overstating a data purpose is 20.4% higher for first-party collection and 9.7% higher for third-party sharing when they rely on globally defined purposes rather than specific, locally scoped disclosures. Alarmingly, we find that sensitive third-party data flows such as sharing financial data for analytics are frequently diluted and entangled into generic or unrelated categories, highlighting a persistent failure in the current purpose disclosure landscape.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.22100v1">Implementation and Privacy Guarantees for Scalable Keyword Search on SOLID-based Decentralized Data with Granular Visibility Constraints</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2026-04-23T22:16:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohamed Ragab, Faria Ferooz, Mohammad Bahrani, Helen Oliver, Thanassis Tiropanis, Alexandra Poulovassilis, Adriane Chapman, George Roussos</p>
+    <p><b>Summary:</b> In decentralized personal data ecosystems grounded in architectures such as Solid, users retain sovereignty over their data via personal online data stores (pods), hosted on Solid-compliant server infrastructures. In such environments, data remains under the control of pod owners, which complicates search due to distribution across numerous pods and user-specific access constraints. ESPRESSO is a decentralized framework for scalable keyword-based search across distributed Solid pods under user-defined visibility policies. It addresses key challenges of decentralized search by constructing WebID-scoped indexes within pods and employing privacy-aware metadata to enable efficient source selection and ranking across servers. This paper further introduces a formal threat model for ESPRESSO, analysing the security and privacy risks associated with the generation, aggregation, and use of indexes and metadata. These risks include unintended metadata leakage and the potential for adversaries to infer sensitive information about data that resides within personal data stores. The analysis identifies key design principles that limit metadata exposure while mitigating unauthorized inference. The proposed threat model provides a foundation for evaluating privacy-preserving decentralized search and informs the design of systems with stronger privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.22076v1">PrivUn: Unveiling Latent Ripple Effects and Shallow Forgetting in Privacy Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-04-23T21:01:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiaoyi Chen, Haoyuan Wang, Siyuan Tang, Sijia Liu, Liya Su, XiaoFeng Wang, Haixu Tang</p>
+    <p><b>Summary:</b> Large language models (LLMs) often memorize private information during training, raising serious privacy concerns. While machine unlearning has emerged as a promising solution, its true effectiveness against privacy attacks remains unclear. To address this, we propose PrivUn, a new evaluation framework that systematically assesses unlearning robustness through three-tier attack scenarios: direct retrieval, in-context learning recovery, and fine-tuning restoration; combined with quantitative analysis using forgetting scores, association metrics, and forgetting depth assessment. Our study exposes significant weaknesses in current unlearning methods, revealing two key findings: 1) unlearning exhibits gradient-driven ripple effects: unlike traditional forgetting which follows semantic relations (e.g., knowledge graphs), privacy unlearning propagates across latent gradient-based associations; and 2) most methods suffer from shallow forgetting, failing to remove private information distributed across multiple deep model layers. To validate these insights, we explore two strategies: association-aware core-set selection that leverages gradient similarity, and multi-layer deep intervention through representational constraints. These strategies represent a paradigm shift from shallow forgetting to deep forgetting.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.22025v1">Taste for Privacy: How Context, Identity, and Lived-Experience Shape Information Sharing Preferences</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-04-23T19:38:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Juniper Lovato, Laurent Hébert-Dufresne, Mohsen Ghasemizade, Jonathan St-Onge, Peter S. Dodds, Laura Bloomfield, Mikaela Irene Fudolig, Matthew Price, Christopher Danforth</p>
+    <p><b>Summary:</b> Privacy preferences are not fixed individual traits, they depend on context and lived experiences. In this study, we analyze 2,912 survey responses from 782 college students collected over seven survey periods during 2023 and 2024. We ask about their usage of social media, the security settings of their accounts, and measure their comfort in sharing personally identifiable information (PII) across 17 different institutional contexts. Compared to past research, we observe a large shift towards private accounts, going from 1/3rd private in 2007 to 2/3rds in 2024, and find that participants' discomfort sharing PII with social media platforms strongly predicts their privacy settings. Beyond social media, we identify a stable ranking of institutional trust, though some institutions, like the police, show high variability reflecting divergent lived experiences. Traditionally marginalized groups and participants having faced adverse childhood experiences show more discomfort with institutions of power, especially in areas where they face greater vulnerability. We argue for context-adaptive privacy settings that recognize institutional relationships and demographic vulnerabilities, moving beyond one-size-fits-all consent frameworks toward contextually appropriate data governance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2604.21571v1">Separable Expert Architecture: Toward Privacy-Preserving LLM Personalization via Composable Adapters and Deletable User Proxies</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-04-23T11:51:31Z</p>
@@ -1157,67 +1217,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Gabriel Diaz Ramos, Lorenzo Luzi, Debshila Basu Mallick, Richard Baraniuk</p>
     <p><b>Summary:</b> To advance Educational Data Mining (EDM) within strict privacy-protecting regulatory frameworks, researchers must develop methods that enable data-driven analysis while protecting sensitive student information. Synthetic data generation is one such approach, enabling the release of statistically generated samples instead of real student records; however, existing deep learning and parametric generators often distort marginal distributions and degrade under iterative regeneration, leading to distribution drift and progressive loss of distributional support that compromise reliability. In response, we introduce the Non-Parametric Gaussian Copula (NPGC), a plug-and-play synthesis method that replaces deep learning and parametric optimization with empirical statistical anchoring to preserve the observed marginal distributions while modeling dependencies through a copula framework. NPGC integrates Differential Privacy (DP) at both the marginal and correlation levels, supports heterogeneous variable types, and treats missing data as an explicit state to retain informative absence patterns. We evaluate NPGC against deep learning and parametric baselines on five benchmark datasets and demonstrate that it remains stable across multiple regeneration cycles and achieves competitive downstream performance at substantially lower computational cost. We further validate NPGC through deployment in a real-world online learning platform, demonstrating its practicality for privacy-preserving research.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.03640v1">ComPrivDet: Efficient Privacy Object Detection in Compressed Domains Through Inference Reuse</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-04T08:32:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunhao Yao, Zhiqiang Wang, Ruiqi Li, Haoran Cheng, Puhan Luo, Xiangyang Li</p>
-    <p><b>Summary:</b> As the Internet of Things (IoT) becomes deeply embedded in daily life, users are increasingly concerned about privacy leakage, especially from video data. Since frame-by-frame protection in large-scale video analytics (e.g., smart communities) introduces significant latency, a more efficient solution is to selectively protect frames containing privacy objects (e.g., faces). Existing object detectors require fully decoded videos or per-frame processing in compressed videos, leading to decoding overhead or reduced accuracy. Therefore, we propose ComPrivDet, an efficient method for detecting privacy objects in compressed video by reusing I-frame inference results. By identifying the presence of new objects through compressed-domain cues, ComPrivDet either skips P- and B-frame detections or efficiently refines them with a lightweight detector. ComPrivDet maintains 99.75% accuracy in private face detection and 96.83% in private license plate detection while skipping over 80% of inferences. It averages 9.84% higher accuracy with 75.95% lower latency than existing compressed-domain detection methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.06235v1">Negotiating Privacy with Smart Voice Assistants: Risk-Benefit and Control-Acceptance Tensions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-04-04T06:35:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Molly Campbell, Mohamad Sheikho Al Jasem, Ajay Kumar Shrestha</p>
-    <p><b>Summary:</b> Smart Voice assistants (SVAs) are widely adopted by youth, yet privacy decision-making in these environments is often characterized by competing considerations rather than clear-cut preferences. While our prior research has examined privacy risks, benefits, trust, and self-efficacy as distinct predictors of behavior, less attention has been paid to how these factors combine into higher-level tension that shapes privacy outcomes. This study introduces a negotiation-based framework for understanding youth privacy decision-making with SVAs by operationalizing two composite indices: the Risk-Benefit Tension Index (RBTI) and the Control-Acceptance Tension Index (CATI), using survey data from 469 Canadian youth aged 16-24. We examine the distribution of these indices and their relationship with privacy-protective behavior and SVA usage. Results show that both indices are meaningfully associated with protective action. Frequent SVA usage exhibits more benefit-dominant and acceptance-leaning negotiation profiles, suggesting that convenience-driven engagement may come at the expense of perceived control. By reframing privacy decision-making as a process of negotiation rather than inconsistency, this study offers a complementary perspective on the privacy paradox and provides a compact measurement approach for capturing how youth navigate competing privacy pressures in voice-enabled ecosystems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.02616v1">Unlocking Multi-Site Clinical Data: A Federated Approach to Privacy-First Child Autism Behavior Analysis</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-04-03T01:08:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Guangyu Sun, Wenhan Wu, Zhishuai Guo, Ziteng Wang, Pegah Khosravi, Chen Chen</p>
-    <p><b>Summary:</b> Automated recognition of autistic behaviors in children is essential for early intervention and objective clinical assessment. However, the development of robust models is severely hindered by strict privacy regulations (e.g., HIPAA) and the sensitive nature of pediatric data, which prevents the centralized aggregation of clinical datasets. Furthermore, individual clinical sites often suffer from data scarcity, making it difficult to learn generalized behavior patterns or tailor models to site-specific patient distributions. To address these challenges, we observe that Federated Learning (FL) can decouple model training from raw data access, enabling multi-site collaboration while maintaining strict data residency. In this paper, we present the first study exploring Federated Learning for pose-based child autism behavior recognition. Our framework employs a two-layer privacy protection mechanism: utilizing human skeletal abstraction to remove identifiable visual information from the raw RGB videos and FL to ensure sensitive pose data remains within the clinic. This approach leverages distributed clinical data to learn generalized representations while providing the flexibility for site-specific personalization. Experimental results on the MMASD benchmark demonstrate that our framework achieves high recognition accuracy, outperforming traditional federated baselines and providing a robust, privacy-first solution for multi-site clinical analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.02558v1">Communication-Efficient Distributed Learning with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2026-04-02T22:19:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoxing Ren, Yuwen Ma, Nicola Bastianello, Karl H. Johansson, Thomas Parisini, Andreas A. Malikopoulos</p>
-    <p><b>Summary:</b> We address nonconvex learning problems over undirected networks. In particular, we focus on the challenge of designing an algorithm that is both communication-efficient and that guarantees the privacy of the agents' data. The first goal is achieved through a local training approach, which reduces communication frequency. The second goal is achieved by perturbing gradients during local training, specifically through gradient clipping and additive noise. We prove that the resulting algorithm converges to a stationary point of the problem within a bounded distance. Additionally, we provide theoretical privacy guarantees within a differential privacy framework that ensure agents' training data cannot be inferred from the trained model shared over the network. We show the algorithm's superior performance on a classification task under the same privacy budget, compared with state-of-the-art methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.02248v1">BVFLMSP : Bayesian Vertical Federated Learning for Multimodal Survival with Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-04-02T16:37:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Abhilash Kar, Basisth Saha, Tanmay Sen, Biswabrata Pradhan</p>
-    <p><b>Summary:</b> Multimodal time-to-event prediction often requires integrating sensitive data distributed across multiple parties, making centralized model training impractical due to privacy constraints. At the same time, most existing multimodal survival models produce single deterministic predictions without indicating how confident the model is in its estimates, which can limit their reliability in real-world decision making. To address these challenges, we propose BVFLMSP, a Bayesian Vertical Federated Learning (VFL) framework for multimodal time-to-event analysis based on a Split Neural Network architecture. In BVFLMSP, each client independently models a specific data modality using a Bayesian neural network, while a central server aggregates intermediate representations to perform survival risk prediction. To enhance privacy, we integrate differential privacy mechanisms by perturbing client side representations before transmission, providing formal privacy guarantees against information leakage during federated training.
-  We first evaluate our Bayesian multimodal survival model against widely used single modality survival baselines and the centralized multimodal baseline MultiSurv. Across multimodal settings, the proposed method shows consistent improvements in discrimination performance, with up to 0.02 higher C-index compared to MultiSurv. We then compare federated and centralized learning under varying privacy budgets across different modality combinations, highlighting the tradeoff between predictive performance and privacy. Experimental results show that BVFLMSP effectively includes multimodal data, improves survival prediction over existing baselines, and remains robust under strict privacy constraints while providing uncertainty estimates.</p>
   </details>
 </div>
 
