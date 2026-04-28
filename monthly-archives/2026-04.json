@@ -3485,5 +3485,456 @@
     "categories" : [
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.24724v1",
+    "title" : "Data-Driven Privacy-Preserving Modeling and Frequency Regulation with Aggregated Electric Vehicles via Bilinear Hidden Markov Model",
+    "summary" : "Vehicle-to-Grid (V2G) technology allows bidirectional power flow for real-time grid support, making electric vehicles (EVs) well-suited for ancillary services such as frequency regulation. However, existing methods for flexibility estimation and coordinating aggregated EVs often rely on individual EV traveling information (e.g., arrival/departure time) and/or characteristic parameters (e.g., charging efficiency, battery capacity) as well as real-time state-of-charge (SOC), which raises privacy concerns and faces data quality issues. To address these challenges, this paper proposes a data-driven, privacy-preserving modeling and control framework for frequency regulation using aggregated EVs. The proposed method can provide accurate estimation for power outputs and flexibility of aggregated EVs and carry out effective frequency regulation without any individual EV information. %preserving user privacy and ensuring practical scalability. Simulation results validate the accuracy and effectiveness of the proposed method, which also outperforms the model-based and federated learning-based method under SOC data inaccuracies.",
+    "updated" : "2026-04-27T17:34:41Z",
+    "published" : "2026-04-27T17:34:41Z",
+    "authors" : [
+      {
+        "name" : "Yiping Liu"
+      },
+      {
+        "name" : "Xiaozhe Wang"
+      },
+      {
+        "name" : "Geza Joos"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.24468v1",
+    "title" : "A Survey on Split Learning for LLM Fine-Tuning: Models, Systems, and Privacy Optimizations",
+    "summary" : "Fine-tuning unlocks large language models (LLMs) for specialized applications, but its high computational cost often puts it out of reach for resource-constrained organizations. While cloud platforms could provide the needed resources, data privacy concerns make sharing sensitive information with third parties risky. A promising solution is split learning for LLM fine-tuning, which divides the model between clients and a server, allowing collaborative and secure training through exchanged intermediate data, thus enabling resource-constrained participants to adapt LLMs safely. % In light of this, a growing body of literature has emerged to advance this paradigm, introducing varied model methods, system optimizations, and privacy defense-attack techniques for split learning. To bring clarity and direction to the field, a comprehensive survey is needed to classify, compare, and critique these diverse approaches. This paper fills the gap by presenting the first extensive survey dedicated to split learning for LLM fine-tuning. We propose a unified, fine-grained training pipeline to pinpoint key operational components and conduct a systematic review of state-of-the-art work across three core dimensions: model-level optimization, system-level efficiency, and privacy preservation. Through this structured taxonomy, we establish a foundation for advancing scalable, robust, and secure collaborative LLM adaptation.",
+    "updated" : "2026-04-27T13:36:54Z",
+    "published" : "2026-04-27T13:36:54Z",
+    "authors" : [
+      {
+        "name" : "Zihan Liu"
+      },
+      {
+        "name" : "Yizhen Wang"
+      },
+      {
+        "name" : "Rui Wang"
+      },
+      {
+        "name" : "Xiu Tang"
+      },
+      {
+        "name" : "Sai Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.24326v1",
+    "title" : "X-NegoBox: An Explainable Privacy-Budget Negotiation Framework for Secure Peer-to-Peer Energy Data Exchange",
+    "summary" : "The decentralization of modern energy systems is transforming consumers into prosumers who continuously exchange data with aggregators, peers, and market operators. While such data is essential for peer-to-peer trading, demand response, and distributed forecasting, it can reveal sensitive household patterns and introduce privacy risks. Existing data sharing mechanisms rely on fixed policies or predefined differential privacy budgets, limiting their ability to adapt to variations in reliability, data sensitivity, and request purpose. As a result, prosumers rarely receive explanations for why a request is accepted, rejected, or modified, reducing trust and participation.\n  To address these limitations, we propose X-NegoBox, an explainable negotiation framework for adaptive privacy budgeting and transparent decision making. Each prosumer data is managed locally within a private DataBox, where raw data remain confined. Incoming requests are processed by an Autonomous Privacy Budget Negotiation Protocol (APBNP), which determines an appropriate privacy budget based on trust, feature sensitivity, declared purpose, historical behavior, and risk-aware pricing. When needed, APBNP generates privacy-preserving counter-offers, such as reduced resolution or duration.\n  An Explainable Agreement Layer (X-Contract) produces human- and machine-readable justifications for each decision. After agreement, requester code executes locally in a sandbox, and only sanitized outputs are shared. Experiments on realistic energy market settings show reduced privacy leakage, higher acceptance rates, and improved interpretability.",
+    "updated" : "2026-04-27T11:18:55Z",
+    "published" : "2026-04-27T11:18:55Z",
+    "authors" : [
+      {
+        "name" : "Poushali Sengupta"
+      },
+      {
+        "name" : "Sabita Maharjan"
+      },
+      {
+        "name" : "Frank Eliassen"
+      },
+      {
+        "name" : "Yan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.24203v1",
+    "title" : "Agentic Witnessing: Pragmatic and Scalable TEE-Enabled Privacy-Preserving Auditing",
+    "summary" : "Auditing the semantic properties of proprietary data creates a fundamental tension: verification requires transparent access, while proprietary rights demand confidentiality. While Zero-Knowledge Proofs (ZKPs) ensure privacy, they are typically limited to precise algebraic constraints and are ill-suited for verifying qualitative, unstructured properties, such as the logic within a codebase. We propose {\\em Agentic Witnessing}, a framework that moves verification from attested execution to {\\em attested reasoning}. The system is composed of three agents: a Verifier (who wants to check properties of a dataset), a Prover (who owns the dataset) and an Auditor (that inspects the dataset). The Verifier is allowed to ask a limited number of simple binary true/false questions to the auditor. By isolating an LLM-based Auditor within a Trusted Execution Environment (TEE), the system enables the Verifier to query a Prover's private data via simple Boolean queries, without exposing the raw dataset. The Auditor uses the Model Context Protocol (MCP) to dynamically inspect the target dataset, producing a yes/no verdict accompanied by a cryptographic transcript: a signed hash chain binding the reasoning trace to both the original dataset and the TEE's hardware root of trust. We demonstrate this architecture by automating the artifact evaluation process for 21 peer-reviewed computer science papers with released codebases on GitHub (e.g. Does the codebase implement the system described in the paper?). We verified five high-level properties of these codebases described in the corresponding publications, treating the source code as private. Our results show that TEE-enabled agentic auditing provides a mechanism for privacy-preserving oversight, effectively decoupling qualitative verification from the need for data disclosure.",
+    "updated" : "2026-04-27T09:07:15Z",
+    "published" : "2026-04-27T09:07:15Z",
+    "authors" : [
+      {
+        "name" : "Antony Rowstron"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.ET",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.24066v1",
+    "title" : "Listen to the Voices of Everyday Users: Democratizing Privacy Ratings for Sensitive Data Access in Mobile Apps",
+    "summary" : "Mobile apps frequently request excessive data access, raising significant privacy concerns. While regulations like GDPR emphasize data minimization, they provide limited guidance on concretely defining and enforcing necessary data access. Existing regulatory mechanisms primarily rely on expert-driven audits that face challenges in scalability, neutrality, and alignment with user expectations. In this paper, we propose a novel paradigm--democratizing privacy assessment, inspired by prior work on user-centric privacy perceptions--which repositions users as active evaluators in the privacy auditing process, recognizing that user perceptions of data usage play a crucial role in assessing the appropriateness and necessity of data access. To operationalize this paradigm, we introduce DePRa, a prototype system developed through participatory design, featuring contextual explanation provision, category-based representative selection, an intuitive rating interface, and preference-based rating adjustment. We evaluated DePRa with 200 everyday mobile app users, analyzing how effectively it captures user opinions on sensitive data access, comparing their privacy ratings with expert assessments, and exploring risk preference-based score calibration. Our findings show the feasibility and promise of democratized privacy assessment, highlighting its potential to complement expert auditing and support inclusive privacy evaluation.",
+    "updated" : "2026-04-27T05:47:58Z",
+    "published" : "2026-04-27T05:47:58Z",
+    "authors" : [
+      {
+        "name" : "Liu Wang"
+      },
+      {
+        "name" : "Tianshu Zhou"
+      },
+      {
+        "name" : "Haoyu Wang"
+      },
+      {
+        "name" : "Yi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23847v1",
+    "title" : "Privacy-preserving Meta-analysis through Low-Rank Basis Hunting",
+    "summary" : "A central challenge of meta-analysis is that the populations underlying existing studies often differ from the target population in unknown ways. We study the problem of predicting function-valued quantities, such as regression and conditional average treatment effect functions, for a new target population using only study-level covariates and estimates. We propose MetaHunt, a new meta-analysis methodology based on a shared low-rank structure, in which the true function from each study lies within the convex hull of a small set of latent basis functions. To recover these basis functions, we extend the Successive Projection Algorithm to the functional setting, incorporating a denoised basis-hunting step. We establish consistency of the recovered basis functions under mild regularity conditions. We then model the relationship between study-level covariates and the corresponding mixing weights using flexible semi-parametric or non-parametric methods. MetaHunt is privacy-preserving and enables meta-analytic prediction based on study-level information alone, even when individual-level data are unavailable to analysts. In addition, for each study, functions of interest can be estimated using possibly different machine learning algorithms. For uncertainty quantification, we construct prediction intervals via conformal prediction. We show that, under exchangeability and mild estimation-error conditions, these intervals achieve asymptotically valid marginal coverage. We demonstrate the effectiveness of MetaHunt through both simulation studies and empirical applications.",
+    "updated" : "2026-04-26T19:32:17Z",
+    "published" : "2026-04-26T19:32:17Z",
+    "authors" : [
+      {
+        "name" : "Wenqi Shi"
+      },
+      {
+        "name" : "Kosuke Imai"
+      },
+      {
+        "name" : "Yi Zhang"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23795v1",
+    "title" : "LLM-CEG: Extending the Classification Error Gauge Framework for Privacy Auditing of Large Language Models",
+    "summary" : "This paper extends the Classification Error Gauge (x-CEG) framework, originally developed for measuring the privacy-utility trade-off in tabular datasets, to privacy auditing of Large Language Models (LLMs). We propose LLM-CEG, a systematic framework that employs membership inference attack (MIA) success rates as an empirical privacy gauge and model perplexity as a utility gauge, iteratively adjusting differential privacy parameters until both thresholds are jointly satisfied. A proof-of-concept prototype fine-tunes DistilGPT-2 on a synthetic clinical PII dataset under four privacy regimes using DP-SGD. Results indicate that DP-SGD reduces MIA attacker advantage by 71.5% while simultaneously improving out-of-distribution utility by 47-50% relative to the overfitted baseline, suggesting that differential privacy may act as implicit regularization under narrow fine-tuning conditions. We further extend the SIED engineering framework to the LLM context as LLM-SIED, providing an auditable, regulator-aligned process for privacy-compliant LLM deployment.",
+    "updated" : "2026-04-26T16:39:37Z",
+    "published" : "2026-04-26T16:39:37Z",
+    "authors" : [
+      {
+        "name" : "Kato Mivule"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23711v1",
+    "title" : "Spore: Efficient and Training-Free Privacy Extraction Attack on LLMs via Inference-Time Hybrid Probing",
+    "summary" : "With the wide adoption of personal AI assistants such as OpenClaw, privacy leakage in user interaction contexts with large language model (LLM) agents has become a critical issue. Existing privacy attacks against LLMs primarily target training data, while research on inference-time contextual privacy risks in LLM agent memory remains limited. Moreover, prior methods often incur high attack costs, requiring multiple queries or relying on white-box assumptions, which limits their practicality in real-world deployments. To address these issues, we propose a training-free privacy extraction attack targeting LLM agent memory, which we name \\textsc{Spore}. \\textsc{Spore} is compatible with both black-box and gray-box settings. In the black-box setting, \\textsc{Spore} can efficiently extract a small candidate set via a single query to recover the original private information. In the gray-box setting, \\textsc{Spore} allows the attacker to leverage multi-ranked tokens for more accurate and faster privacy extraction. We provide an information-theoretic analysis of \\textsc{Spore} and show that it achieves high query efficiency with substantial per query information leakage. Experiments on multiple frontier LLMs show that \\textsc{Spore} outperforms attack success rate over existing state-of-the-art (SOTA) schemes. It also maintains low attack cost and remains stable across different model parameter settings. We further evaluate the robustness of \\textsc{Spore} against existing defense mechanisms. Our results show that \\textsc{Spore} consistently bypasses both detection and strong safety alignment, demonstrating resilient performance in diverse defensive settings and real-world safety threats.",
+    "updated" : "2026-04-26T13:54:15Z",
+    "published" : "2026-04-26T13:54:15Z",
+    "authors" : [
+      {
+        "name" : "Yu Cui"
+      },
+      {
+        "name" : "Ruiqing Yue"
+      },
+      {
+        "name" : "Hang Fu"
+      },
+      {
+        "name" : "Sicheng Pan"
+      },
+      {
+        "name" : "Zhuoyu Sun"
+      },
+      {
+        "name" : "Baohan Huang"
+      },
+      {
+        "name" : "Haibin Zhang"
+      },
+      {
+        "name" : "Cong Zuo"
+      },
+      {
+        "name" : "Licheng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23688v1",
+    "title" : "Do Protective Perturbations Really Protect Portrait Privacy under Real-world Image Transformations?",
+    "summary" : "Proactive defense methods protect portrait images from unauthorized editing or talking face generation (TFG) by introducing pixel-level protective perturbations, and have already attracted increasing attention for privacy protection. In real-world scenarios, images inevitably undergo various transformations during cross-device display and dissemination--such as scale transformations and color compression--that directly alter pixel values. However, it remains unclear whether such pixel-level modifications affect the effectiveness of existing proactive defense methods that rely on pixel-level perturbations. To solve this problem, we conduct a systematic evaluation of representative proactive defenses under image transformation. The evaluated methods are selected to span different generation architectures such as diffusion and GAN-based models, as well as defense scopes covering both portrait and natural images, and are assessed using both qualitative and quantitative metrics for subjective and objective comparison. Experimental results indicate that defense methods based on pixel-level perturbations struggle to withstand common image transformations, posing a risk of defense failure in real-world applications. To further highlight this risk, we propose a simple yet effective purification framework by leveraging the vulnerabilities induced by real-world image transformations. Experimental results demonstrate that the proposed method can efficiently remove protective perturbations with low computational cost, highlighting previously overlooked risks to the research community.",
+    "updated" : "2026-04-26T13:04:33Z",
+    "published" : "2026-04-26T13:04:33Z",
+    "authors" : [
+      {
+        "name" : "Ruiqing Sun"
+      },
+      {
+        "name" : "Xingshan Yao"
+      },
+      {
+        "name" : "Zhijing Wu"
+      },
+      {
+        "name" : "Tian Lan"
+      },
+      {
+        "name" : "Chenhao Cui"
+      },
+      {
+        "name" : "Huiyang Zhao"
+      },
+      {
+        "name" : "Jialing Shi"
+      },
+      {
+        "name" : "Chen Yang"
+      },
+      {
+        "name" : "Xianling Mao"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23649v1",
+    "title" : "Rényi Pufferfish Privacy with Gaussian-based Priors: From Single Gaussian to Mixture Model",
+    "summary" : "Rényi Pufferfish Privacy (RPP) provides a Rényi divergence-based privacy framework for correlated data, but existing $\\infty$-Wasserstein mechanisms are often conservative and sacrifice data utility. We study Gaussian mechanisms for RPP under Gaussian and Gaussian-mixture priors. For single Gaussian priors, we derive the exact Rényi divergence after Gaussian perturbation, obtain a relaxed closed-form sufficient condition for $(α,ε)$-RPP, and characterize the monotonicity of the calibrated noise with respect to the privacy budget $ε$ and the Rényi order $α$. To handle more general non-Gaussian and multimodal priors, we approximate secret-conditioned outputs with Gaussian mixture models and introduce an optimal-transport-based sufficient condition for RPP. Experiments on three UCI datasets with statistical (\\textsc{RAW}, \\textsc{MEAN}) and model-output (\\textsc{BNN}, \\textsc{GP}) queries show that our prior-aware mechanisms consistently require less noise than a recent RPP additive-noise baseline, achieving an average noise reduction of 48.9\\%. These results show that our mechanisms can substantially improve the privacy-utility trade-off under RPP.",
+    "updated" : "2026-04-26T10:37:28Z",
+    "published" : "2026-04-26T10:37:28Z",
+    "authors" : [
+      {
+        "name" : "Wenjin Yang"
+      },
+      {
+        "name" : "Ni Ding"
+      },
+      {
+        "name" : "Zijian Zhang"
+      },
+      {
+        "name" : "Zhen Li"
+      },
+      {
+        "name" : "Jing Sun"
+      },
+      {
+        "name" : "Jincheng An"
+      },
+      {
+        "name" : "Yong Liu"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23563v1",
+    "title" : "CyberCane: Neuro-Symbolic RAG for Privacy-Preserving Phishing Detection with Formal Ontology Reasoning",
+    "summary" : "Privacy-critical domains require phishing detection systems that satisfy contradictory constraints: near-zero false positives to prevent workflow disruption, transparent explanations for non-expert staff, strict regulatory compliance prohibiting sensitive data exposure to external APIs, and robustness against AI-generated attacks. Existing rule-based systems are brittle to novel campaigns, while LLM-based detectors violate privacy regulations through unredacted data transmission. We introduce CyberCane, a neuro-symbolic framework integrating deterministic symbolic analysis with privacy-preserving retrieval-augmented generation (RAG). Our dual-phase pipeline applies lightweight symbolic rules to email metadata, then escalates borderline cases to semantic classification via RAG with automated sensitive data redaction and retrieval from a phishing-only corpus. We further introduce PhishOnt, an OWL ontology enabling verifiable attack classification through formal reasoning chains. Evaluation on DataPhish2025 (12.3k emails; mixed human/LLM) and Nazario/SpamAssassin demonstrates a 78.6-point recall gain over symbolic-only detection on AI-generated threats, with precision exceeding 98% and FPR as low as 0.16%. Healthcare deployment projects a 542x ROI; tunable operating points support diverse risk tolerances, with open-source implementation at https://github.com/sbhakim/Cybercane.",
+    "updated" : "2026-04-26T07:08:00Z",
+    "published" : "2026-04-26T07:08:00Z",
+    "authors" : [
+      {
+        "name" : "Safayat Bin Hakim"
+      },
+      {
+        "name" : "Aniqa Afzal"
+      },
+      {
+        "name" : "Qi Zhao"
+      },
+      {
+        "name" : "Vigna Majmundar"
+      },
+      {
+        "name" : "Pawel Sloboda"
+      },
+      {
+        "name" : "Houbing Herbert Song"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23426v1",
+    "title" : "Enhanced Privacy and Communication Efficiency in Non-IID Federated Learning with Adaptive Quantization and Differential Privacy",
+    "summary" : "Federated learning (FL) is a distributed machine learning method where multiple devices collaboratively train a model under the management of a central server without sharing underlying data. One of the key challenges of FL is the communication bottleneck caused by variations in connection speed and bandwidth across devices. Therefore, it is essential to reduce the size of transmitted data during training. Additionally, there is a potential risk of exposing sensitive information through the model or gradient analysis during training. To address both privacy and communication efficiency, we combine differential privacy (DP) and adaptive quantization methods. We use Laplacian-based DP to preserve privacy, which is relatively underexplored in FL and offers tighter privacy guarantees than Gaussian-based DP. We propose a simple and efficient global bit-length scheduler using round-based cosine annealing, along with a client-based scheduler that dynamically adapts based on client contribution estimated through dataset entropy analysis. We evaluate our approach through extensive experiments on CIFAR10, MNIST, and medical imaging datasets, using non-IID data distributions across varying client counts, bit-length schedulers, and privacy budgets. The results show that our adaptive quantization methods reduce total communicated data by up to 52.64% for MNIST, 45.06% for CIFAR10, and 31% to 37% for medical imaging datasets compared to 32-bit float training while maintaining competitive model accuracy and ensuring robust privacy through differential privacy.",
+    "updated" : "2026-04-25T19:43:05Z",
+    "published" : "2026-04-25T19:43:05Z",
+    "authors" : [
+      {
+        "name" : "Emre Ardıç"
+      },
+      {
+        "name" : "Yakup Genç"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23248v1",
+    "title" : "PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps",
+    "summary" : "Mobile apps offer significant benefits, but their privacy protections often remain ineffective and confusing for users. While prior work mainly analyzes app privacy vulnerabilities, few approaches help users understand, set, and enforce their privacy preferences. This paper presents PrivacyAssist, a multi-agent LLM-based platform that detects inconsistencies between user-granted permissions and developers' declared sensitive data collection and sharing practices. Using Retrieval-Augmented Generation (RAG), PrivacyAssist provides concise explanations and real-time on-device warnings to support informed installation decisions. We evaluate PrivacyAssist with 200 users and 2,347 Android apps, finding that only 16% of apps are fully consistent between granted permissions and declared data practices.",
+    "updated" : "2026-04-25T10:58:05Z",
+    "published" : "2026-04-25T10:58:05Z",
+    "authors" : [
+      {
+        "name" : "Tran Thanh Lam Nguyen"
+      },
+      {
+        "name" : "Edoardo Di Tullio"
+      },
+      {
+        "name" : "Barbara Carminati"
+      },
+      {
+        "name" : "Elena Ferrari"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.23245v1",
+    "title" : "Training Machine Learning Models on Encrypted Data: A Privacy-Preserving Framework using Homomorphic Encryption",
+    "summary" : "The use of Machine Learning (ML) for data-driven decision-making often relies on access to sensitive datasets, which introduces privacy challenges. Traditional encryption methods protect data at rest or in transit but fail to secure it during processing, exposing it to unauthorized access. Homomorphic encryption emerges as a transformative solution, enabling computations on encrypted data without decryption, thus preserving confidentiality throughout the ML pipeline. This paper addresses the challenge of training ML models on encrypted data while maintaining accuracy and efficiency by proposing a proof-of-concept for a privacy-preserving framework that leverages Cheon-Kim-Kim-Song (CKKS) for approximate real-number arithmetic. Also, it demonstrates the feasibility of training K-Nearest Neighbors (KNN) and linear regression models on encrypted data, and evaluates encrypted inference for a basic Multilayer Perceptron (MLP) architecture. Experimental results show that models trained under Homomorphic encryption achieve performance metrics comparable to plaintext-trained models, validating the approach. However, challenges such as computational overhead, noise management, and limited support for non-polynomial operations persist. This work lays the groundwork for broader adoption of privacy-preserving ML in real-world applications, balancing security with computational feasibility.",
+    "updated" : "2026-04-25T10:50:41Z",
+    "published" : "2026-04-25T10:50:41Z",
+    "authors" : [
+      {
+        "name" : "Alexandre Marques"
+      },
+      {
+        "name" : "Beatriz Sá"
+      },
+      {
+        "name" : "Rui Botelho"
+      },
+      {
+        "name" : "Pedro Pinto"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.17796v3",
+    "title" : "Teaching Usable Privacy in HCI Education: Designing, Implementing, and Evaluating an Active Learning Graduate Course",
+    "summary" : "As digital systems increasingly rely on pervasive data collection and inference, educating future designers and researchers about Usable Privacy has become a critical need for HCI. However, privacy education in higher education is often fragmented, theory-heavy, or detached from real-world applications. Thus, in this paper, we present the design, implementation, and evaluation of a 15-week graduate-level course on Usable Privacy that addresses this through active, practice-oriented pedagogy. The course integrates use cases, structured role playing, case-based discussions, guest lectures, and a multi-phase research project to support students in reasoning about privacy from multiple stakeholder perspectives. Grounded in contemporary privacy research and the Modern Privacy framework, the curriculum emphasizes both conceptual understanding and applied research skills. We report findings from two course offerings in consecutive years (2024-2025) using a mixed-methods evaluation that combines quantitative teaching evaluations with qualitative analysis of student reflections and instructor observations. Results indicate increased student engagement, improved ability to articulate trade-offs in privacy design, and stronger connections between theory and practice. To support adoption and replication, we also release detailed assignment descriptions and grading rubrics. This work contributes an empirically informed model for teaching Usable Privacy in HCI education and offers actionable guidance for educators seeking to integrate privacy into their curricula.",
+    "updated" : "2026-04-26T23:28:58Z",
+    "published" : "2026-04-20T04:36:33Z",
+    "authors" : [
+      {
+        "name" : "Sanchari Das"
+      },
+      {
+        "name" : "Dhiman Goswami"
+      },
+      {
+        "name" : "Michelle Melo"
+      },
+      {
+        "name" : "Aditya Johri"
+      },
+      {
+        "name" : "Vivian G. Motti"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.22805v1",
+    "title" : "See No Evil: Semantic Context-Aware Privacy Risk Detection for AR",
+    "summary" : "Augmented reality (AR) systems pose unique privacy risks due to their continuous capture of visual data. Existing AR privacy frameworks lack semantic understanding of visual content, limiting their effectiveness in detecting context-dependent privacy risks. We propose PrivAR, which leverages vision language models (VLMs) with chain-of-thought prompting for contextual privacy risk detection in AR environments. PrivAR uses visual scene cues to infer potential sensitive information types, such as identifying password notes in office environments through contextual reasoning. PrivAR detects and obfuscates textual content, preventing exposure of sensitive information while preserving contextual cues necessary for VLM inference. Additionally, we investigate contextually-informed warning interfaces to enhance user privacy awareness. Experiments on a real-world AR dataset show that PrivAR achieves superior accuracy (81.48%) and F1-score (84.62%) compared to baselines, while reducing privacy leakage rate to 17.58%. User studies evaluating contextually-informed warning interfaces provide insights into effective privacy-aware AR design.",
+    "updated" : "2026-04-14T04:17:53Z",
+    "published" : "2026-04-14T04:17:53Z",
+    "authors" : [
+      {
+        "name" : "Jialu Liu"
+      },
+      {
+        "name" : "Yao Li"
+      },
+      {
+        "name" : "Zhuoheng Li"
+      },
+      {
+        "name" : "Huining Li"
+      },
+      {
+        "name" : "Ying Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.09518v3",
+    "title" : "Demonstrably Informed Consent in Privacy Policy Flows: Evidence from a Randomized Experiment",
+    "summary" : "Privacy policies govern how personal data is collected, used, and shared. Yet, in most privacy-policy consent flows, agreement is operationalized as a single click at the end of a long, opaque policy document. Recent privacy-law scholarship has argued for a standard of demonstrably informed consent. That is, the party drafting and designing privacy-policy consent mechanisms must generate reliable evidence that a person demonstrates comprehension of the consequential terms to which they agree. To this end, we study pedagogical friction as a design framing: minimal interventions embedded within a privacy-policy consent flow that aim to support demonstrated comprehension while keeping burden on the user low. In a randomized experiment, we tested pedagogical friction for demonstrably informed consent in the context of a privacy policy for an edtech app for young children. We recruited 293 parents of kids ages 3-8 to review the app's privacy policy under one of six conditions that varied presentation format and pacing, then complete a six-question comprehension quiz. Three conditions offered a second policy review and quiz retake for participants who did not pass this quiz on their first attempt. We find that the slide-based condition (G3) achieved the highest first-attempt threshold attainment (>=80%) (41.7%), followed by the paced, sectioned condition (G4) (30.6%). In the retake conditions, 64.9% of participants who completed a second attempt improved their score. Notably, in conditions that did not gate consent on demonstrated comprehension, 97.3% of participants who scored below the threshold still chose to consent, suggesting that ungated consent flows can record agreement without demonstrated comprehension. Our results suggest that pedagogical friction can strengthen the evidentiary basis of consent and clarify what it costs in time and burden.",
+    "updated" : "2026-04-25T13:27:15Z",
+    "published" : "2026-04-10T17:39:11Z",
+    "authors" : [
+      {
+        "name" : "Qian Ma"
+      },
+      {
+        "name" : "Aditya Majumdar"
+      },
+      {
+        "name" : "Sarah Rajtmajer"
+      },
+      {
+        "name" : "Brett Frischmann"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
