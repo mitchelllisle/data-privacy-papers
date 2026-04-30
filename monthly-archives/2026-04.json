@@ -3957,5 +3957,159 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26838v1",
+    "title" : "Solving Positive Linear Programs with Differential Privacy",
+    "summary" : "We study differentially private approximation algorithms for positive linear programs (LPs with nonnegative coefficients and variables), focusing on the fundamental families of packing, covering, and mixed packing-covering formulations. We focus on the high-sensitivity, constraint-private regime of Hsu-Roth-Roughgarden-Ullman (ICALP 2014), where neighboring instances may differ by an arbitrary single constraint, so one cannot hope to approximately satisfy every constraint under privacy. We give private solvers that return approximate solutions while violating only a controlled number of constraints. Our algorithms improve the prior instance-dependent guarantees, and also yield new data-independent bounds that depend only on the dimension. Our techniques involve a dense multiplicative weights update method developed from a regularized dual viewpoint, which we analyze in a way that exploits structure specific to positive LPs.",
+    "updated" : "2026-04-29T16:02:03Z",
+    "published" : "2026-04-29T16:02:03Z",
+    "authors" : [
+      {
+        "name" : "Alina Ene"
+      },
+      {
+        "name" : "Huy Le Nguyen"
+      },
+      {
+        "name" : "Ta Duy Nguyen"
+      },
+      {
+        "name" : "Adrian Vladu"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26525v1",
+    "title" : "PRAG End-to-End Privacy-Preserving Retrieval-Augmented Generation",
+    "summary" : "Retrieval-Augmented Generation (RAG) is essential for enhancing Large Language Models (LLMs) with external knowledge, but its reliance on cloud environments exposes sensitive data to privacy risks. Existing privacy-preserving solutions often sacrifice retrieval quality due to noise injection or only provide partial encryption. We propose PRAG, an end-to-end privacy-preserving RAG system that achieves end-to-end confidentiality for both documents and queries without sacrificing the scalability of cloud-hosted RAG. PRAG features a dual-mode architecture: a non-interactive PRAG-I utilizes homomorphic-friendly approximations for low-latency retrieval, while an interactive PRAG-II leverages client assistance to match the accuracy of non-private RAG. To ensure robust semantic ordering, we introduce Operation-Error Estimation (OEE), a mechanism that stabilizes ranking against homomorphic noise. Experiments on large-scale datasets demonstrate that PRAG achieves competitive recall (72.45%-74.45%), practical retrieval latency, and strong resilience against graph reconstruction attacks while maintaining end-to-end confidentiality. This work confirms the feasibility of secure, high-performance RAG at scale.",
+    "updated" : "2026-04-29T10:46:45Z",
+    "published" : "2026-04-29T10:46:45Z",
+    "authors" : [
+      {
+        "name" : "Zhijun Li"
+      },
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Huayi Qi"
+      },
+      {
+        "name" : "Wenxuan Yu"
+      },
+      {
+        "name" : "Tingchuang Zhang"
+      },
+      {
+        "name" : "Qiao Zhang"
+      },
+      {
+        "name" : "GuangYong Shang"
+      },
+      {
+        "name" : "Zhen Ma"
+      },
+      {
+        "name" : "Xiuzhen Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26390v1",
+    "title" : "Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations",
+    "summary" : "Balancing differential privacy (DP) with recommendation accuracy is a key challenge in privacy-preserving recommender systems, since DP-noise degrades accuracy. We address this trade-off at both the data and model levels. At the data level, we apply DP only to the most stereotypical user data likely to reveal sensitive attributes, such as gender or age, to reduce unnecessary perturbation; we refer to this as targeted DP. At the model level, we use meta-learning to improve robustness to remaining DP-noise. This achieves a better trade-off between accuracy and privacy than standard approaches: Meta-learning improves accuracy and targeted DP leads to lower empirical privacy risk compared to uniformly applied DP and full DP baselines. Overall, our findings show that selectively applying DP at the data level together with meta-learning at the model level can effectively balance recommendation accuracy and user privacy.",
+    "updated" : "2026-04-29T08:00:20Z",
+    "published" : "2026-04-29T08:00:20Z",
+    "authors" : [
+      {
+        "name" : "Peter Müllner"
+      },
+      {
+        "name" : "Dominik Kowald"
+      },
+      {
+        "name" : "Markus Schedl"
+      },
+      {
+        "name" : "Elisabeth Lex"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26184v1",
+    "title" : "Privacy-Preserving Clothing Classification using Vision Transformer for Thermal Comfort Estimation",
+    "summary" : "A privacy-preserving clothing classification scheme is presented to enable secure occupant-centric control (OCC) systems. Although the utilization of camera images for HVAC control has been widely studied to optimize thermal comfort, privacy protection of occupant images has not been considered in prior works. While various privacy-preserving methods have been proposed for image classification, applying conventional schemes results in severe accuracy degradation. In this paper, we introduce a privacy-preserving classification method using Vision Transformer (ViT) applied to clothing insulation estimation. In an experiment using the DeepFashion dataset categorized by clothing insulation, while the conventional pixel-based method suffers a severe accuracy drop, our scheme maintains a high accuracy on encrypted images, showing no degradation from plain images across all categories.",
+    "updated" : "2026-04-29T00:18:10Z",
+    "published" : "2026-04-29T00:18:10Z",
+    "authors" : [
+      {
+        "name" : "Tatsuya Chuman"
+      },
+      {
+        "name" : "Yousuke Udagawa"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26073v1",
+    "title" : "Privacy-Preserving Federated Learning Framework for Distributed Chemical Process Optimization",
+    "summary" : "Industrial chemical plants often operate under strict data confidentiality constraints, making centralized data-driven process modeling difficult. Federated learning (FL) provides a promising solution by enabling collaborative model training across distributed facilities without sharing raw operational data. This paper proposes a privacy-preserving federated learning framework for distributed chemical process optimization using data collected from multiple geographically separated plants. Each plant locally trains a neural-network-based process model using its own time-series sensor data, while only model parameters are transmitted to a central aggregation server through secure aggregation mechanisms. This design allows cross-plant knowledge sharing while maintaining strict data locality and industrial confidentiality. Experimental evaluation was conducted using process datasets from three independent chemical plants operating under heterogeneous conditions. The results demonstrate rapid convergence of the federated model, with the global mean squared error decreasing from approximately 2369 to below 50 within the first five communication rounds and stabilizing around 35 after 40 rounds. In comparison with local-only training, the proposed federated framework significantly improves prediction accuracy across all plants, while achieving performance comparable to centralized training. The findings indicate that federated learning provides an effective and scalable solution for collaborative industrial analytics, enabling privacy-preserving predictive modeling and process optimization across distributed chemical production facilities.",
+    "updated" : "2026-04-28T19:26:43Z",
+    "published" : "2026-04-28T19:26:43Z",
+    "authors" : [
+      {
+        "name" : "Teetat Pipattaratonchai"
+      },
+      {
+        "name" : "Aueaphum Aueawatthanaphisut"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.19653v2",
+    "title" : "A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Privacy Vulnerabilities",
+    "summary" : "Human mobility data are used in numerous applications, ranging from public health to urban planning. Human mobility is inherently sensitive, as it can contain information such as religious beliefs and political affiliations. Historically, it has been proposed to modify the information using techniques such as aggregation, obfuscation, or noise addition, to adequately protect privacy and eliminate concerns. As these methods come at a great cost in utility, new methods leveraging development in generative models, were introduced. The extent to which such methods answer the privacy-utility trade-off remains an open problem. In this paper, we introduced a first step towards solving it, by the introduction and application of a new framework for utility evaluation. Furthermore, we provide evidence that privacy evaluation remains a great challenge to consider and that it should be tackled through adversarial evaluation in accordance with the current EU regulation. We propose a new membership inference attack against a subcategory of generative models, even though this subcategory was deemed private due to its resistance over the trajectory user-linking problem.",
+    "updated" : "2026-04-29T09:20:46Z",
+    "published" : "2026-04-21T16:42:33Z",
+    "authors" : [
+      {
+        "name" : "Aya Cherigui"
+      },
+      {
+        "name" : "Florent Guépin"
+      },
+      {
+        "name" : "Arnaud Legendre"
+      },
+      {
+        "name" : "Jean-François Couchot"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
   }
 ]
