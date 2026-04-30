@@ -2,6 +2,66 @@
 <h2>2026-04</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.26838v1">Solving Positive Linear Programs with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-04-29T16:02:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alina Ene, Huy Le Nguyen, Ta Duy Nguyen, Adrian Vladu</p>
+    <p><b>Summary:</b> We study differentially private approximation algorithms for positive linear programs (LPs with nonnegative coefficients and variables), focusing on the fundamental families of packing, covering, and mixed packing-covering formulations. We focus on the high-sensitivity, constraint-private regime of Hsu-Roth-Roughgarden-Ullman (ICALP 2014), where neighboring instances may differ by an arbitrary single constraint, so one cannot hope to approximately satisfy every constraint under privacy. We give private solvers that return approximate solutions while violating only a controlled number of constraints. Our algorithms improve the prior instance-dependent guarantees, and also yield new data-independent bounds that depend only on the dimension. Our techniques involve a dense multiplicative weights update method developed from a regularized dual viewpoint, which we analyze in a way that exploits structure specific to positive LPs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.26525v1">PRAG End-to-End Privacy-Preserving Retrieval-Augmented Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-29T10:46:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhijun Li, Minghui Xu, Huayi Qi, Wenxuan Yu, Tingchuang Zhang, Qiao Zhang, GuangYong Shang, Zhen Ma, Xiuzhen Cheng</p>
+    <p><b>Summary:</b> Retrieval-Augmented Generation (RAG) is essential for enhancing Large Language Models (LLMs) with external knowledge, but its reliance on cloud environments exposes sensitive data to privacy risks. Existing privacy-preserving solutions often sacrifice retrieval quality due to noise injection or only provide partial encryption. We propose PRAG, an end-to-end privacy-preserving RAG system that achieves end-to-end confidentiality for both documents and queries without sacrificing the scalability of cloud-hosted RAG. PRAG features a dual-mode architecture: a non-interactive PRAG-I utilizes homomorphic-friendly approximations for low-latency retrieval, while an interactive PRAG-II leverages client assistance to match the accuracy of non-private RAG. To ensure robust semantic ordering, we introduce Operation-Error Estimation (OEE), a mechanism that stabilizes ranking against homomorphic noise. Experiments on large-scale datasets demonstrate that PRAG achieves competitive recall (72.45%-74.45%), practical retrieval latency, and strong resilience against graph reconstruction attacks while maintaining end-to-end confidentiality. This work confirms the feasibility of secure, high-performance RAG at scale.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.26390v1">Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-04-29T08:00:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Peter Müllner, Dominik Kowald, Markus Schedl, Elisabeth Lex</p>
+    <p><b>Summary:</b> Balancing differential privacy (DP) with recommendation accuracy is a key challenge in privacy-preserving recommender systems, since DP-noise degrades accuracy. We address this trade-off at both the data and model levels. At the data level, we apply DP only to the most stereotypical user data likely to reveal sensitive attributes, such as gender or age, to reduce unnecessary perturbation; we refer to this as targeted DP. At the model level, we use meta-learning to improve robustness to remaining DP-noise. This achieves a better trade-off between accuracy and privacy than standard approaches: Meta-learning improves accuracy and targeted DP leads to lower empirical privacy risk compared to uniformly applied DP and full DP baselines. Overall, our findings show that selectively applying DP at the data level together with meta-learning at the model level can effectively balance recommendation accuracy and user privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.26184v1">Privacy-Preserving Clothing Classification using Vision Transformer for Thermal Comfort Estimation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-04-29T00:18:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tatsuya Chuman, Yousuke Udagawa, Hitoshi Kiya</p>
+    <p><b>Summary:</b> A privacy-preserving clothing classification scheme is presented to enable secure occupant-centric control (OCC) systems. Although the utilization of camera images for HVAC control has been widely studied to optimize thermal comfort, privacy protection of occupant images has not been considered in prior works. While various privacy-preserving methods have been proposed for image classification, applying conventional schemes results in severe accuracy degradation. In this paper, we introduce a privacy-preserving classification method using Vision Transformer (ViT) applied to clothing insulation estimation. In an experiment using the DeepFashion dataset categorized by clothing insulation, while the conventional pixel-based method suffers a severe accuracy drop, our scheme maintains a high accuracy on encrypted images, showing no degradation from plain images across all categories.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2604.26073v1">Privacy-Preserving Federated Learning Framework for Distributed Chemical Process Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2026-04-28T19:26:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Teetat Pipattaratonchai, Aueaphum Aueawatthanaphisut</p>
+    <p><b>Summary:</b> Industrial chemical plants often operate under strict data confidentiality constraints, making centralized data-driven process modeling difficult. Federated learning (FL) provides a promising solution by enabling collaborative model training across distributed facilities without sharing raw operational data. This paper proposes a privacy-preserving federated learning framework for distributed chemical process optimization using data collected from multiple geographically separated plants. Each plant locally trains a neural-network-based process model using its own time-series sensor data, while only model parameters are transmitted to a central aggregation server through secure aggregation mechanisms. This design allows cross-plant knowledge sharing while maintaining strict data locality and industrial confidentiality. Experimental evaluation was conducted using process datasets from three independent chemical plants operating under heterogeneous conditions. The results demonstrate rapid convergence of the federated model, with the global mean squared error decreasing from approximately 2369 to below 50 within the first five communication rounds and stabilizing around 35 after 40 rounds. In comparison with local-only training, the proposed federated framework significantly improves prediction accuracy across all plants, while achieving performance comparable to centralized training. The findings indicate that federated learning provides an effective and scalable solution for collaborative industrial analytics, enabling privacy-preserving predictive modeling and process optimization across distributed chemical production facilities.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2604.24982v1">"We Wanted to Do Better Than the Law": Exploring UI/UX Designers' Privacy Advocacy in Practice</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-04-27T20:37:59Z</p>
@@ -352,7 +412,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.19653v1">A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Privacy Vulnerabilities</a></h3>
+  <h3><a href="http://arxiv.org/abs/2604.19653v2">A Dual Perspective on Synthetic Trajectory Generators: Utility Framework and Privacy Vulnerabilities</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-04-21T16:42:33Z</p>
   <details>
@@ -1155,66 +1215,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Tim Rausch, Sylvain Chatel, Wouter Lueks</p>
     <p><b>Summary:</b> Humanitarian organizations help to ensure people's livelihoods in crisis situations. Typically, multiple organizations operate in the same region. To ensure that the limited budget of these organizations can help as many people as possible, organizations perform cross-organizational deduplication to detect duplicate registrations and ensure recipients receive aid from at most one organization. Current deduplication approaches risk privacy harm to vulnerable aid recipients by sharing their data with other organizations. We analyzed the needs of humanitarian organizations to identify the requirements for privacy-friendly cross-organizational deduplication fit for real-life humanitarian missions. We present xDup, a new practical deduplication system that meets the requirements of humanitarian organizations and is two orders of magnitude faster than current solutions. xDup builds on Fuzzy PSI, and we present otFPSI, a concretely efficient Fuzzy PSI protocol for Hamming Space without input assumptions. We show that it is more efficient than existing Fuzzy PSI protocols.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.07884v1">Reinforcement-Guided Synthetic Data Generation for Privacy-Sensitive Identity Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-04-09T06:52:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xuemei Jia, Jiawei Du, Hui Wei, Jun Chen, Joey Tianyi Zhou, Zheng Wang</p>
-    <p><b>Summary:</b> High-fidelity generative models are increasingly needed in privacy-sensitive scenarios, where access to data is severely restricted due to regulatory and copyright constraints. This scarcity hampers model development--ironically, in settings where generative models are most needed to compensate for the lack of data. This creates a self-reinforcing challenge: limited data leads to poor generative models, which in turn fail to mitigate data scarcity. To break this cycle, we propose a reinforcement-guided synthetic data generation framework that adapts general-domain generative priors to privacy-sensitive identity recognition tasks. We first perform a cold-start adaptation to align a pretrained generator with the target domain, establishing semantic relevance and initial fidelity. Building on this foundation, we introduce a multi-objective reward that jointly optimizes semantic consistency, coverage diversity, and expression richness, guiding the generator to produce both realistic and task-effective samples. During downstream training, a dynamic sample selection mechanism further prioritizes high-utility synthetic samples, enabling adaptive data scaling and improved domain alignment. Extensive experiments on benchmark datasets demonstrate that our framework significantly improves both generation fidelity and classification accuracy, while also exhibiting strong generalization to novel categories in small-data regimes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.07839v1">A Hardware-Anchored Privacy Middleware for PII Sharing Across Heterogeneous Embedded Consumer Devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Operating Systems-04E762">
-  <p><b>Published on:</b> 2026-04-09T05:40:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aditya Sabbineni, Pravin Nagare, Devendra Dahiphale, Preetam Dedu, Willison Lopes</p>
-    <p><b>Summary:</b> The rapid expansion of the Internet of Things (IoT) and smart home ecosystems has led to a fragmented landscape of user data management across consumer electronics (CE) such as Smart TVs, gaming consoles, and set-top boxes. Current onboarding processes on these devices are characterized by high friction due to manual data entry and opaque data-sharing practices. This paper introduces the User Data Sharing System (UDSS), a platform-agnostic framework designed to facilitate secure, privacy-first PII (Personally Identifiable Information) exchange between device platforms and third-party applications. Our system implements a Contextual Scope Enforcement (CSE) mechanism that programmatically restricts data exposure based on user intent - specifically distinguishing between Sign-In and Sign-Up workflows. Unlike cloud-anchored identity standards such as FIDO2/WebAuthn, UDSS is designed for shared, device-centric CE environments where persistent user-to-device binding cannot be assumed. We further propose a tiered access model that balances developer needs with regulatory compliance (GDPR/CCPA). A proof-of-concept implementation on a reference ARMv8 Linux-based middleware demonstrates that UDSS reduces user onboarding latency by 65% and measurably reduces PII over-exposure risk through protocol-enforced data minimization. This framework provides a standardized approach to identity management in the heterogeneous CE market.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.07797v1">BRASP: Boolean Range Queries over Encrypted Spatial Data with Access and Search Pattern Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-09T04:50:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jing Zhang, Ganxuan Yang, Yifei Yang, Siqi Wen, Zhengyang Qiu</p>
-    <p><b>Summary:</b> Searchable Encryption (SE) enables users to query outsourced encrypted data while preserving data confidentiality. However, most efficient schemes still leak the search pattern and access pattern, which may allow an honest-but-curious cloud server to infer query contents, user interests, or returned records from repeated searches and observed results. Existing pattern-hiding solutions mainly target keyword queries and do not naturally support Boolean range queries over encrypted spatial data. This paper presents BRASP, a searchable encryption scheme for Boolean range queries over encrypted spatial data. BRASP combines Hilbert-curve-based prefix encoding with encrypted prefix--ID and keyword--ID inverted indexes to support efficient spatial range filtering and conjunctive keyword matching. To hide the search pattern and access pattern under a dual-server setting, BRASP integrates index shuffling for encrypted keyword and prefix entries with ID-field redistribution across two non-colluding cloud servers. BRASP also supports dynamic updates and achieves forward security. We formalize the security of BRASP through confidentiality, shuffle indistinguishability, query unforgeability, and forward-security analyses, and we evaluate its performance experimentally on a real-world dataset. The results show that BRASP effectively protects query privacy while incurring relatively low computation and communication overhead. To facilitate reproducibility and further research, the source code of BRASP is publicly available at https://github.com/Egbert-Lannister/BRASP</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.07531v1">PRISM: Evaluating a Rule-Based, Scenario-Driven Social Media Privacy Education Program for Young Autistic Adults</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-04-08T19:13:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kirsten Chapman, Garrett Smith, Kaitlyn Klabacka, Joseph Thomas Bills, Addisyn Bushman, Terisa Gabrielsen, Pamela J Wisniewski, Xinru Page</p>
-    <p><b>Summary:</b> Young autistic adults may garner benefits through social media but also disproportionately experience privacy harms. Prior research found that these harms often stem from perceiving the affordances of social media differently than the general population, leading to unintentional risky behaviors and interactions with others. While educational interventions have been shown to increase social media privacy literacy for the general population, research has yet to focus on effective educational interventions for autistic young adults. We address this gap by developing and deploying Privacy Rules for Inclusive Social Media (PRISM), a classroom-based educational intervention tailored to the unique risks and neurodevelopmental differences of this population. Twenty-nine autistic students with substantial (level 2) support needs participated in a 14-week social media privacy literacy class. During these classes, participants often communicated their existing rule-based "all or nothing" approaches to privacy management (such as completely disengaging from social media to avoid privacy issues). Our course focused on empowering them by providing more nuanced guidance on safe privacy practices through the use of scenario-based formats and contextual, rule-based scenarios. Using pre- and post-knowledge assessments for each of our 6 course topics, our intervention led to a statistically significant increase in their making safer social media privacy decisions. We conclude with recommendations for how privacy educators and technology designers can leverage neuro-affirming educational interventions to increase privacy literacy for autistic social media users.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.07486v2">Private Seeds, Public LLMs: Realistic and Privacy-Preserving Synthetic Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-04-08T18:26:34Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qian Ma, Sarah Rajtmajer</p>
-    <p><b>Summary:</b> Large language models (LLMs) have emerged as a powerful tool for synthetic data generation. A particularly important use case is producing synthetic replicas of private text, which requires carefully balancing privacy and utility. We propose Realistic and Privacy-Preserving Synthetic Data Generation (RPSG), which uses private seeds and integrates privacy-preserving strategies, including a formal differential privacy (DP) mechanism in the candidate selection, to generate realistic synthetic data. Comprehensive experiments against state-of-the-art private synthetic data generation methods demonstrate that RPSG achieves high fidelity to private data while providing strong privacy protection.</p>
   </details>
 </div>
 
