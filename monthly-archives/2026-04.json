@@ -4111,5 +4111,191 @@
     "categories" : [
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.27833v1",
+    "title" : "Taming Noise-Induced Prototype Degradation for Privacy-Preserving Personalized Federated Fine-Tuning",
+    "summary" : "Prototype-based Personalized Federated Learning (ProtoPFL) enables efficient multi-domain adaptation by communicating compact class prototypes, but directly sharing them poses privacy risks. A common defense involves per-example $\\ell_2$ clipping before prototype computation to bound sensitivity, followed by isotropic Gaussian noise to enforce Local Differential Privacy (LDP). However, Isotropic Gaussian Prototype Perturbation (IGPP) typically over-perturbs discriminative dimensions and struggles to balance the clipping threshold with representation fidelity. In this paper, we propose VPDR, a client-side privacy plug-in that seamlessly integrates into existing ProtoPFLs. Motivated by the observation that dimension-wise class variance reflects discriminability, we introduce Variance-adaptive Prototype Perturbation (VPP), which allocates less noise to discriminative subspaces, preserving semantic separability while ensuring privacy. We further develop Distillation-guided Clipping Regularization (DCR), which enables feature norms to adaptively concentrate near the predefined clipping threshold while maintaining prediction consistency. Theoretical analysis shows that our groupwise mechanism provides privacy guarantees no weaker than the isotropic baseline under the same privacy constraints. Extensive experiments on multi-domain benchmarks demonstrate that VPDR achieves a superior privacy-utility trade-off, outperforming IGPP in personalized federated fine-tuning without sacrificing robustness against realistic attacks.",
+    "updated" : "2026-04-30T13:20:51Z",
+    "published" : "2026-04-30T13:20:51Z",
+    "authors" : [
+      {
+        "name" : "Yuhua Wang"
+      },
+      {
+        "name" : "Qinnan Zhang"
+      },
+      {
+        "name" : "Xiaodong Li"
+      },
+      {
+        "name" : "Huan Zhang"
+      },
+      {
+        "name" : "Yifan Sun"
+      },
+      {
+        "name" : "Wangjie Qiu"
+      },
+      {
+        "name" : "Hainan Zhang"
+      },
+      {
+        "name" : "Yongxin Tong"
+      },
+      {
+        "name" : "Zhiming Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.27598v1",
+    "title" : "Privacy-Preserving Federated Learning via Differential Privacy and Homomorphic Encryption for Cardiovascular Disease Risk Modeling",
+    "summary" : "Protecting sensitive health data while enabling collaborative analysis is a central challenge in healthcare. Traditional machine learning (ML) requires institutions to pool anonymized patient records, centralizing analytical development and privacy risks at a single site. Privacy-enhancing technologies (PETs), including Differential Privacy (DP) and Homomorphic Encryption (HE), can mitigate these risks. However, they are mainly studied in conventional data-sharing settings and often introduce trade-offs, including reduced model utility, higher computational cost, and increased implementation complexity. Federated Learning (FL) reduces data centralization by enabling institutions to train models locally and share only model updates. Nevertheless, FL does not eliminate privacy risks, as shared parameters or gradients may still reveal sensitive information. Integrating DP or HE into FL can strengthen privacy guarantees, yet their comparative performance and deployment implications in real-world healthcare settings remain unclear.\n  We systematically evaluated DP and HE integration in FL under real-world conditions, comparing them with standard FL and centralized ML (cML) to quantify privacy-utility trade-offs in multi-institutional settings. Using nationwide Swedish healthcare data, we evaluated cardiovascular disease risk prediction using logistic regression (LR) and neural network (NN) learners. FL with HE achieved performance comparable to cML but introduced measurable cryptographic overhead, particularly in the NN implementation. FL with DP incurred lower computational cost; however, LR was more sensitive to calibrated noise than the NN, resulting in greater performance degradation. Our findings provide practical guidance for deploying privacy-preserving FL in fragmented healthcare systems.",
+    "updated" : "2026-04-30T08:49:35Z",
+    "published" : "2026-04-30T08:49:35Z",
+    "authors" : [
+      {
+        "name" : "Gaurang Sharma"
+      },
+      {
+        "name" : "Juha Pajula"
+      },
+      {
+        "name" : "Aada Illikainen"
+      },
+      {
+        "name" : "Markus Rautell"
+      },
+      {
+        "name" : "Noora Lipsonen"
+      },
+      {
+        "name" : "Petri Alhainen"
+      },
+      {
+        "name" : "Mika Hilvo"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.27550v1",
+    "title" : "APPSI-139: A Parallel Corpus of English Application Privacy Policy Summarization and Interpretation",
+    "summary" : "Privacy policies are essential for users to understand how service providers handle their personal data. However, these documents are often long and complex, as well as filled with technobabble and legalese, causing users to unknowingly accept terms that may even contradict the law. While summarizing and interpreting these privacy policies is crucial, there is a lack of high-quality English parallel corpus optimized for legal clarity and readability. To address this issue, we introduce APPSI-139, a high-quality English privacy policy corpus meticulously annotated by domain experts, specifically designed for summarization and interpretation tasks. The corpus includes 139 English privacy policies, 15,692 rewritten parallel corpora, and 36,351 fine-grained annotation labels across 11 data practice categories. Concurrently, we propose TCSI-pp-V2, a hybrid privacy policy summarization and interpretation framework that employs an alternating training strategy and coordinates multiple expert modules to effectively balance computational efficiency and accuracy. Experimental results show that the hybrid summarization system built on APPSI-139 corpus and the TCSI-pp-V2 framework outperform large language models, such as GPT-4o and LLaMA-3-70B, in terms of readability and reliability. The source code and dataset are available at https://github.com/EnlightenedAI/APPSI-139.",
+    "updated" : "2026-04-30T07:58:24Z",
+    "published" : "2026-04-30T07:58:24Z",
+    "authors" : [
+      {
+        "name" : "Pengyun Zhu"
+      },
+      {
+        "name" : "Qiheng Sun"
+      },
+      {
+        "name" : "Long Wen"
+      },
+      {
+        "name" : "Yanbo Wang"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Junxu Liu"
+      },
+      {
+        "name" : "Deyi Xiong"
+      },
+      {
+        "name" : "Jinfei Liu"
+      },
+      {
+        "name" : "Zhibo Wang"
+      },
+      {
+        "name" : "Kui Ren"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.27014v1",
+    "title" : "Fidelity, Diversity, and Privacy: A Multi-Dimensional LLM Evaluation for Clinical Data Augmentation",
+    "summary" : "The scarcity of high-quality annotated medical data, particularly in mental health, poses a significant bottleneck for training robust machine learning models. Privacy regulations restrict data sharing, making synthetic data generation a promising alternative. The use of Large Language Models (LLMs) in a data augmentation pipeline could be leveraged as an alternative in this field. In the proposed methodology, DeepSeek-R1, OpenBioLLM-Llama3 and Qwen 3.5 are used to generate synthetic mental health evaluation reports conditioned on specific International Classification of Diseases, Tenth Revision (ICD-10) codes. Because naive text generation can lead to mode collapse or privacy breaches (memorization), a comprehensive evaluation framework is introduced. The generated diagnostic texts are assessed across three dimensions: semantic fidelity, lexical diversity, and privacy/plagiarism. The results demonstrate that all models can generate clinically coherent, diverse, and privacy-safe synthetic reports, significantly expanding the available training data for clinical natural language processing tasks without compromising patient confidentiality.",
+    "updated" : "2026-04-29T11:32:59Z",
+    "published" : "2026-04-29T11:32:59Z",
+    "authors" : [
+      {
+        "name" : "Guillermo Iglesias"
+      },
+      {
+        "name" : "Gema Bello-Orgaz"
+      },
+      {
+        "name" : "María Navas-Loro"
+      },
+      {
+        "name" : "Cristian Ramirez-Atencia"
+      },
+      {
+        "name" : "Mercè Salvador Robert"
+      },
+      {
+        "name" : "Enrique Baca-Garcia"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26525v2",
+    "title" : "PRAG: End-to-End Privacy-Preserving Retrieval-Augmented Generation",
+    "summary" : "Retrieval-Augmented Generation (RAG) is essential for enhancing Large Language Models (LLMs) with external knowledge, but its reliance on cloud environments exposes sensitive data to privacy risks. Existing privacy-preserving solutions often sacrifice retrieval quality due to noise injection or only provide partial encryption. We propose PRAG, an end-to-end privacy-preserving RAG system that achieves end-to-end confidentiality for both documents and queries without sacrificing the scalability of cloud-hosted RAG. PRAG features a dual-mode architecture: a non-interactive PRAG-I utilizes homomorphic-friendly approximations for low-latency retrieval, while an interactive PRAG-II leverages client assistance to match the accuracy of non-private RAG. To ensure robust semantic ordering, we introduce Operation-Error Estimation (OEE), a mechanism that stabilizes ranking against homomorphic noise. Experiments on large-scale datasets demonstrate that PRAG achieves competitive recall (72.45%-74.45%), practical retrieval latency, and strong resilience against graph reconstruction attacks while maintaining end-to-end confidentiality. This work confirms the feasibility of secure, high-performance RAG at scale.",
+    "updated" : "2026-04-30T01:57:16Z",
+    "published" : "2026-04-29T10:46:45Z",
+    "authors" : [
+      {
+        "name" : "Zhijun Li"
+      },
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Huayi Qi"
+      },
+      {
+        "name" : "Wenxuan Yu"
+      },
+      {
+        "name" : "Tingchuang Zhang"
+      },
+      {
+        "name" : "Qiao Zhang"
+      },
+      {
+        "name" : "GuangYong Shang"
+      },
+      {
+        "name" : "Zhen Ma"
+      },
+      {
+        "name" : "Xiuzhen Cheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
