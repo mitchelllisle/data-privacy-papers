@@ -4297,5 +4297,170 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.00283v1",
+    "title" : "A Privacy-Preserving Approach to Conformance Checking",
+    "summary" : "Conformance checking, one of the main process mining operations, aims to identify discrepancies between a process model and an event log. The model represents the expected behaviour, whereas the event log represents the actual process behaviour as captured in information systems records. Traditionally, the process model and the event log are both accessible to the business analyst performing the conformance checking. However, in some contexts, it is necessary to keep either the model or the log private to protect critical or sensitive information. In this paper, we propose a secure approach to conformance checking based on string processing algorithms and homomorphic encryption, where the process model and event log ar not visible to either the model's or event log's owner. The proposed technique is based on alignments, a well-known formalism used for conformance checking. An evaluation is performed using a synthetic and a real-world event log, showing that conformance checking can be securely computed at the expense of high memory and processing requirements.",
+    "updated" : "2026-04-30T22:47:28Z",
+    "published" : "2026-04-30T22:47:28Z",
+    "authors" : [
+      {
+        "name" : "Luis Rodríguez-Flores"
+      },
+      {
+        "name" : "Luciano García-Bañuelos"
+      },
+      {
+        "name" : "Abel Armas-Cervantes"
+      },
+      {
+        "name" : "Astrid Rivera-Partida"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.00076v1",
+    "title" : "zkSBOM: Privacy-Preserving SBOM Sharing with Zero-Knowledge Sets",
+    "summary" : "Software Bills of Materials (SBOMs) are increasingly mandated by regulators, yet existing sharing mechanisms impose a binary choice between full disclosure and full opacity. This exposes software suppliers to attacks that can be deduced from the SBOM only, such as the presence of a vulnerable dependency. Conversely, software consumers can be fooled by software suppliers who modify or misrepresent published SBOMs. We present zkSBOM, a privacy-preserving SBOM sharing mechanism designed to address these threats. zkSBOM uses zero-knowledge sets to cryptographically commit to the components within an SBOM. Software consumers can query for known vulnerabilities and receive a cryptographic proof confirming whether the artifact described by the SBOM is affected, without revealing any additional SBOM content. We conduct a security analysis of zkSBOM by quantifying expected leakage from inclusion and exclusion proofs. We demonstrate real-world feasibility by applying it to realistic scenarios and evaluating its operation requirements. Our evaluation demonstrates that zkSBOM is a strong, secure, and privacy-preserving mechanism for SBOM sharing, protecting software suppliers and software consumers from one another.",
+    "updated" : "2026-04-30T13:54:38Z",
+    "published" : "2026-04-30T13:54:38Z",
+    "authors" : [
+      {
+        "name" : "Tom Sorger"
+      },
+      {
+        "name" : "Eric Cornelissen"
+      },
+      {
+        "name" : "Aman Sharma"
+      },
+      {
+        "name" : "Javier Ron"
+      },
+      {
+        "name" : "Musard Balliu"
+      },
+      {
+        "name" : "Martin Monperrus"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.27598v2",
+    "title" : "Privacy-Preserving Federated Learning via Differential Privacy and Homomorphic Encryption for Cardiovascular Disease Risk Modeling",
+    "summary" : "Protecting sensitive health data while enabling collaborative analysis is a central challenge in healthcare. Traditional machine learning (ML) requires institutions to pool anonymized patient records, centralizing analytical development and privacy risks at a single site. Privacy-enhancing technologies (PETs), including Differential Privacy (DP) and Homomorphic Encryption (HE), can mitigate these risks. However, they are mainly studied in conventional data-sharing settings and often introduce trade-offs, including reduced model utility, higher computational cost, and increased implementation complexity. Federated Learning (FL) reduces data centralization by enabling institutions to train models locally and share only model updates. Nevertheless, FL does not eliminate privacy risks, as shared parameters or gradients may still reveal sensitive information. Integrating DP or HE into FL can strengthen privacy guarantees, yet their comparative performance and deployment implications in real-world healthcare settings remain unclear. We systematically evaluated DP and HE integration in FL under real-world conditions, comparing them with standard FL and centralized ML (cML) to quantify privacy-utility trade-offs in multi-institutional settings. Using nationwide Swedish healthcare data, we evaluated cardiovascular disease risk prediction using logistic regression (LR) and neural network (NN) learners. FL with HE achieved performance comparable to cML but introduced measurable cryptographic overhead, particularly in the NN implementation. FL with DP incurred lower computational cost; however, LR was more sensitive to calibrated noise than the NN, resulting in greater performance degradation. Our findings provide practical guidance for deploying privacy-preserving FL in fragmented healthcare systems.",
+    "updated" : "2026-05-03T19:15:14Z",
+    "published" : "2026-04-30T08:49:35Z",
+    "authors" : [
+      {
+        "name" : "Gaurang Sharma"
+      },
+      {
+        "name" : "Juha Pajula"
+      },
+      {
+        "name" : "Aada Illikainen"
+      },
+      {
+        "name" : "Markus Rautell"
+      },
+      {
+        "name" : "Noora Lipsonen"
+      },
+      {
+        "name" : "Petri Alhainen"
+      },
+      {
+        "name" : "Mika Hilvo"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.00036v1",
+    "title" : "Cross-level Privacy Preserving Utility Mining",
+    "summary" : "Privacy-preserving utility mining (PPUM) aims to hide sensitive high-utility patterns while preserving the utility of the sanitized database. In practice, however, many datasets are associated with taxonomic information, which makes the identification and processing of generalized items more challenging. To address this, we investigate the cross-level privacy-preserving utility mining (CLPPUM) problem and propose a method for protecting generalized items. Based on different victim item selection strategies, we develop three CLPPUM algorithms: minimum RGISU first (Min-RF), maximum RGISU first (Max-RF), and best NSC first (Best-NSCF). Furthermore, to enable efficient victim item identification, a novel dictionary structure named GI-dic is designed to accelerate the computation of required utility metrics. Experimental results on multiple datasets demonstrate that the proposed algorithms successfully hide all sensitive cross-level high-utility itemsets without introducing artificial itemsets. The results also show that our method performs well on sparse datasets, and both Min-RF and Best-NSCF consistently outperform Max-RF. Overall, Min-RF achieves the best performance, particularly when the minimum utility threshold is low and the dataset is dense.",
+    "updated" : "2026-04-28T06:41:01Z",
+    "published" : "2026-04-28T06:41:01Z",
+    "authors" : [
+      {
+        "name" : "Jiahong Cai"
+      },
+      {
+        "name" : "Wensheng Gan"
+      },
+      {
+        "name" : "Philip S. Yu"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.24724v2",
+    "title" : "Data-Driven Privacy-Preserving Modeling and Frequency Regulation with Aggregated Electric Vehicles via Bilinear Hidden Markov Model",
+    "summary" : "Vehicle-to-Grid (V2G) technology allows bidirectional power flow for real-time grid support, making electric vehicles (EVs) well-suited for ancillary services such as frequency regulation. However, existing methods for flexibility estimation and coordinating aggregated EVs often rely on individual EV traveling information (e.g., arrival/departure time) and/or characteristic parameters (e.g., charging efficiency, battery capacity) as well as real-time state-of-charge (SOC), which raises privacy concerns and faces data quality issues. To address these challenges, this paper proposes a data-driven, privacy-preserving modeling and control framework for frequency regulation using aggregated EVs. The proposed method can provide accurate estimation for power outputs and flexibility of aggregated EVs and carry out effective frequency regulation without any individual EV information. Simulation results validate the accuracy and effectiveness of the proposed method, which also outperforms the model-based and federated learning-based method under SOC data inaccuracies.",
+    "updated" : "2026-05-01T02:58:48Z",
+    "published" : "2026-04-27T17:34:41Z",
+    "authors" : [
+      {
+        "name" : "Yiping Liu"
+      },
+      {
+        "name" : "Xiaozhe Wang"
+      },
+      {
+        "name" : "Geza Joos"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.18552v2",
+    "title" : "Do Privacy Policies Match with the Logs? An Empirical Study of Privacy Disclosure in Android Application Logs",
+    "summary" : "Privacy policies are intended to inform users about how software systems collect and handle data, yet they often remain vague or incomplete. This paper presents an empirical study of patterns in log-related statements within privacy policies and their alignment with privacy disclosures observed in Android application logs. We analyzed 1,000 Android apps across multiple categories, generating 86,836,964 log entries. Our findings reveal that while most applications (88.0%) provide privacy policies, only 28.5% explicitly mention logging practices. Among those that reference logging, most clearly describe what information is logged; however, 27.7% of log-related statements remain overly simplistic or vague, offering limited insight into actual data collection. We further observed widespread privacy leakages in application logs, with 67.6% of apps leaking sensitive information not mentioned in their policies. Alarmingly, only 0.4% of applications demonstrated consistent alignment between declared policy contents and actual logged data. These findings highlight that current privacy policies provide incomplete or ambiguous descriptions of logging practices, which frequently do not align with actual logging behaviors.",
+    "updated" : "2026-05-01T14:21:35Z",
+    "published" : "2026-04-20T17:43:25Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Chen"
+      },
+      {
+        "name" : "Love Jayesh Ahir"
+      },
+      {
+        "name" : "Ahmad Suleiman"
+      },
+      {
+        "name" : "Kundi Yao"
+      },
+      {
+        "name" : "Yiming Tang"
+      },
+      {
+        "name" : "Weiyi Shang"
+      },
+      {
+        "name" : "Daqing Hou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.SE"
+    ]
   }
 ]
