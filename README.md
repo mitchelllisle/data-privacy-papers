@@ -2,6 +2,58 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.04029v1">Stayin' Aligned Over Time: Towards Longitudinal Human-LLM Alignment via Contextual Reflection and Privacy-Preserving Behavioral Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-05-05T17:51:41Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Simret Araya Gebreegziabher, Allison E Sproul, Yinuo Yang, Chaoran Chen, Diego Gómez-Zará, Toby Jia-Jun Li</p>
+    <p><b>Summary:</b> Current human-AI alignment and evaluation methods for large language models (LLMs) often rely on preference signals collected immediately after an interaction. This practice implicitly treats preference as static, even though many LLM-mediated decisions unfold over time and may be re-evaluated differently after real-world consequences and observed outcomes. Therefore, we argue for a methodological shift from single-moment preference elicitation to longitudinal, context-situated alignment measurement. We present a methodological framework for collecting temporally grounded alignment signals by combining (1) in-situ preference capture, (2) context-triggered follow-up preference reflection, and (3) privacy-preserving behavioral traces that help interpret preference change. As an instantiation of this methodology, we introduce BITE, a browser-based system that detects consequential LLM interactions, prompts reflection across later decision points, and supports progressive, user-controlled consent for sharing behavioral data. Through a two week longitudinal deployment study with 8 participants, our approach surfaced differences between immediate and later user preferences in accuracy, relevance and other dimensions of the LLM output. Our findings highlight the limitations of single-moment preference datasets and underscore the importance of longitudinal methods for alignment evaluation in everyday use.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.03945v1">Integrating Feature Correlation in Differential Privacy with Applications in DP-ERM</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2026-05-05T16:32:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tianyu Wang, Luhao Zhang, Rachel Cummings</p>
+    <p><b>Summary:</b> Standard differential privacy imposes uniform privacy constraints across all features, overlooking the inherent distinction between sensitive and insensitive features in practice. In this paper, we introduce a relaxed definition of differential privacy that accounts for such heterogeneity, allowing certain features to be treated as insensitive even when correlated with sensitive ones. We propose a correlation-aware framework, $\textsf{CorrDP}$, which relaxes privacy for insensitive features while accounting for their correlations with sensitive features, with the correlations quantified using total variation distance. We design algorithms for differentially private empirical risk minimization (DP-ERM) under the $\textsf{CorrDP}$ framework, incorporating distance-dependent noise into gradients for improved theoretical utility guarantees. When the correlation distance is unknown, we estimate it from the dataset and show that it achieves a comparable privacy-utility guarantee. We perform experiments on synthetic and real-world datasets and show that $\textsf{CorrDP}$-based DP-ERM algorithms consistently outperform the standard DP framework in the presence of insensitive features.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.03188v1">Dependency-Aware Privacy for Multi-turn Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-05-04T22:13:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Divyam Anshumaan, Sarthak Choudhary, Nils Palumbo, Somesh Jha</p>
+    <p><b>Summary:</b> LLM agents release private data across multi-service interactions. Existing prompt sanitizers based on metric differential privacy treat each release independently, so adversaries combining releases across turns can recover private attributes; privacy degrades with every release.
+  This degradation is fundamental: when private attributes are the \emph{roots} of a computation graph, independently noising a derived value amplifies the root's distinguishability by up to the deriving function's Lipschitz constant $L$, which can far exceed the nominal privacy parameter for nonlinear functions in medical and financial workflows.
+  RootGuard sanitizes root values once and computes subsequent releases deterministically from the noised roots. By the post-processing theorem, the privacy guarantee depends only on the initial root sanitization, regardless of the adversary's functions or number of turns, and derived values inherit privacy at zero marginal cost. RootGuard further exploits structural domain knowledge (e.g., BMI from height and weight, or a known target function) to allocate budget across roots, improving the privacy-utility tradeoff.
+  A worst-case adversary forcing $t$ turns increases the total budget $B = t \cdot \varepsilon$. RootGuard distributes this larger budget across roots, while independent noising spends $\varepsilon$ per release and gives the adversary $t$ observations to combine via MAP reconstruction. This yields a \emph{double asymmetry}: more turns aid RootGuard while weakening independent noising.
+  On eight NHANES medical diagnostic templates, RootGuard achieves $2.3$--$3.0\times$ lower target error than independent noising at $\varepsilon = 0.1$ (7.6\% vs.\ 17.1\% wMAPE at $B = (2k{+}1)\varepsilon$). Under MAP reconstruction, more queries strengthen attacks against independent noising while RootGuard remains invariant.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.03069v1">Distributed Deep Variational Approach for Privacy-preserving Data Release</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-04T18:41:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zahir Alsulaimawi, Huaping Liu</p>
+    <p><b>Summary:</b> Federated learning (FL) lets distributed nodes train a shared model without exchanging their raw data, but in privacy-sensitive deployments medical sensors, IoT devices, wearables the protection offered by keeping data local is incomplete: gradients, model updates, and the released representations themselves can leak sensitive attributes. We propose the \emph{Gaussian Privacy Protector} (GPP), a data-release framework for continuous, high-dimensional inputs that learns a stochastic encoder mapping raw data to a low-dimensional sanitized representation. The encoder is trained against a variational lower bound on the mutual information between the released representation and a designated sensitive attribute, while a separate cross-entropy term preserves a designated utility attribute, with a Lagrange multiplier $β$ controlling the trade-off. We then extend GPP to the federated setting, in which each client trains a local encoder, sensitive labels never leave the client, and the aggregator receives only sanitized representations giving instance-level privacy protection in addition to the standard ``raw data stays local'' guarantee of FL. We evaluate GPP on MNIST (digit-sum utility, parity sensitive), CelebA (smiling vs.\ gender), and HAPT-Recognition (activity vs.\ subject identity). Across all three benchmarks, GPP attains utility within roughly one percentage point of an unconstrained autoencoder baseline while reducing the adversary's AUC to near random guessing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.02886v1">CityOS: Privacy Architecture for Urban Sensing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Operating Systems-04E762">
   <p><b>Published on:</b> 2026-05-04T17:54:45Z</p>
@@ -105,6 +157,20 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Navid Azimi</p>
     <p><b>Summary:</b> While public blockchains provide transparent and auditable transaction histories, they inherently compromise user privacy. Existing privacy-enhancing protocols, such as those deployed on Ethereum, typically rely on succinct zero-knowledge proofs (zk-SNARKs) to obscure the transaction graph. However, implementing comparable cryptographic guarantees on high-throughput blockchains like Algorand is challenging due to strict per-call execution budgets and the state contention introduced by global Merkle accumulators. This paper presents Obscura, a decentralized, non-custodial privacy protocol tailored for constrained smart contract environments. Obscura achieves transaction anonymity using Linkable Spontaneous Anonymous Group (LSAG) signatures over the BN254 elliptic curve, verified entirely on-chain. To overcome limitations of the Algorand Virtual Machine (AVM), we introduce a novel state model that leverages Algorand's Box Storage for $O(1)$ commitment membership checks, eliminating the need for global Merkle accumulators, and a dynamic opcode-budget expansion mechanism via pooled inner application calls. Our implementation demonstrates that signer-ambiguous privacy is practical and efficient on Algorand without relying on trusted setups or succinct proofs. Obscura provides a robust privacy layer for transparent ledgers, bridging the gap between high-throughput blockchain architectures and the dual requirements of cryptographic privacy and selective auditability.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.02977v1">Contrastive Privacy: A Semantic Approach to Measuring Privacy of AI-based Sanitization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-05-03T21:33:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> George Bissias, Eugene Bagdasarian, Brian Neil Levine</p>
+    <p><b>Summary:</b> To sanitize specific concepts from imagery and text, privacy mechanisms with formal guarantees are often eschewed in practice in favor of more intuitive techniques. AI-based sanitization is poised to grow in popularity because it can work with the semantics of natural language concepts; e.g., a prompt to "remove faces, clothing, and body shape". Many approaches exist commercially and as prior work. But, the evaluation of such approaches has been bespoke and without formal guarantees.
+  To fill this gap, we propose contrastive privacy, a formal definition of privacy that provides a systematic and quantitative test of sanitized media that has a semantic interpretation. It is independent of the model and mechanism used and operates across multiple media modalities. Contrastive privacy provides guarantees under ideal conditions; and we show how to operationalize the definition with imperfect measures of semantics, provided by models like CLIP, that can connect concepts latently. Notably, the algorithm contrasts sanitized media with other images from the same corpus to arrive at a determination; no manual labeling is involved.
+  In our experiments, we apply our privacy test to both images and text using frontier models: some generate concepts to sanitize and others perform the sanitization. With our test we quantify sanitization success across 34 combinations of models on images, and for 15 models on text. The approach not only quantifies success overall, it identifies specific failures from a sanitized corpus. Further, it is independent of the mechanism used for sanitization, whether by darkening pixels, blurring, or applying more advanced means of obfuscation.</p>
   </details>
 </div>
 
@@ -1150,67 +1216,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Sicheng Wu, Minghui Liwang, Yangyang Gao, Deqing Wang, Wenbo Zhu, Yiguang Hong, Wei Ni, Seyyedali Hosseinalipour</p>
     <p><b>Summary:</b> In air-ground integrated networks (AGINs), unmanned aerial vehicles (UAVs) provide on-demand edge services to ground vehicles. Realizing this vision requires carefully designed incentives to coordinate interactions among self-interested participants. This is exacerbated by the dynamic nature of AGINs, where spatio-temporal variations introduce significant uncertainty in matching UAVs and vehicles. Existing real-time service provisioning typically relies on precise trajectory information, raising privacy concerns and incurring decision latency. To address these challenges, we propose look one-step ahead (LOSA), a novel framework for efficient and privacy-aware service provisioning. By exploiting predictable vehicle travel times between intersections, LOSA decomposes the process into two coupled phases: (i) a privacy-aware look-ahead phase and (ii) a lightweight real-time execution phase. The look-ahead phase allows vehicles to adaptively adjust privacy budgets based on historical utility, balancing trajectory exposure and matching accuracy. Leveraging this, a double auction mechanism establishes binding one-step-ahead agreements (OSAAs) through trajectory similarity clustering, while constructing preference lists to hedge against mobility uncertainty. The execution phase then enforces pre-established OSAAs and preference lists, resolving real-time resource conflicts without costly re-negotiations. This design reduces computational overhead and preserves robustness. We analytically corroborate that LOSA guarantees truthfulness, individual rationality, and budget balance. Experiments on real-world datasets (DAIR-V2X, HighD, and RCooper) demonstrate that LOSA achieves superior privacy protection while lowering transaction latency compared to baseline approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.13474v1">Secure and Privacy-Preserving Vertical Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
-  <p><b>Published on:</b> 2026-04-15T04:55:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shan Jin, Sai Rahul Rachuri, Yizhen Wang, Anderson C. A. Nascimento, Yiwei Cai</p>
-    <p><b>Summary:</b> We propose a novel end-to-end privacy-preserving framework, instantiated by three efficient protocols for different deployment scenarios, covering both input and output privacy, for the vertically split scenario in federated learning (FL), where features are split across clients and labels are not shared by all parties. We do so by distributing the role of the aggregator in FL into multiple servers and having them run secure multiparty computation (MPC) protocols to perform model and feature aggregation and apply differential privacy (DP) to the final released model. While a naive solution would have the clients delegating the entirety of training to run in MPC between the servers, our optimized solution, which supports purely global and also global-local models updates with privacy-preserving, drastically reduces the amount of computation and communication performed using multiparty computation. The experimental results also show the effectiveness of our protocols.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.13396v1">HierFedCEA: Hierarchical Federated Edge Learning for Privacy-Preserving Climate Control Optimization Across Heterogeneous Controlled Environment Agriculture Facilities</a></h3>
-  
-  <p><b>Published on:</b> 2026-04-15T01:53:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Andrii Vakhnovskyi</p>
-    <p><b>Summary:</b> Cross-facility knowledge transfer in Controlled Environment Agriculture (CEA) can reduce HVAC energy consumption by 30-38% and accelerate new facility commissioning from months to days. However, facility operators refuse to share raw operational data because it encodes commercially sensitive grow recipes. We present HierFedCEA, a hierarchical federated learning framework that enables privacy-preserving climate control optimization across heterogeneous CEA facilities. HierFedCEA decomposes the neural network PID auto-tuning model into three tiers aligned with the physical structure of the control problem: (1) a global physics tier capturing universal thermodynamic relationships; (2) a crop-cluster tier encoding cultivar-specific VPD-to-gain mappings; and (3) a local personalization tier adapting to facility-specific equipment dynamics. The framework applies tier-specific differential privacy budgets and leverages the extreme compactness of the 36-parameter PID model to achieve privacy essentially for free (excess risk < 0.15%). Simulation experiments calibrated from 7+ years of production deployment across 30+ commercial facilities in 8 U.S. climate zones demonstrate that HierFedCEA achieves 94% of centralized training performance while reducing total communication cost to under 1 MB. To the best of our knowledge, this is the first federated learning framework designed for CEA climate control.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.13353v1">Cross-Domain Query Translation for Network Troubleshooting: A Multi-Agent LLM Framework with Privacy Preservation and Self-Reflection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2026-04-14T23:23:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nguyen Phuc Tran, Brigitte Jaumard, Karthikeyan Premkumar, Salman Memon</p>
-    <p><b>Summary:</b> This paper presents a hierarchical multi-agent LLM architecture to bridge communication gaps between non-technical end users and telecommunications domain experts in private network environments. We propose a cross-domain query translation framework that leverages specialized language models coordinated through multi-agent reflection-based reasoning. The resulting system addresses three critical challenges: (1) accurately classify user queries related to telecommunications network issues using a dual-stage hierarchical approach, (2) preserve user privacy through the anonymization of semantically relevant personally identifiable information (PII) while maintaining diagnostic utility, and (3) translate technical expert responses into user-comprehensible language.
-  Our approach employs ReAct-style agents enhanced with self-reflection mechanisms for iterative output refinement, semantic-preserving anonymization techniques respecting $k$-anonymity and differential privacy principles, and few-shot learning strategies designed for limited training data scenarios. The framework was comprehensively evaluated on 10,000 previously unseen validation scenarios across various vertical industries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.13348v1">Listening Alone, Understanding Together: Collaborative Context Recovery for Privacy-Aware AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-14T23:18:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tanmay Srivastava, Amartya Basu, Shubham Jain, Vaishnavi Ranganathan</p>
-    <p><b>Summary:</b> We introduce CONCORD, a privacy-aware asynchronous assistant-to-assistant (A2A) framework that leverages collaboration between proactive speech-based AI. As agents evolve from reactive to always-listening assistants, they face a core privacy risk (of capturing non-consenting speakers), which makes their social deployment a challenge. To overcome this, we implement CONCORD, which enforces owner-only speech capture via real-time speaker verification, producing a one-sided transcript that incurs missing context but preserves privacy. We demonstrate that CONCORD can safely recover necessary context through (1) spatio-temporal context resolution, (2) information gap detection, and (3) minimal A2A queries governed by a relationship-aware disclosure. Instead of hallucination-prone inferring, CONCORD treats context recovery as a negotiated safe exchange between assistants. Across a multi-domain dialogue dataset, CONCORD achieves 91.4% recall in gap detection, 96% relationship classification accuracy, and 97% true negative rate in privacy-sensitive disclosure decisions. By reframing always-listening AI as a coordination problem between privacy-preserving agents, CONCORD offers a practical path toward socially deployable proactive conversational agents.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.13274v1">Sequential Change Detection for Multiple Data Streams with Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-14T20:08:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lixing Zhang, Liyan Xie, Ruizhi Zhang</p>
-    <p><b>Summary:</b> Sequential change-point detection seeks to rapidly identify distributional changes in streaming data while controlling false alarms. Existing multi-stream detection methods typically rely on non-private access to raw observations or intermediate statistics, limiting their usage in privacy-sensitive settings. We study sequential change-point detection for multiple data streams under differential privacy constraints. We consider multiple independent streams undergoing a synchronized change at an unknown time and in an unknown subset of streams, and propose DP-SUM-CUSUM, a differentially private detection procedure based on the summation of per-stream CUSUM statistics with calibrated Laplace noise injection. We show that DP-SUM-CUSUM satisfies sequential $\varepsilon$-differential privacy and derive bounds on the average run length to false alarm and the worst-case average detection delay, explicitly characterizing the privacy--efficiency tradeoff. A truncation-based extension is also presented to handle distributional shifts with unbounded log-likelihood ratios. Simulations and experiments on an Internet of Things (IoT) botnet dataset validate the proposed approach.</p>
   </details>
 </div>
 
