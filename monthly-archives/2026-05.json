@@ -529,5 +529,121 @@
     "categories" : [
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.04029v1",
+    "title" : "Stayin' Aligned Over Time: Towards Longitudinal Human-LLM Alignment via Contextual Reflection and Privacy-Preserving Behavioral Data",
+    "summary" : "Current human-AI alignment and evaluation methods for large language models (LLMs) often rely on preference signals collected immediately after an interaction. This practice implicitly treats preference as static, even though many LLM-mediated decisions unfold over time and may be re-evaluated differently after real-world consequences and observed outcomes. Therefore, we argue for a methodological shift from single-moment preference elicitation to longitudinal, context-situated alignment measurement. We present a methodological framework for collecting temporally grounded alignment signals by combining (1) in-situ preference capture, (2) context-triggered follow-up preference reflection, and (3) privacy-preserving behavioral traces that help interpret preference change. As an instantiation of this methodology, we introduce BITE, a browser-based system that detects consequential LLM interactions, prompts reflection across later decision points, and supports progressive, user-controlled consent for sharing behavioral data. Through a two week longitudinal deployment study with 8 participants, our approach surfaced differences between immediate and later user preferences in accuracy, relevance and other dimensions of the LLM output. Our findings highlight the limitations of single-moment preference datasets and underscore the importance of longitudinal methods for alignment evaluation in everyday use.",
+    "updated" : "2026-05-05T17:51:41Z",
+    "published" : "2026-05-05T17:51:41Z",
+    "authors" : [
+      {
+        "name" : "Simret Araya Gebreegziabher"
+      },
+      {
+        "name" : "Allison E Sproul"
+      },
+      {
+        "name" : "Yinuo Yang"
+      },
+      {
+        "name" : "Chaoran Chen"
+      },
+      {
+        "name" : "Diego Gómez-Zará"
+      },
+      {
+        "name" : "Toby Jia-Jun Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.03945v1",
+    "title" : "Integrating Feature Correlation in Differential Privacy with Applications in DP-ERM",
+    "summary" : "Standard differential privacy imposes uniform privacy constraints across all features, overlooking the inherent distinction between sensitive and insensitive features in practice. In this paper, we introduce a relaxed definition of differential privacy that accounts for such heterogeneity, allowing certain features to be treated as insensitive even when correlated with sensitive ones. We propose a correlation-aware framework, $\\textsf{CorrDP}$, which relaxes privacy for insensitive features while accounting for their correlations with sensitive features, with the correlations quantified using total variation distance. We design algorithms for differentially private empirical risk minimization (DP-ERM) under the $\\textsf{CorrDP}$ framework, incorporating distance-dependent noise into gradients for improved theoretical utility guarantees. When the correlation distance is unknown, we estimate it from the dataset and show that it achieves a comparable privacy-utility guarantee. We perform experiments on synthetic and real-world datasets and show that $\\textsf{CorrDP}$-based DP-ERM algorithms consistently outperform the standard DP framework in the presence of insensitive features.",
+    "updated" : "2026-05-05T16:32:11Z",
+    "published" : "2026-05-05T16:32:11Z",
+    "authors" : [
+      {
+        "name" : "Tianyu Wang"
+      },
+      {
+        "name" : "Luhao Zhang"
+      },
+      {
+        "name" : "Rachel Cummings"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.03188v1",
+    "title" : "Dependency-Aware Privacy for Multi-turn Agents",
+    "summary" : "LLM agents release private data across multi-service interactions. Existing prompt sanitizers based on metric differential privacy treat each release independently, so adversaries combining releases across turns can recover private attributes; privacy degrades with every release.\n  This degradation is fundamental: when private attributes are the \\emph{roots} of a computation graph, independently noising a derived value amplifies the root's distinguishability by up to the deriving function's Lipschitz constant $L$, which can far exceed the nominal privacy parameter for nonlinear functions in medical and financial workflows.\n  RootGuard sanitizes root values once and computes subsequent releases deterministically from the noised roots. By the post-processing theorem, the privacy guarantee depends only on the initial root sanitization, regardless of the adversary's functions or number of turns, and derived values inherit privacy at zero marginal cost. RootGuard further exploits structural domain knowledge (e.g., BMI from height and weight, or a known target function) to allocate budget across roots, improving the privacy-utility tradeoff.\n  A worst-case adversary forcing $t$ turns increases the total budget $B = t \\cdot \\varepsilon$. RootGuard distributes this larger budget across roots, while independent noising spends $\\varepsilon$ per release and gives the adversary $t$ observations to combine via MAP reconstruction. This yields a \\emph{double asymmetry}: more turns aid RootGuard while weakening independent noising.\n  On eight NHANES medical diagnostic templates, RootGuard achieves $2.3$--$3.0\\times$ lower target error than independent noising at $\\varepsilon = 0.1$ (7.6\\% vs.\\ 17.1\\% wMAPE at $B = (2k{+}1)\\varepsilon$). Under MAP reconstruction, more queries strengthen attacks against independent noising while RootGuard remains invariant.",
+    "updated" : "2026-05-04T22:13:56Z",
+    "published" : "2026-05-04T22:13:56Z",
+    "authors" : [
+      {
+        "name" : "Divyam Anshumaan"
+      },
+      {
+        "name" : "Sarthak Choudhary"
+      },
+      {
+        "name" : "Nils Palumbo"
+      },
+      {
+        "name" : "Somesh Jha"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.03069v1",
+    "title" : "Distributed Deep Variational Approach for Privacy-preserving Data Release",
+    "summary" : "Federated learning (FL) lets distributed nodes train a shared model without exchanging their raw data, but in privacy-sensitive deployments medical sensors, IoT devices, wearables the protection offered by keeping data local is incomplete: gradients, model updates, and the released representations themselves can leak sensitive attributes. We propose the \\emph{Gaussian Privacy Protector} (GPP), a data-release framework for continuous, high-dimensional inputs that learns a stochastic encoder mapping raw data to a low-dimensional sanitized representation. The encoder is trained against a variational lower bound on the mutual information between the released representation and a designated sensitive attribute, while a separate cross-entropy term preserves a designated utility attribute, with a Lagrange multiplier $β$ controlling the trade-off. We then extend GPP to the federated setting, in which each client trains a local encoder, sensitive labels never leave the client, and the aggregator receives only sanitized representations giving instance-level privacy protection in addition to the standard ``raw data stays local'' guarantee of FL. We evaluate GPP on MNIST (digit-sum utility, parity sensitive), CelebA (smiling vs.\\ gender), and HAPT-Recognition (activity vs.\\ subject identity). Across all three benchmarks, GPP attains utility within roughly one percentage point of an unconstrained autoencoder baseline while reducing the adversary's AUC to near random guessing.",
+    "updated" : "2026-05-04T18:41:37Z",
+    "published" : "2026-05-04T18:41:37Z",
+    "authors" : [
+      {
+        "name" : "Zahir Alsulaimawi"
+      },
+      {
+        "name" : "Huaping Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.02977v1",
+    "title" : "Contrastive Privacy: A Semantic Approach to Measuring Privacy of AI-based Sanitization",
+    "summary" : "To sanitize specific concepts from imagery and text, privacy mechanisms with formal guarantees are often eschewed in practice in favor of more intuitive techniques. AI-based sanitization is poised to grow in popularity because it can work with the semantics of natural language concepts; e.g., a prompt to \"remove faces, clothing, and body shape\". Many approaches exist commercially and as prior work. But, the evaluation of such approaches has been bespoke and without formal guarantees.\n  To fill this gap, we propose contrastive privacy, a formal definition of privacy that provides a systematic and quantitative test of sanitized media that has a semantic interpretation. It is independent of the model and mechanism used and operates across multiple media modalities. Contrastive privacy provides guarantees under ideal conditions; and we show how to operationalize the definition with imperfect measures of semantics, provided by models like CLIP, that can connect concepts latently. Notably, the algorithm contrasts sanitized media with other images from the same corpus to arrive at a determination; no manual labeling is involved.\n  In our experiments, we apply our privacy test to both images and text using frontier models: some generate concepts to sanitize and others perform the sanitization. With our test we quantify sanitization success across 34 combinations of models on images, and for 15 models on text. The approach not only quantifies success overall, it identifies specific failures from a sanitized corpus. Further, it is independent of the mechanism used for sanitization, whether by darkening pixels, blurring, or applying more advanced means of obfuscation.",
+    "updated" : "2026-05-03T21:33:52Z",
+    "published" : "2026-05-03T21:33:52Z",
+    "authors" : [
+      {
+        "name" : "George Bissias"
+      },
+      {
+        "name" : "Eugene Bagdasarian"
+      },
+      {
+        "name" : "Brian Neil Levine"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
