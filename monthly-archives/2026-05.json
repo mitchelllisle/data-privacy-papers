@@ -645,5 +645,188 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05017v1",
+    "title" : "Position: Embodied AI Requires a Privacy-Utility Trade-off",
+    "summary" : "Embodied AI (EAI) systems are rapidly transitioning from simulations into real-world domestic and other sensitive environments. However, recent EAI solutions have largely demonstrated advancements within isolated stages such as instruction, perception, planning and interaction, without considering their coupled privacy implications in high-frequency deployments where privacy leakage is often irreversible. This position paper argues that optimizing these components independently creates a systemic privacy crisis when deployed in sensitive settings, thereby advancing the position that privacy in EAI is a life cycle-level architectural constraint rather than a stage-local feature. To address these challenges, we propose Secure Privacy Integration in Next-generation Embodied AI (SPINE), a unified privacy-aware framework that treats privacy as a dynamic control signal governing cross-stage coupling throughout the entire EAI life cycle. SPINE decomposes the EAI pipeline into various stages and establishes a multi-criterion privacy classification matrix to orchestrate contextual sensitivity across stage boundaries. We conduct preliminary simulation and real-world case studies to conceptually validate how privacy constraints propagate downstream to reshape system behavior, illustrating the insufficiency of fragmented privacy patches and motivating future research directions into secure yet functional embodied AI systems. We detail the SPINE framework and case studies at https://github.com/rminshen03/EAI_Privacy_Position.",
+    "updated" : "2026-05-06T15:16:05Z",
+    "published" : "2026-05-06T15:16:05Z",
+    "authors" : [
+      {
+        "name" : "Xiaoliang Fan"
+      },
+      {
+        "name" : "Jiarui Chen"
+      },
+      {
+        "name" : "Zhuodong Liu"
+      },
+      {
+        "name" : "Ziqi Yang"
+      },
+      {
+        "name" : "Peixuan Xu"
+      },
+      {
+        "name" : "Ruimin Shen"
+      },
+      {
+        "name" : "Junhui Liu"
+      },
+      {
+        "name" : "Jianzhong Qi"
+      },
+      {
+        "name" : "Cheng Wang"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.04977v1",
+    "title" : "ICPR 2026 Competition on Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera (TVRID)",
+    "summary" : "This companion paper reports the ICPR 2026 TVRID competition on privacy-aware top-view person re-identification. We present the competition setting, the released RGB-Depth dataset, and a summary of final results with descriptions of the top entries. TVRID contains 86 identities captured by four synchronized overhead Intel RealSense D455 cameras, with paired RGB/Depth streams and structured geometric variation across flat, ascent, descent, and oblique viewpoints. The evaluation protocol includes three tracks: RGB Re-ID, Depth Re-ID, and RGB$\\leftrightarrow$Depth cross-modal retrieval. Submissions are ranked using mAP and CMC-1 under a unified server-side evaluation. The final results show a clear difficulty ordering (RGB $>$ Depth $>$ Cross-Modal), highlighting both the challenge of modality-constrained retrieval and the feasibility of strong performance with modality-invariant learning. By releasing the dataset at https://zenodo.org/records/17909410, the evaluation scripts at https://github.com/RaphaelDel/ICPR-TVRID, and the accompanying documentation, TVRID establishes a reproducible benchmark for top-view, depth-based, and cross-modal person re-id.",
+    "updated" : "2026-05-06T14:31:53Z",
+    "published" : "2026-05-06T14:31:53Z",
+    "authors" : [
+      {
+        "name" : "Raphaël Delécluse"
+      },
+      {
+        "name" : "Hazem Wannous"
+      },
+      {
+        "name" : "Laurent Guimas"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.04911v1",
+    "title" : "Breaking the Quality-Privacy Tradeoff in Tabular Data Generation via In-Context Learning",
+    "summary" : "Tabular data synthesis aims to generate high-quality data while preserving privacy. However, we find that existing tabular generative models exhibit a clear tradeoff in the small-data regime: improving data quality typically comes at the cost of increased memorization of training samples, thereby weakening privacy protection. This tradeoff arises because small training sets make it difficult for dataset-specific generative models to distinguish generalizable structure from sample-specific patterns. To address this, we propose DiffICL, which formulates tabular data generation as an in-context learning problem. Instead of fitting each dataset from scratch,DiffICL leverages pretrained structural priors learned from a large collection of datasets, enabling it to infer data distributions from limited context rather than memorizing individual samples. We evaluate DiffICL on 14 real-world datasets. Results show that DiffICL improves both data quality and privacy, and generate synthetic data that provides effective data augmentation. Our findings suggest that the quality-privacy tradeoff can be improved through better training paradigms.",
+    "updated" : "2026-05-06T13:38:16Z",
+    "published" : "2026-05-06T13:38:16Z",
+    "authors" : [
+      {
+        "name" : "Xinyan Han"
+      },
+      {
+        "name" : "Yan Lu"
+      },
+      {
+        "name" : "Xiaoyu Lin"
+      },
+      {
+        "name" : "Yuanyuan Jiang"
+      },
+      {
+        "name" : "Yuanrui Wang"
+      },
+      {
+        "name" : "Xuanyue Li"
+      },
+      {
+        "name" : "Wenchao Zou"
+      },
+      {
+        "name" : "Xingxuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.04519v1",
+    "title" : "FL-Sailer: Efficient and Privacy-Preserving Federated Learning for Scalable Single-Cell Epigenetic Data Analysis via Adaptive Sampling",
+    "summary" : "Single-cell ATAC-seq (scATAC-seq) enables high-resolution mapping of chromatin accessibility, yet privacy regulations and data size constraints hinder multi-institutional sharing. Federated learning (FL) offers a privacy-preserving alternative, but faces three fundamental barriers in scATAC-seq analysis: ultra-high dimensionality, extreme sparsity, and severe cross-institutional heterogeneity. We propose FL-Sailer, the first FL framework designed for scATAC-seq data. FL-Sailer integrates two key innovations: (i) adaptive leverage score sampling, which selects biologically interpretable features while reducing dimensionality by 80%, and (ii) an invariant VAE architecture, which disentangles biological signals from technical confounders via mutual information minimization. We provide a convergence guarantee, showing that FL-Sailer converges to an approximate solution of the original high-dimensional problem with bounded error. Extensive experiments on synthetic and real epigenomic datasets demonstrate that FL-Sailer not only enables previously infeasible multi-institutional collaborations but also surpasses centralized methods by leveraging adaptive sampling as an implicit regularizer to suppress technical noise. Our work establishes that federated learning, when tailored to domain-specific challenges, can become a superior paradigm for collaborative epigenomic research.",
+    "updated" : "2026-05-06T05:56:20Z",
+    "published" : "2026-05-06T05:56:20Z",
+    "authors" : [
+      {
+        "name" : "Guangyi Zhang"
+      },
+      {
+        "name" : "Yi Dai"
+      },
+      {
+        "name" : "Yiyun He"
+      },
+      {
+        "name" : "Junhao Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.04221v1",
+    "title" : "Self-Prompting Small Language Models for Privacy-Sensitive Clinical Information Extraction",
+    "summary" : "Clinical named entity recognition from dental progress notes is challenging because documentation is highly unstructured, domain-specific, and often privacy-sensitive. We developed a locally deployable framework that enables small language models to self-generate, verify, refine, and evaluate entity-specific prompts for extracting multiple clinical entities from dental notes. Using 1,200 annotated notes, we evaluated candidate open-weight models with multi-prompt ensemble inference and further adapted selected models using QLoRA-based supervised fine-tuning and direct preference optimization. Model performance varied substantially, highlighting the need for task-specific evaluation rather than reliance on generic benchmarks. Qwen2.5-14B-Instruct achieved the strongest baseline performance. After DPO, Qwen2.5-14B-Instruct and Llama-3.1-8B-Instruct achieved micro/macro F1 scores of 0.864/0.837 and 0.806/0.797, respectively. These findings suggest that automated prompt optimization combined with lightweight preference-based post-training can support scalable clinical information extraction using locally deployed small language models.",
+    "updated" : "2026-05-05T19:03:40Z",
+    "published" : "2026-05-05T19:03:40Z",
+    "authors" : [
+      {
+        "name" : "Yao-Shun Chuang"
+      },
+      {
+        "name" : "Tushti Mody"
+      },
+      {
+        "name" : "Uday Pratap Singh"
+      },
+      {
+        "name" : "Shirindokht Shiraz"
+      },
+      {
+        "name" : "Chun-Teh Lee"
+      },
+      {
+        "name" : "Ryan Brandon"
+      },
+      {
+        "name" : "Muhammad F Walji"
+      },
+      {
+        "name" : "Xiaoqian Jiang"
+      },
+      {
+        "name" : "Bunmi Tokede"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.04108v1",
+    "title" : "MuCALD-SplitFed: Causal-Latent Diffusion for Privacy-Preserving Multi-Task Split-Federated Medical Image Segmentation",
+    "summary" : "Federated Learning enables decentralized training by aggregating model updates across clients without sharing raw data, while Split Federated Learning further partitions the model between clients and a server to reduce computation and communication at the client side. However, decentralized medical institutions rarely operate on a single shared task, making standard Federated and SplitFed collaborations poorly aligned with real clinical workflows. Multi-task FL extends these frameworks by allowing clients to handle different tasks, but often introduces instability and privacy vulnerabilities. This study proposes \\textbf{MuCALD-SplitFed}, a multi-task SplitFed framework that integrates causal representation learning and latent diffusion. Experiments show MuCALD-SplitFed consistently improves segmentation, while baseline SplitFed fails to converge. The proposed approach further reduces information leakage at split points, mitigating reconstruction-based and membership inference attacks. Additionally, MuCALD SplitFed outperforms state-of-the-art personalized FL and multi-task FL approaches. The code repository is: https://github.com/ChamaniS/MuCALD_SplitFed.",
+    "updated" : "2026-05-04T16:43:22Z",
+    "published" : "2026-05-04T16:43:22Z",
+    "authors" : [
+      {
+        "name" : "Chamani Shiranthika"
+      },
+      {
+        "name" : "Hadi Hadizadeh"
+      },
+      {
+        "name" : "Parvaneh Saeedi"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
