@@ -4462,5 +4462,26 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.20274v2",
+    "title" : "Estimating Power-Law Exponent with Edge Differential Privacy",
+    "summary" : "Many real-world graphs have degree distributions that are well approximated by a power-law, and the corresponding scaling parameter $α$ provides a compact summary of that structure which is useful for graph analysis and system optimization. When graphs contain sensitive relationship data, $α$ must be estimated without revealing information about individual edges. This paper studies power-law exponent estimation under edge differential privacy. Instead of first releasing a noisy degree distribution and then fitting a power-law model, we propose privatizing only the low-dimensional sufficient statistics needed to estimate $α$, thereby avoiding the high distortion introduced by traditional approaches. Using these released statistics, we support both discrete approximation and likelihood-based numerical optimization for efficient parameter estimation. We develop edge-DP algorithms for both centralized and local DP models, compare degree release and log-statistic release in the local setting, and evaluate the resulting methods on various graph datasets across multiple privacy budgets and tail-cutoff settings.",
+    "updated" : "2026-05-06T00:26:21Z",
+    "published" : "2026-04-22T07:20:14Z",
+    "authors" : [
+      {
+        "name" : "Adam Tan"
+      },
+      {
+        "name" : "Mohamed Hefny"
+      },
+      {
+        "name" : "Keval Vora"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
   }
 ]
