@@ -828,5 +828,296 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.06596v1",
+    "title" : "FedAttr: Towards Privacy-preserving Client-Level Attribution in Federated LLM Fine-tuning",
+    "summary" : "Watermark radioactivity testing type of methods can detect whether a model was trained on watermarked documents, and have become key tools for protecting data ownership in the fine-tuning of large language models (LLMs). Existing works have proved their effectiveness in centralized LLM fine-tuning. However, this type of method faces several challenges and remains underexplored in federated learning (FL), a widely-applied paradigm for fine-tuning LLMs collaboratively on private data across different users. FL mainly ensures privacy through secure aggregation (SA), which allows the server to aggregate updates while keeping clients' updates private. This mechanism preserves privacy but makes it difficult to identify which client trained on watermarked documents. In this work, we propose FedAttr, a new client-level attribution protocol for FL. FedAttr identifies which clients trained on watermarked data via a paired-subset-difference mechanism, while preserving the privacy guarantees of SA and FL performance. FedAttr proceeds in three steps: (i) estimate each client's update by differencing two SA queries, (ii) score the estimate with the watermark detector via differential scoring, and (iii) combine scores across rounds via Stouffer method. We theoretically show that FedAttr produces an unbiased estimator of each client's update with bounded mutual information leakage (i.e., $O(d^*/N)$ per-round update). Moreover, FedAttr empirically achieves 100% TPR and 0% FPR, outperforming all baselines by at least 44.4% in TPR or 19.1% in FPR, with only 6.3% overhead relative to FL training time. Ablation studies confirm that FedAttr is robust to protocol parameters and configurations.",
+    "updated" : "2026-05-07T17:21:02Z",
+    "published" : "2026-05-07T17:21:02Z",
+    "authors" : [
+      {
+        "name" : "Su Zhang"
+      },
+      {
+        "name" : "Junfeng Guo"
+      },
+      {
+        "name" : "Heng Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.06502v1",
+    "title" : "Privacy by Postprocessing the Discrete Laplace Mechanism",
+    "summary" : "We show that an \"old dog\", the classical discrete Laplace (aka.~geometric) mechanism, can \"perform new tricks\":\n  1. It can be post-processed to yield a simple, unbiased estimator of any subexponential function $f$ of the original data, giving a simple, discrete, multivariate version of the recent unbiasing result for the Laplace mechanism by Calmon et al. (FORC '25).\n  2. It can be post-processed to output the same distribution as the Laplace mechanism or the Staircase mechanism with identical privacy parameters.\n  Thus, the discrete Laplace mechanism is a versatile mechanism that should be preferred over the Laplace and Staircase mechanisms whenever the data is discrete (or can be made discrete while controlling $\\ell_1$-sensitivity).\n  We show bounds on the variance of our estimator, compared to the mean square error of the biased estimator that simply evaluates the $f$ on the output of the mechanism. Though our unbiased estimator has exponential running time for worst-case functions, we show that it can often be computed in linear or polynomial time for some common functions exhibiting structure. We showcase the properties of our methods empirically with several use cases including profile and entropy estimation, as well as distributed/federated data analysis applications in which unbiasedness is key to accuracy.",
+    "updated" : "2026-05-07T16:19:08Z",
+    "published" : "2026-05-07T16:19:08Z",
+    "authors" : [
+      {
+        "name" : "Quentin Hillebrand"
+      },
+      {
+        "name" : "Jacob Imola"
+      },
+      {
+        "name" : "Rasmus Pagh"
+      },
+      {
+        "name" : "Sia Sejer"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.06232v1",
+    "title" : "Profiling for Pennies: Unveiling the Privacy Iceberg of LLM Agents",
+    "summary" : "Large Language Models (LLMs) have revolutionized how information are collected, aggregated, and reasoned. However, this enables a novel and accessible vector of privacy intrusion: the automated and in-depth personal profiling; this engenders a chilling effect of \"peepers everywhere\". Existing research primarily unfolds from the training pipeline of LLM, emphasizing the exposure of Personally Identifiable Information (PII) through memorization, while privacy studies from a human-centric perspective remain underexplored. To fill this void, we empirically investigate privacy perception in the real world through the lens of human awareness and the practices of LLM-integrated platforms, revealing a significant dissonance: platforms fail to technically or policy-wise address public privacy concerns. To facilitate a systematic and quantifiable study of privacy risk, we propose the PrivacyIceberg, which categorizes real-world human privacy risks into three tiers: explicitly searched, contextually inferred, and deeply aggregated, based on the sophistication of LLM exploitation. We developed IcebergExplorer to audit privacy exposure, utilizing minimal PII as a search seed to reconstruct high-fidelity profiles, achieving over 90% factual accuracy within 10 minutes at a cost under $3, for real-world scenarios. Additionally, we identify six root causes contributing to such privacy disclosures and propose multi-stakeholder countermeasures for LLM vendors, individuals, and data publishers.",
+    "updated" : "2026-05-07T13:21:44Z",
+    "published" : "2026-05-07T13:21:44Z",
+    "authors" : [
+      {
+        "name" : "Jiahao Chen"
+      },
+      {
+        "name" : "Qi Zhang"
+      },
+      {
+        "name" : "Ruixiao Lin"
+      },
+      {
+        "name" : "Chunyi Zhou"
+      },
+      {
+        "name" : "Tianyu Du"
+      },
+      {
+        "name" : "Qingming Li"
+      },
+      {
+        "name" : "Tong Zhang"
+      },
+      {
+        "name" : "Junhao Li"
+      },
+      {
+        "name" : "Yuwen Pu"
+      },
+      {
+        "name" : "Shouling Ji"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05905v1",
+    "title" : "Quadratic Objective Perturbation: Curvature-Based Differential Privacy",
+    "summary" : "Objective perturbation is a standard mechanism in differentially private empirical risk minimization. In particular, Linear Objective Perturbation (LOP) enforces privacy by adding a random linear term, while strong convexity and stability are ensured by an additional deterministic quadratic term. However, this approach requires the strong assumption of bounded gradients of the loss function, which excludes many modern machine learning models. In this work, we introduce Quadratic Objective Perturbation (QOP), which perturbs the objective with a random quadratic form. This perturbation induces strong convexity and enforces stability of the problem through curvature, thereby enabling privacy and allowing sensitivity to be controlled through spectral properties of the perturbation rather than assumptions on the gradients. As a result, we obtain $(\\varepsilon, δ)$-differential privacy under weaker assumptions, in the interpolation regime. Furthermore, we extend the analysis to account for approximate solutions, showing that privacy guarantees are preserved under inexact solves. Additionally, we derive utility guarantees in terms of empirical excess risk, and provide a theoretical and numerical comparison to LOP, highlighting the advantages of curvature-based perturbations. Finally, we discuss algorithmic aspects and show that the resulting problems can be solved efficiently using modern splitting schemes.",
+    "updated" : "2026-05-07T09:16:53Z",
+    "published" : "2026-05-07T09:16:53Z",
+    "authors" : [
+      {
+        "name" : "Daniel Cortild"
+      },
+      {
+        "name" : "Coralia Cartis"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05769v1",
+    "title" : "Adaptive Selection of LoRA Components in Privacy-Preserving Federated Learning",
+    "summary" : "Differentially private federated fine-tuning of large models with LoRA suffers from aggregation error caused by LoRA's multiplicative structure, which is further amplified by DP noise and degrades both stability and accuracy. Existing remedies apply a single update mode uniformly across all layers and all communication rounds (or alternate them on a fixed schedule), ignoring both the structural asymmetry between the two LoRA factors and the round-wise dynamics of training. We propose AS-LoRA, an adaptive framework defined by three axes (i) layer-wise freedom, in which each layer independently selects its active component, (ii) round-wise adaptivity, in which the selection updates over communication rounds, and (iii) a curvature-aware score derived from a second-order approximation of the loss. Theoretically, AS-LoRA eliminates the reconstruction-error floor of layer-tied schedules, accelerates convergence, implicitly biases solutions toward flatter minima, and incurs no additional privacy cost. Across GLUE, SQuAD, CIFAR-100, and Tiny-ImageNet under strict DP budgets and non-IID partitions, AS-LoRA improves over the federated LoRA baselines by up to $+7.5$ pp on GLUE and $+12.5$ pp on MNLI-mm for example, while matching or exceeding SVD-based aggregation methods at $33\\text{--}180 \\times$ lower aggregation cost and with negligible communication overhead. Code for the proposed method is available at https://anonymous.4open.science/r/as_lora-F75F/.",
+    "updated" : "2026-05-07T07:01:00Z",
+    "published" : "2026-05-07T07:01:00Z",
+    "authors" : [
+      {
+        "name" : "Myoungjun Kim"
+      },
+      {
+        "name" : "Sangwoo Park"
+      },
+      {
+        "name" : "Yoseob Han"
+      },
+      {
+        "name" : "Jin-Hyun Ahn"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05751v1",
+    "title" : "A Privacy-Preserving Machine Learning Framework for Edge Intelligence: An Empirical Analysis",
+    "summary" : "As Edge Intelligence (EI) becomes increasingly prevalent in domains such as smart healthcare, manufacturing, and critical infrastructure, ensuring data privacy while maintaining system efficiency is a growing challenge. This paper presents a new privacy-preserving machine learning (PPML) framework tailored for EI applications, including a four-layer system architecture and training and inference algorithms. We focus on three leading approaches: Differential Privacy (DP), Secure Multi-party Computation (SMC), and Fully Homomorphic Encryption (FHE), and assess their impact on key performance metrics, including model accuracy, response time, and energy consumption. Results from real implementation and extensive trace-based simulations of inference tasks show that DP generally preserves throughput and latency close to plaintext baselines, while accuracy drops with model complexity (up to 35 percent on AlexNet and under 18 percent on LeNet for FordA). SMC performance is driven by communication; network bandwidth and round complexity determine end-to-end latency. For AlexNet, increasing link capacity from 250 Mbps to 500 Mbps reduces latency by about 30 percent. FHE is highly sensitive to model structure and numerical precision bit width, with tighter parameters imposing substantial compute overhead; we observe roughly a 1000 times increase in response time compared to DP. Beyond efficiency, DP shifts the privacy-utility-extractability frontier by reducing the attacker's data efficiency in black-box model stealing, whereas SMC and FHE, while protecting inputs and parameters during inference, require complementary output controls to achieve similar resistance to extraction. These findings provide critical insights into the trade-offs between privacy, performance, and resource efficiency in edge computing scenarios.",
+    "updated" : "2026-05-07T06:43:51Z",
+    "published" : "2026-05-07T06:43:51Z",
+    "authors" : [
+      {
+        "name" : "Quoc Lap Trieu"
+      },
+      {
+        "name" : "Bahman Javadi"
+      },
+      {
+        "name" : "Jim Basilakis"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05723v1",
+    "title" : "$α$-Wasserstein Mechanism for Rényi Pufferfish Privacy",
+    "summary" : "This paper introduces the $α$-Wasserstein mechanism for achieving Rényi Pufferfish Privacy using Laplace and Gaussian noise. By leveraging Hölder's inequality, we demonstrate that the scale parameter of the Laplace mechanism can be calibrated via an upper bound on the $W_α$ metric to satisfy $(α, ε)$-Rényi Pufferfish Privacy for $α\\in (1, \\infty]$. We show that at the limit $α= \\infty$, this framework recovers the established $W_\\infty$ mechanism for $ε$-pufferfish privacy. This result is subsequently extended to the exponential mechanism. Furthermore, we propose a $W_α$ mechanism for Gaussian noise for $α\\in (1, \\infty)$, demonstrating that it generalizes existing results within the Rényi Differential Privacy framework. Experimental evaluations reveal that our $α$-Wasserstein mechanism significantly reduces noise power compared to the conventional $W_\\infty$-based approach, with the Gaussian mechanism providing superior utility over the Laplace mechanism. Notably, the mechanisms derived in this work achieve exact $(α, ε)$-Rényi Pufferfish Privacy without requiring additional relaxations, such as $δ$-approximations.",
+    "updated" : "2026-05-07T06:12:18Z",
+    "published" : "2026-05-07T06:12:18Z",
+    "authors" : [
+      {
+        "name" : "Ni Ding"
+      },
+      {
+        "name" : "Wenjin Yang"
+      },
+      {
+        "name" : "Zijian Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05692v1",
+    "title" : "CFE-PPAR: Compression-friendly encryption for privacy-preserving action recognition leveraging video transformers",
+    "summary" : "Privacy-preserving action recognition (PPAR) enables machines to understand human activities in videos without revealing sensitive visual content. Among the various strategies for PPAR, encryption-based methods achieve strong privacy protection while maintaining high recognition performance. However, these methods lead to a catastrophic decrease in recognition performance and visual quality when the encrypted videos are compressed. That is, the previous methods are not compression-friendly. To address these issues, in this paper, we propose the first compression-friendly encryption method for PPAR, called CFE-PPAR. In CFE-PPAR, videos encrypted with secret keys can be directly recognized by a video transformer, which uses parameters transformed by the same keys as those used for video encryption. In experiments, it is verified that CFE-PPAR outperforms previous methods on the UCF101 and HMDB51 datasets under Motion-JPEG and H.264 compression.",
+    "updated" : "2026-05-07T05:32:37Z",
+    "published" : "2026-05-07T05:32:37Z",
+    "authors" : [
+      {
+        "name" : "Haiwei Lin"
+      },
+      {
+        "name" : "Shoko Imaizumi"
+      },
+      {
+        "name" : "Hitoshi Kiya"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05459v1",
+    "title" : "Privacy Without Losing Place: A Paradigm for Private Retrieval in Spatial RAGs",
+    "summary" : "This work introduces PAS -- Privacy Anchor Substitution, a structured mechanism for enabling user location privacy in spatial retrieval-augmented generation (RAG) systems. Unlike conventional differential privacy methods that directly perturb user locations, PAS represents location with relative anchor encoding consisting of an anchor, direction bin, and distance bin, allowing seamless integration with modern RAG pipelines. We evaluate PAS on a synthetic urban dataset and show that it achieves impressive coarse privacy guarantees, with approximately 370-400m adversarial location error, while retaining more than half of the baseline retrieval performance. Despite the slight drop in retrieval performance, the downstream generation quality under PAS remains comparatively robust, indicating that large language models can compensate for imperfect spatial retrieval. Furthermore, we provide empirical analysis showing that PAS exhibits non-monotonic privacy-utility relationship with respect to privacy parameters. We attribute this to geometric bias induced by anchor discretization, making it different from continuous noise mechanisms such as geo-indistinguishability. Our results show that structured spatial representations offer a practical approach to privacy in location based reasoning in RAG systems.",
+    "updated" : "2026-05-06T21:33:43Z",
+    "published" : "2026-05-06T21:33:43Z",
+    "authors" : [
+      {
+        "name" : "Kennedy Edemacu"
+      },
+      {
+        "name" : "Mohammad Mahdi Shokri"
+      },
+      {
+        "name" : "Vinay M. Shashidhar"
+      },
+      {
+        "name" : "Jong Wook Kim"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05340v1",
+    "title" : "How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study",
+    "summary" : "As Vision-Language Models (VLMs) are increasingly deployed as autonomous cognitive cores for embodied assistants, evaluating their privacy awareness in physical environments becomes critical. Unlike digital chatbots, these agents operate in intimate spaces, such as homes and hospitals, where they possess the physical agency to observe and manipulate privacy-sensitive information and artifacts. However, current benchmarks remain limited to unimodal, text-based representations that cannot capture the demands of real-world settings. To bridge this gap, we present ImmersedPrivacy, an interactive audio-visual evaluation framework that simulates realistic physical environments using a Unity-based simulator. ImmersedPrivacy evaluates physically grounded privacy awareness across three progressive tiers that test a model's ability to identify sensitive items in cluttered scenes, adapt to shifting social contexts, and resolve conflicts between explicit commands and inferred privacy constraints. Our evaluation of 12 state-of-the-art models reveals consistent deficits. In cluttered scenes, all models exhibit monotonic performance decay as scene complexity grows due to perceptual deficit. When social context shifts, no model exceed 65% selection accuracy. Under conflicting commands, the best model gemini-3.1-pro perfectly balances task completion and privacy preservation in only 51% of cases. These findings reveal that current VLMs in the physical world suffer from perceptual fragility and fail to let their knowledge of privacy cues govern their situated behavior. Our code and data is available at https://github.com/immersed-privacy/immersed-privacy .",
+    "updated" : "2026-05-06T18:10:51Z",
+    "published" : "2026-05-06T18:10:51Z",
+    "authors" : [
+      {
+        "name" : "Junran Wang"
+      },
+      {
+        "name" : "Xinjie Shen"
+      },
+      {
+        "name" : "Zehao Jin"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05277v1",
+    "title" : "GLiNER Guard: Unified Encoder Family for Production LLM Safety and Privacy",
+    "summary" : "Production LLM systems require both safety moderation and PII detection under strict latency and cost constraints. This creates a trade-off: autoregressive moderators are accurate but expensive, while lightweight encoders are faster but less capable. We present GLiNER Guard (GLiGuard), a unified encoder that performs safety classification and PII detection in a single forward pass, simplifying safety pipelines. We introduce three variants: compact uni- and bi-encoders (145-147M) for high-throughput serving, and GLiGuard Omni (209M) for stronger moderation quality. Under dynamic batching on a single A100, the compact model reaches 193 requests/sec with P99 latency below 1s, achieving 1.6x higher throughput than GLiNER2. Omni remains competitive with much larger moderators on public safety benchmarks. We also release PII-Bench, a span-level benchmark for evaluating PII detection in end-to-end pipelines. Overall, encoder-based guardrails offer a practical low-cost alternative for always-on moderation. Models and benchmarks are released on HuggingFace.",
+    "updated" : "2026-05-06T15:22:40Z",
+    "published" : "2026-05-06T15:22:40Z",
+    "authors" : [
+      {
+        "name" : "Bogdan Minko"
+      },
+      {
+        "name" : "Sabrina Sadiekh"
+      },
+      {
+        "name" : "Evgeniy Kokuykin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05266v1",
+    "title" : "Differential Privacy in the Extensive-Form Bandit Problem",
+    "summary" : "We consider the extensive-form bandit problem, where on each trial the learner (a user coordinated by a server) plays an extensive-form game against an oblivious adversary, observing the information sets it finds itself in as well as the resulting payoff/loss. We give an algorithm for this problem that satisfies $ε$-local differential privacy and attains a regret of $\\tilde{O}(\\sqrt{A\\ln(S)T}/ε)$, where $A$ is the total number of actions that the learner can possibly take, $S$ is the number of the learner's possible reduced strategies, and $T$ is the number of trials. On each trial, the time complexity of our algorithm is, up to a factor logarithmic in the maximum number of actions at an infoset, equal to the time required for the server to transmit the reduced strategy to the user. We note that local differential privacy is the strongest version of differential privacy and, to the best of our knowledge, this is the first work to study differential privacy of any form in the extensive-form bandit problem.",
+    "updated" : "2026-05-06T09:19:11Z",
+    "published" : "2026-05-06T09:19:11Z",
+    "authors" : [
+      {
+        "name" : "Stephen Pasteris"
+      },
+      {
+        "name" : "Rahul Savani"
+      },
+      {
+        "name" : "Theodore Turocy"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
