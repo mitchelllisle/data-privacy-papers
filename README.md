@@ -2,6 +2,54 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.07930v1">INO-SGD: Addressing Utility Imbalance under Individualized Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-05-08T16:04:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiao Tian, Jue Fan, Rachael Hwee Ling Sim, Bryan Kian Hsiang Low</p>
+    <p><b>Summary:</b> Differential privacy (DP) is widely employed in machine learning to protect confidential or sensitive training data from being revealed. As data owners gain greater control over their data due to personal data ownership, they are more likely to set their own privacy requirements, necessitating individualized DP (IDP) to fulfil such requests. In particular, owners of data from more sensitive subsets, such as positive cases of stigmatized diseases, likely set stronger privacy requirements, as leakage of such data could incur more serious societal impact. However, existing IDP algorithms induce a critical utility imbalance problem: Data from owners with stronger privacy requirements may be severely underrepresented in the trained model, resulting in poorer performance on similar data from subsequent users during deployment. In this paper, we analyze this problem and propose the INO-SGD algorithm, which strategically down-weights data within each batch to improve performance on the more private data across all iterations. Notably, our algorithm is specially designed to satisfy IDP, while existing techniques addressing utility imbalance neither satisfy IDP nor can be easily adapted to do so. Lastly, we demonstrate the empirical feasibility of our approach.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.07185v1">Metaphors as Scaffolds: Spatial, Embodied, Fantastical, and Relational Framings for Youth Usable Privacy Design</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-05-08T03:24:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> JaeWon Kim, Alexis Hiniker</p>
+    <p><b>Summary:</b> Mainstream usable privacy design frames privacy as administrative work -- settings, toggles, consent checkboxes -- abstracted from the relational, contextual, and embodied registers in which youth reason about disclosure. Drawing on a cross-project reading of three prior studies with youth aged 13--24, we examine how the metaphors that scaffold a privacy interaction shape the reasoning young users bring to it. \textit{Spatial} metaphors reduce cognitive load by recruiting intuitions about navigating physical space. \textit{Embodied} metaphors furnish a shared moral vocabulary that makes implicit norms about public and private space negotiable among users. \textit{Fantastical} metaphors recast privacy management as discoverable play, raising engagement with the granular controls that nuanced self-presentation requires. \textit{Relational} metaphors, by contrast, can lead youth past their own stated boundaries when felt intimacy masks institutional data flow, a risk already visible in AI companion products. Metaphor selection, we argue, is best understood as a first-order ethical design decision for youth privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.06847v1">Privacy Perceptions in Sensor-Powered Smart Vehicle Cabins</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-05-07T18:49:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> BoRui Li, Bofan Yu, Xing-Dong Yang</p>
+    <p><b>Summary:</b> As car cabins evolve with the integration of diverse sensors, traditional car cabins are transforming into smart environments. This shift raises important questions about how privacy is understood and managed in such spaces. In this work, we investigate privacy perceptions from the perspectives of both vehicle owners (i.e., people who purchase and own cars) and non-owners (i.e., people who temporarily use cars, such as family members, friends, or renters). Through semi-structured interviews with eighteen participants, we identified key factors that influence these groups' views on privacy. Our findings reveal factors that commonly influence privacy preferences for both owners and non-owners, as well as factors that have a stronger impact on one group over the other. Drawing on these insights, we discuss design implications for future designs to better support and balance the diverse privacy needs of multiple stakeholders in smart car cabins.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.06835v1">On Privacy Leakage in Tabular Diffusion Models: Influential Factors, Attacker Knowledge, and Metrics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-05-07T18:42:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Masoumeh Shafieinejad, D. B. Emerson, Behnoosh Zamanlooy, Elaheh Bassak, Fatemeh Tavakoli, Sara Kodeiri, Marcelo Lotif, Xi He</p>
+    <p><b>Summary:</b> Tabular data plays an important role in many fields and industries, including those with elevated privacy considerations and risks. As such, there is a rising interest in generating high-quality synthetic proxies for real tabular data as a means of reducing privacy risk and proprietary data exposure. With tabular diffusion models (TDMs) demonstrating leading performance in synthesizing such data, understanding and measuring the privacy risks associated with these models is imperative. Leveraging state-of-the-art membership inference attacks for TDMs in both black- and white-box settings, this work quantifies the impact of training setup, synthesis choices, and attacker knowledge on privacy leakage. Moreover, the results demonstrate that adversaries need not have perfect knowledge of the training setup, identical data distributions, or massive compute resources to construct successful attacks. Finally, the pitfalls associated with applying heuristic privacy metrics, such as distance-to-closest record, are revealed.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.06596v1">FedAttr: Towards Privacy-preserving Client-Level Attribution in Federated LLM Fine-tuning</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-05-07T17:21:02Z</p>
@@ -114,7 +162,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.05340v1">How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.05340v2">How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-05-06T18:10:51Z</p>
   <details>
@@ -1169,55 +1217,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Dhiman Goswami, Al Nahian Bin Emran, Md Hasan Ullah Sadi, Sanchari Das</p>
     <p><b>Summary:</b> Online propaganda detection pipelines expose measurable privacy risks at multiple stages including data collection, feature extraction, and model inference. We conduct a structured analysis of $162$ peer-reviewed studies and formalize the problem using the Propaganda Risk Online Mitigation and Privacy-preserving Tactics (PROMPT) framework. PROMPT models risks $R$ and mitigation strategies $S$ through a mapping $M: R\to S$ guided by a utility function $α\cdot \mathrm{PrivacyGain}(s_j) - β\cdot \mathrm{PerfLoss}(s_j) - γ\cdot \mathrm{Cost}(s_j)$, with tunable $(α,β,γ)$ enabling stakeholders to balance privacy, accuracy, and deployment costs. To assess practical adoption, we introduce a compliance score that quantifies the alignment of existing methods with GDPR, CCPA etc. requirements. Our evaluation shows that many widely used pipelines remain non-compliant, particularly in metadata handling and user-level aggregation. We further present empirical fine-tuning experiments on transformer-based encoders and decoders under synthetic perturbation, demonstrating a monotonic privacy-utility trade-off: with $q = 0.05$ performance decreased by 1-2% F$_1$, while at $q = 0.20$ the reduction reached 13-14%. These results establish quantitative baselines for privacy costs in propaganda detection. Our contributions include a formal risk-to-defense mapping, a compliance-oriented auditing metric, and experimental evidence of privacy-performance trade-offs, providing a technical foundation for building regulation-compliant and privacy-aware detection systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.17476v1">Privatar: Scalable Privacy-preserving Multi-user VR via Secure Offloading</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
-  <p><b>Published on:</b> 2026-04-19T15:07:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jianming Tong, Hanshen Xiao, Krishna Kumar Nair, Hao Kang, Ashish Sirasao, Ziqi Zhang, G. Edward Suh, Tushar Krishna</p>
-    <p><b>Summary:</b> Multi-user virtual reality enables immersive interaction. However, rendering avatars for numerous participants on each headset incurs prohibitive computational overhead, limiting scalability. We introduce a framework, Privatar, to offload avatar reconstruction from headset to untrusted devices within the same local network while safeguarding attacks against adversaries capable of intercepting offloaded data. Privatar's key insight is that domain-specific knowledge of avatar reconstruction enables provably private offloading at minimal cost. (1) System level. We observe avatar reconstruction is frequency-domain decomposable via BDCT with negligible quality drop, and propose Horizontal Partitioning (HP) to keep high-energy frequency components on-device and offloads only low-energy components. HP offloads local computation while reducing information leakage to low-energy subsets only. (2) Privacy level. For individually offloaded, multi-dimensional signals without aggregation, worst-case local Differential Privacy requires prohibitive noise, ruining utility. We observe users' expression statistical distribution are slowly changing over time and trackable online, and hence propose Distribution-Aware Minimal Perturbation. DAMP minimizes noise based on each user's expression distribution to significantly reduce its effects on utility, retaining formal privacy guarantee. Combined, HP provides empirical privacy against expression identification attacks. DAMP further augments it to offer a formal guarantee against arbitrary adversaries. On a Meta Quest Pro, Privatar supports 2.37x more concurrent users at 6.5% higher reconstruction loss and 9% energy overhead, providing a better throughout-loss Pareto frontier over quantization, sparsity and local construction baselines. Privatar provides both provable privacy guarantee and stays robust against both empirical and NN-based attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.17270v1">What Security and Privacy Transparency Users Need from Consumer-Facing Generative AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-04-19T05:57:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiaxun Cao, Yu Dong, Chunxi Zhan, Rithvik Neti, Sai Teja Peddinti, Pardis Emami-Naeini</p>
-    <p><b>Summary:</b> Users increasingly rely on consumer-facing generative AI (GenAI) for tasks ranging from everyday needs to sensitive use cases. Yet, it remains unclear whether and how existing security and privacy (S&P) communications in GenAI tools shape users' adoption decisions and subsequent experiences. Understanding how users seek, interpret, and evaluate S&P information is critical for designing usable transparency that users can trust and act on. We conducted semi-structured interviews and design sessions with 21 U.S. GenAI users. We find that available S&P information rarely drove initial adoption in practice, as participants often perceived it as incomplete, ineffective, or lacking credibility. Instead, they relied on rough proxies, such as popularity, to infer S&P practices. After adoption, uncertainty about S&P practices constrained participants' willingness to use GenAI tools, particularly in high-stakes contexts, and, in some cases, contributed to discontinued use. Participants therefore called for transparency that supports decision-making and use, including trustworthy information (e.g., independent evaluations) and usable interfaces (e.g., on-demand disclosure). We synthesize participants' desired design practices into five dimensions to facilitate systematic future investigation into best practices. We conclude with recommendations for researchers, designers, and policymakers to improve S&P transparency in consumer-facing GenAI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.17163v1">PPEDCRF: Dynamic-CRF-Guided Selective Perturbation for Background-Based Location Privacy in Video Sequences</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-04-18T22:52:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bo Ma, Weiqi Yan, Jinsong Wu</p>
-    <p><b>Summary:</b> We propose PPEDCRF, a calibrated selective perturbation framework that protects \emph{background-based location privacy} in released video frames against gallery-based retrieval attackers. Even after GPS metadata are stripped, an adversary can geolocate a frame by matching its background visual cues to geo-tagged reference imagery; PPEDCRF mitigates this threat by estimating location-sensitive background regions with a dynamic conditional random field (DCRF), rescaling perturbation strength with a normalized control penalty (NCP), and injecting Gaussian noise only inside the inferred regions via a DP-style calibration rule.
-  On a controlled paired-scene retrieval benchmark with eight attacker backbones and three noise seeds, PPEDCRF reduces ResNet18 Top-1 retrieval accuracy from 0.667 to $0.361\pm0.127$ at $σ_0=8$ while preserving $36.14\,$dB PSNR -- an ${\approx}6\,$dB quality advantage over global Gaussian noise. Transfer across the eight-backbone seed-averaged benchmark is broadly supportive (23 of 24 backbone-gallery cells show negative $Δ$), while appendix-scale confirmation identifies MixVPR as a remaining adverse-transfer exception. Matched-operating-point analysis shows that PPEDCRF and global Gaussian noise converge in Top-1 privacy at equal utility, so the practical benefit is spatially concentrated perturbation that preserves higher visual quality at any given noise scale rather than stronger matched-utility privacy. Code: https://github.com/mabo1215/PPEDCRF</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.17133v1">If Only My CGM Could Speak: A Privacy-Preserving Agent for Question Answering over Continuous Glucose Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-18T20:18:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yanjun Cui, Ali Emami, Temiloluwa Prioleau, Nikhil Singh</p>
-    <p><b>Summary:</b> Continuous glucose monitors (CGMs) used in diabetes care collect rich personal health data that could improve day-to-day self-management. However, current patient platforms only offer static summaries which do not support inquisitive user queries. Large language models (LLMs) could enable free-form inquiries about continuous glucose data, but deploying them over sensitive health records raises privacy and accuracy concerns. In this paper, we present CGM-Agent, a privacy-preserving framework for question answering over personal glucose data. In our design, the LLM serves purely as a reasoning engine that selects analytical functions. All computation occurs locally, and personal health data never leaves the user's device. For evaluation, we construct a benchmark of 4,180 questions combining parameterized question templates with real user queries and ground truth derived from deterministic program execution. Evaluating 6 leading LLMs, we find that top models achieve 94\% value accuracy on synthetic queries and 88\% on ambiguous real-world queries. Errors stem primarily from intent and temporal ambiguity rather than computational failures. Additionally, lightweight models achieve competitive performance in our agent design, suggesting opportunities for low-cost deployment. We release our code and benchmark to support future work on trustworthy health agents.</p>
   </details>
 </div>
 
