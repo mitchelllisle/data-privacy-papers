@@ -1119,5 +1119,131 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.07930v1",
+    "title" : "INO-SGD: Addressing Utility Imbalance under Individualized Differential Privacy",
+    "summary" : "Differential privacy (DP) is widely employed in machine learning to protect confidential or sensitive training data from being revealed. As data owners gain greater control over their data due to personal data ownership, they are more likely to set their own privacy requirements, necessitating individualized DP (IDP) to fulfil such requests. In particular, owners of data from more sensitive subsets, such as positive cases of stigmatized diseases, likely set stronger privacy requirements, as leakage of such data could incur more serious societal impact. However, existing IDP algorithms induce a critical utility imbalance problem: Data from owners with stronger privacy requirements may be severely underrepresented in the trained model, resulting in poorer performance on similar data from subsequent users during deployment. In this paper, we analyze this problem and propose the INO-SGD algorithm, which strategically down-weights data within each batch to improve performance on the more private data across all iterations. Notably, our algorithm is specially designed to satisfy IDP, while existing techniques addressing utility imbalance neither satisfy IDP nor can be easily adapted to do so. Lastly, we demonstrate the empirical feasibility of our approach.",
+    "updated" : "2026-05-08T16:04:09Z",
+    "published" : "2026-05-08T16:04:09Z",
+    "authors" : [
+      {
+        "name" : "Xiao Tian"
+      },
+      {
+        "name" : "Jue Fan"
+      },
+      {
+        "name" : "Rachael Hwee Ling Sim"
+      },
+      {
+        "name" : "Bryan Kian Hsiang Low"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.07185v1",
+    "title" : "Metaphors as Scaffolds: Spatial, Embodied, Fantastical, and Relational Framings for Youth Usable Privacy Design",
+    "summary" : "Mainstream usable privacy design frames privacy as administrative work -- settings, toggles, consent checkboxes -- abstracted from the relational, contextual, and embodied registers in which youth reason about disclosure. Drawing on a cross-project reading of three prior studies with youth aged 13--24, we examine how the metaphors that scaffold a privacy interaction shape the reasoning young users bring to it. \\textit{Spatial} metaphors reduce cognitive load by recruiting intuitions about navigating physical space. \\textit{Embodied} metaphors furnish a shared moral vocabulary that makes implicit norms about public and private space negotiable among users. \\textit{Fantastical} metaphors recast privacy management as discoverable play, raising engagement with the granular controls that nuanced self-presentation requires. \\textit{Relational} metaphors, by contrast, can lead youth past their own stated boundaries when felt intimacy masks institutional data flow, a risk already visible in AI companion products. Metaphor selection, we argue, is best understood as a first-order ethical design decision for youth privacy.",
+    "updated" : "2026-05-08T03:24:56Z",
+    "published" : "2026-05-08T03:24:56Z",
+    "authors" : [
+      {
+        "name" : "JaeWon Kim"
+      },
+      {
+        "name" : "Alexis Hiniker"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.06847v1",
+    "title" : "Privacy Perceptions in Sensor-Powered Smart Vehicle Cabins",
+    "summary" : "As car cabins evolve with the integration of diverse sensors, traditional car cabins are transforming into smart environments. This shift raises important questions about how privacy is understood and managed in such spaces. In this work, we investigate privacy perceptions from the perspectives of both vehicle owners (i.e., people who purchase and own cars) and non-owners (i.e., people who temporarily use cars, such as family members, friends, or renters). Through semi-structured interviews with eighteen participants, we identified key factors that influence these groups' views on privacy. Our findings reveal factors that commonly influence privacy preferences for both owners and non-owners, as well as factors that have a stronger impact on one group over the other. Drawing on these insights, we discuss design implications for future designs to better support and balance the diverse privacy needs of multiple stakeholders in smart car cabins.",
+    "updated" : "2026-05-07T18:49:33Z",
+    "published" : "2026-05-07T18:49:33Z",
+    "authors" : [
+      {
+        "name" : "BoRui Li"
+      },
+      {
+        "name" : "Bofan Yu"
+      },
+      {
+        "name" : "Xing-Dong Yang"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.06835v1",
+    "title" : "On Privacy Leakage in Tabular Diffusion Models: Influential Factors, Attacker Knowledge, and Metrics",
+    "summary" : "Tabular data plays an important role in many fields and industries, including those with elevated privacy considerations and risks. As such, there is a rising interest in generating high-quality synthetic proxies for real tabular data as a means of reducing privacy risk and proprietary data exposure. With tabular diffusion models (TDMs) demonstrating leading performance in synthesizing such data, understanding and measuring the privacy risks associated with these models is imperative. Leveraging state-of-the-art membership inference attacks for TDMs in both black- and white-box settings, this work quantifies the impact of training setup, synthesis choices, and attacker knowledge on privacy leakage. Moreover, the results demonstrate that adversaries need not have perfect knowledge of the training setup, identical data distributions, or massive compute resources to construct successful attacks. Finally, the pitfalls associated with applying heuristic privacy metrics, such as distance-to-closest record, are revealed.",
+    "updated" : "2026-05-07T18:42:35Z",
+    "published" : "2026-05-07T18:42:35Z",
+    "authors" : [
+      {
+        "name" : "Masoumeh Shafieinejad"
+      },
+      {
+        "name" : "D. B. Emerson"
+      },
+      {
+        "name" : "Behnoosh Zamanlooy"
+      },
+      {
+        "name" : "Elaheh Bassak"
+      },
+      {
+        "name" : "Fatemeh Tavakoli"
+      },
+      {
+        "name" : "Sara Kodeiri"
+      },
+      {
+        "name" : "Marcelo Lotif"
+      },
+      {
+        "name" : "Xi He"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.05340v2",
+    "title" : "How Far Are VLMs from Privacy Awareness in the Physical World? An Empirical Study",
+    "summary" : "As Vision-Language Models (VLMs) are increasingly deployed as autonomous cognitive cores for embodied assistants, evaluating their privacy awareness in physical environments becomes critical. Unlike digital chatbots, these agents operate in intimate spaces, such as homes and hospitals, where they possess the physical agency to observe and manipulate privacy-sensitive information and artifacts. However, current benchmarks remain limited to unimodal, text-based representations that cannot capture the demands of real-world settings. To bridge this gap, we present ImmersedPrivacy, an interactive audio-visual evaluation framework that simulates realistic physical environments using a Unity-based simulator. ImmersedPrivacy evaluates physically grounded privacy awareness across three progressive tiers that test a model's ability to identify sensitive items in cluttered scenes, adapt to shifting social contexts, and resolve conflicts between explicit commands and inferred privacy constraints. Our evaluation of 12 state-of-the-art models reveals consistent deficits. In cluttered scenes, all models exhibit monotonic performance decay as scene complexity grows due to perceptual deficit. When social context shifts, no model exceed 65% selection accuracy. Under conflicting commands, the best model gemini-3.1-pro perfectly balances task completion and privacy preservation in only 51% of cases. These findings reveal that current VLMs in the physical world suffer from perceptual fragility and fail to let their knowledge of privacy cues govern their situated behavior. Our code and data is available at https://github.com/immersed-privacy/immersed-privacy .",
+    "updated" : "2026-05-08T01:54:08Z",
+    "published" : "2026-05-06T18:10:51Z",
+    "authors" : [
+      {
+        "name" : "Junran Wang"
+      },
+      {
+        "name" : "Xinjie Shen"
+      },
+      {
+        "name" : "Zehao Jin"
+      },
+      {
+        "name" : "Pan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
