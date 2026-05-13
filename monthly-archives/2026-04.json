@@ -4483,5 +4483,30 @@
     "categories" : [
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2604.26390v2",
+    "title" : "Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations",
+    "summary" : "Balancing differential privacy (DP) with recommendation accuracy is a key challenge in privacy-preserving recommender systems, since DP-noise degrades accuracy. We address this trade-off at both the data and model levels. At the data level, we apply DP only to the most stereotypical user data likely to reveal sensitive attributes, such as gender or age, to reduce unnecessary perturbation; we refer to this as targeted DP. At the model level, we use meta-learning to improve robustness to remaining DP-noise. This achieves a better trade-off between accuracy and privacy than standard approaches: Meta-learning improves accuracy and targeted DP leads to lower empirical privacy risk compared to uniformly applied DP and full DP baselines. Overall, our findings show that selectively applying DP at the data level together with meta-learning at the model level can effectively balance recommendation accuracy and user privacy.",
+    "updated" : "2026-05-12T08:06:58Z",
+    "published" : "2026-04-29T08:00:20Z",
+    "authors" : [
+      {
+        "name" : "Peter Müllner"
+      },
+      {
+        "name" : "Dominik Kowald"
+      },
+      {
+        "name" : "Markus Schedl"
+      },
+      {
+        "name" : "Elisabeth Lex"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.LG"
+    ]
   }
 ]
