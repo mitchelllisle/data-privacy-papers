@@ -1807,5 +1807,115 @@
       "cs.CR",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.12147v1",
+    "title" : "PrivacySIM: Evaluating LLM Simulation of User Privacy Behavior",
+    "summary" : "Large language models (LLMs) are increasingly used to simulate human behavior, but their ability to simulate $individual$ privacy decisions is not well understood. In this paper, we address the problem of evaluating whether a core set of user persona attributes can drive LLMs to simulate individual-level privacy behavior. We introduce PrivacySIM, an evaluation suite that benchmarks LLM simulation of user privacy behavior against the ground-truth responses of 1,000 users. These users are drawn from five published user studies on privacy spanning LLM healthcare consultations, conversational agents, and chatbots. Drawing on these user studies, we hypothesize three persona facets as plausible predictors of privacy decision-making: demographics, previous experiences, and stated privacy attitudes. We condition nine frontier LLMs on subsets of these three facets and measure how often each model's response to a data-sharing scenario matches the user's actual response. Our findings show that (1) privacy persona conditioning consistently improves simulation quality over no-persona conditioning, but even the strongest model (40.4\\% accuracy) remains far from faithfully simulating individual privacy decisions. (2) A user's stated privacy attitudes alone may not be the best predictor because they often diverge from the user's actual privacy behavior. (3) Users with high AI/chatbot experience but low stated privacy attitudes are the most challenging to simulate. PrivacySIM is a first step toward understanding and improving the capabilities of LLMs to simulate user privacy decisions. We release PrivacySIM to enable further evaluation of LLM privacy simulation.",
+    "updated" : "2026-05-12T14:05:14Z",
+    "published" : "2026-05-12T14:05:14Z",
+    "authors" : [
+      {
+        "name" : "James Flemings"
+      },
+      {
+        "name" : "Murali Annavaram"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.11386v1",
+    "title" : "Revisiting Privacy Preservation in Brain-Computer Interfaces: Conceptual Boundaries, Risk Pathways, and a Protection-Strength Grading Framework",
+    "summary" : "Brain-computer interfaces (BCIs) are moving rapidly from laboratory research into clinical, edge, and real-world settings. Under ISO/IEC 8663:2025, a BCI is a direct communication link between central nervous system activity and external software or hardware systems. This link expands privacy risk beyond raw neural-signal leakage: neural data, derived representations, model assets, and decoded outputs can be re-associated with individuals across collection, transmission, storage, training, inference, and feedback, or used to infer information beyond what a task requires. Starting from the general BCI paradigm, this review deffnes privacy-protection boundaries, protection objects, and the relationship between user data privacy and model privacy within a shared risk pathway. It then proposes a three-dimensional framework - protection object, lifecycle stage, and dominant protection-strength level - to classify existing work into four levels of protection strength. Finally, mental privacy and neuroethical risks are treated as open issues, emphasizing that BCI privacy protection should not only obscure data but also disentangle task-irrelevant sensitive information while preserving downstream utility. Keywords: Brain-computer interface, Neural data privacy, User data privacy, Model privacy, Disentanglement of task-irrelevant sensitive information, Protection-strength grading, Neuroethical risks",
+    "updated" : "2026-05-12T01:17:45Z",
+    "published" : "2026-05-12T01:17:45Z",
+    "authors" : [
+      {
+        "name" : "Lei Sun"
+      },
+      {
+        "name" : "Xiuqing Mao"
+      },
+      {
+        "name" : "Shuai Zhang"
+      },
+      {
+        "name" : "Qingyu Zeng"
+      },
+      {
+        "name" : "Min Zhao"
+      },
+      {
+        "name" : "Jiyuan Li"
+      },
+      {
+        "name" : "Wenle Dong"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.11195v1",
+    "title" : "How Does Differential Privacy Affect Social Bias in LLMs? A Systematic Evaluation",
+    "summary" : "Large language models (LLMs) trained on web-scale corpora can memorize sensitive training data, posing significant privacy risks. Differential privacy (DP) has emerged as a principled framework that limits the influence of individual data points during training, yet the relationship between differential privacy and social bias in LLMs remains poorly understood. To investigate this, we present a systematic evaluation of social bias in a pretrained LLM trained with DP-SGD, comparing a DP model against non-DP baselines across four complementary paradigms: sentence scoring, text completion, tabular classification, and question answering. We find that DP reduces bias in sentence scoring tasks, where bias is measured through controlled likelihood comparisons, yet this improvement does not generalize across all tasks. Our results reveal a discrepancy between logit-level bias and output-level bias. Moreover, decreasing memorization does not necessarily reduce unfairness, underscoring the importance of multi-paradigm evaluation when assessing fairness in LLMs.",
+    "updated" : "2026-05-11T20:03:05Z",
+    "published" : "2026-05-11T20:03:05Z",
+    "authors" : [
+      {
+        "name" : "Eduardo Tenorio"
+      },
+      {
+        "name" : "Karuna Bhaila"
+      },
+      {
+        "name" : "Xintao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.09530v2",
+    "title" : "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "summary" : "As LLM-powered agents are increasingly deployed in edge-cloud environments, personalized memory has become a key enabler of long-term adaptation and user-centric interaction. However, cloud-assisted memory management exposes sensitive user information, while existing privacy protection methods typically rely on aggressive masking that removes task-relevant semantics and consequently degrades memory utility and personalization quality. To address this challenge, We propose MemPrivacy, which identifies privacy-sensitive spans on edge devices, replaces them with semantically structured type-aware placeholders for cloud-side memory processing, and restores the original values locally when needed. By decoupling privacy protection from semantic destruction, MemPrivacy minimizes sensitive data exposure while retaining the information required for effective memory formation and retrieval. We also construct MemPrivacy-Bench for systematic evaluation, a dataset covering 200 users and over 52k privacy instances, and introduce a four-level privacy taxonomy for configurable protection policies. Experiments show that MemPrivacy achieves strong performance in privacy information extraction, substantially surpassing strong general-purpose models such as GPT-5.2 and Gemini-3.1-Pro, while also reducing inference latency. Across multiple widely used memory systems, MemPrivacy limits utility loss to within 1.6%, outperforming baseline masking strategies. Overall, MemPrivacy offers an effective balance between privacy protection and personalized memory utility for edge-cloud agents, enabling secure, practical, and user-transparent deployment.",
+    "updated" : "2026-05-12T09:55:05Z",
+    "published" : "2026-05-10T13:31:58Z",
+    "authors" : [
+      {
+        "name" : "Yining Chen"
+      },
+      {
+        "name" : "Jihao Zhao"
+      },
+      {
+        "name" : "Bo Tang"
+      },
+      {
+        "name" : "Haofen Wang"
+      },
+      {
+        "name" : "Yue Zhang"
+      },
+      {
+        "name" : "Fei Huang"
+      },
+      {
+        "name" : "Feiyu Xiong"
+      },
+      {
+        "name" : "Zhiyu Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
   }
 ]
