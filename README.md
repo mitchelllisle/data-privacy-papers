@@ -2,6 +2,42 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.13503v1">Limits of Personalizing Differential Privacy Budgets</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-13T13:24:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Edwige Cyffers, Juba Ziani</p>
+    <p><b>Summary:</b> A key technical difficulty in differential privacy is selecting a privacy budget that satisfies privacy requirements while maximizing utility. A natural and well-studied workaround is to use personalized privacy budgets, which may differ across agents. In this paper, we show that personalized budgets come with major limitations and that for mean estimation, the dominant factor is not full personalization, but rather choosing the right effective privacy budget. This can be achieved through a simple thresholding operator that we describe. Compared with this thresholding baseline, the gains obtained by fully personalized mechanisms are limited. In particular, we precisely quantify the constant-factor improvement in settings with mixed private and public datasets and in private datasets with two levels of privacy requirements. We also establish upper bounds and identify regimes of maximal gain for arbitrary privacy requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.13418v1">DP-KFC: Data-Free Preconditioning for Privacy-Preserving Deep Learning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-13T12:14:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marc Molina Van den Bosch, Riccardo Taiello, Albert Sund Aillet, Andrea Protani, Miguel Angel Gonzalez Ballester, Luigi Serio</p>
+    <p><b>Summary:</b> Differentially private optimization suffers from a fundamental geometric mismatch: deep networks have highly anisotropic loss landscapes, yet DP-SGD injects isotropic noise. Second-order preconditioning can resolve this, but estimating curvature typically requires private data (consuming privacy budget) or public data (introducing distribution shift). We show that the Fisher Information Matrix decouples into architectural sensitivity, recoverable via synthetic noise, and input correlations, approximable from modality-specific frequency statistics. We propose DP-KFC, which constructs KFAC preconditioners by probing networks with structured synthetic noise, requiring neither private nor public data. Empirically, DP-KFC consistently outperforms DP-SGD and adaptive baselines across diverse modalities in strong privacy regimes ($\varepsilon \leq 3$). DP-KFC matches private-data preconditioners while public-data variants degrade by up to $4.8\%$, showing that curvature can be estimated without consuming privacy budget or introducing distribution shift. This enables privacy-preserving learning in specialized domains (e.g., medical applications) where regulatory constraints make data scarce.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.13265v1">LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-13T09:45:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mert Cihangiroglu, Alessandro Pegoraro, Phillip Rieger, Antonino Nocera, Ahmad-Reza Sadeghi</p>
+    <p><b>Summary:</b> Split learning (SL) enables collaborative training by partitioning a neural network across clients and a central server, but the cut-layer interface introduces a key challenge: high-dimensional activations incur substantial communication overhead while exposing representations vulnerable to reconstruction attacks. Existing approaches typically address efficiency or privacy in isolation, relying on additional mechanisms such as sparsification, quantization, or noise injection. We propose LightSplit, which limits information exposure and reduces communication overhead by applying a lightweight fixed orthogonal random projection at the cut layer. Based on Shannon's information theory, this projection acts as an information bottleneck that restricts instance-specific information and suppresses exploitable per-sample signals. By transmitting low-dimensional projections instead of raw activations, the server operates on lifted representations without requiring architectural modifications, ensuring compatibility with existing SL architectures. By avoiding additional trainable components on the client, the method remains lightweight and suitable for edge devices while preserving end-to-end differentiability via exact gradient propagation. As the projection is non-invertible, part of the original representation is irreversibly discarded at the client, LightSplit reduces the information available for reconstruction and limits information exposure. We extensively evaluate LightSplit on state-of-the-art benchmarks in both IID and non-IID settings across varying projection dimensions and client scales. Our results show that the method retains more than 95% of the baseline accuracy at up to 32x reduction in transmitted dimensionality while maintaining stable training dynamics.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.12147v1">PrivacySIM: Evaluating LLM Simulation of User Privacy Behavior</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-05-12T14:05:14Z</p>
@@ -9,6 +45,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> James Flemings, Murali Annavaram</p>
     <p><b>Summary:</b> Large language models (LLMs) are increasingly used to simulate human behavior, but their ability to simulate $individual$ privacy decisions is not well understood. In this paper, we address the problem of evaluating whether a core set of user persona attributes can drive LLMs to simulate individual-level privacy behavior. We introduce PrivacySIM, an evaluation suite that benchmarks LLM simulation of user privacy behavior against the ground-truth responses of 1,000 users. These users are drawn from five published user studies on privacy spanning LLM healthcare consultations, conversational agents, and chatbots. Drawing on these user studies, we hypothesize three persona facets as plausible predictors of privacy decision-making: demographics, previous experiences, and stated privacy attitudes. We condition nine frontier LLMs on subsets of these three facets and measure how often each model's response to a data-sharing scenario matches the user's actual response. Our findings show that (1) privacy persona conditioning consistently improves simulation quality over no-persona conditioning, but even the strongest model (40.4\% accuracy) remains far from faithfully simulating individual privacy decisions. (2) A user's stated privacy attitudes alone may not be the best predictor because they often diverge from the user's actual privacy behavior. (3) Users with high AI/chatbot experience but low stated privacy attitudes are the most challenging to simulate. PrivacySIM is a first step toward understanding and improving the capabilities of LLMs to simulate user privacy decisions. We release PrivacySIM to enable further evaluation of LLM privacy simulation.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.12566v1">On Privacy-Preserving Image Transmission in Low-Altitude Networks: A Swin Transformer-Based Framework with Federated Learning</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-12T09:18:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kexin Zhang, Lixin Li, Yuna Yan, Xin Zhang, Wensheng Lin, Rui Li, Dongwei Zhao, Zhu Han</p>
+    <p><b>Summary:</b> The rapid development of low-altitude economy has driven the proliferation of Unmanned Aerial Vehicle (UAV) applications, including logistics, inspection, and emergency response. However, transmitting high-volume image data from UAVs to ground stations faces significant challenges due to limited bandwidth and stringent privacy requirements. To address these issues, a Semantic Communication (SC) framework based on Federated Learning (FL) is proposed for efficient and privacy-preserving image transmission. A Swin Transformer-based Semantic Communication (STSC) architecture is designed to extract multi-scale semantic features under constrained bandwidth conditions. Dedicated communication and computing nodes are deployed on UAVs to enhance real-time coverage and flexibility. Meanwhile, a FL mechanism enables global model training across distributed devices without sharing raw data, thus preserving user privacy. Simulation experiments conducted on the CIFAR-10 dataset demonstrate that the proposed STSC framework achieves at least 5.7 dB improvement in Peak Signal-to-Noise Ratio (PSNR) compared to DeepJSCC baselines, while also showing superior convergence and generalization performance. The framework effectively integrates UAV-assisted deployment with SC and privacy protection, offering a practical solution for bandwidth-constrained image transmission in low-altitude networks.</p>
   </details>
 </div>
 
@@ -1172,54 +1220,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Emre Ardıç, Yakup Genç</p>
     <p><b>Summary:</b> Federated learning (FL) is a distributed machine learning method where multiple devices collaboratively train a model under the management of a central server without sharing underlying data. One of the key challenges of FL is the communication bottleneck caused by variations in connection speed and bandwidth across devices. Therefore, it is essential to reduce the size of transmitted data during training. Additionally, there is a potential risk of exposing sensitive information through the model or gradient analysis during training. To address both privacy and communication efficiency, we combine differential privacy (DP) and adaptive quantization methods. We use Laplacian-based DP to preserve privacy, which is relatively underexplored in FL and offers tighter privacy guarantees than Gaussian-based DP. We propose a simple and efficient global bit-length scheduler using round-based cosine annealing, along with a client-based scheduler that dynamically adapts based on client contribution estimated through dataset entropy analysis. We evaluate our approach through extensive experiments on CIFAR10, MNIST, and medical imaging datasets, using non-IID data distributions across varying client counts, bit-length schedulers, and privacy budgets. The results show that our adaptive quantization methods reduce total communicated data by up to 52.64% for MNIST, 45.06% for CIFAR10, and 31% to 37% for medical imaging datasets compared to 32-bit float training while maintaining competitive model accuracy and ensuring robust privacy through differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.23248v1">PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-04-25T10:58:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Tran Thanh Lam Nguyen, Edoardo Di Tullio, Barbara Carminati, Elena Ferrari</p>
-    <p><b>Summary:</b> Mobile apps offer significant benefits, but their privacy protections often remain ineffective and confusing for users. While prior work mainly analyzes app privacy vulnerabilities, few approaches help users understand, set, and enforce their privacy preferences. This paper presents PrivacyAssist, a multi-agent LLM-based platform that detects inconsistencies between user-granted permissions and developers' declared sensitive data collection and sharing practices. Using Retrieval-Augmented Generation (RAG), PrivacyAssist provides concise explanations and real-time on-device warnings to support informed installation decisions. We evaluate PrivacyAssist with 200 users and 2,347 Android apps, finding that only 16% of apps are fully consistent between granted permissions and declared data practices.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.23245v1">Training Machine Learning Models on Encrypted Data: A Privacy-Preserving Framework using Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-04-25T10:50:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexandre Marques, Beatriz Sá, Rui Botelho, Pedro Pinto</p>
-    <p><b>Summary:</b> The use of Machine Learning (ML) for data-driven decision-making often relies on access to sensitive datasets, which introduces privacy challenges. Traditional encryption methods protect data at rest or in transit but fail to secure it during processing, exposing it to unauthorized access. Homomorphic encryption emerges as a transformative solution, enabling computations on encrypted data without decryption, thus preserving confidentiality throughout the ML pipeline. This paper addresses the challenge of training ML models on encrypted data while maintaining accuracy and efficiency by proposing a proof-of-concept for a privacy-preserving framework that leverages Cheon-Kim-Kim-Song (CKKS) for approximate real-number arithmetic. Also, it demonstrates the feasibility of training K-Nearest Neighbors (KNN) and linear regression models on encrypted data, and evaluates encrypted inference for a basic Multilayer Perceptron (MLP) architecture. Experimental results show that models trained under Homomorphic encryption achieve performance metrics comparable to plaintext-trained models, validating the approach. However, challenges such as computational overhead, noise management, and limited support for non-polynomial operations persist. This work lays the groundwork for broader adoption of privacy-preserving ML in real-world applications, balancing security with computational feasibility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.22310v1">Revisiting Geometric Obfuscation with Dual Convergent Lines for Privacy-Preserving Image Queries in Visual Localization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-04-24T07:44:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jeonggon Kim, Heejoon Moon, Je Hyeong Hong</p>
-    <p><b>Summary:</b> Privacy-Preserving Image Queries (PPIQ) are an emerging mechanism for cloud-based visual localization, enabling pose estimation from obfuscated features instead of private images or raw keypoints. However, the main approaches for PPIQ, primarily geometry-based and segmentation-based obfuscation, both suffer from vulnerabilities to recent privacy attacks. In particular, a fundamental limitation of geometry-based obfuscation is that the spatial distribution of obfuscated neighboring lines still effectively surrounds the original keypoint location, providing exploitable cues for recovering the original points. We revisit this geometric paradigm and introduce Dual Convergent Lines (DCL), a novel keypoint obfuscation method demonstrating strong resilience against such attack. DCL places two fixed anchors on a central partition line and lifts each keypoint to a line originating from one of them, with the active anchor determined by the keypoint's location. This arrangement invalidates the geometry-recovery attack by making its optimization ill-posed: Neighboring lines either misleadingly converge to one anchor, yielding a trivial solution, or become near-parallel at the partition boundary, yielding an unstable high-variance solution. Both outcomes thwart point recovery. DCL is also compatible with an existing line-based solver, enabling deployment in traditional localization pipelines. Experiments on both indoor and large-scale outdoor datasets demonstrate DCL's robustness against privacy attacks, efficiency, and scalability, while achieving practical localization performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.22157v1">PrivSTRUCT: Untangling Data Purpose Compliance of Privacy Policies in Google Play Store</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-04-24T02:12:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Bhanuka Silva, Anirban Mahanti, Aruna Seneviratne, Suranga Senevirante</p>
-    <p><b>Summary:</b> Existing research typically treats privacy policies as flat, uniform text, extracting information without regard for the document's logical hierarchy. Disregard for structural cues of section headings designed to guide the reader, often leads automated methods to entangle distinct data practices, particularly when linking sensitive data items to their specific purposes. To address this, we introduce PrivSTRUCT, a novel and systematic encoder and decoder combined framework that to untangle complex privacy disclosures. Benchmarking against the state-of-the-art tool PoliGrapher reveals that PrivSTRUCT robustly extracts more than x2 the number of data item and purpose excerpts while retaining developer-defined structural cues. By applying PrivSTRUCT to a large-scale dataset of 3,756 Android apps, we uncover a critical transparency gap: the probability of developers overstating a data purpose is 20.4% higher for first-party collection and 9.7% higher for third-party sharing when they rely on globally defined purposes rather than specific, locally scoped disclosures. Alarmingly, we find that sensitive third-party data flows such as sharing financial data for analytics are frequently diluted and entangled into generic or unrelated categories, highlighting a persistent failure in the current purpose disclosure landscape.</p>
   </details>
 </div>
 
