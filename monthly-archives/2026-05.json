@@ -2030,5 +2030,190 @@
       "eess.IV",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.14591v1",
+    "title" : "Privacy Auditing with Zero (0) Training Run",
+    "summary" : "Privacy auditing provides empirical lower bounds on the differential privacy parameters of learning algorithms. Existing methods, however, require interventional access to the training pipeline, either to retrain multiple times or to randomize data inclusion. This is often infeasible for large deployed systems such as foundation models. We introduce Zero-Run privacy auditing, a post-hoc framework for auditing models using two fixed datasets: examples known to be training-set members and examples known to be non-members. In this observational regime, membership is no longer randomized; instead, member and non-member data often differ in distribution, so membership inference scores may reflect a distribution shift rather than algorithmic leakage. Drawing on ideas from causal inference, we formalize this confounding effect and propose two complementary corrections that yield valid privacy audits. Our first approach models the combined effect of distribution shift and algorithmic leakage as an adaptive composition, producing conservative global corrections. Our second approach conditions on observed data and adjusts pointwise membership guesses, yielding sharper instance-dependent bounds. Experiments on synthetic data and large-scale models show that Zero-Run auditing enables practical privacy evaluation when retraining or controlled data insertion is infeasible.",
+    "updated" : "2026-05-14T09:00:56Z",
+    "published" : "2026-05-14T09:00:56Z",
+    "authors" : [
+      {
+        "name" : "Tudor Cebere"
+      },
+      {
+        "name" : "Mathieu Even"
+      },
+      {
+        "name" : "Linus Bleistein"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.14289v1",
+    "title" : "MetaMoE: Diversity-Aware Proxy Selection for Privacy-Preserving Mixture-of-Experts Unification",
+    "summary" : "Mixture-of-Experts (MoE) models scale capacity by combining specialized experts, but most existing approaches assume centralized access to training data. In practice, data are distributed across clients and cannot be shared due to privacy constraints, making unified MoE training challenging. We propose MetaMoE, a privacy-preserving framework that unifies independently trained, domain-specialized experts into a single MoE using public proxy data as surrogates for inaccessible private data. Central to MetaMoE is diversity-aware proxy selection, which selects client-domain-relevant and diverse samples from public data to effectively approximate private data distributions and supervise router learning. These proxies are further used to align expert training, improving expert coordination at unification time, while a context-aware router enhances expert selection across heterogeneous inputs. Experiments on computer vision and natural language processing benchmarks demonstrate that MetaMoE consistently outperforms recent privacy-preserving MoE unification methods. Code is available at https://github.com/ws-jiang/MetaMoE.",
+    "updated" : "2026-05-14T02:48:23Z",
+    "published" : "2026-05-14T02:48:23Z",
+    "authors" : [
+      {
+        "name" : "Weisen Jiang"
+      },
+      {
+        "name" : "Shuhao Chen"
+      },
+      {
+        "name" : "Sinno Jialin Pan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.14123v1",
+    "title" : "Keyed Nonlinear Transform: Lightweight Privacy-Enhancing Feature Sharing for Medical Image Analysis",
+    "summary" : "Feature sharing via split inference offers a lightweight alternative to federated learning for resource-constrained hospitals, but transmitted features still leak patient identity information and lack practical mechanisms for controlled feature sharing. We propose Keyed Nonlinear Transform (KNT), a drop-in feature transformation that applies key-conditioned obfuscation to intermediate representations. KNT reduces re-identification AUC from 0.635 to 0.586, corresponding to a 36% reduction in above-chance identity signal, while introducing only 0.15 ms CPU overhead, without backbone retraining, and preserving classification performance within 1.0 pp. Our analysis shows that KNT's nonlinear transform prevents closed-form inversion and shifts recovery to iterative gradient-based optimization under full key compromise, substantially increasing inversion difficulty. The same transform generalizes to dense prediction tasks, incurring only a 4.4 pp Dice reduction on skin-lesion segmentation without retraining. These results position KNT as a practical and efficient privacy layer for split inference deployments.",
+    "updated" : "2026-05-13T21:17:41Z",
+    "published" : "2026-05-13T21:17:41Z",
+    "authors" : [
+      {
+        "name" : "Haebom Lee"
+      },
+      {
+        "name" : "Gyeongjung Kim"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.14119v1",
+    "title" : "Privacy Preserving Multi Agent Path Finding",
+    "summary" : "In the multi-agent path finding (MAPF) problem, a group of agents search in a graph for a path for each agent where no two paths collide. While in all applications of MAPF the agents must not collide with each other, in some of them the agents may not wish to share their paths due to privacy constraints. In this work, we formulate two types of privacy constraints for MAPF and propose algorithms that preserve them. The first type of privacy we consider is planning-level privacy, which means that during planning, the agents cannot identify exactly the planned location of the other agents. We propose a general framework for obtaining planning-level privacy, which works by adding mock agents to the planning process. The second type of privacy we consider is execution-level privacy, which is relevant when agents have limited sensing capabilities. Execution-level privacy is preserved if none of the agents is allowed to sense the location of the other agents during execution. We show how to adapt two popular MAPF algorithms, namely PIBT and LaCAM, such that they preserve execution-level privacy. Lastly, we propose a post-processing technique that allows the agents to reduce the sum of costs of the returned solution without losing any privacy. We also implemented our algorithms and evaluated them empirically, showing that the proposed post-processing technique indeed improved cost significantly.",
+    "updated" : "2026-05-13T21:08:24Z",
+    "published" : "2026-05-13T21:08:24Z",
+    "authors" : [
+      {
+        "name" : "Rotem Lev Lehman"
+      },
+      {
+        "name" : "Roni Stern"
+      },
+      {
+        "name" : "Guy Shani"
+      }
+    ],
+    "categories" : [
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.14113v1",
+    "title" : "ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows",
+    "summary" : "While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augmented Generation (RAG) routinely triggers ``retrieval sycophancy,'' where Large Language Models (LLMs) hallucinate post-hoc rationalizations to align with visual predictions. We introduce ProtoMedAgent, a framework that formalizes multimodal clinical reporting as an iterative, zero-gradient test-time optimization problem over a strict neuro-symbolic bottleneck. Operating on a frozen prototype backbone, we distill latent visual and tabular features into a discrete semantic memory. Online generation is strictly constrained by exact set-theoretic differentials and a reflective Scribe-Critic loop, mathematically precluding unsupported narrative claims. To safely bound data disclosure, we introduce a semantic privacy gate governed by $k$-anonymity and $\\ell$-diversity. Evaluated on a 4,160-patient clinical cohort, ProtoMedAgent achieves 91.2\\% Comparison Set Faithfulness where it fundamentally outperforms standard RAG (46.2\\%). ProtoMedAgent additionally leverages a binding $\\ell$-diversity phase transition to systematically reduce artifact-level membership inference risks by an absolute 9.8\\%.",
+    "updated" : "2026-05-13T20:57:37Z",
+    "published" : "2026-05-13T20:57:37Z",
+    "authors" : [
+      {
+        "name" : "Alvaro Lopez Pellicer"
+      },
+      {
+        "name" : "Plamen Angelov"
+      },
+      {
+        "name" : "Marwan Bukhari"
+      },
+      {
+        "name" : "Yi Li"
+      },
+      {
+        "name" : "Eduardo Soares"
+      },
+      {
+        "name" : "Jemma Kerns"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.10499v2",
+    "title" : "Privacy-preserving Chunk Scheduling in a BitTorrent Implementation of Federated Learning",
+    "summary" : "Traditional federated learning (FL) relies on a central aggregator server, which can create performance bottlenecks and privacy risks. Decentralized mix-and-forward designs remove the server, but repeated local mixing can attenuate global information under heterogeneity and expose peer-to-peer neighborhoods as a privacy attack surface. To preserve FedAvg-style aggregation semantics over updates reconstructable by the round deadline while scaling dissemination, we present FLTorrent, a BitTorrent-based dissemination layer for serverless FL with a short warm-up. Warm-up hardens within-round source unlinkability, a dissemination-layer goal orthogonal to content protections such as DP or secure aggregation, via pre-round obfuscation, randomized lags, and coordination-only non-owner-first scheduling with the tracker off the data path, before switching to vanilla BitTorrent swarming. We upper-bound the per-transfer attribution posterior by the fraction of owner chunks in a sender's eligible cover set, and derive a tighter high-probability bound that improves with early non-owner mass. A simple heuristic, GreedyFastestFirst, attains about 92% of a bandwidth-optimal max-flow upper bound, while warm-up remains a stable about 12% share of a round across 100-500 peers. Under an observation-only local adversary, FLTorrent drives attribution success close to neighborhood-level random guessing for typical nodes, improves with network size, and remains robust under collusion. In LLM-scale dissemination stress tests over 7-10 Gbps access links, FLTorrent adds only about 6-10% round-time overhead relative to BitTorrent-only. Overall, FLTorrent shows that within-round unlinkability and BitTorrent-level efficiency can co-exist with predictable, low overheads at scale.",
+    "updated" : "2026-05-14T15:59:24Z",
+    "published" : "2026-05-11T12:57:41Z",
+    "authors" : [
+      {
+        "name" : "Naicheng Li"
+      },
+      {
+        "name" : "Javad Dogani"
+      },
+      {
+        "name" : "Rui Wang"
+      },
+      {
+        "name" : "Kaitai Liang"
+      },
+      {
+        "name" : "Nikolaos Laoutaris"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.09530v3",
+    "title" : "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "summary" : "As LLM-powered agents are increasingly deployed in edge-cloud environments, personalized memory has become a key enabler of long-term adaptation and user-centric interaction. However, cloud-assisted memory management exposes sensitive user information, while existing privacy protection methods typically rely on aggressive masking that removes task-relevant semantics and consequently degrades memory utility and personalization quality. To address this challenge, We propose MemPrivacy, which identifies privacy-sensitive spans on edge devices, replaces them with semantically structured type-aware placeholders for cloud-side memory processing, and restores the original values locally when needed. By decoupling privacy protection from semantic destruction, MemPrivacy minimizes sensitive data exposure while retaining the information required for effective memory formation and retrieval. We also construct MemPrivacy-Bench for systematic evaluation, a dataset covering 200 users and over 155k privacy instances, and introduce a four-level privacy taxonomy for configurable protection policies. Experiments show that MemPrivacy achieves strong performance in privacy information extraction, substantially surpassing strong general-purpose models such as GPT-5.2 and Gemini-3.1-Pro, while also reducing inference latency. Across multiple widely used memory systems, MemPrivacy limits utility loss to within 1.6%, outperforming baseline masking strategies. Overall, MemPrivacy offers an effective balance between privacy protection and personalized memory utility for edge-cloud agents, enabling secure, practical, and user-transparent deployment.",
+    "updated" : "2026-05-14T14:55:04Z",
+    "published" : "2026-05-10T13:31:58Z",
+    "authors" : [
+      {
+        "name" : "Yining Chen"
+      },
+      {
+        "name" : "Jihao Zhao"
+      },
+      {
+        "name" : "Bo Tang"
+      },
+      {
+        "name" : "Haofen Wang"
+      },
+      {
+        "name" : "Yue Zhang"
+      },
+      {
+        "name" : "Fei Huang"
+      },
+      {
+        "name" : "Feiyu Xiong"
+      },
+      {
+        "name" : "Zhiyu Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
   }
 ]
