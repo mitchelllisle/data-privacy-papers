@@ -2215,5 +2215,192 @@
       "cs.CR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.16219v1",
+    "title" : "The Privacy Price of Tail-Risk Learning: Effective Tail Sample Size in Differentially Private CVaR Optimization",
+    "summary" : "Differential privacy changes the effective sample size governing CVaR learning. For tail mass $τ$, the privacy-relevant sample size is not $n$, but $nτ$; equivalently, the effective private tail sample size is $εnτ$. Private CVaR excess risk decomposes into ordinary tail-risk statistical error and a privacy price. This decomposition is complete for scalar estimation and finite classes: scalar estimation has rate $Θ(B \\min\\{1,(nτ)^{-1/2}+(εnτ)^{-1}\\})$, and finite classes of size $M$ have rate $Θ(B \\min\\{1,\\sqrt{\\log(2M)/(nτ)}+\\log(2M)/(εnτ)\\})$. These complete rates hold under pure DP, and their lower bounds extend to approximate DP in the stated small-$δ$ regimes. For convex Lipschitz learning, modular upper and lower reductions show that the CVaR-specific privacy term necessarily scales as $1/(εnτ)$, with dimension dependence inherited from private stochastic convex optimization. Together, these results identify ordinary private learning on $Θ(nτ)$ informative tail records as the canonical hard subproblem inside private CVaR learning.",
+    "updated" : "2026-05-15T17:30:42Z",
+    "published" : "2026-05-15T17:30:42Z",
+    "authors" : [
+      {
+        "name" : "El Mustapha Mansouri"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15934v1",
+    "title" : "Privacy is Fungibility: Why Endogenous Tokens Are Not Money",
+    "summary" : "In this paper, we make a case that endogenous tokens such as cryptoassets are not money. First, we define and classify tokens found on public, permissionless ledgers, contrasting them with privately issued stablecoins and proposed CBDC designs. We then discuss the work of Kahn et al in Money is Privacy on cash versus simplified credit, and we extend their analysis to the situation found on most public, permissionless ledgers. Many public, permissionless ledgers utilize an account-based abstraction for balances, resulting in a default state that maps onto the most harmful models of agent interaction enumerated in Money is Privacy. The conclusion is threefold: that most blockchain economies lack a cash-like primitive; that stablecoins do not intrinsically fulfil this role; and that the reliance of a network on an endogenous token for security exposes holders even of a privacy-preserving asset to the same risk, if that asset relies on the same global ledger state as the endogenous token.",
+    "updated" : "2026-05-15T13:15:32Z",
+    "published" : "2026-05-15T13:15:32Z",
+    "authors" : [
+      {
+        "name" : "Alex Lynham"
+      },
+      {
+        "name" : "Geoffrey Goodell"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15746v1",
+    "title" : "The Privacy Subsidy: Kyle's $λ$ under Noise-Perturbed Order-Flow Observation",
+    "summary" : "Privacy-preserving cryptocurrency exchanges (shielded AMMs, batched swap auctions, sealed-bid order-flow auctions) alter what the pricing mechanism observes about order flow. We derive the unique linear Kyle equilibrium when a committed Bayesian market maker observes order flow perturbed by independent Gaussian privacy noise. The price-impact coefficient and informed-trader strategy both rescale by a single factor in the privacy parameter, and their product is invariant. A welfare decomposition then identifies a closed-form per-period transfer from the protocol's LP pool to traders -- the \"privacy subsidy\", the break-even fee any privacy-aggregated exchange must charge. The result is the single-period closed-form privacy-noise analog of Loss-Versus-Rebalancing (Milionis et al. 2022). The primary application is shielded AMMs with explicit additive-noise injection (e.g., differential privacy); related designs (batched swaps, sealed-bid auctions, oracle-pegged crossings) require separate frameworks that we leave to future work.",
+    "updated" : "2026-05-15T08:56:16Z",
+    "published" : "2026-05-15T08:56:16Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15743v1",
+    "title" : "Preserving Topology Privacy of Network Systems by Feedback: Conditions and Distributed Design",
+    "summary" : "This paper develops a feedback-based method to preserve the topology privacy of consensus protocols in network systems. The key idea is to intentionally violate topology identifiability conditions, thereby preventing unique or accurate recovery of the true topology from available observations, while preserving the intended consensus behavior. This problem is challenging because the feedback magnitude directly reflects the privacy level of edges, while it is strongly coupled with the consensus convergence and constrained by local communications at each node. To begin with, we derive the feedback conditions of both partial and full observation cases, where the topology unsolvability from observation data is characterized in the former, and the solution space that enforces topology inaccuracy from data is constructed in the latter. Then, we propose a novel distributed topology modification design under limited privacy budgets, and establish the performance guarantees through a controllable tradeoff between the consensus deviation and the topology privacy. Finally, we develop a low-complexity heuristic algorithm to achieve optimal privacy preservation on existing edges. Comparative simulations validate the effectiveness and outperformance of the proposed preservation design.",
+    "updated" : "2026-05-15T08:52:47Z",
+    "published" : "2026-05-15T08:52:47Z",
+    "authors" : [
+      {
+        "name" : "Yushan Li"
+      },
+      {
+        "name" : "Jiabao He"
+      },
+      {
+        "name" : "Julien M. Hendrickx"
+      },
+      {
+        "name" : "Dimos V. Dimarogonas"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15560v1",
+    "title" : "Privacy-Preserving Federated Radio Map Learning for Wireless Digital Twins via Adaptive Noise Allocation",
+    "summary" : "Radio maps provide a foundational data layer for wireless digital twins, and federated learning offers a natural framework for their distributed construction without centralizing raw radio environment data. However, the exchanged client model updates may still leak transmitter-location information, even when the underlying measurement data are never shared. Existing noise-based privacy defenses inject perturbation either uniformly across all uploaded coordinates or according to a fixed static rule, thereby ignoring the architecture-specific structure of this leakage. This paper proposes a budget-constrained adaptive noise allocation mechanism that redistributes a fixed perturbation budget across transmitter-sensitive upload groups identified from the two-stage RadioUNet architecture. The proposed method uses low-dimensional upload statistics to dynamically adjust group-wise noise scales and is integrated locally before client upload transmission. We evaluate the framework on a federated radio map learning task under a unified noise multiplier, comparing it against uniform and structure-aware baselines using reconstruction mean squared error and transmitter localization error as metrics. Results show that adaptive allocation achieves the strongest privacy protection while maintaining the best reconstruction quality among all noise-based defenses under a matched perturbation budget.",
+    "updated" : "2026-05-15T03:00:28Z",
+    "published" : "2026-05-15T03:00:28Z",
+    "authors" : [
+      {
+        "name" : "Jijia Tian"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Mu Jia"
+      },
+      {
+        "name" : "Yi Wang"
+      },
+      {
+        "name" : "Junting Chen"
+      },
+      {
+        "name" : "Pooi-Yuen Kam"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15248v1",
+    "title" : "Probing Privacy Leaks in LLM-based Code Generation via Test Generation",
+    "summary" : "The widespread availability of large-scale code datasets has fueled the rapid development of large language models (LLMs) for code-related tasks. These datasets may include sensitive personally identifiable information (PII), which can lead to privacy leakage when LLMs memorize and reproduce it. However, existing privacy-leakage detection methods rely on ad-hoc prompt construction (manually or automatically designed). Therefore, they do not adequately approximate the real-world contexts in which PII appears in code corpora, making it difficult to extract realistic privacy leakage. In this paper, we propose a pipeline that simulates practical privacy-related code generation scenarios and adopts a test-driven strategy to elicit the memorized information from the generated test cases. We further introduce an automatically constructed privacy feature library that replaces manual prompt engineering by providing realistic templates and examples to guide test case generation. Large-scale experiments on 5 widely used LLMs show that our pipeline exposes more confirmed privacy leakage, achieving a 2.56 times increase in detected leakage compared to existing baselines.",
+    "updated" : "2026-05-14T12:16:34Z",
+    "published" : "2026-05-14T12:16:34Z",
+    "authors" : [
+      {
+        "name" : "Yifei Ge"
+      },
+      {
+        "name" : "Zhenpeng Chen"
+      },
+      {
+        "name" : "Weisong Sun"
+      },
+      {
+        "name" : "Yuchen Chen"
+      },
+      {
+        "name" : "Chunrong Fang"
+      },
+      {
+        "name" : "Juan Zhai"
+      },
+      {
+        "name" : "Xiaofang Zhang"
+      },
+      {
+        "name" : "Xia Feng"
+      },
+      {
+        "name" : "Yang Liu"
+      },
+      {
+        "name" : "Zhenyu Chen"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15246v1",
+    "title" : "Privacy Evaluation of Generative Models for Trajectory Generation",
+    "summary" : "Trajectory data is fundamental to modern urban intelligence, yet its sensitivity raises significant privacy concerns. Generative models such as Generative Adversarial Networks, Variational Autoencoders, and Diffusion Models have been developed to generate realistic synthetic trajectory data by capturing underlying spatiotemporal distributions and mobility patterns. Although these models are often assumed to preserve privacy due to their generative nature, this assumption does not necessarily hold. In this work, we investigate the intersection of generative trajectory modeling and privacy evaluation. By identifying applicable empirical methods for assessing privacy preservation in trajectory generation tasks, we demonstrate a significant gap in the evaluation of privacy for generative trajectory models. Motivated by this gap, we implement Membership Inference Attacks against representative models, demonstrating the feasibility of using such empirical privacy evaluation methods and showing that their generative nature does not eliminate privacy risks.",
+    "updated" : "2026-05-14T10:57:34Z",
+    "published" : "2026-05-14T10:57:34Z",
+    "authors" : [
+      {
+        "name" : "Stavros Bouras"
+      },
+      {
+        "name" : "Ioannis Kontopoulos"
+      },
+      {
+        "name" : "Chiara Pugliese"
+      },
+      {
+        "name" : "Francesco Lettich"
+      },
+      {
+        "name" : "Emanuele Carlini"
+      },
+      {
+        "name" : "Hanna Kavalionak"
+      },
+      {
+        "name" : "Chiara Renso"
+      },
+      {
+        "name" : "Konstantinos Tserpes"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
