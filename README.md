@@ -2,6 +2,90 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.16219v1">The Privacy Price of Tail-Risk Learning: Effective Tail Sample Size in Differentially Private CVaR Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2026-05-15T17:30:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> El Mustapha Mansouri</p>
+    <p><b>Summary:</b> Differential privacy changes the effective sample size governing CVaR learning. For tail mass $τ$, the privacy-relevant sample size is not $n$, but $nτ$; equivalently, the effective private tail sample size is $εnτ$. Private CVaR excess risk decomposes into ordinary tail-risk statistical error and a privacy price. This decomposition is complete for scalar estimation and finite classes: scalar estimation has rate $Θ(B \min\{1,(nτ)^{-1/2}+(εnτ)^{-1}\})$, and finite classes of size $M$ have rate $Θ(B \min\{1,\sqrt{\log(2M)/(nτ)}+\log(2M)/(εnτ)\})$. These complete rates hold under pure DP, and their lower bounds extend to approximate DP in the stated small-$δ$ regimes. For convex Lipschitz learning, modular upper and lower reductions show that the CVaR-specific privacy term necessarily scales as $1/(εnτ)$, with dimension dependence inherited from private stochastic convex optimization. Together, these results identify ordinary private learning on $Θ(nτ)$ informative tail records as the canonical hard subproblem inside private CVaR learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.15934v1">Privacy is Fungibility: Why Endogenous Tokens Are Not Money</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-05-15T13:15:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Alex Lynham, Geoffrey Goodell</p>
+    <p><b>Summary:</b> In this paper, we make a case that endogenous tokens such as cryptoassets are not money. First, we define and classify tokens found on public, permissionless ledgers, contrasting them with privately issued stablecoins and proposed CBDC designs. We then discuss the work of Kahn et al in Money is Privacy on cash versus simplified credit, and we extend their analysis to the situation found on most public, permissionless ledgers. Many public, permissionless ledgers utilize an account-based abstraction for balances, resulting in a default state that maps onto the most harmful models of agent interaction enumerated in Money is Privacy. The conclusion is threefold: that most blockchain economies lack a cash-like primitive; that stablecoins do not intrinsically fulfil this role; and that the reliance of a network on an endogenous token for security exposes holders even of a privacy-preserving asset to the same risk, if that asset relies on the same global ledger state as the endogenous token.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.15746v1">The Privacy Subsidy: Kyle's $λ$ under Noise-Perturbed Order-Flow Observation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Probability-5BC0EB"> 
+  <p><b>Published on:</b> 2026-05-15T08:56:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuki Nakamura</p>
+    <p><b>Summary:</b> Privacy-preserving cryptocurrency exchanges (shielded AMMs, batched swap auctions, sealed-bid order-flow auctions) alter what the pricing mechanism observes about order flow. We derive the unique linear Kyle equilibrium when a committed Bayesian market maker observes order flow perturbed by independent Gaussian privacy noise. The price-impact coefficient and informed-trader strategy both rescale by a single factor in the privacy parameter, and their product is invariant. A welfare decomposition then identifies a closed-form per-period transfer from the protocol's LP pool to traders -- the "privacy subsidy", the break-even fee any privacy-aggregated exchange must charge. The result is the single-period closed-form privacy-noise analog of Loss-Versus-Rebalancing (Milionis et al. 2022). The primary application is shielded AMMs with explicit additive-noise injection (e.g., differential privacy); related designs (batched swaps, sealed-bid auctions, oracle-pegged crossings) require separate frameworks that we leave to future work.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.15743v1">Preserving Topology Privacy of Network Systems by Feedback: Conditions and Distributed Design</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
+  <p><b>Published on:</b> 2026-05-15T08:52:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yushan Li, Jiabao He, Julien M. Hendrickx, Dimos V. Dimarogonas</p>
+    <p><b>Summary:</b> This paper develops a feedback-based method to preserve the topology privacy of consensus protocols in network systems. The key idea is to intentionally violate topology identifiability conditions, thereby preventing unique or accurate recovery of the true topology from available observations, while preserving the intended consensus behavior. This problem is challenging because the feedback magnitude directly reflects the privacy level of edges, while it is strongly coupled with the consensus convergence and constrained by local communications at each node. To begin with, we derive the feedback conditions of both partial and full observation cases, where the topology unsolvability from observation data is characterized in the former, and the solution space that enforces topology inaccuracy from data is constructed in the latter. Then, we propose a novel distributed topology modification design under limited privacy budgets, and establish the performance guarantees through a controllable tradeoff between the consensus deviation and the topology privacy. Finally, we develop a low-complexity heuristic algorithm to achieve optimal privacy preservation on existing edges. Comparative simulations validate the effectiveness and outperformance of the proposed preservation design.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.15560v1">Privacy-Preserving Federated Radio Map Learning for Wireless Digital Twins via Adaptive Noise Allocation</a></h3>
+  
+  <p><b>Published on:</b> 2026-05-15T03:00:28Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jijia Tian, Hao Wang, Mu Jia, Yi Wang, Junting Chen, Pooi-Yuen Kam</p>
+    <p><b>Summary:</b> Radio maps provide a foundational data layer for wireless digital twins, and federated learning offers a natural framework for their distributed construction without centralizing raw radio environment data. However, the exchanged client model updates may still leak transmitter-location information, even when the underlying measurement data are never shared. Existing noise-based privacy defenses inject perturbation either uniformly across all uploaded coordinates or according to a fixed static rule, thereby ignoring the architecture-specific structure of this leakage. This paper proposes a budget-constrained adaptive noise allocation mechanism that redistributes a fixed perturbation budget across transmitter-sensitive upload groups identified from the two-stage RadioUNet architecture. The proposed method uses low-dimensional upload statistics to dynamically adjust group-wise noise scales and is integrated locally before client upload transmission. We evaluate the framework on a federated radio map learning task under a unified noise multiplier, comparing it against uniform and structure-aware baselines using reconstruction mean squared error and transmitter localization error as metrics. Results show that adaptive allocation achieves the strongest privacy protection while maintaining the best reconstruction quality among all noise-based defenses under a matched perturbation budget.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.15248v1">Probing Privacy Leaks in LLM-based Code Generation via Test Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-05-14T12:16:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yifei Ge, Zhenpeng Chen, Weisong Sun, Yuchen Chen, Chunrong Fang, Juan Zhai, Xiaofang Zhang, Xia Feng, Yang Liu, Zhenyu Chen</p>
+    <p><b>Summary:</b> The widespread availability of large-scale code datasets has fueled the rapid development of large language models (LLMs) for code-related tasks. These datasets may include sensitive personally identifiable information (PII), which can lead to privacy leakage when LLMs memorize and reproduce it. However, existing privacy-leakage detection methods rely on ad-hoc prompt construction (manually or automatically designed). Therefore, they do not adequately approximate the real-world contexts in which PII appears in code corpora, making it difficult to extract realistic privacy leakage. In this paper, we propose a pipeline that simulates practical privacy-related code generation scenarios and adopts a test-driven strategy to elicit the memorized information from the generated test cases. We further introduce an automatically constructed privacy feature library that replaces manual prompt engineering by providing realistic templates and examples to guide test case generation. Large-scale experiments on 5 widely used LLMs show that our pipeline exposes more confirmed privacy leakage, achieving a 2.56 times increase in detected leakage compared to existing baselines.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.15246v1">Privacy Evaluation of Generative Models for Trajectory Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-14T10:57:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Stavros Bouras, Ioannis Kontopoulos, Chiara Pugliese, Francesco Lettich, Emanuele Carlini, Hanna Kavalionak, Chiara Renso, Konstantinos Tserpes</p>
+    <p><b>Summary:</b> Trajectory data is fundamental to modern urban intelligence, yet its sensitivity raises significant privacy concerns. Generative models such as Generative Adversarial Networks, Variational Autoencoders, and Diffusion Models have been developed to generate realistic synthetic trajectory data by capturing underlying spatiotemporal distributions and mobility patterns. Although these models are often assumed to preserve privacy due to their generative nature, this assumption does not necessarily hold. In this work, we investigate the intersection of generative trajectory modeling and privacy evaluation. By identifying applicable empirical methods for assessing privacy preservation in trajectory generation tasks, we demonstrate a significant gap in the evaluation of privacy for generative trajectory models. Motivated by this gap, we implement Membership Inference Attacks against representative models, demonstrating the feasibility of using such empirical privacy evaluation methods and showing that their generative nature does not eliminate privacy risks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.14591v1">Privacy Auditing with Zero (0) Training Run</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-05-14T09:00:56Z</p>
@@ -1134,92 +1218,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Keyu Yao, Jinghui Cheng, Jin L. C. Guo</p>
     <p><b>Summary:</b> Designers hold primary responsibility for shaping the user interface (UI) and user experience (UX) of a product. This role goes beyond aesthetics and usability, extending to the privacy outcomes of user experience, which often emerge through collaboration with other stakeholders such as developers, product managers, and marketing teams. Previous studies on enhancing privacy for technological products primarily focused on the roles of developers -- understanding their needs and challenges -- but limited effort is devoted to examining how UI/UX designers consider and approach privacy in their work. Through 12 semi-structured interviews with privacy-advocating UI/UX designers, we explore the perceptions, influencing factors, challenges, and adaptive methods they use regarding privacy implementation. We pay special attention to how these challenges and adaptations play out in team-based settings where decisions are negotiated together. Our study reveals how personal and contextual factors shape designers' value of privacy, the collaborative nature of the challenges designers face when trying to prioritize privacy, and how they navigate tensions between business goals, team dynamics, and technical development. Based on our findings, we discuss implications for advocating a user-centered approach for supporting privacy-aware design, suggestions for organizational-level changes and bridging knowledge gaps through designer-centric tools and community building.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.24724v2">Data-Driven Privacy-Preserving Modeling and Frequency Regulation with Aggregated Electric Vehicles via Bilinear Hidden Markov Model</a></h3>
-  
-  <p><b>Published on:</b> 2026-04-27T17:34:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yiping Liu, Xiaozhe Wang, Geza Joos</p>
-    <p><b>Summary:</b> Vehicle-to-Grid (V2G) technology allows bidirectional power flow for real-time grid support, making electric vehicles (EVs) well-suited for ancillary services such as frequency regulation. However, existing methods for flexibility estimation and coordinating aggregated EVs often rely on individual EV traveling information (e.g., arrival/departure time) and/or characteristic parameters (e.g., charging efficiency, battery capacity) as well as real-time state-of-charge (SOC), which raises privacy concerns and faces data quality issues. To address these challenges, this paper proposes a data-driven, privacy-preserving modeling and control framework for frequency regulation using aggregated EVs. The proposed method can provide accurate estimation for power outputs and flexibility of aggregated EVs and carry out effective frequency regulation without any individual EV information. Simulation results validate the accuracy and effectiveness of the proposed method, which also outperforms the model-based and federated learning-based method under SOC data inaccuracies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.24468v1">A Survey on Split Learning for LLM Fine-Tuning: Models, Systems, and Privacy Optimizations</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-04-27T13:36:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zihan Liu, Yizhen Wang, Rui Wang, Xiu Tang, Sai Wu</p>
-    <p><b>Summary:</b> Fine-tuning unlocks large language models (LLMs) for specialized applications, but its high computational cost often puts it out of reach for resource-constrained organizations. While cloud platforms could provide the needed resources, data privacy concerns make sharing sensitive information with third parties risky. A promising solution is split learning for LLM fine-tuning, which divides the model between clients and a server, allowing collaborative and secure training through exchanged intermediate data, thus enabling resource-constrained participants to adapt LLMs safely. % In light of this, a growing body of literature has emerged to advance this paradigm, introducing varied model methods, system optimizations, and privacy defense-attack techniques for split learning. To bring clarity and direction to the field, a comprehensive survey is needed to classify, compare, and critique these diverse approaches. This paper fills the gap by presenting the first extensive survey dedicated to split learning for LLM fine-tuning. We propose a unified, fine-grained training pipeline to pinpoint key operational components and conduct a systematic review of state-of-the-art work across three core dimensions: model-level optimization, system-level efficiency, and privacy preservation. Through this structured taxonomy, we establish a foundation for advancing scalable, robust, and secure collaborative LLM adaptation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.24326v1">X-NegoBox: An Explainable Privacy-Budget Negotiation Framework for Secure Peer-to-Peer Energy Data Exchange</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-04-27T11:18:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Poushali Sengupta, Sabita Maharjan, Frank Eliassen, Yan Zhang</p>
-    <p><b>Summary:</b> The decentralization of modern energy systems is transforming consumers into prosumers who continuously exchange data with aggregators, peers, and market operators. While such data is essential for peer-to-peer trading, demand response, and distributed forecasting, it can reveal sensitive household patterns and introduce privacy risks. Existing data sharing mechanisms rely on fixed policies or predefined differential privacy budgets, limiting their ability to adapt to variations in reliability, data sensitivity, and request purpose. As a result, prosumers rarely receive explanations for why a request is accepted, rejected, or modified, reducing trust and participation.
-  To address these limitations, we propose X-NegoBox, an explainable negotiation framework for adaptive privacy budgeting and transparent decision making. Each prosumer data is managed locally within a private DataBox, where raw data remain confined. Incoming requests are processed by an Autonomous Privacy Budget Negotiation Protocol (APBNP), which determines an appropriate privacy budget based on trust, feature sensitivity, declared purpose, historical behavior, and risk-aware pricing. When needed, APBNP generates privacy-preserving counter-offers, such as reduced resolution or duration.
-  An Explainable Agreement Layer (X-Contract) produces human- and machine-readable justifications for each decision. After agreement, requester code executes locally in a sandbox, and only sanitized outputs are shared. Experiments on realistic energy market settings show reduced privacy leakage, higher acceptance rates, and improved interpretability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.24203v1">Agentic Witnessing: Pragmatic and Scalable TEE-Enabled Privacy-Preserving Auditing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2026-04-27T09:07:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Antony Rowstron</p>
-    <p><b>Summary:</b> Auditing the semantic properties of proprietary data creates a fundamental tension: verification requires transparent access, while proprietary rights demand confidentiality. While Zero-Knowledge Proofs (ZKPs) ensure privacy, they are typically limited to precise algebraic constraints and are ill-suited for verifying qualitative, unstructured properties, such as the logic within a codebase. We propose {\em Agentic Witnessing}, a framework that moves verification from attested execution to {\em attested reasoning}. The system is composed of three agents: a Verifier (who wants to check properties of a dataset), a Prover (who owns the dataset) and an Auditor (that inspects the dataset). The Verifier is allowed to ask a limited number of simple binary true/false questions to the auditor. By isolating an LLM-based Auditor within a Trusted Execution Environment (TEE), the system enables the Verifier to query a Prover's private data via simple Boolean queries, without exposing the raw dataset. The Auditor uses the Model Context Protocol (MCP) to dynamically inspect the target dataset, producing a yes/no verdict accompanied by a cryptographic transcript: a signed hash chain binding the reasoning trace to both the original dataset and the TEE's hardware root of trust. We demonstrate this architecture by automating the artifact evaluation process for 21 peer-reviewed computer science papers with released codebases on GitHub (e.g. Does the codebase implement the system described in the paper?). We verified five high-level properties of these codebases described in the corresponding publications, treating the source code as private. Our results show that TEE-enabled agentic auditing provides a mechanism for privacy-preserving oversight, effectively decoupling qualitative verification from the need for data disclosure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.24066v1">Listen to the Voices of Everyday Users: Democratizing Privacy Ratings for Sensitive Data Access in Mobile Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-04-27T05:47:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Liu Wang, Tianshu Zhou, Haoyu Wang, Yi Wang</p>
-    <p><b>Summary:</b> Mobile apps frequently request excessive data access, raising significant privacy concerns. While regulations like GDPR emphasize data minimization, they provide limited guidance on concretely defining and enforcing necessary data access. Existing regulatory mechanisms primarily rely on expert-driven audits that face challenges in scalability, neutrality, and alignment with user expectations. In this paper, we propose a novel paradigm--democratizing privacy assessment, inspired by prior work on user-centric privacy perceptions--which repositions users as active evaluators in the privacy auditing process, recognizing that user perceptions of data usage play a crucial role in assessing the appropriateness and necessity of data access. To operationalize this paradigm, we introduce DePRa, a prototype system developed through participatory design, featuring contextual explanation provision, category-based representative selection, an intuitive rating interface, and preference-based rating adjustment. We evaluated DePRa with 200 everyday mobile app users, analyzing how effectively it captures user opinions on sensitive data access, comparing their privacy ratings with expert assessments, and exploring risk preference-based score calibration. Our findings show the feasibility and promise of democratized privacy assessment, highlighting its potential to complement expert auditing and support inclusive privacy evaluation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.23847v1">Privacy-preserving Meta-analysis through Low-Rank Basis Hunting</a></h3>
-  
-  <p><b>Published on:</b> 2026-04-26T19:32:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenqi Shi, Kosuke Imai, Yi Zhang</p>
-    <p><b>Summary:</b> A central challenge of meta-analysis is that the populations underlying existing studies often differ from the target population in unknown ways. We study the problem of predicting function-valued quantities, such as regression and conditional average treatment effect functions, for a new target population using only study-level covariates and estimates. We propose MetaHunt, a new meta-analysis methodology based on a shared low-rank structure, in which the true function from each study lies within the convex hull of a small set of latent basis functions. To recover these basis functions, we extend the Successive Projection Algorithm to the functional setting, incorporating a denoised basis-hunting step. We establish consistency of the recovered basis functions under mild regularity conditions. We then model the relationship between study-level covariates and the corresponding mixing weights using flexible semi-parametric or non-parametric methods. MetaHunt is privacy-preserving and enables meta-analytic prediction based on study-level information alone, even when individual-level data are unavailable to analysts. In addition, for each study, functions of interest can be estimated using possibly different machine learning algorithms. For uncertainty quantification, we construct prediction intervals via conformal prediction. We show that, under exchangeability and mild estimation-error conditions, these intervals achieve asymptotically valid marginal coverage. We demonstrate the effectiveness of MetaHunt through both simulation studies and empirical applications.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2604.23795v1">LLM-CEG: Extending the Classification Error Gauge Framework for Privacy Auditing of Large Language Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-04-26T16:39:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kato Mivule</p>
-    <p><b>Summary:</b> This paper extends the Classification Error Gauge (x-CEG) framework, originally developed for measuring the privacy-utility trade-off in tabular datasets, to privacy auditing of Large Language Models (LLMs). We propose LLM-CEG, a systematic framework that employs membership inference attack (MIA) success rates as an empirical privacy gauge and model perplexity as a utility gauge, iteratively adjusting differential privacy parameters until both thresholds are jointly satisfied. A proof-of-concept prototype fine-tunes DistilGPT-2 on a synthetic clinical PII dataset under four privacy regimes using DP-SGD. Results indicate that DP-SGD reduces MIA attacker advantage by 71.5% while simultaneously improving out-of-distribution utility by 47-50% relative to the overfitted baseline, suggesting that differential privacy may act as implicit regularization under narrow fine-tuning conditions. We further extend the SIED engineering framework to the LLM context as LLM-SIED, providing an auditable, regulator-aligned process for privacy-compliant LLM deployment.</p>
   </details>
 </div>
 
