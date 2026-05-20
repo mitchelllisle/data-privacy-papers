@@ -2402,5 +2402,417 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19847v1",
+    "title" : "Auditing Privacy in Multi-Tenant RAG under Account Collusion",
+    "summary" : "Multi-tenant retrieval-augmented generation (RAG) services advertise per-account differential privacy as the operative leakage boundary: each account's queries are guaranteed to satisfy $(\\varepsilon_{\\text{acc}}, δ_{\\text{acc}})$-DP with respect to the index. We identify same-index multi-account collusion as a privacy-boundary failure: for $k$ same-tenant accounts coordinating against the tenant's index -- the operative regime -- known DP composition theory implies joint leakage degrades unconditionally at rate $Θ(\\sqrt{k} \\cdot \\varepsilon_{\\text{acc}})$ for Gaussian-noised retrieval. Cross-tenant and external collusion match the rate only under explicit access-control failure (M4); without M4 these regimes have zero leakage by design and reduce to an architectural audit, not a DP audit. We exhibit an attack realizing the rate and derive a RAG-specific MIA prediction we test empirically. To make this per-account/joint gap auditable, we design the first audit protocol that operates against unmodified RAG deployments and issues a quantitative $(\\textsf{PASS}, \\varepsilon_{\\text{audit}})$ verdict for the retrieval-score channel -- the noise-then-select step the per-account DP guarantee actually covers -- without index disclosure, pipeline redesign, or model-weight exposure. Generation-channel privacy (LLM output conditioned on selected documents) is a separate audit predicate that should compose with ours; we explicitly scope it out. The protocol composes generic cryptographic primitives (Merkle ledgers, ZK function-application proofs, Gaussian noise attestations) with six RAG-specific primitives (embedder commitment, index-content vector commitment, per-account query ledger, noise-then-select attestation, cross-tenant containment proof, coalition-size estimator) and supports both closed-form audit bounds and Rényi-DP moments-accountant tracking.",
+    "updated" : "2026-05-19T13:41:59Z",
+    "published" : "2026-05-19T13:41:59Z",
+    "authors" : [
+      {
+        "name" : "Florian A. D. Burnat"
+      },
+      {
+        "name" : "Brittany I. Davidson"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19742v1",
+    "title" : "The Privacy Subsidy in Glosten-Milgrom: Bid-Ask Spread and Welfare under Flip-Noise Direction Observation",
+    "summary" : "We derive a closed-form bid-ask spread and welfare decomposition for the Glosten-Milgrom 1985 sequential-trading model when the market maker observes the trade direction perturbed by a binary flip channel of probability $η$ -- a natural information-theoretic model of privacy mechanisms acting on the direction signal. Under a committed Bayesian market-maker pricing rule, the equilibrium spread is $μ(1-2η)Δ$, where $μ$ is the informed-trader fraction and $Δ= v_H - v_L$ the value range. The welfare decomposition identifies a per-trade transfer $μηΔ$ from the protocol's liquidity pool to traders -- the \"privacy subsidy\", mirroring the Gaussian-Kyle analog established in prior work. The result extends the privacy-subsidy concept from continuous Gaussian to discrete two-state microstructure, demonstrating robustness across both classical models. Primary application: MPC-based matching engines with $\\varepsilon$-differentially-private direction disclosure, where the engine prices on a noisy direction signal.",
+    "updated" : "2026-05-19T12:12:01Z",
+    "published" : "2026-05-19T12:12:01Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19578v1",
+    "title" : "Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition",
+    "summary" : "RGB camera-based surveillance systems enable human action recognition for public safety and healthcare, yet raise serious privacy concerns. Existing methods rely on post-capture algorithms, which fail to protect privacy during data acquisition. We propose Lens Privacy Sealing (LPS), a simple hardware solution that physically obscures camera lenses with adjustable laminating film, providing pre-sensor privacy protection at minimal cost. Unlike software methods or expensive engineered optics, LPS achieves strong privacy through stochastic multi-layer scattering that is physically irreversible. We introduce the P$^3$AR dataset for privacy-preserving action recognition, featuring both large-scale replay-captured (P$^3$AR-NTU, 114K videos) and real-world collected (P$^3$AR-PKU) subsets with privacy attribute annotations. To handle video degradation from LPS, we propose MSPNet, a single-stage framework incorporating Inter-Frame Noise Suppressor (IFNS) and Cross-Frame Semantic Aggregator (CFSA), enhanced by contrastive language-image pre-training for robust semantic extraction. Extensive experiments demonstrate that MSPNet with IFNS and CFSA nearly doubles action recognition accuracy compared to baseline methods while suppressing identity recognition to low levels. Comprehensive validation shows LPS achieves a superior privacy-utility trade-off compared to state-of-the-art hardware methods, resists reconstruction attacks including PSF inversion and data-driven recovery, and generalizes robustly across optical configurations and challenging environments. Code is available at https://github.com/wangzy01/MSPNet.",
+    "updated" : "2026-05-19T09:21:57Z",
+    "published" : "2026-05-19T09:21:57Z",
+    "authors" : [
+      {
+        "name" : "Mengyuan Liu"
+      },
+      {
+        "name" : "Ziyi Wang"
+      },
+      {
+        "name" : "Peiming Li"
+      },
+      {
+        "name" : "Junsong Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19474v1",
+    "title" : "Worst-Case Utility Privacy Mechanism via Pointwise Maximal Leakage",
+    "summary" : "We propose a discrete privacy mechanism exploiting beneficial properties of the novel privacy measure Pointwise Maximal Leakage (PML). Given the utility assignment characterized by every input-output letter pair, we study the mechanism design problem that satisfies PML privacy guarantees and maximizes the worst-case utility. Unlike popular privacy measures like Differential Privacy (DP), PML allows us to set some conditional probabilities in the mechanism to be zero and thereby preventing the occurrence of some low utilities while preserving a strict PML constraint. We show that the utility-safe mechanism, with low computational complexity, is optimal for the worst-case utility problem with an additional constraint on the output support set. We finally demonstrate the effectiveness in several numerical experiments. Due to DP's inability to have zeros in the mechanism, the design of privacy mechanisms that optimize the worst-case utility is underexplored, and this work shows that PML is a privacy measure that is perfectly suited for this purpose.",
+    "updated" : "2026-05-19T07:24:16Z",
+    "published" : "2026-05-19T07:24:16Z",
+    "authors" : [
+      {
+        "name" : "Ci Song"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19312v1",
+    "title" : "MultiBallot: Verifiable and privacy-preserving E-Collecting in the Swiss setting",
+    "summary" : "As part of the political process, citizens may participate in signature collections to influence policy changes. In Switzerland, this even results in legally binding acts, similar to an election system. In this work, we first derive a realistic setting for e-collecting in Switzerland, based on the setting established for e-voting. Then, we propose a secure protocol in this setting, achieving both privacy and verifiability under realistic trust assumptions. Notably, participation privacy is guaranteed without assuming an anonymous channel, by considering the fact that at any given point in time, many collections are active in parallel.",
+    "updated" : "2026-05-19T03:48:53Z",
+    "published" : "2026-05-19T03:48:53Z",
+    "authors" : [
+      {
+        "name" : "Florian Moser"
+      },
+      {
+        "name" : "Léo Louistisserand"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19127v1",
+    "title" : "POLAR-Bench: A Diagnostic Benchmark for Privacy-Utility Trade-offs in LLM Agents",
+    "summary" : "LLM agents increasingly have access to private user data and act on the user's behalf when interacting with third-party systems. The user defines what may and must not be shared, and the agent must robustly follow that intent even when third-party systems behave adversarially. We introduce POLAR-Bench (Policy-aware adversarial Benchmark), in which a trusted model with a privacy policy and a task converses with a third-party model that adversarially probes for both task-relevant and protected attributes. Across 10 domains and 7,852 samples, we score privacy and utility by deterministic set-membership and vary privacy policy dimension and attack strategy along two orthogonal axes, producing a 5 times 5 diagnostic surface per model. Our results reveal a sharp split: current frontier models withhold over 99% of protected attributes, while smaller open-weight models in the 1--30B range, the class users most commonly run as their own trusted agent on-device or via private inference, score notably worse, with the weakest leaking over half. POLAR-Bench thus localizes where each model's intent-following breaks down, providing a foothold for privacy alignment where it matters most.",
+    "updated" : "2026-05-18T21:27:07Z",
+    "published" : "2026-05-18T21:27:07Z",
+    "authors" : [
+      {
+        "name" : "Qiaoyuan Zheng"
+      },
+      {
+        "name" : "Yiqu Yang"
+      },
+      {
+        "name" : "Qi Gao"
+      },
+      {
+        "name" : "Imanol Schlag"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19032v1",
+    "title" : "Personalized Face Privacy Protection From a Single Image",
+    "summary" : "Photos of faces uploaded online are vulnerable to malicious actors who can scrape facial images from online sources and intrude on personal privacy via unauthorized use of facial recognition models. This paper presents FaceCloak, a novel personalized face privacy protection system, which can generate defensive identity-specific universal face privacy masks from a single image of a user, causing facial recognition to fail. FaceCloak introduces a three-stage personalized face perturbation learning methodology: (1) It generates a small set of high-variety synthetic face images of a person based on a single image of the person. (2) It learns face cloaking by adding more protection to key facial-identity leakage regions through iterative perturbation generation over the small set of synthetic images, effectively shifting a user's identity embedding towards a distant anchor identity and away from a similar one. (3) It generates a personalized identity-protective mask in the form of pixel-wise cloaking, which is light-weight and can be efficiently applied to any facial image of a user while maintaining good perceptual quality. Extensive experiments on three popular face datasets across ten recognition models show the effectiveness of FaceCloak compared to 29 other existing representative methods. Code is available at https://github.com/zacharyyahn/FaceCloak",
+    "updated" : "2026-05-18T18:56:56Z",
+    "published" : "2026-05-18T18:56:56Z",
+    "authors" : [
+      {
+        "name" : "Zachary Yahn"
+      },
+      {
+        "name" : "Fatih Ilhan"
+      },
+      {
+        "name" : "Tiansheng Huang"
+      },
+      {
+        "name" : "Selim Tekin"
+      },
+      {
+        "name" : "Sihao Hu"
+      },
+      {
+        "name" : "Yichang Xu"
+      },
+      {
+        "name" : "Margaret Loper"
+      },
+      {
+        "name" : "Ling Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.18455v1",
+    "title" : "OrganicHAR: Towards Activity Discovery in Organic Settings for Privacy Preserving Sensors Using Efficient Video Analysis",
+    "summary" : "Deploying human activity recognition (HAR) at home is still rare because sensor signals vary wildly across houses, people, and time, essentially requiring in-situ data collection and training. Prior approaches use cameras to generate training labels for privacy-preserving sensors (LiDAR, RADAR, Thermal), but this forces sensors to detect predefined activities that cameras can see yet the sensors themselves cannot reliably distinguish. In this work, we introduce OrganicHAR, an activity discovery framework that inverts this relationship by placing sensor capabilities at the center of activity discovery. Our approach identifies naturally occurring signal patterns using privacy-preserving sensors, leverages Vision Language Models (VLMs) only during these key moments for scene understanding, and discovers discrete activity labels at granularities that these sensors can reliably detect. Our evaluation with 12 participants demonstrates OrganicHAR's effectiveness: it achieves 79% accuracy for coarse (4-5) activities using only basic ambient sensors (radar, lidar, thermal arrays), and 73% accuracy for fine-grained (8-9) activities when a wearable IMU, depth, and pose sensor are added. OrganicHAR maintains 77% accuracy on average across configurations while discovering 4-8 categories per user (15 across all users) tailored to each environment and sensor capabilities. By triggering video processing only at key moments identified by local sensors, we reduce queries to VLM by 90%, enabling practical and privacy-preserving activity recognition in natural settings.",
+    "updated" : "2026-05-18T14:20:21Z",
+    "published" : "2026-05-18T14:20:21Z",
+    "authors" : [
+      {
+        "name" : "Prasoon Patidar"
+      },
+      {
+        "name" : "Riku Arakawa"
+      },
+      {
+        "name" : "Ricardo Graça"
+      },
+      {
+        "name" : "Rúben Moutinho"
+      },
+      {
+        "name" : "Adriano Soares"
+      },
+      {
+        "name" : "Ana Vasconcelos"
+      },
+      {
+        "name" : "Filippo Talami"
+      },
+      {
+        "name" : "Joana Couto da Silva"
+      },
+      {
+        "name" : "Inês Silva"
+      },
+      {
+        "name" : "Cristina Mendes Santos"
+      },
+      {
+        "name" : "Mayank Goel"
+      },
+      {
+        "name" : "Yuvraj Agarwal"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.18246v1",
+    "title" : "Privacy Preserving Reinforcement Learning with One-Sided Feedback",
+    "summary" : "We study reinforcement learning (RL) in multi-dimensional continuous state and action spaces with one-sided feedback, where the agent receives partial observations of the state and obtains reward information for only a subset of the state-action space at each time step. This setting introduces substantial challenges in both learning efficiency and privacy preservation. To address these challenges, we propose POOL, a novel privacy-preserving RL algorithm. We conduct a comprehensive theoretical analysis of POOL, deriving a sample complexity bound that matches the known lower bounds for non-private RL. Here, E_rho denotes the privacy parameter, H is the time horizon, and alpha is the optimality-gap parameter. Our findings show that it is possible to enforce strong privacy guarantees while maintaining high learning efficiency, marking a significant step toward practical, privacy-aware RL in multi-dimensional environments with one-sided feedback.",
+    "updated" : "2026-05-18T11:41:03Z",
+    "published" : "2026-05-18T11:41:03Z",
+    "authors" : [
+      {
+        "name" : "Lin William Cong"
+      },
+      {
+        "name" : "Guangyan Gan"
+      },
+      {
+        "name" : "Hanzhang Qin"
+      },
+      {
+        "name" : "Zhenzhen Yan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.18133v1",
+    "title" : "An Empirical Study of Privacy Leakage Chains via Prompt Injection in Black-Box Chatbot Environments",
+    "summary" : "LLM-based chatbot agents increasingly process user requests by combining natural-language reasoning with external tools such as web browsing. These capabilities improve usability, but they also create attack surfaces when untrusted external content is processed as part of a user' s task. This paper studies a privacy-leakage attack chain based on indirect prompt injection in black-box chatbot environments, where the attacker has no access to model weights, system prompts, or agent implementation details including how a trajectory is actually managed during its processing for a query. We first analyze how an attacker can hijack an agent' s intended task by crafting external content that appears benign to the victim while inducing the agent to execute an attacker-defined objective. We then evaluate a new prompt-injection technique, called exemplification, which uses a bridge in the external content to reframe the user prompt and the benign beginning of the retrieved page as few-shot examples before appending the attacker' s objective. We compare its attack success rate with a prior fake-completion technique. Finally, we demonstrate a proof-of-concept data-exfiltration chain using fictitious personal information in a controlled setting. Our results suggest that prompt injection, jailbreak-style instruction steering, and web-tool invocation can be combined into a feasible privacy-leakage path in deployed chatbot agents.",
+    "updated" : "2026-05-18T09:38:18Z",
+    "published" : "2026-05-18T09:38:18Z",
+    "authors" : [
+      {
+        "name" : "Hongjang Yang"
+      },
+      {
+        "name" : "Hyunsik Na"
+      },
+      {
+        "name" : "Daeseon Choi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.17042v1",
+    "title" : "Thermal-Only Crowd Counting with Deployment-Time Privacy Protection",
+    "summary" : "While RGB-Thermal crowd counting has shown promise, the paradigm faces critical limitations: RGB data raises privacy concerns in public surveillance, and multi-modal misalignment degrades fusion performance. We propose the first thermal-only framework specifically designed for privacy-conscious crowd counting, eliminating RGB dependency at inference time and substantially reducing the privacy exposure associated with continuous RGB capture in public surveillance deployments. To mitigate thermal ambiguity, we leverage depth-to-RGB diffusion models as a cross-modal bridge, extracting discriminative features that enhance thermal representations. Critically, we demonstrate that single-step LCM denoising yields features most faithful to the structural content of the depth conditioning signal, while multi-step approaches progressively decouple features from the conditioning input and accumulate errors that degrade counting accuracy. Experiments on RGBT-CC and DroneRGBT datasets show our method achieves competitive performance against state-of-the-art RGB-T fusion methods, while requiring only thermal input during inference, eliminating the need for continuous RGB capture that constitutes the primary privacy concern in real-world surveillance deployment. The code will be made publicly available.",
+    "updated" : "2026-05-16T15:21:34Z",
+    "published" : "2026-05-16T15:21:34Z",
+    "authors" : [
+      {
+        "name" : "Yifei Qian"
+      },
+      {
+        "name" : "Zhongliang Guo"
+      },
+      {
+        "name" : "Chun Tong Lei"
+      },
+      {
+        "name" : "Bowen Deng"
+      },
+      {
+        "name" : "Chun Pong Lau"
+      },
+      {
+        "name" : "Xiaopeng Hong"
+      },
+      {
+        "name" : "Michael P. Pound"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.17039v1",
+    "title" : "Privacy-Preserving Generation Fraud Detection for Distributed Photovoltaic Systems: A Solar Irradiance-Fused Federated Learning Framework",
+    "summary" : "The wide adoption of residential photovoltaic (PV) systems introduces new challenges for generation fraud detection (FD). Unlike traditional electricity theft detection, which focuses on electricity consumption-side behavior, PV generation fraud detection (PVG-FD) is complicated by the inherent intermittency and uncertainty of PV generation. The distributed nature of PV systems poses further challenges for centralized PVG-FD approaches due to scalability and privacy concerns. This paper develops a privacy-preserving distributed PVG-FD framework based on federated learning (FL). In this framework, a utility company manages multiple household communities, where each of which is equipped with a local detector. The framework integrates a novel detection model architecture with privacy-preserving global collaboration. Each community's local model fuses PV generation and weather data via a co-attention mechanism to detect discrepancies critical for PVG-FD. The FL framework enables cross-community collaboration by aggregating model parameters and prototypes, leveraging global knowledge sharing with local refinement while preserving privacy. It also uses prototype alignment to address class imbalance by enhancing fraud sample representation. Extensive experiments on a real-world residential PV dataset validate the effectiveness of the developed method and demonstrate that it outperforms state-of-the-art FL methods across various scenarios. The results also show its scalability across varying community sizes and strong robustness to class imbalance.",
+    "updated" : "2026-05-16T15:19:14Z",
+    "published" : "2026-05-16T15:19:14Z",
+    "authors" : [
+      {
+        "name" : "Xiaolu Chen"
+      },
+      {
+        "name" : "Chenghao Huang"
+      },
+      {
+        "name" : "Yanru Zhang"
+      },
+      {
+        "name" : "Hao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.17034v1",
+    "title" : "Privacy Policy Enforcement Guardrails for Data-Sensitive Retrieval-Augmented Generation",
+    "summary" : "Standard PII filters often miss contextual data leakage in RAG systems, such as non-regulated attribute clusters that collectively identify individuals. We introduce a Privacy Policy Enforcement (PPE) framework using dual one-class density estimators with fused text embeddings and a calibrated abstain region for out-of-distribution inputs. Using an axis-stratified, multi-LLM synthetic data pipeline across medicine, finance, and law, we found that traditional Gaussian Mixture baselines fail on borderline-safe stress tests by focusing on linguistic register rather than content.\n  Our proposed T3+OCSVM detector, trained on safe and borderline-safe data, achieves a borderline AUROC of 0.93+ while reducing false positives by 44-55 percentage points and maintaining millisecond latency. Compared to supervised MLP classifiers or 14B-parameter LLM judges, our framework offers superior operational suitability, as the former suffers from high abstention rates and the latter from latency and calibration issues. This methodology provides a robust stress-testing standard for any synthetic-data-trained classifier.",
+    "updated" : "2026-05-16T15:08:31Z",
+    "published" : "2026-05-16T15:08:31Z",
+    "authors" : [
+      {
+        "name" : "Osama Zafar"
+      },
+      {
+        "name" : "Alexander Nemecek"
+      },
+      {
+        "name" : "Yiqian Zhang"
+      },
+      {
+        "name" : "Wenbiao Li"
+      },
+      {
+        "name" : "Debargha Ganguly"
+      },
+      {
+        "name" : "Vikash Singh"
+      },
+      {
+        "name" : "Vipin Chaudhary"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.16812v1",
+    "title" : "Jacobian-Guided Anisotropic Noise Reshaping for Enhancing Representation Utility under Local Differential Privacy",
+    "summary" : "While Local Differential Privacy (LDP) serves as a foundational primitive for distributed data collection, its stringent noise injection requirement often leads to severe degradation in data utility. This degradation stems from the task-agnostic nature of conventional LDP mechanisms, which inject noise uniformly across all dimensions regardless of their relative importance to the downstream objective. To address this issue, we propose a novel approach that mitigates noise in task-relevant subspaces of the data representation. Our method identifies task-critical subspaces via the Jacobian matrix of the public downstream model, selectively attenuates noise along those dimensions, and reshapes the isotropic noise of standard LDP into an anisotropic distribution. This method preserves the uniform per-dimension privacy budget while heterogeneously modulating noise impact across dimensions, thereby substantially enhancing data utility. Furthermore, our approach generalizes to both linear and non-linear models and integrates seamlessly with existing mechanisms. Extensive experiments on CIFAR-10-C (Brightness corruption at the highest severity level 5) demonstrate that integrating our approach improves the utility of PrivUnit2 and PrivUnitG by approximately 20\\% at $ε=7.5$. The source code is available at \\url{https://github.com/ymha/jacobian-anr-ldp}.",
+    "updated" : "2026-05-16T05:01:41Z",
+    "published" : "2026-05-16T05:01:41Z",
+    "authors" : [
+      {
+        "name" : "Youngmok Ha"
+      },
+      {
+        "name" : "Viktor Schlegel"
+      },
+      {
+        "name" : "Yidan Sun"
+      },
+      {
+        "name" : "Anil Anthony Bharath"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15746v2",
+    "title" : "The Privacy Subsidy: Kyle's $λ$ under Noise-Perturbed Order-Flow Observation",
+    "summary" : "Privacy-preserving cryptocurrency exchanges (shielded AMMs, batched swap auctions, sealed-bid order-flow auctions) alter what the pricing mechanism observes about order flow. We derive the unique linear Kyle equilibrium when a committed Bayesian market maker observes order flow perturbed by independent Gaussian privacy noise. The price-impact coefficient and informed-trader strategy both rescale by a single factor in the privacy parameter, and their product is invariant. A welfare decomposition then identifies a closed-form per-period transfer from the protocol's LP pool to traders -- the \"privacy subsidy\", the break-even fee any privacy-aggregated exchange must charge. The result is the single-period closed-form privacy-noise analog of Loss-Versus-Rebalancing (Milionis et al. 2022). The primary application is shielded AMMs with explicit additive-noise injection (e.g., differential privacy); related designs (batched swaps, sealed-bid auctions, oracle-pegged crossings) require separate frameworks that we leave to future work.",
+    "updated" : "2026-05-19T11:56:40Z",
+    "published" : "2026-05-15T08:56:16Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.18862v1",
+    "title" : "Towards Family-Grouped Hierarchical Federated Learning on Sub-5KB Models: A Feasibility Study of Privacy-Preserving ECG Monitoring for Ultra-Resource-Constrained Wearables",
+    "summary" : "Cardiovascular disease remains the leading cause of death worldwide, and early detection of arrhythmias through continuous ECG monitoring on wearable devices can prevent life-threatening events. Federated Learning (FL) enables privacy-preserving collaborative training by keeping raw ECG data on device, yet standard FL incurs prohibitive communication overhead and standard deep learning models cannot fit on ultra-low-power microcontrollers. We propose Family-Grouped Hierarchical Federated Learning (Family-FL), a three-tier architecture that uses the family as a natural privacy boundary for intra-family aggregation before global synchronization. We further design a hardware-constrained Tiny CNN-LSTM architecture with only 669 parameters, INT8-quantized to occupy merely 4.65KB Flash and 2.95KB RAM, meeting the constraints of STC32G12K128-class microcontrollers. Experiments on the MIT-BIH Arrhythmia Database (mean of 5 independent runs with different seeds) demonstrate that Family-FL reduces communication volume by 76.7% compared to FedAvg while maintaining comparable accuracy. Family-FL-Tiny achieves 91.9 +/- 1.2% accuracy with macro-F1 of 0.483 +/- 0.031, reducing total communication to 0.31% of FedAvg. The model achieves reliable ventricular arrhythmia detection (per-class F1 = 0.80), the most clinically critical abnormality for home-based preliminary screening. These results demonstrate the technical feasibility of privacy-preserving federated learning on ultra-resource-constrained microcontrollers through simulation-based evaluation. We honestly discuss limitations: no hardware deployment, single-dataset validation (MIT-BIH, 47 subjects), reduced rare-class sensitivity, and absence of formal differential privacy guarantees.",
+    "updated" : "2026-05-15T01:51:09Z",
+    "published" : "2026-05-15T01:51:09Z",
+    "authors" : [
+      {
+        "name" : "Hangyu Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
