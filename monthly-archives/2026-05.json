@@ -2814,5 +2814,223 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.21421v1",
+    "title" : "AIGaitor: Privacy-preserving and cloud-free motion analysis for everyone, using edge computing",
+    "summary" : "Motion capture is the gold standard for measuring human movement, but clinical use remains limited by cost, technical complexity, and privacy concerns. AIGaitor is a privacy-preserving, cloud-free motion analysis system that runs markerless monocular motion-capture pipelines and downstream deep-learning analysis entirely on a consumer smartphone using on-device neural accelerators. To motivate its design, we surveyed 74 rehabilitation clinicians: 92 percent said they would adopt an accurate, cost-effective, easy-to-use AI gait analysis tool, while 79.7 percent cited operating cost, 68.9 percent insufficient training, and 64.9 percent privacy concerns as leading barriers. We then optimized and benchmarked mobile iOS implementations of current monocular pipeline components, including 2D and 3D pose estimation, pose optimization, skeleton-based deep-learning analysis, and a vision-language model. A Time-Priority end-to-end on-device pipeline processes a 10 s 4K 60 fps video clip in 77 s on an iPhone 14, matching or beating the same pipeline on a high-end NVIDIA H200 cloud server when network transfer is included: 94 s at global mobile-average uplink and 66 s at developed-world Wi-Fi. Lightweight models such as ViTPose-s achieve real-time keypoint extraction, and skeleton-based action-recognition models provide sub-millisecond gait classification on the same clip. To our knowledge, AIGaitor is the first monocular system to demonstrate end-to-end on-device motion capture and downstream deep-learning analysis, supporting clinically applicable movement analysis that is low-cost, private, and accessible to smartphone users.",
+    "updated" : "2026-05-20T17:14:57Z",
+    "published" : "2026-05-20T17:14:57Z",
+    "authors" : [
+      {
+        "name" : "Lauhitya Reddy"
+      },
+      {
+        "name" : "Trisha M. Kesar"
+      },
+      {
+        "name" : "Hyeokhyen Kwon"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.21376v1",
+    "title" : "Privacy Without Remedy: An Assessment of Data Broker Compliance with California Privacy Law",
+    "summary" : "California's consumer privacy law is widely deemed to be the most protected in the United States, one of the few to expressly regulate third party entities that buy and sell consumer data (data brokers). We offer the first empirical assessment of data broker compliance with the 2018 California Consumer Privacy Act (CCPA) and the 2023 Delete Act, which requires data brokers to register with the state and report consumer rights requests metrics annually. First, we demonstrate that only 9% of 522 registered data brokers were fully compliant with transparency requirements after the Delete Act took effect, although we do identify slight improvements over time. Second, we descriptively characterize wide heterogeneity across data brokers in the volume of consumer rights requests received, with many reporting none. We bring in external business data to explore correlates associated with this variation, a challenge given the general lack of opacity into broker business practices. Third, in an audit of a sample of 250 data brokers' consumers request processes, we find that 43% make it impossible for consumers to exercise all privacy rights and 64% introduce at least one design feature that creates substantial friction into the consumer request process. Last, we show how these deficiencies stem from the decentralization of compliance decisions to brokers themselves, enforcement limitations, and regulatory ambiguity. We articulate reforms that could improve consumer privacy, transparency in broker practices, and compliance with these laws.",
+    "updated" : "2026-05-20T16:39:19Z",
+    "published" : "2026-05-20T16:39:19Z",
+    "authors" : [
+      {
+        "name" : "Anna-Maria Gueorguieva"
+      },
+      {
+        "name" : "Jennifer King"
+      },
+      {
+        "name" : "Apoorva Panidapu"
+      },
+      {
+        "name" : "Daniel E Ho"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.21269v1",
+    "title" : "Transforming Privacy Artifacts into Accessible Reports for Non-Technical Stakeholders",
+    "summary" : "The transition toward Industry 5.0 is reshaping industrial work environments with an emphasis on human-centricity, enabling close collaboration between humans and machines to enhance productivity and flexibility. However, such systems typically require monitoring of human workers and operators, often involving sensitive data, raising significant privacy concerns. As a result, affected workers and unions frequently reject human-machine collaboration features due to a lack of transparency regarding privacy threats and implemented mitigation strategies. To enable early stakeholder involvement, establish trust, and support informed decision-making, privacy implications must be communicated in a way understandable to non-technical stakeholders. Yet, current Requirements Engineering (RE) practices provide limited methodological support for making privacy threats and mitigations accessible to non-technical stakeholders (e.g., individual workers or their representative unions). In this RE@Next paper, we propose a conceptual framework that guides software design from human monitoring-related use cases and requirements to informed decision-making guidance focusing on non-technical stakeholders. Building on principles such as Privacy by Design, the framework leverages Large Language Models (LLMs) to transform technical artifacts into accessible privacy reports. We share initial insights from two industry use cases, evaluate the quality of the generated reports, and outline future research directions toward integrating privacy transparency into RE processes for human-centric industrial systems.",
+    "updated" : "2026-05-20T14:58:04Z",
+    "published" : "2026-05-20T14:58:04Z",
+    "authors" : [
+      {
+        "name" : "Zoe Pfister"
+      },
+      {
+        "name" : "Clemens Sauerwein"
+      },
+      {
+        "name" : "Benedikt Dornauer"
+      },
+      {
+        "name" : "Tina Mersch"
+      },
+      {
+        "name" : "Christian Wolf"
+      },
+      {
+        "name" : "Ruth Breu"
+      },
+      {
+        "name" : "Michael Vierhauser"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.20944v1",
+    "title" : "Privacy-Preserving Distributed Optimization Under Time Constraints Using Secure Multi-Party Computation and Evolutionary Algorithms",
+    "summary" : "In distributed optimization, multiple parties collaborate to find an optimal solution to a problem. Privacy-preserving distributed optimization uses techniques, such as secure multi-party computation (MPC), to protect the private inputs of each party. In time-critical settings, the runtime overhead introduced by privacy-preserving computations may prevent the optimization from finishing within the deadline. This paper presents an approach for privacy-preserving distributed optimization in time-critical settings that combines evolutionary algorithms for solution search and MPC for the evaluation of solutions. The approach reduces the impact of privacy-preserving computations on runtime and allows to return solution within the deadline. Obfuscation of evaluation results provides additional protection for private inputs from an honest-but-curious platform provider, but introduces a potential trade-off between protection and solution quality. This trade-off is investigated in experiments using a genetic algorithm for both the single-objective assignment problem and the traveling salesperson problem, as well as NSGA-II for the multi-objective assignment problem.",
+    "updated" : "2026-05-20T09:29:50Z",
+    "published" : "2026-05-20T09:29:50Z",
+    "authors" : [
+      {
+        "name" : "Sebastian Gruber"
+      },
+      {
+        "name" : "Tobias Harzfeld"
+      },
+      {
+        "name" : "Christoph G. Schuetz"
+      },
+      {
+        "name" : "Florian Wohner"
+      },
+      {
+        "name" : "Thomas Lorünser"
+      }
+    ],
+    "categories" : [
+      "cs.NE",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.20765v1",
+    "title" : "Precision and Privacy in Distributed Quantum Sensing: A Quantum Fisher Information Duality",
+    "summary" : "We establish a quantum Fisher information (QFI) duality for distributed quantum sensor networks with local phase encoding. For any $N$-qubit probe state, where $N$ denotes the number of sensors, $F_Q(\\boldsymbol{w}^\\top \\boldsymbolθ) + F_Q(\\boldsymbol{v}^\\top \\boldsymbolθ) \\leq N$ for all unit orthogonal sensing directions $\\boldsymbol{w}$ and $\\boldsymbol{v}$, with equality for all equatorial states when $N=2$ and for Greenberger--Horne--Zeilinger (GHZ) states when $N\\geq 2$. Heisenberg-limited precision for direction $\\boldsymbol{w}$, $F_Q(\\boldsymbol{w}^\\top \\boldsymbolθ)=N$, saturates the bound and simultaneously forces zero QFI for all other independent directions. This can be interpreted as the condition for parameter privacy in distributed quantum sensing: attaining Heisenberg-limited precision for the sensing target renders all alternative privacy-intrusive estimations impossible.",
+    "updated" : "2026-05-20T06:07:19Z",
+    "published" : "2026-05-20T06:07:19Z",
+    "authors" : [
+      {
+        "name" : "Farhad Farokhi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.20521v1",
+    "title" : "An exponential mechanism based on quadratic approximations for fine-tuning machine learning models with privacy guarantees",
+    "summary" : "Fine-tuning adapts a pretrained machine learning model to a small, sensitive dataset, but this process risks memorizing individual new data points, making the model vulnerable to adversaries who seek to extract sensitive information. In this work, we develop a randomized algorithm based on the exponential mechanism for fine-tuning while ensuring differential privacy. Our key idea is to construct a simple utility function that combines a local quadratic approximation of the pretrained model with information from the new dataset. The resulting exponential mechanism admits exact sampling from a multivariate normal distribution in closed form. We establish theoretical privacy guarantees, sensitivity bounds, and accuracy estimations for our method. We further introduce a random-projection strategy that makes the approach scalable to high-dimensional models. Numerical experiments on the MNIST benchmark and the MIMIC clinical dataset demonstrate competitive performance against existing differentially private fine-tuning techniques.",
+    "updated" : "2026-05-19T21:43:22Z",
+    "published" : "2026-05-19T21:43:22Z",
+    "authors" : [
+      {
+        "name" : "Hoang Tran"
+      },
+      {
+        "name" : "Jorge Ramirez"
+      },
+      {
+        "name" : "Jiayi Wang"
+      },
+      {
+        "name" : "Alberto Bocchinfuso"
+      },
+      {
+        "name" : "Christopher Stanley"
+      },
+      {
+        "name" : "M. Paul Laiu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.20505v1",
+    "title" : "Privacy-by-Design Adaptive Group Assignment for Digital Lifestyle Coaching at Scale",
+    "summary" : "Digital lifestyle coaching systems must personalize peer support as user behavior and engagement evolve while preventing personally identifiable information (PII) and sensitive health information from leaking into analytics and AI pipelines. This creates a practical tension: personalization requires longitudinal linkability, while privacy engineering requires minimization, separation, and controlled re-identification. We present PRISM-Coach, a stakeholder-centered architecture and adaptive peer-group assignment method for privacy-preserving lifestyle coaching. PRISM-Coach separates each user into four bounded views: Identity, Operational, Learning, and Coaching, each with distinct access controls and risk profiles. Building on this separation, the system uses vault-based controlled identity restoration, a privacy-constrained contextual bandit to assign users to eligible peer groups under coach-capacity and stability constraints, and a human-in-the-loop coaching assistant that generates de-identified summaries and draft messages without sending raw PII or PHI to external AI services. We instantiate PRISM-Coach in a commercially deployed lifestyle coaching platform and evaluate it using three years of telemetry from approximately 2,800 users and an in-app needs assessment survey. At the population level, daily check-in adherence increases from 0.35 to 0.68, and engagement rises to 1.35 baseline. In a matched 19-week comparison window, the AI-enabled workflow achieves adherence of 0.74 versus 0.48 under static grouping and higher average weight loss: 5.2 kg versus 3.1 kg. Survey results show that 82% report positive perceived benefit, and 92% report increased privacy confidence after transparency disclosures. These results position PRISM-Coach as a practical blueprint for privacy-by-design adaptive learning systems in everyday wellness.",
+    "updated" : "2026-05-19T21:22:35Z",
+    "published" : "2026-05-19T21:22:35Z",
+    "authors" : [
+      {
+        "name" : "Nariman Mani"
+      },
+      {
+        "name" : "Salma Attaranasl"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.20450v1",
+    "title" : "SMA-DP: Spectral Memory-Aware Differential Privacy for Deep Learning",
+    "summary" : "Differentially private stochastic gradient descent (DP-SGD) enables private deep learning through per-example clipping and calibrated Gaussian noise, but its high-variance updates can reduce utility on challenging datasets. We propose \\textbf{SMA-DP-SGD}, a \\textbf{Spectral Memory-Aware Differentially Private Stochastic Gradient Descent} method that augments DP-SGD with a fractional memory branch built only from previously privatized noisy releases. WeightWatcher-inspired power-law spectral exponents provide group-wise reliability signals, instantiated layer-wise in our experiments, to adapt the decay and effective memory depth. Private-history alignment, norm matching, and warm-up activation stabilize the memory contribution. Privacy remains transparent: conditioned on the private release history, the memory branch is fixed, and the only newly data-dependent term is the current clipped sum scaled by a fixed coefficient \\(β\\). Hence, SMA-DP-SGD preserves a clean conditional sensitivity structure and exactly recovers group-wise DP-SGD when \\(β=1\\). Experiments on CIFAR-100, CIFAR-10, and MNIST show competitive or superior accuracy over several DP optimization baselines, with the largest gains on CIFAR-100 and CIFAR-10. CIFAR-10 ablations show that \\(β\\) controls the privacy--utility trajectory, while spectral and memory diagnostics confirm a controlled short-to-moderate effective memory depth and a small memory-branch ratio. Runtime analysis shows that the mechanism incurs additional overhead, about \\(2.94\\times\\) DP-SGD in our CIFAR-10 implementation, revealing a practical trade-off between adaptive private memory and computational cost.",
+    "updated" : "2026-05-19T20:02:19Z",
+    "published" : "2026-05-19T20:02:19Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Partohaghighi"
+      },
+      {
+        "name" : "Roummel Marcia"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.16812v2",
+    "title" : "Jacobian-Guided Anisotropic Noise Reshaping for Enhancing Representation Utility under Local Differential Privacy",
+    "summary" : "While Local Differential Privacy (LDP) serves as a foundational primitive for distributed data collection, its stringent noise injection requirement often leads to severe degradation in data utility. This degradation stems from the task-agnostic nature of conventional LDP mechanisms, which inject noise uniformly across all dimensions regardless of their relative importance to the downstream objective. To address this issue, we propose a novel approach that mitigates noise in task-relevant subspaces of the data representation. Our method identifies task-critical subspaces via the Jacobian matrix of the public downstream model, selectively attenuates noise along those dimensions, and reshapes the isotropic noise of standard LDP into an anisotropic distribution. This method preserves the uniform per-dimension privacy budget while heterogeneously modulating noise impact across dimensions, thereby substantially enhancing data utility. Furthermore, our approach generalizes to both linear and non-linear models and integrates seamlessly with existing mechanisms. Extensive experiments on CIFAR-10-C (Brightness corruption at the highest severity level 5) demonstrate that integrating our approach improves the utility of PrivUnit2 and PrivUnitG by approximately 20\\% at $ε=7.5$. The source code is available at https://github.com/ymha/jacobian-anr-ldp.",
+    "updated" : "2026-05-20T09:51:57Z",
+    "published" : "2026-05-16T05:01:41Z",
+    "authors" : [
+      {
+        "name" : "Youngmok Ha"
+      },
+      {
+        "name" : "Viktor Schlegel"
+      },
+      {
+        "name" : "Yidan Sun"
+      },
+      {
+        "name" : "Anil Anthony Bharath"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
