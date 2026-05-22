@@ -3032,5 +3032,55 @@
       "cs.LG",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.21780v1",
+    "title" : "Provable Robustness against Backdoor Attacks via the Primal-Dual Perspective on Differential Privacy",
+    "summary" : "Randomized smoothing is a powerful tool for certifying robustness to adversarial perturbations, including poisoning attacks via randomized training and evasion attacks via randomized inference. Extending these guarantees to backdoor attacks, where training and test data are jointly perturbed, remains challenging because training- and test-time randomized mechanisms must be analyzed within a single robustness certificate. We address this by connecting randomized smoothing to the dual view of differential privacy through privacy profiles, which provide a numerical procedure for composing heterogeneous mechanisms. The resulting framework enables tight, modular, end-to-end certification of complex, composed mechanisms while leveraging existing analyses of differentially private mechanisms. We instantiate the framework for DP-SGD and Deep Partition Aggregation with inference-time smoothing, deriving joint robustness guarantees against both training-time and inference-time attacks. Experiments on MNIST and CIFAR-10 demonstrate the effectiveness of our framework. Overall, we provide a principled and general framework for using composite mechanisms to certify robustness under complex threat models that better capture the capabilities of real-world adversaries.",
+    "updated" : "2026-05-20T22:17:29Z",
+    "published" : "2026-05-20T22:17:29Z",
+    "authors" : [
+      {
+        "name" : "Aman Saxena"
+      },
+      {
+        "name" : "Jan Schuchardt"
+      },
+      {
+        "name" : "Yan Scholten"
+      },
+      {
+        "name" : "Stephan Günnemann"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19578v2",
+    "title" : "Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition",
+    "summary" : "RGB camera-based surveillance systems enable human action recognition for public safety and healthcare, yet raise serious privacy concerns. Existing methods rely on post-capture algorithms, which fail to protect privacy during data acquisition. We propose Lens Privacy Sealing (LPS), a simple hardware solution that physically obscures camera lenses with adjustable laminating film, providing pre-sensor privacy protection at minimal cost. Unlike software methods or expensive engineered optics, LPS achieves strong privacy through stochastic multi-layer scattering that is physically irreversible. We introduce the P$^3$AR dataset for privacy-preserving action recognition, featuring both large-scale replay-captured (P$^3$AR-NTU, 114K videos) and real-world collected (P$^3$AR-PKU) subsets with privacy attribute annotations. To handle video degradation from LPS, we propose MSPNet, a single-stage framework incorporating Inter-Frame Noise Suppressor (IFNS) and Cross-Frame Semantic Aggregator (CFSA), enhanced by contrastive language-image pre-training for robust semantic extraction. Extensive experiments demonstrate that MSPNet with IFNS and CFSA nearly doubles action recognition accuracy compared to baseline methods while suppressing identity recognition to low levels. Comprehensive validation shows LPS achieves a superior privacy-utility trade-off compared to state-of-the-art hardware methods, resists reconstruction attacks including PSF inversion and data-driven recovery, and generalizes robustly across optical configurations and challenging environments. Code is available at https://github.com/wangzy01/MSPNet.",
+    "updated" : "2026-05-21T10:01:47Z",
+    "published" : "2026-05-19T09:21:57Z",
+    "authors" : [
+      {
+        "name" : "Mengyuan Liu"
+      },
+      {
+        "name" : "Ziyi Wang"
+      },
+      {
+        "name" : "Peiming Li"
+      },
+      {
+        "name" : "Junsong Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
   }
 ]
