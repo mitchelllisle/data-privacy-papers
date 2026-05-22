@@ -2,6 +2,18 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.21780v1">Provable Robustness against Backdoor Attacks via the Primal-Dual Perspective on Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-05-20T22:17:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aman Saxena, Jan Schuchardt, Yan Scholten, Stephan Günnemann</p>
+    <p><b>Summary:</b> Randomized smoothing is a powerful tool for certifying robustness to adversarial perturbations, including poisoning attacks via randomized training and evasion attacks via randomized inference. Extending these guarantees to backdoor attacks, where training and test data are jointly perturbed, remains challenging because training- and test-time randomized mechanisms must be analyzed within a single robustness certificate. We address this by connecting randomized smoothing to the dual view of differential privacy through privacy profiles, which provide a numerical procedure for composing heterogeneous mechanisms. The resulting framework enables tight, modular, end-to-end certification of complex, composed mechanisms while leveraging existing analyses of differentially private mechanisms. We instantiate the framework for DP-SGD and Deep Partition Aggregation with inference-time smoothing, deriving joint robustness guarantees against both training-time and inference-time attacks. Experiments on MNIST and CIFAR-10 demonstrate the effectiveness of our framework. Overall, we provide a principled and general framework for using composite mechanisms to certify robustness under complex threat models that better capture the capabilities of real-world adversaries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.21421v1">AIGaitor: Privacy-preserving and cloud-free motion analysis for everyone, using edge computing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-05-20T17:14:57Z</p>
@@ -122,7 +134,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.19578v1">Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.19578v2">Lens Privacy Sealing: A New Benchmark and Method for Physical Privacy-Preserving Action Recognition</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-05-19T09:21:57Z</p>
   <details>
@@ -1204,18 +1216,6 @@
     <p><b>Authors:</b> Chloe Georgiou, Hans Lu, Emiliano De Cristofaro, Gene Tsudik</p>
     <p><b>Summary:</b> Therapy and life-coaching apps have been rapidly growing in number, flavors, and popularity. However, their users routinely share highly sensitive and personal information, such as traumas, fantasies, desires, relationship difficulties, and other mental health concerns. This prompts the need for an empirical analysis of privacy practices in this ecosystem, and particularly the alignment between these apps' privacy policies and their actual behavior. In this paper, we present a comprehensive analysis of 25 popular Android mental health and life-coaching apps, combining static analysis, dynamic network capture, and LLM-assisted privacy policy extraction validated against manual annotation.
   Our findings highlight serious concerns and substantial transparency gaps. First, every app embeds at least one tracker SDK that its privacy policy does not name, and 68% of apps fail to disclose at least half of the trackers detected in their APKs; Talkie alone embeds 20 while naming none. Second, we identify 16 permission-policy contradictions across 13 apps, i.e., a dangerous permission is declared in the manifest but omitted from the policy, including 6 apps that request camera or microphone access without disclosing photo, video, or audio collection. Third, 48% of apps disclose third-party AI processing (e.g., via OpenAI, Anthropic, Groq), with one app sending journal entries to all three simultaneously, while 7 apps use only generic language that leaves recipients unidentified. Taken together, our findings demonstrate that current disclosure practices fall short of the transparency required for meaningful informed consent. We argue for a significantly updated regulatory framework governing therapy apps in the spirit of the professional and ethical standards that bind licensed human therapists.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.02005v1">Privy: From Fine Print to Fair Practice in Privacy Rights Exercise</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-05-03T18:24:40Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qi Sun, Ziyang Li, Yinzhi Cao, Yaxing Yao</p>
-    <p><b>Summary:</b> Privacy regulations such as the CCPA and GDPR grant individuals rights over their personal data, yet it remains challenging for most users to exercise them in practice due to vague policy interpretation and unapproachable settings on web interfaces. We introduce Privy, an LLM-powered browser assistant that guides users through exercising their privacy rights on websites. Privy automatically analyzes a website's privacy policy and surfaces the specific rights available as action labels in a side panel. When a user selects a right, Privy provides step-by-step guidance and navigation, presenting direct links, generating email templates, or guiding form completion. Users can also request on-demand policy evidence and rights education to enhance their literacy. A technical evaluation across 14 websites shows that Privy extracts rights with high precision (0.979) and completes 96.3\% of privacy tasks in an average of 3.2 steps. A user study (N=15) also demonstrates the overall high-level of perceived helpfulness among users. Our findings suggest that comprehension and usability are not two separate challenges but a single interaction problem, and that effective privacy support requires integration of policy understanding and privacy actions. We offer design suggestions for future privacy assistants.</p>
   </details>
 </div>
 
