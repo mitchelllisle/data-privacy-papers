@@ -3082,5 +3082,226 @@
       "cs.CV",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23879v1",
+    "title" : "On the Stability of Spherical Hellinger-Kantorovich Flows and Their Implications for Differential Privacy",
+    "summary" : "Gradient-flow sampling interprets a Gibbs distribution as the minimizer of an energy functional over probability measures and generates dynamics converging to this target. Under spherical Hellinger-Kantorovich (SHK) geometry, the flow couples transport and reaction and coincides with birth-death Langevin dynamics. In this work, we develop a perturbation theory for SHK gradient flows. For two potentials $V$ and $V^{\\prime}$, we compare the associated flows from a common initialization and quantify how potential discrepancies propagate over time. A uniform perturbation bound yields dimension-free, pointwise control of the log-likelihood ratio and Rényi divergence, while additional structure allows us to derive bounds for the KL divergence as well. We apply these results to approximate sampling for the exponential mechanism in differential privacy. The likelihood-ratio control provides explicit time-dependent Pure-DP guarantees for SHK-based samplers, while the KL bound yields Approximate-DP certificates via hockey-stick divergence. We also derive a utility bound separating intrinsic exponential-mechanism suboptimality from finite-time sampling error.",
+    "updated" : "2026-05-22T17:38:20Z",
+    "published" : "2026-05-22T17:38:20Z",
+    "authors" : [
+      {
+        "name" : "Aratrika Mustafi"
+      },
+      {
+        "name" : "Soumya Mukherjee"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23820v1",
+    "title" : "Inferential Privacy Leakage in Anonymized Conversational AI Logs",
+    "summary" : "Hundreds of millions of users now hold detailed, multi-turn conversations with ChatGPT and similar LLM assistants. We measure two privacy-relevant features of these conversations on a corpus of complete ChatGPT histories donated by over 1,000 users in four Global South countries (Brazil, India, Nigeria, Pakistan). First, on explicit disclosure: 34.5% of user messages contain personal information across a twenty-category taxonomy, with the median user first revealing identifying content within the first 14% of their conversation history. Second, on inference beyond explicit disclosure: we restrict to a cohort whose conversations contain no messages flagged by an LLM-based filter for explicit demographic self-identification (a separate NER pass marks PII for the disclosure audit but does not drive cohort exclusion). On this filtered cohort, an off the shelf large language model still recovers each user's age, gender, and country at weighted F1 of 0.84, 0.90, and 0.88, respectively, with the median user identified from the first 5% of their conversation history. Reading the model's natural-language reasoning traces, we identify four recurring stereotype patterns that drive both successful inference and an asymmetric error distribution concentrating on women in technical fields, older users with contemporary skills, and Global South tech professionals. We also compare ChatGPT against the same users' Google Search and YouTube histories as inference surfaces, and find it competitive with these older substrates that have driven behavioral advertising for two decades. Message-level PII removal is insufficient on its own as a privacy intervention for conversational AI data.",
+    "updated" : "2026-05-22T16:22:14Z",
+    "published" : "2026-05-22T16:22:14Z",
+    "authors" : [
+      {
+        "name" : "S M Mehedi Zaman"
+      },
+      {
+        "name" : "Kiran Garimella"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23641v1",
+    "title" : "Kernel-Based ReLU Approximation for Homomorphic Encryption-Compatible Privacy-preserving Deep Learning Models",
+    "summary" : "As privacy concerns in AI technologies continue to grow, Homomorphic Encryption (HE) offers a way to perform computations on encrypted data without the need of decryption during operations. However, HE is limited to addition and multiplication, making non-linear functions incompatible in their original form. This limitation has become more critical with the widespread use of Large Language Models (LLMs), where the non-linearity of activation functions such as the Rectified Linear Unit (ReLU) poses challenges for deployment in privacy-preserving Natural Language Processing (NLP) settings. This paper proposes a kernel-based approximation of ReLU, enabling its use within HE-constrained settings and thus contributing a critical step toward supporting privacy-preserving LLMs. A smooth kernel-based function, mimicking ReLU, is approximated using a second-degree polynomial, inspired by Jackson's theorem, to achieve low multiplicative depth. The proposed method is trained and assessed directly on token embeddings from pre-trained LLMs and evaluated in various scenarios, from simulated and tokenized data to deep learning and transformer models. Results show improved approximation fidelity, supporting the method's suitability for secure and privacy-preserving inference in various tasks.",
+    "updated" : "2026-05-22T13:54:37Z",
+    "published" : "2026-05-22T13:54:37Z",
+    "authors" : [
+      {
+        "name" : "Dimitrios Sygletos"
+      },
+      {
+        "name" : "Dimitra Papatsaroucha"
+      },
+      {
+        "name" : "Marios Choudetsanakis"
+      },
+      {
+        "name" : "Ilias Politis"
+      },
+      {
+        "name" : "Evangelos K. Markakis"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23640v1",
+    "title" : "CachePrune: Privacy-Aware and Fine-Grained KV Cache Sharing for Efficient LLM Inference",
+    "summary" : "Large Language Models (LLMs) rely on Key-Value (KV) caching to accelerate inference, and many serving systems further share the KV cache across users' requests to reduce redundant computation. While widely adopted, unrestricted cross-user sharing introduces side-channel vulnerabilities, allowing an adversary to infer user inputs by probing for cache reuse. Existing defenses disable sharing entirely to prevent leakage; yet such a coarse-grained strategy sacrifices substantial reuse potential, since prompts often include large portions of privacy-irrelevant segments, such as system instructions or publicly accessible materials. Building on this, we present CachePrune, a privacy-aware KV cache sharing mechanism that enables fine-grained reuse of KV entries across requests. Realizing such fine granularity requires token-level cache management, as reusable segments vary in length and position due to sensitivity masking, making reuse more complex than the fixed-size or sentence-level chunking used in existing coarse-grained schemes. Specifically, CachePrune makes fine-grained reuse practical by addressing two key challenges: accurately and efficiently deriving reusable KV segments and efficiently retrieving them over variable-length spans. We implement CachePrune on top of vLLM and evaluate it on three datasets, showing that it eliminates direct leakage through KV cache reuse side channels while reducing TTFT by 4.5x and increasing cache hit rates by 44% compared with state-of-the-art approaches.",
+    "updated" : "2026-05-22T13:54:21Z",
+    "published" : "2026-05-22T13:54:21Z",
+    "authors" : [
+      {
+        "name" : "Guanlong Wu"
+      },
+      {
+        "name" : "Zhaohan li"
+      },
+      {
+        "name" : "Yao Zhang"
+      },
+      {
+        "name" : "Zheng Zhang"
+      },
+      {
+        "name" : "Jianyu Niu"
+      },
+      {
+        "name" : "Ye Wu"
+      },
+      {
+        "name" : "Yinqian Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23429v1",
+    "title" : "Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation",
+    "summary" : "This study proposes a novel radar-centric signaling design and architecture for secure integrated sensing and communication (ISAC) systems. The proposed framework is designed to provide robust physical layer security for data transmission while simultaneously enhancing sensing privacy. It employs index modulation and phase coding over frequency-modulated continuous-wave radar (FMCW) chirps, where index modulation (IM) provides an outer layer of data security, and we explicitly design the phase coding (PC) to perturb the resulting signal's ambiguity function (AF) to enhance sensing privacy. This design reduces the risk of unauthorized surveillance by rendering target velocity estimation practically infeasible for unauthorized passive sensing hardware (i.e., a sensing eavesdropper, S-Eve) and significantly impairing its range estimation capabilities. Furthermore, this study also presents the transmitter and receiver architectures required for effective modulation and demodulation of the proposed ISAC signaling and for performing sensing at the legitimate sensing hardware. Simulation results show that the proposed approach achieves high data throughput while enhancing communication security and sensing privacy.",
+    "updated" : "2026-05-22T09:41:54Z",
+    "published" : "2026-05-22T09:41:54Z",
+    "authors" : [
+      {
+        "name" : "Murat Temiz"
+      },
+      {
+        "name" : "Christos Masouros"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23330v1",
+    "title" : "Security, Privacy, and Ethical Risks in OpenClaw",
+    "summary" : "This paper systematically investigates the security, privacy, and ethical risks, as well as the traceability challenges of OpenClaw, a locally executable AI agent system for natural language interaction and real-world task completion. While OpenClaw shows strong potential for personal assistance, office automation, cross-platform task management, and information integration, it also raises serious security, privacy, and ethical concerns. By analyzing its system architecture, core functionalities, deployment model, and representative application scenarios, this paper aims to reveal the risks that may arise when such a highly privileged agent is integrated into personal and organizational digital environments. We focus in particular on the challenges associated with persistent local storage, tool invocation, cross-context information aggregation, multi-user interaction, and the integration of plugins and external services. We argue that these issues constitute major barriers to the trustworthy deployment and widespread adoption of this technology. Finally, we summarize the open challenges in security defenses, privacy protection, ethical governance, and traceability in agent use, and call for joint efforts from researchers, developers, deployers, and regulators to build AI agent systems that are safer, more reliable, and more trustworthy.",
+    "updated" : "2026-05-22T07:45:04Z",
+    "published" : "2026-05-22T07:45:04Z",
+    "authors" : [
+      {
+        "name" : "Yutong Jin"
+      },
+      {
+        "name" : "Zelin Zhang"
+      },
+      {
+        "name" : "Zhijin Lyu"
+      },
+      {
+        "name" : "Jianbing Ni"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23158v1",
+    "title" : "What Does the Server See? Understanding Privacy Leakage from Large Language Models in Split Inference",
+    "summary" : "The deployment of large language models (LLMs) on resource-constrained devices remains challenging, spurring interest in split inference, where models are partitioned between client and server to reduce computational burden and enhance privacy by transmitting only intermediate activations. However, the privacy-preserving capabilities of split inference, particularly in the context of LLMs, have not been exhaustively investigated. To fill this gap, we introduce ActInv, which solves an intermediate activation matching problem to reconstruct the client's input. Extensive evaluations demonstrate that ActInv achieves high-fidelity reconstructions, even in the presence of common perturbation-based defenses such as Gaussian noise injection and activation sparsification. To systematically understand this vulnerability, we develop Perturbation Amplification Factor (PAF), a metric for quantifying a layer's inherent resistance to reconstruction. Our analysis reveals that privacy vulnerability is not uniform across layers, with some layers being highly susceptible to leakage while others offer natural resistance. Furthermore, we demonstrate that defense effectiveness can be significantly improved by calibrating perturbation directions to maximize reconstruction error during backpropagation. Building on these insights, we design PriPert and conduct comprehensive evaluations, covering privacy, utility, and computational overhead, to demonstrate its effectiveness.",
+    "updated" : "2026-05-22T02:14:16Z",
+    "published" : "2026-05-22T02:14:16Z",
+    "authors" : [
+      {
+        "name" : "Mingyuan Fan"
+      },
+      {
+        "name" : "Yu Liu"
+      },
+      {
+        "name" : "Fuyi Wang"
+      },
+      {
+        "name" : "Cen Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.22952v1",
+    "title" : "Measuring Database Unfairness via Dependency Quantification Under Differential Privacy",
+    "summary" : "Differential privacy (DP) has become the de facto standard for protecting sensitive data, providing strong guarantees that published statistics or models reveal limited information about any individual. However, privacy noise and restricted data access make it increasingly difficult to assess the fairness and reliability of private datasets. In this paper, we propose a formal framework for quantifying data unfairness under DP. We identify three core desiderata for unfairness measures based on previous work: positivity, monotonicity, and DP computability. We further instantiate them through three complementary measures: (1) a mutual information-based measure with a total variation distance proxy suitable for DP, (2) a data repair-based measure approximated via a reduction to weighted MaxSAT, and (3) a top-$k$ tuple contribution measure that isolates the most influential records in fairness violations. We design privacy-preserving algorithms and analyze their sensitivity, accuracy, and efficiency. Extensive experiments on multiple real-world datasets demonstrate that our proposed measures faithfully approximate their non-private counterparts, effectively quantify bias under privacy constraints, and provide insights for data management.",
+    "updated" : "2026-05-21T18:31:48Z",
+    "published" : "2026-05-21T18:31:48Z",
+    "authors" : [
+      {
+        "name" : "Mariia Vologdin"
+      },
+      {
+        "name" : "Yuchao Tao"
+      },
+      {
+        "name" : "Amir Gilad"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.22924v1",
+    "title" : "Building a privacy-preserving Federated Recommender system for mobile devices",
+    "summary" : "Serving personalized content on mobile devices has traditionally required pooling sensitive user data on centralized servers, a practice increasingly at odds with modern privacy expectations and geographical regulations. We present a two-stage federated recommendation system pipeline for mobile devices, built around a principled separation between non-sensitive user preference data and sensitive mobile context data that never leaves the device. The first stage runs a collaborative filtering model on non-sensitive app-context data in the cloud to generate a shortlist of relevant items. The second stage re-ranks these candidates on-device using sensitive mobile signals, with only model updates/gradients ever leaving the device. We validate the approach on MovieLens, UCI Human Activity Recognition, and a proprietary pilot dataset, and deliver a production-ready implementation as a Kotlin Multiplatform library deployable on Android and iOS.",
+    "updated" : "2026-05-21T18:02:26Z",
+    "published" : "2026-05-21T18:02:26Z",
+    "authors" : [
+      {
+        "name" : "Aasheesh Singh"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.22898v1",
+    "title" : "FIRMA: FIbonacci Ring Model Aggregation for Privacy-preserving Federated Learning",
+    "summary" : "Federated learning protocols face a structural trilemma: canonical server-based aggregation~\\cite{mcmahan2017} creates a single point of failure and gradient inversion risk; decentralised ring-gossip alternatives~\\cite{hu2019segmented} expose classification heads to semi-honest peers via uninformed uniform weights; and personalised methods~\\cite{collins2021exploiting} reintroduce central aggregation. No existing protocol simultaneously achieves server-free operation, permanently private heads, ring topology, and principled asymmetric neighbour weighting. We propose FIRMA (\\textbf{FI}bonacci \\textbf{R}ing \\textbf{M}odel \\textbf{A}ggregation), a family of three progressively enhanced federated learning protocols: 1) \\fibfl\\ establishes the foundation: server-free ring aggregation with Fibonacci-weighted neighbour blending and permanently private classification heads. 2) \\fibflp\\ augments this with accuracy-gated neighbour suppression, selectively down-weighting poorly-converged peers while preserving the Fibonacci directional bias. 3) \\fibflpp, the full system, completes the family with a 2-opt ring permutation that maximises adjacent-client class diversity, global ring coverage via $K_g{=}\\lceil N/2\\rceil$ gossip passes, and cosine-annealed self-retention calibration. We establish a convergence rate bound and three supporting propositions governing normalisation, coverage, retention, and diversity optimality. Systematic experiments across 28 configurations -- four benchmarks crossed with seven heterogeneity regimes -- demonstrate that \\fibflpp\\ surpasses \\fedavg\\ in all 12 label-skew configurations, with a peak advantage of $+20.7$\\,pp on CIFAR-10 at $K{=}1$. Under Dirichlet heterogeneity, \\fibflpp\\ is the Pareto-dominant method among all server-free protocols, achieving the highest accuracy in 17 of 28 configurations.",
+    "updated" : "2026-05-21T16:06:00Z",
+    "published" : "2026-05-21T16:06:00Z",
+    "authors" : [
+      {
+        "name" : "Rachid Hedjam"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
