@@ -3303,5 +3303,425 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25791v1",
+    "title" : "Efficient and Privacy-Preserving Distribution Statistics Analytics on Mobile Spatial Data",
+    "summary" : "With the rapid development of mobile computing technology, massive amounts of spatial data are continuously generated from various mobile terminals and sensing devices, such as smartphones, connected vehicles, and drones. Performing efficient distributed statistical analysis on this data is crucial for real-time mobile computing applications. However, the constrained and dynamic nature of mobile environments exacerbates the privacy challenge: centralizing sensitive data for analysis risks severe privacy leaks, while existing privacy-preserving techniques often introduce excessive overhead or inaccuracies In this paper, we design, implement, and evaluate the first system that supports efficient and privacy-preserving distribution statistics analysis for mobile spatial data. First, we propose eSpat-B, which leverages two non-colluding servers and a newly designed improved distributed point functions (DPF) with octree partitioning. Furthermore, considering the frequent updates of spatial data, we propose another more efficient scheme, eSpat+. The core idea of this scheme is to utilize a K-Dimensional tree for spatial partitioning, combine it with incremental DPF for performing statistics analysis, and design an efficient update algorithm. Security analysis demonstrates that our schemes effectively protect data privacy throughout the statistical process. Theoretical analysis and experimental results on real-world mobile trajectory datasets demonstrate that our proposed schemes achieve a reduction of approximately 1.2* in computation overhead, 20* in communication overhead, and maintain 100% accuracy.",
+    "updated" : "2026-05-25T12:37:27Z",
+    "published" : "2026-05-25T12:37:27Z",
+    "authors" : [
+      {
+        "name" : "Xuhao Ren"
+      },
+      {
+        "name" : "Mingyang Zhao"
+      },
+      {
+        "name" : "Ruichen Zhang"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      },
+      {
+        "name" : "Dusit Niyato"
+      },
+      {
+        "name" : "Bin Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25716v1",
+    "title" : "An Efficient and Privacy-Preserving Architecture for Cross-Institutional Collaborative RAG",
+    "summary" : "Retrieval-Augmented Generation (RAG) empowers LLMs with external knowledge, making cross-institutional domain-specific knowledge base integration a highly promising deployment paradigm. Despite this potential, strict privacy regulations create severe \"data silos\" that obstruct such collaboration. Building federated RAG systems requires distributed inference, but the Transformer's self-attention mechanism fundamentally conflicts with this by mandating cross-node access to distributed Key-Value caches. To address this challenge, we present FedRAG, a high-throughput, privacy-preserving federated RAG framework. At its core is a novel Scrambled Distributed Attention protocol that utilizes numerically stable feature scrambling and token permutation. By dynamically delegating scrambled computations to collaborating nodes, our system successfully decouples attention execution from data localization without exposing plaintext. Crucially, our approach requires no specialized hardware or model retraining, circumventing the prohibitive latency and communication overheads of cryptographic solutions while robustly defending against intermediate state inversion attacks. Extensive evaluations demonstrate our framework preserves negligible (<0.1\\%) model utility degradation and achieves up to a 62$\\times$ latency reduction over existing secure baselines, sustaining practical, human-reading throughput for cross-institutional knowledge synergy.",
+    "updated" : "2026-05-25T11:18:19Z",
+    "published" : "2026-05-25T11:18:19Z",
+    "authors" : [
+      {
+        "name" : "Chenxin Mao"
+      },
+      {
+        "name" : "Shangyu Liu"
+      },
+      {
+        "name" : "Zhenzhe Zheng"
+      },
+      {
+        "name" : "Fan Wu"
+      },
+      {
+        "name" : "Jie Wu"
+      },
+      {
+        "name" : "Guihai Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25713v1",
+    "title" : "Ecosystem-Driven Privacy Exposure in Mobile Gaming Apps: A Configuration-Aware Empirical Analysis",
+    "summary" : "Mobile gaming apps increasingly rely on third-party Software Development Kits SDKs for advertising, analytics, attribution, and user engagement, potentially introducing privacy exposure beyond traditional permission based risks. Existing studies have largely focused on permissions or isolated tracking behaviors, providing only a partial understanding of privacy exposure in modern mobile ecosystems. This study presents a configuration aware empirical assessment of privacy exposure in Android mobile gaming apps by examining permissions, manifest level configurations, exported components, and SDK ecosystem complexity across children-oriented and general-audience games. A systematic static analysis was conducted on 41 widely deployed Android mobile gaming apps collected from the Google Play ecosystem. The analysis incorporated SDK categorisation and statistical evaluation using Spearman correlation, Mann Whitney U, and Chi square testing. The results revealed that privacy exposure is strongly associated with ecosystem-level architectural decisions rather than permission requests alone. Child-oriented games frequently demonstrated exposure conditions comparable to general-audience apps despite sometimes requesting fewer sensitive permissions. Furthermore, larger and more diverse SDK ecosystems were significantly associated with elevated privacy exposure levels, while advertising-oriented SDKs showed strong association with high exposure classifications. These findings highlight the limitations of permission-centric assessment approaches and emphasize the importance of configuration aware and ecosystem-aware privacy evaluation methodologies for modern mobile software systems.",
+    "updated" : "2026-05-25T11:14:04Z",
+    "published" : "2026-05-25T11:14:04Z",
+    "authors" : [
+      {
+        "name" : "Bakheet Aljedaani"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25631v1",
+    "title" : "The Privacy Subsidy in Continuous-Time Kyle: Cumulative Welfare under Noise-Perturbed Order-Flow Observation",
+    "summary" : "We extend the closed-form privacy-subsidy result of Nakamura~(2026, arXiv:2605.15746) from the single-period Kyle model to continuous-time. A committed Bayesian automated market maker observes the aggregate order flow perturbed by an independent Brownian privacy channel of diffusion intensity $σ_\\varepsilon$. Under the Markovian linear equilibrium, the price-impact coefficient is $λ= σ_v / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$ -- constant in time -- and the cumulative expected transfer from the protocol's liquidity pool to traders over $[0,1]$ is $|Π_M| = σ_v σ_\\varepsilon^2 / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$. We then establish a structural duality between this cumulative privacy subsidy and Loss-Versus-Rebalancing (Milionis et al.~2022), identifying privacy-noise welfare as the order-flow observation analog of LVR's price observation gap. The result completes the program of quantifying break-even fees for committed-AMM exchanges under privacy-aggregated information environments.",
+    "updated" : "2026-05-25T09:31:40Z",
+    "published" : "2026-05-25T09:31:40Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25020v1",
+    "title" : "Privacy-Preserving Local Language Models for Longitudinal Data Retrieval in Chronic Dermatologic Disease: Implementation in Pemphigus Patients",
+    "summary" : "Chronic dermatologic diseases such as pemphigus require long-term follow-up, generating extensive longitudinal clinical documentation that is difficult to review comprehensively during routine visits and increasing clinician workload as well as the risk of missing critical historical information. We evaluated whether a locally deployed, privacy-preserving small language model (SLM) could retrieve structured clinical features and generate longitudinal summaries from long-term dermatology follow-up records. In this retrospective case series, thirty pemphigus patients contributed 541 visit notes that were aggregated into full longitudinal records (89,336 words); 56 clinically relevant features were annotated by two expert dermatologists. The locally deployed SLM (Qwen3 4B Thinking 2507) was queried with each complete record to retrieve 56 features and generate one final report summaries. Across 1,680 feature retrieval tasks, mean accuracy was 82.25%. Dermatologists' ratings of AI-generated summaries were high for overall quality (8.23-8.47), clinical accuracy (7.93-8.20), and usefulness (8.47-8.50), with no significant inter-evaluator differences and an overall preference for AI summaries in 53.3% of evaluations. These findings suggest that privacy-preserving, locally deployed SLMs can outperform medical experts and reliably generate clinically meaningful longitudinal summaries. SLMs may support clinical decision-making when integrated with appropriate oversight.",
+    "updated" : "2026-05-24T12:00:13Z",
+    "published" : "2026-05-24T12:00:13Z",
+    "authors" : [
+      {
+        "name" : "Abdurrahim Yilmaz"
+      },
+      {
+        "name" : "Ayşe Esra Koku Aksu"
+      },
+      {
+        "name" : "Duygu Yamen"
+      },
+      {
+        "name" : "Vefa Asli Erdemir"
+      },
+      {
+        "name" : "Mehmet Salih Gurel"
+      },
+      {
+        "name" : "Gulsum Gencoglan"
+      },
+      {
+        "name" : "Joram M. Posma"
+      },
+      {
+        "name" : "Burak Temelkuran"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24765v1",
+    "title" : "CyberMaskQA: A Privacy-Aware Benchmark for Evaluating Large Language Models in Cybersecurity Question Answering",
+    "summary" : "Large language models (LLMs) are increasingly applied to cybersecurity question answering (QA) for critical tasks such as incident response and vulnerability analysis. However, real-world operational contexts, including system logs and network configurations, inherently contain sensitive identifiers, e.g., IP addresses, host names, and user accounts. Processing this data with cloud-based models is often unsafe or infeasible in regulated environments. Furthermore, progress in privacy-preserving QA is hindered by the lack of annotated, context-rich datasets capable of jointly evaluating operational reasoning and privacy preservation. To address this gap, we introduce CYBERMASKQA, a privacy-aware QA benchmark covering key security domains. Unlike existing benchmarks that primarily test factual knowledge, CYBERMASKQA grounds questions in realistic organizational contexts with explicit causal dependencies among assets and privileges. Generated through a systematic pipeline, the dataset combines human-curated base scenarios with LLM-driven semantic expansion, annotating each instance with precise private entity labels to enable controlled information disclosure. Evaluations of QA accuracy and masking performance demonstrate the benchmark's utility for developing deployable, context-aware cybersecurity models and facilitating nuanced studies of privacy-utility trade-offs. Upon acceptance, we will release the dataset and the generation framework.",
+    "updated" : "2026-05-23T22:57:13Z",
+    "published" : "2026-05-23T22:57:13Z",
+    "authors" : [
+      {
+        "name" : "Matilda Gaddi"
+      },
+      {
+        "name" : "Jin Noh"
+      },
+      {
+        "name" : "Onat Gungor"
+      },
+      {
+        "name" : "Tajana Rosing"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24458v1",
+    "title" : "Balancing Fairness, Privacy, and Accuracy: A Multitask Adversarial Framework for Centralized Data-Driven Systems",
+    "summary" : "The integration of fairness and privacy in centralized data-driven applications is critical, especially as these systems increasingly influence sectors with significant societal impact. Current methods rarely address privacy, fairness, and accuracy together, which can potentially compromise ethical standards and privacy regulations. However, balancing these three objectives is quite challenging since each of objective often imposes conflicting requirements on the design and training of models, making it difficult to optimize one without compromising the others. This paper introduces a novel multitask adversarial model that treats fairness and privacy as integral objectives rather than afterthoughts, and learns a latent representation that hides sensitive attributes while preserving essential task-related information. Our approach dynamically balances fairness with accuracy and privacy through an optimized cost function with minimal performance loss even under strict conditions. Extensive testing on diverse datasets shows the ability of our model to achieve high standards of fairness and privacy without significant sacrifice to accuracy. Benchmarking against state-of-the-art privacy and fairness standards shows that our method enhances the robustness of privacy, fairness, and accuracy optimization, proving its adaptability across various datasets.",
+    "updated" : "2026-05-23T08:10:53Z",
+    "published" : "2026-05-23T08:10:53Z",
+    "authors" : [
+      {
+        "name" : "Imesh Ekanayake"
+      },
+      {
+        "name" : "Elham Naghizade"
+      },
+      {
+        "name" : "Jeffrey Chan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24420v1",
+    "title" : "Batch Normalization Amplifies Memorization and Privacy Risks",
+    "summary" : "Batch Normalization (BN) is widely adopted to enable faster convergence and more stable training of deep neural networks. However, its impact on privacy and memorization has remained largely unexplored. In this work, we investigate the effect of BN layers on the memorization of atypical or outlier samples and its implications for privacy leakage. We conduct an extensive empirical study using three complementary approaches: (i) unintended memorization of out-of-distribution training samples, (ii) per-sample influence measured via gradient norms, and (iii) susceptibility to membership inference attacks (MIA). Across multiple datasets and architectures, we consistently observe that BN substantially increases the memorization of outliers compared to models without BN. Critically, this amplified memorization translates directly into privacy vulnerabilities: models with BN exhibit significantly higher susceptibility to MIAs. We complement our empirical findings with a theoretical analysis showing that BN amplifies the per-step influence of outlier samples during training, providing mechanistic insight into this phenomenon. Our results highlight an underappreciated privacy risk associated with BN and provide both practical and theoretical insights into how normalization layers can amplify the influence of rare or sensitive training examples.",
+    "updated" : "2026-05-23T06:18:27Z",
+    "published" : "2026-05-23T06:18:27Z",
+    "authors" : [
+      {
+        "name" : "Ngoc Phu Doan"
+      },
+      {
+        "name" : "Chongyan Gu"
+      },
+      {
+        "name" : "Ihsen Alouani"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24307v1",
+    "title" : "Modernizing User Privacy Preference Measurement through GPPI: A GDPR-aligned Privacy Preference Item Bank",
+    "summary" : "Privacy measurement instruments (e.g., CFIP, IUIPC, PAQ) predate GDPR by over a decade and measure privacy concerns, distinct from preferences for regulatory protections (e.g., data portability, erasure, automated decision-making rights). This leaves practitioners without tools to assess whether users value the GDPR mechanisms implemented in compliant policies. We developed a GDPR-grounded privacy preference measurement item bank by extracting 669 statements from all 99 GDPR articles, validated by: (1) two-round expert review achieving full consensus on accuracy, (2) semantic clustering into 10 parent themes and 87 subthemes, and (3) consensus review with 50 privacy experts (5 per theme) using a larger or equal than 4/5 vote retention threshold. The final 527-item bank comprises 9 parent themes and 73 subthemes (18 to 112 items per parent theme, 1 to 29 per subtheme), enabling targeted measurement across granularities while covering GDPR at mean pairwise expert agreement of approx. 85%. This work introduces a complementary measurement dimension aligning user preferences with regulatory mechanisms.",
+    "updated" : "2026-05-23T00:36:32Z",
+    "published" : "2026-05-23T00:36:32Z",
+    "authors" : [
+      {
+        "name" : "Yahya Hmaiti"
+      },
+      {
+        "name" : "Mykola Maslych"
+      },
+      {
+        "name" : "Amirpouya Ghasemaghaei"
+      },
+      {
+        "name" : "Trung Cuong Dang"
+      },
+      {
+        "name" : "Corey Pittman"
+      },
+      {
+        "name" : "David Mohaisen"
+      },
+      {
+        "name" : "Joseph J. LaViola"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24249v1",
+    "title" : "PrivFusion: A Privacy-preserving Multi-Agent Framework for Harmonizing Distributed Datasets",
+    "summary" : "The growing availability of clinical data has increased the use of machine learning, yet centralized data aggregation is often infeasible for sensitive health information. Federated Learning (FL) offers a distributed alternative, but its adoption is limited by substantial heterogeneity across institutional datasets, making harmonization a critical but frequently overlooked prerequisite for multi-site analytics. We introduce PrivFusion, a privacy-preserving multi-agent framework that automates the harmonization of structured datasets prior to federated training. PrivFusion uses agents to analyze local data, cluster semantically similar features across sites, and provide iterative transformation recommendations until alignment is achieved. Evaluation across four heterogeneous COVID-19 datasets demonstrates that PrivFusion effectively and efficiently harmonizes multi-site data while substantially reducing manual effort.",
+    "updated" : "2026-05-22T21:54:55Z",
+    "published" : "2026-05-22T21:54:55Z",
+    "authors" : [
+      {
+        "name" : "Anisa Halimi"
+      },
+      {
+        "name" : "Liubov Nedoshivina"
+      },
+      {
+        "name" : "Kieran Fraser"
+      },
+      {
+        "name" : "Stefano Braghin"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24239v1",
+    "title" : "Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence",
+    "summary" : "Many existing Artificial Intelligence (AI) solutions on mobile devices rely on an extensive collection of sensitive data, raising privacy concerns and often requiring storage for both context and model improvement. Apple's Private Cloud Compute (PCC) aims to address this by emphasizing mobile device integration and a privacy-first design. The central claim of PCC is that it does not store any user data and that user input and user accounts are unlinkable.\n  While most of the PCC system specifications are public, compiled binaries add a layer of opaqueness. There are no reproducible builds, and there are no symbols within those binaries, creating potential discrepancies between the specification and what is shipped to the user. Additionally, the underlying models and interfaces for querying PCC are not openly accessible, limiting academic evaluation of model properties, such as accuracy. This poses a challenge in assessing whether a privacy-preserving approach like PCC is actually trustworthy while also providing high-quality answers.\n  We are the first to reverse-engineer the PCC implementation on mobile devices to evaluate privacy aspects and to open its non-public interfaces on local devices to support custom PCC queries. We demonstrate this level of access beyond Apple's intended use cases by independently benchmarking the PCC model. We enable future research by making our PCC benchmarking framework publicly available.",
+    "updated" : "2026-05-22T21:31:17Z",
+    "published" : "2026-05-22T21:31:17Z",
+    "authors" : [
+      {
+        "name" : "Yannik Dittmar"
+      },
+      {
+        "name" : "Marvin Jerome Stephan"
+      },
+      {
+        "name" : "Thomas Völkl"
+      },
+      {
+        "name" : "Matthias Hollick"
+      },
+      {
+        "name" : "Jiska Classen"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24166v1",
+    "title" : "Optimal Quantum Differential Privacy via Fisher Information Spectral Analysis",
+    "summary" : "The Quantum Fisher Information (QFI) metric governs a fundamental duality: it quantifies both how precisely a parameter can be estimated (metrology) and how distinguishable two quantum states are (privacy). We exploit this duality to establish a geometry-aware framework for quantum differential privacy (DP) that replaces isotropic depolarizing noise with direction-dependent noise aligned to the QFI eigenstructure of the quantum embedding. We prove six principal theorems: (1) the minimax-optimal mechanism concentrates the noise budget in the dominant QFI eigenmode, achieving $\\varepsilon = (Δ^2/2)λ_{\\max}(1-cγ)$ with $O(d/λ_{\\max})$ advantage; (2) mixed-state QFI decomposition reveals that dephasing in the adversary's basis $\\textit{increases}$ accessible information, while misaligned-basis dephasing provides constructive privacy amplification from hardware noise; (3) a tight privacy $-$ utility uncertainty relation $\\varepsilon \\cdot (1 - F) \\ge \\frac{Δ^2}{2}\\frac{\\operatorname{Tr}(F)}{d}$; (4) adaptive QFI estimation converging at $O(1/\\sqrt{n})$ yields $1.92\\times$ tighter bounds; (5) QFI-aligned composition saturates at $O(1)$ versus $O(k)$ for standard composition; and (6) hardware noise can be harnessed for privacy amplification. Adversarial vulnerabilities, Wasserstein guarantees, subspace projection, and a zero-knowledge audit protocol follow as corollaries. Results are validated on Qiskit Aer GPU simulations, IBM Quantum hardware (ibm_fez, 156 qubits), and against classical DP baselines, achieving equivalent utility at $\\varepsilon \\approx 0.001$ versus $\\varepsilon \\approx 4800$ for classical DP.",
+    "updated" : "2026-05-22T19:36:42Z",
+    "published" : "2026-05-22T19:36:42Z",
+    "authors" : [
+      {
+        "name" : "Justice Owusu Agyemang"
+      },
+      {
+        "name" : "Jerry John Kponyo"
+      },
+      {
+        "name" : "Elliot Amponsah"
+      },
+      {
+        "name" : "Godfred Manu Addo Boakye"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24063v1",
+    "title" : "Microbenchmarking Cloud Cryptographic Workloads for Privacy-Preserving Healthcare IoT",
+    "summary" : "Cryptographic operations are an essential component of cloud security architectures; their comprehensive performance characterization across different cloud services, hardware architectures, and programming language implementations remains unknown. Specifically, healthcare IoT devices are highly vulnerable and frequently targeted, yet the cryptographic performance trade offs in their cloud security architectures remain poorly understood. This research presents an extensive microbenchmark study evaluating the performance of core cryptographic workloads, including SHA HMAC generation, AES encryption, decryption, Elliptic Curve Cryptography (ECC) signature generation and verification, and RSA encryption, decryption, across Function as a Service (FaaS) integrated with Key Management Services (KMS) from Amazon Web Services (AWS) and Microsoft Azure. We evaluate FaaS platforms using Elastic Compute Cloud (EC2) instances and Azure Virtual Machines, specifically using burst optimized instance types to analyze performance under typical cloud workload patterns. The benchmark encompasses a comprehensive multi dimensional analysis spanning two CPU architectures (x86 64 and Arm64), six widely adopted programming languages (Rust, Go, Python, Java, C#, and TypeScript), multiple memory allocation configurations, and diverse instance types to capture the complex interplay between these factors. This study identifies optimal configurations for cryptographic workloads in FaaS environments, improving performance and cost efficiency while enabling secure and timely data protection for healthcare IoT applications.",
+    "updated" : "2026-05-22T03:54:06Z",
+    "published" : "2026-05-22T03:54:06Z",
+    "authors" : [
+      {
+        "name" : "Jeremiah L. Webb"
+      },
+      {
+        "name" : "Laxima Niure Kandel"
+      },
+      {
+        "name" : "Deepti Gupta"
+      },
+      {
+        "name" : "Lavanya Elluri"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24042v1",
+    "title" : "Hidden-State Privacy Has an Empty Middle",
+    "summary" : "Of $1{,}536$ Gaussian release covariances we tested for single-layer hidden-state privacy, zero achieve both moderate utility and moderate privacy against an adaptive retrieval attacker. We prove a complementary Fisher-ball lower bound: every full-rank Gaussian release at $O(1)$ Fisher utility admits a direction whose Mahalanobis signal grows linearly in hidden width, ruling out uniform Gaussian safety in the class and matching the empirical empty middle. The diagonal inverse-Fisher release $Σ^\\star_{\\mathrm{diag}}(\\mathcal{K}) = (2\\mathcal{K}/d)\\,\\mathrm{diag}(1/F_{ii})$ is the unique minimax-optimal diagonal mechanism at first-order KL budget $\\mathcal{K}$ and the only release with worst-attacker top-1 $\\le 0.001$ at every point of a 32 model-layer grid, but it sits on a privacy/utility edge rather than filling the middle. A generalized-eigen mechanism reaching $13\\times$ Pareto reduction under Euclidean retrieval collapses to $100\\%$ top-1 under the adaptive Mahalanobis attacker, and a full-trajectory sequence inverter recovers $94\\%$ of clean GPT-2 prefixes but $0\\%$ under $Σ_{\\mathrm{diag}}$. A split-memory transformer trained from scratch reaches $G_{\\mathrm{Mah}} \\in [20, 33]$ at 90M and maintains a $6$--$24\\times$ advantage over same-budget GPT baselines from 30M to 1B at a fixed-token language-modeling loss penalty; pretrained models top out at 9.3. These results reframe hidden-state release from mechanism-design within the Gaussian class to architecture or release co-design.",
+    "updated" : "2026-05-21T20:12:09Z",
+    "published" : "2026-05-21T20:12:09Z",
+    "authors" : [
+      {
+        "name" : "Alexander Okezue Bell"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23989v1",
+    "title" : "Towards trustworthy agentic AI: a comprehensive survey of safety, robustness, privacy, and system security",
+    "summary" : "Agentic AI systems -- Large Language Models (LLMs) augmented with planning, tool use, memory, and long-horizon interactions -- can execute complex tasks autonomously, but their multi-step trajectories introduce new failure modes that challenge trustworthiness. This survey provides a focused examination of trustworthy agentic AI through two core dimensions that are critical for high-risk deployments: Safety and Robustness, and Privacy and System Security. For each dimension, we clarify key concepts, identify where risks emerge along the agent workflow, and summarize stage-targeted mitigation strategies. Other trustworthiness aspects (value alignment, transparency, fairness, and accountability) are discussed as relevant context rather than parallel chapters. To support consistent comparison and deployment decisions, we consolidate evaluation into a unified metrics-and-benchmarks hub, emphasizing both outcome and process signals (e.g., constraint violations, trace completeness, and adversarial success rates) and offering scenario-to-metric guidance for release gating. We conclude by outlining open challenges such as self-evolving agents, runtime monitoring and verification, privacy-preserving personalization, and the trust-utility trade-off, and present a case study of real-world security failures in open-source agentic systems. Our goal is to serve as a practical reference for researchers and practitioners building trustworthy agentic systems in high-stakes environments.",
+    "updated" : "2026-05-17T10:26:37Z",
+    "published" : "2026-05-17T10:26:37Z",
+    "authors" : [
+      {
+        "name" : "Jinhu Qi"
+      },
+      {
+        "name" : "Muzhi Li"
+      },
+      {
+        "name" : "Jiahong Liu"
+      },
+      {
+        "name" : "Yuqin Shu"
+      },
+      {
+        "name" : "Dianzhi Yu"
+      },
+      {
+        "name" : "Shicheng Ma"
+      },
+      {
+        "name" : "Wenqian Cui"
+      },
+      {
+        "name" : "Yiyang Zhao"
+      },
+      {
+        "name" : "Yiyi Chen"
+      },
+      {
+        "name" : "Ruoxi Jiang"
+      },
+      {
+        "name" : "Irwin King"
+      },
+      {
+        "name" : "Zenglin Xu"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.07185v2",
+    "title" : "Metaphors as Scaffolds: Spatial, Embodied, Fantastical, and Relational Framings for Youth Usable Privacy Design",
+    "summary" : "Drawing on observations from three prior studies with youth aged 13--24, we examine how metaphor shapes the way young people reason about privacy and imagine privacy designs beyond settings panels. Spatial metaphors made complex permission structures feel like movement through rooms and the placing of objects within them. Embodied metaphors gave youth language for shared norms around presence, access, and intrusion. Fantastical metaphors turned privacy work into something playful and discoverable, prompting more generative and granular design ideas. Relational metaphors, however, exposed the same mechanism's downside: when a system feels like a loyal companion while data passes through an institution, youth may disclose more than they otherwise would. This provocation does not argue that some metaphors are good and others bad. It argues that metaphors meaningfully scaffold both the design process and the user experience of usable privacy, and that choosing one is an ethical decision about which norms a privacy interface makes easy to see, imagine, and act on.",
+    "updated" : "2026-05-23T13:47:51Z",
+    "published" : "2026-05-08T03:24:56Z",
+    "authors" : [
+      {
+        "name" : "JaeWon Kim"
+      },
+      {
+        "name" : "Alexis Hiniker"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
