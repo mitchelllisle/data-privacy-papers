@@ -3723,5 +3723,276 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.27292v1",
+    "title" : "Detectability in Diversity: Improved Canary Crafting for Privacy Auditing in One Run",
+    "summary" : "Privacy auditing aims to empirically assess privacy leakage in machine learning models using membership inference attacks (MIAs), and to derive lower bounds on differential privacy (DP) parameters. Recent one-run auditing methods address the high cost of standard approaches by relying on a single training run with multiple \"canary\" points whose inclusion or exclusion must be detected by the auditor. In this work, we study the problem of efficiently crafting canaries for one-run privacy auditing. Motivated by recent theoretical insights suggesting that interference between canaries contributes to weaker leakage estimates compared to multi-run methods, we propose to optimize canaries to be both highly detectable and minimally interfering. Our approach combines a greedy initialization based on influence functions with a bilevel optimization procedure that maximizes distinguishability while promoting diversity in embedding space, enabling the use of computationally efficient bilevel algorithms. Experiments show that our method achieves stronger privacy leakage estimates at a lower computational cost than existing canary crafting approaches.",
+    "updated" : "2026-05-26T17:06:14Z",
+    "published" : "2026-05-26T17:06:14Z",
+    "authors" : [
+      {
+        "name" : "Mathieu Dagréou"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.27278v1",
+    "title" : "Optimal quantum locally differentially private mechanisms in the high-privacy regime",
+    "summary" : "We optimize the trade-off between privacy and utility in the high-privacy regime. We adopt local differential privacy (LDP) and its quantum extension, quantum local differential privacy (QLDP), for privacy protection, and investigate utility functions including the Holevo information (which reduces to the mutual information in the classical case) and the error exponents in symmetric and asymmetric hypothesis testing. These utility functions have classical and quantum optimal values, which are denoted by $C$ and $Q$, respectively, in this abstract for simplicity. In this paper, we provide optimal LDP and QLDP mechanisms achieving the classical and quantum optimal values in the high-privacy regime, and prove that the asymptotic ratio $Q/C$ in this regime takes the same value regardless of the utility function. Our results reveal quantum advantages (more precisely, $Q/C\\ge3/2$) for the above utility functions when the protected private data are $n$-ary with $n\\ge3$.",
+    "updated" : "2026-05-26T16:57:22Z",
+    "published" : "2026-05-26T16:57:22Z",
+    "authors" : [
+      {
+        "name" : "Yuuya Yoshida"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26931v1",
+    "title" : "Dual Privacy Guarantees for Distributed Nash Equilibrium Seeking in Aggregative Games",
+    "summary" : "This paper investigates the privacy-preserving distributed Nash equilibrium seeking problem for aggregative games. A novel differential privacy mechanism is designed by incorporating stochastic event-triggering with stochastic quantization, which provides strong privacy protection by obfuscating the temporal patterns of information exchange among players and quantizing the transmitted information at triggering instants. Based on this mechanism, a differentially private distributed Nash equilibrium seeking algorithm with dual randomness is proposed. By embedding a decaying factor sequence into both the triggering condition and interaction terms among players, it is proved that the proposed algorithm can achieve rigorous $(0,δ)$-differential privacy at each iteration while maintaining provable convergence. Crucially, this privacy guarantee is sustained over infinite iterations for a sufficiently large quantization interval and a sufficiently small trigger threshold tuning coefficient. Moreover, the synergy between event-triggered communication and quantization significantly enhances communication efficiency. Simulation results verify the validity of the proposed approach.",
+    "updated" : "2026-05-26T12:24:54Z",
+    "published" : "2026-05-26T12:24:54Z",
+    "authors" : [
+      {
+        "name" : "Qingtan Meng"
+      },
+      {
+        "name" : "Qian Ma"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26882v1",
+    "title" : "Privacy-Preserving Screening for Record Linkage",
+    "summary" : "In an era dominated by big data and machine learning, establishing valuable data collaboration has never been more critical. However, such collaborations must operate under regulatory and legal constraints. Two-party Privacy-Preserving Record Linkage (PPRL) emerges to assess the potential collaboration value and also ensure the privacy and security of the involved data. Nevertheless, the substantial computational and communication overheads associated with PPRL hinder its practical adoption in data markets with numerous potential collaborators. Therefore, we present the Screening-then-Linkage framework, which incorporates a lightweight Screening phase prior to the resource-intensive PPRL phase, i.e., PPRS, to mitigate the scalability issue of PPRL. We propose a circuit-PSI-based system, named Appraisal to realize a secure, effective, and efficient PPRS. To reconcile the approximate matching and/or schema-aware setting required in PPRS with the limitations of the circuit-PSI supporting only symmetric functions, we propose a more communication-efficient secure permutation, i.e., Oblivious Attribute/Feature Alignment protocol tailored for PPRS. This protocol supports a broader range of comparison functions and significantly improves efficiency, i.e., reducing communication costs by a factor of 14 compared to the conventional protocol. Our rigorous analysis and comprehensive empirical evaluations demonstrate the security, effectiveness, and efficiency of Appraisal. Appraisal can accommodate up to $850\\times$ more records than the SOTA PPRS system, SFour, within the same constraints. Moreover, it is $165 \\times$ faster than SOTA PPRL, indicating the Screening-then-Linkage framework substantially decreases the computation time required to identify the most valuable collaborators from a large pool of candidates.",
+    "updated" : "2026-05-26T11:43:29Z",
+    "published" : "2026-05-26T11:43:29Z",
+    "authors" : [
+      {
+        "name" : "Chenyu Huang"
+      },
+      {
+        "name" : "Fan Zhang"
+      },
+      {
+        "name" : "Huangxun Chen"
+      },
+      {
+        "name" : "Yongjun Zhao"
+      },
+      {
+        "name" : "Huaming Rao"
+      },
+      {
+        "name" : "Peng Chen"
+      },
+      {
+        "name" : "Danqing Huang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26465v1",
+    "title" : "Beyond Epsilon: A Principled QIF Framework for Local Differential Privacy",
+    "summary" : "Local Differential Privacy (LDP) has become the de facto standard for privacy-preserving data collection in large-scale systems, in particular for the purpose of estimating frequencies. However, the current research landscape lacks a systematic and principled way to compare LDP protocols. The parameter $\\varepsilon$ of LDP is considered the measure of privacy, but it only bounds worst-case distinguishability. Other comparisons rely on utility-driven analyses, where mechanisms are ranked based on their ability to preserve data utility for a given privacy budget $\\varepsilon$. Both such kinds of comparisons fail to account for the strength of protocols against diverse attacker models. In this paper, we propose a framework for analyzing LDP frequency estimation protocols through the lens of Quantitative Information Flow (QIF). By modeling LDP mechanisms as probabilistic channels, we leverage the concept of refinement (Blackwell ordering) to establish more principled classifications. This approach allows us to determine when one protocol is intrinsically superior to another for all possible adversaries, and to discuss the implications for utility. In particular, our analysis uncovers cases where protocols previously deemed \"optimal\" are, in fact, incomparable with, or strictly dominated by, other protocols. We provide a formal QIF-based treatment of seven state-of-the-art protocols, including Generalized Randomized Response (GRR), local hashing variants (BLH, OLH), unary encoding schemes (SUE, OUE), and Thresholding with Histogram Encoding (THE). This perspective bridges the gap between the LDP and formal methods communities and enables principled, adversary-aware reasoning about locally private systems.",
+    "updated" : "2026-05-26T02:20:11Z",
+    "published" : "2026-05-26T02:20:11Z",
+    "authors" : [
+      {
+        "name" : "Ramon G. Gonze"
+      },
+      {
+        "name" : "Natasha Fernandes"
+      },
+      {
+        "name" : "Heber H. Arcolezi"
+      },
+      {
+        "name" : "Catuscia Palamidessi"
+      },
+      {
+        "name" : "Nataliia Bielova"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26351v1",
+    "title" : "Context-Aware Metric Differential Privacy for Vehicle Trajectory Data",
+    "summary" : "Metric Differential Privacy (mDP) generalizes differential privacy by allowing privacy guarantees to be expressed with respect to an arbitrary distance metric over secrets. While mDP has been adopted in geo-location protection, most existing mechanisms perturb each location record in isolation and do not model how contextual information (e.g., recent mobility history) affects the utility of the released data. This mismatch is particularly pronounced for vehicle mobility traces, where service quality often depends on temporally correlated locations.\n  In this paper, we propose Context-aware mDP (C-mDP), a framework for vehicle location privacy that incorporates contextual dependencies into both the utility model and the privacy notion. C-mDP treats the protected secret as a context-augmented record and enforces metric indistinguishability over this augmented domain. We formulate optimal C-mDP mechanism design as a linear program (LP) that minimizes expected utility loss subject to C-mDP constraints. To improve scalability, we exploit conditional-independence structure between the current location and contextual variables to derive a reduced formulation with substantially fewer decision variables and constraints. We evaluate C-mDP on real-world vehicle mobility datasets and compare it with standard mDP baselines. The results show that C-mDP consistently achieves higher utility under the same privacy budget while satisfying the required metric privacy guarantees.",
+    "updated" : "2026-05-25T21:54:43Z",
+    "published" : "2026-05-25T21:54:43Z",
+    "authors" : [
+      {
+        "name" : "Gaoyi Chen"
+      },
+      {
+        "name" : "Yan Huang"
+      },
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26269v1",
+    "title" : "AgentSecBench: Measuring Prompt Injection, Privacy Leakage, and Tool-Use Integrity in LLM Agents",
+    "summary" : "LLM agents process trusted instructions, retrieved records, and tool observations through a common generative channel. This conflates data flow with authority: an untrusted string can affect a secret-bearing response or an action proposal even when no application policy authorizes that influence. We introduce AgentSecBench as an empirical instantiation of a formal security framework for this problem. The framework defines three games-instruction-integrity, retrieval-confidentiality, and capability-integrity-under a common notion of intent-to-execution noninterference with permitted leakage. It represents an application policy as a projection onto authorized observations and capabilities, distinguishes prompt annotations from enforcing projections, and measures both adversarial advantage and whether a defense closes the relevant model-visible channel before generation. The exact-marker experiments are intentionally one observable instantiation of the games rather than a complete semantic security claim: they test disclosure and forbidden-action distinguishers with unambiguous ground truth. We evaluate six defense classes with Qwen3-0.6B and Qwen3-1.7B on paired adversarial and benign-control executions. The measurements show when risk reduction follows channel closure and when a model-visible adversarial capability remains exploitable. The result is a security-oriented evaluation method: prompt text can describe a boundary, whereas provenance projection, capability restriction, and output validation can enforce one.",
+    "updated" : "2026-05-25T18:53:22Z",
+    "published" : "2026-05-25T18:53:22Z",
+    "authors" : [
+      {
+        "name" : "Faruk Alpay"
+      },
+      {
+        "name" : "Taylan Alpay"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26243v1",
+    "title" : "Provably Communication-Efficient and Privacy-Preserving Federated Graph Neural Networks",
+    "summary" : "Graph neural networks (GNNs) achieve strong performance on relational data, but real-world graphs are often distributed across organizations that cannot share raw data due to privacy and policy constraints. Existing federated GNN methods either ignore cross-client links, leading to degraded accuracy, or require frequent embedding exchanges, incurring substantial communication and privacy costs. We propose CE-FedGNN, a communication-efficient and privacy-preserving federated GNN framework for learning over such coupled graphs. Our approach avoids sharing raw data or per-round embeddings by infrequently exchanging aggregated node representations. To handle cross-client dependency and staleness, we introduce a moving-average estimator that continuously tracks node representations and enables their stable reuse across rounds. To provide formal privacy guarantees for the released representations, we adopt the metric differential privacy (metric-DP) framework, which measures privacy with respect to distances in the learned embedding space rather than worst-case input perturbations. This yields meaningful guarantees at noise levels where standard differential privacy becomes overly conservative. We establish convergence to a stationary point at a rate of $O(1/\\sqrt{T})$ with $O(T^{3/4})$ communication complexity. In addition, we derive $(\\varepsilon,δ)$-metric-DP guarantees via Rényi differential privacy composition under a public-cohort threat model. Experiments on synthetic interbank anti-money laundering benchmarks and citation networks demonstrate that CE-FedGNN achieves strong performance while significantly reducing communication and maintaining robustness under privacy-preserving noise.",
+    "updated" : "2026-05-25T18:10:20Z",
+    "published" : "2026-05-25T18:10:20Z",
+    "authors" : [
+      {
+        "name" : "Zhishuai Guo"
+      },
+      {
+        "name" : "Wenhan Wu"
+      },
+      {
+        "name" : "Chen Chen"
+      },
+      {
+        "name" : "Lei Zhang"
+      },
+      {
+        "name" : "Olivera Kotevska"
+      },
+      {
+        "name" : "Ravi K Madduri"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.26222v1",
+    "title" : "From Privacy to Generalization: Linear Max-Information Bounds for DP-SGD",
+    "summary" : "Understanding the relationship between generalization and privacy remains a central challenge in modern machine learning theory, particularly for deep networks trained by variants of differentially private stochastic gradient descent (DP-SGD). In this work we make progress on this persistent open problem by proving a finite-sample bound on the approximate max-information of DP-SGD that exhibits scaling properties comparable with (Dwork et al, 2015)'s classic result for $ε$-differentially private algorithms, namely at most linear in the dataset size. From our result we obtain a general-purpose PAC-Bayes generalization bound in which the necessary prior distribution can be learned by DP-SGD, as well as a generalization bound for DP-SGD-trained models themselves, with a complexity term that is fully explicit and controlled by the optimization hyperparameters.",
+    "updated" : "2026-05-25T18:00:05Z",
+    "published" : "2026-05-25T18:00:05Z",
+    "authors" : [
+      {
+        "name" : "Christoph H. Lampert"
+      },
+      {
+        "name" : "Hossein Zakerinia"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25631v2",
+    "title" : "The Privacy Subsidy in Continuous-Time Kyle: Cumulative Welfare under Noise-Perturbed Order-Flow Observation",
+    "summary" : "We extend the closed-form privacy-subsidy result of Nakamura~(2026, arXiv:2605.15746) from the single-period Kyle model to continuous-time. A committed Bayesian automated market maker observes the aggregate order flow perturbed by an independent Brownian privacy channel of diffusion intensity $σ_\\varepsilon$. Under the Markovian linear equilibrium, the price-impact coefficient is $λ= σ_v / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$ -- constant in time -- and the cumulative expected transfer from the protocol's liquidity pool to traders over $[0,1]$ is $|Π_M| = σ_v σ_\\varepsilon^2 / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$. We then establish a structural duality between this cumulative privacy subsidy and Loss-Versus-Rebalancing (Milionis et al.~2022), identifying privacy-noise welfare as the order-flow observation analog of LVR's price observation gap. The result completes the program of quantifying break-even fees for committed-AMM exchanges under privacy-aggregated information environments.",
+    "updated" : "2026-05-26T11:02:42Z",
+    "published" : "2026-05-25T09:31:40Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.24042v2",
+    "title" : "Hidden-State Privacy Has an Empty Middle",
+    "summary" : "Of $1{,}536$ Gaussian release covariances we tested for single-layer hidden-state privacy, zero achieve both moderate utility and moderate privacy against an adaptive retrieval attacker. We prove a complementary Fisher-ball lower bound: every full-rank Gaussian release at $O(1)$ Fisher utility admits a direction whose Mahalanobis signal grows linearly in hidden width, ruling out uniform Gaussian safety in the class and matching the empirical empty middle. The diagonal inverse-Fisher release $Σ^\\star_{\\mathrm{diag}}(\\mathcal{K}) = (2\\mathcal{K}/d)\\,\\mathrm{diag}(1/F_{ii})$ is the unique minimax-optimal diagonal mechanism at first-order KL budget $\\mathcal{K}$ and the only release with worst-attacker top-1 $\\le 0.001$ at every point of a 32 model-layer grid, but it sits on a privacy/utility edge rather than filling the middle. A generalized-eigen mechanism reaching $13\\times$ Pareto reduction under Euclidean retrieval collapses to $100\\%$ top-1 under the adaptive Mahalanobis attacker, and a full-trajectory sequence inverter recovers $94\\%$ of clean GPT-2 prefixes but $0\\%$ under $Σ_{\\mathrm{diag}}$. A split-memory transformer trained from scratch reaches $G_{\\mathrm{Mah}} \\in [20, 33]$ at 90M and maintains a $6$--$24\\times$ advantage over same-budget GPT baselines from 30M to 1B at a fixed-token language-modeling loss penalty; pretrained models top out at 9.3. These results reframe hidden-state release from mechanism-design within the Gaussian class to architecture or release co-design.",
+    "updated" : "2026-05-26T03:25:09Z",
+    "published" : "2026-05-21T20:12:09Z",
+    "authors" : [
+      {
+        "name" : "Alexander Okezue Bell"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19742v2",
+    "title" : "The Privacy Subsidy in Glosten-Milgrom: Bid-Ask Spread and Welfare under Flip-Noise Direction Observation",
+    "summary" : "We derive a closed-form bid-ask spread and welfare decomposition for the Glosten-Milgrom 1985 sequential-trading model when the market maker observes the trade direction perturbed by a binary flip channel of probability $η$ -- a natural information-theoretic model of privacy mechanisms acting on the direction signal. Under a committed Bayesian market-maker pricing rule, the equilibrium spread is $μ(1-2η)Δ$, where $μ$ is the informed-trader fraction and $Δ= v_H - v_L$ the value range. The welfare decomposition identifies a per-trade transfer $μηΔ$ from the protocol's liquidity pool to traders -- the \"privacy subsidy\", mirroring the Gaussian-Kyle analog established in prior work. The result extends the privacy-subsidy concept from continuous Gaussian to discrete two-state microstructure, demonstrating robustness across both classical models. Primary application: MPC-based matching engines with $\\varepsilon$-differentially-private direction disclosure, where the engine prices on a noisy direction signal.",
+    "updated" : "2026-05-26T11:00:32Z",
+    "published" : "2026-05-19T12:12:01Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15746v3",
+    "title" : "The Privacy Subsidy: Kyle's $λ$ under Noise-Perturbed Order-Flow Observation",
+    "summary" : "Privacy-preserving cryptocurrency exchanges (shielded AMMs, batched swap auctions, sealed-bid order-flow auctions) alter what the pricing mechanism observes about order flow. We derive the unique linear Kyle equilibrium when a committed Bayesian market maker observes order flow perturbed by independent Gaussian privacy noise. The price-impact coefficient and informed-trader strategy both rescale by a single factor in the privacy parameter, and their product is invariant. A welfare decomposition then identifies a closed-form per-period transfer from the protocol's LP pool to traders -- the \"privacy subsidy\", the break-even fee any privacy-aggregated exchange must charge. The result is the single-period closed-form privacy-noise analog of Loss-Versus-Rebalancing (Milionis et al. 2022). The primary application is shielded AMMs with explicit additive-noise injection (e.g., differential privacy); related designs (batched swaps, sealed-bid auctions, oracle-pegged crossings) require separate frameworks that we leave to future work.",
+    "updated" : "2026-05-26T10:57:54Z",
+    "published" : "2026-05-15T08:56:16Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
   }
 ]
