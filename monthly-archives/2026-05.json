@@ -3994,5 +3994,317 @@
       "math.PR",
       "q-fin.TR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28646v1",
+    "title" : "MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution",
+    "summary" : "GUI agents rely on screenshots to infer intent and operate across applications, but these screenshots often contain private messages, medical records, payment credentials, and workplace-specific workflows. Privacy decisions in this setting depend on task, recipient, application state, and user role, yet static PII detectors miss these boundaries and cloud-side VLM reasoning can upload the raw screen before deciding what should be protected. We present MaskClaw, an edge-side privacy arbitrator for GUI agents. MaskClaw extracts local visual evidence, retrieves user- and task-specific policy memory, and decides Allow, Mask, or Ask before raw screenshots leave a trusted user- or organization-controlled environment. In five designed skill-evolution scenarios, it turns corrections, cancellations, and edits into reusable privacy skills checked by a sandbox gate. We introduce P-GUI-Evo, a benchmark built from real UI patterns, reconstructed HTML screens, and sanitized labels. Experiments show that pattern matching, cloud reasoning, and routing alone tend to over-confirm, over-mask, or expose raw screenshots under the same protocol. The artifact is available at https://github.com/Theodora-Y/MaskClaw.",
+    "updated" : "2026-05-27T15:51:22Z",
+    "published" : "2026-05-27T15:51:22Z",
+    "authors" : [
+      {
+        "name" : "Yanqiu Zhao"
+      },
+      {
+        "name" : "Dongying Zheng"
+      },
+      {
+        "name" : "Kaibo Huang"
+      },
+      {
+        "name" : "Yukun Wei"
+      },
+      {
+        "name" : "Zhongliang Yang"
+      },
+      {
+        "name" : "Linna Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28642v1",
+    "title" : "Bandwidth-Efficient and Privacy-Preserving Edge-Cloud Many-to-Many Speech Translation",
+    "summary" : "Multimodal large language models (MLLMs) have demonstrated significant potential for speech-to-text translation (S2TT). However, existing deployment paradigms face critical challenges: pure on-device models suffer from resource constraints, while centralized cloud systems incur severe privacy risks and bandwidth bottlenecks by transmitting raw voice data. Furthermore, most models exhibit English-centric biases, restricting many-to-many translation scaling. In this paper, we propose Edge-cloud Speech Recognition and Translation (ESRT), a privacy-preserving and bandwidth-efficient collaborative edge-cloud MLLM framework. Specifically, we design an edge-cloud split inference architecture that retains a lightweight speech encoder and adapter on the device, transmitting only highly compressed intermediate features to the cloud. This fundamentally prevents voiceprint leakage and reduces bandwidth requirements by up to 10$\\times$. To overcome English-centric bottlenecks, we introduce a multi-task weighted curriculum learning strategy with data balancing to ensure robust cross-lingual consistency. Extensive experiments on the FLEURS dataset demonstrate that our models, ESRT-4B and ESRT-12B, achieve state-of-the-art many-to-many S2TT performance across 45 languages ($45 \\times 44$ directions). Code and models are released to facilitate reproducible, privacy-aware MLLM S2TT research. The code and models are released at https://github.com/yxduir/esrt.",
+    "updated" : "2026-05-27T15:47:33Z",
+    "published" : "2026-05-27T15:47:33Z",
+    "authors" : [
+      {
+        "name" : "Yexing Du"
+      },
+      {
+        "name" : "Kaiyuan Liu"
+      },
+      {
+        "name" : "Youcheng Pan"
+      },
+      {
+        "name" : "Bo Yang"
+      },
+      {
+        "name" : "Ming Liu"
+      },
+      {
+        "name" : "Bing Qin"
+      },
+      {
+        "name" : "Yang Xiang"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28325v1",
+    "title" : "ISAC Privacy: Challenges and Solutions for 6G",
+    "summary" : "Integrated sensing and communication (ISAC) is a promising feature of future communication networks. While spatial sensing can improve network performance and enable external services, it also creates privacy challenges that go beyond the confidentiality of communication content. Future networks using millimeter-wave (mmWave) and sub-terahertz (THz) frequencies may collect or infer detailed information about people, devices, bystanders, passive objects, and environments in a sixth-generation (6G) deployment area. Such sensing can reveal location and environment data, support behavioral profiling such as movement or activity recognition, and, in advanced cases, expose physiological information such as breathing frequency or heart-rate-related data. Thus, the capabilities of spatial sensing must be controlled to satisfy privacy requirements. In this work, we organize privacy-sensitive ISAC data into three sensing levels: location and environment data, behavioral data, and physiological data, and use this classification as the organizing principle throughout the paper. Based on this classification, we discuss internal and external ISAC applications, identify privacy challenges related to consent, transparency, data ownership, profiling, bystander exposure, and sensitive sensing data, review representative solution directions, and outline future research directions for privacy-preserving ISAC.",
+    "updated" : "2026-05-27T11:25:39Z",
+    "published" : "2026-05-27T11:25:39Z",
+    "authors" : [
+      {
+        "name" : "Onur Günlü"
+      },
+      {
+        "name" : "Stefano Tomasin"
+      },
+      {
+        "name" : "João P. Vilela"
+      },
+      {
+        "name" : "Francesco Chiti"
+      },
+      {
+        "name" : "Prajnamaya Dass"
+      },
+      {
+        "name" : "Angeliki Alexiou"
+      },
+      {
+        "name" : "Utz Roedig"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "eess.SP",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28211v1",
+    "title" : "When Helpful Context Leaks: Privacy Risks in Domain-Adapted ASR",
+    "summary" : "SpeechLLMs are increasingly deployed in professional settings where domain customisation is standard practice: users supply context in prompts with sensitive information, fine-tune on proprietary recordings, or both. We identify and systematically investigate an overlooked privacy risk of such customisation: a model adapted to recognise domain-specific terminology can be nudged into transcribing a phonetically similar word from its context or training data, even when a different word is spoken, thereby leaking private information. To evaluate this risk, we construct a controlled dataset and measure leakage rates across two customisation mechanisms, prompting and fine-tuning. Both mechanisms cause measurable leakage, compounding when combined. We evaluate a prompt-level mitigation strategy and analyse the accuracy-leakage trade-off across customisation approaches, finding that fine-tuning without context prompts offers the best balance. We release our code and dataset publicly.",
+    "updated" : "2026-05-27T09:30:36Z",
+    "published" : "2026-05-27T09:30:36Z",
+    "authors" : [
+      {
+        "name" : "Maike Züfle"
+      },
+      {
+        "name" : "Jan Niehues"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28089v1",
+    "title" : "BuddyBench: A Privacy-Constrained Multi-Task Benchmark for Pediatric Social-Communication Personalization",
+    "summary" : "BuddyBench introduces a privacy-constrained multi-task benchmark for pediatric social-communication personalization. Unlike existing neurodevelopmental repositories that primarily emphasize imaging, genetics, or cross-sectional clinical phenotyping, BuddyBench links drill-level learning trajectories, standardized clinical assessments, BuddyPlan self-report, and randomized-treatment endpoints within a unified benchmark schema. BuddyBench combines two cohorts: ND-03 is an observational cohort with dense drill coverage for Tasks1-2 (n = 189), and ND-02 is a randomized controlled trial cohort for Tasks3-4 (n = 86 ITT). Together, they support knowledge tracing, next-drill recommendation, clinical prediction, and causal inference, linking behavioral personalization to clinical evaluation. We additionally introduce BuddyBench-Sim, a synthetic companion dataset for reproducible evaluation. Baselines show signal across tasks while keeping pediatric clinical records protected.",
+    "updated" : "2026-05-27T07:44:36Z",
+    "published" : "2026-05-27T07:44:36Z",
+    "authors" : [
+      {
+        "name" : "Jeyeon Eo"
+      },
+      {
+        "name" : "Joo Young Kim"
+      },
+      {
+        "name" : "Ran Ju"
+      },
+      {
+        "name" : "Minyoung Jung"
+      },
+      {
+        "name" : "Unggi Lee"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28078v1",
+    "title" : "Mind the Gap: Mixtures of Gaussians in Approximate Differential Privacy",
+    "summary" : "We design a class of additive noise mechanisms that satisfy \\((\\varepsilon, δ)\\)-differential privacy (DP) for scalar, real-valued query functions with known sensitivities, with a particular focus on moderate and low-privacy regimes. These mechanisms, which we call \\textit{mixture mechanisms}, are constructed by mixing multiple Gaussian distributions that share the same variance but differ in their means and mixture weights. The resulting distributions can be interpreted as convex combinations of a zero-mean Gaussian (as used in the analytic Gaussian mechanism) and additional Gaussians whose means depend on the sensitivity of the query function. We derive tight conditions on the variances required for \\((\\varepsilon, δ)\\)-DP and provide efficient algorithms to compute them. Compared to the analytic Gaussian mechanism, our mechanisms yield substantially lower expected noise amplitudes (\\(l_1\\)-loss) and variances (\\(l_2\\)-loss for zero-mean distributions). In the low-privacy regime that motivates our design, our mechanisms approach optimality, mitigating nearly all of the optimality gap of the analytic Gaussian mechanism.",
+    "updated" : "2026-05-27T07:32:26Z",
+    "published" : "2026-05-27T07:32:26Z",
+    "authors" : [
+      {
+        "name" : "Huikang Liu"
+      },
+      {
+        "name" : "Aras Selvi"
+      },
+      {
+        "name" : "Wolfram Wiesemann"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.27801v1",
+    "title" : "Local Privacy Laws in a Globalized World",
+    "summary" : "Personal data has emerged as a highly valuable yet sensitive asset that drives business decisions, enables targeted advertising, and generates substantial revenue for companies, while simultaneously facilitating invasive monitoring of users. In recent years, research on digital privacy violations, including undue access, collection, and sharing of user data, has grown significantly. Much of this research adopts the European General Data Protection Regulation (GDPR) as the primary reference framework. This is reasonable, as GDPR was a pioneering legislation, and many of its stipulations are clear and unambiguous. However, we argue that focusing solely on GDPR (and a small set of other Western regulatory frameworks) ignores privacy-related concerns, attitudes, and problems faced by users from other locales, creating a significant research blind spot. This work systematically normalizes the heterogeneous legal requirements of multiple data protection laws into a unified abstraction aligned with the data lifecycle, which forms the foundation for the implementation of such regulations. We further investigate the implications of these laws on different stakeholders, including users, organizations, and governments. Overall, this work aims to broaden the digital privacy research community's perspective and to serve as a set of guiding principles for developing technological privacy solutions spanning multiple countries.",
+    "updated" : "2026-05-27T00:41:31Z",
+    "published" : "2026-05-27T00:41:31Z",
+    "authors" : [
+      {
+        "name" : "Shantanu Sharma"
+      },
+      {
+        "name" : "Ethan Myers"
+      },
+      {
+        "name" : "Lorenzo De Carli"
+      },
+      {
+        "name" : "Ritwik Banerjee"
+      },
+      {
+        "name" : "Indrakshi Ray"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR",
+      "cs.ET",
+      "cs.HC",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.27782v1",
+    "title" : "Revisiting ML Training under Fully Homomorphic Encryption: Convergence Guarantees, Differential Privacy, and Efficient Algorithms",
+    "summary" : "We present the first theoretical convergence analysis of machine learning training under fully homomorphic encryption (FHE), combined with a differentially private (DP) training algorithm tailored to encrypted computation. Our approach improves computational efficiency over standard differentially private gradient descent (DP-GD) while achieving comparable utility. In particular, we prove convergence of approximate gradient descent using polynomial approximations of activation and loss functions, which are required for FHE compatibility. To preserve privacy in downstream tasks, we integrate differential privacy without relying on costly per-sample gradient clipping, enabling scalable encrypted learning. We also provide data-independent hyperparameter selection and theoretically grounded strategies for polynomial approximation which can be of independent interest. Together, these contributions advance the feasibility of efficient, private, and secure machine learning on sensitive data.",
+    "updated" : "2026-05-27T00:09:01Z",
+    "published" : "2026-05-27T00:09:01Z",
+    "authors" : [
+      {
+        "name" : "Yvonne Zhou"
+      },
+      {
+        "name" : "Mingyu Liang"
+      },
+      {
+        "name" : "Ivan Brugere"
+      },
+      {
+        "name" : "Danial Dervovic"
+      },
+      {
+        "name" : "Yue Guo"
+      },
+      {
+        "name" : "Antigoni Polychroniadou"
+      },
+      {
+        "name" : "Min Wu"
+      },
+      {
+        "name" : "Dana Dachman-Soled"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.27766v1",
+    "title" : "Got a Secret? LLM Agents Can't Keep It: Evaluating Privacy in Multi-Agent Systems",
+    "summary" : "LLM safety evaluations predominantly test models in isolation, yet deployed AI agents increasingly operate within persistent social environments alongside other agents. We introduce a Moltbook-style simulation platform where thousands of LLM agents interact across communities over a simulated month, and use it to evaluate privacy as a downstream safety concern under varying degrees of social pressure. We find that shifting from single turn to multi turn social evaluation amplifies privacy violations (CIMemories 19.95% to Ours 45.30% across OpenAI models), that leakage is socially contagious, with agents 8 times more likely to disclose sensitive information after observing a peer do so, and that explicit privacy instructions reduce but do not eliminate this effect, leaving leakage rates above 37.8% even with safeguards. Our findings suggest that static chat based safety benchmarks systematically underestimate risks in agentic deployment, and that social context alone is sufficient to elicit sensitive disclosures that single turn evaluations would never surface.",
+    "updated" : "2026-05-26T23:32:25Z",
+    "published" : "2026-05-26T23:32:25Z",
+    "authors" : [
+      {
+        "name" : "Aman Priyanshu"
+      },
+      {
+        "name" : "Supriti Vijay"
+      },
+      {
+        "name" : "Esha Pahwa"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25631v3",
+    "title" : "The Privacy Subsidy in Continuous-Time Kyle: Cumulative Welfare under Noise-Perturbed Order-Flow Observation",
+    "summary" : "We extend the closed-form privacy-subsidy result of Nakamura~(2026, arXiv:2605.15746) from the single-period Kyle model to continuous-time. A committed Bayesian automated market maker observes the aggregate order flow perturbed by an independent Brownian privacy channel of diffusion intensity $σ_\\varepsilon$. Under the Markovian linear equilibrium, the price-impact coefficient is $λ= σ_v / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$ -- constant in time -- and the cumulative expected transfer from the protocol's liquidity pool to traders over $[0,1]$ is $|Π_M| = σ_v σ_\\varepsilon^2 / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$. We then establish a structural duality between this cumulative privacy subsidy and Loss-Versus-Rebalancing (Milionis et al.~2022), identifying privacy-noise welfare as the order-flow observation analog of LVR's price observation gap. The result completes the program of quantifying break-even fees for committed-AMM exchanges under privacy-aggregated information environments.",
+    "updated" : "2026-05-27T11:50:45Z",
+    "published" : "2026-05-25T09:31:40Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19742v3",
+    "title" : "The Privacy Subsidy in Glosten-Milgrom: Bid-Ask Spread and Welfare under Flip-Noise Direction Observation",
+    "summary" : "We derive a closed-form bid-ask spread and welfare decomposition for the Glosten-Milgrom 1985 sequential-trading model when the market maker observes the trade direction perturbed by a binary flip channel of probability $η$ -- a natural information-theoretic model of privacy mechanisms acting on the direction signal. Under a committed Bayesian market-maker pricing rule, the equilibrium spread is $μ(1-2η)Δ$, where $μ$ is the informed-trader fraction and $Δ= v_H - v_L$ the value range. The welfare decomposition identifies a per-trade transfer $μηΔ$ from the protocol's liquidity pool to traders -- the \"privacy subsidy\", mirroring the Gaussian-Kyle analog established in prior work. The result extends the privacy-subsidy concept from continuous Gaussian to discrete two-state microstructure, demonstrating robustness across both classical models. Primary application: MPC-based matching engines with $\\varepsilon$-differentially-private direction disclosure, where the engine prices on a noisy direction signal.",
+    "updated" : "2026-05-27T11:47:12Z",
+    "published" : "2026-05-19T12:12:01Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15746v4",
+    "title" : "The Privacy Subsidy: Kyle's $λ$ under Noise-Perturbed Order-Flow Observation",
+    "summary" : "Privacy-preserving cryptocurrency exchanges (shielded AMMs, batched swap auctions, sealed-bid order-flow auctions) alter what the pricing mechanism observes about order flow. We derive the unique linear Kyle equilibrium when a committed Bayesian market maker observes order flow perturbed by independent Gaussian privacy noise. The price-impact coefficient and informed-trader strategy both rescale by a single factor in the privacy parameter, and their product is invariant. A welfare decomposition then identifies a closed-form per-period transfer from the protocol's LP pool to traders -- the \"privacy subsidy\", the break-even fee any privacy-aggregated exchange must charge. The result is the single-period closed-form privacy-noise analog of Loss-Versus-Rebalancing (Milionis et al. 2022). The primary application is shielded AMMs with explicit additive-noise injection (e.g., differential privacy); related designs (batched swaps, sealed-bid auctions, oracle-pegged crossings) require separate frameworks that we leave to future work.",
+    "updated" : "2026-05-27T11:45:14Z",
+    "published" : "2026-05-15T08:56:16Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
   }
 ]
