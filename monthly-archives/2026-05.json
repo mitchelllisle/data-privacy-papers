@@ -4306,5 +4306,155 @@
       "math.PR",
       "q-fin.TR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.30123v1",
+    "title" : "Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels",
+    "summary" : "Homomorphic encryption (HE) enables privacy-preserving aggregation in federated learning (FL) by allowing the server to operate on encrypted data without decryption. Existing HE-over-the-air methods mainly rely on single-key HE schemes and require channel estimation or pre-equalization to compensate for wireless fading. However, single-key HE remains vulnerable to honest-but-curious clients sharing the same secret key. In addition, compromising a single client may compromise the security of the entire network, while multi-key HE schemes provide stronger client-level security by assigning each device its own secret key. We propose a four-phase protocol that enables xMK-CKKS, a famous multi-key HE scheme, aggregation over a shared wireless channel without channel estimation. The protocol retransmits partial public keys and ciphertexts through the same channel realization, so that the dominant large-modulus encryption terms cancel algebraically during decryption. We integrate this protocol with zero-order FL over slowly varying LoS-dominant channels, where each device transmits a single encrypted scalar per round and the communication/encryption overhead is independent of the model dimension. We prove that the decoded encryption noise preserves the \\(O(1/\\sqrt{K})\\) convergence rate up to a negligible noise floor. The protocol is secure against an honest-but-curious server colluding with up to \\(N-1\\) clients, and numerical results on MNIST validate the analysis.",
+    "updated" : "2026-05-28T15:56:43Z",
+    "published" : "2026-05-28T15:56:43Z",
+    "authors" : [
+      {
+        "name" : "Anthony Ayli"
+      },
+      {
+        "name" : "Khalil Harris"
+      },
+      {
+        "name" : "Jihad Fahs"
+      },
+      {
+        "name" : "Mohamad Assaad"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.29845v1",
+    "title" : "Local Differential Privacy via Dynamic Quantization in Distributed Online Stochastic Optimization",
+    "summary" : "Distributed online stochastic optimization has received extensive attention in large-scale distributed learning and other related fields due to its unique advantage in processing streaming data. However, information exchange through the communication network during the optimization process may lead to privacy leakage. To address this issue, this paper proposes a locally differentially private distributed online stochastic optimization algorithm that employs an elaborately designed dynamic stochastic quantizer to mask the exchanged information prior to communication. Theoretical analysis shows that the proposed algorithm not only converges almost surely to the optimal solution but also achieves $(0,δ^i)$-local differential privacy for each agent $i$ even when the number of iterations tends to infinity. Furthermore, the algorithm is fully distributed and applicable to scenarios where the interaction network among agents is a directed graph. To the best of our knowledge, this is the first work on distributed online stochastic optimization that simultaneously achieves exact convergence and rigorous local differential privacy over a directed graph by exploiting quantization effects. Numerical experiments of distributed online training on the mushroom classification dataset, handwritten digits recognition dataset, and brain-computer interface dataset verify the effectiveness of the proposed method.",
+    "updated" : "2026-05-28T12:27:49Z",
+    "published" : "2026-05-28T12:27:49Z",
+    "authors" : [
+      {
+        "name" : "Zhiguo Zhang"
+      },
+      {
+        "name" : "Cheng Kui"
+      },
+      {
+        "name" : "Qian Ma"
+      },
+      {
+        "name" : "Dongrui Wu"
+      }
+    ],
+    "categories" : [
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.29131v1",
+    "title" : "Techreport: Evaluating Tor-based Location Privacy for Ethereum Validators",
+    "summary" : "Privacy and anonymity of validators, especially regarding IP address linkability, are essential to protect the Ethereum network from various attacks. Network-level attacks, such as DoS, can interrupt validators and affect the overall security of the Ethereum network. Correlating the IP addresses of validators with their identities, along with knowledge about their action slots can be exploited by attackers to cause network delays, MEV exploitation, and finality risks. Therefore, ensuring the unlinkability of a validator's IP and identity is crucial for maintaining the network's trust and resilience. In this techreport, we first provide a review of the existing network and consensus layer techniques that have been proposed for maintaining validator privacy in the Ethereum blockchain. Secondly, we evaluate a Tor-based protocol named Tor push that helps unlink validator identities (IDs) from their nodes' IP addresses, thereby making it difficult to determine any end-to-end correlation between validator IDs and IP addresses of validators' beacon nodes. To evaluate the effectiveness of Tor push, we present a working, deployed proof-of-concept (PoC) implementation in the Nimbus Ethereum client. Our PoC deployment pushes attestations, aggregations, and block proposals over Tor to the Goerli testnet. Furthermore, we also analyse the security and latency of Tor push. Our experimental results suggest that Tor can be incorporated into the existing Ethereum network with a tolerable latency overhead of 613.82 ms on average and without compromising the overall network performance while enhancing the location privacy of validators in the Ethereum network.",
+    "updated" : "2026-05-27T21:50:17Z",
+    "published" : "2026-05-27T21:50:17Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Umar Janjua"
+      },
+      {
+        "name" : "Akshaya Mani"
+      },
+      {
+        "name" : "Uğur Şen"
+      },
+      {
+        "name" : "Daniel Kaiser"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.22924v2",
+    "title" : "Building a privacy-preserving Federated Recommender system for mobile devices",
+    "summary" : "Serving personalized content on mobile devices has traditionally required pooling sensitive user data on centralized servers, a practice increasingly at odds with modern privacy expectations and geographical regulations. We present a two-stage federated recommendation system pipeline for mobile devices, built around a principled separation between non-sensitive user preference data and sensitive mobile context data that never leaves the device. The first stage runs a collaborative filtering model on non-sensitive app-context data in the cloud to generate a shortlist of relevant items. The second stage re-ranks these candidates on-device using sensitive mobile signals, with only model updates/gradients ever leaving the device. We validate the approach on MovieLens, UCI Human Activity Recognition, and a proprietary pilot dataset, and deliver a production-ready implementation as a Kotlin Multiplatform library deployable on Android and iOS.",
+    "updated" : "2026-05-27T18:29:59Z",
+    "published" : "2026-05-21T18:02:26Z",
+    "authors" : [
+      {
+        "name" : "Aasheesh Singh"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.14113v2",
+    "title" : "ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows",
+    "summary" : "While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augmented Generation (RAG) routinely triggers ``retrieval sycophancy,'' where Large Language Models (LLMs) hallucinate post-hoc rationalizations to align with visual predictions. We introduce ProtoMedAgent, a framework that formalizes multimodal clinical reporting as an iterative, zero-gradient test-time optimization problem over a strict neuro-symbolic bottleneck. Operating on a frozen prototype backbone, we distill latent visual and tabular features into a discrete semantic memory. Online generation is strictly constrained by exact set-theoretic differentials and a reflective Scribe-Critic loop, mathematically precluding unsupported narrative claims. To safely bound data disclosure, we introduce a semantic privacy gate governed by $k$-anonymity and $\\ell$-diversity. Evaluated on a 4,160-patient clinical cohort, ProtoMedAgent achieves 91.2% Comparison Set Faithfulness where it fundamentally outperforms standard RAG (46.2%). ProtoMedAgent additionally leverages a binding $\\ell$-diversity phase transition to systematically reduce artifact-level membership inference risks by an absolute 9.8%.",
+    "updated" : "2026-05-28T09:35:28Z",
+    "published" : "2026-05-13T20:57:37Z",
+    "authors" : [
+      {
+        "name" : "Alvaro Lopez Pellicer"
+      },
+      {
+        "name" : "Plamen Angelov"
+      },
+      {
+        "name" : "Marwan Bukhari"
+      },
+      {
+        "name" : "Yi Li"
+      },
+      {
+        "name" : "Eduardo Soares"
+      },
+      {
+        "name" : "Jemma Kerns"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.09823v2",
+    "title" : "CalBench: Evaluating Coordination-Privacy Trade-offs in Multi-Agent LLMs",
+    "summary" : "Personal AI assistants are beginning to act as delegates with access to calendars, inboxes, and user preferences. Calendar scheduling makes the trust problem concrete: an assistant must coordinate with other assistants while deciding what to reveal about the person it represents. We introduce CalBench, a controlled benchmark for multi-agent calendar scheduling under private information. In each task, $N$ agents manage separate private calendars and schedule a stream of $M$ incoming meetings while minimizing disruption costs. Because no agent can inspect another agent's calendar, success requires language-mediated coordination rather than centralized planning. CalBench generates solvable scenarios with CP-SAT oracle solutions and decentralized non-LLM reference protocols, enabling evaluation of task success, excess cost, communication efficiency, burden fairness, and privacy leakage under matched information constraints. Across seven model families, we find that completion alone misses important failures: agents leave avoidable cost on the table, communication volume does not predict lower regret, and privacy-preserving silence can deprive teammates of cost information needed for fair burden allocation. CalBench provides a reproducible testbed for studying whether autonomous assistants can coordinate on behalf of users before deployment at scale.",
+    "updated" : "2026-05-28T17:11:09Z",
+    "published" : "2026-05-10T23:56:02Z",
+    "authors" : [
+      {
+        "name" : "Chelsea Zou"
+      },
+      {
+        "name" : "Yiheng Yao"
+      },
+      {
+        "name" : "Selena She"
+      },
+      {
+        "name" : "Noah Goodman"
+      },
+      {
+        "name" : "Robert D. Hawkins"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.AI"
+    ]
   }
 ]
