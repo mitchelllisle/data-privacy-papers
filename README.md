@@ -2,6 +2,42 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.30123v1">Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-28T15:56:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anthony Ayli, Khalil Harris, Jihad Fahs, Mohamad Assaad</p>
+    <p><b>Summary:</b> Homomorphic encryption (HE) enables privacy-preserving aggregation in federated learning (FL) by allowing the server to operate on encrypted data without decryption. Existing HE-over-the-air methods mainly rely on single-key HE schemes and require channel estimation or pre-equalization to compensate for wireless fading. However, single-key HE remains vulnerable to honest-but-curious clients sharing the same secret key. In addition, compromising a single client may compromise the security of the entire network, while multi-key HE schemes provide stronger client-level security by assigning each device its own secret key. We propose a four-phase protocol that enables xMK-CKKS, a famous multi-key HE scheme, aggregation over a shared wireless channel without channel estimation. The protocol retransmits partial public keys and ciphertexts through the same channel realization, so that the dominant large-modulus encryption terms cancel algebraically during decryption. We integrate this protocol with zero-order FL over slowly varying LoS-dominant channels, where each device transmits a single encrypted scalar per round and the communication/encryption overhead is independent of the model dimension. We prove that the decoded encryption noise preserves the \(O(1/\sqrt{K})\) convergence rate up to a negligible noise floor. The protocol is secure against an honest-but-curious server colluding with up to \(N-1\) clients, and numerical results on MNIST validate the analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.29845v1">Local Differential Privacy via Dynamic Quantization in Distributed Online Stochastic Optimization</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
+  <p><b>Published on:</b> 2026-05-28T12:27:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhiguo Zhang, Cheng Kui, Qian Ma, Dongrui Wu</p>
+    <p><b>Summary:</b> Distributed online stochastic optimization has received extensive attention in large-scale distributed learning and other related fields due to its unique advantage in processing streaming data. However, information exchange through the communication network during the optimization process may lead to privacy leakage. To address this issue, this paper proposes a locally differentially private distributed online stochastic optimization algorithm that employs an elaborately designed dynamic stochastic quantizer to mask the exchanged information prior to communication. Theoretical analysis shows that the proposed algorithm not only converges almost surely to the optimal solution but also achieves $(0,δ^i)$-local differential privacy for each agent $i$ even when the number of iterations tends to infinity. Furthermore, the algorithm is fully distributed and applicable to scenarios where the interaction network among agents is a directed graph. To the best of our knowledge, this is the first work on distributed online stochastic optimization that simultaneously achieves exact convergence and rigorous local differential privacy over a directed graph by exploiting quantization effects. Numerical experiments of distributed online training on the mushroom classification dataset, handwritten digits recognition dataset, and brain-computer interface dataset verify the effectiveness of the proposed method.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.29131v1">Techreport: Evaluating Tor-based Location Privacy for Ethereum Validators</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-05-27T21:50:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Umar Janjua, Akshaya Mani, Uğur Şen, Daniel Kaiser</p>
+    <p><b>Summary:</b> Privacy and anonymity of validators, especially regarding IP address linkability, are essential to protect the Ethereum network from various attacks. Network-level attacks, such as DoS, can interrupt validators and affect the overall security of the Ethereum network. Correlating the IP addresses of validators with their identities, along with knowledge about their action slots can be exploited by attackers to cause network delays, MEV exploitation, and finality risks. Therefore, ensuring the unlinkability of a validator's IP and identity is crucial for maintaining the network's trust and resilience. In this techreport, we first provide a review of the existing network and consensus layer techniques that have been proposed for maintaining validator privacy in the Ethereum blockchain. Secondly, we evaluate a Tor-based protocol named Tor push that helps unlink validator identities (IDs) from their nodes' IP addresses, thereby making it difficult to determine any end-to-end correlation between validator IDs and IP addresses of validators' beacon nodes. To evaluate the effectiveness of Tor push, we present a working, deployed proof-of-concept (PoC) implementation in the Nimbus Ethereum client. Our PoC deployment pushes attestations, aggregations, and block proposals over Tor to the Goerli testnet. Furthermore, we also analyse the security and latency of Tor push. Our experimental results suggest that Tor can be incorporated into the existing Ethereum network with a tolerable latency overhead of 613.82 ms on average and without compromising the overall network performance while enhancing the location privacy of validators in the Ethereum network.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.28646v1">MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2026-05-27T15:51:22Z</p>
@@ -485,7 +521,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.22924v1">Building a privacy-preserving Federated Recommender system for mobile devices</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.22924v2">Building a privacy-preserving Federated Recommender system for mobile devices</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
   <p><b>Published on:</b> 2026-05-21T18:02:26Z</p>
   <details>
@@ -942,13 +978,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.14113v1">ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.14113v2">ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
   <p><b>Published on:</b> 2026-05-13T20:57:37Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Alvaro Lopez Pellicer, Plamen Angelov, Marwan Bukhari, Yi Li, Eduardo Soares, Jemma Kerns</p>
-    <p><b>Summary:</b> While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augmented Generation (RAG) routinely triggers ``retrieval sycophancy,'' where Large Language Models (LLMs) hallucinate post-hoc rationalizations to align with visual predictions. We introduce ProtoMedAgent, a framework that formalizes multimodal clinical reporting as an iterative, zero-gradient test-time optimization problem over a strict neuro-symbolic bottleneck. Operating on a frozen prototype backbone, we distill latent visual and tabular features into a discrete semantic memory. Online generation is strictly constrained by exact set-theoretic differentials and a reflective Scribe-Critic loop, mathematically precluding unsupported narrative claims. To safely bound data disclosure, we introduce a semantic privacy gate governed by $k$-anonymity and $\ell$-diversity. Evaluated on a 4,160-patient clinical cohort, ProtoMedAgent achieves 91.2\% Comparison Set Faithfulness where it fundamentally outperforms standard RAG (46.2\%). ProtoMedAgent additionally leverages a binding $\ell$-diversity phase transition to systematically reduce artifact-level membership inference risks by an absolute 9.8\%.</p>
+    <p><b>Summary:</b> While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augmented Generation (RAG) routinely triggers ``retrieval sycophancy,'' where Large Language Models (LLMs) hallucinate post-hoc rationalizations to align with visual predictions. We introduce ProtoMedAgent, a framework that formalizes multimodal clinical reporting as an iterative, zero-gradient test-time optimization problem over a strict neuro-symbolic bottleneck. Operating on a frozen prototype backbone, we distill latent visual and tabular features into a discrete semantic memory. Online generation is strictly constrained by exact set-theoretic differentials and a reflective Scribe-Critic loop, mathematically precluding unsupported narrative claims. To safely bound data disclosure, we introduce a semantic privacy gate governed by $k$-anonymity and $\ell$-diversity. Evaluated on a 4,160-patient clinical cohort, ProtoMedAgent achieves 91.2% Comparison Set Faithfulness where it fundamentally outperforms standard RAG (46.2%). ProtoMedAgent additionally leverages a binding $\ell$-diversity phase transition to systematically reduce artifact-level membership inference risks by an absolute 9.8%.</p>
   </details>
 </div>
 
@@ -1150,13 +1186,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09823v1">CalBench: Evaluating Coordination-Privacy Trade-offs in Multi-Agent LLMs</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.09823v2">CalBench: Evaluating Coordination-Privacy Trade-offs in Multi-Agent LLMs</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-05-10T23:56:02Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Chelsea Zou, Yiheng Yao, Selena She, Robert D. Hawkins</p>
-    <p><b>Summary:</b> We introduce CalBench, a controlled evaluation environment for studying multi-agent coordination through calendar scheduling. In CalBench, N agents each manage a private calendar containing pre-existing commitments and must coordinate to schedule a stream of M incoming meetings while minimizing disruption costs. Because agents observe only their own calendars, successful scheduling requires communication across private information boundaries. Each scenario is generated with an oracle solution, enabling precise measurement of coordination quality via realized-to-optimal cost, as well as a Distributed Constraint Optimization (DCOP) baseline to provide a fair comparison under the same private-information constraints. CalBench enables precise verification of task success, communication efficiency, and fairness in the distribution of disruption costs. Our environment also studies privacy-preserving coordination by augmenting calendar entries with private semantic contexts of varying sensitivity and measuring whether agents reveal task-irrelevant private information during negotiation. Unlike multi-agent benchmarks where a single capable agent can often substitute for the group, CalBench is inherently decentralized: no agent has access to another agent's private calendar, yet agents must still reach mutually consistent decisions over shared meeting scheduling. CalBench therefore provides a practical and verifiable setting for studying coordination protocols, communication efficiency, negotiation strategies, fairness, and privacy leakage in multi-agent systems.</p>
+    <p><b>Authors:</b> Chelsea Zou, Yiheng Yao, Selena She, Noah Goodman, Robert D. Hawkins</p>
+    <p><b>Summary:</b> Personal AI assistants are beginning to act as delegates with access to calendars, inboxes, and user preferences. Calendar scheduling makes the trust problem concrete: an assistant must coordinate with other assistants while deciding what to reveal about the person it represents. We introduce CalBench, a controlled benchmark for multi-agent calendar scheduling under private information. In each task, $N$ agents manage separate private calendars and schedule a stream of $M$ incoming meetings while minimizing disruption costs. Because no agent can inspect another agent's calendar, success requires language-mediated coordination rather than centralized planning. CalBench generates solvable scenarios with CP-SAT oracle solutions and decentralized non-LLM reference protocols, enabling evaluation of task success, excess cost, communication efficiency, burden fairness, and privacy leakage under matched information constraints. Across seven model families, we find that completion alone misses important failures: agents leave avoidable cost on the table, communication volume does not predict lower regret, and privacy-preserving silence can deprive teammates of cost information needed for fair burden allocation. CalBench provides a reproducible testbed for studying whether autonomous assistants can coordinate on behalf of users before deployment at scale.</p>
   </details>
 </div>
 
@@ -1169,44 +1205,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Amirreza Zamani, Sajad Daei, Parastoo Sadeghi, Mikael Skoglund</p>
     <p><b>Summary:</b> We study sparse locally private channels of the form $M(y\mid x)\propto w(x,y) 1\{y\in S(x)\},$ where the admissible output set $S(x)$ is allowed to depend on the private input $x$ and is assumed to be small. Here, we consider the sparse discrete-Laplace family with kernel $w(x,y)=e^{-λd(x,y)}$ and the sparse Gaussian family with kernel $w(x,y)=e^{-d(x,y)^2/(2σ^2)}$. For both families we give exact characterizations of pure and approximate local differential privacy. For pure $\varepsilon$-local differential privacy, we show that input-dependent sparse supports are obtained when all supports coincide. For $(\varepsilon,δ)$-local differential privacy, we derive exact formulas for the privacy defect in terms of support leakage and excess privacy loss on the overlap region. We then specialize the analysis to radius-truncated sparse discrete-Laplace and radius-truncated sparse Gaussian mechanisms and obtain explicit privacy-sparsity tradeoffs in terms of the support size $s$. In particular, we show that nontrivial approximate local privacy requires a minimum support size, whereas larger supports reduce support leakage but increase distortion. For the Gaussian family, the overlap term exhibits an additional quadratic dependence on the support radius, which implies a sharper tradeoff between privacy and sparsity. These results identify the support cardinality as the intrinsic complexity parameter of the mechanism and yield an optimal design principle: choose the smallest support size that satisfies the target privacy constraint.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09530v3">MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-05-10T13:31:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yining Chen, Jihao Zhao, Bo Tang, Haofen Wang, Yue Zhang, Fei Huang, Feiyu Xiong, Zhiyu Li</p>
-    <p><b>Summary:</b> As LLM-powered agents are increasingly deployed in edge-cloud environments, personalized memory has become a key enabler of long-term adaptation and user-centric interaction. However, cloud-assisted memory management exposes sensitive user information, while existing privacy protection methods typically rely on aggressive masking that removes task-relevant semantics and consequently degrades memory utility and personalization quality. To address this challenge, We propose MemPrivacy, which identifies privacy-sensitive spans on edge devices, replaces them with semantically structured type-aware placeholders for cloud-side memory processing, and restores the original values locally when needed. By decoupling privacy protection from semantic destruction, MemPrivacy minimizes sensitive data exposure while retaining the information required for effective memory formation and retrieval. We also construct MemPrivacy-Bench for systematic evaluation, a dataset covering 200 users and over 155k privacy instances, and introduce a four-level privacy taxonomy for configurable protection policies. Experiments show that MemPrivacy achieves strong performance in privacy information extraction, substantially surpassing strong general-purpose models such as GPT-5.2 and Gemini-3.1-Pro, while also reducing inference latency. Across multiple widely used memory systems, MemPrivacy limits utility loss to within 1.6%, outperforming baseline masking strategies. Overall, MemPrivacy offers an effective balance between privacy protection and personalized memory utility for edge-cloud agents, enabling secure, practical, and user-transparent deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09232v1">Privacy-Preserving Distributed Learning in IoT Systems: A Unified Threat Model and Evaluation Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-10T00:22:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> John Cartmell, Alexander Williams</p>
-    <p><b>Summary:</b> The increasing deployment of Internet-of-Things (IoT) devices has accelerated the use of distributed learning frameworks, where data remains local while model updates are shared across decentralized systems. Although this reduces centralized data collection, it introduces privacy risks through the exchange of gradients, model parameters, and intermediate representations. A variety of privacy-preserving techniques have been proposed to address these risks, including differential privacy, cryptographic methods, and lightweight system-level approaches. However, existing surveys often evaluate these methods in isolation and lack a unified framework for comparing their effectiveness under realistic attack models and IoT resource constraints.
-  This paper presents a structured analysis of privacy-preserving techniques for distributed learning in IoT environments. A unified threat model is introduced that captures model inversion, membership inference, gradient leakage, and communication-based attacks. Building on this model, an evaluation framework is developed to compare methods in terms of both privacy robustness and system-level efficiency, including computational, memory, and communication overhead.
-  Using this framework, representative approaches including differential privacy, homomorphic encryption, secure multi-party computation, distributed selective stochastic gradient descent, and Bloom Filter-based methods are analyzed. The results highlight a fundamental trade-off between privacy strength and system efficiency. In particular, Bloom Filter-based encodings are shown to provide lightweight privacy through collision-induced ambiguity while maintaining low computational and communication overhead. The paper provides a unified perspective on privacy-preserving design choices for distributed learning in IoT systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09198v1">Rushed by Discomfort, Trapped by Immersion: Users' Experiences and Responses to Privacy Deceptive Design in Commercial VR Applications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-05-09T22:34:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hilda Hadan, Michaela Valiquette, Lennart E. Nacke, Leah Zhang-Kennedy</p>
-    <p><b>Summary:</b> Commercial Virtual Reality (VR) transforms people's virtual experiences but introduces deceptive design opportunities that threaten user privacy. Although privacy deceptive patterns on 2D platforms are well-documented, their impacts in VR remain understudied. We surveyed 481 users' experiences and responses to privacy deceptive patterns across eight commercial VR scenarios. We found that VR deceptive design can exploit both cognitive vulnerabilities and bodily strain, a phenomenon we define as Ergonomic Susceptibility, and that VR's sensory-rich experiences can make users more likely to accept invasive data disclosure framed as immersion-preserving. Users recognized manipulation but their prior non-VR exposure can foster privacy resignation. Our study shows ergonomics is a critical factor in future privacy-preserving VR design, and urges VR researchers, designers, and policymakers to develop ethical design and privacy management solutions that account for VR's unique multimodal, immersive, and ergonomic properties, building immersive experiences that respect user privacy and mitigate manipulative data practices.</p>
   </details>
 </div>
 
