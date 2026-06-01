@@ -2,6 +2,43 @@
 <h2>2026-05</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.31167v1">LLM-FACETS: A Privacy-Preserving Framework for Evaluating LLM Transparency and Accountability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-05-29T11:20:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tom Lucas, Alessio Buscemi, Alfredo Capozucca, German Castignani, Barbara Delacroix</p>
+    <p><b>Summary:</b> Assessing whether Large Language Models outputs are factually grounded, epistemically calibrated, and methodologically reproducible is a prerequisite for responsible AI deployment. Yet auditing LLMs remains inaccessible to non-technical practitioners: existing tools require programming expertise and non-trivial environment setup, and cloud-hosted platforms transmit evaluation data to external services, creating barriers for domain experts and compliance officers legally responsible for AI oversight. We introduce LLM-FACETS (LLM FActuality Cross-EvaluaTion System): an open-source framework with a browser-accessible interface and a plugin architecture, structured around three practitioner profiles (technical experts, domain experts, compliance officers) that mirror the stakeholder categories identified in the EU AI Act and the NIST AI Risk Management Framework. The architecture makes data flows explicit: deterministic metrics (BLEU, ROUGE, BERTScore) run entirely within the self-hosted server with no outbound transmission; LLM-judge metrics contact external APIs explicitly, with users retaining full credential control. The framework operationalizes transparency through three mechanisms: token-level log-probability visualization for epistemic uncertainty, multi-judge consensus to mitigate judge bias, and RAG Triad metrics (Faithfulness, Answer Relevance, Context Relevance) to detect and localize hallucinations. A plugin architecture allows any new metric or dataset to be integrated without modifying the evaluation pipeline. The open-source implementation enables cross-checking across multiple metrics targeting the same property, ensuring reproducibility and decoupling AI accountability from the teams building the systems assessed. We verify the framework through cross-validation of 18 metric implementations against canonical reference libraries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.30600v1">The Fast Mixing Mechanism for Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-05-28T21:48:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Omri Lev, Moshe Shenfeld, Vishwak Srinivasan, Katrina Ligett, Ashia C. Wilson</p>
+    <p><b>Summary:</b> Randomized sketching is a central tool for compressing large-scale optimization problems while preserving accuracy. In particular, sketches that are based on structured matrices, such as the Hadamard matrix, can be applied efficiently and often yield solutions that approximate those of the original problem at much lower computational cost. In differential privacy (DP), Gaussian sketching has been used to solve DP linear regression, beginning with \citet{sheffet2017differentially, sheffet2019old} and later refined by \citet{lev2025gaussianmix, lev2026near}. However, although these methods achieve strong utility guarantees, they usually do not improve runtime over classical DP approaches. In this work, we introduce a new DP sketching mechanism based on fast transforms, which, in certain cases, matches the runtime of classical fast sketching methods. We prove state-of-the-art privacy guarantees for this mechanism and show that, in favorable regimes, they match those of the Gaussian sketch up to a constant factor. As an application, we combine this mechanism with recent sketch-based methods for DP linear regression to obtain a new algorithm with strong utility and improved runtime. We establish privacy and accuracy guarantees for this algorithm, yielding, to the best of our knowledge, the first fast method for DP ordinary least squares.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2605.30476v1">Local Differential Privacy with Correlated Noise Achieves Central-DP Optimal Cost</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-05-28T18:47:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Madhura Pathegama, Srikanth Avasarala, Viveck R. Cadambe, Juba Ziani</p>
+    <p><b>Summary:</b> We study privately estimating the sum of $n$ user-held values in the presence of an honest-but-curious server. This motivates requiring privacy not only at data release but also throughout server-side computation. We therefore adopt the local (pure) differential privacy model, in which each user transmits a noise-perturbed value. It is well known that independent local noise typically incurs a substantial utility loss compared to the centralized model, where noise is added only after aggregation.
+  We show that this gap is not fundamental. By carefully designing correlations among the locally added noise variables, we construct $\varepsilon$-DP mechanisms whose estimation cost matches the optimal cost achievable in the centralized setting, up to an arbitrarily small error.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2605.30123v1">Privacy-Enhanced Zero-Order Federated Learning via xMK-CKKS over Wireless Channels</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-05-28T15:56:43Z</p>
@@ -38,7 +75,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.28646v1">MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.28646v2">MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2026-05-27T15:51:22Z</p>
   <details>
@@ -449,7 +486,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.23429v1">Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation</a></h3>
+  <h3><a href="http://arxiv.org/abs/2605.23429v2">Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-05-22T09:41:54Z</p>
   <details>
@@ -1167,44 +1204,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Jiahui Wei, Marios Kountouris</p>
     <p><b>Summary:</b> We introduce a Rényi Rate-Distortion-Perception-Privacy (R-RDPP) framework for indirect source coding. A latent source~$S$ is correlated with a private attribute~$U$, and the encoder observes only a noisy view~$X$ such that $(S,U) - X - Y$ holds at the decoder output~$Y$. The communication cost is measured by Sibson's $α$-mutual information $\Ialp$, the privacy leakage by $\Ibeta$, the semantic distortion between $S$ and $Y$, and the realism constraint at the semantic marginal $P_S$. We characterize the scalar Gaussian RDPP tradeoff, revealing that standard privacy metrics inherently penalize legitimate semantic recovery. To resolve this, we introduce a conditional privacy measure that quantifies only the residual leakage. In addition, we refine the achievability bounds for $α> 1$ via the Poisson functional representation. By deriving the exact geometric-mixture distribution of the Poisson index, we obtain exact closed-form expressions for integer-order Rényi entropies and sharper computable bounds in regimes where the resulting expression improves the logarithmic-moment approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09890v1">Deep Learning under Fractional-Order Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-11T02:29:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Partohaghighi, Roummel Marcia</p>
-    <p><b>Summary:</b> Differentially private stochastic gradient descent (DP-SGD) is a standard approach to privacy-preserving learning based on per-example clipping, subsampling, Gaussian perturbation, and privacy accounting. Classical DP-SGD releases a noisy version of the current clipped subsampled gradient sum. We propose Fractional-Order Differentially Private Stochastic Gradient Descent (\textbf{FO-DP-SGD}), a mechanism-level extension that replaces this current-only query, before Gaussian noise is added, with a fractional recursive query combining the current clipped sum with a finite-window, power-law-weighted aggregation of previously released private sum-level outputs. This injects fractional memory into the release mechanism while preserving the standard \emph{sum-then-noise-then-divide} structure.
-  Under add/remove adjacency with Poisson subsampling, the current-step sensitivity analysis shows that the only newly data-dependent term is the scaled current clipped sum. Hence, conditioned on the private history, the effective \(\ell_2\)-sensitivity is at most \(βC\), where \(C\) is the clipping threshold and \(β\in(0,1]\) controls the current-step contribution. Thus, FO-DP-SGD admits standard per-step Rényi differential privacy accounting via a Poisson-subsampled Gaussian mechanism with effective noise-to-sensitivity ratio \(σ/β\), and composes to yield overall \((\varepsilon,δ)\)-differential privacy guarantees.
-  FO-DP-SGD provides a framework for studying long-memory effects in private optimization. The fractional order, memory window, and mixing coefficient govern the trade-off among current-step sensitivity, signal retention, and private-history influence. Experiments on SVHN, CIFAR-10, and CIFAR-100 show improved test accuracy and privacy--utility performance over DP-SGD and private baselines including DP-Adam, DP-IS, SA-DP-SGD, ADP-AdamW, DP-SAT, and DP-Adam-AC.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09823v2">CalBench: Evaluating Coordination-Privacy Trade-offs in Multi-Agent LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-05-10T23:56:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chelsea Zou, Yiheng Yao, Selena She, Noah Goodman, Robert D. Hawkins</p>
-    <p><b>Summary:</b> Personal AI assistants are beginning to act as delegates with access to calendars, inboxes, and user preferences. Calendar scheduling makes the trust problem concrete: an assistant must coordinate with other assistants while deciding what to reveal about the person it represents. We introduce CalBench, a controlled benchmark for multi-agent calendar scheduling under private information. In each task, $N$ agents manage separate private calendars and schedule a stream of $M$ incoming meetings while minimizing disruption costs. Because no agent can inspect another agent's calendar, success requires language-mediated coordination rather than centralized planning. CalBench generates solvable scenarios with CP-SAT oracle solutions and decentralized non-LLM reference protocols, enabling evaluation of task success, excess cost, communication efficiency, burden fairness, and privacy leakage under matched information constraints. Across seven model families, we find that completion alone misses important failures: agents leave avoidable cost on the table, communication volume does not predict lower regret, and privacy-preserving silence can deprive teammates of cost information needed for fair burden allocation. CalBench provides a reproducible testbed for studying whether autonomous assistants can coordinate on behalf of users before deployment at scale.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.09561v1">Sparse Discrete Laplace and Gaussian Mechanisms under Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-05-10T14:24:30Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Amirreza Zamani, Sajad Daei, Parastoo Sadeghi, Mikael Skoglund</p>
-    <p><b>Summary:</b> We study sparse locally private channels of the form $M(y\mid x)\propto w(x,y) 1\{y\in S(x)\},$ where the admissible output set $S(x)$ is allowed to depend on the private input $x$ and is assumed to be small. Here, we consider the sparse discrete-Laplace family with kernel $w(x,y)=e^{-λd(x,y)}$ and the sparse Gaussian family with kernel $w(x,y)=e^{-d(x,y)^2/(2σ^2)}$. For both families we give exact characterizations of pure and approximate local differential privacy. For pure $\varepsilon$-local differential privacy, we show that input-dependent sparse supports are obtained when all supports coincide. For $(\varepsilon,δ)$-local differential privacy, we derive exact formulas for the privacy defect in terms of support leakage and excess privacy loss on the overlap region. We then specialize the analysis to radius-truncated sparse discrete-Laplace and radius-truncated sparse Gaussian mechanisms and obtain explicit privacy-sparsity tradeoffs in terms of the support size $s$. In particular, we show that nontrivial approximate local privacy requires a minimum support size, whereas larger supports reduce support leakage but increase distortion. For the Gaussian family, the overlap term exhibits an additional quadratic dependence on the support radius, which implies a sharper tradeoff between privacy and sparsity. These results identify the support cardinality as the intrinsic complexity parameter of the mechanism and yield an optimal design principle: choose the smallest support size that satisfies the target privacy constraint.</p>
   </details>
 </div>
 
