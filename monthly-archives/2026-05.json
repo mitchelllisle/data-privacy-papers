@@ -4456,5 +4456,136 @@
       "cs.MA",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.31167v1",
+    "title" : "LLM-FACETS: A Privacy-Preserving Framework for Evaluating LLM Transparency and Accountability",
+    "summary" : "Assessing whether Large Language Models outputs are factually grounded, epistemically calibrated, and methodologically reproducible is a prerequisite for responsible AI deployment. Yet auditing LLMs remains inaccessible to non-technical practitioners: existing tools require programming expertise and non-trivial environment setup, and cloud-hosted platforms transmit evaluation data to external services, creating barriers for domain experts and compliance officers legally responsible for AI oversight. We introduce LLM-FACETS (LLM FActuality Cross-EvaluaTion System): an open-source framework with a browser-accessible interface and a plugin architecture, structured around three practitioner profiles (technical experts, domain experts, compliance officers) that mirror the stakeholder categories identified in the EU AI Act and the NIST AI Risk Management Framework. The architecture makes data flows explicit: deterministic metrics (BLEU, ROUGE, BERTScore) run entirely within the self-hosted server with no outbound transmission; LLM-judge metrics contact external APIs explicitly, with users retaining full credential control. The framework operationalizes transparency through three mechanisms: token-level log-probability visualization for epistemic uncertainty, multi-judge consensus to mitigate judge bias, and RAG Triad metrics (Faithfulness, Answer Relevance, Context Relevance) to detect and localize hallucinations. A plugin architecture allows any new metric or dataset to be integrated without modifying the evaluation pipeline. The open-source implementation enables cross-checking across multiple metrics targeting the same property, ensuring reproducibility and decoupling AI accountability from the teams building the systems assessed. We verify the framework through cross-validation of 18 metric implementations against canonical reference libraries.",
+    "updated" : "2026-05-29T11:20:47Z",
+    "published" : "2026-05-29T11:20:47Z",
+    "authors" : [
+      {
+        "name" : "Tom Lucas"
+      },
+      {
+        "name" : "Alessio Buscemi"
+      },
+      {
+        "name" : "Alfredo Capozucca"
+      },
+      {
+        "name" : "German Castignani"
+      },
+      {
+        "name" : "Barbara Delacroix"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.30600v1",
+    "title" : "The Fast Mixing Mechanism for Differential Privacy",
+    "summary" : "Randomized sketching is a central tool for compressing large-scale optimization problems while preserving accuracy. In particular, sketches that are based on structured matrices, such as the Hadamard matrix, can be applied efficiently and often yield solutions that approximate those of the original problem at much lower computational cost. In differential privacy (DP), Gaussian sketching has been used to solve DP linear regression, beginning with \\citet{sheffet2017differentially, sheffet2019old} and later refined by \\citet{lev2025gaussianmix, lev2026near}. However, although these methods achieve strong utility guarantees, they usually do not improve runtime over classical DP approaches. In this work, we introduce a new DP sketching mechanism based on fast transforms, which, in certain cases, matches the runtime of classical fast sketching methods. We prove state-of-the-art privacy guarantees for this mechanism and show that, in favorable regimes, they match those of the Gaussian sketch up to a constant factor. As an application, we combine this mechanism with recent sketch-based methods for DP linear regression to obtain a new algorithm with strong utility and improved runtime. We establish privacy and accuracy guarantees for this algorithm, yielding, to the best of our knowledge, the first fast method for DP ordinary least squares.",
+    "updated" : "2026-05-28T21:48:37Z",
+    "published" : "2026-05-28T21:48:37Z",
+    "authors" : [
+      {
+        "name" : "Omri Lev"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      },
+      {
+        "name" : "Vishwak Srinivasan"
+      },
+      {
+        "name" : "Katrina Ligett"
+      },
+      {
+        "name" : "Ashia C. Wilson"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.30476v1",
+    "title" : "Local Differential Privacy with Correlated Noise Achieves Central-DP Optimal Cost",
+    "summary" : "We study privately estimating the sum of $n$ user-held values in the presence of an honest-but-curious server. This motivates requiring privacy not only at data release but also throughout server-side computation. We therefore adopt the local (pure) differential privacy model, in which each user transmits a noise-perturbed value. It is well known that independent local noise typically incurs a substantial utility loss compared to the centralized model, where noise is added only after aggregation.\n  We show that this gap is not fundamental. By carefully designing correlations among the locally added noise variables, we construct $\\varepsilon$-DP mechanisms whose estimation cost matches the optimal cost achievable in the centralized setting, up to an arbitrarily small error.",
+    "updated" : "2026-05-28T18:47:37Z",
+    "published" : "2026-05-28T18:47:37Z",
+    "authors" : [
+      {
+        "name" : "Madhura Pathegama"
+      },
+      {
+        "name" : "Srikanth Avasarala"
+      },
+      {
+        "name" : "Viveck R. Cadambe"
+      },
+      {
+        "name" : "Juba Ziani"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.28646v2",
+    "title" : "MaskClaw: Edge-Side Personalized Privacy Arbitration for GUI Agents with Behavior-Driven Skill Evolution",
+    "summary" : "GUI agents rely on screenshots to infer intent and operate across applications, but these screenshots often contain private messages, medical records, payment credentials, and workplace-specific workflows. Privacy decisions in this setting depend on task, recipient, application state, and user role, yet static PII detectors miss these boundaries and cloud-side VLM reasoning can upload the raw screen before deciding what should be protected. We present MaskClaw, an edge-side privacy arbitrator for GUI agents. MaskClaw extracts local visual evidence, retrieves user- and task-specific policy memory, and decides Allow, Mask, or Ask before raw screenshots leave a trusted user- or organization-controlled environment. In five designed skill-evolution scenarios, it turns corrections, cancellations, and edits into reusable privacy skills checked by a sandbox gate. We introduce P-GUI-Evo, a benchmark built from real UI patterns, reconstructed HTML screens, and sanitized labels. Experiments show that pattern matching, cloud reasoning, and routing alone tend to over-confirm, over-mask, or expose raw screenshots under the same protocol. The artifact is available at https://github.com/Theodora-Y/MaskClaw.",
+    "updated" : "2026-05-29T04:03:46Z",
+    "published" : "2026-05-27T15:51:22Z",
+    "authors" : [
+      {
+        "name" : "Yanqiu Zhao"
+      },
+      {
+        "name" : "Dongying Zheng"
+      },
+      {
+        "name" : "Kaibo Huang"
+      },
+      {
+        "name" : "Yukun Wei"
+      },
+      {
+        "name" : "Zhongliang Yang"
+      },
+      {
+        "name" : "Linna Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23429v2",
+    "title" : "Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation",
+    "summary" : "This study proposes a novel radar-centric signaling design and architecture for secure integrated sensing and communication (ISAC) systems. The proposed framework is designed to provide robust physical layer security for data transmission while simultaneously enhancing sensing privacy. It employs index modulation and phase coding over frequency-modulated continuous-wave radar (FMCW) chirps, where index modulation (IM) provides an outer layer of data security, and we explicitly design the phase coding (PC) to perturb the resulting signal's ambiguity function (AF) to enhance sensing privacy. This design reduces the risk of unauthorized surveillance by rendering target velocity estimation practically infeasible for unauthorized passive sensing hardware (i.e., a sensing eavesdropper, S-Eve) and significantly impairing its range estimation capabilities. Furthermore, this study also presents the transmitter and receiver architectures required for effective modulation and demodulation of the proposed ISAC signaling and for performing sensing at the legitimate sensing hardware. Simulation results show that the proposed approach achieves high data throughput while enhancing communication security and sensing privacy.",
+    "updated" : "2026-05-29T12:44:47Z",
+    "published" : "2026-05-22T09:41:54Z",
+    "authors" : [
+      {
+        "name" : "Murat Temiz"
+      },
+      {
+        "name" : "Christos Masouros"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR"
+    ]
   }
 ]
