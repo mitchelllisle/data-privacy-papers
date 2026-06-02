@@ -4587,5 +4587,247 @@
       "eess.SP",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.01386v1",
+    "title" : "GuidaPA: Privacy-Preserving Chatbot for Public Administration via Federated Learning",
+    "summary" : "We present GuidaPA, a privacy-preserving chatbot for the Italian Public Administration (PA) trained via Federated Learning (FL) on documentation from two national PA platforms, SIGESON and SIDFORS. Our corpus includes approximately 8 pages of SIGESON manuals and 31 pages of SIDFORS manuals/FAQs; while this study uses public documentation as a safe proxy, the intended deployment extends to restricted internal sources (e.g., tickets, officer manuals, database extracts) that can not be centrally pooled due to regulatory and organizational constraints. GuidaPA integrates role-based access control, secure client-side preprocessing, explicit monitoring of non-IID effects, and parameter-efficient federated fine-tuning of large language models. Using QLoRA (4-bit) over 15 federated rounds with an 80/20 train-test split per client, we evaluate answer quality with ROUGE, BLEU-4, and METEOR. The best federated model achieves ROUGE-1/2/L of 61.10/55.77/59.44, BLEU-4 of 45.02, and METEOR of 63.94-close to private centralized fine-tuning while keeping data on-site. Compared to the general-purpose baseline, domain fine-tuning improves ROUGE-1 from 41.45 to 62.18 and BLEU-4 from 26.97 to 50.90. Overall, the results indicate that FL can deliver high-quality conversational AI for public services without centralized data sharing",
+    "updated" : "2026-05-31T18:20:25Z",
+    "published" : "2026-05-31T18:20:25Z",
+    "authors" : [
+      {
+        "name" : "Daniel M. Jimenez-Gutierrez"
+      },
+      {
+        "name" : "Albenzio Cirillo"
+      },
+      {
+        "name" : "Raffaele Nicolussi"
+      },
+      {
+        "name" : "Alessio Beltrame"
+      },
+      {
+        "name" : "Andrea Vitaletti"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.01225v1",
+    "title" : "Privacy-Preserving Smart Surveillance with Cross-Dataset Violence Detection and Decentralized Evidence Governance",
+    "summary" : "AI-enabled surveillance can accelerate public-safety response, yet most systems still leave recorded evidence under centralized administrative control. This paper proposes a privacy-preserving smart surveillance framework that separates incident detection from evidence disclosure. A lightweight MobileNetV2-based video classifier detects violent clips, while each recorded incident segment is immediately encrypted and made accessible only through threshold-based approval. The decryption key is split with Shamir's Secret Sharing, member shares are protected with public-key cryptography, and voting is supported by time-limited tokens, two-factor authentication, signatures, and audit logs. This study evaluates MobileNetV2+LSTM, MobileNetV2+BiLSTM, and MobileNetV2+temporal CNN heads on SCVD, RWF-2000, and Real-Life Violence Situations under seven in-domain and cross-dataset scenarios. The best all-source model, MobileNetV2+BiLSTM, reaches 93.5% test accuracy and ROC-AUC 0.980% on the merged held-out set, while lower RWF-2000 slice performance confirms persistent dataset shift.",
+    "updated" : "2026-05-31T13:16:41Z",
+    "published" : "2026-05-31T13:16:41Z",
+    "authors" : [
+      {
+        "name" : "Hasan Coşkun"
+      },
+      {
+        "name" : "Furkan Çolhak"
+      },
+      {
+        "name" : "Andrea Kulakov"
+      },
+      {
+        "name" : "Vesna Dimitrova"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.00986v1",
+    "title" : "Profiling Privacy Preservation Against Gradient Inversion Attacks in Tabular Federated Learning",
+    "summary" : "Federated learning (FL) enables multiple data holders to train machine learning models collaboratively without centralizing raw data, making it useful in privacy sensitive domains such as healthcare and institutional data sharing. FL keeps data local to clients while communicating only model updates, such as gradients or model deltas. Nevertheless, these updates can expose private client data through gradient inversion attacks (GIAs). We study this risk for tabular FL under an honest-but-curious server threat model across FL protocols, client batch sizes, training stages, attacker assumptions, model architectures, and binary classification, multiclass classification, and regression tasks. We use MIMIC-IV and complementary benchmark datasets. Our evaluation distinguishes numerical and categorical recovery, baseline recoverability, feature level recovery, and exact match rate (EMR). We evaluate FedSGD gradients and FedAvg model deltas with an exposure aligned protocol, comparing attacked models after matched client data exposure rather than matched communication rounds. We compare multilayer perceptron (MLP), ResNet, and FT-Transformer models, and isolate architecture effects through an MLP grid over width, depth, activation, normalization, and dropout. The results show that small client batches and updates representing few distinct records are most vulnerable. Larger local batches and stronger aggregation reduce reconstruction but do not eliminate leakage. FT-Transformer is consistently harder to invert than one-hot baselines, while reconstructability also varies substantially within the MLP family. These findings identify architecture as a practical privacy variable in tabular FL. We also show that aggregate reconstruction accuracy can overstate complete record recovery in sparse data, making EMR and baseline comparisons essential.",
+    "updated" : "2026-05-31T03:54:47Z",
+    "published" : "2026-05-31T03:54:47Z",
+    "authors" : [
+      {
+        "name" : "Ivo Osterberg Nilsson"
+      },
+      {
+        "name" : "Maximilian Birr Engvall"
+      },
+      {
+        "name" : "Viktor Valadi"
+      },
+      {
+        "name" : "Teddy Lazebnik"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.00962v1",
+    "title" : "SS-ZKR: Spatial-Semantic Zero-Knowledge Routing for Privacy-Preserving Multi-Agent Collaboration",
+    "summary" : "Foundational agent interoperability standards, notably the Agent-to-Agent (A2A) protocol and the Model Context Protocol (MCP), have advanced multi-agent system communication, and complementary identity frameworks leveraging W3C Decentralised Identifiers (DIDs) and Verifiable Credentials (VCs) provide cryptographic agent authentication. However, no existing protocol supports content-based semantic routing of agent payloads across organisational trust boundaries without requiring the routing intermediary to decrypt the payload, which is a hard constraint in compliance-sensitive environments governed by GDPR, HIPAA, and MiFID II. We propose SS-ZKR, a three-mechanism privacy-preserving routing protocol designed as a complementary layer atop A2A/MCP. Mechanism I introduces blind routing via differentially private semantic intent vectors cryptographically bound to zero-knowledge proofs of payload-schema consistency. Mechanism II offers vector-weighted adaptive payload sanitisation with formal (epsilon, delta)-differential privacy for numerical fields and heuristic semantic aggregation for textual fields. Mechanism III presents a spatial-to-cryptographic policy compiler that translates visually defined trust-zone topologies into deterministic zero-knowledge access circuits. We provide a formal threat model, analyse information leakage bounds of intent vectors, present pseudocode for all three mechanisms, and give analytical complexity comparisons against TEE-based and homomorphic encryption-based routing baselines. SS-ZKR lets enterprises in financial services, healthcare, and defence orchestrate heterogeneous AI agents across regulatory boundaries without exposing proprietary data to routing infrastructure.",
+    "updated" : "2026-05-31T02:34:38Z",
+    "published" : "2026-05-31T02:34:38Z",
+    "authors" : [
+      {
+        "name" : "Hassan Touheed"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.00407v1",
+    "title" : "Privacy-preserving Prosody Representation Learning",
+    "summary" : "Speech representations that capture prosodic information can be useful for both understanding and generation. However, speaker characteristics are reflected in acoustic-prosodic features (e.g., pitch). To address privacy concerns from the leakage of identity information, we propose a new self-supervised approach to learning prosody representations that incorporates speaker disentanglement strategies. We evaluate our encoder on three tasks to probe representation capabilities, including pitch reconstruction and detection of different prosodic events. Our encoder outperforms raw prosody and HuBERT-base baselines, achieving strong speaker disentanglement without adverse impact on prosody-related downstream tasks.",
+    "updated" : "2026-05-29T22:49:56Z",
+    "published" : "2026-05-29T22:49:56Z",
+    "authors" : [
+      {
+        "name" : "Kevin Everson"
+      },
+      {
+        "name" : "Mari Ostendorf"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25631v4",
+    "title" : "The Privacy Subsidy in Continuous-Time Kyle: Cumulative Welfare under Noise-Perturbed Order-Flow Observation",
+    "summary" : "We extend the closed-form privacy-subsidy result of Nakamura~(2026, arXiv:2605.15746) from the single-period Kyle model to continuous-time. A committed Bayesian automated market maker observes the aggregate order flow perturbed by an independent Brownian privacy channel of diffusion intensity $σ_\\varepsilon$. Under the Markovian linear equilibrium, the price-impact coefficient is $λ= σ_v / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$ -- constant in time -- and the cumulative expected transfer from the protocol's liquidity pool to traders over $[0,1]$ is $|Π_M| = σ_v σ_\\varepsilon^2 / \\sqrt{σ_u^2 + σ_\\varepsilon^2}$. We then establish a structural correspondence between this cumulative privacy subsidy and Loss-Versus-Rebalancing (Milionis et al.~2022), identifying privacy-noise welfare as the order-flow observation analog of LVR's price observation gap. The result completes the continuous-time Kyle leg of the program of quantifying break-even fees for committed-AMM exchanges under privacy-aggregated information environments.",
+    "updated" : "2026-05-31T05:56:52Z",
+    "published" : "2026-05-25T09:31:40Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.21421v2",
+    "title" : "AIGaitor: Privacy-preserving and cloud-free motion analysis for everyone, using edge computing",
+    "summary" : "Motion capture is the gold standard for measuring human movement, but clinical use remains limited by cost, technical complexity, and privacy concerns. AIGaitor is a privacy-preserving, cloud-free motion analysis system that runs markerless monocular motion-capture pipelines and downstream deep-learning analysis entirely on a consumer smartphone using on-device neural accelerators. To motivate its design, we surveyed 74 rehabilitation clinicians: 92 percent said they would adopt an accurate, cost-effective, easy-to-use AI gait analysis tool, while 79.7 percent cited operating cost, 68.9 percent insufficient training, and 64.9 percent privacy concerns as leading barriers. We then optimized and benchmarked mobile iOS implementations of current monocular pipeline components, including 2D and 3D pose estimation, pose optimization, skeleton-based deep-learning analysis, and a vision-language model. A Time-Priority end-to-end on-device pipeline processes a 10 s 4K 60 fps video clip in 77 s on an iPhone 14, matching or beating the same pipeline on a high-end NVIDIA H200 cloud server when network transfer is included: 94 s at global mobile-average uplink and 66 s at developed-world Wi-Fi. Lightweight models such as ViTPose-s achieve real-time keypoint extraction, and skeleton-based action-recognition models provide sub-millisecond gait classification on the same clip. To our knowledge, AIGaitor is the first monocular system to demonstrate end-to-end on-device motion capture and downstream deep-learning analysis, supporting clinically applicable movement analysis that is low-cost, private, and accessible to smartphone users.",
+    "updated" : "2026-06-01T13:33:36Z",
+    "published" : "2026-05-20T17:14:57Z",
+    "authors" : [
+      {
+        "name" : "Lauhitya Reddy"
+      },
+      {
+        "name" : "Trisha M. Kesar"
+      },
+      {
+        "name" : "Hyeokhyen Kwon"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19847v2",
+    "title" : "Auditing Privacy in Multi-Tenant RAG under Account Collusion",
+    "summary" : "Multi-tenant RAG services often treat the account as the privacy boundary: each account receives an $(\\varepsilon_{\\text{acc}},δ_{\\text{acc}})$-DP retrieval guarantee against the tenant index. We show that this framing understates leakage under same-index account collusion. For Gaussian noise-then-select retrieval, $k$ coordinated same-tenant accounts compose to joint leakage $Θ(\\sqrt{k}\\,\\varepsilon_{\\text{acc}})$, not $\\varepsilon_{\\text{acc}}$; we give a matching membership-inference attack and validate the predicted $\\sqrt{k}$ AUC trend in scalar, top-$K$, trained-embedder, and production-scale HNSW settings. We then give a verifier-runnable audit protocol that attests noise-then-select retrieval and reports $(\\textsf{PASS},\\varepsilon_{\\text{audit}})$ for coalitions up to a declared cap $k_{\\max}$, without disclosing the index or changing the retrieval decision rule. The claim is retrieval-channel only: generation-channel leakage and adversarially robust coalition-size estimation are complementary audit predicates.",
+    "updated" : "2026-05-31T20:04:28Z",
+    "published" : "2026-05-19T13:41:59Z",
+    "authors" : [
+      {
+        "name" : "Florian A. D. Burnat"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.19742v4",
+    "title" : "The Privacy Subsidy in Glosten-Milgrom: Bid-Ask Spread and Welfare under Flip-Noise Direction Observation",
+    "summary" : "We derive a closed-form bid-ask spread and welfare decomposition for the Glosten-Milgrom 1985 sequential-trading model when the market maker observes the trade direction perturbed by a binary flip channel of probability $η$ -- a natural information-theoretic model of privacy mechanisms acting on the direction signal. Under a committed Bayesian market-maker pricing rule, the equilibrium spread is $μ(1-2η)Δ$, where $μ$ is the informed-trader fraction and $Δ= v_H - v_L$ the value range. The welfare decomposition identifies a per-trade transfer $μηΔ$ from the protocol's liquidity pool to traders -- the \"privacy subsidy\", mirroring the Gaussian-Kyle analog established in prior work. The result extends the privacy-subsidy concept from continuous Gaussian to discrete two-state microstructure, demonstrating robustness across both classical models. Primary application: MPC-based matching engines with $\\varepsilon$-differentially-private direction disclosure, where the engine prices on a noisy direction signal.",
+    "updated" : "2026-05-31T05:51:56Z",
+    "published" : "2026-05-19T12:12:01Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.17034v2",
+    "title" : "Privacy Policy Enforcement Guardrails for Data-Sensitive Retrieval-Augmented Generation",
+    "summary" : "Standard PII filters often miss contextual data leakage in RAG systems, such as non-regulated attribute clusters that collectively identify individuals. We introduce a Privacy Policy Enforcement (PPE) framework using dual one-class density estimators with fused text embeddings and a calibrated abstain region for out-of-distribution inputs. Using an axis-stratified, multi-LLM synthetic data pipeline across medicine, finance, and law, we found that traditional Gaussian Mixture baselines fail on borderline-safe stress tests by focusing on linguistic register rather than content.\n  Our proposed T3+OCSVM detector, trained on safe and borderline-safe data, achieves a borderline AUROC of 0.93+ while reducing false positives by 44-55 percentage points and maintaining millisecond latency. Compared to supervised MLP classifiers or 14B-parameter LLM judges, our framework offers superior operational suitability, as the former suffers from high abstention rates and the latter from latency and calibration issues. This methodology provides a robust stress-testing standard for any synthetic-data-trained classifier.",
+    "updated" : "2026-05-31T12:30:31Z",
+    "published" : "2026-05-16T15:08:31Z",
+    "authors" : [
+      {
+        "name" : "Osama Zafar"
+      },
+      {
+        "name" : "Alexander Nemecek"
+      },
+      {
+        "name" : "Yiqian Zhang"
+      },
+      {
+        "name" : "Wenbiao Li"
+      },
+      {
+        "name" : "Debargha Ganguly"
+      },
+      {
+        "name" : "Vikash Singh"
+      },
+      {
+        "name" : "Vipin Chaudhary"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.15746v5",
+    "title" : "The Privacy Subsidy: Kyle's $λ$ under Noise-Perturbed Order-Flow Observation",
+    "summary" : "Privacy-preserving cryptocurrency exchanges alter what the pricing mechanism observes about order flow. We derive the unique linear Kyle equilibrium when a committed Bayesian market maker observes order flow perturbed by independent Gaussian privacy noise. The price-impact coefficient and informed-trader strategy rescale by reciprocal factors of the privacy parameter (one down, one up), so their product is invariant. A welfare decomposition then identifies a closed-form per-period transfer from the protocol's LP pool to traders -- the \"privacy subsidy\", the break-even fee any privacy-aggregated exchange must charge. The result is the single-period closed-form privacy-noise analog of Loss-Versus-Rebalancing (Milionis et al. 2022). The primary application is shielded AMMs with explicit additive-noise injection (e.g., differential privacy); related designs (batched swaps, sealed-bid auctions, oracle-pegged crossings) require separate frameworks that we leave to future work.",
+    "updated" : "2026-05-31T05:48:24Z",
+    "published" : "2026-05-15T08:56:16Z",
+    "authors" : [
+      {
+        "name" : "Yuki Nakamura"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.CR",
+      "math.PR",
+      "q-fin.TR"
+    ]
   }
 ]
