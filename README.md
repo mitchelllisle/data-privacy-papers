@@ -1050,116 +1050,116 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.14123v1">Keyed Nonlinear Transform: Lightweight Privacy-Enhancing Feature Sharing for Medical Image Analysis</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-05-13T21:17:41Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haebom Lee, Gyeongjung Kim</p>
-    <p><b>Summary:</b> Feature sharing via split inference offers a lightweight alternative to federated learning for resource-constrained hospitals, but transmitted features still leak patient identity information and lack practical mechanisms for controlled feature sharing. We propose Keyed Nonlinear Transform (KNT), a drop-in feature transformation that applies key-conditioned obfuscation to intermediate representations. KNT reduces re-identification AUC from 0.635 to 0.586, corresponding to a 36% reduction in above-chance identity signal, while introducing only 0.15 ms CPU overhead, without backbone retraining, and preserving classification performance within 1.0 pp. Our analysis shows that KNT's nonlinear transform prevents closed-form inversion and shifts recovery to iterative gradient-based optimization under full key compromise, substantially increasing inversion difficulty. The same transform generalizes to dense prediction tasks, incurring only a 4.4 pp Dice reduction on skin-lesion segmentation without retraining. These results position KNT as a practical and efficient privacy layer for split inference deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.14119v1">Privacy Preserving Multi Agent Path Finding</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2026-05-13T21:08:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rotem Lev Lehman, Roni Stern, Guy Shani</p>
-    <p><b>Summary:</b> In the multi-agent path finding (MAPF) problem, a group of agents search in a graph for a path for each agent where no two paths collide. While in all applications of MAPF the agents must not collide with each other, in some of them the agents may not wish to share their paths due to privacy constraints. In this work, we formulate two types of privacy constraints for MAPF and propose algorithms that preserve them. The first type of privacy we consider is planning-level privacy, which means that during planning, the agents cannot identify exactly the planned location of the other agents. We propose a general framework for obtaining planning-level privacy, which works by adding mock agents to the planning process. The second type of privacy we consider is execution-level privacy, which is relevant when agents have limited sensing capabilities. Execution-level privacy is preserved if none of the agents is allowed to sense the location of the other agents during execution. We show how to adapt two popular MAPF algorithms, namely PIBT and LaCAM, such that they preserve execution-level privacy. Lastly, we propose a post-processing technique that allows the agents to reduce the sum of costs of the returned solution without losing any privacy. We also implemented our algorithms and evaluated them empirically, showing that the proposed post-processing technique indeed improved cost significantly.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.14113v2">ProtoMedAgent: Multimodal Clinical Interpretability via Privacy-Aware Agentic Workflows</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Multiagent Systems-662E9B">
-  <p><b>Published on:</b> 2026-05-13T20:57:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alvaro Lopez Pellicer, Plamen Angelov, Marwan Bukhari, Yi Li, Eduardo Soares, Jemma Kerns</p>
-    <p><b>Summary:</b> While interpretable prototype networks offer compelling case-based reasoning for clinical diagnostics, their raw continuous outputs lack the semantic structure required for medical documentation. Bridging this gap via standard Retrieval-Augmented Generation (RAG) routinely triggers ``retrieval sycophancy,'' where Large Language Models (LLMs) hallucinate post-hoc rationalizations to align with visual predictions. We introduce ProtoMedAgent, a framework that formalizes multimodal clinical reporting as an iterative, zero-gradient test-time optimization problem over a strict neuro-symbolic bottleneck. Operating on a frozen prototype backbone, we distill latent visual and tabular features into a discrete semantic memory. Online generation is strictly constrained by exact set-theoretic differentials and a reflective Scribe-Critic loop, mathematically precluding unsupported narrative claims. To safely bound data disclosure, we introduce a semantic privacy gate governed by $k$-anonymity and $\ell$-diversity. Evaluated on a 4,160-patient clinical cohort, ProtoMedAgent achieves 91.2% Comparison Set Faithfulness where it fundamentally outperforms standard RAG (46.2%). ProtoMedAgent additionally leverages a binding $\ell$-diversity phase transition to systematically reduce artifact-level membership inference risks by an absolute 9.8%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.13503v1">Limits of Personalizing Differential Privacy Budgets</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-13T13:24:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Edwige Cyffers, Juba Ziani</p>
-    <p><b>Summary:</b> A key technical difficulty in differential privacy is selecting a privacy budget that satisfies privacy requirements while maximizing utility. A natural and well-studied workaround is to use personalized privacy budgets, which may differ across agents. In this paper, we show that personalized budgets come with major limitations and that for mean estimation, the dominant factor is not full personalization, but rather choosing the right effective privacy budget. This can be achieved through a simple thresholding operator that we describe. Compared with this thresholding baseline, the gains obtained by fully personalized mechanisms are limited. In particular, we precisely quantify the constant-factor improvement in settings with mixed private and public datasets and in private datasets with two levels of privacy requirements. We also establish upper bounds and identify regimes of maximal gain for arbitrary privacy requirements.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.13418v1">DP-KFC: Data-Free Preconditioning for Privacy-Preserving Deep Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-13T12:14:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marc Molina Van den Bosch, Riccardo Taiello, Albert Sund Aillet, Andrea Protani, Miguel Angel Gonzalez Ballester, Luigi Serio</p>
-    <p><b>Summary:</b> Differentially private optimization suffers from a fundamental geometric mismatch: deep networks have highly anisotropic loss landscapes, yet DP-SGD injects isotropic noise. Second-order preconditioning can resolve this, but estimating curvature typically requires private data (consuming privacy budget) or public data (introducing distribution shift). We show that the Fisher Information Matrix decouples into architectural sensitivity, recoverable via synthetic noise, and input correlations, approximable from modality-specific frequency statistics. We propose DP-KFC, which constructs KFAC preconditioners by probing networks with structured synthetic noise, requiring neither private nor public data. Empirically, DP-KFC consistently outperforms DP-SGD and adaptive baselines across diverse modalities in strong privacy regimes ($\varepsilon \leq 3$). DP-KFC matches private-data preconditioners while public-data variants degrade by up to $4.8\%$, showing that curvature can be estimated without consuming privacy budget or introducing distribution shift. This enables privacy-preserving learning in specialized domains (e.g., medical applications) where regulatory constraints make data scarce.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.13265v1">LightSplit: Practical Privacy-Preserving Split Learning via Orthogonal Projections</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-13T09:45:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mert Cihangiroglu, Alessandro Pegoraro, Phillip Rieger, Antonino Nocera, Ahmad-Reza Sadeghi</p>
-    <p><b>Summary:</b> Split learning (SL) enables collaborative training by partitioning a neural network across clients and a central server, but the cut-layer interface introduces a key challenge: high-dimensional activations incur substantial communication overhead while exposing representations vulnerable to reconstruction attacks. Existing approaches typically address efficiency or privacy in isolation, relying on additional mechanisms such as sparsification, quantization, or noise injection. We propose LightSplit, which limits information exposure and reduces communication overhead by applying a lightweight fixed orthogonal random projection at the cut layer. Based on Shannon's information theory, this projection acts as an information bottleneck that restricts instance-specific information and suppresses exploitable per-sample signals. By transmitting low-dimensional projections instead of raw activations, the server operates on lifted representations without requiring architectural modifications, ensuring compatibility with existing SL architectures. By avoiding additional trainable components on the client, the method remains lightweight and suitable for edge devices while preserving end-to-end differentiability via exact gradient propagation. As the projection is non-invertible, part of the original representation is irreversibly discarded at the client, LightSplit reduces the information available for reconstruction and limits information exposure. We extensively evaluate LightSplit on state-of-the-art benchmarks in both IID and non-IID settings across varying projection dimensions and client scales. Our results show that the method retains more than 95% of the baseline accuracy at up to 32x reduction in transmitted dimensionality while maintaining stable training dynamics.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.12147v1">PrivacySIM: Evaluating LLM Simulation of User Privacy Behavior</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-12T14:05:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> James Flemings, Murali Annavaram</p>
-    <p><b>Summary:</b> Large language models (LLMs) are increasingly used to simulate human behavior, but their ability to simulate $individual$ privacy decisions is not well understood. In this paper, we address the problem of evaluating whether a core set of user persona attributes can drive LLMs to simulate individual-level privacy behavior. We introduce PrivacySIM, an evaluation suite that benchmarks LLM simulation of user privacy behavior against the ground-truth responses of 1,000 users. These users are drawn from five published user studies on privacy spanning LLM healthcare consultations, conversational agents, and chatbots. Drawing on these user studies, we hypothesize three persona facets as plausible predictors of privacy decision-making: demographics, previous experiences, and stated privacy attitudes. We condition nine frontier LLMs on subsets of these three facets and measure how often each model's response to a data-sharing scenario matches the user's actual response. Our findings show that (1) privacy persona conditioning consistently improves simulation quality over no-persona conditioning, but even the strongest model (40.4\% accuracy) remains far from faithfully simulating individual privacy decisions. (2) A user's stated privacy attitudes alone may not be the best predictor because they often diverge from the user's actual privacy behavior. (3) Users with high AI/chatbot experience but low stated privacy attitudes are the most challenging to simulate. PrivacySIM is a first step toward understanding and improving the capabilities of LLMs to simulate user privacy decisions. We release PrivacySIM to enable further evaluation of LLM privacy simulation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.12566v1">On Privacy-Preserving Image Transmission in Low-Altitude Networks: A Swin Transformer-Based Framework with Federated Learning</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-12T09:18:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kexin Zhang, Lixin Li, Yuna Yan, Xin Zhang, Wensheng Lin, Rui Li, Dongwei Zhao, Zhu Han</p>
-    <p><b>Summary:</b> The rapid development of low-altitude economy has driven the proliferation of Unmanned Aerial Vehicle (UAV) applications, including logistics, inspection, and emergency response. However, transmitting high-volume image data from UAVs to ground stations faces significant challenges due to limited bandwidth and stringent privacy requirements. To address these issues, a Semantic Communication (SC) framework based on Federated Learning (FL) is proposed for efficient and privacy-preserving image transmission. A Swin Transformer-based Semantic Communication (STSC) architecture is designed to extract multi-scale semantic features under constrained bandwidth conditions. Dedicated communication and computing nodes are deployed on UAVs to enhance real-time coverage and flexibility. Meanwhile, a FL mechanism enables global model training across distributed devices without sharing raw data, thus preserving user privacy. Simulation experiments conducted on the CIFAR-10 dataset demonstrate that the proposed STSC framework achieves at least 5.7 dB improvement in Peak Signal-to-Noise Ratio (PSNR) compared to DeepJSCC baselines, while also showing superior convergence and generalization performance. The framework effectively integrates UAV-assisted deployment with SC and privacy protection, offering a practical solution for bandwidth-constrained image transmission in low-altitude networks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.11386v1">Revisiting Privacy Preservation in Brain-Computer Interfaces: Conceptual Boundaries, Risk Pathways, and a Protection-Strength Grading Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-05-12T01:17:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lei Sun, Xiuqing Mao, Shuai Zhang, Qingyu Zeng, Min Zhao, Jiyuan Li, Wenle Dong</p>
-    <p><b>Summary:</b> Brain-computer interfaces (BCIs) are moving rapidly from laboratory research into clinical, edge, and real-world settings. Under ISO/IEC 8663:2025, a BCI is a direct communication link between central nervous system activity and external software or hardware systems. This link expands privacy risk beyond raw neural-signal leakage: neural data, derived representations, model assets, and decoded outputs can be re-associated with individuals across collection, transmission, storage, training, inference, and feedback, or used to infer information beyond what a task requires. Starting from the general BCI paradigm, this review deffnes privacy-protection boundaries, protection objects, and the relationship between user data privacy and model privacy within a shared risk pathway. It then proposes a three-dimensional framework - protection object, lifecycle stage, and dominant protection-strength level - to classify existing work into four levels of protection strength. Finally, mental privacy and neuroethical risks are treated as open issues, emphasizing that BCI privacy protection should not only obscure data but also disentangle task-irrelevant sensitive information while preserving downstream utility. Keywords: Brain-computer interface, Neural data privacy, User data privacy, Model privacy, Disentanglement of task-irrelevant sensitive information, Protection-strength grading, Neuroethical risks</p>
-  </details>
-</div>
-
-
 
 <h2>2026-06</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03878v1">Privacy-Robust Incrementality Measurement for Advertising Systems under Signal Loss</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-06-02T16:46:38Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Prashant Shekhar, Caroline Howard</p>
+    <p><b>Summary:</b> Advertising platforms use randomized lift tests to measure incrementality, but privacy-preserving reporting systems degrade the observed signal through match-rate loss, linkability loss, attribution-window loss, aggregation-threshold suppression, randomized reporting noise, and segment-heterogeneous signal loss. This paper formulates privacy-constrained advertising measurement as a robust causal decision problem under the mentioned signal losses. Given a randomized experiment and an ambiguity set for privacy-induced degradation, the framework projects the observation-compatible fiber of clean/unfiltered experimental worlds onto the incrementality functional and returns certified, rejected, and unresolved decisions. The main result gives a sharp decision frontier. Reports outside the frontier support uniformly valid certification or rejection, whereas reports inside it contain too little information for any method to uniformly distinguish above-threshold incrementality from non-incrementality. Supporting results give finite-sample certification, sample-complexity guarantees, a minimax lower bound showing that signal loss reduces effective information, and a reporting-granularity tradeoff. On 2.0M Criteo Uplift rows and the 64K-row Hillstrom email experiment, clean conversion lift is positive in both datasets, with lifts 0.00112 and 0.00495, respectively. Population certification survives mild degradation in Criteo and severe degradation in Hillstrom, while all considered finite-sample stress settings in both datasets remain unresolved after simultaneous uncertainty and reporting noise are included. Overall, the research contributes a decision-theoretic layer for privacy-aware incrementality measurement whose output is the strongest causal-claim justified by degraded ads signals.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03714v1">Don't Trust Us: A privacy-by-design android malware detection pipeline</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-06-02T14:36:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Emmanuele Massidda, Diego Soi, Giorgio Giacinto</p>
+    <p><b>Summary:</b> Android malware detection increasingly relies on collecting and processing sensitive user data, including device identifiers, network artifacts, and runtime traces, while privacy is too often treated as a secondary concern. Existing privacy-aware approaches typically enforce privacy after data collection, for example, through anonymization, encryption, or federated learning, yet still require access to user information and therefore demand a high level of user trust in systems that already operate with privileged access to device activity. We argue that this requirement should be removed rather than managed. Android malware detection should be privacy-aware by design, so that effective analysis does not depend on sensitive data being accessed in the first place. To this end, we first formalize a set of design requirements for privacy-by-design detection and then implement each requirement in a comprehensive pipeline. First, static analysis is performed to extract relevant data from each APK, following the Drebin representation, which is then submitted to an SVM after vectorization. The model is equipped with a dual-reject threshold rule that either commits to a confident decision or defers uncertain samples to a dynamic analysis stage within a sandboxed environment, so that genuine user information never enters the analysis loop. Results confirm that, on a temporally split dataset spanning from 2024 to 2025, the pipeline achieves an F1 score of 0.87 with the first static analysis stage, deferring only 6.7% of test samples to secondary dynamic analysis. Additionally, dynamic sandboxing helps recognize applications' maliciousness with high confidence without extracting any sensitive data. These results demonstrate that strong detection performance is achievable without sacrificing user privacy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03711v1">Ghost: Plausible Yet Unlearnable Trajectories via On-Manifold Substitution for Next-POI Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2026-06-02T14:31:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhenyu Yu, Jihong Guan, Shuigeng Zhou</p>
+    <p><b>Summary:</b> A publisher who releases check-in trajectories inadvertently publishes a strong predictor of every user's future locations. We address this risk by generating unlearnable trajectories, perturbed sequences that yield victim models with degraded next-Point-of-Interest (next-POI) accuracy on clean test inputs. Direct ports of image-domain unlearnable examples fail on two counts. The published data must remain geographically and semantically plausible, and the perturbation must resist purification adversaries that exploit the structure of randomized defences. We propose Ghost, a manifold-aligned framework whose perturbations look like plausible human check-in sequences yet leave no learnable signal behind. Ghost steers each substitution onto the real-trajectory manifold through a frozen trajectory language model, so a denoising-bridge adversary has nothing to invert and a context-free frequency-table adversary recovers a near-uniform distribution. Across two standard benchmarks, and four attacker postures, Ghost achieves protection-gap competitive with the strongest deterministic baseline (PGD) while attaining the lowest restored accuracy under the bigram adaptive purification adversary on both datasets, and lies within one per-cell standard deviation of PGD on the protection-versus-purification-resistance plane. Ablations confirm the manifold prior subsumes the entropy-floor knob of prior randomized defences, with the frequency-table adversary's survival gap remaining within 0.04 even when twenty percent of the pairs are leaked.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03571v1">Channel Chart Location Privacy Based on Geo-Indistinguishability</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-06-02T12:39:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Atsu Kokuvi Angélo Passah, Rodrigo C. de Lamare, Arsenia Chorti</p>
+    <p><b>Summary:</b> Channel charting enables location-based services (LBSs) without requiring explicit position information by using pseudo-locations from the channel chart. While this property implies inherent privacy advantages, it does not provide formal privacy guarantees. In this work, we address location privacy in channel charting referred to as chart location indistinguishability (CLI), which extends geo-indistinguishability (GI) to channel charting representations. In order to achieve CLI, a standard planar Laplace mechanism is investigated and a geometry-aware Mahalanobis norm planar Laplace (MNPL) mechanism is devised. The proposed MNPL mechanism perturbs the channel chart by injecting noise aligned with the local structure of the chart. In the CLI framework with MNPL, privacy is defined in latent channel chart manifolds using locally adaptive covariance derived from chart neighborhoods, while preserving manifold topology under privacy constraints. In addition, differential privacy is considered as a privacy baseline. The proposed approach is evaluated across multiple channel charting schemes. The performance is assessed using utility metrics such as quality loss (QL) and range query error (RQE), as well as geometry-aware metrics including trustworthiness (TW) and continuity (CT). Numerical results demonstrate that the proposed privacy mechanism provides strong privacy guarantees while preserving the channel chart for LBSs tasks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03513v1">Privacy-Preserving High-Resolution Image Gradient Computation Based on Fully Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-06-02T11:32:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yufei Zhou</p>
+    <p><b>Summary:</b> With growing emphasis on privacy protection, homomorphic encryption (HE) has emerged as a core method for privacy-preserving image processing, as it enables operations directly on encrypted data. However, existing research predominantly focuses on low-resolution image processing, and techniques for privacy-preserving high-resolution image processing remain underexplored. As the image size increases, the HE parameters must be adjusted accordingly, and directly applying existing methods can lead to significant computational overhead. In this work, we propose a multi-ciphertext privacy-preserving framework for large images, enabling efficient image encryption and computation under the semi-honest model. Specifically, we divide the large image into multiple sub-images, which allows us to maintain smaller HE parameters and reduce key size. By parallel processing the sub-image ciphertexts and introducing a new bootstrapping placement strategy, we significantly reduce encryption overhead and enhance user experience. On the server side, we optimize the large image convolution operation through a repeated packing technique and implement the Sobel operator computation based on HE. To improve gradient direction calculation for the Sobel operator, we introduce a new polynomial approximation method for the reciprocal function based on the sign function, which can be applied to other HE-based protocols.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03399v1">Selective Token-Level Cryptographic Redaction for Privacy-Preserving Clinical Deployment of Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-06-02T09:40:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Farhan Sheth, Ziyuan Yang, Yongying Lan, Si Yong Yeo</p>
+    <p><b>Summary:</b> While large language models (LLMs) are increasingly used for clinical applications, many existing pipelines require sending raw sensitive health information to remote servers for processing, which heightens the risk of privacy leakage. A natural approach to mitigate this risk is to encrypt the data before transmission. However, straightforward solutions such as encrypting the entire dataset introduce prohibitive computational, alignment, and communication overheads, rendering large-scale practical deployment infeasible. To preserve privacy while maintaining usability, we present Healthcare Encryption & Redaction via Adaptive Linguistic Decomposition (HERALD), a token-level cryptographic redaction framework designed to achieve this balance by encrypting only sensitive tokens while preserving the surrounding context for downstream model utility. HERALD combines medical named-entity recognizer (NER) with part-of-speech (POS) driven policies to select candidate tokens, performs targeted lemmatization to stabilize surface forms, and substitutes each protected token with a deterministic ciphertext wrapped in explicit delimiters. Notably, HERALD is model-agnostic and operates entirely on the client side, ensuring that sensitive content remains encrypted throughout storage, transmission, and processing without requiring changes to downstream models. We evaluated HERALD on both classification and medical question answering (MQA) tasks on public datasets. Across different tasks, experiments illustrate that fully secured baselines suffer significant utility loss, whereas HERALD consistently recovers performance close to plaintext. Overall, HERALD provides a novel utilization pipeline.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03248v1">Investigating Novice Researchers' Perceptions of Research Privacy Within LLM-Assisted Workflows</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-06-02T07:10:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Changxi Wen, Eve He, Ying Ma, Robert Xiao, Xin Yi, Hewu Li</p>
+    <p><b>Summary:</b> Large Language Model (LLMs)-assisted scholarly workflows introduce critical privacy and intellectual property risks. As a uniquely vulnerable cohort driven by publication pressure and a lack of institutional support, novice researchers rely heavily on public LLMs, compelling them to navigate high-stakes privacy-publication trade-offs. To investigate these concerns, we conducted semi-structured interviews with 44 researchers across diverse disciplines. Our findings reveal that the fear of idea leakage paradoxically accelerates, rather than deters, reliance on LLMs, as researchers utilize them to expedite publication. They also held misconceptions that their ideas lacked the unique value to attract targeted attacks, and that their inputs would be safely diluted within massive datasets, preventing reconstruction. From interviews, we identified five types of mitigations including input fragmentation and adversarial probing, though we found that participants largely perceived these measures as ineffective. We outline implications including implementing institution-level sandboxed isolation, scenario-based privacy pedagogy, and verifiable data-deletion audits for transparency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.03190v1">Focused on the User, Overlooking the Risks: Security and Privacy Understandings, Practices and Challenges of Independent Chinese AI Agent Developers</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-06-02T05:49:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shuning Zhang, Mingyao Xu, Zhixin Huang, Yutong Jiang, Rongjun Ma, Yuting Yang, Xin Yi, Kanye Ye Wang, Hewu Li</p>
+    <p><b>Summary:</b> The proliferation of AI agents empowers independent developers, defined as individual or small groups who self-initiate projects rather than fulfill client-based contracts, to create sophisticated autonomous systems, but also introduces novel security and privacy (S&P) challenges beyond traditional corporate structures. We conducted an interview study (N=28) with Chinese developers, whose extensive use of global LLM services offer valuable insights into this population. We investigate their understandings, practices and challenges of S&P challenges in their developed AI agent products. We revealed that independent developers frequently think and act from their users' perspective. They focused on user-facing safety risks such as harmful content while exhibiting low awareness of security vulnerabilities. Consequently, developers rely almost exclusively on ad-hoc, manually crafted safeguards and informal communication, with an absence of formal tools or processes for S&P practices. We found these actions are driven by various inhibitors, primarily a lack of formal training on S&P related skills, accessible security tools and actionable guidance from platforms. Our work contributed the first exploration of independent AI agent developers' S&P understanding, outlining opportunities for tailored security tooling.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.02958v1">Echelon: Auditable Aggregate-Only Language-Model Adaptation Across Privacy Boundaries</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-06-01T23:28:29Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hina Dixit, Punit Kumar, Irene Tenison, Nevasini Sasikumar</p>
+    <p><b>Summary:</b> Cross-organization language-model adaptation increasingly faces hard governance constraints: in many deployments, device-level model state-parameters, activations, optimizer state, and per-device updates-cannot be exported outside an administrative boundary. Existing distributed and federated stacks typically assume cross-site model exchange and then retrofit privacy mechanisms, which complicates compliance and makes auditing brittle. We present Echelon, a boundary-first training architecture that enforces device-level model-state non-export as a systems invariant. Devices train locally inside each boundary; the only cross-boundary payloads are securely aggregated boundary-level deltas plus O(1) coordination metadata, exposed through a concrete audit surface. Restricting exchange to aggregates changes the optimization problem: the system must remain stable under WAN delay, heterogeneous participation, churn, and non-IID data even though the global plane never sees per-device updates. Echelon combines buffered semi-asynchronous secure aggregation, staleness-aware weighting, participation windows, proximal local objectives, and a drift-aware outer synchronization controller. In 1B-parameter LoRA adaptation across M= 2 boundaries, a budget-matched contest over three seeds (24.88M tokens) reaches validation loss 3.887 +/-0.010 and is best or tied-best among tuned low-communication baselines under fixed-token, fixed-bytes, fixed-wall-clock, and fixed-sync-count budgets. In OpenWebText stress tests, Echelon sustains 2,139-2,176 tokens/s across evaluated WAN and non-IID treatments, Echelon-DA improves time-to-target under WAN latency relative to a privacy-parityDiLoCo+SA baseline, and quality degrades by at most 2.2% under 200ms emulated latency or severe non-IID partitioning.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2606.02563v1">IntraShuffler: A Privacy Preserving Framework for Heterogeneous DP Federated Learning</a></h3>
