@@ -4829,5 +4829,70 @@
       "math.PR",
       "q-fin.TR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.27292v2",
+    "title" : "Detectability in Diversity: Improved Canary Crafting for Privacy Auditing in One Run",
+    "summary" : "Privacy auditing aims to empirically assess privacy leakage in machine learning models using membership inference attacks (MIAs), and to derive lower bounds on differential privacy (DP) parameters. Recent one-run auditing methods address the high cost of standard approaches by relying on a single training run with multiple \"canary\" points whose inclusion or exclusion must be detected by the auditor. In this work, we study the problem of efficiently crafting canaries for one-run privacy auditing. Motivated by recent theoretical insights suggesting that interference between canaries contributes to weaker leakage estimates compared to multi-run methods, we propose to optimize canaries to be both highly detectable and minimally interfering. Our approach combines a greedy initialization based on influence functions with a bilevel optimization procedure that maximizes distinguishability while promoting diversity in embedding space, enabling the use of computationally efficient bilevel algorithms. Experiments show that our method achieves stronger privacy leakage estimates at a lower computational cost than existing canary crafting approaches.",
+    "updated" : "2026-06-04T16:21:11Z",
+    "published" : "2026-05-26T17:06:14Z",
+    "authors" : [
+      {
+        "name" : "Mathieu Dagréou"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.25791v2",
+    "title" : "Efficient and Privacy-Preserving Distribution Statistics Analytics on Mobile Spatial Data",
+    "summary" : "With the rapid development of mobile computing technology, massive amounts of spatial data are continuously generated from various mobile terminals and sensing devices, such as smartphones, connected vehicles, and drones. Performing efficient distributed statistical analysis on this data is crucial for real-time mobile computing applications. However, the constrained and dynamic nature of mobile environments exacerbates the privacy challenge: centralizing sensitive data for analysis risks severe privacy leaks, while existing privacy-preserving techniques often introduce excessive overhead or inaccuracies. In this paper, we design, implement, and evaluate the first system that supports efficient and privacy-preserving distribution statistics analysis for mobile spatial data. First, we propose eSpat-B, which leverages two non-colluding servers and a newly designed improved distributed point functions (DPF) with octree partitioning. Furthermore, considering the frequent updates of spatial data, we propose another more efficient scheme, eSpat+. The core idea of this scheme is to utilize a K-Dimensional tree for spatial partitioning, combine it with incremental DPF for performing statistics analysis, and design an efficient update algorithm. Security analysis demonstrates that our schemes effectively protect data privacy throughout the statistical process. Extensive experiments on real-world trajectory datasets demonstrate that the proposed schemes significantly outperform existing approaches, reducing computation overhead by up to 1.2x and communication overhead by up to 20x while maintaining 100% statistical accuracy.",
+    "updated" : "2026-06-04T08:05:30Z",
+    "published" : "2026-05-25T12:37:27Z",
+    "authors" : [
+      {
+        "name" : "Xuhao Ren"
+      },
+      {
+        "name" : "Mingyang Zhao"
+      },
+      {
+        "name" : "Ruichen Zhang"
+      },
+      {
+        "name" : "Liehuang Zhu"
+      },
+      {
+        "name" : "Bin Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2605.23429v3",
+    "title" : "Communication Security and Sensing Privacy in FMCW-Based ISAC Through Signal Modulation",
+    "summary" : "This study proposes a novel radar-centric signaling design and architecture for secure integrated sensing and communication (ISAC) systems. The proposed framework is designed to provide robust physical layer security for data transmission while simultaneously enhancing sensing privacy. It employs index modulation and phase coding over frequency-modulated continuous-wave radar (FMCW) chirps, where index modulation (IM) provides an outer layer of data security, and we explicitly design the phase coding (PC) to perturb the resulting signal's ambiguity function (AF) to enhance sensing privacy. This design reduces the risk of unauthorized surveillance by rendering target velocity estimation practically infeasible for unauthorized passive sensing hardware (i.e., a sensing eavesdropper, S-Eve) and significantly impairing its range estimation capabilities. Furthermore, this study also presents the transmitter and receiver architectures required for effective modulation and demodulation of the proposed ISAC signaling and for performing sensing at the legitimate sensing hardware. Simulation results show that the proposed approach achieves high data throughput while enhancing communication security and sensing privacy.",
+    "updated" : "2026-06-03T22:12:20Z",
+    "published" : "2026-05-22T09:41:54Z",
+    "authors" : [
+      {
+        "name" : "Murat Temiz"
+      },
+      {
+        "name" : "Christos Masouros"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.CR"
+    ]
   }
 ]
