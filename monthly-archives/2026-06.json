@@ -762,5 +762,189 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.07443v1",
+    "title" : "Sort, Partition, Randomize: Optimal Binary Hypothesis Testing under Local Differential Privacy",
+    "summary" : "We study optimal design of $\\varepsilon$-locally differentially private mechanisms for binary hypothesis testing. Each observation is drawn from one of two known distributions $P_0,P_1$ on a finite alphabet of size $k$, privatized by a mechanism $Q$, and then used to infer which distribution generated the data. We measure testing utility using an $f$-divergence, including total variation, KL, and hockey-stick divergences, between the two induced output distributions. Previous work established structural properties of optimal mechanisms, but only yielded exponential-time algorithms. We prove a sharp structure: for every $\\varepsilon$ and every $f$-divergence objective, after sorting the alphabet by likelihood ratio, there exists an optimal mechanism that partitions the sorted alphabet into contiguous blocks and applies randomized response to the block label. We call this class Sort-Partition-Randomize (SPR). This characterization yields an exact dynamic program that computes an optimal mechanism in $O(k^3)$ time, and more generally in $O(\\ell k^2)$ time with an $\\ell$-output budget. Our results make it possible to efficiently compute and characterize the exact optimum across the full privacy range, beyond asymptotic privacy regimes.",
+    "updated" : "2026-06-05T16:41:31Z",
+    "published" : "2026-06-05T16:41:31Z",
+    "authors" : [
+      {
+        "name" : "Elena Ghazi"
+      },
+      {
+        "name" : "Jawad Nasser"
+      },
+      {
+        "name" : "Flavio Calmon"
+      },
+      {
+        "name" : "Ibrahim Issa"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.07175v1",
+    "title" : "Seeing Without Exposing: Adaptive Privacy Control for Open-World, Context-Hungry MLLMs",
+    "summary" : "Multimodal large language models (MLLMs) have raised new privacy challenges. On the data side, user-provided inputs often include unpredictable sensitive information; while on the downstream task side, model reasoning depends on rich visual context that may itself be privacy-sensitive. Existing privacy protection methods, however, rely on predefined sensitive categories and fixed obfuscation strategies, struggling to tackle such challenges in MLLMs. To address this dilemma, we propose Anchored Privacy Drifting (APD), a training-free method that drifts privacy-sensitive elements toward semantically equivalent alternatives while anchoring contextual cues to the source image. To systematically evaluate this dual objective of privacy protection and contextual preservation, we introduce AdaptShield, a comprehensive benchmark covering 22 privacy categories, which combines conventional privacy metrics with MLLM-based assessments of contextual utility. Extensive experiments show that our method achieves balanced improvements in both privacy sanitization and content retention, with average gains of 10.4% on textual categories and 8.5% under MLLM-based evaluation across four MLLM series, i.e., Qwen2.5, Qwen3, InternVL3, and InternVL3.5.",
+    "updated" : "2026-06-05T11:41:39Z",
+    "published" : "2026-06-05T11:41:39Z",
+    "authors" : [
+      {
+        "name" : "Siyuan Xu"
+      },
+      {
+        "name" : "Yibing Liu"
+      },
+      {
+        "name" : "Peilin Chen"
+      },
+      {
+        "name" : "Yung-Hui Li"
+      },
+      {
+        "name" : "Shiqi Wang"
+      },
+      {
+        "name" : "Sam Kwong"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.07171v1",
+    "title" : "When Recovery Matters: The Blind Spot of Surrogate Privacy in MLLM Editing",
+    "summary" : "Multimodal Large Language Models (MLLMs) enable flexible instruction-driven image editing, but privacy risks arise when user images expose diverse and user-specific private content. Canonical privacy protection strategies typically substitute sensitive regions with surrogate content before cloud editing. Yet, the resulting output is often an edited surrogate rather than the desired edited source image, neglecting the local recovery in both design and evaluation scope. To this end, we introduce SPPE (Surrogate-based Privacy-Preserving Editing), the first recovery-oriented benchmark covering 36 fine-grained privacy categories and 65 editing instructions. It defines two complementary tasks: 1) editability assessment, which estimates before cloud interaction whether a surrogate can induce an edit consistent with the original image; and 2) surrogate-to-source edit recovery, which evaluates whether the edited surrogate can be transferred back to the private source with the edit effect preserved. We address each task with a dedicated method: ERMA predicts surrogate editability through instruction-aware multimodal relation modeling, while \\method performs cycle-consistent recovery by using the surrogate editing pair as visual edit evidence and the source image as a source-preserving anchor. Experiments on SPPE and InstructPix2Pix show consistent improvements on both tasks. For editability assessment, ERMA improves over the best-performing baselines by 13.9% in SRCC and 12.3% in PLCC. For surrogate-to-source edit recovery, C2E-S2SER outperforms SOER across all 8 source integrity and edit consistency metrics on SPPE.",
+    "updated" : "2026-06-05T11:40:03Z",
+    "published" : "2026-06-05T11:40:03Z",
+    "authors" : [
+      {
+        "name" : "Siyuan Xu"
+      },
+      {
+        "name" : "Yibing Liu"
+      },
+      {
+        "name" : "Peilin Chen"
+      },
+      {
+        "name" : "Yung-Hui LI"
+      },
+      {
+        "name" : "Shiqi Wang"
+      },
+      {
+        "name" : "Sam Kwong"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.07150v1",
+    "title" : "From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability",
+    "summary" : "Agent-interoperability protocols such as A2A and MCP standardize what agents say to one another, but assume address-based transport over HTTP(S). Such transports protect message content, increasingly with end-to-end encryption. What they leave in the clear is the communication graph: which agent contacts which, when, and how often. In agent systems this graph is more consequential than a privacy framing suggests. Endpoints are often capability-labeled, workflows are structured and chained, and interactions are coupled to real actions, so an observer recovers more than past relationships. It can infer the pending workflow, the task being assembled and the action likely to follow. At machine speed, it can act on that inference before the workflow completes. The threat is therefore one of workflow integrity, not privacy alone: predictive leverage over autonomous action. We give a threat model for the agent communication graph; identify what makes agent metadata distinctively revealing (semanticity, prospectivity, actuation); define transport- and bootstrap-layer privacy properties and weigh candidate transports (SimpleX/SMP, Tor, mixnets) against them; and present an A2A case study in which a metadata-protecting binding is expressible but surfaces the protocol's identity assumptions. We test these on a generative model anchored to a real A2A capture. From passive metadata alone, with no payloads, a classifier recovers a task's class well above chance, from only the workflow's opening; applied together, the properties drive that recovery sharply back toward chance. Beyond what an observer can recover, we measure the leverage of acting on the leak: from a workflow's opening and under a fixed budget, an adversary choosing which workflows to act on realizes in this model most of a clairvoyant attacker's advantage over a metadata-blind one, and the same properties suppress it.",
+    "updated" : "2026-06-05T11:07:55Z",
+    "published" : "2026-06-05T11:07:55Z",
+    "authors" : [
+      {
+        "name" : "Bijaya Dangol"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.MA",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.06784v1",
+    "title" : "What Your Posts Reveal: A Benchmark and Agentic Framework for User-Level Privacy Leakage on Social Media",
+    "summary" : "Public social media posts can reveal private information through weak cues scattered across text, images, or metadata. Such leakage is often cumulative and cross-post: cues that appear harmless in isolation may jointly expose a user's home, workplace, or routine. However, current research lacks a unified benchmark for user-level multimodal privacy leakage and an evaluation metric that captures exposure severity beyond binary accuracy.\n  To address these gaps, we propose SopriBench, a synthetic benchmark guided by leakage patterns abstracted from a private reference corpus of Rednote and Instagram accounts, covering 50 user profiles and 1,569 images with attributes, contextual sensitivity, granularity, leakage type, inference difficulty, and supporting evidence. We further introduce the Privacy Exposure Score (PES), which weights value granularity by contextual sensitivity. Inspired by abductive reasoning, we introduce Argus, a training-free agentic framework for cumulative leakage inference. Argus forms hypotheses from accumulated evidence, verifies supporting evidence, and aggregates cross-post cues into privacy profiles, achieving 0.55 PES, a 25% improvement over the strongest baseline, with the largest gain on cross-post leakage.",
+    "updated" : "2026-06-05T00:02:47Z",
+    "published" : "2026-06-05T00:02:47Z",
+    "authors" : [
+      {
+        "name" : "Zifan Peng"
+      },
+      {
+        "name" : "Yini Huang"
+      },
+      {
+        "name" : "Aiwen Lu"
+      },
+      {
+        "name" : "Qiming Ye"
+      },
+      {
+        "name" : "Peixian Zhang"
+      },
+      {
+        "name" : "Jingyi Zheng"
+      },
+      {
+        "name" : "Yule Liu"
+      },
+      {
+        "name" : "Xuechao Wang"
+      },
+      {
+        "name" : "Xinlei He"
+      },
+      {
+        "name" : "Jiaheng Wei"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.05273v1",
+    "title" : "Online Safety Regulation Increases Privacy Risk: Evidence from the UK Online Safety Act",
+    "summary" : "Governments worldwide are increasingly regulating digital platforms to reduce online harms, particularly those affecting children. However, access restrictions can alter user behaviour and introduce new privacy and security risks. The UK Online Safety Act (OSA), passed in October 2023, illustrates this trend: it extends age-assurance and safety requirements to social media, search, and pornography services, and rolled out in phases. Ofcom's illegal content enforcement duties came into force in March 2025, and mandatory age verification for adult content took effect in July 2025. This phased rollout enables real-time observation of behavioural responses to regulation. To address this, we analyse Reddit discourse across VPN and UK Politics communities and conduct a privacy-policy risk analysis of 69 unique VPN services.\n  We find that each of these three milestones produced significant stepwise increases in VPN-related discussion on Reddit: among UK-based users, posts and comments explicitly about VPN use in a regulatory or privacy context rose by +100%, +217%, and +415% respectively. UK Politics communities showed even larger effects, with OSA-related political discourse rising by +213%, +545%, and +464%, respectively, among UK-based users. UK VPN search interest on Google rose by +89% at the age-verification deadline. Users primarily framed this response around privacy, surveillance, and distrust of age-verification intermediaries rather than simple access-seeking. Demand increased across low, medium, and high-risk VPNs, but the proportional distribution remained broadly stable. These findings suggest that online safety regulation can create secondary privacy costs even when it does not disproportionately shift attention toward higher-risk providers.",
+    "updated" : "2026-06-03T17:24:28Z",
+    "published" : "2026-06-03T17:24:28Z",
+    "authors" : [
+      {
+        "name" : "Dhyey Mehta"
+      },
+      {
+        "name" : "Eldar Jalilzade"
+      },
+      {
+        "name" : "Maksim Kalameyets"
+      },
+      {
+        "name" : "Rebecca Owens"
+      },
+      {
+        "name" : "Marc Juarez"
+      },
+      {
+        "name" : "Stergios Aidinlis"
+      },
+      {
+        "name" : "Lei Shi"
+      },
+      {
+        "name" : "Tuğrulcan Elmas"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR"
+    ]
   }
 ]
