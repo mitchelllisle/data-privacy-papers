@@ -946,5 +946,284 @@
       "cs.CY",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09590v1",
+    "title" : "Clinically Grounded Privacy Evaluation of Medical LMs",
+    "summary" : "Medical language models (LMs) can memorize and reproduce protected health information, but privacy evaluations often focus on recovery of training text rather than disclosure under realistic threat models. We introduce a clinically grounded framework that evaluates leakage along a graded axis of adversarial access, ranging from publicly inferable demographics to leaked note fragments. At each tier, we measure verbatim memorization of patient-specific text and semantic leakage of sensitive diagnoses. Applying the framework to an LM pretrained on 378k clinical notes, we find that routine encounter metadata (i.e. name, date of birth, provider, practice, visit date) elicits high rates of verbatim memorization across a patient's timeline and sensitive-diagnosis recovery (AUROC 0.91 for abortion, 0.81 for HIV). At the same time, exact-match memorization can overstate disclosure: 36% of memorized tokens reflect templated documentation. Our work highlights the risks of training on longitudinal clinical data, providing a practical framework for contextual privacy evaluation of medical LMs.",
+    "updated" : "2026-06-08T15:02:19Z",
+    "published" : "2026-06-08T15:02:19Z",
+    "authors" : [
+      {
+        "name" : "Sasha Ronaghi"
+      },
+      {
+        "name" : "Sana Tonekaboni"
+      },
+      {
+        "name" : "Lena Stempfle"
+      },
+      {
+        "name" : "Vivian Utti"
+      },
+      {
+        "name" : "Jordan Li Cahoon"
+      },
+      {
+        "name" : "Nathaniel Hendrix"
+      },
+      {
+        "name" : "Ayin Vala"
+      },
+      {
+        "name" : "Marzyeh Ghassemi"
+      },
+      {
+        "name" : "Emily Alsentzer"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09582v1",
+    "title" : "On Choosing the $μ$ Parameter in Gaussian Differential Privacy",
+    "summary" : "Recent work argues for using Gaussian differential privacy (GDP) to report the privacy guarantees in privacy-preserving machine learning. We provide principled mappings from pure-DP $\\varepsilon$ to GDP $μ$ by matching the worst-case success of a strong-adversary membership inference attack in terms of three metrics: multiplicative advantage at fixed FPR, precision at fixed recall, and the standard privacy profile. We tabulate $μ$ values across a useful range of parameters and recommend $μ\\approx \\varepsilon/5$ as a conservative general-purpose conversion.",
+    "updated" : "2026-06-08T14:56:07Z",
+    "published" : "2026-06-08T14:56:07Z",
+    "authors" : [
+      {
+        "name" : "Bogdan Kulynych"
+      },
+      {
+        "name" : "Antti Honkela"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09402v1",
+    "title" : "Fully Oblivious Differential Privacy for Frequency Estimation in the Augmented Shuffle Model with Trusted Processors",
+    "summary" : "In the shuffle model of DP (Differential Privacy), a shuffler randomly permutes users' data to achieve high accuracy and privacy. Recent studies show that most existing shuffle protocols are vulnerable to collusion attacks by the data collector and users. They address this issue by introducing the augmented shuffle model that incorporates random sampling and dummy data addition into the shuffler. However, it remains open how to ensure the shuffler follows the protocol and does not collude with the data collector in this model.\n  We address this trust issue by thoroughly exploring the augmented shuffle model with TEEs (Trusted Execution Environments). We first introduce a new privacy notion, FODP (Fully Oblivious DP), which strengthens DP to prevent various TEE side-channel attacks based on external/internal memory access patterns and control flows. We propose a general framework for FODP algorithms based on memory-size obfuscation and three concrete algorithms within it. We also improve the efficiency of our algorithms by using the count-min sketch and optimizing the number of hashes. We evaluate our algorithms on Intel SGX and demonstrate their effectiveness through comparisons with nine baselines.",
+    "updated" : "2026-06-08T12:21:42Z",
+    "published" : "2026-06-08T12:21:42Z",
+    "authors" : [
+      {
+        "name" : "Takao Murakami"
+      },
+      {
+        "name" : "Yuichi Sei"
+      },
+      {
+        "name" : "Reo Eriguchi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09401v1",
+    "title" : "Benchmarking Empirical Privacy Protection for Adaptations of Large Language Models",
+    "summary" : "Recent work has applied differential privacy (DP) to adapt large language models (LLMs) for sensitive applications, offering theoretical guarantees. However, its practical effectiveness remains unclear, partly due to LLM pretraining, where overlaps and interdependencies with adaptation data can undermine privacy despite DP efforts. To analyze this issue in practice, we investigate privacy risks under DP adaptations in LLMs using state-of-the-art attacks such as robust membership inference and canary data extraction. We benchmark these risks by systematically varying the adaptation data distribution, from exact overlaps with pretraining data, through in-distribution (IID) cases, to entirely out-of-distribution (OOD) examples. Additionally, we evaluate how different adaptation methods and different privacy regimes impact the vulnerability. Our results show that distribution shifts strongly influence privacy vulnerability: the closer the adaptation data is to the pretraining distribution, the higher the practical privacy risk at the same theoretical guarantee, even without direct data overlap. We find that parameter-efficient fine-tuning methods, such as LoRA, achieve the highest empirical privacy protection for OOD data. Our benchmark identifies key factors for achieving practical privacy in DP LLM adaptation, providing actionable insights for deploying customized models in sensitive settings. Looking forward, we propose a structured framework for holistic privacy assessment beyond adaptation privacy, to identify and evaluate risks across the full pretrain-adapt pipeline of LLMs.",
+    "updated" : "2026-06-08T12:21:02Z",
+    "published" : "2026-06-08T12:21:02Z",
+    "authors" : [
+      {
+        "name" : "Bartłomiej Marek"
+      },
+      {
+        "name" : "Lorenzo Rossi"
+      },
+      {
+        "name" : "Vincent Hanke"
+      },
+      {
+        "name" : "Xun Wang"
+      },
+      {
+        "name" : "Michael Backes"
+      },
+      {
+        "name" : "Franziska Boenisch"
+      },
+      {
+        "name" : "Adam Dziedzic"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09125v1",
+    "title" : "Unveiling Privacy Risks in Multi-modal Large Language Models: Task-specific Vulnerabilities and Mitigation Challenges",
+    "summary" : "Privacy risks in text-only Large Language Models (LLMs) are well studied, particularly their tendency to memorize and leak sensitive information. However, Multi-modal Large Language Models (MLLMs), which process both text and images, introduce unique privacy challenges that remain underexplored. Compared to text-only models, MLLMs can extract and expose sensitive information embedded in images, posing new privacy risks. We reveal that some MLLMs are susceptible to privacy breaches, leaking sensitive data embedded in images or stored in memory. Specifically, in this paper, we (1) introduce MM-Privacy, a comprehensive dataset designed to assess privacy risks across various multi-modal tasks and scenarios, where we define Disclosure Risks and Retention Risks. (2) systematically evaluate different MLLMs using MM-Privacy and demonstrate how models leak sensitive data across various tasks, and (3) provide additional insights into the role of task inconsistency in privacy risks, emphasizing the urgent need for mitigation strategies. Our findings highlight privacy concerns in MLLMs, underscoring the necessity of safeguards to prevent data exposure. Our dataset and code can be found here.",
+    "updated" : "2026-06-08T07:19:42Z",
+    "published" : "2026-06-08T07:19:42Z",
+    "authors" : [
+      {
+        "name" : "Tiejin Chen"
+      },
+      {
+        "name" : "Pingzhi Li"
+      },
+      {
+        "name" : "Kaixiong Zhou"
+      },
+      {
+        "name" : "Tianlong Chen"
+      },
+      {
+        "name" : "Hua Wei"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.08681v1",
+    "title" : "Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy",
+    "summary" : "The additive noise mechanism is a foundational tool for differential privacy (DP) of $T$-dimensional real-valued vector queries. The Gaussian mechanism, utilizing Gaussian noise, is the mostly widely used such mechanism, due to its simplicity and strong privacy guarantees. In this work, we provide justification for this choice, showing that as the dimension $T\\to\\infty$, no additive-noise mechanism can asymptotically improve on the Gaussian mechanism's privacy--utility tradeoff for the strong privacy settings typically used.We also develop a new family of \\emph{Spherical Generalized Gamma} DP mechanisms, which contains both the Gaussian mechanism and the recently studied $\\ell_2$ mechanism (Joseph \\emph{et al.}, ICML 2025). We identify members of this family that outperform both the Gaussian and $\\ell_2$ mechanisms in certain low-dimensional settings, and show tight composition of all mechanisms in this family, answering an open question of Joseph \\emph{et al.}~regarding the $\\ell_2$ mechanism.",
+    "updated" : "2026-06-07T15:33:30Z",
+    "published" : "2026-06-07T15:33:30Z",
+    "authors" : [
+      {
+        "name" : "Yu Wei"
+      },
+      {
+        "name" : "Alexander Bienstock"
+      },
+      {
+        "name" : "Antigoni Polychroniadou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.08521v1",
+    "title" : "Exploring CKKS Parameter Trade-offs for Privacy-Preserving Personalized Federated Learning",
+    "summary" : "Privacy-preserving Personalized Federated Learning (PFL) enables clients to collaboratively train personalized models without exposing raw data, but exchanged model updates remain vulnerable to inference attacks from honest-but-curious servers. Homomorphic Encryption (HE) addresses this by allowing server-side aggregation directly on encrypted updates, with the CKKS scheme being particularly suitable due to its native support for approximate floating-point arithmetic. However, no prior work has examined how to configure CKKS for PFL deployments, leaving practitioners without principled guidance on parameter selection that directly affects privacy, precision, and computational cost. This paper presents pFedCKKS, a generic framework integrating CKKS into PFL, and provides the first systematic parameter selection guide for practitioners. We derive the full CKKS parameter constraints under 128-bit security for the PFL setting, showing the selection problem reduces to choosing just two values: the inner and outer ciphertext prime. Implemented using the Flower framework and TenSEAL library, pFedCKKS is evaluated on the FEMNIST, CelebA and Sentiment140 datasets with FedFinetune, Ditto and FedPer which represents PFL algorithms. Experimental results reveal an empirical trade-off between precision and computational/communication costs. This allows us to draw a concrete guideline for selecting proper CKKS parameters that balance efficiency and accuracy in real-world deployments of pFedCKKS.",
+    "updated" : "2026-06-07T08:58:19Z",
+    "published" : "2026-06-07T08:58:19Z",
+    "authors" : [
+      {
+        "name" : "Kamolchanok Saengtong"
+      },
+      {
+        "name" : "Phanwadee Sinthong"
+      },
+      {
+        "name" : "Norrathep Rattanavipanon"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.08252v1",
+    "title" : "Quantifying and Defending against the Privacy Risk in Logit-based Federated Learning",
+    "summary" : "Federated learning aims to protect data privacy by collaboratively learning a model without sharing private data among clients. Unlike traditional parameter-based FL methods that exchange model weights or gradients during training, emerging logit-based FL approaches share model outputs (logits) on public data. This strategy promotes model heterogeneity, reduces communication overhead, and enhances clients' privacy. However, the potential privacy risks associated with these logit-based methods have been largely overlooked. This research presents the first theoretical and empirical analysis of a hidden privacy risk in logit-based FL methods - the risk that a semi-honest server (adversary) may learn clients' private models from logits. To quantify and address this threat, we develop the Adaptive Model Stealing Attack (AdaMSA) by leveraging historical logits during training. Notably, we observe that this inherent privacy risk persists even when public data is unrelated to private data, emphasizing the urgency to address privacy vulnerabilities in logit-based FL methods. Moreover, our theoretical analysis establishes the bounds of this privacy risk. We then propose a simple but effective defense strategy that perturbs the transmitted logits in the direction that minimizes the privacy risk while maximally preserving the training performance. The experimental results validate our analysis and demonstrate the effectiveness of AdaMSA and our defense strategy.",
+    "updated" : "2026-06-06T16:40:53Z",
+    "published" : "2026-06-06T16:40:53Z",
+    "authors" : [
+      {
+        "name" : "Sheng Wan"
+      },
+      {
+        "name" : "Dashan Gao"
+      },
+      {
+        "name" : "Hanlin Gu"
+      },
+      {
+        "name" : "Lixin Fan"
+      },
+      {
+        "name" : "Daning Hu"
+      },
+      {
+        "name" : "Qiang Yang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.07883v1",
+    "title" : "DP4SQL: Differentially Private SQL with Flexible Privacy Policies",
+    "summary" : "The plausible deniability model of differential privacy for single-table datasets is well-understood. However, applying differential privacy to relational databases is much trickier: each application needs flexibility in specifying the pieces of information about an entity, spread across multiple relations, that require plausible deniability guarantees. Existing differentially private SQL systems only support rigid privacy policies. Even seemingly small changes, such as specifying that some tables need to protect the existence of records while others only need to protect the record contents, require significant manual effort in updating their privacy accountants and proving their correctness.\n  One example of a challenge is the presence of partially public data. Public columns in a table (e.g., faculty names in a university dataset and partial course enrollment information) can cause some queries to require more noise (compared to fully private data), while others require less noise. This kind of reasoning is not supported in existing systems. Another example is when different parts of records (e.g., demographics, financial data) require different levels of privacy protection. Again, existing differentially private SQL systems need to rewrite their rules for calculating query stability in order to support such a feature. This paper presents DP4SQL, a differentially private SQL system that allows data curators to better customize the plausible deniability requirements for their relational databases. This avoids the drawbacks of the \"one-size-fits-all\" systems that would either underprotect the data or inject too much noise into query answers.",
+    "updated" : "2026-06-05T22:35:35Z",
+    "published" : "2026-06-05T22:35:35Z",
+    "authors" : [
+      {
+        "name" : "Andrew Cascio"
+      },
+      {
+        "name" : "KinChin Tong"
+      },
+      {
+        "name" : "Daniel Kifer"
+      },
+      {
+        "name" : "Zeyu Ding"
+      },
+      {
+        "name" : "Danfeng Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09460v1",
+    "title" : "A 65-nm Privacy-Preserving Neuromorphic Encoder With 7.13-nJ Efficiency, 2.38-Mb/mm^2 Item-Memory Density, and Federated Learning Support",
+    "summary" : "The increasing demand for privacy-preserving personal data analytics in smart assistants, wearable health monitors, and context-aware systems calls for hardware that is both energy-efficient and secure. This work presents a 65-nm privacy-preserving neuromorphic encoder that leverages transistor-level process variation as physically unclonable entropy for hyperdimensional computing. The proposed 2T-2T entropy cell enables compact, device-specific, and write-free item memory, allowing privacy-preserving bio-signal encoding without storing random basis vectors in conventional memory. The fabricated prototype achieves 7.13 nJ per encoding, 2.38 Mb/mm^2 item-memory density, 76.44 nJ per prediction, and 357.32 nJ per training update. It also supports in-situ decision-making, continual learning, and federated learning for multi-user deployment and cold-start personalization. Evaluations across bio-signal datasets demonstrate 93.2% accuracy on EMG and 96.1% accuracy on UCI-HAR, while reducing hypervector dimensionality by 14.3x compared with binary hyperdimensional computing. These results demonstrate an energy-efficient and privacy-preserving neuromorphic hardware platform for secure edge biomedical intelligence.",
+    "updated" : "2026-06-05T16:50:22Z",
+    "published" : "2026-06-05T16:50:22Z",
+    "authors" : [
+      {
+        "name" : "Boyang Cheng"
+      },
+      {
+        "name" : "Jianbo Liu"
+      },
+      {
+        "name" : "Steven Davis"
+      },
+      {
+        "name" : "Zephan M. Enciso"
+      },
+      {
+        "name" : "Likai Pei"
+      },
+      {
+        "name" : "Xueji Zhao"
+      },
+      {
+        "name" : "Muya Chang"
+      },
+      {
+        "name" : "Ningyuan Cao"
+      }
+    ],
+    "categories" : [
+      "cs.AR"
+    ]
   }
 ]
