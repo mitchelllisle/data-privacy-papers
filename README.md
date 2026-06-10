@@ -593,92 +593,69 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.23158v1">What Does the Server See? Understanding Privacy Leakage from Large Language Models in Split Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-22T02:14:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mingyuan Fan, Yu Liu, Fuyi Wang, Cen Chen</p>
-    <p><b>Summary:</b> The deployment of large language models (LLMs) on resource-constrained devices remains challenging, spurring interest in split inference, where models are partitioned between client and server to reduce computational burden and enhance privacy by transmitting only intermediate activations. However, the privacy-preserving capabilities of split inference, particularly in the context of LLMs, have not been exhaustively investigated. To fill this gap, we introduce ActInv, which solves an intermediate activation matching problem to reconstruct the client's input. Extensive evaluations demonstrate that ActInv achieves high-fidelity reconstructions, even in the presence of common perturbation-based defenses such as Gaussian noise injection and activation sparsification. To systematically understand this vulnerability, we develop Perturbation Amplification Factor (PAF), a metric for quantifying a layer's inherent resistance to reconstruction. Our analysis reveals that privacy vulnerability is not uniform across layers, with some layers being highly susceptible to leakage while others offer natural resistance. Furthermore, we demonstrate that defense effectiveness can be significantly improved by calibrating perturbation directions to maximize reconstruction error during backpropagation. Building on these insights, we design PriPert and conduct comprehensive evaluations, covering privacy, utility, and computational overhead, to demonstrate its effectiveness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.24042v2">Hidden-State Privacy Has an Empty Middle</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-05-21T20:12:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Alexander Okezue Bell</p>
-    <p><b>Summary:</b> Of $1{,}536$ Gaussian release covariances we tested for single-layer hidden-state privacy, zero achieve both moderate utility and moderate privacy against an adaptive retrieval attacker. We prove a complementary Fisher-ball lower bound: every full-rank Gaussian release at $O(1)$ Fisher utility admits a direction whose Mahalanobis signal grows linearly in hidden width, ruling out uniform Gaussian safety in the class and matching the empirical empty middle. The diagonal inverse-Fisher release $Σ^\star_{\mathrm{diag}}(\mathcal{K}) = (2\mathcal{K}/d)\,\mathrm{diag}(1/F_{ii})$ is the unique minimax-optimal diagonal mechanism at first-order KL budget $\mathcal{K}$ and the only release with worst-attacker top-1 $\le 0.001$ at every point of a 32 model-layer grid, but it sits on a privacy/utility edge rather than filling the middle. A generalized-eigen mechanism reaching $13\times$ Pareto reduction under Euclidean retrieval collapses to $100\%$ top-1 under the adaptive Mahalanobis attacker, and a full-trajectory sequence inverter recovers $94\%$ of clean GPT-2 prefixes but $0\%$ under $Σ_{\mathrm{diag}}$. A split-memory transformer trained from scratch reaches $G_{\mathrm{Mah}} \in [20, 33]$ at 90M and maintains a $6$--$24\times$ advantage over same-budget GPT baselines from 30M to 1B at a fixed-token language-modeling loss penalty; pretrained models top out at 9.3. These results reframe hidden-state release from mechanism-design within the Gaussian class to architecture or release co-design.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.22952v1">Measuring Database Unfairness via Dependency Quantification Under Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2026-05-21T18:31:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mariia Vologdin, Yuchao Tao, Amir Gilad</p>
-    <p><b>Summary:</b> Differential privacy (DP) has become the de facto standard for protecting sensitive data, providing strong guarantees that published statistics or models reveal limited information about any individual. However, privacy noise and restricted data access make it increasingly difficult to assess the fairness and reliability of private datasets. In this paper, we propose a formal framework for quantifying data unfairness under DP. We identify three core desiderata for unfairness measures based on previous work: positivity, monotonicity, and DP computability. We further instantiate them through three complementary measures: (1) a mutual information-based measure with a total variation distance proxy suitable for DP, (2) a data repair-based measure approximated via a reduction to weighted MaxSAT, and (3) a top-$k$ tuple contribution measure that isolates the most influential records in fairness violations. We design privacy-preserving algorithms and analyze their sensitivity, accuracy, and efficiency. Extensive experiments on multiple real-world datasets demonstrate that our proposed measures faithfully approximate their non-private counterparts, effectively quantify bias under privacy constraints, and provide insights for data management.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.22924v2">Building a privacy-preserving Federated Recommender system for mobile devices</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2026-05-21T18:02:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aasheesh Singh</p>
-    <p><b>Summary:</b> Serving personalized content on mobile devices has traditionally required pooling sensitive user data on centralized servers, a practice increasingly at odds with modern privacy expectations and geographical regulations. We present a two-stage federated recommendation system pipeline for mobile devices, built around a principled separation between non-sensitive user preference data and sensitive mobile context data that never leaves the device. The first stage runs a collaborative filtering model on non-sensitive app-context data in the cloud to generate a shortlist of relevant items. The second stage re-ranks these candidates on-device using sensitive mobile signals, with only model updates/gradients ever leaving the device. We validate the approach on MovieLens, UCI Human Activity Recognition, and a proprietary pilot dataset, and deliver a production-ready implementation as a Kotlin Multiplatform library deployable on Android and iOS.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.22898v1">FIRMA: FIbonacci Ring Model Aggregation for Privacy-preserving Federated Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-05-21T16:06:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rachid Hedjam</p>
-    <p><b>Summary:</b> Federated learning protocols face a structural trilemma: canonical server-based aggregation~\cite{mcmahan2017} creates a single point of failure and gradient inversion risk; decentralised ring-gossip alternatives~\cite{hu2019segmented} expose classification heads to semi-honest peers via uninformed uniform weights; and personalised methods~\cite{collins2021exploiting} reintroduce central aggregation. No existing protocol simultaneously achieves server-free operation, permanently private heads, ring topology, and principled asymmetric neighbour weighting. We propose FIRMA (\textbf{FI}bonacci \textbf{R}ing \textbf{M}odel \textbf{A}ggregation), a family of three progressively enhanced federated learning protocols: 1) \fibfl\ establishes the foundation: server-free ring aggregation with Fibonacci-weighted neighbour blending and permanently private classification heads. 2) \fibflp\ augments this with accuracy-gated neighbour suppression, selectively down-weighting poorly-converged peers while preserving the Fibonacci directional bias. 3) \fibflpp, the full system, completes the family with a 2-opt ring permutation that maximises adjacent-client class diversity, global ring coverage via $K_g{=}\lceil N/2\rceil$ gossip passes, and cosine-annealed self-retention calibration. We establish a convergence rate bound and three supporting propositions governing normalisation, coverage, retention, and diversity optimality. Systematic experiments across 28 configurations -- four benchmarks crossed with seven heterogeneity regimes -- demonstrate that \fibflpp\ surpasses \fedavg\ in all 12 label-skew configurations, with a peak advantage of $+20.7$\,pp on CIFAR-10 at $K{=}1$. Under Dirichlet heterogeneity, \fibflpp\ is the Pareto-dominant method among all server-free protocols, achieving the highest accuracy in 17 of 28 configurations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.21780v1">Provable Robustness against Backdoor Attacks via the Primal-Dual Perspective on Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-05-20T22:17:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aman Saxena, Jan Schuchardt, Yan Scholten, Stephan Günnemann</p>
-    <p><b>Summary:</b> Randomized smoothing is a powerful tool for certifying robustness to adversarial perturbations, including poisoning attacks via randomized training and evasion attacks via randomized inference. Extending these guarantees to backdoor attacks, where training and test data are jointly perturbed, remains challenging because training- and test-time randomized mechanisms must be analyzed within a single robustness certificate. We address this by connecting randomized smoothing to the dual view of differential privacy through privacy profiles, which provide a numerical procedure for composing heterogeneous mechanisms. The resulting framework enables tight, modular, end-to-end certification of complex, composed mechanisms while leveraging existing analyses of differentially private mechanisms. We instantiate the framework for DP-SGD and Deep Partition Aggregation with inference-time smoothing, deriving joint robustness guarantees against both training-time and inference-time attacks. Experiments on MNIST and CIFAR-10 demonstrate the effectiveness of our framework. Overall, we provide a principled and general framework for using composite mechanisms to certify robustness under complex threat models that better capture the capabilities of real-world adversaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.21421v2">AIGaitor: Privacy-preserving and cloud-free motion analysis for everyone, using edge computing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-05-20T17:14:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Lauhitya Reddy, Trisha M. Kesar, Hyeokhyen Kwon</p>
-    <p><b>Summary:</b> Motion capture is the gold standard for measuring human movement, but clinical use remains limited by cost, technical complexity, and privacy concerns. AIGaitor is a privacy-preserving, cloud-free motion analysis system that runs markerless monocular motion-capture pipelines and downstream deep-learning analysis entirely on a consumer smartphone using on-device neural accelerators. To motivate its design, we surveyed 74 rehabilitation clinicians: 92 percent said they would adopt an accurate, cost-effective, easy-to-use AI gait analysis tool, while 79.7 percent cited operating cost, 68.9 percent insufficient training, and 64.9 percent privacy concerns as leading barriers. We then optimized and benchmarked mobile iOS implementations of current monocular pipeline components, including 2D and 3D pose estimation, pose optimization, skeleton-based deep-learning analysis, and a vision-language model. A Time-Priority end-to-end on-device pipeline processes a 10 s 4K 60 fps video clip in 77 s on an iPhone 14, matching or beating the same pipeline on a high-end NVIDIA H200 cloud server when network transfer is included: 94 s at global mobile-average uplink and 66 s at developed-world Wi-Fi. Lightweight models such as ViTPose-s achieve real-time keypoint extraction, and skeleton-based action-recognition models provide sub-millisecond gait classification on the same clip. To our knowledge, AIGaitor is the first monocular system to demonstrate end-to-end on-device motion capture and downstream deep-learning analysis, supporting clinically applicable movement analysis that is low-cost, private, and accessible to smartphone users.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-06</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.10502v1">When VR Meets BCI: (Un)Observable Brainwave-aware Privacy Reconstruction in the Metaverse via Unrestricted Inbuilt Motion Sensors</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-06-09T07:28:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Ni, Zehua Sun, Qingchuan Zhao, Wei-Bin Lee, Cong Wang</p>
+    <p><b>Summary:</b> Metaverse devices, such as virtual reality (VR), have seen substantial development and widespread applications in numerous areas. Although recent studies have revealed privacy leakages in VR, these vulnerabilities were limited in the scope of observable behaviors in virtual scenes (e.g., what a user is seeing). In this work, we uncover the feasibility of going beyond the scope of observable user behaviors to unobservable brain EEG-correlated representations (e.g., what a user is perceiving) by leveraging unrestricted motion sensors in VR headsets to reconstruct brain EEG signals, a seemingly neglected but promising vector. The insight is that the inbuilt motion sensors (e.g., accelerometers) in the VR headset can capture subtle vibrations induced by pupillary responses, which are highly correlated with users' visual stimuli and in-brain perceptions.
+  Therefore, we design and implement BraVeSpy to systematically investigate and demonstrate the feasibility of this severe privacy leakage originating from brain EEG-correlated representations reconstructed from variations of inbuilt motion sensors. Our extensive evaluation results from different VR devices show that BraVeSpy, for the first time in the Metaverse, can reveal unobservable privacy, where we successfully unveiled perceptive images in the brain with 52.0%-67.2% accuracy. In particular, we also find that BraVeSpy outperforms the current approaches that are limited to coarse-grained inference of observable behaviors and achieves over 85.0% accuracy in inferring user activity-related sensitive information, such as fingerprinting websites, apps, and streaming videos, and over 96.0% accuracy in user de-anonymization, gaze movement tracking, and virtual keystroke inference.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.10481v1">Advancing the State-of-the-Art in Empirical Privacy Auditing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2026-06-09T06:50:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nicole Mitchell, Galen Andrew, Arun Ganesh, Brendan McMahan, Peter Kairouz</p>
+    <p><b>Summary:</b> Parameter-efficient fine-tuning of large language models (LLMs) can exhibit problematic memorization of individual training examples. Empirical privacy auditing (EPA) quantifies this risk by measuring realistic data leakage on membership inference (MI) or reconstruction attacks. A key challenge in EPA is designing ``canary'' examples that are mixed with the privacy-sensitive training data. We propose generating synthetic canaries via high-temperature sampling ($T \geq 0.8$) from LLMs, using prompts tailored to the privacy-sensitive training data. These canaries act as high-influence outliers, ensuring high identifiability and hence strong audits. Further, since the canaries are themselves non-private, they are inspectable and can be inserted with repetition without jeopardizing the privacy of the real data. An important use of models fine-tuned on privacy-sensitive data is the generation of synthetic data. This also comes with privacy risk. We introduce a powerful synthetic data audit based on fine-tuning an auxiliary model on the synthetic data. Auditing the auxiliary model for the original canaries then provides a strong estimate of the privacy leakage through the synthetic data. Finally, leveraging our strong auditing methodologies, we perform a systematic investigation into the interacting effects of model capacity and canary entropy on memorization.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.10333v1">Privacy-Preserving Credit Risk Prediction with Alternative Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-06-09T02:27:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hongzhe Zhang, Jiarong Xu, Jing He, Xiao Fang</p>
+    <p><b>Summary:</b> Credit risk prediction is a critical problem in the consumer credit industry. Traditionally, financial institutions construct credit risk prediction models using borrowers' demographic, financial, and credit history data, collectively referred to as traditional data. Recent studies have demonstrated that alternative data, such as borrowers' mobile phone communication data, enable lenders to acquire fuller and more accurate profiles of borrowers' creditworthiness, thereby improving credit risk prediction performance. Nevertheless, alternative data are held by external entities independent of financial institutions. Directly sharing alternative data with financial institutions infringe on consumer privacy, yet existing credit risk prediction studies largely overlook this issue. To address this gap, we define a new problem, namely privacy-preserving credit risk prediction with alternative data, which simultaneously considers three practical constraints: the privacy-preserving constraint that protects consumer privacy, the model-confidentiality constraint that learns and stores the model centrally at the financial institution, and the lossless constraint that maintains the performance of the learned model. To solve this problem, we develop PrivacyCredit, a novel privacy-preserving machine learning method. We then theoretically demonstrate the privacy-preserving, model-confidential, and lossless properties of PrivacyCredit. Through extensive experiments using a real-world credit dataset linked with alternative data, we demonstrate the predictive value of securely incorporating alternative data into credit risk prediction and show that PrivacyCredit achieves the same predictive performance as the model learned from the insecure plaintext combination of traditional and alternative data. We further evaluate its model-confidentiality property and computational efficiency.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.10173v1">Local Is Not a Sufficient Privacy Boundary: Governing OS-Integrated On-Device AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-06-08T21:07:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jonghyun Chung, Sanket Badhe</p>
+    <p><b>Summary:</b> As AI systems move into operating systems, privacy no longer turns only on whether a model runs locally. A local assistant may assemble email, calendar entries, files, screenshots, notifications, and app intents; retain embeddings or summaries; invoke tools; emit telemetry; or route difficult requests to cloud infrastructure. Local inference reduces some exposure, but it answers only one question: where computation occurs. It does not answer who may assemble context, what derived state persists, which actions are authorized, or how updates change the system's authority. We develop an OS-centered privacy framework for on-device AI that treats privacy as an institutional accountability problem rather than a deployment attribute. The framework specifies a threat model, a six-part privacy risk taxonomy, privacy-by-architecture controls, and a four-level audit rubric. We demonstrate the rubric through a documentation-bounded comparison of Apple Intelligence/Foundation Models, Android AICore/Gemini Nano, and Microsoft Recall. Meaningful privacy in on-device AI depends on constrained information flow, bounded authority, visible user control, and auditable governance across the operating-system lifecycle.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.10097v1">Secrets Best Not Shared: DNS Privacy Enhancements for the Constrained IoT</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2026-06-08T19:22:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Martine S. Lenders, Thomas C. Schmidt, Matthias Wählisch</p>
+    <p><b>Summary:</b> Attackers often identify DNS traffic to disrupt or compromise Internet services. While prior work has focused on encrypting queries using DNS over TLS, HTTPS, or QUIC to counter such attacks, we consider IETF protocols designed for resource-constrained IoT devices and empirically analyze the potential of obfuscating DNS traffic in addition to encryption. We create a dataset of machine-to-machine-compatible data objects along with the corresponding DNS resolution processes, evaluating 296 deployment scenarios of resolving host names, including DNS over the Constrained Application Layer Protocol (CoAP) and an onion routing flavor of CoAP under varying link-layer conditions. We compare them to DNS over HTTPS. Using Random Forest and a header field analysis, we identify fields that leak most information. Our findings show that DNS over CoAP with equalized packet lengths, block-wise transfer, and header compression reduces the accuracy of identifying DNS frames to 86% and further to 77% with payload compression. Our approach outperforms DNS over HTTPS, where classifiers always identify DNS frames based on IP addresses. The dataset is publicly available.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2606.09590v1">Clinically Grounded Privacy Evaluation of Medical LMs</a></h3>
@@ -742,6 +719,18 @@
 
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.09946v1">SPARX: Secure and Privacy-Aware Approximate CNN Acceleration with Edge RISC-V SoC</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Hardware Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-06-08T07:02:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sonu Kumar, Akash Sankhe, Mukul Lokhande, Santosh Kumar Vishvakarma</p>
+    <p><b>Summary:</b> Edge-AI systems increasingly require real-time CNN inference under strict energy, performance, security, and privacy constraints. Approximate computing improves hardware efficiency by exploiting the error resilience of neural network workloads; however, most approximate CNN accelerators do not jointly consider secure, privacy-aware edge deployment. This paper presents SPARX, a Secure and Privacy-Aware Approximate CNN Acceleration framework integrated within a heterogeneous RV32IMC RISC-V System-on-Chip (SoC). SPARX combines a custom RISC-V instruction extension, an approximate logarithmic CNN acceleration unit, a lightweight differential-noise-based privacy engine, and a challenge-response authentication mechanism. To guide arithmetic selection, an approximation-aware decision framework is introduced that uses the Approximation Severity Index (ASI), Approximation Efficiency (AE), Quality of Approximation (QoA), Approximation Figure-of-Merit (AFOM), and Hardware Acceleration Efficiency (HAE). Evaluation across 11 state-of-the-art approximate MAC architectures identifies the Iterative Logarithmic Multiplier (ILM) as the most suitable design, achieving 51.7% area reduction, 81.5% power reduction, and 2.13x throughput improvement compared with an accurate radix-4 Booth MAC, while only reducing ResNet-20/CIFAR-10 accuracy by 2.82 percentage points. FPGA implementation on a Xilinx VC707 platform achieves 58.4 GOPS/W energy efficiency at 250 MHz, while 28-nm CMOS physical implementation validates ASIC feasibility</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2606.08681v1">Asymptotic Optimality of the High-Dimensional Gaussian Mechanism and Improved Low-Dimensional Mechanisms for Differential Privacy</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-06-07T15:33:30Z</p>
@@ -773,6 +762,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Sheng Wan, Dashan Gao, Hanlin Gu, Lixin Fan, Daning Hu, Qiang Yang</p>
     <p><b>Summary:</b> Federated learning aims to protect data privacy by collaboratively learning a model without sharing private data among clients. Unlike traditional parameter-based FL methods that exchange model weights or gradients during training, emerging logit-based FL approaches share model outputs (logits) on public data. This strategy promotes model heterogeneity, reduces communication overhead, and enhances clients' privacy. However, the potential privacy risks associated with these logit-based methods have been largely overlooked. This research presents the first theoretical and empirical analysis of a hidden privacy risk in logit-based FL methods - the risk that a semi-honest server (adversary) may learn clients' private models from logits. To quantify and address this threat, we develop the Adaptive Model Stealing Attack (AdaMSA) by leveraging historical logits during training. Notably, we observe that this inherent privacy risk persists even when public data is unrelated to private data, emphasizing the urgency to address privacy vulnerabilities in logit-based FL methods. Moreover, our theoretical analysis establishes the bounds of this privacy risk. We then propose a simple but effective defense strategy that perturbs the transmitted logits in the direction that minimizes the privacy risk while maximally preserving the training performance. The experimental results validate our analysis and demonstrate the effectiveness of AdaMSA and our defense strategy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.09908v1">IDP-Bench: Benchmarking ability of LLMs to protect personal information in interdependent privacy contexts</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-06-06T07:59:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ayana Hussain, Soumya Sharma, Golnoosh Farnadi, Nicholas Vincent, Héber Hwang Arcolezi, Ulrich Aïvodji</p>
+    <p><b>Summary:</b> Large language models (LLMs) are becoming widely deployed as personal AI assistants with access to sensitive user data, making privacy a major challenge for their design and evaluation. Prior work focuses mainly on individual-level risks, overlooking \textbf{interdependent privacy (IDP)}--where one person's data may be revealed by others without their knowledge or consent. We address this gap by introducing \textbf{IDP-Bench}: the first LLM benchmark for IDP scenarios, grounded in the Contextual Integrity (CI) framework. We evaluate eight open-source LLMs on their understanding of IDP scenarios across three levels of IDP reasoning using two LLM judges. Results show strong co-ownership recognition (6/8 models exceed 90\%) but persistent weaknesses in identifying CI parameters (information attribute, primary subject) and IDP-specific parameters such as secondary subjects, where 7/8 models score below 74\%. Models also struggle to judge sharing appropriateness (5/8 scoring below 77\%). While the ability to judge the appropriateness of sharing improves with scale, performance tends to decline in smaller models, and prompt sensitivity remains high on IDP-specific questions--highlighting the need for more targeted study of IDP in LLM privacy research. Data \& code available \href{https://github.com/tisl-lab/Interdependent_Privacy_Bench}{here}.</p>
   </details>
 </div>
 
