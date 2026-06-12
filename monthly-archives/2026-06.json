@@ -1528,5 +1528,105 @@
       "cs.LG",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.12845v1",
+    "title" : "A Privacy-Preserving Framework Using Remote Data Science for Inter-Institutional Student Retention Prediction",
+    "summary" : "This study explores privacy-preserving machine learning (PPML) techniques using the PySyft platform to enable collaborative prediction of student retention between institutions. We developed a remote data science (RDS) framework with a semi-air-gapped architecture consisting of high-side and low-side servers, allowing researchers from three universities to build predictive models on sensitive student data without direct data access. Using historical data from a small private university (N=720), we evaluated three synthetic data generation approaches and validated the framework through inter-institutional collaboration. The results demonstrate consistent classification performance across institutions (Macro F1: 0.690--0.695) while maintaining strict Family Educational Rights and Privacy Act (FERPA) compliance. We also propose Data-Type-Aware Templates, a novel synthetic data method that prioritizes privacy over distributional fidelity. Our findings confirm that RDS-based PPML is technically feasible for educational settings and offers a practical alternative to federated learning for small-scale inter-institutional collaborations. The code is available at https://github.com/jtfields/NAIRR240195-Privacy-Preserving-Machine-Learning.",
+    "updated" : "2026-06-11T03:18:50Z",
+    "published" : "2026-06-11T03:18:50Z",
+    "authors" : [
+      {
+        "name" : "John Fields"
+      },
+      {
+        "name" : "K M Sajjadul Islam"
+      },
+      {
+        "name" : "Ruchitha Thota"
+      },
+      {
+        "name" : "Victor Chen"
+      },
+      {
+        "name" : "Praveen Madiraju"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.12733v1",
+    "title" : "Let's Ask Gauss: Improved One-Run Privacy Auditing",
+    "summary" : "Privacy auditing provides an important safeguard by estimating the actual information leaked by a model, thus ensuring that theoretical privacy guarantees hold in practice. We study empirical privacy auditing for differentially private (DP) machine learning, focusing on efficient one-run methods for mechanisms such as DP-SGD. Prior one-run approaches threshold training examples or \"canaries\" into binary membership guesses, which discards useful information. We show that, in the white-box DP-SGD setting, canary-aligned signals naturally form a sequence of random variables whose normalized sum is asymptotically Gaussian. Leveraging this distributional perspective, we develop a DP-auditing framework that leads to tighter privacy lower bounds from a single training run.",
+    "updated" : "2026-06-10T22:44:47Z",
+    "published" : "2026-06-10T22:44:47Z",
+    "authors" : [
+      {
+        "name" : "Adya Agrawal"
+      },
+      {
+        "name" : "Yu Wei"
+      },
+      {
+        "name" : "Jaspal Singh"
+      },
+      {
+        "name" : "Malik Magdon-Ismail"
+      },
+      {
+        "name" : "Vassilis Zikas"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.12679v1",
+    "title" : "Fed-FBD: Federated Functional Block Diversification for Isolation, Privacy, and Surgical Unlearning",
+    "summary" : "Federated learning (FL) enables collaborative model training without sharing raw patient data, but standard approaches such as FedAvg treat each client as a black box and provide no mechanism for isolating an adversarial contributor, auditing per-client influence, or honoring a departed participant's right to be forgotten. We present Fed-FBD (Federated Functional Block Diversification), a modular federated architecture that decomposes a ResNet backbone into six functional blocks (the stem, four residual groups, and the classification head) and maintains a warehouse of N color variants, each assembled from independently tracked and contributor-stamped blocks. Fed-FBD provides three capabilities absent in FedAvg: (i) architecturally guaranteed block-level isolation, so that an adversarial or mislabelled client cannot contaminate the clean colous; (ii) privacy-by-design, where membership inference advantage is already indistinguishable from chance before any privacy mechanism is applied; and (iii) surgical machine unlearning of a departed participant's contribution at sub-second cost and without retraining. Experiments on six MedMNIST-2D datasets, PathMNIST at 224x224, and CIFAR-10 show that Fed-FBD trades a modest 0.3%-3.1% IID accuracy gap on the adequately sized datasets for these guarantees, remains within 0.8%-4.0% of FedAvg at Dirichlet alpha=1.0 on three of four datasets, and confines all six adversarial attacks we study to the poisoned client's own blocks with at most +/-0.01 AUC drift on the clean colors.",
+    "updated" : "2026-06-10T21:06:10Z",
+    "published" : "2026-06-10T21:06:10Z",
+    "authors" : [
+      {
+        "name" : "Weijie Chen"
+      },
+      {
+        "name" : "Alan B. McMillan"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.12666v1",
+    "title" : "CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents",
+    "summary" : "Screenshot-based mobile GUI agents can operate ordinary smartphone apps through the same visual interface as a human user, but this capability also turns every screen observation into a privacy boundary. During normal task execution, screenshots may expose contacts, messages, photos, files, recommendations, health cues, and other sensitive context that is unrelated to the user's request. We call this problem incidental visual privacy exposure. It is difficult to address with existing defenses: text anonymization misses many visual and inferential cues, while generic privacy masking can remove the evidence and controls that a GUI agent needs to complete the task.\n  This paper presents CAPED, a context-aware pre-upload exposure control layer for mobile GUI agents. CAPED is designed as a phone-side protection layer: before screenshots are released to a remote multimodal agent, it extracts task requirements, uses screen context as a privacy prior, parses visible UI elements, and selectively exposes only content needed for the current task while masking incidental private content. We evaluate CAPED on AndroidWorld for broad task utility and with a controlled 28-task seeded privacy evaluation used as a measurement instrument for trajectory-level incidental leakage. In this seeded evaluation, Full CAPED reduces success-conditioned weighted seeded leakage from 0.766 under raw screenshots to 0.268 while preserving high task utility. A broader AndroidWorld run shows a remaining prototype-level utility cost, but the results support the central claim that screenshot upload should be treated as an explicit device--cloud boundary decision, governed by task-driven selective exposure rather than all-or-nothing screen sharing.",
+    "updated" : "2026-06-10T20:48:39Z",
+    "published" : "2026-06-10T20:48:39Z",
+    "authors" : [
+      {
+        "name" : "Siyu Shen"
+      },
+      {
+        "name" : "Fenghao Xu"
+      },
+      {
+        "name" : "Wenrui Diao"
+      },
+      {
+        "name" : "Kehuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
