@@ -497,56 +497,57 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.24166v1">Optimal Quantum Differential Privacy via Fisher Information Spectral Analysis</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-05-22T19:36:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Justice Owusu Agyemang, Jerry John Kponyo, Elliot Amponsah, Godfred Manu Addo Boakye</p>
-    <p><b>Summary:</b> The Quantum Fisher Information (QFI) metric governs a fundamental duality: it quantifies both how precisely a parameter can be estimated (metrology) and how distinguishable two quantum states are (privacy). We exploit this duality to establish a geometry-aware framework for quantum differential privacy (DP) that replaces isotropic depolarizing noise with direction-dependent noise aligned to the QFI eigenstructure of the quantum embedding. We prove six principal theorems: (1) the minimax-optimal mechanism concentrates the noise budget in the dominant QFI eigenmode, achieving $\varepsilon = (Δ^2/2)λ_{\max}(1-cγ)$ with $O(d/λ_{\max})$ advantage; (2) mixed-state QFI decomposition reveals that dephasing in the adversary's basis $\textit{increases}$ accessible information, while misaligned-basis dephasing provides constructive privacy amplification from hardware noise; (3) a tight privacy $-$ utility uncertainty relation $\varepsilon \cdot (1 - F) \ge \frac{Δ^2}{2}\frac{\operatorname{Tr}(F)}{d}$; (4) adaptive QFI estimation converging at $O(1/\sqrt{n})$ yields $1.92\times$ tighter bounds; (5) QFI-aligned composition saturates at $O(1)$ versus $O(k)$ for standard composition; and (6) hardware noise can be harnessed for privacy amplification. Adversarial vulnerabilities, Wasserstein guarantees, subspace projection, and a zero-knowledge audit protocol follow as corollaries. Results are validated on Qiskit Aer GPU simulations, IBM Quantum hardware (ibm_fez, 156 qubits), and against classical DP baselines, achieving equivalent utility at $\varepsilon \approx 0.001$ versus $\varepsilon \approx 4800$ for classical DP.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.23879v1">On the Stability of Spherical Hellinger-Kantorovich Flows and Their Implications for Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-05-22T17:38:20Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aratrika Mustafi, Soumya Mukherjee</p>
-    <p><b>Summary:</b> Gradient-flow sampling interprets a Gibbs distribution as the minimizer of an energy functional over probability measures and generates dynamics converging to this target. Under spherical Hellinger-Kantorovich (SHK) geometry, the flow couples transport and reaction and coincides with birth-death Langevin dynamics. In this work, we develop a perturbation theory for SHK gradient flows. For two potentials $V$ and $V^{\prime}$, we compare the associated flows from a common initialization and quantify how potential discrepancies propagate over time. A uniform perturbation bound yields dimension-free, pointwise control of the log-likelihood ratio and Rényi divergence, while additional structure allows us to derive bounds for the KL divergence as well. We apply these results to approximate sampling for the exponential mechanism in differential privacy. The likelihood-ratio control provides explicit time-dependent Pure-DP guarantees for SHK-based samplers, while the KL bound yields Approximate-DP certificates via hockey-stick divergence. We also derive a utility bound separating intrinsic exponential-mechanism suboptimality from finite-time sampling error.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.23820v1">Inferential Privacy Leakage in Anonymized Conversational AI Logs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Social and Information Networks-662E9B">
-  <p><b>Published on:</b> 2026-05-22T16:22:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> S M Mehedi Zaman, Kiran Garimella</p>
-    <p><b>Summary:</b> Hundreds of millions of users now hold detailed, multi-turn conversations with ChatGPT and similar LLM assistants. We measure two privacy-relevant features of these conversations on a corpus of complete ChatGPT histories donated by over 1,000 users in four Global South countries (Brazil, India, Nigeria, Pakistan). First, on explicit disclosure: 34.5% of user messages contain personal information across a twenty-category taxonomy, with the median user first revealing identifying content within the first 14% of their conversation history. Second, on inference beyond explicit disclosure: we restrict to a cohort whose conversations contain no messages flagged by an LLM-based filter for explicit demographic self-identification (a separate NER pass marks PII for the disclosure audit but does not drive cohort exclusion). On this filtered cohort, an off the shelf large language model still recovers each user's age, gender, and country at weighted F1 of 0.84, 0.90, and 0.88, respectively, with the median user identified from the first 5% of their conversation history. Reading the model's natural-language reasoning traces, we identify four recurring stereotype patterns that drive both successful inference and an asymmetric error distribution concentrating on women in technical fields, older users with contemporary skills, and Global South tech professionals. We also compare ChatGPT against the same users' Google Search and YouTube histories as inference surfaces, and find it competitive with these older substrates that have driven behavioral advertising for two decades. Message-level PII removal is insufficient on its own as a privacy intervention for conversational AI data.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.23641v1">Kernel-Based ReLU Approximation for Homomorphic Encryption-Compatible Privacy-preserving Deep Learning Models</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-05-22T13:54:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Dimitrios Sygletos, Dimitra Papatsaroucha, Marios Choudetsanakis, Ilias Politis, Evangelos K. Markakis</p>
-    <p><b>Summary:</b> As privacy concerns in AI technologies continue to grow, Homomorphic Encryption (HE) offers a way to perform computations on encrypted data without the need of decryption during operations. However, HE is limited to addition and multiplication, making non-linear functions incompatible in their original form. This limitation has become more critical with the widespread use of Large Language Models (LLMs), where the non-linearity of activation functions such as the Rectified Linear Unit (ReLU) poses challenges for deployment in privacy-preserving Natural Language Processing (NLP) settings. This paper proposes a kernel-based approximation of ReLU, enabling its use within HE-constrained settings and thus contributing a critical step toward supporting privacy-preserving LLMs. A smooth kernel-based function, mimicking ReLU, is approximated using a second-degree polynomial, inspired by Jackson's theorem, to achieve low multiplicative depth. The proposed method is trained and assessed directly on token embeddings from pre-trained LLMs and evaluated in various scenarios, from simulated and tokenized data to deep learning and transformer models. Results show improved approximation fidelity, supporting the method's suitability for secure and privacy-preserving inference in various tasks.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-06</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.12845v1">A Privacy-Preserving Framework Using Remote Data Science for Inter-Institutional Student Retention Prediction</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-06-11T03:18:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> John Fields, K M Sajjadul Islam, Ruchitha Thota, Victor Chen, Praveen Madiraju</p>
+    <p><b>Summary:</b> This study explores privacy-preserving machine learning (PPML) techniques using the PySyft platform to enable collaborative prediction of student retention between institutions. We developed a remote data science (RDS) framework with a semi-air-gapped architecture consisting of high-side and low-side servers, allowing researchers from three universities to build predictive models on sensitive student data without direct data access. Using historical data from a small private university (N=720), we evaluated three synthetic data generation approaches and validated the framework through inter-institutional collaboration. The results demonstrate consistent classification performance across institutions (Macro F1: 0.690--0.695) while maintaining strict Family Educational Rights and Privacy Act (FERPA) compliance. We also propose Data-Type-Aware Templates, a novel synthetic data method that prioritizes privacy over distributional fidelity. Our findings confirm that RDS-based PPML is technically feasible for educational settings and offers a practical alternative to federated learning for small-scale inter-institutional collaborations. The code is available at https://github.com/jtfields/NAIRR240195-Privacy-Preserving-Machine-Learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.12733v1">Let's Ask Gauss: Improved One-Run Privacy Auditing</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-06-10T22:44:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Adya Agrawal, Yu Wei, Jaspal Singh, Malik Magdon-Ismail, Vassilis Zikas</p>
+    <p><b>Summary:</b> Privacy auditing provides an important safeguard by estimating the actual information leaked by a model, thus ensuring that theoretical privacy guarantees hold in practice. We study empirical privacy auditing for differentially private (DP) machine learning, focusing on efficient one-run methods for mechanisms such as DP-SGD. Prior one-run approaches threshold training examples or "canaries" into binary membership guesses, which discards useful information. We show that, in the white-box DP-SGD setting, canary-aligned signals naturally form a sequence of random variables whose normalized sum is asymptotically Gaussian. Leveraging this distributional perspective, we develop a DP-auditing framework that leads to tighter privacy lower bounds from a single training run.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.12679v1">Fed-FBD: Federated Functional Block Diversification for Isolation, Privacy, and Surgical Unlearning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2026-06-10T21:06:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Weijie Chen, Alan B. McMillan</p>
+    <p><b>Summary:</b> Federated learning (FL) enables collaborative model training without sharing raw patient data, but standard approaches such as FedAvg treat each client as a black box and provide no mechanism for isolating an adversarial contributor, auditing per-client influence, or honoring a departed participant's right to be forgotten. We present Fed-FBD (Federated Functional Block Diversification), a modular federated architecture that decomposes a ResNet backbone into six functional blocks (the stem, four residual groups, and the classification head) and maintains a warehouse of N color variants, each assembled from independently tracked and contributor-stamped blocks. Fed-FBD provides three capabilities absent in FedAvg: (i) architecturally guaranteed block-level isolation, so that an adversarial or mislabelled client cannot contaminate the clean colous; (ii) privacy-by-design, where membership inference advantage is already indistinguishable from chance before any privacy mechanism is applied; and (iii) surgical machine unlearning of a departed participant's contribution at sub-second cost and without retraining. Experiments on six MedMNIST-2D datasets, PathMNIST at 224x224, and CIFAR-10 show that Fed-FBD trades a modest 0.3%-3.1% IID accuracy gap on the adequately sized datasets for these guarantees, remains within 0.8%-4.0% of FedAvg at Dirichlet alpha=1.0 on three of four datasets, and confines all six adversarial attacks we study to the poisoned client's own blocks with at most +/-0.01 AUC drift on the clean colors.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.12666v1">CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-06-10T20:48:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Siyu Shen, Fenghao Xu, Wenrui Diao, Kehuan Zhang</p>
+    <p><b>Summary:</b> Screenshot-based mobile GUI agents can operate ordinary smartphone apps through the same visual interface as a human user, but this capability also turns every screen observation into a privacy boundary. During normal task execution, screenshots may expose contacts, messages, photos, files, recommendations, health cues, and other sensitive context that is unrelated to the user's request. We call this problem incidental visual privacy exposure. It is difficult to address with existing defenses: text anonymization misses many visual and inferential cues, while generic privacy masking can remove the evidence and controls that a GUI agent needs to complete the task.
+  This paper presents CAPED, a context-aware pre-upload exposure control layer for mobile GUI agents. CAPED is designed as a phone-side protection layer: before screenshots are released to a remote multimodal agent, it extracts task requirements, uses screen context as a privacy prior, parses visible UI elements, and selectively exposes only content needed for the current task while masking incidental private content. We evaluate CAPED on AndroidWorld for broad task utility and with a controlled 28-task seeded privacy evaluation used as a measurement instrument for trajectory-level incidental leakage. In this seeded evaluation, Full CAPED reduces success-conditioned weighted seeded leakage from 0.766 under raw screenshots to 0.268 while preserving high task utility. A broader AndroidWorld run shows a remaining prototype-level utility cost, but the results support the central claim that screenshot upload should be treated as an explicit device--cloud boundary decision, governed by task-driven selective exposure rather than all-or-nothing screen sharing.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2606.12341v1">OCELOT: Inference-Leakage Budgets for Privacy-Preserving LLM Agents</a></h3>
