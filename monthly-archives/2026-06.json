@@ -1761,5 +1761,383 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.17035v1",
+    "title" : "Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning",
+    "summary" : "Prior research suggests that differential privacy (DP) inherently enhances the robustness of federated learning (FL) against backdoor attacks. In this paper, we challenge this assumption. Through an empirical analysis of two baseline attack strategies, we uncover a fundamental tension in DP-FL: while bypassing DP allows state-of-the-art defenses to detect and filter malicious updates, complying with DP inadvertently masks their distinguishing statistical characteristics. Consequently, existing defenses become ineffective as DP reduces the raw backdoor signal. Building on this masking effect, we propose RING, a novel attack that explicitly exploits DP to conceal malicious contributions while maximizing attack impact. By collaboratively crafting adversarial perturbations, compromised clients reconstruct a strong backdoor signal during aggregation without triggering anomaly detection. RING operates as a perturbation layer that is agnostic to the underlying backdoor technique, making it broadly applicable and composable with existing attacks -- a property that significantly amplifies the threat it poses to DP-FL. Extensive evaluations across four image and text datasets under non-iid distributions show that RING achieves an average attack success rate of 90.3% against six state-of-the-art defenses under a moderate privacy budget, an improvement of up to 26.08x over baseline strategies. Finally, we evaluate potential countermeasures and find that mitigating this threat incurs significant utility trade-offs, exposing a fundamental security gap in the deployment of differentially private FL.",
+    "updated" : "2026-06-15T17:53:12Z",
+    "published" : "2026-06-15T17:53:12Z",
+    "authors" : [
+      {
+        "name" : "Xiaolin Li"
+      },
+      {
+        "name" : "Ning Wang"
+      },
+      {
+        "name" : "Ninghui Li"
+      },
+      {
+        "name" : "Wenhai Sun"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16943v1",
+    "title" : "Di5Guise: 5G Privacy with vSIM",
+    "summary" : "SIM cards have been the key building block of user authenticationand security in cellular networks. While they are meant to serve as privacy protecting elements in cellular communications, they can be the root cause of privacy loss. Current eSIMs come with a fixed device profile--comprising a secret key, a certificate, and a unique eUICC identifier--that permanently binds every subscriber profile provisioned on the device to that device profile. This binding enables an attacker with the vantage point of a cellular operator to correlate subscriber identities back to a single device, piecing together a complete pattern of life--online activities, movement patterns, and real-world identity--even when users rotate subscriber identities or employ traffic obfuscation techniques. To mitigate this concern, we introduce Di5Guise, a privacy-enhancing architecture that breaks this correlation at its root by decoupling the device identity from the subscriber identity. Central to Di5Guise is vSIM, a virtualized SIM card that enables dynamic device profile provisioning, allowing each subscriber profile to be associated with a distinct, unlinkable device profile. Di5Guise establishes trust with the operator by ensuring that vSIM is running on secure hardware in a trustworthy state. We prototype Di5Guise on a Field Programmable Gate Array (FPGA) board and integrate it with srsRAN to demonstrate full compatibility with existing 5G infrastructure. Using a complex user correlation model, we show that Di5Guise reduces user re-identification accuracy from 93% to 49% when combined with obfuscation.",
+    "updated" : "2026-06-15T16:44:40Z",
+    "published" : "2026-06-15T16:44:40Z",
+    "authors" : [
+      {
+        "name" : "Shirin Ebadi"
+      },
+      {
+        "name" : "Zach Moolman"
+      },
+      {
+        "name" : "Eric Keller"
+      },
+      {
+        "name" : "Tamara Lehman"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16878v1",
+    "title" : "Integrated Marketing Attribution: A Bayesian Framework for Privacy-Safe Granular Measurement Anchored in MMM",
+    "summary" : "Retail marketing measurement increasingly requires granular campaign-level insights without relying on user-level tracking. However, the two dominant approaches, Marketing Mix Modeling (MMM) and Multi-Touch Attribution (MTA), often produce fragmented insights. MMM is privacy-safe and robust for channel-level planning but is too coarse for campaign optimization, while MTA provides granular attribution but has become less reliable under increasing privacy restrictions. We propose Integrated Marketing Attribution (IMA), a unified framework that combines MMM with channel specific Bayesian attribution models to derive campaign-level effects from aggregated data. By leveraging MMM-informed priors, IMA delivers granular, privacy-safe attribution while preserving consistency with MMM.",
+    "updated" : "2026-06-15T15:52:48Z",
+    "published" : "2026-06-15T15:52:48Z",
+    "authors" : [
+      {
+        "name" : "Meghana R. Bhat"
+      },
+      {
+        "name" : "Ankit Umare"
+      },
+      {
+        "name" : "Utsav Aggarwal"
+      },
+      {
+        "name" : "Richard Vecsler"
+      },
+      {
+        "name" : "Arunkumar Mani"
+      },
+      {
+        "name" : "Karthik Nair"
+      },
+      {
+        "name" : "Chandhu Nair"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16801v1",
+    "title" : "The Art of Mixology: Mixup-based Obfuscation for Privacy-Preserving Split Learning in Large Language Models",
+    "summary" : "Split learning provides a practical paradigm for resource-constrained users to train Large Language Models (LLMs) by offloading computation-intensive layers to a server while keeping raw data local. However, existing privacy-preserving split learning methods still face a difficult trade-off among utility, privacy, efficiency, and stability. Specifically, these methods often suffer from substantial utility degradation, remain vulnerable to advanced data reconstruction attacks, incur prohibitive computational and communication overhead, or exhibit unstable performance across different tasks. In this paper, we propose MIXGUARD, a novel mixup-based privacy-preserving split learning framework for LLMs. MIXGUARD introduces token-level obfuscation, representation-level obfuscation, and adaptive gradient perturbation mechanisms, which operate jointly to preserve useful learning signals while preventing privacy leakage to the server. Technically, MIXGUARD first constructs a lightweight calibration model on a public dataset to refine the approximated target representation, and then applies this model during privacy-preserving fine-tuning on private data. We conduct extensive experiments on four classification tasks and four text generation tasks across multiple LLM families, model sizes, architectures, and fine-tuning strategies. The results show that MIXGUARD preserves model utility comparable to non-split training baselines, consistently achieves stronger privacy protection than existing split learning defense methods against state-of-the-art data reconstruction attacks, and remains robust under adaptive attack settings.",
+    "updated" : "2026-06-15T14:42:06Z",
+    "published" : "2026-06-15T14:42:06Z",
+    "authors" : [
+      {
+        "name" : "Chen Chen"
+      },
+      {
+        "name" : "Xiang Gao"
+      },
+      {
+        "name" : "Xianshun Wang"
+      },
+      {
+        "name" : "Chengran Li"
+      },
+      {
+        "name" : "Shengyu Xia"
+      },
+      {
+        "name" : "Xueluan Gong"
+      },
+      {
+        "name" : "Linru Zhang"
+      },
+      {
+        "name" : "Qian Wang"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16788v1",
+    "title" : "SoK: Security and Privacy of Foundation-Model-Powered Robots",
+    "summary" : "Foundation models are reshaping robotics by enabling robots to interpret open-ended instructions, reason over multimodal contexts, and operate in complex, open-world environments. However, their integration also introduces security and privacy (S&P) risks that extend beyond the FMs themselves to embodied execution pipelines, supporting ecosystems, and broader governance impacts. Existing literature reviews provide valuable insights but often focus on specific FM types, risk categories, mitigation strategies, or trust boundaries. Consequently, the field lacks a unified structure for analyzing where risks originate, how they propagate across robotic systems, and where mitigations should intervene. To address this gap, we propose a progressive F-E-S-G structural boundary framework for analyzing the S&P of FM-powered robots. The framework comprises four layers: the Foundation model layer (F), Embodied system layer (E), Supporting ecosystem layer (S), and Governance impact layer (G). Building on this structure, we develop a multi-level taxonomy that organizes prior studies along three levels: F-E-S-G trust boundary, security-privacy concerns, and risk-mitigation perspectives. We further annotate each study using fine-grained coding attributes, including target, lifecycle stage, mechanism, system access, and effect. Guided by this framework and taxonomy, we systematize 96 papers. Our analysis uncovers multiple threat patterns, defense mismatches, and evaluation gaps that are difficult to identify from a single-boundary perspective. Based on these findings, we identify open challenges and future directions to provide a research agenda for developing secure, privacy-preserving, and responsibly governed FM-powered robotic systems.",
+    "updated" : "2026-06-15T14:32:08Z",
+    "published" : "2026-06-15T14:32:08Z",
+    "authors" : [
+      {
+        "name" : "Xueluan Gong"
+      },
+      {
+        "name" : "Chen Chen"
+      },
+      {
+        "name" : "Jinxin Liu"
+      },
+      {
+        "name" : "Qian Wang"
+      },
+      {
+        "name" : "Kwok-Yan Lam"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16763v1",
+    "title" : "Cross-Silo De-Anonymization Under Local Differential Privacy: Threat Model, Phase Transition, and Coordination Necessity",
+    "summary" : "When a person's records appear in k independent data silos, each protected by (epsilon, delta)-differential privacy, standard composition yields a valid (k*epsilon, k*delta)-DP guarantee for the joint output. This worst-case bound, however, does not answer the concrete inference question: at what k can an adversary actually identify a target person? This paper develops the information-theoretic framework needed to answer that question.\n  We introduce cross-silo person-level DP (XSP-DP), a Pufferfish-style privacy notion whose adjacency relation captures all records of a single person across all silos simultaneously, and verify that the standard basic composition bound carries over to this adjacency model. Within this framework we prove that de-anonymization undergoes a phase transition at k* = Theta(log n / epsilon^2) (population size n, per-silo RR parameter epsilon): a Fano lower bound shows any estimator fails for k << k*, while a matching maximum-likelihood upper bound shows the attack succeeds for k >> k*. An explicit XOR + randomized-response construction demonstrates information synergy: each silo's output is individually uninformative about the target, yet the joint mutual information is strictly positive. For non-coordinated binary randomized-response mechanisms, we prove that de-anonymization is inevitable once k exceeds the threshold, establishing that cross-silo coordination is necessary.\n  These results provide a baseline threat model and Theta-level threshold for cross-silo inference attacks under local DP.",
+    "updated" : "2026-06-15T14:15:08Z",
+    "published" : "2026-06-15T14:15:08Z",
+    "authors" : [
+      {
+        "name" : "Ziniu Liu"
+      },
+      {
+        "name" : "Aiping Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16488v1",
+    "title" : "An Energy-Driven Framework for Privacy-Aware Synthetic Data Generation",
+    "summary" : "The increasing demand for access to microdata in official statistics and data-intensive applications raises important challenges concerning disclosure risk, inferential validity and preservation of statistical utility. This paper proposes an interpretable energy-driven framework for privacy-aware synthetic data generation in mixed-type data. The proposed methodology combines discriminative modelling, Bayesian-Network proposal mechanisms, Metropolis--Hastings sampling and post-generation optimization within a constrained probabilistic framework. Unlike perturbation-based approaches, privacy-aware behaviour is achieved through constrained stochastic exploration guided by explicit plausibility, privacy, diversity and structural-coherence penalties. The framework is specifically designed for mixed-type tabular data characterized by sparse configurations, heterogeneous variable types and complex multivariate dependency structures. The generation process is formulated as a multi-objective sampling problem balancing statistical fidelity and disclosure-risk while preserving predictive utility. An extensive empirical evaluation is conducted using a mixed-type individual-level dataset containing demographic, behavioural and health-related variables. The validation strategy combines statistical fidelity diagnostics, predictive analyses, diversity measures, nearest-neighbour risk analysis, membership inference attacks and Split Conformal Prediction. The empirical results suggest that the proposed framework is capable of preserving a substantial portion of the predictive and multivariate structure of the original data while limiting exact memorization phenomena and maintaining favourable privacy-aware behaviour. The proposed methodology provides an interpretable framework for synthetic data generation under competing utility and privacy constraints.",
+    "updated" : "2026-06-15T09:55:18Z",
+    "published" : "2026-06-15T09:55:18Z",
+    "authors" : [
+      {
+        "name" : "Pierpaolo Massoli"
+      },
+      {
+        "name" : "Fabio Spagnuolo"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16461v1",
+    "title" : "Privacy from Symmetry: Orthogonally Equivariant Transformers for LLM Inference",
+    "summary" : "Running large language models locally is often impractical, pushing inference on sensitive text to third-party providers. Split inference partially mitigates this by keeping tokens on the client and sending only hidden representations, but these representations can still be recovered via nearest-neighbor search against the public embedding table. We propose an orthogonal obfuscation procedure in which the client multiplies embeddings by a secret orthogonal matrix before transmission. To enable correct inference under arbitrary rotations, we introduce ConjFormer, a transformer variant that is exactly $\\mathrm{O}(d)$-equivariant via a lightweight normalization change (scalar RMSNorm) together with blockwise orthogonal conjugation of all linear weights. As a result, the server performs the full forward pass entirely in the rotated basis and never observes unrotated hidden states. Experiments on GPT-2 and Llama 3.2 1B models fine-tuned on PubMed show that orthogonal obfuscation eliminates direct cosine nearest-neighbor inversion and reduces token recovery from over 35% top-10 to at most 1.3%, while increasing perplexity by only 0.4% after fine-tuning. These results indicate that enforcing symmetry at the architectural level can provide a practical defense for privacy-preserving LLM inference without noise injection or heavy cryptographic machinery.",
+    "updated" : "2026-06-15T09:31:24Z",
+    "published" : "2026-06-15T09:31:24Z",
+    "authors" : [
+      {
+        "name" : "Alexander Yukhimchuk"
+      },
+      {
+        "name" : "Andrey Shulga"
+      },
+      {
+        "name" : "Mladen Kolar"
+      },
+      {
+        "name" : "Martin Takáč"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.15947v1",
+    "title" : "The Privacy Externality of Disclosing Correlated Data",
+    "summary" : "A firm that discloses data about one customer moves a downstream seller's belief about every correlated customer, pricing third parties it never transacts with. This privacy externality equals the change in downstream deadweight loss, is signed by which side of the pricing threshold a customer is on, and falls hardest on those just carried across. Disclosure is privately optimal on an open set of imperfect correlations; incentive compatibility prices it through a distorted allocation and rations the discount at the top under a continuum of types. Selling tips disclosure past a liquidity threshold; consent dominates both data minimization and laissez-faire.",
+    "updated" : "2026-06-14T18:05:20Z",
+    "published" : "2026-06-14T18:05:20Z",
+    "authors" : [
+      {
+        "name" : "Rui Sun"
+      }
+    ],
+    "categories" : [
+      "econ.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.15940v1",
+    "title" : "Causal-Privacy Audit Workflow for Synthetic and Distilled Data in Dropout Support",
+    "summary" : "Synthetic and distilled student data are increasingly used to enable privacy-conscious learning analytics, yet their suitability for decision-facing institutional support remains uncertain. In dropout support, generated data must preserve not only predictive utility or distributional resemblance, but also the financial-status evidence used to guide advising, payment-plan assistance, and scholarship-related decisions. Method: This study introduces CaP-Eval, a decision-facing causal-privacy audit workflow for evaluating generated student data under a fixed estimand, timing-aware adjustment design, estimator set, and empirical privacy-governance screen. The workflow compares original, distilled, adversarial synthetic, statistical synthetic, and DPGNet privacy-oriented generated data on predictive utility, treatment-effect fidelity, robustness to alternative estimators, and local training-record proximity. Results: DPGNet and distilled data preserved the original financial-status treatment-effect structure more reliably than the adversarial and Gaussian Copula baselines. DPGNet preserved full direction and rank agreement across epsilon levels; epsilon = 10 produced the smallest non-original IPW and DML deviations, while epsilon = 1 and epsilon = 5 amplified several financial-status contrasts. Distilled data remained highly faithful but retained the strongest local training-record proximity signal. TabularGNet preserved qualitative directions with moderate attenuation, and Gaussian Copula compressed effect magnitudes. Conclusions: Predictive utility, privacy orientation, empirical disclosure signals, and causal fidelity diverged; generated student data require joint audits of direction, magnitude, overlap, and release-governance risk before decision use.",
+    "updated" : "2026-06-14T17:44:44Z",
+    "published" : "2026-06-14T17:44:44Z",
+    "authors" : [
+      {
+        "name" : "Hanghang Zheng"
+      },
+      {
+        "name" : "Xiwei Zhuang"
+      },
+      {
+        "name" : "Zhong Wang"
+      },
+      {
+        "name" : "Hong Liu"
+      },
+      {
+        "name" : "Xiao Chen"
+      },
+      {
+        "name" : "Jingwen He"
+      },
+      {
+        "name" : "Xia Li"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.15335v1",
+    "title" : "Privacy-Preserving Text Sanitization for Distributed Agents Collaboration via Disentangled Representations",
+    "summary" : "When distributed agents exchange text across organizational boundaries, privacy leakage arises not only from explicit identifiers but also from distributional signatures such as formatting conventions, vocabulary choices, and syntactic patterns. We propose DiSan(Disentangled Sanitization), a privacy-preserving sanitization framework and a built-in component of Intern-Shannon for multi-agent collaboration. DiSan uses a two-stream encoder to factorize text into a source-invariant role subspace that preserves task semantics and a source-identifying style subspace that remains local. Federated proto-type alignment and adversarial regularization enable joint training without centralizing raw text. Experiments show that identifier-level masking is insufficient: masking 19.2% of tokens reduces TF-IDF stylometric attribution by only 18.6%. By contrast, DiSan reduces answer-level PII exposure by 20 times while maintaining 83% answer faithfulness on a distributed multi-agent RAG benchmark, and lowers Enron stylometric attribution by 73.2% under TF-IDF and 70.6% under a neural probe.",
+    "updated" : "2026-06-13T14:55:26Z",
+    "published" : "2026-06-13T14:55:26Z",
+    "authors" : [
+      {
+        "name" : "Xuan Liu"
+      },
+      {
+        "name" : "Hefeng Zhou"
+      },
+      {
+        "name" : "Sicheng Chen"
+      },
+      {
+        "name" : "Chao Yang"
+      },
+      {
+        "name" : "Xingcheng Xu"
+      },
+      {
+        "name" : "Jingjing Qu"
+      },
+      {
+        "name" : "Jiong Lou"
+      },
+      {
+        "name" : "Jie LI"
+      },
+      {
+        "name" : "Xia Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.14783v1",
+    "title" : "The Vision Encoder as a Privacy Boundary: Visual-Token Side Channels in Encoder-Free Vision-Language Models",
+    "summary" : "A vision encoder compresses image pixels into semantic embeddings, implicitly acting as a privacy boundary by preserving semantic content while attenuating pixel-local detail required for exact text recovery. Encoder-free vision-language models (VLMs) remove this boundary by routing image patches directly into the language-model token stream, thereby exposing an architectural privacy attack surface: intermediate visual tokens become a pre-output side channel. Under a token-access adversary, decoders invert visual-token streams from two encoder-free VLMs, Gemma4 and Fuyu, recovering recognizable image structure and readable held-out access codes, whereas matched encoder-based controls localize target regions but recover no exact strings. Within-model ablations show that the operative factor is spatial sampling fidelity of the visual-token grid, especially character-direction sampling density, rather than token or value count. The leakage is not limited to exported tokens: Gemma4 layer-0 key-value cache tensors are directly invertible, placing the side channel within KV caches commonly persisted by production serving stacks for decoding efficiency. The attack survives clutter, realistic document degradation, and zero-shot transfer to public document images, and it resists value-level defenses such as additive noise and quantization. Effective mitigation must therefore reduce spatial sampling, making removal of the vision encoder a first-class privacy decision in VLM deployment.",
+    "updated" : "2026-06-10T10:39:04Z",
+    "published" : "2026-06-10T10:39:04Z",
+    "authors" : [
+      {
+        "name" : "Chenyu Zhou"
+      },
+      {
+        "name" : "Qiliang Jiang"
+      },
+      {
+        "name" : "Shuning Wu"
+      },
+      {
+        "name" : "Xu Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.09460v2",
+    "title" : "A 65-nm Privacy-Preserving Neuromorphic Encoder With 7.13-nJ Efficiency, 2.38-Mb/mm^2 Item-Memory Density, and Federated Learning Support",
+    "summary" : "The increasing demand for privacy-preserving personal data analytics in smart assistants, wearable health monitors, and context-aware systems calls for hardware that is both energy-efficient and secure. This work presents a 65-nm privacy-preserving neuromorphic encoder that leverages transistor-level process variation as physically unclonable entropy for hyperdimensional computing. The proposed 2T-2T entropy cell enables compact, device-specific, and write-free item memory, allowing privacy-preserving bio-signal encoding without storing random basis vectors in conventional memory. The fabricated prototype achieves 7.13 nJ per encoding, 2.38 Mb/mm^2 item-memory density, 76.44 nJ per prediction, and 357.32 nJ per training update. It also supports in-situ decision-making, continual learning, and federated learning for multi-user deployment and cold-start personalization. Evaluations across bio-signal datasets demonstrate 93.2% accuracy on EMG and 96.1% accuracy on UCI-HAR, while reducing hypervector dimensionality by 14.3x compared with binary hyperdimensional computing. These results demonstrate an energy-efficient and privacy-preserving neuromorphic hardware platform for secure edge biomedical intelligence.",
+    "updated" : "2026-06-14T14:52:20Z",
+    "published" : "2026-06-05T16:50:22Z",
+    "authors" : [
+      {
+        "name" : "Boyang Cheng"
+      },
+      {
+        "name" : "Jianbo Liu"
+      },
+      {
+        "name" : "Steven Davis"
+      },
+      {
+        "name" : "Zephan M. Enciso"
+      },
+      {
+        "name" : "Likai Pei"
+      },
+      {
+        "name" : "Xueji Zhao"
+      },
+      {
+        "name" : "Muya Chang"
+      },
+      {
+        "name" : "Ningyuan Cao"
+      }
+    ],
+    "categories" : [
+      "cs.AR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.07150v2",
+    "title" : "From Privacy to Workflow Integrity: Communication-Graph Metadata in Autonomous Agent Interoperability",
+    "summary" : "Agent-interoperability protocols such as A2A and MCP standardize what agents say to one another but assume address-based transport. Whether over HTTP(S) or a content-protecting binding such as MLS-based SLIM, these transports protect message content yet leave the communication graph exposed: which agent contacts which, when, and how often. In agent systems this graph is more consequential than a privacy framing suggests. Endpoints are capability-labeled, workflows are structured and chained, and interactions are coupled to real actions, so an observer recovers more than past relationships: it can infer the pending workflow and, at machine speed, act on that inference before the workflow completes. The threat is therefore one of workflow integrity, not privacy alone. We formalize a threat model for the communication graph and locate what makes its metadata distinctively consequential: not stronger fingerprinting, which we measure to be comparable to other machine traffic, but exposure across independent trust domains, coupled to autonomous action. We define transport- and bootstrap-layer privacy properties, evaluate candidate transports, and give an A2A case study where a metadata-protecting binding surfaces the protocol's implicit identity assumptions. On a generative model anchored to a real capture and over a live A2A binding, a label-blind classifier recovers a task's class from passive metadata well above chance, and from only its opening; a defense-aware adversary does not overturn this, and only the full set of properties drives recovery toward chance. The leverage of acting on the leak is distinct from recoverability: under a fixed budget an adversary realizes most of a clairvoyant attacker's advantage from a workflow's opening, governed by precision over the top-ranked workflows rather than overall accuracy, so a defense suppresses it even while recovery stays above chance.",
+    "updated" : "2026-06-13T10:44:52Z",
+    "published" : "2026-06-05T11:07:55Z",
+    "authors" : [
+      {
+        "name" : "Bijaya Dangol"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.MA",
+      "cs.NI"
+    ]
   }
 ]
