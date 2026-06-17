@@ -254,68 +254,73 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.27292v2">Detectability in Diversity: Improved Canary Crafting for Privacy Auditing in One Run</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-05-26T17:06:14Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mathieu Dagréou, Aurélien Bellet</p>
-    <p><b>Summary:</b> Privacy auditing aims to empirically assess privacy leakage in machine learning models using membership inference attacks (MIAs), and to derive lower bounds on differential privacy (DP) parameters. Recent one-run auditing methods address the high cost of standard approaches by relying on a single training run with multiple "canary" points whose inclusion or exclusion must be detected by the auditor. In this work, we study the problem of efficiently crafting canaries for one-run privacy auditing. Motivated by recent theoretical insights suggesting that interference between canaries contributes to weaker leakage estimates compared to multi-run methods, we propose to optimize canaries to be both highly detectable and minimally interfering. Our approach combines a greedy initialization based on influence functions with a bilevel optimization procedure that maximizes distinguishability while promoting diversity in embedding space, enabling the use of computationally efficient bilevel algorithms. Experiments show that our method achieves stronger privacy leakage estimates at a lower computational cost than existing canary crafting approaches.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.27278v2">Optimal quantum locally differentially private mechanisms in the high-privacy regime</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-05-26T16:57:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuuya Yoshida</p>
-    <p><b>Summary:</b> We optimize the trade-off between privacy and utility in the high-privacy regime. We adopt local differential privacy (LDP) and its quantum extension, quantum local differential privacy (QLDP), for privacy protection, and investigate utility functions including the Holevo information (which reduces to the mutual information in the classical case) and the error exponents in symmetric and asymmetric hypothesis testing. These utility functions have classical and quantum optimal values, which are denoted by $C$ and $Q$, respectively, in this abstract for simplicity. In this paper, we provide optimal LDP and QLDP mechanisms achieving the classical and quantum optimal values in the high-privacy regime, and prove that the asymptotic ratio $Q/C$ in this regime takes the same value regardless of the utility function. Our results reveal quantum advantages (more precisely, $Q/C\ge3/2$) for the above utility functions when the protected private data are $n$-ary with $n\ge3$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.26931v1">Dual Privacy Guarantees for Distributed Nash Equilibrium Seeking in Aggregative Games</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E">
-  <p><b>Published on:</b> 2026-05-26T12:24:54Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qingtan Meng, Qian Ma</p>
-    <p><b>Summary:</b> This paper investigates the privacy-preserving distributed Nash equilibrium seeking problem for aggregative games. A novel differential privacy mechanism is designed by incorporating stochastic event-triggering with stochastic quantization, which provides strong privacy protection by obfuscating the temporal patterns of information exchange among players and quantizing the transmitted information at triggering instants. Based on this mechanism, a differentially private distributed Nash equilibrium seeking algorithm with dual randomness is proposed. By embedding a decaying factor sequence into both the triggering condition and interaction terms among players, it is proved that the proposed algorithm can achieve rigorous $(0,δ)$-differential privacy at each iteration while maintaining provable convergence. Crucially, this privacy guarantee is sustained over infinite iterations for a sufficiently large quantization interval and a sufficiently small trigger threshold tuning coefficient. Moreover, the synergy between event-triggered communication and quantization significantly enhances communication efficiency. Simulation results verify the validity of the proposed approach.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.26882v1">Privacy-Preserving Screening for Record Linkage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-05-26T11:43:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chenyu Huang, Fan Zhang, Huangxun Chen, Yongjun Zhao, Huaming Rao, Peng Chen, Danqing Huang</p>
-    <p><b>Summary:</b> In an era dominated by big data and machine learning, establishing valuable data collaboration has never been more critical. However, such collaborations must operate under regulatory and legal constraints. Two-party Privacy-Preserving Record Linkage (PPRL) emerges to assess the potential collaboration value and also ensure the privacy and security of the involved data. Nevertheless, the substantial computational and communication overheads associated with PPRL hinder its practical adoption in data markets with numerous potential collaborators. Therefore, we present the Screening-then-Linkage framework, which incorporates a lightweight Screening phase prior to the resource-intensive PPRL phase, i.e., PPRS, to mitigate the scalability issue of PPRL. We propose a circuit-PSI-based system, named Appraisal to realize a secure, effective, and efficient PPRS. To reconcile the approximate matching and/or schema-aware setting required in PPRS with the limitations of the circuit-PSI supporting only symmetric functions, we propose a more communication-efficient secure permutation, i.e., Oblivious Attribute/Feature Alignment protocol tailored for PPRS. This protocol supports a broader range of comparison functions and significantly improves efficiency, i.e., reducing communication costs by a factor of 14 compared to the conventional protocol. Our rigorous analysis and comprehensive empirical evaluations demonstrate the security, effectiveness, and efficiency of Appraisal. Appraisal can accommodate up to $850\times$ more records than the SOTA PPRS system, SFour, within the same constraints. Moreover, it is $165 \times$ faster than SOTA PPRL, indicating the Screening-then-Linkage framework substantially decreases the computation time required to identify the most valuable collaborators from a large pool of candidates.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2605.26465v1">Beyond Epsilon: A Principled QIF Framework for Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-05-26T02:20:11Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ramon G. Gonze, Natasha Fernandes, Heber H. Arcolezi, Catuscia Palamidessi, Nataliia Bielova</p>
-    <p><b>Summary:</b> Local Differential Privacy (LDP) has become the de facto standard for privacy-preserving data collection in large-scale systems, in particular for the purpose of estimating frequencies. However, the current research landscape lacks a systematic and principled way to compare LDP protocols. The parameter $\varepsilon$ of LDP is considered the measure of privacy, but it only bounds worst-case distinguishability. Other comparisons rely on utility-driven analyses, where mechanisms are ranked based on their ability to preserve data utility for a given privacy budget $\varepsilon$. Both such kinds of comparisons fail to account for the strength of protocols against diverse attacker models. In this paper, we propose a framework for analyzing LDP frequency estimation protocols through the lens of Quantitative Information Flow (QIF). By modeling LDP mechanisms as probabilistic channels, we leverage the concept of refinement (Blackwell ordering) to establish more principled classifications. This approach allows us to determine when one protocol is intrinsically superior to another for all possible adversaries, and to discuss the implications for utility. In particular, our analysis uncovers cases where protocols previously deemed "optimal" are, in fact, incomparable with, or strictly dominated by, other protocols. We provide a formal QIF-based treatment of seven state-of-the-art protocols, including Generalized Randomized Response (GRR), local hashing variants (BLH, OLH), unary encoding schemes (SUE, OUE), and Thresholding with Histogram Encoding (THE). This perspective bridges the gap between the LDP and formal methods communities and enables principled, adversary-aware reasoning about locally private systems.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-06</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.18062v1">Security and Privacy Prompts in the Wild: What Users Ask LLMs and How LLMs Respond</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-06-16T15:37:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hobin Kim, Xiaoyuan Wu, Omer Akgul, Lujo Bauer, Nicolas Christin</p>
+    <p><b>Summary:</b> Large language models (LLMs) are widely used to fulfill users' information needs; users ask LLMs about the weather, pose educational questions, and consult them for legal assistance. One particularly understudied area is digital security and privacy (S&P), where users may seek LLMs' help on how to secure their online accounts or protect their computers from cyber attacks. To the best of our knowledge, no prior study has collected or analyzed the S&P questions users ask LLMs; prior research on LLM response quality relied on expert-authored S&P misconceptions or FAQs rather than user queries. Drawing from WildChat, a dataset of 3.2M user-LLM conversations collected in the wild, our study identifies 14,727 S&P prompts and categorizes them into nine categories covering a wide range of S&P topics. From the S&P prompts, we sampled 450 and performed a thematic analysis to characterize the S&P questions users ask LLMs. Separate from the thematic analysis, we curated 270 advice-seeking S&P prompts, where users ask for recommendations, guidance, or specific S&P information. We measured LLM response quality and consistency when posing the prompt to LLMs 10 times. We found that commercial LLMs outperform open-weight models (GPT 5.5 provided "good enough" responses on 98% of prompts; Llama 4 on 47%). However, among prompts that received high-quality responses on average, commercial models sometimes produce contradictory responses across runs, risking confusing or misleading users.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.17995v1">Differential Privacy of Gaussian Process Posterior Sampling</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-06-16T14:43:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tomasz Maciazek</p>
+    <p><b>Summary:</b> We study the privacy of releasing posterior sample paths from a Gaussian process (GP) when the entire training set including covariates and responses is private. Unlike standard differential-privacy (DP) mechanisms that add external noise, posterior sampling is random by construction. We show that this intrinsic randomness yields DP guarantees by deriving explicit Rényi-DP bounds for GP posterior sample-path release. The bounds separate posterior-mean leakage from data-dependent posterior-covariance leakage showing that meaningful privacy depends sharply on effective ridge regularisation. We apply membership-inference attacks to show that empirical leakage follows the predicted dependence on regularisation, posterior variance and the number of released posterior sample-paths. Utility experiments on downstream posterior-sampling tasks identify noisy-observation regimes where privacy-compatible regularisation preserves useful decisions with modest utility loss. When stronger privacy is needed, the intrinsic guarantee can be sharpened by adding calibrated GP noise, providing an explicit additional privacy knob.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.17421v1">Bifrost: Hybrid TEE-FHE Inference for Privacy-Preserving Transformer and LLM Serving</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-06-16T02:06:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenghao Chen, Kailun Qin, Xiaolin Zhang, Chi Zhang, Dawu Gu</p>
+    <p><b>Summary:</b> Cloud-hosted transformer and large language model (LLM) inference creates a direct confidentiality problem: user prompts may contain sensitive code, business data, personal information, or regulated documents, yet remote serving exposes intermediate state to the cloud software stack and accelerator runtime. Fully homomorphic encryption (FHE) keeps accelerator-side execution ciphertext-only, but end-to-end LLM inference remains expensive because linear layers are interleaved with non-linear, cache-state, and refresh-sensitive operators. CPU trusted execution environments (TEEs) can execute those operators natively, but a CPU TEE alone does not define how an untrusted accelerator should participate.
+  We present Bifrost, a hybrid TEE-FHE serving architecture in which secrets are provisioned only to an attested CPU TEE, while the accelerator, device memory, driver/runtime stack, and host software remain outside the trusted computing base. Bifrost uses FHE as a secure delegation mechanism for projection and feed-forward linear layers on accelerator-backed CKKS, while non-linear operators, attention-side control logic, KV-state transitions, and decrypt-then-encrypt refresh execute inside the CPU TEE.
+  Bifrost+ further applies a prefill/decode split: prompt-side KV state is built inside the CPU TEE, and only decode-side state enters the hybrid ciphertext path. In an estimator-style comparison matching Euston's methodology, Bifrost reduces projected latency by 9.25x on GPT-2 (1.5B) and 9.91x on LLaMA 3 (8B). In direct CKKS/FHE deployments, Bifrost+ reduces TTFT by 14.6-45.8x on GPT-2 (124M) and 15.3-53.4x on Qwen3 (0.6B). The systems lesson is selective encrypted execution: use FHE only where ciphertext-only accelerator delegation is required, and keep non-linear, refresh, and prompt-side work inside the CPU TEE.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.17387v1">Supporting the Adoption of Privacy-Enhancing Technologies through Requirements Engineering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2026-06-16T00:49:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Oleksandr Kosenkov, Vadym Honcharenko, Abhinava Singh, Volodymyr Spirin, Danica Vranjanin</p>
+    <p><b>Summary:</b> In recent decades, privacy-enhancing technologies (PETs) have been recognized as a means of meeting regulatory and user privacy requirements in software systems that process personal data. Despite substantial research efforts, support from regulators, contributions by large technology companies such as Google and Microsoft, and growing interest among software practitioners, the practical adoption of PETs remains limited. Existing research consistently identifies recurring challenges to PETs adoption in SE, such as technical complexity and insufficient training. Despite ongoing research efforts, these challenges largely remain unresolved in practice.
+  In this industrial challenge paper, we apply a practical, requirements engineering (RE)-driven perspective to examine challenges to PET adoption across multiple stakeholder groups (PET developers, integrators, and adopters) as well as across different disciplinary perspectives (engineering, law, and business).
+  We argue that RE can facilitate the adoption of PETs by systematically addressing each of the complementary engineering, business, and legal viewpoints on privacy. Neglecting challenges in any of these viewpoints (e.g., the impact of PETs on software architecture, their business implications, and their contribution to regulatory compliance) can increase the impediments or even lead to implementation failure. In practice, explicit specification of these viewpoints within RE can enable meaningful coordination among stakeholders to more effectively realize the benefits of PETs in software engineering.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2606.17297v1">Scalable K-clique Estimation with Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-06-15T21:06:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dung Nguyen, Ritwick Mishra, Anil Vullikanti</p>
+    <p><b>Summary:</b> Counts of $k$-cliques are commonly used metrics in subgraph mining. Since graphs often have sensitive data, there also has been a lot of work on $k$-clique counts with differential privacy. However, these metrics have very high global sensitivity, and so more sophisticated techniques have been developed for counting $k$-cliques with privacy. Smooth sensitivity and ladder functions were developed for reducing the noise magnitude for private estimates of these metrics. However, these are computationally very inefficient to estimate. No polynomial time algorithms are known for smooth sensitivity of $k$-cliques for $k>3$, while the time complexity of ladder functions is lower bounded by the time for exact counts, which does not scale very well.
+  In this paper, we develop a new highly scalable algorithm for estimating $k$-clique counts with differential privacy. Our algorithm adapts the ladder function to serve as a smooth upper bound on its local sensitivity, and utilizes the approximation sensitivity framework to calibrate noise with magnitude proportional to an approximation of the bound. This gives us a significant improvement in the running time. Experiments show that our method is several orders of magnitude faster than the ladder function based estimates of $k$-clique counts, while the accuracy is similar. Our algorithm is the first to scale to graphs with millions of edges, and for larger $k$, for which the ladder function algorithm doesn't complete.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2606.17035v1">Your Privacy My Cloak: Backdoor Attacks on Differentially Private Federated Learning</a></h3>
@@ -342,7 +347,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2606.16878v1">Integrated Marketing Attribution: A Bayesian Framework for Privacy-Safe Granular Measurement Anchored in MMM</a></h3>
+  <h3><a href="http://arxiv.org/abs/2606.16878v2">Integrated Marketing Attribution: A Bayesian Framework for Privacy-Safe Granular Measurement Anchored in MMM</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-06-15T15:52:48Z</p>
   <details>
@@ -524,14 +529,14 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2606.12666v1">CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents</a></h3>
+  <h3><a href="http://arxiv.org/abs/2606.12666v2">CAPED: Context-Aware Privacy Exposure Defense for Mobile GUI Agents</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-06-10T20:48:39Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Siyu Shen, Fenghao Xu, Wenrui Diao, Kehuan Zhang</p>
     <p><b>Summary:</b> Screenshot-based mobile GUI agents can operate ordinary smartphone apps through the same visual interface as a human user, but this capability also turns every screen observation into a privacy boundary. During normal task execution, screenshots may expose contacts, messages, photos, files, recommendations, health cues, and other sensitive context that is unrelated to the user's request. We call this problem incidental visual privacy exposure. It is difficult to address with existing defenses: text anonymization misses many visual and inferential cues, while generic privacy masking can remove the evidence and controls that a GUI agent needs to complete the task.
-  This paper presents CAPED, a context-aware pre-upload exposure control layer for mobile GUI agents. CAPED is designed as a phone-side protection layer: before screenshots are released to a remote multimodal agent, it extracts task requirements, uses screen context as a privacy prior, parses visible UI elements, and selectively exposes only content needed for the current task while masking incidental private content. We evaluate CAPED on AndroidWorld for broad task utility and with a controlled 28-task seeded privacy evaluation used as a measurement instrument for trajectory-level incidental leakage. In this seeded evaluation, Full CAPED reduces success-conditioned weighted seeded leakage from 0.766 under raw screenshots to 0.268 while preserving high task utility. A broader AndroidWorld run shows a remaining prototype-level utility cost, but the results support the central claim that screenshot upload should be treated as an explicit device--cloud boundary decision, governed by task-driven selective exposure rather than all-or-nothing screen sharing.</p>
+  This paper presents CAPED, a context-aware pre-upload exposure control layer for mobile GUI agents. CAPED is designed as a phone-side protection layer: before screenshots are released to a remote multimodal agent, it extracts task requirements, uses screen context as a privacy prior, parses visible UI elements, and selectively exposes only content needed for the current task while masking incidental private content. We evaluate CAPED on AndroidWorld for broad task utility and with a controlled 28-task seeded privacy evaluation used as a measurement instrument for trajectory-level incidental leakage. In this seeded evaluation, Full CAPED reduces success-conditioned weighted seeded leakage from 0.766 under raw screenshots to 0.268 while preserving high task utility. A broader AndroidWorld run shows a remaining prototype-level utility cost, but the results show that task-driven selective exposure can reduce incidental visual leakage before screenshots are released to a remote GUI agent.</p>
   </details>
 </div>
 
