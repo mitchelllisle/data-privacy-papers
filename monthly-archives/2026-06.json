@@ -2550,5 +2550,348 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.23230v1",
+    "title" : "Privacy-Preserving Person Re-Identification from Temporal Sequences with Transformer and Hungarian Optimization",
+    "summary" : "Person re-identification (Re-ID) is a crucial task in surveillance and human behavior analysis, often used in public spaces such as transport hubs. Traditional RGB-based Re-ID methods raise privacy concerns and are highly sensitive to lighting variations and occlusion. In this paper, we propose a novel Re-ID approach that leverages depth images, which inherently obscures facial and other identifiable features, making it a privacy-preserving solution. Our method addresses the association problem between multiple views of individuals by applying the Hungarian algorithm, optimizing the matching process through minimization of the global cost across the distance matrix. We further enhance the approach by introducing temporal sequences of frames as input to a Transformer encoder architecture, which exploits both RGB and depth modalities. This architecture captures dynamic movement patterns, improving feature extraction and re-identification accuracy. Additionally, we employ batch hard triplet loss to enhance discriminative feature learning by focusing on the hardest samples. We evaluate both depth-only and RGB-D models on several top-view datasets, including TVPR2, GODPR, and BIWI RGBD-ID. Our results demonstrate that depth-only re-identification can achieve competitive performance compared to state-of-the-art methods, as measured by standard metrics such as Cumulative Matching Characteristics (CMC) and Mean Average Precision (mAP), while prioritizing privacy preservation.",
+    "updated" : "2026-06-22T12:18:43Z",
+    "published" : "2026-06-22T12:18:43Z",
+    "authors" : [
+      {
+        "name" : "Raphaël Delécluse"
+      },
+      {
+        "name" : "Hazem Wannous"
+      },
+      {
+        "name" : "Laurent Guimas"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.23217v1",
+    "title" : "MuPPET: A Benchmark for Contextual Privacy of LLM Assistants in Multi-Party Conversations",
+    "summary" : "LLM agents are increasingly deployed in multi-party environments, handling sensitive personal data on behalf of individual users, for instance in group chats. When such an agent discloses private information, it reaches every group member at once. This risk is structurally harder to control than in one-to-one settings, as every piece of private information must be appropriate for every recipient in the group. Yet all existing contextual privacy benchmarks consider only single-interlocutor settings, leaving multi-party privacy risks unmeasured. We introduce MuPPET (Multi-Party Privacy Exposure Testing), a benchmark for contextual privacy in multi-party conversations. Our experiments show that models leak substantially more in multi-party settings than one-to-one evaluations suggest. Frontier models are vulnerable, and smaller open-weights models, often preferred for local deployment with sensitive data, even more so. Existing contextual privacy defences offer only partial protection, degrade utility, and do not resolve the underlying party-tracking problem.",
+    "updated" : "2026-06-22T12:06:21Z",
+    "published" : "2026-06-22T12:06:21Z",
+    "authors" : [
+      {
+        "name" : "Elena Sofia Ruzzetti"
+      },
+      {
+        "name" : "Cornelius Emde"
+      },
+      {
+        "name" : "Sangdoo Yun"
+      },
+      {
+        "name" : "Seong Joon Oh"
+      },
+      {
+        "name" : "Martin Gubri"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.23096v1",
+    "title" : "Minimax Quantile Lower Bounds for Interactive Statistical Decision Making with Privacy",
+    "summary" : "Minimax risk and regret are expectation-based criteria and do not capture rare but consequential failures. To address this concern, we develop a $δ$-explicit minimax-quantile theory for interactive statistical decision making (ISDM). We first provide structural relations between minimax quantiles, lower minimax quantiles, and minimax risk. This includes a quantile-to-expectation conversion and an equivalence between strict and lower minimax quantiles outside a countable set of confidence levels. We then derive two converse tools for ISDM: a high-probability interactive Fano's method and a high-probability interactive Le Cam's method. Then, we show that mutual-information (MI) privacy can be handled in the same framework by restricting the admissible decision class. For coordinatewise Gaussian privatization, we derive a two-point template that isolates the privacy-induced variance inflation. We instantiate this template for Gaussian mean estimation, and use the same two-point strategy directly for two-armed Gaussian bandits. We then derive a minimax quantile lower bound for the $K$-armed Gaussian bandit problem, showing that the interactive Fano method captures the exploration cost over multiple possible best arms. The resulting lower bounds are explicit in the confidence level $δ$ and in the privacy budget for the private problems. They yield $\\log(1/δ)/n$ scaling for squared-error Gaussian mean estimation, $\\sqrt{T\\log(1/δ)}$ scaling for two-armed bounded-mean Gaussian bandits, and $\\sqrt{KT\\log(1/δ)}$-type scaling for the $K$-armed bandits, with privacy appearing through a Gaussian variance-inflation factor for the private problems.",
+    "updated" : "2026-06-22T09:41:48Z",
+    "published" : "2026-06-22T09:41:48Z",
+    "authors" : [
+      {
+        "name" : "Raghav Bongole"
+      },
+      {
+        "name" : "Amirreza Zamani"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.22928v1",
+    "title" : "HADES: Privacy-Preserving Federated Learning via Selective Feature Encryption and Hybrid Model Fusion",
+    "summary" : "In this paper, we address the challenge of privacy-preserving training in federated learning (FL) by introducing a novel framework that selectively encrypts only the most privacy-sensitive features while leaving the remaining data and the corresponding model portion unencrypted. We propose HADES, a hybrid system that identifies and encrypts the most critical features, ensuring both privacy protection and computational efficiency. Unlike fully encrypted FL training pipelines, which suffer from high computational overhead, HADES integrates an encrypted and non-encrypted training pipeline via a fusion mechanism, enabling seamless interaction between encrypted and plaintext model representations. To achieve this, we use PCA to identify and encrypt the most privacy-sensitive features, which significantly reduces reconstruction attack success in FL. Building on this insight, we design a hybrid FL system that trains an end-to-end encrypted network via multiparty homomorphic encryption (MHE) on the selected features while simultaneously training a plaintext network on the remaining features. These two networks are then integrated using a fusion mechanism. We also introduce a general packing scheme that eliminates redundant rotations by considering the entire neural network architecture. Finally, we demonstrate that HADES matches the accuracy of vanilla FL while preserving privacy and achieving optimized runtime through selective encryption.",
+    "updated" : "2026-06-22T07:05:53Z",
+    "published" : "2026-06-22T07:05:53Z",
+    "authors" : [
+      {
+        "name" : "Ergün Batuhan Kaynak"
+      },
+      {
+        "name" : "Kerem Bayramoglu"
+      },
+      {
+        "name" : "Sinem Sav"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.22699v1",
+    "title" : "Catching Lies Without Sending the Video: Privacy-Preserving Multimodal Deception Detection",
+    "summary" : "Frontier multimodal models can guess whether a person is lying from a testimony video. To do so, they stream that raw face and voice to a third-party model. We ask whether the heavy media is needed at all. On the Real-life Trial Deception dataset, Whissle on-device speech and vision stack extracts a compact digest: transcript, emotion, age, gender, intent distributions, a deception intent filter, fluency and rhythm, per-frame facial behaviour, and prosody. Under speaker-independent evaluation, we report three findings. A small classifier on this digest reaches AUC 0.741, matching Gemini 2.5 Pro on full video. Handing the digest to a frontier LLM reaches AUC 0.755 with Claude Opus 4.8 at 7.8X fewer input tokens, with no media leaving the device. The reported 75% accuracy is a speaker-leakage artifact. We release code and experiments.",
+    "updated" : "2026-06-21T22:30:55Z",
+    "published" : "2026-06-21T22:30:55Z",
+    "authors" : [
+      {
+        "name" : "Nikita Sharma"
+      },
+      {
+        "name" : "Pranav Sara"
+      },
+      {
+        "name" : "Karan Singla"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.22311v1",
+    "title" : "Semantic Non-Assembly: Privacy by Architectural Inertness Under Component Exposure",
+    "summary" : "Existing privacy frameworks emphasize confidentiality, access control, appropriate information flow, or statistical disclosure limitation. We introduce a complementary class of privacy guarantee (Semantic Non-Assembly) in which privacy is characterized not by the difficulty of achieving exposure but by the information yield of exposure when it occurs. SNA prevents evaluation of a designated predicate by preventing any sub-threshold coalition from assembling a sufficient assignment to its input domain. An architecture satisfies Semantic Non-Assembly when no coalition of fewer than a defined threshold of components can assemble such an assignment: complete exposure and decryption of any sub-threshold component yields no actionable data. In the base protocol, the guarantee is structural: it operates through architecture, not policy, and its privacy properties degrade predictably under component compromise rather than collapsing at a single point. The reference instantiation combines this structural guarantee with audited organizational constraints, as characterized in Appendix A. This paper formalizes the guarantee and establishes four ProVerif-verified properties: Device Non-Correlation, Registry Observer Non-Identification, Submission Server Blindness, and Active Defense Gate correctness, the first three through a two-channel provenance architecture. The Birthmark Standard instantiates the guarantee on constrained capture hardware, demonstrating deployability where ZK-based approaches are computationally infeasible. All formal properties and scope limitations are documented in Appendix A.",
+    "updated" : "2026-06-21T02:40:29Z",
+    "published" : "2026-06-21T02:40:29Z",
+    "authors" : [
+      {
+        "name" : "Sam Ryan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.21757v1",
+    "title" : "AdaPrivate-TS: Private Thompson Sampling for Contextual Bandits with Privacy Amplification",
+    "summary" : "We present AdaPrivate-TS, a differentially private contextual bandit algorithm that combines Thompson Sampling with batched zCDP composition. Our key insight is that differential privacy noise inflates the posterior covariance in a structured way: adding Gaussian noise $N(0,σ^2 I)$ to $b$ yields sampling covariance $v^2 A^{-1} + σ^2 A^{-2}$, which Thompson Sampling interprets as increased uncertainty rather than pure corruption. Under event-level privacy (protecting individual interactions) with stochastic contexts, we prove that the privacy cost is only $O(\\sqrt{d}\\,\\log T/\\sqrtρ)$, logarithmic in $T$, because parallel composition amortizes noise across batches. Additionally, we explore privacy amplification via Poisson subsampling, which can reduce effective noise at stringent privacy budgets. Experiments on synthetic and real-world datasets demonstrate: (1) AdaPrivate-TS achieves 93-99% of non-private performance at $\\varepsilon \\in [0.5, 5]$, outperforming UCB by 0.5-3.7% and up to 18% with tuned adaptive exploration at extreme $\\varepsilon$; (2) privacy amplification provides additional 2-5% gains at low $\\varepsilon$; (3) on MovieLens and Jester, AdaPrivate-TS achieves the best overall performance among event-level baselines, dominating at $\\varepsilon \\geq 2$; (4) under DP-SVD private features, TS's advantage over UCB grows to +11%, confirming noise-as-uncertainty is not limited to reward privacy. We provide rigorous proofs for privacy guarantees under interactive zCDP composition and comprehensive evaluation including convergence curves, 12-seed CIs, and DP-SVD feature ablation.",
+    "updated" : "2026-06-19T21:18:33Z",
+    "published" : "2026-06-19T21:18:33Z",
+    "authors" : [
+      {
+        "name" : "Mohammadreza Riyazat"
+      },
+      {
+        "name" : "Eranga Ukwatta"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.21710v1",
+    "title" : "PrivacyAlign: Contextual Privacy Alignment for LLM Agents",
+    "summary" : "AI agents acting on behalf of users are constantly making decisions, and for users to trust their agents, those decisions must align with what they actually want. Privacy is an important alignment problem for agents: every message, post, or tool call an agent makes is a contextual judgment about what is appropriate to share, with whom, and under which conditions. Because such judgments depend on social expectations and norms, human judgment does not merely label privacy violations but also helps define them. While existing work relies on unreliable proxies for both training and evaluation, we place human judgment at the center of agentic privacy alignment. We introduce PrivacyAlign, a dataset of 1,350 samples with 3,516 detailed annotations from 599 unique annotators across diverse scenarios where current LLMs actually leak, and use it to ground both alignment training and automated evaluation in human privacy norms. Building on these annotations, we first show that conditioning LLM judges on human annotations and explanations for reference responses to the same prompt makes their judgments more reliable. We then introduce annotation-conditioned reward modeling, which uses these annotations to score new responses during RL, and show that small open-weight agents trained with this reward better align with human privacy norms, with strong gains on PrivacyAlign and existing privacy benchmarks for agents.",
+    "updated" : "2026-06-19T19:50:55Z",
+    "published" : "2026-06-19T19:50:55Z",
+    "authors" : [
+      {
+        "name" : "Manveer Singh Tamber"
+      },
+      {
+        "name" : "Abhay Puri"
+      },
+      {
+        "name" : "Marc-Etienne Brunet"
+      },
+      {
+        "name" : "Perouz Taslakian"
+      },
+      {
+        "name" : "Jimmy Lin"
+      },
+      {
+        "name" : "Spandana Gella"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.21524v1",
+    "title" : "Prophet Inequalities under Local Differential Privacy",
+    "summary" : "Many online decision platforms, from hiring marketplaces to auctions, face a tension between efficient decision-making and the protection of participants' privacy. Personal information, such as a candidate's test score or a bidder's valuation linked to protected data, is sensitive, and fear of data resale or reputational harm can make participants reluctant to share it. Furthermore, platforms can be untrusted or even incentivized to resell data, making local privacy guarantees that do not rely on a trusted centralized curator preferable. We initiate the study of optimal stopping and prophet inequalities under local differential privacy (LDP). Each of $n$ independent arriving values is observed only through reports generated by an $\\varepsilon$-LDP mechanism. The decision maker must design the $\\varepsilon$-LDP mechanisms, and choose an irrevocable stopping time to maximise the expected selected true value. We characterize the optimal online stopping rule under LDP and show that simple binary mechanisms suffice: an optimal LDP stopping rule can be implemented via a randomized-response-type report and a dynamic-programming threshold rule. We then quantify performance via tight competitive ratios against two benchmarks. Relative to the optimal non-private online policy, we prove a tight worst-case competitive ratio of $e^{\\varepsilon}/(n - 1 + e^{\\varepsilon})$, interpolating between $1/n$ (full privacy) and $1$ (no privacy). Relative to an LDP prophet, who designs $\\varepsilon$-LDP mechanisms but observes the full privatized sequence before deciding what to select, we prove a tight competitive ratio of $(1 + e^{-\\varepsilon})/2$, interpolating between $1$ (full privacy) and the classical $1/2$ bound (no privacy). Notably, increasing privacy shrinks the LDP prophet's advantage faster than it degrades online performance, closing the performance gap.",
+    "updated" : "2026-06-19T15:22:14Z",
+    "published" : "2026-06-19T15:22:14Z",
+    "authors" : [
+      {
+        "name" : "Achraf Azize"
+      },
+      {
+        "name" : "Mathieu Molina"
+      },
+      {
+        "name" : "Hugo Richard"
+      },
+      {
+        "name" : "Vianney Perchet"
+      }
+    ],
+    "categories" : [
+      "cs.GT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.21513v1",
+    "title" : "Privacy-Preserving Federated Temporal Graph Learning with Digital Twin--Guided Adaptive Deception for Cyber-Resilient IoMT",
+    "summary" : "The rapid proliferation of IoT and IoMT devices introduces critical cybersecurity vulnerabilities in healthcare and industrial environments where resource-constrained devices operate under strict latency and data-privacy regulations. This paper presents the Federated Temporal Graph Convolutional Network with Advantage Actor-Critic (Federated TGCN-A2C), a privacy-preserving defense architecture integrating four mechanisms: a PyG-based Temporal GCN using GCNConv layers with global mean pooling and a learned anomaly gate for flow-level threat classification; LSTM-based Digital Twins generating per-device anomaly scores gating the classifier via learned sigmoid coupling; a Federated A2C agent selecting among ALLOW, ISOLATE, and HONEYPOT-REDIRECT actions based on a seven-dimensional state capturing confidence, entropy, anomaly magnitude, and traffic composition; and an enhanced honeypot layer converting suspicious traffic into threat intelligence with adaptive thresholds. Federated aggregation employs EMA-smoothed per-client validation losses as inverse-weighted FedAvg coefficients to stabilize global model updates under non-IID distributions, with cosine-annealed learning rates per round. Evaluated on CICDDoS 2019 and TON-IoT benchmarks, the framework achieves 99.48% and 99.61% test accuracy with weighted-F1 scores of 0.9948 and 0.9961, converging within 25 and 10 federated rounds, outperforming Fed-Inforce-Fusion by 0.21 percentage points while covering three additional attack categories. All sixteen CICDDoS 2019 classes achieve F1 of at least 0.9237 and all ten TON-IoT classes achieve F1 of at least 0.9488, including the severely imbalanced MITM category. Post-hoc explainability via SHAP, LIME, Grad-CAM, and counterfactual analysis confirms decisions are grounded in semantically meaningful flow features, supporting regulatory accountability in clinical deployments.",
+    "updated" : "2026-06-19T15:09:38Z",
+    "published" : "2026-06-19T15:09:38Z",
+    "authors" : [
+      {
+        "name" : "Syed Zeeshan Haider"
+      },
+      {
+        "name" : "Anwar Shah"
+      },
+      {
+        "name" : "Muneeb Arif"
+      },
+      {
+        "name" : "Hamza Iftikhar"
+      },
+      {
+        "name" : "Waqas Ali"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.21338v1",
+    "title" : "\"What Happens Locally, Leaks Globally\": Detecting Privacy Leakage Risks in MCP Servers",
+    "summary" : "The Model Context Protocol (MCP) has rapidly become the de facto standard for connecting large language models (LLMs) to external resources, but it also introduces a class of privacy risks that existing tools are ill-equipped to detect. Unlike conventional exfiltration bugs, leakage in MCP servers is largely protocol-induced: credentials, API keys, and Personally Identifiable Information (PII) cross the local/LLM boundary simply by being returned, logged, or raised inside a tool handler, with no explicit outbound request in the source code. We present MCPPrivacyDetector, a context-aware cross-language static analysis framework that detects such leakage in multilingual MCP servers. MCPPrivacyDetector lifts heterogeneous code implemented across different programming language (e.g., Python) into a unified program representation, applies context-aware semantic filtering to isolate genuinely sensitive values and protocol-specific implicit sinks (e.g., @mcp.tool handlers), and performs taint analysis to enumerate feasible flows. Applied to 10,655 real-world MCP servers, MCPPrivacyDetector finds leakage rates above 10%. Case studies confirm concrete exposures including leaked Bearer tokens, propagated API keys, and plaintext authentication credentials, arguing for systematic, protocol-aware safeguards in the emerging LLM agent toolchain.",
+    "updated" : "2026-06-19T11:35:41Z",
+    "published" : "2026-06-19T11:35:41Z",
+    "authors" : [
+      {
+        "name" : "Biwei Yan"
+      },
+      {
+        "name" : "Minghui Xu"
+      },
+      {
+        "name" : "Yijun Yang"
+      },
+      {
+        "name" : "Boyang Ma"
+      },
+      {
+        "name" : "Xuelong Dai"
+      },
+      {
+        "name" : "Jingku Li"
+      },
+      {
+        "name" : "Yue Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.20760v1",
+    "title" : "Privacy-Preserving Compliance on Public Ledgers via Selective Disclosure Authorization Schemes",
+    "summary" : "Public distributed ledgers enforce integrity through radical transparency, creating tension with data minimization principles required for regulatory compliance. While Zero-Knowledge Proofs (ZKPs) offer a theoretical privacy solution, existing constructions often overlook adversarial constraints in smart contract environments. Specifically, the asynchronous decoupling of off-chain proof generation from on-chain submission introduces front-running and proof-reuse risks in public mempools. In this work, we formalize Selective Disclosure Authorization Schemes (SDAS), a cryptographic primitive for granular and revocable compliance checks on public ledgers without revealing the underlying witness. We define a security model for SDAS, introducing Ledger-Bound Attribute Unlinkability and Context-Aware Sender Binding to capture how valid proofs remain bound to their intended authorization context. To validate sender binding, we present ZK-Compliance, an Ethereum-based instantiation that operationalizes a user-controlled \"Grant, Verify, Revoke\" lifecycle. We implement the sender-binding component using a 14-constraint Circom circuit that anchors the zero-knowledge proof to the executing on-chain sender address. Our Sepolia evaluation confirms practical viability: browser-based proof generation executes in under 200 ms, and on-chain verification costs 240,512 gas, neutralizing proof reuse by different callers while preserving strict attribute privacy.",
+    "updated" : "2026-06-18T09:38:13Z",
+    "published" : "2026-06-18T09:38:13Z",
+    "authors" : [
+      {
+        "name" : "Supriya Khadka"
+      },
+      {
+        "name" : "Sanchari Das"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.20732v1",
+    "title" : "Balanced Workforce: Governance-by-Design for Privacy-Preserving Inter-Firm Workforce Leasing",
+    "summary" : "Workforce demand is uneven across organizations. Project-based companies may simultaneously face skill shortages in one unit while other firms hold underutilized employees with relevant expertise. Conventional hiring, contracting, and temporary agency models address parts of this problem, but they also create legal, ethical, organizational, and data-governance risks. This paper reframes a seminar project called Balanced Workforce into a governance-by-design framework for privacy-preserving inter-firm workforce leasing. The proposed Balanced Workforce Leasing Service (BWLS) enables companies to list temporary talent availability, discover anonymized skill profiles, negotiate assignments, and document agreements through locally deployed connectors and a minimal central coordination layer. The framework combines socio-technical governance, enterprise architecture, business model design, e3value-based value exchange modeling, and privacy-by-design principles. The paper presents the system concept, stakeholder model, process phases, architecture, business model, value network, and legal, ethical, and operational risk analysis. It argues that workforce leasing platforms should not be designed only as marketplaces. They require consent mechanisms, traceability, role-based access control, data minimization, contractual safeguards, dispute handling, and institutional accountability. The contribution is a structured framework and design artifact for future research on governed digital labor infrastructures. The paper does not claim deployment results or empirical validation; instead, it provides a design framework that can be evaluated through expert review, stakeholder workshops, prototype testing, and regulatory analysis.",
+    "updated" : "2026-06-17T10:50:17Z",
+    "published" : "2026-06-17T10:50:17Z",
+    "authors" : [
+      {
+        "name" : "Melody Amaizu"
+      },
+      {
+        "name" : "Martin Stojkovski"
+      },
+      {
+        "name" : "Ariton Verush"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16878v3",
+    "title" : "Integrated Marketing Attribution: A Bayesian Framework for Privacy-Safe Granular Measurement Anchored in MMM",
+    "summary" : "Retail marketing measurement increasingly requires granular campaign-level insights without relying on user-level tracking. However, the two dominant approaches, Marketing Mix Modeling (MMM) and Multi-Touch Attribution (MTA), often produce fragmented insights. MMM is privacy-safe and robust for channel-level planning but is too coarse for campaign optimization, while MTA provides granular attribution but has become less reliable under increasing privacy restrictions. We propose Integrated Marketing Attribution (IMA), a unified framework that combines MMM with channel specific Bayesian attribution models to derive campaign-level effects from aggregated data. By leveraging MMM-informed priors, IMA delivers granular, privacy-safe attribution while preserving consistency with MMM.",
+    "updated" : "2026-06-18T19:05:05Z",
+    "published" : "2026-06-15T15:52:48Z",
+    "authors" : [
+      {
+        "name" : "Meghana R. Bhat"
+      },
+      {
+        "name" : "Ankit Umare"
+      },
+      {
+        "name" : "Utsav Aggarwal"
+      },
+      {
+        "name" : "Richard Vecsler"
+      },
+      {
+        "name" : "Arunkumar Mani"
+      },
+      {
+        "name" : "Karthik Nair"
+      },
+      {
+        "name" : "Chandhu Nair"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
