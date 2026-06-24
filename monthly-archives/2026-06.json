@@ -2893,5 +2893,153 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.24819v1",
+    "title" : "HelpBench: Assessing the Ability of LLMs to Provide Privacy, Safety, and Security Advice",
+    "summary" : "This paper introduces HelpBench, a benchmark for assessing whether LLMs are capable of providing accurate help in response to questions about digital privacy, safety, and security. We curated 450 questions representing authentic user situations and developed rubrics for each question to evaluate the factual accuracy and tone of a response. Example questions touch on how to regain access to lost or suspended accounts, how to balance the trade-offs of hardware security keys versus other forms of two-factor authentication, whether a suspicious email is likely a scam, or whether an abuser might be able to track an individual based on their device peripherals. We then developed and applied an auto-rater to evaluate responses from 18 state-of-the-art LLMs. Our results indicate that while models provide high-quality advice (with scores of 82% on average), one in ten responses from models scores less than 65%, reflecting inaccurate and even harmful advice. Addressing these failures is critical for models to serve as trustworthy sources of assistance for digital privacy, safety, and security needs.",
+    "updated" : "2026-06-23T17:05:19Z",
+    "published" : "2026-06-23T17:05:19Z",
+    "authors" : [
+      {
+        "name" : "Sarah Meiklejohn"
+      },
+      {
+        "name" : "Sunny Consolvo"
+      },
+      {
+        "name" : "Patrick Gage Kelley"
+      },
+      {
+        "name" : "Tara Matthews"
+      },
+      {
+        "name" : "Sai Teja Peddinti"
+      },
+      {
+        "name" : "Renee Shelby"
+      },
+      {
+        "name" : "Lenin Simicich"
+      },
+      {
+        "name" : "Kurt Thomas"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.24623v1",
+    "title" : "Privacy-Preserving RAG via Multi-Agent Semantic Rewriting: Achieving Confidentiality Without Compromising Contextual Fidelity",
+    "summary" : "Retrieval-Augmented Generation enhances large language models by incorporating external knowledge, but deploying it in sensitive scenarios risks privacy leakage via malicious prompts. To address this, we propose a multi-agent framework that sanitizes retrieved content through semantic rewriting. By employing three specialized agents for privacy extraction, semantic analysis, and reconstruction, our approach collaboratively removes sensitive identifiers while preserving the semantic core. We evaluate the framework on the ChatDoctor and Wiki-PII datasets across six large language models. Experimental results demonstrate a significant reduction in privacy leakage under targeted attacks. For instance, we reduced targeted information exposure in LLaMA-3-8B from 144 instances in the baseline to just 1. Furthermore, we maintain strong contextual fidelity with a BLEU-1 score of 0.122, outperforming the existing SAGE method's 0.117. Finally, the framework operates as an asynchronous preprocessing module, introducing no additional latency to online inference, as all rewriting is executed as a one-time offline preprocessing step. To promote reproducibility, the source code of this work is publicly available at https://github.com/foursoils/Privacy-Preserving-RAG.",
+    "updated" : "2026-06-23T14:21:41Z",
+    "published" : "2026-06-23T14:21:41Z",
+    "authors" : [
+      {
+        "name" : "Yuanhe Zhao"
+      },
+      {
+        "name" : "Tianyu Zhang"
+      },
+      {
+        "name" : "Huafei Xing"
+      },
+      {
+        "name" : "Derek F. Wong"
+      },
+      {
+        "name" : "Jianbin Li"
+      },
+      {
+        "name" : "Tao Fang"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.24408v1",
+    "title" : "Natural Identifiers for Privacy and Data Audits in Large Language Models",
+    "summary" : "Assessing the privacy of large language models (LLMs) presents significant challenges. In particular, most existing methods for auditing differential privacy require the insertion of specially crafted canary data during training, making them impractical for auditing already-trained models without costly retraining. Additionally, dataset inference, which audits whether a suspect dataset was used to train a model, is infeasible without access to a private non-member held-out dataset. Yet, such held-out datasets are often unavailable or difficult to construct for real-world cases since they have to be from the same distribution (IID) as the suspect data. These limitations severely hinder the ability to conduct scalable, post-hoc audits. To enable such audits, this work introduces natural identifiers (NIDs) as a novel solution to the above-mentioned challenges. NIDs are structured random strings, such as cryptographic hashes and shortened URLs, naturally occurring in common LLM training datasets. Their format enables the generation of unlimited additional random strings from the same distribution, which can act as alternative canaries for audits and as same-distribution held-out data for dataset inference. Our evaluation highlights that indeed, using NIDs, we can facilitate post-hoc differential privacy auditing without any retraining and enable dataset inference for any suspect dataset containing NIDs without the need for a private non-member held-out dataset.",
+    "updated" : "2026-06-23T10:45:11Z",
+    "published" : "2026-06-23T10:45:11Z",
+    "authors" : [
+      {
+        "name" : "Lorenzo Rossi"
+      },
+      {
+        "name" : "Bartłomiej Marek"
+      },
+      {
+        "name" : "Franziska Boenisch"
+      },
+      {
+        "name" : "Adam Dziedzic"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.24379v1",
+    "title" : "ComputeFHE: A Privacy-Preserving General-Purpose Computation Library",
+    "summary" : "Fully Homomorphic Encryption (FHE) enables computations to be performed directly on encrypted data while preserving data confidentiality. However, its practical applications remain limited by high computational costs and development complexity. This paper presents ComputeFHE, an open-source C++ library that facilitates the development of privacy-preserving applications based on the TFHE cryptosystem. The library provides encrypted integer and fixed-point data types together with arithmetic, logical, comparison, conditional, and oblivious array-access operations which allow developers to implement algorithms using a familiar imperative programming paradigm. ComputeFHE supports both conventional TFHE arithmetic based on standard two-input logic gates and an optimized Arithmetic Logic Unit (ALU) architecture utilizing FHE-friendly logic primitives. Experimental results demonstrate significant reductions in the number of required bootstrapping operations, achieving performance improvements of up to 3.9x for selected operations. In addition, the library includes a simulation mode that enables testing, debugging, and complexity analysis without performing actual cryptographic computations while providing circuit complexity and bootstrapping costs. Built on top of OpenFHE, ComputeFHE offers a practical and accessible framework for developing and evaluating privacy-preserving algorithms and applications.",
+    "updated" : "2026-06-23T10:11:17Z",
+    "published" : "2026-06-23T10:11:17Z",
+    "authors" : [
+      {
+        "name" : "Faris Serdar Tasel"
+      },
+      {
+        "name" : "Efe Ciftci"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.23796v1",
+    "title" : "A no-go theorem for privacy in distributed sensing using Gaussian states",
+    "summary" : "In the discrete variable setting, entangled resource states allow a set of parties to learn a global function of a set of spatially separated systems, whilst keeping the local parameters of those systems completely private. In the continuous variable setting, distributed sensing has been carried out using Gaussian resource states, but without the same guarantees about privacy. Here, we show that perfect privacy is impossible to achieve for any distributed sensing protocol that uses Gaussian states as a resource. We also introduce a measure of relative privacy, bounding the degree to which any Gaussian distributed sensing protocol can keep local parameters hidden.",
+    "updated" : "2026-06-22T18:00:03Z",
+    "published" : "2026-06-22T18:00:03Z",
+    "authors" : [
+      {
+        "name" : "Jason L. Pereira"
+      },
+      {
+        "name" : "Damian Markham"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.20344v2",
+    "title" : "Quantum ring all-reduce: communication and privacy advantages for distributed learning",
+    "summary" : "Machine learning models have scaled to unprecedented sizes, making training across distributed devices the de facto standard in the field. In this work, we explore how quantum communications can make distributed training both more communication-efficient and information-theoretically private, for both classical and quantum learning models. Ring all-reduce is the foundational communication primitive for large-scale distributed training. We present a quantum version that reduces per-link online communication by a provably optimal factor of two using pre-shared entanglement and superdense coding, without requiring the learning model or gradient computation to change. Beyond bandwidth, the primitive enables privacy guarantees that are information-theoretically impossible for any classical protocol, achieving composable ε-secure aggregation, via verified entanglement, at a 2x overhead in GHZ copies. Our hybrid quantum-classical communication architecture yields simultaneous communication and security advantages for large scale distributed training, regardless of whether the learning itself is quantum or classical. Finally, we characterise quantum advantages in gradient conflict detection for server-to-client communication under bandwidth constraints, a setting that arises after ring all-reduce is completed, when full gradient broadcast to external clients is infeasible. Two variants of the problem admit different separations. For margin-based alignment testing (\\textsc{GapIP}_τ), the quantum advantage is quadratic in the margin parameter: \\widetilde{O}(τ^{-1}\\log P) qubits versus \\widetilde{O}(\\min(\\τ^{-2},P)) bits. For sign-consistency auditing against a private parameter matching (\\textsc{TieAudit}_ε), the advantage represents an exponential separation in communication complexity: Ω(\\sqrt{P}) bits whereas O(ε^{-2}\\log P) qubits suffice.",
+    "updated" : "2026-06-23T08:32:01Z",
+    "published" : "2026-06-18T15:13:55Z",
+    "authors" : [
+      {
+        "name" : "María Gragera Garcés"
+      },
+      {
+        "name" : "Lirandë Pira"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.DC",
+      "cs.LG"
+    ]
   }
 ]
