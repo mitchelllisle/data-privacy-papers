@@ -3500,5 +3500,239 @@
     "categories" : [
       "stat.ME"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.30329v1",
+    "title" : "Cohort-amortized personalization: navigating the privacy-utility frontier for virtual brain twins",
+    "summary" : "Personalized generative brain models require individual neuroimaging data that privacy constraints and re-identification risk make difficult to share, while per-subject fitting procedures cost hours of compute -- limiting clinical translation and multi-site collaboration. We introduce cohort-amortized personalization (CAP), which replaces data sharing with model sharing: a neural density estimator is trained on simulations from a mechanistic whole-brain model under a low-rank cohort prior, and only the compact estimator is distributed, so new subjects are personalized in seconds on their own data alone. To make this prior both compact and atlas-independent, a cross-atlas autoencoder (CrossCoder) maps connectomes from 20 anatomical atlases into a shared latent space, enabling deployment across sites with heterogeneous atlases. We validate CAP on two cohorts: 21 patients with drug-resistant epilepsy (epileptogenic-zone localization F1=0.56) and 832 subjects from the 1000BRAINS aging cohort (predicted age r=0.44); in both, CAP matches or exceeds per-subject inference with hours-to-seconds speed-up. Because the shared artifact couples a cohort prior to a mechanistic simulator, it can serve as a mechanistic surrogate supporting in-silico experimentation and synthetic-cohort generation without raw-data access -- a governance-audited alternative we term synthetic access, allowing for wider adoption of personalized modeling in more diverse settings.",
+    "updated" : "2026-06-29T14:10:07Z",
+    "published" : "2026-06-29T14:10:07Z",
+    "authors" : [
+      {
+        "name" : "Amirhossein Esmaeili"
+      },
+      {
+        "name" : "Marmaduke Woodman"
+      },
+      {
+        "name" : "Nina Baldy"
+      },
+      {
+        "name" : "Abolfazl Ziaeemehr"
+      },
+      {
+        "name" : "Julia Makhalova"
+      },
+      {
+        "name" : "Huifang Wang"
+      },
+      {
+        "name" : "Daniele Marinazzo"
+      },
+      {
+        "name" : "Svenja Caspers"
+      },
+      {
+        "name" : "Fabrice Bartolomei"
+      },
+      {
+        "name" : "Meysam Hashemi"
+      },
+      {
+        "name" : "Viktor Jirsa"
+      }
+    ],
+    "categories" : [
+      "q-bio.NC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29835v1",
+    "title" : "A Sieve-Accelerated Quadrature Method for Exact Privacy Accounting in the 2020 U.S. Decennial Census",
+    "summary" : "In 2020, the U.S. Census Bureau adopted differential privacy for the Decennial Census by injecting integer-valued Gaussian noise into published census tabulations. Exactly evaluating the privacy guarantees of these data releases would enable the Bureau to determine the absolute minimum noise required to satisfy a given privacy budget, preventing the injection of unnecessary excess noise and thereby substantially enhancing the statistical utility of the data for downstream applications such as federal funding allocation and political redistricting. In this paper, we introduce a computationally efficient and mathematically rigorous quadrature method to evaluate the exact privacy profile of practical, large-scale census releases under the composition of heterogeneous discrete Gaussian mechanisms. Mathematically, this problem reduces to evaluating the tail probabilities of high-dimensional convolutions of integer-valued random variables sampled from heterogeneous discrete Gaussian distributions under exceptionally stringent numerical error tolerances (e.g., $10^{-35}$). By recasting the exact privacy accounting as a numerical integration problem via the discrete Fourier transform, we explicitly exploit the exponential convergence of the trapezoidal rule for complex analytic, periodic characteristic functions. Furthermore, to overcome the computational bottleneck of evaluating highly oscillatory integrands in high dimensions, we develop a sieve algorithm that identifies and prunes negligible quadrature nodes, accelerating the computation by three orders of magnitude. Taken together, these numerical innovations enable the first exact, assumption-free privacy accounting for the 2020 Census Demographic and Housing Characteristics File, achieving a 1,824-fold speedup over prior methods while maintaining census-mandated error tolerances.",
+    "updated" : "2026-06-29T06:19:51Z",
+    "published" : "2026-06-29T06:19:51Z",
+    "authors" : [
+      {
+        "name" : "Buxin Su"
+      },
+      {
+        "name" : "Weijie Su"
+      },
+      {
+        "name" : "Chendi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "math.NA",
+      "stat.AP",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29673v1",
+    "title" : "Privacy-Preserving Decentralized Cooperative Localization with Range-Only Measurements: A Convex Optimization Based Approach",
+    "summary" : "Cooperative localization using range-based measurements is critical for multi-robot systems operating in GPS-denied and unstructured environments. However, traditional cooperative approaches require sharing explicit spatial coordinates across the network, presenting a severe security vulnerability in privacy-sensitive missions. While recent literature has explored privacy-preserving alternatives, these methods typically rely on accuracy-degrading noise injection or computationally prohibitive cryptographic protocols. To overcome these limitations, we propose a novel, natively privacy-preserving Decentralized Cooperative Localization (DCL) framework based on convex optimization. Discarding probabilistic noise models, we assume strictly bounded measurement noise and formulate the localization problem via Semi-Definite Programming (SDP) to compute a Maximum-Volume Inscribed Ellipsoid (MVE). Our approach introduces novel intersection-plane constraints derived from landmark measurements to significantly tighten individual spatial bounds. To incorporate inter-robot range measurements securely, we uniquely decompose coupling constraints into localized Linear Matrix Inequalities (LMIs). Agents achieve fleet-wide spatial consensus by iteratively exchanging only abstract dual variables, completely avoiding the transmission of explicit primal position estimates. Extensive 3D Monte Carlo simulations demonstrate that our DCL framework outperforms existing SDP-based localization method in accuracy, while guaranteeing operational privacy and maintaining highly scalable, parallelizable computation.",
+    "updated" : "2026-06-29T00:39:51Z",
+    "published" : "2026-06-29T00:39:51Z",
+    "authors" : [
+      {
+        "name" : "Nitesh Kumar"
+      },
+      {
+        "name" : "Reyshwanth Ganeshan"
+      },
+      {
+        "name" : "Sixu Li"
+      },
+      {
+        "name" : "Sivakumar Rathinam"
+      },
+      {
+        "name" : "Swaroop Darbha"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29567v1",
+    "title" : "SurrogateShield: Beyond Redaction for High-Utility, Privacy-Preserving LLM Interactions",
+    "summary" : "LLM-based assistants transmit user queries verbatim to third-party API endpoints that lie outside the user's audit or control. When those queries contain personally identifiable information (PII), the data persists on remote infrastructure subject to breach, subpoena, or policy change. Placeholder redaction (the prevailing mitigation) suppresses PII at the cost of semantic coherence, producing structurally degraded queries and correspondingly degraded responses.\n  We present SurrogateShield, a client-side proxy that substitutes detected PII with locally generated, type-consistent surrogate values prior to transmission and restores originals in the response. No real PII crosses the network boundary. Detection runs through a three-stage cascade (PatternScan, EntityTrace, and ContextGuard) covering 22 PII types and quasi-identifier combinations grounded in Sweeney's k-anonymity framework. Surrogate-to-original mappings are sealed in an AES-256-GCM encrypted per-conversation ShadowMap that never leaves the device.\n  Evaluations on a 1,124-query corpus demonstrate that the cascade reliably detects PII, achieving an overall F1 score of 98.87%. Surrogate substitution substantially outperforms placeholder redaction in semantic utility, yielding a 13.26 pp improvement in BERTScore (roberta-large), from 81.59% to 94.85%. Within this corpus, the local pipeline restricted real PII transmission across all tested query types; in a 100-query adversarial trial, a prompted LLM adversary recovered no original values from surrogate-substituted messages.",
+    "updated" : "2026-06-28T19:14:16Z",
+    "published" : "2026-06-28T19:14:16Z",
+    "authors" : [
+      {
+        "name" : "Sherwin Vishesh Jathanna"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29417v1",
+    "title" : "Bit-ViP: Leveraging Bit-planes to Preserve Visual Privacy in Images through Obfuscation",
+    "summary" : "The unprecedented growth of computer vision applications, such as surveillance systems and social media, raises security and visual privacy concerns, especially when data is stored on cloud servers. Image obfuscation offers a way to preserve visual privacy while maintaining an adequate level of usability; thus, it has been a topic of great interest in recent years. However, prior obfuscation schemes are either vulnerable to malicious attacks, such as model inversion to reconstruct original images from obfuscated images, or generate non-trainable obfuscated images, making them unusable for achieving reasonable accuracy. This paper proposes a novel bit-plane-based image obfuscation scheme, {\\em Bit-ViP}, to preserve visual privacy for image-based recognition tasks. The Bit-ViP scheme produces secure, usable images by incorporating an innovative end-to-end obfuscation function. While doing so, the obfuscated image would contain non-invertible noise (generated by Lorenz's chaotic system and differential privacy), making it hard for an adversary to reconstruct the original image. We conduct extensive experiments on two popular activity recognition datasets, namely UCF101 and HMDB51, to validate the effectiveness of Bit-ViP. In the face of attacks on reconstruction, pixel frequency, information entropy, and pixel inter-correlation, we present a rigorous security analysis demonstrating tangible improvements over existing schemes.",
+    "updated" : "2026-06-28T14:28:43Z",
+    "published" : "2026-06-28T14:28:43Z",
+    "authors" : [
+      {
+        "name" : "Vishesh Kumar Tanwar"
+      },
+      {
+        "name" : "Ashish Gupta"
+      },
+      {
+        "name" : "Sanjay Madria"
+      },
+      {
+        "name" : "Sajal K. Das"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29412v1",
+    "title" : "Privacy-Aware State Estimation: From Coarse to Precise Privacy Protection",
+    "summary" : "This paper addresses the problem of achieving both coarse and precise privacy in state estimation. Coarse privacy forces the eavesdropper's total mean-square error (MSE) to infinity, but errors along certain confidential directions may remain bounded. This motivates precise privacy, which additionally drives the MSE along any prescribed direction to infinity. For coarse privacy, an analytical transformation is established, preserving the user's optimality and driving the eavesdropper's total MSE to infinity at a polynomial-exponential rate. A stochastic intermittent encryption scheme is further developed, and an explicit lower bound on the encryption probability is derived to guarantee divergence. For precise privacy, by analyzing the behavior of the Riccati equation on the unobservable subspace, we prove that the eavesdropper's directional MSE becomes unbounded if and only if the direction's unstable component lies outside the observable subspace. Finally, a systematic method is proposed to exclude target vectors from the observable subspace, forcing the directional MSE to infinity.",
+    "updated" : "2026-06-28T14:20:10Z",
+    "published" : "2026-06-28T14:20:10Z",
+    "authors" : [
+      {
+        "name" : "Zhongyao Hu"
+      },
+      {
+        "name" : "Jason J. R. Liu"
+      },
+      {
+        "name" : "Jun Shang"
+      },
+      {
+        "name" : "Bo Chen"
+      },
+      {
+        "name" : "Zhan Shu"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29393v1",
+    "title" : "The Role of Online Forums in Developer Understanding of Privacy Law -- A Reddit Case Study",
+    "summary" : "Software practitioners use online forums to navigate complex and often ambiguous legal privacy requirements, yet little is known about their professional backgrounds, what challenges they face, and how they use and assess the credibility of the advice received, or how they resolve ambiguities in posts. We report the findings of a survey of 223 Reddit users from regulatory-focused subreddits, complemented by a qualitative analysis of 2,248 posts and responses. Our results show that, despite holding privacy-related certifications, most participants frequently use forums to seek legal advice. Key challenges reported or identified include implementing a data protection impact assessment, reporting a data breach, and obtaining cookie consent. Reddit users often assess credibility by reviewing respondents' post history, verifying sources cited, trusting advice from recognized experts, and following up for clarity before responding. We highlight research and educational directions to bridge gaps in support needed for regulatory compliance guidance.",
+    "updated" : "2026-06-28T13:33:27Z",
+    "published" : "2026-06-28T13:33:27Z",
+    "authors" : [
+      {
+        "name" : "Sara. Haghighi"
+      },
+      {
+        "name" : "Clark LaChance"
+      },
+      {
+        "name" : "Ali Pourghasemi Fatideh"
+      },
+      {
+        "name" : "Travis Breaux"
+      },
+      {
+        "name" : "Sepideh Ghanavati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY",
+      "cs.HC",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.28479v1",
+    "title" : "Decomposing Memorization Reduction in Privacy-Preserving Fine-Tuning of SLMs for CSIRTs",
+    "summary" : "CSIRTs increasingly fine tune language models on vulnerability scan records, but these records expose internal network topology and create privacy risks under regulations such as GDPR and LGPD. We present the first empirical study of how DP SGD and HMAC pseudonymization interact when fine tuning small language models with 1B to 3B parameters on structured CSIRT data. We evaluate 96 LoRA adapters across four SLMs and four training regimes, including raw fine tuning, QLoRA with large batch training, and DP SGD with epsilon equal to 2 and 8. We also audit memorization using 20 planted canaries, four extraction attacks, and a dual attack targeting HMAC pseudonymized identifiers.\n  Our results show three main findings. First, matched update controls reproduce the observed reduction in memorization by reducing the number of optimizer updates alone, accounting for 66 percent to 132 percent of the measured effect, with a mean of 100 percent across three seeds and four models. In this setting, DP SGD provides the formal privacy guarantee but does not produce additional measurable reductions in memorization. Second, HMAC pseudonymization removes the original identifiers from the exposure surface, reducing exposure by 40 percent to 61 percent, while pseudonymized identifiers remain close to the expected random baseline and do not become a secondary memorization target. Third, F1 scores remain between 0.19 and 0.28 across all 96 adapters using four shot prompting, indicating that, under the evaluated training budget, 1B to 3B SLMs do not achieve operationally useful performance.",
+    "updated" : "2026-06-26T17:35:17Z",
+    "published" : "2026-06-26T17:35:17Z",
+    "authors" : [
+      {
+        "name" : "Cristhian Kapelinski"
+      },
+      {
+        "name" : "Diego Kreutz"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.26373v2",
+    "title" : "Hybrid privacy-aware semantic search: SVD-truncated document geometry and CKKS-encrypted query reranking under a restricted threat model",
+    "summary" : "Dense embeddings power semantic search and retrieval-augmented generation, yet a leaked vector database also leaks the text behind it, because embeddings can be inverted with high fidelity. Fully homomorphic search is sound but far too slow at million-document scale, while privacy noise degrades ranking before it protects. We study a middle path built on an asymmetry: the static document collection is protected geometrically - each vector is SVD-truncated onto a lower-dimensional subspace and rotated by a secret orthogonal transform held only by the data owner - while the dynamic query is protected cryptographically under CKKS, so an honest-but-curious server never sees query values or similarity scores. We prove a tight lower bound on the reconstruction error of any decoder confined to the protected subspace. On a one-million-document corpus with five encoders the protection preserves - and on the strongest encoders slightly improves - retrieval quality, a linear-denoiser effect, at sub-second latency, while an off-the-shelf inversion attack collapses to the noise floor. We also quantify the boundary: a known-plaintext attacker recovers the secret rotation by orthogonal Procrustes from about as many leaked pairs as the retained dimension. The same asymmetric geometry doubles as a privacy-preserving semantic data-loss-prevention primitive for LLM firewalls: a server holding only the protected vectors detects whether a candidate matches a confidential reference corpus at near parity with a plaintext detector, degrading gracefully under text obfuscation. We state the limits plainly: query confidentiality is cryptographic, but document protection rests on SVD truncation and a secret rotation that form an empirical obfuscation layer, not a cryptographic primitive, under a clearly delimited threat model.",
+    "updated" : "2026-06-28T10:30:17Z",
+    "published" : "2026-06-24T20:50:58Z",
+    "authors" : [
+      {
+        "name" : "Sergey Kurilenko"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.IR"
+    ]
   }
 ]
