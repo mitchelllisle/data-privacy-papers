@@ -3734,5 +3734,85 @@
       "cs.AI",
       "cs.IR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.31973v1",
+    "title" : "Semantic Leakage and Privacy Preservation in Relay-Assisted Semantic Communications",
+    "summary" : "Semantic communication (SemCom) has emerged as a promising paradigm in which the transmission of task-relevant information is prioritized over raw data, enabling efficient and robust communication under resource and channel constraints. In this paper, the privacy implications of relay-assisted SemCom systems are studied, where the intermediate relay node operates directly on learned latent representations. It is shown that the relay, even without access to source data, can reliably infer semantic meaning and reconstruct signals with performance comparable to that of the legitimate receiver, revealing a fundamental privacy vulnerability of semantic representations. To address this issue, an iterative adversarial training framework is proposed in which a strong, adaptively trained eavesdropper at the relay is explicitly accounted for. The proposed approach alternates between optimizing the relay's eavesdropping function and the legitimate system, resulting in representations that preserve semantic decoding performance at the intended receiver while degrading semantic inference at the relay. The semantic accuracy gap between the legitimate receiver and the eavesdropper is significantly enlarged across channel conditions. Importantly, this protection is achieved in a stealthy manner, with high reconstruction fidelity maintained while semantic leakage is selectively suppressed.",
+    "updated" : "2026-06-30T17:15:23Z",
+    "published" : "2026-06-30T17:15:23Z",
+    "authors" : [
+      {
+        "name" : "Yalin E. Sagduyu"
+      },
+      {
+        "name" : "Tugba Erpek"
+      },
+      {
+        "name" : "Aylin Yener"
+      },
+      {
+        "name" : "Sennur Ulukus"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.31164v1",
+    "title" : "Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression",
+    "summary" : "Scene Coordinate Regression (SCR) methods are increasingly adopted for visual localization. In these approaches, the scene is implicitly encoded within a neural network that regresses a 3D world coordinate for each image pixel. Because the scene is represented only through the network parameters and not stored explicitly as images or maps, such methods are often assumed to be privacy-preserving. In this work, we show that this assumption is incorrect in practice.\n  Specifically, we introduce a query-based attack that reconstructs the 3D geometry of the training environment from an SCR model under different levels of model access. To do so, we repeatedly query the model with batches of proxy images unrelated to the target scene to obtain dense pixel-wise 3D coordinates. Reliable points are identified through their stability under small input perturbations and can be further refined in a white-box setting. These stable points are accumulated across independent query batches to recover the scene geometry. From the recovered 3D representation, we also invert the network features to synthesize images from arbitrary viewpoints, revealing additional appearance information.\n  Experiments on indoor and outdoor datasets demonstrate that substantial portions of training environments can be reconstructed with high geometric fidelity. Beyond geometry, we also recover an approximate color appearance, which exposes recognizable layout and potentially sensitive scene elements. This directly contradicts claims in the literature that SCR representations are privacy-preserving by design, and reveals a real risk when such systems are deployed in private or security-critical spaces. The project page is available at https://jaeminch0.github.io/seeing-through-the-weights-privacy-leakage-in-scene-coordinate-regression.",
+    "updated" : "2026-06-30T05:54:23Z",
+    "published" : "2026-06-30T05:54:23Z",
+    "authors" : [
+      {
+        "name" : "Oleksii Nasypanyi"
+      },
+      {
+        "name" : "Jaemin Cho"
+      },
+      {
+        "name" : "Utku Ozbulak"
+      },
+      {
+        "name" : "Byungkon Kang"
+      },
+      {
+        "name" : "Francois Rameau"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.29412v2",
+    "title" : "Privacy-Aware State Estimation: From Coarse to Precise Privacy Protection",
+    "summary" : "This paper addresses the problem of achieving both coarse and precise privacy in state estimation. Coarse privacy forces the eavesdropper's total mean-square error (MSE) to infinity, but errors along certain confidential directions may remain bounded. This motivates precise privacy, which additionally drives the MSE along prescribed directions to infinity. For coarse privacy, an analytical transformation is established, preserving the user's optimality and driving the eavesdropper's total MSE to infinity at a polynomial-exponential rate. A stochastic intermittent encryption scheme is further developed, and an explicit lower bound on the encryption probability is derived to guarantee divergence. For precise privacy, by analyzing the behavior of the Riccati equation on the unobservable subspace, we prove that the eavesdropper's directional MSE becomes unbounded if and only if the direction's unstable component lies outside the observable subspace. Finally, a systematic method is proposed to exclude target vectors from the observable subspace, forcing the directional MSE to infinity.",
+    "updated" : "2026-07-01T10:28:17Z",
+    "published" : "2026-06-28T14:20:10Z",
+    "authors" : [
+      {
+        "name" : "Zhongyao Hu"
+      },
+      {
+        "name" : "Jason J. R. Liu"
+      },
+      {
+        "name" : "Jun Shang"
+      },
+      {
+        "name" : "Zhan Shu"
+      }
+    ],
+    "categories" : [
+      "eess.SY",
+      "cs.IT"
+    ]
   }
 ]
