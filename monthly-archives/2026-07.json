@@ -107,5 +107,92 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02187v1",
+    "title" : "Privacy-Preserving and Verifiable Approximate Distributed Coded Computing",
+    "summary" : "Distributed machine learning enables collaborative model training without centralizing data, but it also exposes learning processes to privacy leakage and malicious manipulation. Existing defenses typically address these threats in isolation and are often tailored to specific learning paradigms or model architectures, limiting their applicability in realistic deployments. In particular, federated learning and decentralized learning exhibit distinct adversarial surfaces that are rarely addressed within a unified framework. In this paper, we present a model-agnostic framework for adversary-resistant distributed learning that jointly addresses privacy preservation and malicious behavior across both federated and decentralized settings. Our approach combines paradigm-specific defense mechanisms with GPBACC, a privacy-enhancing coded computing technique applicable to arbitrary machine learning models. For federated learning, we integrate robust aggregation strategies to mitigate the impact of malicious participants, while for decentralized learning we employ approximate decode-and-compare and group testing techniques to enable lightweight verification and adversary isolation without relying on a trusted aggregator. Crucially, we evaluate the proposed framework through an explicit, attack-driven analysis. We implement representative privacy attacks and malicious behaviors, and empirically demonstrate that the combination of GPBACC with robust aggregation and verification mechanisms significantly reduces privacy leakage and improves resilience against active adversaries. These results suggest that privacy-enhancing coded computing, when combined with appropriate adversary-resistance strategies, provides a practical and deployable foundation for secure distributed machine learning.",
+    "updated" : "2026-07-02T13:57:32Z",
+    "published" : "2026-07-02T13:57:32Z",
+    "authors" : [
+      {
+        "name" : "Xavier Martínez-Luaña"
+      },
+      {
+        "name" : "Alba Gude-Santos"
+      },
+      {
+        "name" : "Manuel Fernández-Veiga"
+      },
+      {
+        "name" : "Rebeca P. Díaz-Redondo"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02038v1",
+    "title" : "Hierarchical Anti-Aesthetics: Protecting Facial Privacy against Customized Diffusion Models",
+    "summary" : "The rise of customized diffusion models has fueled a boom in personalized visual content creation, but it also introduces serious risks of malicious misuse, thereby posing threats to personal privacy. Image aesthetics are strongly correlated with human perception of image quality. Motivated by this observation, we address facial privacy protection from a novel aesthetic perspective by degrading the generation quality of maliciously customized models, thus reducing facial identity leakage. Specifically, we propose a Hierarchical Anti-Aesthetics (HAA) framework that exploits aesthetic cues at multiple perceptual levels. HAA consists of two key branches: (1) Global Anti-Aesthetics, which degrades overall aesthetics and generation quality by constructing a global anti-aesthetic reward mechanism and a corresponding loss; and (2) Local Anti-Aesthetics, which disrupts facial identity by using a local anti-aesthetic reward mechanism and loss to guide adversarial perturbations toward facial regions. By integrating both branches, HAA achieves anti-aesthetic degradation from a global to a local level during customized generation. Extensive experiments show that HAA outperforms existing methods in identity removal, providing an effective tool for protecting facial privacy.",
+    "updated" : "2026-07-02T11:05:58Z",
+    "published" : "2026-07-02T11:05:58Z",
+    "authors" : [
+      {
+        "name" : "Songping Wang"
+      },
+      {
+        "name" : "Yueming Lyu"
+      },
+      {
+        "name" : "Shiqi Liu"
+      },
+      {
+        "name" : "Chen Zhao"
+      },
+      {
+        "name" : "Ziyuan Chen"
+      },
+      {
+        "name" : "Ning Li"
+      },
+      {
+        "name" : "Jing Dong"
+      },
+      {
+        "name" : "Caifeng Shan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.01492v1",
+    "title" : "Unveiling the Non-Monotonic Effect of Privacy on Generalization under Byzantine Robustness",
+    "summary" : "Recent work has established a fundamental trilemma between Byzantine robustness, local differential privacy (LDP), and optimization error in distributed learning. We show that this trilemma does not universally extend to generalization error, but instead depends critically on the privacy regime. Specifically, in the high-noise regime (strong privacy), we prove that increasing privacy reduces the generalization error, i.e., there is no tension between robustness and privacy. In the low-noise regime (weaker privacy), however, the tension between robustness and privacy reappears and increasing privacy indeed degrades generalization. Our theory explains this surprising non-monotonic behavior of the generalization error via matching lower and upper bounds on the algorithmic stability of Byzantine-robust distributed learning under LDP constraints. We corroborate and further analyze these theoretical findings with empirical evaluations.",
+    "updated" : "2026-07-01T21:42:47Z",
+    "published" : "2026-07-01T21:42:47Z",
+    "authors" : [
+      {
+        "name" : "Thomas Boudou"
+      },
+      {
+        "name" : "Batiste Le Bars"
+      },
+      {
+        "name" : "Nirupam Gupta"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
