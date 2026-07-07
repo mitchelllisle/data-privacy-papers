@@ -3814,5 +3814,92 @@
       "eess.SY",
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.30329v2",
+    "title" : "Cohort-amortized personalization: navigating the privacy-utility frontier for virtual brain twins",
+    "summary" : "Personalized generative brain models require individual neuroimaging data that privacy constraints and re-identification risk make difficult to share, while per-subject fitting procedures cost hours of compute -- limiting clinical translation and multi-site collaboration. We introduce cohort-amortized personalization (CAP), which replaces data sharing with model sharing: a neural density estimator is trained on simulations from a mechanistic whole-brain model under a low-rank cohort prior, and only the compact estimator is distributed, so new subjects are personalized in seconds on their own data alone. To make this prior both compact and atlas-independent, a cross-atlas autoencoder (CrossCoder) maps connectomes from 20 anatomical atlases into a shared latent space, enabling deployment across sites with heterogeneous atlases. We validate CAP on two cohorts: 21 patients with drug-resistant epilepsy (epileptogenic-zone localization F1=0.56) and 832 subjects from the 1000BRAINS aging cohort (predicted age r=0.44); in both, CAP matches or exceeds per-subject inference with hours-to-seconds speed-up. Because the shared artifact couples a cohort prior to a mechanistic simulator, it can serve as a mechanistic surrogate supporting in-silico experimentation and synthetic-cohort generation without raw-data access -- a governance-audited alternative we term synthetic access, allowing for wider adoption of personalized modeling in more diverse settings.",
+    "updated" : "2026-07-03T11:05:28Z",
+    "published" : "2026-06-29T14:10:07Z",
+    "authors" : [
+      {
+        "name" : "Amirhossein Esmaeili"
+      },
+      {
+        "name" : "Marmaduke Woodman"
+      },
+      {
+        "name" : "Nina Baldy"
+      },
+      {
+        "name" : "Abolfazl Ziaeemehr"
+      },
+      {
+        "name" : "Julia Makhalova"
+      },
+      {
+        "name" : "Huifang Wang"
+      },
+      {
+        "name" : "Daniele Marinazzo"
+      },
+      {
+        "name" : "Svenja Caspers"
+      },
+      {
+        "name" : "Fabrice Bartolomei"
+      },
+      {
+        "name" : "Meysam Hashemi"
+      },
+      {
+        "name" : "Viktor Jirsa"
+      }
+    ],
+    "categories" : [
+      "q-bio.NC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.26373v3",
+    "title" : "Hybrid privacy-aware semantic search: SVD-truncated document geometry and CKKS-encrypted query reranking under a restricted threat model",
+    "summary" : "Dense embeddings power semantic search and Retrieval-Augmented Generation, yet a leaked vector database leaks the text behind it, since embeddings invert with high fidelity. The textbook defences are extreme--homomorphic search is sound but far too slow at million-document scale, while privacy noise degrades ranking before it protects. We study a middle path built on an asymmetry: each static document vector is SVD-truncated and then rotated by a secret orthogonal transform held only by the data owner, while the dynamic query is protected cryptographically under CKKS, so an honest-but-curious server sees neither query values nor scores; the CKKS parameters are fixed by a small reproducible benchmark. We prove a tight lower bound on the reconstruction error of any decoder confined to the protected subspace. On a one-million-document, five-encoder corpus the wrapper preserves retrieval quality at sub-second latency--a mild linear denoiser on self-retrieval that reverses into a 2--8-point nDCG@10 cost on graded relevance--while an off-the-shelf inversion attack collapses to the floor. We then map the boundary: a known-plaintext attacker recovers the rotation by orthogonal Procrustes from about as many leaked pairs as the retained dimension, and the public quantization codes leak neighbour structure. The same geometry doubles as a privacy-preserving data-loss-prevention primitive for LLM firewalls, matching a plaintext detector at near parity. We state the limits plainly: query confidentiality is cryptographic, but document protection is an empirical obfuscation layer, not a cryptographic primitive.",
+    "updated" : "2026-07-06T09:04:24Z",
+    "published" : "2026-06-24T20:50:58Z",
+    "authors" : [
+      {
+        "name" : "Sergey Kurilenko"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2606.16943v2",
+    "title" : "Di5Guise: 5G Privacy with vSIM",
+    "summary" : "SIM cards have been the key building block of user authenticationand security in cellular networks. While they are meant to serve as privacy protecting elements in cellular communications, they can be the root cause of privacy loss. Current eSIMs come with a fixed device profile--comprising a secret key, a certificate, and a unique eUICC identifier--that permanently binds every subscriber profile provisioned on the device to that device profile. This binding enables an attacker with the vantage point of a cellular operator to correlate subscriber identities back to a single device, piecing together a complete pattern of life--online activities, movement patterns, and real-world identity--even when users rotate subscriber identities or employ traffic obfuscation techniques. To mitigate this concern, we introduce Di5Guise, a privacy-enhancing architecture that breaks this correlation at its root by decoupling the device identity from the subscriber identity. Central to Di5Guise is vSIM, a virtualized SIM card that enables dynamic device profile provisioning, allowing each subscriber profile to be associated with a distinct, unlinkable device profile. Di5Guise establishes trust with the operator by ensuring that vSIM is running on secure hardware in a trustworthy state. We prototype Di5Guise on a Field Programmable Gate Array (FPGA) board and integrate it with srsRAN to demonstrate full compatibility with existing 5G infrastructure. Using a complex user correlation model, we show that Di5Guise reduces user re-identification accuracy from 93% to 49% when combined with obfuscation.",
+    "updated" : "2026-07-04T15:44:28Z",
+    "published" : "2026-06-15T16:44:40Z",
+    "authors" : [
+      {
+        "name" : "Shirin Ebadi"
+      },
+      {
+        "name" : "Zach Moolman"
+      },
+      {
+        "name" : "Eric Keller"
+      },
+      {
+        "name" : "Tamara Lehman"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
