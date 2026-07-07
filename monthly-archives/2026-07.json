@@ -194,5 +194,256 @@
       "cs.CR",
       "stat.ML"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05251v1",
+    "title" : "Privacy-Preserving Robustness Verification for Neural Networks",
+    "summary" : "Neural network verification and data privacy are inherently in tension: verification demands full access to model parameters and input data, yet both are increasingly restricted by privacy regulations and intellectual property constraints. This tension has left robustness verification impractical in privacy-sensitive domains. In this work, we address this gap with SecureCROWN, the first framework for privacy-preserving neural network robustness verification. Built upon secure two-party computation (2PC), our framework enables a model owner and a data owner to jointly compute certified robustness bounds -- revealing only the final result while provably protecting both parties' private data under the semi-honest security model. A key challenge is securely computing the conditional operations in Linear Bound Propagation, where the data-dependent branching is incompatible with standard secure computation protocols. We eliminate branching by formulating conditional logic as continuous arithmetic operations. Additionally, we introduce a Newton--Raphson refinement method to improve numerical stability. Extensive analysis and experiments show that SecureCROWN strictly matches plaintext verification results, while completing in 0.1--200s across varied model sizes and communication settings (LAN/WAN), demonstrating the feasibility of privacy-preserving neural network verification.",
+    "updated" : "2026-07-06T15:59:17Z",
+    "published" : "2026-07-06T15:59:17Z",
+    "authors" : [
+      {
+        "name" : "Nianyun Song"
+      },
+      {
+        "name" : "Xiaokun Luan"
+      },
+      {
+        "name" : "Yu Guo"
+      },
+      {
+        "name" : "Rongfang Bie"
+      },
+      {
+        "name" : "Meng Sun"
+      },
+      {
+        "name" : "Xiyue Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.LO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05111v1",
+    "title" : "From Multiplicity to Vulnerability: Privacy Amplification Risk from One-Dataset-Multiple-Model Exposure",
+    "summary" : "To efficiently exploit a valuable data source (e.g., facial or medical images), it is frequently harnessed to fulfill multiple learning objectives (e.g., facial recognition, age estimation, and race classification). Each trained model is then deployed as an independent API service for corresponding inference. However, the privacy risk introduced by this one-dataset-multiple-model (ODMM) paradigm is completely overlooked by the community.\n  For the first time, this work reveals that the ODMM setting substantially amplifies privacy leakage. We establish a theoretical framework that proves that privacy leakage accumulates as more ODMM models are exposed, a phenomenon we term ODMM privacy composition. Guided by this theoretical foundation, we propose PRIME (Privacy Amplification RIsk from One-Dataset-Multiple-Model Exposure) to systematically assess this risk and quantify the resulting leakage using membership inference attacks (MIAs). Under black-box access to ODMM models, we design an aggregation mechanism that collectively captures carefully identified privacy signals leaked by individual ODMM models, and construct an attack meta-classifier over the aggregated meta-information to infer the membership status of a given sample jointly. Our results provide strong evidence that dataset reuse across ODMM models strikingly jeopardizes privacy, which is consistently evident across five privacy-sensitive image and textual benchmark datasets and diverse model architectures (from ResNet and ViT to Qwen3-1.7B), spanning three domains: facial analysis, medical imaging, and textual attribution analysis. While mitigations such as differential privacy can reduce the effectiveness of PRIME with trade-offs, our attack still consistently outperforms single-task MIAs.",
+    "updated" : "2026-07-06T14:04:39Z",
+    "published" : "2026-07-06T14:04:39Z",
+    "authors" : [
+      {
+        "name" : "Qirui Huang"
+      },
+      {
+        "name" : "Na Li"
+      },
+      {
+        "name" : "Hongsheng Hu"
+      },
+      {
+        "name" : "Zhi Zhang"
+      },
+      {
+        "name" : "Anmin Fu"
+      },
+      {
+        "name" : "Yansong Gao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.04698v1",
+    "title" : "F-ACVAE: A Federated Adaptive Conditional Variational Auto-Encoder for Privacy-Preserving Intrusion Detection in IoT Networks",
+    "summary" : "The rapid proliferation of Internet of things (IoT) devices has significantly expanded the cyber-attack surface, necessitating robust and privacy-preserving intrusion detection systems (IDS). However, centralized learning approaches often suffer from severe performance degradation due to high-dimensional traffic data, extreme class imbalance, and highly non-independent and identically distributed (non-IID) data across heterogeneous edge devices. To address these challenges, this paper proposes F-ACVAE, a federated adaptive conditional variational autoencoder framework that enables collaborative model training across distributed IoT devices without sharing raw data. F-ACVAE incorporates selective parameter aggregation, where local encoders remain private while globally shared components are synchronized to preserve discriminative latent structures. To further enhance stability under extreme non-IID settings and feature distribution shifts, we introduce a novel constrained momentum Gaussian aggregation (CMGA) strategy that combines update clamping with momentum-based smoothing to mitigate client drift. Extensive experiments on the N-BaIoT dataset demonstrate that F-ACVAE achieves an average accuracy and macro F1-score of 99\\%, outperforming state-of-the-art baselines. Moreover, the selective aggregation mechanism reduces communication overhead by approximately 62\\%, making the framework particularly suitable for resource-constrained IoT environments. These results highlight the effectiveness of F-ACVAE in achieving high detection performance while ensuring privacy preservation and communication efficiency.",
+    "updated" : "2026-07-06T05:58:20Z",
+    "published" : "2026-07-06T05:58:20Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Ansarimehr"
+      },
+      {
+        "name" : "Somayeh Changiz"
+      },
+      {
+        "name" : "Ehsan Baghishani"
+      },
+      {
+        "name" : "Ali Mousavi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.04209v1",
+    "title" : "Ball Differential Privacy: How to Mitigate Data Reconstruction with Less Noise",
+    "summary" : "Vector embeddings of raw records, while not human-readable, do not preserve record privacy: an adversary can reconstruct training records from a released model even when that model is a simple convex classifier. Differential privacy (DP) is the principled defense, but its noise is calibrated to worst-case indistinguishability, hiding arbitrary single-record substitutions, including those far outside the set of plausible alternatives relevant to a reconstruction adversary. The result is noise far larger than what reconstruction robustness requires, degrading accuracy without a corresponding security benefit.\n  We propose Ball-DP: enforcing epsilon-delta indistinguishability over single-record substitutions restricted to a ball of radius r under a distance metric d in the embedding space. A deployment facing only local reconstruction threats can choose a small r, thereby reducing noise and recovering accuracy. The radius makes the scope of the privacy claim explicit against reconstruction attacks; standard DP is recovered when r covers the entire admissible record domain. We provide noise calibrations for regularized convex learning problems under Ball-DP, and derive corresponding reconstruction-robustness certificates, called Ball-ReRo, that upper-bound an attacker's reconstruction success. By deriving the optimal finite-prior MAP reconstruction attack, we empirically audit Ball-ReRo certificates on seven benchmark learning tasks. Our experiments show that calibrating noise to Ball-DP improves utility, considerably exceeding the dilution of reconstruction robustness in high-privacy regimes, i.e., when epsilon is small.",
+    "updated" : "2026-07-05T09:59:44Z",
+    "published" : "2026-07-05T09:59:44Z",
+    "authors" : [
+      {
+        "name" : "Joseph Margaryan"
+      },
+      {
+        "name" : "Nirupam Gupta"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.04004v1",
+    "title" : "Setting the Privacy Budget in Differential Privacy by Bounding Adversaries' Odds of Learning Sensitive Information",
+    "summary" : "Differential privacy is a mathematical definition of what it means to protect data subjects' privacy in data releases. Differential privacy depends on a parameter $ε$ known as the privacy budget. The value of $\\varepsilon$ determines the nature of the privacy guarantee, with smaller values generally offering more privacy. However, reducing $\\varepsilon$ also tends to decrease the accuracy of results protected with differentially private algorithms. Setting a value for $\\varepsilon$ that satisfactorily balances this risk/accuracy trade off is complicated in practice, and there is not a standard approach to doing so. In part this is because practitioners may struggle to understand the privacy guarantee afforded by $\\varepsilon$. We present an approach to interpreting and setting $\\varepsilon$ in which (i) the practitioner establishes bounds on the posterior odds that adversaries can learn sensitive information, and (ii) the practitioner converts these bounds to values of $\\varepsilon$. We illustrate the approach using data from a case control study.",
+    "updated" : "2026-07-04T19:57:15Z",
+    "published" : "2026-07-04T19:57:15Z",
+    "authors" : [
+      {
+        "name" : "Ruwimal Y. Pathiraja"
+      },
+      {
+        "name" : "Jerome P. Reiter"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02932v1",
+    "title" : "PromptPET: Privacy-Utility Optimized Prompt Obfuscation",
+    "summary" : "Privacy is an important challenge when users interact with AI chatbots, since users may share sensitive information, explicitly or implicitly, and AI chatbots can use this information for user profiling. In this paper, we aim to protect user privacy via a user-side mechanism that transforms sensitive information in a user prompt, while preserving enough information to elicit a useful response from the chatbot. This approach faces an inherent tradeoff between protecting privacy (i.e., avoiding profiling) and preserving utility (i.e., getting personalized and task-specific responses). To that end, we consider, evaluate, and compare four different obfuscation actions, namely redaction, abstraction, replacement, and a novel noising/denoising scheme that we introduce. Additional novel insights include: utilizing a data type taxonomy to both identify and obfuscate sensitive information and explicitly taking into account the utility of chat responses in making the obfuscation decision. First, we systematically optimize and evaluate each obfuscation action independently in terms of the privacy-utility tradeoff it achieves. Second, we propose PROMPTPET, an LLM-based agent that selects the best obfuscation action for each sensitive part of the prompt, using a reinforcement-learning inspired rule optimizer, applied for the first time in this context. Using a real-world chat dataset, we show that PROMPTPET matches the best privacy-utility tradeoff attainable by any single obfuscation action and significantly outperforms prior state-of-the-art approaches.",
+    "updated" : "2026-07-03T03:59:34Z",
+    "published" : "2026-07-03T03:59:34Z",
+    "authors" : [
+      {
+        "name" : "Ke Yang"
+      },
+      {
+        "name" : "Olivia Figueira"
+      },
+      {
+        "name" : "Umar Iqbal"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02903v1",
+    "title" : "TIER: Trajectory-Invariant Explanation Regularization for Membership Privacy",
+    "summary" : "Explainability is central to building trustworthy AI, yet explanation interfaces can inadvertently provide adversaries with an expanded privacy-related attack surfaces. Recent studies show that advanced membership-inference attacks succeed by exploiting confidence-drop trajectories, induced through attribution-guided perturbations, as discriminative features, rather than directly using confidence scores or explanation vectors. Existing defenses against membership inference fail to directly mitigate such explanation-driven attacks. In this work, we investigate whether, during training, a model's own gradients can be leveraged as defense signals against such attacks, thereby aligning explanation profiles between members and non-members. To this end, we propose a Trajectory-Invariant Explanation Regularization (TIER) defense that penalizes erratic fluctuations in confidence drops simulated through gradient-guided perturbations and simultaneously minimizes the distributional shifts via KL-divergence. Unlike conventional adversarial training, which emphasizes label robustness, our approach targets explanation robustness by enforcing self-consistency through KL-divergence and reducing the variance of confidence drops between members and non-members. Extensive experiments confirm that our method effectively mitigates these attacks, delivering privacy protection while maintaining model utility and explanation fidelity.",
+    "updated" : "2026-07-03T02:59:53Z",
+    "published" : "2026-07-03T02:59:53Z",
+    "authors" : [
+      {
+        "name" : "Varun Sharma"
+      },
+      {
+        "name" : "Kar Wai Fok"
+      },
+      {
+        "name" : "Vrizlynn L. L. Thing"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02814v1",
+    "title" : "SovereignNegotiation-Bench: Evaluating User-Owned Personal Agents In Delegated Bargaining Under Privacy, Consent, Evidence, And Institutional Pressure",
+    "summary" : "Personal agents will increasingly negotiate on behalf of users: splitting costs with other personal agents, appealing platform decisions, escalating support disputes, requesting refunds, changing subscriptions, and negotiating deadlines or reimbursements. Existing negotiation benchmarks emphasize agreement, surplus, or strategic competence, but a user-owned agent can reach an agreement while harming the user through privacy leakage, consent violation, unsupported advocacy, over-concession, failed escalation, or poor auditability. We introduce SovereignNegotiation-Bench, a trace-level multi-turn benchmark for delegated personal-agent negotiation under private utilities, disclosure constraints, evidence requirements, and institutional asymmetry. The benchmark separates agent-visible observable state from evaluator-only labels and evaluates agreement success jointly with user utility, privacy, consent, evidence grounding, concession discipline, escalation, and auditability. We report an artifact-backed validation over 240 scenarios, 4 model families, 14 baselines, 13,440 frozen-prompt live trajectories, 61,135 parsed action rows, and a blinded 3-annotator audit over 300 items. The strongest agreement-maximizing baseline achieves the highest agreement rate but low user utility and high privacy/consent risk; FullSovereign does not maximize agreement, but obtains the best sovereign negotiation score by preserving utility, minimizing leakage, grounding claims, and reducing unauthorized commitments. The results show that agreement success is insufficient for user-owned negotiation agents.",
+    "updated" : "2026-07-02T23:03:15Z",
+    "published" : "2026-07-02T23:03:15Z",
+    "authors" : [
+      {
+        "name" : "Dylan Zongmin Liu"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02038v2",
+    "title" : "Hierarchical Anti-Aesthetics: Protecting Facial Privacy against Customized Diffusion Models",
+    "summary" : "The rise of customized diffusion models has fueled a boom in personalized visual content creation, but it also introduces serious risks of malicious misuse, thereby posing threats to personal privacy. Image aesthetics are strongly correlated with human perception of image quality. Motivated by this observation, we address facial privacy protection from a novel aesthetic perspective by degrading the generation quality of maliciously customized models, thus reducing facial identity leakage. Specifically, we propose a Hierarchical Anti-Aesthetics (HAA) framework that exploits aesthetic cues at multiple perceptual levels. HAA consists of two key branches: (1) Global Anti-Aesthetics, which degrades overall aesthetics and generation quality by constructing a global anti-aesthetic reward mechanism and a corresponding loss; and (2) Local Anti-Aesthetics, which disrupts facial identity by using a local anti-aesthetic reward mechanism and loss to guide adversarial perturbations toward facial regions. By integrating both branches, HAA achieves anti-aesthetic degradation from a global to a local level during customized generation. Extensive experiments show that HAA outperforms existing methods in identity removal, providing an effective tool for protecting facial privacy.",
+    "updated" : "2026-07-03T06:32:47Z",
+    "published" : "2026-07-02T11:05:58Z",
+    "authors" : [
+      {
+        "name" : "Songping Wang"
+      },
+      {
+        "name" : "Yueming Lyu"
+      },
+      {
+        "name" : "Shiqi Liu"
+      },
+      {
+        "name" : "Chen Zhao"
+      },
+      {
+        "name" : "Ziyuan Chen"
+      },
+      {
+        "name" : "Ning Li"
+      },
+      {
+        "name" : "Jing Dong"
+      },
+      {
+        "name" : "Caifeng Shan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.02611v1",
+    "title" : "Privacy-Preserving Industrial Ergonomics: mmWave-Based Automated REBA Scoring and Pose Estimation",
+    "summary" : "Work-related Musculoskeletal Disorders (WMSDs) require continuous ergonomic assessments. While Rapid Entire Body Assessment (REBA) is a gold-standard observation tool, manual monitoring is labor-intensive, and vision-based automation leads to privacy concerns. This paper proposes a novel end-to-end multi-task learning framework for privacy-preserving ergonomic assessment using millimetre-wave (mmWave) radar. A spatio-temporal backbone reconstructs 3D human skeletons, which serves as the biomechanical foundation for a subsequent regression head to generate REBA risk scores. To overcome the sparsity of radar point clouds, we utilise a multi-objective loss function incorporating biomechanical limits and temporal smoothness constraints. Furthermore, we implement an oversampling strategy to address the imbalance of high-risk postures in existing datasets. Experimental results on MMFi dataset demonstrate that our framework achieves a Categorical Accuracy of 77.78% and real-time performance with an inference latency of 5.70 ms. Our method reaches a High-risk REBA MAE of 0.93, which significantly outperforms both direct regression and two-stage pipelines in high-risk scenarios, providing a robust solution for non-invasive industrial ergonomic assessment.",
+    "updated" : "2026-07-01T15:41:15Z",
+    "published" : "2026-07-01T15:41:15Z",
+    "authors" : [
+      {
+        "name" : "Xuhan Zhang"
+      },
+      {
+        "name" : "Zhuangzhuang Dai"
+      },
+      {
+        "name" : "Luis J. Mans"
+      },
+      {
+        "name" : "Victor Chang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
   }
 ]
