@@ -445,5 +445,182 @@
       "cs.CV",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06371v1",
+    "title" : "The Impact of Security and Privacy Controls on Users' Emotional Engagement with Generative AI Chatbots",
+    "summary" : "Chatbots powered by generative AI (e.g., OpenAI's ChatGPT and Google's Gemini) are increasingly being appropriated for emotional support and companionship. These tools offer a suite of security and privacy (S&P) controls, including model training opt-outs and memory toggles, yet how the presence of these controls influences users' attitudes toward emotionally sensitive disclosure remains understudied. We conducted a mixed-methods vignette study with 354 U.S. participants to examine how S&P controls influence users' willingness to engage with generative AI chatbots for emotional support, their perceptions of how protected they are when using these systems, and their perceptions of how effective the chatbots are for providing support. Controls enabling deletion of disclosures had the largest positive impact: these offerings outperformed technically sophisticated controls such as local-only processing and model training opt-outs, where participants expressed difficulty understanding the underlying mechanisms. Yet trust remains fragile, and participants often doubted S&P controls would function as promised. We conclude with actionable recommendations informed by our results to bridge users' comprehension gaps, build credible assurances, and properly calibrate barriers for users in distress.",
+    "updated" : "2026-07-07T15:10:18Z",
+    "published" : "2026-07-07T15:10:18Z",
+    "authors" : [
+      {
+        "name" : "Jabari Kwesi"
+      },
+      {
+        "name" : "Jiaxun Cao"
+      },
+      {
+        "name" : "Hailee Cunningham"
+      },
+      {
+        "name" : "Pardis Emami-Naeini"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06320v1",
+    "title" : "Dithered Gaussian Mechanism for Randomness-Efficient Differential Privacy",
+    "summary" : "We present the dithered Gaussian mechanism, a novel alternative to the discrete Gaussian mechanism for differential privacy that discretizes the private output rather than the noise distribution itself. By interpreting this discretization as post-processing of the Gaussian mechanism, our construction directly inherits the privacy guarantees of the standard Gaussian mechanism while avoiding vulnerabilities caused by finite-precision floating-point outputs. We show that the mechanism is provably randomness-efficient: by sampling the discretized output values directly, the number of high-quality random bits required for privacy can be reduced significantly and made independent of the noise level. This is achieved by separating the randomness into two sources: a high-quality source used for the privacy-critical sampling step, and a high-performance public source, possibly known to the adversary, that supplies the additional randomness needed for randomized discretization. This separation enables the use of cryptographically secure randomness without substantial performance loss. As an application, we study model training with DP-SGD and show that cryptographically secure noise generation with reduced exposure to floating-point vulnerabilities can be achieved with modest practical overhead.",
+    "updated" : "2026-07-07T14:20:00Z",
+    "published" : "2026-07-07T14:20:00Z",
+    "authors" : [
+      {
+        "name" : "Nikita P. Kalinin"
+      },
+      {
+        "name" : "Rasmus Pagh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06307v1",
+    "title" : "Quantum Probabilistic Local Differential Privacy: Structural Properties and Sample Complexity Bounds",
+    "summary" : "Differential privacy provides a rigorous framework for quantifying privacy leakage in data analysis, while its quantum extensions have become increasingly relevant with the development of quantum computing and quantum machine learning. In this work, we introduce and study quantum probabilistic local differential privacy, a relaxation of quantum local differential privacy in which the privacy constraint is allowed to fail on a spectral violation event with low probability. This quantity can be interpreted as the probability under the quantum superoperation of a quantum privacy-loss violation, and is closely related to the acceptance probability of the quantum Neyman-Pearson test at a small threshold. We investigate the basic structural properties of this privacy notion and clarify its relationship with existing forms of quantum differential privacy. We show the properties of quantum probabilistic local differential privacy under tensor-product composition and unitary post-processing, while it is in general neither convex nor closed under post-processing by arbitrary quantum channels. We further characterize when depolarizing noise satisfies quantum probabilistic local differential privacy under several representative scenarios. Finally, we connect quantum probabilistic privacy constraints with statistical inference by deriving a lower bound on probabilistically privatized contraction coefficients in terms of the hockey-stick divergence. As an application, we obtain sample complexity bounds of probabilistically privated asymmetric and symmetric quantum hypothesis testing. These results provide a systematic foundation for studying probabilistic privacy guarantees in quantum information processing and their operational consequences for private quantum statistical inference.",
+    "updated" : "2026-07-07T14:11:15Z",
+    "published" : "2026-07-07T14:11:15Z",
+    "authors" : [
+      {
+        "name" : "Xian Shi"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06141v1",
+    "title" : "The Masks We (Think We) Wear: Privacy Threats of Browser-Extension Wallets in the Web3 Ecosystem",
+    "summary" : "Cryptocurrency wallets are the primary interface for managing pseudonymous blockchain addresses, viewing balances, and interacting with Web3 applications. Although users typically assume that their addresses remain independent of each other unless intentionally revealed, modern wallets routinely communicate with both blockchain infrastructure and decentralized applications (dApps), generating network-side and web-side signals that may undermine this assumption.\n  In this paper, we identify and formalize five privacy threats that arise directly from wallets interacting with the network and the web browser. Using large-scale dynamic measurements of 85 of the most popular Chrome Web Store browser-extension wallets (representing 35.16 million users), we observe that routine remote procedure call (RPC) operations leak structural links between a user's addresses; that the majority of Ethereum wallets implement permission revocation inconsistently and continue to expose previously revoked addresses across sessions; and that many wallets inject their provider interfaces into cross-origin iframes, enabling passive cross-site tracking beyond dApps and potentially real-world identity deanonymization without user interaction.\n  Taken together, our results show that these wallet behaviors leak sensitive information that can be used to link multiple addresses to the same user, track wallet users across sessions and sites, and connect their browsing activity to their on-chain wealth.\n  We discuss practical mitigations and show that many of these threats can be substantially reduced through improved wallet implementation, stronger privacy considerations in ecosystem standards, and stricter controls over provider exposure. Our results highlight the need for standardized, privacy-preserving wallet architectures.",
+    "updated" : "2026-07-07T11:08:23Z",
+    "published" : "2026-07-07T11:08:23Z",
+    "authors" : [
+      {
+        "name" : "Weihong Wang"
+      },
+      {
+        "name" : "Yana Dimova"
+      },
+      {
+        "name" : "Victor Vansteenkiste"
+      },
+      {
+        "name" : "Tom Van Goethem"
+      },
+      {
+        "name" : "Tom Van Cutsem"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06127v1",
+    "title" : "Measuring the practice of shared-decision making (OPTION12): An Investigation into Open-sourced Smaller LLMs (OS-sLLMs) for Better Privacy and Sustainability",
+    "summary" : "We present LLM4SDM, the first study of open-source smaller language models (OS-sLLMs) for automated assessment of shared decision making (SDM) using the Observer OPTION12 framework. Unlike previous work that relies on large commercial models and the shorter OPTION5 instrument, our study focuses on privacy-preserving locally deployable models and Dutch melanoma consultation transcripts. Using expert-annotated clinical consultations, we evaluate three general-domain and two medical-domain OS-sLLMs during a development-phase pilot study. Results show that general-domain models outperform medical-domain models, which exhibit substantial hallucination and instruction-following failures. Gemma3:12b achieves the strongest agreement with human annotations (Pearson r=0.51, Spearman \\r{ho}=0.59). Item-level and qualitative analyses reveal systematic challenges related to temporal discourse reasoning, conversational role attribution, and evidence grounding. We further introduce a Judge-LLM consensus framework designed to support disagreement resolution among multiple models. Our findings suggest that while current OS-sLLMs cannot replace human annotators, they offer a promising foundation for privacy-preserving human-in-the-loop SDM assessment.",
+    "updated" : "2026-07-07T10:37:04Z",
+    "published" : "2026-07-07T10:37:04Z",
+    "authors" : [
+      {
+        "name" : "Tamara Wit"
+      },
+      {
+        "name" : "Lifeng Han"
+      },
+      {
+        "name" : "Carly Heipon"
+      },
+      {
+        "name" : "David Lindevelt"
+      },
+      {
+        "name" : "Anne Stiggelbout"
+      },
+      {
+        "name" : "Suzan Verberne"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06037v1",
+    "title" : "REAN: Reconstruction-aware ECG Anonymization Based on Privacy--Utility Orthogonality",
+    "summary" : "A shared electrocardiogram (ECG) is itself a biometric fingerprint that can re-identify a patient and reveal personal information. Recent ECG anonymizers transform the signal before sharing to reduce privacy leakage. However, existing methods still face a privacy--utility trade-off, in which preserving privacy often compromises utility while preserving utility reveals personal information. We propose \\emph{REAN} (\\emph{RE}construction-aware ECG \\emph{AN}onymizer), a raw ECG signal anonymizer, to address this privacy--utility trade-off. REAN reconstructs the signal using a 1-D U-Net trained with losses from frozen privacy and utility classifiers to reduce privacy leakage while preserving utility. The privacy and utility gradients are near-orthogonal ($\\approx$93.8$^\\circ$), so reducing privacy leakage leaves utility almost unchanged. On four public PhysioNet databases, REAN achieves the strongest privacy--utility balance among raw ECG signal baselines. It drives re-identification to chance (0.96$\\to$0.00), keeps arrhythmia macro-AUROC at the clean level (Clean 0.9982 vs.\\ REAN 0.9991), and maintains re-identification protection under unseen privacy-classifier architectures.",
+    "updated" : "2026-07-07T09:12:53Z",
+    "published" : "2026-07-07T09:12:53Z",
+    "authors" : [
+      {
+        "name" : "Taerin Ki"
+      },
+      {
+        "name" : "Sunghwan Park"
+      },
+      {
+        "name" : "Junyoung Park"
+      },
+      {
+        "name" : "Jaewoo Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05996v1",
+    "title" : "Unlearnable Faces: Privacy Protection Surviving Extraction Pipeline",
+    "summary" : "Unlearnable examples keep publicly shared photos from being learned by unauthorized face-recognition models. An imperceptible perturbation, added before sharing, makes any model trained on the protected photos fail on clean faces. The perturbation is crafted on the shared image, however the attacker trains on the face it extracts, cropped and resized to the recognizer input, and under this extraction the protection collapses. We propose LPID, which builds the extraction into the unlearnable-example objective. LPID confines the perturbation to the extracted face region and optimizes it through a differentiable model of the extraction, concentrating its energy in the frequency band the extraction preserves. Because this robustness is a property of the transform rather than of any identity, LPID is re-optimized per album and protects even users it has never seen. LPID attains the lowest attacker accuracy of all methods in every setting we evaluate, holding the attacker below $10\\%$ under crop+resize extraction on identities unseen at protection time, while remaining imperceptible at $32.7$\\,dB PSNR and $0.161$ LPIPS.",
+    "updated" : "2026-07-07T08:30:59Z",
+    "published" : "2026-07-07T08:30:59Z",
+    "authors" : [
+      {
+        "name" : "Byunghoon Oh"
+      },
+      {
+        "name" : "Sunghwan Park"
+      },
+      {
+        "name" : "Jaewoo Lee"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05802v1",
+    "title" : "Failure Privacy and Safe Collective Expression",
+    "summary" : "Widely held views can go unspoken when speaking out alone invites retaliation. I recast such silence as a problem of safe coalition formation. When safety comes in numbers, there is a largest group that could speak safely. Open organizing must stay safe every step the way, making for a cascade of speaking up that stops short of that largest group. Social assurance contracts need safety only at the destination, and get there by keeping commitments private until enough people have joined: a tunnel to the largest safe group. If no member may ever regret joining, such failure privacy is necessary, not merely sufficient.",
+    "updated" : "2026-07-07T03:55:31Z",
+    "published" : "2026-07-07T03:55:31Z",
+    "authors" : [
+      {
+        "name" : "Matthew Cashman"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "econ.TH"
+    ]
   }
 ]
