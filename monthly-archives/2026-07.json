@@ -622,5 +622,238 @@
       "econ.GN",
       "econ.TH"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.07635v1",
+    "title" : "Unlearning to Protect: A Distilled Reinforcement Learning Framework with Privacy-Preserving Feature Unlearning and XAI for IoT Security",
+    "summary" : "Botnets pose a significant cybersecurity threat, enabling attacks such as DDoS, data theft, and service disruptions on IoT devices. These devices often lack built-in botnet traffic filtering, leaving them highly exposed. Existing AI-based solutions improve detection capabilities but have limitations: (i) they are too heavy for IoT deployment, and (ii) they lack unlearning capabilities to forget sensitive or outdated features without retraining. To address these challenges, we propose DiRLU, a lightweight, reinforcement learning driven framework, while ensuring privacy by selectively unlearning sensitive or outdated features without requiring retraining. The framework leverages knowledge distillation to transfer knowledge from a teacher model into a lightweight student model, with both models trained using A2C. A post-hoc unlearning mechanism modifies weights to remove targeted features, while restored features show negligible performance loss, confirming reversibility. Unlike many benchmark models that used only 5% of the BoT-IoT dataset, this research leverages 25%, allowing us to develop a strong teacher model. Both the teacher and student models were trained using the A2C reinforcement learning algorithm, achieving impressive results, with the student model achieving 99.60% accuracy and a 99.80% F1 score. To enhance transparency, we integrated Explainable AI (XAI), particularly LIME, which helps interpret the model's decisions and identify the key features influencing its predictions. Moreover, DiRLU requires only 2,370 FLOPS, approximately 3.87x more efficient than the state-of-the-art model, highlighting its efficiency for edge deployment. DiRLU combines efficiency with privacy, aligning with GDPR standards (right to be forgotten) to provide practical and scalable IoT security solution.",
+    "updated" : "2026-07-08T16:52:35Z",
+    "published" : "2026-07-08T16:52:35Z",
+    "authors" : [
+      {
+        "name" : "Md. Nahid Hasan"
+      },
+      {
+        "name" : "Golam Rabiul Alam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.07371v1",
+    "title" : "zk-ScalHard: Scalable and Hardware-Rooted Privacy-Preserving Authentication for Secure OTA Updates in Zonal SDVs",
+    "summary" : "The automotive industry is transitioning to Zonal-oriented Architectures (ZoA) for Software-Defined Vehicles (SDVs), enabling frequent over-the-air (OTA) updates for 100+ Electronic Control Units (ECUs). While OTA updates improve efficiency, they introduce safety-critical security risks. Current standards like Uptane and AUTOSAR Adaptive rely on Public-Key Infrastructure (PKI). However, PKI-based authentication creates bandwidth bottlenecks in in-vehicle and vehicle-to-cloud (V2I) communication as ECU density increases. It also risks exposing sensitive vehicle configurations and passenger privacy due to centralized architectures. Next-generation Zonal SDVs require decentralized, scalable authentication with data privacy. To address this, we propose zk-ScalHard, a hardware-rooted, privacy-preserving authentication protocol. We introduce a decentralized, hierarchical trust-promotion model utilizing Silicon Physical Unclonable Functions (PUFs) and two novel Zero-Knowledge Proof (ZKP) circuits: (1) Zonal Identity and Integrity (ZIDI) and (2) High-Performance Computing Aggregation (HPCA). These circuits employ multi-party computation (MPC) and recursive aggregation to achieve decentralization and scalability. The integration of ZKPs and PUFs ensures 100% vehicle-level data sovereignty. Benchmarked against Uptane, zk-ScalHard achieves constant O(1) communication and verification complexity, improving upon the linear O(n) complexity of current systems. Evaluation shows a 99.2% reduction in authentication bandwidth and a 99.9% reduction in the temporal attack surface. Our results demonstrate that zk-ScalHard provides a scalable, secure, and GDPR-compliant architecture for future Zonal SDVs.",
+    "updated" : "2026-07-08T13:05:19Z",
+    "published" : "2026-07-08T13:05:19Z",
+    "authors" : [
+      {
+        "name" : "Shrikant Tangade"
+      },
+      {
+        "name" : "Bansi Pambhar"
+      },
+      {
+        "name" : "Valeria Loscri"
+      },
+      {
+        "name" : "Mauro Conti"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.07209v1",
+    "title" : "Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe",
+    "summary" : "Modern federated and streaming learning systems often release intermediate models, so privacy must hold for the full trajectory under adaptive interaction. Motivated by participation privacy, we study single-edit neighboring user streams, where one insertion/deletion shifts all subsequent updates and defeats standard Hamming-neighbor continual-release analyses. We give an auditable modular recipe. A randomized buffering wrapper emits bins of size $[U,2U]$, reducing single-edit streams to a Hamming-style per-bin update stream with explicit backlog/delay guarantees, where $U$ is calibrated by the privacy parameters $(\\varepsilon,δ)$. We then prove a certification theorem identifying when a non-adaptive Hamming-neighbor DP proof for a continual primitive lifts to adaptive inputs: the primitive must use fresh per-round randomness and have a stable one-round privacy profile under common adaptive context. Together, these ingredients yield trajectory-level $(\\varepsilon,δ)$-DP for single-edit streams using standard primitives (e.g., tree prefix sums), with an explicit privacy--latency link via $U$.",
+    "updated" : "2026-07-08T09:44:27Z",
+    "published" : "2026-07-08T09:44:27Z",
+    "authors" : [
+      {
+        "name" : "T-H. Hubert Chan"
+      },
+      {
+        "name" : "Elaine Shi"
+      },
+      {
+        "name" : "Mengshi Zhao"
+      },
+      {
+        "name" : "Mingxun Zhou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06963v1",
+    "title" : "Large Language Models (LLMs) and Generative AI in Cybersecurity and Privacy: A Survey of Dual-Use Risks, AI-Generated Malware, Explainability, and Defensive Strategies",
+    "summary" : "Large Language Models (LLMs) and generative AI (GenAI) systems, such as ChatGPT, Claude, Gemini, LLaMA, Copilot, Stable Diffusion by OpenAI, Anthropic, Google, Meta, Microsoft, Stability AI, respectively, are revolutionizing cybersecurity, enabling both automated defense and sophisticated attacks. These technologies power real-time threat detection, phishing defense, secure code generation, and vulnerability exploitation at unprecedented scales. Following a rapid surge where LLM-generated malware grew to account for an estimated 50% of detected threats by 2025, up from just 2% in 2021, navigating this highly automated threat landscape in 2026 demands next-generation security frameworks. This paper presents a comprehensive survey of the beneficial and malicious applications of LLMs in cybersecurity, including zero-day detection, DevSecOps, federated learning, synthetic content analysis, and explainable AI (XAI). Drawing on a review of over 70 academic papers, industry reports, and technical documents, this work synthesizes insights from real-world case studies across platforms like Google Play Protect, Microsoft Defender, Amazon Web Services (AWS), Apple App Store, OpenAI Plugin Stores, Hugging Face Spaces, and GitHub, alongside emerging initiatives like the SAFE Framework and AI-driven anomaly detection. We conclude with practical recommendations for responsible and transparent LLM deployment and trustworthy AI, including model watermarking, adversarial defense, and cross-industry collaboration, setting a new benchmark for rigorous, holistic cybersecurity research at the intersection of AI and threat defense, and offering a roadmap for secure, scalable LLM systems that serves as a critical reference for researchers, engineers, and security leaders navigating the complex challenges of AI-driven cybersecurity.",
+    "updated" : "2026-07-08T03:40:26Z",
+    "published" : "2026-07-08T03:40:26Z",
+    "authors" : [
+      {
+        "name" : "Kiarash Ahi"
+      },
+      {
+        "name" : "Saeed Valizadeh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06860v1",
+    "title" : "Auditable Machine Unlearning for Privacy-Compliant Ransomware Detection Using Multi-Shard SISA and Deep Reinforcement Learning",
+    "summary" : "Ransomware poses an escalating cybersecurity threat as attackers continuously modify behavioral patterns to evade static defenses. Although existing machine learning-based detectors often achieve strong predictive performance, they generally assume fixed training data and do not support the selective removal of previously learned samples. This limitation conflicts with privacy regulations such as the GDPR and CCPA, which require the removal of sensitive user data upon request. To address this challenge, we propose an auditable ransomware detection and unlearning framework that integrates deep reinforcement learning with multi-shard SISA retraining. In the proposed system, a Double Deep Q-Network (DDQN) learns a reward-guided detection policy from behavioral features under asymmetric security costs, while multi-shard SISA enables privacy-compliant selective sample removal through shard-level retraining. The framework was evaluated using four criteria: utility preservation, oracle-based forgetting validation, membership inference auditing, and computational efficiency. On a balanced Windows 11 behavioral dataset comprising 2,000 samples and 103 features, the baseline DDQN detector achieved an F1 score of 0.9925 and an AUC of 0.9983. The experimental results show that single-shard unlearning maintains minimal utility degradation and low oracle disagreement, whereas moderate shard counts (M = 5-10) provide the best efficiency-performance trade-off, reducing retraining time to 5-30 s compared with 80-330 s for full retraining. In addition, the membership inference scores remain close to 0.5 across most configurations, indicating limited privacy leakage after unlearning. These findings demonstrate that a privacy-compliant ransomware detection framework can jointly achieve high detection performance, auditable deletion verification, and efficient sample removal.",
+    "updated" : "2026-07-07T23:23:52Z",
+    "published" : "2026-07-07T23:23:52Z",
+    "authors" : [
+      {
+        "name" : "Jannatul Ferdous"
+      },
+      {
+        "name" : "Rafiqul Islam"
+      },
+      {
+        "name" : "Md Zahidul Islam"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06815v1",
+    "title" : "Behavioral Privacy Leakage in Agentic Negotiation: Formalizing and Mitigating Inference Attacks via Randomized Policies",
+    "summary" : "Autonomous negotiation agents are increasingly deployed in high-stakes settings such as insurance and procurement. While cryptographic techniques protect explicitly disclosed constraint values, they fail to address a subtler threat: behavioral privacy leakage, where an adversary infers private constraints from observable negotiation dynamics such as concession trajectories, timing, and convergence patterns. This paper investigates behavioral differential privacy in multi-round negotiation protocols. We design an adaptive stochastic negotiation policy that jointly guarantees $(\\varepsilon, δ)$-differential privacy, almost-sure convergence of the offer sequence (reaching agreement when the counterparty's reservation value permits), and high negotiation utility. Evaluated on 3,000 synthetic bilateral negotiations, our mechanism reduces adversarial inference accuracy by 43-50% while maintaining a negotiation success rate and utility above 90%, demonstrating that strong privacy guarantees can be achieved without significant loss of performance.",
+    "updated" : "2026-07-07T21:22:28Z",
+    "published" : "2026-07-07T21:22:28Z",
+    "authors" : [
+      {
+        "name" : "Barkha Rani"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06687v1",
+    "title" : "Exploring the Interaction of Explanation Styles, Context, and Trust of AI Privacy Redaction in AI-mediated Interactions",
+    "summary" : "AI-mediated communication is increasingly being utilized to help facilitate interactions; however, in privacy sensitive domains, an AI mediator has the additional challenge of considering how to preserve privacy. In these contexts, a mediator may redact or withhold information, raising questions about how users perceive these interventions and whether explanations of system behavior can improve trust. In this work, we investigate how explanations of redaction operations can affect user trust in AI-mediated communication. We devise a scenario where a validated system removes sensitive content from messages and generates explanations of varying detail to communicate its decisions to recipients. We then conduct a user study with 180 participants that studies how user trust and preferences vary for cases with different amounts of redacted content and different levels of explanation detail. Our results show that participants believed our system was more effective at preserving privacy when explanations were provided (p<0.05, Cohen's d ~ 0.3). We also found that contextual factors had an impact; participants relied more on explanations and found them more helpful when the system performed extensive redactions (p<0.05, Cohen's f ~ 0.2). We also found that explanation preferences depended on individual differences as well, and factors such as age and baseline familiarity with AI affected user trust in our system. These findings highlight the importance and challenge of balancing transparency and privacy in AI-mediated communications and suggest that adaptive, context-aware explanations are essential for designing privacy-aware, trustworthy AI systems.",
+    "updated" : "2026-07-07T18:04:51Z",
+    "published" : "2026-07-07T18:04:51Z",
+    "authors" : [
+      {
+        "name" : "Roshni Kaushik"
+      },
+      {
+        "name" : "Maarten Sap"
+      },
+      {
+        "name" : "Koichi Onoue"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06608v1",
+    "title" : "Security and Privacy in Agentic AI: Grand Challenges and Future Directions",
+    "summary" : "We present key challenges and future research directions in the security and privacy of agentic AI, based on a horizon-scanning exercise that brought together thirty leading international experts from academia, industry, and government to engage in focused discussions and collaborative exercises on the emerging risks associated with the growing agency of AI.",
+    "updated" : "2026-07-07T05:45:29Z",
+    "published" : "2026-07-07T05:45:29Z",
+    "authors" : [
+      {
+        "name" : "Adam Jenkins"
+      },
+      {
+        "name" : "Agnieszka Kitkowska"
+      },
+      {
+        "name" : "Caterina Maidhof"
+      },
+      {
+        "name" : "Diego Paracuellos"
+      },
+      {
+        "name" : "Francesco Sovrano"
+      },
+      {
+        "name" : "Gonzalo Gabriel Mendez"
+      },
+      {
+        "name" : "Guillermo Suarez-Tangil"
+      },
+      {
+        "name" : "Hana Kopecka"
+      },
+      {
+        "name" : "Isabel Wagner"
+      },
+      {
+        "name" : "Isabel Barbera"
+      },
+      {
+        "name" : "Javier Carnerero-Cano"
+      },
+      {
+        "name" : "Jide Edu"
+      },
+      {
+        "name" : "Jose Luis Martin-Navarro"
+      },
+      {
+        "name" : "Jose Such"
+      },
+      {
+        "name" : "Josep Domingo-Ferrer"
+      },
+      {
+        "name" : "Juan Carlos Carrillo"
+      },
+      {
+        "name" : "Kopo Marvin Ramokapane"
+      },
+      {
+        "name" : "Mark Cote"
+      },
+      {
+        "name" : "Pablo Vellosillo"
+      },
+      {
+        "name" : "Ramon Ruiz-Dolz"
+      },
+      {
+        "name" : "Rongjun Ma"
+      },
+      {
+        "name" : "Ruba Abu-Salma"
+      },
+      {
+        "name" : "Sameer Patil"
+      },
+      {
+        "name" : "William Seymour"
+      },
+      {
+        "name" : "Xiao Zhan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ]
   }
 ]
