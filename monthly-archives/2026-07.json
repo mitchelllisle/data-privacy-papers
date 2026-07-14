@@ -1203,5 +1203,143 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.11600v1",
+    "title" : "Privacy-Aware Collaborative and Distributed Bayesian Optimization",
+    "summary" : "We propose a collaborative meta-learning framework for distributed Bayesian optimization matching centralized performance without raw-data exchange. We show gradient sharing leaks client observations, with leakage worsening as the search converges and queries concentrate near the optimum. We evaluate a differentially private defense and characterize its privacy-utility trade-off.",
+    "updated" : "2026-07-13T14:25:04Z",
+    "published" : "2026-07-13T14:25:04Z",
+    "authors" : [
+      {
+        "name" : "Aditya Rane"
+      },
+      {
+        "name" : "Sathwik Yamana"
+      },
+      {
+        "name" : "Paritosh Ramanan"
+      },
+      {
+        "name" : "Srikanthan Ramesh"
+      },
+      {
+        "name" : "Akash Deep"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.11302v1",
+    "title" : "Information geometric quantification of effective privacy in quantum metrology",
+    "summary" : "Privacy of a quantum metrological protocol concerns the extent to which single parameters can be kept inaccessible to an observer or to other users of the network. In this work, an information geometric framework is developed to quantify privacy and accessibility of functions of parameters effectively, that is, up to a finite accuracy in state discrimination. Both quantities are defined by measuring volumes in the parameter space induced by the underlying quantum states. This construction subsumes previous definitions of privacy based on the degeneracy of quantum Fisher information, naturally encompassing imperfect implementations. Using extended-GHZ states as a representative example of a quantum network scenario, privacy and accessibility are characterized by quantum correlations and accuracy, providing scaling laws depending on imperfect measurements and entanglement.",
+    "updated" : "2026-07-13T09:18:54Z",
+    "published" : "2026-07-13T09:18:54Z",
+    "authors" : [
+      {
+        "name" : "Luca Bianchi"
+      },
+      {
+        "name" : "Shimpei Yamaguchi"
+      },
+      {
+        "name" : "Wojciech Roga"
+      },
+      {
+        "name" : "Davide Bacco"
+      },
+      {
+        "name" : "Masahiro Takeoka"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.10709v1",
+    "title" : "PromptGraph: Graph-Guided Prompt Sanitization for Balancing Privacy and Utility in LLM Inference",
+    "summary" : "Large Language Model (LLM) services introduce a fundamental privacy challenge. Sensitive information may be inferred not only from explicit identifiers, such as names or phone numbers, but also from contextual associations among otherwise innocuous spans. Existing sanitizers typically assign privacy or utility signals to individual spans without explicitly modeling pairwise relationships among them. In this paper, we propose PromptGraph, a graph-guided prompt-sanitization approach for privacy-preserving LLM inference. PromptGraph estimates privacy leakage at the span level and utility-relevant contextual dependencies between pairs of spans. It represents each prompt as an attributed graph, in which nodes carry span-level privacy scores and edges encode contextual dependencies needed to preserve utility. The sanitization objective selects a protected span set that maximizes privacy gain while penalizing the loss of contextual dependencies. This formulation explicitly balances privacy and utility when contextual evidence is hidden. Protected spans are sanitized locally, and returned placeholders are restored only after passing local consistency checks. We conduct extensive experiments showing that PromptGraph achieves a more favorable balance between privacy and utility than prompt-privacy baselines.",
+    "updated" : "2026-07-12T11:04:49Z",
+    "published" : "2026-07-12T11:04:49Z",
+    "authors" : [
+      {
+        "name" : "Chen Gu"
+      },
+      {
+        "name" : "Hui Wan"
+      },
+      {
+        "name" : "Donghui Hu"
+      },
+      {
+        "name" : "Hui Wang"
+      },
+      {
+        "name" : "Zhuoer Gu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.10467v1",
+    "title" : "Toward Production-Ready Federated Learning in Healthcare: Privacy, Orchestration, and Governance in MLOps",
+    "summary" : "Healthcare organizations often cannot freely centralize patient data because medical records are sensitive, regulated, and institutionally controlled. Federated learning offers a practical alternative by allowing hospitals and clinics to train a shared model while keeping raw data local. However, federated learning is not automatically production-ready or private by default. Model updates can still leak information, and decentralized training introduces operational challenges in deployment, monitoring, rollback, debugging, and governance. This paper examines how MLOps practices and the emerging idea of Federated Learning Operations (FLOps) can make federated healthcare machine learning systems scalable, reliable, and trustworthy. It answers three research questions: how containerization and orchestration support federated deployment, how privacy-preserving mechanisms affect trade-offs among privacy, utility, scalability, and operational complexity, and which post-deployment practices are most important for long-term governance. The central argument is that federated healthcare ML requires more than privacy-preserving algorithms. It needs an integrated MLOps architecture that combines reproducible deployment, secure orchestration, model versioning, audit logging, drift monitoring, heterogeneity management, and clear governance.",
+    "updated" : "2026-07-11T20:14:00Z",
+    "published" : "2026-07-11T20:14:00Z",
+    "authors" : [
+      {
+        "name" : "Sakshi Gorkhali"
+      },
+      {
+        "name" : "Jonesh Shrestha"
+      }
+    ],
+    "categories" : [
+      "cs.SE",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.10329v1",
+    "title" : "Imperceptible and Reversible Adversarial Examples against Vision-Language Models for Privacy Protection",
+    "summary" : "Vision Language Models (VLMs) offer powerful multimodal ability but also expose users to text-based privacy attacks where adversaries crawl online photos and query VLMs to extract sensitive attributes. Existing reversible adversarial example (RAE) methods protect images in purely visual tasks but fail in multimodal settings, and current adversarial examples on VLMs rely on high frequency noise that severely degrades visual quality. We propose CloakDiff, the first framework for reversible, high fidelity privacy protection against text-based query attacks in VLMs. CloakDiff produces imperceptible adversarial examples by combining diffusion based adversarial editing with an invertible network that embeds the original image for lossless recovery. It perturbs both pixel space embeddings and manipulates latent cross attention maps to ensure strong cross-model and cross-prompt transferability while preserving global visual structure. To further enhance fidelity, we design EDM Heuristic Sampling, a principled diffusion schedule for adversarial guidance. Experiments on multiple datasets and VLMs demonstrate that CloakDiff delivers multimodal privacy preservation with high visual quality and reversibility.",
+    "updated" : "2026-07-11T14:13:10Z",
+    "published" : "2026-07-11T14:13:10Z",
+    "authors" : [
+      {
+        "name" : "Qi Lu"
+      },
+      {
+        "name" : "Ziqi Zhou"
+      },
+      {
+        "name" : "Yufei Song"
+      },
+      {
+        "name" : "Zijing Li"
+      },
+      {
+        "name" : "Lulu Xue"
+      },
+      {
+        "name" : "Minghui Li"
+      },
+      {
+        "name" : "Shengshan Hu"
+      },
+      {
+        "name" : "Leo Yu Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
