@@ -1830,5 +1830,43 @@
       "cs.CL",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.13093v2",
+    "title" : "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
+    "summary" : "On-device LLM inference faces a trilemma of response latency, limited hardware resources and user privacy. Full cloud inference delivers strong computing power but exposes user prompts and dialogue data, while standalone on-device inference is unfeasible for most consumer and embedded edge devices. This paper presents a privacy-centric edge-cloud collaborative LLM inference framework built on endpoint-authenticated KV cache. Local endpoints handle input preprocessing, embedding computation, adaptive feature optimization, KV cache authentication, speculative decoding and low-dimensional model head calculation, while the cloud conducts authenticated decoder inference, KV cache management, token verification and high-dimensional vocabulary projection. Endpoints fuse partial outputs, apply language-adaptive masking and sample target tokens. All transmitted data and truncated logits are quantized and AES-GCM encrypted for privacy, with core lightweight modules, draft parameters and cache access policies kept local to avoid leakage. The framework supports heterogeneous devices including CPU-only, GPU-equipped and embedded devices via optimized streaming, batching and quantized ONNX deployment. Evaluations demonstrate that the framework reduces per-token latency by up to 46.1\\% and downlink payloads by up to 67.4\\% over baseline split inference, retaining comparable performance to full cloud inference.",
+    "updated" : "2026-07-17T08:39:32Z",
+    "published" : "2026-07-14T01:17:17Z",
+    "authors" : [
+      {
+        "name" : "Chen Li"
+      },
+      {
+        "name" : "Jiexiong Liu"
+      },
+      {
+        "name" : "Yi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05802v2",
+    "title" : "Failure Privacy and Safe Collective Expression with Social Assurance Contracts",
+    "summary" : "Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking one-by-one may encourage others, but retaliation against early participants can stop the cascade before a protective group forms. A social assurance contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.",
+    "updated" : "2026-07-16T23:01:15Z",
+    "published" : "2026-07-07T03:55:31Z",
+    "authors" : [
+      {
+        "name" : "Matthew Cashman"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "econ.TH"
+    ]
   }
 ]
