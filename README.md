@@ -176,12 +176,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.13093v1">Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models</a></h3>
+  <h3><a href="http://arxiv.org/abs/2607.13093v2">Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
   <p><b>Published on:</b> 2026-07-14T01:17:17Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Yi Li, Chen Li, Jiexiong Liu</p>
+    <p><b>Authors:</b> Chen Li, Jiexiong Liu, Yi Li</p>
     <p><b>Summary:</b> On-device LLM inference faces a trilemma of response latency, limited hardware resources and user privacy. Full cloud inference delivers strong computing power but exposes user prompts and dialogue data, while standalone on-device inference is unfeasible for most consumer and embedded edge devices. This paper presents a privacy-centric edge-cloud collaborative LLM inference framework built on endpoint-authenticated KV cache. Local endpoints handle input preprocessing, embedding computation, adaptive feature optimization, KV cache authentication, speculative decoding and low-dimensional model head calculation, while the cloud conducts authenticated decoder inference, KV cache management, token verification and high-dimensional vocabulary projection. Endpoints fuse partial outputs, apply language-adaptive masking and sample target tokens. All transmitted data and truncated logits are quantized and AES-GCM encrypted for privacy, with core lightweight modules, draft parameters and cache access policies kept local to avoid leakage. The framework supports heterogeneous devices including CPU-only, GPU-equipped and embedded devices via optimized streaming, batching and quantized ONNX deployment. Evaluations demonstrate that the framework reduces per-token latency by up to 46.1\% and downlink payloads by up to 67.4\% over baseline split inference, retaining comparable performance to full cloud inference.</p>
   </details>
 </div>
@@ -591,13 +591,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.05802v1">Failure Privacy and Safe Collective Expression</a></h3>
+  <h3><a href="http://arxiv.org/abs/2607.05802v2">Failure Privacy and Safe Collective Expression with Social Assurance Contracts</a></h3>
    
   <p><b>Published on:</b> 2026-07-07T03:55:31Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Matthew Cashman</p>
-    <p><b>Summary:</b> Widely held views can go unspoken when speaking out alone invites retaliation. I recast such silence as a problem of safe coalition formation. When safety comes in numbers, there is a largest group that could speak safely. Open organizing must stay safe every step the way, making for a cascade of speaking up that stops short of that largest group. Social assurance contracts need safety only at the destination, and get there by keeping commitments private until enough people have joined: a tunnel to the largest safe group. If no member may ever regret joining, such failure privacy is necessary, not merely sufficient.</p>
+    <p><b>Summary:</b> Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking one-by-one may encourage others, but retaliation against early participants can stop the cascade before a protective group forms. A social assurance contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.</p>
   </details>
 </div>
 
