@@ -1868,5 +1868,305 @@
       "econ.GN",
       "econ.TH"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.18169v1",
+    "title" : "RRAM-DP: Device-Calibrated Differential Privacy for In-Memory Edge Learning",
+    "summary" : "Edge Artificial Intelligence of Things (AIoT) systems often collect sensitive data in situ, raising serious privacy concerns. Resistive-switching random-access memory (RRAM) is an attractive substrate for efficient AIoT thanks to its multi-bit storage and compute-in-memory (CiM) capabilities, while its inherently stochastic write behavior provides a natural source of randomness that can be leveraged for differential privacy (DP) protection. Yet how to transform this device-level randomness-typically viewed as detrimental to accuracy-into a principled randomized mechanism while preserving model utility remains underexplored. We propose RRAM-DP, a hardware-algorithm co-design that relaxes RRAM write-verify operations to inject calibrated noise for inherently (epsilon, delta)-DP with formal DP analysis; together with pretraining techniques, it renders a novel private, high-utility CiM training paradigm. On CIFAR-10/100, STS-B, and SST-2, RRAM-DP-SGD incurs at best only a 3.8% accuracy drop at (epsilon=2, delta=O(1/n))-DP relative to non-private SGD. At the same privacy level, RRAM-DP-SGD delivers up to 57x and 3.2x energy savings and 2.7x and 1.8x speedups over A100 and DiVa-GEMM, respectively. These results point toward efficient, privacy-preserving in-memory training on RRAM at the edge.",
+    "updated" : "2026-07-20T17:11:59Z",
+    "published" : "2026-07-20T17:11:59Z",
+    "authors" : [
+      {
+        "name" : "Kwunhang Wong"
+      },
+      {
+        "name" : "Jichang Yang"
+      },
+      {
+        "name" : "Karl M. H. Lai"
+      },
+      {
+        "name" : "Hegan Chen"
+      },
+      {
+        "name" : "Songqi Wang"
+      },
+      {
+        "name" : "Wei Xuan"
+      },
+      {
+        "name" : "Ning Lin"
+      },
+      {
+        "name" : "Han Wang"
+      },
+      {
+        "name" : "Xiaojuan Qi"
+      },
+      {
+        "name" : "Zhongrui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.18021v1",
+    "title" : "Optimal Domain-Aware Privacy Mechanisms for Synthetic Data Generation",
+    "summary" : "Differential privacy (DP) imposes fundamental trade-offs between privacy and statistical fidelity in synthetic data generation. While access to public data has been shown to improve these trade-offs empirically, existing approaches use public data only indirectly, through pre-processing (e.g., using pre-trained generative models) or post-processing steps (e.g., matching target statistics estimated from public datasets), while relying on domain-agnostic DP mechanisms. In this work, we lay the theoretical framework to study the principled incorporation of public data into DP mechanisms themselves. We consider normalized histograms as distribution estimators and characterize the asymptotically optimal domain-aware privacy mechanism within a specific class of DP mechanisms. We introduce PubMix, a public-data-aware DP mechanism that can be used in histogram-based data synthesis pipelines. Our experiments demonstrate that PubMix significantly improves synthetic data generation quality compared to domain-agnostic privacy mechanisms.",
+    "updated" : "2026-07-20T14:54:16Z",
+    "published" : "2026-07-20T14:54:16Z",
+    "authors" : [
+      {
+        "name" : "Sajani Vithana"
+      },
+      {
+        "name" : "Sangwon Jung"
+      },
+      {
+        "name" : "Haoyang Hu"
+      },
+      {
+        "name" : "Viveck R. Cadambe"
+      },
+      {
+        "name" : "Flavio P. Calmon"
+      },
+      {
+        "name" : "Haewon Jeong"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.17958v1",
+    "title" : "Privacy-preserving causal mediation analysis using distributed electronic health record networks",
+    "summary" : "Electronic health record (EHR) networks provide unprecedented opportunities to study treatment mechanisms at scale, but mediation analyses across institutions are often hindered by privacy and governance constraints that restrict sharing of patient-level data. We developed a privacy-preserving federated mediation framework that enables estimation of natural direct and indirect effects without exchanging individual-level records across participating sites. The proposed approach integrates renewable learning with counterfactual causal mediation analysis, allowing institutions to collaboratively investigate treatment mechanisms using only low-dimensional summary statistics. Both simulation studies and the real-world application demonstrated that the federated estimator closely reproduced pooled-data results while preserving patient privacy. We applied the method to 32,146 patients in the Indiana Network for Patient Care to evaluate the extent to which body mass index (BMI) mediates the effect of GLP-1 receptor agonist on glycated hemoglobin (HbA1c) reduction. The BMI-mediated pathway accounted for only a small proportion of the overall treatment effect, suggesting that most glycemic improvement occurred through mechanisms other than weight loss.",
+    "updated" : "2026-07-20T13:59:23Z",
+    "published" : "2026-07-20T13:59:23Z",
+    "authors" : [
+      {
+        "name" : "Hyojung Jang"
+      },
+      {
+        "name" : "Rotana Radwan"
+      },
+      {
+        "name" : "Malcolm Risk"
+      },
+      {
+        "name" : "Yao Lee"
+      },
+      {
+        "name" : "Jiang Bian"
+      },
+      {
+        "name" : "Xu Shi"
+      },
+      {
+        "name" : "Serena Guo"
+      },
+      {
+        "name" : "Lili Zhao"
+      }
+    ],
+    "categories" : [
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.17504v1",
+    "title" : "DecoyFace: Beyond Obfuscation via Controllable and Imperceptible Identity Misdirection for Privacy-Preserving Face Recognition",
+    "summary" : "Split face recognition reduces client-side computation but exposes intermediate features to feature inversion attacks and unauthorized analysis by honest-but-curious (HBC) servers. Existing privacy-preserving face recognition methods mainly aim to resist unauthorized reconstruction, typically producing features whose inversion yields visibly degraded results, which may reveal the existence of protection and motivate adaptive attacks. To address this issue, we propose DecoyFace, an imperceptible decoy-oriented framework that steers unauthorized reconstruction toward a plausible but incorrect identity while preserving recognition utility. The key idea is to decompose the intermediate representation into a reconstruction-sensitive subspace and its complementary subspace. The client injects decoy identity cues into the reconstruction-sensitive subspace, while limited recognition-relevant evidence from the true sample is retained in the complementary subspace. On the server side, an authorized canonicalization module suppresses decoy-dominant components and recovers a recognition-friendly representation. This design addresses both attacker-side inversion from intercepted features and HBC server-side reconstruction from canonicalized representations. Experiments show that DecoyFace preserves competitive recognition accuracy while substantially reducing identity leakage to 2.93% under U-Net attacks and 0.74% under Flow-Matching attacks while yielding visually plausible and imperceptible reconstructions, with over 99.78% face validity on LFW dataset.",
+    "updated" : "2026-07-20T03:19:00Z",
+    "published" : "2026-07-20T03:19:00Z",
+    "authors" : [
+      {
+        "name" : "Zhihan Ren"
+      },
+      {
+        "name" : "Lijun He"
+      },
+      {
+        "name" : "Xinyao Wang"
+      },
+      {
+        "name" : "Xinzhu Fu"
+      },
+      {
+        "name" : "Fan Li"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.17218v1",
+    "title" : "SpexPay: A Privacy-Preserving Pay-As-You-Go System for Dynamic Spectrum Sharing",
+    "summary" : "Dynamic Spectrum Sharing (DSS) is a cornerstone of next-generation wireless systems, yet existing solutions such as Spectrum Access Systems (SAS) rely on centralized administrators that expose sensitive operational metadata and lack cryptographic transaction accountability. Though SAS administrators, such as Google, have introduced pay-as-you-go pricing models, these approaches still face significant privacy and accountability challenges as DSS evolves toward a more open and large-scale spectrum marketplace. We present SpexPay, a privacy-preserving and auditable pay-as-you-go spectrum usage framework that enforces fine-grained, usage-linked payments without revealing user identities. Spexpay integrates BBS+ verifiable credentials, unlinkable session pseudonyms, and selective-disclosure proofs to enforce privacy-preserving access authorization, while leveraging Solidity-based smart contracts to realize automated and non-repudiable escrow settlement. By recording only pseudonymous usage evidence and hash-chained metering data on-chain, the system achieves strong unlinkability while preserving verifiable accountability and auditability. A full prototype demonstrates low end-to-end latency ($\\approx$150 ms) and modest on-chain cost ($\\approx$603K gas or $\\approx$\\$0.9), showing that SpexPay is practical for real-world DSS deployments. We also evaluated the user-side cryptographic operations on a Raspberry Pi 5 to assess scalability and suitability for edge-class hardware. Our code and artifacts are publicly available at https://github.com/iambarat/SpexPay.",
+    "updated" : "2026-07-19T12:20:51Z",
+    "published" : "2026-07-19T12:20:51Z",
+    "authors" : [
+      {
+        "name" : "Mohaimin Al Barat"
+      },
+      {
+        "name" : "Hexuan Yu"
+      },
+      {
+        "name" : "Shaoyu Li"
+      },
+      {
+        "name" : "Yang Xiao"
+      },
+      {
+        "name" : "Yi Shi"
+      },
+      {
+        "name" : "Eric W. Burger"
+      },
+      {
+        "name" : "Y. Thomas Hou"
+      },
+      {
+        "name" : "Wenjing Lou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.17098v1",
+    "title" : "Multi-Level Privacy-Preserving Dementia Detection from Speech via Targeted Adversarial Obfuscation and Representation Learning",
+    "summary" : "Speech recordings used for dementia detection inherently expose speaker identity, raising critical privacy concerns. Existing methods typically address only singular threats and fail to resolve the privacy--utility trade-off. We propose a multi-level framework designed to neutralize two distinct eavesdropping vectors. At the signal level, a Cumulative Signal Attack (CSA) concentrates perturbations in keyword-aligned regions to maximize transcription error (Word Error Rate WER = 1.00) while preserving vital prosodic biomarkers. At the feature level, a Gradient Reversal Layer (GRL) with Mutual Information (MI)-guided noise injection suppresses speaker-discriminative dimensions while retaining dementia-relevant diagnostic structure. Evaluated on the DementiaBank Pitt Corpus, our framework achieves near-chance speaker identification (Equal Error Rate EER = 0.59, F1 = 0.003) while maintaining strong dementia classification performance (F1 = 0.78, AUC = 0.86).",
+    "updated" : "2026-07-19T06:48:54Z",
+    "published" : "2026-07-19T06:48:54Z",
+    "authors" : [
+      {
+        "name" : "Henriette Flore Kenne"
+      },
+      {
+        "name" : "Raphael Anaadumba"
+      },
+      {
+        "name" : "Mohammad Arif Ul Alam"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.17075v1",
+    "title" : "A Systematic Evaluation of Traditional Privacy Policy Analysis Tools Against LLMs",
+    "summary" : "The advent of LLMs has significantly changed the research on privacy policy and data compliance analysis by enabling tasks that previously required specialized, domain-specific tools. However, it remains unclear to what extent LLMs can truly replicate the diverse functionalities, and the wide range of methodologies and analysis offered by prior work. In this paper, we conduct the first systematic evaluation of whether off-the-shelf LLMs can replace specialized privacy analysis tools. We study six representative tools spanning three major functionalities: contradiction detection, regulatory compliance analysis, and privacy policy summarization and aggregation, and across three intermediate tasks: structured data extraction using tuples, Semantic Role Labeling (SRL) and manual privacy policy labeling. We compare the performance of two state-of-the-art LLMs (GPT-5.2 and Gemini-2.5 in various configurations) against the tools by directly prompting the models to perform corresponding functionalities and tasks on a custom dataset of 10 privacy policies, allowing us to assess whether off-the-shelf models can produce tool-specific functionalities without further engineering or domain-specific training, major limitations in prior work. Our results show that LLMs consistently match or exceed the capabilities of existing tools across the functionalities. In manual labeling of first-party collection entities, LLMs achieved an average precision of 81.8% and recall of 70.9%, while for labeling of third-party sharing entities, they achieved an average precision of 91.4% and recall of 70.8% compared to the OPP-115 dataset. Overall, our findings indicate that LLMs can effectively perform a broad range of functionalities and tasks in privacy policy and regulation analysis that previously required specialized tools.",
+    "updated" : "2026-07-19T04:50:05Z",
+    "published" : "2026-07-19T04:50:05Z",
+    "authors" : [
+      {
+        "name" : "Madhav Aryal"
+      },
+      {
+        "name" : "Sudipa Saha"
+      },
+      {
+        "name" : "Kaushal Kafle"
+      },
+      {
+        "name" : "Anshuman Chhabra"
+      },
+      {
+        "name" : "Sunil Manandhar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.16710v1",
+    "title" : "Towards Inference-Aware Privacy Guidance for Data Preparation",
+    "summary" : "Data preparation often begins with sensitive data and produces a releasable artifact for analysis, sharing, or model training. Existing workflows are primarily guided by utility: a curator drops attributes, coarsens values, filters populations, and suppresses tuples until the resulting dataset appears useful and safe. Privacy, when considered, is usually evaluated only on the final release.\n  We propose privacy-aware data preparation as an interactive guidance problem. We model a preparation plan as a sequence of deterministic curation operators and ask how each step changes the evidence available to an observer with prior knowledge about a target. Our semantics is based on compatibility sets, which capture the source tuples still plausible for the target after a released representation is observed. This view separates operators that remove evidence from those that remove ambiguity, explains why privacy effects can be non-monotone, and supports prefix-level feedback under a disclosure budget. The result is an inference-aware foundation for guiding curators throughout data preparation, rather than judging privacy only after the final artifact is produced. We conclude by identifying the key challenges in building interactive, inference-aware data preparation systems.",
+    "updated" : "2026-07-18T08:55:13Z",
+    "published" : "2026-07-18T08:55:13Z",
+    "authors" : [
+      {
+        "name" : "Vishal Chakraborty"
+      },
+      {
+        "name" : "Felix Naumann"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.16620v1",
+    "title" : "Privacy Cost as Equity Input: A Group Fairness Criterion for Differentially Private Machine Learning",
+    "summary" : "Differential privacy (DP) is increasingly deployed to limit membership inference risk in machine-learning systems. Prior work has shown that DP-SGD can widen accuracy disparities across demographic groups, but this framing treats fairness as a purely outcome-side concern. We argue that privacy cost, the information leakage borne by each group, is itself a form of harm, and adopt a compensatory-fairness framework in which a group that involuntarily bears greater privacy exposure is owed proportionally greater benefit from the system. From this principle we derive the \\emph{Privacy-Cost Equity Ratio} (PCER), a group fairness metric defined as a group's positive prediction rate normalized by its per-group overfitting gap. By a standard membership inference bound, this overfitting gap upper-bounds each group's vulnerability to inference attacks, making PCER a conservative measure of benefit relative to exposure. PCER needs only per-group train and test accuracy (no shadow models), making it a practical post-hoc audit tool. We evaluate PCER alongside standard fairness metrics across six benchmark--attribute combinations spanning tabular and NLP domains, under DP-SGD at a range of privacy budgets, and validate the overfitting-gap proxy against a direct threshold membership-inference attack. The results reveal patterns that outcome-based metrics miss. On COMPAS, PCER uncovers a persistent double disadvantage: the protected group bears both greater privacy exposure and worse predictive outcomes, something demographic parity gap masks entirely. Sensitivity analysis shows very strong privacy guarantees collapse both groups' overfitting to a numerical floor, rendering exposure-based audits uninformative in that regime. Together, these findings show that fairness audits of privacy-preserving systems must account for who bears the cost of protection, not only who benefits from its outcomes.",
+    "updated" : "2026-07-18T03:41:01Z",
+    "published" : "2026-07-18T03:41:01Z",
+    "authors" : [
+      {
+        "name" : "Rakshit Naidu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.16351v1",
+    "title" : "Privacy-Aware Synthetic Video Benchmarking and Relational Evaluation for Worker-Under-Suspended-Load Detection",
+    "summary" : "Publicly shareable construction-video benchmarks remain scarce, especially for safety-critical hazards that are rare, dangerous to stage, and difficult to release. We study worker under suspended load, a relational hazard that depends on worker-load geometry and temporal persistence rather than object detection alone. We introduce SynthSite, a focused synthetic video benchmark of 55 clips spanning varied load configurations, viewpoints, clutter, occlusions, and surveillance conditions, together with a privacy-aware hybrid generation workflow that supports both publicly shareable benchmark creation and privacy-constrained synthetic video generation.\n  We then ask whether worker appearance can be suppressed without undermining downstream hazard recognition. Under five whole-body privacy conditions, we evaluate worker and load retention, localization stability, and clip-level hazard recognition. We find that structure-preserving obfuscations retain substantially more downstream utility than appearance-smoothing baselines, and that preserving a raw visual reference alone does not guarantee the strongest agreement with human hazard labels. These findings suggest that privacy evaluation for construction safety analytics should assess not only appearance suppression, but also preservation of the geometric cues required for hazard reasoning. Our dataset and code are available at https://huggingface.co/datasets/govtech/SynthSite .",
+    "updated" : "2026-07-17T06:20:20Z",
+    "published" : "2026-07-17T06:20:20Z",
+    "authors" : [
+      {
+        "name" : "Anshu Singh"
+      },
+      {
+        "name" : "Alejandro Seif"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.16300v1",
+    "title" : "FedDP-PALD: A Privacy-Preserving Federated Latent Diffusion Framework with Prototype Aggregation for Medical Data Synthesis",
+    "summary" : "Medical images and physiological signals provide valuable information for accurate diagnosis. Developing diagnostic models often requires patient data from multiple institutions, although strict privacy regulations limit the sharing of sensitive clinical records. Federated learning enables multiple hospitals to train a shared model without exchanging raw data. However, existing methods face two problems: the information exchanged during training can reveal whether a patient's data were used, and synthetic data meant to replace real records often fail to preserve their predictive structure, which limits clinical use. To address this issue, we propose FedDP-PALD, a privacy-preserving federated latent diffusion framework for multimodal medical data synthesis under formal privacy guarantees. It jointly processes chest X-ray images and electrocardiogram (ECG) signals through gated multi-head attention with modality-availability masks, remaining effective even when a modality is missing. We also introduce Differentially Private Prototype Mixture Aggregation (DP-PMA), which clips class-level latent prototypes and adds calibrated Gaussian noise before combining them on the server to maintain $(ε, δ)$ differential privacy. We evaluate FedDP-PALD on PneumoniaMNIST, ChestMNIST, and MIT-BIH datasets, where differential privacy reduced summary-level attack AUROC from 0.6229 $\\pm$ 0.0026 to between 0.5016 and 0.5093 for privacy budgets from $ε= 1$ to $ε= 8$. On the test data, synthetic-latent training achieved an F1 score of 0.8993 $\\pm$ 0.0006 and an AUROC of 0.9057 $\\pm$ 0.0503, close to the 0.9747 $\\pm$ 0.0132 real-latent training. These results show that FedDP-PALD generates private synthetic representations that preserve useful decision performance while strongly resisting membership inference.",
+    "updated" : "2026-07-13T21:04:37Z",
+    "published" : "2026-07-13T21:04:37Z",
+    "authors" : [
+      {
+        "name" : "Md. Sajeebul Islam Sk."
+      },
+      {
+        "name" : "Khan Enaet Hossain"
+      },
+      {
+        "name" : "Md. Mehedi Hasan Shawon"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
