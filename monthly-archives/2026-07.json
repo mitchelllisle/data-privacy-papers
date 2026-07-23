@@ -2231,5 +2231,221 @@
       "cs.CR",
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.19580v1",
+    "title" : "End-to-End Differential Privacy in Training Deep Neural Network Classifiers",
+    "summary" : "Differentially private machine learning enables model training on sensitive data while ensuring that individual data is unlikely to be recoverable from the parameters of the resulting model. However, existing work often privatizes both training inputs and their labels, and these protections may be conservative when labels are public or can be safely made public. Therefore, in this work we propose a novel private training framework that instead privatizes training inputs while keeping labels public. We consider neural networks with softmax output layers, and thus the mapping from training inputs to the output of the softmax layer is a mapping onto the unit simplex. We randomize softmax outputs during training by applying the Dirichlet mechanism to enforce differential privacy for the training inputs, hence the ``end-to-end'' label. Because training data is reused across multiple training epochs, we use the notion of \\Renyi differential privacy to formulate tight bounds on the strength of privacy provided by the Dirichlet mechanism across repeated uses. We show empirically that we attain new state-of-the-art accuracy when training from scratch on CIFAR10, MNIST, MedMNIST, FashionMNIST, and SVHN across all privacy budgets evaluated. Notably, when implementing $(ε, δ)$-differential privacy with $δ=10^{-5}$, we improve the prior state-of-the-art accuracy from $78.37\\%$ to $88.17\\%$ at $ε=4$ on CIFAR10, and our approach has $82.96\\%$ accuracy even for $ε=1$, which significantly outperforms prior work.",
+    "updated" : "2026-07-21T21:15:55Z",
+    "published" : "2026-07-21T21:15:55Z",
+    "authors" : [
+      {
+        "name" : "Huaiyuan Rao"
+      },
+      {
+        "name" : "Calvin Hawkins"
+      },
+      {
+        "name" : "Alexander Benvenuti"
+      },
+      {
+        "name" : "Matthew Hale"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.19532v1",
+    "title" : "Trustworthy Privacy-Preserving Multimodal Federated Learning for Personalised Breast Cancer Prediction",
+    "summary" : "Federated learning has emerged as a potential solution to privacy concerns associated with using sensitive health data for training predictive models, particularly in personalised cancer care. This research investigates whether federated learning can support the development of robust models for predicting tumour progression in breast cancer patients while addressing four critical deployment pillars: transparency, scalability, security, and fairness. This study evaluates a federated learning framework using multimodal data, including clinical information, tumour characteristics, biomarker data, and patient demographics, alongside medical imaging data such as MRI scans, to model changes in tumour characteristics over time. The performance of the federated approach was compared with that of a centralised model trained on aggregated data. The report then further examines strategies to enhance secure model updates, maintain performance across patient subgroups, and support scalability across institutions. The findings assess whether federated learning can achieve predictive performance comparable to centralised learning while preserving data locality. These results contribute to understanding the feasibility of privacy-preserving, multimodal predictive modelling and support future applications such as digital twins to assist clinicians and patients in personalised treatment planning.",
+    "updated" : "2026-07-21T19:26:36Z",
+    "published" : "2026-07-21T19:26:36Z",
+    "authors" : [
+      {
+        "name" : "Ruth Amey"
+      },
+      {
+        "name" : "Muhammad Arifur Rahman"
+      },
+      {
+        "name" : "Taha Osman"
+      },
+      {
+        "name" : "Nicholas Shopland"
+      },
+      {
+        "name" : "Andy Burton"
+      },
+      {
+        "name" : "Mufti Mahmud"
+      },
+      {
+        "name" : "David J. Brown"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.17075v2",
+    "title" : "A Systematic Evaluation of Traditional Privacy Policy Analysis Tools Against LLMs",
+    "summary" : "The advent of LLMs has significantly changed the research on privacy policy and data compliance analysis by enabling tasks that previously required specialized, domain-specific tools. However, it remains unclear to what extent LLMs can truly replicate the diverse functionalities, and the wide range of methodologies and analysis offered by prior work. In this paper, we conduct the first systematic evaluation of whether off-the-shelf LLMs can replace specialized privacy analysis tools. We study six representative tools spanning three major functionalities: contradiction detection, regulatory compliance analysis, and privacy policy summarization and aggregation, and across three intermediate tasks: structured data extraction using tuples, Semantic Role Labeling (SRL) and manual privacy policy labeling. We compare the performance of two state-of-the-art LLMs (GPT-5.2 and Gemini-2.5 in various configurations) against the tools by directly prompting the models to perform corresponding functionalities and tasks on a custom dataset of 10 privacy policies, allowing us to assess whether off-the-shelf models can produce tool-specific functionalities without further engineering or domain-specific training, major limitations in prior work. Our results show that LLMs consistently match or exceed the capabilities of existing tools across the functionalities. In manual labeling of first-party collection entities, LLMs achieved an average precision of 81.8% and recall of 70.9%, while for labeling of third-party sharing entities, they achieved an average precision of 91.4% and recall of 70.8% compared to the OPP-115 dataset. Overall, our findings indicate that LLMs can effectively perform a broad range of functionalities and tasks in privacy policy and regulation analysis that previously required specialized tools.",
+    "updated" : "2026-07-22T06:58:03Z",
+    "published" : "2026-07-19T04:50:05Z",
+    "authors" : [
+      {
+        "name" : "Madhav Aryal"
+      },
+      {
+        "name" : "Sudipa Saha"
+      },
+      {
+        "name" : "Sunil Manandhar"
+      },
+      {
+        "name" : "Anshuman Chhabra"
+      },
+      {
+        "name" : "Kaushal Kafle"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.13093v3",
+    "title" : "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
+    "summary" : "On-device LLM inference faces a trilemma of response latency, limited hardware resources and user privacy. Full cloud inference delivers strong computing power but exposes user prompts and dialogue data, while standalone on-device inference is unfeasible for most consumer and embedded edge devices. This paper presents a privacy-centric edge-cloud collaborative LLM inference framework built on endpoint-authenticated KV cache. Local endpoints handle input preprocessing, embedding computation, adaptive feature optimization, KV cache authentication, speculative decoding and low-dimensional model head calculation, while the cloud conducts authenticated decoder inference, KV cache management, token verification and high-dimensional vocabulary projection. Endpoints fuse partial outputs, apply language-adaptive masking and sample target tokens. All transmitted data and truncated logits are quantized and AES-GCM encrypted for privacy, with core lightweight modules, draft parameters and cache access policies kept local to avoid leakage. The framework supports heterogeneous devices including CPU-only, GPU-equipped and embedded devices via optimized streaming, batching and quantized ONNX deployment. Evaluations demonstrate that the framework reduces per-token latency by up to 46.1\\% and downlink payloads by up to 67.4\\% over baseline split inference, retaining comparable performance to full cloud inference.",
+    "updated" : "2026-07-22T10:36:12Z",
+    "published" : "2026-07-14T01:17:17Z",
+    "authors" : [
+      {
+        "name" : "Chen Li"
+      },
+      {
+        "name" : "Jiexiong Liu"
+      },
+      {
+        "name" : "Yixuan Chen"
+      },
+      {
+        "name" : "Yi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.19403v1",
+    "title" : "Recovering Clinical Utility Under Differential Privacy: Empirical Validation of Adaptive Federated Aggregation on Heterogeneous Cardiovascular Datasets",
+    "summary" : "Validating federated learning frameworks on real clinical data is an essential step between proof-of-concept demonstrations in controlled synthetic environments and deployment in real multicenter healthcare settings. A prior architectural study by the same authors (Tertulino and Alencar, 2026) demonstrated, on a synthetic six-feature benchmark, that server-side adaptive optimization acts as a temporal denoiser for Differential Privacy noise, answering an open challenge identified in the original pipeline work (Tertulino, 2025). That study used synthetically generated data and explicitly identified real-world validation as a priority future direction. The present work addresses this gap by validating the FedCVR framework on five publicly available real cardiovascular datasets (Framingham, Cleveland, Hungarian, Switzerland, and Long Beach VA), harmonized to the 13-attribute UCI Heart Disease schema and configured as a heterogeneous federated scenario with leave-one-institution-out cross-validation. Results demonstrate that FedCVR preserves its adaptive advantage on real data, achieving an F1-Score of 79.2% and AUC of 0.96 under the operational privacy budget (noise multiplier = 0.8, privacy budget epsilon approximately 4.2), while statistically outperforming standard FedAvg on all evaluated metrics (paired t-tests, all p <= 0.003, significant under the Bonferroni-corrected threshold). The measured privacy cost on real data confirms the graceful degradation pattern observed in the synthetic experiments, providing empirical evidence of the framework's clinical viability in genuine multicenter contexts.",
+    "updated" : "2026-07-07T18:51:13Z",
+    "published" : "2026-07-07T18:51:13Z",
+    "authors" : [
+      {
+        "name" : "Rodrigo Tertulino"
+      },
+      {
+        "name" : "Laercio Alencar"
+      },
+      {
+        "name" : "Ricardo Almeida"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05802v3",
+    "title" : "Failure Privacy and Safe Collective Expression with Social Assurance Contracts",
+    "summary" : "Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking one-by-one may encourage others, but retaliation against early participants can stop the cascade before a protective group forms. A social assurance contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.",
+    "updated" : "2026-07-22T16:21:44Z",
+    "published" : "2026-07-07T03:55:31Z",
+    "authors" : [
+      {
+        "name" : "Matthew Cashman"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "econ.TH"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.19400v1",
+    "title" : "Predictive single cell foundation model for gene regulation and aging with privacy-preserving tabular learning",
+    "summary" : "Pre-trained foundation models (FMs) have begun transforming single-cell genomics, but scaling them raises privacy concerns. Moreover, unlike text data, single-cell data is unordered and exhibits a unique tabular structure that current single-cell FMs overlook. We introduce Tabula, a privacy-preserving FM designed with federated learning (FL) that explicitly models the tabular structure of single-cell data. To deploy Tabula, we further developed Chiron, a decentralized AI agent-enabled platform for collaborative training across institutions without sharing raw data. Beyond strong performance across downstream benchmarks, Tabula reveals combinatorial regulatory logic across diverse biological systems, including hematopoiesis, pancreatic endogenesis, neurogenesis, and cardiogenesis. Using a new scRNA-seq dataset of paired young and aged human fibroblasts, Tabula nominates rejuvenation factors through age- and identity score-guided in silico prioritization, outperforming conventional approaches. Thus, Tabula represents an important advance in single-cell foundation modeling by integrating tabular learning with FL, paving the way toward privacy-preserving virtual cells for human health.",
+    "updated" : "2026-07-06T06:17:59Z",
+    "published" : "2026-07-06T06:17:59Z",
+    "authors" : [
+      {
+        "name" : "Jiayuan Ding"
+      },
+      {
+        "name" : "Jianhui Lin"
+      },
+      {
+        "name" : "Ziyang Miao"
+      },
+      {
+        "name" : "Nils Mechtel"
+      },
+      {
+        "name" : "Shiyu Jiang"
+      },
+      {
+        "name" : "Yixin Wang"
+      },
+      {
+        "name" : "Zhaoyu Fang"
+      },
+      {
+        "name" : "Jorge D. Martin-Rufino"
+      },
+      {
+        "name" : "Chen Weng"
+      },
+      {
+        "name" : "Reuben Saunders"
+      },
+      {
+        "name" : "Weize Xu"
+      },
+      {
+        "name" : "Jonathan S. Weissman"
+      },
+      {
+        "name" : "Min Li"
+      },
+      {
+        "name" : "Jiliang Tang"
+      },
+      {
+        "name" : "Wei Ouyang"
+      },
+      {
+        "name" : "Yuancheng Ryan Lu"
+      },
+      {
+        "name" : "Xiaojie Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "q-bio.GN"
+    ]
   }
 ]
