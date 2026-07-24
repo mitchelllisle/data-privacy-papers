@@ -2447,5 +2447,140 @@
       "cs.LG",
       "q-bio.GN"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.21417v1",
+    "title" : "Towards Privacy-Preserving Federated Prompt Tuning under Data Heterogeneity: A Subspace-Decomposed Expert Approach",
+    "summary" : "Federated prompt tuning (FPT) enables collaborative adaptation of vision--language models (VLMs) using lightweight prompts. Existing methods often address heterogeneity and privacy through a split-prompt design under local differential privacy (DP), combining a shared prompt for global transfer with private prompts for local adaptation. However, a single shared prompt may over-smooth diverse transferable knowledge, weakening the balance between personalization and generalization. Multi-expert prompts (MEPs) can better capture this diversity, but enlarge the communicated space, increasing DP noise and communication cost while making robust expert composition more difficult. We propose FedSEPT, a privacy-preserving Fed}erated Subspace-decomposed Expert Prompt Tuning. Specifically, we employ Subspace-decomposed Expert Modeling (SEM) to parameterize multiple prompt experts with shared low-rank factors, a fixed public basis, and private residuals, thereby confining communication and DP perturbation to a compact factor space while enabling direct server aggregation in a common coordinate system. We further design Instance-aware Expert Fusion (IEF), which adaptively combines semantically complementary experts via on-device routing and performs efficient logit-level fusion using cached expert-specific text features. Extensive experiments on 11 heterogeneous benchmarks show that, under the same privacy constraints, FedSEPT achieves a better trade-off between local adaptation and global generalization than strong baselines.",
+    "updated" : "2026-07-23T15:22:48Z",
+    "published" : "2026-07-23T15:22:48Z",
+    "authors" : [
+      {
+        "name" : "Yuhua Wang"
+      },
+      {
+        "name" : "Xiaodong Li"
+      },
+      {
+        "name" : "Yihao Guo"
+      },
+      {
+        "name" : "Yuxiang Jia"
+      },
+      {
+        "name" : "Qinnan Zhang"
+      },
+      {
+        "name" : "Yifan Sun"
+      },
+      {
+        "name" : "Hainan Zhang"
+      },
+      {
+        "name" : "Yongxin Tong"
+      },
+      {
+        "name" : "Zhiming Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.21393v1",
+    "title" : "From Read Speech to Spoken Digits: A Task-Specific Evaluation of Speech Privacy With Informed Attackers",
+    "summary" : "Protecting speech privacy in real-life audio recordings is a growing concern. This contribution evaluates the effectiveness of three obfuscation techniques in protecting linguistic speech content, using digit recognition as a task-specific and practically motivated evaluation scenario. As a first baseline, a general-purpose speech recognition model and a digit-specific classifier were applied as informed attackers to recognise both single digits and concatenated digit sequences. Our experimental results demonstrate significant differences in recognition performance across digit modality, speech rate, and attack model. These findings emphasize the need for more comprehensive and application-oriented evaluation methods to ensure speech privacy.",
+    "updated" : "2026-07-23T14:55:24Z",
+    "published" : "2026-07-23T14:55:24Z",
+    "authors" : [
+      {
+        "name" : "Jule Pohlhausen"
+      },
+      {
+        "name" : "Anjana Rajasekhar"
+      },
+      {
+        "name" : "Anna Leschanowsky"
+      },
+      {
+        "name" : "Joerg Bitzer"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.20727v1",
+    "title" : "Edit-Neighboring Data Streams and Privacy under Continual Observation",
+    "summary" : "Differential privacy under Continual Observation (CO) quantifies the loss in privacy that occurs when outputs generated using a stream of sensitive input data are published in the online setting. In this paper, we consider a more stringent notion of privacy compared to prior work wherein an individual's participation may shift the entire stream by a time-step. We define a new notion of edit-neighboring streams that captures this scenario.\n  Our findings are as follows. First, we prove that on a stream of length $T$, every additive-noise mechanism incurs error $\\tildeΩ(\\min\\{T^{1/3}/\\varepsilon^{2/3}, T\\})$ when required to be $\\varepsilon$-DP under CO for edit-neighboring streams. This includes state-of-the-art continual counters constructed via the factorization mechanism that in the standard neighboring setting incur only polylogarithmic additive error. Second, we construct the first mechanisms with polylogarithmic additive error for our more stringent notion of privacy. We show that we can recover the same additive error as in the standard notion of privacy albeit with worse constant coefficients for both arbitrary input streams and sparse streams. Third, we show that the notion of edit-neighboring streams inhabits a `sweet-spot' in terms of generality and additive error incurred. More precisely, we show that the even more general notion of prefix-sum neighboring streams---which arises naturally in reductions for problems under CO---must incur additive error scaling as $\\tildeΩ(\\min\\{T^{1/3}/\\varepsilon^{2/3}, T\\})$ for any mechanism that is $\\varepsilon$-DP under continual observation. Finally, we show empirically on synthetic data that when compared with prior work, our mechanism achieves a superior trade-off between the success probability of a simple distinguishing attack, and the additive error incurred by the respective mechanisms.",
+    "updated" : "2026-07-22T20:54:44Z",
+    "published" : "2026-07-22T20:54:44Z",
+    "authors" : [
+      {
+        "name" : "Joel Daniel Andersson"
+      },
+      {
+        "name" : "Anamay Chaturvedi"
+      },
+      {
+        "name" : "Monika Henzinger"
+      },
+      {
+        "name" : "Roodabeh Safavi"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.20692v1",
+    "title" : "DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation",
+    "summary" : "We present a privacy-preserving framework for synthetic lung CT slice generation developed for the Image-CLEFmed GANs 2026 challenge. The approach combines Optimal Transport Conditional Flow Matching with privacy-oriented training and a post-generation \"Supervisor\" pipeline that filters generated candidates in learned geometric latent spaces using autoencoder embeddings, Determinantal Point Processes, and Stein Kernel Thinning. Official results show a strong realism-privacy trade-off, with the best-performing model achieving a Privacy Preservation Score of 0.549 and competitive visual fidelity with an FID of 0.3290. While the proposed geometric filtering substantially reduces nearest-neighbor memorization and membership-inference leakage, persistent patient re-identification scores indicate that preventing direct image copying is not sufficient to remove deeper patient-specific anatomical identity, highlighting an important frontier for future privacy-preserving medical image generation.",
+    "updated" : "2026-07-22T19:46:21Z",
+    "published" : "2026-07-22T19:46:21Z",
+    "authors" : [
+      {
+        "name" : "Eric Regina"
+      },
+      {
+        "name" : "Richard Arnaud"
+      },
+      {
+        "name" : "Samir Hadi Cisneros"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.13093v4",
+    "title" : "Efficient and Privacy Aware Edge Cloud Collaborative Inference for Large Language Models",
+    "summary" : "On-device LLM inference faces a trilemma of response latency, limited hardware resources and user privacy. Full cloud inference delivers strong computing power but exposes user prompts and dialogue data, while standalone on-device inference is unfeasible for most consumer and embedded edge devices. This paper presents a privacy-centric edge-cloud collaborative LLM inference framework built on endpoint-authenticated KV cache. Local endpoints handle input preprocessing, embedding computation, adaptive feature optimization, KV cache authentication, speculative decoding and low-dimensional model head calculation, while the cloud conducts authenticated decoder inference, KV cache management, token verification and high-dimensional vocabulary projection. Endpoints fuse partial outputs, apply language-adaptive masking and sample target tokens. All transmitted data and truncated logits are quantized and AES-GCM encrypted for privacy, with core lightweight modules, draft parameters and cache access policies kept local to avoid leakage. The framework supports heterogeneous devices including CPU-only, GPU-equipped and embedded devices via optimized streaming, batching and quantized ONNX deployment. Evaluations demonstrate that the framework reduces per-token latency by up to 46.1\\% and downlink payloads by up to 67.4\\% over baseline split inference, retaining comparable performance to full cloud inference.",
+    "updated" : "2026-07-23T00:46:53Z",
+    "published" : "2026-07-14T01:17:17Z",
+    "authors" : [
+      {
+        "name" : "Cheng Li"
+      },
+      {
+        "name" : "Jiexiong Liu"
+      },
+      {
+        "name" : "Yixuan Chen"
+      },
+      {
+        "name" : "Yi Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
