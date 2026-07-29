@@ -2794,5 +2794,201 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.25968v1",
+    "title" : "E-MagDiP: Electro-Magnetic based Differential Privacy for EEG based Community Sensing",
+    "summary" : "EEG-based community sensing programs are emerging globally as a tool to leverage aggregated brain data to gain insights into attentiveness of students and employees. But these programs raise privacy concerns because EEG signals contain sensitive personal information. Differential Privacy (DP) can protect individuals while preserving aggregate statistics yet applying DP to EEG data is challenging as it requires user-level noise generation, which increases power and latency. Besides, most commercial EEG headsets cannot be modified to add such noise. We propose E-MagDiP, a framework that uses an external radio to transmit RF signals onto EEG headsets, perturbing signals at acquisition to induce DP noise. To the best of our knowledge, E-MagDiP is the first framework to use RF signals for privacy instead of attacks, enabling practical DP for EEG community sensing without any user-level modification.",
+    "updated" : "2026-07-28T16:50:36Z",
+    "published" : "2026-07-28T16:50:36Z",
+    "authors" : [
+      {
+        "name" : "Ayanga Imesha Kumari Kalupahana"
+      },
+      {
+        "name" : "Vishruti Ranjan"
+      },
+      {
+        "name" : "Li-Shiuan Peh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.25564v1",
+    "title" : "To What Extent Can Inherent Communication Noise Guarantee Privacy in Distributed Cooperative Control?",
+    "summary" : "This paper proposes a differentially private distributed cooperative control scheme for multi-agent systems (MAS). Unlike conventional approaches that actively inject artificial noise for privacy protection, this work investigates whether inherent communication noise can itself serve as a natural privacy mechanism. A physically motivated communication-noise model is developed for mobile MAS by incorporating transmitter perturbation, receiver noise, path-loss attenuation, and log-normal shadowing. The resulting effective noise variance depends on inter-agent state differences, thereby capturing the distance-dependent signal perturbation arising in practice. Based on this model, a distributed finite-horizon Linear Quadratic Regulator (LQR) mechanism is designed to achieve formation tracking while protecting agents' private control preferences. Rather than protecting the full local cost function, the proposed privacy formulation focuses on the ratio of the LQR weighting matrices, which captures the trade-off between tracking accuracy and control effort when the quadratic cost structure is publicly known. A set-theoretic sensitivity analysis shows that this weighting-ratio adjacency formulation yields less conservative privacy bounds than gradient-based protection under the considered addition/removal adjacency relation. Theoretical analysis demonstrates that, under suitable design conditions, the proposed mechanism provides bounded cumulative (ε,δ)-differential privacy guarantees for the weighting ratios over an infinite horizon without artificial noise injection. Meanwhile, the cooperative tracking error is shown to converge almost surely and in mean square to a finite random limit, with its expectation remaining bounded. Numerical examples validate the theoretical results and illustrate the resulting privacy-performance trade-off.",
+    "updated" : "2026-07-28T10:52:32Z",
+    "published" : "2026-07-28T10:52:32Z",
+    "authors" : [
+      {
+        "name" : "Yuwen Ma"
+      },
+      {
+        "name" : "Sarah Spurgeon"
+      },
+      {
+        "name" : "Tao Li"
+      },
+      {
+        "name" : "Boli Chen"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.25107v1",
+    "title" : "MOSAIC-FL, a micro-service based privacy-preserving framework with application to genomics",
+    "summary" : "Security and privacy are primordial requirements for Federated Learning (FL), especially in fields such as healthcare and genomics where sensitive information has to be analyzed. Our FL framework is designed to address these challenges while proposing a modular, flexible and micro-service architecture. More precisely, it integrates an efficient gRPC communication layer and a Finite State Machine to ensure robust component synchronization and threat detection, while relying on a fault-tolerant secure aggregation protocol using a Threshold variant of the CKKS homomorphic cryptosystem. This allows blind model aggregation by an orchestration server, requiring a minimum of $t$-out-of-$N$ active clients for decryption while minimizing communication overhead thanks to both cryptographic and network protocols. We ensure IND-CPA-D security through noise flooding and mitigate the recent key-recovery attack on synchronized decryptors by renewing the collective key material at every round. We demonstrate the framework's effectiveness through diverse use cases, ranging from standard image recognition (EMNIST) to complex genomic classification including breast cancer subtyping on TCGA, evaluating system performance across different threshold values and model scales.",
+    "updated" : "2026-07-27T22:09:46Z",
+    "published" : "2026-07-27T22:09:46Z",
+    "authors" : [
+      {
+        "name" : "Paul Largillier"
+      },
+      {
+        "name" : "Karl Paygambar"
+      },
+      {
+        "name" : "Cédric Gouy-Pailler"
+      },
+      {
+        "name" : "Vincent Meyer"
+      },
+      {
+        "name" : "Mallek Mziou"
+      },
+      {
+        "name" : "Oana Stan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.08659v2",
+    "title" : "EdgeRefine: Privacy-Utility Balance for Graphs via Jaccard Sampling under Edge Differential Privacy",
+    "summary" : "Graph Neural Networks (GNNs) have shown considerable success in learning from graph-structured data, but their use in privacy-sensitive areas remains difficult because graph structure can leak sensitive link information. To satisfy edge-level differential privacy, a common approach is to inject noise into all elements of the graph's adjacency matrix, thereby obfuscating the existence of any single edge. However, stronger privacy requires more noise, and excessive noise reduces utility, making the privacy-utility balance a major barrier to practical privacy-preserving graph learning.\n  To address this issue, we propose EdgeRefine, a local differential privacy framework that improves this trade-off through adaptive edge refinement. EdgeRefine first estimates edge-existence probabilities using Jaccard similarity and ranks edges for noisy edge removal. To ensure the sparsity and reliability of the final graph, it uses the privacy budget $ε$ to determine the ratio of true to false edges, samples them separately based on this probability ranking, and controls the total number of edges with a separate sampling rate $k$. Extensive experiments show that EdgeRefine achieves accuracy comparable to the noise-free baseline and substantially outperforms other privacy-preserving methods across datasets and GNN architectures. Under privacy budget $ε= 2.5$, EdgeRefine improves node classification accuracy over state-of-the-art baselines by 17.8\\% on ACM under GAT and 19.7\\% on Cora under GCN. In graph classification, it achieves an average accuracy degradation of around 5\\% compared to the noise-free baseline. Under graph reconstruction attacks, EdgeRefine maintains relative absolute error levels above 1 across all privacy budgets, averaging 1.962 on Cora and 1.472 on AMAP, indicating strong resilience against privacy leakage.",
+    "updated" : "2026-07-28T14:11:39Z",
+    "published" : "2026-07-09T16:28:05Z",
+    "authors" : [
+      {
+        "name" : "Wenxiu Ding"
+      },
+      {
+        "name" : "Muzhi Liu"
+      },
+      {
+        "name" : "Zheng Yan"
+      },
+      {
+        "name" : "Mingjun Wang"
+      },
+      {
+        "name" : "Yifan Zhao"
+      },
+      {
+        "name" : "Qiao Liu"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.06608v2",
+    "title" : "Security and Privacy in Agentic AI: Grand Challenges and Future Directions",
+    "summary" : "We present key challenges and future research directions in the security and privacy of agentic AI, based on a horizon-scanning exercise that brought together thirty leading international experts from academia, industry, and government to engage in focused discussions and collaborative exercises on the emerging risks associated with the growing agency of AI.",
+    "updated" : "2026-07-28T01:46:03Z",
+    "published" : "2026-07-07T05:45:29Z",
+    "authors" : [
+      {
+        "name" : "Adam Jenkins"
+      },
+      {
+        "name" : "Agnieszka Kitkowska"
+      },
+      {
+        "name" : "Caterina Maidhof"
+      },
+      {
+        "name" : "Diego Paracuellos"
+      },
+      {
+        "name" : "Francesco Sovrano"
+      },
+      {
+        "name" : "Gonzalo Gabriel Mendez"
+      },
+      {
+        "name" : "Guillermo Suarez-Tangil"
+      },
+      {
+        "name" : "Hana Kopecka"
+      },
+      {
+        "name" : "Isabel Wagner"
+      },
+      {
+        "name" : "Isabel Barbera"
+      },
+      {
+        "name" : "Javier Carnerero-Cano"
+      },
+      {
+        "name" : "Jide Edu"
+      },
+      {
+        "name" : "Jose Luis Martin-Navarro"
+      },
+      {
+        "name" : "Jose Such"
+      },
+      {
+        "name" : "Josep Domingo-Ferrer"
+      },
+      {
+        "name" : "Juan Carlos Carrillo"
+      },
+      {
+        "name" : "Kopo Marvin Ramokapane"
+      },
+      {
+        "name" : "Mark Cote"
+      },
+      {
+        "name" : "Pablo Vellosillo"
+      },
+      {
+        "name" : "Ramon Ruiz-Dolz"
+      },
+      {
+        "name" : "Rongjun Ma"
+      },
+      {
+        "name" : "Ruba Abu-Salma"
+      },
+      {
+        "name" : "Sameer Patil"
+      },
+      {
+        "name" : "William Seymour"
+      },
+      {
+        "name" : "Xiao Zhan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ]
   }
 ]
