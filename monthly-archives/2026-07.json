@@ -2990,5 +2990,139 @@
       "cs.AI",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.27015v1",
+    "title" : "Reliability Functions of Quantum Soft Covering and Privacy Amplification via a Mixed-Order Rényi Divergence",
+    "summary" : "In this paper, we introduce a novel mixed-order Rényi divergence and investigate its fundamental properties. Using this divergence, we define a family of mixed-order order-two Rényi mutual information and Rényi conditional entropy. We derive exact reliability functions of quantum soft covering and privacy amplification under the sandwiched Rényi divergence with order $α\\in[2,\\infty)$. The former is jointly characterized by the sandwiched and mixed-order order-two Rényi mutual information quantities, while the latter is characterized by the corresponding conditional entropies. These results provide operational interpretations of the proposed mixed-order Rényi divergence. To the best of our knowledge, this is the first exact characterization of the reliability function for quantum soft covering.",
+    "updated" : "2026-07-29T15:14:46Z",
+    "published" : "2026-07-29T15:14:46Z",
+    "authors" : [
+      {
+        "name" : "Shi-Bing Li"
+      },
+      {
+        "name" : "Hongsen Qiu"
+      },
+      {
+        "name" : "Xinyu Zhang"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT",
+      "math.FA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.26390v1",
+    "title" : "Impossible to hide secret ...: Uncovering Security and Privacy Issues in LLM-native IDEs",
+    "summary" : "LLM-native IDEs (Integrated Development Environments), aka LIDEs, are designed from the ground up to work with Large Language Models (LLMs). LIDEs have found remarkable success in Software Engineering (SE) tasks such as coding, debugging, and program comprehension. LIDEs are software systems, and, like any system, they can exhibit vulnerabilities. In this paper, we study the security and privacy issues that developers reported while using popular LIDEs in their development tasks. We collected 1.1M posts from 29 popular subreddits related to LIDEs. We identified 446 posts and analyzed over 6K comments to the posts that discussed security and privacy issues in almost all popular LIDEs, such as Cursor, Copilot, Codex, etc. Using a mix of qualitative and quantitative methods, we constructed a taxonomy of the reported security and privacy issues. Our results show that most issues in LIDEs stem from system-level design choices, rather than the underlying LLMs, such as user data access, unchecked autonomous actions, etc. To overcome these issues, developers frequently relied on external safeguards like code sandboxing and manual reviewing, highlighting prevalent mistrust among developers about LIDEs. We share lessons from our study to support future design of secure and privacy-aware LIDEs.",
+    "updated" : "2026-07-29T01:49:17Z",
+    "published" : "2026-07-29T01:49:17Z",
+    "authors" : [
+      {
+        "name" : "Mostafijur Rahman Akhond"
+      },
+      {
+        "name" : "Md Afif Al Mamun"
+      },
+      {
+        "name" : "Gias Uddin"
+      },
+      {
+        "name" : "Song Wang"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.26388v1",
+    "title" : "Sensitivity and Differential Privacy in Metric Voting with Distortion below Three",
+    "summary" : "Voting rules aggregate individual preferences into collective decisions, but the rankings they receive contain only ordinal information. The metric distortion framework studies ordinal voting rules in settings where voters and candidates are embedded in an unknown metric space. Deterministic rules have optimal worst-case distortion $3$, while recent randomized rules break the $3$ barrier. We study whether such improvements can coexist with low worst-case sensitivity with respect to the Wasserstein distance of lotteries under one-voter deletion and approximate differential privacy under one-voter replacement. On the sensitivity side, we give a randomized rule with distortion at most $3-\\varepsilon$ for an absolute constant $\\varepsilon>0$ and, for $m$ candidates and $n$ voters, a worst-case sensitivity bound of $O((\\log m+1)/n)$. On the privacy side, for every $δ\\in(0,1)$ and all $n$ above an absolute constant, we construct a variant rule whose mechanism releasing a single sampled winner has distortion at most $3-\\varepsilon$ and is $(O((\\log m+\\log(1/δ)+1)/n),δ)$-differentially private. Both constructions use the same family of Gibbs distributions over constant-size candidate lists, with only the temperature parameter differing between the sensitivity and differential-privacy guarantees. Our analysis builds on the biased-metric viewpoint behind the recent improvement over the $3$ barrier and proves a stability property for the biased-metric ratio.",
+    "updated" : "2026-07-29T01:46:09Z",
+    "published" : "2026-07-29T01:46:09Z",
+    "authors" : [
+      {
+        "name" : "Shinsaku Sakaue"
+      },
+      {
+        "name" : "Kaito Fujii"
+      },
+      {
+        "name" : "Soh Kumabe"
+      },
+      {
+        "name" : "Yuichi Yoshida"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.26283v1",
+    "title" : "HeteroPROPMT: A Real-time and Privacy-Preserving Heterogeneous Collaborative Perception Framework",
+    "summary" : "Collaborative Perception (CP) improves autonomous systems' awareness of their surroundings by sharing sensor data, intermediate features, and detection results. In real-world deployments, however, collaborating vehicles often use heterogeneous sensors, perception models, datasets, and training domains, creating feature-space shifts that degrade downstream fusion and detection. Existing approaches typically retrain fusion and detection components or introduce modality-specific feature interpreters. These methods scale poorly to newly joining agents and often require access to proprietary metadata, raising privacy concerns. We propose HeteroPROMPT, a real-time and privacy-preserving framework for heterogeneous collaborative perception. HeteroPROMPT rapidly aligns each heterogeneous agent's features with an ego-centric unified feature space through modular prompts and lightweight learning-based tuning, while keeping agent encoders and the collaborative fusion and detection stacks frozen. Its visual prompt-based training and inference modulate Bird's Eye View (BEV) features across channels and spatial locations with low computational overhead. For metadata-free deployment, an autoencoder learns a compact unified representation and extracts modality cues from shared features, enabling real-time modality classification and routing to the appropriate HeteroPROMPT modules without exposing proprietary agent information. Experiments on the OPV2V-H and V2XSet datasets show that HeteroPROMPT improves Average Precision over state-of-the-art heterogeneous CP methods while using orders of magnitude fewer trainable parameters. This offers a scalable and practical CP solution. The proposed modality classifier also predicts the joining agent's modality from compact features with greater than 99.99 percent accuracy during deployment. Code will be available at https://github.com/arminmaleki007/HeteroPROMPT.",
+    "updated" : "2026-07-28T21:24:43Z",
+    "published" : "2026-07-28T21:24:43Z",
+    "authors" : [
+      {
+        "name" : "Armin Maleki"
+      },
+      {
+        "name" : "Hayder Radha"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.26207v1",
+    "title" : "Where Physics Meets Privacy: Federated PINNs for Privacy-Preserving Brain Tumor Biomechanical Modeling",
+    "summary" : "Brain tumors such as glioma, meningioma, and pituitary adenoma alter the mechanical behavior of soft brain tissue, yet common diagnostic methods rely on static imaging that cannot capture tumor growth, tissue displacement, or changes in stiffness over time. Deep learning models for this task typically require pooling patient data at one site, which conflicts with privacy rules such as GDPR and HIPAA and limits generalization across institutions, a challenge that is pronounced in neuro oncology given patient diversity. This study presents a federated physics informed neural network combining federated learning with a physics informed loss built on the equations of linear elasticity. Three simulated clinical sites each train a local network on patient specific MRI data using a physics informed loss, and only model weights are shared with a central server through the FedAvg protocol over one hundred rounds, keeping raw data at its site of origin. The federated model reached an overall accuracy of 91.4%, against 90.0% for a non federated baseline trained on pooled data, an average AUC of 0.985 across tumor classes, and a rise in pituitary tumor accuracy from 85.6 to 94.5%. Training produced smooth, divergence free displacement fields consistent with expected tissue deformation, showing that federated training can be paired with physics based constraints without a meaningful loss in performance.",
+    "updated" : "2026-07-28T19:15:37Z",
+    "published" : "2026-07-28T19:15:37Z",
+    "authors" : [
+      {
+        "name" : "Mahmuda Akter Sristy"
+      },
+      {
+        "name" : "Md Al-Mahfuz Chowdhury"
+      },
+      {
+        "name" : "Momota Ahsana Meem"
+      },
+      {
+        "name" : "Sajid Ahamed"
+      },
+      {
+        "name" : "Kazi Irfan Subhan"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.05802v4",
+    "title" : "Failure Privacy and Safe Collective Expression with Social Assurance Contracts",
+    "summary" : "Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking one-by-one may encourage others, but retaliation against early participants can stop the cascade before a protective group forms. A social assurance contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.",
+    "updated" : "2026-07-28T22:44:32Z",
+    "published" : "2026-07-07T03:55:31Z",
+    "authors" : [
+      {
+        "name" : "Matthew Cashman"
+      }
+    ],
+    "categories" : [
+      "econ.GN",
+      "econ.TH"
+    ]
   }
 ]
