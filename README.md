@@ -2,6 +2,66 @@
 <h2>2026-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2607.27015v1">Reliability Functions of Quantum Soft Covering and Privacy Amplification via a Mixed-Order Rényi Divergence</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2026-07-29T15:14:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shi-Bing Li, Hongsen Qiu, Xinyu Zhang</p>
+    <p><b>Summary:</b> In this paper, we introduce a novel mixed-order Rényi divergence and investigate its fundamental properties. Using this divergence, we define a family of mixed-order order-two Rényi mutual information and Rényi conditional entropy. We derive exact reliability functions of quantum soft covering and privacy amplification under the sandwiched Rényi divergence with order $α\in[2,\infty)$. The former is jointly characterized by the sandwiched and mixed-order order-two Rényi mutual information quantities, while the latter is characterized by the corresponding conditional entropies. These results provide operational interpretations of the proposed mixed-order Rényi divergence. To the best of our knowledge, this is the first exact characterization of the reliability function for quantum soft covering.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2607.26390v1">Impossible to hide secret ...: Uncovering Security and Privacy Issues in LLM-native IDEs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
+  <p><b>Published on:</b> 2026-07-29T01:49:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mostafijur Rahman Akhond, Md Afif Al Mamun, Gias Uddin, Song Wang</p>
+    <p><b>Summary:</b> LLM-native IDEs (Integrated Development Environments), aka LIDEs, are designed from the ground up to work with Large Language Models (LLMs). LIDEs have found remarkable success in Software Engineering (SE) tasks such as coding, debugging, and program comprehension. LIDEs are software systems, and, like any system, they can exhibit vulnerabilities. In this paper, we study the security and privacy issues that developers reported while using popular LIDEs in their development tasks. We collected 1.1M posts from 29 popular subreddits related to LIDEs. We identified 446 posts and analyzed over 6K comments to the posts that discussed security and privacy issues in almost all popular LIDEs, such as Cursor, Copilot, Codex, etc. Using a mix of qualitative and quantitative methods, we constructed a taxonomy of the reported security and privacy issues. Our results show that most issues in LIDEs stem from system-level design choices, rather than the underlying LLMs, such as user data access, unchecked autonomous actions, etc. To overcome these issues, developers frequently relied on external safeguards like code sandboxing and manual reviewing, highlighting prevalent mistrust among developers about LIDEs. We share lessons from our study to support future design of secure and privacy-aware LIDEs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2607.26388v1">Sensitivity and Differential Privacy in Metric Voting with Distortion below Three</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Science and Game Theory-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-07-29T01:46:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shinsaku Sakaue, Kaito Fujii, Soh Kumabe, Yuichi Yoshida</p>
+    <p><b>Summary:</b> Voting rules aggregate individual preferences into collective decisions, but the rankings they receive contain only ordinal information. The metric distortion framework studies ordinal voting rules in settings where voters and candidates are embedded in an unknown metric space. Deterministic rules have optimal worst-case distortion $3$, while recent randomized rules break the $3$ barrier. We study whether such improvements can coexist with low worst-case sensitivity with respect to the Wasserstein distance of lotteries under one-voter deletion and approximate differential privacy under one-voter replacement. On the sensitivity side, we give a randomized rule with distortion at most $3-\varepsilon$ for an absolute constant $\varepsilon>0$ and, for $m$ candidates and $n$ voters, a worst-case sensitivity bound of $O((\log m+1)/n)$. On the privacy side, for every $δ\in(0,1)$ and all $n$ above an absolute constant, we construct a variant rule whose mechanism releasing a single sampled winner has distortion at most $3-\varepsilon$ and is $(O((\log m+\log(1/δ)+1)/n),δ)$-differentially private. Both constructions use the same family of Gibbs distributions over constant-size candidate lists, with only the temperature parameter differing between the sensitivity and differential-privacy guarantees. Our analysis builds on the biased-metric viewpoint behind the recent improvement over the $3$ barrier and proves a stability property for the biased-metric ratio.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2607.26283v1">HeteroPROPMT: A Real-time and Privacy-Preserving Heterogeneous Collaborative Perception Framework</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
+  <p><b>Published on:</b> 2026-07-28T21:24:43Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Armin Maleki, Hayder Radha</p>
+    <p><b>Summary:</b> Collaborative Perception (CP) improves autonomous systems' awareness of their surroundings by sharing sensor data, intermediate features, and detection results. In real-world deployments, however, collaborating vehicles often use heterogeneous sensors, perception models, datasets, and training domains, creating feature-space shifts that degrade downstream fusion and detection. Existing approaches typically retrain fusion and detection components or introduce modality-specific feature interpreters. These methods scale poorly to newly joining agents and often require access to proprietary metadata, raising privacy concerns. We propose HeteroPROMPT, a real-time and privacy-preserving framework for heterogeneous collaborative perception. HeteroPROMPT rapidly aligns each heterogeneous agent's features with an ego-centric unified feature space through modular prompts and lightweight learning-based tuning, while keeping agent encoders and the collaborative fusion and detection stacks frozen. Its visual prompt-based training and inference modulate Bird's Eye View (BEV) features across channels and spatial locations with low computational overhead. For metadata-free deployment, an autoencoder learns a compact unified representation and extracts modality cues from shared features, enabling real-time modality classification and routing to the appropriate HeteroPROMPT modules without exposing proprietary agent information. Experiments on the OPV2V-H and V2XSet datasets show that HeteroPROMPT improves Average Precision over state-of-the-art heterogeneous CP methods while using orders of magnitude fewer trainable parameters. This offers a scalable and practical CP solution. The proposed modality classifier also predicts the joining agent's modality from compact features with greater than 99.99 percent accuracy during deployment. Code will be available at https://github.com/arminmaleki007/HeteroPROMPT.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2607.26207v1">Where Physics Meets Privacy: Federated PINNs for Privacy-Preserving Brain Tumor Biomechanical Modeling</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-07-28T19:15:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mahmuda Akter Sristy, Md Al-Mahfuz Chowdhury, Momota Ahsana Meem, Sajid Ahamed, Kazi Irfan Subhan</p>
+    <p><b>Summary:</b> Brain tumors such as glioma, meningioma, and pituitary adenoma alter the mechanical behavior of soft brain tissue, yet common diagnostic methods rely on static imaging that cannot capture tumor growth, tissue displacement, or changes in stiffness over time. Deep learning models for this task typically require pooling patient data at one site, which conflicts with privacy rules such as GDPR and HIPAA and limits generalization across institutions, a challenge that is pronounced in neuro oncology given patient diversity. This study presents a federated physics informed neural network combining federated learning with a physics informed loss built on the equations of linear elasticity. Three simulated clinical sites each train a local network on patient specific MRI data using a physics informed loss, and only model weights are shared with a central server through the FedAvg protocol over one hundred rounds, keeping raw data at its site of origin. The federated model reached an overall accuracy of 91.4%, against 90.0% for a non federated baseline trained on pooled data, an average AUC of 0.985 across tumor classes, and a rise in pituitary tumor accuracy from 85.6 to 94.5%. Training produced smooth, divergence free displacement fields consistent with expected tissue deformation, showing that federated training can be paired with physics based constraints without a meaningful loss in performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2607.25968v1">E-MagDiP: Electro-Magnetic based Differential Privacy for EEG based Community Sensing</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
   <p><b>Published on:</b> 2026-07-28T16:50:36Z</p>
@@ -983,7 +1043,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.05802v3">Failure Privacy and Safe Collective Expression with Social Assurance Contracts</a></h3>
+  <h3><a href="http://arxiv.org/abs/2607.05802v4">Failure Privacy and Safe Collective Expression with Social Assurance Contracts</a></h3>
    
   <p><b>Published on:</b> 2026-07-07T03:55:31Z</p>
   <details>
@@ -1160,72 +1220,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Bidushi Barua, Ahsan Khan, Kangfeng Ye, Panagiotis Papanastasiou, Yifan Liu, Mohit Bidikar, Anthony Moulds, Julie McCann, Poonam Yadav</p>
     <p><b>Summary:</b> Sixth Generation (6G) communication networks are expected to evolve into AI-native, highly autonomous ecosystems that integrate communication, computing, sensing, and artificial intelligence. While these capabilities enable unprecedented connectivity and intelligent services, they also create a highly heterogeneous security and privacy landscape that cannot be addressed through isolated, technology-specific solutions. This paper presents a comprehensive survey of security and privacy in AI-native 6G networks from a cross-layer perspective. We first examine the fragmentation of existing security and privacy approaches across emerging technologies, network architectures, AI systems, and standardization efforts, motivating the need for a unified security and privacy framework. Building upon this framework, we develop a cross-layer threat taxonomy encompassing infrastructure, network and architectural, AI, privacy, and security management domains, and analyze representative threats across key AI-native 6G technologies. Furthermore, we map these threats to corresponding cross-layer countermeasures, including standards harmonization as a security function, and identify critical research gaps and future priorities for secure, interoperable, and trustworthy AI-native 6G ecosystems. Finally, we discuss future research directions toward realizing secure, privacy-preserving, resilient, and globally interoperable 6G networks. This survey provides researchers, practitioners, and standardization communities with a holistic foundation for the design, evaluation, and deployment of trustworthy AI-native 6G systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.00978v1">Privacy-Preserving Depth-Only Open-Vocabulary 3D Semantic Segmentation Via Uncertainty-Guided Test-Time Optimization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
-  <p><b>Published on:</b> 2026-07-01T14:12:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xuying Huang, Sicong Pan, Maren Bennewitz</p>
-    <p><b>Summary:</b> Privacy-preserving perception is a critical requirement for deploying 3D scene understanding systems in real-world indoor environments, yet it remains underexplored in open-vocabulary 3D semantic segmentation. Existing methods typically rely on obtaining rich semantic cues from RGB images, which may expose privacy-sensitive visual information. Depth-only 3D geometry provides a privacy-preserving alternative, but the absence of appearance-based semantic cues makes open-vocabulary predictions highly uncertain and less reliable. Under this setting, we propose to convert uncertainty into a guidance signal to identify unreliable semantic responses and use semantic priors from foundation models to regularize their refinement. We present UTTO, an uncertainty-guided test-time optimization framework for depth-only open-vocabulary 3D semantic segmentation. Without additional training, experiments on ScanNet20, ScanNet40, and ScanNet200 demonstrate that UTTO consistently improves depth-only open-vocabulary 3D segmentation and outperforms representative baselines under privacy-preserving conditions.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.00772v1">No Country for Old Privacy: The Evolving Challenges of Anonymity in Bitcoin</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-01T10:57:58Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ben Hawkins, Joshua Levett, Siamak F. Shahandashti</p>
-    <p><b>Summary:</b> We present a longitudinal measurement study on the adoption of detectable, second-generation anonymisation protocols in the Bitcoin network, including CoinJoin, CoinSwap, CoinShuffle and Stealth Addresses. By implementing and refining a suite of heuristic filters, we identify over 5.94 million CoinJoin and 23.3 million CoinSwap transactions. Besides, the use of CoinShuffle was unexpectedly found to be closely aligned with the Wasabi wallet operation period. Our analysis reveals consistently low adoption rates, with these protocols constituting less than 1% of network transactions, and a sharp decline in detectable usage following key regulatory events. Furthermore, we find no evidence of standardised Stealth Address adoption, indicating a failure to converge on a common privacy standard. This study provides a comprehensive picture of a niche ecosystem whose on-chain visibility has been largely suppressed, strongly suggesting the migration of privacy-seeking users to less transparent and less detectable methods.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.00693v1">The Rise and Fall of Google's Privacy Sandbox</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-01T09:43:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rachid Youssef Grib, Alberto Verna, Nikhil Jha, Martino Trevisan, Marco Mellia</p>
-    <p><b>Summary:</b> On October 17th, 2025, Google announced the retirement of most Privacy Sandbox APIs, concluding nearly five years of experimentation with its alternative to privacy-invasive data collection on the Web. Designed to balance privacy with advertising functionality and cross-site tracking, the initiative faced repeated redesigns and limited ecosystem support.
-  In this work, we present the first longitudinal, consent-aware measurement of the Privacy Sandbox's deployment across the Web. Using a custom call listener and weekly crawls of the top-10,000 websites, we monitor the usage of all major APIs in the months preceding their retirement. Adoption had already stagnated well before Google's announcement: most APIs were used by only a handful of actors, whose activity declined steadily throughout our study. Even the APIs that Google plans to maintain show no sign of growth. The sole exception is Cookies Having Independent Partitioned State (CHIPS). Overall, the demise of the Privacy Sandbox leaves unresolved the challenge of enabling privacy-preserving interest-based advertising.</p>
-  </details>
-</div>
-
-
-
-<h2>2026-06</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2606.31973v1">Semantic Leakage and Privacy Preservation in Relay-Assisted Semantic Communications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-06-30T17:15:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yalin E. Sagduyu, Tugba Erpek, Aylin Yener, Sennur Ulukus</p>
-    <p><b>Summary:</b> Semantic communication (SemCom) has emerged as a promising paradigm in which the transmission of task-relevant information is prioritized over raw data, enabling efficient and robust communication under resource and channel constraints. In this paper, the privacy implications of relay-assisted SemCom systems are studied, where the intermediate relay node operates directly on learned latent representations. It is shown that the relay, even without access to source data, can reliably infer semantic meaning and reconstruct signals with performance comparable to that of the legitimate receiver, revealing a fundamental privacy vulnerability of semantic representations. To address this issue, an iterative adversarial training framework is proposed in which a strong, adaptively trained eavesdropper at the relay is explicitly accounted for. The proposed approach alternates between optimizing the relay's eavesdropping function and the legitimate system, resulting in representations that preserve semantic decoding performance at the intended receiver while degrading semantic inference at the relay. The semantic accuracy gap between the legitimate receiver and the eavesdropper is significantly enlarged across channel conditions. Importantly, this protection is achieved in a stealthy manner, with high reconstruction fidelity maintained while semantic leakage is selectively suppressed.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2606.31164v1">Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-06-30T05:54:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Oleksii Nasypanyi, Jaemin Cho, Utku Ozbulak, Byungkon Kang, Francois Rameau</p>
-    <p><b>Summary:</b> Scene Coordinate Regression (SCR) methods are increasingly adopted for visual localization. In these approaches, the scene is implicitly encoded within a neural network that regresses a 3D world coordinate for each image pixel. Because the scene is represented only through the network parameters and not stored explicitly as images or maps, such methods are often assumed to be privacy-preserving. In this work, we show that this assumption is incorrect in practice.
-  Specifically, we introduce a query-based attack that reconstructs the 3D geometry of the training environment from an SCR model under different levels of model access. To do so, we repeatedly query the model with batches of proxy images unrelated to the target scene to obtain dense pixel-wise 3D coordinates. Reliable points are identified through their stability under small input perturbations and can be further refined in a white-box setting. These stable points are accumulated across independent query batches to recover the scene geometry. From the recovered 3D representation, we also invert the network features to synthesize images from arbitrary viewpoints, revealing additional appearance information.
-  Experiments on indoor and outdoor datasets demonstrate that substantial portions of training environments can be reconstructed with high geometric fidelity. Beyond geometry, we also recover an approximate color appearance, which exposes recognizable layout and potentially sensitive scene elements. This directly contradicts claims in the literature that SCR representations are privacy-preserving by design, and reveals a real risk when such systems are deployed in private or security-critical spaces. The project page is available at https://jaeminch0.github.io/seeing-through-the-weights-privacy-leakage-in-scene-coordinate-regression.</p>
   </details>
 </div>
 
