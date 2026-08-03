@@ -3254,5 +3254,270 @@
     "categories" : [
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.29100v1",
+    "title" : "StraightDP: Geometry-Aware Differential Privacy for Rectified-Flow Transformers",
+    "summary" : "Differentially private (DP) training of text-conditioned generative models suffers a utility cliff at strong privacy. We revisit this problem through the geometry of rectified flows: along the straight interpolation between noise and data, the Bayes-optimal velocity is governed to leading order at the noise end by a few class-conditional moments, and increasingly sample-specific structure matters toward the data end. StraightDP exploits this heterogeneity end to end. A small budget share releases whitened class-conditional moments once, to be distilled into the weights or injected at sampling time. The rest is spent by pre-declared DP-SGD toward the data end, beyond the moments' reach. At $\\varepsilon=1$ on MNIST, the released moments alone already attain $0.76$ downstream accuracy with prototype-like samples and an FID of $237$, and uniform DP-SGD attains $0.21$. The pipeline built on the release reaches $0.81$ accuracy at FID $56$ in a public latent space. Constraining per-token stream norms of the multimodal backbone leaves the pretraining loss unchanged yet improves downstream accuracy in the extreme-noise pixel-space regime, and its accuracy effect becomes monotonically more favorable as privacy strengthens. The released moments also port to frozen SD3-medium, where sampling-time injection beats DP-LoRA training at a fraction of the budget.",
+    "updated" : "2026-07-31T07:27:52Z",
+    "published" : "2026-07-31T07:27:52Z",
+    "authors" : [
+      {
+        "name" : "Xujun Che"
+      },
+      {
+        "name" : "Depeng Xu"
+      },
+      {
+        "name" : "Xintao Wu"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.29019v1",
+    "title" : "GoldenRetriever: Non-Interactive Homomorphic Encrypted Retrieval for Privacy-Preserving RAG",
+    "summary" : "Retrieval-Augmented Generation (RAG) enhances large language models by incorporating external knowledge, but existing pipelines typically operate on plaintext data, raising significant privacy concerns. Prior work on privacy-preserving retrieval leverages cryptographic techniques such as homomorphic encryption (HE) and private information retrieval (PIR), but often relies on interactive protocols or ranking-based selection mechanisms that incur high latency and potential information leakage. In this paper, we propose a practical non-interactive encrypted retrieval framework for RAG based on threshold selection. Instead of performing expensive top-$k$ ranking under encryption, our approach selects documents whose similarity scores exceed a predefined threshold, reducing computational complexity from quadratic to linear in the corpus size. We implement this design using CKKS-based homomorphic computation, enabling fully encrypted similarity evaluation and document selection without revealing query content, intermediate scores, or selected indices. To bridge the gap between approximate encrypted computation and discrete token reconstruction, we introduce a precision-stable mask polarization method that ensures accurate recovery of selected documents. Experiments on standard retrieval benchmarks demonstrate that our approach achieves competitive retrieval effectiveness while significantly reducing latency compared to ranking-based encrypted methods. These results highlight threshold-based selection as a practical foundation for scalable and secure RAG systems.",
+    "updated" : "2026-07-31T04:44:24Z",
+    "published" : "2026-07-31T04:44:24Z",
+    "authors" : [
+      {
+        "name" : "Yang Gao"
+      },
+      {
+        "name" : "Gang Quan"
+      },
+      {
+        "name" : "Scott Piersall"
+      },
+      {
+        "name" : "Qian Lou"
+      },
+      {
+        "name" : "Dongdong Wang"
+      },
+      {
+        "name" : "Liqiang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.28878v1",
+    "title" : "YazSes: An Offline, Privacy-First, Cross-Platform Hold-to-Talk Voice-Dictation System",
+    "summary" : "Cloud voice-dictation services deliver strong accuracy but require streaming a user's speech to a remote provider, an unacceptable trade-off in privacy-sensitive professions and offline or air-gapped settings; the leading on-device alternatives are either platform-locked or aimed at expert scripting rather than plug-and-play dictation. We present YazSes, an open-source (Apache-2.0) hold-to-talk voice dictation daemon that runs entirely on-device, with a single codebase targeting Linux, macOS, and Windows through a protocol-based platform abstraction. YazSes transcribes speech locally with faster-whisper (CPU, int8) and injects the result into the focused application; a fast regex command grammar, backed by an optional small-language-model router, maps utterances to editor and terminal actions. Nothing leaves the machine: recording is push-to-talk rather than always-listening, there is no telemetry, and an opt-in personalization loop keeps its corpus encrypted on-device and proposes configuration changes instead of shipping data out. We describe the system architecture -- a staged pipeline behind a protocol-based platform abstraction with a JSON-RPC control plane -- and its privacy and threat model. We evaluate the shipping Python implementation on a single commodity Linux laptop; the macOS and Windows backends are implemented and unit-tested but not end-to-end evaluated here. On 200 LibriSpeech test-clean utterances spanning 40 speakers, word error rate ranges from 4.82% (tiny.en) to 2.59% (small.en) at a real-time factor of 0.520 for small.en, decoding faster than real time on CPU with no GPU. The command grammar reaches 100% action accuracy with a 0.0% false-positive rate on plain dictation at 0.021 ms per call, and the non-decode pipeline adds 0.289 ms of overhead. The system and the reproducible benchmark harness behind every number in this paper are public.",
+    "updated" : "2026-07-30T22:43:57Z",
+    "published" : "2026-07-30T22:43:57Z",
+    "authors" : [
+      {
+        "name" : "Mohsen Seyedkazemi Ardebili"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.28841v1",
+    "title" : "CyberNeuro: A Privacy-Preserving Agentic Workbench for Cohort-Scale Neuroimage and Clinical Data Analysis",
+    "summary" : "Despite tremendous success in neuroimaging methodology, making large-scale, high-dimensional datasets ready for AI/ML applications remains a critical operational bottleneck. Conventional workflows require extensive manual effort across metadata curation, pipeline execution, post-processing quality control, and data management, a burden that disproportionately excludes laboratories with limited manpower and computational infrastructure. To address this real-world barrier, there is an urgent need for scalable, cost-effective computational platforms that democratize advanced neuroimaging analytics and accelerate discoveries in mental health and clinical translation. Capitalizing on multi-agent LLM breakthroughs, we introduce CyberNeuro, an agentic workbench with a tailored local LLM-model ('WandaMind') for automated neuroimaging and health-data analysis. Driven by four dedicated agents (Planner, Validator, Dispatcher, and Reporter) communicating via a secure MCP bridge and a pinned execution layer, CyberNeuro enables researchers to execute complex workflows using natural language while maintaining clinical-grade data privacy. On the public NeuroBench suite, CyberNeuro increases held-out domain accuracy from 40% to 69% over the baseline model. Beyond automated metrics, the platform integrates a human-in-the-loop verification panel to ensure rigorous biomedical quality control. Across the same end-to-end 10-batch cohort workflow suite, the local WandaMind configuration completed all tasks with an estimated aggregate token count of about 10.6% using WandaMind and 61.7% using cloud providers of token usage, compared to Neuroclaw, respectively. The platform and its production-ready modules are available at https://wanda-cyberbench.com.",
+    "updated" : "2026-07-30T21:10:04Z",
+    "published" : "2026-07-30T21:10:04Z",
+    "authors" : [
+      {
+        "name" : "Ran Ren"
+      },
+      {
+        "name" : "Junhong Tong"
+      },
+      {
+        "name" : "Yunxi Kong"
+      },
+      {
+        "name" : "Yiyao Chen"
+      },
+      {
+        "name" : "Yucheng Li"
+      },
+      {
+        "name" : "Kunhao Zhou"
+      },
+      {
+        "name" : "Shaoqi Wang"
+      },
+      {
+        "name" : "Yuxiang Tao"
+      },
+      {
+        "name" : "Shuheng Cao"
+      },
+      {
+        "name" : "Zhihao Fan"
+      },
+      {
+        "name" : "Marissa DiPiero"
+      },
+      {
+        "name" : "Tingting Dan"
+      },
+      {
+        "name" : "Guorong Wu"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.27940v2",
+    "title" : "TriShield: Zero-Utility-Loss Defense Against Privacy Backdoors in Federated Language Model Fine-Tuning via Orthogonal Gradient Projection and Optimizer State Entanglement",
+    "summary" : "Federated fine-tuning of large language models (LLMs) enables collaborative training without exposing raw data. However, a recent attack, NeuroImprint, demonstrates that a malicious parameter server can corrupt a PEFT adapter into a privacy backdoor: by assigning a dedicated memorization neuron to each training sample and ensuring each neuron updates at most once, the server can analytically reconstruct 59%--79% of client training data with high semantic fidelity. Existing defenses---including local differential privacy (LDP) and gradient clipping---either fail against this attack or impose unacceptable utility degradation. We present \\textbf{TriShield}, a three-layer deterministic defense that completely prevents NeuroImprint-style reconstruction with zero model utility loss and no additional communication rounds. TriShield consists of: (1) a Parameter Artifact Detector that identifies memory-neuron signatures in distributed model parameters before local training begins; (2) a Stateful Virtual Iteration} mechanism that forces Adam/AdamW's momentum state to irreversibly entangle gradients across virtual steps, invalidating NeuroImprint's closed-form inversion; and (3) a Zero-Utility Orthogonal Projection operator that projects all local gradient updates onto the main-task semantic subspace computed via SVD, physically eliminating any gradient components that carry private memorization. We prove theoretically that after Layers 2 and 3, the mutual information between the uploaded gradient and any individual training sample is zero. Experiments on GPT-2 (117M) and Llama-Guard-3-1B verify that TriShield reduces NeuroImprint reconstruction rate to 0% across all tested attack variants, while maintaining or improving training accuracy, with less than 5% additional GPU computation overhead.",
+    "updated" : "2026-07-31T04:21:25Z",
+    "published" : "2026-07-30T09:49:13Z",
+    "authors" : [
+      {
+        "name" : "Cheng Wei"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.27886v2",
+    "title" : "Don't Trust the AI Ecosystem: Analyzing Privacy Leakage in Compromised Open-Source Components",
+    "summary" : "Existing model inversion (MI) attacks predominantly rely on post-training optimization to recover private data from model outputs. However, these methods are fundamentally constrained by the target model's generalization bottleneck, often yielding generic features rather than specific identities, particularly on high-dimensional datasets. In this paper, we introduce GradLock, a novel training-time injection attack that stealthily injects sensitive training data directly into the model parameters. Operating within a compromised supply chain context, GradLock leverages stateless deterministic indexing to establish isolated data vaults and employs dynamic gradient locking to prevent payload degradation during the optimization process. This mechanism allows the adversary to extract pixel-perfect data from the final model without retaining access to the training environment. Extensive experiments on MNIST, Imagenette, and CelebA demonstrate that GradLock achieves near-lossless reconstruction (SSIM ~ 1.0) and instant extraction (< 1.0s). Compared to existing training-time injection methods, our approach exhibits superior robustness against standard deployment optimizations, including quantization, pruning, and fine-tuning. Furthermore, a user deployment study reveals that 93.3% of participants failed to detect the malicious logic, highlighting a severe blind spot in the security of modern AI supply chains.",
+    "updated" : "2026-07-31T01:31:02Z",
+    "published" : "2026-07-30T09:02:02Z",
+    "authors" : [
+      {
+        "name" : "Jin-Seong Kim"
+      },
+      {
+        "name" : "Han-Ju Lee"
+      },
+      {
+        "name" : "Seok-Won Hong"
+      },
+      {
+        "name" : "Takeshi Takahashi"
+      },
+      {
+        "name" : "Chansu Han"
+      },
+      {
+        "name" : "Tomohiro Morikawa"
+      },
+      {
+        "name" : "Seok-Hwan Choi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.26390v3",
+    "title" : "Impossible to hide secret ...: Uncovering Security and Privacy Issues in LLM-native IDEs",
+    "summary" : "LLM-native IDEs (Integrated Development Environments), aka LIDEs, are designed from the ground up to work with Large Language Models (LLMs). LIDEs have found remarkable success in Software Engineering (SE) tasks such as coding, debugging, and program comprehension. LIDEs are software systems, and, like any system, they can exhibit vulnerabilities. In this paper, we study the security and privacy issues that developers reported while using popular LIDEs in their development tasks. We collected 1.1M posts from 29 popular subreddits related to LIDEs. We identified 446 posts and analyzed over 6K comments to the posts that discussed security and privacy issues in almost all popular LIDEs, such as Cursor, Copilot, Codex, etc. Using a mix of qualitative and quantitative methods, we constructed a taxonomy of the reported security and privacy issues. Our results show that most issues in LIDEs stem from system-level design choices, rather than the underlying LLMs, such as user data access, unchecked autonomous actions, etc. To overcome these issues, developers frequently relied on external safeguards like code sandboxing and manual reviewing, highlighting prevalent mistrust among developers about LIDEs. We share lessons from our study to support future design of secure and privacy-aware LIDEs.",
+    "updated" : "2026-07-31T15:02:59Z",
+    "published" : "2026-07-29T01:49:17Z",
+    "authors" : [
+      {
+        "name" : "Mostafijur Rahman Akhond"
+      },
+      {
+        "name" : "Md Afif Al Mamun"
+      },
+      {
+        "name" : "Gias Uddin"
+      },
+      {
+        "name" : "Song Wang"
+      }
+    ],
+    "categories" : [
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.26388v2",
+    "title" : "Sensitivity and Differential Privacy in Metric Voting with Distortion below Three",
+    "summary" : "Voting rules aggregate individual preferences into collective decisions, but the rankings they receive contain only ordinal information. The metric distortion framework studies ordinal voting rules in settings where voters and candidates are embedded in an unknown metric space. Deterministic rules have optimal worst-case distortion $3$, while recent randomized rules break the $3$ barrier. We study whether such improvements can coexist with low worst-case sensitivity with respect to the Wasserstein distance of lotteries under one-voter deletion and approximate differential privacy under one-voter replacement. On the sensitivity side, we give a randomized rule with distortion at most $3-\\varepsilon$ for an absolute constant $\\varepsilon>0$ and, for $m$ candidates and $n$ voters, a worst-case sensitivity bound of $O((\\log m+1)/n)$. On the privacy side, for every $δ\\in(0,1)$ and all $n$ above an absolute constant, we construct a variant rule whose mechanism releasing a single sampled winner has distortion at most $3-\\varepsilon$ and is $(O((\\log m+\\log(1/δ)+1)/n),δ)$-differentially private. Both constructions use the same family of Gibbs distributions over constant-size candidate lists, with only the temperature parameter differing between the sensitivity and differential-privacy guarantees. Our analysis builds on the biased-metric viewpoint behind the recent improvement over the $3$ barrier and proves a stability property for the biased-metric ratio.",
+    "updated" : "2026-07-31T14:50:43Z",
+    "published" : "2026-07-29T01:46:09Z",
+    "authors" : [
+      {
+        "name" : "Shinsaku Sakaue"
+      },
+      {
+        "name" : "Kaito Fujii"
+      },
+      {
+        "name" : "Soh Kumabe"
+      },
+      {
+        "name" : "Yuichi Yoshida"
+      }
+    ],
+    "categories" : [
+      "cs.GT",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2607.18169v2",
+    "title" : "RRAM-DP: Device-Calibrated Differential Privacy for In-Memory Edge Learning",
+    "summary" : "Edge Artificial Intelligence of Things (AIoT) systems often collect sensitive data in situ, raising serious privacy concerns. Resistive-switching random-access memory (RRAM) is an attractive substrate for efficient AIoT thanks to its multi-bit storage and compute-in-memory (CiM) capabilities, while its inherently stochastic write behavior provides a natural source of randomness that can be leveraged for differential privacy (DP) protection. Yet how to transform this device-level randomness-typically viewed as detrimental to accuracy-into a principled randomized mechanism while preserving model utility remains underexplored. We propose RRAM-DP, a hardware-algorithm co-design that relaxes RRAM write-verify operations to inject calibrated noise for inherently (epsilon, delta)-DP with formal DP analysis; together with pretraining techniques, it renders a novel private, high-utility CiM training paradigm. On CIFAR-10/100, STS-B, and SST-2, RRAM-DP-SGD incurs at best only a 3.8% accuracy drop at (epsilon=2, delta=O(1/n))-DP relative to non-private SGD. At the same privacy level, RRAM-DP-SGD delivers up to 57x and 3.2x energy savings and 2.7x and 1.8x speedups over A100 and DiVa-GEMM, respectively. These results point toward efficient, privacy-preserving in-memory training on RRAM at the edge.",
+    "updated" : "2026-07-31T05:40:27Z",
+    "published" : "2026-07-20T17:11:59Z",
+    "authors" : [
+      {
+        "name" : "Kwunhang Wong"
+      },
+      {
+        "name" : "Jichang Yang"
+      },
+      {
+        "name" : "Karl M. H. Lai"
+      },
+      {
+        "name" : "Hegan Chen"
+      },
+      {
+        "name" : "Songqi Wang"
+      },
+      {
+        "name" : "Wei Xuan"
+      },
+      {
+        "name" : "Ning Lin"
+      },
+      {
+        "name" : "Han Wang"
+      },
+      {
+        "name" : "Xiaojuan Qi"
+      },
+      {
+        "name" : "Zhongrui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.ET"
+    ]
   }
 ]
