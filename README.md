@@ -2,6 +2,20 @@
 <h2>2026-07</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.00282v1">Reflection, Education, Consistency: Towards Best Ethics Practices At Security And Privacy Conferences</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-07-31T20:41:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Florian Hantke, Rafael Mrowczynski, Til Dralle, Ben Stock</p>
+    <p><b>Summary:</b> Research ethics is a controversial and emotionally charged topic in the security and privacy community, sparking discussions at conferences and on social media. In recent years, some of the leading conferences have introduced interventions such as mandatory ethics sections, with mixed reactions within the community. Program committee chairs and steering committees increasingly emphasize ethics, yet there is limited empirical validation on ethics procedures and interventions, as well as no explicitly communicated goals.
+  To support a shared understanding in our community and guide informed decisions at the conference level, we examined past ethics policies at the top-four conferences and conducted in-depth semi-structured interviews with senior and junior (n=20) community members, including some (former) chairs of program and research ethics committees. In these, we explored reasons for and goals of ethics procedures and discussed existing ethics interventions as well as possible new approaches proposed by our team.
+  While the community appears to be evolving toward the identified goals, i.e., raising ethical awareness and preventing the publication of unethical work, we identified the lack of ethical education within the community itself as a major obstacle to further progress on this matter. Ethical education is often passed to the universities. Interviewees also mentioned challenges with the complexity of ethics policies and the lack of consistency across different conferences, as well as policies changing year-to-year. Several participants warned that over-regulation may lead to backlash, encouraging mere compliance, such as people turning to LLMs for ethics sections rather than undertaking in-depth consideration. In response, we suggest a coordinated, community-wide ethics steering effort and take a first step by introducing an open ethics wiki.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2607.29100v1">StraightDP: Geometry-Aware Differential Privacy for Rectified-Flow Transformers</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-07-31T07:27:52Z</p>
@@ -1102,124 +1116,114 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.06037v1">REAN: Reconstruction-aware ECG Anonymization Based on Privacy--Utility Orthogonality</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-07-07T09:12:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Taerin Ki, Sunghwan Park, Junyoung Park, Jaewoo Lee</p>
-    <p><b>Summary:</b> A shared electrocardiogram (ECG) is itself a biometric fingerprint that can re-identify a patient and reveal personal information. Recent ECG anonymizers transform the signal before sharing to reduce privacy leakage. However, existing methods still face a privacy--utility trade-off, in which preserving privacy often compromises utility while preserving utility reveals personal information. We propose \emph{REAN} (\emph{RE}construction-aware ECG \emph{AN}onymizer), a raw ECG signal anonymizer, to address this privacy--utility trade-off. REAN reconstructs the signal using a 1-D U-Net trained with losses from frozen privacy and utility classifiers to reduce privacy leakage while preserving utility. The privacy and utility gradients are near-orthogonal ($\approx$93.8$^\circ$), so reducing privacy leakage leaves utility almost unchanged. On four public PhysioNet databases, REAN achieves the strongest privacy--utility balance among raw ECG signal baselines. It drives re-identification to chance (0.96$\to$0.00), keeps arrhythmia macro-AUROC at the clean level (Clean 0.9982 vs.\ REAN 0.9991), and maintains re-identification protection under unseen privacy-classifier architectures.</p>
-  </details>
-</div>
 
+<h2>2026-08</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.05996v1">Unlearnable Faces: Privacy Protection Surviving Extraction Pipeline</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-07-07T08:30:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Byunghoon Oh, Sunghwan Park, Jaewoo Lee</p>
-    <p><b>Summary:</b> Unlearnable examples keep publicly shared photos from being learned by unauthorized face-recognition models. An imperceptible perturbation, added before sharing, makes any model trained on the protected photos fail on clean faces. The perturbation is crafted on the shared image, however the attacker trains on the face it extracts, cropped and resized to the recognizer input, and under this extraction the protection collapses. We propose LPID, which builds the extraction into the unlearnable-example objective. LPID confines the perturbation to the extracted face region and optimizes it through a differentiable model of the extraction, concentrating its energy in the frequency band the extraction preserves. Because this robustness is a property of the transform rather than of any identity, LPID is re-optimized per album and protects even users it has never seen. LPID attains the lowest attacker accuracy of all methods in every setting we evaluate, holding the attacker below $10\%$ under crop+resize extraction on identities unseen at protection time, while remaining imperceptible at $32.7$\,dB PSNR and $0.161$ LPIPS.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.06608v2">Security and Privacy in Agentic AI: Grand Challenges and Future Directions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-07-07T05:45:29Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Adam Jenkins, Agnieszka Kitkowska, Caterina Maidhof, Diego Paracuellos, Francesco Sovrano, Gonzalo Gabriel Mendez, Guillermo Suarez-Tangil, Hana Kopecka, Isabel Wagner, Isabel Barbera, Javier Carnerero-Cano, Jide Edu, Jose Luis Martin-Navarro, Jose Such, Josep Domingo-Ferrer, Juan Carlos Carrillo, Kopo Marvin Ramokapane, Mark Cote, Pablo Vellosillo, Ramon Ruiz-Dolz, Rongjun Ma, Ruba Abu-Salma, Sameer Patil, William Seymour, Xiao Zhan</p>
-    <p><b>Summary:</b> We present key challenges and future research directions in the security and privacy of agentic AI, based on a horizon-scanning exercise that brought together thirty leading international experts from academia, industry, and government to engage in focused discussions and collaborative exercises on the emerging risks associated with the growing agency of AI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.05802v4">Failure Privacy and Safe Collective Expression with Social Assurance Contracts</a></h3>
-   
-  <p><b>Published on:</b> 2026-07-07T03:55:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Matthew Cashman</p>
-    <p><b>Summary:</b> Controversial views sometimes remain unspoken because they invite retaliation. However, a sufficiently large group could speak safely if only they spoke together. Speaking one-by-one may encourage others, but retaliation against early participants can stop the cascade before a protective group forms. A social assurance contract privately collects signed commitments and publishes them only when all signers will be safe. I show that such contracts can tunnel beneath this exposure barrier to safe coalitions the public speaking cascade cannot reach. Doing so requires private commitments and joint publication.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.05251v1">Privacy-Preserving Robustness Verification for Neural Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Logic in Computer Science-662E9B">
-  <p><b>Published on:</b> 2026-07-06T15:59:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Nianyun Song, Xiaokun Luan, Yu Guo, Rongfang Bie, Meng Sun, Xiyue Zhang</p>
-    <p><b>Summary:</b> Neural network verification and data privacy are inherently in tension: verification demands full access to model parameters and input data, yet both are increasingly restricted by privacy regulations and intellectual property constraints. This tension has left robustness verification impractical in privacy-sensitive domains. In this work, we address this gap with SecureCROWN, the first framework for privacy-preserving neural network robustness verification. Built upon secure two-party computation (2PC), our framework enables a model owner and a data owner to jointly compute certified robustness bounds -- revealing only the final result while provably protecting both parties' private data under the semi-honest security model. A key challenge is securely computing the conditional operations in Linear Bound Propagation, where the data-dependent branching is incompatible with standard secure computation protocols. We eliminate branching by formulating conditional logic as continuous arithmetic operations. Additionally, we introduce a Newton--Raphson refinement method to improve numerical stability. Extensive analysis and experiments show that SecureCROWN strictly matches plaintext verification results, while completing in 0.1--200s across varied model sizes and communication settings (LAN/WAN), demonstrating the feasibility of privacy-preserving neural network verification.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.05111v1">From Multiplicity to Vulnerability: Privacy Amplification Risk from One-Dataset-Multiple-Model Exposure</a></h3>
+  <h3><a href="http://arxiv.org/abs/2608.01539v1">SP2UBI: Secure and Privacy-Preserving Usage-Based Insurance</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-06T14:04:39Z</p>
+  <p><b>Published on:</b> 2026-08-02T23:20:15Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Qirui Huang, Na Li, Hongsheng Hu, Zhi Zhang, Anmin Fu, Yansong Gao</p>
-    <p><b>Summary:</b> To efficiently exploit a valuable data source (e.g., facial or medical images), it is frequently harnessed to fulfill multiple learning objectives (e.g., facial recognition, age estimation, and race classification). Each trained model is then deployed as an independent API service for corresponding inference. However, the privacy risk introduced by this one-dataset-multiple-model (ODMM) paradigm is completely overlooked by the community.
-  For the first time, this work reveals that the ODMM setting substantially amplifies privacy leakage. We establish a theoretical framework that proves that privacy leakage accumulates as more ODMM models are exposed, a phenomenon we term ODMM privacy composition. Guided by this theoretical foundation, we propose PRIME (Privacy Amplification RIsk from One-Dataset-Multiple-Model Exposure) to systematically assess this risk and quantify the resulting leakage using membership inference attacks (MIAs). Under black-box access to ODMM models, we design an aggregation mechanism that collectively captures carefully identified privacy signals leaked by individual ODMM models, and construct an attack meta-classifier over the aggregated meta-information to infer the membership status of a given sample jointly. Our results provide strong evidence that dataset reuse across ODMM models strikingly jeopardizes privacy, which is consistently evident across five privacy-sensitive image and textual benchmark datasets and diverse model architectures (from ResNet and ViT to Qwen3-1.7B), spanning three domains: facial analysis, medical imaging, and textual attribution analysis. While mitigations such as differential privacy can reduce the effectiveness of PRIME with trade-offs, our attack still consistently outperforms single-task MIAs.</p>
+    <p><b>Authors:</b> Mobin Aghamirkarimi, Matin Aghamirkarimi, Farid Zaredar, Morteza Amini</p>
+    <p><b>Summary:</b> The transition from traditional auto insurance, whose basis is defined by a set of static parameters, like the age of driver and number of accidents, to Usage-Based Insurance, whose pricing is based on driving behavior, was boosted by Intelligent Transportation Systems. At the same time, the analysis of high-resolution telematics data might reveal users' behavior and habits, which is associated with significant privacy concerns. The majority of privacy-preserving UBI systems are subject to policyholders' data leaks at some point during the life cycle of their protocol. Moreover, it is challenging to ensure data integrity against possible intentional or unintentional sensor anomalies (like sensor spoofing or malfunctioning) since the approaches used in this case require privacy-compromising audits and do not consider the oracle problem. In order to address the issues, we propose SP2UBI, a privacy-preserving UBI solution which guarantees mutual confidentiality. SP2UBI collects the telematics data in coarse-grained, statistical form without any spatiotemporal identifiers so that it is impossible to reconstruct fine-grained mobility traces. By utilizing the Torus Fully Homomorphic Encryption scheme, which incurs low computational overhead, computations are performed directly over encrypted data. This way, the insurer calculates risk factors without accessing any sensitive information, while parameters of its risk model are confidential. In order to protect data integrity against sensor level manipulation, SP2UBI incorporates a speed verification system assisted by Integrated Sensing and Communications (ISAC) technology which is capable of detecting fraud while preserving user privacy. Experimental evaluation shows that one round of protocol execution takes 41.2 ms, showing that our framework is lightweight and preserves more privacy guarantees compared to state-of-the-art solutions.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.19400v1">Predictive single cell foundation model for gene regulation and aging with privacy-preserving tabular learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
-  <p><b>Published on:</b> 2026-07-06T06:17:59Z</p>
+  <h3><a href="http://arxiv.org/abs/2608.01412v1">Bridging Differential Privacy and Random Triangles</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-08-02T17:47:53Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Jiayuan Ding, Jianhui Lin, Ziyang Miao, Nils Mechtel, Shiyu Jiang, Yixin Wang, Zhaoyu Fang, Jorge D. Martin-Rufino, Chen Weng, Reuben Saunders, Weize Xu, Jonathan S. Weissman, Min Li, Jiliang Tang, Wei Ouyang, Yuancheng Ryan Lu, Xiaojie Qiu</p>
-    <p><b>Summary:</b> Pre-trained foundation models (FMs) have begun transforming single-cell genomics, but scaling them raises privacy concerns. Moreover, unlike text data, single-cell data is unordered and exhibits a unique tabular structure that current single-cell FMs overlook. We introduce Tabula, a privacy-preserving FM designed with federated learning (FL) that explicitly models the tabular structure of single-cell data. To deploy Tabula, we further developed Chiron, a decentralized AI agent-enabled platform for collaborative training across institutions without sharing raw data. Beyond strong performance across downstream benchmarks, Tabula reveals combinatorial regulatory logic across diverse biological systems, including hematopoiesis, pancreatic endogenesis, neurogenesis, and cardiogenesis. Using a new scRNA-seq dataset of paired young and aged human fibroblasts, Tabula nominates rejuvenation factors through age- and identity score-guided in silico prioritization, outperforming conventional approaches. Thus, Tabula represents an important advance in single-cell foundation modeling by integrating tabular learning with FL, paving the way toward privacy-preserving virtual cells for human health.</p>
+    <p><b>Authors:</b> Tianxi Ji</p>
+    <p><b>Summary:</b> The classical analysis of the Gaussian mechanism in differential privacy reduces privacy loss for a pair of neighboring datasets to a scalar random variable. While this scalar characterization is sufficient for privacy accounting, each perturbation instance also induces a high-dimensional random triangle formed by the sensitivity vector and the two corresponding noise vectors. In this work, we develop two complementary geometric representations of these random triangles.
+  The first representation maps the normalized squared edge lengths to a simplex. We derive its exact joint density, characterize its elliptical support, and reconstruct the classical privacy loss random variable from the simplex coordinates. The second representation maps the spectral shape of each normalized triangle to a hemisphere. We derive the corresponding density and coordinate mappings, recover the same privacy loss, and characterize an equatorial drift together with band concentration as the dimension increases. These results provide two exact geometric coordinate systems that complement the scalar privacy loss and connect differential privacy with the probabilistic analysis of random shapes.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.04698v1">F-ACVAE: A Federated Adaptive Conditional Variational Auto-Encoder for Privacy-Preserving Intrusion Detection in IoT Networks</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-06T05:58:20Z</p>
+  <h3><a href="http://arxiv.org/abs/2608.01311v1">RH-RAG: Trustworthy Long-Form Generation for Privacy-Constrained Settings</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-08-02T15:27:00Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammad Ansarimehr, Somayeh Changiz, Ehsan Baghishani, Ali Mousavi</p>
-    <p><b>Summary:</b> The rapid proliferation of Internet of things (IoT) devices has significantly expanded the cyber-attack surface, necessitating robust and privacy-preserving intrusion detection systems (IDS). However, centralized learning approaches often suffer from severe performance degradation due to high-dimensional traffic data, extreme class imbalance, and highly non-independent and identically distributed (non-IID) data across heterogeneous edge devices. To address these challenges, this paper proposes F-ACVAE, a federated adaptive conditional variational autoencoder framework that enables collaborative model training across distributed IoT devices without sharing raw data. F-ACVAE incorporates selective parameter aggregation, where local encoders remain private while globally shared components are synchronized to preserve discriminative latent structures. To further enhance stability under extreme non-IID settings and feature distribution shifts, we introduce a novel constrained momentum Gaussian aggregation (CMGA) strategy that combines update clamping with momentum-based smoothing to mitigate client drift. Extensive experiments on the N-BaIoT dataset demonstrate that F-ACVAE achieves an average accuracy and macro F1-score of 99\%, outperforming state-of-the-art baselines. Moreover, the selective aggregation mechanism reduces communication overhead by approximately 62\%, making the framework particularly suitable for resource-constrained IoT environments. These results highlight the effectiveness of F-ACVAE in achieving high detection performance while ensuring privacy preservation and communication efficiency.</p>
+    <p><b>Authors:</b> Raj Shekhar Singh</p>
+    <p><b>Summary:</b> Generating long-form content from extensive internal reports remains challenging for organizations operating under strict privacy and security constraints, where proprietary cloud-based LLM APIs are often not viable. While locally deployed open-weight models offer a privacy-preserving alternative, existing retrieval-augmented generation (RAG) approaches on smaller models frequently lack effective global planning and accumulate factual inconsistencies over long outputs. To address these limitations, we present RH-RAG, a multi-agent framework for secure and trustworthy long form generation using local language models. RH-RAG decomposes generation into three coordinated stages: a Planner Agent that constructs a global document outline from high-level semantic summaries, a Writer Agent that incrementally generates coherent section-wise content using bounded coherence memory, and a Checker Agent that mitigates hallucinations through natural language inference-based factual verification and an attestation-driven revision loop. The framework further employs a dual-level retrieval index that supports efficient planning and fine-grained contextual generation on consumer-grade hardware. Evaluations across literary, financial, and legal domains demonstrate that RH-RAG consistently improves factual grounding, semantic coherence, and document-level alignment compared to standard and hierarchical RAG baselines, while achieving reliability competitive with proprietary cloud-based systems without compromising data privacy.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.04209v2">Ball Differential Privacy: How to Mitigate Data Reconstruction with Less Noise</a></h3>
+  <h3><a href="http://arxiv.org/abs/2608.01290v1">FedChronos: Federated Fine-Tuning of Time-Series Foundation Models for Privacy-Preserving Commodity Price Forecasting</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-08-02T14:59:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amit Sharma, Nitin Auluck, Akramul Azim</p>
+    <p><b>Summary:</b> Time-series foundation models (TSFMs) such as Chronos have demonstrated strong forecasting capabilities across domains, yet adapting them to institutionally fragmented settings, where data cannot be centralized due to regulatory, competitive, or sovereignty constraints, remains unexplored. We introduce FedChronos, a framework for federated parameter-efficient fine-tuning of an already pre-trained TSFM, a setting that existing federated time-series work has not addressed, since prior methods either pre-train from scratch or align prototypes rather than adapt a fixed backbone. Our approach applies Low-Rank Adaptation (LoRA) to the Chronos-T5 backbone and trains across distributed clients using FedAvg and FedProx, transmitting only lightweight adapter weights (384~KB per round, an 86$\times$ reduction over full-model exchange). We evaluate FedChronos on daily commodity prices from 15 Indian agricultural markets across 9 states, a naturally non-IID federated setting, and find that naïve LoRA fine-tuning overfits substantially on small per-client datasets, dropping below zero-shot performance. We further observe that differential privacy (DP) noise can act as implicit regularization and counteract this overfitting: in our experiments the strongest configuration ($\varepsilon = 5$) reduces mean absolute percentage error (MAPE) by 31% over zero-shot and 26% over the best traditional baseline, while bounding each round's information leakage via per-round $(\varepsilon, δ)$-differential privacy. Because the model is compact and the updates are small, the approach also suits edge AI deployments where both the network link and the client device are constrained. Overall, our findings suggest that privacy and accuracy can be complementary rather than competing objectives in federated TSFM fine-tuning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.01192v1">A Unified Benchmark for Privacy-preserving Vector Search</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Performance-F9C80E">
+  <p><b>Published on:</b> 2026-08-02T12:16:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Anne-Marie Kermarrec, Rafael Pires, Mathis Randl, Martijn de Vos</p>
+    <p><b>Summary:</b> Vector search powers semantic search, recommendation systems, and retrieval-augmented generation (RAG). By design, the service answering a query sees both the query embedding and, usually, the corpus against which it is matched. This is a privacy breach for both the user issuing the query and the owner of the corpus. A family of cryptographic schemes (e.g., SAP, EMVP, BNTM, Tip-toe) addresses that leak. However, as each scheme is published and evaluated on its own corpus, threat model, parameter choices, hardware, and metric conventions, the numbers cannot be compared directly. Consequently, a practitioner asking which one to deploy today has no defensible way to choose. We close that gap with a uniform experimental comparison, including a Plaintext baseline and four cryptographic backends running over the same workload, hardware, and metric definitions. Under that ruler, the schemes spread across a Pareto frontier in privacy, performance, and recall rather than imposing a flat penalty on performance. We find that the performance of SAP matches Plaintext, EMVP delivers cryptographic indistinguishability at a 4x throughput cost on CPU, BNTM adds malicious-server verifiability at a further 22x median-latency cost, and Tiptoe hides the cluster choice itself, but incurs a 190x per-query cost compared to Plaintext. GPU acceleration pays off for Plaintext and SAP but not for EMVP or BNTM. All our experiment artifacts are publicly available for reproducibility</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.01148v1">Latency-Optimal Adaptive Split Inference for Privacy-Preserving Cloud-Edge-End Collaboration</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-08-02T10:59:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yi Li, Peng Zhang, Man Ho Au</p>
+    <p><b>Summary:</b> Internet of Things (IoT) end devices are increasingly expected to support privacy-sensitive batch inference, yet their limited computational resources often make full local execution of convolutional neural networks impractical. This paper presents a latency-optimal adaptive split inference framework for privacy-preserving cloud-edge-end collaboration. The end device acts as the trust anchor, executes the plaintext model prefix, encrypts the split activation using fully homomorphic encryption (FHE), and keeps the secret key locally, while the edge and cloud execute assigned model segments only on FHE ciphertexts. We formulate collaborative encrypted inference as a split-pair selection problem over an end-side split point and an edge-side termination point. The proposed planner jointly models plaintext prefix execution, encryption, communication, edge-side FHE execution, and cloud-side FHE completion, and supports both convolution-level and block-level split granularities. Experiments on CIFAR-10 and PathMNIST show that the proposed convolution-level collaborative scheme achieves amortized end-to-end speedups of approximately 12.9 times over full-cloud FHE and 3.9 times over the block-level alternative, while preserving the corresponding plaintext-model accuracy. Including modeled communication, the amortized latencies are 1033.279 s/sample on CIFAR-10 and 1023.429 s/sample on PathMNIST.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.01020v1">Inverting the Hidden: Unveiling Multimodal Privacy Leakage in Collaborative LVLM Inference</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-05T09:59:44Z</p>
+  <p><b>Published on:</b> 2026-08-02T05:56:23Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Joseph Margaryan, Nirupam Gupta</p>
-    <p><b>Summary:</b> Vector embeddings of raw records, while not human-readable, do not preserve record privacy: an adversary can reconstruct training records from a released model even when that model is a simple convex classifier. Differential privacy (DP) is the principled defense, but its noise is calibrated to worst-case indistinguishability, hiding arbitrary single-record substitutions, including those far outside the set of plausible alternatives relevant to a reconstruction adversary. The result is noise far larger than what reconstruction robustness requires, degrading accuracy without a corresponding security benefit.
-  We propose Ball-DP: enforcing epsilon-delta indistinguishability over single-record substitutions restricted to a ball of radius r under a distance metric d in the embedding space. A deployment facing only local reconstruction threats can choose a small r, thereby reducing noise and recovering accuracy. The radius makes the scope of the privacy claim explicit against reconstruction attacks; standard DP is recovered when r covers the entire admissible record domain. We provide noise calibrations for regularized convex learning problems under Ball-DP, and derive corresponding reconstruction-robustness certificates, called Ball-ReRo, that upper-bound an attacker's reconstruction success. By deriving the optimal finite-prior MAP reconstruction attack, we empirically audit Ball-ReRo certificates on seven benchmark learning tasks. Our experiments show that calibrating noise to Ball-DP improves utility, considerably exceeding the dilution of reconstruction robustness in high-privacy regimes, i.e., when epsilon is small.</p>
+    <p><b>Authors:</b> Shuaifan Jin, Zhibo Wang, Qiyuan Wang, Yiting Han, Yajie Zhou, Yuanfan Zhang, Jiahui Hu, Xiaoyi Pang</p>
+    <p><b>Summary:</b> Collaborative inference deploys Large Vision-Language Models (LVLMs) by partitioning computation between edge devices and the cloud. While withholding raw inputs supposedly ensures privacy, transmitting intermediate hidden states exposes a critical attack surface. However, it remains unclear whether deep-layer LVLM hidden states retain recoverable private information, given that visual content has been projected into the language embedding space. To address this concern, we theoretically analyze LVLM hidden-state recoverability and show that, under regularity assumptions and a positive semantic--nuisance margin, privacy-relevant visual semantics remain identifiable and stably recoverable. Motivated by this analysis, we propose RASR, a novel coarse-to-fine multimodal reconstruction attack. RASR obtains initial image and text reconstructions through modality-specific inverse paths that follow their respective forward processing pipelines in reverse, and then uses hidden-state consistency to refine both reconstructions. Evaluations on Qwen3-VL-8B-Instruct and LLaVA-1.5-7B across five datasets demonstrate that RASR reduces image reconstruction MSE by \(\sim\)50\% compared to the strongest baselines, while achieving up to 99\% token accuracy for text recovery. These results show that privacy-sensitive visual and textual information can be recovered even from deep-layer LVLM hidden states, exposing the privacy risks of collaborative inference.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.04004v1">Setting the Privacy Budget in Differential Privacy by Bounding Adversaries' Odds of Learning Sensitive Information</a></h3>
-  
-  <p><b>Published on:</b> 2026-07-04T19:57:15Z</p>
+  <h3><a href="http://arxiv.org/abs/2608.00872v1">Similarity Weighted Aggregation with Global Differential Privacy for Federated Brain Lesion Segmentation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-08-01T21:23:32Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Ruwimal Y. Pathiraja, Jerome P. Reiter</p>
-    <p><b>Summary:</b> Differential privacy is a mathematical definition of what it means to protect data subjects' privacy in data releases. Differential privacy depends on a parameter $ε$ known as the privacy budget. The value of $\varepsilon$ determines the nature of the privacy guarantee, with smaller values generally offering more privacy. However, reducing $\varepsilon$ also tends to decrease the accuracy of results protected with differentially private algorithms. Setting a value for $\varepsilon$ that satisfactorily balances this risk/accuracy trade off is complicated in practice, and there is not a standard approach to doing so. In part this is because practitioners may struggle to understand the privacy guarantee afforded by $\varepsilon$. We present an approach to interpreting and setting $\varepsilon$ in which (i) the practitioner establishes bounds on the posterior odds that adversaries can learn sensitive information, and (ii) the practitioner converts these bounds to values of $\varepsilon$. We illustrate the approach using data from a case control study.</p>
+    <p><b>Authors:</b> Muhammad Irfan Khan, Eero Lehtonen, Joni Obradovic, Elina Kontio, Esa Alhoniemi, Suleiman A. Khan, Mojtaba Jafaritadi</p>
+    <p><b>Summary:</b> Federated Learning (FL) enables collaborative training of machine learning models across multiple institutions without sharing sensitive data, making it particularly suitable for medical imaging applications. However, heterogeneous data distributions across institutions and potential information leakage through model updates remain important challenges. In this work, we propose DP-SimAgg, a privacy-preserving federated learning framework that integrates similarity-weighted aggregation with a server-side differential privacy mechanism. The proposed method applies L2 clipping to bound collaborator updates, computes similarity-based aggregation weights to mitigate the effects of non-IID data distributions, and injects calibrated Gaussian noise at the central server, providing per-round privacy guarantees under the assumed sensitivity bound. The framework is implemented using Intel's OpenFL platform and evaluated on the FeTS 2022 dataset consisting of 1251 multi-modal MRI scans for brain tumor segmentation. Experimental results demonstrate that DP-SimAgg maintains competitive segmentation performance while providing privacy protection. Under a strict per-round privacy budget (epsilon = 1, cumulative epsilon_total = 20 over 20 rounds), the method achieves Dice scores of 0.6357, 0.5305, and 0.5274 for the enhancing tumor (ET), tumor core (TC), and whole tumor (WT) regions, respectively. With a more relaxed per-round budget (epsilon = 10, cumulative epsilon_total = 200), performance approaches that of the non-private baseline while incorporating a central Gaussian mechanism with per-round (epsilon, delta)-DP accounting under the assumed sensitivity bound. These results highlight the potential of DP-SimAgg for enabling privacy-preserving collaborative learning in medical imaging applications.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.00826v1">XR-PRISM: Data-Driven Privacy and Risk Impact Scoring Metric for Extended Reality in Healthcare</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-08-01T19:04:55Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Nafisa Anjum, M. Rasel Mahmud</p>
+    <p><b>Summary:</b> Extended Reality (XR) technologies are transforming healthcare through immersive training, remote consultation, and patient rehabilitation. However, their extensive sensing capabilities and complex data pipelines introduce distinct security, privacy, and safety risks. Existing research lacks a unified quantitative framework for assessing and prioritizing these risks. We review 65 peer-reviewed studies on XR security and privacy published from 2017 to 2024, synthesizing a four-layer threat taxonomy consisting of Device, Network, User, and Cloud layers, along with a corresponding catalog of defenses. Building on this analysis, we introduce XR-PRISM, a six-factor weighted Privacy and Risk Impact Scoring Metric that integrates threat likelihood, system vulnerability, attack surface, safety impact, privacy impact, and control effectiveness into a single actionable risk score. Our analysis shows that more than 70% of the identified countermeasures lack standardized risk evaluation, while fewer than 15% of the documented attacks require a high level of expertise to execute. XR-PRISM provides researchers and practitioners with a transparent, data-driven method for comparing, prioritizing, and mitigating security and privacy risks in healthcare XR deployments.</p>
   </details>
 </div>
 
