@@ -3519,5 +3519,30 @@
       "cs.CR",
       "cs.ET"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.00282v1",
+    "title" : "Reflection, Education, Consistency: Towards Best Ethics Practices At Security And Privacy Conferences",
+    "summary" : "Research ethics is a controversial and emotionally charged topic in the security and privacy community, sparking discussions at conferences and on social media. In recent years, some of the leading conferences have introduced interventions such as mandatory ethics sections, with mixed reactions within the community. Program committee chairs and steering committees increasingly emphasize ethics, yet there is limited empirical validation on ethics procedures and interventions, as well as no explicitly communicated goals.\n  To support a shared understanding in our community and guide informed decisions at the conference level, we examined past ethics policies at the top-four conferences and conducted in-depth semi-structured interviews with senior and junior (n=20) community members, including some (former) chairs of program and research ethics committees. In these, we explored reasons for and goals of ethics procedures and discussed existing ethics interventions as well as possible new approaches proposed by our team.\n  While the community appears to be evolving toward the identified goals, i.e., raising ethical awareness and preventing the publication of unethical work, we identified the lack of ethical education within the community itself as a major obstacle to further progress on this matter. Ethical education is often passed to the universities. Interviewees also mentioned challenges with the complexity of ethics policies and the lack of consistency across different conferences, as well as policies changing year-to-year. Several participants warned that over-regulation may lead to backlash, encouraging mere compliance, such as people turning to LLMs for ethics sections rather than undertaking in-depth consideration. In response, we suggest a coordinated, community-wide ethics steering effort and take a first step by introducing an open ethics wiki.",
+    "updated" : "2026-07-31T20:41:15Z",
+    "published" : "2026-07-31T20:41:15Z",
+    "authors" : [
+      {
+        "name" : "Florian Hantke"
+      },
+      {
+        "name" : "Rafael Mrowczynski"
+      },
+      {
+        "name" : "Til Dralle"
+      },
+      {
+        "name" : "Ben Stock"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
   }
 ]
