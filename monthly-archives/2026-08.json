@@ -212,5 +212,140 @@
       "cs.CR",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.03940v1",
+    "title" : "Echoes in the Digital Abyss: Examining the Bubble Surrounding Security and Privacy Discourse in Social Networks",
+    "summary" : "The dissemination of security and privacy education and guidance has been and still remains a challenge today. Social networks represent a potential avenue for sharing best practices, and experimentally they have been found to be effective at this task. While this appears promising, in the real world, security and privacy discussions would need to reach a wide range of people to be effective, avoiding the \"interest bubbles\" that commonly occur. We sought to understand how the communities surrounding security and privacy discourse operate, with a focus on what challenges need to be overcome to enable security and privacy discourse and advice to reach a wider audience.\n  Indeed, we found that in-the-wild security and privacy discussions in social networks portray quite a different picture than in experimental settings. We built and analyzed the structure of a graph containing over 13 million users on the \"X\" platform (formerly \"Twitter\"), including 10,159 users who posted about security and privacy and their followers. Prior work has shown that users are more likely to consider information within social media if their like-minded social ties have visibly engaged with it. Our findings indicate that the users generating or participating in security discussions largely already belong to highly clustered technology and security- and privacy-related interest communities, which suggests that the people who are not already in the \"inner circle\" of relevant interests are likely not exposed effectively to these discussions. We conclude with reflections and ideas on increasing the reach of security and privacy guidance in social networks.",
+    "updated" : "2026-08-04T17:10:47Z",
+    "published" : "2026-08-04T17:10:47Z",
+    "authors" : [
+      {
+        "name" : "Reagan Dennison"
+      },
+      {
+        "name" : "Saanvi Sharma"
+      },
+      {
+        "name" : "Noshir Contractor"
+      },
+      {
+        "name" : "Sruti Bhagavatula"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.03737v1",
+    "title" : "Dependency Triad: A Metric to Quantify the Dependencies Between Attributes for Local Differential Privacy",
+    "summary" : "Collecting multidimensional user data is essential for extracting rich insights across various applications. Local Differential Privacy (LDP) has emerged as a de facto standard for mitigating privacy risks in such scenarios. A key challenge in privacy-preserving multidimensional data collection lies in inter-attribute dependencies, as they can inadvertently reveal correlated information and increase privacy vulnerabilities. Therefore, accurately measuring correlation-induced privacy leakage (CPL) is essential for privacy analysis and privacy-utility trade-off. However, existing CPL analysis solutions either require accurate prior knowledge or face scalability challenges for large numbers of attributes and high-cardinality attributes. These limit their practical applicability in real data. To address this research gap, we propose a novel metric, ``Dependency Triad'' (DT), which summarizes the pairwise dependency information relevant to CPL using three parameters and yields a \\emph{constant-time} conservative estimator of pairwise CPL. DT explicitly models uncertainty in prior distributional knowledge through its parameters, delivering robust leakage estimates. Moreover, its robustness to sparse distributions makes it particularly suitable for high-cardinality attributes, while the pairwise formulation serves as a tractable building block for assessing total leakage in multidimensional settings. Extensive experiments on both synthetic and real datasets demonstrate that DT consistently estimates CPL across diverse dependency regimes and prior uncertainties.",
+    "updated" : "2026-08-04T14:30:55Z",
+    "published" : "2026-08-04T14:30:55Z",
+    "authors" : [
+      {
+        "name" : "Sandaru Jayawardana"
+      },
+      {
+        "name" : "Sennur Ulukus"
+      },
+      {
+        "name" : "Ming Ding"
+      },
+      {
+        "name" : "Kanchana Thilakarathna"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.03700v1",
+    "title" : "When Agents Learn to Be You: Benchmarking Privacy Leakage, Impersonation Risk, and Defenses in Persona Skills",
+    "summary" : "Persona skills distill personal interaction histories into portable and executable artifacts for downstream agents. While enabling flexible personalization, this process concentrates fragmented personal signals, amplifies their impact through reuse, and challenges defenses designed for individual records or retrieval-based memory. To systematically investigate the safety of the persona-skill pipeline, we introduce AntiSkillBench, an end-to-end benchmark for evaluating risks and defenses across the persona-skill pipeline. It comprises: (i) a dataset of 7,500 persona-grounded dialogue traces, constructed from 50 behaviorally rich profiles spanning diverse task scenarios; (ii) an evaluation suite that measures skill-level privacy leakage and agent-level attribute disclosure and behavioral impersonation across three skill-distillation strategies; and (iii) a defense evaluation covering four configurations across online and post-hoc interventions, including active risk suppression and passive provenance protection. Experiments across three frontier agents show that persona-skill risks persist across agent backbones and distillation protocols, extending from explicit attributes to communication styles and personality traits. Existing defenses exhibit limited and distillation-dependent effectiveness, failing to generalize across risk and distillation strategies. These results highlight AntiSkillBench as a challenging benchmark for developing privacy-preserving and authenticity-aware persona skills.",
+    "updated" : "2026-08-04T14:04:56Z",
+    "published" : "2026-08-04T14:04:56Z",
+    "authors" : [
+      {
+        "name" : "Yongli Xiang"
+      },
+      {
+        "name" : "Zhifang Zhang"
+      },
+      {
+        "name" : "Bojun Yang"
+      },
+      {
+        "name" : "Ziming Hong"
+      },
+      {
+        "name" : "Lei Feng"
+      },
+      {
+        "name" : "Miao Xu"
+      },
+      {
+        "name" : "Tongliang Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.03130v1",
+    "title" : "DP-MemView: A Memory Interface for Attribute-Level Transcript Privacy in Long-Term LLM Agents",
+    "summary" : "Long-term memory enables persistent personalization in LLM agents, but repeated memory-conditioned responses can cumulatively reveal protected attributes even when they are never stated explicitly. We formalize this threat as adaptive transcript privacy and introduce DP-MemView, a differentially private interface that privately selects public response-conditioning views and exposes those views---rather than raw memory---to the response LLM. Each private selection is charged to every protected attribute whose memory group intersects the read set. Per-attribute ledgers block any selection that would exceed its cap and return a fixed generic view instead. Under an explicit interface contract, we prove pure B_a-DP for the entire adaptive transcript. We also extend the result to stores that differ across multiple protected groups and bound how much observing the transcript can change an adversary's prior odds. We evaluate the online and preallocated modes with three response LLMs on a controlled adjacent-store benchmark and a public-corpus transfer track. Both modes keep transcript distinguishability near chance while preserving target-required personalization and overall response quality. Further diagnostics show that removing key safeguards causes mismatched output support, missing ledger charges, revealing side channels, or growing long-horizon leakage.",
+    "updated" : "2026-08-04T05:00:10Z",
+    "published" : "2026-08-04T05:00:10Z",
+    "authors" : [
+      {
+        "name" : "Jong Wook Kim"
+      },
+      {
+        "name" : "Byoungjae Min"
+      },
+      {
+        "name" : "Kennedy Edemacu"
+      },
+      {
+        "name" : "Yoonhyuk Choi"
+      },
+      {
+        "name" : "Sae-Hong Cho"
+      },
+      {
+        "name" : "Beakcheol Jang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.02774v1",
+    "title" : "Privacy-Preserving AI Verification via Minimal Information Disclosure",
+    "summary" : "AI verification crosses a trust boundary: a verifier must learn enough to establish an authorized claim, yet the same evidence can reveal sensitive details about the model, workload, or hardware. We introduce minimal information disclosure (MID), which designs and quantifies the information content of verifier-facing evidence itself. MID measures collateral leakage with conditional mutual information: what the release reveals about the protected property after the authorized result is known. MID is general by design: it can accommodate different verification goals, protected properties, evidence sources, and deployment constraints. To demonstrate MID's practicality, we evaluate it on four physical measurements and six verification tasks spanning execution type, hardware identity, compute scale, and model identity. These experiments use three mechanism-design variables--the evidence channel, collection policy, and release transformation--but MID is not limited to these choices and can accommodate other deployable mechanisms. Across these tasks, MID produces three releases with perfect held-out verification and zero measured collateral leakage, while the remaining tasks yield explicit privacy--utility frontiers. MID also supports ZKP-certified releases: we demonstrate our proposed linear-projection mechanism using a Groth16 zk-SNARK.",
+    "updated" : "2026-08-03T18:18:11Z",
+    "published" : "2026-08-03T18:18:11Z",
+    "authors" : [
+      {
+        "name" : "Sleem Abdelghafar"
+      },
+      {
+        "name" : "Gabriel Kulp"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
