@@ -689,7 +689,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.12354v1">Reducing information dependency does not cause training data privacy. Adversarially non-robust features do</a></h3>
+  <h3><a href="http://arxiv.org/abs/2607.12354v2">Reducing information dependency does not cause training data privacy. Adversarially non-robust features do</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
   <p><b>Published on:</b> 2026-07-14T05:06:24Z</p>
   <details>
@@ -957,44 +957,44 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.07635v2">Unlearning to Protect: A Distilled Reinforcement Learning Framework with Privacy-Preserving Feature Unlearning and XAI for IoT Security</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-08T16:52:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Md. Nahid Hasan, Md. Golam Rabiul Alam</p>
-    <p><b>Summary:</b> Botnets pose a significant cybersecurity threat, enabling attacks such as DDoS, data theft, and service disruptions on IoT devices. These devices often lack built-in botnet traffic filtering, leaving them highly exposed. Existing AI-based solutions improve detection capabilities but have limitations: (i) they are too heavy for IoT deployment, and (ii) they lack unlearning capabilities to forget sensitive or outdated features without retraining. To address these challenges, we propose DiRLU, a lightweight, reinforcement learning driven framework, while ensuring privacy by selectively unlearning sensitive or outdated features without requiring retraining. The framework leverages knowledge distillation to transfer knowledge from a teacher model into a lightweight student model, with both models trained using A2C. A post-hoc unlearning mechanism modifies weights to remove targeted features, while restored features show negligible performance loss, confirming reversibility. Unlike many benchmark models that used only 5% of the BoT-IoT dataset, this research leverages 25%, allowing us to develop a strong teacher model. Both the teacher and student models were trained using the A2C reinforcement learning algorithm, achieving impressive results, with the student model achieving 99.60% accuracy and a 99.80% F1 score. To enhance transparency, we integrated Explainable AI (XAI), particularly LIME, which helps interpret the model's decisions and identify the key features influencing its predictions. Moreover, DiRLU requires only 2,370 FLOPS, approximately 3.87x more efficient than the state-of-the-art model, highlighting its efficiency for edge deployment. DiRLU combines efficiency with privacy, aligning with GDPR standards (right to be forgotten) to provide practical and scalable IoT security solution.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.07371v2">zk-ScalHard: Scalable and Hardware-Rooted Privacy-Preserving Authentication for Secure OTA Updates in Zonal SDVs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-08T13:05:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shrikant Tangade, Bansi Pambhar, Valeria Loscri, Mauro Conti</p>
-    <p><b>Summary:</b> The automotive industry is transitioning to Zonal-oriented Architectures (ZoA) for Software-Defined Vehicles (SDVs), enabling frequent over-the-air (OTA) updates for 100+ Electronic Control Units (ECUs). While OTA updates improve efficiency, they introduce safety-critical security risks. Current standards like Uptane and AUTOSAR Adaptive rely on Public-Key Infrastructure (PKI). However, PKI-based authentication creates bandwidth bottlenecks in in-vehicle and vehicle-to-cloud (V2I) communication as ECU density increases. It also risks exposing sensitive vehicle configurations and passenger privacy due to centralized architectures. Next-generation Zonal SDVs require decentralized, scalable authentication with data privacy. To address this, we propose zk-ScalHard, a hardware-rooted, privacy-preserving authentication protocol. We introduce a decentralized, hierarchical trust-promotion model utilizing Silicon Physical Unclonable Functions (PUFs) and two novel Zero-Knowledge Proof (ZKP) circuits: (1) Zonal Identity and Integrity (ZIDI) and (2) High-Performance Computing Aggregation (HPCA). These circuits employ multi-party computation (MPC) and recursive aggregation to achieve decentralization and scalability. The integration of ZKPs and PUFs ensures 100% vehicle-level data sovereignty. Benchmarked against Uptane, zk-ScalHard achieves constant O(1) communication and verification complexity, improving upon the linear O(n) complexity of current systems. Evaluation shows a 99.2% reduction in authentication bandwidth and a 99.9% reduction in the temporal attack surface. Our results demonstrate that zk-ScalHard provides a scalable, secure, and GDPR-compliant architecture for future Zonal SDVs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.07209v1">Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-07-08T09:44:27Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> T-H. Hubert Chan, Elaine Shi, Mengshi Zhao, Mingxun Zhou</p>
-    <p><b>Summary:</b> Modern federated and streaming learning systems often release intermediate models, so privacy must hold for the full trajectory under adaptive interaction. Motivated by participation privacy, we study single-edit neighboring user streams, where one insertion/deletion shifts all subsequent updates and defeats standard Hamming-neighbor continual-release analyses. We give an auditable modular recipe. A randomized buffering wrapper emits bins of size $[U,2U]$, reducing single-edit streams to a Hamming-style per-bin update stream with explicit backlog/delay guarantees, where $U$ is calibrated by the privacy parameters $(\varepsilon,δ)$. We then prove a certification theorem identifying when a non-adaptive Hamming-neighbor DP proof for a continual primitive lifts to adaptive inputs: the primitive must use fresh per-round randomness and have a stable one-round privacy profile under common adaptive context. Together, these ingredients yield trajectory-level $(\varepsilon,δ)$-DP for single-edit streams using standard primitives (e.g., tree prefix sums), with an explicit privacy--latency link via $U$.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.07378v1">LSEAD: A Privacy-Preserving LLM-Based Speech Analysis Framework for Early Alzheimer's Disease Screening</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-08-07T16:21:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xin Wang, Yingchao Huang, Yuhan Su, Shanshan Yao, Wei Peng</p>
+    <p><b>Summary:</b> Early diagnosis of Alzheimer's disease (AD) is critical for enabling timely interventions that may slow disease progression and improve patient outcomes. There is a growing need for AD detection methods that are non-invasive and cost-effective, especially in real-world clinical settings with diverse patient populations and recording conditions. Speech-based screening addresses these needs by using natural speech collected without specialized equipment. Recent advances in large language models (LLMs) have improved speech analysis by providing rich linguistic representations and strong generalization. In this study, we propose LSEAD, a speech-based AD detection framework using pretrained open-source LLMs. Speech recordings are automatically transcribed, and text embeddings are extracted using locally deployed LLMs. Principal component analysis (PCA) is applied to reduce dimensionality before classification. Because the framework relies only on speech transcripts and locally deployed models, it supports privacy-preserving AD risk assessment without external data exchange. We evaluate LSEAD on the ADReSS20 and ADReSSo2021 benchmark datasets. Experimental results show that LLM-based embeddings generalize well across datasets and improve AD classification accuracy by up to 5 percent over existing methods, especially for early-stage detection. These results demonstrate that LSEAD provides a practical, secure, and scalable approach for early AD screening.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.07206v1">Sub-Sampling for Positioning Privacy in ISAC: Deception by Aliasing via Sparse Arrays and Pilots</a></h3>
+  
+  <p><b>Published on:</b> 2026-08-07T13:19:52Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> L. Yashvanth, Christos Masouros, Suraj Srivastava, Aditya K. Jagannatham, Lajos Hanzo</p>
+    <p><b>Summary:</b> Integrated sensing and communications (ISAC) enables simultaneous communication and sensing using shared spectrum and hardware resources in wireless systems. However, securing the sensing functionality against unauthorized receivers remains a fundamental challenge. In this paper, we propose a sub-sampling based sensing-privacy framework for communication-centric (CC)-ISAC systems that jointly exploits sparse arrays and sparse pilot allocations to induce controlled aliasing in the spatial and frequency domains, respectively. By interpreting antenna arrays and pilot subcarriers as spatial and frequency sampling mechanisms, respectively, we show that spatial-frequency undersampling naturally distorts the range-angle multiple-input multiple-output (MIMO) ambiguity function (AF) observed by an unauthorized receiver. To this end, we first derive a closed-form expression for the range-angle MIMO-AF, and subsequently characterize the ghost targets that arise due to spatial and frequency-domain aliasing. Next, we establish a sufficient condition under which these ambiguities jointly translate into positioning ambiguity and show that, for sufficiently large spatial and frequency sub-sampling factors, an unauthorized receiver inevitably positions a target at incorrect ghost positions. Finally, we show that the proposed sub-sampling framework preserves the native legitimate ISAC performance without introducing additional trade-offs. Numerical results verify the analysis and show that sparse arrays and sparse pilots naturally enable sensing and positioning privacy through deception by aliasing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.06888v1">Correlation Geometry of Quantum Sensor Networks: Local-Global Information Flow and Local Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2026-08-07T07:21:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gong-Chu Li, Lei Chen, Xu-Song Hong, Hua-Qing Xu, Yuancheng Liu, Si-Qi Zhang, Jia-Hao Zhao, Geng Chen, Chuan-Feng Li, Guang-Can Guo</p>
+    <p><b>Summary:</b> Quantum sensor networks typically encode N unknown parameters while targeting a single linear combination, rendering the N-1 remaining parameters as nuisance directions. To rigorously quantify estimation precision under such nuisances, we introduce the concept of effective quantum Fisher information (EQFI) and develop an exact EQFI-based phase map that systematically describes the allocation between local and global EQFI. Leveraging this geometric framework, we identify a fundamental bottleneck termed the "barrel effect": the global EQFI is strictly bounded by the weakest weighted local sensing capacity among all nodes. We further establish concrete conditions for saturating this bound. Crucially, this geometric map delineates how the trade-off between local and global EQFI depends dynamically on quantum correlations, and uncovers a counterintuitive "overcorrelated" regime where excessive correlations actively degrade both local and global performance. Finally, we apply the phase map to intrinsic local privacy and identify the condition under which every local parameter is inaccessible while the desired global combination remains estimable. Overall, our work provides a principled methodology for engineering optimal network states in quantum sensing architectures.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2608.05737v1">ABC: Numerical Data Collection under Local Differential Privacy without Prior Knowledge</a></h3>
