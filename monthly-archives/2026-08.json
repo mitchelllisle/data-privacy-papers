@@ -471,5 +471,103 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.07378v1",
+    "title" : "LSEAD: A Privacy-Preserving LLM-Based Speech Analysis Framework for Early Alzheimer's Disease Screening",
+    "summary" : "Early diagnosis of Alzheimer's disease (AD) is critical for enabling timely interventions that may slow disease progression and improve patient outcomes. There is a growing need for AD detection methods that are non-invasive and cost-effective, especially in real-world clinical settings with diverse patient populations and recording conditions. Speech-based screening addresses these needs by using natural speech collected without specialized equipment. Recent advances in large language models (LLMs) have improved speech analysis by providing rich linguistic representations and strong generalization. In this study, we propose LSEAD, a speech-based AD detection framework using pretrained open-source LLMs. Speech recordings are automatically transcribed, and text embeddings are extracted using locally deployed LLMs. Principal component analysis (PCA) is applied to reduce dimensionality before classification. Because the framework relies only on speech transcripts and locally deployed models, it supports privacy-preserving AD risk assessment without external data exchange. We evaluate LSEAD on the ADReSS20 and ADReSSo2021 benchmark datasets. Experimental results show that LLM-based embeddings generalize well across datasets and improve AD classification accuracy by up to 5 percent over existing methods, especially for early-stage detection. These results demonstrate that LSEAD provides a practical, secure, and scalable approach for early AD screening.",
+    "updated" : "2026-08-07T16:21:00Z",
+    "published" : "2026-08-07T16:21:00Z",
+    "authors" : [
+      {
+        "name" : "Xin Wang"
+      },
+      {
+        "name" : "Yingchao Huang"
+      },
+      {
+        "name" : "Yuhan Su"
+      },
+      {
+        "name" : "Shanshan Yao"
+      },
+      {
+        "name" : "Wei Peng"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.07206v1",
+    "title" : "Sub-Sampling for Positioning Privacy in ISAC: Deception by Aliasing via Sparse Arrays and Pilots",
+    "summary" : "Integrated sensing and communications (ISAC) enables simultaneous communication and sensing using shared spectrum and hardware resources in wireless systems. However, securing the sensing functionality against unauthorized receivers remains a fundamental challenge. In this paper, we propose a sub-sampling based sensing-privacy framework for communication-centric (CC)-ISAC systems that jointly exploits sparse arrays and sparse pilot allocations to induce controlled aliasing in the spatial and frequency domains, respectively. By interpreting antenna arrays and pilot subcarriers as spatial and frequency sampling mechanisms, respectively, we show that spatial-frequency undersampling naturally distorts the range-angle multiple-input multiple-output (MIMO) ambiguity function (AF) observed by an unauthorized receiver. To this end, we first derive a closed-form expression for the range-angle MIMO-AF, and subsequently characterize the ghost targets that arise due to spatial and frequency-domain aliasing. Next, we establish a sufficient condition under which these ambiguities jointly translate into positioning ambiguity and show that, for sufficiently large spatial and frequency sub-sampling factors, an unauthorized receiver inevitably positions a target at incorrect ghost positions. Finally, we show that the proposed sub-sampling framework preserves the native legitimate ISAC performance without introducing additional trade-offs. Numerical results verify the analysis and show that sparse arrays and sparse pilots naturally enable sensing and positioning privacy through deception by aliasing.",
+    "updated" : "2026-08-07T13:19:52Z",
+    "published" : "2026-08-07T13:19:52Z",
+    "authors" : [
+      {
+        "name" : "L. Yashvanth"
+      },
+      {
+        "name" : "Christos Masouros"
+      },
+      {
+        "name" : "Suraj Srivastava"
+      },
+      {
+        "name" : "Aditya K. Jagannatham"
+      },
+      {
+        "name" : "Lajos Hanzo"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.06888v1",
+    "title" : "Correlation Geometry of Quantum Sensor Networks: Local-Global Information Flow and Local Privacy",
+    "summary" : "Quantum sensor networks typically encode N unknown parameters while targeting a single linear combination, rendering the N-1 remaining parameters as nuisance directions. To rigorously quantify estimation precision under such nuisances, we introduce the concept of effective quantum Fisher information (EQFI) and develop an exact EQFI-based phase map that systematically describes the allocation between local and global EQFI. Leveraging this geometric framework, we identify a fundamental bottleneck termed the \"barrel effect\": the global EQFI is strictly bounded by the weakest weighted local sensing capacity among all nodes. We further establish concrete conditions for saturating this bound. Crucially, this geometric map delineates how the trade-off between local and global EQFI depends dynamically on quantum correlations, and uncovers a counterintuitive \"overcorrelated\" regime where excessive correlations actively degrade both local and global performance. Finally, we apply the phase map to intrinsic local privacy and identify the condition under which every local parameter is inaccessible while the desired global combination remains estimable. Overall, our work provides a principled methodology for engineering optimal network states in quantum sensing architectures.",
+    "updated" : "2026-08-07T07:21:39Z",
+    "published" : "2026-08-07T07:21:39Z",
+    "authors" : [
+      {
+        "name" : "Gong-Chu Li"
+      },
+      {
+        "name" : "Lei Chen"
+      },
+      {
+        "name" : "Xu-Song Hong"
+      },
+      {
+        "name" : "Hua-Qing Xu"
+      },
+      {
+        "name" : "Yuancheng Liu"
+      },
+      {
+        "name" : "Si-Qi Zhang"
+      },
+      {
+        "name" : "Jia-Hao Zhao"
+      },
+      {
+        "name" : "Geng Chen"
+      },
+      {
+        "name" : "Chuan-Feng Li"
+      },
+      {
+        "name" : "Guang-Can Guo"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
   }
 ]
