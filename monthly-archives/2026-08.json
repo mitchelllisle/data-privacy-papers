@@ -569,5 +569,243 @@
     "categories" : [
       "quant-ph"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.09328v1",
+    "title" : "MaxModShift: Model Privacy via Designed Shifts",
+    "summary" : "Model learning by an eavesdropper is treated as an estimation problem in a federated environment. The Fisher Information Matrix for the eavesdropper's estimation problem is driven to singularity through a signaling design; this ensures that the eavesdropper cannot learn the model. Herein, the innovation of prior designs is that model shifts are designed to maximize the difference in the model learned by Eve and the central server while satisfying a transmission power constraint for the agents. Two shift schemes are provided. MaxModShift outperforms a prior ModShift design while requiring lesser transmission power. Compared to a noise injection scheme, MaxModShift performs better while requiring a lower bandwidth secret channel and a reduced average power consumption.",
+    "updated" : "2026-08-10T09:08:48Z",
+    "published" : "2026-08-10T09:08:48Z",
+    "authors" : [
+      {
+        "name" : "Nomaan A. Kherani"
+      },
+      {
+        "name" : "Urbashi Mitra"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.09164v1",
+    "title" : "CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy Preference Alignment",
+    "summary" : "Aligning large language models (LLMs) with human privacy preferences requires capturing individuals' disclosure boundaries beyond general privacy norms. However, a gap remains in eliciting such nuanced preferences to evaluate alignment in realistic settings. We introduce CIDER, a dataset of 14,850 human annotations from 169 users, forming 1,650 contextual disclosure boundary sets across 60 interpersonal communication scenarios involving information sharing that violates privacy norms. Each boundary represents a real user's disclosure decisions over 9 sharing variants in a scenario, for a given communication role and AI-mediated condition. We formulate a task in which models predict a user's disclosure decision from historical boundaries, with varying levels of contextual information. Across 12 open and proprietary models, in-context personalization improves prediction accuracy by up to 11.41 percentage points using only 6 historical examples. Larger models such as GPT-5.4 (with medium reasoning effort) and Claude Sonnet 4.6 are better at leveraging semantic context to understand user-specific, context-dependent disclosure preferences for more accurate predictions, while smaller models tend to rely on structured heuristics based on disclosure granularity and identifiability. Personalization generally improves prediction accuracy, but the improvement is often accompanied by imbalanced shifts in false-positive and false-negative rates across models, with only Claude Sonnet 4.6 achieving balanced improvements in both. Our findings reveal both the promise and limitations of inference-time personalization for privacy preference modeling and position CIDER as a resource for advancing personalized privacy alignment.",
+    "updated" : "2026-08-10T06:17:19Z",
+    "published" : "2026-08-10T06:17:19Z",
+    "authors" : [
+      {
+        "name" : "Bingcan Guo"
+      },
+      {
+        "name" : "Eryue Xu"
+      },
+      {
+        "name" : "Jijie Zhou"
+      },
+      {
+        "name" : "Zhiping Zhang"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.09140v1",
+    "title" : "Beyond Direct Identifiers: Probabilistic Privacy Risk Estimation for Privacy-Conscious LLM Query Delegation",
+    "summary" : "Recent work on protecting privacy during user-LLM interactions often focuses on direct, explicit identifiers: the personally-identifiable information (PII) captured by standard detectors. One such approach is Privacy-Conscious Delegation (PCD), where a local LLM acts as an intermediary. However, privacy risk does not stem solely from explicit identifiers but also PII-free self-disclosures, leaving users identifiable through combinations of quasi-identifying traits. We investigate a probabilistic variant of PCD, where we augment its objectives with an LLM-driven probabilistic estimation of k-anonymity. To facilitate this, we first create the PUPA-SD dataset, which contains naturalistic user queries with self-disclosure. Our preliminary results indicate that optimizing PAPILLON on PUPA-SD improves quality on unseen conversations across a variety of local models and produces the best privacy-utility balance for Llama-3.2-3B, while smaller models struggle to jointly optimize quality and privacy. We propose k-anonymity as a useful auxiliary metric for tackling PCD.",
+    "updated" : "2026-08-10T05:38:28Z",
+    "published" : "2026-08-10T05:38:28Z",
+    "authors" : [
+      {
+        "name" : "Li Siyan"
+      },
+      {
+        "name" : "Zhou Yu"
+      },
+      {
+        "name" : "Julia Hirschberg"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.09049v1",
+    "title" : "Security and Privacy Taxonomy Generation from Mobile App Reviews",
+    "summary" : "Mobile app reviews are a rich, continuously renewing source of how users experience privacy and security, yet existing taxonomies of these concerns are hand-crafted and cannot keep pace with the evolving nature of the data. Automating taxonomy construction is the natural response, but scalability is the core challenge: current LLM- and clustering-based methods are developed for scientific corpora of a few thousand documents and do not extend to app review collections numbering in the hundreds of thousands. We address this gap in two ways. First, we filter app reviews for privacy- and security-related content, yielding a comprehensive corpus of over 600K reviews. Second, we introduce TaxoScale, a pipeline that handles taxonomy construction at this scale by extending an expert-defined taxonomy via Recursive Hierarchical Clustering and LLM-based node naming. TaxoScale outperforms strong automatic-taxonomy baselines on path, level, coverage, and novelty metrics, and discovers novel branches absent from prior taxonomies.",
+    "updated" : "2026-08-10T02:55:24Z",
+    "published" : "2026-08-10T02:55:24Z",
+    "authors" : [
+      {
+        "name" : "Moghis Fereidouni"
+      },
+      {
+        "name" : "Vinaik Chhetri"
+      },
+      {
+        "name" : "Umar Farooq"
+      },
+      {
+        "name" : "A. B. Siddique"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.09001v1",
+    "title" : "Mind the Hook: Source-Level Auditing of Privacy Defenses in Retrieval-Augmented Generation",
+    "summary" : "Black-box privacy scores for retrieval-augmented generation (RAG) are difficult to interpret unless the audited defense's active pipeline hook is known. We propose an active-path audit: inventory source-level hooks over retrieval, retrieved content, and generation; map each metric to the leakage channel it observes; and validate generated-text effects with exact-match canaries. In our benchmark reimplementations, the DP-style defenses modify retrieval scores only: their generation hooks are TODO-flagged stubs that return responses unchanged. This active path explains why they affect membership-inference behavior but track No-Defense on generated-text named-entity leakage, measured by NEL_strict. By contrast, the end-to-end LPRAG path is canary-validated on the email channel, recovering 53/150 canaries under No-Defense and 0/150 under LPRAG. These findings concern our reimplementations on our stack, not released defenses or defense families; the contribution is a methodology and case study, not a universal ranking",
+    "updated" : "2026-08-10T01:40:25Z",
+    "published" : "2026-08-10T01:40:25Z",
+    "authors" : [
+      {
+        "name" : "Yanhang Li"
+      },
+      {
+        "name" : "Zhichao Fan"
+      },
+      {
+        "name" : "Zexin Zhuang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.08341v1",
+    "title" : "Differential Privacy for Markov Chain State Trajectories",
+    "summary" : "Data-driven systems may require state trajectories of Markov chains to function because these trajectories contain information that is useful to the system, e.g., a product's credit risk, a user's physical location, or a user's internet browsing behavior. However, sharing such state trajectories can reveal sensitive information about users, which presents a privacy threat. Therefore, we develop a new framework for privatizing the state trajectories in a Markov chain using differential privacy. Our framework privatizes state trajectories online, in the sense that a private state trajectory is generated at the same time as the sensitive one it approximates. We treat Markov chains as weighted directed graphs whose edge weights are the negative logarithms of the transition probabilities. Then, each state in a private state trajectory is chosen by minimizing its distance to the corresponding state in the sensitive state trajectory, where the notion of distance is equal to the total edge weight along a shortest path. We prove that with high probability the private state trajectory remains close to the sensitive one, which maintains high utility for downstream uses of private data. Additionally, we prove that private state trajectories are consistently in the typical set of state trajectories generated by the underlying Markov chain, which means that private state trajectories have similar statistical properties to actual state trajectories produced by the underlying Markov chain. Numerical simulations show that under $3$-differential privacy, the mechanism we introduce exhibits up to an $80\\%$ decrease in entropy compared to the state of the art, which illustrates that private state trajectories generated by our framework more closely resemble their corresponding sensitive state trajectory while maintaining the same level of privacy.",
+    "updated" : "2026-08-08T21:34:26Z",
+    "published" : "2026-08-08T21:34:26Z",
+    "authors" : [
+      {
+        "name" : "Alexander Benvenuti"
+      },
+      {
+        "name" : "Matthew Hale"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.08245v1",
+    "title" : "Privacy-Preserving Data Drift Detection and Recovery for Large-Scale LLM Applications via Proxy Representations",
+    "summary" : "LLM applications deployed at scale face a fundamental challenge: privacy constraints prevent direct inspection of user interactions, making it difficult to obtain any representative evaluation dataset or to track the ongoing evolution of production traffic. We present ProxyDrift, a framework that (i) identifies and measures drift between production traffic and offline evaluation sets, and (ii) constructs and refreshes those evaluation sets accordingly; all without access to raw user data. Our approach operates entirely on non-PII proxy representations: structured, multi-dimensional descriptors derived from LLM-based classification of user interactions. We introduce (1) a chance-calibrated, redundancy-aware (RA) alignment score that aggregates per-dimension drift measurements via mutual information; (2) a conditional sampler that generates synthetic proxies respecting inter-dimensional dependencies; (3) a roundtrip consistency analysis that exposes generator/classifier disagreements and guides proxy taxonomy refinement; and (4) a feedback-linkage analysis that ties per-dimension and per-value proxy distributions to user satisfaction, surfacing actionable failure and success modes. Serving hundreds of millions of users, ProxyDrift enables continuous drift monitoring and targeted synthetic data generation without exposing sensitive user data. Experiments confirm strong roundtrip consistency, discriminator-level indistinguishability of synthetic queries from human queries, and tight end-to-end alignment (RA~0.9) with production.",
+    "updated" : "2026-08-08T17:15:18Z",
+    "published" : "2026-08-08T17:15:18Z",
+    "authors" : [
+      {
+        "name" : "Michael Levit"
+      },
+      {
+        "name" : "Josh Ledgard"
+      },
+      {
+        "name" : "Haoyu Dong"
+      },
+      {
+        "name" : "Vishwas Suryanarayanan"
+      },
+      {
+        "name" : "Eyal Kolman"
+      },
+      {
+        "name" : "Sharon Tan"
+      },
+      {
+        "name" : "Qiang Gan"
+      },
+      {
+        "name" : "Vishal Chowdhary"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.08129v1",
+    "title" : "Understanding Security and Privacy Perceptions of Content Creators Regarding AI Labels of AI-Generated Content",
+    "summary" : "AI labels, typically implemented via underlying tracing mechanisms such as watermarks and metadata, are crucial for protecting Artificial Intelligence-Generated Content (AIGC) against security threats like disinformation and evasion. However, the perceived devaluation of AI-assisted work discourages creators from disclosing AI use, incentivizing efforts to bypass labeling and compromising downstream traceability. Yet, how AIGC creators perceive the security and privacy (S\\&P) implications of these labels, and how their behaviors impact technical resilience remain underexplored. To this end, we conducted semi-structured interviews with 21 AIGC creators and measured images across 6 image generation platforms against 16 self-reported manipulation settings. Our findings reveal that creators conflate binary AI labels with granular traceability, and express strong fears of de-anonymization via platform identifiers. Driven by fears of algorithmic traffic suppression and reputational risks, they defensively removed digital traces. Through empirical tests, we show that targeted modifications like coarse quantization significantly degrade detection. AI detection capabilities are also inconsistent across platforms, and suffer from false positives even for human-authored images. Based on these insights, we advocate for workflow-resilient implicit AI labels that align technical guarantees with creators' incentives.",
+    "updated" : "2026-08-08T13:32:44Z",
+    "published" : "2026-08-08T13:32:44Z",
+    "authors" : [
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Hui Wang"
+      },
+      {
+        "name" : "Rongjun Ma"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Kanye Ye Wang"
+      },
+      {
+        "name" : "Robert Xiao"
+      },
+      {
+        "name" : "Hewu Li"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.07705v1",
+    "title" : "Protecting patient privacy in clinical foundation models: Technical and legal perspectives",
+    "summary" : "Clinical foundation models trained on large-scale patient data are increasingly used for decision support, screening, and public health. As deployment expands, privacy risk increasingly arises from model-mediated leakage, yet its prevalence and severity remain poorly quantified. Models can disclose sensitive training artifacts, enabling patient re-identification in ways not captured by data-handling controls alone. Existing frameworks, including HIPAA and GDPR, offer limited guidance for such indirect threats. We propose a practical framework for assessing privacy risk in clinical foundation models and illustrate realistic leakage scenarios across deployment settings, map them to legal regimes, and outline complementary technical and legal mitigations. Our analysis provides a context-aware risk assessment grounded in realistic usage to preserve the value of medical foundation models while rigorously safeguarding patient privacy.",
+    "updated" : "2026-08-07T18:48:41Z",
+    "published" : "2026-08-07T18:48:41Z",
+    "authors" : [
+      {
+        "name" : "Sana Tonekaboni"
+      },
+      {
+        "name" : "Lena Stempfle"
+      },
+      {
+        "name" : "Sasha Ronaghi"
+      },
+      {
+        "name" : "Corinna Coupette"
+      },
+      {
+        "name" : "I. Glenn Cohen"
+      },
+      {
+        "name" : "Emily Alsentzer"
+      },
+      {
+        "name" : "Marzyeh Ghassemi"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
