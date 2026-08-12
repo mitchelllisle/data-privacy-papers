@@ -807,5 +807,72 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.11003v1",
+    "title" : "Information Bottleneck under Perfect Privacy",
+    "summary" : "In this work, we study the information bottleneck under perfect privacy, with particular emphasis on the active-rate regime, where the representation-rate constraint is binding and directly limits the achievable utility. The goal is to construct a representation that preserves utility-relevant information while remaining statistically independent of a sensitive variable. This exact independence requirement introduces an additional constraint beyond the classical rate-relevance tradeoff and must be explicitly incorporated into the optimization. To this end, we develop an alternating direction method of multipliers (ADMM)-based method tailored to the resulting problem structure. Under suitable regularity conditions, we establish global convergence of the generated sequence, characterize its convergence rate through the Kurdyka-Lojasiewicz exponent, and extend the analysis to inexact block updates.",
+    "updated" : "2026-08-11T14:50:08Z",
+    "published" : "2026-08-11T14:50:08Z",
+    "authors" : [
+      {
+        "name" : "Junle Zhong"
+      },
+      {
+        "name" : "Mohamad Assaad"
+      },
+      {
+        "name" : "Sreejith Sreekumar"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.10891v1",
+    "title" : "Benchmarking Time Series Generation Methods for Privacy-Preserving Forecasting",
+    "summary" : "Time series forecasting in privacy-sensitive domains often requires training models on released data rather than original observations. Synthetic time series generation has been developed primarily for data augmentation, where generated series supplement the original training set. How well these methods perform when fully replacing the original data - and how much privacy risk the released series carry - remains underexplored. We address this gap through a benchmark evaluating synthetic generation methods and noise-based anonymization baselines under a Train on Synthetic, Test on Real (TSTR) protocol. We jointly assess forecasting performance and distance-based empirical privacy risk across seven datasets, characterizing the trade-off between these objectives. We also introduce Grasynda-P, a privacy-motivated extension of the graph-based generator Grasynda, incorporating matrix ensembling and kernel density estimation. Our results show that: (1) no generation method fully substitutes for original training data; (2) noise-based anonymization yields the strongest privacy but the worst forecasting performance; (3) simple transformation-based generators outperform deep generative models for forecasting in this setting; and (4) Grasynda-P lies on the Pareto frontier, achieving competitive forecasting with stronger privacy separation than other generators. This benchmark establishes a reference point for evaluating and developing new privacy-aware synthetic time series generation methods.",
+    "updated" : "2026-08-11T13:09:01Z",
+    "published" : "2026-08-11T13:09:01Z",
+    "authors" : [
+      {
+        "name" : "Luis Amorim"
+      },
+      {
+        "name" : "Vitor Cerqueira"
+      },
+      {
+        "name" : "Moises Santos"
+      },
+      {
+        "name" : "Paulo J. Azevedo"
+      },
+      {
+        "name" : "Carlos Soares"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.10318v1",
+    "title" : "In Defense of Using Worst-case Privacy Disclosure as Privacy Evaluation Metric of Voice Anonymization",
+    "summary" : "The voice anonymization community mainly uses Equal Error Rate (EER) to evaluate the performance of voice identity protection. While alternative metrics such as privacy-ZEBRA and a rank-based metric have been proposed, their underlying assumptions and differences may not be well known, especially to newcomers. This paper is motivated to fill the gap. Based on the concept of Shannon's perfect secrecy (or privacy), this paper positions itself as a defense of the privacy-ZEBRA framework. While no new metric is proposed, this paper explains how an `ideal' system in terms of EER may fail to gauge the information leakage on individual speakers in the log-likelihood ratio (LLR) space. The paper also shows how the rank-based metric can be cast into a metric that follows the same principle of perfect secrecy and how their best solutions are equivalent. Furthermore, the paper explains how the method of estimating LLRs may affect the evaluation results. These discussions are, to the best of the authors' knowledge, not explored or explained in detail in existing papers. Last but not least, the findings are demonstrated on simulated and VoicePrivacy Challenge data.",
+    "updated" : "2026-08-10T23:40:57Z",
+    "published" : "2026-08-10T23:40:57Z",
+    "authors" : [
+      {
+        "name" : "Xin Wang"
+      },
+      {
+        "name" : "Xiaoxiao Miao"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
   }
 ]
