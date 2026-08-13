@@ -112,7 +112,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.27015v1">Reliability Functions of Quantum Soft Covering and Privacy Amplification via a Mixed-Order Rényi Divergence</a></h3>
+  <h3><a href="http://arxiv.org/abs/2607.27015v2">Reliability Functions of Quantum Soft Covering and Privacy Amplification via a Mixed-Order Rényi Divergence</a></h3>
    <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
   <p><b>Published on:</b> 2026-07-29T15:14:46Z</p>
   <details>
@@ -786,32 +786,32 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.10709v1">PromptGraph: Graph-Guided Prompt Sanitization for Balancing Privacy and Utility in LLM Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-07-12T11:04:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Chen Gu, Hui Wan, Donghui Hu, Hui Wang, Zhuoer Gu</p>
-    <p><b>Summary:</b> Large Language Model (LLM) services introduce a fundamental privacy challenge. Sensitive information may be inferred not only from explicit identifiers, such as names or phone numbers, but also from contextual associations among otherwise innocuous spans. Existing sanitizers typically assign privacy or utility signals to individual spans without explicitly modeling pairwise relationships among them. In this paper, we propose PromptGraph, a graph-guided prompt-sanitization approach for privacy-preserving LLM inference. PromptGraph estimates privacy leakage at the span level and utility-relevant contextual dependencies between pairs of spans. It represents each prompt as an attributed graph, in which nodes carry span-level privacy scores and edges encode contextual dependencies needed to preserve utility. The sanitization objective selects a protected span set that maximizes privacy gain while penalizing the loss of contextual dependencies. This formulation explicitly balances privacy and utility when contextual evidence is hidden. Protected spans are sanitized locally, and returned placeholders are restored only after passing local consistency checks. We conduct extensive experiments showing that PromptGraph achieves a more favorable balance between privacy and utility than prompt-privacy baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.10467v2">Toward Production-Ready Federated Learning in Healthcare: Privacy, Orchestration, and Governance in MLOps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-07-11T20:14:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sakshi Gorkhali, Jonesh Shrestha</p>
-    <p><b>Summary:</b> Healthcare organizations often cannot freely centralize patient data because medical records are sensitive, regulated, and institutionally controlled. Federated learning offers a practical alternative by allowing hospitals and clinics to train a shared model while keeping raw data local. However, federated learning is not automatically production-ready or private by default. Model updates can still leak information, and decentralized training introduces operational challenges in deployment, monitoring, rollback, debugging, and governance. This paper examines how MLOps practices and the emerging idea of Federated Learning Operations (FLOps) can make federated healthcare machine learning systems scalable, reliable, and trustworthy. It answers three research questions: how containerization and orchestration support federated deployment, how privacy-preserving mechanisms affect trade-offs among privacy, utility, scalability, and operational complexity, and which post-deployment practices are most important for long-term governance. The central argument is that federated healthcare ML requires more than privacy-preserving algorithms. It needs an integrated MLOps architecture that combines reproducible deployment, secure orchestration, model versioning, audit logging, drift monitoring, heterogeneity management, and clear governance.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.11645v1">Cloak of Invisibility: Real-Time Privacy-Preserving Volumetric Video Streaming</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-08-12T04:44:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hossein Khalili, Philip Do, Alexander Vilesov, Kittipat Apicharttrisorn, Nader Sehatbakhsh</p>
+    <p><b>Summary:</b> Volumetric video streaming turns privacy into a 3D, multi-view problem. Unlike ordinary video, where sensitive content can often be redacted frame by frame, RGB-D volumetric pipelines capture people, rooms, and personal objects from multiple cameras and fuse them into a shared 3D representation. A private object missed in one view, or only partially removed before fusion, can therefore reappear in the reconstructed scene. This creates a privacy challenge for 3D telepresence, education, entertainment, and immersive applications: private content should be removed before raw visual and geometric data leave the camera side, while the public part of the scene should remain useful for real-time reconstruction. Existing volumetric streaming systems mainly optimize reconstruction, data movement, and latency, while privacy-preserving vision methods are designed for single-camera, single-frame images and do not directly address calibrated multi-view RGB-D fusion. We present InViStream, a real-time "privacy-from-source" system designed for this setting. InViStream addresses three challenges in volumetric capture: private objects may appear differently across views, RGB masking alone can leave geometric privacy leakage in depth, and public/private instances of the same class must be separated consistently before cloud-side fusion. To address these challenges, InViStream combines object detection with depth-aware masking, propagates public/private decisions across calibrated views, and fuses only sanitized point clouds. We evaluate InViStream on synthetic and real RGB-D scenes, including offices, conference rooms, living rooms, and settings with multiple public and private people and objects. InViStream achieves synthetic Dice/Recall of 0.799/0.891 and real Dice/Recall of 0.792/0.908, with synthetic SSIM above 0.98 and real-time streaming above 30 FPS.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.11337v1">Association-based Privacy Attacks in Wireless Protocols: Formal Modeling and Mitigation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2026-08-11T18:41:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohit Kumar Jangid, Felix Engelmann, Zhiqiang Lin</p>
+    <p><b>Summary:</b> With the surge in privacy-sensitive data from sources such as social media and IoT devices, there is a pressing need for formal, automated methods to assess privacy risks within these intricate systems. This paper formally investigates root sources of pairing-based privacy threats exploited using replay/relay techniques in wireless communication. Our research harnesses condition-oblivious responses, replay-resistance, and distance bounding measures vital for protocols utilizing shared keys in allowlists for authenticated reconnections. Particularly, the paper uses formal modeling of notable wireless networks, like the Wi-Fi P2P persistent group formation and the Bluetooth Low Energy reconnection procedure, to illustrate the root causes and countermeasures. Our model rigorously validates the proposed solution against association inference attacks, along with existing formalizations of well-authentication, frame opacity, and no-desynchronization. The ensuing analysis reveals not only uncharted privacy realms in wireless communication but also identifies old and new vulnerabilities. Our proposed design changes are acknowledged by Wi-Fi Alliance and Bluetooth SIG, paving the way for future advancements in resilient, privacy-preserving wireless protocols.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2608.11003v1">Information Bottleneck under Perfect Privacy</a></h3>
