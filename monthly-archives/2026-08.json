@@ -874,5 +874,54 @@
     "categories" : [
       "eess.AS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.11645v1",
+    "title" : "Cloak of Invisibility: Real-Time Privacy-Preserving Volumetric Video Streaming",
+    "summary" : "Volumetric video streaming turns privacy into a 3D, multi-view problem. Unlike ordinary video, where sensitive content can often be redacted frame by frame, RGB-D volumetric pipelines capture people, rooms, and personal objects from multiple cameras and fuse them into a shared 3D representation. A private object missed in one view, or only partially removed before fusion, can therefore reappear in the reconstructed scene. This creates a privacy challenge for 3D telepresence, education, entertainment, and immersive applications: private content should be removed before raw visual and geometric data leave the camera side, while the public part of the scene should remain useful for real-time reconstruction. Existing volumetric streaming systems mainly optimize reconstruction, data movement, and latency, while privacy-preserving vision methods are designed for single-camera, single-frame images and do not directly address calibrated multi-view RGB-D fusion. We present InViStream, a real-time \"privacy-from-source\" system designed for this setting. InViStream addresses three challenges in volumetric capture: private objects may appear differently across views, RGB masking alone can leave geometric privacy leakage in depth, and public/private instances of the same class must be separated consistently before cloud-side fusion. To address these challenges, InViStream combines object detection with depth-aware masking, propagates public/private decisions across calibrated views, and fuses only sanitized point clouds. We evaluate InViStream on synthetic and real RGB-D scenes, including offices, conference rooms, living rooms, and settings with multiple public and private people and objects. InViStream achieves synthetic Dice/Recall of 0.799/0.891 and real Dice/Recall of 0.792/0.908, with synthetic SSIM above 0.98 and real-time streaming above 30 FPS.",
+    "updated" : "2026-08-12T04:44:20Z",
+    "published" : "2026-08-12T04:44:20Z",
+    "authors" : [
+      {
+        "name" : "Hossein Khalili"
+      },
+      {
+        "name" : "Philip Do"
+      },
+      {
+        "name" : "Alexander Vilesov"
+      },
+      {
+        "name" : "Kittipat Apicharttrisorn"
+      },
+      {
+        "name" : "Nader Sehatbakhsh"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.11337v1",
+    "title" : "Association-based Privacy Attacks in Wireless Protocols: Formal Modeling and Mitigation",
+    "summary" : "With the surge in privacy-sensitive data from sources such as social media and IoT devices, there is a pressing need for formal, automated methods to assess privacy risks within these intricate systems. This paper formally investigates root sources of pairing-based privacy threats exploited using replay/relay techniques in wireless communication. Our research harnesses condition-oblivious responses, replay-resistance, and distance bounding measures vital for protocols utilizing shared keys in allowlists for authenticated reconnections. Particularly, the paper uses formal modeling of notable wireless networks, like the Wi-Fi P2P persistent group formation and the Bluetooth Low Energy reconnection procedure, to illustrate the root causes and countermeasures. Our model rigorously validates the proposed solution against association inference attacks, along with existing formalizations of well-authentication, frame opacity, and no-desynchronization. The ensuing analysis reveals not only uncharted privacy realms in wireless communication but also identifies old and new vulnerabilities. Our proposed design changes are acknowledged by Wi-Fi Alliance and Bluetooth SIG, paving the way for future advancements in resilient, privacy-preserving wireless protocols.",
+    "updated" : "2026-08-11T18:41:56Z",
+    "published" : "2026-08-11T18:41:56Z",
+    "authors" : [
+      {
+        "name" : "Mohit Kumar Jangid"
+      },
+      {
+        "name" : "Felix Engelmann"
+      },
+      {
+        "name" : "Zhiqiang Lin"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
   }
 ]
