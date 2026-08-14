@@ -923,5 +923,201 @@
       "cs.CR",
       "cs.NI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.13390v1",
+    "title" : "TeleGapper: On the (un)reliability of Privacy Policies in Telegram Mini apps",
+    "summary" : "Telegram Mini Apps are Web applications embedded within the Telegram client, forming an ecosystem of third-party services within one of the world's most widely used messaging platforms. Despite their growing adoption and access to Telegram-provided context, their privacy properties remain largely unexplored. Unlike ecosystems such as WeChat, which rely on tightly controlled, proprietary execution frameworks, Telegram adopts a different model: Mini Apps run inside a WebView, combining platform-provided context with standard Web capabilities and unrestricted outbound networking. This enables applications to transmit sensitive information to analytics, advertising, tracking, or other third parties through ordinary Web requests, often with limited visibility.\n  Privacy disclosures are therefore critical for transparency. Telegram allows Mini Apps either to define an application-specific privacy policy or to rely on a platform-provided default policy. While the latter reduces the developer's disclosure burden, it may lead to generic statements that do not accurately capture actual data practices of individual Mini Apps.\n  In this paper, we present TeleGapper, a black-box dynamic analysis framework to assess the privacy posture of Mini Apps by capturing runtime network traffic, identifying third-party communications, and comparing observed data flows against disclosed privacy information. We evaluate 278 working Mini Apps collected from tApps Center, a community-driven catalogue for discovering third-party applications in Telegram. We find that 59.4% contact at least one undisclosed third party, 78.8% rely exclusively on Telegram's default privacy policy, and none provides a consent or opt-out mechanism. These findings expose a substantial transparency and compliance gap in a widely used yet understudied ecosystem.",
+    "updated" : "2026-08-13T15:51:18Z",
+    "published" : "2026-08-13T15:51:18Z",
+    "authors" : [
+      {
+        "name" : "Luca Ferrari"
+      },
+      {
+        "name" : "Mariano Ceccato"
+      },
+      {
+        "name" : "Luca Verderame"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.13270v1",
+    "title" : "Exploiting Phase Noise for Sensing Privacy in ISAC Systems",
+    "summary" : "We investigate sensing privacy in orthogonal frequency-division multiplexing (OFDM) integrated sensing and communication (ISAC) systems under the impact of phase noise (PN) arising from local oscillator (LO) imperfections. Specifically, we consider an ISAC scenario comprising a legitimate monostatic ISAC transceiver (Alice), an eavesdropper performing unauthorized bistatic sensing (Eve) and a communication user (UE), each equipped with a non-ideal LO. To characterize sensing performance in the presence of PN, we carry out a misspecified Cramér-Rao bound (MCRB) analysis of monostatic and bistatic range estimation at Alice and Eve, whose differential PN processes are self-correlated (delay-dependent) and cross-correlated (delay-independent) due to the use of a shared and an independent LO, respectively. Simulation results reveal three-way trade-offs among legitimate monostatic sensing at Alice, unauthorized bistatic sensing at Eve and communication to the UE under PN, governed by the LO quality at Alice. Through the LO asymmetry between Alice and Eve, worsening LO quality at Alice can significantly enlarge sensing privacy gap in her favor, especially for nearby targets, with only a moderate reduction in data rate in noise-limited regimes.",
+    "updated" : "2026-08-13T14:07:31Z",
+    "published" : "2026-08-13T14:07:31Z",
+    "authors" : [
+      {
+        "name" : "Musa Furkan Keskin"
+      },
+      {
+        "name" : "Kawon Han"
+      },
+      {
+        "name" : "Henk Wymeersch"
+      },
+      {
+        "name" : "Christos Masouros"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.12911v1",
+    "title" : "Beyond Visual Evidence: Revealing and Mitigating Relational Privacy Leakage in Document MLLMs",
+    "summary" : "While the privacy risks of multimodal large language models (MLLMs) have drawn significant attention, the unique vulnerabilities of domain-specific MLLMs remain largely underexplored. Focusing on document understanding MLLMs for identity document processing, this paper investigates the privacy issues inherent in Key Information Extraction (KIE) tasks. We reveal that when input images lack sufficient visual evidence, these models often rely on memorized field relations from training data to infer missing content, thereby leaking multiple correlated fields containing sensitive personal information. To mitigate this risk, we make three key contributions.First, we propose the Dynamic Relational Unlearning Framework (DRUF) which comprises a Relational Decoupling Unlearning (RDU) module and a dynamic set update mechanism. It suppresses the leakage of high-risk field pairs while preserving KIE performance.Second, we introduce DocPrivacyBench, a novel benchmark to systematically evaluate a model's susceptibility to privacy leakage under conditions of absent or minimal visual evidence.Third, we evaluate three MLLMs and six unlearning methods using this benchmark, assessing both post-unlearning leakage suppression and utility preservation.Our results demonstrate that existing MLLMs consistently exhibit privacy leakage when visual evidence is scarce, particularly on noisier datasets. In contrast, DRUF outperforms the strongest baseline by improving leakage suppression by 4.8 percentage points, effectively mitigating privacy risks while maintaining robust document information extraction performance.",
+    "updated" : "2026-08-13T07:53:53Z",
+    "published" : "2026-08-13T07:53:53Z",
+    "authors" : [
+      {
+        "name" : "Beining Xu"
+      },
+      {
+        "name" : "Hairui Wang"
+      },
+      {
+        "name" : "Jiaxin Wang"
+      },
+      {
+        "name" : "Changsheng Chen"
+      },
+      {
+        "name" : "Anirban Chakraborty"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.MM"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.12675v1",
+    "title" : "Privacy-Preserving RAG by Concealing Sensitive Information from External LLMs",
+    "summary" : "Retrieval-Augmented Generation (RAG) is widely used to improve the performance of Large Language Models (LLMs) in answering user queries. Existing privacy research on RAG has focused on preventing unauthorized users from accessing sensitive data. However, another important problem that is often overlooked in RAG privacy research is that external generators have access to the query and the retrieved documents, which may contain confidential information that could potentially be misused or accessed for unintended purposes. In this paper, we introduce the Sensitive Entity Alias Generator (SEAG), a privacy-preserving framework that empowers users to utilize powerful third-party generators without disclosing sensitive information. SEAG introduces a lightweight model that locates sensitive entities, generates corresponding aliases, and constructs an entity replacement table. The table is used to replace sensitive words in the user's query and in the retrieved documents before they are forwarded to an external generator. For this purpose, two datasets were constructed: one for fine-tuning SEAG models to generate entity replacement tables, and another for evaluating the entire SEAG framework. The experimental results demonstrate the success of the SEAG framework. As for the User metric, which measures the ability of the model to provide a correct response to the user while hiding sensitive information from the external generator, all SEAG models achieved over 80% accuracy. Additional analysis further evaluated the ability of SEAG models Qwen-3, LLaMA-3.2, and Phi-4 to hide all sensitive entities within given documents. The results show good performance with total accuracies of 77.83%, 76.73%, and 74.91%, respectively.",
+    "updated" : "2026-08-13T00:23:56Z",
+    "published" : "2026-08-13T00:23:56Z",
+    "authors" : [
+      {
+        "name" : "Saleh Almohaimeed"
+      },
+      {
+        "name" : "Saad Almohaimeed"
+      },
+      {
+        "name" : "Mousa Jari"
+      },
+      {
+        "name" : "Fahad Alotaibi"
+      },
+      {
+        "name" : "Khalid A. Alobaid"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.12511v1",
+    "title" : "SoK: From Generation to Consumption of Privacy Documents in Software Systems",
+    "summary" : "Privacy documents (e.g., privacy policies) are a central mechanism through which digital services disclose data practices and seek user consent. Over the past decades, research on privacy documents has expanded significantly, encompassing not only traditional privacy policies but also short notices (e.g., privacy labels) and interface-level transparency mechanisms. As this research area continues to grow, it has become increasingly difficult to obtain a coherent view of how privacy documents are created, analyzed, evaluated, and maintained across their lifecycle. This SoK provides a unified, lifecycle-oriented view of privacy documents from a software engineering perspective. We systematically review and analyze 290 papers published between 2010 and 2025, organizing them around five research questions that examine how privacy documents are (1) defined and scoped, (2) generated, (3) analyzed and extracted, (4) checked for inconsistencies and noncompliance, and (5) evaluated and improved for usability. Building on our findings, we identify 15 key research trends and 21 open opportunities. We further chart four broader research directions that highlight (i) emerging challenges in AI-centric platforms, (ii) the need for diverse and up-to-date data foundations, (iii) LLM-based unified policy-code analysis, and (iv) dual usability for end-users and developers. We hope this SoK provides a shared foundation for future research on privacy policies and privacy documents.",
+    "updated" : "2026-08-12T18:39:57Z",
+    "published" : "2026-08-12T18:39:57Z",
+    "authors" : [
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Clark LaChance"
+      },
+      {
+        "name" : "Zhen Tao"
+      },
+      {
+        "name" : "Sepideh Ghanavati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.09164v2",
+    "title" : "CIDER: A Dataset of Contextual Disclosure Boundaries for Privacy Preference Alignment",
+    "summary" : "Aligning large language models (LLMs) with human privacy preferences requires capturing individuals' disclosure boundaries beyond general privacy norms. However, a gap remains in eliciting such nuanced preferences to evaluate alignment in realistic settings. We introduce CIDER, a dataset of 14,850 human annotations from 169 users, forming 1,650 contextual disclosure boundary sets across 60 interpersonal communication scenarios involving information sharing that violates privacy norms. Each boundary represents a real user's disclosure decisions over 9 sharing variants in a scenario, for a given communication role and AI-mediated condition. We formulate a task in which models predict a user's disclosure decision from historical boundaries, with varying levels of contextual information. Across 12 open and proprietary models, in-context personalization improves prediction accuracy by up to 11.41 percentage points using only 6 historical examples. Larger models such as GPT-5.4 (with medium reasoning effort) and Claude Sonnet 4.6 are better at leveraging semantic context to understand user-specific, context-dependent disclosure preferences for more accurate predictions, while smaller models tend to rely on structured heuristics based on disclosure granularity and identifiability. Personalization generally improves prediction accuracy, but the improvement is often accompanied by imbalanced shifts in false-positive and false-negative rates across models, with only Claude Sonnet 4.6 achieving balanced improvements in both. Our findings reveal both the promise and limitations of inference-time personalization for privacy preference modeling and position CIDER as a resource for advancing personalized privacy alignment.",
+    "updated" : "2026-08-13T06:14:13Z",
+    "published" : "2026-08-10T06:17:19Z",
+    "authors" : [
+      {
+        "name" : "Bingcan Guo"
+      },
+      {
+        "name" : "Eryue Xu"
+      },
+      {
+        "name" : "Jijie Zhou"
+      },
+      {
+        "name" : "Zhiping Zhang"
+      },
+      {
+        "name" : "Tianshi Li"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.06888v2",
+    "title" : "Correlation Geometry of Quantum Sensor Networks: Local-Global Information Flow and Local Privacy",
+    "summary" : "Quantum sensor networks (QSN) typically encode N unknown parameters while targeting a single linear combination, rendering the N-1 remaining parameters as nuisance directions. To rigorously quantify estimation precision under such nuisances, we use the effective quantum Fisher information (EQFI) and establish a ``barrel-effect'' bottleneck: the global EQFI cannot exceed the weakest weighted local sensing capacity. To elucidate the information allocation mechanism underlying this bottleneck, we derive an exact local--global phase map that delineates how the trade-off between local and global EQFI depends dynamically on quantum correlations, and accordingly we identify concrete conditions for saturating the bottleneck bound. Notably, this geometric map uncovers a counterintuitive ``overcorrelated'' regime where excessive correlations actively degrade both local and global performance. Finally, we apply the phase map to intrinsic local privacy and identify the condition under which every local parameter is inaccessible while the desired global combination remains estimable. Overall, our work provides a principled methodology for engineering optimal network states in quantum sensing architectures.",
+    "updated" : "2026-08-13T07:59:02Z",
+    "published" : "2026-08-07T07:21:39Z",
+    "authors" : [
+      {
+        "name" : "Gong-Chu Li"
+      },
+      {
+        "name" : "Lei Chen"
+      },
+      {
+        "name" : "Xu-Song Hong"
+      },
+      {
+        "name" : "Hua-Qing Xu"
+      },
+      {
+        "name" : "Yuancheng Liu"
+      },
+      {
+        "name" : "Si-Qi Zhang"
+      },
+      {
+        "name" : "Jia-Hao Zhao"
+      },
+      {
+        "name" : "Geng Chen"
+      },
+      {
+        "name" : "Chuan-Feng Li"
+      },
+      {
+        "name" : "Guang-Can Guo"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
   }
 ]
