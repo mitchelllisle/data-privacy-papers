@@ -1520,5 +1520,81 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.17147v1",
+    "title" : "Picture the Epsilon: Pursuing Identity-Level Privacy Guarantees for Images",
+    "summary" : "Image-to-image face generators are widely used, and visual dissimilarity between their outputs and source images is sometimes treated as evidence of privacy. Auditing whether these systems satisfy formal identity-level (epsilon, delta)-differential privacy requires choosing among several distinct routes for converting embedding-space observations into estimates or bounds on the differential privacy parameter epsilon. We present a comparative study of four such audits applicable to pre-trained, black-box face generators: a Gaussian-mechanism reading of per-identity sensitivity (GaussMech); a per-dimension kernel-density log-ratio aggregated by basic composition (KDE-LR); an analytical population-level lower bound on pure-DP epsilon derived from the maximum mean discrepancy via the total variation distance (MMD-TV); and a hypothesis-testing evaluation of a cross-validated classifier's out-of-fold ROC (ROC-HT). For each method we make explicit its assumptions, hyperparameter dependence, finite-sample limitations, and the regime in which its epsilon estimate is informative. Applied to FaceFusion and InstantID across multiple identity encoders and reference datasets, the audits consistently reveal substantial identity distinguishability while reporting markedly different epsilon estimates that reflect each method's distinct assumptions and finite-sample treatment. In this high-distinguishability regime, the experiments do not support a reliable ranking of the four methods. Their relative trade-offs should be evaluated on partially private mechanisms, which we identify as the natural next study. The resulting framework places these audits in a shared identity-level audit setting and clarifies how their assumptions and finite-sample treatments shape the resulting differential privacy estimates.",
+    "updated" : "2026-08-17T21:30:06Z",
+    "published" : "2026-08-17T21:30:06Z",
+    "authors" : [
+      {
+        "name" : "Arman Zareian Jahromi"
+      },
+      {
+        "name" : "Vishnu Bondalakunta"
+      },
+      {
+        "name" : "Mohammad Akbar Bin Shah"
+      },
+      {
+        "name" : "Naimul Haque"
+      },
+      {
+        "name" : "Shuangqing Wei"
+      },
+      {
+        "name" : "George T. Amariucai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.17145v1",
+    "title" : "Protocol-Embedded Compliance for Privacy-Preserving, Non-Custodial Digital Payments",
+    "summary" : "Received wisdom on payments infrastructure strongly supports the custodial, account-based model as a necessity for transaction integrity, auditability and verification; the set of fundamental primitives for regulated digital money exchange, the argument goes, necessitates designated identifiable entities that store and process credentials, perform KYC, and ultimately act as the 'single version of the truth' for compliance remediation and, most important, AML. In this paper, we propose this is not the case, by arguing that non-custodial, cash-like digital assets can embody such capabilities, in an arguably more secure manner.\n  To that end, we present a reference architecture and core protocol rules for digital-value-exchange systems that preserve meaningful user privacy while enabling strong auditability. The protocol defines the conditions under which digital asset creation, transfer, and redemption are valid. The architecture specifies the allocation of actors, roles and components through which these rules operate, enabling independent verification of transaction compliance with applicable norms. Building upon the Unforgeable, Stateful, Oblivious (USO) asset model of Goodell et al., regulatory compliance data are embedded directly into the asset state as cryptographically signed attestations issued by independent entities. A transfer is valid only upon satisfaction of applicable compliance predicates and inclusion of the resulting signature within the asset state. Compliance enforcement is thus performed at the protocol level rather than through institutional custody or identity-based account control. We conclude that our proposed model can successfully interface with existing payment systems, making it possible to integrate non-custodial, compliance-verified transactions with legacy financial infrastructure.",
+    "updated" : "2026-08-17T21:29:22Z",
+    "published" : "2026-08-17T21:29:22Z",
+    "authors" : [
+      {
+        "name" : "Santiago De Simone"
+      },
+      {
+        "name" : "Geoffrey Goodell"
+      },
+      {
+        "name" : "Georgios Samakovitis"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.16452v2",
+    "title" : "Strong Converse Exponents of Quantum Soft Covering and Privacy Amplification",
+    "summary" : "We determine the exact strong converse exponent of quantum soft covering under the sandwiched R{é}nyi divergence for all orders $α\\in[\\frac{1}{2},\\infty)$. For $α\\in[\\frac{1}{2},1)$, the exponent is characterized by the two-parameter club-sandwiched mutual information, whereas for $α\\in[1,\\infty)$, it is characterized by the order-$α$ sandwiched R{é}nyi mutual information. We also determine the exact strong converse exponent of privacy amplification against quantum side information under the sandwiched R{é}nyi divergence for $α\\in(2,\\infty)$, expressed in terms of the corresponding order-$α$ sandwiched R{é}nyi conditional entropy. To the best of our knowledge, these results provide the first exact characterization of the strong converse exponent of quantum soft covering and the first precise operational interpretation of the two-parameter club-sandwiched mutual information in the quantum setting. The key ingredient is that we establish the exponential rate of the $K$-functional, which is instrumental in deriving the strong converse exponent of quantum soft covering for $α\\in[\\frac{1}{2},1)$.",
+    "updated" : "2026-08-18T08:38:14Z",
+    "published" : "2026-08-17T11:54:48Z",
+    "authors" : [
+      {
+        "name" : "Shi-Bing Li"
+      },
+      {
+        "name" : "Hongsen Qiu"
+      },
+      {
+        "name" : "Xinyu Zhang"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "math.FA",
+      "math.OA"
+    ]
   }
 ]
