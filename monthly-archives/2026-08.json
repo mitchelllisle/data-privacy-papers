@@ -1596,5 +1596,231 @@
       "math.FA",
       "math.OA"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.19155v1",
+    "title" : "FedGuard-DC: Privacy-Preserving Federated Load Forecasting and Cyber-Attack Detection for Data-Center Loads in Transmission Systems",
+    "summary" : "The rapid growth of large data-center (DC) loads is creating new challenges for power-system visibility, privacy, and cyber-physical security. System operators need accurate short-term information about these fast-varying loads, while DC operators may avoid sharing raw megawatt measurements because they can reveal sensitive workload and utilization patterns. This paper presents FedGuard-DC, a federated learning (FL) framework for privacy-preserving DC load forecasting and local false-data-injection attack (FDIA) detection. Each DC trains a dual-head model on its own measurements, where a shared encoder supports both a forecasting head and a reconstruction head. A calibrated anomaly score combines forecast residual and reconstruction error to detect corrupted measurements locally. Raw measurements and absolute MW demand remain at each DC, while only model updates are shared with the global controller. Optional differential privacy and robust trimmed-mean aggregation are included to evaluate privacy-utility behavior and poisoned-client resilience. The framework is validated using EMT simulation data from four large DC loads rated between 150 and 350 MW integrated into the IEEE 39-bus New England system. Results show a 0.5 s-ahead normalized forecast RMSE of 0.023-0.038 pu, compared with 0.32-0.34 pu for persistence. FedGuard-DC detects FDIA with ROC-AUC of 0.979, F1 = 0.930, and precision of 0.988, while robust aggregation reduces the poisoned-client RMSE impact from 0.042 to 0.035 pu.",
+    "updated" : "2026-08-19T17:40:59Z",
+    "published" : "2026-08-19T17:40:59Z",
+    "authors" : [
+      {
+        "name" : "Md Kibria Saroare"
+      },
+      {
+        "name" : "Md Rubel Ahmed"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.19006v1",
+    "title" : "Introducing the Privacy-HSD Trade-off: Hate Speech Detection, but not at the Cost of Privacy",
+    "summary" : "Hate speech is a real and timely threat that affects a large portion of online users, especially youth and minority groups. While building reliable and robust automatic hate speech detection (HSD) systems is paramount, we argue that this must also be balanced with the individual right to privacy. Exploring the intersection of HSD and privacy, we demonstrate that HSD systems might unintentionally achieve performance at the cost of encoding authorship, posing a threat to privacy. Building on these findings, we establish the notion of a privacy-HSD trade-off, which demands a careful balance. We benchmark a series of text privatization methods, as well as our newly proposed domain-specific AgnoSpeech technique, showing that balancing privacy and HSD is difficult but feasible. The findings make a strong case for more research on the trade-offs between privacy and HSD, both of which have tangible implications for the safeguarding of online participation.",
+    "updated" : "2026-08-19T15:07:42Z",
+    "published" : "2026-08-19T15:07:42Z",
+    "authors" : [
+      {
+        "name" : "Stephen Meisenbacher"
+      },
+      {
+        "name" : "Vlad Garbuz"
+      },
+      {
+        "name" : "Chirill Donos"
+      },
+      {
+        "name" : "Maxim Dnestreanschii"
+      },
+      {
+        "name" : "Gabriel Creanga"
+      },
+      {
+        "name" : "Andreea-Elena Bodea"
+      },
+      {
+        "name" : "Thomas Lampert"
+      },
+      {
+        "name" : "Jana Diesner"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.18749v1",
+    "title" : "Geometric Data Perturbation with Noisy-Anchor Alignment for Privacy-Preserving Collaborative Learning",
+    "summary" : "Geometric Data Perturbation (GDP) enables one-shot, privacy-preserving collaborative learning: each participant applies a distance-preserving transformation to its private data and uploads only the resulting representation to a central analyst. We study GDP under analyst-participant collusion, in which the analyst combines all uploaded representations with the private data and transformations disclosed by colluding participants to recover a non-colluding participant's private data. Participant-specific independent transformations resist this attack but map participants' data into incompatible representation spaces, degrading downstream model performance. Shared-anchor alignment from Data Collaboration (DC) analysis restores compatibility and improves utility, but we show that disclosing the DC anchor matrix enables exact recovery of non-colluding participants' private data even in the presence of collusion. Adding noise directly to the private-data representations mitigates this vulnerability but substantially reduces utility. We propose adding noise to the anchor representations instead. Each participant independently transforms its private data and the shared anchor matrix, perturbs only the resulting anchor representation, and uploads both representations in a single round. Using the noisy anchor representations, the analyst aligns the private-data representations by solving a Generalized Orthogonal Procrustes Problem. We characterize alignment and recovery errors, specialize a conservative sufficient condition for convergence of the alignment to our setting, and analyze three recovery attacks. Experiments on MNIST and CelebA show that, across the evaluated attacks and deployment settings, anchor noise achieves higher learning accuracy than private-data noise at comparable measured leakage, yielding a more favorable privacy-utility trade-off under the specified collusion model.",
+    "updated" : "2026-08-19T09:59:55Z",
+    "published" : "2026-08-19T09:59:55Z",
+    "authors" : [
+      {
+        "name" : "Keiyu Nosaka"
+      },
+      {
+        "name" : "Yamato Suetake"
+      },
+      {
+        "name" : "Yuichi Takano"
+      },
+      {
+        "name" : "Yukihiko Okada"
+      },
+      {
+        "name" : "Akiko Yoshise"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.18610v1",
+    "title" : "Denoising-Aware Inversion: Revealing Privacy Risks in Noise-Protected Text Embeddings",
+    "summary" : "Dense text embeddings are widely used in data mining, retrieval, and downstream machine learning systems due to their compact and semantically rich representations, but recent embedding inversion attacks have shown that they can expose substantial information about the original text, leading to serious privacy leakage risks. A common defense is to release perturbed embeddings by adding Gaussian noise, which is simple yet effective against standard inversion attacks and does not significantly degrade embedding utility for downstream tasks. However, it remains unclear whether such noise-protected embeddings are sufficiently safe against adaptive attackers that explicitly account for the perturbation process. In this paper, we study text embedding inversion in a noise-protected setting, where the attacker can observe only noisy embeddings and has no access to clean embedding targets. We first analyze why existing generative inversion methods fail under this setting and identify a \"Double Noise Trap\", which fundamentally prevents standard generative inversion models from achieving high-quality reconstruction. To address this challenge, we propose DAEI, a denoising-aware embedding inversion pipeline that combines a residual denoising autoencoder with generative text inversion where the denoiser is trained in an unsupervised manner using Stein's unbiased risk estimate to enable denoising from noisy observations alone. Extensive experiments show that DAEI achieves approximately 154\\% relative improvement in BLEU over the existing generative inversion baseline, while also improving token-level F1 and ROUGE-L by 32--60\\%. The promising inversion performance of DAEI challenges the prevailing assumption that simple Gaussian perturbation is sufficient to prevent sensitive information leakage from embedding representations.",
+    "updated" : "2026-08-19T06:53:35Z",
+    "published" : "2026-08-19T06:53:35Z",
+    "authors" : [
+      {
+        "name" : "Yubo Wang"
+      },
+      {
+        "name" : "Shujie Cui"
+      },
+      {
+        "name" : "James Bailey"
+      },
+      {
+        "name" : "Hongzhi Yin"
+      },
+      {
+        "name" : "Wenyu Liang"
+      },
+      {
+        "name" : "Min Tang"
+      },
+      {
+        "name" : "Shiyue Qin"
+      },
+      {
+        "name" : "Weiqing Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.18316v1",
+    "title" : "A Configurable Privacy-Preserving MRI Processing Workflow Using Deep Learning-Based Brain Extraction and Adaptive Anatomical Preservation",
+    "summary" : "Structural Magnetic Resonance Imaging (MRI) is widely used in neuroimaging research and clinical practice, but structural MRI volumes may retain facial and cranial anatomical information that raises privacy concerns. Existing deep learning-based brain extraction methods generally produce a single fixed output, limiting flexibility when different applications require different balances between privacy and anatomical preservation. This paper presents a configurable privacy-preserving MRI processing workflow that extends deep learning-based brain extraction through adaptive anatomical preservation, interactive preservation selection, and integrated quality control. The workflow employs SynthStrip for automated brain extraction, followed by morphological mask expansion to generate configurable shell-based preservation levels. An Interactive Preservation Framework enables users to compare preservation configurations and select an appropriate output, while an integrated Quality Control Framework provides multi-plane visualisation and brain-mask overlay verification. The workflow was implemented in Python using open-source neuroimaging libraries within the Renku reproducible research environment and evaluated using structural T1-weighted MRI data from the publicly available IXI dataset. Experimental results demonstrate anatomically plausible brain extraction and configurable preservation outputs, supported by systematic visual verification. The principal contribution is a modular and reproducible MRI preprocessing framework that enhances deep learning-based brain extraction with configurable anatomical preservation, interactive user-guided processing, and integrated quality control. The workflow provides a practical foundation for privacy-oriented neuroimaging research and collaborative medical image analysis.",
+    "updated" : "2026-08-18T20:59:25Z",
+    "published" : "2026-08-18T20:59:25Z",
+    "authors" : [
+      {
+        "name" : "Rayeef Ali Khan"
+      },
+      {
+        "name" : "Komal Raj Mahantesh"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.18274v1",
+    "title" : "Model Card for OpenAI Privacy Filter",
+    "summary" : "OpenAI Privacy Filter is a compact, bidirectional token-classification model for detecting and redacting personally identifiable information (PII) and secrets in unstructured text. The model is derived from an autoregressively pretrained checkpoint and converted into a bidirectional, banded-attention classifier that labels an input sequence in a single forward pass. A constrained Viterbi decoder produces coherent spans across eight privacy categories and exposes configurable operating points for precision-recall tradeoffs. Privacy Filter has 1.5 billion total parameters, 50 million active parameters per token, and a 128,000-token context window. It is designed for efficient local deployment and domain-specific fine-tuning. Privacy Filter is intended as a configurable data-minimization component within layered privacy workflows, not as an anonymization or compliance guarantee.",
+    "updated" : "2026-08-18T19:48:48Z",
+    "published" : "2026-08-18T19:48:48Z",
+    "authors" : [
+      {
+        "name" : "Charles de Bourcy"
+      },
+      {
+        "name" : "Sahra Ghalebikesabi"
+      },
+      {
+        "name" : "Avi Schwarzschild"
+      },
+      {
+        "name" : "Alex Gorbachev"
+      },
+      {
+        "name" : "Mihai Maruseac"
+      },
+      {
+        "name" : "Annie Chu"
+      },
+      {
+        "name" : "Vol Kyrylov"
+      },
+      {
+        "name" : "Tong Mu"
+      },
+      {
+        "name" : "Ally Bennett"
+      },
+      {
+        "name" : "Andy Nguyen"
+      },
+      {
+        "name" : "Casey Meehan"
+      },
+      {
+        "name" : "Jessica Gan Lee"
+      },
+      {
+        "name" : "Shane Bauer"
+      },
+      {
+        "name" : "Harold Nguyen"
+      },
+      {
+        "name" : "Rodolpho Eckhardt"
+      },
+      {
+        "name" : "Yuqi Liu"
+      },
+      {
+        "name" : "Charlie Oxborough"
+      },
+      {
+        "name" : "Marco Rougeth"
+      },
+      {
+        "name" : "Omar Chedid"
+      },
+      {
+        "name" : "Caio Costa"
+      },
+      {
+        "name" : "Yash Parikh"
+      },
+      {
+        "name" : "Yao Li"
+      },
+      {
+        "name" : "Congzheng Song"
+      },
+      {
+        "name" : "Om Thakkar"
+      },
+      {
+        "name" : "Vinnie Monaco"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
