@@ -354,107 +354,107 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.19580v1">End-to-End Differential Privacy in Training Deep Neural Network Classifiers</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-21T21:15:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huaiyuan Rao, Calvin Hawkins, Alexander Benvenuti, Matthew Hale</p>
-    <p><b>Summary:</b> Differentially private machine learning enables model training on sensitive data while ensuring that individual data is unlikely to be recoverable from the parameters of the resulting model. However, existing work often privatizes both training inputs and their labels, and these protections may be conservative when labels are public or can be safely made public. Therefore, in this work we propose a novel private training framework that instead privatizes training inputs while keeping labels public. We consider neural networks with softmax output layers, and thus the mapping from training inputs to the output of the softmax layer is a mapping onto the unit simplex. We randomize softmax outputs during training by applying the Dirichlet mechanism to enforce differential privacy for the training inputs, hence the ``end-to-end'' label. Because training data is reused across multiple training epochs, we use the notion of \Renyi differential privacy to formulate tight bounds on the strength of privacy provided by the Dirichlet mechanism across repeated uses. We show empirically that we attain new state-of-the-art accuracy when training from scratch on CIFAR10, MNIST, MedMNIST, FashionMNIST, and SVHN across all privacy budgets evaluated. Notably, when implementing $(ε, δ)$-differential privacy with $δ=10^{-5}$, we improve the prior state-of-the-art accuracy from $78.37\%$ to $88.17\%$ at $ε=4$ on CIFAR10, and our approach has $82.96\%$ accuracy even for $ε=1$, which significantly outperforms prior work.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.19532v1">Trustworthy Privacy-Preserving Multimodal Federated Learning for Personalised Breast Cancer Prediction</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-07-21T19:26:36Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruth Amey, Muhammad Arifur Rahman, Taha Osman, Nicholas Shopland, Andy Burton, Mufti Mahmud, David J. Brown</p>
-    <p><b>Summary:</b> Federated learning has emerged as a potential solution to privacy concerns associated with using sensitive health data for training predictive models, particularly in personalised cancer care. This research investigates whether federated learning can support the development of robust models for predicting tumour progression in breast cancer patients while addressing four critical deployment pillars: transparency, scalability, security, and fairness. This study evaluates a federated learning framework using multimodal data, including clinical information, tumour characteristics, biomarker data, and patient demographics, alongside medical imaging data such as MRI scans, to model changes in tumour characteristics over time. The performance of the federated approach was compared with that of a centralised model trained on aggregated data. The report then further examines strategies to enhance secure model updates, maintain performance across patient subgroups, and support scalability across institutions. The findings assess whether federated learning can achieve predictive performance comparable to centralised learning while preserving data locality. These results contribute to understanding the feasibility of privacy-preserving, multimodal predictive modelling and support future applications such as digital twins to assist clinicians and patients in personalised treatment planning.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.19146v1">Sarus: Privacy-Preserving Multi-Vendor Perception Fusion via Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-07-21T14:38:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Munawar Hasan, Apostol Vassilev</p>
-    <p><b>Summary:</b> Cooperative perception enables autonomous vehicles (AVs) to improve situational awareness by aggregating detection outputs from multiple agents and sensing platforms, often via a shared fusion service in multi-vendor deployments. However, sharing such outputs at inference time exposes proprietary model behavior and sensitive environmental information, creating significant privacy and security concerns. In this paper, we present Sarus, a privacy-preserving framework for multi-vendor perception fusion via homomorphic encryption (HE), enabling aggregation without revealing individual vendor outputs. Each vendor encodes detections as compact Gaussian moment vectors over a shared spatial lattice and transmits encrypted payloads to a fusion server, which aggregates them directly in the encrypted domain. The fused result is then decrypted and reconstructed into final detections through class-wise bin merging.
-  We analyze the computational complexity, showing linear scaling for vendor payload construction and $O(BV)$ server-side fusion with the number of occupied bins $B$ and vendors $V$, while postprocessing scales as $O(B + \sum_{c\in \mathcal{C}} B_c^2)$, where $\mathcal{C}$ denotes the set of object classes and $B_c$ is the number of occupied bins for class $c$. Experiments demonstrate linear scaling in practice with only a bounded constant-factor overhead from HE, with decryption dominating postprocessing cost. Experiments on the KITTI dataset using camera (YOLOv8) and LiDAR (PointPillars, PV-RCNN) detectors show that Sarus improves scene-level coverage by effectively aggregating complementary detections, particularly in distance-dependent regimes where individual modalities degrade. These results indicate that privacy-preserving multi-vendor perception fusion is feasible for real-time deployment when statistical compression and spatial sparsity are jointly exploited.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.18424v1">Enabling Multilingual Privacy Policy Audits: Large-Scale Analysis of Spanish Mobile Apps</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-07-20T18:13:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marcos Moran, David Rodriguez, Luka Nenadic, Norman Sadeh, Jose M. Del Alamo</p>
-    <p><b>Summary:</b> Automated analyses of privacy policies enable large-scale assessments of transparency in digital ecosystems, yet existing auditing pipelines remain predominantly English-centric. This limits their ability to systematically evaluate multilingual environments, as in the European Union, where many services disclose privacy practices only in local languages. This paper examines whether large language models (LLMs) can extend privacy policy analysis beyond English without requiring language-specific adaptation, thus empowering large-scale auditing in linguistically diverse app ecosystems.
-  We assemble an evaluation corpus spanning all 24 official EU languages from translated versions of two established expert-annotated datasets (OPP-115 and MAPP) and assess translation fidelity through automated metrics and targeted legal-expert review. Our LLM-based classifier for identifying categories of personal data collection achieves stable cross-lingual performance, with macro-F1 scores ranging between 0.91 and 0.94.
-  We then leverage this capability in a large-scale audit of 2,611 Android applications from the Spanish Google Play Store. Combining multilingual privacy policy analysis with the evaluation of corresponding privacy labels and runtime network traffic exposes an important linguistic barrier: public-sector apps predominantly provide privacy policies in Spanish, whereas popular commercial apps mostly provide them in English. We reveal systematic discrepancies between declared and observed practices, especially in public-sector apps. Overall, our results indicate how English-only privacy audits can systematically obfuscate transparency gaps in multilingual environments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.18169v2">RRAM-DP: Device-Calibrated Differential Privacy for In-Memory Edge Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E">
-  <p><b>Published on:</b> 2026-07-20T17:11:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kwunhang Wong, Jichang Yang, Karl M. H. Lai, Hegan Chen, Songqi Wang, Wei Xuan, Ning Lin, Han Wang, Xiaojuan Qi, Zhongrui Wang</p>
-    <p><b>Summary:</b> Edge Artificial Intelligence of Things (AIoT) systems often collect sensitive data in situ, raising serious privacy concerns. Resistive-switching random-access memory (RRAM) is an attractive substrate for efficient AIoT thanks to its multi-bit storage and compute-in-memory (CiM) capabilities, while its inherently stochastic write behavior provides a natural source of randomness that can be leveraged for differential privacy (DP) protection. Yet how to transform this device-level randomness-typically viewed as detrimental to accuracy-into a principled randomized mechanism while preserving model utility remains underexplored. We propose RRAM-DP, a hardware-algorithm co-design that relaxes RRAM write-verify operations to inject calibrated noise for inherently (epsilon, delta)-DP with formal DP analysis; together with pretraining techniques, it renders a novel private, high-utility CiM training paradigm. On CIFAR-10/100, STS-B, and SST-2, RRAM-DP-SGD incurs at best only a 3.8% accuracy drop at (epsilon=2, delta=O(1/n))-DP relative to non-private SGD. At the same privacy level, RRAM-DP-SGD delivers up to 57x and 3.2x energy savings and 2.7x and 1.8x speedups over A100 and DiVa-GEMM, respectively. These results point toward efficient, privacy-preserving in-memory training on RRAM at the edge.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.18021v1">Optimal Domain-Aware Privacy Mechanisms for Synthetic Data Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-20T14:54:16Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sajani Vithana, Sangwon Jung, Haoyang Hu, Viveck R. Cadambe, Flavio P. Calmon, Haewon Jeong</p>
-    <p><b>Summary:</b> Differential privacy (DP) imposes fundamental trade-offs between privacy and statistical fidelity in synthetic data generation. While access to public data has been shown to improve these trade-offs empirically, existing approaches use public data only indirectly, through pre-processing (e.g., using pre-trained generative models) or post-processing steps (e.g., matching target statistics estimated from public datasets), while relying on domain-agnostic DP mechanisms. In this work, we lay the theoretical framework to study the principled incorporation of public data into DP mechanisms themselves. We consider normalized histograms as distribution estimators and characterize the asymptotically optimal domain-aware privacy mechanism within a specific class of DP mechanisms. We introduce PubMix, a public-data-aware DP mechanism that can be used in histogram-based data synthesis pipelines. Our experiments demonstrate that PubMix significantly improves synthetic data generation quality compared to domain-agnostic privacy mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.17958v1">Privacy-preserving causal mediation analysis using distributed electronic health record networks</a></h3>
-  
-  <p><b>Published on:</b> 2026-07-20T13:59:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hyojung Jang, Rotana Radwan, Malcolm Risk, Yao Lee, Jiang Bian, Xu Shi, Serena Guo, Lili Zhao</p>
-    <p><b>Summary:</b> Electronic health record (EHR) networks provide unprecedented opportunities to study treatment mechanisms at scale, but mediation analyses across institutions are often hindered by privacy and governance constraints that restrict sharing of patient-level data. We developed a privacy-preserving federated mediation framework that enables estimation of natural direct and indirect effects without exchanging individual-level records across participating sites. The proposed approach integrates renewable learning with counterfactual causal mediation analysis, allowing institutions to collaboratively investigate treatment mechanisms using only low-dimensional summary statistics. Both simulation studies and the real-world application demonstrated that the federated estimator closely reproduced pooled-data results while preserving patient privacy. We applied the method to 32,146 patients in the Indiana Network for Patient Care to evaluate the extent to which body mass index (BMI) mediates the effect of GLP-1 receptor agonist on glycated hemoglobin (HbA1c) reduction. The BMI-mediated pathway accounted for only a small proportion of the overall treatment effect, suggesting that most glycemic improvement occurred through mechanisms other than weight loss.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.17504v1">DecoyFace: Beyond Obfuscation via Controllable and Imperceptible Identity Misdirection for Privacy-Preserving Face Recognition</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-07-20T03:19:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhihan Ren, Lijun He, Xinyao Wang, Xinzhu Fu, Fan Li</p>
-    <p><b>Summary:</b> Split face recognition reduces client-side computation but exposes intermediate features to feature inversion attacks and unauthorized analysis by honest-but-curious (HBC) servers. Existing privacy-preserving face recognition methods mainly aim to resist unauthorized reconstruction, typically producing features whose inversion yields visibly degraded results, which may reveal the existence of protection and motivate adaptive attacks. To address this issue, we propose DecoyFace, an imperceptible decoy-oriented framework that steers unauthorized reconstruction toward a plausible but incorrect identity while preserving recognition utility. The key idea is to decompose the intermediate representation into a reconstruction-sensitive subspace and its complementary subspace. The client injects decoy identity cues into the reconstruction-sensitive subspace, while limited recognition-relevant evidence from the true sample is retained in the complementary subspace. On the server side, an authorized canonicalization module suppresses decoy-dominant components and recovers a recognition-friendly representation. This design addresses both attacker-side inversion from intercepted features and HBC server-side reconstruction from canonicalized representations. Experiments show that DecoyFace preserves competitive recognition accuracy while substantially reducing identity leakage to 2.93% under U-Net attacks and 0.74% under Flow-Matching attacks while yielding visually plausible and imperceptible reconstructions, with over 99.78% face validity on LFW dataset.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.20118v1">Privacy-Preserving Detection of Rare Disease-Associated Cell Subsets via Secure Multi-Party Computation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-20T14:49:45Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ş. Selcan Magara, Esther Havemann, Debora Jutz, Ali Burak Ünal, Mete Akgün</p>
+    <p><b>Summary:</b> The detection of rare disease-associated cell subsets from high-dimensional single-cell measurements is critical for understanding diseases such as leukaemia and viral infections. CellCnn, a convolutional neural network (CNN) designed for this task, has demonstrated the ability to identify phenotype-associated cell populations at frequencies as low as 0.01\%. Training such models reliably requires patient cohorts that are larger and more diverse than any single institution can typically assemble, and the underlying single-cell data is too sensitive to share across institutional boundaries under existing privacy regulations. We propose a secure multi-party computation (MPC) framework that enables the training and inference of CellCnn entirely on secret-shared data. This ensures that neither the participants nor the computing servers ever observe raw patient data or intermediate values. Evaluated on benchmark single-cell datasets for cytomegalovirus infection (CMV) and acute myeloid leukaemia (AML), our implementation preserves accuracy close to its plaintext counterpart while outperforming the prior privacy-preserving baseline. In contrast to earlier privacy-preserving approaches that removed components such as ReLU activations and bias terms, our method retains these key parts of the CellCnn architecture and supports accurate analysis without exposing raw patient data.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.20108v1">A Meta-Study on Replication Papers in Usable Security & Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-20T14:39:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christian Mack, Benjamin Berens, Hanna Algedri, Tobias Hilt, Daniela Reimer, Peter Mayer, Melanie Volkamer</p>
+    <p><b>Summary:</b> The field of usable security and privacy research is a young and expanding field, which is still developing standards for its research, e.g. regarding replications. We used a mixed-method approach, in order to get a better understanding of the current state of replications in the field of usable security and privacy: (1) we examine the Call for Papers of 13 venues spanning security, privacy, and human-computer interaction; (2) we conduct a systematic search for papers reporting replicated user studies published across these venues between 2016 and 2025, yielding 24 relevant publications; (3) we categorized these 24 papers employing the replication taxonomy proposed by Olszewski et al. (2025); (4) we distributed a survey to the authors of these papers to understand their motivations for conducting replications. Our analysis reveals four key insights: (A) Calls for Papers would benefit from clearer guidelines for authors and reviewers regarding replication work; (B) determining what modifications were made relative to the original study proves difficult when reading replication papers; (C) strict exact replications do not exist in our sample. Approximately two-thirds of the 24 studies altered multiple aspects of the original work; (D) temporal and contextual changes affecting results emerged as one of the most frequently cited motivations for replication. Based on these findings, we offer practical recommendations for venues, researchers, and peer reviewers to strengthen replication practices in usable security and privacy research.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.19944v1">A Privacy Budgeting Framework for Online Experimentation</a></h3>
+  
+  <p><b>Published on:</b> 2026-08-20T12:07:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Gilian R. Ponte, Alina Ferecatu</p>
+    <p><b>Summary:</b> Firms perform online experiments with multi-armed bandits to personalize what consumers are shown while balancing exploration and exploitation. However, third-parties can infer consumers' underlying segments from observing which banners, ads, or recommendations consumers receive. To control this inference, we propose a privacy risk budget that firms can set ex ante to bound such third party belief updating using differential privacy. To spend this privacy risk budget, we propose two strategies: a constant privacy risk strategy and a dynamic privacy risk strategy that spend privacy risk differently across visitor. We study how privacy risk budgets affect experimentation performance in two applications--website design and a recommendation system--under these strategies. For both strategies, we analytically find privacy risk budgets that optimally balance exploration and exploitation. We then extend the idea of an experiment-level privacy risk budget to a firm-wide privacy risk budget. We apply this firm-wide privacy risk budget in an empirical setting with 78 experiments. We find that the dynamic strategy is particularly valuable in longer and more complex experiments, and that optimizing the allocation of a firm-wide privacy risk budget across experiments substantially improves learning performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.19873v1">Evaluating Smart Home Device User Responses to their (Un)Confirmed Privacy Expectations</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-08-20T10:35:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tania Khatun, Mahdieh Sheikh Rezaei, Danny Yuxing Huang, Oded Nov, Reza Ghaiumy Anaraky</p>
+    <p><b>Summary:</b> Users of smart home devices are often unaware of how their devices handle personal data. We examine how revealing these data practices influences user trust, satisfaction, and coping behaviors, including decisions to block device communications. Using Expectation-Confirmation Theory, we conducted two complementary studies to balance ecological validity with experimental control. An in-situ field study used network monitoring to reveal actual device traffic, and an online experiment presented simulated reports with manipulated levels of advertising-related communications. Across both studies, when data practices aligned with user expectations, satisfaction increased, strengthening intentions to continue using the device. Defensive responses, however, followed different pathways: satisfaction predicted willingness to block in the in-situ field study, whereas collection concerns were the primary predictor of blocking in the experiment. Together, these findings show how transparency reshapes attitudes and behaviors among existing smart-home users, underscoring the role of expectation confirmation in real-world, continued-use contexts.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.19650v1">Enhancing Privacy in Federated Learning via Dual Obfuscation of Gradients and Training Images</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-20T05:36:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuki Itabashi, Hiroto Sawada, Mare Hirose, Shoko Imaizumi, Hitoshi Kiya</p>
+    <p><b>Summary:</b> Federated learning enables collaborative model training while keeping data locally at each client; however, recent studies have shown that training data can be reconstructed from shared model updates. To address this issue, this paper proposes a dual obfuscation method that enhances robustness against image restoration attacks by jointly obfuscating updated information and training images. The proposed method combines a robustness enhancement technique based on random binary weights, which randomly sets a portion of gradient elements to zero, with an image encryption technique. These techniques provide complementary protection by reducing the amount of original gradient information available to an attacker and the visual interpretability of reconstructed images, respectively. Furthermore, the image encryption technique allows independent keys to be used for each client and each image, avoiding explicit key sharing. Experimental results on an image classification task using a Vision Transformer (ViT) show that the proposed method reduces the visual information recovered by Attention Privacy Leakage (APRIL) under the evaluated settings without causing additional degradation in classification performance beyond that caused by image encryption. Although the proposed combination does not provide an absolute security guarantee, the results demonstrate the potential benefit of combining gradient modification and image encryption for privacy-enhanced federated learning.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.19649v1">Differential Privacy in Feature Reconstruction Aided Federated Learning for Agent's Semantic Communication Model Update</a></h3>
+  
+  <p><b>Published on:</b> 2026-08-20T05:35:16Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yoon Huh, Bumjun Kim, Wan Choi</p>
+    <p><b>Summary:</b> This paper proposes a differentially private federated learning (FL) framework built upon an FL algorithm with semantic feature reconstruction (FedSFR) for training semantic communication modules for image transmission. By allowing clients with unfavorable uplink capacity to transmit low-dimensional semantic feature vectors extracted from locally trained joint source-channel coding (JSCC) encoders, FedSFR enhances communication efficiency and training stability under heterogeneous wireless conditions. To protect client privacy, we incorporate the oneshot Laplace mechanism and theoretically demonstrate that feature-based transmission achieves strictly stronger differential privacy (DP) guarantees than gradient-based transmission under an identical communication budget. In addition, a model selection mechanism is introduced to alleviate performance degradation caused by privacy-preserving perturbations. Experimental results on multiple datasets show that the proposed DP-aided FedSFR outperforms DP-enabled FedAvg in training stability and image reconstruction quality in heterogeneous wireless systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.19534v1">AEGIS: Attention-Embedding Gradient Isolation Shield - Triple-Channel Gradient Masking for Privacy-Preserving Federated LLM Fine-Tuning</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-20T01:12:56Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ye Tao, Hong Shen, Hui Tian, Xin Wang, Can Wang</p>
+    <p><b>Summary:</b> Gradient inversion attacks recover private training text from gradients shared in federated learning, posing a serious threat to collaborative model training. Through our analysis of transformer gradient structure, we identify three channels through which private token information leaks: the attention output projection gradient exposes a low-rank subspace that encodes input embeddings (Channel 1), the embedding gradient's row-norm sparsity directly reveals which tokens are present (Channel 2), and the MLP expansion gradient carries a recoverable subspace signal analogous to Channel 1 (Channel 3). State-of-the-art attacks exploit these channels analytically to achieve near-exact token recovery in seconds. Existing defences address at most one channel and either degrade model utility or leave the remaining structural signals intact.
+  We introduce AEGIS (Attention-Embedding Gradient Isolation Shield), a lightweight defence that closes all three analytical channels with three backward-path operations requiring no architectural changes: freezing attention projection parameters eliminates Channel 1 by construction, calibrated noise injection into the embedding gradient destroys Channel 2's token-presence signal, and analogous per-block noise injection into the MLP expansion gradient masks Channel 3. The same masked gradient drives both the local optimiser step and the server export, so no clean signal is retained on either side.
+  Evaluated across 11 models and six datasets, AEGIS reduces token recovery rates to near zero against a range of gradient inversion attacks, both analytical and optimisation-based, while preserving or improving model utility. We provide formal guarantees for Channels 1 and 2 and validate the full defence empirically against adaptive adversaries with complete knowledge of the mechanism.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.19462v1">A Federated Learning Framework for Privacy-Preserving Oral Cancer Screening on Smartphones</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-19T21:33:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lena D. Swamikannan, Akshay Bhagwan Sonawane, Jay S. Patel, C. S. Mani, Lakshmi Narayana, Lakshman Tamil</p>
+    <p><b>Summary:</b> Data are the cornerstone of robust AI models. However, in the medical domain, access to reliable data is constrained by regulatory requirements and patient privacy, and clinical oral images are particularly difficult to obtain. Federated learning (FL) mitigates these constraints by enabling collaborative model development across decentralized datasets without centralizing or sharing patient data.
+  This work presents a practical FL framework that supports geographically distributed collaboration among AI healthcare researchers and facilitates the development of robust models for oral cancer screening. Client devices were interconnected via Tailscale to provide secure networking and real-time communication. We implemented the FL workflow using the Flower framework for server-side aggregation, while client deployment and orchestration were configured manually; no enterprise FL platforms were used. To support a smartphone-based screening application, we evaluated lightweight, mobile-friendly architectures including MobileNetV2, MobileNetV3Large, and MobileNetV4-Conv-Small (MNv4-Conv-S). Across the global lightweight models aggregated using FedAvg, the MNv4-Conv-S based global model (GM-V4) achieved the best performance, reaching an AUC of 0.929 and an accuracy of 87%</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2608.19155v1">FedGuard-DC: Privacy-Preserving Federated Load Forecasting and Cyber-Attack Detection for Data-Center Loads in Transmission Systems</a></h3>
