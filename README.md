@@ -269,93 +269,92 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.22450v1">A Maximum Entropy Implementation of Differential Privacy Under Linear Invariants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
-  <p><b>Published on:</b> 2026-07-24T16:13:07Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ryan Lafferty, Anindya Roy</p>
-    <p><b>Summary:</b> Differential privacy is the standard for ensuring data privacy and is widely used in major data publications, including reporting results from the U.S. decennial census. Common implementation of differential privacy uses independent Gaussian or Laplace noise addition to the database. However, there could be aggregate (linear) queries to the database that are excluded from the privacy budget, for example, state totals that can not be perturbed due to constitutional mandates. Any implementation of a differential privacy is required to honor these constraints, also referred to as invariants. Under aggregation constraints, the noise vector is no longer independent and the traditional differential privacy guarantees have to be re-evaluated. We propose a high entropy differential privacy implementation that maintains the aggregation invariants with probability one or exponentially close to one and derive the privacy guarantees for the implementation under the invariants. The theoretical proof covers a partial solution to an open question about the null space of correlation matrices. Moreover, the methodology has general use in the context of sampling from normal mixture models under linear equality constraints.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.22270v1">Comparing and Conceptualizing Data Protection Requirements Worldwide for Privacy Regulatory Compliance</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2026-07-24T13:08:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Claudia Negri-Ribalta, Lorena Sanchez Chamorro, Ioana Visescu, Muriel Frank, Anastasia Sergeeva, Alberto García, Rene Noel</p>
-    <p><b>Summary:</b> The growing digitalization of society has intensified the collection, processing, and sharing of personal data, increasingly moving across national borders and regulatory jurisdictions, prompting a proliferation of data protection frameworks worldwide. These transborder personal data flows (TPDF) are essential to today's economy, but organizations managing them must reconcile data protection requirements that differ, sometimes subtly, across jurisdictions. For requirements engineering, this is the central challenge: regulatory data protection requirements (RDPRs) are complex and not directly translatable into software requirements, especially when frameworks impose similar, non-identical, or contradictory obligations. Identifying which requirements are shared and which diverge is therefore critical to managing TPDF, and addressing them late in the software development lifecycle (SDLC) causes costly rework, making early identification essential for compliance and stakeholder communication. This paper identifies and conceptualizes common RDPRs worldwide from the perspective of data protection legal experts, answering: (SQ1) which requirements are common across regulations and how are they conceptualized, and (SQ2) which requirements diverge and how do they differ conceptually. We combine deductive qualitative analysis of interviews with 70 legal experts from G20 economies and other countries and systematic content analysis of these economies' data protection regulations. We identify common requirements, such as consent, and divergent ones, such as the right to be forgotten. Given their impact across the SDLC and enterprise architecture, we translate these findings into a set of Data Protection Officer DPO (DPO) stories, using the user story notation, classified by SDLC phase and enterprise architecture layer, to help organizations manage TPDF compliance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.22230v1">trasgoDP: An Open Source Framework for Releasing Noised Tabular Microdata under Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2026-07-24T11:56:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Judith Sáinz-Pardo Díaz, Álvaro López García</p>
-    <p><b>Summary:</b> trasgoDP is a modular, open-source, and easy-to-use Python framework for releasing tabular microdata under ε-local differential privacy guarantees, as well as location data under geo-indistinguishability assumptions, designed to be installed and integrated within standard data science workflows. The software enables systematic exploration of privacy-utility trade-offs across multiple mechanisms, data types, and ε values. While differential privacy has been extensively studied for aggregate data, its application to row-wise microdata release remains underexploited in terms of reusable software tools, a gap that is even more pronounced in the case of metric privacy and location-based data. trasgoDP implements local-DP mechanisms for numerical and categorical attributes (Laplace, Gaussian, Exponential, and Randomized Response), a geo-indistinguishability mechanism for location data, and a set of utility metrics, including a novel correlation-loss measure, to quantify information loss as a function of the allocated privacy budget. The objective of this work is to provide the research community with a reproducible, open-source baseline for evaluating tabular and location-based data publication methodologies under formal local differential privacy guarantees.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.21417v1">Towards Privacy-Preserving Federated Prompt Tuning under Data Heterogeneity: A Subspace-Decomposed Expert Approach</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-07-23T15:22:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuhua Wang, Xiaodong Li, Yihao Guo, Yuxiang Jia, Qinnan Zhang, Yifan Sun, Hainan Zhang, Yongxin Tong, Zhiming Zheng</p>
-    <p><b>Summary:</b> Federated prompt tuning (FPT) enables collaborative adaptation of vision--language models (VLMs) using lightweight prompts. Existing methods often address heterogeneity and privacy through a split-prompt design under local differential privacy (DP), combining a shared prompt for global transfer with private prompts for local adaptation. However, a single shared prompt may over-smooth diverse transferable knowledge, weakening the balance between personalization and generalization. Multi-expert prompts (MEPs) can better capture this diversity, but enlarge the communicated space, increasing DP noise and communication cost while making robust expert composition more difficult. We propose FedSEPT, a privacy-preserving Fed}erated Subspace-decomposed Expert Prompt Tuning. Specifically, we employ Subspace-decomposed Expert Modeling (SEM) to parameterize multiple prompt experts with shared low-rank factors, a fixed public basis, and private residuals, thereby confining communication and DP perturbation to a compact factor space while enabling direct server aggregation in a common coordinate system. We further design Instance-aware Expert Fusion (IEF), which adaptively combines semantically complementary experts via on-device routing and performs efficient logit-level fusion using cached expert-specific text features. Extensive experiments on 11 heterogeneous benchmarks show that, under the same privacy constraints, FedSEPT achieves a better trade-off between local adaptation and global generalization than strong baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.21393v1">From Read Speech to Spoken Digits: A Task-Specific Evaluation of Speech Privacy With Informed Attackers</a></h3>
-  
-  <p><b>Published on:</b> 2026-07-23T14:55:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jule Pohlhausen, Anjana Rajasekhar, Anna Leschanowsky, Joerg Bitzer</p>
-    <p><b>Summary:</b> Protecting speech privacy in real-life audio recordings is a growing concern. This contribution evaluates the effectiveness of three obfuscation techniques in protecting linguistic speech content, using digit recognition as a task-specific and practically motivated evaluation scenario. As a first baseline, a general-purpose speech recognition model and a digit-specific classifier were applied as informed attackers to recognise both single digits and concatenated digit sequences. Our experimental results demonstrate significant differences in recognition performance across digit modality, speech rate, and attack model. These findings emphasize the need for more comprehensive and application-oriented evaluation methods to ensure speech privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.20727v1">Edit-Neighboring Data Streams and Privacy under Continual Observation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-22T20:54:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Joel Daniel Andersson, Anamay Chaturvedi, Monika Henzinger, Roodabeh Safavi</p>
-    <p><b>Summary:</b> Differential privacy under Continual Observation (CO) quantifies the loss in privacy that occurs when outputs generated using a stream of sensitive input data are published in the online setting. In this paper, we consider a more stringent notion of privacy compared to prior work wherein an individual's participation may shift the entire stream by a time-step. We define a new notion of edit-neighboring streams that captures this scenario.
-  Our findings are as follows. First, we prove that on a stream of length $T$, every additive-noise mechanism incurs error $\tildeΩ(\min\{T^{1/3}/\varepsilon^{2/3}, T\})$ when required to be $\varepsilon$-DP under CO for edit-neighboring streams. This includes state-of-the-art continual counters constructed via the factorization mechanism that in the standard neighboring setting incur only polylogarithmic additive error. Second, we construct the first mechanisms with polylogarithmic additive error for our more stringent notion of privacy. We show that we can recover the same additive error as in the standard notion of privacy albeit with worse constant coefficients for both arbitrary input streams and sparse streams. Third, we show that the notion of edit-neighboring streams inhabits a `sweet-spot' in terms of generality and additive error incurred. More precisely, we show that the even more general notion of prefix-sum neighboring streams---which arises naturally in reductions for problems under CO---must incur additive error scaling as $\tildeΩ(\min\{T^{1/3}/\varepsilon^{2/3}, T\})$ for any mechanism that is $\varepsilon$-DP under continual observation. Finally, we show empirically on synthetic data that when compared with prior work, our mechanism achieves a superior trade-off between the success probability of a simple distinguishing attack, and the additive error incurred by the respective mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.20692v1">DS@GT ARC at ImageCLEFmed GANs 2026: Geometric Filtering for Privacy-Preserving CT Slice Generation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-07-22T19:46:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Eric Regina, Richard Arnaud, Samir Hadi Cisneros</p>
-    <p><b>Summary:</b> We present a privacy-preserving framework for synthetic lung CT slice generation developed for the Image-CLEFmed GANs 2026 challenge. The approach combines Optimal Transport Conditional Flow Matching with privacy-oriented training and a post-generation "Supervisor" pipeline that filters generated candidates in learned geometric latent spaces using autoencoder embeddings, Determinantal Point Processes, and Stein Kernel Thinning. Official results show a strong realism-privacy trade-off, with the best-performing model achieving a Privacy Preservation Score of 0.549 and competitive visual fidelity with an FID of 0.3290. While the proposed geometric filtering substantially reduces nearest-neighbor memorization and membership-inference leakage, persistent patient re-identification scores indicate that preventing direct image copying is not sufficient to remove deeper patient-specific anatomical identity, highlighting an important frontier for future privacy-preserving medical image generation.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.21209v1">Personalized Privacy Control in LLMs via Attention Head Intervention</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-08-21T15:22:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Junseok Kim, Nakyeong Yang, Kyomin Jung</p>
+    <p><b>Summary:</b> The rise of agentic AI enables LLMs to access diverse user data, raising critical privacy concerns. Prior work on contextual privacy studies whether LLMs regulate information disclosure according to context-dependent norms. However, acceptable disclosure boundaries may vary across users even within the same context. To address this limitation, we introduce \textit{personalized privacy}, which incorporates user-specific disclosure preferences into privacy control. We further present P3Bench~(\textbf{P}ersonalized \textbf{P}rivacy \textbf{P}reservation \textbf{Bench}mark), a novel benchmark extending contextual privacy policies with personalized disclosure policies. Experiments show that prompt-based policies fail to reliably enforce personalized privacy policies, with Qwen2.5-7B and Gemma3-4B showing average policy ignorance ratios of 51.25\% and 74.28\%, respectively. Finally, to address this problem, we propose \textsc{Repair}, a robust inference-time attention head intervention method that adjusts disclosure behavior toward policy-consistent responses. Our method significantly improves adherence to user-specific privacy preferences by reducing cases where the model fails to follow the given policy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.21205v1">Workplace Surveillance and Insider Threat Risk Management: Legal Limits and Privacy Harms</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-21T15:20:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haywood Gelman, John D. Hastings, Suvineetha Herath, Quentin Covert</p>
+    <p><b>Summary:</b> Workplace surveillance is used by organizations to protect corporate assets and monitor employee productivity. This research presents two central arguments on workplace surveillance: although surveillance serves legitimate organizational purposes, over-surveillance can violate legal requirements and data privacy principles; and a primary security objective of workplace surveillance is the detection of insider threats (InT). InT are comprised of individuals with authorized resource access whose intentional or unintentional actions may damage or compromise corporate assets. This paper investigates InT personas to understand behavioral and psychological detection criteria. Employee surveillance tools and techniques are reviewed to characterize the employee surveillance landscape. Workplace privacy laws, examples of over-surveillance, and the resulting privacy harms are addressed. The review identifies research gaps related to over-surveillance, including the generation of excessive alerts that may obscure meaningful InT indicators. The paper concludes with recommendations to improve workplace surveillance transparency, implement InT training programs to improve organizational detection capabilities, and tune InT tools to detect relevant psychological and behavioral indicators.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.21064v1">Privacy-Preserving Localization via Transmit Antenna Selection and Permutation</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-08-21T13:07:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yiyang Zhang, Yanmo Hu, Junyuan Gao, Shuowen Zhang, Jiannong Cao, Liang Liu</p>
+    <p><b>Summary:</b> Integrated sensing and communication (ISAC) has been identified as one primary usage scenario in the sixth-generation (6G) network. While techniques to preserve information privacy, such as cryptography, have been widely investigated, how to preserve sensing privacy is still an open problem in the literature. This paper makes an early attempt to tackle the above issue. Specifically, we consider a localization system consisting of a multi-antenna transmitter, termed Alice, a single-antenna legitimate receiver, termed Bob, and a single-antenna illegitimate receiver, termed Eve. To allow Bob to estimate Alice's angle-of-departure (AOD) but prevent Eve from performing this task based on Alice's signals, this paper proposes a novel antenna selection and permutation based transmission strategy for Alice. Under this scheme, Alice carefully selects a subset of antennas and permutes their indices to establish a specific pilot-antenna mapping for transmission. Similar to cryptography for information privacy, such a mapping will serve as the secret key to preserve localization privacy. In the special case without noise at Bob and Eve, we manage to find out all the antenna selection and permutation solutions such that with this key (knowledge about the exact pilot-antenna mapping), Bob can uniquely estimate Alice's AOD, while without this key, Eve can estimate multiple AODs of Alice that can lead to its received signals. In the noisy case, numerical results are provided to show that our scheme can confuse Eve to make inaccurate AOD estimation as well.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.21009v1">Dorsal Hand Images for Immersive (XR) and Privacy-preserving Age Assurance and Child Safety</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-08-21T11:54:32Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Riccardo Bovo, George Loukas, Josh P. Davis</p>
+    <p><b>Summary:</b> Ensuring that Extended Reality (XR) environments are age-appropriate is an important regulatory and safety challenge. However, current age assurance operates only at registration and cannot verify the age of the active user during a session. Face-based approaches, the dominant solution in social media and adult platforms, are impractical in XR, because they require removing the headset and taking a self-captured image, often on a mobile app. This both breaks immersion and introduces the privacy risk of sharing face pictures with third parties, which leaves XR platforms without a viable path to continuous, in-session and privacy-preserving age assurance. We propose the dorsal part of the hand as an alternative to the face, by exploiting the egocentric cameras that XR headsets inherently and naturally use to capture gesture interactions. To evaluate this, we collect an age- and sex-stratified, ethnodiverse dataset of 436 participants spanning the minor--adult boundary, captured under unconstrained lighting and orientation conditions. To characterise what is achievable with off-the-shelf methods at the minor--adult boundary, we evaluate standard neural network architectures for age assurance at the legally critical 18-year threshold. Analysis confirms performance is robust to skin-tone variation. On this dataset, the challenge-31 operating point achieves zero minor admission, making the system a viable first-stage filter for age assurance. These findings position dorsal hand morphometrics as an effective and more privacy-preserving biometric modality for in-session age assurance in XR.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.20789v1">Chat First, Worry Later: Understanding Individuals' Privacy Perceptions Using ChatGPT in a Work Context</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-08-21T07:03:58Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Christoph Nirschl, Magdalena Glas, Gerhard Messmann, Günther Pernul</p>
+    <p><b>Summary:</b> Generative Artificial Intelligence (GenAI) tools like ChatGPT, which can generate human-like responses from vast amounts of textual data, are increasingly transforming work routines across various fields, including education, healthcare, and IT. This integration, however, raises privacy concerns and questions the readiness of both environments and individuals. To investigate this issue, we conducted a user study with $N=224$ participants from a range of different employment sectors that have integrated ChatGPT into their work routines. We examined how proficiency in the utilization of ChatGPT, general privacy concerns, and organizational policies for GenAI usage impact users' actual ChatGPT usage and how these factors interact. Our findings reveal organizational policies are significantly positively associated with privacy-related ChatGPT proficiency, however, the overall proficiency is low. Higher privacy concerns were found to negatively influence both the frequency of ChatGPT use and the diversity of its applications, especially among users in organizations without GenAI policies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.20712v1">Privacy-Preserving Object Detection for Vision Transformer-Based Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-08-21T03:40:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Homare Sueyoshi, Kiyoshi Nishikawa, Hitoshi Kiya</p>
+    <p><b>Summary:</b> We propose a novel object detection method that enables us to protect sensitive visual information of test images. Previous studies considering visual information protection focus on image classification tasks. This paper proposes an object detection method using perceptual encryption for the first time. The proposed method can achieve almost the same accuracy as that of models without any protection by utilizing the embedding structure of the Vision Transformer (ViT) and a domain adaptation technique with keys. In experiments, the effectiveness of the proposed method is verified in terms of accuracy and visual protection under the use of ViTdet, which is a ViT-based object detection model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.20554v1">aiXamine: Unified Black-Box Evaluation of Cross-Dimensional Trade-offs in LLM Safety, Security, and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-08-20T20:33:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Fatih Deniz, Yazan Boshmaf, Dorde Popovic, Issa Khalil</p>
+    <p><b>Summary:</b> The critical failure modes in deployed large language models (LLMs) are cross-dimensional: a model can score 99.3 in safety alignment while refusing one in three benign queries, or improve across every capability metric while losing 21 points in privacy. Existing evaluation frameworks that assess safety, security, and privacy independently cannot detect these patterns. We introduce aiXamine, a unified black-box platform that evaluates LLM trustworthiness across safety, security, and privacy as interdependent properties. aiXamine orchestrates 46 tests across nine services through an automated red-teaming pipeline, producing hierarchical risk profiles, from prompt-level diagnostics to cross-service trade-off analytics, that enable reproducible comparison of proprietary and open-weight systems under identical conditions. Applying aiXamine to over 120 LLMs through more than 5,000 test runs, we conduct the largest joint safety, security, and privacy study to date and uncover three cross-dimensional phenomena invisible to single-axis evaluation. First, safety enforcement incurs a quantifiable safety tax: stronger alignment systematically increases over-refusal, forcing providers to choose between protection and utility. Second, privacy is near-orthogonal to other trustworthiness dimensions and not captured by standard alignment. Third, we identify and formally characterize distillation-induced robustness collapse: off-policy distillation without on-policy correction causes entropy collapse, catastrophically destroying robustness (56.9$\to$2.6) on the same base architecture. These findings, compounded by diminishing returns from scale and category-dependent safety behaviors, demonstrate that trustworthiness is inherently multi-dimensional: progress along one axis does not guarantee, and can actively undermine, progress along others, yet current alignment methods treat it as a single objective.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2608.20118v1">Privacy-Preserving Detection of Rare Disease-Associated Cell Subsets via Secure Multi-Party Computation</a></h3>
@@ -382,7 +381,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.19944v1">A Privacy Budgeting Framework for Online Experimentation</a></h3>
+  <h3><a href="http://arxiv.org/abs/2608.19944v2">A Privacy Budgeting Framework for Online Experimentation</a></h3>
   
   <p><b>Published on:</b> 2026-08-20T12:07:53Z</p>
   <details>
@@ -784,12 +783,12 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.11645v1">Cloak of Invisibility: Real-Time Privacy-Preserving Volumetric Video Streaming</a></h3>
+  <h3><a href="http://arxiv.org/abs/2608.11645v2">Cloak of Invisibility: Real-Time Privacy-Preserving Volumetric Video Streaming</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-08-12T04:44:20Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Hossein Khalili, Philip Do, Alexander Vilesov, Kittipat Apicharttrisorn, Nader Sehatbakhsh</p>
+    <p><b>Authors:</b> Hossein Khalili, Philip Do, Alexander Vilesov, Achuta Kadambi, Kittipat Apicharttrisorn, Nader Sehatbakhsh</p>
     <p><b>Summary:</b> Volumetric video streaming turns privacy into a 3D, multi-view problem. Unlike ordinary video, where sensitive content can often be redacted frame by frame, RGB-D volumetric pipelines capture people, rooms, and personal objects from multiple cameras and fuse them into a shared 3D representation. A private object missed in one view, or only partially removed before fusion, can therefore reappear in the reconstructed scene. This creates a privacy challenge for 3D telepresence, education, entertainment, and immersive applications: private content should be removed before raw visual and geometric data leave the camera side, while the public part of the scene should remain useful for real-time reconstruction. Existing volumetric streaming systems mainly optimize reconstruction, data movement, and latency, while privacy-preserving vision methods are designed for single-camera, single-frame images and do not directly address calibrated multi-view RGB-D fusion. We present InViStream, a real-time "privacy-from-source" system designed for this setting. InViStream addresses three challenges in volumetric capture: private objects may appear differently across views, RGB masking alone can leave geometric privacy leakage in depth, and public/private instances of the same class must be separated consistently before cloud-side fusion. To address these challenges, InViStream combines object detection with depth-aware masking, propagates public/private decisions across calibrated views, and fuses only sanitized point clouds. We evaluate InViStream on synthetic and real RGB-D scenes, including offices, conference rooms, living rooms, and settings with multiple public and private people and objects. InViStream achieves synthetic Dice/Recall of 0.799/0.891 and real Dice/Recall of 0.792/0.908, with synthetic SSIM above 0.98 and real-time streaming above 30 FPS.</p>
   </details>
 </div>
