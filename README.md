@@ -183,94 +183,81 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.25564v1">To What Extent Can Inherent Communication Noise Guarantee Privacy in Distributed Cooperative Control?</a></h3>
-  
-  <p><b>Published on:</b> 2026-07-28T10:52:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yuwen Ma, Sarah Spurgeon, Tao Li, Boli Chen</p>
-    <p><b>Summary:</b> This paper proposes a differentially private distributed cooperative control scheme for multi-agent systems (MAS). Unlike conventional approaches that actively inject artificial noise for privacy protection, this work investigates whether inherent communication noise can itself serve as a natural privacy mechanism. A physically motivated communication-noise model is developed for mobile MAS by incorporating transmitter perturbation, receiver noise, path-loss attenuation, and log-normal shadowing. The resulting effective noise variance depends on inter-agent state differences, thereby capturing the distance-dependent signal perturbation arising in practice. Based on this model, a distributed finite-horizon Linear Quadratic Regulator (LQR) mechanism is designed to achieve formation tracking while protecting agents' private control preferences. Rather than protecting the full local cost function, the proposed privacy formulation focuses on the ratio of the LQR weighting matrices, which captures the trade-off between tracking accuracy and control effort when the quadratic cost structure is publicly known. A set-theoretic sensitivity analysis shows that this weighting-ratio adjacency formulation yields less conservative privacy bounds than gradient-based protection under the considered addition/removal adjacency relation. Theoretical analysis demonstrates that, under suitable design conditions, the proposed mechanism provides bounded cumulative (ε,δ)-differential privacy guarantees for the weighting ratios over an infinite horizon without artificial noise injection. Meanwhile, the cooperative tracking error is shown to converge almost surely and in mean square to a finite random limit, with its expectation remaining bounded. Numerical examples validate the theoretical results and illustrate the resulting privacy-performance trade-off.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.25107v1">MOSAIC-FL, a micro-service based privacy-preserving framework with application to genomics</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-07-27T22:09:46Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Paul Largillier, Karl Paygambar, Cédric Gouy-Pailler, Vincent Meyer, Mallek Mziou, Oana Stan</p>
-    <p><b>Summary:</b> Security and privacy are primordial requirements for Federated Learning (FL), especially in fields such as healthcare and genomics where sensitive information has to be analyzed. Our FL framework is designed to address these challenges while proposing a modular, flexible and micro-service architecture. More precisely, it integrates an efficient gRPC communication layer and a Finite State Machine to ensure robust component synchronization and threat detection, while relying on a fault-tolerant secure aggregation protocol using a Threshold variant of the CKKS homomorphic cryptosystem. This allows blind model aggregation by an orchestration server, requiring a minimum of $t$-out-of-$N$ active clients for decryption while minimizing communication overhead thanks to both cryptographic and network protocols. We ensure IND-CPA-D security through noise flooding and mitigate the recent key-recovery attack on synchronized decryptors by renewing the collective key material at every round. We demonstrate the framework's effectiveness through diverse use cases, ranging from standard image recognition (EMNIST) to complex genomic classification including breast cancer subtyping on TCGA, evaluating system performance across different threshold values and model scales.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.24556v1">BettiSplit: Topology-Guided Privacy-Aware Split Learning Against Feature Inversion and Gradient Leakage</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-27T15:29:49Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Akarsh K. Nair, Muhammad Arifur Rahman, David Brown, Mufti Mahmud</p>
-    <p><b>Summary:</b> Split learning enables collaborative model training by partitioning neural networks across clients and servers. However, improper split placement can lead to severe privacy leakage through intermediate representations. In this work, we propose a topology-guided framework for privacy-aware split learning based on the persistent Betti complexity of smashed activations. Through comprehensive layer-wise analysis, we show that privacy risk in split learning is highly non-uniform across layers and exhibits sharp transition regions that are not captured by architectural depth alone. In particular, feature inversion fidelity increases from negligible reconstruction to as high as 0.98 SSIM at deeper, privacy-critical split points. We further demonstrate that Betti complexity consistently identifies representation regimes associated with elevated feature-space privacy leakage across architectures and datasets. Leveraging this observation, we introduce BettiSafe, a topology-guided split selection strategy that identifies privacy-sensitive layers without requiring explicit attack execution. BettiSafe improves resistance to feature inversion by 2 to 5 times compared to depth-based heuristics while preserving classification accuracy. In addition, Betti-based regularisation increases inversion difficulty by nearly 5 x without degrading model utility, enabling a favourable privacy utility tradeoff. Overall, our results highlight topological complexity as a promising structural descriptor for secure, adaptive, and representation-aware split learning in real-world collaborative systems</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.23984v1">Beyond GDPR: Examining Disclosure Gaps in Mobile AR Privacy Policies under U.S. State Privacy Laws</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-07-27T04:23:56Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hong Chen, Xueling Zhang, Hong-Ning Dai, Huashan Chen, Qin Yu, Tiange Xie, Duohe Ma, Feng Liu</p>
-    <p><b>Summary:</b> Mobile Augmented Reality (MAR) apps can collect and process highly sensitive data such as spatial maps and biometrics, yet their privacy policies remain largely understudied. Prior audits of app privacy policies have typically focused on a single legal framework, such as the GDPR. Meanwhile, 20 U.S. states have comprehensive privacy laws in effect, creating a fragmented and rapidly evolving set of privacy policy obligations. To date, no study has systematically audited privacy policies against this emerging body of state-level legislation.
-  In this paper, we present the first large-scale audit of MAR privacy policies under U.S. state privacy laws. We construct a dataset covering the MAR ecosystem, including 8,013 Google Play MAR app metadata records worldwide, and a U.S.-based subset with 6,620 APKs and 6,426 privacy policy files. We further derive an auditable disclosure taxonomy with 5 baseline requirements, 10 triggered requirements, and 4 logic chains, and build a validated four-stage automated pipeline that produces traceable, evidence-grounded disclosure judgments.
-  Our audit reveals widespread disclosure gaps: 44.62\% of audited policies exhibit severe disclosure omissions, with each missing more than eight requirements, and four privacy-policy requirements have violation rates above 90\%. These findings suggest that MAR privacy disclosures are not keeping pace with the growing complexity of U.S. state privacy regulation. We release our dataset, taxonomy, and auditing pipeline to support future research on scalable privacy compliance auditing.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.23974v1">Sharp Minimax Rates for Smooth Two-Sample Testing under Central Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-07-27T03:54:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ilmun Kim</p>
-    <p><b>Summary:</b> We establish sharp minimax limits for two-sample testing of Hölder-smooth densities under central differential privacy. Given two independent samples, the goal is to decide whether the underlying distributions are identical or separated in $L_1$ distance, while releasing only an $\varepsilon$-differentially private decision. We show that privacy changes the classical smooth-testing boundary through multiple regimes: the optimal separation radius is the maximum of four terms, consisting of the classical nonprivate rate and three distinct privacy-induced barriers. Which barrier is active depends on the privacy budget and the smoothness-to-dimension ratio, yielding a sharp phase diagram. Our upper bound discretizes the samples, applies a private discrete two-sample test to the resulting histograms, and chooses the bin resolution to balance approximation bias, sampling fluctuations, and privacy noise. The procedure also admits a permutation-calibrated implementation with finite-sample type~I error control. For the lower bounds, we combine smooth perturbation constructions with privacy-specific coupling and transport inequalities, showing that all four terms are unavoidable. Finally, when the smoothness is unknown, we develop a multiscale private test that attains the optimal adaptive rate and prove a matching lower bound. Adaptation costs exactly an iterated-logarithmic factor, and this cost appears only in the classical nonprivate term.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.23236v1">FedSLIM: Privacy-Preserving Federated MDL-Based Descriptive Pattern Mining Across Data Silos</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-07-25T14:45:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Samar Samir Khalil, Noha S. Tawfik, Marco Spruit</p>
-    <p><b>Summary:</b> Federated learning has achieved considerable success for predictive modelling, yet federated descriptive analytics remains largely unexplored. Existing federated pattern mining approaches are predominantly support-based and do not optimise a principled global objective such as Minimum Description Length (MDL). We introduce FedSLIM, the first federated MDL-based framework for descriptive pattern mining. Building on the SLIM principle, FedSLIM enables collaborative optimisation of compact pattern models across distributed databases without sharing raw transactions. We propose two complementary variants that balance privacy, communication, and optimisation fidelity under different deployment assumptions. To evaluate federated MDL mining, we introduce fidelity and discovery-oriented metrics that quantify agreement with a centralised baseline and assess recovery of globally informative patterns. Experiments on multiple real-world datasets under IID and non-IID partitioning show that both variants preserve high-quality compression structure while requiring orders of magnitude less search than the centralised baseline. We further reveal a local-global discovery gap in distributed MDL mining, where globally compressive patterns may be undiscoverable through isolated local optimisation. Both variants recover globally informative patterns absent from all standalone local models, demonstrating the benefits of federated optimisation beyond independent local mining. These results establish federated MDL mining as a practical foundation for privacy-preserving descriptive analytics across distributed data silos.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2607.23029v1">Multi-Agent Privacy Game in Federated Learning: A Unified Mean-Field View</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-07-25T04:03:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kun Zhao, Xu Chen</p>
-    <p><b>Summary:</b> Federated learning enables collaborative model training across distributed clients without centralising their data, yet privacy remains a persistent concern because the shared model updates can leak information about local datasets. Existing privacy-preserving methods either inject calibrated noise into client updates, limiting their composition guarantees, or formulate client privacy choices as a multi-agent game whose Nash equilibrium becomes intractable as the number of clients grows. We bridge these two lines of work by formulating privacy-preserving federated learning as a mean-field privacy game: each client strategically chooses its own privacy budget while interacting with the population only through a single mean-field statistic. The mean-field limit yields a tractable equilibrium for arbitrarily many clients, accommodates heterogeneous client preferences, and inherits an exponentially decaying privacy guarantee through a log-Sobolev contraction. The framework recovers the entropic privacy baseline as the homogeneous special case and the multi-agent privacy game as the finite-population case. Experiments on quadratic regression, logistic regression, and MNIST demonstrate that the proposed framework attains the privacy-utility trade-off of the entropic baseline while delivering a personalized privacy guarantee that the homogeneous baseline cannot express.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-08</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.23382v1">Spectrum-Aware Bounds on Invertibility for Privacy-Enhancing Instance Encoding</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-24T15:30:31Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Seokjin Hwang,  Yuting,  Li, Kiwan Maeng</p>
+    <p><b>Summary:</b> Instance encoding is a popular empirical technique for privacy enhancement when sharing data to an untrusted server. It transforms sensitive data through an encoding process before sharing, with the hope that the encoding process retains utility but makes it hard to reconstruct the original data. However, most work offers no theoretical guarantee that the encoding process is actually irreversible. A recent work derived a mean-squared error (MSE) bound limiting any adversary's reconstruction accuracy, offering one of the first theoretical results in this domain. This bound, however, has three critical limitations: it is often too loose, only works with randomized encoders (excluding many deterministic encoders practitioners use), and only bounds MSE. We introduce a family of new bounds that (1) are tighter, (2) applicable even to fully deterministic encoders, and (3) can extend beyond MSE to other norm-based similarity metrics, by properly accounting for the encoder's spectral structure. We evaluate our bounds across a range of encoders, datasets, and attacks, showing they hold consistently and improve upon the existing bound.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.23012v1">Misanthrope: A Privacy-Preserving Keypoint Detector</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-08-24T09:14:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Francesco Vultaggio, Predrag Djindjic, Markus Gerke, Sebastian Tschiatschek, Phillipp Fanta-Jende</p>
+    <p><b>Summary:</b> Image matching is a core component of applications such as Simultaneous Localization and Mapping (SLAM), Visual Localization, and Structure from Motion (SfM). However, the local image features central to this task are vulnerable to inversion attacks, which enable adversaries to reconstruct privacy-sensitive scene content from local features. These attacks pose a particular threat in distributed computing scenarios where the pre-computed features leave edge devices to be processed by remote servers. In this work, we introduce Misanthrope, a novel privacy-preserving keypoint detector trained through self-distillation to avoid detecting keypoints on people---a predominant source of privacy-sensitive content in most localization scenarios---thus mitigating inversion attacks at the source rather than through post-hoc obfuscation. We demonstrate how inverted images from traditional feature detection pipelines can be used to detect and re-identify people in the scene, while Misanthrope is able to mitigate these attacks. Furthermore, Misanthrope maintains image matching performance on par with the state of the art and even surpasses it in challenging settings where people act as distractors, such as phototourism and in-the-wild odometry. On the Image Matching Challenge 2021 Phototourism test set, Misanthrope is the top-performing sparse feature extractor in 7 out of 9 scenes. We make our model and its evaluation script available here: https://github.com/fratopa/misanthrope</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.22987v1">The Anonymity Gap: Understanding Real Privacy in Shielded UTXO-based Protocols for DeFi</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-24T08:50:53Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hanze Guo, Stefanos Chaliasos, Yebo Feng, Jiahua Xu</p>
+    <p><b>Summary:</b> Shielded UTXO-based protocols are becoming a core form of privacy infrastructure for DeFi. Unlike mixers that organize privacy mainly around deposits and withdrawals, these protocols allow assets, once inside the shielded pool, to continue moving and being re-spent within the hidden state, and to become public only when users withdraw or interact with public DeFi protocols. Their anonymity is therefore no longer a flat pool-size problem, but a provenance problem that propagates across the note/UTXO, proof, and transaction layers. Yet, a unified analysis framework for this setting is still missing. We propose a layered system model and an analysis pipeline that uses prior history as the temporal baseline, applies cumulative pruning and cross-proof propagation to each proof's Commitment Set, and recursively traces the survivors through historical hidden-state transitions to derive the final transaction-level Anonymity Set Size.
+  We evaluate our methodology on the complete on-chain histories of all four Railgun production deployments and five independent Hinkal pools across six EVM chains, analyzing 186,356 unshielding spend transactions. Using only public protocol traces and constraints, our non-heuristic analysis yields mean Anonymity Set Size reductions of 40.1%-59.0% relative to each deployment's temporal baseline; 3,679 transactions retain at most 10 addresses, including 1,228 singletons. Public token constraints are the strongest and most stable source of pruning in both protocols, while the effects of tree number, proof roots, and value constraints vary with protocol design and historical state. Together with representative cases, these results reveal interpretable anonymity-loss patterns and implications for user behavior and future protocol design.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.22645v1">Obscura-PQ: Post-Quantum Privacy-Preserving Protocol for the Algorand Blockchain Using Lattice-Based Linkable Ring Signatures</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-08-23T23:03:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Navid Azimi</p>
+    <p><b>Summary:</b> Public blockchains expose the complete transaction graph, and the privacy protocols deployed to obscure it rely almost exclusively on elliptic-curve cryptography, whose discrete-logarithm foundations fall to Shor's algorithm. Because ledgers are immutable, every anonymity set published today under classical assumptions can be retroactively deanonymized by a future quantum adversary. Transitioning to post-quantum alternatives remains challenging, as strict smart-contract resource limits prohibit native on-chain verification of computationally intensive post-quantum proofs. To address these challenges, we present \emph{Obscura-PQ}, a decentralized, non-custodial post-quantum privacy protocol that verifies natively on the Algorand blockchain. Its core is a setup-free lattice linkable ring signature over the cyclotomic ring $\mathcal{R}_q = \mathbb{Z}_q[X]/(X^{512}+1)$. A deposit is a Ring-SIS binding commitment to a short secret; a withdrawal proves knowledge of a ring opening via an AOS/Borromean-style challenge chain over two response-sharing linear relations with rejection-sampled short responses, while publishing a deterministic Ring-LWE serial number for double-spend detection. We reduce double-spend soundness and linkability to Ring-SIS, theft resistance to Ring-SIS for honestly generated deposits, and anonymity to Ring-LWE and an explicit decisional linking assumption in the classical random-oracle model. To overcome strict on-chain opcode and storage limits, Obscura-PQ evaluates verification relations entirely in the NTT domain. We split forward NTTs across opcode-pooled execution phases and stream oversized proofs through refundable box storage, enabling $O(1)$ membership and double-spend checks. We provide a complete Algorand testnet implementation, demonstrating native on-chain verification of a post-quantum privacy protocol under strict smart-contract limits.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.22185v1">Residual Privacy Budgeting with Weighted Scarcity Allocation for Online Query Answering</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-08-23T02:48:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mina Khoshmehr, Fernando Beltran</p>
+    <p><b>Summary:</b> In many practical deployments of differential privacy, queries do not arrive all at once. We study online differentially private query answering under a finite zero-concentrated differential privacy (zCDP) contract. In this setting, queries arrive sequentially, carry different accuracy thresholds, and may overlap with information already released. We formulate this setting as residual privacy budgeting: for each arriving query, the mechanism first credits reusable support from previous DP outputs and then spends new budget only on the remaining support required to satisfy the current threshold. The controller separates feasible cases, where the minimal residual support is allocated exactly, from scarcity cases, where a weighted shortfall-conservation optimiser assigns limited support according to query difficulty. We define the weight using the Query Influence Factor (QIF), a diagnostic signal for query difficulty and instability rather than query importance. For scalar Gaussian exact reuse, inverse-variance fusion justifies additive support. We prove zCDP composition, residual minimality, 1-competitiveness against the offline optimum in the feasible regime, and avoidable expenditure for allocators that ignore released history. A scarcity impossibility result shows that no online allocator can guarantee a competitive ratio better than 1/n in threshold satisfaction, contextualising the QIF scarcity layer as a design choice for an inherently hard online problem.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.21773v1">Privacy Preserving Semantic Communications in Wireless Edge Networks with Vision Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> 
+  <p><b>Published on:</b> 2026-08-22T04:42:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Haoran Chang, Mingzhe Chen, Qianqian Zhang</p>
+    <p><b>Summary:</b> Semantic communication has emerged as a promising paradigm for next-generation wireless systems by transmitting high-level semantic features rather than raw bits. However, collaborative devices and multimodal transmission increase privacy risks because sensitive information may leak through inter-device semantic fusion and cross-modal representations. To address this issue, we propose a privacy-preserving semantic communication framework for wireless edge networks. Leveraging a vision-language model (VLM), the framework extracts textual semantics from images and identifies privacy-sensitive entities using a privacy database maintained only at the edge server. Before image transmission, each device removes the identified private regions while preserving useful semantic content. The server then reconstructs the removed regions from the received masked images using textual embeddings and VLM-based semantic priors. To protect textual information, we design an encrypted semantic-channel transceiver using physical-layer keys generated from reciprocal wireless channels, without pre-shared keys. We also introduce a semantic information bottleneck to suppress redundant information across multiple devices. The framework is evaluated against a strong model-aware adversary that can intercept wireless transmissions and access edge-device model parameters but not server-side data. Simulation results show that the proposed method reduces privacy leakage by more than 50% compared with a semantic communication scheme without privacy protection, while the authorized server achieves a 48% improvement in perceptual reconstruction quality over the adversary. The estimated mutual information between transmitted representations approaches 0 bit, indicating effective suppression of cross-device semantic redundancy.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2608.21209v1">Personalized Privacy Control in LLMs via Attention Head Intervention</a></h3>
@@ -826,6 +813,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Luis Amorim, Vitor Cerqueira, Moises Santos, Paulo J. Azevedo, Carlos Soares</p>
     <p><b>Summary:</b> Time series forecasting in privacy-sensitive domains often requires training models on released data rather than original observations. Synthetic time series generation has been developed primarily for data augmentation, where generated series supplement the original training set. How well these methods perform when fully replacing the original data - and how much privacy risk the released series carry - remains underexplored. We address this gap through a benchmark evaluating synthetic generation methods and noise-based anonymization baselines under a Train on Synthetic, Test on Real (TSTR) protocol. We jointly assess forecasting performance and distance-based empirical privacy risk across seven datasets, characterizing the trade-off between these objectives. We also introduce Grasynda-P, a privacy-motivated extension of the graph-based generator Grasynda, incorporating matrix ensembling and kernel density estimation. Our results show that: (1) no generation method fully substitutes for original training data; (2) noise-based anonymization yields the strongest privacy but the worst forecasting performance; (3) simple transformation-based generators outperform deep generative models for forecasting in this setting; and (4) Grasynda-P lies on the Pareto frontier, achieving competitive forecasting with stronger privacy separation than other generators. This benchmark establishes a reference point for evaluating and developing new privacy-aware synthetic time series generation methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2608.21410v1">Position: Robot Privacy as Embodied Boundary Work. Connecting Capabilities, Contexts, and Design Responses in Everyday Robotics</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-08-11T10:03:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Liwen He, Shuning Zhang, Chengwen Zhang, Xin Yi, Chun Yu, Jihong Jeung, Xin Tong</p>
+    <p><b>Summary:</b> Robots are increasingly entering everyday environments where privacy is shaped not only by data practices, but also by spatial, bodily, social, and relational boundaries. Their embodied capabilities allow them to reshape these boundaries through situated action, challenging privacy framings centered on data flows, interface settings, or one-time consent. Prior work has examined robot privacy through sensing, data collection, telepresence, transparency, consent, bystander awareness, and multi-stakeholder governance. Building on this work, we propose embodied boundary privacy as a capability-by-context framing for examining how physically present robots may reshape privacy boundaries in situated interaction. Specifically, this framing organizes privacy risks across seven robot capabilities and five deployment contexts, asking how embodied capabilities enable boundary crossings and how situated contexts shape who is affected, how these crossings are interpreted, and when they become contested. We use this perspective to outline design and research implications for embodied privacy mechanisms, including boundary checkpoints, viewpoint-aware sensing control, remote-presence disclosure, object- and body-level access rules, constraints on socially persuasive privacy influence, and local interruption rights. We encourage HRI research, design, and governance to treat robot movement, orientation, proximity, object access, remote presence, and social expression as privacy-relevant actions whose meaning depends on context.</p>
   </details>
 </div>
 
