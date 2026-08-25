@@ -2252,5 +2252,171 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.23382v1",
+    "title" : "Spectrum-Aware Bounds on Invertibility for Privacy-Enhancing Instance Encoding",
+    "summary" : "Instance encoding is a popular empirical technique for privacy enhancement when sharing data to an untrusted server. It transforms sensitive data through an encoding process before sharing, with the hope that the encoding process retains utility but makes it hard to reconstruct the original data. However, most work offers no theoretical guarantee that the encoding process is actually irreversible. A recent work derived a mean-squared error (MSE) bound limiting any adversary's reconstruction accuracy, offering one of the first theoretical results in this domain. This bound, however, has three critical limitations: it is often too loose, only works with randomized encoders (excluding many deterministic encoders practitioners use), and only bounds MSE. We introduce a family of new bounds that (1) are tighter, (2) applicable even to fully deterministic encoders, and (3) can extend beyond MSE to other norm-based similarity metrics, by properly accounting for the encoder's spectral structure. We evaluate our bounds across a range of encoders, datasets, and attacks, showing they hold consistently and improve upon the existing bound.",
+    "updated" : "2026-08-24T15:30:31Z",
+    "published" : "2026-08-24T15:30:31Z",
+    "authors" : [
+      {
+        "name" : "Seokjin Hwang"
+      },
+      {
+        "name" : " Yuting"
+      },
+      {
+        "name" : " Li"
+      },
+      {
+        "name" : "Kiwan Maeng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.23012v1",
+    "title" : "Misanthrope: A Privacy-Preserving Keypoint Detector",
+    "summary" : "Image matching is a core component of applications such as Simultaneous Localization and Mapping (SLAM), Visual Localization, and Structure from Motion (SfM). However, the local image features central to this task are vulnerable to inversion attacks, which enable adversaries to reconstruct privacy-sensitive scene content from local features. These attacks pose a particular threat in distributed computing scenarios where the pre-computed features leave edge devices to be processed by remote servers. In this work, we introduce Misanthrope, a novel privacy-preserving keypoint detector trained through self-distillation to avoid detecting keypoints on people---a predominant source of privacy-sensitive content in most localization scenarios---thus mitigating inversion attacks at the source rather than through post-hoc obfuscation. We demonstrate how inverted images from traditional feature detection pipelines can be used to detect and re-identify people in the scene, while Misanthrope is able to mitigate these attacks. Furthermore, Misanthrope maintains image matching performance on par with the state of the art and even surpasses it in challenging settings where people act as distractors, such as phototourism and in-the-wild odometry. On the Image Matching Challenge 2021 Phototourism test set, Misanthrope is the top-performing sparse feature extractor in 7 out of 9 scenes. We make our model and its evaluation script available here: https://github.com/fratopa/misanthrope",
+    "updated" : "2026-08-24T09:14:11Z",
+    "published" : "2026-08-24T09:14:11Z",
+    "authors" : [
+      {
+        "name" : "Francesco Vultaggio"
+      },
+      {
+        "name" : "Predrag Djindjic"
+      },
+      {
+        "name" : "Markus Gerke"
+      },
+      {
+        "name" : "Sebastian Tschiatschek"
+      },
+      {
+        "name" : "Phillipp Fanta-Jende"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.22987v1",
+    "title" : "The Anonymity Gap: Understanding Real Privacy in Shielded UTXO-based Protocols for DeFi",
+    "summary" : "Shielded UTXO-based protocols are becoming a core form of privacy infrastructure for DeFi. Unlike mixers that organize privacy mainly around deposits and withdrawals, these protocols allow assets, once inside the shielded pool, to continue moving and being re-spent within the hidden state, and to become public only when users withdraw or interact with public DeFi protocols. Their anonymity is therefore no longer a flat pool-size problem, but a provenance problem that propagates across the note/UTXO, proof, and transaction layers. Yet, a unified analysis framework for this setting is still missing. We propose a layered system model and an analysis pipeline that uses prior history as the temporal baseline, applies cumulative pruning and cross-proof propagation to each proof's Commitment Set, and recursively traces the survivors through historical hidden-state transitions to derive the final transaction-level Anonymity Set Size.\n  We evaluate our methodology on the complete on-chain histories of all four Railgun production deployments and five independent Hinkal pools across six EVM chains, analyzing 186,356 unshielding spend transactions. Using only public protocol traces and constraints, our non-heuristic analysis yields mean Anonymity Set Size reductions of 40.1%-59.0% relative to each deployment's temporal baseline; 3,679 transactions retain at most 10 addresses, including 1,228 singletons. Public token constraints are the strongest and most stable source of pruning in both protocols, while the effects of tree number, proof roots, and value constraints vary with protocol design and historical state. Together with representative cases, these results reveal interpretable anonymity-loss patterns and implications for user behavior and future protocol design.",
+    "updated" : "2026-08-24T08:50:53Z",
+    "published" : "2026-08-24T08:50:53Z",
+    "authors" : [
+      {
+        "name" : "Hanze Guo"
+      },
+      {
+        "name" : "Stefanos Chaliasos"
+      },
+      {
+        "name" : "Yebo Feng"
+      },
+      {
+        "name" : "Jiahua Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.22645v1",
+    "title" : "Obscura-PQ: Post-Quantum Privacy-Preserving Protocol for the Algorand Blockchain Using Lattice-Based Linkable Ring Signatures",
+    "summary" : "Public blockchains expose the complete transaction graph, and the privacy protocols deployed to obscure it rely almost exclusively on elliptic-curve cryptography, whose discrete-logarithm foundations fall to Shor's algorithm. Because ledgers are immutable, every anonymity set published today under classical assumptions can be retroactively deanonymized by a future quantum adversary. Transitioning to post-quantum alternatives remains challenging, as strict smart-contract resource limits prohibit native on-chain verification of computationally intensive post-quantum proofs. To address these challenges, we present \\emph{Obscura-PQ}, a decentralized, non-custodial post-quantum privacy protocol that verifies natively on the Algorand blockchain. Its core is a setup-free lattice linkable ring signature over the cyclotomic ring $\\mathcal{R}_q = \\mathbb{Z}_q[X]/(X^{512}+1)$. A deposit is a Ring-SIS binding commitment to a short secret; a withdrawal proves knowledge of a ring opening via an AOS/Borromean-style challenge chain over two response-sharing linear relations with rejection-sampled short responses, while publishing a deterministic Ring-LWE serial number for double-spend detection. We reduce double-spend soundness and linkability to Ring-SIS, theft resistance to Ring-SIS for honestly generated deposits, and anonymity to Ring-LWE and an explicit decisional linking assumption in the classical random-oracle model. To overcome strict on-chain opcode and storage limits, Obscura-PQ evaluates verification relations entirely in the NTT domain. We split forward NTTs across opcode-pooled execution phases and stream oversized proofs through refundable box storage, enabling $O(1)$ membership and double-spend checks. We provide a complete Algorand testnet implementation, demonstrating native on-chain verification of a post-quantum privacy protocol under strict smart-contract limits.",
+    "updated" : "2026-08-23T23:03:51Z",
+    "published" : "2026-08-23T23:03:51Z",
+    "authors" : [
+      {
+        "name" : "Navid Azimi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.22185v1",
+    "title" : "Residual Privacy Budgeting with Weighted Scarcity Allocation for Online Query Answering",
+    "summary" : "In many practical deployments of differential privacy, queries do not arrive all at once. We study online differentially private query answering under a finite zero-concentrated differential privacy (zCDP) contract. In this setting, queries arrive sequentially, carry different accuracy thresholds, and may overlap with information already released. We formulate this setting as residual privacy budgeting: for each arriving query, the mechanism first credits reusable support from previous DP outputs and then spends new budget only on the remaining support required to satisfy the current threshold. The controller separates feasible cases, where the minimal residual support is allocated exactly, from scarcity cases, where a weighted shortfall-conservation optimiser assigns limited support according to query difficulty. We define the weight using the Query Influence Factor (QIF), a diagnostic signal for query difficulty and instability rather than query importance. For scalar Gaussian exact reuse, inverse-variance fusion justifies additive support. We prove zCDP composition, residual minimality, 1-competitiveness against the offline optimum in the feasible regime, and avoidable expenditure for allocators that ignore released history. A scarcity impossibility result shows that no online allocator can guarantee a competitive ratio better than 1/n in threshold satisfaction, contextualising the QIF scarcity layer as a design choice for an inherently hard online problem.",
+    "updated" : "2026-08-23T02:48:11Z",
+    "published" : "2026-08-23T02:48:11Z",
+    "authors" : [
+      {
+        "name" : "Mina Khoshmehr"
+      },
+      {
+        "name" : "Fernando Beltran"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.21773v1",
+    "title" : "Privacy Preserving Semantic Communications in Wireless Edge Networks with Vision Language Models",
+    "summary" : "Semantic communication has emerged as a promising paradigm for next-generation wireless systems by transmitting high-level semantic features rather than raw bits. However, collaborative devices and multimodal transmission increase privacy risks because sensitive information may leak through inter-device semantic fusion and cross-modal representations. To address this issue, we propose a privacy-preserving semantic communication framework for wireless edge networks. Leveraging a vision-language model (VLM), the framework extracts textual semantics from images and identifies privacy-sensitive entities using a privacy database maintained only at the edge server. Before image transmission, each device removes the identified private regions while preserving useful semantic content. The server then reconstructs the removed regions from the received masked images using textual embeddings and VLM-based semantic priors. To protect textual information, we design an encrypted semantic-channel transceiver using physical-layer keys generated from reciprocal wireless channels, without pre-shared keys. We also introduce a semantic information bottleneck to suppress redundant information across multiple devices. The framework is evaluated against a strong model-aware adversary that can intercept wireless transmissions and access edge-device model parameters but not server-side data. Simulation results show that the proposed method reduces privacy leakage by more than 50% compared with a semantic communication scheme without privacy protection, while the authorized server achieves a 48% improvement in perceptual reconstruction quality over the adversary. The estimated mutual information between transmitted representations approaches 0 bit, indicating effective suppression of cross-device semantic redundancy.",
+    "updated" : "2026-08-22T04:42:08Z",
+    "published" : "2026-08-22T04:42:08Z",
+    "authors" : [
+      {
+        "name" : "Haoran Chang"
+      },
+      {
+        "name" : "Mingzhe Chen"
+      },
+      {
+        "name" : "Qianqian Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.21410v1",
+    "title" : "Position: Robot Privacy as Embodied Boundary Work. Connecting Capabilities, Contexts, and Design Responses in Everyday Robotics",
+    "summary" : "Robots are increasingly entering everyday environments where privacy is shaped not only by data practices, but also by spatial, bodily, social, and relational boundaries. Their embodied capabilities allow them to reshape these boundaries through situated action, challenging privacy framings centered on data flows, interface settings, or one-time consent. Prior work has examined robot privacy through sensing, data collection, telepresence, transparency, consent, bystander awareness, and multi-stakeholder governance. Building on this work, we propose embodied boundary privacy as a capability-by-context framing for examining how physically present robots may reshape privacy boundaries in situated interaction. Specifically, this framing organizes privacy risks across seven robot capabilities and five deployment contexts, asking how embodied capabilities enable boundary crossings and how situated contexts shape who is affected, how these crossings are interpreted, and when they become contested. We use this perspective to outline design and research implications for embodied privacy mechanisms, including boundary checkpoints, viewpoint-aware sensing control, remote-presence disclosure, object- and body-level access rules, constraints on socially persuasive privacy influence, and local interruption rights. We encourage HRI research, design, and governance to treat robot movement, orientation, proximity, object access, remote presence, and social expression as privacy-relevant actions whose meaning depends on context.",
+    "updated" : "2026-08-11T10:03:26Z",
+    "published" : "2026-08-11T10:03:26Z",
+    "authors" : [
+      {
+        "name" : "Liwen He"
+      },
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Chengwen Zhang"
+      },
+      {
+        "name" : "Xin Yi"
+      },
+      {
+        "name" : "Chun Yu"
+      },
+      {
+        "name" : "Jihong Jeung"
+      },
+      {
+        "name" : "Xin Tong"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.HC"
+    ]
   }
 ]
