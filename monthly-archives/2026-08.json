@@ -2418,5 +2418,45 @@
       "cs.RO",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.24847v1",
+    "title" : "On the privacy cost for dependent Gaussian data: spectral density estimation under local differential privacy",
+    "summary" : "We study the fundamental problem of estimating the dependence structure of a centered stationary Gaussian process under local differential privacy (LDP). In this setting, the spectral density characterizes the dependence structure of the data and is the quantity to be estimated. Our main contribution is to close the open $α^2$-versus-$α^4$ gap between the previously known lower and upper bounds on the minimax rate. Specifically, we establish a minimax lower bound showing that, over Sobolev-type classes of spectral densities, the effective sample size in the high-privacy regime is $Nα^4$, rather than the usual $Nα^2$ arising for independent observations. This additional privacy cost is caused by the temporal dependence between the observations rather than by their marginal distributions. The proof relies on a contraction bound for privatized dependent Gaussian observations. Our second contribution is a matching upper bound, free of the polylogarithmic losses present in previous work. Rather than applying a generic privatization scheme to classical estimators, we construct a problem-specific procedure attaining the rate identified by our lower bound. Beyond closing the gaps in spectral density estimation, we apply the tools developed for this problem to several related questions. We (i) close the logarithmic gap for fixed-lag autocovariance estimation, (ii) show that the $α^4$ cost arises locally around every spectral density bounded away from zero, and (iii) establish that classical asymptotic equivalence with an independent Gaussian experiment generally fails under LDP.",
+    "updated" : "2026-08-25T17:34:36Z",
+    "published" : "2026-08-25T17:34:36Z",
+    "authors" : [
+      {
+        "name" : "Yann Issartel"
+      },
+      {
+        "name" : "François Roueff"
+      }
+    ],
+    "categories" : [
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.23382v2",
+    "title" : "Spectrum-Aware Bounds on Invertibility for Privacy-Enhancing Instance Encoding",
+    "summary" : "Instance encoding is a popular empirical technique for privacy enhancement when sharing data to an untrusted server. It transforms sensitive data through an encoding process before sharing, with the hope that the encoding process retains utility but makes it hard to reconstruct the original data. However, most work offers no theoretical guarantee that the encoding process is actually irreversible. A recent work derived a mean-squared error (MSE) bound limiting any adversary's reconstruction accuracy, offering one of the first theoretical results in this domain. This bound, however, has three critical limitations: it is often too loose, only works with randomized encoders (excluding many deterministic encoders practitioners use), and only bounds MSE. We introduce a family of new bounds that (1) are tighter, (2) applicable even to fully deterministic encoders, and (3) can extend beyond MSE to other norm-based similarity metrics, by properly accounting for the encoder's spectral structure. We evaluate our bounds across a range of encoders, datasets, and attacks, showing they hold consistently and improve upon the existing bound.",
+    "updated" : "2026-08-25T15:09:51Z",
+    "published" : "2026-08-24T15:30:31Z",
+    "authors" : [
+      {
+        "name" : "Seokjin Hwang"
+      },
+      {
+        "name" : "Yuting Li"
+      },
+      {
+        "name" : "Kiwan Maeng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
