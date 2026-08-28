@@ -2526,5 +2526,146 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27108v1",
+    "title" : "SecureDrive-FL: Joint Differential Privacy and Gradient-Aware Selective Homomorphic Encryption for Federated Driver Monitoring",
+    "summary" : "Federated Learning (FL) enables privacy-aware distributed training, yet gradient updates remain exploitable: Man-in-the-Middle (MitM) interception exposes updates in transit, while model poisoning corrupts global convergence. We first introduce GASHE (Gradient-Aware Selective Homomorphic Encryption), a novel selective encryption strategy that dynamically identifies and encrypts only the gradient components exceeding a DP-calibrated sensitivity threshold, rather than encrypting all parameters uniformly as in static layer-based or full-parameter CKKS schemes. Building on GASHE, we introduce SecureDrive-FL, a federated driver monitoring framework that couples DP-SGD with GASHE to create the first closed-loop DP+HE privacy pipeline: DP-SGD calibration parameters directly derive the GASHE encryption mask, unifying training-time privacy and communication-time confidentiality. Evaluated on a ten-class distracted driver classification task under non-IID federated splits, SecureDrive-FL matches DP-SGD alone's poisoning resistance (73.6% vs. 74.0% accuracy, 3.9% Attack Success Rate for both) while additionally withstanding MitM interception, where DP-SGD alone collapses to near-random accuracy (78.2% vs. 10.4%), all under only approx. 8--10% additional runtime overhead relative to DP-SGD alone---under DP-SGD noise injection with per-round privacy parameter epsilon_0=4.",
+    "updated" : "2026-08-27T13:24:33Z",
+    "published" : "2026-08-27T13:24:33Z",
+    "authors" : [
+      {
+        "name" : "Baran Can Gül"
+      },
+      {
+        "name" : "Hanuma Siddhartha Tunuguntla"
+      },
+      {
+        "name" : "Anjana Arvind Naik"
+      },
+      {
+        "name" : "Abhishek Vijay Potekar"
+      },
+      {
+        "name" : "Nasser Jazdi"
+      },
+      {
+        "name" : "Michael Weyrich"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27066v1",
+    "title" : "Beyond Classification: Task-Dependent Learnability under Privacy-Motivated Image Transformations",
+    "summary" : "Privacy-Enhancing Technologies (PETs) in computer vision often rely on noise or image perturbations to protect visual data while securely processing it, creating a trade-off between task performance and protection. This trade-off is commonly evaluated using image classification, which primarily captures semantic separability and remains robust despite significant geometric, spatial layout or local boundary alterations. As a result, it is too simplistic as a proxy for generic vision tasks. Exhaustive downstream-task evaluation, however, is computationally expensive because models must often be trained for each PET transformation and parameter setting. We therefore propose a compute-aware multi-task protocol for evaluating PETs in model training. It combines lightweight proxy tasks that target complementary aspects of visual structure while remaining simple and fast to compute. Across irreversible privacy transformations, key-based block primitives, and learnable image encryption schemes, we demonstrate that PETs with similar classification accuracy can differ substantially on other tasks. The outcomes highlight the need for PET evaluation protocols that move beyond classification-only reporting.",
+    "updated" : "2026-08-27T12:52:16Z",
+    "published" : "2026-08-27T12:52:16Z",
+    "authors" : [
+      {
+        "name" : "Leon Ranke"
+      },
+      {
+        "name" : "Wolfgang Hübner"
+      },
+      {
+        "name" : "Ronny Hug"
+      },
+      {
+        "name" : "Michael Arens"
+      },
+      {
+        "name" : "Jürgen Beyerer"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27037v1",
+    "title" : "Neighborhood Watch: Privacy Risks in Seeded Local Combination Synthetic Data",
+    "summary" : "Synthetic data is seen as a promising solution for sharing data in sensitive contexts. However, recent work on privacy attacks have shown that there are still significant residual risks, especially for synthetic data generations methods that are not based on formal approaches such as differential privacy. In this paper, we investigate the privacy risks associated with local combination approaches for generating synthetic data in which synthetic profiles are built by combining real neighbouring profiles. More precisely, we focus on three methods from this family, namely SMOTE, Simulant and Avatar, which have been recently used as a way to share 'anonymised data' in the healthcare domain. In particular, we conduct an extensive privacy analysis through a diverse set of attacks: membership inference, linkage and reconstruction attacks. Our results demonstrate substantial privacy leakage for all three methods, raising serious doubts about whether their outputs should be regarded as anonymous in practice.",
+    "updated" : "2026-08-27T12:22:55Z",
+    "published" : "2026-08-27T12:22:55Z",
+    "authors" : [
+      {
+        "name" : "Hadrien Lautraite"
+      },
+      {
+        "name" : "Tristan Allard"
+      },
+      {
+        "name" : "Anne-Sophie Charest"
+      },
+      {
+        "name" : "Jean-François Rajotte"
+      },
+      {
+        "name" : "Sébastien Gambs"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.26655v1",
+    "title" : "When Privacy Hurts Mergeability: Geometry-Aware Model Merging under Differential Privacy",
+    "summary" : "Model merging promises to construct a single multi-task model from independently fine-tuned task models without accessing the original task data. This makes it attractive when task data cannot be centralized, but released task models may still leak private fine-tuning data. Differential privacy (DP) provides a principled mechanism for limiting such leakage, yet its effect on model merging remains poorly understood. In this paper, we study the geometry of differentially private model merging and identify two geometric obstacles that make private task models difficult to merge: \\emph{local sharpness}, which makes task losses sensitive to the parameter displacement induced by merging, and \\emph{reference drift}, which measures the displacement of private task models from the shared pretrained initialization and amplifies cross-task interference. Based on these observations, we propose \\textbf{DP-Merging}, a geometry-aware framework that improves the mergeability of differentially private task models. DP-Merging uses a DP-compatible sharpness-aware objective to guide each private task model toward flatter loss regions, and a reference-based alignment regularizer to keep task models close to the shared pretrained initialization. We derive a merge-gap upper bound showing that reducing local curvature and reference drift tightens the bound on the loss increase induced by merging. Experiments on vision and language tasks across multiple privacy budgets show that DP-Merging consistently improves private merged-model performance while preserving the privacy guarantees of the underlying DP fine-tuning procedures.",
+    "updated" : "2026-08-27T06:08:11Z",
+    "published" : "2026-08-27T06:08:11Z",
+    "authors" : [
+      {
+        "name" : "Jin Liu"
+      },
+      {
+        "name" : "Junkang Liu"
+      },
+      {
+        "name" : "Ning Xi"
+      },
+      {
+        "name" : "Yinbin Miao"
+      },
+      {
+        "name" : "Dawei Wei"
+      },
+      {
+        "name" : "Ke Cheng"
+      },
+      {
+        "name" : "Jianfeng Ma"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.26324v1",
+    "title" : "Privacy Without Regret: Differentially Private Inference-Time Alignment",
+    "summary" : "Best-of-N (BoN) sampling is the simplest and most widely deployed inference-time alignment strategy, but it suffers from two distinct problems: reward hacking, in which the selected response exploits errors in the proxy reward model, and the absence of any privacy protection for the sensitive human preference data used to train that reward model. We show that a single intervention-adding calibrated noise to reward scores before selection-resolves both. Our first result, Private Best-of-N (PrivBoN), establishes that Gumbel noise at an appropriate scale simultaneously provides $ε$-differential privacy and implements KL-regularized alignment. Whenever the privacy budget exceeds a critical threshold $ε^*$, the privacy-mandated noise is the regret-optimal regularization, and privacy imposes zero additional alignment cost-matching the information-theoretic skyline of Huang et al. (2025). Because $ε^*$ depends on an unknown coverage coefficient, we introduce Private Inference-Time Pessimism (PrivITP), which combines $χ^2$-regularized rejection sampling with a two-phase Gaussian mechanism. PrivITP achieves ex-post $(ε,δ)$-DP with a privacy cost independent of the number of responses $n$, cleanly decouples the regularization parameter from the privacy parameter, and attains the skyline up to a noise-inflation term. Experiments across several language models, datasets, and reward models confirm our results: PrivBoN and PrivITP are scaling-monotonic (unlike BoN, which degrades past a critical $n$), and PrivITP matches or outperforms PrivBoN at equivalent privacy levels, with the largest gains in the strong-privacy regime.",
+    "updated" : "2026-08-26T18:56:27Z",
+    "published" : "2026-08-26T18:56:27Z",
+    "authors" : [
+      {
+        "name" : "Ishi Jain"
+      },
+      {
+        "name" : "Nandini Bhattad"
+      },
+      {
+        "name" : "Sayak Ray Chowdhury"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
   }
 ]
