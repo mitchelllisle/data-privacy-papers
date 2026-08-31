@@ -2667,5 +2667,122 @@
     "categories" : [
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.28198v1",
+    "title" : "Performative Privacy: When Differential Privacy Maximizes Utility",
+    "summary" : "Privacy-preserving learning is often motivated by the idea that protecting users' data can preserve trust and thus participation, improving utility in the long term. However, this claim has not been formalized so far. In parallel, performative learning provides a framework for studying learning systems whose deployment affects the data they later observe. In this work, we bring these two perspectives together and introduce \\emph{performative privacy}, where data leakage reduces future participation. We study a simple model where agents repeatedly contribute data for mean estimation but may leave the system when their data is leaked. Privacy is implemented through differentially private mechanisms, creating a trade-off between estimation noise and future participation. We show, through a theoretical study of the dynamics and numerical experiments, that a finite privacy budget can outperform non-private estimation in the long term when the feedback loop between leakage and participation is sufficiently strong. This provides first evidence that differential privacy can be optimal not only as a protection mechanism, but also from the perspective of long-term utility.",
+    "updated" : "2026-08-28T11:13:28Z",
+    "published" : "2026-08-28T11:13:28Z",
+    "authors" : [
+      {
+        "name" : "Uddalak Mukherjee"
+      },
+      {
+        "name" : "Edwige Cyffers"
+      },
+      {
+        "name" : "Yann Chevaleyre"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27954v1",
+    "title" : "Not to Break, but to Attest: Adversarial Probes for Privacy-Preserving LLM Verification",
+    "summary" : "Post-deployment changes to large language models can alter behavior while leaving routine outputs largely unchanged, creating a challenge for AI governance when model weights are proprietary. We present a privacy-preserving zk-SNARK-based audit framework that searches for probes designed in the spirit of adversarial examples to amplify logit drift between an approved model and a modified deployment. Our framework explores complementary probe families under different access models. Token-based probes operate in a black-box setting and require only the input interface, tokenizer, and vocabulary. Embedding-based probes require gray-box access to the embedding interface. Stress probes rely on additional interface capabilities but do not require full white-box access to model weights or architecture. This range allows probe selection to balance sensitivity, access requirements, and deployment cost. We evaluate probe constructions across LLM architectures, model-tampering scenarios representative of post-deployment attacks, and GPU platforms. Importantly, our experimental results demonstrate that token-based probes consistently deliver the strongest mean sensitivity across models and GPU platforms, although operating in a black-box setting. Our Groth16 zk-SNARK workflow remains practical as the probe set scales from 1 to 50, where proving time increases from 1.02 to 1.78 seconds, verification remains near 0.84 seconds, and proof size remains constant.",
+    "updated" : "2026-08-28T05:51:22Z",
+    "published" : "2026-08-28T05:51:22Z",
+    "authors" : [
+      {
+        "name" : "Cameron Wilding"
+      },
+      {
+        "name" : "Mina Shaker"
+      },
+      {
+        "name" : "Fatemeh Ganji"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27914v1",
+    "title" : "A User-Centric Context-Aware Permission Governance Framework for Privacy Control in Default Mobile Applications",
+    "summary" : "Mobile operating systems provide runtime permission controls intended to improve user control over sensitive data. However, default or pre-installed applications are deeply integrated into the system, may operate with elevated privileges, and are difficult for users to scrutinize. Existing permission models generally grant persistent or temporary access for an application session without distinguishing among individual features, leaving users uncertain about when and why data are accessed. This paper presents a context-sensitive, user-focused permission governance framework for default mobile applications. It introduces a feature-based authorization option, \"Allow When Needed,\" that restricts access to the functionality requiring the data rather than the entire application session. A weighted scoring system estimates the privacy implications of user choices based on permission sensitivity and authorization type. A web-based simulation platform was developed to model 30 realistic permission-request situations across six commonly used default application types and support controlled early-stage evaluation before native implementation. The exploratory assessment combined a cross-sectional survey of 104 respondents examining permission awareness and behavior with formative usability testing involving eight participants interacting with the prototype. Survey findings indicate that users do not consistently examine default-application permissions and prefer contextual explanations before granting access. The results provide preliminary evidence that context-aware permission governance can improve user understanding and decision clarity. This simulation-based study represents an initial step toward evaluating feature-level authorization and privacy-feedback mechanisms before native mobile deployment.",
+    "updated" : "2026-08-28T04:41:39Z",
+    "published" : "2026-08-28T04:41:39Z",
+    "authors" : [
+      {
+        "name" : "Asmau Yetunde Adeniran"
+      },
+      {
+        "name" : "Adeniran Kolade Ademuwagun"
+      },
+      {
+        "name" : "Fatimah Adamu-Fika"
+      },
+      {
+        "name" : "Samaila Musa Abdullahi"
+      },
+      {
+        "name" : "Freeman Bitrus"
+      },
+      {
+        "name" : "Fortune Daberechi Ifeanyi"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27782v1",
+    "title" : "Memorization Is Not Extraction: Tight Differential-Privacy Bounds and Audit Blind Spots",
+    "summary" : "Memorization in large language models is measured through a zoo of definitions whose formal relations are unknown, and differential privacy (DP) is treated as a proxy against all of them at once. We pin down the exact DP constant for the two that carry the practical weight, counterfactual memorization and adaptive extraction, and show that they do not control each other. Under $f$-DP, every adaptive extraction protocol with list budget $m$ succeeds with probability at most $1-f(κ)$ for the oblivious baseline $κ$, and the bound is tight on a dense set of baselines: DP uniformly controls extraction exactly up to a threshold in how well the secret can be guessed a priori. Min-entropy certifies that baseline distribution-free, since $H_\\infty\\geε\\log_2 e+\\log_2(m/τ)$ holds extraction below a risk level $τ\\le1/2$ under pure $ε$-DP for every prior, and is exact on uniform priors. On the memorization side, $f$-DP caps the counterfactual memorization of any bounded score at an advantage functional $η(f)$, equal to $\\tanh(ε/2)$ under pure DP; for $k\\ge2$ duplicated copies the naive $ε\\mapsto kε$ bound $\\tanh(kε/2)$ is unattainable, the exact constant being a closed-form staircase attained by geometric noisy counting. That cap is attained inside the local score class used in practice, and it is there that the two measures separate: one mechanism is memorized yet unextractable, another fully extractable yet exactly invisible to every loss-based score. The two-sided blind spot this opens for loss-based auditing and unlearning verification survives on billion-parameter models: a reserved-trigger release is recovered verbatim from one prompt while the audits practitioners deploy certify it clean.",
+    "updated" : "2026-08-27T23:28:08Z",
+    "published" : "2026-08-27T23:28:08Z",
+    "authors" : [
+      {
+        "name" : "Xujun Che"
+      },
+      {
+        "name" : "Depeng Xu"
+      },
+      {
+        "name" : "Shuhan Yuan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.27766v1",
+    "title" : "Revisiting Continuous Noise Sampling for Multi-Party Differential Privacy",
+    "summary" : "Combining secure multi-party computation (MPC) with differential privacy (DP) enables multiple parties to release aggregate statistics without a trusted curator, and the core primitive is the protocol to sample noise from a continuous distribution under finite-precision arithmetic. In this paper, we revisit the continuous noise sampling protocols and present several improvements in both security and efficiency.\n  We start by identifying a vulnerability in widely used sample-and-scale constructions. We demonstrate that the scaling operation in arithmetic circuits confines the noise to a sparse, publicly known set of values, so that an adversary can observe the released noisy queries and decide which dataset produced them. As concrete demonstrations, we instantiate attacks on two systems employing such ``flawed'' sampling protocols: Orchard (OSDI'20) for DP secure aggregation and DP-BREM$^+$ (USENIX Sec'25) for DP federated learning. We report a near-$100\\%$ attack success rate on both systems, under any noise scaler $s\\geq 2$ used in practice.\n  The leakage we reveal is intrinsic to the scaling operation, and direct repairs either substantially sacrifice utility or add significant precision bits to make the sampling more expensive. To address the security and efficiency issues together, we turn to discrete sampling at the granularity of individual biased bits. We make several optimizations to the sampler and prove its security. Our implementation achieves $4\\times \\sim 612\\times$ speedup over existing secure discrete samplers and orders-of-magnitude speedup over the insecure sample-and-scale paradigm, with negligible utility loss compared to the ideal continuous mechanism.",
+    "updated" : "2026-08-27T22:57:31Z",
+    "published" : "2026-08-27T22:57:31Z",
+    "authors" : [
+      {
+        "name" : "Yucheng Fu"
+      },
+      {
+        "name" : "Tianhao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
