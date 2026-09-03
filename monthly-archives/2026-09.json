@@ -75,5 +75,133 @@
       "cs.CR",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.02700v1",
+    "title" : "The PIONEER Project: A PrIvacy companion for mOtivatioN and knowlEdge transfER",
+    "summary" : "Remaining control over their private data is one of the key challenges in this century for users. We know from prior work that users are often neither in a position to fully grasp the content of the usually complicated texts, nor are they motivated to spend the time necessary to do so. We report on the progress made by the PIONEER project on a privacy support tool that combines knowledge transfer and persuasive elements to increase users' privacy awareness and motivation; thus empowering them to more privacy sovereignty. Throughout the research and design process, we consider user group specifics that may result in different requirements, e.g., for children, adolescents, parents, or elderly people. We further target sustainable behavior change by addressing different states of change, precisely: spark initial motivation, facilitate the creation of new habits, and encourage habituation of these habits in the long term (volition). Finally, we provide a privacy support tool demonstrator that can be utilized for research and education purposes, e.g., in school contexts.",
+    "updated" : "2026-09-02T15:06:27Z",
+    "published" : "2026-09-02T15:06:27Z",
+    "authors" : [
+      {
+        "name" : "Simon Althaus"
+      },
+      {
+        "name" : "Nina Gerber"
+      },
+      {
+        "name" : "Sara Hahn"
+      },
+      {
+        "name" : "Andreas Heinemann"
+      },
+      {
+        "name" : "Angela Menig"
+      },
+      {
+        "name" : "Max Mülhäuser"
+      },
+      {
+        "name" : "Christian Reuter"
+      },
+      {
+        "name" : "Ephraim Zimmer"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.02495v1",
+    "title" : "Big data, differential privacy, and national statistical organisations",
+    "summary" : "Differential privacy (DP) has emerged in the computer science literature as a measure of the impact on an individual's privacy resulting from the publication of a statistical output such as a frequency table. This paper provides an introduction to DP for official statisticians and discuss its relevance, benefits, and challenges from a National Statistical Organisation (NSO) perspective. We motivate our study by examining how privacy is evolving in the era of big data and how this might prompt a shift from traditional statistical disclosure techniques used in official statistics--which are generally applied on a cell-by-cell or table-by-table basis--to formal privacy methods, like DP, which are applied from a perspective encompassing the totality of the outputs generated from a given dataset. We identify an important interplay between DP's holistic privacy risk measure and the difficulty for NSOs in implementing DP, showing that DP's major advantage is also DP's major challenge. This paper provides new work addressing two key DP research areas for NSOs: DP's application to survey data and its incorporation within the Five Safes framework.",
+    "updated" : "2026-09-02T12:01:46Z",
+    "published" : "2026-09-02T12:01:46Z",
+    "authors" : [
+      {
+        "name" : "James Bailie"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.02376v1",
+    "title" : "Removing Speech, Keeping Activities: A Privacy Firewall for Acoustic Sensing in Assisted Living",
+    "summary" : "Acoustic sensing offers a promising non-intrusive approach for monitoring daily activities of older adults, yet speech privacy concerns remain a critical barrier to real-world deployment. We present a privacy firewall pipeline based on a U-Net encoder-decoder, trained entirely on synthetic data, that removes speech from ambient audio while preserving environmental sounds indicative of daily activities. Activity recognition is performed using VGGish transfer learning with an SVM classifier. Evaluated on the ESC-50 and SINS datasets across multiple speech content levels, the proposed model reduced residual speech to 0% VAD-detectable speech (Silero Voice Activity Detection) under all tested conditions, outperforming Facebook Denoiser (6.55% residual), SepFormer (36.34%) and ConvTasNet (47.21%) on ESC-50 at the 100\\% speech level. On ESC-50 at 40% speech level, classification performance recovers to 85% precision and 85% recall after speech removal, compared with 81%/75% before removal and an 84%/83% speech-free baseline. Evaluation on real-world participant home recordings collected with the AudioHive app showed 0% VAD-detectable speech after processing while maintaining 76% precision and recall. The pipeline enables privacy-preserving acoustic sensing without sacrificing activity recognition performance, addressing a key obstacle to the adoption of ambient monitoring in elderly care.",
+    "updated" : "2026-09-02T09:48:26Z",
+    "published" : "2026-09-02T09:48:26Z",
+    "authors" : [
+      {
+        "name" : "Pavlos Nicolaou"
+      },
+      {
+        "name" : "Christos Efstratiou"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.02323v1",
+    "title" : "Quantum Workload Privacy Beyond Data Confidentiality",
+    "summary" : "Remote quantum computing exposes a confidentiality gap. Standard privacy mechanisms protect quantum states and outputs, but not the scientific structure of a workload. This work reveals that hardware-aware compilation leaves observable signatures, such as routing overhead, circuit depth, and gate composition, that correlate with hidden modelling choices like partial differential equation boundary conditions, discretisation scale, and molecular geometry. The leakage arises from the mismatch between logical topology and fixed hardware connectivity, forcing problem-dependent SWAP insertion. We formalise this threat as Scientific-Intent Indistinguishability and prove that passive security is asymptotically unachievable under routing-optimal compilation. Experiments on a 156-qubit IBM Heron processor achieve near-perfect classification of boundary regimes and molecular geometries, with leakage generalising across solver families via routing-scaling exponents. Conventional gate-padding fails as a defence, causing fidelity drops without reducing adversarial advantage. Our results show that protecting quantum data alone is insufficient; execution-level confidentiality must become a first-class design requirement.",
+    "updated" : "2026-09-02T09:06:41Z",
+    "published" : "2026-09-02T09:06:41Z",
+    "authors" : [
+      {
+        "name" : "Shaunak Suresh Pawar"
+      },
+      {
+        "name" : "Samuel Punch"
+      },
+      {
+        "name" : "Krishnendu Guha"
+      }
+    ],
+    "categories" : [
+      "cs.ET"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.02055v1",
+    "title" : "Privacy Washing: Detecting Internal Contradictions in Privacy Policies",
+    "summary" : "Privacy policies may contain internal contradictions in which commitments are undermined by practices documented elsewhere in the same policy. We operationalize this phenomenon, privacy washing, through a four-stage pipeline: statement extraction, compatibility filtering and natural language inference screening, multi-model judge verification, and thematic analysis, with contradictions confirmed by majority vote of a three-model LLM panel. Applied to two corpora of website privacy policies, 123 collected in 2026 (OPPT) and 115 collected in 2015 (OPP-115), the pipeline finds the same category patterns recurring across the 11-year gap, with third-party sharing contradictions the majority of confirmed cases in each primary run, consistent with structural factors in policy composition rather than necessarily intentional deception. At least one panel-confirmed contradiction appears in 12.2% of OPPT companies (15/123; 9.8% excluding legacy pairs) and 36.5% of OPP-115 companies (42/115). A stability re-run seven months later, with a fully separated configuration (new extraction models, judges from three Chinese providers absent from both corpora, matched filters, no judge-submission similarity threshold), reproduces the OPPT prevalence under the original protocol (13.0% vs. 12.2%), finds sub-threshold pairs confirm at rates of the same order as those above (raising prevalence to 20.3% and 40.9%), and shows the third-party majority is panel-sensitive while the recurrence of the same category pairs is not. Two caveats govern all figures: panel verdicts are not validated against human expert judgment, so precision is unknown and prevalence figures are lower bounds; and the two primary runs used different filter configurations, so their prevalence difference is not interpretable as a corpus or era effect (the matched re-run reduces the gap to roughly twofold but does not eliminate it).",
+    "updated" : "2026-09-02T03:33:58Z",
+    "published" : "2026-09-02T03:33:58Z",
+    "authors" : [
+      {
+        "name" : "Thomas Brackin"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.01944v1",
+    "title" : "Privacy Amplification Without Independence: How Far Negative Dependence Carries the Guarantees of Poisson Subsampling",
+    "summary" : "Poisson subsampling is the default sampler in differentially private optimization because its independence makes privacy amplification tractable. Practical systems, however, are moving toward structured participation: random allocation (balls-in-bins), per-epoch allocation, random check-ins, schemes widely believed to be at least as private as Poisson subsampling at the matched rate. We isolate the probabilistic mechanism behind this belief and delimit it exactly, for Gaussian mechanisms up to correlated-noise matrix mechanisms.\n  (1) If the participation indicator vector is negatively associated (NA), then at every integer Rényi order $α\\ge2$, exactly at all finite parameters, its remove-direction Rényi divergence is dominated by that of the marginal-matched independent scheme. For fixed gradient sequences, this extends to the mechanism level whenever the noise strategy's Gram matrix is sign-balanced, an $O(t^2)$-checkable condition.\n  (2) The integer-order restriction is essential. For random allocation with $k=1$, we prove a linear law for the Rényi-difference criterion: at large $t$, dominance reverses for every $α<3/2$, including KL divergence, while the crossing order tends to $3/2$ independently of $σ$.\n  (3) We also localize the known failure of rate-matched Poisson domination exactly: below $(1-q)^t$, the hockey-stick ordering reverses, so substituting the Poisson pair into composition machinery is unsound. An upper-tail argument yields a finite crossover $γ_\\star$, connecting this threshold picture to the Rényi boundary at $3/2$.\n  Together, these results give a substitution map for privacy accounting: when Poisson-based computations remain sound for structured participation, where they fail, and what sound alternatives cost in deployment.",
+    "updated" : "2026-09-01T23:20:11Z",
+    "published" : "2026-09-01T23:20:11Z",
+    "authors" : [
+      {
+        "name" : "Xujun Che"
+      },
+      {
+        "name" : "Depeng Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
