@@ -409,5 +409,147 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.05340v1",
+    "title" : "Trust-Aware Adaptive Disclosure for Inference Privacy Preservation in Multi-Agent Networks",
+    "summary" : "Agent based systems are increasingly deployed in information critical systems including healthcare management systems, and smart grids. In this paper, we consider a multi-agent system where each agent has a latent goal that needs to be kept hidden from observing adversaries. More specifically, this paper studies privacy-preserving consensus in networked multi-agent systems under goal inference attacks. We propose a Trust-Aware Privacy Control framework that adapts message disclosure based on the dynamic trust relationships between agents. The proposed method controls information release using a trust-dependent stochastic policy. This enables a tradeoff between consensus performance and privacy preservation. Experiments demonstrate that the proposed method reduces adversarial goal inference accuracy compared to representative baselines, while maintaining competitive consensus utility, thereby highlighting the effectiveness of trust-aware mechanisms in privacy preservation of the agents in multi-agent systems.",
+    "updated" : "2026-09-04T16:44:52Z",
+    "published" : "2026-09-04T16:44:52Z",
+    "authors" : [
+      {
+        "name" : "Puspanjali Ghoshal"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      }
+    ],
+    "categories" : [
+      "cs.MA",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.05119v1",
+    "title" : "Understanding the Privacy-Preserving Potential of HTTP/2 Against Webpage Fingerprinting",
+    "summary" : "Website fingerprinting (WF) attacks can infer which webpage a user visits from encrypted HTTPS traffic alone, compromising privacy even without decryption. WF defenses commonly shape traffic through noise, padding, delays, or flow splitting, yet they are most often studied from the perspective of encapsulating protocols like Tor or VPN rather than at the application layer (HTTP).\n  In this work, we focus on application-layer defenses enabled by the most widely deployed version of HTTP, HTTP/2. We demonstrate how known defenses can be emulated through HTTP/2 features at the client side (HTTPOS, LLaMA, FRONT, Tamaraw) and the server side (ALPaCA, Tamaraw). We further show that HTTP/2 features, such as proactive resource suggestion, multiplexing, and flow control, offer untapped potential for lightweight yet effective defenses deployable at both endpoints.\n  We evaluate these defenses using a unified blueprint that calibrates defense parameters per dataset, then combines practical attacks, information-theoretic leakage estimates, and overhead measurements. For each defense, this framework identifies the strongest hyperparameter-tuned fingerprinting model and estimates the residual uncertainty induced by the defense using two information-theoretic leakage estimators, all while accounting for the defense's privacy-overhead trade-offs.",
+    "updated" : "2026-09-04T13:16:30Z",
+    "published" : "2026-09-04T13:16:30Z",
+    "authors" : [
+      {
+        "name" : "Bogdan Cebere"
+      },
+      {
+        "name" : "Prateek Kumar"
+      },
+      {
+        "name" : "Sylvain Chatel"
+      },
+      {
+        "name" : "Wouter Lueks"
+      },
+      {
+        "name" : "Christian Rossow"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.05095v1",
+    "title" : "CAT-LDP: Cloud-edge Adaptive Taxonomy under Local Differential Privacy",
+    "summary" : "Recommender systems are widely used in daily life, but their direct collection and use of user preference data can also lead to privacy leakage. Existing privacy-preserving recommendation methods often find it hard to balance user privacy and recommendation performance. This problem is more serious in implicit-feedback settings, where data sparsity further increases the loss of useful signals caused by privacy perturbation. To solve this problem, we propose CAT-LDP, a cloud-local collaborative recommendation framework under local differential privacy constraints. CAT-LDP combines a hierarchical taxonomy tree with an adaptive privacy budget allocation strategy to keep more useful signals in users' active categories while protecting user privacy. Specifically, users upload perturbed category profiles that satisfy LDP. Based on these profiles, the cloud performs coarse-grained candidate generation, and the local device then carries out fine-grained reranking by using unperturbed local history. Experiments on the Amazon Video Games dataset show that CAT-LDP consistently outperforms its fixed-budget ablation variant and representative baselines on HR@K and NDCG@K under different privacy budgets. The results show that combining category-space modeling with cloud-local task decoupling can effectively reduce noise amplification in long-tail sparse settings and provide a better balance between privacy and utility for implicit-feedback recommendation.",
+    "updated" : "2026-09-04T12:49:23Z",
+    "published" : "2026-09-04T12:49:23Z",
+    "authors" : [
+      {
+        "name" : "Junzhe Yang"
+      },
+      {
+        "name" : "Chang Xia"
+      },
+      {
+        "name" : "Xiyun Wang"
+      },
+      {
+        "name" : "Anren Sun"
+      },
+      {
+        "name" : "Wenbo Ding"
+      },
+      {
+        "name" : "Xinye Chen"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.05034v1",
+    "title" : "Faster Learning under Relaxed Local Differential Privacy",
+    "summary" : "We consider density estimation under the relaxed local differential privacy condition that the privatized distributions are $α$-close in total variation distance. We show that adding independent noise with a convenient symmetrized Gamma distribution to each sensitive observation attains the $α$-TV-LDP. We prove that the deconvolution estimator of $r$-Sobolev smooth functions attains the pointwise rate $(nα)^{-\\frac{2r-1}{2r}}$ up to log factors which is faster than $(nα^2)^{-\\frac{2r-1}{2r+1}}$ under the classical $α$-LDP and closer to the nonprivate minimax rate $n^{-\\frac{2r-1}{2r}}$. Next, we use a Goldenshluger-Lepski procedure to build a free of the smoothness adaptive procedure and show optimality of our rates in the convolution model of our privatisation scheme. We illustrate the benefits of this simple privacy mechanism by implementing a neural network estimator which does not need to add more noise in the optimization steps. Numerical results show significant improvement of the estimation rate over the Laplace and the private-SGD mechanisms.",
+    "updated" : "2026-09-04T11:55:35Z",
+    "published" : "2026-09-04T11:55:35Z",
+    "authors" : [
+      {
+        "name" : "Cristina Butucea"
+      },
+      {
+        "name" : "Huiyun Tang"
+      },
+      {
+        "name" : "Marie-Luce Taupin"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.04592v1",
+    "title" : "Hidden In Plain Gaze: Gaze Representations as Privacy Controls for Utility and Re-identification Risk in XR",
+    "summary" : "Intelligent extended reality (XR) systems increasingly use eye and head tracking to infer user intent, task, and attention, but the same signals can also reveal biometric identity. We study whether gaze data representation choice can serve as a lightweight privacy control at feature extraction, before adding perturbation or formal privacy mechanisms. Using the egocentric HoloAssist dataset, we compare three gaze representations under matched model capacity: raw gaze, spatial attention heatmaps, and engineered eye-movement features. We evaluate each representation on action recognition as task utility and closed-set user re-identification as privacy leakage. Representation choice substantially changes the privacy-utility tradeoff. Engineered features retain roughly 85% of raw gaze's action-recognition accuracy while reducing re-identification by about an order of magnitude, to roughly four times the chance rate across 206 identities. This reduction attenuates rather than eliminates identity leakage, and the differences across representations show that abstraction alone does not guarantee privacy. Engineered features expose interpretable and auditable structure, giving designers a transparent privacy lever that complements mechanisms such as differential privacy.",
+    "updated" : "2026-09-04T00:47:22Z",
+    "published" : "2026-09-04T00:47:22Z",
+    "authors" : [
+      {
+        "name" : "Cory Ilo"
+      },
+      {
+        "name" : "Brendan-David John"
+      },
+      {
+        "name" : "Doug A. Bowman"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.ET",
+      "cs.HC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.04382v1",
+    "title" : "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+    "summary" : "We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while leaving an observable channel untested. The Trusted Local Node (TLN) sends protected activations to the Untrusted Cloud Node (UCN), the UCN returns its output, and TLN, holding the private loss, returns the output gradient. The frame the UCN receives mixes real rows with decoys, and the loss ignores the decoys. Their gradients are exactly zero, so the pattern of zeros reveals which rows were real. We measure it with a protocol fixed in advance: a leak injected at known strength to prove the instrument can see one, a shuffled-label control to prove it does not report absent leaks, and a threshold set before the runs. Across nine seeds, the zeros identified the real rows on every frame, 4,096 of 4,096 per run. An attack on the frame contents recovered about one extra token per hundred over a constant-guess baseline (+0.65 to +1.50 percentage points); the shuffled controls recovered nothing. A second set of runs repeated this on a configuration that keeps model quality within budget, so the finding is not confined to a setting nobody would deploy. On both datasets, every such run passed the forward-channel privacy check and the quality check, yet failed that same check once the returned gradient was included. Clipping and noising each row of the gradient closed the leak for about 0.01 nats of held-out cross-entropy. The system is not thereby safe: five classes of attack, including those accumulating observations across training steps, were never measured.",
+    "updated" : "2026-09-03T18:43:24Z",
+    "published" : "2026-09-03T18:43:24Z",
+    "authors" : [
+      {
+        "name" : "Georgios Politis"
+      },
+      {
+        "name" : "Evangelos Pappas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
   }
 ]
