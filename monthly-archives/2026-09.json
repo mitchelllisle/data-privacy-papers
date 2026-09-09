@@ -551,5 +551,412 @@
       "cs.DC",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.08476v1",
+    "title" : "When Topology Betrays Privacy: Lattice-Based Reconstruction Attacks on Secure Aggregation in Decentralized Federated Learning",
+    "summary" : "Secure Aggregation (SA) is widely regarded as a strong defense against model-update leakage in Federated Learning (FL), as it reveals only aggregate results while hiding individual updates. In Decentralized Federated Learning (DFL), SA is commonly instantiated as local neighborhood aggregation, where each node obtains a weighted aggregate over its neighbors. We show that this locality creates a structural leakage surface: sparse decentralized topologies provide colluding semi-honest nodes with asymmetric aggregate views, exposing multiple hidden linear combinations of honest participants' private states. Reconstructing private states from these aggregate views is fundamentally challenging, as both the private states and the aggregation coefficients are hidden. We tackle this challenge by establishing a formal connection to the Hidden Subset Sum Problem, a long-studied problem in cryptography. Building on this formulation, we design a lattice-based reconstruction approach that combines lattice reduction with structural filtering to reconstruct protected model states. We evaluate our attack on image, tabular, and text tasks under sparse DFL topologies. Our results show that colluding semi-honest nodes can recover the original local updates of honest nodes, enabling downstream reconstruction of private training data. These findings demonstrate that SA alone does not guarantee privacy in DFL when local aggregation induces asymmetric observations.",
+    "updated" : "2026-09-08T09:20:27Z",
+    "published" : "2026-09-08T09:20:27Z",
+    "authors" : [
+      {
+        "name" : "Wenrui Yu"
+      },
+      {
+        "name" : "Changlong Ji"
+      },
+      {
+        "name" : "Johannes Bjerva"
+      },
+      {
+        "name" : "Qiongxiu Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.08103v1",
+    "title" : "AVP-Inspect: Coordinated Cyber-Physical Testing for Privacy Analysis of COTS Apple Vision Pro Applications",
+    "summary" : "XR devices introduce substantial privacy concerns due to their comprehensive data collection capabilities that surpass traditional computing platforms. While existing works have demonstrated privacy concerns on Android-based XR devices such as Meta Quest series by performing network traffic analysis, little attention has been paid to the Apple Vision Pro (AVP) devices, mainly due to the closed nature and the technical challenges associated with AVP devices. In this work, we make a bold attempt to detect privacy violations of AVP applications from network traffic through automatic testing on AVP devices. Our key insight is that effective AVP application testing requires coordinated control of both cyber (software) and physical (hardware) components, which we term Coordinated Cyber-Physical Testing. Building on this insight, we design and implement AVP-Inspect, an automatic dynamic analysis framework for AVP applications, overcoming significant challenges enforced by the closed-source nature of AVP ecosystem. AVP-Inspect consists of three components: an automatic device controller by building customized hardware devices, a 3D UI explorer by designing a new exploration engine, and a privacy violation detector by constructing a unified privacy taxonomy for AVP. We first evaluated AVP-Inspect on a manually constructed ground truth dataset, then performed a large-scale analysis on 324 AVP applications downloaded from the App Store, with each app tested for 20 minutes. We found that 188 (58.0%) of apps exhibit at least one violation, and more than 60% of the network traffic flows are not properly disclosed.",
+    "updated" : "2026-09-08T01:24:55Z",
+    "published" : "2026-09-08T01:24:55Z",
+    "authors" : [
+      {
+        "name" : "Yichang Xiong"
+      },
+      {
+        "name" : "Vamsi Shankar Simhadri"
+      },
+      {
+        "name" : "Yue Xiao"
+      },
+      {
+        "name" : "Xiaokuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.07654v1",
+    "title" : "ZK-eSIM: A Privacy-Centric Zero-Knowledge Approach for eSIM Provisioning",
+    "summary" : "GSMA Remote SIM Provisioning (RSP) enables over-the-air delivery of eSIM profiles, but it exposes long-lived identifiers during profile ordering and download. In particular, stable device identifiers (e.g., EID), profile identifiers, and long-lived certificate material enable mobile operators and profile-delivery infrastructure to link provisioning events to the same eUICC and, when combined with account records, to the same subscriber. This undermines subscriber anonymity and enables cross-session tracking. We present ZK-eSIM, a privacy-preserving redesign that achieves subscriber anonymity and provisioning-session unlinkability while retaining accountable traceability by exception. ZK-eSIM (i) replaces direct disclosure of device identifiers with a zero-knowledge proof of device validity and eligibility; (ii) enforces session unlinkability through short-lived, one-time pseudonymous credentials and per-session identifiers to prevent cross-session tracking; and (iii) provides privacy-preserving accountable traceability through a jointly authorised escrow mechanism, so that no single entity can unilaterally deanonymise a user. We formalise a multi-entity, honest-but-curious threat model and prove subscriber anonymity and the unlinkability of provisioning sessions under standard cryptographic assumptions. We implement a Java Card applet on a test eUICC to evaluate performance on commodity hardware with a modified LPA and SM-DP+ server. Our experiments quantify end-to-end cryptographic overhead relative to conventional RSP, confirming that ZK-eSIM adds only practical overhead, closing a critical privacy gap while preserving deployability within existing GSMA roles and interfaces.",
+    "updated" : "2026-09-07T15:42:20Z",
+    "published" : "2026-09-07T15:42:20Z",
+    "authors" : [
+      {
+        "name" : "Liza Ahmad"
+      },
+      {
+        "name" : "Quan Shi"
+      },
+      {
+        "name" : "Joshua Haworth"
+      },
+      {
+        "name" : "Yilu Dong"
+      },
+      {
+        "name" : "Prosanta Gope"
+      },
+      {
+        "name" : "Behzad Abdolmaleki"
+      },
+      {
+        "name" : "Syed Rafiul Hussain"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.07623v1",
+    "title" : "Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps",
+    "summary" : "Dot maps, which visualize individual data points as dots over a geographic region, are widely used across diverse domains to represent spatial patterns in sensitive data. However, the understanding of the privacy risks associated with dot maps remains limited, particularly for maps covering large geographic areas. In this paper, we systematically analyze these risks and present AutoLocate, an automated framework for high-precision location recovery. At its core, AutoLocate exploits anti-aliasing artifacts introduced during map rendering, which inadvertently encode sub-pixel information about dot locations. AutoLocate formulates location recovery as a black-box optimization problem, iteratively refining estimated coordinates by minimizing perceptual discrepancies over these artifacts between the target map and rendered candidate maps. Extensive experiments on both real-world and synthetic datasets, across different attack scenarios and a broad range of map configurations (e.g., map scale, background, resolution), demonstrate the effectiveness of AutoLocate. In particular, it achieves average recovery errors as low as 1 meter (approximately 0.0002 pixel precision) on small-scale maps of the United States, over 200x more accurate than existing approaches. We also propose mitigation strategies and introduce a privacy risk assessment tool to help practitioners evaluate and reduce privacy leakage when publishing dot maps.",
+    "updated" : "2026-09-07T15:25:27Z",
+    "published" : "2026-09-07T15:25:27Z",
+    "authors" : [
+      {
+        "name" : "Yuntao Du"
+      },
+      {
+        "name" : "Tanishq Pauskar"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Jing Su"
+      },
+      {
+        "name" : "Ninghui Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.07428v1",
+    "title" : "Masking Radar Cognition under Adversarial Surveillance: A Distributional Privacy Framework",
+    "summary" : "In this article, we propose an online electronic counter-countermeasure (ECCM) framework designed to conceal the strategic decision-making processes of a cognitive radar (CR) operating under adversarial surveillance. We model the CR under two distinct decision paradigms: a static constrained utility-maximizing behavior and a dynamic expected utility-maximizing behavior. The radar's utility function is modeled via a von Mises--Fisher (vMF) distribution, with the distributional parameter constituting the private information to be protected from adversarial inference. We adopt a distribution privacy framework to conceal this private information and provide formal distribution privacy guarantees for cognition masking. In this work, we develop cognition-hiding algorithms for both static constrained utility maximization (WDPCH-SU), and dynamic expected utility maximization (WDPCH-DU). Through rigorous mathematical analysis, we show that both WDPCH-SU and WDPCH-DU satisfy $ε$-distribution privacy ($ε$-DistP) against inference-based adversarial attacks and present the privacy--performance trade-off bounds, quantifying utility loss (in static setting) and expected utility deviation (in dynamic setting) as functions of $ε$. Numerical results show that WDPCH-SU gives about 15\\% improvement in utility loss at maximum privacy compared to the existing methodology while WDPCH-DU achieves a greater reduction in adversarial Fisher information without requiring explicit Fisher information constraints, at a moderate, analytically bounded utility deviation. These results are highly promising in many 6G communication scenarios such as network slicing for automated driving and swarm UAV coordination, where it is essential to keep the resource allocation policy robust against privacy attacks.",
+    "updated" : "2026-09-07T12:32:56Z",
+    "published" : "2026-09-07T12:32:56Z",
+    "authors" : [
+      {
+        "name" : "Sreedevi K"
+      },
+      {
+        "name" : "Nandhini K"
+      },
+      {
+        "name" : "Anup Aprem"
+      },
+      {
+        "name" : "Deepthi P P"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.07217v1",
+    "title" : "Enhancing Privacy, Neglecting Harms: An Analysis of Real-World Digital Privacy Incidents",
+    "summary" : "Privacy-enhancing technologies (PETs) have emerged as a technical means for providing individuals with greater control over their information. Yet despite the growing deployment of PETs, people continue to experience privacy harms. In this work, we revisit our understanding of privacy incidents and the realities of those experiencing privacy harms, to assess whether the goals and abilities of PETs are misaligned with the harms people face.\n  For our study, we collect news articles that correspond to a sample of 257 real-world privacy incidents. We employ content analysis over the articles to develop a new information flow model that encompasses the complexity of data flows and their relation to resulting harms. We demonstrate that our model captures both established and novel aspects of privacy incidents and their mitigations. In particular, it captures why consent is often insufficient to prevent privacy violations, how harms emerge from complex interactions among multiple entities and actions, and reveals a flaw in our understanding of PETs: a focus on enabling functionalities still permits the harms inherent in those functionalities. Moreover, we find that the entities best positioned to implement harm-preventing measures for the incidents in our sample are the least incentivized to do so. Overall, our model and analysis identify limitations of privacy technology research for harm prevention and further identifies paths for transforming how we approach the advancement of these technologies.",
+    "updated" : "2026-09-07T08:34:10Z",
+    "published" : "2026-09-07T08:34:10Z",
+    "authors" : [
+      {
+        "name" : "Shannon Veitch"
+      },
+      {
+        "name" : "C. Shem"
+      },
+      {
+        "name" : "Lena Csomor"
+      },
+      {
+        "name" : "Oleksandr Dudiy"
+      },
+      {
+        "name" : "Naone Kim"
+      },
+      {
+        "name" : "Khoi Le"
+      },
+      {
+        "name" : "Lina Saha"
+      },
+      {
+        "name" : "Alexander Viand"
+      },
+      {
+        "name" : "Anwar Hithnawi"
+      },
+      {
+        "name" : "Bailey Kacsmar"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.07038v1",
+    "title" : "AdoDAS: A Privacy-Preserving Multimodal Challenge for Adolescent Depression, Anxiety, and Stress Assessment",
+    "summary" : "Adolescent depression, anxiety, and stress (D/A/S) call for scalable tools that complement, rather than replace, professional evaluation. Under a privacy-preserving policy, the AdoDAS Grand Challenge withholds minors' raw recordings and distributes anonymized audio-visual representations and ASR-derived text. Its 6,000 participants provide 24,000 segments across one scripted-reading and three open-response sessions. Two tracks assess multi-task binary D/A/S screening and ordinal prediction of 21 DASS-21 item responses. From 191 registrations, the final leaderboards included 95 eligible screening teams and 64 item-prediction teams. Audio-visual baselines achieved 0.4604 mean F1 and 0.2675 mean Quadratic Weighted Kappa; leading submissions reached 0.5921 and 0.2776. Representative systems emphasize cross-session modelling, temporal multimodal fusion, psychometric structure, and task-aware calibration.",
+    "updated" : "2026-09-07T04:49:27Z",
+    "published" : "2026-09-07T04:49:27Z",
+    "authors" : [
+      {
+        "name" : "Zhaojie Luo"
+      },
+      {
+        "name" : "Junkun Wang"
+      },
+      {
+        "name" : "Tianhua Qi"
+      },
+      {
+        "name" : "Yuxuan Wu"
+      },
+      {
+        "name" : "Xin Zhao"
+      },
+      {
+        "name" : "Tetsuya Takiguchi"
+      },
+      {
+        "name" : "Tomoko Matsui"
+      },
+      {
+        "name" : "Kun Qian"
+      },
+      {
+        "name" : "Fei Wang"
+      },
+      {
+        "name" : "Shuqiong Wu"
+      },
+      {
+        "name" : "Zhengjun Yue"
+      },
+      {
+        "name" : "Hiroshi Ishiguro"
+      },
+      {
+        "name" : "Xinyuan Qian"
+      },
+      {
+        "name" : "Haizhou Li"
+      }
+    ],
+    "categories" : [
+      "cs.MM",
+      "cs.SD"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.07022v1",
+    "title" : "CIPHER: Benchmarking Cross-record Inference over Privacy-Hardened Evidence Records",
+    "summary" : "Reasoning over privacy-constrained records requires combining structured attributes with evidence from free-text narratives. We introduce CIPHER (Cross-record Inference over Privacy-Hardened Evidence Records), a benchmark of expert-validated questions from consumer-finance, clinical, and law-enforcement records. The questions cover common tabular operations and include executable SQL supervision. We evaluate retrieval, prompting, table-specialist, and hybrid symbolic-neural systems under native redaction and surrogate-based evidence restoration. All system families exhibit substantial failures even when supporting records are provided. Most errors arise from incorrect record selection and predicate interpretation rather than arithmetic execution. Privacy transformations have non-uniform effects, sometimes obscuring necessary evidence and sometimes reducing distraction. CIPHER provides a reproducible testbed for diagnosing these failures and assessing how transformations of sensitive text affect reasoning over hybrid records.",
+    "updated" : "2026-09-07T04:21:01Z",
+    "published" : "2026-09-07T04:21:01Z",
+    "authors" : [
+      {
+        "name" : "Suparno Roy Chowdhury"
+      },
+      {
+        "name" : "Manan Roy Choudhury"
+      },
+      {
+        "name" : "Dhruv Madhwal"
+      },
+      {
+        "name" : "Vivek Gupta"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.06928v1",
+    "title" : "Emo-DVS: A Multimodal Benchmark for Privacy-Aware Emotion Recognition with Event Cameras",
+    "summary" : "Emotion analysis is a fundamental task in computer vision, but its practical deployment remains constrained by the privacy risks inherent to conventional RGB cameras. Bio-inspired event cameras present a promising hardware-level solution because they capture asynchronous brightness changes, thereby reducing exposure of facial identity details while leveraging high dynamic range for robust perception under challenging illumination conditions. Despite these advantages, existing event-based methods struggle in complex real-world settings due to limited dataset scales, simple acquisition conditions, and reliance on single-modality visual cues. To address these, we establish a challenging tri-modal benchmark with event, audio, and text modalities and propose the Information-Guided Gated Fusion (IGF) framework, which first pre-trains an event encoder on the FAU subset of Emo-DVS to capture fine-grained facial dynamics, then employs adaptive modality gating to suppress modality-specific noise, and finally leverages mutual information maximization to align robust cross-modal representations. To alleviate data scarcity, we introduce Emo-DVS, the first large-scale event-based emotion analysis dataset, which couples dynamic illumination with the Facial Action Unit (FAU) subset and emotion subset. Extensive experiments demonstrate that IGF achieves state-of-the-art performance.",
+    "updated" : "2026-09-07T01:55:44Z",
+    "published" : "2026-09-07T01:55:44Z",
+    "authors" : [
+      {
+        "name" : "Jiaqi Chen"
+      },
+      {
+        "name" : "Qinfu Xu"
+      },
+      {
+        "name" : "Hao Zhuang"
+      },
+      {
+        "name" : "Liyuan Pan"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.06749v1",
+    "title" : "A Novel Semantic Manifold Alignment Attack against Embedding-to-Embedding Obfuscation in Privacy-Preserving LLMs",
+    "summary" : "With the widespread applications of large language models (LLMs), privacy-preserving inference has become increasingly essential for sensitive queries. To balance privacy and utility, a series of lightweight obfuscation approaches has recently been proposed, where users locally transform plaintext embeddings into the fixed ciphertext ones. While such Embedding-to-Embedding Obfuscation (E2EO) schemes demonstrate considerable resilience against traditional token frequency and embedding inversion attacks, the core mechanism behind remains to be the large-scale one-to-one substitution, which provides no cryptographic guarantees. In this paper, we propose Proxy Manifold Alignment (PMA), a novel attack against E2EO in privacy-preserving LLMs. Our key observation is that E2EO schemes keep the original semantic structure, so that the obfuscated vector stream can be regarded as an unknown tokenizer-language whose symbols are the vectors themselves. Therefore, the proposed ciphertext to plaintext reconstruction attack can be formulated as a translation task from the unknown tokenizer-language to plaintext. Specifically, by only accessing the obfuscated vector stream, the target tokenizer and a public corpus, the PMA attack first employs Word2Vec to model the co-occurrence patterns within the obfuscated stream and the public corpus independently, and constructs two proxy vector embeddings. Then, the attack aligns the underlying manifolds of these two embeddings based on structural similarity. Finally, it maps the obfuscated vectors back to plaintext. Experimental results demonstrate that PMA consistently achieves higher plaintext recovery than other state-of-the-art attack methods.",
+    "updated" : "2026-09-06T17:45:18Z",
+    "published" : "2026-09-06T17:45:18Z",
+    "authors" : [
+      {
+        "name" : "Sicong Li"
+      },
+      {
+        "name" : "Lingfeng Yao"
+      },
+      {
+        "name" : "Xingke Yang"
+      },
+      {
+        "name" : "Ke Tu"
+      },
+      {
+        "name" : "Chenhao Wu"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Jiang Liu"
+      },
+      {
+        "name" : "Phone Lin"
+      },
+      {
+        "name" : "Xin Fu"
+      },
+      {
+        "name" : "Miao Pan"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.05702v1",
+    "title" : "Characterizing Privacy Risks of Quantum Machine Learning with Emergent Quantum-Native Access",
+    "summary" : "Quantum Machine Learning (QML) has shown rapid advances by utilizing quantum computing for machine learning tasks. Meanwhile, the privacy risks accompanying QML is also starting to be studied, which inherit privacy leakage channels from \"classical\" ML and also quantum-unique risks. Existing work on privacy-preserving QML largely focuses on a QML-as-a-service scenario, which generally assumes that the QML model owner provides only classical bit outputs to queries, while users (and adversaries) have only classical computing abilities. However, this view is increasingly challenged in a quantum-native world of quantum-capable users/adversaries, which may have access to both quantum computing abilities and access to quantum information output from service providers.\n  In this paper, we aim to bridge this gap by examining membership inference attacks against QML models by demonstrating that increasing quantum access and quantum computing abilities provides provable theoretical privacy leakage and empirical adversarial gain. However, the probabilistic nature of QML introduces a gap between theoretical and empirical adversarial advantage. These results show that existing research on privacy leakage on QML models underestimate privacy leakage in an emergent quantum-native access regimes, which we hope to establish a first step into examining potential privacy leakages for QML in the quantum-native world.These results show that existing research on privacy leakage in QML models underestimates privacy leakage in emergent quantum-native access regimes, and we hope to establish a first step in examining potential privacy leakages for QML in the quantum-native world.",
+    "updated" : "2026-09-04T20:14:20Z",
+    "published" : "2026-09-04T20:14:20Z",
+    "authors" : [
+      {
+        "name" : "Liou Tang"
+      },
+      {
+        "name" : "James Joshi"
+      },
+      {
+        "name" : "Ashish Kundu"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.02971v2",
+    "title" : "Privacy Leakage in Federated Learning: Gradient-Based Client Identity Inference and Defenses for Inertial Sensing in Vehicular Edge Networks",
+    "summary" : "As vehicular networks move toward 5G/6G edge intelligence, federated learning (FL) is widely promoted as a privacy-preserving way for vehicles and infrastructure to train shared models without exposing raw sensor data. Yet the updates clients transmit still leak enough information to identify who sent them, which threatens the anonymity that safety-critical V2X applications assume and adds to existing concerns over adversarial ML, model poisoning, and backdoor attacks. We study server-side client identity inference from transmitted weight deltas using inertial (IMU) measurements, evaluated on the UCI Human Activity Recognition (HAR) benchmark as an accessible proxy for the IMU streams produced onboard connected vehicles. Across five attack classifiers and five non-IID partitions, an honest-but-curious server recovers client identity with near-perfect accuracy (approximately 1.000) from undefended updates, confirming a concrete identifiability risk. We then quantify the privacy-utility trade-off of a lightweight clip-then-noise defense by sweeping Gaussian noise (sigma in {0.00, 0.05, 0.10, 0.20, 0.50, 1.00}) at fixed clipping (C=1.0), and report formal (epsilon, delta)-DP budgets through Renyi accounting. A practical region (sigma in [0.1, 0.2]) drives attack accuracy to near-random while costing under 5% relative FL accuracy. Ensemble FL supplies complementary structural privacy with a 1/K anonymity-set bound and no noise penalty. Results are supported by cryptographic (SHA-256) train/evaluation gradient disjointness, three seeds, and a count-normalized attacker-advantage metric. We position HAR explicitly as a proxy and discuss what validation on true vehicular telemetry would require.",
+    "updated" : "2026-09-05T10:06:01Z",
+    "published" : "2026-09-02T09:49:39Z",
+    "authors" : [
+      {
+        "name" : "Ali Akarma"
+      },
+      {
+        "name" : "Toqeer Ali Syed"
+      },
+      {
+        "name" : "Muhammad Khan"
+      },
+      {
+        "name" : "Qurat-ul-ain Mastoi"
+      },
+      {
+        "name" : "Adeel Ahmad"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.01096v2",
+    "title" : "CRSF: Collusion-Resilient Privacy-Preserving Sensor Fusion with Byzantine-Robust Participation",
+    "summary" : "Privacy-preserving sensor fusion enables an untrusted server to compute an aggregate result over distributed sensor measurements without learning either individual inputs or the final output. Recent garbled-circuit-based protocols provide an efficient realization of this functionality in a sensor--server--client architecture, but remain vulnerable to sensor--server collusion and Byzantine manipulation of sensor participation. These weaknesses can compromise honest-sensor privacy, incorrectly exclude honest sensors, and corrupt the computed fusion result, thereby undermining the security guarantees expected from the protocol.\n  We present CRSF, a collusion-resilient sensor-fusion protocol that addresses these weaknesses while providing privacy, correctness with explicit abort, and liveness. CRSF introduces a Practical Byzantine Fault Tolerance (PBFT)-based agreement phase for sensor submissions and uses server-specific, status-dependent label release with threshold protection of circuit-input labels. This design prevents any Byzantine server from unilaterally manipulating sensor participation and prevents any admissible sensor-server coalition from obtaining enough secret material to compromise honest-sensor privacy.\n  We implement CRSF and compare its online execution time with the most relevant state-of-the-art baseline. Our Google Cloud evaluation measures the total computation and communication cost of the online protocol under fault-free and representative faulty executions. Across a range of fault-tolerant fusion circuits and up to 261 sensors, CRSF demonstrates a highly practical trade-off between robust security and protocol performance.",
+    "updated" : "2026-09-05T11:44:11Z",
+    "published" : "2026-09-01T11:38:12Z",
+    "authors" : [
+      {
+        "name" : "Chao Yin"
+      },
+      {
+        "name" : "Haihong Tian"
+      },
+      {
+        "name" : "Zheng Yang"
+      },
+      {
+        "name" : "Haibin Zhang"
+      },
+      {
+        "name" : "Fabio Massacci"
+      },
+      {
+        "name" : "Chenglu Jin"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
