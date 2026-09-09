@@ -3094,5 +3094,36 @@
       "cs.CR",
       "cs.SE"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2608.17147v2",
+    "title" : "Picture the Epsilon: Pursuing Identity-Level Privacy Guarantees for Images",
+    "summary" : "Several methods for auditing privacy in embedding spaces report a number called \"epsilon.\" The common name is misleading: one number may be a heuristic score, another may come from a valid population inequality but ignore sampling uncertainty, and a third may be a confidence bound. This paper asks when such a number is evidence about differential privacy. We study four approaches based on Gaussian calibration, marginal kernel-density ratios, maximum mean discrepancy (MMD), and classifier hypothesis tests. The first two are modeling diagnostics. The MMD and classifier approaches use valid population lower bounds, but only the classifier approach is given a separate test set and a finite-sample confidence calculation. To see how these distinctions matter, we build a synthetic benchmark in which the true privacy value is known. It includes pure-DP Laplace mechanisms, approximate-DP Gaussian mechanisms, an exact privacy null, two identity geometries, and three sample sizes. At the null, the Gaussian and kernel-density diagnostics remain large. A direct conversion of an empirical ROC curve often returns infinity even though the AUC is near chance and no threshold separates the samples perfectly. The MMD value increases as the distributions become easier to distinguish, but the sample estimate is small relative to the known reference and is not a lower confidence bound. By contrast, a classifier chosen on development data and evaluated on untouched test data gives simultaneous lower confidence bounds under the stated iid model. We also apply the methods to FaceFusion and InstantID. That case study shows how the methods behave on face data but does not calibrate them because the generators have no known privacy value. The main lesson is that an epsilon-like number is meaningful only together with its assumptions and its finite-sample interpretation.",
+    "updated" : "2026-09-04T03:13:56Z",
+    "published" : "2026-08-17T21:30:06Z",
+    "authors" : [
+      {
+        "name" : "Arman Zareian Jahromi"
+      },
+      {
+        "name" : "Vishnu Bondalakunta"
+      },
+      {
+        "name" : "Mohammad Akbar Bin Shah"
+      },
+      {
+        "name" : "Naimul Haque"
+      },
+      {
+        "name" : "Shuangqing Wei"
+      },
+      {
+        "name" : "George T. Amariucai"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
