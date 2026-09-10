@@ -958,5 +958,204 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.09963v1",
+    "title" : "CrossLink: Breaking Location Privacy by Linking Device Identifiers Across Protocols",
+    "summary" : "Smartphones simultaneously transmit temporary identifiers over LTE, WiFi, and BLE. Existing privacy defenses analyze identifier randomization per protocol, implicitly assuming that these protections compose across protocols. We show that they do not: Even when each protocol leaks only temporary identifiers and the adversary is fully passive, unsynchronized identifier rotations allow cross-protocol stitching of device traces. We present CrossLink, an uncertainty-aware tracing algorithm that links identifiers across time, space, and protocols under noisy localization and mobility. We evaluate CrossLink using controlled lab experiments with commodity devices and large-scale mobility simulation. Under large-scale mobility simulation, CrossLink reconstructs full traces for 83% of users, versus 22% for the best single-protocol baseline, showing that location privacy must be analyzed jointly across protocols. We further show that CrossLink remains effective under partial coverage: strategically placed sniffers near LTE handover regions, mobile sniffers, and limited high-coverage subregions retain sufficient cross-protocol evidence to bridge observation gaps, achieving substantially higher linkability than random deployments.",
+    "updated" : "2026-09-09T09:51:48Z",
+    "published" : "2026-09-09T09:51:48Z",
+    "authors" : [
+      {
+        "name" : "Aneet Kumar Dutta"
+      },
+      {
+        "name" : "Mihirraj Dixit"
+      },
+      {
+        "name" : "Kevin Gni"
+      },
+      {
+        "name" : "Wouter Lueks"
+      },
+      {
+        "name" : "Mridula Singh"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.09794v1",
+    "title" : "Privacy-Preserving Split Learning for Federated LLM Fine-Tuning",
+    "summary" : "Fine-tuning large language models (LLMs) on domain-specific data is essential for downstream adaptation. In many deployments, a participant cannot hold the complete model locally. This happens because the model owner keeps the full model proprietary, or because the participant lacks sufficient compute resources. Split Learning (SL) addresses this by partitioning the model between the participant and a server so that only a small portion runs locally. When the underlying data is additionally distributed across multiple institutions with privacy requirements, Federated Learning (FL) further enables collaborative training across participants by sharing only model updates instead of raw data. In this combined setting, each client transmits intermediate activations to the server, and for LLM fine-tuning, this exchange poses an inherent privacy paradox. The autoregressive nature of LLMs causes the transmitted activations to leak the input, and existing perturbation-based defenses are fundamentally ineffective in this setting. We address this leakage through a learned obfuscate-and-recover scheme that protects participants' private datasets while still allowing an independently deployable model to be trained on the server side. Experiments demonstrate that our approach achieves strong privacy protection with modest utility loss and system overhead, making split-based federated LLM fine-tuning practically viable.",
+    "updated" : "2026-09-09T06:48:21Z",
+    "published" : "2026-09-09T06:48:21Z",
+    "authors" : [
+      {
+        "name" : "Heng Jin"
+      },
+      {
+        "name" : "Chaoyu Zhang"
+      },
+      {
+        "name" : "Hexuan Yu"
+      },
+      {
+        "name" : "Wenjing Lou"
+      },
+      {
+        "name" : "Y. Thomas Hou"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.09697v1",
+    "title" : "PrivAudit: A Dual-Lens Auditing Framework for Website Privacy Practices under the CCPA",
+    "summary" : "Five years after the enforcement of the California Consumer Privacy Act (CCPA), understanding how website privacy practices evolve at scale in response to regulation remains a key challenge for both researchers and regulators. Prior work and regulatory efforts have focused on manual and case-specific enforcement, but there remain no scalable approaches to systematically audit two key user-facing facets of websites that are crucial signals for the CCPA: privacy disclosures and front-end user tracking behavior.\n  In this paper, we present PrivAudit, an automated auditing framework that adopts a dual-lens approach to capture: (1) privacy disclosures through large language model-based analysis of privacy policies grounded in CCPA provisions, and (2) user-observable data collection behavior through automated browser measurements of cookie writes under diverse privacy configurations. We apply PrivAudit to 998 websites and report two broad findings. The law is associated with stronger privacy disclosures: CCPA-subject policies are more likely to disclose opt-out mechanisms, data-sharing practices, and user rights. On the other hand, cookie-based tracking remains pervasive, with both CCPA-subject and not-subject websites setting a total of 6,392 targeting cookies, 49% of which are third-party writes. Moreover, cookies show limited-to-moderate responsiveness to privacy signals and consent choices, even when websites claim to honor them in their disclosures.\n  Our results highlight the need for multi-layered and scalable auditing approaches that combine policy analysis with behavioral evidence. PrivAudit can support these auditing workflows at scale by generating actionable signals and patterns for further manual review. We open-source PrivAudit and are engaging with regulators to support auditing in practice.",
+    "updated" : "2026-09-09T04:31:30Z",
+    "published" : "2026-09-09T04:31:30Z",
+    "authors" : [
+      {
+        "name" : "Mohamed Moustafa Dawoud"
+      },
+      {
+        "name" : "Riya Aggarwal"
+      },
+      {
+        "name" : "Likith Rahul Krishnamurthy"
+      },
+      {
+        "name" : "Ram Sundara Raman"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.09591v1",
+    "title" : "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+    "summary" : "Sixth-generation (6G) wireless networks are expected to provide a key infrastructure for large-scale embodied intelligence, where heterogeneous robots collaborate through low-latency connectivity, edge intelligence, and distributed sensing. Vision-language-action (VLA) models offer a foundation by integrating visual perception, language understanding, and action generation into a unified closed-loop policy. However, training and adapting VLA models to distributed robotic agents introduce challenges in privacy protection, communication efficiency, and model heterogeneity. Existing federated learning (FL) methods overlook the intrinsic differences among vision, language, and action pathways in parameter scale, privacy exposure, update dynamics, and tolerance to compression or perturbation. To address this issue, this article proposes FedMVLA, a modality-decoupled FL framework for privacy-preserving embodied intelligence in 6G networks. FedMVLA incorporates three mechanisms: modality-aware federated aggregation (MAFA), modality-aware privacy allocation (MAPA), and modality-aware communication compression (MACO), together with a modality-sliced transport design that routes the precision-critical action stream through a protected ultra-reliable low-latency slice. A case study on federated robotic manipulation over the Third Generation Partnership Project (3GPP)-based wireless substrate, covering fading, co-channel interference, and malicious jamming, shows that FedMVLA achieves an 84.8% task success rate, exceeds FedAvg by 22.2 percentage points, sustains a widening margin when scaling to 128 clients across eight cells, and reduces the schedule-averaged per-client uplink model-update payload by 95.6% (approximately 96%), while keeping the 95th percentile (p95) of the round-critical uplink completion time near 1.5s.",
+    "updated" : "2026-09-09T01:36:44Z",
+    "published" : "2026-09-09T01:36:44Z",
+    "authors" : [
+      {
+        "name" : "Zhuodong Liu"
+      },
+      {
+        "name" : "Xiangyu Li"
+      },
+      {
+        "name" : "Chunhong Yuan"
+      },
+      {
+        "name" : "Hongyang Du"
+      },
+      {
+        "name" : "Bodong Shang"
+      },
+      {
+        "name" : "Qingqing Wu"
+      },
+      {
+        "name" : "Tony Q. S. Quek"
+      },
+      {
+        "name" : "Mohsen Guizani"
+      }
+    ],
+    "categories" : [
+      "eess.SP",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.09516v1",
+    "title" : "Differential Privacy Guarantees in Small Area Estimation",
+    "summary" : "Statistical agencies increasingly rely on small area estimation to produce reliable estimates for subpopulations with limited sample sizes. These estimates are built from individual survey responses, so agencies must ensure that releasing them does not reveal information about any single respondent. We show that when a single draw from the posterior distribution of the Bayesian Fay-Herriot model is released, pure $\\varepsilon$-differential privacy is unattainable, but the release satisfies formal privacy guarantees under Rényi differential privacy and zero-concentrated differential privacy without any noise being added, provided we treat the variance components as fixed. The key insight is that the posterior draw equals the posterior mean plus the Gaussian noise whose variance equals the posterior variance. The guarantee is thus governed by the sensitivity of the direct survey estimate and the posterior variance, and applies equally to a release of the posterior mean with that amount of noise added. For binary outcomes estimated with the Hájek estimator, the sensitivity equals the largest survey weight in the area divided by the sum of the weights. For the intercept-only model we derive exact coefficients describing how a change in one record propagates to every area's posterior mean, giving finite-sample per-area guarantees and a joint guarantee for releasing all areas at once that exceeds the largest per-area guarantee by at most a few percent in our applications. Two applications, poverty prevalence across 2,462 Public Use Microdata Areas in the American Community Survey and smoking prevalence across 52 substrata in the Washington state Behavioral Risk Factor Surveillance System, show that the guarantee is driven far more by the inequality of the survey weights than by the sample size, and that the shrinkage of the model tightens it substantially.",
+    "updated" : "2026-09-08T22:57:14Z",
+    "published" : "2026-09-08T22:57:14Z",
+    "authors" : [
+      {
+        "name" : "Soumojit Das"
+      },
+      {
+        "name" : "Jörg Drechsler"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.09334v1",
+    "title" : "Execution-transcript privacy for fault-tolerant surface-code memories",
+    "summary" : "A fault-tolerant quantum computer runs behind a telemetry stream logging syndromes, decoder actions, resets and timing separately from the answer. Can it reveal the logical input? For a distance-$d$ rotated surface-code memory on a fixed schedule of $T=Θ(d)$ rounds, under three stated hypotheses (sector-scalar honest backbone, transcript locality, Kotecky-Preiss smallness), the channel from logical qubit to transcript is $e^{-Θ(d)}$-close in diamond norm to one that ignores the input. A statement of this kind follows generically from correctability-privacy duality. Anisotropy does not. Each logical axis pays the distance of its own coset, so under amplitude damping the computational-basis label is governed by the code's $Z$-distance $d_Z\\ge d_{\\min}$ and not by the code distance. Two codes of quantum distance $1$ make the gap concrete. A phase-flip code's $X$-syndrome transcript is exactly input-independent under unobserved damping, while a repetition code leaks at first order. A matched converse identifies the records that do expose it, among them a lattice-surgery parity readout. On a 156-qubit superconducting processor our sufficient certificate misses by $21.5\\times$, so the theorem cannot be invoked there. Measured directly, a $d_Z=1$ memory's record identifies its input with total variation $\\ge 0.927$ under randomised, label-balanced acquisition. Holding the code fixed and varying the damping exposure reproduces the parameter-free law, with exponent $0.85\\pm0.03$ against a predicted $0.86$. Randomized encoding returns the statistic to the floor at no two-qubit-gate cost. Fault tolerance does not grant transcript privacy. It relocates it, and only to the logical state, not to the circuit's identity.",
+    "updated" : "2026-09-08T18:20:46Z",
+    "published" : "2026-09-08T18:20:46Z",
+    "authors" : [
+      {
+        "name" : "Jiachen Shen"
+      },
+      {
+        "name" : "Hui Zhong"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.08103v2",
+    "title" : "AVP-Inspect: Coordinated Cyber-Physical Testing for Privacy Analysis of COTS Apple Vision Pro Applications",
+    "summary" : "XR devices introduce substantial privacy concerns due to their comprehensive data collection capabilities that surpass traditional computing platforms. While existing works have demonstrated privacy concerns on Android-based XR devices such as Meta Quest series by performing network traffic analysis, little attention has been paid to the Apple Vision Pro (AVP) devices, mainly due to the closed nature and the technical challenges associated with AVP devices. In this work, we make a bold attempt to detect privacy violations of AVP applications from network traffic through automatic testing on AVP devices. Our key insight is that effective AVP application testing requires coordinated control of both cyber (software) and physical (hardware) components, which we term Coordinated Cyber-Physical Testing. Building on this insight, we design and implement AVP-Inspect, an automatic dynamic analysis framework for AVP applications, overcoming significant challenges enforced by the closed-source nature of AVP ecosystem. AVP-Inspect consists of three components: an automatic device controller by building customized hardware devices, a 3D UI explorer by designing a new exploration engine, and a privacy violation detector by constructing a unified privacy taxonomy for AVP. We first evaluated AVP-Inspect on a manually constructed ground truth dataset, then performed a large-scale analysis on 324 AVP applications downloaded from the App Store, with each app tested for 20 minutes. We found that 188 (58.0%) of apps exhibit at least one violation, and more than 60% of the network traffic flows are not properly disclosed.",
+    "updated" : "2026-09-09T14:55:56Z",
+    "published" : "2026-09-08T01:24:55Z",
+    "authors" : [
+      {
+        "name" : "Yichang Xiong"
+      },
+      {
+        "name" : "Vamsi Shankar Simhadri"
+      },
+      {
+        "name" : "Yue Xiao"
+      },
+      {
+        "name" : "Xiaokuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.05702v2",
+    "title" : "Characterizing Privacy Risks of Quantum Machine Learning with Emergent Quantum-Native Access",
+    "summary" : "Quantum Machine Learning (QML) has shown rapid advances by utilizing quantum computing for machine learning tasks. Meanwhile, the privacy risks accompanying QML is also starting to be studied, which inherit privacy leakage channels from \"classical\" ML and also quantum-unique risks. Existing work on privacy-preserving QML largely focuses on a QML-as-a-service scenario, which generally assumes that the QML model owner provides only classical bit outputs to queries, while users (and adversaries) have only classical computing abilities. However, this view is increasingly challenged in a quantum-native world of quantum-capable users/adversaries, which may have access to both quantum computing abilities and access to quantum information output from service providers.\n  In this paper, we aim to bridge this gap by examining membership inference attacks against QML models by demonstrating that increasing quantum access and quantum computing abilities provides provable theoretical privacy leakage and empirical adversarial gain. However, the probabilistic nature of QML introduces a gap between theoretical and empirical adversarial advantage. These results show that existing research on privacy leakage in QML models underestimates privacy leakage in emergent quantum-native access regimes, and we hope to establish a first step in examining potential privacy leakages for QML in the quantum-native world.",
+    "updated" : "2026-09-09T11:37:56Z",
+    "published" : "2026-09-04T20:14:20Z",
+    "authors" : [
+      {
+        "name" : "Liou Tang"
+      },
+      {
+        "name" : "James Joshi"
+      },
+      {
+        "name" : "Ashish Kundu"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.LG"
+    ]
   }
 ]
