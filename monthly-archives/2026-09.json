@@ -1157,5 +1157,181 @@
       "quant-ph",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.11794v1",
+    "title" : "Second-Order Expansion of Privacy Amplification Under f-Divergence Criteria",
+    "summary" : "We derive the second-order asymptotics of randomness extraction from memoryless sources with side information under security criteria based on a broad class of Csiszàr f-divergences, treating both a fixed reference side-information marginal and optimization over that marginal. The conditional varentropy decomposes into fluctuations of the conditional entropy across different values of the side information and the average variance of the conditional surprisal for each value. Without marginal optimization, these contributions yield a Gaussian-mixture second-order profile. With marginal optimization, they combine into the total conditional varentropy, yielding a single Gaussian profile. As corollaries, we obtain second-order expansions for Rényi-entropy criteria of all orders $α\\in (0,1)$ and recover the known expansion for total variation distance.",
+    "updated" : "2026-09-10T16:47:22Z",
+    "published" : "2026-09-10T16:47:22Z",
+    "authors" : [
+      {
+        "name" : "Mario Berta"
+      },
+      {
+        "name" : "Hao-Chung Cheng"
+      },
+      {
+        "name" : "Marco Tomamichel"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.11780v1",
+    "title" : "Predicting Privacy Leakage from Weight Spectral Density",
+    "summary" : "Membership inference attacks (MIAs) are widely used to audit the privacy disclosure risk of machine learning models, however current state-of-the-art attacks require training computationally expensive shadow models, making large-scale privacy evaluation impractical. In this work, we investigate whether inexpensive spectral metrics derived from the heavy-tailed self-regularisation framework can serve as proxies for MIA vulnerability. We evaluate several WeightWatcher spectral metrics on image and tabular classification tasks and compare their relationship with MIA privacy leakage against conventional measures of generalisation. Across datasets, stable rank exhibits a strong positive correlation with overall MIA success, while Log alpha-Norm shows a consistent negative correlation with MIA vulnerability at the low false-positive regime. These associations are observed to be stronger than those obtained using the generalisation gap. The results indicate that neural network spectra may contain information about privacy leakage that is not fully captured by conventional measures of overfitting, motivating spectral analysis as a promising direction for scalable privacy auditing.",
+    "updated" : "2026-09-10T16:34:25Z",
+    "published" : "2026-09-10T16:34:25Z",
+    "authors" : [
+      {
+        "name" : "Richard J. Preen"
+      },
+      {
+        "name" : "Jim Smith"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.NE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.11777v1",
+    "title" : "Differentially Private EEG Feature Anonymization: A Privacy-Utility Case Study in Clinical Neurophysiology",
+    "summary" : "Clinical electroencephalography (EEG) data are valuable for healthcare research and for developing artificial intelligence (AI)-based clinical decision-support systems, but EEG recordings and derived features may contain sensitive patient-specific information. This creates privacy risks when data are reused, analyzed, or shared across clinical and research environments. Conventional anonymization methods are often insufficient for high-dimensional biomedical signals, since removing direct identifiers does not necessarily prevent re-identification, linkage, or inference risks. At the same time, strong privacy protection may distort clinically relevant signal characteristics and reduce data utility. This paper studies subject-level differential privacy for protecting clinical EEG-derived feature representations using Gaussian and Laplace perturbations. The proposed framework considers three deployment scenarios: client-side anonymization, centralized server-side anonymization, and decentralized local training. Following EEG preprocessing and feature extraction, Gaussian and Laplace perturbations are applied to the resulting patient-level EEG feature representations. The Laplace experiments evaluate the implemented noise scales, while the scales required for formal full-vector calibration are derived separately. The effects of both perturbations are assessed using statistical utility measures and a downstream machine-learning-based utility check. The results show that differentially private perturbation can be integrated into EEG processing workflows, but the selected mechanism, privacy parameters, and sensitivity calibration strongly influence data utility. The study highlights the practical privacy-utility trade-off in DP-based EEG feature anonymization and the challenges of preserving downstream utility in small and imbalanced clinical EEG datasets.",
+    "updated" : "2026-09-10T16:31:11Z",
+    "published" : "2026-09-10T16:31:11Z",
+    "authors" : [
+      {
+        "name" : "Noman Sadiq"
+      },
+      {
+        "name" : "Mohsen Toorani"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.11762v1",
+    "title" : "Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs",
+    "summary" : "Per-layer differential privacy (DP) clipping improves gradient fidelity in federated learning by allocating per-matrix clipping budgets proportional to parameter count. We show that this recipe breaks for speech large language models (speech-LLMs), when the acoustic encoder and the language decoder differ by an order of magnitude in update norm. Single-pool per-layer methods suffer \\emph{cross-component budget collapse}, dragging word error rate (WER) far from flat global clipping or collapsing training entirely. When the norm imbalance is milder, adaptive single-pool methods partially recover, confirming that collapse severity scales with the inter-component norm ratio. We empirically diagnose the root cause across six per-layer methods and three speech-LLM architectures. We then propose \\emph{$α$-split}, a two-pool allocation that normalises encoder and LLM parameters into independent pools, and show that joint $\\ell_2$ sensitivity and the original $(\\varepsilon,δ)$-DP guarantee are unchanged. At architecture-calibrated $α$, our method recovers WER utility compared to flat DP, while granting the encoder $4.47{\\times}$ tighter per-component noise protection against speaker voice-based gradient-inversion attacks at only $+2.6\\%$ LLM noise overhead.",
+    "updated" : "2026-09-10T16:17:19Z",
+    "published" : "2026-09-10T16:17:19Z",
+    "authors" : [
+      {
+        "name" : "Jordi Luque"
+      },
+      {
+        "name" : "Fernando López"
+      },
+      {
+        "name" : "Aleix Sant"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.11685v1",
+    "title" : "Privacy-Preserving Causal Meta-Mediation Analysis with Survival Outcomes",
+    "summary" : "Privacy and data-governance constraints often prevent pooling individual-level data across studies, limiting the use of conventional approaches for causal media- tion analysis in multicenter settings. We propose a federated causal meta-mediation framework for right-censored time-to-event outcomes that enables collaborative es- timation without sharing individual-level data. Our framework targets natural indirect effects in a prespecified population by combining information on mediator and outcome mechanisms across distributed data sources. A site-by-site identifi- cation strategy further allows heterogeneity across data sources to be character- ized, with a variance decomposition separating outcome-related, mediator-related, and interaction components. We develop federated one-step and targeted maxi- mum likelihood estimators that accommodate data-adaptive and machine-learning methods for nuisance-function estimation. The finite-sample performance of the proposed estimators is evaluated through numerical simulations. To illustrate the practical utility of the framework, we apply it on data from the French National Health Data System to evaluate the role of methotrexate coprescription in explain- ing the effect of TNFi versus IL-12/23 inhibitor therapy on treatment persistence among psoriatic patients.",
+    "updated" : "2026-09-10T15:13:57Z",
+    "published" : "2026-09-10T15:13:57Z",
+    "authors" : [
+      {
+        "name" : "Marie-Félicia Beclin"
+      },
+      {
+        "name" : "Tat-Thang Vo"
+      }
+    ],
+    "categories" : [
+      "stat.AP",
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.10992v1",
+    "title" : "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+    "summary" : "The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposing sensitive user information. Current privacy-preserving methods typically employ context-agnostic static rules, causing severe utility degradation. However, the specific mechanisms governing how sanitization impacts downstream performance remain largely underexplored. To address this, we conduct a systematic analysis to deconstruct the privacy-utility trade-off, uncovering three underlying mechanisms: (1) Context-Dependent Utility, which first establishes when to sanitize by revealing that data value shifts from critical constraints to dispensable noise based on user intent; (2) Strategic Adaptation, which subsequently determines how to sanitize by dictating that the choice between removal and replacement depends on the task's reliance on factual integrity versus structural coherence; and (3) Combinatorial Interplay, which finally extends the protection scope by demonstrating that attributes form a semantic web of synergistic dependencies or antagonistic redundancies. Guided by these insights, we introduce an intent-driven local protection framework. By distilling a lightweight model Veilmind-4B to drive a dynamic extraction-sanitization-restoration pipeline, our approach reaches a low-leakage privacy point while preserving substantially higher response utility than existing privacy-oriented baselines, advancing the privacy-utility trade-off toward the Pareto frontier.",
+    "updated" : "2026-09-10T02:12:51Z",
+    "published" : "2026-09-10T02:12:51Z",
+    "authors" : [
+      {
+        "name" : "Zhenhua Liu"
+      },
+      {
+        "name" : "Zhanxu Xie"
+      },
+      {
+        "name" : "Junjie Yu"
+      },
+      {
+        "name" : "Tong Zhu"
+      },
+      {
+        "name" : "Lijun Li"
+      },
+      {
+        "name" : "Wenliang Chen"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.10627v1",
+    "title" : "SoK: Privacy Attacks on Machine Learning via Explainable AI",
+    "summary" : "Machine learning explanations reveal model behavior beyond predictions, creating attack surfaces for model confidentiality and data privacy. We systematize 25 studies that exploit explanations for model extraction, membership inference, and model inversion, treating attribute inference as partial inversion. Existing work is often labeled only black- or white-box, obscuring substantial differences in what explanation signal reaches an adversary. We therefore separate model knowledge from explanation acquisition and identify five paths: target-released, attacker-derived, secondary disclosure, privileged access, and released global artifacts. Across these paths, explanations reduce extraction cost, expose membership signals through explanation statistics, recourse distance, and explanation-guided robustness, and support spatial or algebraic reconstruction of private inputs. We compare system and threat models, explanation signals, auxiliary knowledge, target models, modalities, query budgets, evaluation metrics, reported performance, and defenses. Our analysis shows that no explanation family is uniformly unsafe and no defense is uniformly effective. Risk depends on which signal is exposed, how it is acquired, which asset is targeted, and what the attacker already knows. We argue that explanation privacy should therefore be evaluated as an end-to-end disclosure problem, with defenses matched to the acquisition path and protected asset.",
+    "updated" : "2026-09-09T02:05:12Z",
+    "published" : "2026-09-09T02:05:12Z",
+    "authors" : [
+      {
+        "name" : "Abdullah Caglar Oksuz"
+      },
+      {
+        "name" : "Anisa Halimi"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.10608v1",
+    "title" : "Adaptive Diffusion Freezing: Privacy-preserving Diffusion Models Against Membership Inference Attacks",
+    "summary" : "Diffusion models have achieved remarkable success in generative tasks across various areas, however their training process raises significant privacy concerns, particularly under membership inference attacks (MIAs). Prior studies on privacy-preserving of diffusion models fail to balance privacy, utility, and efficiency. To address this gap, we propose a novel framework of privacy-preserving diffusion models, Adaptive Diffusion Freezing (ADF), which can defend against MIAs with better trade-off. By leveraging cross-timestep adaptive freezing training, ADF explicitly control the participation of different data subsets across diffusion timesteps via a mask matrix, which reduces the over-memorization and leads to more uniform model behaviors between member and nonmember samples. To construct a freezing mask matrix that effectively reduce membership leakage without unnecessarily harming generation quality, we introduce a pretraining-based risk-aware freezing policy to estimate MIA risk based on memorization tendency, and suppress the contribution of the subset-timestep pairs with higher risk. Evaluations on multiple datasets demonstrate that ADF provides effective defense performance as well as state-of-the-art privacy-utility-efficiency trade-off performance compared to various baselines.",
+    "updated" : "2026-09-08T08:58:19Z",
+    "published" : "2026-09-08T08:58:19Z",
+    "authors" : [
+      {
+        "name" : "Jialu Guo"
+      },
+      {
+        "name" : "Xiao Han"
+      },
+      {
+        "name" : "Junjie Wu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
