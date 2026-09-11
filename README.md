@@ -2,6 +2,78 @@
 <h2>2026-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.11794v1">Second-Order Expansion of Privacy Amplification Under f-Divergence Criteria</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-09-10T16:47:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mario Berta, Hao-Chung Cheng, Marco Tomamichel</p>
+    <p><b>Summary:</b> We derive the second-order asymptotics of randomness extraction from memoryless sources with side information under security criteria based on a broad class of Csiszàr f-divergences, treating both a fixed reference side-information marginal and optimization over that marginal. The conditional varentropy decomposes into fluctuations of the conditional entropy across different values of the side information and the average variance of the conditional surprisal for each value. Without marginal optimization, these contributions yield a Gaussian-mixture second-order profile. With marginal optimization, they combine into the total conditional varentropy, yielding a single Gaussian profile. As corollaries, we obtain second-order expansions for Rényi-entropy criteria of all orders $α\in (0,1)$ and recover the known expansion for total variation distance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.11780v1">Predicting Privacy Leakage from Weight Spectral Density</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Neural and Evolutionary Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-09-10T16:34:25Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Richard J. Preen, Jim Smith</p>
+    <p><b>Summary:</b> Membership inference attacks (MIAs) are widely used to audit the privacy disclosure risk of machine learning models, however current state-of-the-art attacks require training computationally expensive shadow models, making large-scale privacy evaluation impractical. In this work, we investigate whether inexpensive spectral metrics derived from the heavy-tailed self-regularisation framework can serve as proxies for MIA vulnerability. We evaluate several WeightWatcher spectral metrics on image and tabular classification tasks and compare their relationship with MIA privacy leakage against conventional measures of generalisation. Across datasets, stable rank exhibits a strong positive correlation with overall MIA success, while Log alpha-Norm shows a consistent negative correlation with MIA vulnerability at the low false-positive regime. These associations are observed to be stronger than those obtained using the generalisation gap. The results indicate that neural network spectra may contain information about privacy leakage that is not fully captured by conventional measures of overfitting, motivating spectral analysis as a promising direction for scalable privacy auditing.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.11777v1">Differentially Private EEG Feature Anonymization: A Privacy-Utility Case Study in Clinical Neurophysiology</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> 
+  <p><b>Published on:</b> 2026-09-10T16:31:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Noman Sadiq, Mohsen Toorani</p>
+    <p><b>Summary:</b> Clinical electroencephalography (EEG) data are valuable for healthcare research and for developing artificial intelligence (AI)-based clinical decision-support systems, but EEG recordings and derived features may contain sensitive patient-specific information. This creates privacy risks when data are reused, analyzed, or shared across clinical and research environments. Conventional anonymization methods are often insufficient for high-dimensional biomedical signals, since removing direct identifiers does not necessarily prevent re-identification, linkage, or inference risks. At the same time, strong privacy protection may distort clinically relevant signal characteristics and reduce data utility. This paper studies subject-level differential privacy for protecting clinical EEG-derived feature representations using Gaussian and Laplace perturbations. The proposed framework considers three deployment scenarios: client-side anonymization, centralized server-side anonymization, and decentralized local training. Following EEG preprocessing and feature extraction, Gaussian and Laplace perturbations are applied to the resulting patient-level EEG feature representations. The Laplace experiments evaluate the implemented noise scales, while the scales required for formal full-vector calibration are derived separately. The effects of both perturbations are assessed using statistical utility measures and a downstream machine-learning-based utility check. The results show that differentially private perturbation can be integrated into EEG processing workflows, but the selected mechanism, privacy parameters, and sensitivity calibration strongly influence data utility. The study highlights the practical privacy-utility trade-off in DP-based EEG feature anonymization and the challenges of preserving downstream utility in small and imbalanced clinical EEG datasets.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.11762v1">Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-09-10T16:17:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jordi Luque, Fernando López, Aleix Sant</p>
+    <p><b>Summary:</b> Per-layer differential privacy (DP) clipping improves gradient fidelity in federated learning by allocating per-matrix clipping budgets proportional to parameter count. We show that this recipe breaks for speech large language models (speech-LLMs), when the acoustic encoder and the language decoder differ by an order of magnitude in update norm. Single-pool per-layer methods suffer \emph{cross-component budget collapse}, dragging word error rate (WER) far from flat global clipping or collapsing training entirely. When the norm imbalance is milder, adaptive single-pool methods partially recover, confirming that collapse severity scales with the inter-component norm ratio. We empirically diagnose the root cause across six per-layer methods and three speech-LLM architectures. We then propose \emph{$α$-split}, a two-pool allocation that normalises encoder and LLM parameters into independent pools, and show that joint $\ell_2$ sensitivity and the original $(\varepsilon,δ)$-DP guarantee are unchanged. At architecture-calibrated $α$, our method recovers WER utility compared to flat DP, while granting the encoder $4.47{\times}$ tighter per-component noise protection against speaker voice-based gradient-inversion attacks at only $+2.6\%$ LLM noise overhead.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.11685v1">Privacy-Preserving Causal Meta-Mediation Analysis with Survival Outcomes</a></h3>
+   
+  <p><b>Published on:</b> 2026-09-10T15:13:57Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Marie-Félicia Beclin, Tat-Thang Vo</p>
+    <p><b>Summary:</b> Privacy and data-governance constraints often prevent pooling individual-level data across studies, limiting the use of conventional approaches for causal media- tion analysis in multicenter settings. We propose a federated causal meta-mediation framework for right-censored time-to-event outcomes that enables collaborative es- timation without sharing individual-level data. Our framework targets natural indirect effects in a prespecified population by combining information on mediator and outcome mechanisms across distributed data sources. A site-by-site identifi- cation strategy further allows heterogeneity across data sources to be character- ized, with a variance decomposition separating outcome-related, mediator-related, and interaction components. We develop federated one-step and targeted maxi- mum likelihood estimators that accommodate data-adaptive and machine-learning methods for nuisance-function estimation. The finite-sample performance of the proposed estimators is evaluated through numerical simulations. To illustrate the practical utility of the framework, we apply it on data from the French National Health Data System to evaluate the role of methotrexate coprescription in explain- ing the effect of TNFi versus IL-12/23 inhibitor therapy on treatment persistence among psoriatic patients.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.10992v1">Demystifying the Privacy-Utility Trade-off in LLM Interactions</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-09-10T02:12:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zhenhua Liu, Zhanxu Xie, Junjie Yu, Tong Zhu, Lijun Li, Wenliang Chen</p>
+    <p><b>Summary:</b> The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposing sensitive user information. Current privacy-preserving methods typically employ context-agnostic static rules, causing severe utility degradation. However, the specific mechanisms governing how sanitization impacts downstream performance remain largely underexplored. To address this, we conduct a systematic analysis to deconstruct the privacy-utility trade-off, uncovering three underlying mechanisms: (1) Context-Dependent Utility, which first establishes when to sanitize by revealing that data value shifts from critical constraints to dispensable noise based on user intent; (2) Strategic Adaptation, which subsequently determines how to sanitize by dictating that the choice between removal and replacement depends on the task's reliance on factual integrity versus structural coherence; and (3) Combinatorial Interplay, which finally extends the protection scope by demonstrating that attributes form a semantic web of synergistic dependencies or antagonistic redundancies. Guided by these insights, we introduce an intent-driven local protection framework. By distilling a lightweight model Veilmind-4B to drive a dynamic extraction-sanitization-restoration pipeline, our approach reaches a low-leakage privacy point while preserving substantially higher response utility than existing privacy-oriented baselines, advancing the privacy-utility trade-off toward the Pareto frontier.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2609.09963v1">CrossLink: Breaking Location Privacy by Linking Device Identifiers Across Protocols</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-09-09T09:51:48Z</p>
@@ -35,6 +107,18 @@
     <p><b>Summary:</b> Five years after the enforcement of the California Consumer Privacy Act (CCPA), understanding how website privacy practices evolve at scale in response to regulation remains a key challenge for both researchers and regulators. Prior work and regulatory efforts have focused on manual and case-specific enforcement, but there remain no scalable approaches to systematically audit two key user-facing facets of websites that are crucial signals for the CCPA: privacy disclosures and front-end user tracking behavior.
   In this paper, we present PrivAudit, an automated auditing framework that adopts a dual-lens approach to capture: (1) privacy disclosures through large language model-based analysis of privacy policies grounded in CCPA provisions, and (2) user-observable data collection behavior through automated browser measurements of cookie writes under diverse privacy configurations. We apply PrivAudit to 998 websites and report two broad findings. The law is associated with stronger privacy disclosures: CCPA-subject policies are more likely to disclose opt-out mechanisms, data-sharing practices, and user rights. On the other hand, cookie-based tracking remains pervasive, with both CCPA-subject and not-subject websites setting a total of 6,392 targeting cookies, 49% of which are third-party writes. Moreover, cookies show limited-to-moderate responsiveness to privacy signals and consent choices, even when websites claim to honor them in their disclosures.
   Our results highlight the need for multi-layered and scalable auditing approaches that combine policy analysis with behavioral evidence. PrivAudit can support these auditing workflows at scale by generating actionable signals and patterns for further manual review. We open-source PrivAudit and are engaging with regulators to support auditing in practice.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.10627v1">SoK: Privacy Attacks on Machine Learning via Explainable AI</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-09-09T02:05:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Abdullah Caglar Oksuz, Anisa Halimi, Erman Ayday</p>
+    <p><b>Summary:</b> Machine learning explanations reveal model behavior beyond predictions, creating attack surfaces for model confidentiality and data privacy. We systematize 25 studies that exploit explanations for model extraction, membership inference, and model inversion, treating attribute inference as partial inversion. Existing work is often labeled only black- or white-box, obscuring substantial differences in what explanation signal reaches an adversary. We therefore separate model knowledge from explanation acquisition and identify five paths: target-released, attacker-derived, secondary disclosure, privileged access, and released global artifacts. Across these paths, explanations reduce extraction cost, expose membership signals through explanation statistics, recourse distance, and explanation-guided robustness, and support spatial or algebraic reconstruction of private inputs. We compare system and threat models, explanation signals, auxiliary knowledge, target models, modalities, query budgets, evaluation metrics, reported performance, and defenses. Our analysis shows that no explanation family is uniformly unsafe and no defense is uniformly effective. Risk depends on which signal is exposed, how it is acquired, which asset is targeted, and what the attacker already knows. We argue that explanation privacy should therefore be evaluated as an end-to-end disclosure problem, with defenses matched to the acquisition path and protected asset.</p>
   </details>
 </div>
 
@@ -83,6 +167,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Wenrui Yu, Changlong Ji, Johannes Bjerva, Qiongxiu Li</p>
     <p><b>Summary:</b> Secure Aggregation (SA) is widely regarded as a strong defense against model-update leakage in Federated Learning (FL), as it reveals only aggregate results while hiding individual updates. In Decentralized Federated Learning (DFL), SA is commonly instantiated as local neighborhood aggregation, where each node obtains a weighted aggregate over its neighbors. We show that this locality creates a structural leakage surface: sparse decentralized topologies provide colluding semi-honest nodes with asymmetric aggregate views, exposing multiple hidden linear combinations of honest participants' private states. Reconstructing private states from these aggregate views is fundamentally challenging, as both the private states and the aggregation coefficients are hidden. We tackle this challenge by establishing a formal connection to the Hidden Subset Sum Problem, a long-studied problem in cryptography. Building on this formulation, we design a lattice-based reconstruction approach that combines lattice reduction with structural filtering to reconstruct protected model states. We evaluate our attack on image, tabular, and text tasks under sparse DFL topologies. Our results show that colluding semi-honest nodes can recover the original local updates of honest nodes, enabling downstream reconstruction of private training data. These findings demonstrate that SA alone does not guarantee privacy in DFL when local aggregation induces asymmetric observations.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.10608v1">Adaptive Diffusion Freezing: Privacy-preserving Diffusion Models Against Membership Inference Attacks</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-09-08T08:58:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jialu Guo, Xiao Han, Junjie Wu</p>
+    <p><b>Summary:</b> Diffusion models have achieved remarkable success in generative tasks across various areas, however their training process raises significant privacy concerns, particularly under membership inference attacks (MIAs). Prior studies on privacy-preserving of diffusion models fail to balance privacy, utility, and efficiency. To address this gap, we propose a novel framework of privacy-preserving diffusion models, Adaptive Diffusion Freezing (ADF), which can defend against MIAs with better trade-off. By leveraging cross-timestep adaptive freezing training, ADF explicitly control the participation of different data subsets across diffusion timesteps via a mask matrix, which reduces the over-memorization and leads to more uniform model behaviors between member and nonmember samples. To construct a freezing mask matrix that effectively reduce membership leakage without unnecessarily harming generation quality, we introduce a pretraining-based risk-aware freezing policy to estimate MIA risk based on memorization tendency, and suppress the contribution of the subset-timestep pairs with higher risk. Evaluations on multiple datasets demonstrate that ADF provides effective defense performance as well as state-of-the-art privacy-utility-efficiency trade-off performance compared to various baselines.</p>
   </details>
 </div>
 
@@ -1124,102 +1220,6 @@
     <p><b>Authors:</b> Santiago De Simone, Geoffrey Goodell, Georgios Samakovitis</p>
     <p><b>Summary:</b> Received wisdom on payments infrastructure strongly supports the custodial, account-based model as a necessity for transaction integrity, auditability and verification; the set of fundamental primitives for regulated digital money exchange, the argument goes, necessitates designated identifiable entities that store and process credentials, perform KYC, and ultimately act as the 'single version of the truth' for compliance remediation and, most important, AML. In this paper, we propose this is not the case, by arguing that non-custodial, cash-like digital assets can embody such capabilities, in an arguably more secure manner.
   To that end, we present a reference architecture and core protocol rules for digital-value-exchange systems that preserve meaningful user privacy while enabling strong auditability. The protocol defines the conditions under which digital asset creation, transfer, and redemption are valid. The architecture specifies the allocation of actors, roles and components through which these rules operate, enabling independent verification of transaction compliance with applicable norms. Building upon the Unforgeable, Stateful, Oblivious (USO) asset model of Goodell et al., regulatory compliance data are embedded directly into the asset state as cryptographically signed attestations issued by independent entities. A transfer is valid only upon satisfaction of applicable compliance predicates and inclusion of the resulting signature within the asset state. Compliance enforcement is thus performed at the protocol level rather than through institutional custody or identity-based account control. We conclude that our proposed model can successfully interface with existing payment systems, making it possible to integrate non-custodial, compliance-verified transactions with legacy financial infrastructure.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.16551v1">What to Remember, What to Reveal: Privacy-Aware Memory for Conversational Agents</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-08-17T13:23:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Wenjie Wang, Wenhe Si, Xinyue Xu, Yue Xu</p>
-    <p><b>Summary:</b> Long-term memory enables personalized conversational agents to retain user information across sessions. However, existing memory architectures primarily optimize for utility while neglecting the risks of unnecessarily storing and reusing private attributes such as personally identifiable information (PII). Addressing privacy risks in personalized memory is challenging because simply removing sensitive values can undermine system utility. Therefore, privacy protection for memory agents should govern the full life cycle of sensitive values rather than only sanitizing individual records. To address this gap, we introduce Sanitized Privacy-Mapped Memory (SP-Mem), a privacy-aware memory architecture that decouples memory utility from exact private-value exposure. SP-Mem provides a full life-cycle privacy design that identifies and separates sensitive information from raw user inputs, stores sanitized content and exact private values in isolated structures, and selectively retrieves private values based on task requirements and user consent. We further introduce a privacy-aware memory benchmark that jointly evaluates response quality, privacy behavior, and inference cost. Extensive experiments across multiple LLM-based agents show that SP-Mem achieves stronger personalization while reducing unnecessary privacy exposure. Code and data are available at https://github.com/Jensassss/SP-Mem.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.16488v1">Efficient Privacy-Preserving Range Filtered Approximate Nearest Neighbor Search</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
-  <p><b>Published on:</b> 2026-08-17T12:28:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Haoyu Wang, Yandi Zhang, Jiadong Xie, Yingfan Liu, Hui Li, Jeffrey Xu Yu, Jiangtao Cui</p>
-    <p><b>Summary:</b> Range-filtered approximate nearest neighbor search (RFANNS) is an important primitive for vector databases; it retrieves vectors that are similar to a query and satisfy a numerical range predicate, but existing RFANNS indexes expose vectors, attributes, and queries in plaintext. This assumption is unsuitable for outsourced vector databases, where sensitive data and queries must be protected from an honest-but-curious cloud server. To the best of our knowledge, this is the first study that systematically formulates and evaluates privacy-preserving RFANNS over outsourced encrypted vector databases. Our approach separates range localization from encrypted vector search: an authorized user maps the query range to a compact set of nodes in a local N-ary attribute tree, and the server searches only the corresponding proximity graph sub-indices over encrypted vectors. To reduce expensive encrypted comparisons, we use a filter-and-refine pipeline that first retrieves coarse candidates with approximate distance-comparison-preserving encryption and then reranks a small candidate set with exact distance-comparison encryption. We then analyze the computation, storage, communication, and leakage of the protocol. Experiments on four widely used vector datasets show that our method improves the QPS-Recall trade-off over representative secure adaptations of existing RFANNS approaches, scaling effectively to large datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.16461v1">A Human-LLM Teaming Framework for Privacy Risk Analysis: An Illustration with CBDC-Based Welfare Schemes</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computational Engineering, Finance, and Science-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-08-17T11:59:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sourya Joyee De, Abdessamad Imine</p>
-    <p><b>Summary:</b> Central Bank Digital Currency (CBDC)-based welfare schemes may be potentially privacy invasive as they process significant volumes of beneficiary personal data and lead to privacy harms such as surveillance, discrimination and stigmatization. Such welfare delivery schemes involve complex digital ecosystems and large number of stakeholders. Consequently, to examine their privacy risks, privacy risk assessments require extensive information gathering and synthesis, complex reasoning, scenario explorations, contextual evaluation and human judgement. Thus, they present ideal scenarios for human-LLM teaming, where effective integration of complementary human and LLM capabilities can yield an outcome far superior to either human-only or LLM-only assessments. In this paper, we propose a first human-LLM teaming framework for the systematic privacy risk analysis methodology called PRIAM. The framework specifies an iterative collaborative process in which the LLM processes large-scale documentary evidence to produce initial outputs, which are then interpreted and evaluated by human experts who direct their further refinement by the LLM and exercise their judgement to finalize the output. We illustrate the framework on the data characterization activity of PRIAM using a CBDC-based welfare scheme use case. The illustration demonstrates that while LLMs generate the initial data categories and assign initial values to data attributes, human experts evaluate and provide feedback to refine them, distinguishing documented evidence from inferences, identifying information gaps, and flagging unsupported or ambiguous outputs. This framework serves as a foundational contribution towards human-AI teaming for privacy risk assessments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.16452v2">Strong Converse Exponents of Quantum Soft Covering and Privacy Amplification</a></h3>
-    <img alt="Category Badge" src="https://img.shields.io/badge/Operator Algebras-04E762">
-  <p><b>Published on:</b> 2026-08-17T11:54:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shi-Bing Li, Hongsen Qiu, Xinyu Zhang</p>
-    <p><b>Summary:</b> We determine the exact strong converse exponent of quantum soft covering under the sandwiched R{é}nyi divergence for all orders $α\in[\frac{1}{2},\infty)$. For $α\in[\frac{1}{2},1)$, the exponent is characterized by the two-parameter club-sandwiched mutual information, whereas for $α\in[1,\infty)$, it is characterized by the order-$α$ sandwiched R{é}nyi mutual information. We also determine the exact strong converse exponent of privacy amplification against quantum side information under the sandwiched R{é}nyi divergence for $α\in(2,\infty)$, expressed in terms of the corresponding order-$α$ sandwiched R{é}nyi conditional entropy. To the best of our knowledge, these results provide the first exact characterization of the strong converse exponent of quantum soft covering and the first precise operational interpretation of the two-parameter club-sandwiched mutual information in the quantum setting. The key ingredient is that we establish the exponential rate of the $K$-functional, which is instrumental in deriving the strong converse exponent of quantum soft covering for $α\in[\frac{1}{2},1)$.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.16236v1">A Privacy Study of Sparse Collaborative Inference</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-08-17T08:14:05Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Maximilian Andreas Hoefler, Karsten Mueller, Wojciech Samek</p>
-    <p><b>Summary:</b> Collaborative inference (CI) splits a model between an edge device and a server, whereby the client computes an intermediate activation, transmits it, and the server completes the computation. This raises two concerns, the communication cost of the transmission and the risk that it reveals private information about the input. Recent work reduces this cost by sparsifying activations and entropy-coding the result. Sparsity has also been argued to improve privacy, on the intuition that transmitting fewer values reveals less about the input. We test this claim by decomposing the sparse activation into the retained values and the set of positions they occupy, and by reconstructing inputs from each component in isolation. We find that sparsification reduces the leakage far less than it reduces the transmission cost, and that the remaining risk shifts to the positions, which prior analyses treat as side information for decoding. Across natural-image and face datasets, the positions alone constitute a serious privacy risk, enabling high-fidelity reconstructions and re-identification of individuals. The leakage from the positions persists even when both the transmission cost and the task utility are low. We conclude that the positions of sparse activations should be treated as sensitive transmitted data and audited carefully in the context of collaborative inference. Code is available at https://github.com/an7123/Privacy-Study-Sparse-CI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.16026v1">SkillWatermark: An Embedded Skill Watermark of Progressive Privacy Inference via Benign Prompts</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-08-17T02:38:32Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu Li, Liqi Zhuang, Dong Wei, Jiwen Luo, Hang Zhang, Meng Zhang, Xiaona Li, Weiqing Huang</p>
-    <p><b>Summary:</b> Skills for large language model (LLM) agents have been widely deployed across diverse application domains. However, we observe that these skills generate specific traffic patterns during execution. In this paper, we design a pipeline that generates specific traffic patterns by inserting carefully designed skill descriptions, which we term skill watermarks, so that a passive network attacker can establish a covert channel to encode private information within observable traffic across multiple conversation turns. Specifically, we insert prompt constraint terms, referred to as watermarks, into the original skill descriptions and embed them within multi-turn conversations. The key information in the user's original prompt is thereby triggered by these watermarks, producing clearly observable encodings in the traffic. The adversary need only decode the traffic patterns to recover the encoded information. In particular, our modifications are benign in the sense that they do not directly exfiltrate any private data and do not execute any malicious instructions. Extensive experiments demonstrate that our watermarks produce highly consistent and distinguishable traffic patterns, and that the transformed skills pass existing LLM-based security auditing tools. This study highlights that generating specific traffic patterns can be exploited as a novel attack surface and offers critical insights for future security hardening.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.15506v1">Enhancing Sensing Privacy in ISAC Through Joint Signal and Artificial Noise Beamforming</a></h3>
-  
-  <p><b>Published on:</b> 2026-08-16T03:19:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ahmad Musallam, Husheng Li</p>
-    <p><b>Summary:</b> Integrated sensing and communications (ISAC) is a promising feature in 6G networks. It is envisioned to enhance spectral efficiency and provide sensing and communication services that meet the stringent requirements of future applications. However, it also poses new security and privacy concerns by giving malicious attackers access to new information about the network. In this work, we focus on the sensing privacy of a monostatic ISAC system by investigating the capability of a sensing eavesdropper (EVE) with an unknown location, acting as a passive bistatic radar (PBR) to gain access to user location information. We then propose a joint transmit and artificial noise (AN) beamforming optimization problem to degrade EVE's performance. Finally, we propose an iterative algorithm to solve the proposed optimization problem and evaluate its performance.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.15276v1">Balancing Privacy and Compliance in DeFi: A Zero-Knowledge-Based Auditable Cross-Chain Framework</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-08-15T15:19:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Huiheng Li, Kainuo Feng, Jiahao Ding, Ziqi Ma</p>
-    <p><b>Summary:</b> With the rise of decentralized finance (DeFi), cross-chain transactions, transfers of assets across different blockchain networks, face a fundamental conflict between user privacy and regulatory compliance. Unlike single-chain systems, cross-chain environments must balance privacy and auditability across heterogeneous architectures. Existing solutions, from transparent ledgers to anonymous cryptocurrencies, fail to reconcile these two requirements, hindering regulatory adoption. This research proposes an auditable cross-chain framework that integrates three building blocks. First, zero-knowledge proofs (ZKPs) verify transaction compliance (e.g., amount non-negativity, signature validity) without revealing transaction details. Second, a light-client mechanism enables trust-minimized cross-chain verification without relying on third-party relayers. Third, a threshold view-key mechanism based on distributed key generation (DKG) ensures that audit access is granted only to authorized entities under legal triggers such as the FATF Travel Rule and MiCA Regulation. For cross-border investigations, the framework adheres to national laws and the EU Directive on Mutual Legal Assistance. This work systematically combines ZKPs, threshold cryptography, and light-client verification into an auditable, privacy-preserving cross-chain protocol. It contributes to Regulatory Technology (RegTech) and provides a viable path toward compliant, interoperable decentralized finance.</p>
   </details>
 </div>
 
