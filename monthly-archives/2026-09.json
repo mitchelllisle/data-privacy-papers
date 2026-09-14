@@ -1333,5 +1333,193 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12571v1",
+    "title" : "PIA-Bench: Towards Automated Privacy Impact Assessment with Large Language Models",
+    "summary" : "Privacy impact assessment (PIA) is a critical instrument for institutions to proactively identify privacy risks and develop mitigation strategies before system deployment. While mandated across regulatory and institutional contexts, executing PIA requires extensive privacy and technical expertise, posing a particular challenge for teams without access to such resources. Prior work shows the potential of leveraging large language models (LLMs) to assist practitioners' privacy decisions, but little is known about how accurately and reliably LLMs can automate PIA. To this end, we develop PIA-Bench, the first open benchmark for evaluating LLMs on real-world PIAs. We first audited 499 expert-authored PIAs published by US federal agencies and curated 73 structured PIAs, comprising a total of 451 privacy risk and 831 mitigation items, to evaluate LLMs' ability to assess privacy risks and propose mitigations of complex systems. Our results show that off-the-shelf LLMs produce meaningful assessments and identify avenues for future improvement. Finally, we call for improving domain-specific workflows for LLM agents, developing accountable LLM infrastructure, and designing new quality standards for PIAs.",
+    "updated" : "2026-09-11T08:16:03Z",
+    "published" : "2026-09-11T08:16:03Z",
+    "authors" : [
+      {
+        "name" : "Jiamin Zheng"
+      },
+      {
+        "name" : "Hao-Ping Lee"
+      },
+      {
+        "name" : "Luo Mai"
+      },
+      {
+        "name" : "Jingjie Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12508v1",
+    "title" : "Differential Privacy Meets Fixed Parameter Tractability: Algorithms and Lower Bounds",
+    "summary" : "We study combinatorial optimization problems under the constraint of $ε$-differential privacy ($ε$-DP). Given the strong lower bounds for explicitly outputting solutions, we work within the implicit representation framework of Gupta et al. (SODA 2010), where a private polynomial-time randomized \"encoder\" generates a representation of a solution, and a \"decoder\" uses this representation along with the input to extract a valid final solution.\n  In this work, we generalize this framework by allowing the encoder to run in fixed-parameter tractable time. This circumvents approximation barriers inherent to polynomial-time algorithms and obtains improved guarantees for many fundamental combinatorial optimization problems.\n  Finally, we establish the first representation-independent lower bounds for our framework. Assuming a non-uniform variant of the Gap Exponential Time Hypothesis, for sufficiently small $ε> 0$, we prove that no $ε$-DP encoder-decoder pair can achieve certain approximation guarantees, if the decoder runs in subexponential time. We further provide representation-dependent lower bounds that hold even for larger $ε$.",
+    "updated" : "2026-09-11T07:13:24Z",
+    "published" : "2026-09-11T07:13:24Z",
+    "authors" : [
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Pasin Manurangsi"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12415v1",
+    "title" : "Why User Studies and Participant Experience Reporting Matter for VR Motion Privacy?",
+    "summary" : "Public VR game leaderboards contain tracked motion recordings uploaded by hundreds of thousands of users. Once uploaded, these recordings are accessible to anyone and create privacy risks (i.e., identification and profiling). Prior work has proposed mechanisms that modify tracked movement to reduce these risks. Their utility is commonly evaluated through physical deviation, where smaller deviations indicate better utility, while user studies are less common. However, it remains unclear how well physical deviation explains users' acceptance of a mechanism compared to user studies. We examine this through a user study of three VR motion privacy mechanisms at five physical deviation levels. We find that user studies explain substantially more variation in mechanism acceptance than physical deviation, although physical deviation remains significant. We also find that prior VR experience and exposure to VR privacy mechanisms significantly affect acceptance. We recommend combining physical deviation with user studies and reporting participants' prior experience.",
+    "updated" : "2026-09-11T04:08:01Z",
+    "published" : "2026-09-11T04:08:01Z",
+    "authors" : [
+      {
+        "name" : "Azim Ibragimov"
+      },
+      {
+        "name" : "Eric D. Ragan"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12378v1",
+    "title" : "An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference",
+    "summary" : "Cloud LLM services typically require users to send prompts to a model provider, creating a privacy risk. Fully homomorphic encryption (FHE) lets a server perform inference without decrypting the input, but representing data as ciphertexts adds storage and computational overhead. In CKKS-based LLM inference, the packing scheme maps logical tensors to ciphertexts and slots. It therefore determines the ciphertext count and the homomorphic cost of linear layers, and it constrains how data pass between linear layers, attention, and nonlinear computation. As models and sequences grow, inefficient layouts accumulate encoding, compute, and layout-conversion overhead.\n  We present Odin, an FHE inference system that co-designs ciphertext packing and model execution for Llama. Starting from a THOR-style baseline whose bottleneck is weight encoding, Odin uses a feature-major cross-layer layout to unify residual connections and layer interfaces, and builds transient intra-operator layouts for linear projections and attention. This reduces redundant plaintext encoding of weights in wide projections. Within attention, QK^T produces scores that Softmax can consume directly, and PV consumes the resulting probabilities, avoiding intermediate repacking. For nonlinear ops, we use minimax polynomial approximation with input-range control and joint error allocation guided by model quality, reducing polynomial degree and multiplicative depth. To our knowledge, Odin is the first open-source end-to-end GPU CKKS implementation of Llama-3.\n  With Llama-3-8B weights and a 128-token input, Odin evaluates all 32 Transformer layers on a single NVIDIA H100 80 GB GPU. Server-side end-to-end FHE evaluation takes 366.4 s and 58.9 GiB peak device memory. Under the same model, input, CKKS parameters, and hardware, THOR takes 1651.9 s, a 4.51x speedup.",
+    "updated" : "2026-09-11T02:51:44Z",
+    "published" : "2026-09-11T02:51:44Z",
+    "authors" : [
+      {
+        "name" : "Yuhang Fan"
+      },
+      {
+        "name" : "Yusi Chen"
+      },
+      {
+        "name" : "Kanyu Ye"
+      },
+      {
+        "name" : "Zhuoran Ji"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12320v1",
+    "title" : "AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems",
+    "summary" : "Traditional large language models (LLMs) are scoped to individual user sessions, limiting their knowledge to a single conversation and preventing them from learning user preferences that evolve over time. Existing agentic memory systems address this limitation but generally operate at the individual-user level, restricting the public knowledge that could be shared across users to improve downstream responses. We introduce AIM (Agentic Interoperable Memory), a unified, privacy-aware memory framework that enables multi-agent, multi-user LLM systems to persistently manage private and shared memory. AIM dynamically classifies information as private, scoped to one user and inaccessible to others, or public, accessible to all users. It enforces index-level access controls so that private memories are retrievable only by their owner, protecting sensitive data while allowing beneficial shared knowledge to improve coordination and consistency. We also introduce MUMBench (Multi-User Memory Benchmark), a dataset of multi-user interactions containing private and shareable information across four domains. To our knowledge, MUMBench is the first public dataset designed to evaluate multiple memory operations, including retrieval, creation, update, and deletion, in a multi-user environment. Across three independent runs on MUMBench, AIM achieves 96.0% visibility classification accuracy, 58.8% strict operation accuracy, and 70.5% state-aware operation accuracy.",
+    "updated" : "2026-09-11T01:00:09Z",
+    "published" : "2026-09-11T01:00:09Z",
+    "authors" : [
+      {
+        "name" : "Zachary Johnson"
+      },
+      {
+        "name" : "Nigel Boachie Kumankumah"
+      },
+      {
+        "name" : "Somya Chatterjee"
+      },
+      {
+        "name" : "Tejas Sathyamurthi"
+      },
+      {
+        "name" : "Min Chen"
+      },
+      {
+        "name" : "Xinyi Alice Li"
+      },
+      {
+        "name" : "Xiao Wang"
+      },
+      {
+        "name" : "Emily Morgan Gelchie"
+      },
+      {
+        "name" : "Jessica Lin"
+      },
+      {
+        "name" : "Sadid A. Hasan"
+      },
+      {
+        "name" : "Sulaiman Vesal"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12067v1",
+    "title" : "Scalable Discrete-to-Continuous Channel Simulation for Compression and Privacy",
+    "summary" : "Channel simulation has recently emerged as a useful component in machine learning systems where samples from a prescribed probability distribution are to be compressed. Yet, general channel simulation algorithms often suffer from high computational costs, random stopping times or, in the worst case, can require generating an infinite number of shared random samples. We introduce a scheme for both exact and approximate simulation of discrete-to-continuous channels which conversely uses a fixed number of random samples, and therefore has a runtime independent of the channel and the input. Unlike existing channel simulation schemes which generate a sequence of independent samples from a proposal distribution, our approach generates one sample, or alternatively a fixed number of samples, from each potential target distribution. We then apply a latent permutation to the samples before performing sample selection using an exponential race. Our scheme provides a flexible tradeoff between the number of generated samples and the compression rate. Using polar and multilevel coding, we scale our approach to handle long blocklengths in $O(n \\log n)$ time in order to benefit from reduced per-symbol overhead. We conclude by demonstrating applications to variable-rate compression with stochastic VQ-VAEs and communication-efficient differentially private distributed mean estimation via exact simulation of the Gaussian mechanism.",
+    "updated" : "2026-09-10T18:01:15Z",
+    "published" : "2026-09-10T18:01:15Z",
+    "authors" : [
+      {
+        "name" : "Joseph Rowan"
+      },
+      {
+        "name" : "Buu Phan"
+      },
+      {
+        "name" : "Ashish J. Khisti"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.10992v2",
+    "title" : "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+    "summary" : "The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposing sensitive user information. Current privacy-preserving methods typically employ context-agnostic static rules, causing severe utility degradation. However, the specific mechanisms governing how sanitization impacts downstream performance remain largely underexplored. To address this, we conduct a systematic analysis to deconstruct the privacy-utility trade-off, uncovering three underlying mechanisms: (1) Context-Dependent Utility, which first establishes when to sanitize by revealing that data value shifts from critical constraints to dispensable noise based on user intent; (2) Strategic Adaptation, which subsequently determines how to sanitize by dictating that the choice between removal and replacement depends on the task's reliance on factual integrity versus structural coherence; and (3) Combinatorial Interplay, which finally extends the protection scope by demonstrating that attributes form a semantic web of synergistic dependencies or antagonistic redundancies. Guided by these insights, we introduce an intent-driven local protection framework. By distilling a lightweight model Veilmind-4B to drive a dynamic extraction-sanitization-restoration pipeline, our approach reaches a low-leakage privacy point while preserving substantially higher response utility than existing privacy-oriented baselines, advancing the privacy-utility trade-off toward the Pareto frontier.",
+    "updated" : "2026-09-11T09:30:30Z",
+    "published" : "2026-09-10T02:12:51Z",
+    "authors" : [
+      {
+        "name" : "Zhenhua Liu"
+      },
+      {
+        "name" : "Zhanxu Xie"
+      },
+      {
+        "name" : "Junjie Yu"
+      },
+      {
+        "name" : "Tong Zhu"
+      },
+      {
+        "name" : "Lijun Li"
+      },
+      {
+        "name" : "Wenliang Chen"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
