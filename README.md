@@ -2,6 +2,82 @@
 <h2>2026-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.12571v1">PIA-Bench: Towards Automated Privacy Impact Assessment with Large Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-09-11T08:16:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiamin Zheng, Hao-Ping Lee, Luo Mai, Jingjie Li</p>
+    <p><b>Summary:</b> Privacy impact assessment (PIA) is a critical instrument for institutions to proactively identify privacy risks and develop mitigation strategies before system deployment. While mandated across regulatory and institutional contexts, executing PIA requires extensive privacy and technical expertise, posing a particular challenge for teams without access to such resources. Prior work shows the potential of leveraging large language models (LLMs) to assist practitioners' privacy decisions, but little is known about how accurately and reliably LLMs can automate PIA. To this end, we develop PIA-Bench, the first open benchmark for evaluating LLMs on real-world PIAs. We first audited 499 expert-authored PIAs published by US federal agencies and curated 73 structured PIAs, comprising a total of 451 privacy risk and 831 mitigation items, to evaluate LLMs' ability to assess privacy risks and propose mitigations of complex systems. Our results show that off-the-shelf LLMs produce meaningful assessments and identify avenues for future improvement. Finally, we call for improving domain-specific workflows for LLM agents, developing accountable LLM infrastructure, and designing new quality standards for PIAs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.12508v1">Differential Privacy Meets Fixed Parameter Tractability: Algorithms and Lower Bounds</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-09-11T07:13:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Pritish Kamath, Ravi Kumar, Pasin Manurangsi</p>
+    <p><b>Summary:</b> We study combinatorial optimization problems under the constraint of $ε$-differential privacy ($ε$-DP). Given the strong lower bounds for explicitly outputting solutions, we work within the implicit representation framework of Gupta et al. (SODA 2010), where a private polynomial-time randomized "encoder" generates a representation of a solution, and a "decoder" uses this representation along with the input to extract a valid final solution.
+  In this work, we generalize this framework by allowing the encoder to run in fixed-parameter tractable time. This circumvents approximation barriers inherent to polynomial-time algorithms and obtains improved guarantees for many fundamental combinatorial optimization problems.
+  Finally, we establish the first representation-independent lower bounds for our framework. Assuming a non-uniform variant of the Gap Exponential Time Hypothesis, for sufficiently small $ε> 0$, we prove that no $ε$-DP encoder-decoder pair can achieve certain approximation guarantees, if the decoder runs in subexponential time. We further provide representation-dependent lower bounds that hold even for larger $ε$.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.12415v1">Why User Studies and Participant Experience Reporting Matter for VR Motion Privacy?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-09-11T04:08:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Azim Ibragimov, Eric D. Ragan</p>
+    <p><b>Summary:</b> Public VR game leaderboards contain tracked motion recordings uploaded by hundreds of thousands of users. Once uploaded, these recordings are accessible to anyone and create privacy risks (i.e., identification and profiling). Prior work has proposed mechanisms that modify tracked movement to reduce these risks. Their utility is commonly evaluated through physical deviation, where smaller deviations indicate better utility, while user studies are less common. However, it remains unclear how well physical deviation explains users' acceptance of a mechanism compared to user studies. We examine this through a user study of three VR motion privacy mechanisms at five physical deviation levels. We find that user studies explain substantially more variation in mechanism acceptance than physical deviation, although physical deviation remains significant. We also find that prior VR experience and exposure to VR privacy mechanisms significantly affect acceptance. We recommend combining physical deviation with user studies and reporting participants' prior experience.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.12378v1">An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-09-11T02:51:44Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuhang Fan, Yusi Chen, Kanyu Ye, Zhuoran Ji</p>
+    <p><b>Summary:</b> Cloud LLM services typically require users to send prompts to a model provider, creating a privacy risk. Fully homomorphic encryption (FHE) lets a server perform inference without decrypting the input, but representing data as ciphertexts adds storage and computational overhead. In CKKS-based LLM inference, the packing scheme maps logical tensors to ciphertexts and slots. It therefore determines the ciphertext count and the homomorphic cost of linear layers, and it constrains how data pass between linear layers, attention, and nonlinear computation. As models and sequences grow, inefficient layouts accumulate encoding, compute, and layout-conversion overhead.
+  We present Odin, an FHE inference system that co-designs ciphertext packing and model execution for Llama. Starting from a THOR-style baseline whose bottleneck is weight encoding, Odin uses a feature-major cross-layer layout to unify residual connections and layer interfaces, and builds transient intra-operator layouts for linear projections and attention. This reduces redundant plaintext encoding of weights in wide projections. Within attention, QK^T produces scores that Softmax can consume directly, and PV consumes the resulting probabilities, avoiding intermediate repacking. For nonlinear ops, we use minimax polynomial approximation with input-range control and joint error allocation guided by model quality, reducing polynomial degree and multiplicative depth. To our knowledge, Odin is the first open-source end-to-end GPU CKKS implementation of Llama-3.
+  With Llama-3-8B weights and a 128-token input, Odin evaluates all 32 Transformer layers on a single NVIDIA H100 80 GB GPU. Server-side end-to-end FHE evaluation takes 366.4 s and 58.9 GiB peak device memory. Under the same model, input, CKKS parameters, and hardware, THOR takes 1651.9 s, a 4.51x speedup.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.12320v1">AIM: A Privacy-Aware Interoperable Memory Framework for Multi-Agent Multi-User LLM Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-09-11T01:00:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zachary Johnson, Nigel Boachie Kumankumah, Somya Chatterjee, Tejas Sathyamurthi, Min Chen, Xinyi Alice Li, Xiao Wang, Emily Morgan Gelchie, Jessica Lin, Sadid A. Hasan, Sulaiman Vesal</p>
+    <p><b>Summary:</b> Traditional large language models (LLMs) are scoped to individual user sessions, limiting their knowledge to a single conversation and preventing them from learning user preferences that evolve over time. Existing agentic memory systems address this limitation but generally operate at the individual-user level, restricting the public knowledge that could be shared across users to improve downstream responses. We introduce AIM (Agentic Interoperable Memory), a unified, privacy-aware memory framework that enables multi-agent, multi-user LLM systems to persistently manage private and shared memory. AIM dynamically classifies information as private, scoped to one user and inaccessible to others, or public, accessible to all users. It enforces index-level access controls so that private memories are retrievable only by their owner, protecting sensitive data while allowing beneficial shared knowledge to improve coordination and consistency. We also introduce MUMBench (Multi-User Memory Benchmark), a dataset of multi-user interactions containing private and shareable information across four domains. To our knowledge, MUMBench is the first public dataset designed to evaluate multiple memory operations, including retrieval, creation, update, and deletion, in a multi-user environment. Across three independent runs on MUMBench, AIM achieves 96.0% visibility classification accuracy, 58.8% strict operation accuracy, and 70.5% state-aware operation accuracy.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.12067v1">Scalable Discrete-to-Continuous Channel Simulation for Compression and Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-09-10T18:01:15Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joseph Rowan, Buu Phan, Ashish J. Khisti</p>
+    <p><b>Summary:</b> Channel simulation has recently emerged as a useful component in machine learning systems where samples from a prescribed probability distribution are to be compressed. Yet, general channel simulation algorithms often suffer from high computational costs, random stopping times or, in the worst case, can require generating an infinite number of shared random samples. We introduce a scheme for both exact and approximate simulation of discrete-to-continuous channels which conversely uses a fixed number of random samples, and therefore has a runtime independent of the channel and the input. Unlike existing channel simulation schemes which generate a sequence of independent samples from a proposal distribution, our approach generates one sample, or alternatively a fixed number of samples, from each potential target distribution. We then apply a latent permutation to the samples before performing sample selection using an exponential race. Our scheme provides a flexible tradeoff between the number of generated samples and the compression rate. Using polar and multilevel coding, we scale our approach to handle long blocklengths in $O(n \log n)$ time in order to benefit from reduced per-symbol overhead. We conclude by demonstrating applications to variable-rate compression with stochastic VQ-VAEs and communication-efficient differentially private distributed mean estimation via exact simulation of the Gaussian mechanism.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2609.11794v1">Second-Order Expansion of Privacy Amplification Under f-Divergence Criteria</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
   <p><b>Published on:</b> 2026-09-10T16:47:22Z</p>
@@ -62,7 +138,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.10992v1">Demystifying the Privacy-Utility Trade-off in LLM Interactions</a></h3>
+  <h3><a href="http://arxiv.org/abs/2609.10992v2">Demystifying the Privacy-Utility Trade-off in LLM Interactions</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-09-10T02:12:51Z</p>
   <details>
@@ -1147,79 +1223,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Stephen Meisenbacher, Vlad Garbuz, Chirill Donos, Maxim Dnestreanschii, Gabriel Creanga, Andreea-Elena Bodea, Thomas Lampert, Jana Diesner</p>
     <p><b>Summary:</b> Hate speech is a real and timely threat that affects a large portion of online users, especially youth and minority groups. While building reliable and robust automatic hate speech detection (HSD) systems is paramount, we argue that this must also be balanced with the individual right to privacy. Exploring the intersection of HSD and privacy, we demonstrate that HSD systems might unintentionally achieve performance at the cost of encoding authorship, posing a threat to privacy. Building on these findings, we establish the notion of a privacy-HSD trade-off, which demands a careful balance. We benchmark a series of text privatization methods, as well as our newly proposed domain-specific AgnoSpeech technique, showing that balancing privacy and HSD is difficult but feasible. The findings make a strong case for more research on the trade-offs between privacy and HSD, both of which have tangible implications for the safeguarding of online participation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.18749v1">Geometric Data Perturbation with Noisy-Anchor Alignment for Privacy-Preserving Collaborative Learning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-08-19T09:59:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Keiyu Nosaka, Yamato Suetake, Yuichi Takano, Yukihiko Okada, Akiko Yoshise</p>
-    <p><b>Summary:</b> Geometric Data Perturbation (GDP) enables one-shot, privacy-preserving collaborative learning: each participant applies a distance-preserving transformation to its private data and uploads only the resulting representation to a central analyst. We study GDP under analyst-participant collusion, in which the analyst combines all uploaded representations with the private data and transformations disclosed by colluding participants to recover a non-colluding participant's private data. Participant-specific independent transformations resist this attack but map participants' data into incompatible representation spaces, degrading downstream model performance. Shared-anchor alignment from Data Collaboration (DC) analysis restores compatibility and improves utility, but we show that disclosing the DC anchor matrix enables exact recovery of non-colluding participants' private data even in the presence of collusion. Adding noise directly to the private-data representations mitigates this vulnerability but substantially reduces utility. We propose adding noise to the anchor representations instead. Each participant independently transforms its private data and the shared anchor matrix, perturbs only the resulting anchor representation, and uploads both representations in a single round. Using the noisy anchor representations, the analyst aligns the private-data representations by solving a Generalized Orthogonal Procrustes Problem. We characterize alignment and recovery errors, specialize a conservative sufficient condition for convergence of the alignment to our setting, and analyze three recovery attacks. Experiments on MNIST and CelebA show that, across the evaluated attacks and deployment settings, anchor noise achieves higher learning accuracy than private-data noise at comparable measured leakage, yielding a more favorable privacy-utility trade-off under the specified collusion model.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.18610v1">Denoising-Aware Inversion: Revealing Privacy Risks in Noise-Protected Text Embeddings</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-08-19T06:53:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yubo Wang, Shujie Cui, James Bailey, Hongzhi Yin, Wenyu Liang, Min Tang, Shiyue Qin, Weiqing Wang</p>
-    <p><b>Summary:</b> Dense text embeddings are widely used in data mining, retrieval, and downstream machine learning systems due to their compact and semantically rich representations, but recent embedding inversion attacks have shown that they can expose substantial information about the original text, leading to serious privacy leakage risks. A common defense is to release perturbed embeddings by adding Gaussian noise, which is simple yet effective against standard inversion attacks and does not significantly degrade embedding utility for downstream tasks. However, it remains unclear whether such noise-protected embeddings are sufficiently safe against adaptive attackers that explicitly account for the perturbation process. In this paper, we study text embedding inversion in a noise-protected setting, where the attacker can observe only noisy embeddings and has no access to clean embedding targets. We first analyze why existing generative inversion methods fail under this setting and identify a "Double Noise Trap", which fundamentally prevents standard generative inversion models from achieving high-quality reconstruction. To address this challenge, we propose DAEI, a denoising-aware embedding inversion pipeline that combines a residual denoising autoencoder with generative text inversion where the denoiser is trained in an unsupervised manner using Stein's unbiased risk estimate to enable denoising from noisy observations alone. Extensive experiments show that DAEI achieves approximately 154\% relative improvement in BLEU over the existing generative inversion baseline, while also improving token-level F1 and ROUGE-L by 32--60\%. The promising inversion performance of DAEI challenges the prevailing assumption that simple Gaussian perturbation is sufficient to prevent sensitive information leakage from embedding representations.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.18316v1">A Configurable Privacy-Preserving MRI Processing Workflow Using Deep Learning-Based Brain Extraction and Adaptive Anatomical Preservation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-08-18T20:59:25Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Rayeef Ali Khan, Komal Raj Mahantesh</p>
-    <p><b>Summary:</b> Structural Magnetic Resonance Imaging (MRI) is widely used in neuroimaging research and clinical practice, but structural MRI volumes may retain facial and cranial anatomical information that raises privacy concerns. Existing deep learning-based brain extraction methods generally produce a single fixed output, limiting flexibility when different applications require different balances between privacy and anatomical preservation. This paper presents a configurable privacy-preserving MRI processing workflow that extends deep learning-based brain extraction through adaptive anatomical preservation, interactive preservation selection, and integrated quality control. The workflow employs SynthStrip for automated brain extraction, followed by morphological mask expansion to generate configurable shell-based preservation levels. An Interactive Preservation Framework enables users to compare preservation configurations and select an appropriate output, while an integrated Quality Control Framework provides multi-plane visualisation and brain-mask overlay verification. The workflow was implemented in Python using open-source neuroimaging libraries within the Renku reproducible research environment and evaluated using structural T1-weighted MRI data from the publicly available IXI dataset. Experimental results demonstrate anatomically plausible brain extraction and configurable preservation outputs, supported by systematic visual verification. The principal contribution is a modular and reproducible MRI preprocessing framework that enhances deep learning-based brain extraction with configurable anatomical preservation, interactive user-guided processing, and integrated quality control. The workflow provides a practical foundation for privacy-oriented neuroimaging research and collaborative medical image analysis.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.18274v1">Model Card for OpenAI Privacy Filter</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-08-18T19:48:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Charles de Bourcy, Sahra Ghalebikesabi, Avi Schwarzschild, Alex Gorbachev, Mihai Maruseac, Annie Chu, Vol Kyrylov, Tong Mu, Ally Bennett, Andy Nguyen, Casey Meehan, Jessica Gan Lee, Shane Bauer, Harold Nguyen, Rodolpho Eckhardt, Yuqi Liu, Charlie Oxborough, Marco Rougeth, Omar Chedid, Caio Costa, Yash Parikh, Yao Li, Congzheng Song, Om Thakkar, Vinnie Monaco</p>
-    <p><b>Summary:</b> OpenAI Privacy Filter is a compact, bidirectional token-classification model for detecting and redacting personally identifiable information (PII) and secrets in unstructured text. The model is derived from an autoregressively pretrained checkpoint and converted into a bidirectional, banded-attention classifier that labels an input sequence in a single forward pass. A constrained Viterbi decoder produces coherent spans across eight privacy categories and exposes configurable operating points for precision-recall tradeoffs. Privacy Filter has 1.5 billion total parameters, 50 million active parameters per token, and a 128,000-token context window. It is designed for efficient local deployment and domain-specific fine-tuning. Privacy Filter is intended as a configurable data-minimization component within layered privacy workflows, not as an anonymization or compliance guarantee.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.17147v2">Picture the Epsilon: Pursuing Identity-Level Privacy Guarantees for Images</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-08-17T21:30:06Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Arman Zareian Jahromi, Vishnu Bondalakunta, Mohammad Akbar Bin Shah, Naimul Haque, Shuangqing Wei, George T. Amariucai</p>
-    <p><b>Summary:</b> Several methods for auditing privacy in embedding spaces report a number called "epsilon." The common name is misleading: one number may be a heuristic score, another may come from a valid population inequality but ignore sampling uncertainty, and a third may be a confidence bound. This paper asks when such a number is evidence about differential privacy. We study four approaches based on Gaussian calibration, marginal kernel-density ratios, maximum mean discrepancy (MMD), and classifier hypothesis tests. The first two are modeling diagnostics. The MMD and classifier approaches use valid population lower bounds, but only the classifier approach is given a separate test set and a finite-sample confidence calculation. To see how these distinctions matter, we build a synthetic benchmark in which the true privacy value is known. It includes pure-DP Laplace mechanisms, approximate-DP Gaussian mechanisms, an exact privacy null, two identity geometries, and three sample sizes. At the null, the Gaussian and kernel-density diagnostics remain large. A direct conversion of an empirical ROC curve often returns infinity even though the AUC is near chance and no threshold separates the samples perfectly. The MMD value increases as the distributions become easier to distinguish, but the sample estimate is small relative to the known reference and is not a lower confidence bound. By contrast, a classifier chosen on development data and evaluated on untouched test data gives simultaneous lower confidence bounds under the stated iid model. We also apply the methods to FaceFusion and InstantID. That case study shows how the methods behave on face data but does not calibrate them because the generators have no known privacy value. The main lesson is that an epsilon-like number is meaningful only together with its assumptions and its finite-sample interpretation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2608.17145v1">Protocol-Embedded Compliance for Privacy-Preserving, Non-Custodial Digital Payments</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-08-17T21:29:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Santiago De Simone, Geoffrey Goodell, Georgios Samakovitis</p>
-    <p><b>Summary:</b> Received wisdom on payments infrastructure strongly supports the custodial, account-based model as a necessity for transaction integrity, auditability and verification; the set of fundamental primitives for regulated digital money exchange, the argument goes, necessitates designated identifiable entities that store and process credentials, perform KYC, and ultimately act as the 'single version of the truth' for compliance remediation and, most important, AML. In this paper, we propose this is not the case, by arguing that non-custodial, cash-like digital assets can embody such capabilities, in an arguably more secure manner.
-  To that end, we present a reference architecture and core protocol rules for digital-value-exchange systems that preserve meaningful user privacy while enabling strong auditability. The protocol defines the conditions under which digital asset creation, transfer, and redemption are valid. The architecture specifies the allocation of actors, roles and components through which these rules operate, enabling independent verification of transaction compliance with applicable norms. Building upon the Unforgeable, Stateful, Oblivious (USO) asset model of Goodell et al., regulatory compliance data are embedded directly into the asset state as cryptographically signed attestations issued by independent entities. A transfer is valid only upon satisfaction of applicable compliance predicates and inclusion of the resulting signature within the asset state. Compliance enforcement is thus performed at the protocol level rather than through institutional custody or identity-based account control. We conclude that our proposed model can successfully interface with existing payment systems, making it possible to integrate non-custodial, compliance-verified transactions with legacy financial infrastructure.</p>
   </details>
 </div>
 
