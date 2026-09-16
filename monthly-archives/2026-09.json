@@ -1905,5 +1905,161 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.17525v1",
+    "title" : "You Shall Not Pass into Ring-0! A User Privacy-Friendly Anti-Cheat Architecture for Personal Computers",
+    "summary" : "Kernel-level anti-cheats are effective against malicious player behavior in competitive video games, but raise significant user privacy concerns regarding installing unverifiable components at privileged modes (i.e., ring-0 in x86). While existing research has focused on improving the effectiveness of anti-cheats, the user privacy concern has been largely ignored. Tirith is an anti-cheat architecture that addresses this problem using two key ideas. First, instead of running video games within regular processes that players (as root admins) have control over, Tirith executes video games in Protected Virtual Machines that naturally sandbox computations from untrusted admins. Second, to monitor user behavior outside the sandbox (e.g., see if they are running malicious drivers), Tirith leverages a virtualization monitor that is trusted by both players and developers. Together, these ideas remove the need to run untrusted kernel-level anti-cheats, while providing the same level of protection compared to such solutions against a wide-range of common cheating mechanisms. The main challenge we face in implementing these ideas, however, is that the existing software stack for virtual machines is not designed to run video games and creates significant security and performance problems. We address these problems by proposing a security-focused Library OS kernel for games and an efficient graphics sharing pipeline for near-native rendering and display performance. In summary, without compromising on cheating behavior detection or performance, this work makes user privacy a first-class citizen in personal computers.",
+    "updated" : "2026-09-15T17:56:31Z",
+    "published" : "2026-09-15T17:56:31Z",
+    "authors" : [
+      {
+        "name" : "Santosh Gokul Narayanan"
+      },
+      {
+        "name" : "Giovanni Paladino"
+      },
+      {
+        "name" : "Chuqi Zhang"
+      },
+      {
+        "name" : "Sangho Lee"
+      },
+      {
+        "name" : "Zhenkai Liang"
+      },
+      {
+        "name" : "Adil Ahmad"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.16915v1",
+    "title" : "ROSETTA: Efficient and Accurate Privacy-Preserving LLM Decoding via Hybrid CKKS/TFHE Evaluation",
+    "summary" : "Generative large language models (LLMs) have achieved state-of-the-art performance on many real-world tasks such as code generation and question answering. These models predominantly rely on an autoregressive decoding strategy that generates output tokens sequentially. However, their pervasive deployment raises serious privacy concerns, motivating private inference frameworks based on fully homomorphic encryption (FHE). A major limitation of existing FHE frameworks is their inefficiency in evaluating nonlinear operations, which incur substantial overhead and dominate the decode stage.\n  In this paper, we propose ROSETTA, a hybrid CKKS/TFHE framework that overcomes this limitation. We first observe that nonlinear operations in the decode stage exhibit heterogeneous workload patterns, which can be handled effectively via a hybrid approach. We then realize this with two key contributions: 1) an adaptive segmented lookup-table protocol based on TFHE that enables efficient and accurate evaluation of nonlinear operations; and 2) a scheme-aware operator-selection framework that automatically assigns each nonlinear operator to CKKS or TFHE to minimize end-to-end decoding latency. We demonstrate that ROSETTA achieves up to $4.8\\times$ Softmax speedup and $1.5$--$2.1\\times$ end-to-end speedup over the SOTA framework CacheMir.",
+    "updated" : "2026-09-15T09:51:33Z",
+    "published" : "2026-09-15T09:51:33Z",
+    "authors" : [
+      {
+        "name" : "Jiangrui Yu"
+      },
+      {
+        "name" : "Baosheng Zhang"
+      },
+      {
+        "name" : "Liang Kong"
+      },
+      {
+        "name" : "Lin Ding"
+      },
+      {
+        "name" : "Yi Chen"
+      },
+      {
+        "name" : "Ye Yu"
+      },
+      {
+        "name" : "Mingzhe Zhang"
+      },
+      {
+        "name" : "Meng Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.16762v1",
+    "title" : "Equitable Partition Realizability for Dynamics-preserving and Privacy-aware Network Reconstruction",
+    "summary" : "Degree-sequence realizability is the combinatorial basis of configuration models, but degree constraints alone do not ensure the preservation of graph dynamics. Hence, configuration models are unable to recover centrality measures, unless these are strongly correlated with the degree sequence. To address this matter, we introduce EP-realizability, the analogue problem induced by an equitable partition (EP): given the EP of a graph, decide whether the partition is realized by a simple undirected loopless graph and therefore construct such a graph. After defining the problem, we solve it by reducing it to sub-problems related to Havel--Hakimi and the Gale--Ryser theorem. We also face the challenge of solving the problem with an Approximate Equitable Partition ($\\varepsilon$-EP), so that it is possible to reconstruct a network starting from partial and more privacy-preserving information. We evaluate privacy with edge overlap, deriving also, for our proposed $\\varepsilon$-EP-realizability solution, a predictor for this metric. Experiments on Karate, Cora, CiteSeer and PubMed datasets show that our algorithm achieves a favourable and tunable privacy--utility trade-off, comparing the results with Havel--Hakimi algorithm, Newman's configuration model and a stochastic block model. Finally, both with real data and random graphs, we show that our algorithm has approximately linear time complexity with respect to the number of edges.",
+    "updated" : "2026-09-15T07:37:28Z",
+    "published" : "2026-09-15T07:37:28Z",
+    "authors" : [
+      {
+        "name" : "Riccardo Porcedda"
+      }
+    ],
+    "categories" : [
+      "stat.ME",
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.16402v1",
+    "title" : "Privacy-Preserving Coordinated Operation of Multi-Player Industrial Network Using Secure Aggregation",
+    "summary" : "Electrified chemical industries with operational flexibility can reduce operating costs by shifting production and distribution decisions in response to time-varying electricity prices. However, chemical plants operate within process networks where coordinated demand response can exploit flexibility across multiple stakeholders. Centralized coordination requires access to stakeholders' local scheduling models and proprietary operational data, often incompatible with data-privacy requirements. Distributed optimization with an independent central coordinator (ICC) avoids direct model sharing, but iterative exchange of coupling variables can still reveal private model parameters.\n  We propose a privacy-preserving distributed coordination framework for coordinated demand response in industrial networks. The framework integrates secure aggregation with an ICC-based alternating direction method of multipliers (ADMM) algorithm, so plant-level messages are numerically masked and become useful to the ICC only after aggregation. We test the framework on a multi-plant industrial gas network in which three air-separation units jointly schedule production and shipments to shared customer regions. To support stable participation, we incorporate a two-phase revenue-sharing mechanism that reallocates savings so every plant improves relative to its decentralized status quo. In a 31-day rolling-horizon simulation with synthetic data representing heterogeneous electricity prices and demand, the coordinated policy reduces total network cost by 19.77% relative to decentralized operation and achieves a full-month cost within 3.08% of a centralized social-welfare-maximization benchmark. We further quantify a conservative worst-case collusion mode, showing how unmasked iterates and auxiliary information can expose private objective parameters.",
+    "updated" : "2026-09-14T22:15:50Z",
+    "published" : "2026-09-14T22:15:50Z",
+    "authors" : [
+      {
+        "name" : "Akshdeep Singh Ahluwalia"
+      },
+      {
+        "name" : "Zachary Wilson"
+      },
+      {
+        "name" : "Jeffrey E. Arbogast"
+      },
+      {
+        "name" : "Can Li"
+      }
+    ],
+    "categories" : [
+      "cs.CE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.16232v1",
+    "title" : "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
+    "summary" : "Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI ethics discussions do not fully capture, including passive location inference from mobility traces, spatially structured bias amplification driven by spatial autocorrelation and scale effects, hallucinated spatial facts, and uncertainty compounding across multimodal geospatial inputs. This narrative review identifies eight recurring issues in LLM-enabled GeoAI: data provenance and consent, spatial privacy and inference risk, algorithmic bias and spatial inequity, spatial mechanisms as structural risk (spatial autocorrelation, the modifiable areal unit problem, and scale effects), LLM-specific technical risks, explainability, policy and regulatory gaps, and public enablement and workforce development. For each issue, we characterize the underlying mechanism, ground it in an illustrative example from the literature, and assess the current state of technical or institutional responses, ranging from largely unaddressed to actively debated or subject to emerging policy. Building on this synthesis, we propose a governance-aware architecture for LLM-enabled autonomous GIS that maps each issue to enforceable controls and auditable artifacts across the geospatial data lifecycle, illustrated through a worked flood-response routing scenario. The review highlights a persistent evidence gap: proposed responses remain largely conceptual, and field-tested evaluations of governance controls for LLM-enabled GeoAI remain limited. We close by outlining a research agenda emphasizing empirical validation, spatially specific interpretability tools, and workforce training aligned with these emerging risks.",
+    "updated" : "2026-09-14T18:58:59Z",
+    "published" : "2026-09-14T18:58:59Z",
+    "authors" : [
+      {
+        "name" : "Maya Subramanian"
+      },
+      {
+        "name" : "Devika Jain"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.16095v1",
+    "title" : "RAG-CT: Mitigating Privacy Risks on Retrieval-Augmented Generation Systems via Scanning Prompt Distribution",
+    "summary" : "Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for improving the quality of generated contents of Large Language Models (LLMs) by grounding responses in external knowledge, thus reducing hallucinations and factual errors. However, recent studies have highlighted a critical vulnerability: adversaries can exploit the retrieval process to extract personally identifiable information (PII) from the underlying corpus. To mitigate this risk, we propose a novel defense, RAG-CT, that identifies malicious queries by analyzing their entropy and margin distributions and using a score-based detection method. Extensive experiments with four state-of-the-art attack strategies and four defense baselines on two datasets show that our approach significantly reduces PII leakage while outperforming existing defenses. This work provides a lightweight yet effective mechanism to protect RAG systems against PII leakage without requiring modifications to the underlying LLM or retriever.",
+    "updated" : "2026-09-14T14:44:39Z",
+    "published" : "2026-09-14T14:44:39Z",
+    "authors" : [
+      {
+        "name" : "Xingyu Lyu"
+      },
+      {
+        "name" : "Jiayimei Wang"
+      },
+      {
+        "name" : "Jianfeng He"
+      },
+      {
+        "name" : "Ning Wang"
+      },
+      {
+        "name" : "Yidan Hu"
+      },
+      {
+        "name" : "Yimin Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR"
+    ]
   }
 ]
