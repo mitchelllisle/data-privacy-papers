@@ -2061,5 +2061,97 @@
       "cs.AI",
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.18864v1",
+    "title" : "ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions",
+    "summary" : "Privacy evaluations of tool-using LLM agents often inspect a designated action, final response, or attacker report. These local proxies can miss unauthorized exposure elsewhere in a multi-step session and lack common ground truth across outlets, reports, and tool paths. We introduce privacy exposure displacement, the mismatch between a local evaluation proxy and target-grounded session exposure, and ASLEval, an authorization-aware framework that pre-registers a hidden target set, measures all declared visible exits, and reserves internal traces for diagnosis. Across multiple enterprise-style environments and independently implemented runtimes, we observe three recurring patterns. An expected-outlet-only view misses 46.9% of exposure recovered by the visible-exit union; attacker self-reports combine omissions with high false discovery; and schema-aligned internal evidence usually precedes visible exposure at the request/probe level. Reducing model-visible returns changes this path but can eliminate normal-task success. Independent human review supports the adjudication pipeline while identifying harder console and candidate cases. These findings motivate benchmarks that declare the complete visible boundary, ground claims in pre-specified targets and authorization, and report privacy together with task utility.",
+    "updated" : "2026-09-16T16:03:11Z",
+    "published" : "2026-09-16T16:03:11Z",
+    "authors" : [
+      {
+        "name" : "Guosen Wu"
+      },
+      {
+        "name" : "Huizhen Huang"
+      },
+      {
+        "name" : "Guoxiong Long"
+      },
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Chen Hou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.18526v1",
+    "title" : "The Illusion of Local Privacy: Confidentiality Boundary Failures in Consumer LLM Serving Systems",
+    "summary" : "Running large language models (LLMs) locally is often considered more private than cloud-hosted inference because user prompts remain on the device. We ask whether keeping inference local is, by itself, sufficient to keep those prompts confidential. Our results show that it is not: prompt confidentiality also depends on how the surrounding serving software handles prompt data before, during, and after inference. We examine four boundaries at which prompt confidentiality can fail in consumer local-LLM serving systems: model loading, runtime memory, wrapper-level persistence, and the serving interface. To study these boundaries, we develop LLAnalyzer, a measurement framework that tests each boundary separately and traces observed failures to the responsible software component. Applying LLAnalyzer to four open-weight model families and two consumer deployment platforms, we find markedly different behaviour across boundaries. In a 24-hour AFL++ campaign with more than 12 million executions, we observe no parser crashes or successful malformed GGUF loads within the explored state space. Runtime memory tells a different story: we recover prompts after inference because multiple plaintext representations survive in allocator-managed memory, and sanitisation reduces this residue without eliminating it. We also find that consumer wrappers can extend prompt lifetime through plaintext persistence. At the serving boundary, we uncover a previously undocumented authorization flaw in llama.cpp that allows one authenticated client to restore another tenant's saved conversation state; the attack succeeds in 200/200 controlled trials. Separately, shared prompt-prefix caching exposes a remote timing oracle that remains distinguishable under WAN conditions. We argue that local LLM systems need explicit guarantees for prompt lifetime, persistent storage, and tenant isolation.",
+    "updated" : "2026-09-16T11:53:39Z",
+    "published" : "2026-09-16T11:53:39Z",
+    "authors" : [
+      {
+        "name" : "Youssef Hamdi Zafan Ibrahim"
+      },
+      {
+        "name" : "Muhammad Ikram"
+      },
+      {
+        "name" : "Mohammed Khalaf Salama"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.18459v1",
+    "title" : "SEEK: Secure and Efficient Encrypted Keyword Search For Privacy-Preserving Messaging Protocols",
+    "summary" : "Encrypted communication protects sensitive user data but can facilitate harmful or unlawful exchanges, creating a trade-off between detecting dangerous messages and preserving end-user privacy. To address this, we propose SEEK, a practical and efficient encrypted keyword-search protocol for privacy-preserving messaging that combines homomorphic encryption with secure two-party computation (2PC). SEEK first partitions messages into ciphertext fragments with the minimum sufficient overlap, then homomorphically correlates them using encrypted keyword trapdoors. For long messages, this design can reduce sender-side encryption and upload overhead by up to two orders of magnitude over state-of-the-art baselines. It supports ASCII case-insensitive matching with one fixed-size encrypted trapdoor and one homomorphic multiplication per fragment, yielding up to 5.47x faster correlation computation than the strongest fragmentation-based baselines. SEEK then invokes 2PC-based selected decoding, blinded zero testing, and secure aggregation, revealing only the keyword presence-or-absence bit while hiding the keyword, its length, message contents, match counts, and locations. SEEK achieves 100% accuracy under case variations that result in exact-matching failures, without requiring additional trapdoors or online communication. We further realize SEEK as an end-to-end web and cross-platform mobile application. Prototype evaluation on a weekly messaging history yields an online computation time of 1.92 s per search, demonstrating the practical feasibility and efficiency of SEEK.",
+    "updated" : "2026-09-16T10:54:01Z",
+    "published" : "2026-09-16T10:54:01Z",
+    "authors" : [
+      {
+        "name" : "Soumyadyuti Ghosh"
+      },
+      {
+        "name" : "Michail Maniatakos"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.12378v2",
+    "title" : "An Open-Source End-to-End FHE Implementation for Privacy-Preserving Llama 3 8B Inference",
+    "summary" : "Cloud LLM services typically require users to send prompts to a model provider, creating a privacy risk. Fully homomorphic encryption (FHE) lets a server perform inference without decrypting the input, but representing data as ciphertexts adds storage and computational overhead. In CKKS-based LLM inference, the packing scheme maps logical tensors to ciphertexts and slots. It therefore determines the ciphertext count and the homomorphic cost of linear layers, and it constrains how data pass between linear layers, attention, and nonlinear computation. As models and sequences grow, inefficient layouts accumulate encoding, compute, and layout-conversion overhead.\n  We present Odin, an FHE inference system that co-designs ciphertext packing and model execution for Llama. Starting from a THOR-style baseline whose bottleneck is weight encoding, Odin uses a feature-major cross-layer layout to unify residual connections and layer interfaces, and builds transient intra-operator layouts for linear projections and attention. This reduces redundant plaintext encoding of weights in wide projections. Within attention, QK^T produces scores that Softmax can consume directly, and PV consumes the resulting probabilities, avoiding intermediate repacking. For nonlinear ops, we use minimax polynomial approximation with input-range control and joint error allocation guided by model quality, reducing polynomial degree and multiplicative depth. To our knowledge, Odin is the first open-source end-to-end GPU CKKS implementation of Llama-3.\n  With Llama-3-8B weights and a 128-token input, Odin evaluates all 32 Transformer layers on a single NVIDIA H100 80 GB GPU. Server-side end-to-end FHE evaluation takes 366.4 s and 58.9 GiB peak device memory. Under the same model, input, CKKS parameters, and hardware, THOR takes 1651.9 s, a 4.51x speedup.",
+    "updated" : "2026-09-16T07:01:10Z",
+    "published" : "2026-09-11T02:51:44Z",
+    "authors" : [
+      {
+        "name" : "Yuhang Fan"
+      },
+      {
+        "name" : "Yusi Chen"
+      },
+      {
+        "name" : "Kanyu Ye"
+      },
+      {
+        "name" : "Zhuoran Ji"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
