@@ -2153,5 +2153,167 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.20561v1",
+    "title" : "Empirical Analysis of Randomness Quality in Differential Privacy Mechanisms",
+    "summary" : "Differential Privacy (DP) relies on carefully calibrated random noise to protect individual privacy in statistical analyses. While theoretical work has analyzed DP under weakened randomness assumptions, the practical consequences of entropy degradation remain poorly understood. We present a systematic empirical investigation of how randomness quality affects differential privacy mechanisms using IBM's DiffPrivLib. We introduce progressively degraded entropy sources characterized by established test suites, starting from high-quality quantum True Random Number Generators (TRNGs) and cryptographically secure Pseudo-Random Number Generators (PRNGs) down to systematically manipulated sources with controlled entropy degradation. Through repeated experiments over one million queries on a reference database and complementary statistical tests, we directly analyze empirical Privacy Loss Random Variable distributions. Our results demonstrate that DP mechanisms reliably detect deviations when approximately 1 bit in every 8 to 16 is manipulated, with detection sensitivity varying significantly between bit-level biases and temporal correlations. We demonstrate that statistical detection of distributional anomalies does not necessarily correspond to actual privacy guarantee violations.",
+    "updated" : "2026-09-17T15:26:27Z",
+    "published" : "2026-09-17T15:26:27Z",
+    "authors" : [
+      {
+        "name" : "Cesare Gerolimetto Fabrello"
+      },
+      {
+        "name" : "Valeria Rossi"
+      },
+      {
+        "name" : "Alberto Trombetta"
+      },
+      {
+        "name" : "Massimo Caccia"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.20133v1",
+    "title" : "Private communication from Pauli channels with no privacy",
+    "summary" : "A channel capacity quantifies the communication capability of a noisy physical process. In contrast to communication channels in the classical world, quantum theory makes this capability contextual. We show that two Pauli two-qubit channels, each with zero private classical capacity, can be used to transmit private information when used together. One is a two-qubit Pauli channel whose environment can reconstruct the receiver output up to matrix transposition; the other is an antidegradable channel. We obtain a similar result when the second channel is the 50% qubit erasure channel. A simple binary code built from rank-three mixtures of Bell states activates private communication. The main ingredient in our construction is a transpose-antidegradable channel that is not antidegradable.",
+    "updated" : "2026-09-17T12:26:28Z",
+    "published" : "2026-09-17T12:26:28Z",
+    "authors" : [
+      {
+        "name" : "Uthirakalyani G"
+      },
+      {
+        "name" : "Pritam Halder"
+      },
+      {
+        "name" : "David Elkouss"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.19740v1",
+    "title" : "Federated Learning Framework for Privacy-Preserving Kidney Stone Detection",
+    "summary" : "Recent innovations in deep learning have significantly enhanced the diagnosis of medical images, although they are based on the use of centralized data storage that pose severe threats to patient privacy and medical data security. To address this issue, this research proposes a Federated Learning (FL) model that is coupled with an optimized YOLOv8 network to detect the kidney stones on a computed tomography (CT) image and at the same time, protect privacy of the patients. The suggested system can help various medical organizations to jointly train a common model without exchanging the information about the patients. This is to ensure that data protection laws like GDPR and HIPAA are adhered to. The residual feature fusion and DropBlock regularization among other architectural improvements are also included in YOLOv8 to enhance detection robustness and minimize overfitting. Experimental analysis carried out on a distributed CT dataset demonstrated that the federated YOLOv8 model has a mAP at 50 of 0.733 and is able to keep the data confidential. Moreover, its lean design facilitates fast edge deployment and real-time inference across a clinical setting. Altogether, these findings indicate that Federated Learning is a safe and efficient solution to AI-assisted diagnosis in contemporary healthcare when combined with the use of sophisticated object detection models.",
+    "updated" : "2026-09-17T06:06:03Z",
+    "published" : "2026-09-17T06:06:03Z",
+    "authors" : [
+      {
+        "name" : "Najiyya Younas"
+      },
+      {
+        "name" : "Omar Abdulkader"
+      },
+      {
+        "name" : "Yaser Ali Shah"
+      },
+      {
+        "name" : "Muhammad Jawad Ikram"
+      },
+      {
+        "name" : "Jebran Khan"
+      },
+      {
+        "name" : "Amaad Khalil"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.19456v1",
+    "title" : "Beyond Private Training: The New Landscape of AI Privacy",
+    "summary" : "Retrieval-augmented systems increasingly rely on vector indexes that may retain deleted items in their search graph. Existing deletion interfaces can prevent deleted identifiers from appearing in returned results while still computing distances to their embeddings during graph traversal. We formalize this distinction as output safety versus traversal safety, and introduce TSD-AUDIT, a framework for auditing and enforcing traversal-safe deletion in graph-based approximate nearest-neighbor retrieval. On Faiss IndexHNSWFlat, native filtering leaves the number of distance computations unchanged relative to unfiltered search; at a 70% deletion rate, trace-faithful replay detects deleted-vector scoring in all 100 audited queries. Code inspection of hnswlib's mark_deleted path reveals the same scoring-before-liveness pattern. TSD-AUDIT enforces an alive-before-scoring invariant, repairs connectivity using only live candidates, and emits per-query scored-trace certificates that an independent verifier can check against the deletion snapshot. Under region-targeted deletion, TSD-AUDIT improves Recall@10 over native filtering by 4.3--42.2 percentage points across deletion fractions from 0.5 to 0.9, while remaining comparable under random deletion. These results show that output-only deletion audits can miss process-level exposure: auditing deletion in vector retrieval requires accounting for the vectors scored during search, not only the identifiers returned.",
+    "updated" : "2026-09-16T21:46:35Z",
+    "published" : "2026-09-16T21:46:35Z",
+    "authors" : [
+      {
+        "name" : "Sean Culatana"
+      },
+      {
+        "name" : "Kang Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.19337v1",
+    "title" : "Personalized Federated Hierarchical Gaussian Processes for Privacy-Preserving Modeling of Heterogeneous Distributed Systems",
+    "summary" : "We present Personalized Federated Hierarchical Gaussian Processes (pFedHGP) for probabilistic regression and classification when data are distributed across heterogeneous clients. Each client's latent function decomposes into (i) a shared global component, (ii) a client-specific deviation that shares the global kernel structure, and (iii) a flexible local residual. Sparse inducing-variable approximations and federated variational inference keep raw data local while the server synchronizes only low-dimensional statistics for the shared component. Full predictive distributions support uncertainty-aware decisions. In application studies, pFedHGP attains perfect fault classification in press tonnage monitoring using 13.77% of labeled cycles and recovers geographic zones in federated air-quality modeling without centralizing station-level time series. An Instantaneous Linear Mixing Model viewpoint links the hierarchy to multi-output Gaussian processes for correlated sensors.",
+    "updated" : "2026-09-16T19:06:52Z",
+    "published" : "2026-09-16T19:06:52Z",
+    "authors" : [
+      {
+        "name" : "Xianjian Xie"
+      },
+      {
+        "name" : "Hao Yan"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.19304v1",
+    "title" : "Decaf: A privacy preserving speech codec using speaker disentanglement and canonical voice conversion",
+    "summary" : "We present DECAF, a privacy preserving neural speech codec that obfuscates a speaker's voice while preserving linguistic content while maintaining automatic speech recognition (ASR) performance at very low bitrates, inspired by decaffeination. At the transmitter end, speech is encoded into speaker independent content embeddings, which are compressed using residual vector quantization and transmitted without any speaker related information. At the receiver, a canonical speaker embedding, shared a priori between endpoints, is used for waveform reconstruction, enabling deterministic and consistent obfuscation of a speaker's voice. The proposed framework leverages an information bottleneck applied to self supervised representations, along with a separate speaker embedding branch, to achieve effective speaker content disentanglement. We further incorporate a CTC-based auxiliary objective, encouraging content representations that are well aligned with downstream ASR tasks. We show that DECAF operating at a bit rate of 0.5 kbps achieves an Equal Error Rate (EER) of up to 43.5% for a speaker verification system, while maintaining competitive ASR performance, yielding a relative reduction in word error rate of 33.2% compared to a state of the art method.",
+    "updated" : "2026-09-16T18:12:55Z",
+    "published" : "2026-09-16T18:12:55Z",
+    "authors" : [
+      {
+        "name" : "Md Shakhrul Iman Siam"
+      },
+      {
+        "name" : "Dushyant Sharma"
+      },
+      {
+        "name" : "Stanislav Yu. Kruchinin"
+      },
+      {
+        "name" : "Peter Skala"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.19226v1",
+    "title" : "PAPC: Platform Mediation for Privacy-Propagation Externalities in AI-Mediated Workflows",
+    "summary" : "AI-mediated platforms coordinate work through LLM agents acting for different principals. In these workflows, privacy loss can be created before a final answer appears: a memory write, shared-workspace update, inter-agent message, or tool event may impose downstream exposure cost on another principal. We model this failure mode as a privacy-propagation externality, where the cost of a raw disclosure depends on topology and fanout as well as content. We present PAPC, a platform-mediated mechanism that intercepts information-moving events before they update shared state or external channels. PAPC combines policy, provenance, topology/fanout, privilege, and content signals to allow an event, release a policy-safe abstraction, quarantine raw content, block a transition, or narrow onward rights. The model explains why final-output control misses intermediate exposure costs and why high-fanout objects amplify propagation. Across retrieval-memory and multi-agent workflow benchmarks, PAPC preserves deterministic task completion and eliminates measured exact raw-value and external raw-value exposure. The results position event-level mediation as a platform-governance primitive for agent-mediated online work.",
+    "updated" : "2026-09-16T14:40:22Z",
+    "published" : "2026-09-16T14:40:22Z",
+    "authors" : [
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Guosen Wu"
+      },
+      {
+        "name" : "Chen Hou"
+      },
+      {
+        "name" : "Guolong Zheng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
