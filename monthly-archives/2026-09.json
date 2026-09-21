@@ -2315,5 +2315,180 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.21686v1",
+    "title" : "CIPL: A Channel-Aware Framework for Recoverable Privacy Leakage in LLM Agents",
+    "summary" : "Privacy leakage in LLM agents is commonly evaluated within individual components such as memory, retrieval, or tool-use pipelines, which makes it difficult to distinguish internal exposure from information that an external observer can actually recover. We present CIPL (Channel Inversion for Privacy Leakage), a channel-aware evaluation framework for black-box privacy leakage in LLM agents. CIPL represents a target through sensitive source, selection, assembly, execution, observation, and extraction stages and evaluates the transition from selected sensitive units to attacker-recoverable output under a shared protocol. Experiments across memory-based, retrieval-mediated, and tool-mediated targets, together with a BrowserUse live-agent case study, show that storage labels alone do not determine recoverability. Memory targets form a near-saturated reference case, retrieval-mediated leakage is frequently partial, and tool-mediated and live-agent leakage varies strongly with observation surface, prompt-to-channel alignment, retrieval depth, and provider behavior. A stratified semantic audit further identifies attacker-useful disclosures that canonical exact matching misses. CIPL therefore provides a common framework for comparing how internal sensitive dependence is realized as externally recoverable leakage across heterogeneous agent pipelines.",
+    "updated" : "2026-09-18T12:23:41Z",
+    "published" : "2026-09-18T12:23:41Z",
+    "authors" : [
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Guosen Wu"
+      },
+      {
+        "name" : "Guolong Zheng"
+      },
+      {
+        "name" : "Jiayang Meng"
+      },
+      {
+        "name" : "Chen Hou"
+      },
+      {
+        "name" : "Xu Yang"
+      },
+      {
+        "name" : "Xuechao Yang"
+      },
+      {
+        "name" : "Feng Xia"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.21363v1",
+    "title" : "Hiding in Plain Sight: A Diffusion-based Mitigation of Geolocation Privacy Leakage in Vision-Language Models",
+    "summary" : "Multimodal large reasoning models (MLRMs) have demonstrated remarkable capabilities in complex visual understanding. However, this very power introduces a critical yet underexplored privacy threat: adversaries can exploit MLRMs to precisely infer users' geographic locations from casually shared photographs, by performing structured reasoning over subtle visual cues such as architectural styles, vegetation, and lighting conditions. In this work, we present a systematic study of MLRM-driven geolocation privacy leakage. We first reveal that refusal-based safeguards are critically insufficient, as carefully crafted jailbreak prompts can raise model response rates to 100%. We further identify that existing defenses, which inject imperceptible perturbations into shared images, suffer from structural limitations intrinsic to their pixel-space optimization, resulting in degraded black-box transferability and pronounced visual artifacts. Motivated by these findings, we propose a diffusion-based framework that provides targeted, proactive defense against geolocation privacy leakage. By injecting perturbations into the latent space of a diffusion model during reverse sampling, our method operates directly on high-level semantic representations, thereby resolving the effectiveness-utility bottlenecks by construction. We further ground our optimization with GeoCLIP, a model explicitly aligned with GPS coordinates, as a surrogate to pinpoint and disrupt the geographic signals that MLRMs exploit for location inference. This targeted semantic disruption yields significantly stronger black-box transferability while preserving perceptual image quality, offering a seamless integration on social media platforms.",
+    "updated" : "2026-09-18T06:24:29Z",
+    "published" : "2026-09-18T06:24:29Z",
+    "authors" : [
+      {
+        "name" : "Yining Wang"
+      },
+      {
+        "name" : "Xi Li"
+      },
+      {
+        "name" : "Mi Zhang"
+      },
+      {
+        "name" : "Xiaohan Zhang"
+      },
+      {
+        "name" : "Xiaoyu You"
+      },
+      {
+        "name" : "Zhenxing Qian"
+      },
+      {
+        "name" : "Mi Wen"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.21340v1",
+    "title" : "Conformal Privacy Auditing: Calibrated Re-identification Attacks with Statistical Guarantees",
+    "summary" : "Empirical identity leakage from released text is increasingly driven by attackers that combine large language models (LLMs) with auxiliary knowledge to link documents to individuals. Existing audits typically report success rates for specific attack pipelines but lack finite-sample statistical guarantees, while training-time protections such as differential privacy are difficult to translate into release-time decisions for individual natural-language documents. We introduce Conformal Privacy Auditing(CPA), a distribution-free calibration framework that provides a statistical certificate of re-identification risk for each released document against LLM-empowered adversaries. CPA outputs a conformal ambiguity set of candidate identities that is guaranteed to contain the true identity with user-chosen confidence under exchangeability, together with an interpretable leakage proxy derived from set size. CPA supports both logit-access and sampling-only attackers, enabling audits of open-source models and proprietary API models in a unified framework. Across multiple release benchmarks and attacker configurations, CPA achieves calibrated coverage and reveals sharp shifts in certified identifiability as auxiliary knowledge, LLM augmentation, and release mechanisms vary, providing a statistically grounded basis for reporting and comparing release-time linkage risk across attacker configurations, datasets, and release mechanisms alike.",
+    "updated" : "2026-09-18T05:49:54Z",
+    "published" : "2026-09-18T05:49:54Z",
+    "authors" : [
+      {
+        "name" : "Shuo Huang"
+      },
+      {
+        "name" : "Gholamreza Haffari"
+      },
+      {
+        "name" : "Xingliang Yuan"
+      },
+      {
+        "name" : "Ting Yu"
+      },
+      {
+        "name" : "Lizhen Qu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.21338v1",
+    "title" : "Asymptotic Anytime-Valid Quantile Inference under Local Differential Privacy",
+    "summary" : "Sequential quantile inference is difficult under local differential privacy because every record is randomized before reaching the analyst and the limiting quantile variance depends on an unknown density. We develop an online procedure that combines randomized response with dynamically chained parallel stochastic gradient descent (P-SGD). The resulting Polyak--Ruppert estimator admits a strong Gaussian approximation. A cross-chain quadratic statistic, computed entirely from private iterates, consistently estimates the limiting variance without a separate online density estimator. These results yield asymptotic confidence sequences and, under polynomial chain growth, asymptotic time-uniform coverage. Arm-wise constructions support locally private quantile best-arm identification, time-uniform simple-regret bounds, and sequential A/B tests of quantile treatment effects. Simulations and salary-data analyses illustrate the finite-sample behavior and practical use of the proposed methods.",
+    "updated" : "2026-09-18T05:49:08Z",
+    "published" : "2026-09-18T05:49:08Z",
+    "authors" : [
+      {
+        "name" : "Leheng Cai"
+      },
+      {
+        "name" : "Qirui Hu"
+      },
+      {
+        "name" : "Shuyuan Wu"
+      }
+    ],
+    "categories" : [
+      "stat.ME"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.20884v1",
+    "title" : "The Right Tool for the Job: On the Selection of Mitigations for GenAI Privacy Threats",
+    "summary" : "Generative Artificial Intelligence (GenAI) has rapidly evolved from an experimental technology into a foundational component of modern software systems. However, as its adoption grows, protecting sensitive personal data becomes increasingly challenging. Specifically, GenAI systems not only amplify traditional privacy threats but also introduce new inference-based risks, such as constructing detailed user profiles from seemingly harmless inputs. In response, privacy threat modeling frameworks are beginning to capture GenAI-specific privacy threats with finer granularity. At the same time, a growing number of mitigation techniques have been proposed to address these threats. However, although knowledge of both threats and mitigations continues to mature, the problem- and solution-space have developed largely independently.\n  This position paper argues that the primary challenge in GenAI privacy engineering is not the lack of knowledge about privacy threats or mitigation techniques, but the missing bridge between them. We decompose this gap into three sub-problems: (i) lack of fine-grained threat-to-mitigation mapping for GenAI systems, (ii) inapplicable solution-space assumptions in the GenAI context, and (iii) prioritization difficulty under GenAI constraints. We derive four recommendations for future mitigation-selection approaches, and outline a suggested approach that extends established threat-to-mitigation mapping methods to GenAI-specific threat characteristics. We propose a research agenda toward more systematic privacy mitigation selection for GenAI-based systems.",
+    "updated" : "2026-09-16T21:36:58Z",
+    "published" : "2026-09-16T21:36:58Z",
+    "authors" : [
+      {
+        "name" : "Jonah Bellemans"
+      },
+      {
+        "name" : "Qianying Liao"
+      },
+      {
+        "name" : "Laurens Sion"
+      },
+      {
+        "name" : "Lieven Desmet"
+      },
+      {
+        "name" : "Wouter Joosen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.18864v2",
+    "title" : "ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions",
+    "summary" : "Privacy evaluations of tool-using LLM agents often inspect a designated action, final response, or attacker report. These local proxies can miss unauthorized exposure elsewhere in a multi-step session and lack common ground truth across outlets, reports, and tool paths. We introduce privacy exposure displacement, the mismatch between a local evaluation proxy and target-grounded session exposure, and ASLEval, an authorization-aware framework that pre-registers a hidden target set, measures all declared visible exits, and reserves internal traces for diagnosis. Across multiple enterprise-style environments and independently implemented runtimes, we observe three recurring patterns. An expected-outlet-only view misses 46.9% of exposure recovered by the visible-exit union; attacker self-reports combine omissions with high false discovery; and schema-aligned internal evidence usually precedes visible exposure at the request/probe level. Reducing model-visible returns changes this path but can eliminate normal-task success. Independent human review supports the adjudication pipeline while identifying harder console and candidate cases. These findings motivate benchmarks that declare the complete visible boundary, ground claims in pre-specified targets and authorization, and report privacy together with task utility.",
+    "updated" : "2026-09-18T11:56:48Z",
+    "published" : "2026-09-16T16:03:11Z",
+    "authors" : [
+      {
+        "name" : "Guosen Wu"
+      },
+      {
+        "name" : "Huizhen Huang"
+      },
+      {
+        "name" : "Guoxiong Long"
+      },
+      {
+        "name" : "Tao Huang"
+      },
+      {
+        "name" : "Chen Hou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
   }
 ]
