@@ -2490,5 +2490,236 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.24656v1",
+    "title" : "5G-Shark: A Network Security Auditor for 5G Subscriber Privacy and Unauthenticated Signalling Resilience",
+    "summary" : "The fifth generation of mobile networks was standardised with an explicit mandate to close long-standing privacy and security gaps, mandating the concealment of the subscriber's permanent identity, resistance to generational downgrade, and protection against location tracking. Assessing whether these guarantees hold in operational networks, however, requires separating two sources of residual exposure that prior studies do not distinguish and do not evaluate in the wild: protocol-design limitations, which remain exploitable even against a fully specification-compliant deployment, and implementation gaps, which arise from incomplete or non-compliant implementations. We present 5G-Shark, a security assessment tool and methodology that turns a legitimate mobility procedure against the subscriber. Rather than relying on active jamming or malformed-packet injection, 5G-Shark manipulates the standardised cell-reselection criterion to pull a target User Equipment onto a self-created rogue cell, establishing an attack vantage with minimal service disruption. Then, the proposed methodology effectively performs the required interactions to expose the security risks of the system under test, classifying them into the aforementioned categories. Built solely from open-source stacks and Software Defined Radio hardware and evaluated against commercial 5G Standalone deployments, 5G-Shark requests subscriber identifiers, forces Radio Access Technology downgrade via crafted Registration Reject codes, and induces denial-of-service states. For each vector, we attribute the root cause to protocol design or deployment non-compliance. We further provide empirical evidence that in several commercial deployments, temporary identifiers are re-allocated in near-sequential steps that keep successive values linkable, a weakness that enables persistent user tracking despite correct subscriber ID concealment.",
+    "updated" : "2026-09-21T14:24:37Z",
+    "published" : "2026-09-21T14:24:37Z",
+    "authors" : [
+      {
+        "name" : "Oscar Lasierra"
+      },
+      {
+        "name" : "Gines Garcia-Aviles"
+      },
+      {
+        "name" : "Antonio Skarmeta"
+      },
+      {
+        "name" : "Xavier Costa-Pérez"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.24537v1",
+    "title" : "MIRAGE: Full-Body Bystander Privacy for Smart Glasses with Consent-Based Restoration",
+    "summary" : "Video recording on smart glasses exposes more than faces. Continuous capture reveals full-body biometric signatures, including gait, posture, and silhouette, that enable person re-identification (ReID) even after conventional face sanitization.\n  We present MIRAGE, a three-tier architecture for privacy-preserving smart glasses that enforces full-body privacy, supports synthetic full-body replacement, and retains encrypted recovery material for consent-based restoration. We implement MIRAGE on a Raspberry Pi~5 (a CPU-only proxy for smart-glasses compute), companion phones, and a cloud generative backend. Compared to prior systems, MIRAGE achieves 0.948 AP and 0.976 AR while accurately detecting the complete visible body. Its bounding box masking reduces learned silhouette-based ReID to essentially random guessing, with 10.86% Rank-1 accuracy compared with an 11.12% measured chance level. Even against an adaptive adversary retrained on MIRAGE's sanitized pose signals, Rank-1 gait identification drops from 90.25% to 26.20%, removing 72.5% of the adversary's identification advantage.",
+    "updated" : "2026-09-21T13:09:28Z",
+    "published" : "2026-09-21T13:09:28Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Umair"
+      },
+      {
+        "name" : "Muhammad Danial Maqbool"
+      },
+      {
+        "name" : "Fatima Arshad Cheema"
+      },
+      {
+        "name" : "Kapal Dev"
+      },
+      {
+        "name" : "Muhammad Hamad Alizai"
+      },
+      {
+        "name" : "Muhammad Ali Siddiqi"
+      },
+      {
+        "name" : "Naveed Anwar Bhatti"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.24173v1",
+    "title" : "Zero-Knowledge Remote Adversarial Attack against Wi-Fi-based Human Activity Recognition for Privacy Protection",
+    "summary" : "The growing capability of Wi-Fi devices to identify human activities using channel state information (CSI) raises privacy concerns. To counter this threat, we propose GRAW, an adversary system, acting as a privacy defender, that degrades the human activity recognition (HAR) system at the user device by perturbing the router's signals that the device uses to estimate CSI. GRAW employs generative adversarial imitation learning (GAIL) to construct perturbation signals, and thereby eliminates the need for any information on the target HAR systems and their inputs (i.e., zero-knowledge operation). We evaluate GRAW against seven representative HAR models, using datasets collected in five environments, including our own dataset. We observe that GRAW is the only remote attack scheme that degrades every tested HAR model to a random-selection level. At the same perturbation level, GRAW achieves an attack success ratio up to 76.7% higher than comparison methods, while maintaining over 99% packet success rate on regular Wi-Fi communication. We demonstrate the feasibility of GRAW through real-time, over-the-air experiments with software-defined radios.",
+    "updated" : "2026-09-21T06:43:52Z",
+    "published" : "2026-09-21T06:43:52Z",
+    "authors" : [
+      {
+        "name" : "Byungjun Kim"
+      },
+      {
+        "name" : "Amogh Panchagatti"
+      },
+      {
+        "name" : "Peter Gerstoft"
+      },
+      {
+        "name" : "Xinyu Zhang"
+      },
+      {
+        "name" : "Minsung Kim"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.23827v1",
+    "title" : "Pattern-level Differential Privacy for High-utility Complex Event Processing",
+    "summary" : "Current privacy-preserving mechanisms (PPMs) in Complex Event Processing (CEP) systems are unnecessarily restrictive, reducing the utility of data received by data consumers. This article presents a novel approach to preserve privacy in CEP systems, improving the utility of detected event patterns by dynamically adapting the noise added to an unprotected data stream. We introduce a new guarantee named pattern-level differential privacy (DP), which enables us to apply and compare the strength of PPMs at the pattern level. We propose new pattern-level PPMs yielding pattern-level DP and analyze different trust settings of these PPMs and their requirements for context knowledge in the CEP system, e.g., the deployed queries. Our evaluation is based on three datasets (two real-world, one synthetic) and shows that the proposed PPMs increase data utility while preserving the same privacy level as the state-of-the-art PPMs. We use simulations to study the performance of our proposed PPMs in various practical scenarios. Furthermore, we demonstrate that computational complexity is not an obstacle to deployment.",
+    "updated" : "2026-09-20T19:23:21Z",
+    "published" : "2026-09-20T19:23:21Z",
+    "authors" : [
+      {
+        "name" : "He Gu"
+      },
+      {
+        "name" : "Thomas Plagemann"
+      },
+      {
+        "name" : "Vera Goebel"
+      },
+      {
+        "name" : "Maik Benndorf"
+      },
+      {
+        "name" : "Boris Koldehofe"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.23521v1",
+    "title" : "Feature Suppression and Differential Privacy for Residential Traffic Classification: A Two-Home Federated Study",
+    "summary" : "Residential traffic classification supports service management, but learning across homes must account for heterogeneous traffic and privacy constraints. Privacy-aware training may impose uneven costs across traffic categories. We study this tradeoff in simulated two-client federated learning using 1.62 million preprocessed gateway-collected flows across six categories. We compare a full-feature baseline, feature suppression (FS), and differentially private stochastic gradient descent (DP-SGD) under one fixed record-level privacy setting. FS-mild excludes four timing features from 16 model inputs; it provides no formal privacy guarantee. With size-proportional aggregation, FS-mild achieves higher combined macro-F1 and worst-group F1 (the minimum per-class F1 across homes) than DP-SGD in all five seeds at both model capacities under stratified and temporal splits. The tested DP-SGD configuration incurs pronounced minority-category losses, especially in the smaller home, but FS-mild does not uniformly improve on the full-feature baseline. On stratified-split models, loss-based and shadow-model membership probes show near-chance aggregate discrimination without a consistent ranking across probes; this does not establish equivalent privacy. These findings support FS as an input-minimization baseline, not a substitute for formal privacy.",
+    "updated" : "2026-09-20T10:17:35Z",
+    "published" : "2026-09-20T10:17:35Z",
+    "authors" : [
+      {
+        "name" : "Márton Pál Lipcsey-Magyar"
+      },
+      {
+        "name" : "Adrian Pekar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.23403v1",
+    "title" : "Alignment and Divergence between Humans and AI in Interpersonal Privacy Decisions",
+    "summary" : "AI assistants increasingly mediate interpersonal communication on behalf of their primary user, but they risk violating the privacy expectations of third-party information owners. Resolving these tensions requires understanding how humans anticipate interpersonal privacy boundaries. Therefore, we conducted a dyadic study (N=76) and a matched evaluation of AI models across 18 information types and 3 recipient relationships. We found that data owners' privacy judgments are highly contextual and relationship dependent. While familiar data co-owners show meaningful alignment with owners' expectations, they significantly overestimate the need for permission. Interestingly, greater familiarity within the owner-co-owner dyad was associated with both higher disclosure acceptability and lower co-owner misalignment, whereas our exploratory four-item empathy measure was not. In contrast, AI models significantly underperform human co-owners in anticipating the data acceptability, even when provided with within-dyad examples. These findings underscore a core HCI design challenge to develop privacy-aware AI that respects multi-stakeholder information boundaries.",
+    "updated" : "2026-09-20T06:30:23Z",
+    "published" : "2026-09-20T06:30:23Z",
+    "authors" : [
+      {
+        "name" : "Hanxiang Zeng"
+      },
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Xinyuan Zhou"
+      },
+      {
+        "name" : "Tianqi Song"
+      },
+      {
+        "name" : "Yuhan Yuan"
+      },
+      {
+        "name" : "Yuting Yang"
+      },
+      {
+        "name" : "Shuai Ma"
+      },
+      {
+        "name" : "Xin Yi"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.23193v1",
+    "title" : "LLMs as Linguistic Chameleons: Decoupling Semantics and Structure for Privacy-Preserving Communication",
+    "summary" : "As Large Language Model (LLM) APIs become increasingly integrated into privacy-sensitive workflows, ensuring inference-time privacy without compromising task utility remains a major challenge. Existing approaches preserve most of the original semantic content to maintain downstream performance, but this also leaves exploitable cues for reconstructing the original text. This work investigates semantic decoupling, which replaces original semantics with alternative content while preserving the structure needed for LLM reasoning. Based on this idea, we propose CROSS-MAP, a bidirectional framework that maps private inputs into a different semantic domain before inference and recovers the corresponding outputs afterward. Local models are trained with multi-objective optimization to maximize semantic divergence in the mapping stage while minimizing semantic inconsistency in the recovery stage. Experiments show that CROSS-MAP reduces reconstruction success across multiple attack settings while outperforming existing baselines in utility.",
+    "updated" : "2026-09-19T19:41:29Z",
+    "published" : "2026-09-19T19:41:29Z",
+    "authors" : [
+      {
+        "name" : "Yuzhu Mao"
+      },
+      {
+        "name" : "Liang Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.22900v1",
+    "title" : "SMS-delivered network-initiated SUPL on Pixel 8: a privacy assessment",
+    "summary" : "A SUPL\\_INIT message is a network-initiated trigger that can be sent to a handset using an SMS to unilaterally start a location session: on receipt, the handset is instructed to determine its own position and report it, together with an identifier such as its IMSI, to a server specified in the message, without any action by the phone's user. The concern motivating this investigation is whether such a message could be used to silently exfiltrate a handset's location and subscriber identity to a server under an attacker's control. We investigated this on a Google Pixel 8 handset, which uses a Samsung Exynos modem and a Broadcom GPS/GNSS subsystem. We find no privacy issue: the handset never sends location data to an attacker-chosen server as a result of an unsolicited SUPL\\_INIT delivered by SMS.",
+    "updated" : "2026-09-19T09:16:03Z",
+    "published" : "2026-09-19T09:16:03Z",
+    "authors" : [
+      {
+        "name" : "Douglas Leith"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.22720v1",
+    "title" : "When Disability Disclosure Travels: Memory, Privacy, and Contextual Integrity in Conversational AI",
+    "summary" : "Conversational AI assistants remember what people tell them, and for disabled people, that often includes disability. We interviewed 12 adults with disabilities in the United States who use LLM-based assistants such as ChatGPT, Claude, and Gemini about when, how, and why they disclose disability to these systems and how this compares with disclosing to people. Using contextual integrity as an analytic lens, we found that participants disclosed by need rather than by name, translating disability into task-scoped instructions; that the same disclosure was judged against two recipients, a non-judging interlocutor and a data-holding company, producing opposite norms; and that memory features relieved the burden of repeated disclosure while letting disability information drift into contexts where it did not belong. Participants did extensive boundary work to restore context and wanted control over scope, provenance, retention, and access rather than per-utterance toggles. We discuss implications for the design of conversational AI assistants.",
+    "updated" : "2026-09-19T03:11:32Z",
+    "published" : "2026-09-19T03:11:32Z",
+    "authors" : [
+      {
+        "name" : "Atieh Taheri"
+      },
+      {
+        "name" : "Mahya Tazike"
+      },
+      {
+        "name" : "Patrick Carrington"
+      },
+      {
+        "name" : "Jeffrey P. Bigham"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CY"
+    ]
   }
 ]
