@@ -2721,5 +2721,268 @@
       "cs.HC",
       "cs.CY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.26680v1",
+    "title" : "Decoding the Legalese: A Scalable and Quantitative Framework for Analyzing Corporate Privacy Policies",
+    "summary" : "Even though privacy policies are the primary mechanism organizations use to disclose how they collect, process, and share personal data, they are difficult for average users to interpret, perhaps by design, due to their verbosity and dense legal language. Importantly, there is a lack of standardized metrics that characterize key qualities of a privacy policy beyond regulatory requirements. Recent advances in large language models (LLMs) make it feasible to automatically structure and analyze these documents at scale. In this study, we develop and evaluate an end-to-end, LLM-enabled system that converts raw privacy policies into fine-grained structured representations and a set of quantitative measures. Our pipeline applies a detailed taxonomy to extract specific data elements and governing practices, capturing relational links that connect each practice to the data elements it references. We apply our framework to a diverse corpus of 10,000 website privacy policies, yielding, to the best of our knowledge, the most comprehensive dataset of its kind to date. Building on our structured representations, we introduce the first standardized and repeatable quantitative metrics for evaluating privacy policies along four dimensions: completeness, transparency, commitment to user protection, and emphasis on business-driven data practices. This allows us to compare policies within and across industry sectors, and to assess the tension between user protection and business interests.",
+    "updated" : "2026-09-22T16:38:31Z",
+    "published" : "2026-09-22T16:38:31Z",
+    "authors" : [
+      {
+        "name" : "Jiaming Tang"
+      },
+      {
+        "name" : "Chenlan Wang"
+      },
+      {
+        "name" : "Mingyan Liu"
+      },
+      {
+        "name" : "Armin Sarabi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.26623v1",
+    "title" : "A Data-Interventional Framework for Auditing Privacy and Fairness in Generative Medical Imaging",
+    "summary" : "Diffusion-based synthetic data generation offers a promising route for sharing medical imaging data without releasing sensitive patient records. However, generative models face a fundamental tension between privacy and fairness: they may memorize rare training samples, leading to privacy risks, or fail to reproduce underrepresented features, resulting in unfair synthetic distributions. While prior work has largely focused on either memorization or fairness in isolation, their interaction remains insufficiently understood. In this work, we introduce a data-interventional framework to systematically analyze privacy and fairness in diffusion models. We discuss synthetic anatomical fingerprints (SAFs), rare and manually injected image features, as controlled probes to study whether models generalize sensitive attributes across identities, memorize training samples, or suppress rare signals entirely. Across multiple conditioning modalities, we observe a consistent behavior: models either forget these fingerprints or memorize the entire image in which they appear, but do not generalize them to novel images. To support large-scale auditing where explicit sample extraction is infeasible, we further introduce the indicator metric t', which estimates a model's susceptibility to memorization by exploiting the internal structure of the diffusion process. By comparing conditioning signals of varying surprisal, we reveal a clear relationship between conditioning rarity and memorization behavior. Highly surprising conditioning signals act as retrieval keys that amplify memorization, whereas low-surprisal conditioning signals systematically suppress rare features, even when these appear repeatedly in the training data. Our findings provide actionable insights and concrete mitigation strategies for safe and fair synthetic medical data sharing. Code is available at https://github.com/MischaD/Privacy.",
+    "updated" : "2026-09-22T15:55:44Z",
+    "published" : "2026-09-22T15:55:44Z",
+    "authors" : [
+      {
+        "name" : "Mischa Dombrowski"
+      },
+      {
+        "name" : "Bernhard Kainz"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.26508v1",
+    "title" : "Gap-Free Streaming PCA Beyond Rank-One Updates: Near-Optimal Rates and Applications to Differential Privacy",
+    "summary" : "Streaming principal component analysis (PCA) seeks to recover a leading spectral subspace in a single pass over a data stream. We give a new analysis of the ubiquitous Oja's algorithm [Oja82] for the most general, gap-free variant of this problem, where no eigengap assumptions are made on the underlying mean matrix, complemented by a nearly-matching lower bound. Prior works achieving near-optimal rates for streaming PCA either required gap assumptions [JJK+16, HNWW21], or were limited to rank-one updates [AZL17, Lia23]. Our proof only uses a second moment bound on the individual stochastic updates, bypassing the almost sure bounds needed by prior near-optimal analyses, and the analogous offline matrix Bernstein bound. We also extend our result to a Rayleigh quotient notion of approximate PCA, addressing an open question of [JJK+16]. As our main application, we give gap-free differentially private PCA guarantees for sub-Gaussian data, settling Conjecture 1.1 of [Bro26] up to logarithmic factors.",
+    "updated" : "2026-09-22T14:38:39Z",
+    "published" : "2026-09-22T14:38:39Z",
+    "authors" : [
+      {
+        "name" : "Anming Gu"
+      },
+      {
+        "name" : "Syamantak Kumar"
+      },
+      {
+        "name" : "Kevin Tian"
+      },
+      {
+        "name" : "Chutong Yang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DS",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.26365v1",
+    "title" : "Privacy-Preserving Coordinated Operation of Power Grids and AI Data Centers: A Checkpoint-Aware Three-Phase Scheme",
+    "summary" : "The rapid growth of large language model training and serving is driving AI data centers (AIDCs) toward gigawatt scale. Unlike conventional commercial loads, AIDCs possess significant operational flexibility through dynamic voltage and frequency scaling (DVFS) of training and inference workloads, while periodic model checkpointing can induce abrupt power drops and rebounds that erode operating reserves and increase transmission congestion risks. Coordinating AIDC operation with grid scheduling under these unique operational characteristics is challenging because grid and AIDC operators are generally unwilling to share proprietary data and decision-making authority. This paper proposes a hierarchical privacy-preserving coordinated operation scheme between the power grid and AIDCs to address this gap. The proposed scheme contains three phases. In Phase I, the grid operator computes a certified inner approximation of the AIDCs security region for subsequent coordination. In Phase II, the AIDC operator coordinates training and inference AIDCs to optimize workload allocation within the certified security region and generate power schedules and checkpoint alerts. In Phase III, the grid operator solves a checkpoint-aware two-stage robust optimal power flow (OPF) considering renewable generation and checkpoint uncertainties. By exchanging only compact interface information, the framework preserves the privacy of both grid and AIDCs, avoids frequent iterative communication, and enables secure coordination with guaranteed feasibility. Numerical studies on a modified IEEE 14-bus system and a modified NYISO system demonstrate the effectiveness, robustness, and security of the proposed framework.",
+    "updated" : "2026-09-22T13:07:37Z",
+    "published" : "2026-09-22T13:07:37Z",
+    "authors" : [
+      {
+        "name" : "Ziang Liu"
+      },
+      {
+        "name" : "Ruizhang Yang"
+      },
+      {
+        "name" : "Xin Cui"
+      },
+      {
+        "name" : "Francis Yunhe Hou"
+      }
+    ],
+    "categories" : [
+      "eess.SY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.26295v1",
+    "title" : "On the security and privacy of LLMs in Mobility",
+    "summary" : "The mobility sector is undergoing a paradigm shift driven by advances in Generative Artificial Intelligence. With a global market valued at approximately 2.9 trillion dollars annually, considering only cars, the integration of these technologies has the potential to impact more than 1.5 billion vehicles worldwide. As Large Language Models (LLMs) are increasingly adopted in mobility, concerns about cybersecurity, privacy, and reliability emerge. Accordingly, this paper surveys current applications and assesses these challenges. Since the European AI Act classifies transportation AI as high risk, we derive nine technical classes from its requirements to assess current research and future deployments. Our findings show that research mainly studies GPT and Llama models (over 50\\% of reviewed works) and traffic applications while largely neglecting security, privacy, and reliability. This gap extends to AI Act compliance: among 35 reviewed works, only one includes a partial vulnerability assessment and one a partial risk management system. We identify a clear gap between strong optimization performance and regulatory adherence, suggesting compliance is limited less by technology than by a focus on static performance over lifecycle safety, and underscoring an urgent need for security-by-design in safety-critical intelligent transportation systems.",
+    "updated" : "2026-09-22T12:09:08Z",
+    "published" : "2026-09-22T12:09:08Z",
+    "authors" : [
+      {
+        "name" : "Mauro Conti"
+      },
+      {
+        "name" : "Lorenzo Perinello"
+      },
+      {
+        "name" : "Umberto Salviati"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.25941v1",
+    "title" : "UE-Side Location Privacy for 5G NR Uplink Positioning: Mechanisms and Trade-offs",
+    "summary" : "Future 5G-Advanced and 6G networks increasingly reuse uplink communication waveforms for positioning and sensing. This raises privacy concerns, as user equipments (UEs) may unintentionally reveal precise timing information even when positioning services are not explicitly requested. While prior works show generic orthogonal frequency division multiplexing (OFDM) pilots can be manipulated to degrade time-of-arrival (ToA) estimation without compromising data links, this paper extends these concepts to a realistic 5G new radio (NR) up-link framework including Sounding Reference Signal (SRS), Demodulation Reference Signal (DMRS), Physical Uplink Shared Channel (PUSCH), and standardized 3GPP channel models. We investigate several UE-side privacy mechanisms: optimized pilot distortion, artificial noise, artificial multipath, and delay spoofing. Through 3GPP-compliant sample-level simulations, we assess their impact via localization, communication, and consistency-based detection metrics. The resulting analysis highlights the trade-offs among privacy, communication reliability, and detectability, providing key insights into waveform-level obfuscation for future integrated sensing and communication (ISAC) systems.",
+    "updated" : "2026-09-22T09:47:01Z",
+    "published" : "2026-09-22T09:47:01Z",
+    "authors" : [
+      {
+        "name" : "Giulia Focarelli"
+      },
+      {
+        "name" : "Alireza Pourafzal"
+      },
+      {
+        "name" : "Henk Wymeersch"
+      },
+      {
+        "name" : "Stefania Bartoletti"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.25798v1",
+    "title" : "Secure ISAC with Sensing Privacy under Eavesdropper Uncertainty",
+    "summary" : "This paper investigates the joint protection of confidential data and legitimate-user directional information in integrated sensing and communication (ISAC) networks. We consider a multiuser downlink in which passive multi-antenna eavesdroppers (Eves) attempt to decode confidential signals while exploiting legitimate-user reflections for unauthorized angular sensing. To address both threats, we develop a robust covariance-design framework that jointly limits Eve decoding, maintains the transmitter's accuracy in estimating the Eves' directions and shifts the dominant passive-sensing response toward prescribed deceptive directions. A Bayesian angular prior and the corresponding Bayesian Cramer-Rao bound (BCRB) characterize the transmitter's eavesdropper-angle estimation accuracy. Angular uncertainty is represented through geometry-consistent samples, such that each candidate Eve direction jointly determines the corresponding transmitter-Eve channel, user-Eve bearing, and deceptive direction. The resulting design balances worst-user secrecy, sensing accuracy, sensing privacy, and deception power. Robust Eve-decoding constraints are handled through finite sufficient conditions with intersample margins, while continuous ghost dominance is enforced using interval sum-of-squares (SOS) constraints. The resulting nonconvex problem is addressed through successive convex approximation (SCA) and semidefinite relaxation. Numerical results show that the proposed design effectively preserves secrecy and sensing privacy under Eve-angle uncertainty, provides controlled angular deception in single- and multiple-Eve scenarios, and outperforms benchmarks.",
+    "updated" : "2026-09-22T07:34:18Z",
+    "published" : "2026-09-22T07:34:18Z",
+    "authors" : [
+      {
+        "name" : "Pigi P. Papanikolaou"
+      },
+      {
+        "name" : "Dimitrios Bozanis"
+      },
+      {
+        "name" : "Sotiris A. Tegos"
+      },
+      {
+        "name" : "Christos Masouros"
+      },
+      {
+        "name" : "George K. Karagiannidis"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.25484v1",
+    "title" : "Learning Defensive Policies against Diverse Inference Attacks for Smart Meter Privacy",
+    "summary" : "Smart meter (SM) data provides fine-grained visibility into household energy consumption, but also exposes users to privacy risks. Inference attacks, known as non-intrusive load monitoring (NILM), can perform appliance-level inference from aggregate signals and recover sensitive behavioral patterns. In practice, attacker models are unknown and heterogeneous, making robust defense challenging. We formulate SM privacy protection as a black-box inference defense problem, aiming to reduce the recoverability of appliance-level information while generalizing across diverse and unseen attackers. We propose a proxy-guided hierarchical reinforcement learning framework that learns battery-based load-shaping policies to inject realistic but misleading appliance-level signatures into the aggregate signal, thereby disrupting the structured patterns exploited by NILM. A self-supervised aggregate-structure privacy probe provides a reconstruction-error-based surrogate reward for disrupting recoverable load structure, while a signature library makes the perturbations appliance-relevant and physically realizable through battery control. We provide theoretical rationale showing that proxy-guided optimization improves inference robustness under attacker diversity. Experiments on real-world datasets UK-DALE and REDD demonstrate strong cross-model and cross-appliance generalization. Across six unseen NILM attackers, covering four appliances on UK-DALE and five on REDD, our proposed defense increases average appliance-level RMSE by 107% and 166%, respectively, while reducing F1 score by 79% and 80%.",
+    "updated" : "2026-09-21T23:27:09Z",
+    "published" : "2026-09-21T23:27:09Z",
+    "authors" : [
+      {
+        "name" : "Ruichang Zhang"
+      },
+      {
+        "name" : "Mustafa A. Mustafa"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.25352v1",
+    "title" : "SSP-Bench: A Hybrid Data Generation Framework for Safety, Security, and Privacy Evaluation",
+    "summary" : "Evaluation of large language models (LLMs) for safety, security, and privacy (SSP) relies heavily on static benchmarks, which suffer from score saturation, data contamination, and aggregation artifacts, and fail to capture sensitivity to linguistic variation. As a result, models that perform well on fixed test sets often fail under semantically equivalent rephrasings. We introduce SSP-Bench, a dynamic benchmarking framework that generates evaluation instances on demand while preserving domain consistency. The framework ensures label validity through externally grounded sources, enforces scope via service-specific validation, and calibrates difficulty using a multi-model steering panel. Benchmark construction is formulated as a multi-objective optimization problem over difficulty, separability, novelty, and diversity. Across 24 models and four SSP services, SSP-Bench reveals systematic failures of static evaluation, including near-zero correlation in safety rankings due to construct mixing, strong safety--over-refusal coupling, and hidden within-family regressions. These results show that static benchmarks can misrepresent model behavior, motivating dynamic, deployment-relevant evaluation.",
+    "updated" : "2026-09-21T19:44:18Z",
+    "published" : "2026-09-21T19:44:18Z",
+    "authors" : [
+      {
+        "name" : "Fatih Deniz"
+      },
+      {
+        "name" : "Yazan Boshmaf"
+      },
+      {
+        "name" : "Issa Khalil"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.25103v1",
+    "title" : "Physical-Layer Sensing Privacy via Constellation Shaping for OFDM-ISAC Systems: Theory, Design, and Experiments",
+    "summary" : "The integration of sensing into communication networks introduces a new privacy risk, as a passive eavesdropper (Eve) may exploit ISAC data signals as signals of opportunity to perform unauthorized sensing of targets. In this paper, we develop a sensing-privacy-enhancing geometric constellation shaping (GCS) framework for OFDM-ISAC systems. The key observation is that constellation-dependent ranging performance is receiver-specific. For matched filtering at Eve, the ranging MSE is governed by the constellation kurtosis $\\kurt$, whereas reciprocal filtering at the legitimate receiver (Alice) is governed by the inverse second-order moment $\\ism$. Based on closed-form MSE expressions, we define sensing privacy as the ranging MSE gap between Eve and Alice and characterize its dependence on these two moments. The analysis shows that positive skewness of the symbol-power distribution is necessary for a positive intrinsic moment gap, namely $\\kurt-\\ism$. We further derive an exact skewness-based decomposition of the intrinsic moment gap and a canonical two-ring characterization, providing analytical guidelines for privacy-enhancing constellation geometries. We then formulate Eve-aware and Eve-agnostic GCS designs that balance sensing privacy and communication reliability through the minimum Euclidean distance (MED), with the Eve-agnostic design depending only on the intrinsic moment gap. Numerical results demonstrate scalable privacy--communication trade-offs, while over-the-air experiments show that the proposed constellation shaping substantially increases the ranging error gap between Eve and Alice with only a small communication throughput loss.",
+    "updated" : "2026-09-20T02:29:12Z",
+    "published" : "2026-09-20T02:29:12Z",
+    "authors" : [
+      {
+        "name" : "Kawon Han"
+      },
+      {
+        "name" : "Kaitao Meng"
+      },
+      {
+        "name" : "Christos Masouros"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.25082v1",
+    "title" : "Federating Quantum and Classical Computing: A Privacy-Preserving Hybrid Approach",
+    "summary" : "Quantum machine learning (QML) is increasingly recognized as one of the most promising near-term applications of quantum computing, viewed as a next-frontier candidate beyond purely classical approaches. Hybrid quantum-classical models operationalize this potential by embedding a parameterized quantum circuit within a model where all other components remain classical-a design already applied to chemistry simulation, financial modeling, and image classification. However, their deployment in privacy-sensitive, multi-party settings is constrained by the need to avoid centralizing raw data and by the requirement that modern quantum circuits remain parameter-efficient to stay trainable at scale.\n  In this paper, we address these constraints by evaluating federated learning (FL) as a means of combining a hybrid quantum-classical active party with a classical passive party, using Sherpa.ai's Blind Vertical FL (SBVFL) protocol to avoid centralizing raw data, while drastically reducing communication. We construct the split multiplicative periodic parity (SMPP) benchmark, following common QML design practice. On this task, our simulations show that SBVFL raises accuracy from 0.7227 to 0.8757 compared to local training, closely approaching non-private centralized accuracy, and that the hybrid quantum-classical model achieves this with substantially fewer trainable parameters than the classical neural networks and random forest alternatives. These results show that FL enables high-performing, privacy-preserving quantum-classical collaboration without centralizing raw data.",
+    "updated" : "2026-09-18T20:53:01Z",
+    "published" : "2026-09-18T20:53:01Z",
+    "authors" : [
+      {
+        "name" : "Carlos Cano"
+      },
+      {
+        "name" : "Daniel M. Jimenez-Gutierrez"
+      },
+      {
+        "name" : "Diego Sal"
+      },
+      {
+        "name" : "Georgios Kellaris"
+      },
+      {
+        "name" : "Joaquin del Rio"
+      },
+      {
+        "name" : "Oleksii Sliusarenko"
+      },
+      {
+        "name" : "Xabi Uribe-Etxebarria"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC"
+    ]
   }
 ]
