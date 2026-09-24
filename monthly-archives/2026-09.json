@@ -2984,5 +2984,158 @@
       "cs.AI",
       "cs.DC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.28360v1",
+    "title" : "Privacy-Preserving Semantic Segmentation from High-Resolution Depth and Ultra-Low-Resolution RGB",
+    "summary" : "As mobile robots become increasingly integrated into everyday environments, privacy risks arising from onboard cameras have become a growing concern. Ultra-low-resolution (ULR) RGB can mitigate visual privacy exposure at the source, but ULR appearance alone substantially limits semantic and spatial understanding. We therefore introduce a privacy-preserving asymmetric sensing setting that combines high-resolution (HR) depth with ULR RGB, preserving dense geometry while restricting fine-grained visual information. To address the severe information imbalance between HR depth and ULR RGB, we propose a joint 2D framework using HR geometry to guide semantic-oriented RGB reconstruction and RGB-D segmentation. Despite reliable frame-level predictions, consistent scene-level understanding remains challenging under the asymmetric HR depth--ULR RGB setting. We therefore develop an end-to-end 2D-to-3D pipeline that consolidates 2D semantic features for 3D segmentation. Experiments on ScanNet show that our method achieves the best 2D and 3D segmentation performance among privacy-preserving approaches and delivers the strongest zero-shot transfer to SUN RGB-D and SceneNN. Privacy recoverability analysis shows that our proposed HR depth--ULR RGB input reduces the recoverability of sensitive data, and real-robot experiments demonstrate the utility of the resulting 3D semantics for object-goal navigation.",
+    "updated" : "2026-09-23T16:31:19Z",
+    "published" : "2026-09-23T16:31:19Z",
+    "authors" : [
+      {
+        "name" : "Xuying Huang"
+      },
+      {
+        "name" : "Swithinraj Moses Daniel"
+      },
+      {
+        "name" : "Sicong Pan"
+      },
+      {
+        "name" : "Sebastian Houben"
+      },
+      {
+        "name" : "Maren Bennewitz"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.28297v1",
+    "title" : "Contraction and Statistical Inference under Privacy for Uniformly Bounded Distributions",
+    "summary" : "We investigate $c$-interior pointwise maximal leakage (PML) as a tool for contraction analyses and disclosure control. Based on the strong adversarial threat models from maximal leakage, $c$-interior PML generalizes local differential privacy (LDP) to data-generating distributions with densities uniformly bounded away from zero by $c>0$. Viewing $c$-interior PML as an algebraic constraint on a kernel yields more flexible (and often tighter) contraction analyses than standard LDP. We provide tight bounds on the Dobrushin coefficient, and bound the contraction coefficient of the Hockeystick-divergence. We further derive strong data processing inequalities on $f$-divergences under $c$-interior PML constraints when the input distributions to the divergence are restricted to be in the $c$-interior. These results extend beyond the regime of pure LDP to cover a larger class of kernels, including, e.g., arbitrary stochastic matrices. We apply the results to minimax theory and provide asymptotically optimal strategies under $c$-interior PML constraints for binary hypothesis testing and mean estimation. The results show that disclosure control with PML allows analysts to reason about systems in a more differentiated manner: For example, it allows us to quantify the privacy leakage of deterministic systems, and can give precise adversarial guarantees with respect to arbitrary distributional assumptions. Interestingly, a recurring theme in the disclosure analyses is that if the privacy problem is relatively regular (if the density bound $c$ is large), private inference can be possible without incurring any additional cost in terms of sample complexity.",
+    "updated" : "2026-09-23T15:43:37Z",
+    "published" : "2026-09-23T15:43:37Z",
+    "authors" : [
+      {
+        "name" : "Leonhard Grosse"
+      },
+      {
+        "name" : "Sara Saeidian"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.28137v1",
+    "title" : "\"We'll Fix It Later\": Education, AI, and the Deferral of Privacy in EdTech",
+    "summary" : "Educational technology (EdTech) platforms collect highly sensitive student data, including behavioral logs, disability records, and academic histories. However, privacy considerations are often postponed rather than treated as a foundational design requirement. We present a mixed-methods study combining 12 semi-structured interviews with EdTech professionals and a privacy policy audit of 48 platforms coded across five dimensions, with strong inter-rater reliability (mean Cohen's Kappa = 0.781). Our interviews reveal a recurring organizational pattern in which privacy is recognized as important but deferred across the product lifecycle as organizations prioritize product functionality, growth, funding, and immediate educational outcomes. Responsibility is often delegated to cloud providers, policy documents, or downstream institutions, while limited privacy-related feedback gives organizations little pressure to change these practices. The policy analysis reflects these patterns: platforms describe what data they collect relatively well but provide substantially less information about how that data is subsequently governed. Thirty-three percent make no meaningful Artificial Intelligence (AI) disclosure despite visible AI features, and 73% provide only generic accountability and breach-response language. K-12 platforms perform better on children's consent where regulation creates explicit requirements, but this advantage does not extend to AI governance or accountability. These findings suggest that meaningful improvement requires enforceable institutional and regulatory mechanisms rather than voluntary privacy commitments alone.",
+    "updated" : "2026-09-23T13:59:37Z",
+    "published" : "2026-09-23T13:59:37Z",
+    "authors" : [
+      {
+        "name" : "Meghna Manoj Nair"
+      },
+      {
+        "name" : "Rachel Greenstadt"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.27617v1",
+    "title" : "Finite-Sample Binary Hypothesis Testing via Rényi Divergences: Strong Converse and Local Privacy",
+    "summary" : "We study asymmetric simple binary hypothesis testing between $H_0:P_0^{n}$ and $H_1:P_1^{n}$, based on $n$ independent and identically distributed observations. Leveraging a variational representation of Rényi divergence of order $α$, we derive our main result: a finite-sample converse with $α>1$. The bound uses both directions of the divergence $D_α(P_1\\|P_0)$ and $D_α(P_0\\|P_1)$, tensorises under product measures, and contains familiar data-processing converses as boundary cases. For comparison, we apply the same variational approach to general $f$-divergences and specialise it to total variation, $E_γ$, Hellinger, and Kullback Leibler divergences, thereby recovering familiar converses within a unified framework. Together with an achievability bound involving Rényi divergence with $α\\in (0,1)$, the main converse recovers the phase transition of the optimal Type II error under the exponentially decaying Type I error constraint $\\varepsilon_n=e^{-nr}$. Under regularity conditions, the optimal Type II error vanishes exponentially when $r<D(P_1\\|P_0)$ and converges exponentially fast to one when $r>D(P_1\\|P_0)$. We also derive sample-complexity bounds and extend both the converse and achievability analyses to locally differentially private observations, quantifying the cost of privacy and recovering the non-private achievability bound as the privacy constraint vanishes.",
+    "updated" : "2026-09-23T09:41:48Z",
+    "published" : "2026-09-23T09:41:48Z",
+    "authors" : [
+      {
+        "name" : "Roberto Bruno"
+      },
+      {
+        "name" : "Adrien Vandenbroucque"
+      },
+      {
+        "name" : "Amedeo Roberto Esposito"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.27406v1",
+    "title" : "Only Pay What You Must Spend: On-Demand Privacy Budget Payment for Differentially Private RAG",
+    "summary" : "Deploying large language models (LLMs) on sensitive data via Retrieval-Augmented Generation (RAG) introduces severe privacy risks. Recent studies apply Differential Privacy (DP) to LLMs with RAG for formal privacy guarantees. However, existing DP-RAG frameworks rapidly exhaust the privacy budget. Although recent efforts attempt to save the budget by narrowing the retrieval scope or sparsifying private generation, these methods themselves cumulatively consume the budget, whereas they could actually rely merely on public information or at a negligible one-time privacy cost. This mismatch fails to align budget expenditure with the model's actual reliance on private data, causing substantial waste on operations that require no private access. To address this, we propose SparsePay-RAG, adopting \"only pay what you must spend\" as its core principle. Using public information as a zero-privacy prior, it charges the privacy budget only for the private increment. Specifically, SparsePay-RAG narrows the retrieval scope via public topic-guided clustering, adaptively controls private access frequency without privacy cost through isotonic cross-layer trajectory fitting, and compresses per-access budget via DP contrastive decoding. Under strong privacy constraints, experiments show SparsePay-RAG achieves superior privacy-utility trade-offs over baselines.",
+    "updated" : "2026-09-23T06:20:17Z",
+    "published" : "2026-09-23T06:20:17Z",
+    "authors" : [
+      {
+        "name" : "Zhonghao Sun"
+      },
+      {
+        "name" : "Zhiliang Tian"
+      },
+      {
+        "name" : "Xinyue Fang"
+      },
+      {
+        "name" : "Shuo Ma"
+      },
+      {
+        "name" : "Juhua Zhang"
+      },
+      {
+        "name" : "Yiping Song"
+      },
+      {
+        "name" : "Dongsheng Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.27100v1",
+    "title" : "Cryptographic Security Is Not Enough: Privacy Gaps in the Renegade Decentralized Dark Pool",
+    "summary" : "Dark pools are designed to provide pre-trade privacy, liveness, and post-trade confidentiality - concealing order flow before execution and limiting information leakage after. Decentralized dark pools, such as Renegade, aim to replicate these properties without custodial risk, using secure multi-party computation (MPC) and zero-knowledge proofs for private order matching and verifiable settlement.\n  We show that Renegade's cryptographic guarantees do not deliver these dark pool properties in practice. MPC-with-abort ensures correctness but not fairness: a party may learn the match result and abort without penalty, breaking pre-trade privacy. We demonstrate that the protocol's discovery layer further leaks trading intent before MPC even begins, and that sustained probing via selective abort can probabilistically reconstruct counterparty order history, threatening post-trade confidentiality. We also show that the absence of input-consistency checks prior to MPC execution enables a griefing attack using invalid state commitments requiring no real token holdings that continuously locks honest users' wallets and wastes compute, breaking liveness under sustained conditions.\n  We further analyze over 700,000 Renegade transactions on Base and probe the P2P layer, finding that the network is effectively centralized: 88% of traffic routes through a handful of relayers, with only four nodes sustaining the P2P layer. Since relayers hold their users' wallet state in plaintext, this concentration means the system operates as a centralized orderbook in practice - reproducing off-chain the information asymmetry that dark pools are designed to eliminate.\n  Together, our results show that cryptographic privacy does not imply dark pool security: pre-trade privacy, liveness, and post-trade confidentiality each require additional protocol-level guarantees beyond MPC correctness.",
+    "updated" : "2026-09-22T21:54:53Z",
+    "published" : "2026-09-22T21:54:53Z",
+    "authors" : [
+      {
+        "name" : "Prerna Arote"
+      },
+      {
+        "name" : "Adrian Saiz"
+      },
+      {
+        "name" : "Oriol Saguillo"
+      },
+      {
+        "name" : "Lucianna Kiffer"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
