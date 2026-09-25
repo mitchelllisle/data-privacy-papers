@@ -3137,5 +3137,109 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.29453v1",
+    "title" : "Decoupled Learning and Selection in Slate Recommendation for Privacy and Stability Under Noisy Scores",
+    "summary" : "We formalize slate recommendation as a randomized score learner followed by deterministic selection. First, an appropriately scoped differential-privacy guarantee passes through selection and its audit trace by post-processing. End-to-end privacy holds only when selector inputs are public or independent, previous private outputs, or separately privacy-accounted; fixing raw state or candidate information instead yields only a conditional guarantee. Second, we derive a logged margin certificate: bounded score-induced objective movement below half the smallest greedy decision margin guarantees that the ordered slate is unchanged.\n  Controlled fixed-margin tests show near-linear exponent scaling, with an empirical slope of $-0.220$ (95% CI $[-0.231,-0.210]$) against the independent-noise reference $-1/4$. Real-anchor experiments on OULAD, MovieLens-25M, and Amazon Musical Instruments show that greater anchor weight reduces score-noise-induced ranking churn. OULAD and EdNet certificate checks validate the implementation of the logged inequality, while closed-loop simulations show bounded target drift and setting-dependent downstream utility. The contribution is therefore a privacy-scope contract and a certifiable score-to-slate stability mechanism, not a universal utility claim.",
+    "updated" : "2026-09-24T12:09:24Z",
+    "published" : "2026-09-24T12:09:24Z",
+    "authors" : [
+      {
+        "name" : "Sam Urmian"
+      },
+      {
+        "name" : "Qinyi Liu"
+      },
+      {
+        "name" : "Mohammad Khalil"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.IR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.28685v1",
+    "title" : "\"A Necessary Evil\": Teenagers' Sensemaking of Privacy and Safety Settings on Social Media",
+    "summary" : "Social media platforms are embedded in teenagers' daily lives, supporting friendship and identity while exposing teenagers to unwanted contact and privacy harms. Previous scholarship has documented how attention capture strategies and dark patterns shape social media use, and we extend this work to better understand platform settings that ostensibly provide privacy and safety protection. We report on think-aloud sessions with 11 teenagers aged 14 to 17 who completed six privacy and safety tasks on Instagram, TikTok, Snapchat, and YouTube. We show how participants worked out what a setting meant through their routines, boundaries, and prior experiences, how they accommodated protections softer and less predictable than expected, and how they treated the platform as the authority on what protection should look like. We argue that feature-by-feature evaluation cannot establish whether teenagers are protected, and that platforms should carry the obligation to show that a protective action took effect and is durable.",
+    "updated" : "2026-09-23T18:26:39Z",
+    "published" : "2026-09-23T18:26:39Z",
+    "authors" : [
+      {
+        "name" : "Jingxin Dong"
+      },
+      {
+        "name" : "Lingyun Chen"
+      },
+      {
+        "name" : "Chen Ling"
+      },
+      {
+        "name" : "Colin M. Gray"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.28672v1",
+    "title" : "Available but Not Usable: Dark Patterns and Interaction Cost in Social Media Privacy and Safety Settings for Teens",
+    "summary" : "Social media platforms are central to teenagers' lives, and their designs can expose users to privacy, safety, and wellbeing harms. Platforms increasingly offer protective settings, though the presence of a control reveals little about whether teenagers can find, use, and benefit from it over time. We paired an expert evaluation of six privacy and safety tasks across TikTok, Instagram, Snapchat, and YouTube with moderated think aloud sessions in which 11 teenagers aged 14 to 17 attempted the tasks. Interaction cost and dark patterns analysis allowed us to compare the complexity designed into each task with the effort participants incurred as they located, configured, and interpreted controls. Recurring dark patterns appeared across tasks, and most participant attempts exceeded the expert baseline. Protective settings therefore risk being insufficiently usable or durable in practice, and we propose a wayfinding audit that integrates expert evaluation, usability testing, interaction cost, and dark pattern analysis.",
+    "updated" : "2026-09-23T18:13:34Z",
+    "published" : "2026-09-23T18:13:34Z",
+    "authors" : [
+      {
+        "name" : "Jingxin Dong"
+      },
+      {
+        "name" : "Lingyun Chen"
+      },
+      {
+        "name" : "Chen Ling"
+      },
+      {
+        "name" : "Colin M. Gray"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.28537v1",
+    "title" : "Privacy Leakage Through AI-mediated Analysis of Smartphone Data",
+    "summary" : "Over the past thirty years, the online advertising industry built a large-scale data collection ecosystem, with the goal of tracking a user's online activity to infer their demographics and interests. Traditionally, the ecosystem relied upon the collation and analysis of highly-structured text data like user IP addresses, GPS coordinates, e-commerce purchase histories, and visited URLs. However, recent ML models can parse not only structured text, but also multimedia files and unstructured text inputs---meaning a user's photos, videos, inboxes, and calendars are now ripe for automated analysis. The privacy risks are particularly acute in the context of smartphone apps. A user's phone already acts as a natural collation point for sensitive user information, but users may not understand that permitting an app to, for example, access a user's photo does not just give the app access to the bytes in the photo: the app also receives access to inferences about the user that are enabled by the photo.\n  To explore these privacy risks, we built Priva-See, an LLM-based inference system for app-collected user data; Priva-See reflects our best understanding of how real-life adtech companies would leverage machine learning to build user profiles. Through an IRB-approved user study, 465 participants deployed Priva-See on their phones; Priva-See made privacy-invasive inferences despite having access to only a subset of a user's data. We see the experience significantly impacted participant willingness to share permissions data moving forward. Based on the observed privacy violations, we suggest changes to how smartphone OSes should gather user consent for data access, to better inform users about downstream data usage capability.",
+    "updated" : "2026-09-22T20:24:00Z",
+    "published" : "2026-09-22T20:24:00Z",
+    "authors" : [
+      {
+        "name" : "Sarah Radway"
+      },
+      {
+        "name" : "Zoe Robert"
+      },
+      {
+        "name" : "Matthew Soto"
+      },
+      {
+        "name" : "Julianna Cimillo"
+      },
+      {
+        "name" : "Sebastian Diaz"
+      },
+      {
+        "name" : "Meg Marco"
+      },
+      {
+        "name" : "James Mickens"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
   }
 ]
