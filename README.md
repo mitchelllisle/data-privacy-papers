@@ -2,6 +2,43 @@
 <h2>2026-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.29453v1">Decoupled Learning and Selection in Slate Recommendation for Privacy and Stability Under Noisy Scores</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB">
+  <p><b>Published on:</b> 2026-09-24T12:09:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sam Urmian, Qinyi Liu, Mohammad Khalil</p>
+    <p><b>Summary:</b> We formalize slate recommendation as a randomized score learner followed by deterministic selection. First, an appropriately scoped differential-privacy guarantee passes through selection and its audit trace by post-processing. End-to-end privacy holds only when selector inputs are public or independent, previous private outputs, or separately privacy-accounted; fixing raw state or candidate information instead yields only a conditional guarantee. Second, we derive a logged margin certificate: bounded score-induced objective movement below half the smallest greedy decision margin guarantees that the ordered slate is unchanged.
+  Controlled fixed-margin tests show near-linear exponent scaling, with an empirical slope of $-0.220$ (95% CI $[-0.231,-0.210]$) against the independent-noise reference $-1/4$. Real-anchor experiments on OULAD, MovieLens-25M, and Amazon Musical Instruments show that greater anchor weight reduces score-noise-induced ranking churn. OULAD and EdNet certificate checks validate the implementation of the logged inequality, while closed-loop simulations show bounded target drift and setting-dependent downstream utility. The contribution is therefore a privacy-scope contract and a certifiable score-to-slate stability mechanism, not a universal utility claim.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.28685v1">"A Necessary Evil": Teenagers' Sensemaking of Privacy and Safety Settings on Social Media</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-09-23T18:26:39Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jingxin Dong, Lingyun Chen, Chen Ling, Colin M. Gray</p>
+    <p><b>Summary:</b> Social media platforms are embedded in teenagers' daily lives, supporting friendship and identity while exposing teenagers to unwanted contact and privacy harms. Previous scholarship has documented how attention capture strategies and dark patterns shape social media use, and we extend this work to better understand platform settings that ostensibly provide privacy and safety protection. We report on think-aloud sessions with 11 teenagers aged 14 to 17 who completed six privacy and safety tasks on Instagram, TikTok, Snapchat, and YouTube. We show how participants worked out what a setting meant through their routines, boundaries, and prior experiences, how they accommodated protections softer and less predictable than expected, and how they treated the platform as the authority on what protection should look like. We argue that feature-by-feature evaluation cannot establish whether teenagers are protected, and that platforms should carry the obligation to show that a protective action took effect and is durable.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.28672v1">Available but Not Usable: Dark Patterns and Interaction Cost in Social Media Privacy and Safety Settings for Teens</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-09-23T18:13:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jingxin Dong, Lingyun Chen, Chen Ling, Colin M. Gray</p>
+    <p><b>Summary:</b> Social media platforms are central to teenagers' lives, and their designs can expose users to privacy, safety, and wellbeing harms. Platforms increasingly offer protective settings, though the presence of a control reveals little about whether teenagers can find, use, and benefit from it over time. We paired an expert evaluation of six privacy and safety tasks across TikTok, Instagram, Snapchat, and YouTube with moderated think aloud sessions in which 11 teenagers aged 14 to 17 attempted the tasks. Interaction cost and dark patterns analysis allowed us to compare the complexity designed into each task with the effort participants incurred as they located, configured, and interpreted controls. Recurring dark patterns appeared across tasks, and most participant attempts exceeded the expert baseline. Protective settings therefore risk being insufficiently usable or durable in practice, and we propose a wayfinding audit that integrates expert evaluation, usability testing, interaction cost, and dark pattern analysis.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2609.28360v1">Privacy-Preserving Semantic Segmentation from High-Resolution Depth and Ultra-Low-Resolution RGB</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Robotics-F9C80E">
   <p><b>Published on:</b> 2026-09-23T16:31:19Z</p>
@@ -72,6 +109,19 @@
   We show that Renegade's cryptographic guarantees do not deliver these dark pool properties in practice. MPC-with-abort ensures correctness but not fairness: a party may learn the match result and abort without penalty, breaking pre-trade privacy. We demonstrate that the protocol's discovery layer further leaks trading intent before MPC even begins, and that sustained probing via selective abort can probabilistically reconstruct counterparty order history, threatening post-trade confidentiality. We also show that the absence of input-consistency checks prior to MPC execution enables a griefing attack using invalid state commitments requiring no real token holdings that continuously locks honest users' wallets and wastes compute, breaking liveness under sustained conditions.
   We further analyze over 700,000 Renegade transactions on Base and probe the P2P layer, finding that the network is effectively centralized: 88% of traffic routes through a handful of relayers, with only four nodes sustaining the P2P layer. Since relayers hold their users' wallet state in plaintext, this concentration means the system operates as a centralized orderbook in practice - reproducing off-chain the information asymmetry that dark pools are designed to eliminate.
   Together, our results show that cryptographic privacy does not imply dark pool security: pre-trade privacy, liveness, and post-trade confidentiality each require additional protocol-level guarantees beyond MPC correctness.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.28537v1">Privacy Leakage Through AI-mediated Analysis of Smartphone Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-09-22T20:24:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sarah Radway, Zoe Robert, Matthew Soto, Julianna Cimillo, Sebastian Diaz, Meg Marco, James Mickens</p>
+    <p><b>Summary:</b> Over the past thirty years, the online advertising industry built a large-scale data collection ecosystem, with the goal of tracking a user's online activity to infer their demographics and interests. Traditionally, the ecosystem relied upon the collation and analysis of highly-structured text data like user IP addresses, GPS coordinates, e-commerce purchase histories, and visited URLs. However, recent ML models can parse not only structured text, but also multimedia files and unstructured text inputs---meaning a user's photos, videos, inboxes, and calendars are now ripe for automated analysis. The privacy risks are particularly acute in the context of smartphone apps. A user's phone already acts as a natural collation point for sensitive user information, but users may not understand that permitting an app to, for example, access a user's photo does not just give the app access to the bytes in the photo: the app also receives access to inferences about the user that are enabled by the photo.
+  To explore these privacy risks, we built Priva-See, an LLM-based inference system for app-collected user data; Priva-See reflects our best understanding of how real-life adtech companies would leverage machine learning to build user profiles. Through an IRB-approved user study, 465 participants deployed Priva-See on their phones; Priva-See made privacy-invasive inferences despite having access to only a subset of a user's data. We see the experience significantly impacted participant willingness to share permissions data moving forward. Based on the observed privacy violations, we suggest changes to how smartphone OSes should gather user consent for data access, to better inform users about downstream data usage capability.</p>
   </details>
 </div>
 
@@ -1167,54 +1217,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Junzhe Yang, Chang Xia, Xiyun Wang, Anren Sun, Wenbo Ding, Xinye Chen</p>
     <p><b>Summary:</b> Recommender systems are widely used in daily life, but their direct collection and use of user preference data can also lead to privacy leakage. Existing privacy-preserving recommendation methods often find it hard to balance user privacy and recommendation performance. This problem is more serious in implicit-feedback settings, where data sparsity further increases the loss of useful signals caused by privacy perturbation. To solve this problem, we propose CAT-LDP, a cloud-local collaborative recommendation framework under local differential privacy constraints. CAT-LDP combines a hierarchical taxonomy tree with an adaptive privacy budget allocation strategy to keep more useful signals in users' active categories while protecting user privacy. Specifically, users upload perturbed category profiles that satisfy LDP. Based on these profiles, the cloud performs coarse-grained candidate generation, and the local device then carries out fine-grained reranking by using unperturbed local history. Experiments on the Amazon Video Games dataset show that CAT-LDP consistently outperforms its fixed-budget ablation variant and representative baselines on HR@K and NDCG@K under different privacy budgets. The results show that combining category-space modeling with cloud-local task decoupling can effectively reduce noise amplification in long-tail sparse settings and provide a better balance between privacy and utility for implicit-feedback recommendation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.05034v1">Faster Learning under Relaxed Local Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
-  <p><b>Published on:</b> 2026-09-04T11:55:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cristina Butucea, Huiyun Tang, Marie-Luce Taupin</p>
-    <p><b>Summary:</b> We consider density estimation under the relaxed local differential privacy condition that the privatized distributions are $α$-close in total variation distance. We show that adding independent noise with a convenient symmetrized Gamma distribution to each sensitive observation attains the $α$-TV-LDP. We prove that the deconvolution estimator of $r$-Sobolev smooth functions attains the pointwise rate $(nα)^{-\frac{2r-1}{2r}}$ up to log factors which is faster than $(nα^2)^{-\frac{2r-1}{2r+1}}$ under the classical $α$-LDP and closer to the nonprivate minimax rate $n^{-\frac{2r-1}{2r}}$. Next, we use a Goldenshluger-Lepski procedure to build a free of the smoothness adaptive procedure and show optimality of our rates in the convolution model of our privatisation scheme. We illustrate the benefits of this simple privacy mechanism by implementing a neural network estimator which does not need to add more noise in the optimization steps. Numerical results show significant improvement of the estimation rate over the Laplace and the private-SGD mechanisms.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.04592v1">Hidden In Plain Gaze: Gaze Representations as Privacy Controls for Utility and Re-identification Risk in XR</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Emerging Technologies-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-09-04T00:47:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Cory Ilo, Brendan-David John, Doug A. Bowman</p>
-    <p><b>Summary:</b> Intelligent extended reality (XR) systems increasingly use eye and head tracking to infer user intent, task, and attention, but the same signals can also reveal biometric identity. We study whether gaze data representation choice can serve as a lightweight privacy control at feature extraction, before adding perturbation or formal privacy mechanisms. Using the egocentric HoloAssist dataset, we compare three gaze representations under matched model capacity: raw gaze, spatial attention heatmaps, and engineered eye-movement features. We evaluate each representation on action recognition as task utility and closed-set user re-identification as privacy leakage. Representation choice substantially changes the privacy-utility tradeoff. Engineered features retain roughly 85% of raw gaze's action-recognition accuracy while reducing re-identification by about an order of magnitude, to roughly four times the chance rate across 206 identities. This reduction attenuates rather than eliminates identity leakage, and the differences across representations show that abstraction alone does not guarantee privacy. Engineered features expose interpretable and auditable structure, giving designers a transparent privacy lever that complements mechanisms such as differential privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.04382v1">Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-09-03T18:43:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Georgios Politis, Evangelos Pappas</p>
-    <p><b>Summary:</b> We present a systems-security case study of a two-node split-LLM training system whose privacy evaluation passed while leaving an observable channel untested. The Trusted Local Node (TLN) sends protected activations to the Untrusted Cloud Node (UCN), the UCN returns its output, and TLN, holding the private loss, returns the output gradient. The frame the UCN receives mixes real rows with decoys, and the loss ignores the decoys. Their gradients are exactly zero, so the pattern of zeros reveals which rows were real. We measure it with a protocol fixed in advance: a leak injected at known strength to prove the instrument can see one, a shuffled-label control to prove it does not report absent leaks, and a threshold set before the runs. Across nine seeds, the zeros identified the real rows on every frame, 4,096 of 4,096 per run. An attack on the frame contents recovered about one extra token per hundred over a constant-guess baseline (+0.65 to +1.50 percentage points); the shuffled controls recovered nothing. A second set of runs repeated this on a configuration that keeps model quality within budget, so the finding is not confined to a setting nobody would deploy. On both datasets, every such run passed the forward-channel privacy check and the quality check, yet failed that same check once the returned gradient was included. Clipping and noising each row of the gradient closed the leak for about 0.01 nats of held-out cross-entropy. The system is not thereby safe: five classes of attack, including those accumulating observations across training steps, were never measured.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.03659v1">Security and Privacy in the Musical Metaverse: Threat Analysis and Design Implications</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-09-03T10:56:26Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Luca Turchet, Michał Kłosinski</p>
-    <p><b>Summary:</b> The Musical Metaverse (MM) introduces immersive, real-time environments for collaborative musical interaction, characterized by ultra-low-latency constraints, continuous multimodal data streams, and heterogeneous devices. These properties create a distinctive security and privacy landscape that differs significantly from conventional XR or multimedia systems. This paper presents a multi-layer threat analysis of MM ecosystems, identifying key assets including live musical content, expressive interaction data, identity and session metadata, and intellectual property. Threats are analyzed across network, application, data/AI, device, intellectual property rights, and social layers, with particular attention to risks arising from expressive and neurophysiological data, which enable inference, re-identification, and potential privacy violations. We describe a stakeholder-driven survey involving 14 participants from 13 organizations, revealing that neurophysiological data leakage and real-time stream disruption are perceived as the most critical risks, followed by intellectual property infringement and avatar impersonation. We further evaluate the suitability of existing security protocols under strict latency constraints, showing that conventional approaches such as TLS over TCP are often incompatible with real-time musical interaction, while lightweight, stream-oriented mechanisms (e.g., SRTP, DTLS) provide a more suitable balance between security and performance. Based on these findings, we derive a set of design guidelines for MM systems, emphasizing latency-aware security, differentiation of interaction paths, data minimization, and edge-centric processing. The results support a security-by-design approach that enables trust and compliance without compromising real-time performance.</p>
   </details>
 </div>
 
