@@ -3241,5 +3241,116 @@
       "cs.CR",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.31310v1",
+    "title" : "Revisiting Certified Defense with Differential Privacy on Vision Transformers",
+    "summary" : "Certified defenses that incorporate differential privacy have proven effective on Convolutional Neural Networks (CNNs), furnishing rigorous robustness guarantees against norm-bounded adversaries. However, the certified robustness behavior of Pixel Differential Privacy (PixelDP) remains largely unexplored with the self-attention architecture now dominating the deep-learning landscape. Given that the Transformer has a profound impact on our daily applications from the digital world to the physical world, it is crucial to study certified robustness through differential-privacy-style stability. To fill this research gap, we revisit this construction in Vision Transformers and identify a failure mode that is largely hidden in the convolutional setting. When noise is injected after the patch embedding, the Laplace mechanism with the inherited grouped $\\ell_1$ sensitivity bound collapses to chance-level accuracy across noise scales, whereas the Gaussian mechanism remains trainable. This contrast isolates the source of failure: not the injected noise itself, but the geometry of the sensitivity constraint. We show that the attenuation induced by the inherited $Δ_{1,1}$ projection increases with layer width and kernel size according to a random-matrix scale $C/(\\sqrt{M}+\\sqrt{N})$. Replacing the $\\ell_1$-type constraint with a spectral-norm constraint eliminates the collapse across datasets and architectures, but creates a fundamental obstacle: the repaired models no longer satisfy the sensitivity condition required by the standard Laplace certificate. We resolve this mismatch by deriving a dimension-free $(\\varepsilon,\\ δ)$-privacy guarantee for the Laplace mechanism under $\\ell_2$ sensitivity through concentration of the privacy loss.",
+    "updated" : "2026-09-25T14:17:57Z",
+    "published" : "2026-09-25T14:17:57Z",
+    "authors" : [
+      {
+        "name" : "Jun Yan"
+      },
+      {
+        "name" : "Weiquan Huang"
+      },
+      {
+        "name" : "Qixian Zhang"
+      },
+      {
+        "name" : "Yan Bai"
+      },
+      {
+        "name" : "Shutai Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "stat.AP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.31262v1",
+    "title" : "Deduplication-while-Training: A Resilient Paradigm for Privacy-Preserving Cross-Client Deduplication in Federated Learning",
+    "summary" : "Cross-client duplicate data in large language model training corpora degrades the efficiency of federated learning (FL) while exacerbating model memorization and privacy risks. Privacy-preserving cross-client deduplication effectively mitigates this issue by eliminating duplicate training data. However, existing schemes all follow a \"Deduplication-before-Training\" paradigm. This serially coupled paradigm incurs high fault-tolerance costs and lacks support for dynamic client joining.\n  To this end, we propose an unexplored paradigm called \"Deduplication-while-Training (DwT)\", which enables concurrent deduplication and training. DwT transforms cross-client deduplication from a one-time, globally synchronous preprocessing operation into a continuous online service with state management, concurrent claiming, and failure recovery. By enabling state synchronization and task takeover, it minimizes the impact of client disconnections on the overall training progress while supporting the dynamic joining of clients. We design DwT-FL, a privacy-preserving deduplication system, to support DwT. By designing a concurrent state-claim mechanism and a hot-cold dual-queue scheduling strategy, DwT-FL enables the parallel execution of secure deduplication and model training, while effectively handling client disconnections and dynamic joins. Experimental evaluations demonstrate that, compared to the state-of-the-art scheme, DwT-FL significantly reduces the time overhead of failure recovery and dynamic joining by up to 93.04% and 94.18%, respectively. This provides an efficient and elastic concurrent deduplication scheme for dynamic and unstable FL environments.",
+    "updated" : "2026-09-25T13:39:07Z",
+    "published" : "2026-09-25T13:39:07Z",
+    "authors" : [
+      {
+        "name" : "Rongxi Wang"
+      },
+      {
+        "name" : "Guanxiong Ha"
+      },
+      {
+        "name" : "Chunfu Jia"
+      },
+      {
+        "name" : "Yongsheng Lin"
+      },
+      {
+        "name" : "Minfen Gao"
+      },
+      {
+        "name" : "Hanmiaomiao Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.30692v1",
+    "title" : "LUMO (Lightweight Unified Multilingual Orchestrator): A Privacy Preserving Offline Voice Assistant",
+    "summary" : "Reliable voice interaction is essential in environments with limited internet connectivity and strong privacy. However, most existing voice assistants depend on cloud-based services, which leads to latency issues, dependency on internet access, and privacy vulnerabilities. This research presents LUMO (Lightweight Unified Multilingual Orchestrator), a privacy preserving offline voice assistant designed for edge computing environments. This system integrates local Automatic Speech Recognition (ASR), locally deployed quantized Large Language Model (LLM), and Text-to-Speech (TTS) synthesis into a fully offline pipeline running on a Raspberry Pi 5 with 8 GB RAM.\n  To enable efficient operation on resource constrained hardware, the language model is compressed using 4-bit GGUF quantization, which reduces memory usage while preserving practical conversational capability. Existing edge based voice assistants Mycroft provides partial offline functionality without a generative LLM, with an approximate latency of ~5 s and power consumption of ~12 W, while Rhasspy supports full offline operation but lacks generative capabilities, with ~3 s latency and ~11 W power usage. In contrast, LUMO achieves a Word Error Rate (WER) of 6.8% for short English utterances in low noise conditions, an end-to-end response latency of 2.0-4.0 s, and a lower peak power consumption of approximately 9.0 W. The system also achieves effective offline recognition for Bangla speech, supporting multilingual accessibility in low resource settings. By operating entirely offline, LUMO provides strong data privacy, reduced need for cloud connectivity, and suitability for privacy sensitive edge execution such as rural healthcare, education, and disaster response scenarios.",
+    "updated" : "2026-09-25T01:57:42Z",
+    "published" : "2026-09-25T01:57:42Z",
+    "authors" : [
+      {
+        "name" : "Md. Mehedi Hasan Naeem"
+      },
+      {
+        "name" : "Mst. Kamrunnahar Ruma"
+      },
+      {
+        "name" : "Nafiza Anjum"
+      },
+      {
+        "name" : "Shakila Sultana"
+      },
+      {
+        "name" : "Md. Sujan Ali"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.30554v1",
+    "title" : "Privacy-Preserving Prompted Policy Search for Robotic Control",
+    "summary" : "Large language models (LLMs) have recently demonstrated promising capabilities as in-context policy optimizers for Reinforcement Learning (RL), enabling policy search driven by both numerical reward signals and natural language reasoning. However, deploying such methods in practice requires transmitting raw policy parameters and rewards history to cloud-based LLM APIs, exposing proprietary control strategies to third-party service providers. To address this issue, this paper introduces Privacy-Preserving Prompted Policy Search (PP-ProPS), a framework that enables LLM-guided policy optimization while keeping policy and environmental parameters confidential. PP-ProPS encodes policy parameters and reward values using secret client-side transformations before they are included in each API request, ensuring that the LLM provider observes only encoded policy parameters and scaled reward information. Furthermore, unlike Vanilla ProPS, the proposed framework does not require the true optimal episodic return to be known or disclosed to the LLM. Beyond protecting the optimization data, PP-ProPS improves the search process in two ways. First, it provides the LLM with individual reward components instead of only a single total return, offering more informative feedback about each candidate policy. Second, it uses a bounded history that prevents the prompt from growing indefinitely, improving search with high-dimensional policies and supporting the use of open-weight LLMs. The proposed PP-ProPS is evaluated on both continuous and discrete control problems spanning Multi-Joint dynamics with Contact (MuJoCo) locomotion, classic control, highway driving, and robotic arm manipulation. Compared to Vanilla ProPS, the proposed PP-ProPS outperforms ProPS in seven of the ten evaluated tasks, and surpasses conventional RL methods including PPO, SAC, and TRPO, in five of the six tasks.",
+    "updated" : "2026-09-24T21:03:32Z",
+    "published" : "2026-09-24T21:03:32Z",
+    "authors" : [
+      {
+        "name" : "Ali Irshayyid"
+      },
+      {
+        "name" : "Feng Lin"
+      },
+      {
+        "name" : "Chong Li"
+      },
+      {
+        "name" : "Jun Chen"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "eess.SY"
+    ]
   }
 ]
