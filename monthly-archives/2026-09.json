@@ -3788,5 +3788,147 @@
       "cs.AI",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.37667v1",
+    "title" : "Where Privacy Belongs: Placement Diagnosis and Certified Selection for Private Counterfactual Explanations on Graphs",
+    "summary" : "Counterfactual explanations for graph neural networks (GNNs) find the minimal intervention that flips a node's prediction--but computing one requires reading sensitive graph structure, and releasing it discloses that structure. Both existing placements fail. Privatizing the graph before explaining corrupts the target on exactly the borderline nodes needing recourse, manufacturing spurious flips that flip the privatized graph but not the true one. Explaining on the clean graph and perturbing the released explanation resists certification: re-auditing the standard heuristic shows an implied full-release budget of 573--753 on Cora and 256 on CiteSeer--orders of magnitude beyond its advertised budget--with worst-case single-entry leakage at AUC 1.0. We propose PrivCFS, which replaces certification-by-optimization with certification-by-construction: counterfactual selection over a fixed, data-independent candidate universe--edge interventions from a public prior graph, feature interventions from a public schema--whose no-op semantics give neighboring graphs the same output support. A validity-gated, clipped utility of global sensitivity $Δu \\le 1$ released through the exponential mechanism gives pure $\\varepsilon$-DP for the complete released object, composable over queries--to our knowledge the first such guarantee on graphs. Privacy noise is the cheapest stage: at $\\varepsilon$=8 the release retains 94--97% of its support-restricted non-private optimum on the recourse population and 83--95% on the general one; the optimal edge-inference audit attains AUC 0.50 on average and 0.59 worst-pair, versus the heuristic's worst entry 1.0; and transfers to a 15K-node graph at 0.96 valid rate. The dominant cost is a measurable, monotone price in public disclosure, readable off one table before any budget is spent--turning explanation privacy from an accounting risk into a purchasable decision.",
+    "updated" : "2026-09-29T14:23:48Z",
+    "published" : "2026-09-29T14:23:48Z",
+    "authors" : [
+      {
+        "name" : "Yuxiang Yao"
+      },
+      {
+        "name" : "Zijun Zhao"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.37344v1",
+    "title" : "A Sharp Transition in Data Reconstruction under Differential Privacy",
+    "summary" : "Data reconstruction attacks have empirically been successful in recovering training samples from learned models, raising privacy concerns and motivating defenses with guarantees that remain valid against future threats. While differential privacy (DP) provides formal protection, choosing the privacy budget remains a challenge: small budgets severely reduce utility, but it is hard to quantify how large the budget can be without allowing accurate reconstruction. In this work, we study informed attackers who aim to reconstruct a single $d$-dimensional training sample from a $ρ$-zero-concentrated DP model, knowing all other training data. Our main contribution is to establish a sharp transition at $ρ\\asymp d$ for data reconstruction: on the one hand, we derive entropy-based lower bounds for any private mechanism and any attack, characterizing a set of target priors for which reconstruction is information-theoretically impossible for $ρ\\ll d$; on the other hand, we analyze a simple attack on private linear regression with output perturbation, showing that reconstruction is practically feasible for $ρ\\gg d$. Remarkably, the transition moves to $ρ\\asymp s$ for data lying in an $s$-dimensional subspace, demonstrating that the privacy budget guaranteeing adequate protection must be assessed in terms of the effective dimension of the data. We validate our findings via experiments on synthetic data and natural images (CIFAR-10, ImageNet).",
+    "updated" : "2026-09-29T12:12:47Z",
+    "published" : "2026-09-29T12:12:47Z",
+    "authors" : [
+      {
+        "name" : "Max Cairney-Leeming"
+      },
+      {
+        "name" : "Simone Bombari"
+      },
+      {
+        "name" : "Marco Mondelli"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.36153v1",
+    "title" : "Privacy-Friendly Cohort Determination: Sealed, CSP-Independent In-Browser ML Inference of Professional Segments for Identity-Less Advertising",
+    "summary" : "B2B advertising targets a viewer's professional attributes (employer size and industry, function, seniority) and has obtained them by matching identities across sites. Safari and Firefox block third-party cookies, Google retired the Privacy Sandbox cohort APIs in 2025, and reverse-IP firmographics decay under remote work. We present SIF (Sealed Inference Frame), which infers coarse professional cohorts on the device and emits only a locally differentially private, taxonomy-coded label into the OpenRTB bid stream, with no cross-site identifier. It rests on a property of the web platform we make precise: a navigated cross-origin iframe is the only way third-party code obtains a policy it controls, so inference runs in WebAssembly even where the publisher's CSP forbids it, and a nested worker served with default-src 'none' gives the model no network. Even a malicious model leaks at most about 5 bits per site per week. Labels pass through a memoised k-ary randomised response keyed to the publisher's first-party identifier, which gives $\\varepsilon$-local differential privacy, defeats averaging, and links requests no better than the identifier already sent. An org-conditional k-anonymity rule suppresses cells, more strictly on corporate networks than at home. Cohorts ride OpenRTB user.data in a LinkedIn-aligned taxonomy, and attribution uses LinkedIn's click-scoped li_fat_id without bridging identities. We report a crawl of CSP deployment on 7,969 top sites and 431 B2B publishers, Heavy-Ad budgets, closed-form privacy-utility trade-offs, a re-identification simulation, and an assessment of which attributes are predictable at all: company type and size are, seniority largely is not. On-device is a design property, not a consent exemption.",
+    "updated" : "2026-09-28T19:24:19Z",
+    "published" : "2026-09-28T19:24:19Z",
+    "authors" : [
+      {
+        "name" : "Om Shankar Tiwari"
+      },
+      {
+        "name" : "Navnit Shukla"
+      },
+      {
+        "name" : "Guanyu Wang"
+      },
+      {
+        "name" : "Akshay Jain"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.35951v1",
+    "title" : "When Privacy Becomes a Weapon: Understanding Doxxing and Privacy Vulnerabilities in Mainland China's Social Media Ecosystem",
+    "summary" : "Doxxing, the malicious disclosure of personal information, has become a pervasive privacy threat. Yet existing research remains predominantly Western-centric, limiting our understanding of how doxxing unfolds in contexts where mandatory identity systems, platform governance, and cultural logics fundamentally reshape privacy risks and harm trajectories. We address this gap through semi-structured interviews with 18 doxxing survivors in mainland China, synthesizing their experiences into a framework conceptualizing how doxxing operates in this context. Our findings reveal both patterns echoing prior Western findings, such as platform amplification mechanisms that resonate with Western findings, and China-specific dynamics shaped by the interplay of regulatory mandates (compulsory identity linkage) and cultural logics including nationalist discourse, fandom culture, Confucian values, and low privacy literacy. Survivors' experiences further reveal how doxxing reshapes understanding of privacy: from preference to precondition, from momentary disclosure to temporal vulnerability, and from individual control to structural powerlessness. These insights challenge agency-centered privacy frameworks and suggest that effective protection requires constraining systemic vulnerabilities rather than relying solely on user empowerment. We conclude by proposing multifaceted recommendations spanning legal reform, platform design, and social initiatives.",
+    "updated" : "2026-09-28T17:29:48Z",
+    "published" : "2026-09-28T17:29:48Z",
+    "authors" : [
+      {
+        "name" : "Xiao Zhan"
+      },
+      {
+        "name" : "Shijing He"
+      },
+      {
+        "name" : "Chi Zhang"
+      },
+      {
+        "name" : "Jose Such"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.35937v1",
+    "title" : "PrivacySkills: How Privacy Guidance Shapes Source Selection in LLM Agents",
+    "summary" : "While prior work has documented privacy failures in LLM agents, it remains unclear how the presentation of privacy guidance influences their choice of information sources. We introduce PrivacySkills, a controlled framework for evaluating how agents choose among acquisition pathways that provide the same task-relevant value: consulting publicly available personal information, accessing confidential sources, or interacting with the user. The evaluation framework comprises 55 synthetic tasks spanning 11 categories of personal information, with 169 associated skills that describe the available acquisition pathways. We consider privacy guidance through system-level instructions, skill-level metadata labels, or both. Separately, we vary user availability and urgency framing. With users available and no privacy guidance, agents access confidential sources in 30% of valid runs on average across five open-weight models, despite sufficient alternatives. This rate increases to 45% when users are unavailable, whereas urgency framing has no detectable effect. System-level privacy instructions alone have limited effects on confidential access, while skill-level intrusiveness labels produce a modest reduction (24% on average), but combining the two roughly halves confidential access. Our findings motivate incorporating privacy annotations into skill specifications and evaluating their effectiveness alongside system-level instructions.",
+    "updated" : "2026-09-28T15:22:09Z",
+    "published" : "2026-09-28T15:22:09Z",
+    "authors" : [
+      {
+        "name" : "Lucas Biechy"
+      },
+      {
+        "name" : "Cédric Eichler"
+      },
+      {
+        "name" : "Héber H. Arcolezi"
+      },
+      {
+        "name" : "Nicolas Anciaux"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.34768v2",
+    "title" : "Privacy-Preserving Full-Body Meshing from mmWave Radar via Mesh Foundation Model Supervision",
+    "summary" : "Millimeter-wave (mmWave) radar enables privacy-preserving human perception, but the extreme sparsity of point clouds from commercial single-chip sensors (mean ~6.5 points/frame; ~28% empty frames) has confined prior art to body-part keypoints or discrete action classification. We present a cross-modal teacher-student framework that lifts commercial radar to full-body, per-frame, metric 3D mesh reconstruction with per-joint uncertainty. Three innovations: (1) a mesh-foundation-model teacher - SAM 3D Body produces whole-body MHR ground truth (70 joints, 18,439 mesh vertices) from a single RGB frame with zero training, slashing annotation cost by orders of magnitude; (2) StudentPoseFormer - set encoding with masked attention pooling, a temporal Transformer, and a CVAE multi-hypothesis head that outputs both the pose mean and per-joint variance, honestly reporting where the radar cannot see; and (3) a multi-stage ground-truth quality pipeline (confidence gating, depth validation, temporal smoothing, bone-length consistency, bad-frame rejection) plus systematic information-lever ablations. On the public MM-Fi benchmark (same TI IWR6843 sensor, cross-subject), our full configuration reaches 7.45 cm 12-joint MPJPE, with ablations proving the causal value of point accumulation (k = 3, -0.34 cm), Doppler (-0.85 cm; -2 cm at the wrist on fast actions), and velocity loss (-0.27 cm). On our own synchronized radar + RGB-D corpus with block-level held-out splits, the pipeline achieves 21.47 cm end-to-end (per-joint hierarchy from 4.8 cm at the hip to 34.7 cm at the wrist - matching physical information limits), could be improved to 15 cm with ~30k diverse samples, and a scaling law shows sample diversity, not volume, is the binding constraint. Deployment inference is radar-only - no camera, no image.",
+    "updated" : "2026-09-29T10:47:46Z",
+    "published" : "2026-09-28T09:49:08Z",
+    "authors" : [
+      {
+        "name" : "Shuxing Zhang"
+      },
+      {
+        "name" : "Yongquan Ni"
+      },
+      {
+        "name" : "Zhenyu Ding"
+      },
+      {
+        "name" : "Yawen Lin"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CV"
+    ]
   }
 ]
