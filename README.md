@@ -2,6 +2,54 @@
 <h2>2026-09</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.37667v1">Where Privacy Belongs: Placement Diagnosis and Certified Selection for Private Counterfactual Explanations on Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-09-29T14:23:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yuxiang Yao, Zijun Zhao</p>
+    <p><b>Summary:</b> Counterfactual explanations for graph neural networks (GNNs) find the minimal intervention that flips a node's prediction--but computing one requires reading sensitive graph structure, and releasing it discloses that structure. Both existing placements fail. Privatizing the graph before explaining corrupts the target on exactly the borderline nodes needing recourse, manufacturing spurious flips that flip the privatized graph but not the true one. Explaining on the clean graph and perturbing the released explanation resists certification: re-auditing the standard heuristic shows an implied full-release budget of 573--753 on Cora and 256 on CiteSeer--orders of magnitude beyond its advertised budget--with worst-case single-entry leakage at AUC 1.0. We propose PrivCFS, which replaces certification-by-optimization with certification-by-construction: counterfactual selection over a fixed, data-independent candidate universe--edge interventions from a public prior graph, feature interventions from a public schema--whose no-op semantics give neighboring graphs the same output support. A validity-gated, clipped utility of global sensitivity $Δu \le 1$ released through the exponential mechanism gives pure $\varepsilon$-DP for the complete released object, composable over queries--to our knowledge the first such guarantee on graphs. Privacy noise is the cheapest stage: at $\varepsilon$=8 the release retains 94--97% of its support-restricted non-private optimum on the recourse population and 83--95% on the general one; the optimal edge-inference audit attains AUC 0.50 on average and 0.59 worst-pair, versus the heuristic's worst entry 1.0; and transfers to a 15K-node graph at 0.96 valid rate. The dominant cost is a measurable, monotone price in public disclosure, readable off one table before any budget is spent--turning explanation privacy from an accounting risk into a purchasable decision.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.37344v1">A Sharp Transition in Data Reconstruction under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> 
+  <p><b>Published on:</b> 2026-09-29T12:12:47Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Max Cairney-Leeming, Simone Bombari, Marco Mondelli</p>
+    <p><b>Summary:</b> Data reconstruction attacks have empirically been successful in recovering training samples from learned models, raising privacy concerns and motivating defenses with guarantees that remain valid against future threats. While differential privacy (DP) provides formal protection, choosing the privacy budget remains a challenge: small budgets severely reduce utility, but it is hard to quantify how large the budget can be without allowing accurate reconstruction. In this work, we study informed attackers who aim to reconstruct a single $d$-dimensional training sample from a $ρ$-zero-concentrated DP model, knowing all other training data. Our main contribution is to establish a sharp transition at $ρ\asymp d$ for data reconstruction: on the one hand, we derive entropy-based lower bounds for any private mechanism and any attack, characterizing a set of target priors for which reconstruction is information-theoretically impossible for $ρ\ll d$; on the other hand, we analyze a simple attack on private linear regression with output perturbation, showing that reconstruction is practically feasible for $ρ\gg d$. Remarkably, the transition moves to $ρ\asymp s$ for data lying in an $s$-dimensional subspace, demonstrating that the privacy budget guaranteeing adequate protection must be assessed in terms of the effective dimension of the data. We validate our findings via experiments on synthetic data and natural images (CIFAR-10, ImageNet).</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.36153v1">Privacy-Friendly Cohort Determination: Sealed, CSP-Independent In-Browser ML Inference of Professional Segments for Identity-Less Advertising</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-09-28T19:24:19Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Om Shankar Tiwari, Navnit Shukla, Guanyu Wang, Akshay Jain</p>
+    <p><b>Summary:</b> B2B advertising targets a viewer's professional attributes (employer size and industry, function, seniority) and has obtained them by matching identities across sites. Safari and Firefox block third-party cookies, Google retired the Privacy Sandbox cohort APIs in 2025, and reverse-IP firmographics decay under remote work. We present SIF (Sealed Inference Frame), which infers coarse professional cohorts on the device and emits only a locally differentially private, taxonomy-coded label into the OpenRTB bid stream, with no cross-site identifier. It rests on a property of the web platform we make precise: a navigated cross-origin iframe is the only way third-party code obtains a policy it controls, so inference runs in WebAssembly even where the publisher's CSP forbids it, and a nested worker served with default-src 'none' gives the model no network. Even a malicious model leaks at most about 5 bits per site per week. Labels pass through a memoised k-ary randomised response keyed to the publisher's first-party identifier, which gives $\varepsilon$-local differential privacy, defeats averaging, and links requests no better than the identifier already sent. An org-conditional k-anonymity rule suppresses cells, more strictly on corporate networks than at home. Cohorts ride OpenRTB user.data in a LinkedIn-aligned taxonomy, and attribution uses LinkedIn's click-scoped li_fat_id without bridging identities. We report a crawl of CSP deployment on 7,969 top sites and 431 B2B publishers, Heavy-Ad budgets, closed-form privacy-utility trade-offs, a re-identification simulation, and an assessment of which attributes are predictable at all: company type and size are, seniority largely is not. On-device is a design property, not a consent exemption.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.35951v1">When Privacy Becomes a Weapon: Understanding Doxxing and Privacy Vulnerabilities in Mainland China's Social Media Ecosystem</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-09-28T17:29:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiao Zhan, Shijing He, Chi Zhang, Jose Such</p>
+    <p><b>Summary:</b> Doxxing, the malicious disclosure of personal information, has become a pervasive privacy threat. Yet existing research remains predominantly Western-centric, limiting our understanding of how doxxing unfolds in contexts where mandatory identity systems, platform governance, and cultural logics fundamentally reshape privacy risks and harm trajectories. We address this gap through semi-structured interviews with 18 doxxing survivors in mainland China, synthesizing their experiences into a framework conceptualizing how doxxing operates in this context. Our findings reveal both patterns echoing prior Western findings, such as platform amplification mechanisms that resonate with Western findings, and China-specific dynamics shaped by the interplay of regulatory mandates (compulsory identity linkage) and cultural logics including nationalist discourse, fandom culture, Confucian values, and low privacy literacy. Survivors' experiences further reveal how doxxing reshapes understanding of privacy: from preference to precondition, from momentary disclosure to temporal vulnerability, and from individual control to structural powerlessness. These insights challenge agency-centered privacy frameworks and suggest that effective protection requires constraining systemic vulnerabilities rather than relying solely on user empowerment. We conclude by proposing multifaceted recommendations spanning legal reform, platform design, and social initiatives.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2609.35534v1">Privacy-Aware ISAC for Full-Duplex Monostatic Systems Using Movable Antennas</a></h3>
   
   <p><b>Published on:</b> 2026-09-28T16:17:05Z</p>
@@ -9,6 +57,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Yasas Savinda, Mohammadali Mohammadi, Himal A. Suraweera, Henk Wymeersch</p>
     <p><b>Summary:</b> This work investigates sensing privacy in full-duplex (FD) monostatic integrated sensing and communication (ISAC) systems with movable antennas (MAs). The proposed approach jointly optimizes beamforming and antenna trajectories to create a deceptive dummy DD-bin response at a passive sensing eavesdropper (Eve), while satisfying a true-bin sensing-quality requirement at the base station (BS). The resulting problem is highly non-convex. {To address this, a stage-wise alternating local-search framework is developed to obtain suboptimal solutions. Within this framework, we maximize the worst-case margin between dummy and true delay-Doppler (DD)-bin detector-oriented SINR surrogates over a discretized uncertainty region for Eve, incorporating detector-aligned dummy-bin refinement and true-bin preservation.} Simulation results show that the proposed MA-enabled design suppresses Eve's true-target DD-bin selection and increases dummy-bin selection probability compared with benchmark schemes, while maintaining reliable BS sensing performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2609.35937v1">PrivacySkills: How Privacy Guidance Shapes Source Selection in LLM Agents</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-09-28T15:22:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lucas Biechy, Cédric Eichler, Héber H. Arcolezi, Nicolas Anciaux</p>
+    <p><b>Summary:</b> While prior work has documented privacy failures in LLM agents, it remains unclear how the presentation of privacy guidance influences their choice of information sources. We introduce PrivacySkills, a controlled framework for evaluating how agents choose among acquisition pathways that provide the same task-relevant value: consulting publicly available personal information, accessing confidential sources, or interacting with the user. The evaluation framework comprises 55 synthetic tasks spanning 11 categories of personal information, with 169 associated skills that describe the available acquisition pathways. We consider privacy guidance through system-level instructions, skill-level metadata labels, or both. Separately, we vary user availability and urgency framing. With users available and no privacy guidance, agents access confidential sources in 30% of valid runs on average across five open-weight models, despite sufficient alternatives. This rate increases to 45% when users are unavailable, whereas urgency framing has no detectable effect. System-level privacy instructions alone have limited effects on confidential access, while skill-level intrusiveness labels produce a modest reduction (24% on average), but combining the two roughly halves confidential access. Our findings motivate incorporating privacy annotations into skill specifications and evaluating their effectiveness alongside system-level instructions.</p>
   </details>
 </div>
 
@@ -40,7 +100,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.34768v1">Privacy-Preserving Full-Body Meshing from mmWave Radar via Mesh Foundation Model Supervision</a></h3>
+  <h3><a href="http://arxiv.org/abs/2609.34768v2">Privacy-Preserving Full-Body Meshing from mmWave Radar via Mesh Foundation Model Supervision</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
   <p><b>Published on:</b> 2026-09-28T09:49:08Z</p>
   <details>
@@ -1155,66 +1215,6 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Noman Sadiq, Mohsen Toorani</p>
     <p><b>Summary:</b> Clinical electroencephalography (EEG) data are valuable for healthcare research and for developing artificial intelligence (AI)-based clinical decision-support systems, but EEG recordings and derived features may contain sensitive patient-specific information. This creates privacy risks when data are reused, analyzed, or shared across clinical and research environments. Conventional anonymization methods are often insufficient for high-dimensional biomedical signals, since removing direct identifiers does not necessarily prevent re-identification, linkage, or inference risks. At the same time, strong privacy protection may distort clinically relevant signal characteristics and reduce data utility. This paper studies subject-level differential privacy for protecting clinical EEG-derived feature representations using Gaussian and Laplace perturbations. The proposed framework considers three deployment scenarios: client-side anonymization, centralized server-side anonymization, and decentralized local training. Following EEG preprocessing and feature extraction, Gaussian and Laplace perturbations are applied to the resulting patient-level EEG feature representations. The Laplace experiments evaluate the implemented noise scales, while the scales required for formal full-vector calibration are derived separately. The effects of both perturbations are assessed using statistical utility measures and a downstream machine-learning-based utility check. The results show that differentially private perturbation can be integrated into EEG processing workflows, but the selected mechanism, privacy parameters, and sensitivity calibration strongly influence data utility. The study highlights the practical privacy-utility trade-off in DP-based EEG feature anonymization and the challenges of preserving downstream utility in small and imbalanced clinical EEG datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.11762v1">Component-Aware Differential Privacy for Federated Multilingual Speech-LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-09-10T16:17:19Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jordi Luque, Fernando López, Aleix Sant</p>
-    <p><b>Summary:</b> Per-layer differential privacy (DP) clipping improves gradient fidelity in federated learning by allocating per-matrix clipping budgets proportional to parameter count. We show that this recipe breaks for speech large language models (speech-LLMs), when the acoustic encoder and the language decoder differ by an order of magnitude in update norm. Single-pool per-layer methods suffer \emph{cross-component budget collapse}, dragging word error rate (WER) far from flat global clipping or collapsing training entirely. When the norm imbalance is milder, adaptive single-pool methods partially recover, confirming that collapse severity scales with the inter-component norm ratio. We empirically diagnose the root cause across six per-layer methods and three speech-LLM architectures. We then propose \emph{$α$-split}, a two-pool allocation that normalises encoder and LLM parameters into independent pools, and show that joint $\ell_2$ sensitivity and the original $(\varepsilon,δ)$-DP guarantee are unchanged. At architecture-calibrated $α$, our method recovers WER utility compared to flat DP, while granting the encoder $4.47{\times}$ tighter per-component noise protection against speaker voice-based gradient-inversion attacks at only $+2.6\%$ LLM noise overhead.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.11685v1">Privacy-Preserving Causal Meta-Mediation Analysis with Survival Outcomes</a></h3>
-   
-  <p><b>Published on:</b> 2026-09-10T15:13:57Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Marie-Félicia Beclin, Tat-Thang Vo</p>
-    <p><b>Summary:</b> Privacy and data-governance constraints often prevent pooling individual-level data across studies, limiting the use of conventional approaches for causal media- tion analysis in multicenter settings. We propose a federated causal meta-mediation framework for right-censored time-to-event outcomes that enables collaborative es- timation without sharing individual-level data. Our framework targets natural indirect effects in a prespecified population by combining information on mediator and outcome mechanisms across distributed data sources. A site-by-site identifi- cation strategy further allows heterogeneity across data sources to be character- ized, with a variance decomposition separating outcome-related, mediator-related, and interaction components. We develop federated one-step and targeted maxi- mum likelihood estimators that accommodate data-adaptive and machine-learning methods for nuisance-function estimation. The finite-sample performance of the proposed estimators is evaluated through numerical simulations. To illustrate the practical utility of the framework, we apply it on data from the French National Health Data System to evaluate the role of methotrexate coprescription in explain- ing the effect of TNFi versus IL-12/23 inhibitor therapy on treatment persistence among psoriatic patients.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.10992v2">Demystifying the Privacy-Utility Trade-off in LLM Interactions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-09-10T02:12:51Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhenhua Liu, Zhanxu Xie, Junjie Yu, Tong Zhu, Lijun Li, Wenliang Chen</p>
-    <p><b>Summary:</b> The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposing sensitive user information. Current privacy-preserving methods typically employ context-agnostic static rules, causing severe utility degradation. However, the specific mechanisms governing how sanitization impacts downstream performance remain largely underexplored. To address this, we conduct a systematic analysis to deconstruct the privacy-utility trade-off, uncovering three underlying mechanisms: (1) Context-Dependent Utility, which first establishes when to sanitize by revealing that data value shifts from critical constraints to dispensable noise based on user intent; (2) Strategic Adaptation, which subsequently determines how to sanitize by dictating that the choice between removal and replacement depends on the task's reliance on factual integrity versus structural coherence; and (3) Combinatorial Interplay, which finally extends the protection scope by demonstrating that attributes form a semantic web of synergistic dependencies or antagonistic redundancies. Guided by these insights, we introduce an intent-driven local protection framework. By distilling a lightweight model Veilmind-4B to drive a dynamic extraction-sanitization-restoration pipeline, our approach reaches a low-leakage privacy point while preserving substantially higher response utility than existing privacy-oriented baselines, advancing the privacy-utility trade-off toward the Pareto frontier.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.09963v1">CrossLink: Breaking Location Privacy by Linking Device Identifiers Across Protocols</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-09-09T09:51:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aneet Kumar Dutta, Mihirraj Dixit, Kevin Gni, Wouter Lueks, Mridula Singh</p>
-    <p><b>Summary:</b> Smartphones simultaneously transmit temporary identifiers over LTE, WiFi, and BLE. Existing privacy defenses analyze identifier randomization per protocol, implicitly assuming that these protections compose across protocols. We show that they do not: Even when each protocol leaks only temporary identifiers and the adversary is fully passive, unsynchronized identifier rotations allow cross-protocol stitching of device traces. We present CrossLink, an uncertainty-aware tracing algorithm that links identifiers across time, space, and protocols under noisy localization and mobility. We evaluate CrossLink using controlled lab experiments with commodity devices and large-scale mobility simulation. Under large-scale mobility simulation, CrossLink reconstructs full traces for 83% of users, versus 22% for the best single-protocol baseline, showing that location privacy must be analyzed jointly across protocols. We further show that CrossLink remains effective under partial coverage: strategically placed sniffers near LTE handover regions, mobile sniffers, and limited high-coverage subregions retain sufficient cross-protocol evidence to bridge observation gaps, achieving substantially higher linkability than random deployments.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.09794v1">Privacy-Preserving Split Learning for Federated LLM Fine-Tuning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-09-09T06:48:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Heng Jin, Chaoyu Zhang, Hexuan Yu, Wenjing Lou, Y. Thomas Hou</p>
-    <p><b>Summary:</b> Fine-tuning large language models (LLMs) on domain-specific data is essential for downstream adaptation. In many deployments, a participant cannot hold the complete model locally. This happens because the model owner keeps the full model proprietary, or because the participant lacks sufficient compute resources. Split Learning (SL) addresses this by partitioning the model between the participant and a server so that only a small portion runs locally. When the underlying data is additionally distributed across multiple institutions with privacy requirements, Federated Learning (FL) further enables collaborative training across participants by sharing only model updates instead of raw data. In this combined setting, each client transmits intermediate activations to the server, and for LLM fine-tuning, this exchange poses an inherent privacy paradox. The autoregressive nature of LLMs causes the transmitted activations to leak the input, and existing perturbation-based defenses are fundamentally ineffective in this setting. We address this leakage through a learned obfuscate-and-recover scheme that protects participants' private datasets while still allowing an independently deployable model to be trained on the server side. Experiments demonstrate that our approach achieves strong privacy protection with modest utility loss and system overhead, making split-based federated LLM fine-tuning practically viable.</p>
   </details>
 </div>
 
