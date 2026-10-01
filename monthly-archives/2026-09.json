@@ -3930,5 +3930,319 @@
       "cs.AI",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.39787v1",
+    "title" : "Privacy Foundations for Multi-Institutional Scientific Artificial Intelligence",
+    "summary" : "Scientific artificial intelligence (AI), spanning foundation models (FMs) to federated data-analysis pipelines, is becoming shared infrastructure across national laboratories, universities, hospitals, and industrial partners. This collaboration creates privacy risks whose natural unit is often an institution's participation, research strategy, or technical capability rather than a single record. Differential privacy (DP), federated learning (FL), secure computation, trusted execution, and provenance each protect parts of the stack, but their guarantees rarely compose across mixed-trust institutions, access tiers, and autonomous agents. This perspective recasts privacy for scientific AI as an assurance problem defined by six elements: protected asset, observer, channel, permitted disclosure, guarantee, and evidence. We demonstrate the framing through a claim register for a composite cross-institutional scenario and use it to assess the model lifecycle. Two of the resulting gaps are specific to leadership-class facilities: scheduler, allocation, and telemetry metadata expose an institution's resource posture, and instrument-attached control loops leak research strategy through timing and contention on shared accelerators. We identify six research priorities: institution-level guarantees, agent-communication privacy, cross-tier information flow, privacy-compatible reproducibility, leadership-scale accounting, and instrument side channels. The contribution is a common form for stating, comparing, and auditing claims whose guarantees otherwise remain fragmented across the scientific AI stack.",
+    "updated" : "2026-09-30T14:08:13Z",
+    "published" : "2026-09-30T14:08:13Z",
+    "authors" : [
+      {
+        "name" : "Olivera Kotevska"
+      },
+      {
+        "name" : "Sumit Jha"
+      },
+      {
+        "name" : "Aurélien Bellet"
+      },
+      {
+        "name" : "Rui Hu"
+      },
+      {
+        "name" : "Nathaniel D. Bastian"
+      },
+      {
+        "name" : "Rafael Ferreira da Silva"
+      },
+      {
+        "name" : "Ravi Madduri"
+      },
+      {
+        "name" : "Kibaek Kim"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.39362v1",
+    "title" : "Link Inference Attack on Privacy-Preserving Knowledge Graphs",
+    "summary" : "Knowledge Graphs (KGs) are widely used to store and share structured information across sensitive domains such as healthcare, fi- nance, and social networks. A common privacy practice is to delete sen- sitive relations before publishing the graph, under the assumption that removing edges is sufficient to prevent their recovery. In this paper, we challenge this assumption and show that even when a relation is fully or partially hidden, its existence leaves structural traces in the public graph that can be exploited to recover it with high accuracy. To this end, we propose a link inference attack that operates on the topology of the public graph, and evaluate it under two privacy scenarios that differ in how the adversary exploits the knowledge available to him. In the first setting where the adversary exploits all topological information, the attack achieves near-perfect discrimination (AP = 0.949, ROC-AUC = 0.999), while in the more realistic one where the adversary makes use of some semantic information, it recovers up to 74% of hidden edges. Build- ing on these results, we further conduct a structural analysis to identify which topological properties of the graph drive the attack success, re- vealing that privacy risk is not uniform across entities and that certain structural patterns make specific relations significantly more vulnerable to inference than others.",
+    "updated" : "2026-09-30T09:18:18Z",
+    "published" : "2026-09-30T09:18:18Z",
+    "authors" : [
+      {
+        "name" : "Emna Bouguerra"
+      },
+      {
+        "name" : "Ibtissam Harrouche"
+      },
+      {
+        "name" : "Ferran Alborch"
+      },
+      {
+        "name" : "Melek Önen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38934v1",
+    "title" : "PrivCert: Certifying Statement Support under Differential Privacy",
+    "summary" : "Differentially private (DP) text generation can protect individual records, but privacy alone does not specify what evidence a released statement carries about the underlying data. We identify this as an evidence gap: a private report may contain plausible claims without indicating whether they are strongly supported by the private dataset. We introduce PrivCert, a framework for privacy-preserving reporting that makes statement support explicit through privacy-preserving certificates and emit-or-abstain decisions. As a canonical instantiation, PrivCert-PF (Proposal-and-Filter) separates data-independent candidate discovery from private support certification, emitting only statements whose support passes a private evidence test. We provide theoretical grounding for this framework by characterizing the limits of implicit evidence under DP, deriving a sharp privacy--honesty frontier for single-statement certification, and establishing a worst-case cost for fine-grained multi-statement certification. Experiments on synthetic tasks and TAB, WildChat, and Yelp show that explicit certification maintains low unsupported emission, while free-text DP baselines frequently produce low-support claims under the same declared support semantics. We further show that the PrivCert contract can be realized with histogram, sparse-vector, and Gaussian mechanisms, and use DP synthetic data to illustrate an important boundary: support in a private proxy does not automatically certify support in the original data. Together, these results position privacy-preserving reporting as an evidence-design problem: not only how to generate private text, but what a private report can substantiate about its underlying data.",
+    "updated" : "2026-09-30T04:12:10Z",
+    "published" : "2026-09-30T04:12:10Z",
+    "authors" : [
+      {
+        "name" : "Tsubasa Takahashi"
+      },
+      {
+        "name" : "Takumi Hiraoka"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38830v1",
+    "title" : "SparLeak: Privacy Leakage from Sparse Attention in LLM Inference on Shared GPUs",
+    "summary" : "Sparse attention is widely used to accelerate long-context inference in modern large language models (LLMs), but its input-dependent execution behavior introduces previously unexplored privacy risks. We identify a new GPU micro-architectural side channel, termed Sparsity-Induced Memory Access (SIMA), which arises from secret-dependent key-value cache access patterns induced by sparse attention.\n  Based on this observation, we present SparLeak, a phase-aware side-channel attack that extracts SIMA traces during LLM inference and enables two practical privacy extractions: query attribute inference from prefill-phase traces and autoregressive response reconstruction from decoding-phase traces. By reconstructing approximate token-level sparsity profiles from page-level observations and applying profiling-based learning, SparLeak accurately recovers sensitive information, including user-query attributes and private LLM response content. Extensive evaluation across three LLM architectures, three sparse attention mechanisms, and three privacy-sensitive datasets shows that SparLeak achieves average attack success rates of 90.9% for attribute inference and 87.3% for response reconstruction under real-world LLM serving settings, highlighting the significance to account for SIMA leakage when deploying sparse-attention-based LLM systems. We provide anonymized SIMA traces, trained attack models, evaluation scripts, and documentation as artifacts at https://anonymous.4open.science/r/Janus_artifacts/.",
+    "updated" : "2026-09-30T02:52:28Z",
+    "published" : "2026-09-30T02:52:28Z",
+    "authors" : [
+      {
+        "name" : "Fahao Chen"
+      },
+      {
+        "name" : "Linkang Du"
+      },
+      {
+        "name" : "Jinhao Zhou"
+      },
+      {
+        "name" : "Peng Li"
+      },
+      {
+        "name" : "Zhou Su"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38630v1",
+    "title" : "Strong Multilingual Privacy Tagging at Encoder Speed",
+    "summary" : "Privacy redaction must remove personal information while preserving relationships expressed in text. We develop a multilingual named-entity tagger with fine-grained distinctions supporting varied redaction policies and methods for cheaply learning additional distinctions. We fine-tune a multilingual encoder with an affine span-tagging head on frontier-model annotations in 35 languages, replay mapped human gold with coverage-aware masking so unannotated types are not treated as negatives, and repair subword boundaries with a learned +/-1-character adjustment. On 1,283 human-gold test segments in seven languages, best measured redaction F1 is 88.8, against 69.1 for published GLiNER2 with 11 unrepresentable types excluded from its task (68.8 without that exemption), 67.8 for GLiNER2 adapted to the new training data, 57.3 for Microsoft Presidio and 35.8 for the best published OpenAI Privacy Filter fine-tune. Adding about 50,000 annotated training sentences and increasing human-gold replay improves exact typed-span F1 from 74.5 to 76.3 on Ont3, our 31-type frontier-annotated NER evaluation of 1,201 development segments. Mapped-gold replay alone raises human-gold F1 by ten points without loss on frontier-annotated text; boundary adjustment adds 1.7 exact typed-span F1 points on Ont3. Local LLMs fitting on a single 96-GB GPU underperformed as prompted annotators and frozen encoders, with encoding 30-95 times slower than XLM-R inference and prompted annotation roughly 180-1,100 times slower in the evaluated configurations. The encoder architecture delivers 4.9 times GLiNER2's CPU throughput. We release code, prompts and training recipes, with data-acquisition scripts and source links.",
+    "updated" : "2026-09-29T22:41:39Z",
+    "published" : "2026-09-29T22:41:39Z",
+    "authors" : [
+      {
+        "name" : "Jonathan Graehl"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38458v1",
+    "title" : "PrivMeSA: Privacy-Aware Self-Evolving Multi-Agent System for Medicine via Local-Remote LLM Collaboration",
+    "summary" : "Clinical large language model (LLM) agents deployed locally can consult more capable remote models, but doing so risks exposing patient information. Privacy-conscious delegation places disclosure decisions with a local agent, yet removing explicit identifiers is insufficient: quasi-identifiers can accumulate across multi-turn consultations and repeated patient visits to enable re-identification. We introduce PrivMeSA, a privacy-aware self-evolving multi-agent system that learns to control disclosure and retains remote expertise for local reuse. A local agent manages each encounter and consults remote specialists that may request additional information. Reinforcement learning balances task accuracy against direct disclosure and registry-based re-identification risk, with privacy evaluated over the complete outbound transcript of each encounter. A local lesson memory distills completed consultations into generalized clinical guidance and retrieves relevant lessons before transmission, allowing subsequent cases to reuse expertise without another remote exchange. Memory grows without additional outcome labels or parameter updates. On an emergency-department benchmark built from MIMIC-IV-ED records, PrivMeSA improves mean task accuracy over delegation by up to 15.8 percentage points. In the same setting, PrivMeSA reduces the disclosure of personal details from 98.0% to 0.2% of cases and the share of cases in which the patient can be narrowed to ten or fewer registry patients from 74% to 0%.",
+    "updated" : "2026-09-29T19:47:38Z",
+    "published" : "2026-09-29T19:47:38Z",
+    "authors" : [
+      {
+        "name" : "Dannong Wang"
+      },
+      {
+        "name" : "Yuran Zhang"
+      },
+      {
+        "name" : "Bian Sun"
+      },
+      {
+        "name" : "Alex Stinard"
+      },
+      {
+        "name" : "Yuzhang Shang"
+      },
+      {
+        "name" : "Song Wang"
+      },
+      {
+        "name" : "Yu Tian"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38339v1",
+    "title" : "Aegis: Generative Gradient Masking for Privacy-Preserving Medical Federated Learning",
+    "summary" : "Federated learning (FL) has become a foundational paradigm for multi-institutional medical AI, allowing hospitals and research centers to jointly train diagnostic models without exchanging patient records. This privacy promise, however, is increasingly contested: a malicious or honest-but-curious server can launch model inversion attacks (MIAs) that reconstruct private patient images directly from shared model updates, and recent scalable, closed-form attacks penetrate even secure aggregation at clinically realistic batch sizes. Existing defenses face an unsatisfactory dilemma. Gradient-perturbation methods such as differential privacy and pruning trade away the diagnostic accuracy on which clinical reliability depends, while cryptographic protocols add system complexity yet still leave updates exposed to these scalable attacks. We propose Aegis, a principled client-side defense that breaks this dilemma without perturbing patient data or modifying the FL protocol. Our key insight is that the success of every known MIA is fundamentally bounded by the local batch size relative to the model's leakage capacity; once this limit is exceeded, distinct samples collide and reconstructions collapse into indistinguishable mixtures. Aegis turns this universal bottleneck into a defense: each client superimposes onto its real update a masking gradient computed on locally synthesized, task-relevant data, deliberately pushing the effective batch beyond the attack's recovery capacity. We complement the design with theoretical convergence guarantees under standard convex assumptions and evaluate Aegis on MNIST, CIFAR-10, and three MedMNIST modalities (chest X-ray, abdominal CT, colon pathology). Aegis neutralizes three state-of-the-art MIAs while preserving model utility and incurring only modest overhead, offering a practical privacy primitive for medical FL.",
+    "updated" : "2026-09-29T18:05:52Z",
+    "published" : "2026-09-29T18:05:52Z",
+    "authors" : [
+      {
+        "name" : "Chaoyu Zhang"
+      },
+      {
+        "name" : "Shanghao Shi"
+      },
+      {
+        "name" : "Heng Jin"
+      },
+      {
+        "name" : "Ning Wang"
+      },
+      {
+        "name" : "Y. Thomas Hou"
+      },
+      {
+        "name" : "Wenjing Lou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38306v1",
+    "title" : "Making the most of leftovers: Improved privacy amplification for quantum key distribution",
+    "summary" : "The amount of secret key that can be obtained from a quantum key distribution run depends on both the physically observed error rates and the mathematical bounds used to certify security. For finite datasets, conservative bounds force users to discard a substantial fraction of the potentially available key. Here we further refine and extend the privacy amplification bounds achievable through the recent leftover hash lemma of Regula and Tomamichel [arXiv:2603.04493] and incorporate them into the security analysis of quantum key distribution based on entropic uncertainty relations. This improves on state-of-the-art key rates in finite-block regimes, certifying more secret key from the same experimental data without changes to the protocol, and outperforming techniques based on entropy accumulation. The results illustrate how sharper mathematical estimates can directly increase the usable output of a quantum communication system.",
+    "updated" : "2026-09-29T18:00:01Z",
+    "published" : "2026-09-29T18:00:01Z",
+    "authors" : [
+      {
+        "name" : "Matthew Simon Tan"
+      },
+      {
+        "name" : "Bartosz Regula"
+      },
+      {
+        "name" : "Marco Tomamichel"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38289v1",
+    "title" : "Privacy in Personalized AI Is a System Property, Not Just a Model Property",
+    "summary" : "In personalized AI applications, such as conversational assistants and recommender systems, users interact not with models in isolation but with broader systems that access, infer, and reuse user information across components and over time. While such use of user information is integral to personalization, it also raises important privacy questions. In this paper, we argue that individual model- or component-level analyses may not capture all privacy risks arising in such systems, motivating a system-level perspective on privacy. We distinguish and analyze four interconnected privacy-risk channels in personalized AI, and subsequently propose four requirements for system-level privacy evaluation, covering interaction trajectories, internal information flows, indirect leakage, and the privacy-utility trade-off. We argue for their systematic incorporation into privacy audits of personalized AI.",
+    "updated" : "2026-09-29T17:06:35Z",
+    "published" : "2026-09-29T17:06:35Z",
+    "authors" : [
+      {
+        "name" : "Guillaume Salha-Galvan"
+      },
+      {
+        "name" : "Jiaying Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38281v1",
+    "title" : "Beyond the Headset: A Systematization of Knowledge on Extended Reality Privacy and Security in Healthcare",
+    "summary" : "Extended reality (XR) systems are increasingly used in healthcare applications ranging from surgical planning to remote rehabilitation and mental health support. However, the rich streams of sensor, biometric, behavioral, and environmental data that enable these applications also introduce substantial privacy and security risks. Adversaries may exploit insecure communication, sensor side channels, application-layer vulnerabilities, or data-processing pipelines to infer sensitive information or disrupt clinical workflows. Despite growing interest in XR security and privacy, the healthcare-specific literature remains fragmented. In this Systematization of Knowledge (SoK), we review 65 peer-reviewed studies published between 2017 and 2024 across XR, security, privacy, and healthcare venues. We develop a unified threat taxonomy spanning device, user, network, and cloud layers and introduce XR-PRISM, a quantitative Privacy and Risk Impact Scoring Metric for systematically characterizing security and privacy risks. Our analysis identifies several gaps in the literature: more than 70% of proposed countermeasures lack standardized risk evaluation, fewer than 15% of studied attacks require high attack prerequisites, and reproducibility is limited by the scarcity of publicly released artifacts and datasets. Based on these findings, we outline a research roadmap emphasizing shared benchmark datasets, stronger artifact-release practices, improved cloud-layer protections, and more comprehensive detection, mitigation, and recovery mechanisms. This SoK provides a structured and data-driven foundation for understanding existing risks and guiding the development of more secure, privacy-preserving, and usable XR healthcare systems.",
+    "updated" : "2026-09-29T16:05:12Z",
+    "published" : "2026-09-29T16:05:12Z",
+    "authors" : [
+      {
+        "name" : "Nafisa Anjum"
+      },
+      {
+        "name" : "M. Rasel Mahmud"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.34768v3",
+    "title" : "Privacy-Preserving Full-Body Meshing from mmWave Radar via Mesh Foundation Model Supervision",
+    "summary" : "Millimeter-wave (mmWave) radar enables privacy-preserving human perception, but the extreme sparsity of point clouds from commercial single-chip sensors (mean ~6.5 points/frame; ~28% empty frames) has confined prior art to body-part keypoints or discrete action classification. We present a cross-modal teacher-student framework that lifts commercial radar to full-body, per-frame, metric 3D mesh reconstruction with per-joint uncertainty. Three innovations: (1) a mesh-foundation-model teacher - SAM 3D Body produces whole-body MHR ground truth (70 joints, 18,439 mesh vertices) from a single RGB frame with zero training, slashing annotation cost by orders of magnitude; (2) StudentPoseFormer - set encoding with masked attention pooling, a temporal Transformer, and a CVAE multi-hypothesis head that outputs both the pose mean and per-joint variance, honestly reporting where the radar cannot see; and (3) a multi-stage ground-truth quality pipeline (confidence gating, depth validation, temporal smoothing, bone-length consistency, bad-frame rejection) plus systematic information-lever ablations. On the public MM-Fi benchmark (same TI IWR6843 sensor, cross-subject), our full configuration reaches 7.45 cm 12-joint MPJPE, with ablations proving the causal value of point accumulation (k = 3, -0.34 cm), Doppler (-0.85 cm; -2 cm at the wrist on fast actions), and velocity loss (-0.27 cm). On our own synchronized radar + RGB-D corpus with block-level held-out splits, the pipeline achieves 21.47 cm end-to-end (per-joint hierarchy from 4.8 cm at the hip to 34.7 cm at the wrist - matching physical information limits), could be improved to 15 cm with ~30k diverse samples, and a scaling law shows sample diversity, not volume, is the binding constraint. Deployment inference is radar-only - no camera, no image.",
+    "updated" : "2026-09-30T05:14:03Z",
+    "published" : "2026-09-28T09:49:08Z",
+    "authors" : [
+      {
+        "name" : "Shuxing Zhang"
+      },
+      {
+        "name" : "Yongquan Ni"
+      },
+      {
+        "name" : "Zhenyu Ding"
+      },
+      {
+        "name" : "Yawen Lin"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.34220v2",
+    "title" : "mmHRI: Towards Privacy-Preserving Human-Robot Interaction with Millimeter-Wave Radar",
+    "summary" : "Assistive robots increasingly operate in many human-centered environments and perform various human-robot interaction (HRI) tasks, such as object delivery. However, most existing HRI systems rely on RGB cameras that continuously observe humans to respond to non-verbal commands, such as hand gestures. This raises privacy concerns in privacy- critical environments, such as hospital wards or restaurants, where direct camera observation of humans is restricted. To develop privacy-preserving HRI, we leverage millimeter-wave (mmWave) radar, which can sense human motion through privacy barriers without identifiable imagery. We propose mmHRI, the first multi-modal robot manipulation framework that achieves mmWave radar-guided privacy-preserving HRI. mmHRI introduces two key designs to mitigate the sparsity and temporal inconsistency of radar data in cluttered robot manipulation environments. First, we propose a dual-stream architecture that jointly learns from unfiltered raw radar tensors and radar point clouds to estimate both human actions and 3D poses. To mitigate signal inconsistency, mmHRI further incorporates a memory-based state-space model (MSSM) that retains historical radar features to reduce abrupt changes in pose/action. These estimated human states are then converted into structured textual robot instructions, which control a vision-language-action (VLA) policy for closed-loop robot manipulation and human-aware reactions. Our evaluation covers human action recognition and closed-loop delivery and retrieval. In the privacy-preserving curtain setting, mmHRI achieves 85.09% action-recognition accuracy, outperforming existing radar-based alternatives. Robot trials further demonstrate successful delivery and retrieval under visual occlusion, with stable task performance across unseen subjects, clutter configurations, and environments.",
+    "updated" : "2026-09-30T01:56:11Z",
+    "published" : "2026-09-28T03:24:33Z",
+    "authors" : [
+      {
+        "name" : "Junqiao Fan"
+      },
+      {
+        "name" : "Yuxuan Hu"
+      },
+      {
+        "name" : "Bofan Lyu"
+      },
+      {
+        "name" : "Yanshuo Lu"
+      },
+      {
+        "name" : "Pengfei Liu"
+      },
+      {
+        "name" : "Jiarui Zhang"
+      },
+      {
+        "name" : "Fangqiang Ding"
+      },
+      {
+        "name" : "Lihua Xie"
+      },
+      {
+        "name" : "Gen Li"
+      },
+      {
+        "name" : "Jianfei Yang"
+      }
+    ],
+    "categories" : [
+      "cs.RO",
+      "cs.CV"
+    ]
   }
 ]
