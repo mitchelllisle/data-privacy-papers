@@ -4244,5 +4244,61 @@
       "cs.RO",
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.00822v1",
+    "title" : "TRACE: Privacy-Preserving Next-Best-View Selection over Distributed 3D Gaussian-Splat Maps",
+    "summary" : "Share the light, not the map. We study next-best-view selection for a team of robots, each of which builds its own 3D Gaussian Splatting map and keeps it private. A robot picks the view with the largest expected information gain (EIG) about the splats along its own path. This gain depends on the other maps. Their splats occlude its own and shine behind them, so the gain has to be evaluated against the pooled map. No robot has this map. We show that the coupling passes through only two ray quantities, the transmittance in front of a splat and the radiance behind it, and that both are sums over the hits of the ray. Hence, they decompose across the robots, and each robot sums them over depth bins in its own map, along the rays of a candidate view, and sends the sums with their pose derivatives. The robot planning the view turns them into its EIG and gradient on SO(3). Transmittance and Radiance Aggregates, communicated for the EIG, give the protocol its name: TRACE. No robot shares its splats, and the message size does not grow with a map. We prove that the reconstruction is exact unless a depth bin behind a splat mixes hits of two robots, and we bound the error otherwise. Over 100 next-best-view decisions in Habitat-Sim, TRACE picks a heading within 15 degrees of the centralized one in 83.3% of the cases, and its views reach 97.9% of the centralized EIG.",
+    "updated" : "2026-09-30T23:32:16Z",
+    "published" : "2026-09-30T23:32:16Z",
+    "authors" : [
+      {
+        "name" : "Amirhossein Mollaei Khass"
+      },
+      {
+        "name" : "Athanasios Cosse"
+      },
+      {
+        "name" : "Qiyu Sun"
+      },
+      {
+        "name" : "Nader Motee"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.34411v2",
+    "title" : "Coherence Rather Than Error Rate Governs Privacy in Multi-Tenant Quantum Computing",
+    "summary" : "Multi-tenant computing enables providers of commercial cloud quantum processors to rent disjoint sectors of a device to independent users. Average gate error, which cloud quantum computing providers report, does not determine how much one tenant learns about another. We propose an information-theoretic notion of information leakage across co-tenancy boundaries stemming from quantum state distinguishability. We measure this leakage on commercially-available 156-qubit (IBM Kingston) and 20-qubit (IQM Garnet) devices. Boundaries with identical benchmarked error can offer significantly different amount of information leakage because standard reported measures of error are blind to coherent-versus-stochastic nature of the error while the proposed notion of information leakage is not. A uniform Pauli randomisation implemented over the victim's whole register is used as a defence mechanism to reduce the information leakage to zero. The defence theoretically does not incur a fidelity cost, but the experiments show a non-trivial degradation caused by accumulation of errors. We provide a specific call-for-action to the providers of quantum cloud computing to report information leakage in addition to standard error rates in their device datasheet to enable users to compute privacy and security risks prior to engagement with the device.",
+    "updated" : "2026-10-01T01:31:43Z",
+    "published" : "2026-09-28T06:25:34Z",
+    "authors" : [
+      {
+        "name" : "Farhad Farokhi"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.00170v1",
+    "title" : "On-Device Commercial Intent Retrieval Under Size, Latency, and Privacy Constraints: A 3 MiB Retrieval System with Typed Egress Boundaries",
+    "summary" : "We study commercial intent inference that runs entirely on the user's device, under three constraints frozen before the work began: the downloaded payload under 3 MiB, Tier-0 inference under 20 ms at p95, and no raw text, content embedding, or stable identifier leaving the device. Under them we build a retrieval path over a 6,020-leaf commercial taxonomy: a static embedding table distilled from a Korean sentence transformer, quantized to 4 bits, no inference runtime.\n  Our main result is where that constraint costs accuracy. On real Korean commerce text labelled by others (22,900 AI-Hub shopping reviews), mid-category top-5 on real product names is 75.0% against an 18.4% permutation baseline, but splits on one observable: a query containing some leaf name as a substring scores 83.5%, one containing none 45.2%. A generic 196.6x larger teacher seemed to localize the gap (+20.1 pp without an anchor, +0.1 with). That null was two effects cancelling: the same teacher fine-tuned on the student's own contrastive pairs reaches 0.8586 and beats the pure-encoder student by +10.6 pp with an anchor and +20.9 pp without. The cost is not uniform, but it is not free anywhere; where the anchor is absent, task adaptation buys the teacher nothing, so what the constrained encoder lacks there is capacity. The expensive regime is detectable on-device from the ranker's own score margin: declining the least confident fifth lifts the rest to 0.8296.\n  A second axis we first reported, a manufacturer model code, does not survive source-category fixed effects (-4.0 pp, p=0.51); the anchor does (+13.0 pp).\n  Payload is 2,942,652 bytes, all three library links measured. Tier-0 p95 is 4.431 and 3.670 ms on two iPhones (A14, A16) and 5.080 ms on a budget Android tablet (Snapdragon 695), all slower than three server CPUs on the same code. Taxonomy supervision is mostly synthetic Korean utterances.",
+    "updated" : "2026-09-16T00:34:01Z",
+    "published" : "2026-09-16T00:34:01Z",
+    "authors" : [
+      {
+        "name" : "Hyojung Han"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.CL"
+    ]
   }
 ]
