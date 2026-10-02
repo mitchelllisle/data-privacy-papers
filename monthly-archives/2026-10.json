@@ -1,1 +1,103 @@
-[{"id":"http://arxiv.org/abs/2610.02113v1","title":"Quantum Advantage for Two-Party Differential Privacy","summary":"We introduce information-theoretically private quantum protocols for two-party Hamming distance when both parties must output the same estimate. Classically, for input length $n$, information-theoretic protocols require $Ω(\\sqrt{n})$ error under pure differential privacy and $Ω(\\sqrt{n}/\\log n)$ error under strong approximate differential privacy, whereas computational security permits $O(1)$ error. In Klauck's honest, nonpreemptive, message-preserving model, we give an $O(n)$-communication quantum protocol with pure $\\varepsilon$ quantum differential privacy (QDP) and expected error at most $\\frac{2}{\\sinh \\varepsilon}+γ$, for every $γ>0$. For approximate $(\\varepsilon, δ)$ QDP, an exact hockey-stick divergence calculation yields strictly smaller error, while preserving the $O(1)$-versus-$Ω(\\sqrt{n}/\\log n)$ separation for $δ=o(1/n)$. Thus, quantum communication achieves $O(1)$ information-theoretic error, matching the accuracy available classically only under computational assumptions.\n  The main construction uses a guarded coherent round trip and an equal-Gram rigidity principle that prevents an honest player from retaining input-dependent complementary information. We separate this model from weaker prescribed-channel privacy, which already admits an exact classical realization, and from fully retention-robust security, against which measurement-and-abort attacks remain possible. Therefore, we identify preservation of non-orthogonal quantum messages as a resource for privacy.","updated":"2026-10-01T17:32:30Z","published":"2026-10-01T17:32:30Z","authors":[{"name":"Daniel Alabi"},{"name":"Emil T. Khabiboulline"}],"categories":["quant-ph","cs.CR","cs.IT"]},{"id":"http://arxiv.org/abs/2610.01650v1","title":"Combining Homomorphic Encryption and Differential Privacy in Federated Learning for Model Inspection and Availability","summary":"The increasing prevalence of decentralized data has led to a growing interest in federated learning, which enables collaborative model training without clients sharing their sensitive local data. However, FL alone does not sufficiently protect sensitive training data and is generally coupled with privacy-preserving techniques, such as differential privacy and homomorphic encryption. Although powerful, these techniques address separate concerns via different mechanisms, so relying on just one might prove insufficient or impractical for addressing challenges associated with federated learning. In this work, we propose a privacy-preserving federated learning framework that combines homomorphic encryption-based training with differential privacy-based model inspection and release. We adopt a Markov chain Monte Carlo-based Bayesian privacy estimation method to estimate the privacy of our proposed framework. Our results show that this method improves both model utility and estimated privacy over the baseline method that relies solely on differential privacy for training. In our experiments with the FEMNIST dataset, by the end of training, our method reaches a test loss of $1.09$, compared to $2.37$ for the differential privacy-only approach, while providing stronger estimated privacy protection, with the estimated posterior mean of the privacy parameter $ε$ of $4.32$, compared to $7.26$ for the differential privacy-only approach. We also show that intermittent model monitoring can preserve the encrypted training trajectory while, under our evaluated experimental setting, providing estimated privacy comparable to or stronger than the differential privacy-only approach.","updated":"2026-10-01T13:13:56Z","published":"2026-10-01T13:13:56Z","authors":[{"name":"Ceren Yıldırım"},{"name":"Kamer Kaya"},{"name":"Sinan Yıldırım"},{"name":"Erkay Savaş"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2610.01365v1","title":"Sleeping Secrets: How Fine-Tuning Reawakens Privacy Risks in Language Models","summary":"Beyond adapting Large Language Models (LLMs) to specialized applications, fine-tuning has recently been shown to recover private information that is no longer accessible through direct queries. Previous fine-tuning recovery attacks, however, require genuine private supervision drawn from the same distribution, i.e., the previous training dataset. We argue that such recovery remains possible without such impractical knowledge. We show that LLM-generated candidates can provide sufficient supervision to recover previously learned private associations. Based on this, we propose ReGap, a data-free attack that recovers private associations using task structure, filters them by answer-token likelihood, and updates the target model via low-rank adaptation. Specifically, ReGap requires neither target answers nor auxiliary genuine private supervision. Across six GPT-2, OPT, and Qwen3 models, ReGap improves target-association recovery by 6-21 percentage points over the post-training target model. Recovery remains substantial even when the adaptation identities are disjoint from all memorized and evaluation identities, with no exact target answers appearing in the generated or selected supervision. Moreover, the same trained adapters increase recovery from 42\\% to 63\\% on a previously exposed checkpoint, but produce no gain on a matched checkpoint that never encountered the targets. This contrast shows that adaptation alone is insufficient to explain the observed recovery and that prior target exposure strongly affects post-adaptation recoverability. Our findings highlight that routine model customization can reawaken latent privacy risks, warranting urgent attention from the academic and industrial communities.","updated":"2026-10-01T09:36:17Z","published":"2026-10-01T09:36:17Z","authors":[{"name":"Jianhong Li"},{"name":"Jiahao Chen"},{"name":"Yuwen Pu"},{"name":"Chunyi Zhou"},{"name":"Oubo Ma"},{"name":"Zhou Feng"},{"name":"Hangtao Zhang"},{"name":"Jichao Bi"},{"name":"Chunqiang Hu"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2610.01009v1","title":"Helol Tunnel: Covert Channel Exploitation of TLS Extensibility & Privacy Features","summary":"Covert channels exploiting network protocols for data exfiltration and command-and-control (C2) are integral parts of modern cyberattacks. In search of a significant covert channel within the fabric of the Internet, we targeted the combinatorial properties of the Client Hello (CHLO) packets in the ubiquitous Transport Layer Security (TLS) protocol. The proposed Helol tunnel is a novel covert approach to embedding information in TLS Client Hello packets, which involves the strategic rearrangement of their cryptographic information elements. To sustain TLS protocol extensibility, the recent anti-ossification TLS compliance measures encourage the interactive middleboxes and next-generation firewalls (NGFWs) to preserve the parameter configuration in the Client Hello packets. Furthermore, to improve user privacy, popular Internet applications are varying their TLS CHLO parameter configurations to resist TLS fingerprinting by third-party network entities. We demonstrate the strength of the Helol tunnel to exploit these recent developments to evade NGFWs with interactive proxy and comprehensive threat protection. We also numerically show the efficacy of Helol tunneling over state-of-the-art covert channels that exploit TLS through the use of real traffic captures and public TLS fingerprinting data.","updated":"2026-10-01T03:55:42Z","published":"2026-10-01T03:55:42Z","authors":[{"name":"Reza Soosahabi"},{"name":"Rakesh Seal"}],"categories":["cs.CR"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2610.02113v1",
+    "title" : "Quantum Advantage for Two-Party Differential Privacy",
+    "summary" : "We introduce information-theoretically private quantum protocols for two-party Hamming distance when both parties must output the same estimate. Classically, for input length $n$, information-theoretic protocols require $Ω(\\sqrt{n})$ error under pure differential privacy and $Ω(\\sqrt{n}/\\log n)$ error under strong approximate differential privacy, whereas computational security permits $O(1)$ error. In Klauck's honest, nonpreemptive, message-preserving model, we give an $O(n)$-communication quantum protocol with pure $\\varepsilon$ quantum differential privacy (QDP) and expected error at most $\\frac{2}{\\sinh \\varepsilon}+γ$, for every $γ>0$. For approximate $(\\varepsilon, δ)$ QDP, an exact hockey-stick divergence calculation yields strictly smaller error, while preserving the $O(1)$-versus-$Ω(\\sqrt{n}/\\log n)$ separation for $δ=o(1/n)$. Thus, quantum communication achieves $O(1)$ information-theoretic error, matching the accuracy available classically only under computational assumptions.\n  The main construction uses a guarded coherent round trip and an equal-Gram rigidity principle that prevents an honest player from retaining input-dependent complementary information. We separate this model from weaker prescribed-channel privacy, which already admits an exact classical realization, and from fully retention-robust security, against which measurement-and-abort attacks remain possible. Therefore, we identify preservation of non-orthogonal quantum messages as a resource for privacy.",
+    "updated" : "2026-10-01T17:32:30Z",
+    "published" : "2026-10-01T17:32:30Z",
+    "authors" : [
+      {
+        "name" : "Daniel Alabi"
+      },
+      {
+        "name" : "Emil T. Khabiboulline"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.01650v1",
+    "title" : "Combining Homomorphic Encryption and Differential Privacy in Federated Learning for Model Inspection and Availability",
+    "summary" : "The increasing prevalence of decentralized data has led to a growing interest in federated learning, which enables collaborative model training without clients sharing their sensitive local data. However, FL alone does not sufficiently protect sensitive training data and is generally coupled with privacy-preserving techniques, such as differential privacy and homomorphic encryption. Although powerful, these techniques address separate concerns via different mechanisms, so relying on just one might prove insufficient or impractical for addressing challenges associated with federated learning. In this work, we propose a privacy-preserving federated learning framework that combines homomorphic encryption-based training with differential privacy-based model inspection and release. We adopt a Markov chain Monte Carlo-based Bayesian privacy estimation method to estimate the privacy of our proposed framework. Our results show that this method improves both model utility and estimated privacy over the baseline method that relies solely on differential privacy for training. In our experiments with the FEMNIST dataset, by the end of training, our method reaches a test loss of $1.09$, compared to $2.37$ for the differential privacy-only approach, while providing stronger estimated privacy protection, with the estimated posterior mean of the privacy parameter $ε$ of $4.32$, compared to $7.26$ for the differential privacy-only approach. We also show that intermittent model monitoring can preserve the encrypted training trajectory while, under our evaluated experimental setting, providing estimated privacy comparable to or stronger than the differential privacy-only approach.",
+    "updated" : "2026-10-01T13:13:56Z",
+    "published" : "2026-10-01T13:13:56Z",
+    "authors" : [
+      {
+        "name" : "Ceren Yıldırım"
+      },
+      {
+        "name" : "Kamer Kaya"
+      },
+      {
+        "name" : "Sinan Yıldırım"
+      },
+      {
+        "name" : "Erkay Savaş"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.01365v1",
+    "title" : "Sleeping Secrets: How Fine-Tuning Reawakens Privacy Risks in Language Models",
+    "summary" : "Beyond adapting Large Language Models (LLMs) to specialized applications, fine-tuning has recently been shown to recover private information that is no longer accessible through direct queries. Previous fine-tuning recovery attacks, however, require genuine private supervision drawn from the same distribution, i.e., the previous training dataset. We argue that such recovery remains possible without such impractical knowledge. We show that LLM-generated candidates can provide sufficient supervision to recover previously learned private associations. Based on this, we propose ReGap, a data-free attack that recovers private associations using task structure, filters them by answer-token likelihood, and updates the target model via low-rank adaptation. Specifically, ReGap requires neither target answers nor auxiliary genuine private supervision. Across six GPT-2, OPT, and Qwen3 models, ReGap improves target-association recovery by 6-21 percentage points over the post-training target model. Recovery remains substantial even when the adaptation identities are disjoint from all memorized and evaluation identities, with no exact target answers appearing in the generated or selected supervision. Moreover, the same trained adapters increase recovery from 42\\% to 63\\% on a previously exposed checkpoint, but produce no gain on a matched checkpoint that never encountered the targets. This contrast shows that adaptation alone is insufficient to explain the observed recovery and that prior target exposure strongly affects post-adaptation recoverability. Our findings highlight that routine model customization can reawaken latent privacy risks, warranting urgent attention from the academic and industrial communities.",
+    "updated" : "2026-10-01T09:36:17Z",
+    "published" : "2026-10-01T09:36:17Z",
+    "authors" : [
+      {
+        "name" : "Jianhong Li"
+      },
+      {
+        "name" : "Jiahao Chen"
+      },
+      {
+        "name" : "Yuwen Pu"
+      },
+      {
+        "name" : "Chunyi Zhou"
+      },
+      {
+        "name" : "Oubo Ma"
+      },
+      {
+        "name" : "Zhou Feng"
+      },
+      {
+        "name" : "Hangtao Zhang"
+      },
+      {
+        "name" : "Jichao Bi"
+      },
+      {
+        "name" : "Chunqiang Hu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.01009v1",
+    "title" : "Helol Tunnel: Covert Channel Exploitation of TLS Extensibility & Privacy Features",
+    "summary" : "Covert channels exploiting network protocols for data exfiltration and command-and-control (C2) are integral parts of modern cyberattacks. In search of a significant covert channel within the fabric of the Internet, we targeted the combinatorial properties of the Client Hello (CHLO) packets in the ubiquitous Transport Layer Security (TLS) protocol. The proposed Helol tunnel is a novel covert approach to embedding information in TLS Client Hello packets, which involves the strategic rearrangement of their cryptographic information elements. To sustain TLS protocol extensibility, the recent anti-ossification TLS compliance measures encourage the interactive middleboxes and next-generation firewalls (NGFWs) to preserve the parameter configuration in the Client Hello packets. Furthermore, to improve user privacy, popular Internet applications are varying their TLS CHLO parameter configurations to resist TLS fingerprinting by third-party network entities. We demonstrate the strength of the Helol tunnel to exploit these recent developments to evade NGFWs with interactive proxy and comprehensive threat protection. We also numerically show the efficacy of Helol tunneling over state-of-the-art covert channels that exploit TLS through the use of real traffic captures and public TLS fingerprinting data.",
+    "updated" : "2026-10-01T03:55:42Z",
+    "published" : "2026-10-01T03:55:42Z",
+    "authors" : [
+      {
+        "name" : "Reza Soosahabi"
+      },
+      {
+        "name" : "Rakesh Seal"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  }
+]
