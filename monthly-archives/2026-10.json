@@ -99,5 +99,117 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.02943v1",
+    "title" : "Kinematics-Induced Multimodal 3D Human Pose Estimation with Subject-Level Privacy",
+    "summary" : "Multimodal 3D Human Pose Estimation (3D HPE) combines complementary information from RGB, LiDAR, and mmWave radar, but models trained on correlated observations from the same individuals, raise privacy risks overlooked by record level analysis. We present a unified framework for multimodal 3D HPE that couples kinematics-induced sensor fusion with subject level privacy auditing and private training. First, our multimodal model aligns modality specific joint representation, injects skeletal structure and adaptively aggregates complementary sensor evidence for accurate pose prediction. Second, we formulate a black-box subject membership inference attack for 3D HPE, complemented by an empirical pointwise maximal leakage analysis, which characterizes how individual attack score outcomes change inference about the membership outcome. Third, we instantiate user-level differential privacy via Action Temporal Stratification, a population weighted within-subject sampling strategy that enforces action and temporal coverage. We evaluate our framework on the MM-Fi dataset across three diverse experimental protocols. Source-code will be released upon acceptance.",
+    "updated" : "2026-10-02T07:37:03Z",
+    "published" : "2026-10-02T07:37:03Z",
+    "authors" : [
+      {
+        "name" : "Kaushik Bhargav Sivangi"
+      },
+      {
+        "name" : "Fani Deligianni"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.02716v1",
+    "title" : "Differential Privacy of Gradient Descent on Perturbed Objectives",
+    "summary" : "Objective perturbation adds a random linear term to a regularized empirical risk and releases the exact perturbed minimizer. We study the finite computation obtained by releasing the $N$-th iterate of deterministic gradient descent on $w\\mapsto F(w;S)+\\langle z,w\\rangle$, where $z\\sim\\mathcal N(0,σ^2I_d)$ is drawn once before optimization. For strongly convex and smooth objectives with Lipschitz Hessian, we prove an explicit condition under which the map $z\\mapsto w_N$ is a $C^1$-diffeomorphism on the bounded domains used in the privacy argument, with a quantitative lower bound on the smallest singular value of its Jacobian. This permits a direct change-of-variables analysis of the finite iterate. For generalized linear models, the resulting privacy-profile bound has no explicit ambient-dimension factor once the iteration condition holds, and its finite-iteration correction decreases geometrically. By letting the free truncation parameter grow slowly with $N$, we recover the corresponding exact-minimizer certificate in the limit. We also bound the expected excess empirical risk by $dσ^2/(2μ)$ plus a geometrically decreasing optimization term, and transfer the result to population risk without an additional multiplicative condition-number factor in the leading statistical terms.",
+    "updated" : "2026-10-02T02:52:50Z",
+    "published" : "2026-10-02T02:52:50Z",
+    "authors" : [
+      {
+        "name" : "Austin Watkins"
+      },
+      {
+        "name" : "Raman Arora"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.02504v1",
+    "title" : "HXAI: Hierarchical Privacy-Preserving Explainable AI in Distributed Energy Systems",
+    "summary" : "Balancing electricity demand and supply is increasingly difficult due to the inherent intermittency of renewable power generation and the stochastic power consumption. Grid operators require fine-grained, decision-relevant insights into household energy consumption to manage peak loads and design responsive tariffs, but increased transparency at this level raises significant privacy concerns. Traditional methods for explainable AI (XAI) can reveal sensitive information, while standard privacy techniques often reduce the usefulness of explanations. To address this issue, we introduce HXAI, a hierarchical framework that preserves privacy while enabling reasonable explainable analysis for grid-level demand management. HXAI consists of two main components: (1) a local model that generates fine-grained explanations within a secure, private environment, and (2) a zonal model that aggregates these explanations to support grid-level analysis while enforcing privacy through flexible privacy-budget management. We explicitly limit cumulative privacy exposure under repeated operator queries and show that the proposed framework preserves decision-relevant information without compromising household privacy. Experiments on both simulated and real-world energy datasets demonstrate that HXAI provides useful insights for zonal load management while ensuring that appliance-level consumption remains local and is never transmitted to grid operators. Our results show that preserving the semantic structure of explanations, rather than minimizing numerical error, is the key to XAI under differential privacy. This framework provides a way to achieve both privacy and explainability in energy management.",
+    "updated" : "2026-10-01T21:26:35Z",
+    "published" : "2026-10-01T21:26:35Z",
+    "authors" : [
+      {
+        "name" : "Poushali Sengupta"
+      },
+      {
+        "name" : "Sabita Maharjan"
+      },
+      {
+        "name" : "Frank Eliassen"
+      },
+      {
+        "name" : "Yan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.02414v1",
+    "title" : "Unifying Privacy Accounting: Information Equivalence and Information Loss",
+    "summary" : "Differential privacy (DP) admits several notions, but the choice among them may affect both privacy analysis and utility. In this paper, we consider four mainstream curve-based privacy notions within a unified information-theoretic framework. For a fixed ordered pair of output distributions, we establish information equivalence among the two directional privacy profiles of $(\\varepsilon,δ)$-DP, the pair of hypothesis-testing trade-off functions, and the extended privacy-loss distribution. The exact Rényi differential privacy (RDP) curve joins this equivalence class whenever it is finite at some order greater than one. Under this mild condition, choosing among these notions changes only their semantic interpretation and computational requirements. In contrast, taking the maximum of the directional privacy profiles or compressing the RDP curve into a single zero-concentrated differential privacy (zCDP) parameter can lose information. We quantify the information loss between the exact RDP curve and its zCDP bound for standard noise mechanisms. This gap is zero for Gaussian noise but generally positive for Gaussian-mixture, Laplace, discrete Gaussian, and Poisson-subsampled Gaussian mechanisms. Moreover, this gap grows linearly with the number of independently composed mechanisms. Our information-theoretic perspective has practical consequences. At the same certified privacy level, retaining the full RDP curve rather than using zCDP reduces the required noise variance by up to $45\\%$ for Gaussian-mixture noise in workloads comparable in size to the American Community Survey. For DP-SGD on Fashion-MNIST under Poisson subsampling, an RDP-based privacy accountant improves test accuracy by up to $8.73$ percentage points compared to a zCDP-based accountant when both are calibrated to the same $(\\varepsilon,δ)$ guarantee.",
+    "updated" : "2026-10-01T19:37:35Z",
+    "published" : "2026-10-01T19:37:35Z",
+    "authors" : [
+      {
+        "name" : "Buxin Su"
+      },
+      {
+        "name" : "Qiaoshi Yang"
+      },
+      {
+        "name" : "Yiding Su"
+      },
+      {
+        "name" : "Chendi Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.02374v1",
+    "title" : "\"I'm trying not to get hacked:\" How Adults with Intellectual and Developmental Disabilities Navigate Security and Privacy Notifications",
+    "summary" : "Security and privacy notifications, such as login alerts, spam email warnings, and cookie consent requests, play a critical role in shaping users' responses to digital risks. Yet most notifications overlook cognitive accessibility, limiting their effectiveness for people with intellectual and developmental disabilities (IDD). We investigate how adults with IDD perceive and respond to common security and privacy notifications across mobile and web applications. Through a formative user study with seven adults with IDD, we identify three factors shaping understanding and decision-making: (1) interpretation is influenced by task and interface context; (2) unfamiliar terms, both technical and non-technical, are grounded in everyday concepts; and (3) uncertainty about outcomes leads to hesitation, avoidance, diagnostic exploration, or support-seeking. These findings lead to three design implications: (1) address context-dependent language misunderstandings beyond jargon simplification; (2) make action-outcome connections transparent; and (3) enable interdependent decision-making. Together, these insights aim to inform the design of more cognitively accessible security and privacy notifications that better support safe and supported user action.",
+    "updated" : "2026-10-01T18:53:49Z",
+    "published" : "2026-10-01T18:53:49Z",
+    "authors" : [
+      {
+        "name" : "Hailey L. Johnson"
+      },
+      {
+        "name" : "Julia Nonnenkamp"
+      },
+      {
+        "name" : "Bilge Mutlu"
+      },
+      {
+        "name" : "Rahul Chatterjee"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
