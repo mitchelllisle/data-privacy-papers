@@ -4300,5 +4300,50 @@
       "cs.IR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.33754v2",
+    "title" : "Collaborative Synthetic Data for Privacy-Preserving Financial Fraud Detection Across Organizational Silos",
+    "summary" : "Organizations seek analytical value from AI, yet relevant data are often fragmented across organizations and constrained by privacy. This is acute in financial fraud detection, where rare fraud cases and imbalanced local datasets limit decision-relevant analytics. Federated learning enables collaboration without direct data sharing but does not resolve minority-class scarcity. Synthetic data generation can help, yet lightweight methods are interpolation-bound, while generative models require substantial data and computation. Existing collaborative generative approaches often rely on federated learning, imposing considerable organization-side training burdens. In this paper, we examine CollaFuse as a collaborative diffusion-based alternative for fraud detection and evaluate it across five fraud datasets. Compared with classical oversampling, local generative baselines, and centralized diffusion benchmarks, CollaFuse does not achieve the highest local fidelity but improves downstream fraud detection more consistently across most datasets. These findings suggest that synthetic data create analytical value less through local realism than through transferable cross-organizational structure.",
+    "updated" : "2026-10-03T08:50:23Z",
+    "published" : "2026-09-27T16:53:14Z",
+    "authors" : [
+      {
+        "name" : "Simeon Allmendinger"
+      },
+      {
+        "name" : "Domenique Zipperling"
+      },
+      {
+        "name" : "Burhanettin Bahadir Kibar"
+      },
+      {
+        "name" : "Niklas Kühl"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.19456v1",
+    "title" : "Beyond Private Training: The New Landscape of AI Privacy",
+    "summary" : "Retrieval-augmented systems increasingly rely on vector indexes that may retain deleted items in their search graph. Existing deletion interfaces can prevent deleted identifiers from appearing in returned results while still computing distances to their embeddings during graph traversal. We formalize this distinction as output safety versus traversal safety, and introduce TSD-AUDIT, a framework for auditing and enforcing traversal-safe deletion in graph-based approximate nearest-neighbor retrieval. On Faiss IndexHNSWFlat, native filtering leaves the number of distance computations unchanged relative to unfiltered search; at a 70% deletion rate, trace-faithful replay detects deleted-vector scoring in all 100 audited queries. Code inspection of hnswlib's mark_deleted path reveals the same scoring-before-liveness pattern. TSD-AUDIT enforces an alive-before-scoring invariant, repairs connectivity using only live candidates, and emits per-query scored-trace certificates that an independent verifier can check against the deletion snapshot. Under region-targeted deletion, TSD-AUDIT improves Recall@10 over native filtering by 4.3--42.2 percentage points across deletion fractions from 0.5 to 0.9, while remaining comparable under random deletion. These results show that output-only deletion audits can miss process-level exposure: auditing deletion in vector retrieval requires accounting for the vectors scored during search, not only the identifiers returned.",
+    "updated" : "2026-09-16T21:46:35Z",
+    "published" : "2026-09-16T21:46:35Z",
+    "authors" : [
+      {
+        "name" : "Sean Culatana"
+      },
+      {
+        "name" : "Kang Li"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.IR"
+    ]
   }
 ]
