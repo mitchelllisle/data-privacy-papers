@@ -211,5 +211,224 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.06454v1",
+    "title" : "AgentPrivArena: Evaluating and Auditing Real-world AI Agent Privacy",
+    "summary" : "The rapid advancement of LLM agents has enabled systems to autonomously perform complex tasks through external tools, but their growing access to personal data introduces significant privacy risks. Existing benchmarks primarily evaluate LLM agent privacy through simulated trajectories and outcome-based metrics, limiting their ability to capture privacy risks arising during multi-step agent execution. In this work, we introduce AgentPrivArena, a framework for evaluating privacy risks in realistic LLM agent workflows. AgentPrivArena integrates authentic MCP tools and self-hosted services within a reproducible execution environment. We further propose trajectory-level privacy metrics that quantify unnecessary information access beyond final response leakage. Building on this framework, we introduce AgentPrivAudit, a runtime auditing approach for monitoring privacy violations during agent execution. Extensive experiments on state-of-the-art LLM agents reveal substantial privacy risks overlooked by existing evaluation paradigms, highlighting the importance of trajectory-level auditing for trustworthy agent deployment.",
+    "updated" : "2026-10-05T14:55:53Z",
+    "published" : "2026-10-05T14:55:53Z",
+    "authors" : [
+      {
+        "name" : "Shouju Wang"
+      },
+      {
+        "name" : "Haopeng Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.05867v1",
+    "title" : "Learning Sparse Support under Differential Privacy: Adaptive Algorithms and Minimax Limits",
+    "summary" : "We study exact support recovery under $(ε,δ)$-differential privacy in sparse high-dimensional linear regression. We introduce Saturated Propose-test-release, a general mechanism that privately releases the output of a discrete selector with probability one once its stability certificate reaches a finite threshold. Exploiting the coordinatewise geometry of the LASSO, we construct a computable support-stability score. The resulting computationally efficient Saturated LASSO satisfies worst-case $(ε,δ)$-differential privacy and achieves exact support recovery with high probability under explicit regularity and beta-min conditions. Maximizing sparsity-indexed certificates yields an adaptive procedure requiring no sparsity knowledge and having exactly the same finite-sample exact-recovery risk as the oracle fixed-sparsity procedure under common public tuning parameters. We also establish a minimax lower bound explicitly tracking $δ$: under its recovery conditions, Saturated LASSO is minimax optimal up to logarithmic factors in $n$ and $1/δ$ uniformly over $0 < δ\\leq ε/16$; in the broad moderate-$δ$ regime, it further matches the lower-bound $δ$-dependence. A complementary information-theoretic construction with known sparsity attains the lower-bound rates up to constant factors under independent Gaussian design, at exponential computational cost. Simulations and a semi-synthetic study using public American Community Survey covariates illustrate the numerical performance of the proposed procedures.",
+    "updated" : "2026-10-05T06:32:18Z",
+    "published" : "2026-10-05T06:32:18Z",
+    "authors" : [
+      {
+        "name" : "Jia Gu"
+      },
+      {
+        "name" : "T. Tony Cai"
+      }
+    ],
+    "categories" : [
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.05561v1",
+    "title" : "Beyond Monolithic Perturbation: Heterogeneous Mechanism Design for Multi-Attribute Metric Differential Privacy",
+    "summary" : "Multi-attribute user records are inherently heterogeneous, often combining continuous, categorical, and binary attributes, and they frequently exhibit strong cross-attribute dependencies. Designing high-utility metric differential privacy (mDP) mechanisms for such records is challenging. Simple predefined mechanisms, such as distance-based noise, may be poorly aligned with task-specific utility loss, whereas fully optimization-based mechanisms can be computationally prohibitive for multi-attribute records.\n  We propose Dependency-aware Heterogeneous Data Perturbation (DepHDP)}, a framework for multi-attribute mDP that combines dependency-aware attribute grouping with heterogeneous perturbation design. Rather than applying a one-size-fits-all mechanism, DepHDP selects an appropriate perturbation strategy for each attribute or attribute group, choosing between efficient predefined mechanisms, such as Laplace or Exponential mechanisms, and optimization-based designs. This selection is guided by both domain size and a predefined-noise adequacy criterion, which quantifies whether task-induced utility loss can be well explained by perturbation magnitude. To support scalable end-to-end optimization, DepHDP estimates group-level utility loss through sampling and lightweight surrogate modeling, and jointly optimizes privacy-budget allocation and group-wise mechanism design under a global $\\ell_p$-metric mDP constraint. Across three case studies, DepHDP improves privacy--utility trade-offs over uniform baselines at lower computational cost than full-record OPT on evaluated domains.",
+    "updated" : "2026-10-04T21:48:36Z",
+    "published" : "2026-10-04T21:48:36Z",
+    "authors" : [
+      {
+        "name" : "Ruiyao Liu"
+      },
+      {
+        "name" : "Michael Oluwole"
+      },
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.05475v1",
+    "title" : "Poor Privacy Practices Of The Apple App Store: Cookies, Advertising and Tracking Of Users",
+    "summary" : "We analyse the data that the Apple App Store sends to and receives from Apple servers. We find that multiple cookies are sent by Apple servers and stored on the handset. Adverts with tracking identifiers are also stored on the handset, and we observe that adverts are selected by Apple servers using GDPR special category personal data such as sexuality, religious beliefs and health. User interactions with the Apple App Store (apps and adverts viewed, buttons clicked, searches made etc) are transmitted to Apple servers alongside identifiers linking this data to the individual user and device. We show that much of this data storage and transmission is not essential for the service requested by the user, namely to view, search and install apps. No consent is sought for any of this data storage and processing, and there is no opt out.",
+    "updated" : "2026-10-04T19:34:37Z",
+    "published" : "2026-10-04T19:34:37Z",
+    "authors" : [
+      {
+        "name" : "Douglas Leith"
+      }
+    ],
+    "categories" : [
+      "cs.NI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.05453v1",
+    "title" : "The Poisoned Conversation: Privacy-Leaking Watermarks in Unified Multimodal Models",
+    "summary" : "Multimodal models are increasingly shifting toward unified architectures that understand and generate text, images, and other modalities within a shared conversational context. This design enables fluid interaction across modalities, but it also changes the privacy threat model: Information revealed in one part of a conversation may remain accessible when the model later generates content in another modality. This risk is particularly concerning in settings where users rely on locally deployed models for privacy, assuming that sensitive interactions remain confined to their device. We introduce Privacy-Leaking Watermarks (PLWs): invisible, trigger-dependent watermarks that a malicious model provider can condition on prior chat history. With this adversarial intervention, the usual separation breaks: a sensitive keyword or semantic cue mentioned earlier in the conversation can cause a later, unrelated image to carry a hidden yet detectable watermark. PLWs pose a novel threat to users of unified multimodal models: A poisoned model can retain utility while covertly turning image generation into a channel for privacy leakage, even when deployed locally. Across 13 sensitive-attribute triggers and two model families, PLWs reach up to 100.0% TPR at 1% FPR. For example, across all tested conversational separations, OmniGen2 detects every prior disclosure of depression while falsely flagging only 1% of images generated without such a disclosure.",
+    "updated" : "2026-10-04T18:53:31Z",
+    "published" : "2026-10-04T18:53:31Z",
+    "authors" : [
+      {
+        "name" : "Tobias Braun"
+      },
+      {
+        "name" : "Jonas Henry Grebe"
+      },
+      {
+        "name" : "Emil Sivic"
+      },
+      {
+        "name" : "Patrick Mohr Gordillo"
+      },
+      {
+        "name" : "Hossein Shakibania"
+      },
+      {
+        "name" : "Marcus Rohrbach"
+      },
+      {
+        "name" : "Anna Rohrbach"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.04985v1",
+    "title" : "Hidden Risks of Jev: An Empirical Study of Security, Privacy, and Dual Use",
+    "summary" : "Jev turns natural-language questions into typed answers and probabilities with low latency and cost, enabling applications to route requests and select tools. While this interface allows Jev to integrate naturally into application workflows as a decision layer, the security and privacy implications of this emerging use remain largely unexplored. To address this gap, we conduct the first systematic study of these implications using the official Jev API and NanoJev, a local model with controllable training data and updates, focusing on three research questions: (1) What security threats arise when Jev is deployed as an application decision layer? (2) What private information can Jev reveal despite returning constrained typed outputs? (3) How can Jev's general-purpose decision capability be used for beneficial purposes or misused?\n  Jev's decisions depend on application state and may be influenced by user-provided inputs. We therefore adapt prompt injection and adversarial suffixes to manipulate its decisions. Open-source Jev distribution and updates introduce supply-chain risks, which we examine by implanting backdoors in NanoJev through training data poisoning. Since Jev's outputs reflect both application state and information learned during training, we further adapt membership, private attribute, and internal knowledge inference attacks to recover sensitive information despite its constrained output format. Finally, Jev can serve as a general-purpose decision oracle for defensive and malicious workflows. We examine this dual use through four detection tasks covering prompt injection, jailbreak inputs, harmful content, and AI-generated text, alongside misuse scenarios involving jailbreak and model extraction. Our empirical evaluation shows that Jev remains vulnerable to the examined security and privacy threats, while its decision capability can support beneficial and malicious uses.",
+    "updated" : "2026-10-04T06:09:34Z",
+    "published" : "2026-10-04T06:09:34Z",
+    "authors" : [
+      {
+        "name" : "Shang Wang"
+      },
+      {
+        "name" : "Tianqing Zhu"
+      },
+      {
+        "name" : "Huajie Chen"
+      },
+      {
+        "name" : "Jiayang Li"
+      },
+      {
+        "name" : "Meng Yang"
+      },
+      {
+        "name" : "Bo Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.04600v1",
+    "title" : "Asymptotically Optimal Best Arm Identification with Fixed-Budget under Differential Privacy",
+    "summary" : "Best arm identification under differential privacy is a pure-exploration problem in which both statistical efficiency and privacy protection must be achieved simultaneously. We study fixed-budget best arm identification for bandits under pure $ε$-differential privacy, where the learner must recommend an arm after a prescribed sampling budget while protecting the full transcript. We prove that the optimal exponential decay rate of the error probability is upper bounded by an instance-dependent privacy-aware transportation exponent that differs from the analogous quantity used to characterize the stopping time in fixed-confidence analysis by Jourdan and Azize [2025]. Guided by this exponent, we propose AO-Pri-BAI, an adaptive algorithm that maintains private running estimates through Laplace-tree mechanisms and learns a sampling design through a min--max interaction between hard alternatives and arm allocations. We prove that AO-Pri-BAI satisfies pure $ε$-differential privacy. We also establish that the exponent of the failure probability of AO-Pri-BAI matches the privacy-aware benchmark. Numerical studies show that even in the non-asymptotic setting, AO-Pri-BAI outperforms benchmark algorithms on various instances, complementing the theoretical analyses.",
+    "updated" : "2026-10-03T15:38:52Z",
+    "published" : "2026-10-03T15:38:52Z",
+    "authors" : [
+      {
+        "name" : "Keqin Chen"
+      },
+      {
+        "name" : "Jie Bian"
+      },
+      {
+        "name" : "Yulian Wu"
+      },
+      {
+        "name" : "Vincent Y. F. Tan"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.04060v1",
+    "title" : "Auditing the Privacy of Synthetic Gene Expression Data: A Unified Weighted-Distance Framework for No-Box Membership Inference",
+    "summary" : "Synthetic gene expression data is increasingly proposed as a privacy-preserving substitute for controlled-access genomic repositories, but its safety depends on empirical auditing. Membership inference attacks (MIAs) provide that audit by testing whether a patient's gene expression profile was used to train a generative model. We report a red-team study on synthetic gene expression data derived from bulk RNA-seq profiles in The Cancer Genome Atlas, released by the ELSA Health 2026 Challenge. We unify five no-box attacks under a single weighted-distance framework in which each variant differs only in how it weights genes: uniformly (baseline), by variance, by synthetic-versus-reference KL divergence, by spectral residualization removing dominant principal components, and by curated pathway membership. Against a conditional variational autoencoder, spectral residualization raises AUC from 0.8251 to 0.8951 and TPR at 1% FPR from 0.3842 to 0.5970 on pan-cancer TCGA. Biological pathway priors did not transfer across targets.",
+    "updated" : "2026-10-02T21:14:25Z",
+    "published" : "2026-10-02T21:14:25Z",
+    "authors" : [
+      {
+        "name" : "Owen Tucker"
+      },
+      {
+        "name" : "Lily Wang"
+      },
+      {
+        "name" : "Harutoshi Okumura"
+      },
+      {
+        "name" : "Ruixuan Liu"
+      },
+      {
+        "name" : "Li Xiong"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.04042v1",
+    "title" : "Assessing Acceptance and Privacy Preferences of Third-party Financial Data Sharing in Bipolar Disorder",
+    "summary" : "Bipolar disorder is strongly associated with financial instability. We examine how different interventions motivate individuals with bipolar disorder to share financial data with others. This approach can inform the development of tools for digital monitoring and intervention designed to promote financial stability in this population. 500 individuals with BD completed a pre-registered factorial vignette survey to examine level of comfort with hypothetical scenarios involving third-party financial interventions during symptomatic and euthymic periods. Scenario components were systematically varied between third-party actors, mood states, and intervention types. Participants rated sharing comfort on a 0-10 point scale. Multilevel models tested differences alongside clinical and financial histories, relational trust, and personality. Participants were most comfortable involving care partners in financial planning. They were more comfortable with temporary spending restrictions during symptomatic states than euthymic periods, underscoring the importance of accurate mood detection for intervention delivery. Prior financial help-seeking behavior and higher relational trust predicted greater comfort. Bankruptcy experience --- declared by 11.4% and considered by 31.7% --- was associated with increased comfort with spending restrictions. Individuals with psychiatric advance directives (8%) were significantly more comfortable sharing spending behaviors than those without. Comfort with financial interventions was higher among those with prior financial challenges or help-seeking histories. Participants distinguished between symptomatic and euthymic periods, favoring targeted, time-limited restrictions over general monitoring. These findings extend prior work on financial data sharing for illness self-management.",
+    "updated" : "2026-10-02T20:50:08Z",
+    "published" : "2026-10-02T20:50:08Z",
+    "authors" : [
+      {
+        "name" : "Jeff Brozena"
+      },
+      {
+        "name" : "Johnna Blair"
+      },
+      {
+        "name" : "Dahlia Mukherjee"
+      },
+      {
+        "name" : "Erika F. H. Saunders"
+      },
+      {
+        "name" : "Thomas Richardson"
+      },
+      {
+        "name" : "Saeed Abdullah"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
