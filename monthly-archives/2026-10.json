@@ -683,5 +683,92 @@
       "cs.LG",
       "cs.IT"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.10002v1",
+    "title" : "The Price of Privacy: Randomness Complexity of Graph-Based Multi-Secret Sharing",
+    "summary" : "We study the randomness required to share possibly correlated secret bits among parties connected by a graph. A dealer places shares on the edges so that each party can recover its own secret from its incident shares and learn nothing about the others beyond what its own secret reveals. Anilkumar et al. completely determined the minimum randomness required for three binary secrets. We extend this study to four secrets and obtain results for arbitrary numbers of secrets on general graphs. For four parties on a complete graph, we determine the minimum number of random states for every set of permitted secret combinations: the possible values are one, two, three and four. We also characterize when one random bit suffices on an arbitrary graph.",
+    "updated" : "2026-10-07T12:59:20Z",
+    "published" : "2026-10-07T12:59:20Z",
+    "authors" : [
+      {
+        "name" : "Piotr Marszalik"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.09288v1",
+    "title" : "FaceKit: a Toolkit for Interpretable Facial Phenotyping, Synthetic Image Generation and Privacy Analysis in Rare Diseases",
+    "summary" : "Many rare genetic diseases are associated with recognizable craniofacial features. However, traditional approaches for describing facial morphology rely largely on qualitative clinical observation and free-text descriptions, which are often subjective, non-standardized, and difficult to reproduce across observers and institutions. Although the Human Phenotype Ontology (HPO) provides controlled terms for describing facial features, these terms are typically categorical rather than quantitative and may vary depending on examiner experience and interpretation. Here, we present FaceKit, a computational framework for quantitative facial phenotyping from frontal facial photographs. FaceKit extracts standardized measurements of facial landmarks and derived 120 morphological features, then reports feature-level z-scores representing deviation from population reference distributions. The reference distributions are built from the FairFace dataset spanning diverse ancestral groups. We evaluated FaceKit on a curated subset of the GestaltMatcher Database covering 50 rare-disease cohorts. In addition to quantitative facial analysis, FaceKit includes synthetic facial image generation to support rare disease model development and data augmentation. We also performed privacy evaluation to assess whether synthetic images reveal identifiable information from real patient photographs and could compromise patient privacy. Across disease case studies, FaceKit-derived quantitative measurements captured known facial features associated with rare genetic disorders and provided objective support for clinical phenotyping. Together, these results establish FaceKit as a useful tool for quantitative phenotyping, and has the potential to improve rare disease diagnosis, support genotype-phenotype studies, and enable more reproducible clinical characterization across diverse patient populations.",
+    "updated" : "2026-10-07T01:43:49Z",
+    "published" : "2026-10-07T01:43:49Z",
+    "authors" : [
+      {
+        "name" : "Hongzhuo Chen"
+      },
+      {
+        "name" : "Zhanliang Wang"
+      },
+      {
+        "name" : "Florent Pollet"
+      },
+      {
+        "name" : "Mian Umair Ahsan"
+      },
+      {
+        "name" : "Joshua Bie"
+      },
+      {
+        "name" : "Tzung-Chien Hsieh"
+      },
+      {
+        "name" : "Peter Krawitz"
+      },
+      {
+        "name" : "Cong Liu"
+      },
+      {
+        "name" : "Wendy K Chung"
+      },
+      {
+        "name" : "Chunhua Weng"
+      },
+      {
+        "name" : "Gamze Gürsoy"
+      },
+      {
+        "name" : "Kai Wang"
+      }
+    ],
+    "categories" : [
+      "q-bio.QM",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.08255v1",
+    "title" : "HE-OFT: Privacy-Preserving One-Shot Federated Fine-Tuning under Homomorphic Encryption",
+    "summary" : "Many organizations adapt large pretrained models to their own tasks by fine-tuning on private data. Several of these parties often hold data for the same task and wish to fine-tune a model together without pooling that data. Federated learning (FL) enables joint fine-tuning, but reconstruction attacks on shared intermediate values (the model or its gradients) remain a privacy risk. A one-shot protocol that exchanges one encrypted contribution exposes no intermediate value. Such a protocol still gives the trained model to every participant, which is not permitted where the model is a regulated or proprietary asset. We present HE-OFT, the first cryptographically secure one-shot federated fine-tuning protocol in which no party receives the trained model. Each client fine-tunes a low-rank adapter and a classifier head on a frozen public backbone and keeps the adapter. The client uploads one encrypted head displacement, which the server combines under multiparty CKKS and never decrypts. A quorum of clients returns only the predicted label to the querier. On four text classification tasks and one vision task, HE-OFT reaches 61 to 79 per cent accuracy, against 20 to 48 per cent for a client training alone. HE-OFT keeps 85 to 96 per cent of the accuracy of a disclosed model. A test-time query takes 443.1 to 1713.1 s on one core, or 56.1 to 255.1 s with level restoration on a GPU. Restoring levels at the server cuts the traffic per query from up to 1.6 GiB to 13.5 MiB.",
+    "updated" : "2026-10-06T12:35:08Z",
+    "published" : "2026-10-06T12:35:08Z",
+    "authors" : [
+      {
+        "name" : "Halil İbrahim Kanpak"
+      },
+      {
+        "name" : "Sinem Sav"
+      },
+      {
+        "name" : "Alptekin Küpçü"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
   }
 ]
