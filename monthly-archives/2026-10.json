@@ -770,5 +770,97 @@
       "cs.CR",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.11511v1",
+    "title" : "EIFL: Efficiently Protecting Global Model Privacy and Integrity Against an Untrusted Server in Federated Learning",
+    "summary" : "Federated learning (FL) typically adopts a server-client architecture, where the server aggregates clients' local models (i.e., the input) and returns the aggregated global model (i.e., the output) to clients. An untrusted server may return a tampered global model to compromise the output integrity. Some existing schemes focus on verifying the output integrity. However, these schemes mostly rely on clients pre-negotiating a set of identical auxiliary information among themselves and keeping it confidential from the server. This dependency creates a verification vulnerability: if the auxiliary information is leaked, the verification method may be circumvented. Additionally, in some privacy-sensitive scenarios (e.g., commercial federated learning), the global model may need to be kept confidential from an untrusted server. However, only a few works achieve the output privacy while addressing verification vulnerability, at the cost of prohibitive computation and communication overhead. To address these challenges simultaneously, we propose a novel provably privacy-preserving FL method called EIFL. Specifically, we adopt a two-stage aggregation and combine it with symmetric encryption to protect the output privacy. To address the verification vulnerability, we propose an efficient verification method based on vector inner product for output integrity, and a random vector generation method for clients to agree on auxiliary information. EIFL innovatively binds the auxiliary information to the output integrity, and eliminates the need to keep the auxiliary information confidential from the server. Moreover, EIFL is robust against client dropout during the verification phase through a simple resending operation. Evaluation results validate the advantages of EIFL over state-of-the-art schemes in terms of computation and communication overhead.",
+    "updated" : "2026-10-08T08:47:52Z",
+    "published" : "2026-10-08T08:47:52Z",
+    "authors" : [
+      {
+        "name" : "Zehui Liao"
+      },
+      {
+        "name" : "Qiang Li"
+      },
+      {
+        "name" : "Binghui Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.11218v1",
+    "title" : "BRACE: Differential Privacy for Dense Associative Memory with LSR Energy",
+    "summary" : "Dense associative memory (DAM) provides an energy-based framework for memory retrieval with close connections to attention mechanisms in modern artificial intelligence. Despite growing interest in differential privacy for AI, the privacy of DAM retrieval dynamics remains relatively unexplored. In this paper, we develop a differential privacy framework for log-sum-ReLU (LSR) dense associative memory, whose finite-support retrieval dynamics pose distinctive challenges for privacy-preserving computation. We propose the Boundary-Responsive Adaptive Correction Evolution (BRACE) algorithm, a differentially private retrieval mechanism for LSR-DAM that adaptively corrects boundary-sensitive perturbations to control their cumulative effect over the retrieval trajectory. In theory, we prove that our method is minimax optimal by deriving dimension-independent terminal and full-trajectory retrieval error rates, with optimal dependence on the inverse temperature and, in the growing-horizon regime, the retrieval horizon. We further establish central limit theorems that enable uncertainty quantification for private retrieval by characterizing its asymptotic distribution and the additional variability introduced by privacy. Numerical experiments compare our proposed method with baseline differential privacy approaches and evaluate its retrieval accuracy. Together, our results provide a theoretical foundation for optimal privacy-preserving retrieval and uncertainty quantification in energy-based associative memory systems.",
+    "updated" : "2026-10-08T04:13:58Z",
+    "published" : "2026-10-08T04:13:58Z",
+    "authors" : [
+      {
+        "name" : "Chang Qu"
+      },
+      {
+        "name" : "Zhaoyang Shi"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.10702v1",
+    "title" : "Combining Error Verification and Privacy Amplification in Quantum Key Distribution",
+    "summary" : "Quantum Key Distribution (QKD) protocols typically involve two separate steps of error-verification and privacy amplification. Both steps involve the application of a hash function sampled from a suitable hash family to classical data. A potentially simpler alternative is to implement a single-step hashing procedure, announce and compare a fixed number of bits of its output for error-verification, and retain the remaining bits as the final output key. This reduces the complexity of classical postprocessing, the amount of classical communication, and the amount of randomness needed in the protocol. While this construction has appeared in the literature, a suitable mathematical justification is lacking. In this work, we show that the security of such protocols, under certain simple conditions, follows from a slightly modified notion of secrecy of the protocol without the final error-verification step. In particular, we show that for most entropy-based proofs, the combined protocol can be implemented with no change to the key rate, and a minor change to the security parameter.",
+    "updated" : "2026-10-07T18:00:06Z",
+    "published" : "2026-10-07T18:00:06Z",
+    "authors" : [
+      {
+        "name" : "Devashish Tupkary"
+      },
+      {
+        "name" : "Zhiyao Wang"
+      },
+      {
+        "name" : "Ernest Y. -Z. Tan"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.10616v1",
+    "title" : "When Routing Reveals Membership: Privacy Leakage from MoE Router Telemetry",
+    "summary" : "Mixture-of-Experts (MoE) language models produce routing information during inference that may be logged or exposed for monitoring, debugging, load analysis, and safety auditing. Unlike ordinary model outputs, this telemetry reveals a view of the model's internal computation, raising a privacy question: can it reveal whether an example was used to fine-tune the deployed model? We introduce a router-augmented membership inference attack that combines conventional output-side signals with aggregated routing features and applies a membership classifier learned from independently fine-tuned shadow models to the target model. Across three MoE architectures and three data domains, router telemetry consistently improves membership inference over a strong output-signal ensemble, increasing TPR at 1\\% FPR by 2.7--9.4 percentage points across all nine settings. The leakage persists across full fine-tuning, frozen-router training, LoRA, and instruction tuning, and remains observable with only discrete expert selections, restricted telemetry, or a single shadow model. Mechanistic analysis further shows that the leakage does not require router-specific memorization: fine-tuning introduces membership information into hidden representations, while the router exposes a projection of this signal even when its parameters are frozen. Perturbing the telemetry reduces this additional leakage only as its fidelity degrades. Our results show that router telemetry can turn an operational signal into an additional privacy surface for fine-tuned MoE models.",
+    "updated" : "2026-10-07T07:26:51Z",
+    "published" : "2026-10-07T07:26:51Z",
+    "authors" : [
+      {
+        "name" : "Yixin Tan"
+      },
+      {
+        "name" : "Jiayang Liu"
+      },
+      {
+        "name" : "Lu Sun"
+      },
+      {
+        "name" : "Yuke Hu"
+      },
+      {
+        "name" : "Zheng Li"
+      },
+      {
+        "name" : "Rui Wen"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
   }
 ]
