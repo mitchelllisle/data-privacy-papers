@@ -4421,5 +4421,20 @@
       "cs.CV",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.38630v3",
+    "title" : "Strong Multilingual Privacy Tagging at Encoder Speed",
+    "summary" : "Privacy redaction must reliably remove personal information while preserving the relationships expressed in the text. We develop a general-purpose multilingual named-entity tagger with distinctions fine-grained enough to support a broad range of redaction policies, and methods for cheaply learning additional distinctions. We fine-tune the multilingual encoder XLM-R-large on text in 35 languages annotated by prompted frontier language models, plus existing human-annotated corpora with labels mapped onto our entity types. We evaluate on human-annotated test sets in seven languages and on LLM-annotated text in 35 languages. On the human-annotated sets, at operating points fixed on development data, our tagger reaches 88.2 redaction F1, against 69.1 for published GLiNER2 and 61.4 for Microsoft Presidio, and its architecture runs 4.9 times faster than GLiNER2's on CPU. Compared with frontier-model annotations alone, adding the mapped human-annotated corpora to training raised redaction F1 on those sets by ten points, with essentially no change on the LLM-annotated text. Open-weight LLMs fitting on one 96-GB GPU were less accurate than our tagger, whether prompted to tag text or used as encoders beneath a trained tagging layer, and roughly 30 to 1,100 times slower. We release code, prompts and training recipes, with data-acquisition scripts and source links.",
+    "updated" : "2026-10-13T07:12:19Z",
+    "published" : "2026-09-29T22:41:39Z",
+    "authors" : [
+      {
+        "name" : "Jonathan Graehl"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
   }
 ]
