@@ -63,13 +63,13 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.38630v2">Strong Multilingual Privacy Tagging at Encoder Speed</a></h3>
+  <h3><a href="http://arxiv.org/abs/2609.38630v3">Strong Multilingual Privacy Tagging at Encoder Speed</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
   <p><b>Published on:</b> 2026-09-29T22:41:39Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Jonathan Graehl</p>
-    <p><b>Summary:</b> Privacy redaction must remove personal information while preserving relationships expressed in text. We develop a multilingual named-entity tagger with fine-grained distinctions supporting varied redaction policies and methods for cheaply learning additional distinctions. We fine-tune a multilingual encoder with an affine span-tagging head on frontier-model annotations in 35 languages, replay mapped human gold with coverage-aware masking so unannotated types are not treated as negatives, and repair subword boundaries with a learned +/-1-character adjustment. On 1,283 human-gold test segments in seven languages, best measured redaction F1 is 88.8, against 69.1 for published GLiNER2 with 11 unrepresentable types excluded from its task (68.8 without that exemption), 67.8 for GLiNER2 adapted to the new training data, 57.3 for Microsoft Presidio and 35.8 for the best published OpenAI Privacy Filter fine-tune. Adding about 50,000 annotated training sentences and increasing human-gold replay improves exact typed-span F1 from 74.5 to 76.3 on Ont3, our 31-type frontier-annotated NER evaluation of 1,201 development segments. Mapped-gold replay alone raises human-gold F1 by ten points without loss on frontier-annotated text; boundary adjustment adds 1.7 exact typed-span F1 points on Ont3. Local LLMs fitting on a single 96-GB GPU underperformed as prompted annotators and frozen encoders, with encoding 30-95 times slower than XLM-R inference and prompted annotation roughly 180-1,100 times slower in the evaluated configurations. The encoder architecture delivers 4.9 times GLiNER2's CPU throughput. We release code, prompts and training recipes, with data-acquisition scripts and source links.</p>
+    <p><b>Summary:</b> Privacy redaction must reliably remove personal information while preserving the relationships expressed in the text. We develop a general-purpose multilingual named-entity tagger with distinctions fine-grained enough to support a broad range of redaction policies, and methods for cheaply learning additional distinctions. We fine-tune the multilingual encoder XLM-R-large on text in 35 languages annotated by prompted frontier language models, plus existing human-annotated corpora with labels mapped onto our entity types. We evaluate on human-annotated test sets in seven languages and on LLM-annotated text in 35 languages. On the human-annotated sets, at operating points fixed on development data, our tagger reaches 88.2 redaction F1, against 69.1 for published GLiNER2 and 61.4 for Microsoft Presidio, and its architecture runs 4.9 times faster than GLiNER2's on CPU. Compared with frontier-model annotations alone, adding the mapped human-annotated corpora to training raised redaction F1 on those sets by ten points, with essentially no change on the LLM-annotated text. Open-weight LLMs fitting on one 96-GB GPU were less accurate than our tagger, whether prompted to tag text or used as encoders beneath a trained tagging layer, and roughly 30 to 1,100 times slower. We release code, prompts and training recipes, with data-acquisition scripts and source links.</p>
   </details>
 </div>
 
@@ -487,277 +487,261 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.28297v1">Contraction and Statistical Inference under Privacy for Uniformly Bounded Distributions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-09-23T15:43:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Leonhard Grosse, Sara Saeidian, Tobias J. Oechtering, Mikael Skoglund</p>
-    <p><b>Summary:</b> We investigate $c$-interior pointwise maximal leakage (PML) as a tool for contraction analyses and disclosure control. Based on the strong adversarial threat models from maximal leakage, $c$-interior PML generalizes local differential privacy (LDP) to data-generating distributions with densities uniformly bounded away from zero by $c>0$. Viewing $c$-interior PML as an algebraic constraint on a kernel yields more flexible (and often tighter) contraction analyses than standard LDP. We provide tight bounds on the Dobrushin coefficient, and bound the contraction coefficient of the Hockeystick-divergence. We further derive strong data processing inequalities on $f$-divergences under $c$-interior PML constraints when the input distributions to the divergence are restricted to be in the $c$-interior. These results extend beyond the regime of pure LDP to cover a larger class of kernels, including, e.g., arbitrary stochastic matrices. We apply the results to minimax theory and provide asymptotically optimal strategies under $c$-interior PML constraints for binary hypothesis testing and mean estimation. The results show that disclosure control with PML allows analysts to reason about systems in a more differentiated manner: For example, it allows us to quantify the privacy leakage of deterministic systems, and can give precise adversarial guarantees with respect to arbitrary distributional assumptions. Interestingly, a recurring theme in the disclosure analyses is that if the privacy problem is relatively regular (if the density bound $c$ is large), private inference can be possible without incurring any additional cost in terms of sample complexity.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.28137v1">"We'll Fix It Later": Education, AI, and the Deferral of Privacy in EdTech</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-09-23T13:59:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Meghna Manoj Nair, Rachel Greenstadt</p>
-    <p><b>Summary:</b> Educational technology (EdTech) platforms collect highly sensitive student data, including behavioral logs, disability records, and academic histories. However, privacy considerations are often postponed rather than treated as a foundational design requirement. We present a mixed-methods study combining 12 semi-structured interviews with EdTech professionals and a privacy policy audit of 48 platforms coded across five dimensions, with strong inter-rater reliability (mean Cohen's Kappa = 0.781). Our interviews reveal a recurring organizational pattern in which privacy is recognized as important but deferred across the product lifecycle as organizations prioritize product functionality, growth, funding, and immediate educational outcomes. Responsibility is often delegated to cloud providers, policy documents, or downstream institutions, while limited privacy-related feedback gives organizations little pressure to change these practices. The policy analysis reflects these patterns: platforms describe what data they collect relatively well but provide substantially less information about how that data is subsequently governed. Thirty-three percent make no meaningful Artificial Intelligence (AI) disclosure despite visible AI features, and 73% provide only generic accountability and breach-response language. K-12 platforms perform better on children's consent where regulation creates explicit requirements, but this advantage does not extend to AI governance or accountability. These findings suggest that meaningful improvement requires enforceable institutional and regulatory mechanisms rather than voluntary privacy commitments alone.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.27617v1">Finite-Sample Binary Hypothesis Testing via Rényi Divergences: Strong Converse and Local Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-09-23T09:41:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Roberto Bruno, Adrien Vandenbroucque, Amedeo Roberto Esposito</p>
-    <p><b>Summary:</b> We study asymmetric simple binary hypothesis testing between $H_0:P_0^{n}$ and $H_1:P_1^{n}$, based on $n$ independent and identically distributed observations. Leveraging a variational representation of Rényi divergence of order $α$, we derive our main result: a finite-sample converse with $α>1$. The bound uses both directions of the divergence $D_α(P_1\|P_0)$ and $D_α(P_0\|P_1)$, tensorises under product measures, and contains familiar data-processing converses as boundary cases. For comparison, we apply the same variational approach to general $f$-divergences and specialise it to total variation, $E_γ$, Hellinger, and Kullback Leibler divergences, thereby recovering familiar converses within a unified framework. Together with an achievability bound involving Rényi divergence with $α\in (0,1)$, the main converse recovers the phase transition of the optimal Type II error under the exponentially decaying Type I error constraint $\varepsilon_n=e^{-nr}$. Under regularity conditions, the optimal Type II error vanishes exponentially when $r<D(P_1\|P_0)$ and converges exponentially fast to one when $r>D(P_1\|P_0)$. We also derive sample-complexity bounds and extend both the converse and achievability analyses to locally differentially private observations, quantifying the cost of privacy and recovering the non-private achievability bound as the privacy constraint vanishes.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.27406v1">Only Pay What You Must Spend: On-Demand Privacy Budget Payment for Differentially Private RAG</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Digital Libraries-D91E36">
-  <p><b>Published on:</b> 2026-09-23T06:20:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Zhonghao Sun, Zhiliang Tian, Xinyue Fang, Shuo Ma, Juhua Zhang, Yiping Song, Dongsheng Li</p>
-    <p><b>Summary:</b> Deploying large language models (LLMs) on sensitive data via Retrieval-Augmented Generation (RAG) introduces severe privacy risks. Recent studies apply Differential Privacy (DP) to LLMs with RAG for formal privacy guarantees. However, existing DP-RAG frameworks rapidly exhaust the privacy budget. Although recent efforts attempt to save the budget by narrowing the retrieval scope or sparsifying private generation, these methods themselves cumulatively consume the budget, whereas they could actually rely merely on public information or at a negligible one-time privacy cost. This mismatch fails to align budget expenditure with the model's actual reliance on private data, causing substantial waste on operations that require no private access. To address this, we propose SparsePay-RAG, adopting "only pay what you must spend" as its core principle. Using public information as a zero-privacy prior, it charges the privacy budget only for the private increment. Specifically, SparsePay-RAG narrows the retrieval scope via public topic-guided clustering, adaptively controls private access frequency without privacy cost through isotonic cross-layer trajectory fitting, and compresses per-access budget via DP contrastive decoding. Under strong privacy constraints, experiments show SparsePay-RAG achieves superior privacy-utility trade-offs over baselines.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.27100v1">Cryptographic Security Is Not Enough: Privacy Gaps in the Renegade Decentralized Dark Pool</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-09-22T21:54:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Prerna Arote, Adrian Saiz, Oriol Saguillo, Lucianna Kiffer</p>
-    <p><b>Summary:</b> Dark pools are designed to provide pre-trade privacy, liveness, and post-trade confidentiality - concealing order flow before execution and limiting information leakage after. Decentralized dark pools, such as Renegade, aim to replicate these properties without custodial risk, using secure multi-party computation (MPC) and zero-knowledge proofs for private order matching and verifiable settlement.
-  We show that Renegade's cryptographic guarantees do not deliver these dark pool properties in practice. MPC-with-abort ensures correctness but not fairness: a party may learn the match result and abort without penalty, breaking pre-trade privacy. We demonstrate that the protocol's discovery layer further leaks trading intent before MPC even begins, and that sustained probing via selective abort can probabilistically reconstruct counterparty order history, threatening post-trade confidentiality. We also show that the absence of input-consistency checks prior to MPC execution enables a griefing attack using invalid state commitments requiring no real token holdings that continuously locks honest users' wallets and wastes compute, breaking liveness under sustained conditions.
-  We further analyze over 700,000 Renegade transactions on Base and probe the P2P layer, finding that the network is effectively centralized: 88% of traffic routes through a handful of relayers, with only four nodes sustaining the P2P layer. Since relayers hold their users' wallet state in plaintext, this concentration means the system operates as a centralized orderbook in practice - reproducing off-chain the information asymmetry that dark pools are designed to eliminate.
-  Together, our results show that cryptographic privacy does not imply dark pool security: pre-trade privacy, liveness, and post-trade confidentiality each require additional protocol-level guarantees beyond MPC correctness.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.28537v1">Privacy Leakage Through AI-mediated Analysis of Smartphone Data</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-09-22T20:24:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Sarah Radway, Zoe Robert, Matthew Soto, Julianna Cimillo, Sebastian Diaz, Meg Marco, James Mickens</p>
-    <p><b>Summary:</b> Over the past thirty years, the online advertising industry built a large-scale data collection ecosystem, with the goal of tracking a user's online activity to infer their demographics and interests. Traditionally, the ecosystem relied upon the collation and analysis of highly-structured text data like user IP addresses, GPS coordinates, e-commerce purchase histories, and visited URLs. However, recent ML models can parse not only structured text, but also multimedia files and unstructured text inputs---meaning a user's photos, videos, inboxes, and calendars are now ripe for automated analysis. The privacy risks are particularly acute in the context of smartphone apps. A user's phone already acts as a natural collation point for sensitive user information, but users may not understand that permitting an app to, for example, access a user's photo does not just give the app access to the bytes in the photo: the app also receives access to inferences about the user that are enabled by the photo.
-  To explore these privacy risks, we built Priva-See, an LLM-based inference system for app-collected user data; Priva-See reflects our best understanding of how real-life adtech companies would leverage machine learning to build user profiles. Through an IRB-approved user study, 465 participants deployed Priva-See on their phones; Priva-See made privacy-invasive inferences despite having access to only a subset of a user's data. We see the experience significantly impacted participant willingness to share permissions data moving forward. Based on the observed privacy violations, we suggest changes to how smartphone OSes should gather user consent for data access, to better inform users about downstream data usage capability.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.26680v1">Decoding the Legalese: A Scalable and Quantitative Framework for Analyzing Corporate Privacy Policies</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-09-22T16:38:31Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiaming Tang, Chenlan Wang, Mingyan Liu, Armin Sarabi</p>
-    <p><b>Summary:</b> Even though privacy policies are the primary mechanism organizations use to disclose how they collect, process, and share personal data, they are difficult for average users to interpret, perhaps by design, due to their verbosity and dense legal language. Importantly, there is a lack of standardized metrics that characterize key qualities of a privacy policy beyond regulatory requirements. Recent advances in large language models (LLMs) make it feasible to automatically structure and analyze these documents at scale. In this study, we develop and evaluate an end-to-end, LLM-enabled system that converts raw privacy policies into fine-grained structured representations and a set of quantitative measures. Our pipeline applies a detailed taxonomy to extract specific data elements and governing practices, capturing relational links that connect each practice to the data elements it references. We apply our framework to a diverse corpus of 10,000 website privacy policies, yielding, to the best of our knowledge, the most comprehensive dataset of its kind to date. Building on our structured representations, we introduce the first standardized and repeatable quantitative metrics for evaluating privacy policies along four dimensions: completeness, transparency, commitment to user protection, and emphasis on business-driven data practices. This allows us to compare policies within and across industry sectors, and to assess the tension between user protection and business interests.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.26623v1">A Data-Interventional Framework for Auditing Privacy and Fairness in Generative Medical Imaging</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-09-22T15:55:44Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mischa Dombrowski, Bernhard Kainz</p>
-    <p><b>Summary:</b> Diffusion-based synthetic data generation offers a promising route for sharing medical imaging data without releasing sensitive patient records. However, generative models face a fundamental tension between privacy and fairness: they may memorize rare training samples, leading to privacy risks, or fail to reproduce underrepresented features, resulting in unfair synthetic distributions. While prior work has largely focused on either memorization or fairness in isolation, their interaction remains insufficiently understood. In this work, we introduce a data-interventional framework to systematically analyze privacy and fairness in diffusion models. We discuss synthetic anatomical fingerprints (SAFs), rare and manually injected image features, as controlled probes to study whether models generalize sensitive attributes across identities, memorize training samples, or suppress rare signals entirely. Across multiple conditioning modalities, we observe a consistent behavior: models either forget these fingerprints or memorize the entire image in which they appear, but do not generalize them to novel images. To support large-scale auditing where explicit sample extraction is infeasible, we further introduce the indicator metric t', which estimates a model's susceptibility to memorization by exploiting the internal structure of the diffusion process. By comparing conditioning signals of varying surprisal, we reveal a clear relationship between conditioning rarity and memorization behavior. Highly surprising conditioning signals act as retrieval keys that amplify memorization, whereas low-surprisal conditioning signals systematically suppress rare features, even when these appear repeatedly in the training data. Our findings provide actionable insights and concrete mitigation strategies for safe and fair synthetic medical data sharing. Code is available at https://github.com/MischaD/Privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.26508v1">Gap-Free Streaming PCA Beyond Rank-One Updates: Near-Optimal Rates and Applications to Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> 
-  <p><b>Published on:</b> 2026-09-22T14:38:39Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Anming Gu, Syamantak Kumar, Kevin Tian, Chutong Yang</p>
-    <p><b>Summary:</b> Streaming principal component analysis (PCA) seeks to recover a leading spectral subspace in a single pass over a data stream. We give a new analysis of the ubiquitous Oja's algorithm [Oja82] for the most general, gap-free variant of this problem, where no eigengap assumptions are made on the underlying mean matrix, complemented by a nearly-matching lower bound. Prior works achieving near-optimal rates for streaming PCA either required gap assumptions [JJK+16, HNWW21], or were limited to rank-one updates [AZL17, Lia23]. Our proof only uses a second moment bound on the individual stochastic updates, bypassing the almost sure bounds needed by prior near-optimal analyses, and the analogous offline matrix Bernstein bound. We also extend our result to a Rayleigh quotient notion of approximate PCA, addressing an open question of [JJK+16]. As our main application, we give gap-free differentially private PCA guarantees for sub-Gaussian data, settling Conjecture 1.1 of [Bro26] up to logarithmic factors.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.26365v1">Privacy-Preserving Coordinated Operation of Power Grids and AI Data Centers: A Checkpoint-Aware Three-Phase Scheme</a></h3>
-  
-  <p><b>Published on:</b> 2026-09-22T13:07:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ziang Liu, Ruizhang Yang, Xin Cui, Francis Yunhe Hou</p>
-    <p><b>Summary:</b> The rapid growth of large language model training and serving is driving AI data centers (AIDCs) toward gigawatt scale. Unlike conventional commercial loads, AIDCs possess significant operational flexibility through dynamic voltage and frequency scaling (DVFS) of training and inference workloads, while periodic model checkpointing can induce abrupt power drops and rebounds that erode operating reserves and increase transmission congestion risks. Coordinating AIDC operation with grid scheduling under these unique operational characteristics is challenging because grid and AIDC operators are generally unwilling to share proprietary data and decision-making authority. This paper proposes a hierarchical privacy-preserving coordinated operation scheme between the power grid and AIDCs to address this gap. The proposed scheme contains three phases. In Phase I, the grid operator computes a certified inner approximation of the AIDCs security region for subsequent coordination. In Phase II, the AIDC operator coordinates training and inference AIDCs to optimize workload allocation within the certified security region and generate power schedules and checkpoint alerts. In Phase III, the grid operator solves a checkpoint-aware two-stage robust optimal power flow (OPF) considering renewable generation and checkpoint uncertainties. By exchanging only compact interface information, the framework preserves the privacy of both grid and AIDCs, avoids frequent iterative communication, and enables secure coordination with guaranteed feasibility. Numerical studies on a modified IEEE 14-bus system and a modified NYISO system demonstrate the effectiveness, robustness, and security of the proposed framework.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.26295v1">On the security and privacy of LLMs in Mobility</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-09-22T12:09:08Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mauro Conti, Lorenzo Perinello, Umberto Salviati</p>
-    <p><b>Summary:</b> The mobility sector is undergoing a paradigm shift driven by advances in Generative Artificial Intelligence. With a global market valued at approximately 2.9 trillion dollars annually, considering only cars, the integration of these technologies has the potential to impact more than 1.5 billion vehicles worldwide. As Large Language Models (LLMs) are increasingly adopted in mobility, concerns about cybersecurity, privacy, and reliability emerge. Accordingly, this paper surveys current applications and assesses these challenges. Since the European AI Act classifies transportation AI as high risk, we derive nine technical classes from its requirements to assess current research and future deployments. Our findings show that research mainly studies GPT and Llama models (over 50\% of reviewed works) and traffic applications while largely neglecting security, privacy, and reliability. This gap extends to AI Act compliance: among 35 reviewed works, only one includes a partial vulnerability assessment and one a partial risk management system. We identify a clear gap between strong optimization performance and regulatory adherence, suggesting compliance is limited less by technology than by a focus on static performance over lifecycle safety, and underscoring an urgent need for security-by-design in safety-critical intelligent transportation systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.25941v1">UE-Side Location Privacy for 5G NR Uplink Positioning: Mechanisms and Trade-offs</a></h3>
-  
-  <p><b>Published on:</b> 2026-09-22T09:47:01Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Giulia Focarelli, Alireza Pourafzal, Henk Wymeersch, Stefania Bartoletti</p>
-    <p><b>Summary:</b> Future 5G-Advanced and 6G networks increasingly reuse uplink communication waveforms for positioning and sensing. This raises privacy concerns, as user equipments (UEs) may unintentionally reveal precise timing information even when positioning services are not explicitly requested. While prior works show generic orthogonal frequency division multiplexing (OFDM) pilots can be manipulated to degrade time-of-arrival (ToA) estimation without compromising data links, this paper extends these concepts to a realistic 5G new radio (NR) up-link framework including Sounding Reference Signal (SRS), Demodulation Reference Signal (DMRS), Physical Uplink Shared Channel (PUSCH), and standardized 3GPP channel models. We investigate several UE-side privacy mechanisms: optimized pilot distortion, artificial noise, artificial multipath, and delay spoofing. Through 3GPP-compliant sample-level simulations, we assess their impact via localization, communication, and consistency-based detection metrics. The resulting analysis highlights the trade-offs among privacy, communication reliability, and detectability, providing key insights into waveform-level obfuscation for future integrated sensing and communication (ISAC) systems.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.25798v1">Secure ISAC with Sensing Privacy under Eavesdropper Uncertainty</a></h3>
-  
-  <p><b>Published on:</b> 2026-09-22T07:34:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pigi P. Papanikolaou, Dimitrios Bozanis, Sotiris A. Tegos, Christos Masouros, George K. Karagiannidis</p>
-    <p><b>Summary:</b> This paper investigates the joint protection of confidential data and legitimate-user directional information in integrated sensing and communication (ISAC) networks. We consider a multiuser downlink in which passive multi-antenna eavesdroppers (Eves) attempt to decode confidential signals while exploiting legitimate-user reflections for unauthorized angular sensing. To address both threats, we develop a robust covariance-design framework that jointly limits Eve decoding, maintains the transmitter's accuracy in estimating the Eves' directions and shifts the dominant passive-sensing response toward prescribed deceptive directions. A Bayesian angular prior and the corresponding Bayesian Cramer-Rao bound (BCRB) characterize the transmitter's eavesdropper-angle estimation accuracy. Angular uncertainty is represented through geometry-consistent samples, such that each candidate Eve direction jointly determines the corresponding transmitter-Eve channel, user-Eve bearing, and deceptive direction. The resulting design balances worst-user secrecy, sensing accuracy, sensing privacy, and deception power. Robust Eve-decoding constraints are handled through finite sufficient conditions with intersample margins, while continuous ghost dominance is enforced using interval sum-of-squares (SOS) constraints. The resulting nonconvex problem is addressed through successive convex approximation (SCA) and semidefinite relaxation. Numerical results show that the proposed design effectively preserves secrecy and sensing privacy under Eve-angle uncertainty, provides controlled angular deception in single- and multiple-Eve scenarios, and outperforms benchmarks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.25484v1">Learning Defensive Policies against Diverse Inference Attacks for Smart Meter Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-09-21T23:27:09Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruichang Zhang, Mustafa A. Mustafa</p>
-    <p><b>Summary:</b> Smart meter (SM) data provides fine-grained visibility into household energy consumption, but also exposes users to privacy risks. Inference attacks, known as non-intrusive load monitoring (NILM), can perform appliance-level inference from aggregate signals and recover sensitive behavioral patterns. In practice, attacker models are unknown and heterogeneous, making robust defense challenging. We formulate SM privacy protection as a black-box inference defense problem, aiming to reduce the recoverability of appliance-level information while generalizing across diverse and unseen attackers. We propose a proxy-guided hierarchical reinforcement learning framework that learns battery-based load-shaping policies to inject realistic but misleading appliance-level signatures into the aggregate signal, thereby disrupting the structured patterns exploited by NILM. A self-supervised aggregate-structure privacy probe provides a reconstruction-error-based surrogate reward for disrupting recoverable load structure, while a signature library makes the perturbations appliance-relevant and physically realizable through battery control. We provide theoretical rationale showing that proxy-guided optimization improves inference robustness under attacker diversity. Experiments on real-world datasets UK-DALE and REDD demonstrate strong cross-model and cross-appliance generalization. Across six unseen NILM attackers, covering four appliances on UK-DALE and five on REDD, our proposed defense increases average appliance-level RMSE by 107% and 166%, respectively, while reducing F1 score by 79% and 80%.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.25352v2">SSP-Bench: A Hybrid Data Generation Framework for Safety, Security, and Privacy Evaluation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Software Engineering-D91E36">
-  <p><b>Published on:</b> 2026-09-21T19:44:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Fatih Deniz, Yazan Boshmaf, Issa Khalil</p>
-    <p><b>Summary:</b> Evaluation of large language models (LLMs) for safety, security, and privacy (SSP) relies heavily on static benchmarks, which suffer from score saturation, data contamination, and aggregation artifacts, and fail to capture sensitivity to linguistic variation. As a result, models that perform well on fixed test sets often fail under semantically equivalent rephrasings. We introduce SSP-Bench, a dynamic benchmarking framework that generates evaluation instances on demand while preserving domain consistency. The framework ensures label validity through externally grounded sources, enforces scope via service-specific validation, and calibrates difficulty using a multi-model steering panel. Benchmark construction is formulated as a multi-objective optimization problem over difficulty, separability, novelty, and diversity. Across 24 models and four SSP services, SSP-Bench reveals systematic failures of static evaluation, including near-zero correlation in safety rankings due to construct mixing, strong safety--over-refusal coupling, and hidden within-family regressions. These results show that static benchmarks can misrepresent model behavior, motivating dynamic, deployment-relevant evaluation.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.24656v1">5G-Shark: A Network Security Auditor for 5G Subscriber Privacy and Unauthenticated Signalling Resilience</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2026-09-21T14:24:37Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Oscar Lasierra, Gines Garcia-Aviles, Antonio Skarmeta, Xavier Costa-Pérez</p>
-    <p><b>Summary:</b> The fifth generation of mobile networks was standardised with an explicit mandate to close long-standing privacy and security gaps, mandating the concealment of the subscriber's permanent identity, resistance to generational downgrade, and protection against location tracking. Assessing whether these guarantees hold in operational networks, however, requires separating two sources of residual exposure that prior studies do not distinguish and do not evaluate in the wild: protocol-design limitations, which remain exploitable even against a fully specification-compliant deployment, and implementation gaps, which arise from incomplete or non-compliant implementations. We present 5G-Shark, a security assessment tool and methodology that turns a legitimate mobility procedure against the subscriber. Rather than relying on active jamming or malformed-packet injection, 5G-Shark manipulates the standardised cell-reselection criterion to pull a target User Equipment onto a self-created rogue cell, establishing an attack vantage with minimal service disruption. Then, the proposed methodology effectively performs the required interactions to expose the security risks of the system under test, classifying them into the aforementioned categories. Built solely from open-source stacks and Software Defined Radio hardware and evaluated against commercial 5G Standalone deployments, 5G-Shark requests subscriber identifiers, forces Radio Access Technology downgrade via crafted Registration Reject codes, and induces denial-of-service states. For each vector, we attribute the root cause to protocol design or deployment non-compliance. We further provide empirical evidence that in several commercial deployments, temporary identifiers are re-allocated in near-sequential steps that keep successive values linkable, a weakness that enables persistent user tracking despite correct subscriber ID concealment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.24537v1">MIRAGE: Full-Body Bystander Privacy for Smart Glasses with Consent-Based Restoration</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-09-21T13:09:28Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Muhammad Umair, Muhammad Danial Maqbool, Fatima Arshad Cheema, Kapal Dev, Muhammad Hamad Alizai, Muhammad Ali Siddiqi, Naveed Anwar Bhatti</p>
-    <p><b>Summary:</b> Video recording on smart glasses exposes more than faces. Continuous capture reveals full-body biometric signatures, including gait, posture, and silhouette, that enable person re-identification (ReID) even after conventional face sanitization.
-  We present MIRAGE, a three-tier architecture for privacy-preserving smart glasses that enforces full-body privacy, supports synthetic full-body replacement, and retains encrypted recovery material for consent-based restoration. We implement MIRAGE on a Raspberry Pi~5 (a CPU-only proxy for smart-glasses compute), companion phones, and a cloud generative backend. Compared to prior systems, MIRAGE achieves 0.948 AP and 0.976 AR while accurately detecting the complete visible body. Its bounding box masking reduces learned silhouette-based ReID to essentially random guessing, with 10.86% Rank-1 accuracy compared with an 11.12% measured chance level. Even against an adaptive adversary retrained on MIRAGE's sanitized pose signals, Rank-1 gait identification drops from 90.25% to 26.20%, removing 72.5% of the adversary's identification advantage.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.24173v1">Zero-Knowledge Remote Adversarial Attack against Wi-Fi-based Human Activity Recognition for Privacy Protection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762"> 
-  <p><b>Published on:</b> 2026-09-21T06:43:52Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Byungjun Kim, Amogh Panchagatti, Peter Gerstoft, Xinyu Zhang, Minsung Kim</p>
-    <p><b>Summary:</b> The growing capability of Wi-Fi devices to identify human activities using channel state information (CSI) raises privacy concerns. To counter this threat, we propose GRAW, an adversary system, acting as a privacy defender, that degrades the human activity recognition (HAR) system at the user device by perturbing the router's signals that the device uses to estimate CSI. GRAW employs generative adversarial imitation learning (GAIL) to construct perturbation signals, and thereby eliminates the need for any information on the target HAR systems and their inputs (i.e., zero-knowledge operation). We evaluate GRAW against seven representative HAR models, using datasets collected in five environments, including our own dataset. We observe that GRAW is the only remote attack scheme that degrades every tested HAR model to a random-selection level. At the same perturbation level, GRAW achieves an attack success ratio up to 76.7% higher than comparison methods, while maintaining over 99% packet success rate on regular Wi-Fi communication. We demonstrate the feasibility of GRAW through real-time, over-the-air experiments with software-defined radios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.23827v1">Pattern-level Differential Privacy for High-utility Complex Event Processing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
-  <p><b>Published on:</b> 2026-09-20T19:23:21Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> He Gu, Thomas Plagemann, Vera Goebel, Maik Benndorf, Boris Koldehofe</p>
-    <p><b>Summary:</b> Current privacy-preserving mechanisms (PPMs) in Complex Event Processing (CEP) systems are unnecessarily restrictive, reducing the utility of data received by data consumers. This article presents a novel approach to preserve privacy in CEP systems, improving the utility of detected event patterns by dynamically adapting the noise added to an unprotected data stream. We introduce a new guarantee named pattern-level differential privacy (DP), which enables us to apply and compare the strength of PPMs at the pattern level. We propose new pattern-level PPMs yielding pattern-level DP and analyze different trust settings of these PPMs and their requirements for context knowledge in the CEP system, e.g., the deployed queries. Our evaluation is based on three datasets (two real-world, one synthetic) and shows that the proposed PPMs increase data utility while preserving the same privacy level as the state-of-the-art PPMs. We use simulations to study the performance of our proposed PPMs in various practical scenarios. Furthermore, we demonstrate that computational complexity is not an obstacle to deployment.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.23521v1">Feature Suppression and Differential Privacy for Residential Traffic Classification: A Two-Home Federated Study</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
-  <p><b>Published on:</b> 2026-09-20T10:17:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Márton Pál Lipcsey-Magyar, Adrian Pekar</p>
-    <p><b>Summary:</b> Residential traffic classification supports service management, but learning across homes must account for heterogeneous traffic and privacy constraints. Privacy-aware training may impose uneven costs across traffic categories. We study this tradeoff in simulated two-client federated learning using 1.62 million preprocessed gateway-collected flows across six categories. We compare a full-feature baseline, feature suppression (FS), and differentially private stochastic gradient descent (DP-SGD) under one fixed record-level privacy setting. FS-mild excludes four timing features from 16 model inputs; it provides no formal privacy guarantee. With size-proportional aggregation, FS-mild achieves higher combined macro-F1 and worst-group F1 (the minimum per-class F1 across homes) than DP-SGD in all five seeds at both model capacities under stratified and temporal splits. The tested DP-SGD configuration incurs pronounced minority-category losses, especially in the smaller home, but FS-mild does not uniformly improve on the full-feature baseline. On stratified-split models, loss-based and shadow-model membership probes show near-chance aggregate discrimination without a consistent ranking across probes; this does not establish equivalent privacy. These findings support FS as an input-minimization baseline, not a substitute for formal privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.23403v1">Alignment and Divergence between Humans and AI in Interpersonal Privacy Decisions</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-09-20T06:30:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Hanxiang Zeng, Shuning Zhang, Xinyuan Zhou, Tianqi Song, Yuhan Yuan, Yuting Yang, Shuai Ma, Xin Yi</p>
-    <p><b>Summary:</b> AI assistants increasingly mediate interpersonal communication on behalf of their primary user, but they risk violating the privacy expectations of third-party information owners. Resolving these tensions requires understanding how humans anticipate interpersonal privacy boundaries. Therefore, we conducted a dyadic study (N=76) and a matched evaluation of AI models across 18 information types and 3 recipient relationships. We found that data owners' privacy judgments are highly contextual and relationship dependent. While familiar data co-owners show meaningful alignment with owners' expectations, they significantly overestimate the need for permission. Interestingly, greater familiarity within the owner-co-owner dyad was associated with both higher disclosure acceptability and lower co-owner misalignment, whereas our exploratory four-item empathy measure was not. In contrast, AI models significantly underperform human co-owners in anticipating the data acceptability, even when provided with within-dyad examples. These findings underscore a core HCI design challenge to develop privacy-aware AI that respects multi-stakeholder information boundaries.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2609.25103v1">Physical-Layer Sensing Privacy via Constellation Shaping for OFDM-ISAC Systems: Theory, Design, and Experiments</a></h3>
-  
-  <p><b>Published on:</b> 2026-09-20T02:29:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Kawon Han, Kaitao Meng, Christos Masouros</p>
-    <p><b>Summary:</b> The integration of sensing into communication networks introduces a new privacy risk, as a passive eavesdropper (Eve) may exploit ISAC data signals as signals of opportunity to perform unauthorized sensing of targets. In this paper, we develop a sensing-privacy-enhancing geometric constellation shaping (GCS) framework for OFDM-ISAC systems. The key observation is that constellation-dependent ranging performance is receiver-specific. For matched filtering at Eve, the ranging MSE is governed by the constellation kurtosis $\kurt$, whereas reciprocal filtering at the legitimate receiver (Alice) is governed by the inverse second-order moment $\ism$. Based on closed-form MSE expressions, we define sensing privacy as the ranging MSE gap between Eve and Alice and characterize its dependence on these two moments. The analysis shows that positive skewness of the symbol-power distribution is necessary for a positive intrinsic moment gap, namely $\kurt-\ism$. We further derive an exact skewness-based decomposition of the intrinsic moment gap and a canonical two-ring characterization, providing analytical guidelines for privacy-enhancing constellation geometries. We then formulate Eve-aware and Eve-agnostic GCS designs that balance sensing privacy and communication reliability through the minimum Euclidean distance (MED), with the Eve-agnostic design depending only on the intrinsic moment gap. Numerical results demonstrate scalable privacy--communication trade-offs, while over-the-air experiments show that the proposed constellation shaping substantially increases the ranging error gap between Eve and Alice with only a small communication throughput loss.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-10</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.18366v1">Understanding the "Why": Investigating the Design of Privacy Support Tools (PSTs) through the Lens of Psychological Needs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
+  <p><b>Published on:</b> 2026-10-13T13:27:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sara Hahn, Verena Zimmermann, Simon Althaus, Andreas Heinemann, Ephraim Zimmer, Alina Stöver, Nina Gerber</p>
+    <p><b>Summary:</b> Privacy Support Tools (PSTs) help users control their digital data, but face low adoption due to resignation and overwhelm. While current regulations aim to enhance privacy control, users still struggle to manage their privacy. To address this, we explore how PSTs can be designed for long-term adoption by applying the theoretical lens of psychological needs, as their fulfillment motivates users to use a digital product. We conducted in-depth interviews with 15 users and identified Security, Autonomy, and Competence as key psychological needs. From our results, we derive implications and recommendations for the need-sensitive design of PSTs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.18294v1">Which Optimizer Leaks Most? Optimizer Implicit Bias as a Training-Data Privacy Controller</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-10-13T12:42:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Sagi Habani, Yehonathan Refael, Ofir Lindenbaum</p>
+    <p><b>Summary:</b> Releasing a neural network checkpoint can leak information about its training data, and existing reconstruction results rely on gradient-descent training. We ask whether the choice of optimizer affects the ability to recover the training data. Extending work connecting Karush--Kuhn--Tucker conditions to training-data reconstruction, we show that the implicit biases of popular optimizers (SGD, Adam, Muon) leave very different fingerprints of the training data. We argue that the key distinction is the \emph{weight-specificity} of these implicit biases, namely how much continuous information about the final weights the optimizer-dependent target of the stationarity conditions encodes. The limiting stationarity conditions for models trained with SGD and Muon retain enough weight-specific information to reconstruct training examples in practice. For Adam in the $\ell_\infty$ implicit-bias regime, the optimizer-dependent part of these conditions encodes only a discrete pattern of maximal coordinates and their signs, and at nondegenerate KKT points the conditions are too few to identify the training set to first order. Experiments on MNIST and CIFAR-10 support these claims: models trained with Muon can yield stronger reconstructions at much lower training cost than models trained with SGD, although this advantage depends on the training regime and architecture, and models trained with Adam appear consistently more resistant to the evaluated attacks.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.18054v1">Privacy-Preserving GNN Inference on Financial Transaction Graphs via Homomorphic Encryption</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-10-13T09:43:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> H. Çağrı Bilgi, Kemal Mutluergil, Ceren Yıldırım, Kubilay Atasu, Erkay Savas</p>
+    <p><b>Summary:</b> Anti-money laundering (AML) in financial networks requires modeling transaction patterns that span multiple institutions. In practice, however, banks cannot share account and transaction features due to strict privacy regulations. We propose a privacy-preserving graph neural network (GNN) inference framework tailored to this multi-bank setting. A central server holds the graph connectivity and pretrained model weights in plaintext, while each bank keeps its transaction features encrypted. Inference is then carried out entirely on encrypted features under the CKKS homomorphic encryption scheme, so that no plaintext transaction features or predictions are exposed to the server. The key to making this practical is an edge-centric GNN architecture, wherein message passing is expressed through operations on node--edge incidence matrices. This formulation not only preserves the edge-attributed multigraph structure of transaction networks but also reduces every aggregation step to plaintext--ciphertext matrix products. Since CKKS can evaluate only polynomial circuits, we also approximate each nonlinearity with a composite polynomial of the sign function, which we calibrate per activation site. On the IBM AML benchmark, our model achieves performance competitive with plaintext baselines, and with a consumer-grade GPU, classifies each queried transaction end-to-end in as little as \textbf{5.31} seconds, while per-transaction latency can be amortized to \textbf{1.65} seconds when optimized for throughput.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.18007v1">Cost-Efficient Privacy Enforcement for Email-Generating LLM Agents under Strategic Information Requests</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-10-13T09:06:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Qikun Cai, Tao Huang, Chen Hou</p>
+    <p><b>Summary:</b> LLM agents now act as delegated communication intermediaries: they read private context, draft messages, and send externally visible emails on behalf of a user. Existing checker-repair defenses can reduce inappropriate disclosure, but they rely on repeated calls to a remote action LLM (the model that drafts and repairs the email) and a remote checker LLM whenever a draft fails validation. This creates a cost problem as well as a privacy problem, especially when a requester strategically asks for exact values, raw records, source evidence, or other details that induce leakage-heavy drafts. We propose local contract-conditioned rewriting as a cost-efficient enforcement layer for email-generating agents. The mechanism intercepts an outgoing draft, constructs an information-release contract that specifies what to preserve, generalize, and forbid, rewrites the draft with a local Gemma rewriter, and selectively invokes a final PrivacyChecker. Across extensive email tasks under normal prompts and attack prompts that operationalize strategic information requests, Gemma + Checker reduces normal-prompt leakage from 11.41% to 4.03% while improving UsableRate (satisfied or partially satisfied outputs) from 85.2% to 92.6%. Under the strategic attack-prompt condition, it reduces leakage from 28.19% to 18.79% and reduces checker-only cost amplification from 1.32x to 1.02x. Offline replay ablation shows that the full contract reduces leakage relative to generic Gemma rewriting by 36.3% under normal prompts and 54.1% under attack prompts. These results support a local-first privacy enforcement design: move repair to a cheaper trusted local layer when possible, but retain the checker as the final semantic gate for high-risk sends.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.17323v1">SSM-Attack: Learning Where to Perturb for Black-Box Face Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-10-12T19:28:22Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tunahan Parlayıcı, Erchan Aptoula, Yücel Saygın</p>
+    <p><b>Summary:</b> Face recognition systems are deployed widely enough that a photograph shared online can be matched without its subject's consent. Generator-based protection methods rely on heavy pretrained backbones, multi-stage inference or visible semantic edits. We introduce SSM-Attack, a black-box face privacy framework built on Selective State Space Models. Rather than synthesizing the perturbation, the state-space model predicts in one linear-time pass a spatial allocation of the perturbation budget, marking which facial locations carry identity evidence; a short projected refinement then sets the values within this per-pixel budget. Against published benchmark results, SSM-Attack attains the highest average black-box attack success rate on all three evaluation sets: 87.10 percent on CelebA-HQ, 86.90 on LADN and 81.15 on FFHQ, the last from a network that never saw that dataset. The allocation network holds 5.73 million parameters, or 16.13 million with the frozen networks used by its quality terms. Under the same cap of 0.10 on the maximum per-pixel change, allocation improves structural similarity by 0.044, peak signal-to-noise ratio by 1.62 decibels and Frechet Inception Distance by 11.2 points over a uniform map while spending 37 percent of its capacity. Strong facial privacy protection therefore does not require a large generative prior; it requires knowing where to spend a small one.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.17088v1">The Right to Be Forgotten under Correlation: Privacy-Utility Tradeoffs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-10-12T16:48:37Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Luis Massny, Rawad Bitar, Fangwei Ye, Salim El Rouayheb</p>
+    <p><b>Summary:</b> We study privacy-preserving algorithms that redact information from a correlated dataset. The goal is to reduce the information leakage about sensitive parts. We analytically characterize the optimal tradeoff between privacy (leakage through correlation) and utility (number of redactions) for local mechanisms and binary Markovian correlations. Our result shows how to decompose the mechanism design problem into a sequence of local mechanism design problems and reveals their sequential relation. The optimal mechanism is the solution to a Finite-Horizon Deterministic Markov Decision Process.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.16872v1">Toward Realistic Privacy Risk in FL-Enabled OT Intrusion Detection Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-10-12T14:35:30Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Assunta Imperatrice, Luigi ROmano</p>
+    <p><b>Summary:</b> In Operational Technology (OT) environments, Federated Learning (FL) is increasingly adopted to train Intrusion Detection Systems (IDSs) without sharing raw operational data across facilities. However, model updates may still leak sensitive information about industrial processes, creating privacy risks that remain largely invisible within current OT security architectures. Existing reference models, including the Purdue hierarchy, do not explicitly represent the FL learning lifecycle, making privacy leakage difficult to observe and evaluate. To address this gap, we introduce the ML Plane, a novel architectural abstraction that integrates FL workflows within OT systems, enabling visibility of learning-related information flows that are not explicitly represented in traditional OT architectures. Building on the proposed ML Plane, we outline a privacy auditing framework for FL-enabled OT systems. The framework uses Federated Membership Inference Attacks (FedMIA) as an initial assessment mechanism and is being instantiated within a Smart Grid testbed to support the future evaluation of privacy risks under realistic OT deployment constraints.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.16556v1">Design of Privacy-Preserving Estimators Under Prior Information Exposure</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-10-12T10:35:40Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Le Liu, Yu Kawano, Ming Cao</p>
+    <p><b>Summary:</b> State estimation is widely used in networked dynamical systems, but released estimates may inadvertently reveal sensitive information about private state variables. Existing privacy-preserving estimation frameworks often do not explicitly account for adversarial prior knowledge. Motivated by this gap, we study privacy-preserving state estimation for discrete-time linear stochastic systems under prior information exposure using pointwise maximal leakage (PML). We first reveal a privacy anti-optimality property of the Kalman filter: in the absence of additive release noise, the steady-state Kalman filter maximizes PML privacy leakage among the considered class of stable linear estimators. We further establish a nontrivial lower bound on the steady-state estimation error enforced by $(\varepsilon,δ)$-PML privacy. We then derive sufficient release-noise conditions that guarantee $(\varepsilon,δ)$-PML privacy, first for the Kalman filter and then for stable linear estimators. Finally, a convex semidefinite program is formulated for a joint design of the estimator gain and release noise covariance, providing a tractable privacy-preserving estimator with an explicit upper bound on the steady-state estimation error. Simulations on a source--load power system demonstrate the proposed privacy--utility tradeoff.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.16458v1">Differential Privacy Protected Preference Alignment on Survey Derived Data</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-10-12T09:18:26Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Xiuyuan Qi, Yi Wang, Wenjie Wang</p>
+    <p><b>Summary:</b> Preference alignment enables language models to better reflect human values, but the preference data contains sensitive information, especially when derived from surveys about political beliefs, social norms, religion, gender attitudes, and cultural values. This paper studies privacy-preserving alignment on questionnaire-derived data from the World Values Survey, where supervision takes the form of ordinal labels rather than standard pairwise rankings. Existing efforts mainly focus on general privacy protections upon model training, while data-specific methods for survey data remain unexplored. We first show the vulnerability of aligned models, then formulate the task as rating prediction and introduce label differential privacy. Building on this formulation, we construct a differential private pipeline utilizing three privacy mechanisms: randomized response, exponential mechanism, and DP-SGD. Experiments show that simple label-level mechanisms outperform gradient-level methods, and proper aggregation function for preprocessing also make large contribution. The new fine-grained private comparison motivates explorations toward language model alignment with formal privacy guarantees.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.16414v1">Purpose IR: Compiling User Purpose for Privacy-Preserving Agent Workflow State</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-10-12T08:48:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Dongsheng Chen, Xiangyu Zhao, Lei Ma, Xin Yao, Xuetao Wei</p>
+    <p><b>Summary:</b> LLM-agent workflows routinely transform rich observations into plans, summaries, memories, handoffs, and other reusable state. This creates a privacy boundary that task relevance alone does not capture: an observation may be needed as evidence for a task without its full semantics being authorized to persist. We call this mismatch the purpose-to-state semantic gap. The key distinction is that evidence authority is not release authority. We introduce Purpose IR, a bounded typed intermediate representation that compiles natural-language user purpose into an executable semantic boundary for reusable agent state. A Purpose program is an acyclic semantic dataflow graph in which evidence leaves specify task-required semantics, typed dependencies constrain authorized derivations, and declared sinks determine which values or actions may cross the reusable-state boundary. A deterministic compiler constructs and validates the authoritative program, while a typed runtime reconstructs reusable state only from validated sink outputs. Under explicit execution contracts, this design yields release confinement and purpose noninterference, characterizing what factual semantics may be released and which observation differences must become irrelevant to reusable state. Across 1,200 cases spanning LangGraph, CrewAI, and MobileRun, Purpose IR achieves 99.6% Privacy, 83.3% Task, and 83.3% Privacy-Compliant Success (PCS), outperforming the strongest high-privacy baseline by 27.5 PCS points. On 493 PrivacyLens trajectories, it achieves the highest Safe Action Rate at 77.3%, 10.4 points above the next-best method, extending the same boundary from reusable state to downstream actions. These results show that privacy-preserving agent state requires more than filtering sensitive or task-irrelevant content: it requires an explicit, executable representation of what the user's purpose authorizes to survive.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.16384v1">Risk-aware Road-network Trajectory Synthesis under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Databases-5BC0EB">
+  <p><b>Published on:</b> 2026-10-12T08:36:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Hongzhen Xiang, Chenxu Wang, Yumeng Song, Tao Qin, Yushuai Li, Pinghui Wang, Wei Wang</p>
+    <p><b>Summary:</b> Road-network trajectory synthesis under local differential privacy (LDP) enables mobility data analysis without uploading raw trajectories to an untrusted server. Existing locally private trajectory synthesis methods mainly model whole trajectories, point sequences, or grid-level mobility patterns. However, they cannot handle non-uniform privacy risks caused by local road-network and trajectory contexts, such as endpoints, long-stay-associated regions, and low-out-degree branches. They also do not directly protect conditional next-hop choices on road networks, where a user's selected successor may reveal sensitive local movement intentions. To address these challenges, we propose TrajRACE, a locally private synthesis framework for road-network trajectories. TrajRACE uses start, segment-count, and transition reports to represent trajectories. For each transition, it keeps the current road segment as a public aggregation context and perturbs the true successor among legal successors on the client side. It then assigns risk-aware protection strengths to transitions according to local road-network and trajectory contexts. Finally, the server recovers population-level start, segment-count, and conditional transition statistics from heterogeneous privatized reports, and generates synthetic trajectories that follow the public road-network topology. Experiments on three road-network trajectory datasets demonstrate the effectiveness of TrajRACE in improving synthetic-data utility across distributional, query-based, and pattern-level metrics, while providing stronger protection for high-risk local transitions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.16196v1">Towards Privacy-Preserving ASR: Speaker-Level Machine Unlearning</a></h3>
+  
+  <p><b>Published on:</b> 2026-10-12T05:25:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Seaone Ok, Seungu Han, Eungbeom Kim, Kyogu Lee</p>
+    <p><b>Summary:</b> Automatic Speech Recognition (ASR) systems are commonly designed to transcribe linguistic content independently of speaker identity. However, speaker-specific information can persist within the latent representations of ASR models, raising privacy concerns when training data includes sensitive individuals. While machine unlearning has been studied in several speech tasks, applying speaker unlearning to ASR remains challenging due to the strong entanglement of linguistic and speaker-related information in speech representations. In this work, we conduct a layer-wise analysis of Self-Supervised Learning (SSL) based ASR representations, revealing that speaker identity is primarily encoded in intermediate encoder layers. Based on this observation, we explore a feature-level unlearning strategy that targets these identity structures. Experiments on the VCTK corpus show that the proposed approach removes the influence of specific speakers while maintaining robust transcription performance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.15982v1">Adaptive Confidence Sets for Nonparametric Density Estimation under Local Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
+  <p><b>Published on:</b> 2026-10-11T23:31:50Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aditya Khan, Thibault Randrianarisoa</p>
+    <p><b>Summary:</b> In nonparametric density estimation without privacy constraints, it is known that a confidence set whose coverage holds uniformly over a `rough' class of regularity $r\geq0$ can simultaneously attain, in $L^2$-diameter, the minimax rate over a smaller, smoother class of regularity $s>r$ if and only if $s \le 2r$. We study such adaptive honest confidence sets under non-interactive $α$-local differential privacy (LDP) constraints. Our main result is that, for bounded $α$, such `smooth-rate adaptation' is now possible if and only if $s \le 4r/3$. In this smaller range we construct an honest private confidence set whose diameter is of the private minimax order on each of the two classes. As in the non-private case, the threshold arises because an honest set cannot, at a smooth density, be narrower than the separation rate arising in a related testing problem. Under LDP we prove that this private testing rate is of order $(nα^2)^{-2r/(4r+3)}$, which is at most the private estimation rate $(nα^2)^{-s/(2s+2)}$ over the smooth class exactly when $s \le 4r/3$. For $s > 4r/3$, however, we show that smooth-rate adaptation becomes possible once one discards from the rough class the densities that lie outside the smooth class but within an $L^2$-radius of the order of the private testing rate.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.15972v1">Exact Privacy--Distortion Design of Support-Constrained Randomized Response</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-10-11T23:05:33Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amirreza Zamani, Parastoo Sadeghi, Mikael Skoglund</p>
+    <p><b>Summary:</b> Full-support local randomizers can incur unnecessary reporting distortion on ordered alphabets. We study randomized response whose output is restricted to a radius-$t$ neighborhood of the private input. Input-dependent supports create privacy leakage at their boundaries, so ordinary likelihood-ratio calibration is no longer sufficient. Under approximate local privacy restricted to input pairs at distance at most $H$, we derive the exact hockey-stick defect of the mechanism. We then solve the joint design of the truthful probability, off-truth probability, and support radius. The fixed-radius optimum is available in closed form, while the global optimum requires only a one-dimensional integer search. We characterize both the privacy floor and its inverse, namely the smallest defect attainable under a reporting-distortion budget. We further prove that stringent approximate privacy forces the support size to scale as $Ω(H/δ)$. Deterministic evaluations illustrate the resulting tradeoff.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.15865v1">Penetrating the Reality Wall: Long-Range and Through-Wall AR/VR Privacy Eavesdropping via Wireless Power Side Channel</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-10-11T19:37:17Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tao Ni, Zehua Sun, Yihe Zhou, Yuefeng Du, Qingchuan Zhao, Cong Wang</p>
+    <p><b>Summary:</b> Over the past decade, Metaverse technology (AR/VR) has seen widespread adoption in numerous areas, including gaming, social networking, and online collaboration. Although recent studies have exposed vulnerabilities in VR systems, they often apply methods (e.g., pre-installed malicious apps or scripts) from conventional mobile platforms directly, demonstrating impractical attacks that fail to investigate unique privacy leakages specific to VR platforms. In this paper, we present an orthogonal attempt to analyze the attack surface of the power side channel on AR/VR's network connection by capturing the through-wall wireless power in the network transmission medium (e.g., Wi-Fi signals) non-intrusively in a comparatively long distance (e.g., 5.0m-8.0m) and further reconstructing multi-level privacy-aware user behaviors.
+  We propose MetaSpy to validate the feasibility and practicality of our disclosed wireless power-based traffic analysis attack. It first captures through-wall wireless power transmitted from the Wi-Fi router of an adjacent room, identifies the device type, then infers (i) user interactions such as browsing websites, running AR/VR apps, and performing various in-app activities, (ii) unseen VR-specific activities in VR games (e.g., Population: ONE), and (iii) avatar-based user re-identification and virtual keystroke inference corresponding to head movements. We evaluated the effectiveness of MetaSpy in four commercial-off-the-shelf (COTS) VR headsets, and the empirical results demonstrate its competitive accuracy in unveiling multi-level user privacy within virtual scenes in through-wall settings at a longer distance (1.8x-80x) than most of the recent studies, and it shows resilience to a series of external interference and impact factors. In addition, we also propose and evaluate effective countermeasures to protect data confidentiality in AR/VR wireless transmission.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.15847v1">Residual-Information Generalization Bounds Under Selective Privacy: Extended Version</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-10-11T18:58:46Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Amirreza Zamani, Parastoo Sadeghi, Mikael Skoglund</p>
+    <p><b>Summary:</b> Information-theoretic generalization bounds usually control dependence on the task sample, whereas selective privacy may constrain only a different, private coordinate. We study i.i.d. pairs $(X,Y)$, where a learner observes $(X^n,Y^n)$, leaks at most $ε_n$ nats about $X^n$, and incurs loss on $Y$. A chain-rule transfer converts this mismatched constraint into the closed-form universal certificate $I(W;Y^n)\leq\min\{nH(Y),nH(Y\mid X)+ε_n\}$. Combining the certificate with mutual-information generalization yields a bound governed by residual task uncertainty and normalized privacy leakage. We derive complementary task-compression and individual-sample refinements, identify a sharp obstruction showing why selective privacy alone need not give a vanishing certificate, and invert the bound to obtain the exact leakage allowance for a prescribed generalization tolerance. We prove exact information-level achievability for deterministic-task and independent-residual source families and show that the resulting $\sqrt{ε_n/n}$ generalization rate is tight up to a universal constant. We also give a fixed-horizon adaptive application in which conditional leakage costs add.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.15804v1">Privacy Conductor: An Architectural Enforcement of Contextual Integrity in LLM-Based Document Retrieval</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-10-11T17:48:21Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ryan Thornton, Mir Mehedi A. Pritom, Maanak Gupta, Jessee Roberts</p>
+    <p><b>Summary:</b> Large language model (LLM) that retrieve internal documents within an organization must decide who may receive them. Existing approaches based on Contextual Integrity ask the model to make that decision, so access depends on probabilistic reasoning. We present Privacy Conductor, an architecture that removes the decision from the model: a deterministic gate enforces a policy written by an authority, and the model receives only what the requester may already see. On a synthetic clinical corpus of 2,520 requester--document flows, the gate reproduces its policy exactly, so the remaining risk lies in the document labels it reads. As label source is of primary importance, we compare LLM and human generated labels. Across seven configurations of six models from two model families, LLM-written labels degrade the policy in every case. Models assign a document's sensitivity tier correctly on 78--86% of documents, but reproduce its access-control list on as few as 23%. Relabeling the same documents five times with an identical request changes 13 to 124 access decisions per configuration, a result that does not depend on our own labels. On 214 flows from HIPAA court cases, the most accurate configuration (87.8%) still permits 11 of the 20 disclosures the law prohibits. LLMs can describe what a document contains, but not decide who should receive it. Hence, we recommend privacy policy should be authored by accountable personnel and enforced outside the model.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.15379v1">LiveAnon: Improving Privacy and Utility in Streaming Speaker Anonymization with Codec Language Models</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Sound-D91E36">
+  <p><b>Published on:</b> 2026-10-11T06:05:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yejin Kim, Kyungsu Kim, Seungu Han, Kyogu Lee</p>
+    <p><b>Summary:</b> Speaker anonymization (SA) aims to conceal speaker identity while preserving linguistic content and emotion, but existing streaming systems often lose emotion information through discrete content bottlenecks or require emotion-specific modeling. We present LiveAnon, a voice-conversion-based streaming SA system that directly conditions an autoregressive codec language model on hidden features from a pretrained streaming ASR encoder, preserving emotion without emotion-specific supervision. To reduce codec-generation latency, we introduce capped RVQ decoding, which preserves dependencies among coarse codebooks while predicting the remaining codebooks in parallel. Under VPC24, LiveAnon improves intelligibility and emotion preservation over fixed-target Stream-Voice-Anon (SVA), a strong prior streaming SA system, matches emotion-prompted SVA in emotion preservation, and achieves the strongest semi-informed privacy among streaming systems. Under VPC26, it ranks second across all metrics among the evaluated anonymization systems, demonstrating a strong privacy-utility balance.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.14846v1">Towards Privacy-Preserving Thermal Human Perception from Dataset to Deployment</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> 
+  <p><b>Published on:</b> 2026-10-10T11:59:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kailai Sun, Yue Cui, Xinwei Wang, Zijie Gao, Baoshen Guo, Zhiqing Hong, Irfan Qaisar, Xu Yang, Yueting Li, Dian Fan, Qianchuan Zhao</p>
+    <p><b>Summary:</b> Indoor human perception is the foundation for smart homes and healthcare. However, RGB cameras raise privacy concerns in private indoor environments, while low-resolution thermal cameras provide limited spatial and semantic information. Large-scale indoor thermal datasets and real-world deployments remain limited. Here, we introduce Indoor RGB-T, a large-scale paired RGB--thermal dataset for indoor human perception. The dataset covers 20 indoor rooms and contains 90,576 80x62 thermal frames, 87,016 temporally matched RGB--thermal pairs, and 115,557 annotated human bounding boxes. We establish benchmarks for robust thermal occupant-state detection with 0.75 mAP and occupancy estimation with an accuracy of 0.847 in unseen rooms. We further evaluate RGB-to-thermal and thermal-to-RGB translation, achieving a temperature MAE of 0.654 C and an R2 of 0.923. Finally, we deploy the thermal perception model on a commercial sleep-monitoring system in the real world. Field testing with 100 participants and deployment of approximately 1,000 devices further demonstrate its practical feasibility. We identify practical challenges that motivate future research directions, including environmental thermal interference, sensing range and multi-person occlusion. The code, trained models and partial dataset are available at https://github.com/kailaisun/RGBT and https://huggingface.co/skl24/RGBT.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.14643v1">AegisVox: Factorized Privacy and Clinical Preservation for Long-Form Speech</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-10-10T06:53:23Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Praphul Singh, Akshat Agarwal, Ratul Ghosh, Aashna Kanuga, Devashish Khatwani, Anurag Dwarakanath, Sri Gadde, Krishnaram Kenthapadi</p>
+    <p><b>Summary:</b> Clinical speech reveals identity through both spoken identifiers and voice, yet its pauses, delivery, and speaker roles can also carry useful clinical evidence. Protecting that speech therefore requires more than preserving its words. We present AegisVox, a factorized framework that assigns consistent surrogate voices and edits identifier-bearing turns using document-consistent replacements. Across 390 public simulated or non-patient conversations totaling 63.6 hours, a matched comparison of two speech renderers separates replacement realization from retained identifiers, speaker linkage, and clinical preservation. Text-to-speech rendering realizes 535/601 planned replacements versus 453/601 for the codec-based speech editor. However, similar aggregate clinical preservation conceals more model-labeled contradictions, and conversation-wide speaker scores conceal greater edited-speech linkage under a score-direction sensitivity analysis. Fresh transcription of original audio provides a reference for interpreting the clinical measurement chain; an independent judge tests sensitivity to model-based assessment. Better replacement realization can therefore coexist with worse clinical or speaker-linkage measurements. AegisVox supports use-specific evaluation of those tradeoffs, not a guarantee of identifier removal or clinical safety.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.14432v1">Minimax Wasserstein Testing under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
+  <p><b>Published on:</b> 2026-10-10T00:56:35Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Bonwoo Lee, Ilmun Kim, Cheolwoo Park</p>
+    <p><b>Summary:</b> We study Wasserstein-$p$ goodness-of-fit and two-sample testing under differential privacy. For general compact metric spaces, we establish upper and lower bounds on the minimax separation radii in terms of covering numbers, matching up to logarithmic factors. On the hypercube $[0,1]^d$, these bounds match up to constant factors for two-sample testing in all dimensions and for goodness-of-fit testing whenever $d\neq 4p$, thereby closing logarithmic gaps in existing non-private results. At the critical case $(d,p)=(4,1)$, we further show that a logarithmic factor is unavoidable by establishing matching minimax bounds for non-private Wasserstein-$1$ goodness-of-fit testing under a bounded-density assumption. Finally, for unbounded domains, we establish minimax-optimal separation rates up to logarithmic factors under an exponential tail condition.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2610.13768v1">From Pixels to Privacy-Sensitive Features: An Information-Theoretic Framework for Reconstruction Bounds</a></h3>
@@ -827,6 +811,18 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Chang Qu, Zhaoyang Shi</p>
     <p><b>Summary:</b> Dense associative memory (DAM) provides an energy-based framework for memory retrieval with close connections to attention mechanisms in modern artificial intelligence. Despite growing interest in differential privacy for AI, the privacy of DAM retrieval dynamics remains relatively unexplored. In this paper, we develop a differential privacy framework for log-sum-ReLU (LSR) dense associative memory, whose finite-support retrieval dynamics pose distinctive challenges for privacy-preserving computation. We propose the Boundary-Responsive Adaptive Correction Evolution (BRACE) algorithm, a differentially private retrieval mechanism for LSR-DAM that adaptively corrects boundary-sensitive perturbations to control their cumulative effect over the retrieval trajectory. In theory, we prove that our method is minimax optimal by deriving dimension-independent terminal and full-trajectory retrieval error rates, with optimal dependence on the inverse temperature and, in the growing-horizon regime, the retrieval horizon. We further establish central limit theorems that enable uncertainty quantification for private retrieval by characterizing its asymptotic distribution and the additional variability introduced by privacy. Numerical experiments compare our proposed method with baseline differential privacy approaches and evaluate its retrieval accuracy. Together, our results provide a theoretical foundation for optimal privacy-preserving retrieval and uncertainty quantification in energy-based associative memory systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2610.14071v1">Loose Lips: Understanding Privacy Leakage in Agentic Dialogue</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-10-07T23:25:11Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Soumya Sharma, Ayana Hussain, Heber Hwang Arcolezi, Ulrich Aïvodji, Spandana Gella, Adriana Romero-Soriano, Golnoosh Farnadi</p>
+    <p><b>Summary:</b> As LLM agents are increasingly deployed in high-stakes enterprise settings, understanding how they handle sensitive information in agentic dialogue has become critical. Privacy leakage in such settings requires reasoning about whether information flows respect the contextual norms under which they originated. We extend CIMemories to CIMEMORIES DIALOGUE, a benchmark of 4,410 two-agent dialogue instances grounded in Contextual Integrity theory. Using this benchmark, we systematically evaluate 7 open-weight models from the Qwen3 and Llama 3.1 families across conversation lengths of 1 and 6 turns under three prompting conditions. We find that task capability and privacy leakage are fundamentally coupled: more capable models are systematically leakier, with no model in our evaluation able to decouple the two. Thinking models consistently leak more than their non-thinking counterparts, a pattern we attribute to the extended reasoning surface created by chain-of-thought. Leakage compounds with conversation length, rising up to 3x from 1 to 6 turns. Our results suggest that the coupling between task capability and privacy leakage is not an artifact of misconfiguration but a structural feature of current agentic systems.</p>
   </details>
 </div>
 
