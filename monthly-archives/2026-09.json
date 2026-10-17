@@ -4436,5 +4436,41 @@
     "categories" : [
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2609.39787v2",
+    "title" : "Privacy Foundations for Multi-Institutional Scientific Artificial Intelligence",
+    "summary" : "Scientific artificial intelligence (AI), spanning foundation models (FMs) to federated data-analysis pipelines, is becoming shared infrastructure across national laboratories, universities, hospitals, and industrial partners. This collaboration creates privacy risks whose natural unit is often an institution's participation, research strategy, or technical capability rather than a single record. Differential privacy (DP), federated learning (FL), secure computation, trusted execution, and provenance each protect parts of the stack, but their guarantees rarely compose across mixed-trust institutions, access tiers, and autonomous agents. This perspective recasts privacy for scientific AI as an assurance problem defined by six elements: protected asset, observer, channel, permitted disclosure, guarantee, and evidence. We demonstrate the framing through a claim register for a composite cross-institutional scenario and use it to assess the model lifecycle. Two of the resulting gaps are specific to leadership-class facilities: scheduler, allocation, and telemetry metadata expose an institution's resource posture, and instrument-attached control loops leak research strategy through timing and contention on shared accelerators. We identify six research priorities: institution-level guarantees, agent-communication privacy, cross-tier information flow, privacy-compatible reproducibility, leadership-scale accounting, and instrument side channels. The contribution is a common form for stating, comparing, and auditing claims whose guarantees otherwise remain fragmented across the scientific AI stack.",
+    "updated" : "2026-10-14T18:38:00Z",
+    "published" : "2026-09-30T14:08:13Z",
+    "authors" : [
+      {
+        "name" : "Olivera Kotevska"
+      },
+      {
+        "name" : "Sumit Jha"
+      },
+      {
+        "name" : "Aur'elien Bellet"
+      },
+      {
+        "name" : "Rui Hu"
+      },
+      {
+        "name" : "Nathaniel D. Bastian"
+      },
+      {
+        "name" : "Rafael Ferreira da Silva"
+      },
+      {
+        "name" : "Ravi Madduri"
+      },
+      {
+        "name" : "Kibaek Kim"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
