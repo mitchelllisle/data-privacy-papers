@@ -1749,5 +1749,353 @@
       "cs.CR",
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.22278v1",
+    "title" : "Subgraph Counting with Local Node Differential Privacy",
+    "summary" : "We study the problem of approximately counting subgraphs under local node differential privacy (LNDP), a recently introduced model that enforces strong privacy guarantees in analyses of distributed social networks. We design a noninteractive $(\\varepsilon,0)$-LNDP algorithm that, given any public $k$-node template graph $H$, counts occurrences of $H$ in a sensitive undirected $n$-node graph with additive error $O(n^{k-\\frac{1}{2}}/\\varepsilon^{k-1})$, for any constant $k$. We complement this algorithm with a lower bound showing that every noninteractive $(\\varepsilon,δ)$-LNDP algorithm for counting copies of any $k$-node template graph with maximum degree greater than $1$ must have error $Ω(n^{k - \\frac{1}{2}})$. Thus, our algorithm achieves optimal error for counting constant-size subgraphs, up to $\\mathrm{poly}(1/\\varepsilon)$ factors.\n  Our results substantially expand the types of network statistics known to be approximable under LNDP: prior work considered only functions of the degree distribution. In addition, our lower bound yields the first known $\\mathrm{poly}(n)$ gap between central and local node differential privacy when accuracy is required for all input graphs. Previous separations either only involved $\\mathrm{poly}(1/\\varepsilon)$ factors or only applied to promise problems.",
+    "updated" : "2026-10-15T17:39:36Z",
+    "published" : "2026-10-15T17:39:36Z",
+    "authors" : [
+      {
+        "name" : "Sofya Raskhodnikova"
+      },
+      {
+        "name" : "Adam Smith"
+      },
+      {
+        "name" : "Connor Wagaman"
+      },
+      {
+        "name" : "Anatoly Zavyalov"
+      }
+    ],
+    "categories" : [
+      "cs.DS",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21799v1",
+    "title" : "Behavioral Forgetting Is Not Privacy in Machine Unlearning",
+    "summary" : "Machine unlearning aims to remove targeted information from large language models, but existing evaluations often measure forgetting only on a designated benchmark distribution. We argue that such behavioral forgetting is an insufficient standard for privacy-oriented unlearning, and that evaluation should instead test whether forgetting persists across the access paths through which the same information may be recovered. We demonstrate this with a controlled case study of cross-lingual querying: across multiple multilingual model families, forgetting varies substantially when semantically equivalent information is queried in different languages and scripts. A single access path is therefore enough to expose a real gap between behavioral forgetting and information inaccessibility, motivating broader evaluation of access-path generalization and adversarial recoverability alongside in-distribution forgetting.",
+    "updated" : "2026-10-15T12:48:16Z",
+    "published" : "2026-10-15T12:48:16Z",
+    "authors" : [
+      {
+        "name" : "Tyler Lizzo"
+      },
+      {
+        "name" : "Larry Heck"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21547v1",
+    "title" : "Federated Art Chase: Privacy Leakage and Data Poisoning in Federated Fine-Tuning",
+    "summary" : "Federated learning (FL) is increasingly used to adapt a pretrained, centrally fine-tuned model to data that remain on user devices, beyond training a model from scratch. In this report, prepared for the 4th Federated Machine Learning International Summer School, we study the privacy and integrity of this approach with a reproducible pipeline. An ImageNet-pretrained MobileNetV4-Conv-Small model is fine-tuned centrally on ten Quick, Draw! classes (97.50% test accuracy) and then adapted with head-only FedAvg over ten non-IID clients, which raises client training accuracy from 90.34% to 91.49% while preserving global accuracy. We evaluate four adversarial scenarios. First, from a single one-step client update, an honest-but-curious server recovers the complete private label set, but its reconstructions follow class prototypes rather than the private drawings (mean SSIM 0.130). Second, from a one-round FedAvg aggregate, label-count recovery falls from 87.5% with one client to 75.0% with five and ten clients, below the 80.0% of an uninformed uniform guess. Third, under FedAvg, a backdoor injected by 30%, 50%, and 100% of the clients reaches an attack success rate (ASR) of 21.9%, 31.3%, and 54.7% at a cost of at most 0.8 percentage points of clean accuracy, whereas label flipping is effective only when most of the source-class data are relabeled. Fourth, FLTrust with a root set retained from centralized fine-tuning lowers the backdoor ASR to 1.8% and 4.0% at 30% and 50% malicious clients and the label-flipping ASR from 12.6% to 0.8% without measurable clean-accuracy loss, but provides no protection when every client is malicious. The report closes with a live session in which participants draw, fine-tune, and poison the model through Indigma's FedMaestro orchestrator. Code and executed notebooks, runnable on Google Colab, are at https://github.com/Indigma-Innovations/fl-summer-school.",
+    "updated" : "2026-10-15T09:11:39Z",
+    "published" : "2026-10-15T09:11:39Z",
+    "authors" : [
+      {
+        "name" : "Vasileios Perifanis"
+      },
+      {
+        "name" : "Nikolaos Pavlidis"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21361v1",
+    "title" : "Hierarchical Building-Floo-Room Framework for Privacy-Preserving Autonomous Delivery in Large-Scale Buildings",
+    "summary" : "Autonomous delivery in large scale buildings requires coordinated planning across multiple spatial levels, including building, floor, and room, while ensuring scheduling efficiency. Existing methods often focus solely on algorithmic development, neglecting integration with physical robotic platforms, and rarely validate performance in real world scenarios. Many approaches also overlook hierarchical building structures and room level privacy constraints, limiting practical applicability. To address these challenges, this paper presents a hierarchical delivery framework based on a Building-Floor-Room abstraction, which decomposes the problem across multiple levels to significantly reduce optimization complexity. We formulate a building aware extension of the capacitated vehicle routing problem (CVRP) that explicitly models inter building and inter floor connectivity, room level access constraints, and privacy sensitive areas, enabling globally feasible and privacy compliant task assignment and routing. Based on this hierarchical model, the framework can evaluate delivery efficiency across different building layouts and optimize depot placement for specific configurations. At the execution level, we introduce a novel hardware design for non interactive, privacy preserving delivery, supported by reachability aware distances and a closed loop mapping, localization, and navigation system, ensuring consistency between planned routes and physical navigation. The proposed framework is validated on a real multi sensor robotic platform, demonstrating reliable multi floor delivery with improved path rationality and overall efficiency.",
+    "updated" : "2026-10-15T06:39:52Z",
+    "published" : "2026-10-15T06:39:52Z",
+    "authors" : [
+      {
+        "name" : "Xu Xiaoji"
+      },
+      {
+        "name" : "Luo Rui"
+      },
+      {
+        "name" : "Chen Jinhua"
+      },
+      {
+        "name" : "Xiang Changying"
+      },
+      {
+        "name" : "Zhang Leihan"
+      },
+      {
+        "name" : "Liao Zhongyuan"
+      }
+    ],
+    "categories" : [
+      "cs.RO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21333v1",
+    "title" : "QuasiLeak-Bench: Evaluating LLM-Based Privacy Detectors on Policy-Conditioned Quasi-Evidence Group Recovery",
+    "summary" : "Natural language messages often contain quasi-identifiers that are weak in isolation but can jointly reveal an individual's private attributes. We call such a jointly revealing set of cues a quasi-evidence group. Existing privacy benchmarks focus on explicit identifiers, attribute inference, or task-driven disclosures, leaving inference from quasi-evidence groups largely unmeasured. In practice, whether exposing such a quasi-evidence group violates privacy also depends on sender-specified disclosure policies. We introduce QuasiLeak-Bench, a benchmark for policy-conditioned quasi-evidence group recovery, which evaluates whether detectors recover complete quasi-evidence groups and flag the disclosures the given policy prohibits. To obtain reliable ground truth at scale, a reverse-construction pipeline first selects weak quasi-identifiers, composes them into quasi-evidence groups verified to jointly reveal a target attribute, and generates documents around this evidence, followed by automated quality control. Experiments show that existing privacy detectors transfer poorly to QuasiLeak-Bench, and locally deployable LLM-based detectors fall far behind proprietary models, mainly because they miss most quasi-evidence groups altogether. However, a 4B model fine-tuned on our training split surpasses the strongest prompted model on held-out documents, showing that the task is learnable.",
+    "updated" : "2026-10-15T06:20:09Z",
+    "published" : "2026-10-15T06:20:09Z",
+    "authors" : [
+      {
+        "name" : "Yufan Zhu"
+      },
+      {
+        "name" : "Yangfan Jiang"
+      },
+      {
+        "name" : "Yang Fei"
+      },
+      {
+        "name" : "Shizheng Hou"
+      },
+      {
+        "name" : "Shubhankar Mohapatra"
+      },
+      {
+        "name" : "Xiaokui Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21308v1",
+    "title" : "PocketTSLM: Deploying an On-Device Soft-Prompt Time-Series Language Model for Privacy-Preserving Smartphone Reasoning",
+    "summary" : "Consumer phones and wearables increasingly collect physiological time-series data, yet most mobile systems treat these streams as summaries or text rather than as temporal evidence. This representation is poorly matched to personal health systems that need to retrieve, route, or summarize sensor evidence while preserving temporal structure. Cloud-hosted time-series language models avoid smartphone limits, but they repeatedly move sensitive physiology off the device and add latency and per-query compute cost. Mobile model alternatives that aggregate time-series data into statistical features or serialize raw samples as text either compress temporal structure or exhaust the context and memory budgets of small on-device models. We present PocketTSLM, a mobile-native deployment of OpenTSLM SoftPrompt, the soft-prompt variant of the OpenTSLM time-series language model. PocketTSLM runs fully on a consumer smartphone by injecting encoded time-series windows as embeddings instead of tokenizing time series as text. A numerical parity protocol verifies identical greedy-decoded token sequences between the Swift port and a Python reference using Apple's MLX machine-learning framework. Answers also match the PyTorch reference, although rationale wording can differ. An on-device context-economics benchmark compares the soft-prompt path with a text-serialized baseline on the same backbone. In our benchmark format, soft-prompting uses approximately 12 times fewer time-series tokens and reduces prompt-prefill cost. PocketTSLM processes 30-second Sleep-EDF electroencephalography clips for sleep staging and a 1,000-sample (10 s) 12-lead electrocardiogram clip from ECG-QA. In comparison, text-serialized baselines exceed the phone's context or memory budget at longer time-series windows. All inference runs entirely on the device, with no health data transmitted during inference.",
+    "updated" : "2026-10-15T05:56:53Z",
+    "published" : "2026-10-15T05:56:53Z",
+    "authors" : [
+      {
+        "name" : "Max Rosenblattl"
+      },
+      {
+        "name" : "Nikhil Krishnaswamy"
+      },
+      {
+        "name" : "Leon Nissen"
+      },
+      {
+        "name" : "Manuel Milling"
+      },
+      {
+        "name" : "Nicolas Zumarraga"
+      },
+      {
+        "name" : "Ning Wang"
+      },
+      {
+        "name" : "Thomas Kaar"
+      },
+      {
+        "name" : "Robert Jakob"
+      },
+      {
+        "name" : "Björn W. Schuller"
+      },
+      {
+        "name" : "Elgar Fleisch"
+      },
+      {
+        "name" : "Patrick Langer"
+      },
+      {
+        "name" : "Paul Schmiedmayer"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21245v1",
+    "title" : "From One Query to Many: A Critical Survey of Privacy Accounting in RAG",
+    "summary" : "Retrieval-augmented generation (RAG) enables large language models to leverage external knowledge but introduces privacy risks when the retrieved corpus contains sensitive information. Differential privacy (DP) offers formal protection, yet interpreting and comparing privacy guarantees across existing DP-RAG methods remains challenging. In particular, a privacy budget reported for a single response does not directly characterize privacy loss over repeated queries, and even identical values of $\\varepsilon$ may represent different guarantees depending on the protected data unit, accounting horizon, and observable outputs. This survey critically examines how privacy accounting evolves from single-query generation to multi-query RAG systems. We categorize existing approaches into query-time privatization, multi-query accounting, and one-time corpus privatization. We analyze their underlying assumptions and privacy--utility trade-offs. Rather than ranking methods by $\\varepsilon$ alone, we propose a framework that interprets a DP-RAG guarantee along three dimensions: privacy granularity, accounting scope, and release boundaries. We conclude that an $\\eps$ is a claim only together with the three slots: the protected unit, the accounting scope, and the release boundary.",
+    "updated" : "2026-10-15T04:41:03Z",
+    "published" : "2026-10-15T04:41:03Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21194v1",
+    "title" : "FedSumUp: User-Auditable Privacy-Aware Representation Sharing for Resource-Constrained Federated Intelligence",
+    "summary" : "Existing federated data condensation methods face privacy risks, as uploaded synthetic data may preserve sensitive information and remain vulnerable to reconstruction attacks. Moreover, their generation often incurs considerable client-side computational overhead, limiting deployment on resource-constrained devices. To address these issues, we propose FedSumUp, which employs a learnable lossy compressor on clients to generate compact and visually interpretable representations. By controlling information capacity, FedSumUp reduces privacy leakage while allowing users to directly assess the privacy-utility tradeoff. We further introduce a dual-objective optimization mechanism to preserve task-relevant semantics while suppressing reconstruction risks. The compressor is trained on the server and only performs lightweight inference on clients. Since the server cannot access raw data, we develop a data-free closed-loop optimization strategy that optimizes the compressor by minimizing the discrepancy between original and twice-compressed representations after structure-preserving upsampling. Experiments on BloodMNIST, CIFAR-10, and ChestMNIST demonstrate reconstruction PSNR as low as 8.56 dB (with synthetic PSNR as low as 5.45 dB), client runtime reductions up to 96.5% (from 778s to 27s on ChestMNIST), and competitive classification accuracy (89.72% ChestMNIST, 82.24% BloodMNIST, 65.63% CIFAR-10), while remaining inherently robust to non-IID data distributions.",
+    "updated" : "2026-10-15T03:54:17Z",
+    "published" : "2026-10-15T03:54:17Z",
+    "authors" : [
+      {
+        "name" : "Jingwei Zhao"
+      },
+      {
+        "name" : "Tiantong Sun"
+      },
+      {
+        "name" : "Yuanyuan Song"
+      },
+      {
+        "name" : "Jinhuan Guo"
+      },
+      {
+        "name" : "Wei Zishuo"
+      },
+      {
+        "name" : "Shengyu Huang"
+      },
+      {
+        "name" : "Ziyuan Ren"
+      },
+      {
+        "name" : "Wei Chen"
+      },
+      {
+        "name" : "Xiaojin Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21048v1",
+    "title" : "SHIP: Structured and Hierarchical Insight with Privacy",
+    "summary" : "Extracting insights from textual data while protecting user privacy is increasingly important. Existing methods produce private insights in diverse forms for different analytical purposes, making their utility difficult to assess and compare. In this work, we formulate differentially private (DP) insights as reusable representations for answering analytical queries, providing a common basis for utility assessment. Answering these queries, however, requires fine-grained details and cross-attribute statistics that existing representations may omit. To capture this information, we introduce Structured and Hierarchical Insight with Privacy (SHIP), which automatically maps queries to attributes, builds a hierarchical hybrid taxonomy, and releases a DP synthetic table for further analysis. We also develop an evaluation protocol based primarily on QA performance and structured fidelity. Our experiments demonstrate SHIP's strong performance on both measures relative to existing private insight baselines, while identifying queries that remain challenging for structured representations.",
+    "updated" : "2026-10-15T00:48:25Z",
+    "published" : "2026-10-15T00:48:25Z",
+    "authors" : [
+      {
+        "name" : "Kai Chen"
+      },
+      {
+        "name" : "Guisi Ni"
+      },
+      {
+        "name" : "Albert Cheu"
+      },
+      {
+        "name" : "Kassem Fawaz"
+      },
+      {
+        "name" : "Yuzheng Hu"
+      },
+      {
+        "name" : "Ryan McKenna"
+      },
+      {
+        "name" : "Peter Kairouz"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21033v1",
+    "title" : "Efficient Agnostic Learning of Univariate Densities Under Local Differential Privacy",
+    "summary" : "We propose a general framework for non-interactive locally differentially private (LDP) learning of structured univariate distributions that can be approximated by piece-wise polynomials. This gives the first sample-efficient LDP learners for several distribution classes, including mixtures of log-concave distributions, such as Gaussian mixture models (GMMs). These learners also provide agnostic guarantees and are computationally efficient. We also prove a lower bound for learning GMMs under LDP, improving on the standard pure-DP packing lower bounds of Bun et al. [BKSW19]. To obtain our general learning framework, we develop an efficient non-interactive LDP algorithm for synthetic data generation over large domains, which may be of independent interest. We then use it together with a deterministic adaptation of the non-private piecewise polynomial learner of Acharya et al. [ADLS17].",
+    "updated" : "2026-10-15T00:08:08Z",
+    "published" : "2026-10-15T00:08:08Z",
+    "authors" : [
+      {
+        "name" : "Mohammad Afzali"
+      },
+      {
+        "name" : "Hassan Ashtiani"
+      },
+      {
+        "name" : "Sivan Sabato"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.DS",
+      "cs.IT",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.20796v1",
+    "title" : "Privacy-Preserving Text Inference for Health-Misinformation Classification and Semantic Retrieval",
+    "summary" : "Health-misinformation analysis presents a dual challenge: misleading claims can affect public well-being, while systems designed to detect them may expose sensitive user-submitted text. This motivates privacy-preserving inference for public-health applications in which user queries may contain confidential medical information and trained models and reference databases are maintained on organizational servers. We design a privacy-preserving text inference framework based on CKKS homomorphic encryption for health-misinformation classification and semantic retrieval. The classification pipeline fuses BioBERT embeddings, PCA-reduced MPNet embeddings, and SVD-reduced TF-IDF features, while the retrieval pipeline combines MPNet embeddings with ISCC-SCT semantic fingerprints through late fusion. We evaluate predictive performance and benchmark plaintext versus ciphertext-based execution. The hybrid classifier achieved an accuracy of 0.971 and a macro-F1 score of 0.950, with identical reported metrics under plaintext and ciphertext-based inference. The hybrid late-fusion similarity model achieved a Pearson correlation of 0.8691 with human sentence-pair similarity scores on STS-B. For ciphertext-based retrieval, we evaluated naive and optimized implementations. The optimized implementation uses CKKS single instruction, multiple data (SIMD) packing to compute and return multiple similarity scores together, reducing single-query latency over 7,128 indexed items from 222.028 to 5.168 seconds and communication overhead from 6.11 GB to 2.13 MB. These findings demonstrate the technical feasibility of privacy-preserving text inference for health-misinformation applications and characterize its predictive utility and efficiency trade-offs.",
+    "updated" : "2026-10-14T18:41:44Z",
+    "published" : "2026-10-14T18:41:44Z",
+    "authors" : [
+      {
+        "name" : "Jasleen Kaur"
+      },
+      {
+        "name" : "Chloé Cachet"
+      },
+      {
+        "name" : "Koray Karabina"
+      },
+      {
+        "name" : "Jean Belo Klamti"
+      },
+      {
+        "name" : "Philippe Lamontagne"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.04042v2",
+    "title" : "Assessing Acceptance and Privacy Preferences of Third-party Financial Data Sharing in Bipolar Disorder",
+    "summary" : "Bipolar disorder is strongly associated with financial instability. We examine how different interventions motivate individuals with bipolar disorder to share financial data with others. This approach can inform the development of tools for digital monitoring and intervention designed to promote financial stability in this population. 500 individuals with BD completed a pre-registered factorial vignette survey to examine level of comfort with hypothetical scenarios involving third-party financial interventions during symptomatic and euthymic periods. Scenario components were systematically varied between third-party actors, mood states, and intervention types. Participants rated sharing comfort on a 0-10 point scale. Multilevel models tested differences alongside clinical and financial histories, relational trust, and personality. Participants were most comfortable involving care partners in financial planning. They were more comfortable with temporary spending restrictions during symptomatic states than euthymic periods, underscoring the importance of accurate mood detection for intervention delivery. Prior financial help-seeking behavior and higher relational trust predicted greater comfort. Bankruptcy experience --- declared by 11.4% and considered by 31.7% --- was associated with increased comfort with spending restrictions. Individuals with psychiatric advance directives (8%) were significantly more comfortable sharing spending behaviors than those without. Comfort with financial interventions was higher among those with prior financial challenges or help-seeking histories. Participants distinguished between symptomatic and euthymic periods, favoring targeted, time-limited restrictions over general monitoring. These findings extend prior work on financial data sharing for illness self-management.",
+    "updated" : "2026-10-15T13:07:58Z",
+    "published" : "2026-10-02T20:50:08Z",
+    "authors" : [
+      {
+        "name" : "Jeff Brozena"
+      },
+      {
+        "name" : "Johnna Blair"
+      },
+      {
+        "name" : "Dahlia Mukherjee"
+      },
+      {
+        "name" : "Erika F. H. Saunders"
+      },
+      {
+        "name" : "Thomas Richardson"
+      },
+      {
+        "name" : "Mark Matthews"
+      },
+      {
+        "name" : "Saeed Abdullah"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
