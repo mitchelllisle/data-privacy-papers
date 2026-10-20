@@ -2221,5 +2221,478 @@
       "cs.CR",
       "cs.CL"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.26460v1",
+    "title" : "Differential privacy with adjustable preservation of multivariate relationships",
+    "summary" : "This paper derives an exact attenuation formula for multivariate cross-moments under differential privacy achieved through randomized response. From a proposed alternative formulation of randomization matrices compliant with differential privacy guarantees we show that, under attribute-level randomization and where the randomization of the whole distribution is characterized by Kronecker products, any cross-moment of the anonymized dataset involving distinct attributes is equal to the original cross-moment multiplied by attenuation parameters, themselves determined by the part of the overall privacy budget allocated to each attribute. This characterization enables explicit and transparent controls of multivariate relationships preservations in differential privacy through privacy budget allocation. A simple numerical illustration demonstrates that identical total budgets can yield substantially different covariance-preservation profiles. The results also make the multiplicative loss of higher-order interactions explicit and thus can support mechanism design guided by analytical priorities.",
+    "updated" : "2026-10-19T14:11:41Z",
+    "published" : "2026-10-19T14:11:41Z",
+    "authors" : [
+      {
+        "name" : "Nicolas Ruiz"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.26385v1",
+    "title" : "Basis Selection For Analog Coded Computing Under Differential Privacy Constraints",
+    "summary" : "In analog coded computing, encoding basis functions are typically chosen to guarantee exact reconstruction and improve numerical stability. However, the same basis functions also determine the statistical geometry of the observations available to colluding workers, and hence directly influence the privacy of the underlying data. This suggests that basis selection should not be viewed solely as a reconstruction or numerical conditioning problem, but rather as a joint privacy and accuracy co-design problem. Motivated by this observation, we revisit Analog Lagrange Coded Computing (ALCC) and show that the full orthogonality constraints imposed by the conventional Lagrange basis are stronger than what is required for exact recovery. We retain only the interpolation constraints necessary for the data bearing basis functions and require the noise bearing basis functions merely to vanish at the data recovery points. This yields a parameterized family of generalized polynomial encoding bases that preserves exact reconstruction while introducing additional design degrees of freedom. We then derive a basis-dependent characterization of differential privacy for colluding workers and formulate a privacy-calibrated numerical optimization problem that jointly selects the data and noise basis functions to reduce reconstruction error while satisfying a prescribed \\((ε,δ)\\)-DP requirement. The resulting framework therefore treats the encoding basis itself as a privacy-design variable, rather than selecting a fixed closed-form basis a priori. The same design philosophy is also compatible with alternative privacy metrics such as mutual-information leakage. Numerical results show that, at the same privacy level, optimized basis functions substantially reduce floating-point reconstruction error relative to conventional ALCC.",
+    "updated" : "2026-10-19T13:35:25Z",
+    "published" : "2026-10-19T13:35:25Z",
+    "authors" : [
+      {
+        "name" : "Aaditya Sharma"
+      },
+      {
+        "name" : "Rimpi Borah"
+      },
+      {
+        "name" : "J. Harshan"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25937v1",
+    "title" : "RAGLeak: Supply-Chain Privacy Backdoors in Retrieval-Augmented Generation",
+    "summary" : "Retrieval-Augmented Generation (RAG) enables large language models to access external knowledge during inference, but its reliance on external knowledge bases also introduces new attack surfaces. Existing data extraction attacks against RAG systems rely on either prompt injection, which heavily depends on the generator's instruction-following capability, or backdoors that reproduce or paraphrase retrieved documents but struggle to balance extraction fidelity and stealthiness. In this paper, we propose RAGLeak, a supply-chain privacy backdoor attack that decouples information leakage from direct textual exposure. When triggered, the generator reversibly obfuscates retrieved private documents for high-fidelity recovery by an auxiliary LLM. Across three model families and three application domains, RAGLeak achieves up to $100\\%$ ASR with limited impact on benign utility and at most a $10$-percentage-point ASR drop under representative detection-based defenses. The backdoor remains effective after clean fine-tuning and across model scales and versions, revealing an underexplored supply-chain privacy risk in RAG systems. The source code is available at https://anonymous.4open.science/r/RAGLeak-4B67.",
+    "updated" : "2026-10-19T07:32:11Z",
+    "published" : "2026-10-19T07:32:11Z",
+    "authors" : [
+      {
+        "name" : "Yuchen Chen"
+      },
+      {
+        "name" : "Wei Cheng"
+      },
+      {
+        "name" : "Yuan Xiao"
+      },
+      {
+        "name" : "Junda He"
+      },
+      {
+        "name" : "Jieke Shi"
+      },
+      {
+        "name" : "PingPing OuYang"
+      },
+      {
+        "name" : "Quanjun Zhang"
+      },
+      {
+        "name" : "Chunrong Fang"
+      },
+      {
+        "name" : "David Lo"
+      },
+      {
+        "name" : "Zhenyu Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25773v1",
+    "title" : "When Care Expands and Control Declines: Understanding Digital Privacy in End-of-Life Care",
+    "summary" : "Terminally ill patients generate extensive digital health data through hospital portals, physiological monitoring devices, consumer health applications, and end-of-life care platforms. Yet their ability to control this data is systematically undermined by the structural conditions of terminal care. Through semi-structured in-depth interviews with 21 terminally ill patients, 11 family caregivers, and 8 physicians recruited from tertiary hospitals, this study examines the digital privacy circumstances and subjective attitudes of patients in end-of-life contexts. Thematic analysis reveals five structural dimensions of digital privacy challenge: continuous bodily digitization without meaningful informed consent; cognitive decline driving involuntary proxy control of accounts; inferential data generation exceeding patients' epistemic boundaries; dissolution of individual privacy boundaries amid relational network restructuring; and the absence of institutional governance over post-mortem data. Patient privacy attitudes span three profiles: fundamental absence of privacy awareness, sustained active management under severe tool constraints, and perception of problems followed by resigned abandonment. Interviews with caregivers and physicians reveal benevolent substitution in the name of care needs, expansion of access beyond the initial task, and unresolved boundaries under absent institutional guidance. These findings reveal a compounding privacy vulnerability unique to end-of-life contexts and call for privacy-by-design principles, granular permission mechanisms, and institutional governance frameworks tailored to the needs of dying patients.",
+    "updated" : "2026-10-19T04:38:09Z",
+    "published" : "2026-10-19T04:38:09Z",
+    "authors" : [
+      {
+        "name" : "Yibo Meng"
+      },
+      {
+        "name" : "Bingyi Liu"
+      },
+      {
+        "name" : "Lionel Z. Wang"
+      },
+      {
+        "name" : "Zhuoran Lu"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.CR",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25639v1",
+    "title" : "Privacy-Preserving Robust Monitoring of Dense-Time Temporal Logic",
+    "summary" : "Motivated by the use of third-party testing, this paper presents a privacy-preserving implementation of the robustness monitoring of Signal Temporal Logic (STL). STL is a specification language for systems whose output traces have real-valued timestamps -- most prominently, cyber-physical systems. Its robust semantics, which assign real rather than binary truth values, are an essential ingredient of systems testing and runtime monitoring. In a number of system testing scenarios, the designer and the tester are separate parties. This testing-as-a-service model is common in software, avionics, and semiconductors, and is growing in importance in the red-teaming of machine learning models. In such a model, the designer seeks to preserve the privacy (or secrecy) of its design, while the tester seeks to preserve the privacy of its collateral, including the detailed specification suite. This paper presents a secure multi-party implementation of the robust semantics using arithmetic circuits. This implementation allows one party, which provides a secret trace, and a second party which provides a secret formula, to jointly compute the robustness without either party being able to learn the other party's secret input. We present a number of algorithmic modifications to the robustness computation to enable an efficient multi-party robustness computation. We also present new, semi-linear, robust semantics for STL that take advantage of the efficiencies of arithmetic circuits. The experimental results demonstrate that not only is this privacy-preserving monitor efficient on its own, but also that it can be used in a testing loop without affecting the speed at which bugs are found during robustness-guided system testing.",
+    "updated" : "2026-10-19T01:32:57Z",
+    "published" : "2026-10-19T01:32:57Z",
+    "authors" : [
+      {
+        "name" : "Charles Koll"
+      },
+      {
+        "name" : "Mike Rosulek"
+      },
+      {
+        "name" : "Houssam Abbas"
+      }
+    ],
+    "categories" : [
+      "cs.LO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25636v1",
+    "title" : "Formalization of Rényi Differential Privacy in Isabelle/HOL (Draft version)",
+    "summary" : "Differential privacy (DP) is a gold-standard definition of privacy designed to evaluate the privacy guarantee of databases. Rényi differential privacy (RDP) is an important variant of DP that gives tight evaluations of machine learning algorithms. These formulations are easy to understand, but evaluating privacy for actual databases is complicated. Even a small change in the database can break its privacy, and evaluations of DP and RDP themselves are complicated. In particular, RDP evaluations in recent studies have become much harder. Therefore, formal verification of them has been studied for over a decade.\n  In this paper, we propose an Isabelle/HOL library for formalizing Rényi differential privacy in a general setting. We first formalize RDP for continuous distributions. As a technical basis, we formalize several properties of convex functions and $f$-divergences for nonnegative convex functions. We formalize basic properties of RDP, conversion laws from RDP to DP, the moment accountants in DP, and the Gaussian mechanism and its RDP. Finally, we discuss the stochastic gradient descent mechanism with Gaussian noise and formalize a rough evaluation of its RDP and DP.",
+    "updated" : "2026-10-19T01:27:16Z",
+    "published" : "2026-10-19T01:27:16Z",
+    "authors" : [
+      {
+        "name" : "Tetsuya Sato"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25286v1",
+    "title" : "PRICE: Privacy-Preserving Image Classification in Mobile Edge-Cloud Computing with Homomorphic Encryption",
+    "summary" : "Cloud-assisted image classification enables many mobile AI applications, but transmitting raw images to the cloud raises significant privacy concerns. Homomorphic encryption (HE) allows computation over encrypted data; however, existing end-to-end HE-based inference pipelines incur prohibitive latency and computational overhead, limiting their feasibility for latency-sensitive mobile systems. This paper addresses how to enable efficient encrypted image classification in mobile edge-cloud environments without sacrificing accuracy. We propose PRICE, a three-tier edge-cloud architecture that partitions deep neural network inference between a trusted edge and an untrusted cloud. The edge performs lightweight feature extraction in plaintext, while only compact embeddings are encrypted using the Cheon-Kim-Kim-Song (CKKS) scheme and offloaded to the cloud for encrypted final-layer inference. This design avoids homomorphic evaluation of deep backbone layers, significantly reducing computation depth, ciphertext size, and end-to-end latency. To further improve efficiency, we develop RowHyDiag, a row-packed hybrid diagonal encoding with hoisted-rotation-aware encrypted matrix-vector computation, which minimizes rotation operations and improves slot utilization. Extensive experiments on real devices across five datasets demonstrate that, under the evaluated 128-bit-security configurations, RowHyDiag achieves up to 31.8$\\times$ faster cloud inference, 85.3$\\times$ fewer rotations, and 83.0$\\times$ lower setup payload than the conventional Halevi-Shoup diagonal method. RowHyDiag also outperforms the PEGASUS linear-transformation baseline, providing 1.1-4.5$\\times$ faster cloud inference and 1.2-3.4$\\times$ lower setup payload. The results show that PRICE enables deployment-ready, low-latency encrypted inference for mobile edge-cloud systems under a trusted-edge threat model.",
+    "updated" : "2026-10-18T14:06:17Z",
+    "published" : "2026-10-18T14:06:17Z",
+    "authors" : [
+      {
+        "name" : "Duc-Huy Nguyen"
+      },
+      {
+        "name" : "Bui Duc Manh"
+      },
+      {
+        "name" : "Chi-Hieu Nguyen"
+      },
+      {
+        "name" : "Dinh Thai Hoang"
+      },
+      {
+        "name" : "Diep N. Nguyen"
+      },
+      {
+        "name" : "Van-Dinh Nguyen"
+      },
+      {
+        "name" : "Quoc-Viet Pham"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25161v1",
+    "title" : "Indistinguishable Agents: Training Agent Privacy as Twin-World Indistinguishability",
+    "summary" : "LLM agents search, shop and send messages for their users, and every action is seen by some party. Existing privacy training rewards agents for not mentioning protected items, yet an observer can infer a private fact from what the agent does. Since an observer learns a fact only if its view changes with the fact, we propose \\methodfull (\\method), which trains on twin worlds that differ only in the private fact. A frozen distinguisher scores each observer's view by its log-likelihood ratio for the true world, and paired GRPO trains the agent on task success minus this ratio. We prove that this objective controls the Bayes success of every observer on every channel. On shopping and messaging tasks \\method removes the leakage that disclosure judges and query-level rewards miss, while the agent still completes its tasks.",
+    "updated" : "2026-10-18T10:37:33Z",
+    "published" : "2026-10-18T10:37:33Z",
+    "authors" : [
+      {
+        "name" : "Jiaming He"
+      },
+      {
+        "name" : "Guanyu Hou"
+      },
+      {
+        "name" : "Yi Yu"
+      },
+      {
+        "name" : "Xudong Jiang"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.25094v1",
+    "title" : "Towards End-to-End Privacy-Preserving AI for Real-Time ECG Monitoring",
+    "summary" : "Healthcare artificial intelligence is shifting from centralized archives toward distributed pipelines that combine wearables, edge processing, cloud analytics, and multi-institutional learning. In this regime, electrocardiogram (ECG) streams cross multiple trust boundaries, so privacy cannot be reduced to a single transmission control. Existing privacy-enhancing technologies typically secure isolated stages and leave gaps between acquisition, analysis, and institutional collaboration.\n  This doctoral research develops a unified lifecycle framework for end-to-end privacy-preserving ECG AI. Rather than introducing another privacy mechanism, it orchestrates complementary privacy-enhancing technologies across the clinical ECG lifecycle, allocating each mechanism to the trust boundary where its security, computational, and operational properties are most appropriate. Three interoperable modules instantiate the framework: AES with CKKS-based homomorphic statistics for secure monitoring; adaptive chaotic protection for low-latency edge transmission; and federated learning with homomorphic aggregation under heterogeneous partitions. Across prototype monitoring, signal-security analysis, and simulated collaboration, the programme shows that privacy layers can be composed without collapsing diagnostic utility, while exposing overhead and fidelity limits that constrain clinical translation.",
+    "updated" : "2026-10-18T07:58:57Z",
+    "published" : "2026-10-18T07:58:57Z",
+    "authors" : [
+      {
+        "name" : "Beyazit Bestami Yuksel"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.24841v1",
+    "title" : "PCHMR: Empowering and Benchmarking Human Mesh Recovery in Privacy-Constrained Real-World Settings",
+    "summary" : "Fine-tuning directly on user-side data is an effective way to improve the performance of widely adopted data-driven human mesh recovery (HMR) models. However, doing so for existing HMR methods often assumes aggregating user-side data from real-world HMR-deployed devices to a central training server, posing a significant privacy risk as sensitive human images are transmitted. How can human mesh recovery be evaluated and improved in privacy-constrained real-world settings? We study this question through a benchmark in which state-of-the-art HMR models are trained with federated learning and a secure-aggregation variant, neither of which centralizes raw images, and evaluated across a wide range of client-scale and data-heterogeneity settings. We document that common HMR training pipelines are built around centralized data access and quantify how representative HMR backbones behave when that assumption is removed. Furthermore, to study the data bottleneck of privacy-constrained HMR training, we propose DePoser, a local annotation and fine-tuning pipeline enhanced with depth foundation models, with which collaboratively trained HMR models can be locally tailored to the end user's distribution. On in-the-wild data, fine-tuning on DePoser annotations improves personalization accuracy, measured against DePoser-generated pseudo-ground truth. This benchmark aims to support future work on privacy-constrained HMR models and their real-world deployment and evaluation.",
+    "updated" : "2026-10-17T19:46:23Z",
+    "published" : "2026-10-17T19:46:23Z",
+    "authors" : [
+      {
+        "name" : "Zeyu Cao"
+      },
+      {
+        "name" : "Qingxuan Wu"
+      },
+      {
+        "name" : "Zhiyang Dou"
+      },
+      {
+        "name" : "Rui Xu"
+      },
+      {
+        "name" : "Yuan Liu"
+      },
+      {
+        "name" : "Javier Fernandez-Marques"
+      },
+      {
+        "name" : "Nicholas D. Lane"
+      },
+      {
+        "name" : "Taku Komura"
+      },
+      {
+        "name" : "Wenping Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.24748v1",
+    "title" : "Collaborative Hand Drawing to Conceptualize Usable Privacy and Security Research Problems: Students' Perspectives (Extended Version)",
+    "summary" : "In this paper, we explore students' perspectives on incorporating hand drawing to conceptualize usable privacy and security research problems. We surveyed 64 female students who participated in an in-class collaborative hand drawing activity to conceptualize usable privacy and security research problems as part of a group-based student research project on usable privacy and security in an information and computer security course for undergraduate students. Our survey responses suggest that students perceived the drawing exercise positively. That is, they found it helpful in several aspects, enjoyable, and they recommend it to other students taking the course. The students also said that they would like to have such an exercise in other courses, such as Principles of Human-Computer Interaction and Fundamentals of Data Networks. Only three students mentioned downsides of the exercise, namely doubts about their drawing skills. Our results provide useful insights for educators seeking to enhance the student learning experience.",
+    "updated" : "2026-10-17T15:30:23Z",
+    "published" : "2026-10-17T15:30:23Z",
+    "authors" : [
+      {
+        "name" : "Eman Alashwali"
+      },
+      {
+        "name" : "Joud Alraimi"
+      },
+      {
+        "name" : "Maryam Almaghrabi"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.24389v1",
+    "title" : "From Neglect to Resignation: Understanding the Evolution of Mobile Privacy",
+    "summary" : "This decade-long longitudinal qualitative study follows 31 smartphone users in China across four interview waves (2014-2023) to examine how mobile privacy understanding evolves alongside shifting computing infrastructures. Findings reveal three stages shaped by distinct interactional mechanisms: early functional acceptance of permission-based data access, growing vigilance triggered by behavioral tracking feedback loops, and eventual resignation as AI-driven inference made ecosystem-level profiling feel inescapable. Rather than a stable attitude, digital resignation emerges through cumulative infrastructure exposure, as each new system layer retroactively reinterpreted earlier permissions and exhausted users' capacity for self-management. The study challenges permission-centric design assumptions and proposes inference visibility, context isolation, and automated privacy agency as system-level responses.",
+    "updated" : "2026-10-17T02:44:39Z",
+    "published" : "2026-10-17T02:44:39Z",
+    "authors" : [
+      {
+        "name" : "Yibo Meng"
+      },
+      {
+        "name" : "Ziqi Liu"
+      },
+      {
+        "name" : "Lionel Z. Wang"
+      },
+      {
+        "name" : "Shuning Zhang"
+      },
+      {
+        "name" : "Xiaolan Ding"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.24359v1",
+    "title" : "Can Agents Keep Secrets They Were Never Told? Benchmarking Latent Privacy Risks Across Sessions with MemJoin",
+    "summary" : "To support sustained interactions and personalized assistance, agents use long-term memory to retain and combine user information across sessions. Reusing such memories can lead an agent to state a sensitive relation while completing an ordinary task that does not require it. The relation to protect and the combination of clues that reveal it may remain hidden at memory write time, when later records and tasks are still unknown. In this paper, we introduce MemJoin, a privacy benchmark of 288 synthetic analysis cases in which the complete history entails a sensitive relation, but every individual session is insufficient. We evaluate six memory systems with the same answer-generating model, alongside full-history and no-history controls. Each system writes and updates memories in session order and later retrieves context for an ordinary task, while target annotations remain with the evaluator. We separately check which target attribute values appear in stored records and retrieved context, and whether the final answer states the complete, person-linked relation. In a separate paired test on a prespecified subset, removing shared identifiers and other connecting clues can change complete-relation output while all checked target attribute values remain visible. These findings show why checking attribute visibility alone is insufficient to evaluate what records from different sessions reveal together.",
+    "updated" : "2026-10-17T01:20:36Z",
+    "published" : "2026-10-17T01:20:36Z",
+    "authors" : [
+      {
+        "name" : "Qishun Yang"
+      },
+      {
+        "name" : "Shu Yang"
+      },
+      {
+        "name" : "Difei Xu"
+      },
+      {
+        "name" : "Di Wang"
+      },
+      {
+        "name" : "Meng Ding"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.24278v1",
+    "title" : "Dataset Inference for Data Provenance and Privacy Auditing in Tabular Foundation Models",
+    "summary" : "Tabular foundation models (TFMs) are increasingly deployed through black-box APIs and trained on large collections of real-world tabular datasets. As this training paradigm becomes more widely adopted, private or proprietary datasets may be incorporated into pre-training corpora, yet there are currently no dedicated methods for determining whether a given tabular dataset was used to train a TFM. As a solution, we introduce the first dataset inference method for TFMs, aiming to infer whether a suspect dataset was part of a model's pre-training data. We systematically analyze a broad collection of candidate signals that can be observed from a black-box TFM via input manipulation and find that individual signals provide only weak evidence of training data membership. However, by combining multiple complementary signals, we can infer dataset membership for several state-of-the-art TFMs trained on real tabular data, achieving up to 0.99 ROCAUC dependent on the TFM. We then study factors that influence dataset identification, including pre-training data composition, model capacity, and the use of real vs. synthetic data. Our results show that our dataset inference method is a practical auditing tool for detecting privacy leakage and the use of proprietary datasets in TFMs.",
+    "updated" : "2026-10-16T22:16:14Z",
+    "published" : "2026-10-16T22:16:14Z",
+    "authors" : [
+      {
+        "name" : "Dariush Wahdany"
+      },
+      {
+        "name" : "Jesse Cresswell"
+      },
+      {
+        "name" : "Naiqing Guan"
+      },
+      {
+        "name" : "Atiyeh Ashari Ghomi"
+      },
+      {
+        "name" : "Franziska Boenisch"
+      },
+      {
+        "name" : "Adam Dziedzic"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.23798v2",
+    "title" : "Task-aware Kernel Stein certificates for Rényi differential privacy",
+    "summary" : "Rènyi differential privacy, based on Rènyi divergence, has become a notion of choice for privacy guarantees. However, outside the Gaussian setting, Rènyi divergence can be difficult to compute. In particular, Rènyi differential privacy guarantees that exploit task-specific information, as in Rènyi Pufferfish privacy, can be challenging. Here we use kernel Stein discrepancies based on escort distributions to provide certificates for Rènyi differential privacy. By designing the kernel to focus on the relevant privacy directions, we also derive task-aware privacy certificates. We provide exact identities for Gaussian and Laplace mechanisms and bounds for exponential mechanisms, with separate task-aware guarantees. A real data set example illustrates how the protected comparison set and the released subspace jointly determine the resulting certificates.",
+    "updated" : "2026-10-19T08:43:34Z",
+    "published" : "2026-10-16T17:24:09Z",
+    "authors" : [
+      {
+        "name" : "Leoni Carla Wirth"
+      },
+      {
+        "name" : "Tara Trauthwein"
+      },
+      {
+        "name" : "Gesine Reinert"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21333v2",
+    "title" : "QuasiLeak-Bench: Evaluating LLM-Based Privacy Detectors on Policy-Conditioned Quasi-Evidence Group Recovery",
+    "summary" : "Natural language messages often contain quasi-identifiers that are weak in isolation but can jointly reveal an individual's private attributes. We call such a jointly revealing set of cues a quasi-evidence group. Existing privacy benchmarks focus on explicit identifiers, attribute inference, or task-driven disclosures, leaving inference from quasi-evidence groups largely unmeasured. In practice, whether exposing such a quasi-evidence group violates privacy also depends on sender-specified disclosure policies. We introduce QuasiLeak-Bench, a benchmark for policy-conditioned quasi-evidence group recovery, which evaluates whether detectors recover complete quasi-evidence groups and flag the disclosures the given policy prohibits. To obtain reliable ground truth at scale, a reverse-construction pipeline first selects weak quasi-identifiers, composes them into quasi-evidence groups verified to jointly reveal a target attribute, and generates documents around this evidence, followed by automated quality control. Experiments show that existing privacy detectors transfer poorly to QuasiLeak-Bench, and locally deployable LLM-based detectors fall far behind proprietary models, mainly because they miss most quasi-evidence groups altogether. However, a 4B model fine-tuned on our training split surpasses the strongest prompted model on held-out documents, showing that the task is learnable.",
+    "updated" : "2026-10-19T13:27:20Z",
+    "published" : "2026-10-15T06:20:09Z",
+    "authors" : [
+      {
+        "name" : "Yufan Zhu"
+      },
+      {
+        "name" : "Yangfan Jiang"
+      },
+      {
+        "name" : "Yang Fei"
+      },
+      {
+        "name" : "Shizheng Hou"
+      },
+      {
+        "name" : "Shubhankar Mohapatra"
+      },
+      {
+        "name" : "Xiaokui Xiao"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.20796v2",
+    "title" : "Privacy-Preserving Text Inference for Health-Misinformation Classification and Semantic Retrieval",
+    "summary" : "Health-misinformation analysis presents a dual challenge: misleading claims can affect public well-being, while systems designed to detect them may expose sensitive user-submitted text. This motivates privacy-preserving inference for public-health applications in which user queries may contain confidential medical information and trained models and reference databases are maintained on organizational servers. We design a privacy-preserving text inference framework based on CKKS homomorphic encryption for health-misinformation classification and semantic retrieval. The classification pipeline fuses BioBERT embeddings, PCA-reduced MPNet embeddings, and SVD-reduced TF-IDF features, while the retrieval pipeline combines MPNet embeddings with ISCC-SCT semantic fingerprints through late fusion. We evaluate predictive performance and benchmark plaintext versus ciphertext-based execution. The hybrid classifier achieved an accuracy of 0.971 and a macro-F1 score of 0.950, with identical reported metrics under plaintext and ciphertext-based inference. The hybrid late-fusion similarity model achieved a Pearson correlation of 0.8691 with human sentence-pair similarity scores on STS-B. For ciphertext-based retrieval, we evaluated naive and optimized implementations. The optimized implementation uses CKKS single instruction, multiple data (SIMD) packing to compute and return multiple similarity scores together, reducing single-query latency over 7,128 indexed items from 222.028 to 5.168 seconds and communication overhead from 6.11 GB to 2.13 MB. These findings demonstrate the technical feasibility of privacy-preserving text inference for health-misinformation applications and characterize its predictive utility and efficiency trade-offs.",
+    "updated" : "2026-10-19T13:31:25Z",
+    "published" : "2026-10-14T18:41:44Z",
+    "authors" : [
+      {
+        "name" : "Jasleen Kaur"
+      },
+      {
+        "name" : "Chloé Cachet"
+      },
+      {
+        "name" : "Koray Karabina"
+      },
+      {
+        "name" : "Jean Belo Klamti"
+      },
+      {
+        "name" : "Philippe Lamontagne"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.08414v2",
+    "title" : "Image Bitstream Fine-grained Understanding for Privacy-Friendly AIoT",
+    "summary" : "Image Bitstream Fine-grained Understanding (IBFU) aims to directly perform fine-grained classification and semantic description generation from encoded image byte sequences. In contrast to conventional pixel-domain visual understanding, IBFU conducts semantic analysis without fully decoding images into the pixel domain. Since pixel-level visual content is not explicitly reconstructed during inference, this paradigm reduces visual exposure within the processing pipeline and suits privacy-friendly Artificial Intelligence of Things (AIoT) applications. In this paper, we propose Bitstream Fine-grained Generator (BFG), a novel foundation model tailored for IBFU. BFG consists of two main components: a Bitstream Semantic Encoder (BSeE) and a Fine-grained Semantic Generator (FSeG). BSeE directly models semantic representations from encoded image bitstreams without explicit pixel reconstruction, while FSeG transforms the extracted bitstream semantics into detailed natural-language descriptions through autoregressive generation. To train BFG and comprehensively evaluate IBFU in practical AIoT scenarios, where image bitstreams may suffer corruption during transmission and storage, we construct a large-scale Corrupted-bitstream Fine-grained Understanding dataset (CFU-D), containing both intact bitstreams and corrupted variants across multiple corruption types and severity levels. Experiments show that BFG maintains stable fine-grained caption generation under bitstream corruption. For example, the performance only has slight change from 0.6339 to 0.6077 in terms of average CIDEr score on Stanford Dogs Caption dataset, while vision-language models, such as Qwen-VL-Chat, BLIP-2, GLM, Gemini, and GPT suffer severe performance decrease. This paper provides a practical paradigm for privacy-friendly fine-grained understanding in AIoT.",
+    "updated" : "2026-10-16T18:26:32Z",
+    "published" : "2026-10-06T14:18:54Z",
+    "authors" : [
+      {
+        "name" : "Zhen Yu"
+      },
+      {
+        "name" : "Wenyang Liu"
+      },
+      {
+        "name" : "Kejun Wu"
+      },
+      {
+        "name" : "Chengwang Xiao"
+      },
+      {
+        "name" : "Renjie Qiao"
+      },
+      {
+        "name" : "Chengtao Cai"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
   }
 ]
