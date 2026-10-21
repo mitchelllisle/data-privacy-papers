@@ -2694,5 +2694,346 @@
     "categories" : [
       "cs.CV"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.28315v1",
+    "title" : "Disclosure Begets Disclosure: A Self-Reinforcing Privacy Loop in LLM Agents with Persistent Memory",
+    "summary" : "Large language model (LLM) agents increasingly use persistent memory to personalize responses, and personal attributes in this memory pose a privacy risk if exposed. We ask how consulting memory during dialogue changes what users go on to say, and thus what the memory comes to reveal. In multi-session simulations, a simulated user with 24 personal attributes talks with a support agent that does or does not consult memory, and in both settings attributes are inferred from the full accumulated record. Across four support models, memory raises response quality but also empirical leakage, the share of attribute values correctly inferred from the record, by a margin that widens over sessions. The cause is a loop in ordinary, non-adversarial assistance. Memory-conditioned responses carry earlier values forward, often as presuppositions, and users affirm them or leave them uncorrected, so that cues and the agent's own guesses become recorded values. The loop reinforces itself, and removing the agent's mentions of an attribute lowers its later disclosure about twice as much as single-turn effects predict. Users cannot leave it on their own, since correcting a value discloses the attribute, declining to discuss it shifts later predictions toward sensitive values, and incorrect values left in place become entrenched. The loop is best weakened at the agent's response. Instructing the agent not to state or presuppose attributes brings leakage to about the no-memory level while keeping most of the quality gains, whereas filtering or anonymizing what users say or what is stored gives up much of them.",
+    "updated" : "2026-10-20T14:52:57Z",
+    "published" : "2026-10-20T14:52:57Z",
+    "authors" : [
+      {
+        "name" : "Masahiro Kaneko"
+      },
+      {
+        "name" : "Hiromi Arai"
+      },
+      {
+        "name" : "Timothy Baldwin"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.28153v1",
+    "title" : "Lower bounds for Bayesian CVaR in interactive problems with local differential privacy",
+    "summary" : "We develop an information-theoretic method for lower bounding the prior-predictive conditional value-at-risk (CVaR) of loss in interactive statistical decision making (ISDM). A generalized Fano inequality replaces a single error event by a randomized binary statistic constructed from a bounded transform of the loss, reducing the problem to a Bernoulli $f$-divergence inequality. A bounded hinge transform yields a direct lower bound on Bayesian CVaR under a prior fixed in advance. We derive reverse-KL specializations and obtain explicit bounds for Gaussian mean estimation and Gaussian stochastic bandits. We then impose local differential privacy (LDP) at the observation stage of the same ISDM model. LDP contraction inequalities combined with the adaptive KL chain rule give explicit Bayesian CVaR lower bounds for Gaussian mean estimation with heterogeneous privacy parameters and Gaussian $K$-armed bandits.",
+    "updated" : "2026-10-20T12:57:27Z",
+    "published" : "2026-10-20T12:57:27Z",
+    "authors" : [
+      {
+        "name" : "Raghav Bongole"
+      },
+      {
+        "name" : "Amirreza Zamani"
+      },
+      {
+        "name" : "Tobias J. Oechtering"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27982v1",
+    "title" : "Beyond the Frame: Redundancy, Not Trajectory, Carries the Privacy Leak in Video Unlearning",
+    "summary" : "Class unlearning for video segmentation aims to ensure that a removed category cannot be reconstructed from a deployed model's outputs. Current leakage evaluation algorithms inspect one frame at a time, and we show that this understates leakage by a wide margin: an attacker that averages a model's output field over a two-second clip recovers the forgotten class from every method we evaluate on VSPW and most on Virtual KITTI~2, including models whose per-frame predictions are visually indistinguishable from a retrain oracle (a model trained from scratch without the forgotten class). We attribute the recoverable signal to cross-frame redundancy rather than object trajectory, establish this with a time-shuffled control that leaves leakage intact, and introduce PACE, an unlearning method that suppresses redundancy directly using an exactly permutation-invariant pooled adversarial discriminator and a two-sided temporal consistency objective. Across VSPW and Virtual KITTI~2, PACE lowers pooled attacker AP to $18.79$ (\\texttt{person}) and $12.10$ (\\texttt{car}) on VSPW and $9.11$ (\\texttt{car}) on Virtual KITTI~2, achieving on the latter the strongest suppression among verdict-safe methods retaining usable utility, while retaining $19.8$ mIoU on VSPW \\texttt{car} against at most $8.3$ for any baseline achieving comparable erasure.",
+    "updated" : "2026-10-20T10:24:33Z",
+    "published" : "2026-10-20T10:24:33Z",
+    "authors" : [
+      {
+        "name" : "Kavyansh Tyagi"
+      },
+      {
+        "name" : "Paolo Russo"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27817v1",
+    "title" : "Privacy-preserving inference on hosted models: a learned input-embedding transform for frozen Qwen3.8-27B",
+    "summary" : "Every prompt sent to a hosted language model is readable by whoever runs it. We study whether the prompt can remain on the client while the host receives transformed vectors that stand in for it. A language model converts text to vectors exactly once, with a public lookup table; we perform that step locally and pass the vectors through a small trained network (55.6M parameters) before they leave the perimeter. The host runs a frozen 27B model (Qwen3.8-27B) on the transformed vectors and never receives text or token ids. We train the transform against the frozen model as a fixed judge, combining a forward-KL utility term with an auxiliary term that pushes each vector away from its original direction. On 1,490 MMLU questions held out from training, the transform costs 1.5 points of accuracy (80.7% vs. 82.3%), breaking 68 of the 1,226 questions the unmodified model answers correctly (5.5%), while 30.1% of content tokens no longer decode to their original token under a nearest-neighbour lookup.",
+    "updated" : "2026-10-20T08:08:46Z",
+    "published" : "2026-10-20T08:08:46Z",
+    "authors" : [
+      {
+        "name" : "Mahendra Roopa"
+      },
+      {
+        "name" : "Srikanth Roopa"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27710v1",
+    "title" : "Privacy Accounting for Empirical Denoisers",
+    "summary" : "Diffusion models have emerged as the foundation of modern generative systems, yet their high memorization capacity raises privacy concerns. While differentially private (DP) training provides formal guarantees, it comes at a cost in sample quality. In this work, we study a complementary question: how much privacy loss is incurred during the sampling process itself? Directly analyzing modern neural denoisers is challenging because their sensitivity to a single training example is generally intractable. To overcome this challenge, we construct and analyze a clipped privacy-accountable empirical denoiser, a training-free estimator of the Bayes-optimal denoiser, whose per-step sensitivity can be computed explicitly, allowing each denoising step to be a Gaussian mechanism. This perspective enables privacy accounting under Gaussian DP when each training example contributes to each denoising step, and under $f$-DP trade-off functions when each generated sample uses a single randomly subsampled block of the training data. We report every $(\\varepsilon, δ)$ guarantee as a certified upper bound from a privacy loss distribution accountant, and use a cumulant-based Edgeworth approximation as a fast diagnostic, characterizing where it is reliable and where it becomes anti-conservative. We also analyze the privacy loss along the denoising trajectory and show that it grows steeply near the critical window in which semantic content is formed. This observation motivates hybrid samplers that use the private empirical denoiser through the formative steps where it remains a faithful proxy for the neural denoiser, then switch to a public neural denoiser for the remaining refinement. Our results on CIFAR-10 and CelebA-64 show that the privacy of diffusion models depends not only on the training procedure, but also on sampling-time design choices such as subsampling, stopping time, and hybrid denoising.",
+    "updated" : "2026-10-20T06:30:08Z",
+    "published" : "2026-10-20T06:30:08Z",
+    "authors" : [
+      {
+        "name" : "William Cheng"
+      },
+      {
+        "name" : "Mijung Park"
+      },
+      {
+        "name" : "Dongjun Kim"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27615v1",
+    "title" : "DISTA-LP: Privacy-Preserving Distributed Linear Programming for Metric Differential Privacy",
+    "summary" : "Linear-programming (LP) mechanisms for metric differential privacy (mDP) enable fine-grained, task-aware utility control, but they are computationally expensive and become privacy-fragile in distributed settings: uploading user-specific LP coefficient matrices (e.g., distance and loss blocks) to a central solver can itself leak sensitive information. We present DISTA-LP, a privacy-preserving distributed mDP optimization framework that replaces raw coefficient uploads with compact surrogate parameterizations and releases only calibrated, perturbed parameter vectors, thereby reducing both upload-stage leakage and problem dimensionality. On the server side, DISTA-LP reconstructs approximate coefficients and solves a scalable mastersubproblem formulation via Benders decomposition. To certify end-to-end privacy, we introduce a probabilistic mDP (PmDP) auditor that empirically quantifies the privacy loss induced by parameter release, allocates the required privacy budget prior to optimization, and composes it with the downstream mechanism to obtain an end-to-end mDP guarantee. Experiments on large realworld road-network datasets (Rome, New York City, and London) show that DISTA-LP achieves near-zero mDP violation rates, substantially reduces computation time compared to monolithic and hybrid baselines, and matches or improves utility, thereby demonstrating stronger upload privacy and significantly improved scalability.",
+    "updated" : "2026-10-20T04:28:08Z",
+    "published" : "2026-10-20T04:28:08Z",
+    "authors" : [
+      {
+        "name" : "Michael Oluwole"
+      },
+      {
+        "name" : "Ruiyao Liu"
+      },
+      {
+        "name" : "Aleksander Stevens"
+      },
+      {
+        "name" : "Chenxi Qiu"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27470v1",
+    "title" : "Privacy-Preserving Personalized Federated Learning (PPP-FL) for Medical Imaging",
+    "summary" : "Federated learning (FL) is a distributed machine learning paradigm that reduces transmission costs, mitigates cross-border data sharing restrictions, and enhances privacy by keeping raw data on local devices. Clients in FL systems train local models and share only updates, which are aggregated by a central server. While this setup limits direct data exposure, FL remains vulnerable to privacy attacks. Existing attack and defense strategies have largely been developed for centralized systems, and adapting them to FL introduces new challenges due to its unique architecture and training workflow. In this work, we first propose a model inversion attack on FL systems using Deep Convolutional Generative Adversarial Networks (DCGANs) in the context of large-scale medical imaging. Our method operates under realistic assumptions about the attacker's knowledge and capabilities. We then examine the effect of client-side differential privacy (DP) in mitigating privacy leakage and incorporate personalized FL to improve model performance under DP settings. Experiments on the Brain MRI ND-5 dataset show that DCGAN-based attacks can reconstruct semantically meaningful synthetic images, revealing significant risks to the privacy of training data. Applying DP reduces attack success but introduces an accuracy trade-off, which is further overcome by personalized FL at each client side. We also evaluate how different aggregation algorithms affect both attack vulnerability and defense effectiveness, underscoring the critical role of aggregation strategies. The proposed attack-and-defense framework is model-agnostic and applicable to a wide range of FL-based systems.",
+    "updated" : "2026-10-20T01:41:12Z",
+    "published" : "2026-10-20T01:41:12Z",
+    "authors" : [
+      {
+        "name" : "Md Morshedul Islam"
+      },
+      {
+        "name" : "Hossain Shahriar"
+      },
+      {
+        "name" : "Alfredo Cuzzocrea"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27441v1",
+    "title" : "Privacy-Preserving Robustness-Guided Testing",
+    "summary" : "In industries like semi-conductors and aerospace, it is common for the design company to contract out part of the testing process to a Testing-as-a-Service (TaaS) company. In such a setup, both parties want to keep their intellectual property private (i.e. unknown to the other party): namely the design and its output traces for the designer, and the detailed correctness specifications for the tester. We demonstrate a practical way for conducting provably private TaaS using a cryptographically secure multi-party computation protocol. We do so for the common setup where the specification is in Signal Temporal Logic, and testing is done using robustness-guided falsification. Our implementation carefully separates the steps of falsification, and manages to be $\\textit{maximally secure}$, in the sense that the parties learn the absolutely minimum necessary for falsification. For up to a 100-dimensional input search space, the generation of one test takes less than 80 msec, and the overhead of the privacy-preserving protocol is less than 6x. These numbers mean that privacy-preserving TaaS is practical, thus enabling TaaS in security-sensitive industries.",
+    "updated" : "2026-10-20T00:42:04Z",
+    "published" : "2026-10-20T00:42:04Z",
+    "authors" : [
+      {
+        "name" : "Charles Koll"
+      },
+      {
+        "name" : "Houssam Abbas"
+      },
+      {
+        "name" : "Mike Rosulek"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LO"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27323v1",
+    "title" : "Steering Vision-Language Models for Visual-Contextual Privacy in Location Disclosure",
+    "summary" : "Vision-language models (VLMs) can infer sensitive information such as geolocation from subtle visual cues, creating privacy risks when responses disclose more detail than the visual context warrants. We study visual-contextual privacy in geolocation disclosure, where a VLM should reveal location information only at the granularity appropriate to the visual context depicted in the image. We first show that this contextually appropriate granularity is recoverable from pre-generation hidden states, even when generated responses are misaligned, with disclosure levels exhibiting an ordered structure along a common hidden-state direction. Motivated by this, we propose an inference-time route-and-steer framework: an ordinal granularity router maps visual-contextual privacy representations to a disclosure route, and a disclosure-level-conditioned steering module applies route-specific hidden-state interventions during decoding. Across four VLM backbones, our method improves visual-context-aware disclosure alignment, better balances over- and under-disclosure, and incurs only modest changes on general capability benchmarks. It further transfers to another dataset with a distinct data distribution and privacy-risk taxonomy.",
+    "updated" : "2026-10-19T21:41:54Z",
+    "published" : "2026-10-19T21:41:54Z",
+    "authors" : [
+      {
+        "name" : "Wenyue Chen"
+      },
+      {
+        "name" : "Yuhan Cheng"
+      },
+      {
+        "name" : "Ruixin Yang"
+      },
+      {
+        "name" : "Ethan Mendes"
+      },
+      {
+        "name" : "Alan Ritter"
+      },
+      {
+        "name" : "Jingwei Sun"
+      },
+      {
+        "name" : "Hai Li"
+      },
+      {
+        "name" : "Yiran Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27213v1",
+    "title" : "Profile-DP: Differential Privacy for User-Controlled Profile Release in Personalized LLM Inference",
+    "summary" : "Personalized large language models (LLMs) increasingly rely on profile-conditioned inference, pairing public requests with rich, user-specific facts. This paradigm exposes the user profile itself, together with the user's explicit sharing preferences. We introduce Profile-DP, a policy-aware local differential privacy framework designed specifically for user-profile release in personalized LLM inference. Profile-DP provably bounds the release of user-withheld facts while treating public instructions, profile schemas, and authorized facts as public side information. By generating a privatized profile that composes with the public instruction prior to answer generation, our framework decouples formal privacy guarantees from downstream model behavior. We develop two finite-domain mechanisms satisfying Profile-DP: DP-SLOT independently perturbs protected attributes, while DP-BLOCK uses public semantic decisions to coordinate their release and jointly sample related attributes. A positive, public compatibility prior connects these attributes while preserving a profile-level privacy bound. On PEEP, DP-BLOCK leads the utility composite among DP methods at all 13 structured budgets and is closest to the ideal privacy--utility point in 18 of 26 format--budget settings under our composite weighting. Direct measurements reveal complementary strengths: DP-BLOCK discloses less, while DP-SLOT retains more authorized facts. These results make policy-aware profile release a practical basis for studying privacy and personalization.",
+    "updated" : "2026-10-19T19:44:02Z",
+    "published" : "2026-10-19T19:44:02Z",
+    "authors" : [
+      {
+        "name" : "Mingchen Li"
+      },
+      {
+        "name" : "Zifan Peng"
+      },
+      {
+        "name" : "Kewei Sha"
+      },
+      {
+        "name" : "Lavinia F Pieptea"
+      },
+      {
+        "name" : "Heng Fan"
+      },
+      {
+        "name" : "Junhua Ding"
+      },
+      {
+        "name" : "Meikang Qiu"
+      },
+      {
+        "name" : "Yunhe Feng"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27026v1",
+    "title" : "BR-MoE: Budgeted Semantic Release for Privacy-Preserving Traffic Analytics",
+    "summary" : "Traffic cameras support useful analysis, but their outputs can reveal private information. Replacing images with text reduces direct visual exposure. It does not place a formal bound on disclosure. The published reinforcement learning and mixture-of-experts framework refines scene descriptions through relevance, coverage, and brevity rewards. It does not account for repeated releases under a fixed privacy budget. This paper proposes budgeted semantic release as an extension of that framework. Four scene experts first process isolated video chunks. Their outputs are mapped to a fixed, bounded semantic schema. A reinforcement learning controller selects which expert summaries to release and how much privacy budget to spend. The controller uses public task requests and previous private releases. A separate privacy filter enforces the total budget. Calibrated noise is added before the summaries are converted to text. Under explicit chunk isolation and bounded-event assumptions, the complete release transcript satisfies an event-level differential privacy bound. The design also supports reuse of previous summaries without new disclosure. An evaluation protocol covers traffic utility, privacy attacks, release freshness, and computational cost. Illustrative tables show the intended reporting format. They do not establish empirical gains. The proposed contribution is a task-aware release interface with auditable privacy accounting for repeated traffic descriptions.",
+    "updated" : "2026-10-19T15:00:33Z",
+    "published" : "2026-10-19T15:00:33Z",
+    "authors" : [
+      {
+        "name" : "Abdolazim Rezaei"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27021v1",
+    "title" : "Reliable Estimation of Differential Privacy under Selection Bias",
+    "summary" : "Statistical privacy audits are essential for verifying the theoretical privacy guarantees of differentially private (DP) mechanisms. Auditors typically use Membership Inference Attacks (MIAs) to estimate a lower bound on the true privacy leakage of DP mechanisms at a specified confidence level, which should not exceed the theoretical privacy upper bound guaranteed by DP. However, we found that many auditing implementations in prior work introduce a selection bias when running MIAs, which leads to statistically invalid and overestimated lower bounds. Because most audits are not tight, this bias has thus far gone unnoticed: the estimated lower bounds remained well below the theoretical upper bounds. Nevertheless, accurately evaluating this lower bound is critical, as a flawed statistical assessment could lead to false alarms on correct mechanisms or an incorrect evaluation of the guarantee's tightness. This work employs tools from the statistical literature to correct this bias. We present an overview of the different correction methods and assess their respective advantages. Furthermore, we perform a comprehensive re-analysis of results returned by prior audit implementations and show that without statistical correction, these audits violate the theoretical upper bounds up to four times more often than their claimed confidence level implies. With correction applied, the resulting lower bounds are statistically valid, and violations occur at no more than the nominal rate.",
+    "updated" : "2026-10-19T13:59:44Z",
+    "published" : "2026-10-19T13:59:44Z",
+    "authors" : [
+      {
+        "name" : "Valentin Dorseuil"
+      },
+      {
+        "name" : "Meenatchi Sundaram Muthu Selva Annamalai"
+      },
+      {
+        "name" : "Jamal Atif"
+      },
+      {
+        "name" : "Olivier Cappé"
+      },
+      {
+        "name" : "Nicolas Papernot"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.22722v2",
+    "title" : "LLM-Attack Suite: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+    "summary" : "Split language models keep input text on a client but send intermediate representations to a server. Attacks can reconstruct text from these messages. Comparing privacy evaluations is difficult when attackers see different messages, know different model weights or use different datasets and recovery measures. We present LLM-Attack Suite, a framework that records these choices and lets researchers check, compare and extend an evaluation. Compatible attacks reuse recorded messages, and their predictions are saved for independent scoring. The scoring rule requires a linked undefended reference before a defence can pass. Reports also identify attacks that remain untested. In a controlled GPT-2 experiment, adding gradients returned during training increased token recovery from 94.20% to 97.38% and exact-document recovery from 13.71% to 37.77%. The 95% interval for the token gain lay above the two-percentage-point threshold fixed before testing. This experiment is shared with a companion study; here it tests how the evaluation responds to a change in attacker access. Further studies measure how corpus choice and compression defences affect recovery, compare an adapted published attack with its reference implementation, and test the measurement code. The framework reports implementation checks separately from measured attack effectiveness. Each privacy claim should state the attacker, dataset and scoring rule, report its controls and identify untested attacks.",
+    "updated" : "2026-10-19T23:03:49Z",
+    "published" : "2026-10-15T22:53:45Z",
+    "authors" : [
+      {
+        "name" : "Georgios Politis"
+      },
+      {
+        "name" : "Evangelos Pappas"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.26884v1",
+    "title" : "The Impact of Side Information on Voice Privacy",
+    "summary" : "Currently, voice-related privacy risks are studied under the assumption that the attacker has access only to spoken audio. In contrast, real-world collections often pair the speech signal with side information; yet to our knowledge, no publicly available dataset provides sufficiently detailed and directly linkable speech and side-information pairs to evaluate the combined risk. We propose a distribution-constrained method to build a semi-synthetic dataset and study singling out risk when geographic side information is assumed to accompany anonymized speech. We instantiate it using the English portion of Mozilla Common Voice and the 2021 UK Census, under ignorant and semi-informed attackers, and introduce a conditional reference that isolates the contribution of the audio beyond the candidate-set reduction induced by the side information. In our controlled geographic case study, for single-utterance speakers, the semi-informed attacker reaches an observed isolation probability of 0.718 in the finest OA-plus-household setting, compared with 0.380 in the signal-only setting; its excess over the conditional reference increases from 0.012 to 0.340. The ignorant attacker shows the same trend at a lower level. The effect is largest at fine granularity and short recordings, precisely the setting in which signal-only evaluation looks safest. Our results show that geographic side information can increase the singling out risk of anonymized speech, and we recommend including attacker settings with side information in future studies of voice privacy.",
+    "updated" : "2026-10-10T21:07:08Z",
+    "published" : "2026-10-10T21:07:08Z",
+    "authors" : [
+      {
+        "name" : "Eulalie Thiombiano"
+      },
+      {
+        "name" : "Martha Larson"
+      },
+      {
+        "name" : "Vincent Colotte"
+      },
+      {
+        "name" : "Emmanuel Vincent"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.MM",
+      "cs.SD"
+    ]
   }
 ]
