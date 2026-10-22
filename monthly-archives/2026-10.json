@@ -3035,5 +3035,198 @@
       "cs.MM",
       "cs.SD"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.29987v1",
+    "title" : "GhostFaceMPC: Privacy-Preserving Face Recognition with Multi-Party Computation",
+    "summary" : "Facial recognition has become central to modern authentication systems, security frameworks, and personalized services. However, its widespread adoption is hindered by severe privacy risks, particularly surrounding unauthorized access to sensitive biometric data. To address these challenges, this paper presents GhostFaceMPC, the first end-to-end, privacy-preserving face recognition system to evaluate a deep convolutional neural network extractor and matching under secure multi-party computation. GhostFaceMPC enables secure processing of facial data across all stages of a face recognition process, from feature extraction and storage to matching, without exposing raw images or biometric embeddings at any stage. We introduce a multi-party computation-friendly quantization of the GhostFaceNet model and circuit optimizations that make face recognition under multi-party computation practical. The code is available at https://github.com/crypto-unict/GhostFaceMPC.",
+    "updated" : "2026-10-21T16:28:18Z",
+    "published" : "2026-10-21T16:28:18Z",
+    "authors" : [
+      {
+        "name" : "Davide Carnemolla"
+      },
+      {
+        "name" : "Dario Catalano"
+      },
+      {
+        "name" : "Mario Di Raimondo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.29929v1",
+    "title" : "Privacy Preference Controls for Agentic Systems",
+    "summary" : "In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These measures seek to offer users greater control over the sale and sharing of personal information, putting agency in their hands to protect their privacy. However, the web is undergoing a seismic shift, away from strictly \\textit{user-driven} behavior towards \\textit{agentic behavior}, where AI agents take autonomous actions on behalf of users. In this study, we ask: What should privacy preference controls look like in the agentic web and agentic systems more generally? To answer this question, we develop a taxonomy of enforceable privacy preferences for agentic systems. Our taxonomy is informed both by laws and empirical studies of existing privacy tools as well as an audit of 30 leading AI assistants and agent platforms. To explore how our taxonomy can be implemented, we design and develop eight open-source prototypes that mirror real-world agentic applications and demonstrate how major aspects of our taxonomy can be structurally integrated in agentic protocols, such as the Model Control Protocol and Agent2Agent protocol. Ultimately, our study seeks to provide the groundwork for ensuring end-user privacy and autonomy is not lost in the newly arriving agentic world.",
+    "updated" : "2026-10-21T16:03:02Z",
+    "published" : "2026-10-21T16:03:02Z",
+    "authors" : [
+      {
+        "name" : "Shreya Kochar"
+      },
+      {
+        "name" : "Peeranat Sugsavanvit"
+      },
+      {
+        "name" : "Vidur Gupta"
+      },
+      {
+        "name" : "Joseph A. Calandrino"
+      },
+      {
+        "name" : "Deepak Kumar"
+      },
+      {
+        "name" : "Brett Frischmann"
+      },
+      {
+        "name" : "Sebastian Zimmeck"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.29925v1",
+    "title" : "Privacy in Context Is Being Overlooked in the Age of General-Purpose LLMs",
+    "summary" : "As large language models (LLMs) continue to grow in scope and capability, privacy concerns are on the rise. Since users increasingly interact with a single general-purpose system across many distinct contexts, there is a natural tendency to pursue a one-size-fits-all solution to privacy. Unfortunately, this overlooks a crucial insight from decades of privacy research: privacy is inherently contextual. In this paper, we argue that existing work in prompt privacy is drifting towards attempts to design a unified framework, which is highly misleading and can foster a false sense of security. Furthermore, we argue that even future work in this direction needs to wrestle with fundamental tensions across various desirable properties of prompt privacy. Thus, such continued attempts towards a unified framework need to be reconsidered. We recommend three critical paths forward: application-specific deployment of LLMs, context-specific evaluation of privacy frameworks, and better privacy literacy.",
+    "updated" : "2026-10-21T16:01:42Z",
+    "published" : "2026-10-21T16:01:42Z",
+    "authors" : [
+      {
+        "name" : "Prakhar Ganesh"
+      },
+      {
+        "name" : "Yash More"
+      },
+      {
+        "name" : "Marco Romanelli"
+      },
+      {
+        "name" : "Ferdinando Fioretto"
+      },
+      {
+        "name" : "Golnoosh Farnadi"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.29772v1",
+    "title" : "Location-of-interest vs. Current-location Privacy in Multi-hop Communication",
+    "summary" : "Consider a standard multi-hop wireless radio network in which nodes relay messages for one another. While the contents of messages may be sensitive and thus encrypted, the very fact that two radios communicated can leak sensitive information about both the physical location of the origin and the physical location of the destination. We investigate the trade-off between protecting the privacy of a user's current location and the privacy of their location of interest, and how the user should choose dummy destinations to obfuscate their queries.",
+    "updated" : "2026-10-21T14:03:58Z",
+    "published" : "2026-10-21T14:03:58Z",
+    "authors" : [
+      {
+        "name" : "Ryan Vogt"
+      },
+      {
+        "name" : "Ioanis Nikolaidis"
+      },
+      {
+        "name" : "Mario A. Nascimento"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.29756v1",
+    "title" : "The Privacy Paradox Is a Misnomer: Data Under Structural Uncertainty",
+    "summary" : "The infamous privacy paradox refers to the apparent inconsistency between people's stated concern for privacy and their readiness to disclose personal information. This phenomenon has sparked two largely disconnected literatures: one offering experimental evidence of inconsistent behavior, and another providing qualitative accounts and defending the importance of privacy. The Article presents an online field experiment that bridges those literatures and shows that the so-called paradox arises from a mischaracterization of the underlying behavior. The Article finds that it is structural uncertainty about risk that drives seemingly paradoxical privacy decisions. It does so by isolating discounting mechanisms and empirically testing whether observed privacy choices reflect temptation or rational responses to uncertainty. The results suggest that privacy behavior is not paradoxical but, rather, consistent with choices shaped by incomplete information. The Article then discusses the policy implications of this reframing. As privacy decisions stem from structural uncertainty, which operates as a market failure, regulation should aim to reduce that uncertainty. This supports regulation that prioritizes transparency (for people to assess the risks of data collection) and flexibility mechanisms that accommodate evolving contexts. Such reframing provides a new argument for the right to be forgotten, which allows people to revisit prior disclosures as new risks become apparent. By shifting the focus from individual inconsistency to structural uncertainty, the findings call for privacy law to better reflect the reality of people's decision-making environments.",
+    "updated" : "2026-10-21T13:58:01Z",
+    "published" : "2026-10-21T13:58:01Z",
+    "authors" : [
+      {
+        "name" : "Ignacio Cofone"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.28991v1",
+    "title" : "Diffusion Sensitivity Geometry and Strong Duality for Optimal Privacy-Utility Tradeoffs",
+    "summary" : "Existing approaches to differential privacy in diffusion models rely on loose sensitivity bounds and isotropic Gaussian noise, leading to unnecessary estimation error. We develop a framework for the optimal privacy-utility tradeoff of ideal diffusion denoisers, replacing conservative bounds with exact sensitivity characterizations and provably optimal noise calibration. First, we show that worst-case sensitivity over datasets of arbitrary size can be characterized exactly using only two records. For a data domain of size $m$, this reduces the analysis to at most $m(m-1)$ constraints, regardless of dataset size. Our characterization can be arbitrarily tighter than conventional diameter-based sensitivity bounds, revealing potentially unbounded improvements in noise calibration. Second, we obtain exact privacy guarantees for Rényi, approximate, and Gaussian differential privacy, as well as mutual-information privacy for binary records, avoiding the looseness of previous generic privacy conversions. Finally, we show that the minimum achievable weighted mean-squared error can be computed through a semidefinite program and prove strong duality, providing certificates of global optimality.",
+    "updated" : "2026-10-20T23:37:12Z",
+    "published" : "2026-10-20T23:37:12Z",
+    "authors" : [
+      {
+        "name" : "Tue Do"
+      },
+      {
+        "name" : "Daniel Alabi"
+      }
+    ],
+    "categories" : [
+      "cs.IT",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.28835v1",
+    "title" : "Conditional Imaging for Privacy-Preserving Visual Sensing",
+    "summary" : "Conventional visual sensing faces a fundamental dilemma: information that should remain private today may need to be recovered tomorrow. This challenge is becoming increasingly important as cameras become pervasive in our daily surroundings. Existing safeguards either protect visual content only after an image is formed or suppress information during capture in ways that prevent its later recovery. Here, we show through an information-theoretic analysis that privacy and recoverability cannot be achieved simultaneously in static optical systems. Information preserved in a measurement for later reconstruction also remains available to an observer of that measurement, limiting the privacy such systems can provide. To overcome this limitation, we introduce conditional imaging, an imaging approach that changes the optical state for every captured frame. The measurement alone conceals the scene, while knowledge of the corresponding physical system state enables its reconstruction. We analyze how the optical parameters determine the information that can be recovered and use this analysis to guide the design of a camera prototype. We evaluate the system on a captured dataset of human faces using increasingly powerful attempts to recover the scene, from direct visualization and computational inversion to learned reconstruction and identity recognition. Our experiments show that conditional imaging preserves identity in authorized reconstructions while withholding visual information from observers without access to the system state. By making the physical state of the camera part of the information needed for reconstruction, conditional imaging enables visual information to be protected at the point of capture while remaining recoverable for future authorized use.",
+    "updated" : "2026-10-20T19:02:26Z",
+    "published" : "2026-10-20T19:02:26Z",
+    "authors" : [
+      {
+        "name" : "Hengyu Lian"
+      },
+      {
+        "name" : "Debabrata Mandal"
+      },
+      {
+        "name" : "Anzhou Wen"
+      },
+      {
+        "name" : "Yujie Wang"
+      },
+      {
+        "name" : "Xi Peng"
+      },
+      {
+        "name" : "Praneeth Chakravarthula"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "physics.optics"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27710v2",
+    "title" : "Privacy Accounting for Empirical Denoisers",
+    "summary" : "Diffusion models have emerged as the foundation of modern generative systems, yet their high memorization capacity raises privacy concerns. While differentially private (DP) training provides formal guarantees, it comes at a cost in sample quality. In this work, we study a complementary question: how much privacy loss is incurred during the sampling process itself? Directly analyzing modern neural denoisers is challenging because their sensitivity to a single training example is generally intractable. To overcome this challenge, we construct and analyze a clipped privacy-accountable empirical denoiser, a training-free estimator of the Bayes-optimal denoiser, whose per-step sensitivity can be computed explicitly, allowing each denoising step to be a Gaussian mechanism. This perspective enables privacy accounting under Gaussian DP when each training example contributes to each denoising step, and under $f$-DP trade-off functions when each generated sample uses a single randomly subsampled block of the training data. We report every $(\\varepsilon, δ)$ guarantee as a certified upper bound from a privacy loss distribution accountant, and use a cumulant-based Edgeworth approximation as a fast diagnostic, characterizing where it is reliable and where it becomes anti-conservative. We also analyze the privacy loss along the denoising trajectory and show that it grows steeply near the critical window in which semantic content is formed. This observation motivates hybrid samplers that use the private empirical denoiser through the formative steps where it remains a faithful proxy for the neural denoiser, then switch to a public neural denoiser for the remaining refinement. Our results on CIFAR-10 and CelebA-64 show that the privacy of diffusion models depends not only on the training procedure, but also on sampling-time design choices such as subsampling, stopping time, and hybrid denoising.",
+    "updated" : "2026-10-21T16:49:44Z",
+    "published" : "2026-10-20T06:30:08Z",
+    "authors" : [
+      {
+        "name" : "William Cheng"
+      },
+      {
+        "name" : "Dongjun Kim"
+      },
+      {
+        "name" : "Mijung Park"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
   }
 ]
