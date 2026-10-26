@@ -3442,5 +3442,126 @@
       "cs.CL",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.32822v1",
+    "title" : "On the Limits of Sparse Linear Model with Shuffled Differential Privacy",
+    "summary" : "Sparse linear regression is a fundamental problem in high-dimensional statistics, and its private counterparts leave a large gap between the central and the local model of differential privacy. Shuffled differential privacy (SDP) sits between the two, offering accuracy closer to the central model without the trust requirement of a central curator. This paper studies sparse linear regression under both non-interactive and interactive SDP protocols. In the non-interactive setting, any non-interactive $(ε,δ)$-SDP protocol is shown to incur an $\\ell_2$-norm estimation error of $Ω( \\frac{\\sqrt{dk}}{nε} )$ with dimension $d$, sparsity $k$, and $n$ users, revealing an inherent dimensionality barrier. In addition, a non-interactive algorithm is proposed that achieves an $\\ell_2$-norm upper bound of $\\tilde{\\mathcal{O}}( \\sqrt{\\frac{k}{n}} + \\frac{d\\sqrt{k}}{nε})$. To overcome this barrier, we turn to the interactive user-level setting, where each user holds $m$ samples. A two-round interactive algorithm is developed that first recovers the support through a heavy hitter step and then estimates the parameter, achieving an error of $\\tilde{\\mathcal{O}}( \\sqrt{\\frac{k}{nm}} + \\frac{k}{n\\sqrt{m}ε} )$ with no polynomial dependence on $d$. Furthermore, by extending the score attack framework to user-level data, a new lower bound $Ω( \\sqrt{\\frac{k\\log(d/k)}{nm}} + \\frac{k\\log(d/k)}{n\\sqrt{m}ε} )$ is established for any user-level $(ε,δ)$-DP, showing that the proposed algorithm is near-optimal with only a gap of the factor $\\log(d/k)$.",
+    "updated" : "2026-10-23T15:56:19Z",
+    "published" : "2026-10-23T15:56:19Z",
+    "authors" : [
+      {
+        "name" : "Yan Zhang"
+      },
+      {
+        "name" : "Jiong Tuo"
+      },
+      {
+        "name" : "Meng Ding"
+      },
+      {
+        "name" : "Yuheng Ma"
+      },
+      {
+        "name" : "Di Wang"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.32626v1",
+    "title" : "Privacy-Preserving Federated Loss Exploration for Vision-Based Perception under Non-IID Data",
+    "summary" : "Vision-based image classification models benefit from Federated Learning (FL) across vehicles, however learning accurate models from distributed vehicular cameras is challenging due to data heterogeneity and privacy concerns. To improve performance on non-IID data, advanced FL optimization approaches have emerged that share auxiliary insights, such as client gradient behaviors. While these gradient-guided optimized FL methods improve the model accuracy, their reliance on sharing additional gradient information introduces a previously unexplored privacy vulnerability. In our empirical privacy-leakage experiment, we show that a malicious server can infer clients' label sets from shared guidance matrices under heterogeneous client label distributions (simulated via Dirichlet-based label partitions), between 50% and 84% accuracy. To address this privacy leakage, we propose PPFLex that replaces the central server with three Secure Multi-Party Computation (MPC) servers to securely compute the global guidance matrix and perform federated averaging under semi-honest and malicious MPC server assumptions. We evaluate PPFLex on widely used traffic-sign classification datasets (e.g., GTSRB and BTSC) as representative autonomous vehicle perception benchmarks, comparing against baselines. Our results show that PPFLex achieves accuracy comparable to the plain-text FedLEx pipeline while preventing privacy leakage, incurring acceptable MPC overhead.",
+    "updated" : "2026-10-23T13:41:37Z",
+    "published" : "2026-10-23T13:41:37Z",
+    "authors" : [
+      {
+        "name" : "Nergiz Yuca"
+      },
+      {
+        "name" : "Christian Internò"
+      },
+      {
+        "name" : "Nikolay Matyunin"
+      },
+      {
+        "name" : "Markus Olhofer"
+      },
+      {
+        "name" : "Barbara Hammer"
+      },
+      {
+        "name" : "Stefan Katzenbeisser"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.32576v1",
+    "title" : "From Regulation to Engineering: Organizational Privacy Climate as Mediator",
+    "summary" : "Data protection legislation aims to protect privacy rights by regulating how information systems store and process personal information. While such legislation defines legal obligations, translating regulatory requirements into engineering practice is far from straightforward. As new frameworks such as the EU AI Act emerge, understanding these mechanisms becomes increasingly relevant. To investigate them, we conducted an online survey of 156 U.S. information system developers, examining the role of organizational privacy climate in the association between developers' perceptions of the GDPR and their privacy engineering practices. Using structural equation modeling, we found that organizational privacy climate mediates the relation between developers' perceived GDPR importance and their privacy attitudes, which in turn are associated with their privacy engineering practices. The mediation chain - regulation, climate, attitudes, practices - complements the direct effect of regulation on practice, revealing the organizational and attitudinal pathway through which regulatory intent reaches engineering behavior. We discuss implications for the next generation of privacy and AI regulation.",
+    "updated" : "2026-10-23T13:03:49Z",
+    "published" : "2026-10-23T13:03:49Z",
+    "authors" : [
+      {
+        "name" : "Oshrat Ayalon"
+      },
+      {
+        "name" : "Eran Toch"
+      },
+      {
+        "name" : "Irit Hadar"
+      },
+      {
+        "name" : "Michael Birnhack"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.HC",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.27710v3",
+    "title" : "Privacy Accounting for Empirical Denoisers",
+    "summary" : "Diffusion models have emerged as the foundation of modern generative systems, yet their high memorization capacity raises privacy concerns. While differentially private (DP) training provides formal guarantees, it comes at a cost in sample quality. In this work, we study a complementary question: how much privacy loss is incurred during the sampling process itself? Directly analyzing modern neural denoisers is challenging because their sensitivity to a single training example is generally intractable. To overcome this challenge, we construct and analyze a clipped privacy-accountable empirical denoiser, a training-free estimator of the Bayes-optimal denoiser, whose per-step sensitivity can be computed explicitly, allowing each denoising step to be a Gaussian mechanism. This perspective enables privacy accounting under Gaussian DP when each training example contributes to each denoising step, and under $f$-DP trade-off functions when each generated sample uses a single randomly subsampled block of the training data. We report every $(\\varepsilon, δ)$ guarantee as a certified upper bound from a privacy loss distribution accountant, and use a cumulant-based Edgeworth approximation as a fast diagnostic, characterizing where it is reliable and where it becomes anti-conservative. We also analyze the privacy loss along the denoising trajectory and show that it grows steeply near the critical window in which semantic content is formed. This observation motivates hybrid samplers that use the private empirical denoiser through the formative steps where it remains a faithful proxy for the neural denoiser, then switch to a public neural denoiser for the remaining refinement. Our results on CIFAR-10 and CelebA-64 show that the privacy of diffusion models depends not only on the training procedure, but also on sampling-time design choices such as subsampling, stopping time, and hybrid denoising.",
+    "updated" : "2026-10-23T17:35:04Z",
+    "published" : "2026-10-20T06:30:08Z",
+    "authors" : [
+      {
+        "name" : "William Cheng"
+      },
+      {
+        "name" : "Dongjun Kim"
+      },
+      {
+        "name" : "Mijung Park"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.21245v2",
+    "title" : "From One Query to Many: A Critical Survey of Privacy Accounting in RAG",
+    "summary" : "Retrieval-augmented generation (RAG) enables large language models to leverage external knowledge but introduces privacy risks when the retrieved corpus contains sensitive information. Differential privacy (DP) offers formal protection, yet interpreting and comparing privacy guarantees across existing DP-RAG methods remains challenging. In particular, a privacy budget reported for a single response does not directly characterize privacy loss over repeated queries, and even identical values of $\\varepsilon$ may represent different guarantees depending on the protected data unit, accounting horizon, and observable outputs. This survey critically examines how privacy accounting evolves from single-query generation to multi-query RAG systems. We categorize existing approaches into query-time privatization, multi-query accounting, and one-time corpus privatization. We analyze their underlying assumptions and privacy--utility trade-offs. Rather than ranking methods by $\\varepsilon$ alone, we propose a framework that interprets a DP-RAG guarantee along three dimensions: privacy granularity, accounting scope, and release boundaries. We conclude that an $\\eps$ is a claim only together with the three slots: the protected unit, the accounting scope, and the release boundary.",
+    "updated" : "2026-10-23T17:18:28Z",
+    "published" : "2026-10-15T04:41:03Z",
+    "authors" : [
+      {
+        "name" : "Zhiyuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
