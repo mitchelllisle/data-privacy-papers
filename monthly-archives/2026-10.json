@@ -4211,5 +4211,245 @@
       "cs.CR",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.42139v1",
+    "title" : "Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches",
+    "summary" : "In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in variable batch sizes. The privacy guarantee of these schemes requires that the batch sizes are not revealed. In distributed settings, the server performing the aggregation or any party observing the communication traffic may learn these batch sizes. Furthermore, in both centralized and distributed settings, memory and computation constraints may require each batch to be of some maximum size $s$, necessitating truncation of the batch when it exceeds this limit. It is known that this truncation can result in a significant increase in privacy loss. In this work, we address both of these challenges via a simple mechanism that uses a random number of \\emph{dummy points} to privatize the batch size and maintain the privacy guarantee even under truncation. We demonstrate that our mechanism is easy to implement in a distributed setting, and provide a general analysis of this mechanism for both Poisson sampling and random allocation. Our analysis is designed to support efficient and relatively tight privacy accounting. It also effectively amplifies the privacy of the count releases by subsampling, making the expected number of dummy points asymptotically smaller than what is needed to directly privatize the (sensitivity-one) batch sizes with non-negative noise. For Poisson sampling with truncated batches, we demonstrate empirically that our mechanism achieves better privacy--efficiency tradeoffs than the direct accounting for truncation recently given by (Ganesh, 2025).",
+    "updated" : "2026-10-30T17:58:42Z",
+    "published" : "2026-10-30T17:58:42Z",
+    "authors" : [
+      {
+        "name" : "Vitaly Feldman"
+      },
+      {
+        "name" : "Audra McMillan"
+      },
+      {
+        "name" : "Kunal Talwar"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.42117v1",
+    "title" : "Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT",
+    "summary" : "In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution (PLD) accountant for this scheme runs in time quadratic in the inverse of the accuracy parameter $α$ (Feldman and Shenfeld, 2026). We give an algorithm, \\emph{multiscale FFT}, that represents likelihood ratios on a grid that is uniform within each dyadic interval and computes the exact rounding of every pairwise sum using FFTs within each interval. It keeps the guarantees of the accountant and improves the dependence of its running time on $α$ from $O(α^{-2})$ to $O(α^{-1}\\log(1/α))$. In addition, we demonstrate that rounding can be performed via the mean-preserving connect-the-dots projection of (Doroshenko et al., 2026). This reduces the errors that rounding introduces in the mean of the privacy loss and in the $χ^2$ divergence of the computed pair from the order of $α$ to $O(α^2/\\log(t))$. In our experiments, our algorithm achieves speedups of several orders of magnitude at high accuracy and gives improved privacy bounds for DP-SGD with PREAMBLE.",
+    "updated" : "2026-10-30T17:51:03Z",
+    "published" : "2026-10-30T17:51:03Z",
+    "authors" : [
+      {
+        "name" : "Vitaly Feldman"
+      },
+      {
+        "name" : "Moshe Shenfeld"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.41885v1",
+    "title" : "How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces",
+    "summary" : "Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations. We introduce PrivacyTrace, a benchmark containing 1,000 synthetic user profiles and 4,000 agent trajectories across four domains, generated with real MCP tools from 25 servers. Experiments with four mainstream LLM attackers show that tool-call traces enable a 26.25% attack success rate for profile inference, compared with 17.97% from prior-based guessing. Further analysis reveals that tool arguments and returned results provide the main trace-grounded evidence, while linking traces across sessions further amplifies profiling risk. These findings demonstrate that MCP tool-call traces can act as effective behavioral side channels for user profiling, motivating the development of privacy-aware mechanisms for agent-tool interactions. Code and data are available at https://github.com/AI45Lab/PrivacyTrace.",
+    "updated" : "2026-10-30T15:30:23Z",
+    "published" : "2026-10-30T15:30:23Z",
+    "authors" : [
+      {
+        "name" : "Donghang Duan"
+      },
+      {
+        "name" : "Qingyu Liu"
+      },
+      {
+        "name" : "Yifei Liu"
+      },
+      {
+        "name" : "Na Zou"
+      },
+      {
+        "name" : "Xia Hu"
+      },
+      {
+        "name" : "Dongrui Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.41642v1",
+    "title" : "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+    "summary" : "We present TADP, a temporally adaptive differential privacy (DP) framework for inference-time privacy-preserving video generation under fixed-length clip-replacement adjacency. TADP uses a dual-branch design to extract identity and expression representations, clips and privatizes both branches with temporally adaptive Gaussian mechanisms whose noise scales depend only on preceding privatized releases within the same clip and are bounded below by history-uniform calibrated minima, and accounts for their joint release via adaptive Rényi Differential Privacy (RDP) composition. The clip-level RDP guarantee is converted to $(\\varepsilon,δ)$-differential privacy, while soft quantization and subsequent temporal processing are applied only after privatization as DP post-processing. Experiments on facial expression datasets show reduced identity leakage under evaluated attacks, usable perceptual quality and temporal stability, and high facial expression recognition utility relative to the evaluated privacy-preserving baselines. TADP formally satisfies clip-level DP and empirically provides a favorable privacy--utility trade-off under the evaluated threat models and datasets.",
+    "updated" : "2026-10-30T12:16:47Z",
+    "published" : "2026-10-30T12:16:47Z",
+    "authors" : [
+      {
+        "name" : "Feng Xu"
+      },
+      {
+        "name" : "Xun Li"
+      },
+      {
+        "name" : "Lars Petersson"
+      },
+      {
+        "name" : "Yulei Sui"
+      },
+      {
+        "name" : "David Ahmedt-Aristizabal"
+      },
+      {
+        "name" : "Dadong Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.41441v1",
+    "title" : "GESIS Surf: An Open-Source Infrastructure for Privacy-Preserving Longitudinal Web Browsing Data Collection",
+    "summary" : "Understanding how people navigate digital media environments requires behavioral data beyond survey self-reports. However, existing infrastructures for collecting such data reproducibly, sustainably, and with strong privacy guarantees remain limited: commercial solutions lack transparency and data governance, while academic tools are typically designed for narrow, short-term use cases and do not support general-purpose academic panel data collections. We address this gap with GESIS Surf, a research infrastructure for large-scale longitudinal collection of web behavioral data in naturalistic environments. The system consists of a browser extension (Chrome and Firefox), a backend with a REST application programming interface (API), and a relational database. It passively captures user interactions, page metadata, and full HTML snapshots of each rendered page, embedding each observation within a hierarchical session model that preserves the structure of browsing behavior. GESIS Surf implements privacy-by-design through strict opt-in participation, per-domain collection rules, and client-side data minimization, ensuring that sensitive data are controlled at the point of collection. The system has been deployed with more than 1,000 participants in a large-scale academic panel infrastructure that includes surveys of participants, and supports reproducible, content-level, and structurally rich analysis of digital behavior. By combining hierarchical session modeling, content-level capture, and integrated privacy enforcement within a unified system, GESIS Surf provides a general-purpose infrastructure for studying digital behavior in a reproducible manner over time.",
+    "updated" : "2026-10-30T08:46:03Z",
+    "published" : "2026-10-30T08:46:03Z",
+    "authors" : [
+      {
+        "name" : "Mario Alberto Ramirez"
+      },
+      {
+        "name" : "Frank Mangold"
+      },
+      {
+        "name" : "Sebastian Stier"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.41401v1",
+    "title" : "When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing",
+    "summary" : "Large language model agents interact with online services through tool calls that may access private data or perform sensitive actions. Specialized providers can supply and maintain pre-execution safety auditing capabilities for agent operators. However, sending task descriptions, call arguments, and interaction histories to an external auditor may expose sensitive user information. In this work, we propose a paradigm for privacy-preserving safety auditing that separates delegated audit computation from plaintext access and execution authority. Grounded in a three-domain auditing model, the paradigm connects trusted representation construction, encrypted audit computation, and trusted decision and execution through explicit interfaces. These interfaces accommodate alternative representations and scorers, while encrypted computation protects audit inputs from a semi-honest auditor. We instantiate this paradigm in SealCall, a framework combining learned audit representations, CKKS-based encrypted similarity computation, and execution control bound to audited tool calls. Evaluated on 1,252 public binary candidates, SealCall achieves a mean F1 score of 0.840 under grouped nested evaluation, while preserving plaintext audit decisions in all measured cases. A representative configuration completes each encrypted scoring operation in 0.176 s.",
+    "updated" : "2026-10-30T08:12:45Z",
+    "published" : "2026-10-30T08:12:45Z",
+    "authors" : [
+      {
+        "name" : "Yixiang Luo"
+      },
+      {
+        "name" : "Ziheng Ma"
+      },
+      {
+        "name" : "Ke Chang"
+      },
+      {
+        "name" : "Jian Wang"
+      },
+      {
+        "name" : "Jiqiang Liu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.41369v1",
+    "title" : "BlindStep: A Secure One-Step Kernel for Privacy-Preserving Collaborative Reasoning",
+    "summary" : "A recurring step in two-party collaborative workflows combines a private candidate frontier with a partner's compatible evidence, scores the resulting candidates, and retains only a small frontier. Direct execution can expose intermediate candidates, local scores, or unauthorized evidence provenance. Existing MPC platforms and PSI protocols provide useful building blocks, but they do not define a unified post-alignment boundary for bounded-slot aggregation, fail-closed overflow handling, retained-frontier selection, and downstream disclosure. We present BlindStep, a fixed-shape MPC-online kernel for one such post-alignment step between two semi-honest parties. Given a frontend realizing the bounded-slot contract and an application enforcing the reveal policy $ρ$, BlindStep provides a per-invocation simulation-based guarantee in the $F_{\\mathrm{align}}$-hybrid model: the kernel leaks only public setup parameters, fixed execution-shape metadata, a global overflow bit, and $ρ$-authorized Layer-2 disclosures. The guarantee excludes malicious security and multi-invocation composition, and treats frontend leakage and offline preprocessing separately.\n  Within this kernel boundary, we implement six semi2k realizations in MP-SPDZ, crossing two sharing styles and three top-K strategies: H-variants compare over arithmetic shares, while B-variants convert packed ranking values to Boolean shares before selection. Under LAN, B-Queue is 6-7 times faster and uses about 40 times less communication than H-Queue at N = 256 and 2048. Against H-Sort on the same backend, B-Queue achieves speedups of 21 and 30 times and communication reductions of 204 and 290 times at N = 2048 and 8192, respectively. Under the evaluated N = 256, 100 ms RTT WAN profile, H-Sort becomes fastest, showing that round complexity can dominate backend choice for the measured MPC-online kernel.",
+    "updated" : "2026-10-30T07:36:55Z",
+    "published" : "2026-10-30T07:36:55Z",
+    "authors" : [
+      {
+        "name" : "Xiaoxian Liu"
+      },
+      {
+        "name" : "Xingyu Tan"
+      },
+      {
+        "name" : "Chen Chen"
+      },
+      {
+        "name" : "Xiaoyang Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.41034v1",
+    "title" : "Privacy-Constrained Function Computation in Distributed Databases",
+    "summary" : "Consider distributed databases that contain both sensitive (private) and non-sensitive (public) attributes. A user seeks to compute a function of public attributes and side information by interacting with the databases and downloading their responses. In this paper, we study the trade-offs among download cost, information leakage about the private attributes, and distortion between the computed function and its reconstruction, referred to as the capacity region. Our main contributions are as follows. For a single database, we provide a complete characterization of the capacity region for general discrete sources and characterize the capacity region of two different setups for Gaussian sources when the computed function is defined as the sum of the public attribute and side information. For distributed databases, we establish inner and outer bounds on the capacity region of discrete sources and we characterize the capacity region when the databases and the side information are mutually independent. As a special instance, we study lossless function computation, and results analogous to the lossy case are obtained.",
+    "updated" : "2026-10-29T22:26:45Z",
+    "published" : "2026-10-29T22:26:45Z",
+    "authors" : [
+      {
+        "name" : "Vamoua Yachongka"
+      },
+      {
+        "name" : "Rémi A. Chou"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.40938v1",
+    "title" : "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
+    "summary" : "Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but their discourse fidelity and residual confidentiality risks require assessment. We introduce DiRAFT (Discourse Realization from Aggregate First-order Transitions), which extracts financial concept graphs and records the order in which concepts are first introduced. It pools adjacent concept transitions across training records and samples new graph plans from aggregate transition, starting-concept, and plan-length priors. A discourse layer guides text realization without supplying an individual source passage or graph. We assess privacy-related risks through two complementary evaluations: corpus-level structural overlap and source-grounded checks for specific non-public investor facts. The structural assessment covers two financial corpora and three generation backends. The confidential-fact assessment uses human review of 1,400 investor-call outputs across seven strategies and two backends. We also evaluate transition fidelity, content recoverability, and trajectory diversity. Stochastic sampling provides a favorable balance between transition fidelity and structural overlap, with consistent advantages over greedy and top-3 on investor calls. The confidential-fact assessment likewise detects fewer matches for stochastic sampling than these alternatives on both backends covered by the fact assessment. These complementary assessments provide empirical evidence on residual confidentiality risks without establishing a formal guarantee.",
+    "updated" : "2026-10-29T20:13:24Z",
+    "published" : "2026-10-29T20:13:24Z",
+    "authors" : [
+      {
+        "name" : "Yunbai Zhang"
+      },
+      {
+        "name" : "Yunyi Gao"
+      },
+      {
+        "name" : "Han-Tai Shiao"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.40714v1",
+    "title" : "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+    "summary" : "Autonomous LLM agents executing multi-step workflows over personal data often misalign with user privacy expectations and leak sensitive, out-of-context information. Although Contextual Integrity (CI) formalizes this problem, existing benchmarks and defenses rarely operationalize CI for realistic multi-step task sequences in evolving environments. In this work, we first introduce agentic PrivacyBench, a benchmark of 5873 tasks in 986 task sequences with dynamic environment updates and CI-grounded allow-sets for sensitive information. We also introduce PrivacyFlow, a defense that separates deliberative privacy planning (System 2) from task execution (System 1), treating each sharing decision as a structured risk-management problem. Before execution, PrivacyFlow traces the provenance and purpose of each planned data flow, models recipient background knowledge, and simulates what external actors could infer. This allows us to model the downstream consequences of disclosure, including inference attacks and context-dependent harms. It then weighs the remaining disclosure risk against task utility and executes a minimized plan, blocks it, or consults the user. Across six models, PrivacyFlow significantly reduces step-level privacy failures and raises the share of completed task sequences without a detected privacy violation by 22--55 percentage points. We further highlight a new privacy--utility--autonomy tradeoff: allowing PrivacyFlow to proactively prompt the user in case of uncertainty can increase authorized task completion at the cost of shifting decision effort back to the user. Our results suggest that proactive CI reasoning can substantially improve agentic privacy and motivate further study of this tradeoff.",
+    "updated" : "2026-10-29T01:54:36Z",
+    "published" : "2026-10-29T01:54:36Z",
+    "authors" : [
+      {
+        "name" : "Robin Staab"
+      },
+      {
+        "name" : "Tom Wollschläger"
+      },
+      {
+        "name" : "Vahab Mirrokni"
+      },
+      {
+        "name" : "Reza Shokri"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
   }
 ]
