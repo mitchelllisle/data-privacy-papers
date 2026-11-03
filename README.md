@@ -2,6 +2,54 @@
 <h2>2026-10</h2>
 
 <div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.01353v1">Infinite Quantiles Inference under Local Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-10-31T23:48:00Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yi Liu, Qirui Hu</p>
+    <p><b>Summary:</b> We study simultaneous quantile inference under local differential privacy for a number of target probabilities that grows with the sample size. Each user participates once, so learning unknown quantile locations and calibrating their joint uncertainty must share the same private information. We fuse complementary cumulative distribution function (CDF) scores from a single tree report using their exact covariance; the variance at the correct anchor is no larger than that of either score, and anchor error incurs only quadratic excess variance. Three consecutive cohorts then localize the quantiles, estimate their densities, and supply fresh scores for a one-step correction and joint multiplier calibration. Under mild conditions, a uniform representation controls localization and density errors and yields asymptotically valid simultaneous coverage. A fixed-privacy regime permits every polynomially growing target grid. Simulations show consistent same-report precision gains, while comparisons with CDF-band inversion expose the sample cost of learning target locations. Census microdata illustrates how the resulting joint intervals support wage-percentile ratios.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.01218v1">Optimal Conversion from Zero-Concentrated to Gaussian Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
+  <p><b>Published on:</b> 2026-10-31T19:39:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yu-Wei Chen, Aaradhya Pandey, Jordan Awan</p>
+    <p><b>Summary:</b> Gaussian differential privacy (GDP) and zero-concentrated differential privacy (zCDP) are two competing privacy accounting frameworks, but they share similar minimax lower bounds in various estimation problems. Moreover, it is known that a mechanism satisfying $μ$-GDP satisfies $(μ^2/2)$-zCDP, whereas the converse fails to hold at the same calibration. In this paper, we establish the optimal reverse conversion, showing that every $ρ$-zCDP mechanism satisfies $μ_{\mathrm{zCDP}}(ρ)$-GDP, where $μ_{\mathrm{zCDP}}(ρ)=2Φ^{-1}((1+e^{-t_ρ})^{-1})$ and $t_ρ$ uniquely solves the equation $ρ=t_ρ\tanh(t_ρ/2)$. We also obtain simplified bounds $\sqrt{πρ}\leqμ_{\mathrm{zCDP}}(ρ)\leq\sqrt{8ρ}$, with sharp constants, which imply equivalence of the two frameworks up to constants. This explains why their minimax risks agree up to a constant rescaling of the privacy budget. We show that the squared conversion is strictly convex, which implies that converting zCDP to GDP before applying composition or group privacy yields a tighter GDP guarantee than converting afterward. We also derive the sharp conversion from bounded-range and logistic DP mechanisms (e.g., exponential mechanism) to GDP, where converting before composition but after group privacy gives the tighter guarantee.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.01211v1">A Large-Scale Evaluation of Cookie Notice Privacy and Accessibility for Blind and Low Vision Users</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-10-31T19:12:13Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> James M. Clarke, Maryam Mehrnezhad</p>
+    <p><b>Summary:</b> We present the first large-scale privacy and accessibility evaluation of cookie notices across 2,061 domains for blind and low vision (BLV) users. Using a Playwright-based crawler, a custom NVDA screen reader add-on, and the Lighthouse and WAVE accessibility tools, we measure UK GDPR/PECR compliance, tracker activity across pre-interaction, post-accept, and post-reject phases, and cookie notice accessibility for screen reader users. We find that 51 % of sites display a cookie notice, of which (at least) 50 % violate UK GDPR/PECR requirements. Accepting a notice produces a mean five-fold increase in tracker activity, and degrades page landmark structure on one in five sites. While 95 % of notices are readable by a screen reader, only 37 % carry a meaningful title, 39 % are announced immediately on page load, and 42 % use descriptive button labels. We reveal a systemic correlation: cookie notices failing legal privacy requirements disproportionately exhibit the weakest screen reader accessibility. This compounding privacy burden on BLV users demands urgent intervention from developers, regulators, and standards bodies.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.00888v1">Differential Privacy for Generalized Entropy Indices of Income Inequality</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-10-31T12:46:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jiahe Li, Jerome P. Reiter</p>
+    <p><b>Summary:</b> The mean log deviation and the Theil index are two widely used measures of income inequality. The organization releasing these measures may be obligated to protect the confidentiality of the individual incomes used in the computations. In particular, the organization may wish to release versions of these measures with formal guarantees of privacy. The organization could do so by satisfying differential privacy; however, typical applications of differentially private algorithms are likely to add so much noise to the measures that they become unusable. We present differentially private algorithms for these indices with reasonable error properties. The algorithms rely on computing or approximating bounds on the smooth sensitivity, that is, the maximum absolute amount the inequality measures change when replacing any subset of the $n$ incomes in the reported data with arbitrarily chosen feasible values. For the mean log deviation, the algorithm runs in $O(n^2)$ time. For the Theil index, the algorithm runs in $O(n\log n)$ time. We illustrate the performance of each differentially private algorithm using individual-level and household-level income data from the Current Population Survey. We also examine repeated sampling properties of the algorithms using artificially generated data. The empirical results indicate when these differentially private algorithms can be expected to provide accurate estimates and when they are likely to introduce too much noise.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2610.42139v1">Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-10-30T17:58:42Z</p>
@@ -1073,134 +1121,92 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.20494v1">Quantifying privacy risks in foundation model representations of brain MRI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-14T17:03:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Imen Bajar, Héber Hwang Arcolezi, Antoine Boutet, Carole Frindel, Mohamed Maouche</p>
-    <p><b>Summary:</b> Pretrained representations are increasingly used to share and reuse information from medical images without exposing the original scans, but it is unclear how much patient-specific information these representations retain. We investigate this question for brain magnetic resonance imaging (MRI) by evaluating five frozen pretrained encoders spanning different architectures, pretraining objectives, and training domains on two longitudinal T1-weighted datasets, OASIS-2 and MIRIAD. Under an attacker model with access to released embeddings, the corresponding public encoder, and auxiliary MRI scans, we evaluate patient linkage and sensitive-attribute inference. Across the evaluated representations, we observe substantial subject-specific information: rank-1 patient linkage reaches up to 99\% on MIRIAD and exceeds 90\% on OASIS-2 for the highest-risk representation, despite the absence of an identification objective during encoder training. We further show that the released embeddings retain information about a demographic attribute, with recorded-sex prediction reaching balanced accuracy of 90.9\% on OASIS-2 and 95.5\% on MIRIAD. Overall, our results demonstrate that replacing raw brain MRI with learned embeddings does not, by itself, eliminate patient-linkage or attribute-inference risk, and is therefore insufficient on its own to establish anonymity.</p>
-  </details>
-</div>
 
+<h2>2026-11</h2>
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.20055v1">GeoCloak: An Agentic Framework for Semantics-Preserving Geolocation Privacy via Peripheral Clue Manipulation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-14T11:56:53Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yixin Wu, Mingjie Li, Yun Shen, Michael Backes, Yang Zhang</p>
-    <p><b>Summary:</b> The rapid advancement of large vision language models (LVLMs) has made geolocation inference from images highly accurate and accessible. This poses serious privacy risks: a passive adversary with black-box LVLM access can infer a user's location from a single photo with no metadata. Existing protection methods rely almost exclusively on adversarial perturbation, which introduces perceptible visual artifacts and utility degradation. We identify the visual-geolocation asymmetry: geolocation-decisive clues, such as street signs, tend to be visually peripheral but dominate location inference. Exploiting this asymmetry, we propose GeoCloak, an agentic framework for semantics-preserving geolocation privacy protection. It acts as a clue-aware planner that analyzes each image to identify geolocation-relevant clues, dispatches targeted semantic edits to directly suppress peripheral clues, and autonomously configures adversarial perturbation to further suppress residual geolocation features, all under iterative utility-aware feedback. We evaluate GeoCloak on four diverse datasets spanning 108 countries and 576 cities against five LVLMs and three inference methods. GeoCloak reduces overall city-level accuracy from 41.2% to 9.9%, approximately half of the best-performing baseline, while achieving substantially superior utility preservation both qualitatively and quantitatively. We hope this work takes a meaningful step toward practical, semantics-preserving geolocation privacy protection, giving users greater control over the location information inadvertently embedded in their shared images.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.19826v1">Simultaneous Secure Communications and Sensing Privacy with Full Duplex MIMO Radios</a></h3>
-  
-  <p><b>Published on:</b> 2026-10-14T09:01:35Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ioannis Gavras, George C. Alexandropoulos</p>
-    <p><b>Summary:</b> This paper proposes a Full Duplex (FD) framework for safeguarding Integrated Sensing and Communications (ISAC) against a passive multi-antenna Eavesdropper (Eve). The adversary is modeled as both a communication and sensing threat, seeking to decode uplink data streams and estimate the surrounding scene. Eve's threat is quantified through two worst-case requirements over a location uncertainty region: a minimum secrecy rate for data confidentiality and a minimum eavesdropping Cramer-Rao Bound (CRB) for sensing privacy. We derive the eavesdropping information measures governing both data interception and scene inference, showcasing that transmitting Artificial Noise (AN) can degrade Eve's capabilities through the inverse interference-plus-noise covariance. Exploiting the underlying structure of the problem, we characterize finite-power local and robust feasibility conditions for target secrecy-privacy pairs. The analysis showcases that AN is fundamentally subspace-limited: increasing power is beneficial only along Eve's communication channel and sensing-derivative directions illuminated by the effective AN subspace. Finally, we formulate an AN power allocation problem that is solved via monotone branch-and-bound, and numerical evaluations quantify the AN power required to guarantee joint secrecy and sensing privacy.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.19573v1">On Inherent Privacy of Posterior Sampling: A Unified Rényi-Divergence Framework</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-10-14T04:40:10Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ruyu Zhou, Fang Liu</p>
-    <p><b>Summary:</b> Differential Privacy (DP) provides a rigorous framework for quantifying privacy guarantees. While most methods achieve DP by injecting calibrated random noise, the intrinsic randomness of certain procedures such as sampling can yield DP guarantees ``for free''. In this work, we develop a unified Rényi divergence framework to characterize the inherent DP guarantees of sampling from a Bayesian posterior distribution. We show that the privacy loss incurred by One-Posterior-Sampling (OPS) is governed by posterior exponential moments of the single-record log-likelihood ratio, and establish explicit DP guarantees under uniformly bounded, sub-Gaussian, or sub-exponential tail regimes. We apply the framework to representative Bayesian models, including categorical likelihoods with arbitrary priors, Gaussian-Gaussian conjugate pair, generalized linear models from the exponential family and linear regression with Gaussian likelihood, both with Gaussian priors on the regression coefficients. Our results elucidate sample size, model structure, neighboring relations in DP (bounded or unbounded), and how prior if applicable, jointly determine the inherent DP guarantees of OPS. Furthermore, our results recover the existing DP guarantees for OPS as special cases -- often with tighter privacy loss bounds -- and substantially broaden the class of Bayesian models for which the inherent DP guarantees of OPS can be rigorously characterized.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.19456v1">Weak Private Information Retrieval for Graph-based Storage under $ε$-privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-10-14T02:42:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jayesh Seshadri, Prasad Krishnan</p>
-    <p><b>Summary:</b> The problem of Private Information Retrieval (PIR) across graph-based replicated systems has seen a surge of interest in recent literature. In such systems, servers are modeled as the vertices of a graph, and each file is represented by an edge connecting the pair of servers that store it. While previous research on Graph-PIR (G-PIR) has focused mostly on perfect information-theoretic privacy, relaxing this constraint has the potential for significantly higher retrieval rates. In this work, we consider the setting of Graph-based Weak Private Information Retrieval (G-WPIR), under an $ε$-privacy metric. We adapt an existing G-WPIR scheme for arbitrary graphs to analyze its performance under the $ε$-privacy metric. Additionally, we establish a lower bound on the expected download cost for arbitrary graphs under the $ε$-privacy metric and derive from it an explicit rate upper bound for complete graphs. Finally, we show the achievable rate-privacy trade-offs for two specific graph classes---complete graphs and complete bipartite graphs.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.19335v1">Differentially Private Learning of Markov Chains: Near-Optimal Sample Complexity for Item and User Level Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-14T00:21:15Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Devansh Gupta, Cristóbal Guzman, Enayat Ullah</p>
-    <p><b>Summary:</b> Sequential data such as documents, conversations, and trajectories are naturally partitioned across users, motivating privacy guarantees that protect each user's entire trajectory. We initiate the study of privately estimating the transition matrix of a discrete ergodic Markov chain from N independent trajectories of length T, with arbitrary initial distributions, under maximum row-wise ell 1 error. Besides N, T, and the number of states, our bounds depend on the minimum stationary probability and the pseudo-spectral gap, which govern state coverage and mixing. Under item-level privacy, we give upper and lower bounds that separate the costs of sampling, state occupancy and mixing, and privacy. Under user-level privacy, we reduce the problem for sufficiently long trajectories to private product distribution estimation. Along the way, we establish optimal user-level private bounds for estimating products of discrete distributions, which may be of independent interest. In the user level setting, our bounds are nearly tight in the large T regime, whereas in the item-level setting, our bounds as tight up-to a non-private term.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.19325v1">AutoPoly-HE: Autonomous Design of Polynomial Activations for Privacy-Preserving Encrypted Inference</a></h3>
+  <h3><a href="http://arxiv.org/abs/2611.03130v1">An Information Hierarchy of Privacy Filters and Odometers</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-14T00:05:38Z</p>
+  <p><b>Published on:</b> 2026-11-02T13:43:04Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Zeinab Elkhatib, Kamrul Hasan, Ali Sekmen, Imtiaz Ahmed, Tariqul Islam</p>
-    <p><b>Summary:</b> Privacy-preserving machine learning has become critical for deploying artificial intelligence in sensitive domains such as healthcare, finance, and infrastructure monitoring. Homomorphic encryption (HE) enables secure inference on encrypted data. Despite its advantages, HE is not compatible with nonlinear activation functions found in machine learning models. Existing methods mitigate this problem by manually designing polynomial approximations for these activation functions. However, these functions do not account for the differences in dataset characteristics or model architecture. Furthermore, these functions are also limited to the accuracies of convolutional neural network (CNN) models. In this work, we propose an autonomous framework that selects polynomial activation functions tailored to each dataset and model. Using this framework, we analyze the interdependence between polynomial activation design and model architecture by evaluating several CNN ResNet and Vision Transformer models across multiple datasets. Experimental results demonstrate that the proposed framework generalizes across multiple architectures, including ResNet-18, ResNet-34, ResNet-50, ViT-S/16, ViT-B/16, and ViT-L/16. Across all datasets, transformer-based models maintain higher accuracy under polynomial approximation, while convolutional models exhibit increased degradation as task complexity grows. In addition, latency analysis reveals that the proposed CLS token based inference pipeline significantly reduces computational overhead by eliminating depth-dependent operations, shifting the primary cost to encryption and decryption. These findings demonstrate that the proposed method not only adapts polynomial activations across architectures, but also enables efficientencrypted inference through both activation design and pipeline optimization.</p>
+    <p><b>Authors:</b> Sophie Taylor, Praneeth Vippathalla, Justin P. Coon</p>
+    <p><b>Summary:</b> In sequential data analysis, privacy loss accumulates over time, and privacy filters and odometers are used to control and track this cumulative cost. We study how the information used by differential privacy filters and odometers fundamentally limits what they can achieve. We formalise three levels of information: spec-level information, fixed prior to the interaction; mechanism-level information, which includes the mechanisms instantiated during the interaction; and realisation-level information, which further includes the realised interaction. We classify privacy filters and odometers by the least informative level sufficient to determine their behaviour.
+  Our main results establish strict and arbitrarily large separations in achievable performance across this information hierarchy. For privacy filters, moving up the hierarchy can yield an unbounded utility advantage, quantified by a clipped measure of the number of allowed releases. For privacy odometers, it can yield an arbitrarily large improvement in precision, quantified by the expected peak excess of the reported bound over the realised privacy loss. Further, although the information classes are distinct, we show that moving to a richer class need incur essentially no loss in performance.
+  Finally, we show that randomisation provides a resource orthogonal to information: at every information level, it can yield an arbitrarily large utility improvement over deterministic filters. Thus, information access and randomisation can be viewed as fundamental resources governing privacy procedures in adaptive interactions.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.18366v1">Understanding the "Why": Investigating the Design of Privacy Support Tools (PSTs) through the Lens of Psychological Needs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-10-13T13:27:09Z</p>
+  <h3><a href="http://arxiv.org/abs/2611.03026v1">Improved regret bounds in tabular RL under local differential privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-11-02T12:21:39Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Sara Hahn, Verena Zimmermann, Simon Althaus, Andreas Heinemann, Ephraim Zimmer, Alina Stöver, Nina Gerber</p>
-    <p><b>Summary:</b> Privacy Support Tools (PSTs) help users control their digital data, but face low adoption due to resignation and overwhelm. While current regulations aim to enhance privacy control, users still struggle to manage their privacy. To address this, we explore how PSTs can be designed for long-term adoption by applying the theoretical lens of psychological needs, as their fulfillment motivates users to use a digital product. We conducted in-depth interviews with 15 users and identified Security, Autonomy, and Competence as key psychological needs. From our results, we derive implications and recommendations for the need-sensitive design of PSTs.</p>
+    <p><b>Authors:</b> Hugo Richard</p>
+    <p><b>Summary:</b> We study regret minimization for time-homogeneous episodic tabular reinforcement learning with $S$ states and $A$ actions under non-interactive $ε$-local differential privacy (LDP). In each episode $k \in [K]$, the decision-maker sends a policy to a user, the user executes the policy for $H$ steps, and sends an $ε$-locally differentially private message back to the decision-maker. When $H=1$, the problem reduces to an LDP contextual bandit with $S$ contexts, $A$ arms and horizon $K$. We prove that the minimax regret is $\min\bigg(K, \frac{ \sqrt{\max( S, \exp(ε) + 1) S A K (\exp(ε) + 1)}}{\exp(ε) - 1}\bigg)$, up to constants and a $\sqrt{\log(A)}$ factor. The upper bound is achieved by an adaptation of EXP3 and a unary encoding mechanism. When $H > 1$, and for small $ε$, we show a lower bound in $Ω(HS\frac{\sqrt{A K}}ε)$ and an upper bound in $\tilde{O}(H^2 S^2 \frac{\sqrt{ AK}}ε)$. The upper bound is achieved by an algorithm based on UCBVI and a unary encoding mechanism. For small $ε$, these bounds improve the previously known lower bound by a factor $\sqrt{S}$ and the previously known upper bound by a factor of $H \sqrt{A}$.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.18294v1">Which Optimizer Leaks Most? Optimizer Implicit Bias as a Training-Data Privacy Controller</a></h3>
+  <h3><a href="http://arxiv.org/abs/2611.02661v1">PriCBMs: Multi-granular Concept Bottleneck Vision-Language Models for Visual Privacy Recognition</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-11-02T07:21:48Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shenglei Pei, Haotian Sun, Pengfei Li, Bingxu Lu, Wenlong Yu</p>
+    <p><b>Summary:</b> Widespread image sharing on social media has increased the need for visual privacy recognition to identify inadvertently exposed privacy information. However, multi-label visual privacy recognition presents two challenges. First, privacy categories represent high-level semantic attributes and do not have a one-to-one correspondence with visual objects. Different visual objects may involve the same privacy category, while the same type of object may contain different types of privacy-sensitive information. In this setting, direct prediction methods generally lack explicit guidance for identifying category-relevant privacy cues, leaving this process implicit in the learned image-to-label mapping and potentially limiting classification performance. Second, privacy cues are often distributed across image regions and may not be adequately represented by whole-image features. To address these challenges, we propose Privacy Concept Bottleneck Models (PriCBMs). By introducing privacy-related concepts as intermediate semantic representations, PriCBMs first identify category-relevant privacy cues through visual-concept matching and then predict privacy categories based on concept responses. This process makes privacy predictions more interpretable. To improve the quality of these concepts, we design a concept selection strategy based on target-category relevance, cross-category discriminability, and semantic diversity. Meanwhile, we introduce a global-region modeling module to capture localized privacy evidence while retaining global context. Experiments on VISPR and FineViP show that PriCBMs outperform evaluated competitors across all four multi-label metrics. Ablation studies and concept-quality analyses support the effectiveness of the proposed design. Code is available at https://github.com/sun2293674491-dotcom/PriCBMs.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.02014v1">One String to Rule Them All: Measuring Consent Under the IAB Global Privacy Platform</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-11-01T15:56:51Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Abu Bakar Aziz, Christo Wilson</p>
+    <p><b>Summary:</b> Many privacy regulations, including the California Consumer Privacy Act (CCPA), require websites to honor users' opt-out choices. To facilitate this process, industry has introduced technical standards such as the IAB Global Privacy Platform (GPP), which aims to standardize collection and transmission of user consent information across multiple jurisdictions. However, it remains unclear whether these standards consistently and correctly transmit user opt-out choices, or whether opt-out choices are respected by advertisers.
+  In this study, we conduct an in-depth analysis of consent propagation under the GPP framework. We collect data from four web crawls across four experimental settings to analyze how widely the standard is adopted, the extent to which opt-out signals propagate from publishers to third parties, and whether these signals reach and alter third-party advertiser behavior. Our analysis reveals several inconsistencies in the implementation and adoption of the standard that result in user consent signals being lost and user opt-out choices not being respected by the advertisers.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.01903v1">Federated Estimation of Loading Spaces in Tensor Factor Models under Differential Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36"> 
+  <p><b>Published on:</b> 2026-11-01T13:45:18Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Zetai Cen, Fan Wang, Haeran Cho</p>
+    <p><b>Summary:</b> Tensor factor models provide low-dimensional representations of tensor-valued observations while preserving their multiway structure. When these observations are held by different clients, privacy constraints may prevent them from being pooled for centralized analysis. We study estimation of common loading spaces in Tucker tensor factor models under federated differential privacy, allowing heterogeneous sample sizes, privacy budgets, and factor strengths. The proposed method combines private stability testing, Huber aggregation, and Gaussian perturbation at each client with weighted aggregation at the server. We establish non-asymptotic upper bounds governed by a scaled harmonic mean of the squared local error rates, and prove minimax optimality up to logarithmic factors under strong factors, fixed factor ranks, and fixed noise variance. We further develop a private calibration procedure that selects the local tuning parameters and aggregation weights without knowledge of the noise level or client-specific factor strengths. The resulting adaptive estimator preserves the privacy guarantee and attains the error rate obtained with oracle tuning. We illustrate the finite-sample performance of the proposed estimators through simulation experiments and an application to a Meditation Traits EEG dataset.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.01853v1">Privacy-Preserving ECG-HRV Emotion Classification for Mood Swing Detection using Federated Learning on Constrained Edge Devices</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-13T12:42:00Z</p>
+  <p><b>Published on:</b> 2026-11-01T12:45:19Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Sagi Habani, Yehonathan Refael, Ofir Lindenbaum</p>
-    <p><b>Summary:</b> Releasing a neural network checkpoint can leak information about its training data, and existing reconstruction results rely on gradient-descent training. We ask whether the choice of optimizer affects the ability to recover the training data. Extending work connecting Karush--Kuhn--Tucker conditions to training-data reconstruction, we show that the implicit biases of popular optimizers (SGD, Adam, Muon) leave very different fingerprints of the training data. We argue that the key distinction is the \emph{weight-specificity} of these implicit biases, namely how much continuous information about the final weights the optimizer-dependent target of the stationarity conditions encodes. The limiting stationarity conditions for models trained with SGD and Muon retain enough weight-specific information to reconstruct training examples in practice. For Adam in the $\ell_\infty$ implicit-bias regime, the optimizer-dependent part of these conditions encodes only a discrete pattern of maximal coordinates and their signs, and at nondegenerate KKT points the conditions are too few to identify the training set to first order. Experiments on MNIST and CIFAR-10 support these claims: models trained with Muon can yield stronger reconstructions at much lower training cost than models trained with SGD, although this advantage depends on the training regime and architecture, and models trained with Adam appear consistently more resistant to the evaluated attacks.</p>
+    <p><b>Authors:</b> Chidike Vincent, Muhammad Aslam Jarwar, Najam Ul Hasan, Laurence Hirsch, Jonathan Zasada-James, Hem Raj Dadra</p>
+    <p><b>Summary:</b> This paper presents a privacy-preserving mood monitoring framework that classifies emotional states from ECG-derived heart rate variability (HRV) features. The framework is evaluated on three public datasets comprising 74 participants and further validated using a wearable device in a pilot study. Leave-One-Participant-Out cross-validation (LOPO-CV) is used to assess generalization to unseen individuals. A series of experiments investigates the impact of temporal windowing, HRV feature selection, and class balancing on both four-class valence-arousal and binary valence classification. Results show that class balancing substantially improves minority-class recall, while Logistic Regression consistently outperforms five alternative classifiers and achieves competitive performance against HRV-based baselines. Pilot validation using a Polar H10 wearable achieves 75% binary valence accuracy on an unseen individual without calibration, demonstrating the feasibility of real-world deployment. To preserve privacy, the framework is also implemented using federated learning on a six-node Raspberry Pi cluster. Federated Logistic Regression achieves performance comparable to centralized training without sharing raw physiological data. These results demonstrate the potential of interpretable and privacy-preserving mood monitoring for continuous mental health assessment in clinical and community settings.</p>
   </details>
 </div>
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.18054v2">Privacy-Preserving GNN Inference on Financial Transaction Graphs via Homomorphic Encryption</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-10-13T09:43:23Z</p>
+  <h3><a href="http://arxiv.org/abs/2611.01373v1">Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> 
+  <p><b>Published on:</b> 2026-11-01T00:14:38Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> H. Çağrı Bilgi, Kemal Mutluergil, Ceren Yıldırım, Kubilay Atasu, Erkay Savas</p>
-    <p><b>Summary:</b> Anti-money laundering (AML) in financial networks requires modeling transaction patterns that span multiple institutions. In practice, however, banks cannot share account and transaction features due to strict privacy regulations. We propose a privacy-preserving graph neural network (GNN) inference framework tailored to this multi-bank setting. A central server holds the graph connectivity and pretrained model weights in plaintext, while each bank keeps its transaction features encrypted. Inference is then carried out entirely on encrypted features under the CKKS homomorphic encryption scheme, so that no plaintext transaction features or predictions are exposed to the server. The key to making this practical is an edge-centric GNN architecture, wherein message passing is expressed through operations on node--edge incidence matrices. This formulation not only preserves the edge-attributed multigraph structure of transaction networks but also reduces every aggregation step to plaintext--ciphertext matrix products. Since CKKS can evaluate only polynomial circuits, we also approximate each nonlinearity with a composite polynomial of the sign function, which we calibrate per activation site. On the IBM AML benchmark, our model achieves performance competitive with plaintext baselines, and with a consumer-grade GPU, classifies each queried transaction end-to-end in as little as 5.31 seconds, while per-transaction latency can be amortized to 1.65 seconds when optimized for throughput.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.18007v1">Cost-Efficient Privacy Enforcement for Email-Generating LLM Agents under Strategic Information Requests</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-13T09:06:12Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Qikun Cai, Tao Huang, Chen Hou</p>
-    <p><b>Summary:</b> LLM agents now act as delegated communication intermediaries: they read private context, draft messages, and send externally visible emails on behalf of a user. Existing checker-repair defenses can reduce inappropriate disclosure, but they rely on repeated calls to a remote action LLM (the model that drafts and repairs the email) and a remote checker LLM whenever a draft fails validation. This creates a cost problem as well as a privacy problem, especially when a requester strategically asks for exact values, raw records, source evidence, or other details that induce leakage-heavy drafts. We propose local contract-conditioned rewriting as a cost-efficient enforcement layer for email-generating agents. The mechanism intercepts an outgoing draft, constructs an information-release contract that specifies what to preserve, generalize, and forbid, rewrites the draft with a local Gemma rewriter, and selectively invokes a final PrivacyChecker. Across extensive email tasks under normal prompts and attack prompts that operationalize strategic information requests, Gemma + Checker reduces normal-prompt leakage from 11.41% to 4.03% while improving UsableRate (satisfied or partially satisfied outputs) from 85.2% to 92.6%. Under the strategic attack-prompt condition, it reduces leakage from 28.19% to 18.79% and reduces checker-only cost amplification from 1.32x to 1.02x. Offline replay ablation shows that the full contract reduces leakage relative to generic Gemma rewriting by 36.3% under normal prompts and 54.1% under attack prompts. These results support a local-first privacy enforcement design: move repair to a cheaper trusted local layer when possible, but retain the checker as the final semantic gate for high-risk sends.</p>
+    <p><b>Authors:</b> Jiajun Wang, Yujie Tang</p>
+    <p><b>Summary:</b> Distributed zeroth-order optimization has gained increasing attention in applications where exact gradients are computationally expensive or unavailable. However, the iterative exchange of local decision variables makes distributed networks vulnerable to inference attacks. While differential privacy provides a rigorous framework for privacy protection, conventional approaches generally require additional random noise, which inevitably affects optimization accuracy. In this paper, we investigate whether the randomness inherent in zeroth-order estimation can itself provide privacy protection. We develop a distributed zeroth-order gradient descent method that integrates consensus updates with a ball-uniform two-point gradient estimator. Our theoretical analysis shows that our algorithm attains standard convergence guarantees in both online and offline optimization settings. We then characterize the relevant probability distributions of the associated privacy mechanism, and establish differential privacy guarantees for both the online and offline optimization settings. These results reveal the potential of intrinsic zeroth-order randomness for privacy protection.</p>
   </details>
 </div>
 
