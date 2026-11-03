@@ -1,1 +1,156 @@
-[{"id":"http://arxiv.org/abs/2611.03130v1","title":"An Information Hierarchy of Privacy Filters and Odometers","summary":"In sequential data analysis, privacy loss accumulates over time, and privacy filters and odometers are used to control and track this cumulative cost. We study how the information used by differential privacy filters and odometers fundamentally limits what they can achieve. We formalise three levels of information: spec-level information, fixed prior to the interaction; mechanism-level information, which includes the mechanisms instantiated during the interaction; and realisation-level information, which further includes the realised interaction. We classify privacy filters and odometers by the least informative level sufficient to determine their behaviour.\n  Our main results establish strict and arbitrarily large separations in achievable performance across this information hierarchy. For privacy filters, moving up the hierarchy can yield an unbounded utility advantage, quantified by a clipped measure of the number of allowed releases. For privacy odometers, it can yield an arbitrarily large improvement in precision, quantified by the expected peak excess of the reported bound over the realised privacy loss. Further, although the information classes are distinct, we show that moving to a richer class need incur essentially no loss in performance.\n  Finally, we show that randomisation provides a resource orthogonal to information: at every information level, it can yield an arbitrarily large utility improvement over deterministic filters. Thus, information access and randomisation can be viewed as fundamental resources governing privacy procedures in adaptive interactions.","updated":"2026-11-02T13:43:04Z","published":"2026-11-02T13:43:04Z","authors":[{"name":"Sophie Taylor"},{"name":"Praneeth Vippathalla"},{"name":"Justin P. Coon"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2611.03026v1","title":"Improved regret bounds in tabular RL under local differential privacy","summary":"We study regret minimization for time-homogeneous episodic tabular reinforcement learning with $S$ states and $A$ actions under non-interactive $ε$-local differential privacy (LDP). In each episode $k \\in [K]$, the decision-maker sends a policy to a user, the user executes the policy for $H$ steps, and sends an $ε$-locally differentially private message back to the decision-maker. When $H=1$, the problem reduces to an LDP contextual bandit with $S$ contexts, $A$ arms and horizon $K$. We prove that the minimax regret is $\\min\\bigg(K, \\frac{ \\sqrt{\\max( S, \\exp(ε) + 1) S A K (\\exp(ε) + 1)}}{\\exp(ε) - 1}\\bigg)$, up to constants and a $\\sqrt{\\log(A)}$ factor. The upper bound is achieved by an adaptation of EXP3 and a unary encoding mechanism. When $H > 1$, and for small $ε$, we show a lower bound in $Ω(HS\\frac{\\sqrt{A K}}ε)$ and an upper bound in $\\tilde{O}(H^2 S^2 \\frac{\\sqrt{ AK}}ε)$. The upper bound is achieved by an algorithm based on UCBVI and a unary encoding mechanism. For small $ε$, these bounds improve the previously known lower bound by a factor $\\sqrt{S}$ and the previously known upper bound by a factor of $H \\sqrt{A}$.","updated":"2026-11-02T12:21:39Z","published":"2026-11-02T12:21:39Z","authors":[{"name":"Hugo Richard"}],"categories":["cs.LG"]},{"id":"http://arxiv.org/abs/2611.02661v1","title":"PriCBMs: Multi-granular Concept Bottleneck Vision-Language Models for Visual Privacy Recognition","summary":"Widespread image sharing on social media has increased the need for visual privacy recognition to identify inadvertently exposed privacy information. However, multi-label visual privacy recognition presents two challenges. First, privacy categories represent high-level semantic attributes and do not have a one-to-one correspondence with visual objects. Different visual objects may involve the same privacy category, while the same type of object may contain different types of privacy-sensitive information. In this setting, direct prediction methods generally lack explicit guidance for identifying category-relevant privacy cues, leaving this process implicit in the learned image-to-label mapping and potentially limiting classification performance. Second, privacy cues are often distributed across image regions and may not be adequately represented by whole-image features. To address these challenges, we propose Privacy Concept Bottleneck Models (PriCBMs). By introducing privacy-related concepts as intermediate semantic representations, PriCBMs first identify category-relevant privacy cues through visual-concept matching and then predict privacy categories based on concept responses. This process makes privacy predictions more interpretable. To improve the quality of these concepts, we design a concept selection strategy based on target-category relevance, cross-category discriminability, and semantic diversity. Meanwhile, we introduce a global-region modeling module to capture localized privacy evidence while retaining global context. Experiments on VISPR and FineViP show that PriCBMs outperform evaluated competitors across all four multi-label metrics. Ablation studies and concept-quality analyses support the effectiveness of the proposed design. Code is available at https://github.com/sun2293674491-dotcom/PriCBMs.","updated":"2026-11-02T07:21:48Z","published":"2026-11-02T07:21:48Z","authors":[{"name":"Shenglei Pei"},{"name":"Haotian Sun"},{"name":"Pengfei Li"},{"name":"Bingxu Lu"},{"name":"Wenlong Yu"}],"categories":["cs.CV"]},{"id":"http://arxiv.org/abs/2611.02014v1","title":"One String to Rule Them All: Measuring Consent Under the IAB Global Privacy Platform","summary":"Many privacy regulations, including the California Consumer Privacy Act (CCPA), require websites to honor users' opt-out choices. To facilitate this process, industry has introduced technical standards such as the IAB Global Privacy Platform (GPP), which aims to standardize collection and transmission of user consent information across multiple jurisdictions. However, it remains unclear whether these standards consistently and correctly transmit user opt-out choices, or whether opt-out choices are respected by advertisers.\n  In this study, we conduct an in-depth analysis of consent propagation under the GPP framework. We collect data from four web crawls across four experimental settings to analyze how widely the standard is adopted, the extent to which opt-out signals propagate from publishers to third parties, and whether these signals reach and alter third-party advertiser behavior. Our analysis reveals several inconsistencies in the implementation and adoption of the standard that result in user consent signals being lost and user opt-out choices not being respected by the advertisers.","updated":"2026-11-01T15:56:51Z","published":"2026-11-01T15:56:51Z","authors":[{"name":"Muhammad Abu Bakar Aziz"},{"name":"Christo Wilson"}],"categories":["cs.CR"]},{"id":"http://arxiv.org/abs/2611.01903v1","title":"Federated Estimation of Loading Spaces in Tensor Factor Models under Differential Privacy","summary":"Tensor factor models provide low-dimensional representations of tensor-valued observations while preserving their multiway structure. When these observations are held by different clients, privacy constraints may prevent them from being pooled for centralized analysis. We study estimation of common loading spaces in Tucker tensor factor models under federated differential privacy, allowing heterogeneous sample sizes, privacy budgets, and factor strengths. The proposed method combines private stability testing, Huber aggregation, and Gaussian perturbation at each client with weighted aggregation at the server. We establish non-asymptotic upper bounds governed by a scaled harmonic mean of the squared local error rates, and prove minimax optimality up to logarithmic factors under strong factors, fixed factor ranks, and fixed noise variance. We further develop a private calibration procedure that selects the local tuning parameters and aggregation weights without knowledge of the noise level or client-specific factor strengths. The resulting adaptive estimator preserves the privacy guarantee and attains the error rate obtained with oracle tuning. We illustrate the finite-sample performance of the proposed estimators through simulation experiments and an application to a Meditation Traits EEG dataset.","updated":"2026-11-01T13:45:18Z","published":"2026-11-01T13:45:18Z","authors":[{"name":"Zetai Cen"},{"name":"Fan Wang"},{"name":"Haeran Cho"}],"categories":["math.ST","cs.IT","stat.ML"]},{"id":"http://arxiv.org/abs/2611.01853v1","title":"Privacy-Preserving ECG-HRV Emotion Classification for Mood Swing Detection using Federated Learning on Constrained Edge Devices","summary":"This paper presents a privacy-preserving mood monitoring framework that classifies emotional states from ECG-derived heart rate variability (HRV) features. The framework is evaluated on three public datasets comprising 74 participants and further validated using a wearable device in a pilot study. Leave-One-Participant-Out cross-validation (LOPO-CV) is used to assess generalization to unseen individuals. A series of experiments investigates the impact of temporal windowing, HRV feature selection, and class balancing on both four-class valence-arousal and binary valence classification. Results show that class balancing substantially improves minority-class recall, while Logistic Regression consistently outperforms five alternative classifiers and achieves competitive performance against HRV-based baselines. Pilot validation using a Polar H10 wearable achieves 75% binary valence accuracy on an unseen individual without calibration, demonstrating the feasibility of real-world deployment. To preserve privacy, the framework is also implemented using federated learning on a six-node Raspberry Pi cluster. Federated Logistic Regression achieves performance comparable to centralized training without sharing raw physiological data. These results demonstrate the potential of interpretable and privacy-preserving mood monitoring for continuous mental health assessment in clinical and community settings.","updated":"2026-11-01T12:45:19Z","published":"2026-11-01T12:45:19Z","authors":[{"name":"Chidike Vincent"},{"name":"Muhammad Aslam Jarwar"},{"name":"Najam Ul Hasan"},{"name":"Laurence Hirsch"},{"name":"Jonathan Zasada-James"},{"name":"Hem Raj Dadra"}],"categories":["cs.LG","cs.AI"]},{"id":"http://arxiv.org/abs/2611.01373v1","title":"Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees","summary":"Distributed zeroth-order optimization has gained increasing attention in applications where exact gradients are computationally expensive or unavailable. However, the iterative exchange of local decision variables makes distributed networks vulnerable to inference attacks. While differential privacy provides a rigorous framework for privacy protection, conventional approaches generally require additional random noise, which inevitably affects optimization accuracy. In this paper, we investigate whether the randomness inherent in zeroth-order estimation can itself provide privacy protection. We develop a distributed zeroth-order gradient descent method that integrates consensus updates with a ball-uniform two-point gradient estimator. Our theoretical analysis shows that our algorithm attains standard convergence guarantees in both online and offline optimization settings. We then characterize the relevant probability distributions of the associated privacy mechanism, and establish differential privacy guarantees for both the online and offline optimization settings. These results reveal the potential of intrinsic zeroth-order randomness for privacy protection.","updated":"2026-11-01T00:14:38Z","published":"2026-11-01T00:14:38Z","authors":[{"name":"Jiajun Wang"},{"name":"Yujie Tang"}],"categories":["math.OC","eess.SY"]}]
+[
+  {
+    "id" : "http://arxiv.org/abs/2611.03130v1",
+    "title" : "An Information Hierarchy of Privacy Filters and Odometers",
+    "summary" : "In sequential data analysis, privacy loss accumulates over time, and privacy filters and odometers are used to control and track this cumulative cost. We study how the information used by differential privacy filters and odometers fundamentally limits what they can achieve. We formalise three levels of information: spec-level information, fixed prior to the interaction; mechanism-level information, which includes the mechanisms instantiated during the interaction; and realisation-level information, which further includes the realised interaction. We classify privacy filters and odometers by the least informative level sufficient to determine their behaviour.\n  Our main results establish strict and arbitrarily large separations in achievable performance across this information hierarchy. For privacy filters, moving up the hierarchy can yield an unbounded utility advantage, quantified by a clipped measure of the number of allowed releases. For privacy odometers, it can yield an arbitrarily large improvement in precision, quantified by the expected peak excess of the reported bound over the realised privacy loss. Further, although the information classes are distinct, we show that moving to a richer class need incur essentially no loss in performance.\n  Finally, we show that randomisation provides a resource orthogonal to information: at every information level, it can yield an arbitrarily large utility improvement over deterministic filters. Thus, information access and randomisation can be viewed as fundamental resources governing privacy procedures in adaptive interactions.",
+    "updated" : "2026-11-02T13:43:04Z",
+    "published" : "2026-11-02T13:43:04Z",
+    "authors" : [
+      {
+        "name" : "Sophie Taylor"
+      },
+      {
+        "name" : "Praneeth Vippathalla"
+      },
+      {
+        "name" : "Justin P. Coon"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.03026v1",
+    "title" : "Improved regret bounds in tabular RL under local differential privacy",
+    "summary" : "We study regret minimization for time-homogeneous episodic tabular reinforcement learning with $S$ states and $A$ actions under non-interactive $ε$-local differential privacy (LDP). In each episode $k \\in [K]$, the decision-maker sends a policy to a user, the user executes the policy for $H$ steps, and sends an $ε$-locally differentially private message back to the decision-maker. When $H=1$, the problem reduces to an LDP contextual bandit with $S$ contexts, $A$ arms and horizon $K$. We prove that the minimax regret is $\\min\\bigg(K, \\frac{ \\sqrt{\\max( S, \\exp(ε) + 1) S A K (\\exp(ε) + 1)}}{\\exp(ε) - 1}\\bigg)$, up to constants and a $\\sqrt{\\log(A)}$ factor. The upper bound is achieved by an adaptation of EXP3 and a unary encoding mechanism. When $H > 1$, and for small $ε$, we show a lower bound in $Ω(HS\\frac{\\sqrt{A K}}ε)$ and an upper bound in $\\tilde{O}(H^2 S^2 \\frac{\\sqrt{ AK}}ε)$. The upper bound is achieved by an algorithm based on UCBVI and a unary encoding mechanism. For small $ε$, these bounds improve the previously known lower bound by a factor $\\sqrt{S}$ and the previously known upper bound by a factor of $H \\sqrt{A}$.",
+    "updated" : "2026-11-02T12:21:39Z",
+    "published" : "2026-11-02T12:21:39Z",
+    "authors" : [
+      {
+        "name" : "Hugo Richard"
+      }
+    ],
+    "categories" : [
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.02661v1",
+    "title" : "PriCBMs: Multi-granular Concept Bottleneck Vision-Language Models for Visual Privacy Recognition",
+    "summary" : "Widespread image sharing on social media has increased the need for visual privacy recognition to identify inadvertently exposed privacy information. However, multi-label visual privacy recognition presents two challenges. First, privacy categories represent high-level semantic attributes and do not have a one-to-one correspondence with visual objects. Different visual objects may involve the same privacy category, while the same type of object may contain different types of privacy-sensitive information. In this setting, direct prediction methods generally lack explicit guidance for identifying category-relevant privacy cues, leaving this process implicit in the learned image-to-label mapping and potentially limiting classification performance. Second, privacy cues are often distributed across image regions and may not be adequately represented by whole-image features. To address these challenges, we propose Privacy Concept Bottleneck Models (PriCBMs). By introducing privacy-related concepts as intermediate semantic representations, PriCBMs first identify category-relevant privacy cues through visual-concept matching and then predict privacy categories based on concept responses. This process makes privacy predictions more interpretable. To improve the quality of these concepts, we design a concept selection strategy based on target-category relevance, cross-category discriminability, and semantic diversity. Meanwhile, we introduce a global-region modeling module to capture localized privacy evidence while retaining global context. Experiments on VISPR and FineViP show that PriCBMs outperform evaluated competitors across all four multi-label metrics. Ablation studies and concept-quality analyses support the effectiveness of the proposed design. Code is available at https://github.com/sun2293674491-dotcom/PriCBMs.",
+    "updated" : "2026-11-02T07:21:48Z",
+    "published" : "2026-11-02T07:21:48Z",
+    "authors" : [
+      {
+        "name" : "Shenglei Pei"
+      },
+      {
+        "name" : "Haotian Sun"
+      },
+      {
+        "name" : "Pengfei Li"
+      },
+      {
+        "name" : "Bingxu Lu"
+      },
+      {
+        "name" : "Wenlong Yu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.02014v1",
+    "title" : "One String to Rule Them All: Measuring Consent Under the IAB Global Privacy Platform",
+    "summary" : "Many privacy regulations, including the California Consumer Privacy Act (CCPA), require websites to honor users' opt-out choices. To facilitate this process, industry has introduced technical standards such as the IAB Global Privacy Platform (GPP), which aims to standardize collection and transmission of user consent information across multiple jurisdictions. However, it remains unclear whether these standards consistently and correctly transmit user opt-out choices, or whether opt-out choices are respected by advertisers.\n  In this study, we conduct an in-depth analysis of consent propagation under the GPP framework. We collect data from four web crawls across four experimental settings to analyze how widely the standard is adopted, the extent to which opt-out signals propagate from publishers to third parties, and whether these signals reach and alter third-party advertiser behavior. Our analysis reveals several inconsistencies in the implementation and adoption of the standard that result in user consent signals being lost and user opt-out choices not being respected by the advertisers.",
+    "updated" : "2026-11-01T15:56:51Z",
+    "published" : "2026-11-01T15:56:51Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Abu Bakar Aziz"
+      },
+      {
+        "name" : "Christo Wilson"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.01903v1",
+    "title" : "Federated Estimation of Loading Spaces in Tensor Factor Models under Differential Privacy",
+    "summary" : "Tensor factor models provide low-dimensional representations of tensor-valued observations while preserving their multiway structure. When these observations are held by different clients, privacy constraints may prevent them from being pooled for centralized analysis. We study estimation of common loading spaces in Tucker tensor factor models under federated differential privacy, allowing heterogeneous sample sizes, privacy budgets, and factor strengths. The proposed method combines private stability testing, Huber aggregation, and Gaussian perturbation at each client with weighted aggregation at the server. We establish non-asymptotic upper bounds governed by a scaled harmonic mean of the squared local error rates, and prove minimax optimality up to logarithmic factors under strong factors, fixed factor ranks, and fixed noise variance. We further develop a private calibration procedure that selects the local tuning parameters and aggregation weights without knowledge of the noise level or client-specific factor strengths. The resulting adaptive estimator preserves the privacy guarantee and attains the error rate obtained with oracle tuning. We illustrate the finite-sample performance of the proposed estimators through simulation experiments and an application to a Meditation Traits EEG dataset.",
+    "updated" : "2026-11-01T13:45:18Z",
+    "published" : "2026-11-01T13:45:18Z",
+    "authors" : [
+      {
+        "name" : "Zetai Cen"
+      },
+      {
+        "name" : "Fan Wang"
+      },
+      {
+        "name" : "Haeran Cho"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.IT",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.01853v1",
+    "title" : "Privacy-Preserving ECG-HRV Emotion Classification for Mood Swing Detection using Federated Learning on Constrained Edge Devices",
+    "summary" : "This paper presents a privacy-preserving mood monitoring framework that classifies emotional states from ECG-derived heart rate variability (HRV) features. The framework is evaluated on three public datasets comprising 74 participants and further validated using a wearable device in a pilot study. Leave-One-Participant-Out cross-validation (LOPO-CV) is used to assess generalization to unseen individuals. A series of experiments investigates the impact of temporal windowing, HRV feature selection, and class balancing on both four-class valence-arousal and binary valence classification. Results show that class balancing substantially improves minority-class recall, while Logistic Regression consistently outperforms five alternative classifiers and achieves competitive performance against HRV-based baselines. Pilot validation using a Polar H10 wearable achieves 75% binary valence accuracy on an unseen individual without calibration, demonstrating the feasibility of real-world deployment. To preserve privacy, the framework is also implemented using federated learning on a six-node Raspberry Pi cluster. Federated Logistic Regression achieves performance comparable to centralized training without sharing raw physiological data. These results demonstrate the potential of interpretable and privacy-preserving mood monitoring for continuous mental health assessment in clinical and community settings.",
+    "updated" : "2026-11-01T12:45:19Z",
+    "published" : "2026-11-01T12:45:19Z",
+    "authors" : [
+      {
+        "name" : "Chidike Vincent"
+      },
+      {
+        "name" : "Muhammad Aslam Jarwar"
+      },
+      {
+        "name" : "Najam Ul Hasan"
+      },
+      {
+        "name" : "Laurence Hirsch"
+      },
+      {
+        "name" : "Jonathan Zasada-James"
+      },
+      {
+        "name" : "Hem Raj Dadra"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.01373v1",
+    "title" : "Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees",
+    "summary" : "Distributed zeroth-order optimization has gained increasing attention in applications where exact gradients are computationally expensive or unavailable. However, the iterative exchange of local decision variables makes distributed networks vulnerable to inference attacks. While differential privacy provides a rigorous framework for privacy protection, conventional approaches generally require additional random noise, which inevitably affects optimization accuracy. In this paper, we investigate whether the randomness inherent in zeroth-order estimation can itself provide privacy protection. We develop a distributed zeroth-order gradient descent method that integrates consensus updates with a ball-uniform two-point gradient estimator. Our theoretical analysis shows that our algorithm attains standard convergence guarantees in both online and offline optimization settings. We then characterize the relevant probability distributions of the associated privacy mechanism, and establish differential privacy guarantees for both the online and offline optimization settings. These results reveal the potential of intrinsic zeroth-order randomness for privacy protection.",
+    "updated" : "2026-11-01T00:14:38Z",
+    "published" : "2026-11-01T00:14:38Z",
+    "authors" : [
+      {
+        "name" : "Jiajun Wang"
+      },
+      {
+        "name" : "Yujie Tang"
+      }
+    ],
+    "categories" : [
+      "math.OC",
+      "eess.SY"
+    ]
+  }
+]
