@@ -4529,5 +4529,23 @@
       "stat.ME",
       "cs.DS"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.22272v2",
+    "title" : "The Information Bottleneck and the Privacy Funnel are NP-hard",
+    "summary" : "Given a joint distribution $P_{XY}$ of random variables $X,Y$ on finite alphabets, the information bottleneck method seeks a representation $T$ of $X$ that is as informative as possible about $Y$ while compressing $X$; the privacy funnel asks for a representation that discloses much about $X$ while leaking little about $Y$. In both scenarios $T$ and $Y$ are conditionally independent given $X$. We show that computing the optimal value $\\operatorname{IB}(P_{XY},R) = \\sup_T \\{ I(Y;T) : I(X;T) \\le R \\}$ of the information bottleneck problem, as well as its Lagrangian relaxation $L_β(P_{XY}) = \\sup_T [ I(Y;T) - βI(X;T) ]$, is NP-hard. Moreover, unless $\\mathrm{P} = \\mathrm{NP}$, neither $\\operatorname{IB}(P_{XY},R)$ nor $L_β(P_{XY})$ can be approximated in polynomial time within an additive error of order $|\\mathcal{X}|^{-(1+α)}$, for every fixed $α> 0$. We also prove that computing the privacy funnel $\\operatorname{PF}(P_{XY},r) = \\inf_T \\{ I(Y;T) : I(X;T) \\ge r \\}$ and its Lagrangian relaxation $Λ_β(P_{XY}) = \\inf_T [ I(Y;T) - βI(X;T) ]$ is NP-hard, and that, unless $\\mathrm{P} = \\mathrm{NP}$, neither can be approximated in polynomial time within an additive error of order $|\\mathcal{X}|^{-2}$.",
+    "updated" : "2026-11-02T21:05:32Z",
+    "published" : "2026-10-15T17:35:12Z",
+    "authors" : [
+      {
+        "name" : "Roberto Bruno"
+      },
+      {
+        "name" : "Ugo Vaccaro"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
   }
 ]
