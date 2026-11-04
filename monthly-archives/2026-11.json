@@ -152,5 +152,71 @@
       "math.OC",
       "eess.SY"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.05208v1",
+    "title" : "Privacy for Free in Efficient Agnostic Halfspace Learning",
+    "summary" : "We provide the first computationally efficient, differentially private algorithms for agnostically learning halfspaces. In particular, we study three different settings of agnostic learning: improper learning under Gaussian and log-concave marginals; proper learning under Gaussian marginals; and semi-agnostic learning under Gaussian marginals. In all three aforementioned settings, the added cost in the sample complexity due to privacy matches the respective non-private sample complexity, implying that we get privacy for free.",
+    "updated" : "2026-11-03T16:56:39Z",
+    "published" : "2026-11-03T16:56:39Z",
+    "authors" : [
+      {
+        "name" : "Giorgio Racca"
+      },
+      {
+        "name" : "Amartya Sanyal"
+      },
+      {
+        "name" : "Vikrant Singhal"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.04941v1",
+    "title" : "Residual Attribute Leakage Is an Interface: Auditing Privacy Evaluation After Text De-identification",
+    "summary" : "A privacy evaluation of de-identified text asks a language model (the adversary) to guess a person's protected attribute. We introduce a prior-normalised clipped leakage score of its confidence gain on the true value and audit the conclusions drawn from it. Each verdict depends on an evaluation interface (the queried person, answer options, prior, adversary model and scoring rule), which we vary on fixed releases of three corpora. In a stress test, an editor that writes the opposite-sex form at the same spans a redaction editor would redact misleads the adversary about most people, yet ranks first among editors scored on the same MedQA entries under this score, as under attack accuracy and proper scoring rules read as privacy. A relabelling-invariant reading of AUC ranks that editor sixth of eight, and a rule-aware adversary recovers the attribute from the same text. On ordinary releases most verdict changes are gains or losses of separability; of six choices varied over all pairs, only the adversary reverses comparisons (5 of its 124 changes), and the query can target the wrong person. SACC, a traceable editor we build as the instrument, lets us ablate two editing principles and show where its advantage does not hold.",
+    "updated" : "2026-11-03T14:08:34Z",
+    "published" : "2026-11-03T14:08:34Z",
+    "authors" : [
+      {
+        "name" : "Tuan Thanh Duong"
+      },
+      {
+        "name" : "Joongmin Shin"
+      },
+      {
+        "name" : "Jeongho Yoon"
+      },
+      {
+        "name" : "Junyoung Son"
+      },
+      {
+        "name" : "Heuiseok Lim"
+      }
+    ],
+    "categories" : [
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.04064v1",
+    "title" : "Minimax signal detection in regression under differential privacy",
+    "summary" : "We establish minimax separation rates across sparsity levels for regression signal detection under $(ε, δ)$-central differential privacy, considering linear regression with an unknown error distribution and generalised linear models (GLMs) with an unknown intercept. Without sparsity restrictions, the separation rates for linear regression and GLMs with binary responses match the private Gaussian mean testing rate up to polylogarithmic factors. For GLMs with more than two possible response outcomes, additional information in the marginal response distribution permits faster detection of sufficiently small signals when the dimension exceeds the sample size $n$. Our upper bounds are based on a reduction to private mean testing, tests of dependence between the response and sparse covariate projections, and a response-only test that is adjusted for the unknown intercept. The resulting procedure adapts to unknown sparsity and matches our lower bounds up to polylogarithmic factors. We also construct polynomial-time tests that attain these rates when $ε\\gtrsim n^{-1/2}$, and compare their numerical performance with existing private procedures.",
+    "updated" : "2026-11-02T23:16:25Z",
+    "published" : "2026-11-02T23:16:25Z",
+    "authors" : [
+      {
+        "name" : "Elly K. H. Hung"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ME"
+    ]
   }
 ]
