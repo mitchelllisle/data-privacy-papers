@@ -4581,5 +4581,20 @@
       "cs.CY",
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2610.26460v2",
+    "title" : "Differential privacy with adjustable preservation of multivariate relationships",
+    "summary" : "This paper derives an exact attenuation formula for multivariate cross-moments under differential privacy achieved through randomized response. From a proposed alternative formulation of randomization matrices compliant with differential privacy guarantees we show that, under attribute-level randomization and where the randomization of the whole distribution is characterized by Kronecker products, any cross-moment of the anonymized dataset involving distinct attributes is equal to the original cross-moment multiplied by attenuation parameters, themselves determined by the part of the overall privacy budget allocated to each attribute. This characterization enables explicit and transparent controls of multivariate relationships preservations in differential privacy through privacy budget allocation. A simple numerical illustration demonstrates that identical total budgets can yield substantially different covariance-preservation profiles. The results also make the multiplicative loss of higher-order interactions explicit and thus can support mechanism design guided by analytical priorities.",
+    "updated" : "2026-11-06T09:57:17Z",
+    "published" : "2026-10-19T14:11:41Z",
+    "authors" : [
+      {
+        "name" : "Nicolas Ruiz"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
