@@ -325,5 +325,207 @@
       "stat.ME",
       "cs.LG"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.09799v1",
+    "title" : "On the Order of Privacy and Smoothing in Functional Mean Estimation",
+    "summary" : "Differential privacy (DP) is a leading framework for privacy protection, yet privacy mechanisms tailored to functional data analysis (FDA) remain relatively underexplored. For functional mean estimation, we investigate a fundamental question regarding the ordering of privatization and estimation by comparing two canonical pipelines: Fit-Then-Protect (FTP), which smooths trajectories before privatization, and Protect-Then-Fit (PTF), which privatizes observations at discrete time points before smoothing. When data are observed without error, we prove that FTP achieves strictly smaller mean squared error than PTF asymptotically (as the sample size increases) under the same $μ$-Gaussian differential privacy ($μ$-GDP) budget in both finite-dimensional Hilbert spaces and infinite-dimensional reproducing kernel Hilbert spaces (RKHS). Simulation studies support our theory and explore settings with observation error and fitting constraints, demonstrating that FTP outperforms PTF under small observation noise, whereas PTF can become preferable in high-noise settings. In addition to this comparison, we establish a novel GDP guarantee for Gaussian perturbations taking values in a Banach space, extending existing results beyond the RKHS setting.",
+    "updated" : "2026-11-06T17:53:14Z",
+    "published" : "2026-11-06T17:53:14Z",
+    "authors" : [
+      {
+        "name" : "Haotian Chen"
+      },
+      {
+        "name" : "Yu-Wei Chen"
+      },
+      {
+        "name" : "Qifan Song"
+      },
+      {
+        "name" : "Jordan Awan"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.09652v1",
+    "title" : "Breaking the Privacy Promise: Gradient Inversion Attacks on Federated Low-Rank Adapted Vision Transformers",
+    "summary" : "Parameter-efficient fine-tuning (PEFT) has been increasingly adopted to fine-tune pretrained models with low computational cost and is therefore also preferred in the federated learning paradigm to reduce computational and communication overhead. In this work, we investigate the sparsely explored problem of the risk of private data leakage in LoRA-adapted Vision Transformers (ViTs), where low-rank updates weaken the gradient signal available to a server with access to individual client updates. We show that quality of reconstruction is limited by two coupled ambiguities: reduced information in LoRA gradients and missing spatial cues from frozen positional embeddings. To address this, we propose a spatially anchored generative inversion framework that incorporates server-prescribed trainable positional embeddings into ViT blocks during fine-tuning at clients. The resulting positional gradients act as layer-wise spatial anchors, providing additional positional cues, while the generative prior keeps reconstructions on a realistic image manifold, reducing duplicate-data and patch-permutation artifacts, {which produce similar gradients as those produced when the target client images are used}. Adding our proposed spatial anchoring to GIAS improves PSNR by 10.14 dB, SSIM by 0.45, and LPIPS by 0.098 on CIFAR-10, as well as PSNR gains of 7.83 and 11.74 dB on high-resolution CelebA and CARS datasets, respectively, in the FedSGD setting. Such gains in reconstructed image quality metrics are also maintained at higher batch sizes and in FedAvg settings. These results indicate that LoRA-based PEFT does not, by itself, prevent data leakage in FL, and carefully incorporated positional embeddings can help in exposing private information.",
+    "updated" : "2026-11-06T16:02:20Z",
+    "published" : "2026-11-06T16:02:20Z",
+    "authors" : [
+      {
+        "name" : "Ritik K. Badiya"
+      },
+      {
+        "name" : "Siladittya Manna"
+      },
+      {
+        "name" : "Ashmit Sinha"
+      },
+      {
+        "name" : "M Yashwanth"
+      },
+      {
+        "name" : "Anirban Chakraborty"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.09455v1",
+    "title" : "Overview of the ImageCLEFmedical 2026 GANs task: Exploring fingerprint detection, privacy leakage, and synthetic medical image generation",
+    "summary" : "The 2026 ImageCLEFmedical GANs Task Exploring Fingerprint Detection, Privacy Leakage, and Synthetic Medical Image Generation continues to investigate privacy and security concerns around using patient data to generate synthetic medical images, now in its fourth edition. This edition introduces three complementary subtasks: the first extends prior editions by asking participants to detect which real images were used in training a Generative Adversarial Network to produce given synthetic outputs; the second is a novel subtask requiring participants to identify which latent vector produced each synthetic image, probing the faithfulness and reversibility of the latent-to-image mapping; the third asks participants to generate privacy-preserving CT slices, quantifying the trade-off between image fidelity and patient privacy. Ground-truth annotations and benchmark datasets of real and GAN-generated lung CT slices are provided for all subtasks. Evaluation is based on Cohen's Kappa for Subtask 1, matching accuracy for Subtask 2, and a combination of FID and Privacy Preservation Score (PPS) for Subtask 3. Overall, 37 teams registered for the task, with 10 teams submitting runs across subtasks and 6 teams submitting working notes papers. This paper presents an overview of the task setup, datasets, evaluation metrics, and summarises the approaches and results of participating teams.",
+    "updated" : "2026-11-06T13:26:55Z",
+    "published" : "2026-11-06T13:26:55Z",
+    "authors" : [
+      {
+        "name" : "Alexandra-Georgiana Andrei"
+      },
+      {
+        "name" : "Mihai Gabriel Constantin"
+      },
+      {
+        "name" : "Mihai Dogariu"
+      },
+      {
+        "name" : "Dzmitry Karpenka"
+      },
+      {
+        "name" : "Yuri Prokopchuk"
+      },
+      {
+        "name" : "Ahmedkhan Radzhabov"
+      },
+      {
+        "name" : "Dan-Cristian Stanciu"
+      },
+      {
+        "name" : "Liviu-Daniel Ştefan"
+      },
+      {
+        "name" : "Vassili Kovalev"
+      },
+      {
+        "name" : "Henning Müller"
+      },
+      {
+        "name" : "Bogdan Ionescu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.09423v1",
+    "title" : "Agentic AI for Healthcare Claim Denial Analysis: A Policy-Grounded Framework for Privacy Preservation",
+    "summary" : "In the healthcare sector, claim denials impose significant financial and administrative burdens, emphasizing the need for automated and trustworthy decision-support systems. This paper proposes a modular Agentic Artificial Intelligence (AI) framework for healthcare claim denial analysis, integrating specialized agents for denial risk prediction, risk factor identification, diagnosis-procedure-medication code relationship analysis, and counterfactual analysis. The framework integrates predictive analytics, graph-based learning, a Hybrid Contextual Retrieval-Augmented Generation (RAG) pipeline grounded in healthcare policy documents, and a dedicated HIPAA Compliance Agent to support privacy protection. Evaluated on a synthetic healthcare claims dataset, the framework achieved 98% traceability of reported numerical findings, validated 214 of 216 policy citations, and removed all 280 identified sensitive identifiers without modifying the underlying analysis. These findings pave the way for further research into Agentic AI as a framework for explainable, policy-aware, and privacy-preserving healthcare claim denial management.",
+    "updated" : "2026-11-06T12:51:18Z",
+    "published" : "2026-11-06T12:51:18Z",
+    "authors" : [
+      {
+        "name" : "Sofia Campos"
+      },
+      {
+        "name" : "Carlos Martins"
+      },
+      {
+        "name" : "Pedro Pires"
+      },
+      {
+        "name" : "João Gama"
+      },
+      {
+        "name" : "Bruno Veloso"
+      },
+      {
+        "name" : "Pedro Santos"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.09372v1",
+    "title" : "Enabling Privacy-Preserving Natural Language Access to Industrial Smart Meter Data",
+    "summary" : "Energy management officers and grid operators increasingly rely on smart meter data for anomaly detection, performance monitoring, and strategic decision-making. However, extracting actionable insights from large-scale, heterogeneous telemetry databases requires advanced SQL and data engineering expertise, creating a critical bottleneck for non-technical personnel. Furthermore, the strict data privacy regulations and security constraints inherent to critical energy infrastructure often prohibit the routing of sensitive consumer data through cloud-based Large Language Models (LLMs). To address these challenges, we present OpenMeter, a schema-agnostic Multi-Agent System (MAS) designed to translate natural language queries into executable code and human-readable insights. This architecture lowers the technical barrier for day-to-day utility operations by empowering non-expert personnel to interact with complex databases through intuitive natural language dialogue, transforming raw telemetry into a highly valuable tool for routine grid workflows and strategic decisions. Multi-scenario ablation studies over this environment demonstrate that full multi-agent orchestration shows its largest observed accuracy gains on resource-constrained local hardware (+6.1 pp EX-R over the strongest single-agent configuration); at frontier scale, individual components retain value but should be enabled selectively, indicating that the cost of full orchestration is justified specifically where privacy demands local execution.",
+    "updated" : "2026-11-06T12:11:34Z",
+    "published" : "2026-11-06T12:11:34Z",
+    "authors" : [
+      {
+        "name" : "Carlos Martín-Abellán"
+      },
+      {
+        "name" : "Mark Kröll"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CL",
+      "cs.DB",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.08749v1",
+    "title" : "How are viral trends different from educational and commercial uses of LLM image generation and editing? A privacy-preserving descriptive analysis",
+    "summary" : "Gemini's Nano Banana models, first introduced in late 2025, led to a shift in the capabilities and use of image generation and editing. We utilize Urania, a Google-developed framework for generating insights about LLM chatbot interactions with rigorous differential privacy (DP) guarantees, to analyze use cases and intents, techniques and ways of prompting, without ever looking at a single image or individual prompt. We select a subsample of 2.1M conversations in early 2026 which utilized Nano Banana models, into roughly 800 clusters in five categories: (1) Social & Viral Sharing, (2) Brand & Marketing Collateral, (3) Educational & Technical Information Media, (4) Product Visualizations & E-commerce, and (5) Architectural & Spatial Designs. We then compare these clusters on 21 features of use, measuring aspects of prompts' (a) editing techniques, (b) artistic style requests, (c) composition, and (d) chatbot interactions. This allows us to describe a baseline of how people are using image generation and editing tools for different use cases---(including growing and emergent use cases which were not possible before Nano Banana)---in a privacy-preserving manner.",
+    "updated" : "2026-11-05T21:56:29Z",
+    "published" : "2026-11-05T21:56:29Z",
+    "authors" : [
+      {
+        "name" : "Will Tucker-Ray"
+      },
+      {
+        "name" : "Marika Swanberg"
+      },
+      {
+        "name" : "Alexander Knop"
+      },
+      {
+        "name" : "Marvin Chow"
+      },
+      {
+        "name" : "Eric Culbertson"
+      },
+      {
+        "name" : "Julian Jacobs"
+      },
+      {
+        "name" : "Pritish Kamath"
+      },
+      {
+        "name" : "Ravi Kumar"
+      },
+      {
+        "name" : "Jason Mothersill"
+      },
+      {
+        "name" : "Mikhail Pravilov"
+      },
+      {
+        "name" : "Eugene Quan"
+      },
+      {
+        "name" : "Yurii Sushko"
+      }
+    ],
+    "categories" : [
+      "cs.CY",
+      "cs.AI"
+    ]
   }
 ]
