@@ -527,5 +527,412 @@
       "cs.CY",
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.12570v1",
+    "title" : "Hidden in Plain Sight: Privacy-Enhanced Computing Through Register Renaming",
+    "summary" : "Privacy-Enhanced Computing (PEC) is a mechanism to hide program secrets from the outside world without paying the cost of fully-homomorphic encryption. Previous work has developed hardware mechanisms to achieve this goal but they require a dedicated processor enclave where all computations are done, requiring duplicate ALU resources and limiting the performance of PEC-utilizing applications due to not being able to access the full compute resources of the processor (e.g., multiple execution units and vector units), or not being able to execute PEC instructions in parallel and out-of-order.\n  In this work, we introduce HPS-PEC (Hidden in Plain Sight PEC), a novel method of utilizing existing infrastructure in the CPU to achieve PEC with minor modifications to the architecture. We show that, across 25 VIP-Bench benchmarks and with a 7-cycle QARMA-64 cipher, HPS-PEC runs encrypted code at 3.41x the execution time of unprotected native code (geometric mean), of which 1.03x is the cost of data-oblivious code itself, and is 1.26x faster than a Sequestered Encryption (SE) unit while utilizing under a third of its dedicated area. Our method keeps plaintext out of reach of every instruction, as an enclave does given a correctly functioning renamer and register file, which every program already depends on.",
+    "updated" : "2026-11-09T15:31:08Z",
+    "published" : "2026-11-09T15:31:08Z",
+    "authors" : [
+      {
+        "name" : "Ahmed Nematallah"
+      },
+      {
+        "name" : "Stefanos Kaxiras"
+      }
+    ],
+    "categories" : [
+      "cs.AR",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.12367v1",
+    "title" : "An Agile Homomorphic Encryption and ML-KEM Scheme for Privacy-Preserving Health Data Processing",
+    "summary" : "The storage and processing of health data raise serious privacy concerns; therefore, the data must be encrypted. Fully Homomorphic Encryption (FHE) allows computations on encrypted data, which makes it a very promising technology in this context. However, although the efficiency of FHE algorithms has improved in recent years, they remain very complex. The security of several prominent FHE schemes is based on variants of the Learning With Errors (LWE) problem, which is also the basis of Module-Lattice-Based Key-Encapsulation Mechanism (ML-KEM), the new post-quantum standard for asymmetric encryption. In this paper, we propose an agile cryptographic scheme -combining ML-KEM and BGV -that allows efficient implementations in an embedded use case. We describe the parameter selection for the proposed scheme and show its feasibility with a proof-of-concept implementation.",
+    "updated" : "2026-11-09T13:14:36Z",
+    "published" : "2026-11-09T13:14:36Z",
+    "authors" : [
+      {
+        "name" : "Daniel Resende"
+      },
+      {
+        "name" : "Nadia El Mrabet"
+      },
+      {
+        "name" : "Ulrich K{ü}hne"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.12064v1",
+    "title" : "A Privacy-Preserving UAV-Assisted Secure Wireless Communication and Computing System Based on Fully Homomorphic Encryption",
+    "summary" : "With the advancement of beyond-5G networks, privacy-preserving communication and secure computation face critical challenges due to the openness of wireless channels. Existing security mechanisms protect data transmission but fail to secure the computation process itself. In this paper, we propose a UAV-assisted secure computing framework that integrates Cheon Kim Kim Song (CKKS) fully homomorphic encryption (FHE) with multi-party secure computation (MPC). Leveraging UAV flexibility, our framework decouples key distribution from encrypted computation, enabling secure encrypted weighted aggregation (EWA), encrypted matrix multiplication (EMM), and encrypted decision tree (EDT) inference. Experimental results show that our framework outperforms existing schemes: for EDT, it supports floating-point operations and achieves better time efficiency than Brakerski-Fan-Vercauteren (BFV); for EMM, it demonstrates superior time and space efficiency compared to Brakerski-Gentry-Vaikuntanathan (BGV) and Somewhat Homo- morphic Encryption (SHE); while for EWA, it ensures high numerical precision and robustness across varying data length.",
+    "updated" : "2026-11-09T08:39:24Z",
+    "published" : "2026-11-09T08:39:24Z",
+    "authors" : [
+      {
+        "name" : "Quanxi Zhou"
+      },
+      {
+        "name" : "Wencan Mao"
+      },
+      {
+        "name" : "Ye Tao"
+      },
+      {
+        "name" : "Manabu Tsukada"
+      },
+      {
+        "name" : "Kensuke Fukuda"
+      },
+      {
+        "name" : "Yusheng Ji"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.11567v1",
+    "title" : "Verifiable, Privacy-Preserving and Collaborative Multi-Objective Optimization with NSGA-II on Blockchain",
+    "summary" : "Collaborative multi-objective optimization allows independent problem solvers to contribute their solutions to a shared problem. However, their validity cannot be reliably verified in open settings if the parties are reluctant to disclose their solutions. Therefore, this paper proposes a novel zk-NSGA-II protocol for verifiable, privacy-preserving and collaborative multi-objective optimization on blockchain. To the best of our knowledge, this is the first work that executes Non-Dominated Sorting Genetic Algorithm II (NSGA-II) on the RISC Zero Zero-Knowledge Virtual Machine (zkVM) where evolutionary generations are certified by succinct proofs that are verified on-chain. Problem solvers maintain their own independent populations as the set of solutions in the decision space and their corresponding objective vectors in the objective space. They contribute to a global on-chain Pareto front by aggregating their local off-chain Pareto fronts according to the rule of non-domination which admits a contribution if it is non-dominated with respect to the existing contributions in the global front. To prevent fabricated contributions, population states across generations are linked through hash chains. The correctness of the zk-NSGA-II protocol is first evaluated on twelve problems from the ZDT and DTLZ benchmarks. Second, its feasibility is shown in a real-world portfolio optimization case study with the Hang Seng dataset. Performance on these problems is measured with nine different metrics across three complementary perspectives for optimization, zero-knowledge proof and blockchain. The empirical findings indicate that trustless collaborative multi-objective optimization is feasible with the existing zero-knowledge and blockchain technologies.",
+    "updated" : "2026-11-08T19:29:41Z",
+    "published" : "2026-11-08T19:29:41Z",
+    "authors" : [
+      {
+        "name" : "Goshgar Can Ismayilov"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.11564v1",
+    "title" : "From Sound to Occupancy: Privacy-Aware Audio Sensing for Buildings",
+    "summary" : "Occupancy-based controls regulate lighting and HVAC according to whether a space is in use. Passive infrared (PIR) sensors, the most common choice, respond to motion and can report an occupied room as vacant when its occupants remain still. Sound offers an alternative cue, since seated occupants type, turn pages and cough, but microphones raise privacy concerns. We therefore study a two-stage design: an on-device encoder maps each second of audio to a short embedding, and a server-side temporal model turns the stream of embeddings into an occupancy state. To our knowledge, no publicly available dataset pairs office audio with occupancy labels, so we evaluate the two stages separately on public data. The encoder is trained on synthetic scenes that mix empty-room recordings, room impulse responses, office sounds and read speech, and tested on unseen rooms, recordings and speakers for whether a second contains a sound made by a person. On 11 real office recordings (DCASE 2013) it reaches an AUC of 0.87, against 0.76 for log-mel statistics. Attacks on the transmitted embeddings recover at most 1% of the spoken words, against 94% from log-mel frames, but still identify the speaker among 40 in 69 to 77% of the utterances. Noise-floor normalization with adversarial training, an 8-dimensional embedding, or sending only class probabilities lowers this to 38 to 55% without hurting detection. On HPDmobile, which pairs home occupancy labels with an amplitude envelope of the audio, a causal temporal model pretrained with a hierarchical contrastive loss matches hand-crafted features (AUC 0.75) and does better when only one labelled day per home is available. These results make the two-stage design a practical basis for privacy-aware acoustic occupancy sensing, with speaker identity as the one leak still to close.",
+    "updated" : "2026-11-08T19:11:09Z",
+    "published" : "2026-11-08T19:11:09Z",
+    "authors" : [
+      {
+        "name" : "Myeongwon Chae"
+      },
+      {
+        "name" : "Seonghyuk Son"
+      }
+    ],
+    "categories" : [
+      "cs.SD",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.11467v1",
+    "title" : "PLDP-IDS: Personalized Local Differential Privacy for Infinite Data Stream",
+    "summary" : "Streaming data collection under local differential privacy (LDP) enables real-time analytics without a trusted curator. Existing $w$-event LDP mechanisms, however, impose a uniform privacy window and budget on all users, forcing everyone to adopt the most stringent requirement. We study personalized continual frequency estimation under LDP, where each user specifies her own window size and privacy budget, and identify two challenges. First, a single sampling size cannot balance sampling and perturbation errors for privacy groups with heterogeneous requirements. Second, borrowing estimates from groups with larger budgets reduces variance but introduces bias when privacy preferences correlate with the data. We first propose Optimal Population Selection (OPS) and two OPS-guided mechanisms, PLPD and PLPA. We then develop PLPD+ and PLPA+, which combine group-aware population scheduling with bias-aware cross-group fusion while preserving personalized w-event LDP. Experiments on real-world and synthetic streams show that PLPA+ reduces the AMSE of the direct personalized extension of LDP-IDS by 52.3% and 40.8% on average, respectively, and remains about $5\\times$ more accurate than PLPA under strong privacy--data correlation.",
+    "updated" : "2026-11-08T16:00:21Z",
+    "published" : "2026-11-08T16:00:21Z",
+    "authors" : [
+      {
+        "name" : "Leilei Du"
+      },
+      {
+        "name" : "Yikun Hu"
+      },
+      {
+        "name" : "Xu Zhou"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Peng Cheng"
+      },
+      {
+        "name" : "Wangze Ni"
+      },
+      {
+        "name" : "Kenli Li"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.11273v1",
+    "title" : "Task-adaptive anonymisation enables privacy-preserving sharing of clinical speech data",
+    "summary" : "Clinical speech is increasingly used for disease screening and clinical assessment, but directly distributing speech recordings poses privacy risks because they contain both speaker-identifying voiceprints and sensitive spoken content. Existing speech anonymisation approaches are primarily developed for general speech applications or task-specific clinical speech and overlook that different clinical tasks rely on distinct speech characteristics, necessitating task-adaptive anonymisation strategies to protect patient privacy while preserving clinical utility. Here we introduce CASA, a clinically adaptive speech anonymisation agent that transforms anonymisation from a fixed processing procedure into a task-guided optimisation process, dynamically tailoring voiceprint and content anonymisation to task-specific privacy and clinical utility requirements. Through recursive self-improvement (RSI), CASA iteratively evaluates and refines anonymisation strategies against task-specific privacy and clinical utility requirements, while learning from these outcomes to guide more efficient planning in subsequent clinical tasks. CASA is validated across 14 clinical tasks encompassing five languages, diverse elicitation paradigms, and mental health, cognitive and voice disorders. CASA preserved disease-related classification performance while meeting speaker-anonymisation requirements across all clinical tasks, versus only 8/14 for the strongest fixed method. Assessments of resistance to speaker re-identification by external attackers and identification and redaction of sensitive personal information in clinical speech further demonstrated CASA's dual protection of speaker identity and sensitive spoken content. Clinical expert assessments further supported the preservation of clinically relevant information and the acceptability of anonymised speech for controlled research sharing.",
+    "updated" : "2026-11-08T09:57:19Z",
+    "published" : "2026-11-08T09:57:19Z",
+    "authors" : [
+      {
+        "name" : "Ziyun Cui"
+      },
+      {
+        "name" : "Haoyu Niu"
+      },
+      {
+        "name" : "Wen Wu"
+      },
+      {
+        "name" : "Hao Sun"
+      },
+      {
+        "name" : "Sihan Zhang"
+      },
+      {
+        "name" : "Chang Lei"
+      },
+      {
+        "name" : "Yun Zhang"
+      },
+      {
+        "name" : "Chunyun Sun"
+      },
+      {
+        "name" : "Yang Luo"
+      },
+      {
+        "name" : "Liangliang Cao"
+      },
+      {
+        "name" : "Ji Wu"
+      },
+      {
+        "name" : "Runsen Chen"
+      },
+      {
+        "name" : "Lian Zhou"
+      },
+      {
+        "name" : "Yongsheng Tong"
+      },
+      {
+        "name" : "Chao Zhang"
+      }
+    ],
+    "categories" : [
+      "eess.AS",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10898v1",
+    "title" : "Optimal Byzantine-resilient Federated Learning with User-level Differential Privacy",
+    "summary" : "Real-world deployment of federated learning (FL) requires resilience against adversarial clients and data privacy. Byzantine fault captures the worst-case behavior of adversarial clients, while differential privacy (DP) provides statistical guarantees against privacy loss. In particular, user-level DP guards a client's entire contribution and provides more realistic protection against information leakage. Despite intensive efforts, the minimax-optimal convergence bound of Byzantine-resilient FL with user-level DP remains open. We establish an information-theoretic lower bound for any Byzantine-resilient empirical risk minimization problem under user-level DP and heterogeneous clients. We propose ByzULDP, a central DP algorithm featuring a two-level momentum across the client and server. Client-side momentum mitigates stochastic gradient variance during robust aggregation. Unlike the fault-free case, naively combining non-linear Byzantine-resilient aggregation with central DP noise can be insufficient to guarantee convergence to a bounded neighborhood of a stationary point. Our key contribution is a server-side momentum that leverages a property specific to user-level DP, where privacy sensitivity depends on how client updates are constructed, to empower convergence. ByzULDP achieves the order-optimal convergence bound for strongly-convex objectives, with vanishing error terms decaying at the optimal $O(1/T)$ and $O(1/\\sqrt{T})$ rates for strongly-convex and non-convex objectives, respectively. We corroborate our analysis with numerical experiments on real-world datasets across diverse privacy budgets.",
+    "updated" : "2026-11-07T18:43:31Z",
+    "published" : "2026-11-07T18:43:31Z",
+    "authors" : [
+      {
+        "name" : "Ming Xiang"
+      },
+      {
+        "name" : "Stratis Ioannidis"
+      },
+      {
+        "name" : "Edmund Yeh"
+      },
+      {
+        "name" : "Carlee Joe-Wong"
+      },
+      {
+        "name" : "Lili Su"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DC",
+      "math.OC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10804v1",
+    "title" : "DICOMPUTE: An Economic and Privacy-Aware Framework for Distributed Artificial Intelligence Inference",
+    "summary" : "The prevailing design of large-scale artificial intelligence inference concentrates accelerators, model weights, and request processing in centralized computing facilities. Centralization offers important benefits in accelerator utilization, high-bandwidth interconnects, operational control, and serving efficiency. Yet centralized infrastructure is not always the least-cost or most governance-compatible choice for every inference workload. This paper develops a research framework for DICOMPUTE, a heterogeneous distributed inference architecture in which policy-constrained scheduling can allocate suitable requests across privately controlled, regional, and independently operated computing resources. We derive a full-cost comparison that accounts for capital amortization, energy, network transfer, orchestration, utilization, failures, and trust-related expenses; characterize conditions under which distributed inference can outperform centralized alternatives; and specify a privacy model separating data residency, transport confidentiality, execution confidentiality, and verifiable accounting. We propose falsifiable hypotheses and a reproducible experimental design, without presenting simulated examples as measured performance. Our central conclusion is conditional: distributed inference is most promising for divisible, latency-tolerant or locality-sensitive workloads on underutilized compatible hardware, while centralized clusters retain structural advantages for tightly coupled, memory-intensive, high-throughput inference. The framework is intended to support rigorous evaluation rather than to assert universal superiority.",
+    "updated" : "2026-11-07T15:36:21Z",
+    "published" : "2026-11-07T15:36:21Z",
+    "authors" : [
+      {
+        "name" : "Atul Khekade"
+      },
+      {
+        "name" : "Ritesh Kakkad"
+      },
+      {
+        "name" : "Anil Chinchawale"
+      },
+      {
+        "name" : "Omkar Mestry"
+      },
+      {
+        "name" : "Behnam Mohammadkhani"
+      }
+    ],
+    "categories" : [
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10578v1",
+    "title" : "EgoVeil: Personalized Privacy Reasoning for Egocentric Video",
+    "summary" : "Recent advances in vision-language models (VLMs) enable AI systems to interpret egocentric video. Yet continuous visual capture raises privacy concerns because sensitive content is pervasive and varies across users and contexts. We present EgoVeil, a personalized privacy reasoning system that determines which visual content to obscure based on individual preferences while retaining context useful for downstream assistance. It converts localized visual regions into structured semantic observations and combines a privacy reasoner with an explicit user-specific memory for personalized privacy reasoning. This design supports personalization and continual adaptation as preference evidence accumulates. We evaluate on in-the-wild data from 10 smart-glasses users under a cross-user chronological protocol. EgoVeil achieves 91.93% balanced accuracy and 84.42% Mask recall, outperforming direct VLM baselines and other controlled privacy reasoning baselines. Our results show that personalized, adaptive privacy reasoning better aligns privacy preservation with individual preferences while retaining the visual context needed for effective smart-glasses assistance.",
+    "updated" : "2026-11-07T08:35:58Z",
+    "published" : "2026-11-07T08:35:58Z",
+    "authors" : [
+      {
+        "name" : "Xue Wang"
+      },
+      {
+        "name" : "Yang Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.HC",
+      "cs.CV",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10528v1",
+    "title" : "PrivMark: Pixel-Space Steering against Privacy Leakage in Vision-Language Models",
+    "summary" : "Vision-language models (VLMs) routinely disclose soft-biometric attributes such as age, gender, and race in their text outputs, exposing demographic information from uploaded images to any downstream API user. Existing privacy defenses do not fit this setting: face de-identification leaves distributed soft-biometric cues intact, classifier-targeted adversarial perturbations do not transfer to open-ended generation, and stronger VLM-specific methods require retraining or runtime activation access unavailable to downstream APIs. We propose PrivMark, a framework that suppresses biometric leakage at the image level. By analyzing VLM activations, we identify two weakly aligned steering vector directions in hidden-state space, each tied to a distinct leakage behavior --- one corresponding to incidental attribute disclosure under open-ended descriptions, the other to compliance with direct biometric probes instead of refusal --- and encode both directions into a single bounded pixel perturbation, so the protected image alone enforces privacy with no invasive access to model internals at deployment. To support evaluation, we assemble BioleakBench, $1{,}600$ VQA pairs covering biometric privacy attributes under both free-form description and direct-probe protocols. Across three white-box source models, PrivMark achieves up to $85.9\\%$ biometric suppression while retaining $75\\%$ of clean OK-VQA utility, up to $1.4\\times$ the privacy-utility tradeoff of the strongest pixel-only baseline. The same one-shot perturbations transfer consistently to seven unseen VLMs including closed-source APIs.",
+    "updated" : "2026-11-07T06:58:41Z",
+    "published" : "2026-11-07T06:58:41Z",
+    "authors" : [
+      {
+        "name" : "Ruofan Xing"
+      },
+      {
+        "name" : "Arman Akbari"
+      },
+      {
+        "name" : "Weikai Lin"
+      },
+      {
+        "name" : "Yuhao Zhu"
+      },
+      {
+        "name" : "Xuan Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10185v1",
+    "title" : "GSynPEF: A Privacy Evaluation Framework for Synthetic Graphs",
+    "summary" : "It is often desirable to generate and release synthetic graphs, which resemble real-world data, in a privacy-preserving way. While substantial progress has been made in designing private graph synthesizers (PGS), opportunities remain for more explicit connections between synthesizer models and privacy evaluation, and better accounting for output variation. This paper proposes GSynPEF, a practical framework for empirical evaluation of privacy and utility in settings for which a real-world graph is given as input and output synthetic graph(s) are observed. Our framework links a broad class of graph synthesizers (both statistical and deep-learning based) with privacy metrics, expanding evaluation dimensions to practical utility and risk, through empirical analysis of multiple actual outputs. The framework accommodates both an Exact Solution scenario, where synthesizer behavior is directly observable, and a Monte Carlo Approximation scenario where only synthetic outputs from a black box synthesizer are available. Extensive experiments on four real-world datasets and seven widely used graph synthesizers demonstrate framework's versatility, enabling privacy evaluation for different attack goals (e.g., to infer an edge or node) and capabilities (e.g., observing one or multiple synthetic graphs). We analyze evaluation results by examining the relationship between graph statistics and synthesizer design choices, providing insights for data curators in PGS selection and researchers for improved PGS design.",
+    "updated" : "2026-11-06T20:04:30Z",
+    "published" : "2026-11-06T20:04:30Z",
+    "authors" : [
+      {
+        "name" : "Yu Duan"
+      },
+      {
+        "name" : "Luca Baldesi"
+      },
+      {
+        "name" : "Carter T. Butts"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.SI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10097v1",
+    "title" : "A Privacy-Aware Deep Learning Benchmark for Facial Emotion Recognition",
+    "summary" : "Facial Expression Recognition (FER) traditionally relies on raw RGB images, introducing privacy risks, sensitivity to illumination variations, and susceptibility to identity-confounding visual shortcuts. As an alternative, this work proposes a lightweight, privacy-aware pipeline using exclusively geometric representations-facial landmarks (478 points) and blendshapes (52 coefficients, ARKit standard)-eliminating persistent raw video storage. Six neural architectures trained from scratch on fused CREMA-D and RAVDESS datasets were benchmarked against an ImageNet-pretrained ResNet50 baseline under a 5-fold subject-independent cross-validation protocol. Geometric models consistently outperformed the pixel baseline on unseen subjects with 12-124 times fewer parameters, while demonstrating superior robustness on subtle emotional expressions such as sadness. Ablation studies reveal that blendshapes capture the primary discriminative signal, while landmarks provide essential complementary spatial topology. These results demonstrate that compact geometric representations preserve affective semantics, eliminate downstream transfer learning dependency on visual backbones, and enable efficient, privacy-aware emotion recognition.",
+    "updated" : "2026-11-06T17:10:17Z",
+    "published" : "2026-11-06T17:10:17Z",
+    "authors" : [
+      {
+        "name" : "Larissa Palhares"
+      },
+      {
+        "name" : "Maria Machado"
+      },
+      {
+        "name" : "Hudson Bruno"
+      },
+      {
+        "name" : "Raphael Ramos"
+      },
+      {
+        "name" : "Andrew Vale"
+      },
+      {
+        "name" : "Barbara Barbosa"
+      },
+      {
+        "name" : "Inara Souza"
+      },
+      {
+        "name" : "Fabio Grassiotto"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10054v1",
+    "title" : "AYO: A Safe and Privacy-Preserving Platform for Studying Children's Interaction with LLMs",
+    "summary" : "Children and adolescents are increasingly interacting with generative AI and large language models (LLMs), yet little is known about how these interactions may influence their development, beliefs, and behavior. Existing research has relied heavily on surveys, while direct study of children's interactions with LLMs presents substantial challenges related to safety, privacy, consent, and experimental control. We introduce AYO (AI Youth Open Science), an open-source platform designed for safe and systematic research on children's interactions with conversational AI. AYO provides a child-friendly interface, configurable age-based safety guardrails, researcher monitoring, and privacy-preserving data practices. These capabilities enable cross-sectional, longitudinal, and experimental research on how children use and respond to LLMs and how AI design may shape trust, epistemic judgment, curiosity, and other aspects of development. AYO provides the infrastructure to generate evidence that guides safer AI systems, educational practices, and policies for children growing up with AI.",
+    "updated" : "2026-11-05T23:44:07Z",
+    "published" : "2026-11-05T23:44:07Z",
+    "authors" : [
+      {
+        "name" : "Huiwen Alex Yang"
+      },
+      {
+        "name" : "Rachel Skwersky"
+      },
+      {
+        "name" : "Bill D. Thompson"
+      },
+      {
+        "name" : "Celeste Kidd"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.10038v1",
+    "title" : "Towards a Privacy-Preserving Reliability-Aware Entity Resolution for Attributed Graphs [Vision] (Technical Report)",
+    "summary" : "Entity resolution (ER) on attributed graphs aims to identify nodes across multiple graphs that correspond to the same real-world entity and merge them into an integrated graph. When input graphs vary in quality and contain sensitive information, ER faces a dual challenge: while reliability information is crucial for accurate graph data integration, its presence in the published integrated graph can heighten privacy risks. This paper presents a research vision that unifies reliability assessment and privacy preservation within a single graph ER process. We highlight the inherent tension between these two objectives, propose a three-level coupled framework, and outline the remaining research challenges to enable the publication of integrated graphs that are both accurate and privacy-preserving.",
+    "updated" : "2026-11-05T17:24:49Z",
+    "published" : "2026-11-05T17:24:49Z",
+    "authors" : [
+      {
+        "name" : "Abdessamad Imine"
+      },
+      {
+        "name" : "Xiang Lian"
+      },
+      {
+        "name" : "Kambiz Ghazinour"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DB"
+    ]
   }
 ]
