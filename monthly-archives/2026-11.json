@@ -1068,5 +1068,196 @@
     "categories" : [
       "cs.AI"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.16637v1",
+    "title" : "The Unseen Threat: How Complementary Combinations of Acoustic Features Compromise Speech Privacy",
+    "summary" : "The interaction of acoustic features in leaking private information remains underexplored. This work focuses on time-domain features, i.e., broadband RMS level and pitch, alone and combined with temporally smoothed and subsampled Mel spectrograms. Privacy is assessed using informed automatic speech recognition and speaker-verification attacks, while utility for conversational analysis is evaluated using voice activity detection and speaker diarisation. RMS level and pitch alone exposed limited information, but fusion with 500 ms-smoothed Mel spectrograms enhanced utility while substantially increasing speech-content leakage. Specifically, the combination with RMS level showed that fine-grained temporal dynamics can amplify leakage from coarsely sampled spectral features. Speaker-identity protection remained limited for all tested features. Overall, these findings indicate that privacy assessments performed on individual acoustic features may underestimate leakage after feature fusion.",
+    "updated" : "2026-11-12T11:12:11Z",
+    "published" : "2026-11-12T11:12:11Z",
+    "authors" : [
+      {
+        "name" : "Jule Pohlhausen"
+      },
+      {
+        "name" : "Jörg Bitzer"
+      }
+    ],
+    "categories" : [
+      "eess.AS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.16483v1",
+    "title" : "Privacy-Preserving Range Counting over Local Graph Statistics",
+    "summary" : "Range counting over vertex statistics supports contact analysis, community profiling, and reputation screening. However, releasing exact range counts can disclose sensitive edges to an adversary with background knowledge. We study this problem under edge local differential privacy (edge LDP), where each vertex randomizes its report before sending it to an untrusted curator. We develop a layered framework that connects statistic estimation, direct range estimation, and adaptive estimator selection. Statistic-estimation methods provide complementary scalar estimators with explicit loss analyses, while indicator-estimation methods privatize range indicators directly. We next propose Bounded Conditional Range Inversion (BCRI), which derives unbiased range estimates from reusable bounded geometric reports through an explicit local inverse. Its boundary-conditioned estimator achieves no larger expected L2 loss than the unbounded inverse, and histogram preprocessing supports constant-time queries. The same reports also provide a nonnegative, unbiased variance estimate for every answer. At the center of the framework, Adaptive Estimator Selection (AES) privately predicts bias, variance, and covariance to combine BCRI with a conditional estimator from the same transcript. Experiments on diverse real-world graph tasks demonstrate the accuracy, efficiency, and workload scalability of the proposed framework.",
+    "updated" : "2026-11-12T08:53:09Z",
+    "published" : "2026-11-12T08:53:09Z",
+    "authors" : [
+      {
+        "name" : "Gengda Zhao"
+      },
+      {
+        "name" : "Yizhang He"
+      },
+      {
+        "name" : "Dong Wen"
+      },
+      {
+        "name" : "Kai Wang"
+      },
+      {
+        "name" : "Ruijia Wu"
+      },
+      {
+        "name" : "Jianwei Wang"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.16065v1",
+    "title" : "Tokenized Reward Systems for Federated Learning: The Privacy vs. Fairness Tradeoff",
+    "summary" : "Federated learning (FL) systems increasingly rely on blockchain based reward mechanisms to incentivize participation while preserving data privacy. We design and empirically evaluate two complementary Solidity smart contracts for FL reward distribution: the first one that allocates rewards proportionally to a publicly disclosed quality score, and a privacy preserving variant that hides individual quality scores behind a zero-knowledge (ZK) proof of a threshold condition. Both contracts mint a non transferable, use-and-burn token maintaining a trustless incentive structure. We evaluate the two designs through MNIST training with adversarial behavior, including Sybil attacks, zero gradient and random noise, across three independent random seeds.\n  Our results reveal a fundamental tradeoff between cryptographic privacy and incentive fairness. The privacy preserving architecture strictly degrades system robustness, doubling the adversary's average reward capture while introducing severe outcome variance. This vulnerability is driven by a structural self-inclusion bias within cosine-similarity scoring: as the global model converges, legitimate gradient updates naturally diminish, rendering them statistically indistinguishable from bounded noise. Adversaries exploit this dynamic to systematically breach the ZK threshold, triggering a late stage failure cascade that culminates in absolute adversary monopoly over the reward pool and the total exclusion of honest contributors. Alongside a closed-form theorem formalizing this privacy--Sybil resistance tradeoff, we map strict mainnet deployment boundaries via linear gas scaling models, explicitly incorporating the post-Fusaka EIP-7825 per transaction gas cap. Ultimately, while cryptographically secure, static threshold ZK gates fail as incentive layer fairness mechanisms under realistic FL convergence dynamics on standard benchmarks.",
+    "updated" : "2026-11-11T22:21:23Z",
+    "published" : "2026-11-11T22:21:23Z",
+    "authors" : [
+      {
+        "name" : "Andreas Sendros"
+      },
+      {
+        "name" : "Nikolaos Pavlidis"
+      },
+      {
+        "name" : "Vasilios Perifanis"
+      },
+      {
+        "name" : "Pavlos S. Efraimidis"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.16048v1",
+    "title" : "Privacy Leakage from Recurrent State in LLM Inference",
+    "summary" : "Personalized LLM services place private facts and application instructions into a prompt, then retain representations of that context for later inference. Latent-state LLMs compress part of this history into fixed-size recurrent state. The information preserved by its learned updates is implicit, and later computation can expose it even when an observer receives neither the private text nor the responses. We investigate privacy leakage from recurrent state through partial-state probing and physical observation of its use. Our methodology separates recoverable information, persistence through public dialogue, causal influence on later decisions, and leakage through power. Experiments with released hybrid implementations show that a small state observation supports multiple predictions about private facts and response rules, and that personal attributes generalize to unseen authors. The information remains inferable after public dialogue and changes later decision margins. Complete-read power recovers private facts under a fixed execution schedule. On a partitioned GPU, an unprivileged account infers age from whole-device power during public requests; a separate state-isolation experiment establishes the recurrent contribution to this channel. These findings extend context confidentiality to the lifetime and execution of retained state. They identify access-control responsibilities for serving systems, telemetry restrictions for GPU operators, and data-dependent power leakage for accelerator designers.",
+    "updated" : "2026-11-11T21:57:21Z",
+    "published" : "2026-11-11T21:57:21Z",
+    "authors" : [
+      {
+        "name" : "Weimin Fu"
+      },
+      {
+        "name" : "Shikun Liu"
+      },
+      {
+        "name" : "Qiying Li"
+      },
+      {
+        "name" : "Yuntao Liu"
+      },
+      {
+        "name" : "Pan Li"
+      },
+      {
+        "name" : "Xiaolong Guo"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.15770v1",
+    "title" : "Privacy-Preserving Spectrum Data Obfuscation in Next-Generation Spectrum Coexistence Systems",
+    "summary" : "In spectrum coexistence systems, the primary user (PU) activity must be partially disclosed for interference avoidance and coordination, while the exact spectrum occupancy information is often restricted due to security and regulatory constraints. To this end, subset-based disclosures can be employed in which the true frequency is included while ambiguity is introduced. This paper shows that naive randomized subset disclosures remain highly vulnerable to information leakage through inference, as temporal structure can be exploited to recover spectrum usage information. Under Markovian dynamics of the PU's spectrum usage, hidden Markov model (HMM) filtering with online learning is applied, while under periodic dynamics, period and phase estimations with phase-aligned statistics are used for inference. To address this vulnerability, structure-aware obfuscation strategies are introduced. For Markovian dynamics, history-based and belief-based schemes are designed to induce model mismatch and limit posterior concentration, while for periodic dynamics, cycle-dominance and decoy-based schemes are designed to manipulate phase-wise statistics and bias the inference process. These obfuscation schemes significantly hinder inference of spectrum information and offer principled disclosure solutions for spectrum coexistence systems.",
+    "updated" : "2026-11-11T17:49:56Z",
+    "published" : "2026-11-11T17:49:56Z",
+    "authors" : [
+      {
+        "name" : "Yalin E. Sagduyu"
+      },
+      {
+        "name" : "Tugba Erpek"
+      },
+      {
+        "name" : "Sastry Kompella"
+      },
+      {
+        "name" : "Joseph A. Molnar"
+      }
+    ],
+    "categories" : [
+      "cs.NI",
+      "cs.CR",
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.15097v1",
+    "title" : "GuardianAgentFlow: Multi-Agent Coordination for Web Privacy Protection",
+    "summary" : "Web agents need to use private context without unnecessarily disclosing it. Effective protection must distinguish between requests that may be sent after sanitization and those that must be withheld, while preserving the information needed for authorized tasks. We present GuardianAgentFlow, a multi-agent framework that mediates outgoing Web requests through an explicit release contract. A dedicated restriction check grounds permission in the user's instruction; a shared protection scope aligns rewriting with disclosure checking; and candidate-grounded feedback guides revision before transmission. Experiments on Web requests with human-reviewed intent labels show improved request-contract success, while controlled comparisons and role ablations identify the contributions of restriction handling, policy evidence, and candidate checking. Evaluations of action proposals from PrivacyLens and AgentDAM demonstrate complementary protection when mediation is composed with privacy-aware agents. Experiments with smaller mediation models show that the coordination benefit persists with reduced model capacity. Dedicated-server measurements show lower mediation latency than full-policy reasoning, while real-site browser tests quantify integration overhead.",
+    "updated" : "2026-11-11T06:19:31Z",
+    "published" : "2026-11-11T06:19:31Z",
+    "authors" : [
+      {
+        "name" : "Ruiyi Yang"
+      },
+      {
+        "name" : "Gayathri Lihinikaduarachchi"
+      },
+      {
+        "name" : "Rahat Masood"
+      },
+      {
+        "name" : "Flora D. Salim"
+      },
+      {
+        "name" : "Salil S. Kanhere"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.11467v3",
+    "title" : "PLDP-IDS: Personalized Local Differential Privacy for Infinite Data Stream",
+    "summary" : "Existing $w$-event local differential privacy (LDP) mechanisms for streaming data impose a uniform privacy window and budget, forcing all users to adopt the most stringent privacy requirement. We study personalized continual frequency estimation under LDP, where each user specifies her own window size and privacy budget, and identify two challenges. First, a single sampling size cannot balance sampling and perturbation errors for privacy groups with heterogeneous requirements. Second, borrowing estimates from groups with larger budgets reduces variance but introduces bias when privacy preferences correlate with the data. We first propose Optimal Population Selection (OPS) and two OPS-guided mechanisms, PLPD and PLPA, which use one privacy-compatible sampling size for all users. Since one size cannot fit all groups and pooling their estimates is biased under privacy--data correlation, we further develop PLPD$^+$ and PLPA$^+$, which combine group-aware population scheduling with bias-aware cross-group fusion while preserving personalized $w$-event LDP. Experiments on real-world and synthetic streams show that, compared with the direct personalized extension of LDP-IDS, PLPA$^+$ reduces the average mean squared error (AMSE) by 52.3\\% and 40.8\\% on average, respectively, and remains 4.3--5.1$\\times$ more accurate than PLPA under strong privacy--data correlation.",
+    "updated" : "2026-11-12T17:56:56Z",
+    "published" : "2026-11-08T16:00:21Z",
+    "authors" : [
+      {
+        "name" : "Leilei Du"
+      },
+      {
+        "name" : "Yikun Hu"
+      },
+      {
+        "name" : "Xu Zhou"
+      },
+      {
+        "name" : "Yang Cao"
+      },
+      {
+        "name" : "Peng Cheng"
+      },
+      {
+        "name" : "Wangze Ni"
+      },
+      {
+        "name" : "Kenli Li"
+      }
+    ],
+    "categories" : [
+      "cs.DB"
+    ]
   }
 ]
