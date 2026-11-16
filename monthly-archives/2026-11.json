@@ -1259,5 +1259,187 @@
     "categories" : [
       "cs.DB"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.18513v1",
+    "title" : "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+    "summary" : "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and generation to the reader's distinct position in the text. The system integrates a hybrid retrieval architecture, combining vector similarity, BM25, and summary embeddings, to ensure high fidelity to the reader's current context. We evaluate the system across classical English books using both quantitative comprehension metrics and qualitative LLM-based independent judging. The results identify a quality-latency frontier, showing that mid-sized local models (2b-4b) can achieve comprehension parity with larger counterparts (5b+) while maintaining acceptable response quality. Importantly, the proposed progress-aware boundary mechanism is shown to prevent future content leakage without compromising retrieval quality and correctness. These findings suggest that a localized, privacy-centric approach can augment, rather than replace, the digital reading experience, offering a good alternative to cloud-dependent services. Therein, there remains a lack of amalgamate systems which combine progress-aware, privacy-preserving, and narrative eBook reading with AI support. It is in this very gap that the development of MeReader came to be; synthesizing said strands into an offline, book-constrained assistant focused on enhancing comprehension without compromising narrative continuity or user privacy.",
+    "updated" : "2026-11-13T18:29:51Z",
+    "published" : "2026-11-13T18:29:51Z",
+    "authors" : [
+      {
+        "name" : "Mohammed Efaz"
+      },
+      {
+        "name" : "Udo Bub"
+      },
+      {
+        "name" : "Itilekha Podder"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.18385v1",
+    "title" : "Voice-Based Conversational Agents as AI Care Assistants: Evaluating Personalization, Intervention Delivery Fidelity, and Privacy Expectations in Older Adults' Care",
+    "summary" : "Generative AI enables voice-based conversational agents to play more active roles in older adults' care, including personalizing support and operating alongside clinicians and care partners. This shift creates two challenges: how to personalize support while faithfully delivering evidence-based interventions, and how to manage personal-data use and sharing across AI and care stakeholders. We designed and evaluated ARC, a voice-based conversational agent that operationalizes multidomain lifestyle intervention through sessions with predefined goals, participant context, and evidence-based components. In a 3-day remote study, 80 older adults completed 473 sessions across six session types (9,183 turns; averaging 19.4 turns and 6 minutes per session). Participants reported favorable usability, acceptability, and use intentions. System-level analyses showed strong domain-level but modest participant-specific contextual reuse, no significant personalization-fidelity association, and fidelity limitations centered on incomplete delivery of intervention components rather than off-protocol drift. Within care relationships, expectations for personal-data use and sharing varied by data type and recipient. Our findings support feasibility of conversational delivery of multidomain lifestyle intervention, offer methods and system-design insights for longitudinal evaluation, and motivate an evaluation agenda for generative AI health interventions: user-experience and outcome measures should be complemented by evidence of whether intended intervention processes were delivered as designed.",
+    "updated" : "2026-11-13T16:27:58Z",
+    "published" : "2026-11-13T16:27:58Z",
+    "authors" : [
+      {
+        "name" : "Thalia Viranda"
+      },
+      {
+        "name" : "Shupeng Wang"
+      },
+      {
+        "name" : "Jia Bo"
+      },
+      {
+        "name" : "Yuchen Yang"
+      },
+      {
+        "name" : "Hongjiao Zhang"
+      },
+      {
+        "name" : "Andrea Cuadra"
+      },
+      {
+        "name" : "Daniel A. Adler"
+      },
+      {
+        "name" : "Walter Boot"
+      },
+      {
+        "name" : "Sara Czaja"
+      },
+      {
+        "name" : "Deborah Estrin"
+      },
+      {
+        "name" : "Tanzeem Choudhury"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.18312v1",
+    "title" : "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+    "summary" : "Inertial sensors of smartphones are a well-known privacy risk, as they allow inferring sensitive user movements and activity without explicit permissions. Among these sensors, the magnetometer has received little attention, as it is assumed to measure mainly the Earth's magnetic field. In this paper, we show that electric trains generate distinctive magnetic fields that can be captured by a smartphone magnetometer. Apps deployed on the device can access these signals without user permission, enabling two novel attacks on passenger privacy: First, we are able to determine whether the user is riding an electric train (transport mode detection). Second, we can infer whether other victims are aboard the same train due to shared patterns in the magnetic field (colocation prediction). In an empirical evaluation across 217 train rides, we demonstrate that both attacks are effective, confirming a real-world threat. We discuss countermeasures and argue that magnetometer access should require explicit user permission in mobile operating systems.",
+    "updated" : "2026-11-13T15:31:10Z",
+    "published" : "2026-11-13T15:31:10Z",
+    "authors" : [
+      {
+        "name" : "Stefan Czybik"
+      },
+      {
+        "name" : "Pia Hanfeld"
+      },
+      {
+        "name" : "Konrad Rieck"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.18293v1",
+    "title" : "PrivacyPR: A Dataset of Real-World Privacy Fixes for Benchmarking Privacy-Aware Code Review",
+    "summary" : "Coding agents increasingly review code, yet whether they catch the privacy defects that laws such as the GDPR require software to avoid remains largely untested, partly because few datasets connect real privacy defects to their accepted fixes and review context. We present PrivacyPR, a dataset of 4,131 merged GitHub pull requests (PRs) from 1,469 repositories, created between June 2018 and January 2024. Each PR includes its commits, diffs, review discussion, and LLM-generated labels for privacy relevance, fix type, and GDPR principles. PrivacyPR provides 1,169 high-confidence privacy fixes and 1,643 non-fix PRs, together with Verified, a manually checked split of 250 privacy fixes and 250 non-fix PRs, and Small, a 100 + 100 subset for evaluation. On Verified, both annotators endorsed 72% of the LLM's GDPR-principle assignments. Beyond supporting empirical study of how privacy defects arise and are fixed, PrivacyPR provides a benchmark for privacy-aware code review on real, developer-accepted fixes. Its evaluation harness reverts each fix to reintroduce the defect. On Small, two coding agents detect only 42-51% of defects under a generic review prompt, but 88-91% when explicitly asked to check privacy, while flagging 11-15% of non-fix PRs. These results show that privacy defects can be detected by coding agents, but that detection depends strongly on review intent and comes with false alarms. Data, code, reviews, judge verdicts, and an extensible evaluation harness are publicly available at https://doi.org/10.5281/zenodo.23744765.",
+    "updated" : "2026-11-13T15:18:33Z",
+    "published" : "2026-11-13T15:18:33Z",
+    "authors" : [
+      {
+        "name" : "Hua Yang"
+      },
+      {
+        "name" : "Aditya Bhardwaj"
+      },
+      {
+        "name" : "Shidong Pan"
+      },
+      {
+        "name" : "Bowen Xu"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.17596v1",
+    "title" : "Tractable Importance Sampling for Monte Carlo Privacy Accounting",
+    "summary" : "Evaluating tight Differential Privacy (DP) parameters for DP matrix factorization with privacy amplification by sampling requires analyzing high-dimensional, correlated Gaussian mixtures. Because integrating these mixture distributions to find the exact privacy failure probability ($δ$) is analytically intractable, these mechanisms are typically analyzed using Monte Carlo accounting. However, standard sampling suffers from prohibitive variance when estimating small $δ$ associated with strict privacy guarantees, which in turn requires a large sample complexity, making Monte Carlo accounting inefficient. We demonstrate that Monte Carlo accounting can be made much more efficient via importance sampling. We give a shifted importance sampling proposal distribution parameterized by a stretch factor $α> 1$. We prove a closed-form bound $B(α) < 1$ on the support of the importance-weighted estimator that holds identically for both directions of the hockey-stick divergence, show that $B$ is log-convex so that the optimal $α$ is a one-dimensional root-finding problem, and show that the resulting estimator seamlessly plugs into the KL-Hoeffding verification protocol used by past work, with a sample complexity reduced by exactly a factor of $1/B(α^*)$.",
+    "updated" : "2026-11-12T23:33:00Z",
+    "published" : "2026-11-12T23:33:00Z",
+    "authors" : [
+      {
+        "name" : "Galen Andrew"
+      },
+      {
+        "name" : "Arun Ganesh"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.17554v1",
+    "title" : "Online Allocation with Differential Privacy",
+    "summary" : "We study private online allocation problems, where allocation decisions must satisfy differential privacy (DP) to protect sensitive user information while optimizing performance under limited resources. We first formalize differential privacy notions suited to different privacy requirements in online allocation and establish the fundamental performance limits of any algorithm under these definitions. Based on these insights, we propose PPOA, a privacy-preserving meta algorithm for online allocation, and establish sufficient conditions under which PPOA preserves Joint DP (JDP) or Local DP (LDP) while achieving asymptotically near-optimal performance. Building on these conditions, PPOA can be instantiated into a variety of concrete algorithms. In particular, we present the specific designs, which include PPOA-DMD that preserves JDP and LDP and PPOA-FTRL that preserves JDP. We analyze their performance under both adversarial and stochastic settings and characterize the fundamental trade-offs between DP and allocation performance. Finally, we demonstrate the superior performance of the proposed algorithms via numerical experiments on AI model routing in battery-powered edge systems.",
+    "updated" : "2026-11-12T22:15:33Z",
+    "published" : "2026-11-12T22:15:33Z",
+    "authors" : [
+      {
+        "name" : "Jianyi Yang"
+      },
+      {
+        "name" : "Xingyu Zhou"
+      },
+      {
+        "name" : "Mostafa Mushsharat"
+      },
+      {
+        "name" : "Shaolei Ren"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.17490v1",
+    "title" : "Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy",
+    "summary" : "This paper investigates human-in-the-loop recommendation systems, where effectiveness relies on human compliance and privacy concerns restrict the use of historical response data. The pro posed framework models the implemented action as a random response to the recommendation and formulates the recommendation mechanism as a decision-dependent optimisation problem under an unknown compliance distribution. A batched Gaussian process upper confidence bound algorithm is then adapted to learn from locally perturbed historical actions, providing privacy for individual raw records. The analysis establishes record-level differential privacy and derives high-probability simple regret bounds when the compliance distribution is unknown. These bounds characterise how privacy noise, batch size, and behavioural information affect the guaranteed quality of the learned recommendation. In particular, a known upper bound on the non-compliance rate enables the rec ommendation space to be screened before any private data are queried. Simulations of a fixed-state car-following problem with synthetic historical driver responses demonstrate the effectiveness of the proposed algorithm and verify the theoretical findings.",
+    "updated" : "2026-11-12T20:24:52Z",
+    "published" : "2026-11-12T20:24:52Z",
+    "authors" : [
+      {
+        "name" : "Yuwen Ma"
+      },
+      {
+        "name" : "Nicola Bastianello"
+      },
+      {
+        "name" : "Sarah Spurgeon"
+      },
+      {
+        "name" : "Boli Chen"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
