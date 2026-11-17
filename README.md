@@ -518,68 +518,70 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.30439v1">Not Where You Think: Protecting Location Privacy Against Reasoning-Based Geolocation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-21T20:49:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shanghao Shi, Jian Xiao, Hao Li, Yuanhaur Chang, Yevgeniy Vorobeychik, Nathan Jacobs, Neal Patwari, Ning Zhang</p>
-    <p><b>Summary:</b> Recent large reasoning models can infer where ordinary photos were taken using only visual information, creating a serious location privacy risk even when metadata and obvious geographic identifiers are removed. To understand the mechanism behind such fine-grained localization, we develop GeoTrace, a structured reasoning attack that exposes how models extract location-relevant visual clues and compose them through coarse-to-fine geographic reasoning. We evaluate GeoTrace on a worldwide benchmark of 525 ordinary images spanning natural, urban, residential, and human-centered scenes while excluding famous landmarks and direct location indicators. Our results show that GeoTrace localizes 25.71% of images within 1 km with Gemini-3-Flash and 16.95% with GPT-5-mini. More importantly, our analysis reveals a key insight in the visual clue chain: broad scene properties mainly support coarse localization, whereas precise localization disproportionately relies on small, distinctive, and editable local clues. Building on this insight, we develop GeoShift, a proactive user-side defense that breaks the visual clue chain before image release. Rather than simply removing geographic evidence, GeoShift preserves stable scene properties, selects a visually compatible false target location, and strategically rewrites high-impact geo-revealing clues to construct a coherent alternative geographic hypothesis. Experiments show that GeoShift reduces street-level localization from 16.95% to 2.48% under GPT-5-mini and from 25.71% to 3.81% under Gemini-3-Flash, while preserving visual quality and remaining effective against adaptive attacks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.30229v1">Automated screening of privacy risks in medical AI</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-21T17:52:43Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Konstantinos Vrettos, Eleftherios Tzanis, Haridimos Kondylakis, Evangelia E. Vassalou, Florence X. Doo, Michail E. Klontzas</p>
-    <p><b>Summary:</b> Medical artificial intelligence (AI) models are often shared without their training data, assuming this protects the patients who contributed them. However, a model can reveal whether a patient's records were used in training, a privacy breach known as a membership inference attack. This risk is usually reported as a cohort average, which can appear negligible while individual patients are almost certainly exposed. Identifying potentially vulnerable records before developing a production model could make privacy assessment more practical. We measured each patient's vulnerability to membership inference attack, across 7,789 models trained on six clinical datasets in four modalities, including two adapted pretrained medical models. Training choices changed how many patients had high attack scores, but the patients who ranked highest by risk largely stayed the same across the configurations we tested. Stronger weight decay reduced the exposed cohort up to threefold, yet largely the same patients remained most at risk across training recipes, architectures and initializations, including foundation models. Therefore, we developed a lightweight screening tool that uses four small models to identify patients with high risk of exposure before production-model training. We also assessed if flagged patients could be protected without removing their data. Privacy screening should become incorporated into data preparation for clinical AI.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.29987v1">GhostFaceMPC: Privacy-Preserving Face Recognition with Multi-Party Computation</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-21T16:28:18Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Davide Carnemolla, Dario Catalano, Mario Di Raimondo</p>
-    <p><b>Summary:</b> Facial recognition has become central to modern authentication systems, security frameworks, and personalized services. However, its widespread adoption is hindered by severe privacy risks, particularly surrounding unauthorized access to sensitive biometric data. To address these challenges, this paper presents GhostFaceMPC, the first end-to-end, privacy-preserving face recognition system to evaluate a deep convolutional neural network extractor and matching under secure multi-party computation. GhostFaceMPC enables secure processing of facial data across all stages of a face recognition process, from feature extraction and storage to matching, without exposing raw images or biometric embeddings at any stage. We introduce a multi-party computation-friendly quantization of the GhostFaceNet model and circuit optimizations that make face recognition under multi-party computation practical. The code is available at https://github.com/crypto-unict/GhostFaceMPC.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.29929v4">Privacy Preference Controls for Agentic Systems</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/HumanComputer Interaction-D91E36">
-  <p><b>Published on:</b> 2026-10-21T16:03:02Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Shreya Kochar, Peeranat Sugsavanvit, Vidur Gupta, Joseph A. Calandrino, Deepak Kumar, Brett Frischmann, Sebastian Zimmeck</p>
-    <p><b>Summary:</b> In response to vast and widespread online tracking, regulators and technologists alike have worked to develop laws and tools that allow people to express their privacy preferences. These measures seek to offer users greater control over the sale and sharing of personal information, putting agency in their hands to protect their privacy. However, the web is undergoing a seismic shift, away from strictly user-driven behavior towards agentic behavior, where AI agents take autonomous actions on behalf of users. In this study, we ask: What should privacy preference controls look like in the agentic web and agentic systems more generally? To answer this question, we develop a taxonomy of enforceable privacy preferences for agentic systems. Our taxonomy is informed both by laws and empirical studies of existing privacy tools as well as an audit of 30 leading AI assistants and agent platforms. To explore how our taxonomy can be implemented, we design and develop eight open-source prototypes that mirror real-world agentic applications and demonstrate how major aspects of our taxonomy can be structurally integrated in agentic protocols, such as the Model Context Protocol and Agent2Agent protocol. Ultimately, our study seeks to provide the groundwork for ensuring end-user privacy and autonomy is not lost in the newly arriving agentic world.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.29925v1">Privacy in Context Is Being Overlooked in the Age of General-Purpose LLMs</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-21T16:01:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Prakhar Ganesh, Yash More, Marco Romanelli, Ferdinando Fioretto, Golnoosh Farnadi</p>
-    <p><b>Summary:</b> As large language models (LLMs) continue to grow in scope and capability, privacy concerns are on the rise. Since users increasingly interact with a single general-purpose system across many distinct contexts, there is a natural tendency to pursue a one-size-fits-all solution to privacy. Unfortunately, this overlooks a crucial insight from decades of privacy research: privacy is inherently contextual. In this paper, we argue that existing work in prompt privacy is drifting towards attempts to design a unified framework, which is highly misleading and can foster a false sense of security. Furthermore, we argue that even future work in this direction needs to wrestle with fundamental tensions across various desirable properties of prompt privacy. Thus, such continued attempts towards a unified framework need to be reconsidered. We recommend three critical paths forward: application-specific deployment of LLMs, context-specific evaluation of privacy frameworks, and better privacy literacy.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.21590v1">The Provenance-Privacy Paradox: Can Private Cloud Compute (PCC) Prove That Apple Reference Images Are Not Used for Learning?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-11-16T18:56:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Mohammad I. Husain, Viet Nguyen</p>
+    <p><b>Summary:</b> Apple Reference Image (ARI) combines camera-sensor signatures, Secure Enclave attestation (SEP), cryptographic timestamp bounds, Private Cloud Compute (PCC), and a final post-quantum signature to establish photographic provenance. PCC is central to this process because it validates the secure digital negative and develops authenticated raw sensor measurements into a reference JPEG. Although the secure digital negative is encrypted during transmission, the authorized PCC workload must process the raw pixels in plaintext. This requirement creates a provenance-privacy paradox: cloud processing strengthens the provenance guarantee while giving an Apple-authorized, machine-learning-capable workload access to valuable, hardware-authenticated raw imagery. We argue that workload attestation and transparency-log inclusion verify software identity and authorization but do not, by themselves, prove that an authorized workload cannot learn from or retain information derived from the photograph.
+  We implement this counterexample in a Python- and Docker-based experimental testbed that models relevant ARI and PCC functions. Across 27 public-domain photographs, a baseline workload and a learning-enabled workload both passed the same verification checks and returned byte-for-byte identical JPEGs. However, the learning-enabled workload retained a first-layer gradient of approximately 48 KB from which its 64 x 64 input was reconstructed with a maximum absolute per-pixel error of 6 x 10^-8. The additional processing overhead was small relative to image decoding and processing. These results do not demonstrate that Apple currently trains on ARI photographs or reproduce production PCC, but identify non-learning and non-retention as independently verifiable assurance requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.21494v1">Location Privacy for ISAC Systems: Rate, Sensing, and Privacy Tradeoff</a></h3>
+  
+  <p><b>Published on:</b> 2026-11-16T17:59:06Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Umair Ali Khan, Lester Ho, Holger Claussen, Mark F. Flanagan, Chinmoy Kundu</p>
+    <p><b>Summary:</b> In this paper, we design a beamformer for transmitter location privacy in an integrated sensing and communication (ISAC) system, where the transmitter communicates with a receiver while sensing a point target. We adopt the direction-of-arrival obfuscation power ratio (DoA-OPR), the ratio of the received power in a prescribed fake direction to that in the actual direction, as the location privacy metric. To design the beamformer, we formulate an achievable rate maximization problem subject to constraints on total transmit power, target sensing, location privacy, and the number of data streams. The resulting problem is nonconvex and is addressed through an eigenmode-selection and power-allocation framework. To reduce the computational complexity of the solution, we develop strategies that eliminate infeasible candidate solutions. Furthermore, we propose a fake angle selection technique in which the transmit power for target sensing aids location privacy. Numerical results illustrate the achievable rate-sensing-privacy tradeoff and show that the proposed fake angle selection technique performs better than the random fake angle selection technique.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.20389v1">Where the Evidence Lives: Measuring Privacy and Diagnosability of Exported AI-Agent Traces</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-11-16T01:34:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chang Xu, Hao Wang, Gedi Zhou, Junyuan Tan</p>
+    <p><b>Summary:</b> Execution traces help diagnose AI-agent failures, but sharing them can expose customer identities. For example, detecting that an agent handled the wrong customer's records requires knowing whether the records belong to the requested customer, but not necessarily knowing who that customer is. Our executable benchmark measures what a trace export reveals and whether a proposed repair restores the correct output in synthetic multi-tenant workflows. Conventional redaction can remove evidence needed for repair while leaving encoded identifiers recoverable. Two exports preserve ownership comparisons by reporting the match as a comparison fact or by using pseudonyms consistent within each execution. Both preserve the original diagnostic program's repairs. The tested identifier matchers identify no requested customer from either export. An independently written program produces correct outputs on 39 of 42 faulty cases with comparison facts and on all 42 with execution-scoped pseudonyms. Row counts still expose identities. With prior knowledge of customers' row counts, an attacker uniquely identifies the requested customer in 97 of 240 executions under each of the 15 export policies. Removing selected counters from the comparison-fact export stops this attack and preserves the original program's repairs. The benchmark lets engineers test what their diagnostic program can repair and what an attacker can still infer from the same export.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.20223v1">Understanding Users' Security, Privacy, and Trust Concerns in Healthcare AI Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-11-15T19:43:10Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Tushar Nayan, Mohammed Al Duniawi, Song Fang, Aokun Chen, Arjun Arunasalam, Ruimin Sun</p>
+    <p><b>Summary:</b> Artificial intelligence is increasingly integrated into healthcare systems, from clinical information retrieval to workflow automation and decision support, which introduces new security, privacy, and trust risks with direct implications for patient care. While prior work has examined these risks from technical and regulatory perspectives, less is known about how these risks are naturally discussed in online communities. To address this gap, we conduct a large-scale analysis of 14 medical communities on Reddit and extract 6,514 relevant posts. Through systematic qualitative coding and LLM-assisted classification, we investigate concerns expressed in healthcare AI discussions, their prevalence, and how they evolve over time. Our analysis reveals that users perceive healthcare AI as expanding traditional healthcare trust boundaries and attack surfaces through integrations with electronic health records, third-party services, cloud platforms, and automated clinical workflows. Posts express concerns about over-privileged access to sensitive records, opaque data flows, unauthorized secondary use, and unsafe automation can amplify the consequences of errors and misuse. We identify four attitudes toward these risks: exploring questions of accountability and harm, cautiously accepting AI with stronger safeguards, skepticism about system trustworthiness, and resignation to growing data exposure and automation. Longitudinal analysis shows that SP&T discussions have increased significantly, with shifts coinciding with major healthcare AI deployments, privacy incidents, and regulatory developments. These findings illuminate changing trust relationships and data-governance challenges, informing the design and governance of safer, more transparent, and accountable healthcare AI systems.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.18925v1">Privacy-Preserving Clustering Algorithm and Parameter Selection for Collaborative Population Stratification Using Distributed PCA</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-11-13T20:27:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Maryam Ghasemian, Lynette Hammond Gerido, Erman Ayday</p>
+    <p><b>Summary:</b> We propose a privacy-preserving selection layer for collaborative population stratification workflows, enabling an honest-but-curious server to recommend a strong clustering algorithm-hyperparameter configuration from privacy protected shares. Instead of using a fixed workflow such as PCA followed by K-Means with a preset number of clusters, the framework compares multiple clustering methods and parameter settings under privacy constraints. To avoid relying on a public reference basis, we construct a shared low-dimensional representation through a distributed-PCA (DPCA) procedure in which each party computes local top-$r$ principal-component information and the server aggregates only low-rank summaries to recover a global basis. Building on this representation, the framework supports three LDP-protected pipelines: PCA then Noise, Noise then PCA, and Noise-Only. The server evaluates clustering methods and parameter settings using internal validation metrics and recommends a top-performing configuration from the perturbed data; this step is pure post-processing.
+  Experiments on openSNP and 1000 Genomes show that the server-side selection layer reliably identifies strong settings from LDP-protected data. Across both datasets, the PCA-based pipelines outperform Noise-Only in clustering utility, communication cost, and runtime, and show lower membership-inference attack (MIA) power at small privacy budgets. Overall, they provide the best utility--scalability trade-off in our setting.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2611.18513v1">MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading</a></h3>
@@ -606,7 +608,7 @@
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.18312v1">On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields</a></h3>
+  <h3><a href="http://arxiv.org/abs/2611.18312v2">On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-11-13T15:31:10Z</p>
   <details>
