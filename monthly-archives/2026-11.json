@@ -1441,5 +1441,148 @@
     "categories" : [
       "cs.HC"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.21590v1",
+    "title" : "The Provenance-Privacy Paradox: Can Private Cloud Compute (PCC) Prove That Apple Reference Images Are Not Used for Learning?",
+    "summary" : "Apple Reference Image (ARI) combines camera-sensor signatures, Secure Enclave attestation (SEP), cryptographic timestamp bounds, Private Cloud Compute (PCC), and a final post-quantum signature to establish photographic provenance. PCC is central to this process because it validates the secure digital negative and develops authenticated raw sensor measurements into a reference JPEG. Although the secure digital negative is encrypted during transmission, the authorized PCC workload must process the raw pixels in plaintext. This requirement creates a provenance-privacy paradox: cloud processing strengthens the provenance guarantee while giving an Apple-authorized, machine-learning-capable workload access to valuable, hardware-authenticated raw imagery. We argue that workload attestation and transparency-log inclusion verify software identity and authorization but do not, by themselves, prove that an authorized workload cannot learn from or retain information derived from the photograph.\n  We implement this counterexample in a Python- and Docker-based experimental testbed that models relevant ARI and PCC functions. Across 27 public-domain photographs, a baseline workload and a learning-enabled workload both passed the same verification checks and returned byte-for-byte identical JPEGs. However, the learning-enabled workload retained a first-layer gradient of approximately 48 KB from which its 64 x 64 input was reconstructed with a maximum absolute per-pixel error of 6 x 10^-8. The additional processing overhead was small relative to image decoding and processing. These results do not demonstrate that Apple currently trains on ARI photographs or reproduce production PCC, but identify non-learning and non-retention as independently verifiable assurance requirements.",
+    "updated" : "2026-11-16T18:56:06Z",
+    "published" : "2026-11-16T18:56:06Z",
+    "authors" : [
+      {
+        "name" : "Mohammad I. Husain"
+      },
+      {
+        "name" : "Viet Nguyen"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.21494v1",
+    "title" : "Location Privacy for ISAC Systems: Rate, Sensing, and Privacy Tradeoff",
+    "summary" : "In this paper, we design a beamformer for transmitter location privacy in an integrated sensing and communication (ISAC) system, where the transmitter communicates with a receiver while sensing a point target. We adopt the direction-of-arrival obfuscation power ratio (DoA-OPR), the ratio of the received power in a prescribed fake direction to that in the actual direction, as the location privacy metric. To design the beamformer, we formulate an achievable rate maximization problem subject to constraints on total transmit power, target sensing, location privacy, and the number of data streams. The resulting problem is nonconvex and is addressed through an eigenmode-selection and power-allocation framework. To reduce the computational complexity of the solution, we develop strategies that eliminate infeasible candidate solutions. Furthermore, we propose a fake angle selection technique in which the transmit power for target sensing aids location privacy. Numerical results illustrate the achievable rate-sensing-privacy tradeoff and show that the proposed fake angle selection technique performs better than the random fake angle selection technique.",
+    "updated" : "2026-11-16T17:59:06Z",
+    "published" : "2026-11-16T17:59:06Z",
+    "authors" : [
+      {
+        "name" : "Umair Ali Khan"
+      },
+      {
+        "name" : "Lester Ho"
+      },
+      {
+        "name" : "Holger Claussen"
+      },
+      {
+        "name" : "Mark F. Flanagan"
+      },
+      {
+        "name" : "Chinmoy Kundu"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.20389v1",
+    "title" : "Where the Evidence Lives: Measuring Privacy and Diagnosability of Exported AI-Agent Traces",
+    "summary" : "Execution traces help diagnose AI-agent failures, but sharing them can expose customer identities. For example, detecting that an agent handled the wrong customer's records requires knowing whether the records belong to the requested customer, but not necessarily knowing who that customer is. Our executable benchmark measures what a trace export reveals and whether a proposed repair restores the correct output in synthetic multi-tenant workflows. Conventional redaction can remove evidence needed for repair while leaving encoded identifiers recoverable. Two exports preserve ownership comparisons by reporting the match as a comparison fact or by using pseudonyms consistent within each execution. Both preserve the original diagnostic program's repairs. The tested identifier matchers identify no requested customer from either export. An independently written program produces correct outputs on 39 of 42 faulty cases with comparison facts and on all 42 with execution-scoped pseudonyms. Row counts still expose identities. With prior knowledge of customers' row counts, an attacker uniquely identifies the requested customer in 97 of 240 executions under each of the 15 export policies. Removing selected counters from the comparison-fact export stops this attack and preserves the original program's repairs. The benchmark lets engineers test what their diagnostic program can repair and what an attacker can still infer from the same export.",
+    "updated" : "2026-11-16T01:34:02Z",
+    "published" : "2026-11-16T01:34:02Z",
+    "authors" : [
+      {
+        "name" : "Chang Xu"
+      },
+      {
+        "name" : "Hao Wang"
+      },
+      {
+        "name" : "Gedi Zhou"
+      },
+      {
+        "name" : "Junyuan Tan"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.20223v1",
+    "title" : "Understanding Users' Security, Privacy, and Trust Concerns in Healthcare AI Systems",
+    "summary" : "Artificial intelligence is increasingly integrated into healthcare systems, from clinical information retrieval to workflow automation and decision support, which introduces new security, privacy, and trust risks with direct implications for patient care. While prior work has examined these risks from technical and regulatory perspectives, less is known about how these risks are naturally discussed in online communities. To address this gap, we conduct a large-scale analysis of 14 medical communities on Reddit and extract 6,514 relevant posts. Through systematic qualitative coding and LLM-assisted classification, we investigate concerns expressed in healthcare AI discussions, their prevalence, and how they evolve over time. Our analysis reveals that users perceive healthcare AI as expanding traditional healthcare trust boundaries and attack surfaces through integrations with electronic health records, third-party services, cloud platforms, and automated clinical workflows. Posts express concerns about over-privileged access to sensitive records, opaque data flows, unauthorized secondary use, and unsafe automation can amplify the consequences of errors and misuse. We identify four attitudes toward these risks: exploring questions of accountability and harm, cautiously accepting AI with stronger safeguards, skepticism about system trustworthiness, and resignation to growing data exposure and automation. Longitudinal analysis shows that SP&T discussions have increased significantly, with shifts coinciding with major healthcare AI deployments, privacy incidents, and regulatory developments. These findings illuminate changing trust relationships and data-governance challenges, informing the design and governance of safer, more transparent, and accountable healthcare AI systems.",
+    "updated" : "2026-11-15T19:43:10Z",
+    "published" : "2026-11-15T19:43:10Z",
+    "authors" : [
+      {
+        "name" : "Tushar Nayan"
+      },
+      {
+        "name" : "Mohammed Al Duniawi"
+      },
+      {
+        "name" : "Song Fang"
+      },
+      {
+        "name" : "Aokun Chen"
+      },
+      {
+        "name" : "Arjun Arunasalam"
+      },
+      {
+        "name" : "Ruimin Sun"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.18925v1",
+    "title" : "Privacy-Preserving Clustering Algorithm and Parameter Selection for Collaborative Population Stratification Using Distributed PCA",
+    "summary" : "We propose a privacy-preserving selection layer for collaborative population stratification workflows, enabling an honest-but-curious server to recommend a strong clustering algorithm-hyperparameter configuration from privacy protected shares. Instead of using a fixed workflow such as PCA followed by K-Means with a preset number of clusters, the framework compares multiple clustering methods and parameter settings under privacy constraints. To avoid relying on a public reference basis, we construct a shared low-dimensional representation through a distributed-PCA (DPCA) procedure in which each party computes local top-$r$ principal-component information and the server aggregates only low-rank summaries to recover a global basis. Building on this representation, the framework supports three LDP-protected pipelines: PCA then Noise, Noise then PCA, and Noise-Only. The server evaluates clustering methods and parameter settings using internal validation metrics and recommends a top-performing configuration from the perturbed data; this step is pure post-processing.\n  Experiments on openSNP and 1000 Genomes show that the server-side selection layer reliably identifies strong settings from LDP-protected data. Across both datasets, the PCA-based pipelines outperform Noise-Only in clustering utility, communication cost, and runtime, and show lower membership-inference attack (MIA) power at small privacy budgets. Overall, they provide the best utility--scalability trade-off in our setting.",
+    "updated" : "2026-11-13T20:27:03Z",
+    "published" : "2026-11-13T20:27:03Z",
+    "authors" : [
+      {
+        "name" : "Maryam Ghasemian"
+      },
+      {
+        "name" : "Lynette Hammond Gerido"
+      },
+      {
+        "name" : "Erman Ayday"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.18312v2",
+    "title" : "On the Same Track: Privacy Leaks in Electric Rail Transport via Magnetic Fields",
+    "summary" : "Inertial sensors of smartphones are a well-known privacy risk, as they allow inferring sensitive user movements and activity without explicit permissions. Among these sensors, the magnetometer has received little attention, as it is assumed to measure mainly the Earth's magnetic field. In this paper, we show that electric trains generate distinctive magnetic fields that can be captured by a smartphone magnetometer. Apps deployed on the device can access these signals without user permission, enabling two novel attacks on passenger privacy: First, we are able to determine whether the user is riding an electric train (transport mode detection). Second, we can infer whether other victims are aboard the same train due to shared patterns in the magnetic field (colocation prediction). In an empirical evaluation across 217 train rides, we demonstrate that both attacks are effective, confirming a real-world threat. We discuss countermeasures and argue that magnetometer access should require explicit user permission in mobile operating systems.",
+    "updated" : "2026-11-16T07:39:40Z",
+    "published" : "2026-11-13T15:31:10Z",
+    "authors" : [
+      {
+        "name" : "Stefan Czybik"
+      },
+      {
+        "name" : "Pia Hanfeld"
+      },
+      {
+        "name" : "Konrad Rieck"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
   }
 ]
