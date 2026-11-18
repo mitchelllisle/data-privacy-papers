@@ -1584,5 +1584,152 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.22223v1",
+    "title" : "GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk",
+    "summary" : "Large Language Model (LLM)-based web agents rely on data minimization and least privilege to protect user privacy. We show that these principles are necessary but insufficient: they constrain authorized sources, but not higher-sensitivity sources that remain reachable. A website can request a field unavailable from authorized sources, creating an information gap. To complete the task, a goal-driven agent may escalate to reachable but unauthorized sources and disclose accumulated sensitive information. We formalize this vulnerability as GapLeak, where an adversary exploits a legitimate web form without prompt injection or other malicious instructions.\n  We evaluate GapLeak on three web-agent frameworks and six LLMs from Anthropic, Google, and OpenAI across recruitment, e-commerce, travel, and healthcare. GapLeak induces an average unauthorized disclosure of approximately 37%. The information gap is the primary driver: eliminating it reduces disclosure by more than 50%. Existing instruction-level defenses based on least privilege partially mitigate the vulnerability but often reduce task success. We propose submission-time verification, which filters unauthorized content before form submission, eliminating over 96% of unauthorized disclosures while preserving task success.",
+    "updated" : "2026-11-17T05:06:25Z",
+    "published" : "2026-11-17T05:06:25Z",
+    "authors" : [
+      {
+        "name" : "Chaklam Cheong"
+      },
+      {
+        "name" : "Tiancong Cao"
+      },
+      {
+        "name" : "Qi Li"
+      },
+      {
+        "name" : "Zelin Zhang"
+      },
+      {
+        "name" : "Jianbing Ni"
+      },
+      {
+        "name" : "Rongxing Lu"
+      },
+      {
+        "name" : "Mohammad Zulkernine"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.22200v1",
+    "title" : "MIRAGE: Motion Identity Reduction via Autoregressive Generative Encoding for Privacy-Preserving Skeleton-based Motion Data",
+    "summary" : "Skeleton motion identifies people through body proportions and movement style, and skeleton streams are increasingly passed to third-party analytics that run action classifiers trained on raw data. A prior adversarial anonymizer adds a per-frame residual in the raw coordinate space but sees one frame at a time; motion retargeting needs a target skeleton and complete sequences, which rules out online use. We present MIRAGE, a target-free, causal anonymizer that adds an identity-reducing residual to each incoming frame in the raw coordinate space, computed by attention over past frames. One causal, optionally windowed mask governs every attention in a rotary-position encoder-decoder, and key/value caches let the trained function run frame by frame; on all 56,578 NTU 60 sequences, batched and streaming outputs differ by at most 7.2e-6 m. Reported results use an unbounded window, so per-stream state grows with stream length. We evaluate against a passive adversary that applies raw-trained identity models and an adaptive adversary that trains on the anonymizer's output, treating the adaptive adversary as the headline, on NTU RGB+D 60 over five generator seeds, alongside the per-frame residual anonymizer of Moon et al. trained identically. When consumers retrain on the released data, MIRAGE keeps 83.9% action recognition (raw 89.1%; Moon et al. 88.7%) while a retrained identity classifier reaches 43.4% re-identification (RI) over 40 subjects, against 69.4% for Moon et al. and 75.4% on raw data. The strongest adaptive attacker still reaches 49.3% (chance 2.5%), so MIRAGE reduces identity leakage; it does not anonymize. Against raw-trained (frozen) classifiers, MIRAGE lowers RI below the strongest retargeting baseline (10.36% vs. 22.09%), but frozen action recognition falls to 37.04% (vs. 75.82%), so at full residual scale it is not a drop-in replacement for raw input to existing frozen models.",
+    "updated" : "2026-11-17T04:39:03Z",
+    "published" : "2026-11-17T04:39:03Z",
+    "authors" : [
+      {
+        "name" : "Thomas Carr"
+      },
+      {
+        "name" : "Xujun Che"
+      },
+      {
+        "name" : "Depeng Xu"
+      },
+      {
+        "name" : "Shuhan Yuan"
+      },
+      {
+        "name" : "Aidong Lu"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.21955v1",
+    "title" : "SCAN: Site-Aware Collaborative Privacy-Preserving Adaptation of Vision-Language Models for Neurological Disease Classification",
+    "summary" : "Worldwide neuroimaging data could strengthen diagnostic foundation models, but privacy rules often prevent centralizing brain MRI scans. We present SCAN, a site-aware collaborative adaptation framework for Neurological Disease Classification that lets new sites adapt a 3D medical vision-language model (VLM) without retraining or sharing patient scans. Each site keeps exact class prototypes for local prediction and can share privacy-protected class summaries: norm-bounded sums and counts perturbed once with calibrated noise. Using 7,641 scans from 67 sites across 12 countries, covering Alzheimer's disease (AD), stroke, epilepsy and controls, we assess local adaptation, cross-site benefits, and effects on existing sites. At seven unseen sites, the frozen VLM's zero-shot AUCs were 0.833-0.945 for AD and stroke. Training-free local prototypes improved epilepsy AUC at three sites from 0.598/0.625/0.508 to 0.684/0.729/0.762 and AD AUC at one site from 0.833 to 0.863, nearly matching a classifier trained at each site (mean AUC 0.757 vs. 0.759). With differential privacy ($ε$ = 4), new sites contributed without materially reducing accuracy at existing sites (AUC change $\\leq$0.2%), although gains from sharing were limited, and membership attacks performed near chance. SCAN offers hospitals a worldwide framework to adapt and share brain MRI VLMs without exchanging scans or retraining.",
+    "updated" : "2026-11-16T22:36:53Z",
+    "published" : "2026-11-16T22:36:53Z",
+    "authors" : [
+      {
+        "name" : "Nikhil J. Dhinagar"
+      },
+      {
+        "name" : "Rishab Pendam"
+      },
+      {
+        "name" : "Harmony S. Cen"
+      },
+      {
+        "name" : "Sophia I. Thomopoulos"
+      },
+      {
+        "name" : "John P. John"
+      },
+      {
+        "name" : "Mahir H. Khan"
+      },
+      {
+        "name" : "Sook-Lei Liew"
+      },
+      {
+        "name" : "Erik Kaestner"
+      },
+      {
+        "name" : "Carrie McDonald"
+      },
+      {
+        "name" : "Paul M. Thompson"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "eess.IV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.21923v1",
+    "title" : "Wrong Input, Wrong Threshold: Re-evaluating Adversarial Facial Privacy",
+    "summary" : "Published face-privacy methods report protection above 90% against black-box recognition models. That number comes from an evaluation protocol with two independent defects, reported in a measure that cannot size either one. The input is wrong: methods published since 2022 feed the network the whole photograph, or a detector's box, where deployed systems detect, align to a landmark template and crop. Re-scoring the same files through a realistic front end costs a standard transfer attack 56% of its dodging protection and a budget-allocating attack 7%, with no image regenerated. The measure is wrong: that loss is a difference of success rates, so it saturates, moving by 8.2x over a budget sweep while the effect beneath it moves by 1.34x. We therefore report the paired cosine shift, in which both thresholds cancel algebraically, so the input defect holds without committing to a calibration. Measured that way it is 2.2x and 10.7x larger on three unseen recognizers, and at matched budget it reverses the L-infinity transfer ranking: the one surveyed method that aligns at evaluation gains 0.18 where MI-FGSM loses 0.05. The cause is a resampling mismatch, not perturbation lost outside the crop; optimising through a differentiable alignment operator largely removes it, adding +24 to +58 points on unseen recognizers and a commercial system, with a residual on one of them. The thresholds are wrong: the four constants inherited since 2021 hold the false-accept rate near its nominal 1% on aligned crops but admit 2.3-5.4% on whole images, with an opposite-signed bias across dodging and impersonation, the two tasks reported side by side. Differentiable alignment and gallery scoring are not new: the first generation of this literature used both, and we show what dropping them cost.",
+    "updated" : "2026-11-16T21:37:45Z",
+    "published" : "2026-11-16T21:37:45Z",
+    "authors" : [
+      {
+        "name" : "Tunahan Parlayıcı"
+      },
+      {
+        "name" : "Erchan Aptoula"
+      },
+      {
+        "name" : "Yücel Saygın"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.21694v1",
+    "title" : "TIBECG: Temporal Information Bottleneck for Lead-Specific Demographic Privacy in ECG Waveform Release",
+    "summary" : "Transmitting an electrocardiogram (ECG) waveform can expose demographic information beyond an intended diagnostic task. We evaluate TIBECG, an architectural temporal information bottleneck, on individual leads extracted from hospital twelve-lead recordings. A 2,302,337-parameter processor varies its latent length while retaining the same nine-score consistency objective, without age or sex labels in protector fitting. Across 6,386 recordings, ten folds, 12 leads and 21 lengths, retrospective selections retained at least 95% of each lead's clean macro-F1. Their weaker age/sex interval gain exceeded the best eligible conventional transformation on all leads, by a median 22.08 percentage points. The implemented sampling-rate comparison shows that direct downsampling usually suppresses demographic inference more strongly but at a larger loss of diagnostic utility, whereas TIBECG favors utility preservation. Selection stability also varies by lead. Lower latent Kullback-Leibler (KL) divergence does not reliably rank residual sex leakage at a fixed length. These findings support lead-specific evaluation of waveform processing, not validated consumer deployment or expert-readable reconstruction. When the waveform-input diagnostic classifier is hosted as part of a proprietary cloud service rather than deployed on the device, waveform transmission is required to obtain its scores.",
+    "updated" : "2026-11-16T11:24:17Z",
+    "published" : "2026-11-16T11:24:17Z",
+    "authors" : [
+      {
+        "name" : "Tsai-Min Chen"
+      },
+      {
+        "name" : "Jun Seita"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "eess.SP"
+    ]
   }
 ]
