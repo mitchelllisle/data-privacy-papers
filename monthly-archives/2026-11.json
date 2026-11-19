@@ -1731,5 +1731,27 @@
       "cs.CR",
       "eess.SP"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.23551v1",
+    "title" : "Federated Differential Privacy with Batch Contamination",
+    "summary" : "We study mean estimation under federated differential privacy (FDP) constraints and batch contamination, considering both Gaussian and heavy-tailed distributions. In the homogeneous setting, where sample sizes and privacy budgets are constant across servers, we show that the costs of privacy and contamination disentangle. Under a bounded $v$th moment condition, with $v \\in (1, \\infty)$, the cost of batch contamination is of order $(\\varepsilon/n)^{2-2/v}\\vee \\varepsilon^2/n$, where $\\varepsilon$ is the contamination level and $n$ is the per-batch sample size. This reveals a phase transition at $\\varepsilon\\asymp n^{1-v/2}$, for $v > 2$, which is the first of its kind in the literature. We develop a two-stage procedure that achieves the minimax rate up to poly-logarithmic factors. A key component is a private smoothed voting procedure tailored to the FDP setting that provides optimal sensitivity control. For heterogeneous batch sample sizes and privacy budgets, we introduce a batch partitioning framework that groups batches with comparable per-batch sample sizes and privacy budgets. Surprisingly, the minimax rate is determined, up to poly-logarithmic factors, by the most informative group of batches. Consequently, in some regimes, it is minimax optimal to use only an arbitrarily small proportion of the data set. Heterogeneity also introduces interactions between the costs of privacy and contamination, in contrast to their disentanglement in the homogeneous setting. For unknown contamination level, we propose an adaptive, near-minimax optimal Lepski-type extension for the heterogeneous Gaussian setting, designed specifically to prevent privacy leakage by ensuring no repeated use of data points.",
+    "updated" : "2026-11-17T21:59:00Z",
+    "published" : "2026-11-17T21:59:00Z",
+    "authors" : [
+      {
+        "name" : "Jason K. C. Ng"
+      },
+      {
+        "name" : "Thomas B. Berrett"
+      },
+      {
+        "name" : "Yi Yu"
+      }
+    ],
+    "categories" : [
+      "math.ST",
+      "stat.ME"
+    ]
   }
 ]
