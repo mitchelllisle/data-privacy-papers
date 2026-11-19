@@ -446,20 +446,20 @@
 </div>
 
 
+
+<h2>2026-11</h2>
+
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.32822v2">On the Limits of Sparse Linear Model with Shuffled Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-10-23T15:56:19Z</p>
+  <h3><a href="http://arxiv.org/abs/2611.23551v1">Federated Differential Privacy with Batch Contamination</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36"> 
+  <p><b>Published on:</b> 2026-11-17T21:59:00Z</p>
   <details>
     <summary>More Details</summary>
-    <p><b>Authors:</b> Yan Zhang, Jiong Tuo, Meng Ding, Yuheng Ma, Di Wang</p>
-    <p><b>Summary:</b> Sparse linear regression is a fundamental problem in high-dimensional statistics, and its private counterparts leave a large gap between the central and the local model of differential privacy. Shuffled differential privacy (SDP) sits between the two, offering accuracy closer to the central model without the trust requirement of a central curator. This paper studies sparse linear regression under both non-interactive and interactive SDP protocols. In the non-interactive setting, any non-interactive $(ε,δ)$-SDP protocol is shown to incur an $\ell_2$-norm estimation error of $Ω( \frac{\sqrt{dk}}{nε} )$ with dimension $d$, sparsity $k$, and $n$ users, revealing an inherent dimensionality barrier. In addition, a non-interactive algorithm is proposed that achieves an $\ell_2$-norm upper bound of $\tilde{\mathcal{O}}( \sqrt{\frac{k}{n}} + \frac{d\sqrt{k}}{nε})$. To overcome this barrier, we turn to the interactive user-level setting, where each user holds $m$ samples. A two-round interactive algorithm is developed that first recovers the support through a heavy hitter step and then estimates the parameter, achieving an error of $\tilde{\mathcal{O}}( \sqrt{\frac{k}{nm}} + \frac{k}{n\sqrt{m}ε} )$ with no polynomial dependence on $d$. Furthermore, by extending the score attack framework to user-level data, a new lower bound $Ω( \sqrt{\frac{k\log(d/k)}{nm}} + \frac{k\log(d/k)}{n\sqrt{m}ε} )$ is established for any user-level $(ε,δ)$-DP, showing that the proposed algorithm is near-optimal with only a gap of the factor $\log(d/k)$.</p>
+    <p><b>Authors:</b> Jason K. C. Ng, Thomas B. Berrett, Yi Yu</p>
+    <p><b>Summary:</b> We study mean estimation under federated differential privacy (FDP) constraints and batch contamination, considering both Gaussian and heavy-tailed distributions. In the homogeneous setting, where sample sizes and privacy budgets are constant across servers, we show that the costs of privacy and contamination disentangle. Under a bounded $v$th moment condition, with $v \in (1, \infty)$, the cost of batch contamination is of order $(\varepsilon/n)^{2-2/v}\vee \varepsilon^2/n$, where $\varepsilon$ is the contamination level and $n$ is the per-batch sample size. This reveals a phase transition at $\varepsilon\asymp n^{1-v/2}$, for $v > 2$, which is the first of its kind in the literature. We develop a two-stage procedure that achieves the minimax rate up to poly-logarithmic factors. A key component is a private smoothed voting procedure tailored to the FDP setting that provides optimal sensitivity control. For heterogeneous batch sample sizes and privacy budgets, we introduce a batch partitioning framework that groups batches with comparable per-batch sample sizes and privacy budgets. Surprisingly, the minimax rate is determined, up to poly-logarithmic factors, by the most informative group of batches. Consequently, in some regimes, it is minimax optimal to use only an arbitrarily small proportion of the data set. Heterogeneity also introduces interactions between the costs of privacy and contamination, in contrast to their disentanglement in the homogeneous setting. For unknown contamination level, we propose an adaptive, near-minimax optimal Lepski-type extension for the heterogeneous Gaussian setting, designed specifically to prevent privacy leakage by ensuring no repeated use of data points.</p>
   </details>
 </div>
 
-
-
-<h2>2026-11</h2>
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2611.22223v1">GapLeak: When Privacy-Preserving LLM-based Web Agents Become a Privacy Risk</a></h3>
