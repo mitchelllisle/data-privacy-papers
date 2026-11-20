@@ -1753,5 +1753,105 @@
       "math.ST",
       "stat.ME"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.25800v1",
+    "title" : "Personalized Privacy-Aware MARL Offloading in the Edge-Cloud Continuum",
+    "summary" : "Task offloading in End-Edge-Cloud computing enables resource-constrained User Devices (UDs) to execute computation-intensive applications with reduced latency and energy consumption. However, existing task offloading schemes generally overlook the heterogeneous privacy requirements of users, leading to inefficient privacy-aware offloading decisions. In this paper, we propose a personalized privacy-aware task offloading framework, where the privacy requirement of each task is quantified through a User-Centric Privacy (UCP) model that considers task sensitivity, user privacy preferences, and task urgency. The task offloading problem is formulated as a Markov Decision Process (MDP) to jointly optimize the offloading ratio and the target computing server while minimizing the long-term system cost under latency, energy, and privacy constraints. To efficiently solve the resulting high-dimensional continuous optimization problem, we develop an Advantage-Weighted Actor-Critic (AWAC)-enhanced Proximal Policy Optimization (PPO)-based Multi-Agent Reinforcement Learning (MARL) algorithm under the Centralized Training and Decentralized Execution (CTDE) paradigm. Simulation results demonstrate that the proposed framework achieves lower average system cost, lower energy consumption, and higher task success rate than representative baselines under diverse privacy requirements.",
+    "updated" : "2026-11-19T09:24:59Z",
+    "published" : "2026-11-19T09:24:59Z",
+    "authors" : [
+      {
+        "name" : "Muhammad Rafid"
+      },
+      {
+        "name" : "Golshan Famitafreshi"
+      },
+      {
+        "name" : "Kostas Ramantas"
+      },
+      {
+        "name" : "Luis Alonso"
+      },
+      {
+        "name" : "Christos Verikoukis"
+      }
+    ],
+    "categories" : [
+      "eess.SP"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.25775v1",
+    "title" : "Entanglement-Assisted Quantum Differential Privacy",
+    "summary" : "Differential privacy has been successfully extended to quantum computing and information processing, where sensitive data are encoded in quantum states and protected by quantum noise mechanisms that keep the outcomes of any measurement on neighboring states nearly indistinguishable. In the quantum setting, however, the state submitted to a quantum computer may be entangled with a hidden reference system secretly held by an adversary. Such entanglement cannot be detected from the submitted state alone, and it poses a challenge with no counterpart in the classical setting. Existing frameworks of quantum differential privacy consider only measurements on the released state, leaving this scenario largely unexplored.\n  In this paper, we identify the entanglement attack: an adversary submits one half of an entangled state to a quantum computer that runs a privacy mechanism, keeps the other half, and finally measures both halves jointly. We show that this attack may completely break a mechanism that satisfies quantum differential privacy with a finite parameter, driving its privacy parameter to infinity. To counter it, we propose entanglement-assisted quantum differential privacy (EA-QDP), a privacy framework that is native to quantum entanglement and remains valid against such attacks. We characterize exactly when a mechanism has a finite EA-QDP parameter, and show that the optimal parameter $\\varepsilon^*_{\\mathrm{EA}}$ of any quantum mechanism can be computed by a semidefinite programming problem (SDP). Building on this, we quantify the extra privacy leakage caused by entanglement and show that it can be bounded by choosing appropriate mechanisms, with the depolarizing channel being our recommended choice. Finally, we demonstrate both the attack and its countermeasure on simulated and physical quantum hardware, and the experimental results agree with our theoretical predictions.",
+    "updated" : "2026-11-19T09:10:09Z",
+    "published" : "2026-11-19T09:10:09Z",
+    "authors" : [
+      {
+        "name" : "Chenjian Li"
+      },
+      {
+        "name" : "Ji Guan"
+      },
+      {
+        "name" : "Mingsheng Ying"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.25425v1",
+    "title" : "Instance-Optimal Moment Estimation in the Add-Remove Model of Differential Privacy",
+    "summary" : "In this paper, we study the problem of estimating empirical means, variances, and covariances under pure differential privacy in the add-remove model. While existing mechanisms achieve optimal worst-case error, they may not be optimal for individual datasets. To measure the performance of mechanisms on individual datasets, we introduce instance-dependent error metrics and prove sharp lower bounds on them. Then, we design mechanisms that achieve these lower bounds and demonstrate that they achieve asymptotically better utility compared to existing methods.",
+    "updated" : "2026-11-19T03:06:27Z",
+    "published" : "2026-11-19T03:06:27Z",
+    "authors" : [
+      {
+        "name" : "Shokichi Takakura"
+      }
+    ],
+    "categories" : [
+      "stat.ML",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.25374v1",
+    "title" : "Efficient Privacy-Preserving High-Dimensional Approximate Nearest Neighbor Search",
+    "summary" : "In the AI era, approximate nearest neighbor (ANN) search on vector databases is critical as it supports similarity retrieval over high-dimensional vectors, which is essential for many large language model (LLM) applications. To reduce costs and improve scalability, vector databases are often outsourced to cloud servers, raising privacy concerns for users whose query vectors contain sensitive information. In this work, we study the problem of asymmetric privacy-preserving ANN search, where the vector database is public but user queries must remain private from an untrusted cloud server. To solve this problem, we propose ObliSC, an efficient privacy-preserving search framework that protects query privacy against access-pattern leakage. ObliSC consists of (i) a search base that retrieves ANNs with a strong privacy guarantee of full obliviousness; and (ii) parallel optimization strategies that accelerate candidate retrieval and refinement while preserving full obliviousness and retrieval quality. Experiments on six standard ANN benchmarks show that ObliSC not only achieves efficiency and result quality competitive with baseline methods but also maintains a lightweight index compared with the evaluated privacy-preserving approaches.",
+    "updated" : "2026-11-19T02:13:01Z",
+    "published" : "2026-11-19T02:13:01Z",
+    "authors" : [
+      {
+        "name" : "Lyu Xu"
+      },
+      {
+        "name" : "Guozhong Li"
+      },
+      {
+        "name" : "Qichen Wang"
+      }
+    ],
+    "categories" : [
+      "cs.DS"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.25063v1",
+    "title" : "Functional Estimation under Local Differential Privacy: General Lower Bounds and Applications to Entropy and Power Sums",
+    "summary" : "We study the estimation of functionals of discrete distributions under local differential privacy (LDP). Even for well-studied examples like Shannon entropy and power sums, the existing bounds left open how the minimax risk scales with the alphabet size, the sample size, and the privacy parameter. To understand these dependences, we establish two general minimax lower bounds for the broader class of additive functionals. The first lower bound links the difficulty of estimating a functional to how well it can be approximated by polynomials of a given degree. The second complements the first by capturing how sensitive the functional is to small changes in the underlying distribution. To illustrate the effectiveness of these two bounds, we apply them to the estimation of Shannon entropy and power sums. In both cases, they close the existing polynomial gaps and, perhaps surprisingly, show that simple plug-in type estimators already achieve the optimal polynomial rates.",
+    "updated" : "2026-11-18T19:08:20Z",
+    "published" : "2026-11-18T19:08:20Z",
+    "authors" : [
+      {
+        "name" : "Yann Issartel"
+      }
+    ],
+    "categories" : [
+      "math.ST"
+    ]
   }
 ]
