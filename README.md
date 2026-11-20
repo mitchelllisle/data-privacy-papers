@@ -386,68 +386,69 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.35729v1">A Category-Selective Encryption Framework for Privacy Protection of UAV Images</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-10-26T16:46:17Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Ting Yan, Minghui Shang, Haolang Sun, Xu Wang, Yamin Han, Mingze He</p>
-    <p><b>Summary:</b> Imagery captured by unmanned aerial vehicle (UAV) systems increasingly raises privacy concerns, as UAV aerial surveillance routinely captures sensitive objects such as pedestrians and vehicles alongside ordinary scene content. Existing privacy-preserving approaches typically employ class-agnostic saliency detection to indiscriminately obfuscate all visually salient regions, leading to unnecessary information loss and hindering downstream scene analysis. This paper proposes a category-selective encryption framework for privacy-preserving UAV surveillance. The core advance over prior class-agnostic approaches is semantic-level selectivity: the system first recognizes what is present in the scene via an 80-class detector, then encrypts only user-specified sensitive categories while leaving non-sensitive objects and background intact for downstream analytics. The framework supports two complementary encryption schemes: Thumbnail-Preserving Encryption (TPE), which applies adaptive pixelation with a learnable blend parameter and recovers content through a jointly trained Enhanced U-Net, and XOR stream cipher encryption, which offers parameter-free, mathematically exact reversibility. The architectural design, composite loss formulation, and joint training methodology are presented in detail, establishing a foundation for practical privacy-preserving UAV surveillance that balances protection strength and scene utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.34640v1">InferPriv: Evaluating Inferential Privacy Leakage in LLM Assistants</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-25T23:51:50Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Pengrun Huang, Yiwei Fu, Luoxi Meng, Kamalika Chaudhuri</p>
-    <p><b>Summary:</b> Large language model (LLM)-based personal agents are increasingly deployed to handle everyday tasks on users' behalf. These agents have access to private user information, while their tasks involve communicating with third parties; this raises a critical privacy concern that agents may inappropriately reveal sensitive user information to these recipients. Existing benchmarks primarily assess direct privacy leakage, where an agent explicitly states a pre-specified secret or attribute. However, they do not capture \textit{inferential leakage}, where the model leaves indirect cues in the reply that implicitly leaks sensitive attributes. We introduce \textsc{InferPriv}, a benchmark that measures whether an honest-but-curious recipient can infer a user's sensitive attributes from an LLM's reply on routine task. Evaluating five frontier models, we find that inferential leakage substantially exceeds direct leakage across models and prompts. Under a privacy-aware system prompt, GPT-6.1-Sol, Sonnet-5.5, and Gemini-3.8-Flash achieve near-zero direct leakage, yet the inferential leakage rate remains between 16.2--25.2\%. These findings suggest that evaluating explicit leakage alone can substantially understate the privacy risks.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.34130v1">StickFigure: Enabling Pose-Only IoT Cameras for Privacy-Preserving Edge Vision</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-10-25T07:58:48Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Aveline Xiaoyuan Han, Chenshu Wu</p>
-    <p><b>Summary:</b> Indoor IoT cameras can support assisted living and activity-aware spaces, but exporting raw RGB frames raises privacy concerns by exposing facial, clothing, and household details that body-motion tasks often do not require. We present StickFigure, a pose-only IoT camera system that, during real-time monitoring, keeps raw frames local and ephemeral while exporting only compact skeleton streams sufficient for downstream human activity recognition (HAR). While pose estimation has matured on GPUs, extracting accurate pose streams on resource-constrained IoT cameras remains difficult. To overcome these challenges and enable on-device pose streams on (almost) any IoT camera, we present two core designs in StickFigure: an activation-aware pose backbone that allocates channel capacity after spatial downsampling and a lightweight hierarchical MLP refiner that selectively corrects elbow and wrist coordinates using intermediate visual features and kinematic context. We fully implement StickFigure and evaluate it on public benchmarks and real-world deployment. Compared with state-of-the-art MCU pose models, StickFigure achieves the highest pose accuracy and downstream HAR utility on both NTU RGB+D and Penn Action, while using 96.5% fewer parameters and 99.3% fewer MACs per frame than RTMPose-S-based baselines, achieving 0.107 s p95 latency on a representative STM32H753 MCU. We believe StickFigure establishes a new operating point for privacy-aware edge vision on massive IoT cameras.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.33712v1">Projection-Based Federated Learning on Compact Submanifolds with Geometry-Independent Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-10-24T14:52:22Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Thibault Pautrel, Florent Bouchard, Guillaume Ginolhac, Ammar Mian, Aurélien Bellet</p>
-    <p><b>Summary:</b> Federated learning trains a shared model across clients without exchanging their data, yet the updates they transmit still leak information about individual records. Enforcing differential privacy is harder still when the model parameters lie on a Riemannian manifold. Existing methods rebuild the noise added for privacy in the geometry of each new iterate, aggregate through intrinsic maps that often lack a closed form, and prove convergence only in restricted regimes. We introduce DP-RFedProj, a record-level differentially private federated learning method for compact submanifolds that aggregates through closed-form projections and privatises gradients in a fixed ambient geometry. Each client may run any stochastic first-order optimiser, take several local steps, and participate only intermittently. An explicit record-level $f$-DP guarantee holds for the entire training transcript, independently of the manifold, the aggregation scheme and the local optimiser. We establish convergence of DP-RFedProj when each client runs Riemannian SGD locally and the server aggregates by projected averaging, and show that privacy enters the rate through a term scaling with the manifold's intrinsic dimension rather than the ambient one. Synthetic experiments on federated PCA over the Grassmann manifold corroborate these findings. On EEG motor-imagery classification with SPDNet, whose weights lie on the Stiefel manifold, the method outperforms a Euclidean baseline at every privacy budget considered. In both experimental settings, our accounting requires five to six times less noise than that of the closest prior method for the same budget, which translates into higher utility.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.33206v1">A-GE: Privacy-Preserving Age Assurance via Fine-Grained Motion</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-23T18:52:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mohammed Gharib, Giovanni Cascone, Martin Zizi</p>
-    <p><b>Summary:</b> Age assurance faces a fundamental privacy dilemma: meaningful assurance typically requires revealing identity or other sensitive information, whereas privacy-preserving alternatives often provide little assurance. Existing approaches either disclose sensitive information directly or shift the disclosure and trust requirement to an identity provider, while self-declared age provides little meaningful assurance. Thus, a fundamental gap remains between establishing an age property and revealing information beyond what is necessary to establish that property. We present \textit{A-GE} (Age-Grounded Evidence), a privacy-preserving age assurance system that derives age-related evidence from fine-grained motion captured by commodity inertial measurement units (IMUs). A-GE exploits subtle motion dynamics that we hypothesize reflect underlying neuromuscular and physiological processes during ordinary device interaction. It requires neither identity information nor government identification and operates across available sensor sampling rates, including the approximately 60~Hz limit of web-based sensing, with configurable minimum-age thresholds ranging from 14 to 21 years. We evaluate A-GE on more than 600 participants, with separate participant-disjoint cohorts for model development and final evaluation. At a 16-year minimum-age threshold, A-GE achieves up to 93.8\% accuracy with a comparable F1 score across the evaluated configurations. We further demonstrate client-side deployment on Android, iOS, and the web, and examine unintended attribute inference and residual privacy risks, characterizing both the privacy benefits and limitations of deriving age evidence from commodity motion.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.25800v1">Personalized Privacy-Aware MARL Offloading in the Edge-Cloud Continuum</a></h3>
+  
+  <p><b>Published on:</b> 2026-11-19T09:24:59Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Muhammad Rafid, Golshan Famitafreshi, Kostas Ramantas, Luis Alonso, Christos Verikoukis</p>
+    <p><b>Summary:</b> Task offloading in End-Edge-Cloud computing enables resource-constrained User Devices (UDs) to execute computation-intensive applications with reduced latency and energy consumption. However, existing task offloading schemes generally overlook the heterogeneous privacy requirements of users, leading to inefficient privacy-aware offloading decisions. In this paper, we propose a personalized privacy-aware task offloading framework, where the privacy requirement of each task is quantified through a User-Centric Privacy (UCP) model that considers task sensitivity, user privacy preferences, and task urgency. The task offloading problem is formulated as a Markov Decision Process (MDP) to jointly optimize the offloading ratio and the target computing server while minimizing the long-term system cost under latency, energy, and privacy constraints. To efficiently solve the resulting high-dimensional continuous optimization problem, we develop an Advantage-Weighted Actor-Critic (AWAC)-enhanced Proximal Policy Optimization (PPO)-based Multi-Agent Reinforcement Learning (MARL) algorithm under the Centralized Training and Decentralized Execution (CTDE) paradigm. Simulation results demonstrate that the proposed framework achieves lower average system cost, lower energy consumption, and higher task success rate than representative baselines under diverse privacy requirements.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.25775v1">Entanglement-Assisted Quantum Differential Privacy</a></h3>
+  
+  <p><b>Published on:</b> 2026-11-19T09:10:09Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Chenjian Li, Ji Guan, Mingsheng Ying</p>
+    <p><b>Summary:</b> Differential privacy has been successfully extended to quantum computing and information processing, where sensitive data are encoded in quantum states and protected by quantum noise mechanisms that keep the outcomes of any measurement on neighboring states nearly indistinguishable. In the quantum setting, however, the state submitted to a quantum computer may be entangled with a hidden reference system secretly held by an adversary. Such entanglement cannot be detected from the submitted state alone, and it poses a challenge with no counterpart in the classical setting. Existing frameworks of quantum differential privacy consider only measurements on the released state, leaving this scenario largely unexplored.
+  In this paper, we identify the entanglement attack: an adversary submits one half of an entangled state to a quantum computer that runs a privacy mechanism, keeps the other half, and finally measures both halves jointly. We show that this attack may completely break a mechanism that satisfies quantum differential privacy with a finite parameter, driving its privacy parameter to infinity. To counter it, we propose entanglement-assisted quantum differential privacy (EA-QDP), a privacy framework that is native to quantum entanglement and remains valid against such attacks. We characterize exactly when a mechanism has a finite EA-QDP parameter, and show that the optimal parameter $\varepsilon^*_{\mathrm{EA}}$ of any quantum mechanism can be computed by a semidefinite programming problem (SDP). Building on this, we quantify the extra privacy leakage caused by entanglement and show that it can be bounded by choosing appropriate mechanisms, with the depolarizing channel being our recommended choice. Finally, we demonstrate both the attack and its countermeasure on simulated and physical quantum hardware, and the experimental results agree with our theoretical predictions.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.25425v1">Instance-Optimal Moment Estimation in the Add-Remove Model of Differential Privacy</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-11-19T03:06:27Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shokichi Takakura</p>
+    <p><b>Summary:</b> In this paper, we study the problem of estimating empirical means, variances, and covariances under pure differential privacy in the add-remove model. While existing mechanisms achieve optimal worst-case error, they may not be optimal for individual datasets. To measure the performance of mechanisms on individual datasets, we introduce instance-dependent error metrics and prove sharp lower bounds on them. Then, we design mechanisms that achieve these lower bounds and demonstrate that they achieve asymptotically better utility compared to existing methods.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.25374v1">Efficient Privacy-Preserving High-Dimensional Approximate Nearest Neighbor Search</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
+  <p><b>Published on:</b> 2026-11-19T02:13:01Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Lyu Xu, Guozhong Li, Qichen Wang</p>
+    <p><b>Summary:</b> In the AI era, approximate nearest neighbor (ANN) search on vector databases is critical as it supports similarity retrieval over high-dimensional vectors, which is essential for many large language model (LLM) applications. To reduce costs and improve scalability, vector databases are often outsourced to cloud servers, raising privacy concerns for users whose query vectors contain sensitive information. In this work, we study the problem of asymmetric privacy-preserving ANN search, where the vector database is public but user queries must remain private from an untrusted cloud server. To solve this problem, we propose ObliSC, an efficient privacy-preserving search framework that protects query privacy against access-pattern leakage. ObliSC consists of (i) a search base that retrieves ANNs with a strong privacy guarantee of full obliviousness; and (ii) parallel optimization strategies that accelerate candidate retrieval and refinement while preserving full obliviousness and retrieval quality. Experiments on six standard ANN benchmarks show that ObliSC not only achieves efficiency and result quality competitive with baseline methods but also maintains a lightweight index compared with the evaluated privacy-preserving approaches.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.25063v1">Functional Estimation under Local Differential Privacy: General Lower Bounds and Applications to Entropy and Power Sums</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
+  <p><b>Published on:</b> 2026-11-18T19:08:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Yann Issartel</p>
+    <p><b>Summary:</b> We study the estimation of functionals of discrete distributions under local differential privacy (LDP). Even for well-studied examples like Shannon entropy and power sums, the existing bounds left open how the minimax risk scales with the alphabet size, the sample size, and the privacy parameter. To understand these dependences, we establish two general minimax lower bounds for the broader class of additive functionals. The first lower bound links the difficulty of estimating a functional to how well it can be approximated by polynomials of a given degree. The second complements the first by capturing how sensitive the functional is to small changes in the underlying distribution. To illustrate the effectiveness of these two bounds, we apply them to the estimation of Shannon entropy and power sums. In both cases, they close the existing polynomial gaps and, perhaps surprisingly, show that simple plug-in type estimators already achieve the optimal polynomial rates.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2611.23551v1">Federated Differential Privacy with Batch Contamination</a></h3>
