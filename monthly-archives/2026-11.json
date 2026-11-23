@@ -1853,5 +1853,180 @@
     "categories" : [
       "math.ST"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.27340v1",
+    "title" : "CoGITAtion: Collaborative Gaze-based Interpretable Task-adaptive Representation for Privacy-sensitive Applications",
+    "summary" : "Gaze-based analysis provides rich behavioural information for privacy-sensitive applications, but deployment is challenged by heterogeneous, scarce, and distributed data. We present CoGITAtion (Collaborative Gaze-based Interpretable Task-Adaptive Representation), a framework for privacy-preserving inference over vertically distributed gaze data. CoGITAtion transforms variable-length gaze recordings into compact, interpretable gaze-transition graphs and descriptors computed locally by each data owner. Task-adaptive models accommodate heterogeneous and missing feature blocks through task and availability gating, avoiding unnecessary private computation. Results show that shared components capture patterns that generalise across tasks, while task-specific components provide capacity without increasing model size. Public availability gating further reduces encrypted computation by removing branches determined by publicly known task and owner availability without altering predictions. Overall, CoGITAtion enables gaze model reuse, efficient privacy-preserving deployment, and robust inference under incomplete owner availability while retaining interpretable gaze representations.",
+    "updated" : "2026-11-20T09:14:51Z",
+    "published" : "2026-11-20T09:14:51Z",
+    "authors" : [
+      {
+        "name" : "Mayar Elfares"
+      },
+      {
+        "name" : "Yasmine Elfares"
+      },
+      {
+        "name" : "Andreas Bulling"
+      }
+    ],
+    "categories" : [
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.27114v1",
+    "title" : "Federated and Balanced $k$-means: Communication Efficiency, Privacy, and Heterogeneity",
+    "summary" : "Collaborating on data across organizations in healthcare and finance demands methods that preserve privacy while enabling effective analysis. Vertical Federated Learning (VFL) facilitates clustering across data where different parties hold different features of the same entities without sharing raw data. However, existing VFL clustering methods suffer from two key limitations: vulnerability to information leakage and the creation of imbalanced clusters. To address these limitations, we propose Fabric, a balanced and privacy-preserving federated $k$-means algorithm. Our method decomposes the balanced clustering problem into independent subproblems for each client, using the Alternating Direction Method of Multipliers (ADMM) to efficiently handle the balance constraints. Under the semi-honest model, Fabric provides provable privacy guarantees by injecting calibrated noise into local objective evaluations. Extensive evaluations on ten real-world datasets show that Fabric achieves a superior utility-privacy trade-off compared with state-of-the-art methods and converges faster. Specifically, Fabric reduces SSE by 29.1\\% on average and improves balance performance by 1.41$\\times$, while being 26$\\times$ faster on average.",
+    "updated" : "2026-11-20T04:39:23Z",
+    "published" : "2026-11-20T04:39:23Z",
+    "authors" : [
+      {
+        "name" : "Feiteng Nie"
+      },
+      {
+        "name" : "Shengkun Zhu"
+      },
+      {
+        "name" : "Sheng Wang"
+      },
+      {
+        "name" : "Yuan Sun"
+      },
+      {
+        "name" : "Feiping Nie"
+      },
+      {
+        "name" : "Wei Song"
+      },
+      {
+        "name" : "Zhiyong Peng"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.DB"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.27046v1",
+    "title" : "Actions Speak Louder than Words: Stateful Privacy Sniffing of LLM Agents via Behavioral Covert Channels in Web Interactions",
+    "summary" : "LLM agents increasingly rely on Web interaction, issuing searches, following links, and reading pages, to complete complex user tasks. Since each action is driven by the agent's private context, including the user's prompt, dialogue history, memory, and connected data, it also opens a new privacy exposure surface. Prior attacks either passively analyze network traffic, which yields only coarse correlations, or hijack the agent through indirect prompt injection, which must place sensitive content in an outgoing field and is blocked by content-level defenses. Whether an attacker can actively recover fine-grained private context without any explicit transmission thus remains insufficiently understood.\n  Our insight is that an agent's benign Web decisions themselves leak private context, as what it chooses to visit encodes whether, which, and in what order it acts, forming a behavioral covert channel. Building on this, we design SNOOP, a stateful hierarchical probing framework that narrows a coarse-to-fine hypothesis tree per task and reconstructs user queries and profiles from the agent's observable paths. Across four agents and three LLM backbones on 500 StackExchange queries and 378 multi-turn iKAT dialogues, SNOOP recovers query concepts with an average F1 of 0.89 and user profiles with an F1 of 0.80, while four representative agent defenses change its recovery by less than 0.03 F1. Since no sensitive content is ever transmitted, content-level inspection cannot detect this leakage; we therefore propose Selection-Obfuscated Retrieval (SOR), which acquires resources under a fixed budget independent of private context and confines the agent's selection to a local snapshot, cutting SNOOP's F1 to 0.39 without additional LLM inference.",
+    "updated" : "2026-11-20T03:17:51Z",
+    "published" : "2026-11-20T03:17:51Z",
+    "authors" : [
+      {
+        "name" : "Ruichao Liang"
+      },
+      {
+        "name" : "Wenzhong Deng"
+      },
+      {
+        "name" : "Jing Chen"
+      },
+      {
+        "name" : "Yuqing Li"
+      },
+      {
+        "name" : "Kaixuan Li"
+      },
+      {
+        "name" : "Cong Wu"
+      },
+      {
+        "name" : "Yang Liu"
+      }
+    ],
+    "categories" : [
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.26983v1",
+    "title" : "Privacy Protection in Self-Evolving Personal Agents: Persistent Memory and Cross-Carrier Transfer",
+    "summary" : "Personal agents carry private experience into later decisions through persistent memory. This thematic survey compares memory admission, maintenance, release, and withdrawal by protected change, observer, and validation setting. Direct evidence in the screened corpus comes from controlled memory workflows. Three worked scenarios follow one private fact through booking, feedback-driven learning, and withdrawal. We show when prompt revision and memory reads compose, when skills inherit a private head's bound, and why reader non-use does not establish cleanup of learned state. Diagnostic experiments measure the utility costs of wider label protection and broad memory deletion, and test how missing lineage obscures descendants.",
+    "updated" : "2026-11-20T02:03:15Z",
+    "published" : "2026-11-20T02:03:15Z",
+    "authors" : [
+      {
+        "name" : "Zibin Lin"
+      },
+      {
+        "name" : "Taotao Wang"
+      },
+      {
+        "name" : "Shengli Zhang"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.26936v1",
+    "title" : "SecretAgent: A Multi-Agent Framework for Privacy Protection against Vision Language Models",
+    "summary" : "Vision-language models (VLMs) can infer private information from shared images, including locations, personally identifiable information (PII), and personal attributes such as age and sex, even from medical images. Adversarial perturbations can protect such information against black-box VLMs, but existing methods overlook image quality and introduce visible artifacts into the images they protect. We present SecretAgent, the first general multi-agent framework that protects image privacy against VLMs while preserving visual fidelity. LLM agents iteratively locate the visual evidence that reveals private information and adapt an invisible perturbation to the target VLM's answers and to an appearance reviewer agent, which rejects any candidate with visible artifacts. We instantiate SecretAgent with two complementary variants: SecretAgent-Gradient optimizes the perturbation through six surrogate encoders for cross-model transferability, and the gradient-free SecretAgent-Tool composes procedural noise and achieves the best perceptual fidelity on three of the five datasets. Experiments on four privacy applications (geolocation, PII, facial, and medical) across five datasets and six VLMs show that SecretAgent preserves image quality substantially better than existing methods while achieving state-of-the-art privacy protection in every application, and that its protection transfers to other VLMs.",
+    "updated" : "2026-11-20T00:46:20Z",
+    "published" : "2026-11-20T00:46:20Z",
+    "authors" : [
+      {
+        "name" : "Minda Zhao"
+      },
+      {
+        "name" : "Yue Zhang"
+      },
+      {
+        "name" : "Mengyu Wang"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG",
+      "cs.MA"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.26747v1",
+    "title" : "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
+    "summary" : "Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive attributes, retain unnecessary information, or disclose data to unexpected recipients. We study these potential privacy-of-use harms through SkillPrivus, a static audit framework that analyzes skills before installation without executing them. SkillPrivus extracts data operations from code and natural-language instructions, grounds them in source evidence, and adapts Contextual Integrity to assess their appropriateness. Applied to 726 real skills from public marketplaces, 563 of which handle personal data, SkillPrivus flags at least one potential violation in 307 of these skills (54.5%), and its judgments agree with three blind human annotators on 83.2% of resolvable moves. The flagged behaviors include sensitive inferences, information use beyond the stated task, and disclosures to unexpected recipients, suggesting that privacy harms can arise from ordinary skill functionality.",
+    "updated" : "2026-11-19T19:43:43Z",
+    "published" : "2026-11-19T19:43:43Z",
+    "authors" : [
+      {
+        "name" : "Mariana Fernandez-Espinosa"
+      },
+      {
+        "name" : "Ivoline Ngong"
+      },
+      {
+        "name" : "Keerthiram Murugesan"
+      },
+      {
+        "name" : "Karthikeyan Natesan Ramamurthy"
+      }
+    ],
+    "categories" : [
+      "cs.CL"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.26709v1",
+    "title" : "Federated KPI Aggregation with Local Privacy Constraints and Coordinated OLAP Roll-Ups",
+    "summary" : "Cross-organizational KPI analysis can require aggregated results from independently administered data warehouses without centralizing detailed records. To limit disclosure from small local groups, a site can require a minimum number of contributing records before releasing a KPI value for a group. If each site applies this rule independently, different local contributions may be suppressed and the combined KPI can become incomplete. This paper investigates whether OLAP granularity can be coordinated before local query results are released so that all sites satisfy their local minimum-cohort rules and contribute at the same analytical level. The proposed method selects the least-generalized common roll-up accepted by every site. Site agents coordinate current capabilities and approved local execution across independently administered sites, with privacy checks and aggregate computation remaining deterministic local functions. In a four-site prototype, coordinated roll-up retained all contributions and reproduced the corresponding centralized result, compared with 78.3% retained under independent suppression. A capability-change experiment showed fewer candidate checks and replies and no unsupported requests when current site-agent state was used. The results demonstrate the feasibility of federated KPI aggregation under local privacy constraints through coordinated granularity selection and agent-based coordination.",
+    "updated" : "2026-11-19T19:09:11Z",
+    "published" : "2026-11-19T19:09:11Z",
+    "authors" : [
+      {
+        "name" : "Felix Härer"
+      }
+    ],
+    "categories" : [
+      "cs.DB",
+      "cs.MA"
+    ]
   }
 ]
