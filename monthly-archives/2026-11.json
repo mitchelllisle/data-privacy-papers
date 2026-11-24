@@ -2028,5 +2028,314 @@
       "cs.DB",
       "cs.MA"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.31208v1",
+    "title" : "Matching Under Metric Privacy",
+    "summary" : "We study how to represent and randomize points in $d$-dimensional Euclidean space to obtain accurate bipartite matchings under metric privacy. Given $n$ private and $n$ public points, we analyze local mechanisms that randomize each private point or its distances to the public points. Using the public points' affine span, we construct a smaller representation that preserves all matching costs. When a trusted server receives the private points, we establish privacy and utility guarantees for Gumbel matching, which randomizes edge costs and releases only the assignment. Through upper bounds and worst-case constructions, we establish the tight rate $Θ\\!\\left(n\\min\\{d,\\log n\\}/\\varepsilon\\right)$ for expected cost above the nonprivate optimum. Benchmark experiments support $d\\approx\\log n$ as a practical guide to the transition between directly randomizing point coordinates and using Gumbel matching. Extensions to squared Euclidean costs enable private nonparametric two-sample hypothesis testing. These results show how the application's trust model guides representation and dimension choices for better utility: under local privacy, low-dimensional point representations reduce excess cost, while under central privacy, distance representations achieve the optimal rate even in high dimension.",
+    "updated" : "2026-11-23T18:53:25Z",
+    "published" : "2026-11-23T18:53:25Z",
+    "authors" : [
+      {
+        "name" : "Hongyi B. Hu"
+      },
+      {
+        "name" : "Dung Nguyen"
+      },
+      {
+        "name" : "M. Amin Rahimian"
+      }
+    ],
+    "categories" : [
+      "cs.LG",
+      "cs.CR",
+      "cs.SI",
+      "math.PR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.31122v1",
+    "title" : "The Privacy Cost of Writing an Audit Receipt Before Its Context Is Known",
+    "summary" : "An audit recorder must permit exact recovery with a small private index before it knows which questions a future reader will ask. A recursion on question partitions generates the decision trees, their eventwise costs and the price equations. A common-optimal-tree criterion explains when reduction to a fractional cover preserves the result. On uniform binary linear event spaces with four private roles, if every quartet is split evenly by some bit, optimal identification probability at expected follow-up budget $b$ is $(1+b)/2$. Otherwise it is $\\min(1/2+b/3,3/4)$. We characterize all priors attaining the latter curve in its rising regime and derive a closed-form compiler for three binary fields. For a population tilted by one pairwise parity we obtain the full budget curve and a single recorder attaining it. On eight negotiated TLS suites the aligned populations allow a 60 percent follow-up rate at a 70 percent identification ceiling. A pairwise correlation with unchanged marginal field frequencies reduces that maximum to 40 percent. Across 960 local TLS sessions, the recorder recovered every negotiated suite using two private bits per session.",
+    "updated" : "2026-11-23T17:55:55Z",
+    "published" : "2026-11-23T17:55:55Z",
+    "authors" : [
+      {
+        "name" : "Faruk Alpay"
+      },
+      {
+        "name" : "Taylan Alpay"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.31014v1",
+    "title" : "Demographic Encoding is Not Exposure: Fairness and Privacy in Chest X-ray Foundation Models",
+    "summary" : "Medical foundation models encode patient demographics and can reveal whether a patient was in the training set, and these properties are often treated as one problem. We tested whether they are aligned by measuring demographic encoding, diagnostic fairness gaps and membership-inference vulnerability on the same models. We trained 200 linear or multilayer-perceptron (MLP) heads on frozen BiomedCLIP, DINOv2 and RAD-DINO embeddings, with three seeds, and audited them on CheXpert and NIH ChestX-ray14. Demographic encoding explained almost no variance in patient vulnerability, and all 72 CheXpert associations were statistically equivalent to zero. Erasing linearly decodable demographics left leakage unchanged but reduced age-related underdiagnosis gaps. Leakage depended instead on head capacity and training length. On RAD-DINO, a linear head reached a membership-inference area under the curve (AUC) of 0.694, compared with 0.907 for a 30-epoch MLP, at similar test performance. Fairness and privacy should therefore be audited separately, and linear heads or shorter training reduce leakage with little or no loss of utility. The code is available on GitHub for public use.",
+    "updated" : "2026-11-23T16:59:11Z",
+    "published" : "2026-11-23T16:59:11Z",
+    "authors" : [
+      {
+        "name" : "Sahar Askari"
+      },
+      {
+        "name" : "Amin Golnari"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.30867v1",
+    "title" : "Information-Theoretic Generalization for Adaptive Learning Under Privacy and Fairness Constraints",
+    "summary" : "Adaptive learners may update, select, and stop models after repeatedly examining the same data. Privacy and fairness constraints regulate this adaptation only selectively: they limit information about a private or sensitive coordinate, whereas task generalization depends on information about the coordinate on which loss is evaluated. We develop a unified information-theoretic framework for this mismatch. For a finite-alphabet pair $(A,B)$, we define directly the residual-information certificate $\nh_ε(P_{AB})=\\min\\{H(B),H(B| A)+ε\\}. $\nA chain-rule transfer inequality converts a bound on $I(W;A)$ into an upper bound on $I(W;B)$, which can be inserted into a mutual-information generalization inequality. We first establish a transcript-level composition theorem for sequential learners. Conditional per-update information budgets add along the transcript, and the resulting certificate remains valid for history-dependent checkpoint selection, bounded stopping, and independent heterogeneous data batches. Under selective privacy, the learner observes $(X^n,Y^n)$, protects $X^n$, and incurs loss on $Y^n$. Under fairness, the learner observes $(S^n,X^n,T^n)$, limits dependence on the sensitive block $S^n$, compresses $X^n$, and incurs loss on $T^n$. The bounds expose the residual entropies $H(Y| X)$, $H(T| S)$, and $H(T| X)$ and the cumulative information cost of adaptation. We retain block and individual-sample bounds, task-compression refinements, per-output total-variation privacy, empirical-to-population demographic-parity transfer, and finite-alphabet information-parity transfer. FRL/EFRL/SFRL/ESFRL constructions study the tightness of the task-information upper bounds.",
+    "updated" : "2026-11-23T15:40:47Z",
+    "published" : "2026-11-23T15:40:47Z",
+    "authors" : [
+      {
+        "name" : "Amirreza Zamani"
+      },
+      {
+        "name" : "Parastoo Sadeghi"
+      },
+      {
+        "name" : "Mikael Skoglund"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.30260v1",
+    "title" : "Privacy-Enhanced Distributed Sensing Network via Causal-Order Switching and Probe Squeezing",
+    "summary" : "As sensor networks become more interconnected, sensitive information sharing among multiple users poses potential risks of information leakage, making privacy protection a critical challenge. To address this challenge, we quantify network privacy using the maximum information leakage ratio (MILR) and propose a protocol that enhances privacy through causal-order switching and probe squeezing. Causal-order switching harnesses intrinsic network propagation dynamics for privacy encoding, while probe squeezing suppresses information leakage through quantum channels and increases the information available for estimating the global parameter. These mechanisms enable an asymptotic exponential enhancement on the privacy with the squeezing rate. We experimentally demonstrate this mechanism in distributed beam-tilt sensing using spatially structured light without requiring nonclassical light sources. Our work identifies intrinsic network propagation dynamics as a resource for privacy protection and opens a new avenue for continuous-variable sensing networks that combine high precision with enhanced privacy.",
+    "updated" : "2026-11-23T08:24:58Z",
+    "published" : "2026-11-23T08:24:58Z",
+    "authors" : [
+      {
+        "name" : "Zhaotong Cui"
+      },
+      {
+        "name" : "Binke Xia"
+      },
+      {
+        "name" : "Yuxiang Yang"
+      },
+      {
+        "name" : "Hongjing Li"
+      },
+      {
+        "name" : "Jingzheng Huang"
+      },
+      {
+        "name" : "Guihua Zeng"
+      }
+    ],
+    "categories" : [
+      "quant-ph"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.30038v1",
+    "title" : "Super-Multiplicativity of the Noncommutative Minimum and Applications to Quantum Privacy and Hypothesis Testing",
+    "summary" : "The hockey-stick divergence is a fundamental distinguishability measure in quantum information theory. It characterizes quantum differential privacy and determines the optimal error probability of binary quantum hypothesis testing with arbitrary priors. We study how it behaves on tensor-product states. To this end, we consider the noncommutative minimum $m(A,B):=(\\mathrm{Tr}[A]+\\mathrm{Tr}[B]-\\|A-B\\|_1)/2$ of positive semidefinite operators, which reduces to $\\sum_x\\min\\{a_x,b_x\\}$ when $A$ and $B$ commute, and we prove that it is super-multiplicative, i.e., $m(A\\otimes C,B\\otimes D)\\ge m(A,B)\\,m(C,D)$. As a consequence, we establish a sub-additivity property of the hockey-stick divergence on product states, in which the parameters of the individual systems are multiplied, and no additional prefactor appears. We show that this bound is tight, also for noncommuting states, and that it is strict for faithful states whenever at least two of the divergences are positive. Using this, we obtain sub-additivity of the Datta-Leditzky divergences, a parallel composition theorem for quantum differentially private channels under product neighboring inputs with at most linear degradation of the privacy parameters, and a sharp sub-additivity property of the hypothesis-testing relative entropy normalized by the acceptance probability. Finally, we apply the same tools to symmetric binary quantum hypothesis testing. We determine the exact prefactor of the quantum Chernoff bound for every pair of noncommuting states satisfying mild conditions including a nonlattice condition and, under a quantitative version of this condition, the full asymptotic expansion to every fixed order in $1/n$, with explicitly computable coefficients. As a consequence, we determine the sample complexity of symmetric binary quantum hypothesis testing up to one sample, as the error probability tends to zero.",
+    "updated" : "2026-11-23T04:46:01Z",
+    "published" : "2026-11-23T04:46:01Z",
+    "authors" : [
+      {
+        "name" : "Theshani Nuradha"
+      },
+      {
+        "name" : "Sujeet Bhalerao"
+      },
+      {
+        "name" : "Christoph Hirche"
+      },
+      {
+        "name" : "Mark M. Wilde"
+      },
+      {
+        "name" : "Mingze Xu"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.CR",
+      "cs.IT",
+      "cs.LG",
+      "math.ST"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.29804v1",
+    "title" : "FORGETMENOT: Auditing Memory Driven Privacy Risks in Commercial AI Agents",
+    "summary" : "Commercial AI agents increasingly incorporate long-term memory (both persistent and chat-history) to enable more accurate and personalized responses, raises significant privacy and policy concerns. Yet little is known about user privacy risks associated with memory behavior, in particular, about memory storage, disclosure, transparency and deletion control. To bridge this gap, we propose FORGETMENOT, an auditing framework for analyzing the privacy risks of long term memory in commercial AI agents. Using our framework, we collect around 3800 multi-turn sessions comprising around 6M tokens across five popular AI agents. Our results show that agents store a wide range of personal attributes, including demographics, health, and sensitive details. Furthermore, user visible memory reveals substantially less (around 20% on average) attributes than the agents store in practice, exposing a significant transparency gap. Our stealth memory injection (SMI) technique further increases the amount of personal and sensitive attribute stored in memory, raising it by 25% and 15% for Copilot and Claude, respectively. We further observed memory deletion control is unreliable, as all five agents exhibit non-zero post deletion leakage, including health and self-harm related attributes. Finally, we demonstrate the feasibility of memory disclosure to a 3rd-party email recipient as a proof-of-concept, as Gemini shows 31.9% leakage rate. Together, our findings reveal notable privacy risks in commercial agents memory. Finally, we discuss both design implications and regulatory recommendations to protect users memory privacy in commercial agents.",
+    "updated" : "2026-11-22T22:10:40Z",
+    "published" : "2026-11-22T22:10:40Z",
+    "authors" : [
+      {
+        "name" : "Ismat Jarin"
+      },
+      {
+        "name" : "Tu Le"
+      },
+      {
+        "name" : "Athina Markopoulou"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.28920v1",
+    "title" : "Semantic Communication via Federated Learning with Knowledge-Enhanced Networks and Privacy",
+    "summary" : "This paper presents a novel privacy-preserving semantic communication framework that combines Federated Learning (FL) with Knowledge-Enhanced Networks (KE-NET) for distributed wireless systems. Unlike centralized semantic communication approaches that require data aggregation, our method enables multiple clients to collaboratively train a knowledge-enhanced model while keeping their data and knowledge graphs private. We develop a multi-objective federated optimization strategy that balances semantic fidelity, knowledge integration, channel robustness, and reconstruction accuracy. Theoretical analysis reveals that federated aggregation improves effective SNR for $N$ clients through noise averaging. Numerical results with AWGN and Rayleigh fading channels demonstrate that multi-client federated learning consistently outperforms both single-client and centralized baselines across all SNR conditions, with particularly significant gains in low-SNR scenarios.",
+    "updated" : "2026-11-21T16:51:41Z",
+    "published" : "2026-11-21T16:51:41Z",
+    "authors" : [
+      {
+        "name" : "Hassan Touati"
+      },
+      {
+        "name" : "Rodrigo C. de Lamare"
+      }
+    ],
+    "categories" : [
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.28790v1",
+    "title" : "Reporting Differential Privacy Guarantees via Operationally Equivalent $\\varepsilon$: What Does $\\varepsilon=19.61$ Mean for the 2020 U.S. Census?",
+    "summary" : "The large value $\\varepsilon=19.61$, reported as an approximate differential privacy (ADP) parameter for the 2020 U.S. Census, has prompted doubts about the adequacy of Census privacy protection. It was obtained by converting component zero-concentrated differential privacy (zCDP) guarantees to ADP at $δ=10^{-10}$. A single ADP pair can substantially loosen the original upper bound on the power (true positive rate) of a distinguishing test. At significance level $α$, we express the original bound as the smallest pure differential privacy (DP) parameter giving the same power bound. We call this the $α$-operationally equivalent $\\varepsilon$. The full curve represents the original bound exactly on $(0,1)$, even when the bound is nonconcave. For maximum-power curves and bounds derived from trade-off functions, we characterize the extrema of operationally equivalent $\\varepsilon$ over an interval of significance levels. When finite, they give the parameters of the pure DP bounds that enclose the original power bound on that interval. The mapping preserves the ordering of power bounds at each significance level. For Laplace and Gaussian mechanisms with equal noise variance, conversion to single ADP pairs or Gaussian DP envelopes can reverse this ordering. For the P.L. 94-171 redistricting data, we reproduce the reported $\\varepsilon=19.61$ as the sum of rounded component ADP values. The published zCDP guarantee yields operationally equivalent $\\varepsilon$ values of approximately 4.25, 2.94, and 3.18 at significance levels of 1%, 5%, and 10%, respectively. Converting the same guarantee to a single ADP pair at $δ=10^{-10}$ gives power bounds near 1 at all three levels. The pure DP scale thus clarifies constraints on distinguishing attacks that are difficult to discern from the reported $\\varepsilon=19.61$.",
+    "updated" : "2026-11-21T13:04:25Z",
+    "published" : "2026-11-21T13:04:25Z",
+    "authors" : [
+      {
+        "name" : "Masayuki Terada"
+      },
+      {
+        "name" : "Shinsuke Ito"
+      },
+      {
+        "name" : "Takumasa Ishioka"
+      },
+      {
+        "name" : "Hidetoshi Matsui"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.28748v1",
+    "title" : "Beyond Single-Turn Privacy: Training-Data Leakage in Conversational RAG",
+    "summary" : "Retrieval-augmented generation (RAG) is known to reduce training-data leakage in single-turn interactions, but whether this protection persists over multi-turn conversations is unclear. We introduce CRELT (Conversational RAG Extraction Leakage Trajectory), a reusable framework that tracks, turn by turn, the real contact details from the training data that a RAG system discloses. CRELT separates retrieval, conversation history, and attack strategy through a full-factorial design, uses a retrieval corpus verified to contain none of the target PII, and counts an item as leaked only when it is absent from the model input at the turn it is produced. In our main experiment, this criterion excludes 29-53% of raw matches that were already present in the input. Across GPT-J-6B, Pythia-6.9B, and Pythia-12B, targeting real Enron contact details, retrieval reduces disclosure under both full and cleared history, consistent with prior single-turn results. A length-matched control with random passages reproduces 91-99.5% of this reduction under cleared history and 47-78% under full history, so much of it comes from the added context rather than from what is retrieved. With retrieval enabled, however, retaining full conversation history increases disclosure by a factor of 3.6-4.9, while retaining only one previous turn already restores disclosure to approximately the full-history level. With retrieval, clearing the history reduces disclosure by 72-79%, but does not eliminate it. These results show that single-turn privacy audits can substantially underestimate training-data leakage in conversational RAG systems and that conversation-history policy is a critical dimension of privacy evaluation.",
+    "updated" : "2026-11-21T11:33:39Z",
+    "published" : "2026-11-21T11:33:39Z",
+    "authors" : [
+      {
+        "name" : "Syed Khaderi"
+      },
+      {
+        "name" : "Karima Makhlouf"
+      },
+      {
+        "name" : "Sami Zhioua"
+      }
+    ],
+    "categories" : [
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.28280v1",
+    "title" : "Investigating Shadow IT Use and Adoption in Educational Institutions and their Privacy Implications",
+    "summary" : "Digital technologies have become ubiquitous in education, integrated to nearly all aspects of teaching, learning, research, and communication. They collect enormous amounts of data from their users, primarily students. When procured institutionally, data collection and use are guided by legally binding contracts. However, recent studies suggest that apps found on the open web are increasingly being used for teaching and evaluation without going through a formal audit, raising concerns about privacy, security, and regulatory compliance. How prevalent such shadow IT use in education is, and what privacy and compliance risks they create remain unexplored. We address this gap through a sequential survey-based study: one survey with 375 educators and another with 21 system administrators at K-12 or HEIs (Higher Education Institutes). We discover widespread use of external apps by educators: 1,373 apps were reported, 494 among them were unique, primarily used for pedagogical utility (n=213) and functional convenience (n=155). Their adoption and integration are often facilitated, even encouraged, by administrators; this result deviates from studies in other domains (e.g., industry) where admins actively prevent them. Many educators (n=62) continued using apps they do not trust, citing a lack of alternatives or dependency as barriers to discontinuation. We also found that fewer than one in three educators were aware of institutional policies on shadow IT use (K-12: 30.3%, HEI: 24.8%), and 22 knowingly violated such policies. While 107 received formal warnings for using shadow IT, only 33 adjusted their behavior. We conclude by discussing the implications of our findings and future recommendations for various stakeholders to minimize the risks.",
+    "updated" : "2026-11-20T20:03:19Z",
+    "published" : "2026-11-20T20:03:19Z",
+    "authors" : [
+      {
+        "name" : "Easton Kelso"
+      },
+      {
+        "name" : "Ananta Soneji"
+      },
+      {
+        "name" : "Yan Soshitaishvili"
+      },
+      {
+        "name" : "Sazzadur Rahaman"
+      },
+      {
+        "name" : "Rakibul Hasan"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.28135v1",
+    "title" : "Beyond Output Suppression: Mitigating Privacy Risks in LVLMs via Visual Intrinsic Privacy Erasure",
+    "summary" : "Large vision-language models can extract personally identifiable information from images, making privacy protection essential for their deployment in perception-oriented tasks. Existing targeted fine-tuning and model-editing methods usually suppress sensitive answers by aligning the model toward safe responses. In this paper, we show that such protection can be illusory: although the fine-tuned model refuses to disclose private information under normal decoding, privacy leakage still occurs in sentence completion scenarios. This indicates that existing algorithms only change the model's output distribution, but the model still retains the ability to perceive private information. Private information therefore still remains inside the model. To address this problem, we propose Visual Intrinsic Privacy Erasure (VIPE), which targets privacy-related visual representations to weaken the model's ability to perceive sensitive information. VIPE constructs paired privacy-sensitive and privacy-masked images, uses their internal feature residuals to identify privacy-related visual components, and suppresses these components before they are perceived by the model. To preserve benign visual representations, the erasure objective projects feature differences onto a relaxed benign subspace and adaptively controls the erasure strength. VIPE compels the model to ignore the extraction of sensitive information in the visual representation space, thereby blocking the source of privacy leakage more fundamentally rather than merely altering the model's output distribution. Experiments on Qwen2.5-VL and LLaVA-OneVision show that VIPE substantially alleviates prefix-triggered privacy leakage while maintaining competitive utility on general visual-language benchmarks.",
+    "updated" : "2026-11-19T03:35:57Z",
+    "published" : "2026-11-19T03:35:57Z",
+    "authors" : [
+      {
+        "name" : "Xiangkui Cao"
+      },
+      {
+        "name" : "Jie Zhang"
+      },
+      {
+        "name" : "Meina Kan"
+      },
+      {
+        "name" : "Shiguang Shan"
+      },
+      {
+        "name" : "Xilin Chen"
+      }
+    ],
+    "categories" : [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.17490v2",
+    "title" : "Learning Recommendations under Imperfect Human Compliance with Record-Level Differential Privacy",
+    "summary" : "This paper investigates human-in-the-loop recommendation systems, where effectiveness relies on human compliance and privacy concerns restrict the use of historical response data. The pro posed framework models the implemented action as a random response to the recommendation and formulates the recommendation mechanism as a decision-dependent optimisation problem under an unknown compliance distribution. A batched Gaussian process upper confidence bound algorithm is then adapted to learn from locally perturbed historical actions, providing privacy for individual raw records. The analysis establishes record-level differential privacy and derives high-probability simple regret bounds when the compliance distribution is unknown. These bounds characterise how privacy noise, batch size, and behavioural information affect the guaranteed quality of the learned recommendation. In particular, a known upper bound on the non-compliance rate enables the rec ommendation space to be screened before any private data are queried. Simulations of a fixed-state car-following problem with synthetic historical driver responses demonstrate the effectiveness of the proposed algorithm and verify the theoretical findings.",
+    "updated" : "2026-11-21T13:19:56Z",
+    "published" : "2026-11-12T20:24:52Z",
+    "authors" : [
+      {
+        "name" : "Yuwen Ma"
+      },
+      {
+        "name" : "Nicola Bastianello"
+      },
+      {
+        "name" : "Sarah Spurgeon"
+      },
+      {
+        "name" : "Boli Chen"
+      }
+    ],
+    "categories" : [
+      "cs.HC"
+    ]
   }
 ]
