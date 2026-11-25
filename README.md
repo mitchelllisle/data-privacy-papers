@@ -85,81 +85,68 @@
 </div>
 
 
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.41642v1">TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
-  <p><b>Published on:</b> 2026-10-30T12:16:47Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Feng Xu, Xun Li, Lars Petersson, Yulei Sui, David Ahmedt-Aristizabal, Dadong Wang</p>
-    <p><b>Summary:</b> We present TADP, a temporally adaptive differential privacy (DP) framework for inference-time privacy-preserving video generation under fixed-length clip-replacement adjacency. TADP uses a dual-branch design to extract identity and expression representations, clips and privatizes both branches with temporally adaptive Gaussian mechanisms whose noise scales depend only on preceding privatized releases within the same clip and are bounded below by history-uniform calibrated minima, and accounts for their joint release via adaptive Rényi Differential Privacy (RDP) composition. The clip-level RDP guarantee is converted to $(\varepsilon,δ)$-differential privacy, while soft quantization and subsequent temporal processing are applied only after privatization as DP post-processing. Experiments on facial expression datasets show reduced identity leakage under evaluated attacks, usable perceptual quality and temporal stability, and high facial expression recognition utility relative to the evaluated privacy-preserving baselines. TADP formally satisfies clip-level DP and empirically provides a favorable privacy--utility trade-off under the evaluated threat models and datasets.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.41441v1">GESIS Surf: An Open-Source Infrastructure for Privacy-Preserving Longitudinal Web Browsing Data Collection</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
-  <p><b>Published on:</b> 2026-10-30T08:46:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Mario Alberto Ramirez, Frank Mangold, Sebastian Stier</p>
-    <p><b>Summary:</b> Understanding how people navigate digital media environments requires behavioral data beyond survey self-reports. However, existing infrastructures for collecting such data reproducibly, sustainably, and with strong privacy guarantees remain limited: commercial solutions lack transparency and data governance, while academic tools are typically designed for narrow, short-term use cases and do not support general-purpose academic panel data collections. We address this gap with GESIS Surf, a research infrastructure for large-scale longitudinal collection of web behavioral data in naturalistic environments. The system consists of a browser extension (Chrome and Firefox), a backend with a REST application programming interface (API), and a relational database. It passively captures user interactions, page metadata, and full HTML snapshots of each rendered page, embedding each observation within a hierarchical session model that preserves the structure of browsing behavior. GESIS Surf implements privacy-by-design through strict opt-in participation, per-domain collection rules, and client-side data minimization, ensuring that sensitive data are controlled at the point of collection. The system has been deployed with more than 1,000 participants in a large-scale academic panel infrastructure that includes surveys of participants, and supports reproducible, content-level, and structurally rich analysis of digital behavior. By combining hierarchical session modeling, content-level capture, and integrated privacy enforcement within a unified system, GESIS Surf provides a general-purpose infrastructure for studying digital behavior in a reproducible manner over time.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.41401v1">When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-30T08:12:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yixiang Luo, Ziheng Ma, Ke Chang, Jian Wang, Jiqiang Liu</p>
-    <p><b>Summary:</b> Large language model agents interact with online services through tool calls that may access private data or perform sensitive actions. Specialized providers can supply and maintain pre-execution safety auditing capabilities for agent operators. However, sending task descriptions, call arguments, and interaction histories to an external auditor may expose sensitive user information. In this work, we propose a paradigm for privacy-preserving safety auditing that separates delegated audit computation from plaintext access and execution authority. Grounded in a three-domain auditing model, the paradigm connects trusted representation construction, encrypted audit computation, and trusted decision and execution through explicit interfaces. These interfaces accommodate alternative representations and scorers, while encrypted computation protects audit inputs from a semi-honest auditor. We instantiate this paradigm in SealCall, a framework combining learned audit representations, CKKS-based encrypted similarity computation, and execution control bound to audited tool calls. Evaluated on 1,252 public binary candidates, SealCall achieves a mean F1 score of 0.840 under grouped nested evaluation, while preserving plaintext audit decisions in all measured cases. A representative configuration completes each encrypted scoring operation in 0.176 s.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.41369v1">BlindStep: A Secure One-Step Kernel for Privacy-Preserving Collaborative Reasoning</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-30T07:36:55Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Xiaoxian Liu, Xingyu Tan, Chen Chen, Xiaoyang Wang</p>
-    <p><b>Summary:</b> A recurring step in two-party collaborative workflows combines a private candidate frontier with a partner's compatible evidence, scores the resulting candidates, and retains only a small frontier. Direct execution can expose intermediate candidates, local scores, or unauthorized evidence provenance. Existing MPC platforms and PSI protocols provide useful building blocks, but they do not define a unified post-alignment boundary for bounded-slot aggregation, fail-closed overflow handling, retained-frontier selection, and downstream disclosure. We present BlindStep, a fixed-shape MPC-online kernel for one such post-alignment step between two semi-honest parties. Given a frontend realizing the bounded-slot contract and an application enforcing the reveal policy $ρ$, BlindStep provides a per-invocation simulation-based guarantee in the $F_{\mathrm{align}}$-hybrid model: the kernel leaks only public setup parameters, fixed execution-shape metadata, a global overflow bit, and $ρ$-authorized Layer-2 disclosures. The guarantee excludes malicious security and multi-invocation composition, and treats frontend leakage and offline preprocessing separately.
-  Within this kernel boundary, we implement six semi2k realizations in MP-SPDZ, crossing two sharing styles and three top-K strategies: H-variants compare over arithmetic shares, while B-variants convert packed ranking values to Boolean shares before selection. Under LAN, B-Queue is 6-7 times faster and uses about 40 times less communication than H-Queue at N = 256 and 2048. Against H-Sort on the same backend, B-Queue achieves speedups of 21 and 30 times and communication reductions of 204 and 290 times at N = 2048 and 8192, respectively. Under the evaluated N = 256, 100 ms RTT WAN profile, H-Sort becomes fastest, showing that round complexity can dominate backend choice for the measured MPC-online kernel.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.41034v1">Privacy-Constrained Function Computation in Distributed Databases</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
-  <p><b>Published on:</b> 2026-10-29T22:26:45Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vamoua Yachongka, Rémi A. Chou</p>
-    <p><b>Summary:</b> Consider distributed databases that contain both sensitive (private) and non-sensitive (public) attributes. A user seeks to compute a function of public attributes and side information by interacting with the databases and downloading their responses. In this paper, we study the trade-offs among download cost, information leakage about the private attributes, and distortion between the computed function and its reconstruction, referred to as the capacity region. Our main contributions are as follows. For a single database, we provide a complete characterization of the capacity region for general discrete sources and characterize the capacity region of two different setups for Gaussian sources when the computed function is defined as the sum of the public attribute and side information. For distributed databases, we establish inner and outer bounds on the capacity region of discrete sources and we characterize the capacity region when the databases and the side information are mutually independent. As a special instance, we study lossless function computation, and results analogous to the lossy case are obtained.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.40938v1">DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
-  <p><b>Published on:</b> 2026-10-29T20:13:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yunbai Zhang, Yunyi Gao, Han-Tai Shiao</p>
-    <p><b>Summary:</b> Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but their discourse fidelity and residual confidentiality risks require assessment. We introduce DiRAFT (Discourse Realization from Aggregate First-order Transitions), which extracts financial concept graphs and records the order in which concepts are first introduced. It pools adjacent concept transitions across training records and samples new graph plans from aggregate transition, starting-concept, and plan-length priors. A discourse layer guides text realization without supplying an individual source passage or graph. We assess privacy-related risks through two complementary evaluations: corpus-level structural overlap and source-grounded checks for specific non-public investor facts. The structural assessment covers two financial corpora and three generation backends. The confidential-fact assessment uses human review of 1,400 investor-call outputs across seven strategies and two backends. We also evaluate transition fidelity, content recoverability, and trajectory diversity. Stochastic sampling provides a favorable balance between transition fidelity and structural overlap, with consistent advantages over greedy and top-3 on investor calls. The confidential-fact assessment likewise detects fewer matches for stochastic sampling than these alternatives on both backends covered by the fact assessment. These complementary assessments provide empirical evidence on residual confidentiality risks without establishing a formal guarantee.</p>
-  </details>
-</div>
-
-
 
 <h2>2026-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.32610v1">Privacy Disclosure Control Benchmark (PDC-Bench): How Faithfully Do LLMs Keep Privacy Constraints on In-Context Disclosure Granularity?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-11-24T13:43:03Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Kosuke Fujita, Daiki Nishiyama, Jun Sakuma</p>
+    <p><b>Summary:</b> In LLM task execution, a constraint on the permitted disclosure granularity of personal attributes is sometimes imposed on the output. For example, if a person's private attribute is their location (San Francisco) and disclosure is permitted only at the country level, an output at the state level (California) violates the constraint. Detecting such violations requires capturing not only direct privacy leakage (San Francisco) but also semantic leakage (California). However, existing benchmarks cannot measure the degree of leakage with respect to a given semantic constraint such as the country-level limit. We therefore formalize disclosure control as a constraint on the permitted ceiling over the hierarchy of a knowledge graph. Building on this formulation, we construct PDC-Bench, a benchmark of 16,105 samples covering geography, age, race and ethnicity, and occupation. In our experiments applying PDC-Bench to eleven LLMs, 62% of the constraint violations were semantic leakage. We further found that semantic leakage depends less on the model than on the permitted disclosure granularity and the task's need for the private attribute; reliable auditing must therefore target semantic leakage together with these two factors. Data, prompts, and code are available at https://github.com/fuji1655/PDC-Bench.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.32072v1">Privacy-Preserving Disclosure and Welfare</a></h3>
+  
+  <p><b>Published on:</b> 2026-11-24T06:58:02Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Keita Kuwahara, Sho Mikami</p>
+    <p><b>Summary:</b> We consider a monopolist selling to multiple buyers. A platform observes buyers' tastes and can publicly disclose information about those tastes. However, the platform faces a privacy constraint: the disclosure must reveal nothing about any individual buyer's taste. We show that the same pairs of consumer and producer surplus are attainable with or without this constraint. For each such pair, we construct a privacy-preserving disclosure rule under which a posted-price mechanism attains the pair and no other feasible selling mechanism earns more.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.31791v1">SwarmLeak: Does Coordination Improve Privacy Attacks on LLM Agents?</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
+  <p><b>Published on:</b> 2026-11-24T01:43:42Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Asma Farajidizaji, Vyas Raina, Vatsal Raina, Ivaxi Sheth</p>
+    <p><b>Summary:</b> LLM agents increasingly collaborate in group chats while holding tool access to confidential records, which makes the shared chat an attack surface. It remains unclear whether several colluding attackers extract such information more effectively than one. We introduce SwarmLeak, a red-teaming dataset of 24 synthetic group-chat scenarios across healthcare, law, finance, and software engineering, where attackers pose as colleagues to make a victim agent post protected fields despite an explicit confidentiality policy. With GLM 5.2 attacking five victim models through seven conversational strategies, we compare one attacker with a swarm of four sharing a private channel, matching scenarios, strategies, and a 200,000-token budget that also covers swarm coordination. Swarms show no advantage: a single attacker matches or exceeds them on every victim, and the share of runs leaking any field differs between conditions by at most 14.3 percentage points, whereas changing the victim shifts it from 0% to 99.4%. On the two most vulnerable models, nearly every run leaks under both conditions, but single attackers expose more of the record at first disclosure (85.4% vs. 68.1% of protected fields on Nemotron 3.5 Lightning). Four of the five victims leaked despite the policy. GLM 5.2 retrieved protected data in 64.3% of individual-attack runs and leaked in 0.6%: retrieval does not imply disclosure, but in high-stakes settings even one leaked field can identify a patient or client. At equal budgets, a larger red team is not automatically a stronger one; the victim model matters far more.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.31752v1">Separating Measurement Failures from Defence Failures in Split Language-Model Privacy</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-11-24T01:00:20Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Georgios Politis, Evangelos Pappas</p>
+    <p><b>Summary:</b> Split-training privacy evaluations fail through distinct mechanisms. Evaluators can overlook an exposed gradient channel, align reconstructions against shifted labels, or deploy uncalibrated probes before testing a candidate defence, while calibrated attacks can also refute real defences. Separating these failure modes alters which claims survive. We conduct a retrospective evidentiary reanalysis across four split-LLM campaigns and two cross-cutting scope checks covering host key custody and variational mutual-information bounds, mapping every recorded claim to one of five admissibility states (breach, non-detection, undetermined coverage, invalid measurement, or out-of-scope inference). Across a 19-configuration exploration, only four of 24 required probes qualified, yet those four calibrated probes still established qualified privacy breaches in 13 configurations, while utility or learning-gain failures eliminated the remaining 6. In a seven-cell defence-redesign pilot, 2 quantised configurations failed utility gates, calibrated next-byte structure probes breached the 0.02 gate on all 7 cells (0.097 to 0.112), and qualified punctuation-property probes reached 0.79 to 0.89, yielding 4 failed and 3 undetermined composite privacy assessments (the latter from marginal null-band excursions on punctuation bindings). Negative evidence against both defence families remains intact. Scope checks further show that shared-key orthogonal wrappers protect passive network captures without hiding activations from a compromised restoring host, and why near-zero variational lower bounds leave worst-case leakage unconstrained. Rerunnable scripts verify 1,522 checks across 122 SHA-256-pinned artifacts while preserving each campaign's native seed intervals and retrospective boundaries.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.31581v1">Frequency-Conditioned Privacy Auditing of Fine-Tuned Language Models</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-11-23T21:22:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Aymen Noor, Ke Lyu, Honglu Jiang</p>
+    <p><b>Summary:</b> Large language models are increasingly fine-tuned on sensitive data, where the same person's information may appear multiple times across records. This can cause models to memorize sensitive information, but memorization does not necessarily mean that the information can be recovered. A more serious privacy risk arises when the model begins to reproduce that information during generation. In this paper, we study how often sensitive information must appear in the fine-tuning data before it becomes recoverable. Across four language models, we vary the frequency of email addresses and phone numbers from $1\times$ to $50\times$ and compare standard fine-tuning, gradient clipping, and differentially private training. We find that the number of repetitions required before sensitive information becomes recoverable varies substantially across models. Gradient clipping can delay extraction, but it does not consistently prevent leakage at high repetition. DP-SGD at $\varepsilon=5$ produces zero observed extraction through $50\times$ repetition across all four models under the attacks we test, although the utility cost varies by model. These findings characterize how observed extraction varies across sensitive-data frequencies, model families, and training mechanisms, and highlight substantial differences in extraction behavior across models. Code and data are publicly available.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2611.31208v1">Matching Under Metric Privacy</a></h3>
@@ -207,6 +194,18 @@
     <p><b>Summary:</b> Adaptive learners may update, select, and stop models after repeatedly examining the same data. Privacy and fairness constraints regulate this adaptation only selectively: they limit information about a private or sensitive coordinate, whereas task generalization depends on information about the coordinate on which loss is evaluated. We develop a unified information-theoretic framework for this mismatch. For a finite-alphabet pair $(A,B)$, we define directly the residual-information certificate $
 h_ε(P_{AB})=\min\{H(B),H(B| A)+ε\}. $
 A chain-rule transfer inequality converts a bound on $I(W;A)$ into an upper bound on $I(W;B)$, which can be inserted into a mutual-information generalization inequality. We first establish a transcript-level composition theorem for sequential learners. Conditional per-update information budgets add along the transcript, and the resulting certificate remains valid for history-dependent checkpoint selection, bounded stopping, and independent heterogeneous data batches. Under selective privacy, the learner observes $(X^n,Y^n)$, protects $X^n$, and incurs loss on $Y^n$. Under fairness, the learner observes $(S^n,X^n,T^n)$, limits dependence on the sensitive block $S^n$, compresses $X^n$, and incurs loss on $T^n$. The bounds expose the residual entropies $H(Y| X)$, $H(T| S)$, and $H(T| X)$ and the cumulative information cost of adaptation. We retain block and individual-sample bounds, task-compression refinements, per-output total-variation privacy, empirical-to-population demographic-parity transfer, and finite-alphabet information-parity transfer. FRL/EFRL/SFRL/ESFRL constructions study the tightness of the task-information upper bounds.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.31331v1">Trustworthy Edge AI: Security, Privacy, and Resilience for Distributed Intelligence</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Networking and Internet Architecture-04E762">
+  <p><b>Published on:</b> 2026-11-23T14:24:04Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Jaydip Sen, Subhasis Dasgupta</p>
+    <p><b>Summary:</b> This chapter examines the principles and emerging research directions for building secure, privacy-preserving, and resilient Edge Artificial Intelligence (Edge AI) systems. As intelligence shifts from centralized clouds to distributed edge environments, challenges arise in ensuring data integrity, privacy, and reliable operation under adversarial and uncertain conditions. The chapter analyzes Edge AI architectures, emphasizing the expanded attack surface due to heterogeneous devices, resource constraints, and dynamic networks. It reviews core security mechanisms, including hardware-rooted trust, zero-trust models, secure communication, and attestation. Privacy-preserving approaches, such as federated learning, secure aggregation, and differential privacy, enable collaborative intelligence without centralized data sharing. Resilience strategies, including fault tolerance, adversarial robustness, and adaptive orchestration, are also explored. Case studies from smart cities, autonomous vehicles, healthcare, and industrial IoT illustrate practical trade-offs. The chapter advocates a holistic, cross-layer design integrating security, privacy, and resilience for trustworthy edge intelligence.</p>
   </details>
 </div>
 
@@ -260,13 +259,13 @@ A chain-rule transfer inequality converts a bound on $I(W;A)$ into an upper boun
 
 
 <div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.28790v1">Reporting Differential Privacy Guarantees via Operationally Equivalent $\varepsilon$: What Does $\varepsilon=19.61$ Mean for the 2020 U.S. Census?</a></h3>
+  <h3><a href="http://arxiv.org/abs/2611.28790v2">Reporting Differential Privacy Guarantees via Operationally Equivalent $\varepsilon$: What Does $\varepsilon=19.61$ Mean for the 2020 U.S. Census?</a></h3>
   <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
   <p><b>Published on:</b> 2026-11-21T13:04:25Z</p>
   <details>
     <summary>More Details</summary>
     <p><b>Authors:</b> Masayuki Terada, Shinsuke Ito, Takumasa Ishioka, Hidetoshi Matsui</p>
-    <p><b>Summary:</b> The large value $\varepsilon=19.61$, reported as an approximate differential privacy (ADP) parameter for the 2020 U.S. Census, has prompted doubts about the adequacy of Census privacy protection. It was obtained by converting component zero-concentrated differential privacy (zCDP) guarantees to ADP at $δ=10^{-10}$. A single ADP pair can substantially loosen the original upper bound on the power (true positive rate) of a distinguishing test. At significance level $α$, we express the original bound as the smallest pure differential privacy (DP) parameter giving the same power bound. We call this the $α$-operationally equivalent $\varepsilon$. The full curve represents the original bound exactly on $(0,1)$, even when the bound is nonconcave. For maximum-power curves and bounds derived from trade-off functions, we characterize the extrema of operationally equivalent $\varepsilon$ over an interval of significance levels. When finite, they give the parameters of the pure DP bounds that enclose the original power bound on that interval. The mapping preserves the ordering of power bounds at each significance level. For Laplace and Gaussian mechanisms with equal noise variance, conversion to single ADP pairs or Gaussian DP envelopes can reverse this ordering. For the P.L. 94-171 redistricting data, we reproduce the reported $\varepsilon=19.61$ as the sum of rounded component ADP values. The published zCDP guarantee yields operationally equivalent $\varepsilon$ values of approximately 4.25, 2.94, and 3.18 at significance levels of 1%, 5%, and 10%, respectively. Converting the same guarantee to a single ADP pair at $δ=10^{-10}$ gives power bounds near 1 at all three levels. The pure DP scale thus clarifies constraints on distinguishing attacks that are difficult to discern from the reported $\varepsilon=19.61$.</p>
+    <p><b>Summary:</b> The large value $\varepsilon=19.61$, reported as an approximate differential privacy (ADP) parameter for the 2020 U.S. Census, has prompted doubts about the adequacy of Census privacy protection. This value was obtained by converting component guarantees expressed in zero-concentrated differential privacy (zCDP), an extension of differential privacy (DP), to ADP at $δ=10^{-10}$. Summarizing a guarantee by a single $(\varepsilon,δ)$ pair can substantially loosen its upper bound on the power (true positive rate) of a distinguishing test at a given significance level. We express the power bound from the original guarantee as the $α$-operationally equivalent $\varepsilon$, the smallest pure DP parameter yielding the same power bound at significance level $α$. The full operationally equivalent $\varepsilon$ curve represents the original bound exactly on $(0,1)$, even when that bound is nonconcave. We also characterize the curve's extrema over an interval of significance levels. When finite, they give the pure DP parameters whose power bounds enclose the original bound on that interval. The mapping preserves the ordering of guarantees by their power bounds at each significance level, whereas conversion to single ADP pairs or Gaussian DP (GDP) envelopes can reverse this ordering for Laplace and Gaussian mechanisms with equal noise variance. For the P.L. 94-171 redistricting data, we reproduce the reported $\varepsilon=19.61$ as the sum of rounded component ADP values. The published zCDP guarantee yields operationally equivalent $\varepsilon$ values of approximately $4.25$, $2.94$, and $3.18$ at significance levels of $1\%$, $5\%$, and $10\%$, respectively. These values convey the original guarantee's constraints on distinguishing attacks more clearly than does the reported value $\varepsilon=19.61$, which by itself places little restriction on the success of such attacks.</p>
   </details>
 </div>
 
