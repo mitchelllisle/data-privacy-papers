@@ -1,92 +1,92 @@
 
-<h2>2026-10</h2>
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.01353v1">Infinite Quantiles Inference under Local Differential Privacy</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-10-31T23:48:00Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yi Liu, Qirui Hu</p>
-    <p><b>Summary:</b> We study simultaneous quantile inference under local differential privacy for a number of target probabilities that grows with the sample size. Each user participates once, so learning unknown quantile locations and calibrating their joint uncertainty must share the same private information. We fuse complementary cumulative distribution function (CDF) scores from a single tree report using their exact covariance; the variance at the correct anchor is no larger than that of either score, and anchor error incurs only quadratic excess variance. Three consecutive cohorts then localize the quantiles, estimate their densities, and supply fresh scores for a one-step correction and joint multiplier calibration. Under mild conditions, a uniform representation controls localization and density errors and yields asymptotically valid simultaneous coverage. A fixed-privacy regime permits every polynomially growing target grid. Simulations show consistent same-report precision gains, while comparisons with CDF-band inversion expose the sample cost of learning target locations. Census microdata illustrates how the resulting joint intervals support wage-percentile ratios.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.01218v1">Optimal Conversion from Zero-Concentrated to Gaussian Differential Privacy</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Statistics Theory-D91E36">
-  <p><b>Published on:</b> 2026-10-31T19:39:24Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Yu-Wei Chen, Aaradhya Pandey, Jordan Awan</p>
-    <p><b>Summary:</b> Gaussian differential privacy (GDP) and zero-concentrated differential privacy (zCDP) are two competing privacy accounting frameworks, but they share similar minimax lower bounds in various estimation problems. Moreover, it is known that a mechanism satisfying $μ$-GDP satisfies $(μ^2/2)$-zCDP, whereas the converse fails to hold at the same calibration. In this paper, we establish the optimal reverse conversion, showing that every $ρ$-zCDP mechanism satisfies $μ_{\mathrm{zCDP}}(ρ)$-GDP, where $μ_{\mathrm{zCDP}}(ρ)=2Φ^{-1}((1+e^{-t_ρ})^{-1})$ and $t_ρ$ uniquely solves the equation $ρ=t_ρ\tanh(t_ρ/2)$. We also obtain simplified bounds $\sqrt{πρ}\leqμ_{\mathrm{zCDP}}(ρ)\leq\sqrt{8ρ}$, with sharp constants, which imply equivalence of the two frameworks up to constants. This explains why their minimax risks agree up to a constant rescaling of the privacy budget. We show that the squared conversion is strictly convex, which implies that converting zCDP to GDP before applying composition or group privacy yields a tighter GDP guarantee than converting afterward. We also derive the sharp conversion from bounded-range and logistic DP mechanisms (e.g., exponential mechanism) to GDP, where converting before composition but after group privacy gives the tighter guarantee.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.01211v1">A Large-Scale Evaluation of Cookie Notice Privacy and Accessibility for Blind and Low Vision Users</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-31T19:12:13Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> James M. Clarke, Maryam Mehrnezhad</p>
-    <p><b>Summary:</b> We present the first large-scale privacy and accessibility evaluation of cookie notices across 2,061 domains for blind and low vision (BLV) users. Using a Playwright-based crawler, a custom NVDA screen reader add-on, and the Lighthouse and WAVE accessibility tools, we measure UK GDPR/PECR compliance, tracker activity across pre-interaction, post-accept, and post-reject phases, and cookie notice accessibility for screen reader users. We find that 51 % of sites display a cookie notice, of which (at least) 50 % violate UK GDPR/PECR requirements. Accepting a notice produces a mean five-fold increase in tracker activity, and degrades page landmark structure on one in five sites. While 95 % of notices are readable by a screen reader, only 37 % carry a meaningful title, 39 % are announced immediately on page load, and 42 % use descriptive button labels. We reveal a systemic correlation: cookie notices failing legal privacy requirements disproportionately exhibit the weakest screen reader accessibility. This compounding privacy burden on BLV users demands urgent intervention from developers, regulators, and standards bodies.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.00888v1">Differential Privacy for Generalized Entropy Indices of Income Inequality</a></h3>
-   <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B">
-  <p><b>Published on:</b> 2026-10-31T12:46:59Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiahe Li, Jerome P. Reiter</p>
-    <p><b>Summary:</b> The mean log deviation and the Theil index are two widely used measures of income inequality. The organization releasing these measures may be obligated to protect the confidentiality of the individual incomes used in the computations. In particular, the organization may wish to release versions of these measures with formal guarantees of privacy. The organization could do so by satisfying differential privacy; however, typical applications of differentially private algorithms are likely to add so much noise to the measures that they become unusable. We present differentially private algorithms for these indices with reasonable error properties. The algorithms rely on computing or approximating bounds on the smooth sensitivity, that is, the maximum absolute amount the inequality measures change when replacing any subset of the $n$ incomes in the reported data with arbitrarily chosen feasible values. For the mean log deviation, the algorithm runs in $O(n^2)$ time. For the Theil index, the algorithm runs in $O(n\log n)$ time. We illustrate the performance of each differentially private algorithm using individual-level and household-level income data from the Current Population Survey. We also examine repeated sampling properties of the algorithms using artificially generated data. The empirical results indicate when these differentially private algorithms can be expected to provide accurate estimates and when they are likely to introduce too much noise.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.42139v1">Counting on Dummies: Privacy Amplification with Observable Counts and Truncated Batches</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
-  <p><b>Published on:</b> 2026-10-30T17:58:42Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vitaly Feldman, Audra McMillan, Kunal Talwar</p>
-    <p><b>Summary:</b> In many practical deployments of Differentially Private Stochastic Gradient Descent (DP-SGD), the server processes data in batches. Randomly sampling these batches allows for better privacy bounds via privacy amplification results. Most sampling schemes with provable privacy amplification, including Poisson sampling and random allocation, result in variable batch sizes. The privacy guarantee of these schemes requires that the batch sizes are not revealed. In distributed settings, the server performing the aggregation or any party observing the communication traffic may learn these batch sizes. Furthermore, in both centralized and distributed settings, memory and computation constraints may require each batch to be of some maximum size $s$, necessitating truncation of the batch when it exceeds this limit. It is known that this truncation can result in a significant increase in privacy loss. In this work, we address both of these challenges via a simple mechanism that uses a random number of \emph{dummy points} to privatize the batch size and maintain the privacy guarantee even under truncation. We demonstrate that our mechanism is easy to implement in a distributed setting, and provide a general analysis of this mechanism for both Poisson sampling and random allocation. Our analysis is designed to support efficient and relatively tight privacy accounting. It also effectively amplifies the privacy of the count releases by subsampling, making the expected number of dummy points asymptotically smaller than what is needed to directly privatize the (sensitivity-one) batch sizes with non-negative noise. For Poisson sampling with truncated batches, we demonstrate empirically that our mechanism achieves better privacy--efficiency tradeoffs than the direct accounting for truncation recently given by (Ganesh, 2025).</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.42117v1">Fast Privacy Loss Accounting for Random Allocation via Multiscale FFT</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
-  <p><b>Published on:</b> 2026-10-30T17:51:03Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Vitaly Feldman, Moshe Shenfeld</p>
-    <p><b>Summary:</b> In the random allocation sampling scheme each user's data is used in $k$ steps chosen randomly and uniformly from a sequence of $t$ steps. This scheme is known to improve on Poisson sampling in private optimization and in communication-efficient aggregation. The existing privacy loss distribution (PLD) accountant for this scheme runs in time quadratic in the inverse of the accuracy parameter $α$ (Feldman and Shenfeld, 2026). We give an algorithm, \emph{multiscale FFT}, that represents likelihood ratios on a grid that is uniform within each dyadic interval and computes the exact rounding of every pairwise sum using FFTs within each interval. It keeps the guarantees of the accountant and improves the dependence of its running time on $α$ from $O(α^{-2})$ to $O(α^{-1}\log(1/α))$. In addition, we demonstrate that rounding can be performed via the mean-preserving connect-the-dots projection of (Doroshenko et al., 2026). This reduces the errors that rounding introduces in the mean of the privacy loss and in the $χ^2$ divergence of the computed pair from the order of $α$ to $O(α^2/\log(t))$. In our experiments, our algorithm achieves speedups of several orders of magnitude at high accuracy and gives improved privacy bounds for DP-SGD with PREAMBLE.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2610.41885v1">How Much Can Tool Calls Reveal About You? Privacy Leakage from Tool-Call Traces</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Computation and Language-04E762">
-  <p><b>Published on:</b> 2026-10-30T15:30:23Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Donghang Duan, Qingyu Liu, Yifei Liu, Na Zou, Xia Hu, Dongrui Liu</p>
-    <p><b>Summary:</b> Large language model (LLM)-based agents interact with external tools through protocols such as the Model Context Protocol (MCP), producing tool-call traces that may expose behavioral signals about users. In this work, we systematically study the risk of user-profile inference from MCP tool-call traces, where observers infer user attributes from protocol-valid tool interactions without access to user conversations. We introduce PrivacyTrace, a benchmark containing 1,000 synthetic user profiles and 4,000 agent trajectories across four domains, generated with real MCP tools from 25 servers. Experiments with four mainstream LLM attackers show that tool-call traces enable a 26.25% attack success rate for profile inference, compared with 17.97% from prior-based guessing. Further analysis reveals that tool arguments and returned results provide the main trace-grounded evidence, while linking traces across sessions further amplifies profiling risk. These findings demonstrate that MCP tool-call traces can act as effective behavioral side channels for user profiling, motivating the development of privacy-aware mechanisms for agent-tool interactions. Code and data are available at https://github.com/AI45Lab/PrivacyTrace.</p>
-  </details>
-</div>
-
-
-
 <h2>2026-11</h2>
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.34868v1">A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-11-25T18:33:07Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Joy Bose, Srinivas Adyapak</p>
+    <p><b>Summary:</b> Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.34340v1">Poisoning Attacks to Local Differential Privacy Protocols for Dynamic Graphs</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36">
+  <p><b>Published on:</b> 2026-11-25T13:14:12Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Shang Liu, Yuhan Bao, Hongbin Zhao, Yanmei Zhang, Guan Yuan, Yang Cao</p>
+    <p><b>Summary:</b> With the increasing adoption of privacy-preserving techniques in dynamic graph analysis, local differential privacy (LDP) has become a fundamental paradigm for protecting user data in decentralized environments. However, despite its strong privacy guarantees, LDP-based dynamic graph protocols remain vulnerable to data poisoning attacks through malicious data injection. In this paper, we present the first systematic study of data poisoning attacks against privacy-preserving dynamic graphs under the LDP framework. Considering the temporal evolution of dynamic graphs, we identify key challenges in attack design and evaluation, including how to schedule attack resources across time and how to measure cumulative attack impact. To address these challenges, we introduce an absolute gain metric to quantify the overall deviation of graph statistical metrics before and after attacks across time. Based on this metric, we further propose a unified poisoning attack framework for dynamic graphs, which consists of target node selection, dynamic fake node scale scheduling, and fake edge injection. Within this framework, we design a temporal enhanced attack (TEA) strategy that dynamically schedules attack resources to maximize attack effectiveness, along with two baseline strategies, equal-scale attack (ESA) and random-scale attack (RSA), for comparison. Extensive experiments on real-world and synthetic datasets demonstrate that the proposed attacks can significantly degrade the accuracy of graph metric estimation for target nodes.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.34029v1">Quantum Advantage in Privacy-Preserving Hypothesis Testing via Entanglement-Assisted Classical Communication</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Information Theory-D91E36">
+  <p><b>Published on:</b> 2026-11-25T09:15:24Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ji-Ho Jung, Seung-Hyun Nam, Si-Hyeon Lee</p>
+    <p><b>Summary:</b> Quantum mechanisms satisfying quantum local differential privacy (QLDP) have been shown to achieve a quantum advantage over classical local differential privacy (LDP) mechanisms in certain hypothesis-testing problems. While previous demonstrations have considered the transmission of quantum states from users to a server, we investigate whether this advantage can persist under entanglement-assisted classical communication (EACC), where users and the server share entanglement in advance and communicate only classical messages. We formulate an EACC-based hypothesis-testing framework and introduce measurement local differential privacy (MLDP) to protect private inputs against arbitrary shared quantum states and server-side measurements. We establish that QLDP classical-to-quantum channels admit MLDP-compliant EACC simulations and that, in the high-privacy regime, certain optimal QLDP mechanisms can be realized with one-bit classical communication, albeit using high-dimensional entanglement. We then demonstrate that a strict quantum advantage persists even when the pre-shared entanglement is restricted to a single qubit pair and each user communicates only one classical bit. Using EACC protocols based on the geometry of qubit measurements, we establish this advantage for both asymmetric and symmetric hypothesis testing and every input alphabet of size $v \geq 3$ in the high-privacy limit. The ratio of the achieved error exponent to the optimal one under the LDP constraint is at least $5/4$ for all such alphabets and approaches $3/2$ as $v$ grows. These results demonstrate that quantum advantage in locally private hypothesis testing can persist under simultaneous constraints on entanglement dimension and classical communication.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.33890v1">Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Distributed, Parallel, and Cluster Computing-5BC0EB">
+  <p><b>Published on:</b> 2026-11-25T07:05:49Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ali Shams Saryazd, Abolfazl Gandomi</p>
+    <p><b>Summary:</b> Federated retrieval-augmented generation retrieves evidence from distributed corpora. However, broadcasting queries to all clients increases the retrieval burden and query exposure. We present Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation (PACS-FedRAG), an online selector that takes into account perturbed semantic profiles along with evidence feedback, latency, payload cost, and exploration. In a ten-client setting where three clients are chosen, the archived end-to-end benchmark reports an evidence overlap of 0.372 and an answer accuracy of 0.287. The retrieval-only evaluation, on the other hand, reuses a full-broadcast baseline with a different fusion tie-breaking policy. Rank fusion across disjoint client corpora imposes an overlap ceiling of 0.375, limiting its interpretation as a relevance measure. Answer accuracy is below the fixed-label diagnostic of 0.645, and raw generator responses are unavailable for parser verification. Corrected baselines and a new answer-level evaluation are needed to assess whether quality is preserved. Selecting three clients reduces the number of query recipients by 70%. Profile perturbation does not provide confidentiality of queries or passages.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.33847v1">Beyond Disclosure: Compositional Privacy Harm in AI Systems</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Computers and Society-5BC0EB">
+  <p><b>Published on:</b> 2026-11-25T06:18:14Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Didhiti KC, Aritra Das, Bhavesh Neekhra, Debayan Gupta</p>
+    <p><b>Summary:</b> Privacy law attaches obligations to each stage of information processing, whether it be collection, use, storage, or disclosure. We examine how legally cognisable privacy harm emerges across this full lifecycle rather than at any single one of these points. We argue that privacy risk in AI systems is compositional, arising from the interaction of memorisation, extraction, inference and contextual transfer. Disclosure is therefore not the sole threshold of privacy harm: legally significant consequences may emerge even where no underlying record is reproduced verbatim. Drawing on contextual integrity, we argue that privacy protection must extend across the lifecycle of AI-mediated information rather than attach to disclosure alone.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.33672v1">Node Differential Privacy via Node-Stable Graph Projections</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Cryptography and Security-D91E36"> <img alt="Category Badge" src="https://img.shields.io/badge/Data Structures and Algorithms-662E9B"> <img alt="Category Badge" src="https://img.shields.io/badge/Machine Learning-662E9B">
+  <p><b>Published on:</b> 2026-11-25T02:37:05Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Ishaq Aden-Ali, Adam Sealfon, Adam Smith, Thomas Steinke, Jonathan Ullman</p>
+    <p><b>Summary:</b> Node-differentially private algorithms enable learning on network-structured datasets in which records reflect interactions among individuals. They protect the privacy of each individual's information, including all their associated records. A key challenge in the design of such algorithms is to exploit the structure of realistic graphs---where most nodes have low degree---to achieve high accuracy, without compromising on the worst-case privacy guarantee.
+  In this work we give two new tools for designing accurate, computationally efficient node-differentially private algorithms. First, we give a nearly linear time, randomized, node-stable graph projection: the projection leaves graphs of maximum degree $D$ unchanged, maps arbitrary graphs to subgraphs of maximum degree $\hat D \approx D$, and ensures that changing one node of the input graph has only a small effect on the distribution of the edges selected among the remaining vertices. Unlike prior approaches, which abstain when the input violates the degree bound, our projection acts as degree clipping: even when $D$ is set well below the true maximum degree (trading truncation bias at high-degree outliers for lower privacy noise), it retains at least as many edges as a maximal $D$-bounded subgraph.
+  Second, for graphs with bounded edge weights, we give a deterministic nearly linear time Lipschitz extension for the total edge weight that agrees with the original sum on graphs of maximum degree $D$ yet is $D$-Lipschitz on all graphs.
+  Finally, we show how to apply these methods to design node-private algorithms for high-dimensional vector summation and gradient descent on datasets where records are associated with graph edges, such as email threads.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.33649v1">Structure-Aware Multimodal Retrieval Under Data Scarcity, Privacy Constraints and Out-of-Domain Content</a></h3>
+  <img alt="Category Badge" src="https://img.shields.io/badge/Information Retrieval-5BC0EB"> <img alt="Category Badge" src="https://img.shields.io/badge/Computer Vision and Pattern Recognition-F9C80E">
+  <p><b>Published on:</b> 2026-11-25T02:16:34Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Argyrios Zafeiriou, Dionysios Koulouris, Ilias Maglogiannis</p>
+    <p><b>Summary:</b> Purpose: Figure retrieval from reference atlases in expert domains like forensic pathology, dentistry and geology must work without labels or training pairs, on content that often cannot leave local hardware, and on images outside the training data of image-text encoders. This work proposes a structure-aware pipeline that satisfies all three, retrieving figures through the page structure recovered by layout geometry and a local open-weight 8B VLM. Methods: A geometry-based pairing method is introduced, in which the model receives a schematic of the detected boxes and selects each picture's caption without access to pixels or text. Caption retrieval is evaluated on three private corpora (29 books, 10,421 figures, 218 queries) with blind human grading, against a lexical baseline, generated descriptions and five image-text encoders. Results: Geometric pairing was correct for 96%, 92% and 77% of pictures in the three domains, against 76%, 45% and 53% for the better of two document parsers. A hosted model given the schematic was equally accurate, while coordinates as text lost 22 points. Caption retrieval obtained an nDCG@5 of 0.85, 0.87 and 0.76, against 0.54, 0.51 and 0.27 for the best cross-modal encoder and 0.41, 0.28 and 0.30 for generated descriptions. Pairing errors carried over to retrieval. Conclusion: The proposed pipeline achieves accurate figure retrieval with small local models and no in-domain training, where general and biomedical image-text encoders fall far behind. Its geometry-only pairing is the most accurate of five methods and exposes no content, even to a hosted model. Code and prompts are released.</p>
+  </details>
+</div>
+
 
 <div class="arxiv-entry">
   <h3><a href="http://arxiv.org/abs/2611.32610v1">Privacy Disclosure Control Benchmark (PDC-Bench): How Faithfully Do LLMs Keep Privacy Constraints on In-Context Disclosure Granularity?</a></h3>
@@ -96,6 +96,21 @@
     <summary>More Details</summary>
     <p><b>Authors:</b> Kosuke Fujita, Daiki Nishiyama, Jun Sakuma</p>
     <p><b>Summary:</b> In LLM task execution, a constraint on the permitted disclosure granularity of personal attributes is sometimes imposed on the output. For example, if a person's private attribute is their location (San Francisco) and disclosure is permitted only at the country level, an output at the state level (California) violates the constraint. Detecting such violations requires capturing not only direct privacy leakage (San Francisco) but also semantic leakage (California). However, existing benchmarks cannot measure the degree of leakage with respect to a given semantic constraint such as the country-level limit. We therefore formalize disclosure control as a constraint on the permitted ceiling over the hierarchy of a knowledge graph. Building on this formulation, we construct PDC-Bench, a benchmark of 16,105 samples covering geography, age, race and ethnicity, and occupation. In our experiments applying PDC-Bench to eleven LLMs, 62% of the constraint violations were semantic leakage. We further found that semantic leakage depends less on the model than on the permitted disclosure granularity and the task's need for the private attribute; reliable auditing must therefore target semantic leakage together with these two factors. Data, prompts, and code are available at https://github.com/fuji1655/PDC-Bench.</p>
+  </details>
+</div>
+
+
+<div class="arxiv-entry">
+  <h3><a href="http://arxiv.org/abs/2611.33234v1">Diagnostically Meaningful, Privacy-aware Synthetic Chest CT via Class-Conditional Latent Sampling in Diffusion Autoencoders</a></h3>
+   <img alt="Category Badge" src="https://img.shields.io/badge/Artificial Intelligence-662E9B">
+  <p><b>Published on:</b> 2026-11-24T11:25:08Z</p>
+  <details>
+    <summary>More Details</summary>
+    <p><b>Authors:</b> Johannes B. Thalhammer, Kacper Ogórek, Tina Dorosti, Sebastian Peterhansl, Daniel Frey, Zijin Huang, Theresa Hiu, Tobias Lasser, Daniela Pfeiffer, Franz Pfeiffer, Florian Schaff</p>
+    <p><b>Summary:</b> Large, well-annotated datasets are essential for developing medical artificial intelligence models, yet data sharing is often restricted by privacy regulations. Synthetic images may help address this limitation if they preserve diagnostic information while reducing the risk of reproducing patient data. We developed a diffusion autoencoder-based framework for class-conditional synthetic chest CT generation that incorporates latent-space distance filtering to reduce the likelihood of regenerating training samples.
+  A diffusion autoencoder was trained on the public RSNA 2020 Pulmonary Embolism (PE) dataset. PE-positive and PE-negative images were synthesized by sampling latent representations from class-specific kernel density estimates. Samples with a nearest-neighbor latent-space distance below a predefined threshold were rejected. To assess diagnostic utility, ResNet-50 classifiers were trained across 10 independent runs using real, synthetic, or mixed real-synthetic datasets. Performance was evaluated on a held-out real test set using the area under the receiver operating characteristic curve (AUC), with DeLong 95% confidence intervals (CIs).
+  Models trained on synthetic data achieved an AUC of 0.862 (95% CI, 0.851-0.874), only slightly lower than models trained on real data (AUC = 0.872, 95% CI, 0.861-0.883) and mixed real-synthetic data (AUC = 0.865, 95% CI, 0.855-0.876). These differences were statistically significant (p < 0.05) but small in absolute terms. A nearest-neighbor copy-detection analysis of 38,000 synthetic slices found no direct copies of real training images.
+  These findings indicate that the synthetic CT images preserve diagnostically meaningful information for image-level PE classification while incorporating measures intended to enhance privacy awareness and reduce similarity to real patient data.</p>
   </details>
 </div>
 
@@ -1200,18 +1215,6 @@ A chain-rule transfer inequality converts a bound on $I(W;A)$ into an upper boun
     <summary>More Details</summary>
     <p><b>Authors:</b> Chidike Vincent, Muhammad Aslam Jarwar, Najam Ul Hasan, Laurence Hirsch, Jonathan Zasada-James, Hem Raj Dadra</p>
     <p><b>Summary:</b> This paper presents a privacy-preserving mood monitoring framework that classifies emotional states from ECG-derived heart rate variability (HRV) features. The framework is evaluated on three public datasets comprising 74 participants and further validated using a wearable device in a pilot study. Leave-One-Participant-Out cross-validation (LOPO-CV) is used to assess generalization to unseen individuals. A series of experiments investigates the impact of temporal windowing, HRV feature selection, and class balancing on both four-class valence-arousal and binary valence classification. Results show that class balancing substantially improves minority-class recall, while Logistic Regression consistently outperforms five alternative classifiers and achieves competitive performance against HRV-based baselines. Pilot validation using a Polar H10 wearable achieves 75% binary valence accuracy on an unseen individual without calibration, demonstrating the feasibility of real-world deployment. To preserve privacy, the framework is also implemented using federated learning on a six-node Raspberry Pi cluster. Federated Logistic Regression achieves performance comparable to centralized training without sharing raw physiological data. These results demonstrate the potential of interpretable and privacy-preserving mood monitoring for continuous mental health assessment in clinical and community settings.</p>
-  </details>
-</div>
-
-
-<div class="arxiv-entry">
-  <h3><a href="http://arxiv.org/abs/2611.01373v1">Differentially Private Distributed Optimization via the Intrinsic Randomness of Zeroth-Order Estimators: Sampling Geometry, Convergence, and Privacy Guarantees</a></h3>
-  <img alt="Category Badge" src="https://img.shields.io/badge/Optimization and Control-F9C80E"> 
-  <p><b>Published on:</b> 2026-11-01T00:14:38Z</p>
-  <details>
-    <summary>More Details</summary>
-    <p><b>Authors:</b> Jiajun Wang, Yujie Tang</p>
-    <p><b>Summary:</b> Distributed zeroth-order optimization has gained increasing attention in applications where exact gradients are computationally expensive or unavailable. However, the iterative exchange of local decision variables makes distributed networks vulnerable to inference attacks. While differential privacy provides a rigorous framework for privacy protection, conventional approaches generally require additional random noise, which inevitably affects optimization accuracy. In this paper, we investigate whether the randomness inherent in zeroth-order estimation can itself provide privacy protection. We develop a distributed zeroth-order gradient descent method that integrates consensus updates with a ball-uniform two-point gradient estimator. Our theoretical analysis shows that our algorithm attains standard convergence guarantees in both online and offline optimization settings. We then characterize the relevant probability distributions of the associated privacy mechanism, and establish differential privacy guarantees for both the online and offline optimization settings. These results reveal the potential of intrinsic zeroth-order randomness for privacy protection.</p>
   </details>
 </div>
 
