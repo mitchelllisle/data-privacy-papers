@@ -2485,5 +2485,217 @@
     "categories" : [
       "cs.CR"
     ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.34868v1",
+    "title" : "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+    "summary" : "Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.",
+    "updated" : "2026-11-25T18:33:07Z",
+    "published" : "2026-11-25T18:33:07Z",
+    "authors" : [
+      {
+        "name" : "Joy Bose"
+      },
+      {
+        "name" : "Srinivas Adyapak"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.34340v1",
+    "title" : "Poisoning Attacks to Local Differential Privacy Protocols for Dynamic Graphs",
+    "summary" : "With the increasing adoption of privacy-preserving techniques in dynamic graph analysis, local differential privacy (LDP) has become a fundamental paradigm for protecting user data in decentralized environments. However, despite its strong privacy guarantees, LDP-based dynamic graph protocols remain vulnerable to data poisoning attacks through malicious data injection. In this paper, we present the first systematic study of data poisoning attacks against privacy-preserving dynamic graphs under the LDP framework. Considering the temporal evolution of dynamic graphs, we identify key challenges in attack design and evaluation, including how to schedule attack resources across time and how to measure cumulative attack impact. To address these challenges, we introduce an absolute gain metric to quantify the overall deviation of graph statistical metrics before and after attacks across time. Based on this metric, we further propose a unified poisoning attack framework for dynamic graphs, which consists of target node selection, dynamic fake node scale scheduling, and fake edge injection. Within this framework, we design a temporal enhanced attack (TEA) strategy that dynamically schedules attack resources to maximize attack effectiveness, along with two baseline strategies, equal-scale attack (ESA) and random-scale attack (RSA), for comparison. Extensive experiments on real-world and synthetic datasets demonstrate that the proposed attacks can significantly degrade the accuracy of graph metric estimation for target nodes.",
+    "updated" : "2026-11-25T13:14:12Z",
+    "published" : "2026-11-25T13:14:12Z",
+    "authors" : [
+      {
+        "name" : "Shang Liu"
+      },
+      {
+        "name" : "Yuhan Bao"
+      },
+      {
+        "name" : "Hongbin Zhao"
+      },
+      {
+        "name" : "Yanmei Zhang"
+      },
+      {
+        "name" : "Guan Yuan"
+      },
+      {
+        "name" : "Yang Cao"
+      }
+    ],
+    "categories" : [
+      "cs.CR"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.34029v1",
+    "title" : "Quantum Advantage in Privacy-Preserving Hypothesis Testing via Entanglement-Assisted Classical Communication",
+    "summary" : "Quantum mechanisms satisfying quantum local differential privacy (QLDP) have been shown to achieve a quantum advantage over classical local differential privacy (LDP) mechanisms in certain hypothesis-testing problems. While previous demonstrations have considered the transmission of quantum states from users to a server, we investigate whether this advantage can persist under entanglement-assisted classical communication (EACC), where users and the server share entanglement in advance and communicate only classical messages. We formulate an EACC-based hypothesis-testing framework and introduce measurement local differential privacy (MLDP) to protect private inputs against arbitrary shared quantum states and server-side measurements. We establish that QLDP classical-to-quantum channels admit MLDP-compliant EACC simulations and that, in the high-privacy regime, certain optimal QLDP mechanisms can be realized with one-bit classical communication, albeit using high-dimensional entanglement. We then demonstrate that a strict quantum advantage persists even when the pre-shared entanglement is restricted to a single qubit pair and each user communicates only one classical bit. Using EACC protocols based on the geometry of qubit measurements, we establish this advantage for both asymmetric and symmetric hypothesis testing and every input alphabet of size $v \\geq 3$ in the high-privacy limit. The ratio of the achieved error exponent to the optimal one under the LDP constraint is at least $5/4$ for all such alphabets and approaches $3/2$ as $v$ grows. These results demonstrate that quantum advantage in locally private hypothesis testing can persist under simultaneous constraints on entanglement dimension and classical communication.",
+    "updated" : "2026-11-25T09:15:24Z",
+    "published" : "2026-11-25T09:15:24Z",
+    "authors" : [
+      {
+        "name" : "Ji-Ho Jung"
+      },
+      {
+        "name" : "Seung-Hyun Nam"
+      },
+      {
+        "name" : "Si-Hyeon Lee"
+      }
+    ],
+    "categories" : [
+      "quant-ph",
+      "cs.IT"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.33890v1",
+    "title" : "Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation",
+    "summary" : "Federated retrieval-augmented generation retrieves evidence from distributed corpora. However, broadcasting queries to all clients increases the retrieval burden and query exposure. We present Privacy-Aware Adaptive Client Selection for Federated Retrieval-Augmented Generation (PACS-FedRAG), an online selector that takes into account perturbed semantic profiles along with evidence feedback, latency, payload cost, and exploration. In a ten-client setting where three clients are chosen, the archived end-to-end benchmark reports an evidence overlap of 0.372 and an answer accuracy of 0.287. The retrieval-only evaluation, on the other hand, reuses a full-broadcast baseline with a different fusion tie-breaking policy. Rank fusion across disjoint client corpora imposes an overlap ceiling of 0.375, limiting its interpretation as a relevance measure. Answer accuracy is below the fixed-label diagnostic of 0.645, and raw generator responses are unavailable for parser verification. Corrected baselines and a new answer-level evaluation are needed to assess whether quality is preserved. Selecting three clients reduces the number of query recipients by 70%. Profile perturbation does not provide confidentiality of queries or passages.",
+    "updated" : "2026-11-25T07:05:49Z",
+    "published" : "2026-11-25T07:05:49Z",
+    "authors" : [
+      {
+        "name" : "Ali Shams Saryazd"
+      },
+      {
+        "name" : "Abolfazl Gandomi"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.DC"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.33847v1",
+    "title" : "Beyond Disclosure: Compositional Privacy Harm in AI Systems",
+    "summary" : "Privacy law attaches obligations to each stage of information processing, whether it be collection, use, storage, or disclosure. We examine how legally cognisable privacy harm emerges across this full lifecycle rather than at any single one of these points. We argue that privacy risk in AI systems is compositional, arising from the interaction of memorisation, extraction, inference and contextual transfer. Disclosure is therefore not the sole threshold of privacy harm: legally significant consequences may emerge even where no underlying record is reproduced verbatim. Drawing on contextual integrity, we argue that privacy protection must extend across the lifecycle of AI-mediated information rather than attach to disclosure alone.",
+    "updated" : "2026-11-25T06:18:14Z",
+    "published" : "2026-11-25T06:18:14Z",
+    "authors" : [
+      {
+        "name" : "Didhiti KC"
+      },
+      {
+        "name" : "Aritra Das"
+      },
+      {
+        "name" : "Bhavesh Neekhra"
+      },
+      {
+        "name" : "Debayan Gupta"
+      }
+    ],
+    "categories" : [
+      "cs.CY"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.33672v1",
+    "title" : "Node Differential Privacy via Node-Stable Graph Projections",
+    "summary" : "Node-differentially private algorithms enable learning on network-structured datasets in which records reflect interactions among individuals. They protect the privacy of each individual's information, including all their associated records. A key challenge in the design of such algorithms is to exploit the structure of realistic graphs---where most nodes have low degree---to achieve high accuracy, without compromising on the worst-case privacy guarantee.\n  In this work we give two new tools for designing accurate, computationally efficient node-differentially private algorithms. First, we give a nearly linear time, randomized, node-stable graph projection: the projection leaves graphs of maximum degree $D$ unchanged, maps arbitrary graphs to subgraphs of maximum degree $\\hat D \\approx D$, and ensures that changing one node of the input graph has only a small effect on the distribution of the edges selected among the remaining vertices. Unlike prior approaches, which abstain when the input violates the degree bound, our projection acts as degree clipping: even when $D$ is set well below the true maximum degree (trading truncation bias at high-degree outliers for lower privacy noise), it retains at least as many edges as a maximal $D$-bounded subgraph.\n  Second, for graphs with bounded edge weights, we give a deterministic nearly linear time Lipschitz extension for the total edge weight that agrees with the original sum on graphs of maximum degree $D$ yet is $D$-Lipschitz on all graphs.\n  Finally, we show how to apply these methods to design node-private algorithms for high-dimensional vector summation and gradient descent on datasets where records are associated with graph edges, such as email threads.",
+    "updated" : "2026-11-25T02:37:05Z",
+    "published" : "2026-11-25T02:37:05Z",
+    "authors" : [
+      {
+        "name" : "Ishaq Aden-Ali"
+      },
+      {
+        "name" : "Adam Sealfon"
+      },
+      {
+        "name" : "Adam Smith"
+      },
+      {
+        "name" : "Thomas Steinke"
+      },
+      {
+        "name" : "Jonathan Ullman"
+      }
+    ],
+    "categories" : [
+      "cs.CR",
+      "cs.DS",
+      "cs.LG"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.33649v1",
+    "title" : "Structure-Aware Multimodal Retrieval Under Data Scarcity, Privacy Constraints and Out-of-Domain Content",
+    "summary" : "Purpose: Figure retrieval from reference atlases in expert domains like forensic pathology, dentistry and geology must work without labels or training pairs, on content that often cannot leave local hardware, and on images outside the training data of image-text encoders. This work proposes a structure-aware pipeline that satisfies all three, retrieving figures through the page structure recovered by layout geometry and a local open-weight 8B VLM. Methods: A geometry-based pairing method is introduced, in which the model receives a schematic of the detected boxes and selects each picture's caption without access to pixels or text. Caption retrieval is evaluated on three private corpora (29 books, 10,421 figures, 218 queries) with blind human grading, against a lexical baseline, generated descriptions and five image-text encoders. Results: Geometric pairing was correct for 96%, 92% and 77% of pictures in the three domains, against 76%, 45% and 53% for the better of two document parsers. A hosted model given the schematic was equally accurate, while coordinates as text lost 22 points. Caption retrieval obtained an nDCG@5 of 0.85, 0.87 and 0.76, against 0.54, 0.51 and 0.27 for the best cross-modal encoder and 0.41, 0.28 and 0.30 for generated descriptions. Pairing errors carried over to retrieval. Conclusion: The proposed pipeline achieves accurate figure retrieval with small local models and no in-domain training, where general and biomedical image-text encoders fall far behind. Its geometry-only pairing is the most accurate of five methods and exposes no content, even to a hosted model. Code and prompts are released.",
+    "updated" : "2026-11-25T02:16:34Z",
+    "published" : "2026-11-25T02:16:34Z",
+    "authors" : [
+      {
+        "name" : "Argyrios Zafeiriou"
+      },
+      {
+        "name" : "Dionysios Koulouris"
+      },
+      {
+        "name" : "Ilias Maglogiannis"
+      }
+    ],
+    "categories" : [
+      "cs.IR",
+      "cs.CV"
+    ]
+  },
+  {
+    "id" : "http://arxiv.org/abs/2611.33234v1",
+    "title" : "Diagnostically Meaningful, Privacy-aware Synthetic Chest CT via Class-Conditional Latent Sampling in Diffusion Autoencoders",
+    "summary" : "Large, well-annotated datasets are essential for developing medical artificial intelligence models, yet data sharing is often restricted by privacy regulations. Synthetic images may help address this limitation if they preserve diagnostic information while reducing the risk of reproducing patient data. We developed a diffusion autoencoder-based framework for class-conditional synthetic chest CT generation that incorporates latent-space distance filtering to reduce the likelihood of regenerating training samples.\n  A diffusion autoencoder was trained on the public RSNA 2020 Pulmonary Embolism (PE) dataset. PE-positive and PE-negative images were synthesized by sampling latent representations from class-specific kernel density estimates. Samples with a nearest-neighbor latent-space distance below a predefined threshold were rejected. To assess diagnostic utility, ResNet-50 classifiers were trained across 10 independent runs using real, synthetic, or mixed real-synthetic datasets. Performance was evaluated on a held-out real test set using the area under the receiver operating characteristic curve (AUC), with DeLong 95% confidence intervals (CIs).\n  Models trained on synthetic data achieved an AUC of 0.862 (95% CI, 0.851-0.874), only slightly lower than models trained on real data (AUC = 0.872, 95% CI, 0.861-0.883) and mixed real-synthetic data (AUC = 0.865, 95% CI, 0.855-0.876). These differences were statistically significant (p < 0.05) but small in absolute terms. A nearest-neighbor copy-detection analysis of 38,000 synthetic slices found no direct copies of real training images.\n  These findings indicate that the synthetic CT images preserve diagnostically meaningful information for image-level PE classification while incorporating measures intended to enhance privacy awareness and reduce similarity to real patient data.",
+    "updated" : "2026-11-24T11:25:08Z",
+    "published" : "2026-11-24T11:25:08Z",
+    "authors" : [
+      {
+        "name" : "Johannes B. Thalhammer"
+      },
+      {
+        "name" : "Kacper Ogórek"
+      },
+      {
+        "name" : "Tina Dorosti"
+      },
+      {
+        "name" : "Sebastian Peterhansl"
+      },
+      {
+        "name" : "Daniel Frey"
+      },
+      {
+        "name" : "Zijin Huang"
+      },
+      {
+        "name" : "Theresa Hiu"
+      },
+      {
+        "name" : "Tobias Lasser"
+      },
+      {
+        "name" : "Daniela Pfeiffer"
+      },
+      {
+        "name" : "Franz Pfeiffer"
+      },
+      {
+        "name" : "Florian Schaff"
+      }
+    ],
+    "categories" : [
+      "eess.IV",
+      "cs.AI"
+    ]
   }
 ]
